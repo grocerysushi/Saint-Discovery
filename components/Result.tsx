@@ -1,7 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
-import ShareButtons from "./ShareButtons";
 
 export default function Result({
   saint,
@@ -127,8 +126,6 @@ export default function Result({
             </p>
           </motion.div>
         )}
-
-        <ShareButtons saintName={saint.name} />
 
         <motion.button
           initial={{ opacity: 0 }}
