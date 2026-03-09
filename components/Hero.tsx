@@ -47,12 +47,7 @@ export default function Hero({ onStart }: { onStart: () => void }) {
         transition={{ delay: 1, duration: 1 }}
         className="absolute bottom-8 text-center text-cream-dark text-sm"
       >
-        <p className="mb-2">500+ Saints &middot; 6 Virtues &middot; 1 Match</p>
-        <div className="flex gap-4 justify-center text-xs">
-          <a href="https://www.vatican.va" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">The Vatican</a>
-          <a href="https://www.usccb.org" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">USCCB</a>
-          <a href="https://www.catholic.com" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">Catholic Answers</a>
-        </div>
+        500+ Saints &middot; 6 Virtues &middot; 1 Match
       </motion.div>
     </motion.div>
   );

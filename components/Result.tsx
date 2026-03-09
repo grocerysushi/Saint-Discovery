@@ -144,14 +144,14 @@ export default function Result({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
-          className="mt-10 pt-6 border-t border-navy-lighter"
+          className="mt-8"
         >
-          <p className="text-cream-dark/40 text-xs uppercase tracking-wider mb-3">Learn More</p>
-          <div className="flex gap-5 justify-center text-sm">
-            <a href="https://www.vatican.va" target="_blank" rel="noopener noreferrer" className="text-gold/50 hover:text-gold transition-colors">The Vatican</a>
-            <a href="https://www.usccb.org" target="_blank" rel="noopener noreferrer" className="text-gold/50 hover:text-gold transition-colors">USCCB</a>
-            <a href="https://www.catholic.com" target="_blank" rel="noopener noreferrer" className="text-gold/50 hover:text-gold transition-colors">Catholic Answers</a>
-          </div>
+          <a
+            href="/resources"
+            className="text-gold/50 hover:text-gold text-sm transition-colors underline underline-offset-4"
+          >
+            Explore Resources &amp; All Saints
+          </a>
         </motion.div>
       </div>
     </motion.div>
