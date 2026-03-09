@@ -23,7 +23,7 @@ export default function Hero({ onStart }: { onStart: () => void }) {
           <span className="text-gold">Are You?</span>
         </h1>
         <p className="text-cream-dark text-lg md:text-xl max-w-xl mx-auto mb-12 font-light">
-          Answer 10 questions to discover the saint who shares your spiritual
+          Answer 20 questions to discover the saint who shares your spiritual
           gifts and calling.
         </p>
       </motion.div>
@@ -43,11 +43,16 @@ export default function Hero({ onStart }: { onStart: () => void }) {
 
       <motion.div
         initial={{ opacity: 0 }}
-        animate={{ opacity: 0.3 }}
+        animate={{ opacity: 0.5 }}
         transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-8 text-cream-dark text-sm"
+        className="absolute bottom-8 text-center text-cream-dark text-sm"
       >
-        12 Saints &middot; 6 Virtues &middot; 1 Match
+        <p className="mb-2">500+ Saints &middot; 6 Virtues &middot; 1 Match</p>
+        <div className="flex gap-4 justify-center text-xs">
+          <a href="https://www.vatican.va" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">The Vatican</a>
+          <a href="https://www.usccb.org" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">USCCB</a>
+          <a href="https://www.catholic.com" target="_blank" rel="noopener noreferrer" className="text-gold/60 hover:text-gold transition-colors">Catholic Answers</a>
+        </div>
       </motion.div>
     </motion.div>
   );

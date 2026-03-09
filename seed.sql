@@ -104,6 +104,87 @@ INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, 
 ((SELECT id FROM questions WHERE sort_order = 10), 'To serve others as Christ served', 0, 3, 0, 1, 1, 0),
 ((SELECT id FROM questions WHERE sort_order = 10), 'To defend the faith and stand for what is right', 0, 0, 1, 3, 0, 1),
 ((SELECT id FROM questions WHERE sort_order = 10), 'To radiate God''s love and joy to everyone you meet', 0, 1, 0, 0, 3, 1);
+
+-- Q11
+INSERT INTO questions (sort_order, text) VALUES (11, 'When you read Scripture, you are most drawn to...');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 11), 'The Psalms and their raw honesty before God', 3, 0, 0, 0, 1, 2),
+((SELECT id FROM questions WHERE sort_order = 11), 'The Gospels and the life of Jesus among the poor', 0, 3, 0, 0, 1, 1),
+((SELECT id FROM questions WHERE sort_order = 11), 'The letters of Paul and their theological depth', 1, 0, 3, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 11), 'The Book of Revelation and its vivid imagery', 0, 0, 1, 1, 0, 3);
+
+-- Q12
+INSERT INTO questions (sort_order, text) VALUES (12, 'A friend is going through a crisis. You...');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 12), 'Sit with them in silence — your presence is enough', 3, 1, 0, 0, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 12), 'Drop everything and help with practical needs', 0, 3, 0, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 12), 'Help them think through their options clearly', 0, 1, 3, 0, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 12), 'Remind them of God''s faithfulness and lift their spirits', 0, 1, 0, 0, 3, 1);
+
+-- Q13
+INSERT INTO questions (sort_order, text) VALUES (13, 'Which historical era would you most want to live in?');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 13), 'The Desert Fathers era — solitude and simplicity', 3, 0, 0, 0, 0, 3),
+((SELECT id FROM questions WHERE sort_order = 13), 'The early Church — community and radical generosity', 0, 3, 0, 1, 1, 0),
+((SELECT id FROM questions WHERE sort_order = 13), 'The medieval universities — faith meets reason', 1, 0, 3, 0, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 13), 'The age of martyrs — standing firm under persecution', 0, 0, 0, 3, 0, 2);
+
+-- Q14
+INSERT INTO questions (sort_order, text) VALUES (14, 'Your ideal way to grow spiritually is...');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 14), 'A silent retreat with no distractions', 3, 0, 0, 0, 0, 2),
+((SELECT id FROM questions WHERE sort_order = 14), 'A mission trip serving those in need', 0, 3, 0, 1, 1, 0),
+((SELECT id FROM questions WHERE sort_order = 14), 'A theology course or reading group', 1, 0, 3, 0, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 14), 'A pilgrimage to a sacred place', 1, 0, 0, 2, 1, 3);
+
+-- Q15
+INSERT INTO questions (sort_order, text) VALUES (15, 'What is your relationship with silence?');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 15), 'I crave it — silence is where I find God', 3, 0, 0, 0, 0, 3),
+((SELECT id FROM questions WHERE sort_order = 15), 'I appreciate it, but I feel called to be among people', 0, 3, 0, 0, 2, 0),
+((SELECT id FROM questions WHERE sort_order = 15), 'I use it to think deeply and work through ideas', 2, 0, 3, 0, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 15), 'I find God more in music, laughter, and conversation', 0, 1, 0, 0, 3, 0);
+
+-- Q16
+INSERT INTO questions (sort_order, text) VALUES (16, 'When you see an injustice, you are most likely to...');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 16), 'Pray fervently for God to intervene', 2, 0, 0, 0, 0, 3),
+((SELECT id FROM questions WHERE sort_order = 16), 'Personally help those who are suffering', 0, 3, 0, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 16), 'Write, speak, or educate others about it', 0, 0, 3, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 16), 'Confront it directly and rally others to act', 0, 0, 0, 3, 1, 0);
+
+-- Q17
+INSERT INTO questions (sort_order, text) VALUES (17, 'Which gift do you believe God has given you most?');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 17), 'A deep inner life and awareness of His presence', 3, 0, 0, 0, 0, 2),
+((SELECT id FROM questions WHERE sort_order = 17), 'A tender heart that feels the pain of others', 0, 3, 0, 0, 1, 1),
+((SELECT id FROM questions WHERE sort_order = 17), 'A sharp mind that seeks truth', 0, 0, 3, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 17), 'A spirit that brings light and hope to others', 0, 1, 0, 0, 3, 1);
+
+-- Q18
+INSERT INTO questions (sort_order, text) VALUES (18, 'How do you handle doubt or uncertainty in faith?');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 18), 'Lean into the mystery — not everything needs an answer', 2, 0, 0, 0, 0, 3),
+((SELECT id FROM questions WHERE sort_order = 18), 'Focus on loving others — faith shows itself in action', 0, 3, 0, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 18), 'Study and research until I find solid ground', 0, 0, 3, 1, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 18), 'Trust and press forward even when it is hard', 0, 0, 0, 3, 1, 1);
+
+-- Q19
+INSERT INTO questions (sort_order, text) VALUES (19, 'If you could spend a day with any type of person, it would be...');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 19), 'A contemplative monk or hermit', 3, 0, 0, 0, 0, 2),
+((SELECT id FROM questions WHERE sort_order = 19), 'A humanitarian working in a refugee camp', 0, 3, 0, 1, 0, 0),
+((SELECT id FROM questions WHERE sort_order = 19), 'A brilliant theologian or philosopher', 0, 0, 3, 0, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 19), 'A joyful community leader who brings people together', 0, 1, 0, 1, 3, 0);
+
+-- Q20
+INSERT INTO questions (sort_order, text) VALUES (20, 'What do you most hope people remember about you?');
+INSERT INTO options (question_id, label, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
+((SELECT id FROM questions WHERE sort_order = 20), 'That I lived a life of deep prayer and peace', 3, 0, 0, 0, 0, 2),
+((SELECT id FROM questions WHERE sort_order = 20), 'That I truly cared for the forgotten and the hurting', 0, 3, 0, 0, 1, 0),
+((SELECT id FROM questions WHERE sort_order = 20), 'That I never stopped seeking and sharing truth', 0, 0, 3, 1, 0, 1),
+((SELECT id FROM questions WHERE sort_order = 20), 'That I stood up for what was right no matter the cost', 0, 0, 0, 3, 1, 1);
+
 -- Imported from saints-data.csv
 INSERT INTO saints (name, slug, tagline, description, prayer, feast_day, emoji, trait_contemplative, trait_charitable, trait_intellectual, trait_courageous, trait_joyful, trait_mystical) VALUES
 ('Peter', 'peter', 'St. Peter is recognized as the first pope and a leader among the apostles.', 'Born as Simon in Galilee, he was a fisherman before becoming a devoted follower of Jesus Christ. Peter played a crucial role in the early Church, ultimately facing martyrdom in Rome for his steadfast faith. His legacy as the first pope and his role in spreading Christianity have made him a pillar of the Catholic Church.', 'You are the Messiah, the Son of the living God.', 'June 29', NULL, 3, 5, 3, 10, 1, 8),
