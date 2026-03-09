@@ -24,6 +24,7 @@ export interface Saint {
   description: string;
   prayer: string | null;
   feast_day: string | null;
+  gender: string | null;
   trait_contemplative: number;
   trait_charitable: number;
   trait_intellectual: number;

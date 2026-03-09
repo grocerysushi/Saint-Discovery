@@ -23,7 +23,7 @@ export default function Hero({ onStart }: { onStart: () => void }) {
           <span className="text-gold">Are You?</span>
         </h1>
         <p className="text-cream-dark text-lg md:text-xl max-w-xl mx-auto mb-12 font-light">
-          Answer 20 questions to discover the saint who shares your spiritual
+          Answer 21 questions to discover the saint who shares your spiritual
           gifts and calling.
         </p>
       </motion.div>
