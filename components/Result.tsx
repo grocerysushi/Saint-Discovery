@@ -140,19 +140,18 @@ export default function Result({
           Take Again
         </motion.button>
 
-        <motion.div
+        <motion.a
+          href="/resources"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
-          className="mt-8"
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.97 }}
+          className="inline-block mt-4 px-8 py-3 border border-gold/30 text-gold rounded-full
+                     hover:bg-gold/10 transition-colors cursor-pointer"
         >
-          <a
-            href="/resources"
-            className="text-gold/50 hover:text-gold text-sm transition-colors underline underline-offset-4"
-          >
-            Explore Resources &amp; All Saints
-          </a>
-        </motion.div>
+          Explore Resources &amp; All Saints
+        </motion.a>
       </div>
     </motion.div>
   );

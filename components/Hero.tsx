@@ -41,6 +41,19 @@ export default function Hero({ onStart }: { onStart: () => void }) {
         Begin the Journey
       </motion.button>
 
+      <motion.a
+        href="/resources"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.8, duration: 0.6 }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.97 }}
+        className="mt-4 px-8 py-3 border border-gold/30 text-gold rounded-full
+                   hover:bg-gold/10 transition-colors cursor-pointer"
+      >
+        Explore Resources &amp; All Saints
+      </motion.a>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.5 }}

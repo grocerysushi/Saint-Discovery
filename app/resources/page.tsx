@@ -73,7 +73,7 @@ export default function ResourcesPage() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-4xl mx-auto px-6 py-16">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -254,49 +254,40 @@ export default function ResourcesPage() {
               </p>
             </div>
           ) : (
-            <div className="grid gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <AnimatePresence mode="popLayout">
                 {filtered.map((saint) => (
                   <motion.div
                     key={saint.id}
                     layout
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
                     transition={{ duration: 0.2 }}
+                    onClick={() =>
+                      setExpanded(expanded === saint.id ? null : saint.id)
+                    }
+                    className="rounded-2xl border border-navy-lighter bg-navy-light/30
+                               hover:border-gold/30 transition-colors cursor-pointer p-5 flex flex-col"
                   >
-                    <button
-                      onClick={() =>
-                        setExpanded(expanded === saint.id ? null : saint.id)
-                      }
-                      className="w-full text-left p-4 rounded-xl border border-navy-lighter bg-navy-light/30
-                                 hover:border-gold/30 transition-colors cursor-pointer"
-                    >
-                      <div className="flex items-center justify-between">
-                        <div className="flex-1 min-w-0">
-                          <div className="flex items-center gap-3">
-                            <h3 className="text-cream font-medium truncate">
-                              St. {saint.name}
-                            </h3>
-                            <span className="text-cream-dark/30 text-xs shrink-0">
-                              {saint.gender === "Female" ? "♀" : "♂"}
-                            </span>
-                          </div>
-                          {saint.feast_day && (
-                            <p className="text-cream-dark/40 text-xs mt-0.5">
-                              {saint.feast_day}
-                            </p>
-                          )}
-                        </div>
-                        <span
-                          className={`text-gold/40 text-sm transition-transform duration-200 ${
-                            expanded === saint.id ? "rotate-90" : ""
-                          }`}
-                        >
-                          &rsaquo;
-                        </span>
-                      </div>
-                    </button>
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="text-cream font-semibold text-base truncate">
+                        St. {saint.name}
+                      </h3>
+                      <span className="text-cream-dark/30 text-xs shrink-0 ml-2">
+                        {saint.gender === "Female" ? "♀" : "♂"}
+                      </span>
+                    </div>
+                    {saint.feast_day && (
+                      <p className="text-gold/50 text-xs mb-2">
+                        {saint.feast_day}
+                      </p>
+                    )}
+                    {saint.tagline && (
+                      <p className="text-gold-light/70 text-sm italic mb-2 line-clamp-2">
+                        &ldquo;{saint.tagline}&rdquo;
+                      </p>
+                    )}
 
                     <AnimatePresence>
                       {expanded === saint.id && (
@@ -307,19 +298,14 @@ export default function ResourcesPage() {
                           transition={{ duration: 0.25 }}
                           className="overflow-hidden"
                         >
-                          <div className="px-4 pb-4 pt-2 ml-4 border-l-2 border-gold/20">
-                            {saint.tagline && (
-                              <p className="text-gold-light text-sm italic mb-3">
-                                &ldquo;{saint.tagline}&rdquo;
-                              </p>
-                            )}
+                          <div className="pt-3 mt-3 border-t border-gold/20">
                             {saint.description && (
                               <p className="text-cream-dark/70 text-sm leading-relaxed mb-3">
                                 {saint.description}
                               </p>
                             )}
                             {saint.prayer && (
-                              <div className="bg-navy-light/50 rounded-lg p-3 border border-navy-lighter">
+                              <div className="bg-navy/40 rounded-lg p-3 border border-navy-lighter">
                                 <p className="text-gold/50 text-xs uppercase tracking-wider mb-1">
                                   Prayer
                                 </p>
