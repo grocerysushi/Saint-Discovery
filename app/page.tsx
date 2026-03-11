@@ -1,26 +1,39 @@
-"use client";
-import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
-import Hero from "@/components/Hero";
-import Quiz from "@/components/Quiz";
+import type { Metadata } from "next";
+import HomePage from "@/components/HomePage";
+import { absoluteUrl, siteConfig } from "@/lib/seo";
 
-type Screen = "hero" | "quiz";
+export const metadata: Metadata = {
+  title: "Which Catholic Saint Are You? Quiz",
+  description:
+    "Discover which Catholic saint matches your spiritual gifts with a faith-based personality quiz rooted in Catholic tradition.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Which Catholic Saint Are You? Quiz",
+    description:
+      "Take the Catholic saint quiz, learn which saint you most resemble, and explore the meaning behind your result.",
+    url: absoluteUrl("/"),
+    siteName: siteConfig.name,
+    type: "website",
+    images: [
+      {
+        url: absoluteUrl("/opengraph-image"),
+        width: 1200,
+        height: 630,
+        alt: "Saint Discovery Catholic saint quiz",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Which Catholic Saint Are You? Quiz",
+    description:
+      "Take the Catholic saint quiz and discover the saint who reflects your spiritual gifts.",
+    images: [absoluteUrl("/opengraph-image")],
+  },
+};
 
 export default function Home() {
-  const [screen, setScreen] = useState<Screen>("hero");
-
-  return (
-    <main className="relative min-h-screen overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10">
-        <AnimatePresence mode="wait">
-          {screen === "hero" ? (
-            <Hero key="hero" onStart={() => setScreen("quiz")} />
-          ) : (
-            <Quiz key="quiz" onRestart={() => setScreen("hero")} />
-          )}
-        </AnimatePresence>
-      </div>
-    </main>
-  );
+  return <HomePage />;
 }
