@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useMemo } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { insforge } from "@/lib/insforge";
 import { Saint } from "@/lib/types";
@@ -81,12 +82,12 @@ export default function ResourcesPage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <a
+          <Link
             href="/"
             className="inline-block text-gold/50 hover:text-gold text-sm transition-colors mb-6"
           >
             &larr; Back to Quiz
-          </a>
+          </Link>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4">
             Resources
           </h1>
@@ -332,9 +333,9 @@ export default function ResourcesPage() {
           transition={{ delay: 1 }}
           className="text-center mt-16 text-cream-dark text-sm"
         >
-          <a href="/" className="hover:text-gold transition-colors">
+          <Link href="/" className="hover:text-gold transition-colors">
             &larr; Take the Quiz
-          </a>
+          </Link>
         </motion.div>
       </div>
     </main>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import LiturgicalTheme from "@/components/LiturgicalTheme";
 
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
@@ -14,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <LiturgicalTheme>{children}</LiturgicalTheme>
+      </body>
     </html>
   );
 }
