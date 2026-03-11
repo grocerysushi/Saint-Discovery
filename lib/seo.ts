@@ -1,11 +1,12 @@
-const FALLBACK_SITE_URL = "https://saint-discovery.vercel.app";
+const FALLBACK_SITE_URL = "https://saintdiscoveryquiz.com";
 
 function normalizeSiteUrl(value?: string) {
   if (!value) {
     return FALLBACK_SITE_URL;
   }
 
-  return value.startsWith("http") ? value : `https://${value}`;
+  const normalized = value.startsWith("http") ? value : `https://${value}`;
+  return normalized.replace(/\/+$/, "");
 }
 
 const envSiteUrl =

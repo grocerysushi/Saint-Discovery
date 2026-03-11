@@ -11,19 +11,19 @@ const RESOURCES = [
     name: "The Vatican",
     url: "https://www.vatican.va",
     description:
-      "The official website of the Holy See â€” papal documents, encyclicals, and news from the heart of the Catholic Church.",
+      "The official website of the Holy See \u2014 papal documents, encyclicals, and news from the heart of the Catholic Church.",
   },
   {
     name: "USCCB",
     url: "https://www.usccb.org",
     description:
-      "The United States Conference of Catholic Bishops â€” daily readings, Church teachings, and resources for Catholic life in America.",
+      "The United States Conference of Catholic Bishops \u2014 daily readings, Church teachings, and resources for Catholic life in America.",
   },
   {
     name: "Catholic Answers",
     url: "https://www.catholic.com",
     description:
-      "The world's largest source for Catholic apologetics â€” articles, podcasts, and answers to questions about the faith.",
+      "The world's largest source for Catholic apologetics \u2014 articles, podcasts, and answers to questions about the faith.",
   },
 ];
 
@@ -65,7 +65,8 @@ export default function ResourcesPage() {
         search === "" ||
         s.name.toLowerCase().includes(search.toLowerCase()) ||
         (s.tagline && s.tagline.toLowerCase().includes(search.toLowerCase())) ||
-        (s.feast_day && s.feast_day.toLowerCase().includes(search.toLowerCase()));
+        (s.feast_day &&
+          s.feast_day.toLowerCase().includes(search.toLowerCase()));
       const matchesGender =
         genderFilter === "All" || s.gender === genderFilter;
       return matchesSearch && matchesGender;
@@ -197,7 +198,7 @@ export default function ResourcesPage() {
             <p className="text-cream-dark/60 text-sm">
               {loading
                 ? "Loading..."
-                : `${saints.length} saints â€” explore everyone you could match with.`}
+                : `${saints.length} saints \u2014 explore everyone you could match with.`}
             </p>
           </div>
 
@@ -270,7 +271,7 @@ export default function ResourcesPage() {
                         St. {saint.name}
                       </h3>
                       <span className="text-cream-dark/30 text-xs shrink-0 ml-2">
-                        {saint.gender === "Female" ? "â™€" : "â™‚"}
+                        {saint.gender === "Female" ? "\u2640" : "\u2642"}
                       </span>
                     </div>
                     {saint.feast_day && (
