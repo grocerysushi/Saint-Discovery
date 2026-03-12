@@ -3,7 +3,7 @@ import HomePage from "@/components/HomePage";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Which Catholic Saint Are You? Quiz",
+  title: "Which Catholic Saint Are You?",
   description:
     "Discover which Catholic saint matches your spiritual gifts with a faith-based personality quiz rooted in Catholic tradition.",
   alternates: {

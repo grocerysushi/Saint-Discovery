@@ -7,8 +7,8 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Which Catholic Saint Are You? | Saint Discovery",
-    template: "%s | Saint Discovery",
+    default: "Which Catholic Saint Are You?",
+    template: "%s",
   },
   description:
     "Take a Catholic saint personality quiz, discover your spiritual gifts, and explore trusted Catholic resources and saint biographies.",
