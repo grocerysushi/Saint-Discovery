@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
   description:
     "Discover which Catholic saint matches your spiritual gifts with a faith-based personality quiz rooted in Catholic tradition.",
+  keywords: [
+    "which catholic saint are you",
+    "which catholic saint are you quiz",
+    "catholic saint quiz",
+    "catholic saint personality quiz",
+    "patron saint quiz",
+    "what catholic saint am i",
+    "discover your catholic saint",
+  ],
   alternates: {
     canonical: "/",
   },

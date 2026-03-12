@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Catholic Resources and Saints Directory",
   description:
     "Browse trusted Catholic resources, discover saints of the day, and search a growing directory of Catholic saints by name, feast day, and vocation.",
+  keywords: [
+    "catholic saints directory",
+    "saint of the day catholic",
+    "catholic resources",
+    "saints by feast day",
+    "catholic saint list",
+    "search catholic saints",
+    "saint biographies catholic",
+  ],
   alternates: {
     canonical: "/resources",
   },
