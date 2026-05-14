@@ -1,17 +1,16 @@
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
+import { createClient } from "npm:@insforge/sdk";
 
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY")!;
-const INSFORGE_BASE_URL = Deno.env.get("INSFORGE_BASE_URL")!;
-const API_KEY = Deno.env.get("API_KEY")!;
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
   "Access-Control-Allow-Headers": "content-type, authorization",
 };
 
-serve(async (req) => {
+export default async function (req: Request): Promise<Response> {
   if (req.method === "OPTIONS") {
-    return new Response(null, { headers: corsHeaders });
+    return new Response(null, { status: 204, headers: corsHeaders });
   }
 
   try {
@@ -96,11 +95,11 @@ serve(async (req) => {
           </tr>` : ""}
           <tr>
             <td align="center">
-              <a href="https://saintdiscovery.com/resources" style="display:inline-block;padding:12px 28px;border:1px solid rgba(201,168,76,0.4);color:#c9a84c;border-radius:999px;text-decoration:none;font-size:14px;">Explore All Saints</a>
+              <a href="https://saintdiscoveryquiz.com/resources" style="display:inline-block;padding:12px 28px;border:1px solid rgba(201,168,76,0.4);color:#c9a84c;border-radius:999px;text-decoration:none;font-size:14px;">Explore All Saints</a>
             </td>
           </tr>
           <tr>
-            <td align="center" style="padding-top:32px;color:#c8bfa8;font-size:11px;opacity:0.4;">Saint Discovery &mdash; saintdiscovery.com</td>
+            <td align="center" style="padding-top:32px;color:#c8bfa8;font-size:11px;opacity:0.4;">Saint Discovery &mdash; saintdiscoveryquiz.com</td>
           </tr>
         </table>
       </td>
@@ -109,7 +108,7 @@ serve(async (req) => {
 </body>
 </html>`;
 
-    const res = await fetch("https://api.resend.com/emails", {
+    const resendRes = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${RESEND_API_KEY}`,
@@ -123,24 +122,22 @@ serve(async (req) => {
       }),
     });
 
-    if (!res.ok) {
-      const err = await res.text();
+    if (!resendRes.ok) {
+      const err = await resendRes.text();
       return new Response(JSON.stringify({ error: err }), {
         status: 500,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
 
-    await fetch(`${INSFORGE_BASE_URL}/rest/v1/email_signups`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "apikey": API_KEY,
-        "Authorization": `Bearer ${API_KEY}`,
-        "Prefer": "return=minimal",
-      },
-      body: JSON.stringify({ email, saint_id: saint.id }),
+    const client = createClient({
+      baseUrl: Deno.env.get("INSFORGE_BASE_URL")!,
+      anonKey: Deno.env.get("ANON_KEY")!,
     });
+
+    await client.database
+      .from("email_signups")
+      .insert([{ email, saint_id: saint.id }]);
 
     return new Response(JSON.stringify({ success: true }), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
@@ -151,4 +148,4 @@ serve(async (req) => {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
-});
+}
