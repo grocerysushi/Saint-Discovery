@@ -1,6 +1,8 @@
 import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY")!;
+const INSFORGE_BASE_URL = Deno.env.get("INSFORGE_BASE_URL")!;
+const API_KEY = Deno.env.get("API_KEY")!;
 
 const corsHeaders = {
   "Access-Control-Allow-Origin": "*",
@@ -128,6 +130,17 @@ serve(async (req) => {
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
+
+    await fetch(`${INSFORGE_BASE_URL}/rest/v1/email_signups`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "apikey": API_KEY,
+        "Authorization": `Bearer ${API_KEY}`,
+        "Prefer": "return=minimal",
+      },
+      body: JSON.stringify({ email, saint_id: saint.id }),
+    });
 
     return new Response(JSON.stringify({ success: true }), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
