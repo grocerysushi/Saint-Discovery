@@ -130,6 +130,29 @@ export default async function (req: Request): Promise<Response> {
       });
     }
 
+    const ip =
+      req.headers.get("x-forwarded-for")?.split(",")[0].trim() ||
+      req.headers.get("x-real-ip") ||
+      null;
+
+    let country: string | null = null;
+    let city: string | null = null;
+    let region: string | null = null;
+
+    if (ip) {
+      try {
+        const geoRes = await fetch(`https://ipapi.co/${ip}/json/`);
+        if (geoRes.ok) {
+          const geo = await geoRes.json();
+          country = geo.country_name ?? null;
+          city = geo.city ?? null;
+          region = geo.region ?? null;
+        }
+      } catch {
+        // location lookup is best-effort
+      }
+    }
+
     const client = createClient({
       baseUrl: Deno.env.get("INSFORGE_BASE_URL")!,
       anonKey: Deno.env.get("ANON_KEY")!,
@@ -137,7 +160,7 @@ export default async function (req: Request): Promise<Response> {
 
     await client.database
       .from("email_signups")
-      .insert([{ email, saint_id: saint.id }]);
+      .insert([{ email, saint_id: saint.id, country, city, region }]);
 
     return new Response(JSON.stringify({ success: true }), {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
