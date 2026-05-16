@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
 
@@ -13,28 +12,6 @@ export default function Result({
   onRestart: () => void;
 }) {
   const maxScore = Math.max(...TRAIT_KEYS.map((k) => scores[k]), 1);
-  const [email, setEmail] = useState("");
-  const [emailStatus, setEmailStatus] = useState<"idle" | "loading" | "sent" | "error">("idle");
-
-  async function handleSendEmail(e: React.FormEvent) {
-    e.preventDefault();
-    if (!email) return;
-    setEmailStatus("loading");
-    try {
-      const res = await fetch(
-        "https://f6zwvi29.us-east.insforge.app/functions/send-results",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ email, saint, scores }),
-        }
-      );
-      if (!res.ok) throw new Error();
-      setEmailStatus("sent");
-    } catch {
-      setEmailStatus("error");
-    }
-  }
 
   return (
     <motion.div
@@ -149,45 +126,6 @@ export default function Result({
             </p>
           </motion.div>
         )}
-
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 1.15 }}
-          className="bg-navy-light/50 rounded-xl p-5 mb-8 border border-navy-lighter"
-        >
-          <p className="text-sm text-gold/80 mb-3">
-            Want to save your results? We&apos;ll email them to you.
-          </p>
-          {emailStatus === "sent" ? (
-            <p className="text-cream-dark text-sm">✓ Sent! Check your inbox.</p>
-          ) : (
-            <form onSubmit={handleSendEmail} className="flex gap-2">
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
-                required
-                className="flex-1 bg-navy rounded-full px-4 py-2 text-sm text-cream
-                           border border-navy-lighter focus:outline-none focus:border-gold/40
-                           placeholder:text-cream/30"
-              />
-              <button
-                type="submit"
-                disabled={emailStatus === "loading"}
-                className="px-5 py-2 bg-gold/20 border border-gold/30 text-gold text-sm
-                           rounded-full hover:bg-gold/30 transition-colors disabled:opacity-50
-                           cursor-pointer"
-              >
-                {emailStatus === "loading" ? "Sending…" : "Send"}
-              </button>
-            </form>
-          )}
-          {emailStatus === "error" && (
-            <p className="text-red-400 text-xs mt-2">Something went wrong. Please try again.</p>
-          )}
-        </motion.div>
 
         <motion.button
           initial={{ opacity: 0 }}
