@@ -22,6 +22,10 @@ export default function Hero({ onStart }: { onStart: () => void }) {
           <br />
           <span className="text-gold">Are You?</span>
         </h1>
+        <p className="text-cream text-base md:text-lg max-w-xl mx-auto mb-4 font-medium">
+          Free Catholic personality quiz &middot; 500+ saints &middot; 21
+          questions
+        </p>
         <p className="text-cream-dark text-lg md:text-xl max-w-xl mx-auto mb-12 font-light">
           Answer 21 questions to discover the saint who shares your spiritual
           gifts and calling.
