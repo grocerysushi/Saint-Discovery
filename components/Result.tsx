@@ -127,6 +127,21 @@ export default function Result({
           </motion.div>
         )}
 
+        {saint.slug && (
+          <motion.a
+            href={`/saints/${saint.slug}`}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.15 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.97 }}
+            className="inline-block mt-6 px-8 py-3 bg-gold text-navy font-semibold rounded-full
+                       hover:bg-gold-light transition-colors cursor-pointer"
+          >
+            Read St. {saint.name}&rsquo;s Full Story
+          </motion.a>
+        )}
+
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -134,7 +149,7 @@ export default function Result({
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.97 }}
           onClick={onRestart}
-          className="mt-6 px-8 py-3 border border-gold/30 text-gold rounded-full
+          className="block mx-auto mt-4 px-8 py-3 border border-gold/30 text-gold rounded-full
                      hover:bg-gold/10 transition-colors cursor-pointer"
         >
           Take Again
