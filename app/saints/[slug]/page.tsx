@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
+import ShareButtons from "@/components/ShareButtons";
 
 export const revalidate = 86400;
 
@@ -200,6 +201,11 @@ export default async function SaintPage({
               </p>
             </section>
           )}
+
+          <ShareButtons
+            url={url}
+            text={`St. ${saint.name} — biography, feast day, and prayer.`}
+          />
 
           {relatedSaints.length > 0 && (
             <section className="mt-12 pt-8 border-t border-navy-lighter">

@@ -1,5 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
+import ShareButtons from "@/components/ShareButtons";
+import { absoluteUrl } from "@/lib/seo";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
 
 export default function Result({
@@ -126,6 +128,17 @@ export default function Result({
             </p>
           </motion.div>
         )}
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.1 }}
+        >
+          <ShareButtons
+            url={absoluteUrl(saint.slug ? `/saints/${saint.slug}` : "/")}
+            text={`I got St. ${saint.name} in the "Which Catholic Saint Are You?" quiz!`}
+          />
+        </motion.div>
 
         {saint.slug && (
           <motion.a
