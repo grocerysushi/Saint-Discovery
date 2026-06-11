@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllSaints, getSaintBySlug } from "@/lib/saints";
+import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export const revalidate = 86400;
@@ -28,13 +28,15 @@ export async function generateMetadata({
 
   const title = `St. ${saint.name} — Biography, Feast Day & Prayer`;
   const descParts = [
-    saint.tagline,
     saint.feast_day ? `Feast day: ${saint.feast_day}.` : null,
-    saint.description?.slice(0, 160),
+    saint.tagline ? `"${saint.tagline}"` : null,
+    saint.description,
   ].filter(Boolean);
-  const description =
-    descParts.join(" ").slice(0, 300) ||
+  const raw =
+    descParts.join(" ") ||
     `Read the biography, feast day, and prayer of St. ${saint.name}.`;
+  const description =
+    raw.length > 160 ? `${raw.slice(0, 157).trimEnd()}...` : raw;
 
   const url = absoluteUrl(`/saints/${saint.slug}`);
 
@@ -56,21 +58,12 @@ export async function generateMetadata({
       description,
       url,
       siteName: siteConfig.name,
-      type: "article",
-      images: [
-        {
-          url: absoluteUrl("/opengraph-image"),
-          width: 1200,
-          height: 630,
-          alt: `St. ${saint.name}`,
-        },
-      ],
+      type: "profile",
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [absoluteUrl("/opengraph-image")],
     },
   };
 }
@@ -85,16 +78,29 @@ export default async function SaintPage({
   if (!saint) notFound();
 
   const url = absoluteUrl(`/saints/${saint.slug}`);
+  const allSaints = await getAllSaints().catch(() => []);
+  const relatedSaints = getRelatedSaints(saint, allSaints);
 
   const personJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    name: `Saint ${saint.name}`,
-    alternateName: `St. ${saint.name}`,
-    description: saint.description || saint.tagline || undefined,
+    "@type": "ProfilePage",
+    "@id": url,
     url,
-    sameAs: undefined,
-    additionalType: "https://schema.org/ReligiousOrganizationMember",
+    name: `St. ${saint.name} — Biography, Feast Day & Prayer`,
+    inLanguage: "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    mainEntity: {
+      "@type": "Person",
+      name: `Saint ${saint.name}`,
+      alternateName: `St. ${saint.name}`,
+      honorificPrefix: "St.",
+      description: saint.description || saint.tagline || undefined,
+      url,
+    },
   };
 
   const breadcrumbJsonLd = {
@@ -192,6 +198,33 @@ export default async function SaintPage({
               <p className="text-cream-dark italic leading-relaxed whitespace-pre-line">
                 {saint.prayer}
               </p>
+            </section>
+          )}
+
+          {relatedSaints.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-navy-lighter">
+              <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
+                Saints with Similar Spiritual Gifts
+              </h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {relatedSaints.map((related) => (
+                  <Link
+                    key={related.id}
+                    href={`/saints/${related.slug}`}
+                    className="block p-4 rounded-xl border border-navy-lighter bg-navy-light/40
+                               hover:border-gold/40 transition-colors group"
+                  >
+                    <h3 className="text-cream font-semibold group-hover:text-gold transition-colors">
+                      St. {related.name}
+                    </h3>
+                    {related.tagline && (
+                      <p className="text-cream-dark/70 text-sm italic mt-1">
+                        &ldquo;{related.tagline}&rdquo;
+                      </p>
+                    )}
+                  </Link>
+                ))}
+              </div>
             </section>
           )}
 

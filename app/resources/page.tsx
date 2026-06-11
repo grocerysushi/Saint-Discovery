@@ -79,6 +79,25 @@ export default async function Resources() {
     (s) => s.feast_day && s.feast_day.trim() === todayStr
   );
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: absoluteUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Catholic Resources & Saints Directory",
+        item: absoluteUrl("/resources"),
+      },
+    ],
+  };
+
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
@@ -108,6 +127,10 @@ export default async function Resources() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
