@@ -3,6 +3,7 @@ import Script from "next/script";
 import "./globals.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -131,6 +132,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <LiturgicalTheme>{children}</LiturgicalTheme>
+        <SpeedInsights />
       </body>
     </html>
   );
