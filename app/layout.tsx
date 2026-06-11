@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
@@ -7,8 +7,8 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "Which Catholic Saint Are You?",
-    template: "%s",
+    default: "Which Catholic Saint Are You? | Saint Discovery",
+    template: "%s | Saint Discovery",
   },
   description:
     "Take a Catholic saint personality quiz, discover your spiritual gifts, and explore trusted Catholic resources and saint biographies.",
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   ],
   applicationName: siteConfig.name,
   category: "religion",
+  authors: [{ name: siteConfig.name, url: siteConfig.url }],
+  creator: siteConfig.name,
+  publisher: siteConfig.name,
   alternates: {
     canonical: "/",
   },
@@ -68,6 +71,10 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport: Viewport = {
+  themeColor: "#081527",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -75,16 +82,29 @@ export default function RootLayout({
 }>) {
   const websiteJsonLd = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: siteConfig.name,
-    url: siteConfig.url,
-    description: siteConfig.description,
-    inLanguage: "en-US",
-    publisher: {
-      "@type": "Organization",
-      name: siteConfig.name,
-      url: siteConfig.url,
-    },
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": absoluteUrl("/#website"),
+        name: siteConfig.name,
+        url: siteConfig.url,
+        description: siteConfig.description,
+        inLanguage: "en-US",
+        publisher: { "@id": absoluteUrl("/#organization") },
+      },
+      {
+        "@type": "Organization",
+        "@id": absoluteUrl("/#organization"),
+        name: siteConfig.name,
+        url: siteConfig.url,
+        logo: {
+          "@type": "ImageObject",
+          url: absoluteUrl("/icon"),
+          width: 256,
+          height: 256,
+        },
+      },
+    ],
   };
 
   return (
