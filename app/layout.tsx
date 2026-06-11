@@ -58,6 +58,9 @@ export const metadata: Metadata = {
       "Take the Catholic saint quiz and explore saint biographies, feast days, and Catholic resources.",
     images: [absoluteUrl("/opengraph-image")],
   },
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined,
   robots: {
     index: true,
     follow: true,
