@@ -17,6 +17,13 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "pio-of-pietrelcina": "padre-pio",
   "laura-of-saint-catherine-of-siena": "laura-montoya",
   "methodius-of-moravia": "cyril-and-methodius",
+  "john-damascene": "john-of-damascus",
+  columba: "columba-of-iona",
+  david: "david-of-wales",
+  "gianna-molla": "gianna-beretta-molla",
+  "teresa-of-vila": "teresa-of-avila",
+  "teresa-of-calcutta": "mother-teresa",
+  "th-r-se-of-lisieux": "therese-of-lisieux",
 };
 
 const nextConfig: NextConfig = {
