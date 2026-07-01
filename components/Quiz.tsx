@@ -6,6 +6,7 @@ import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/l
 import { matchSaint } from "@/lib/scoring";
 import quizData from "@/lib/data/quiz.json";
 import quizSaints from "@/lib/data/quiz-saints.json";
+import saintDbIds from "@/lib/data/saint-db-ids.json";
 import ProgressBar from "./ProgressBar";
 import QuestionCard from "./QuestionCard";
 import OptionButton from "./OptionButton";
@@ -64,13 +65,18 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
       const pool = filtered.length > 0 ? filtered : saints;
       const matched = matchSaint(newScores, pool);
       setResult(matched);
-      // Best-effort analytics; never let a backend outage break the result screen.
-      try {
-        void insforge.database
-          .from("quiz_results")
-          .insert([{ saint_id: matched.id, scores: newScores }]);
-      } catch {
-        // ignore
+      // Best-effort analytics; never let a backend outage break the result
+      // screen. quiz_results.saint_id is a FK to the backend's saints table,
+      // so log with the DB UUID and skip saints the DB doesn't have yet.
+      const dbId = (saintDbIds as Record<string, string>)[matched.slug];
+      if (dbId) {
+        try {
+          void insforge.database
+            .from("quiz_results")
+            .insert([{ saint_id: dbId, scores: newScores }]);
+        } catch {
+          // ignore
+        }
       }
     }
   };
