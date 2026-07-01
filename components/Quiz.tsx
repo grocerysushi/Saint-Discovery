@@ -1,17 +1,29 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { insforge } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
+import quizData from "@/lib/data/quiz.json";
+import quizSaints from "@/lib/data/quiz-saints.json";
 import ProgressBar from "./ProgressBar";
 import QuestionCard from "./QuestionCard";
 import OptionButton from "./OptionButton";
 import Result from "./Result";
 
+// Quiz content ships with the bundle (lib/data/*.json) so the quiz works even
+// if the backend is unreachable; only result logging touches the network.
+const QUESTIONS: QuestionWithOptions[] = quizData.questions.map((q) => ({
+  ...q,
+  options: (quizData.options as Option[]).filter(
+    (o) => o.question_id === q.id
+  ),
+}));
+const SAINTS = quizSaints as Saint[];
+
 export default function Quiz({ onRestart }: { onRestart: () => void }) {
-  const [questions, setQuestions] = useState<QuestionWithOptions[]>([]);
-  const [saints, setSaints] = useState<Saint[]>([]);
+  const [questions] = useState<QuestionWithOptions[]>(QUESTIONS);
+  const [saints] = useState<Saint[]>(SAINTS);
   const [gender, setGender] = useState<string | null>(null);
   const [current, setCurrent] = useState(0);
   const [scores, setScores] = useState<TraitScores>({
@@ -23,41 +35,17 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
     mystical: 0,
   });
   const [result, setResult] = useState<Saint | null>(null);
-  const [loading, setLoading] = useState(true);
 
   // Total steps = 1 (gender) + number of trait questions
   const totalSteps = questions.length + 1;
   // Current step: 0 = gender, 1+ = trait questions
   const currentStep = gender === null ? 0 : current + 1;
 
-  useEffect(() => {
-    async function load() {
-      const [qRes, oRes, sRes] = await Promise.all([
-        insforge.database.from("questions").select().order("sort_order", { ascending: true }),
-        insforge.database.from("options").select(),
-        insforge.database.from("saints").select(),
-      ]);
-
-      const qs = (qRes.data || []) as QuestionWithOptions[];
-      const opts = (oRes.data || []) as Option[];
-      const ss = (sRes.data || []) as Saint[];
-
-      for (const q of qs) {
-        q.options = opts.filter((o) => o.question_id === q.id);
-      }
-
-      setQuestions(qs);
-      setSaints(ss);
-      setLoading(false);
-    }
-    load();
-  }, []);
-
   const handleGenderSelect = (selected: string) => {
     setGender(selected);
   };
 
-  const handleSelect = async (optionId: string) => {
+  const handleSelect = (optionId: string) => {
     const q = questions[current];
     const opt = q.options.find((o) => o.id === optionId);
     if (!opt) return;
@@ -76,30 +64,19 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
       const pool = filtered.length > 0 ? filtered : saints;
       const matched = matchSaint(newScores, pool);
       setResult(matched);
-      await insforge.database.from("quiz_results").insert([
-        { saint_id: matched.id, scores: newScores },
-      ]);
+      // Best-effort analytics; never let a backend outage break the result screen.
+      try {
+        void insforge.database
+          .from("quiz_results")
+          .insert([{ saint_id: matched.id, scores: newScores }]);
+      } catch {
+        // ignore
+      }
     }
   };
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-gold/60 animate-pulse text-lg">Loading your journey...</div>
-      </div>
-    );
-  }
-
   if (result) {
     return <Result saint={result} scores={scores} onRestart={onRestart} />;
-  }
-
-  if (questions.length === 0) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <p className="text-cream-dark">No questions found. Please seed the database.</p>
-      </div>
-    );
   }
 
   // Gender question (step 0)

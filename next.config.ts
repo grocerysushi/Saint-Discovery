@@ -24,6 +24,14 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "teresa-of-vila": "teresa-of-avila",
   "teresa-of-calcutta": "mother-teresa",
   "th-r-se-of-lisieux": "therese-of-lisieux",
+  // Slugs regenerated with proper accent transliteration (é → e, ä → a).
+  "b-n-zet": "benezet",
+  "franz-j-gerst-tter": "franz-jagerstatter",
+  "jos-s-nchez-del-r-o": "jose-sanchez-del-rio",
+  "josemar-a-escriv": "josemaria-escriva",
+  "mar-a-de-jes-s-sacramentado": "maria-de-jesus-sacramentado",
+  "mar-a-guadalupe-garc-a-zavala": "maria-guadalupe-garcia-zavala",
+  "z-lie-martin": "zelie-martin",
 };
 
 const nextConfig: NextConfig = {
