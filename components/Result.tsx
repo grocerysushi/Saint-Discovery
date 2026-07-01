@@ -180,6 +180,35 @@ export default function Result({
         >
           Explore Resources &amp; All Saints
         </motion.a>
+
+        <motion.a
+          href="https://ko-fi.com/saintquiz"
+          target="_blank"
+          rel="noopener noreferrer"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.55 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.97 }}
+          className="mt-8 mx-auto flex w-fit items-center gap-2 text-cream-dark/60 hover:text-gold
+                     text-sm transition-colors cursor-pointer"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.8"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="w-5 h-5"
+            aria-hidden
+          >
+            <path d="M3 8h13v7a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8z" />
+            <path d="M16 9h2.5a2.5 2.5 0 0 1 0 5H16" />
+            <path d="M9.5 10.6c.5-.9 1.8-.9 2.3 0 .4.7.1 1.4-.5 2l-1.3 1.2-1.3-1.2c-.6-.6-.9-1.3-.5-2 .5-.9 1.8-.9 2.3 0z" fill="currentColor" stroke="none" />
+          </svg>
+          Enjoyed the quiz? Support Saint Discovery on Ko-fi
+        </motion.a>
       </div>
     </motion.div>
   );
