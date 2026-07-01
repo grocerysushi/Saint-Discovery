@@ -1,0 +1,986 @@
+{
+ "questions": [
+  {
+   "id": "q1",
+   "sort_order": 1,
+   "text": "When you have a free afternoon, you are most drawn to..."
+  },
+  {
+   "id": "q2",
+   "sort_order": 2,
+   "text": "In a difficult situation, your first instinct is to..."
+  },
+  {
+   "id": "q3",
+   "sort_order": 3,
+   "text": "Which virtue do you most admire in others?"
+  },
+  {
+   "id": "q4",
+   "sort_order": 4,
+   "text": "Your prayer life is best described as..."
+  },
+  {
+   "id": "q5",
+   "sort_order": 5,
+   "text": "If you could change one thing about the world, it would be..."
+  },
+  {
+   "id": "q6",
+   "sort_order": 6,
+   "text": "Which setting feels most like home to your soul?"
+  },
+  {
+   "id": "q7",
+   "sort_order": 7,
+   "text": "When facing your own suffering, you tend to..."
+  },
+  {
+   "id": "q8",
+   "sort_order": 8,
+   "text": "People often come to you for..."
+  },
+  {
+   "id": "q9",
+   "sort_order": 9,
+   "text": "Which of these speaks most to your heart?"
+  },
+  {
+   "id": "q10",
+   "sort_order": 10,
+   "text": "Your greatest spiritual desire is..."
+  },
+  {
+   "id": "q11",
+   "sort_order": 11,
+   "text": "When you read Scripture, you are most drawn to..."
+  },
+  {
+   "id": "q12",
+   "sort_order": 12,
+   "text": "A friend is going through a crisis. You..."
+  },
+  {
+   "id": "q13",
+   "sort_order": 13,
+   "text": "Which historical era would you most want to live in?"
+  },
+  {
+   "id": "q14",
+   "sort_order": 14,
+   "text": "Your ideal way to grow spiritually is..."
+  },
+  {
+   "id": "q15",
+   "sort_order": 15,
+   "text": "What is your relationship with silence?"
+  },
+  {
+   "id": "q16",
+   "sort_order": 16,
+   "text": "When you see an injustice, you are most likely to..."
+  },
+  {
+   "id": "q17",
+   "sort_order": 17,
+   "text": "Which gift do you believe God has given you most?"
+  },
+  {
+   "id": "q18",
+   "sort_order": 18,
+   "text": "How do you handle doubt or uncertainty in faith?"
+  },
+  {
+   "id": "q19",
+   "sort_order": 19,
+   "text": "If you could spend a day with any type of person, it would be..."
+  },
+  {
+   "id": "q20",
+   "sort_order": 20,
+   "text": "What do you most hope people remember about you?"
+  }
+ ],
+ "options": [
+  {
+   "id": "q1-o0",
+   "question_id": "q1",
+   "label": "Reading or studying something that fascinates you",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q1-o1",
+   "question_id": "q1",
+   "label": "Volunteering or helping someone in need",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q1-o2",
+   "question_id": "q1",
+   "label": "Spending quiet time in nature or prayer",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q1-o3",
+   "question_id": "q1",
+   "label": "Gathering friends for a meal or adventure",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q2-o4",
+   "question_id": "q2",
+   "label": "Analyze the problem logically from every angle",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q2-o5",
+   "question_id": "q2",
+   "label": "Pray and wait for guidance",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q2-o6",
+   "question_id": "q2",
+   "label": "Take bold, decisive action",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 3,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q2-o7",
+   "question_id": "q2",
+   "label": "Reach out to comfort those affected",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q3-o8",
+   "question_id": "q3",
+   "label": "Wisdom and depth of understanding",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q3-o9",
+   "question_id": "q3",
+   "label": "Generosity and selflessness",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q3-o10",
+   "question_id": "q3",
+   "label": "Courage in the face of injustice",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q3-o11",
+   "question_id": "q3",
+   "label": "Joy that lifts everyone around them",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q4-o12",
+   "question_id": "q4",
+   "label": "Deep, silent contemplation",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q4-o13",
+   "question_id": "q4",
+   "label": "Praying for others and their needs",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q4-o14",
+   "question_id": "q4",
+   "label": "Spontaneous conversations with God",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q4-o15",
+   "question_id": "q4",
+   "label": "Intense and sometimes overwhelming experiences",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q5-o16",
+   "question_id": "q5",
+   "label": "Ending poverty and suffering",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q5-o17",
+   "question_id": "q5",
+   "label": "Restoring truth and wisdom in society",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q5-o18",
+   "question_id": "q5",
+   "label": "Bringing people back to faith and wonder",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q5-o19",
+   "question_id": "q5",
+   "label": "Defeating injustice and oppression",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q6-o20",
+   "question_id": "q6",
+   "label": "A quiet chapel or monastery",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q6-o21",
+   "question_id": "q6",
+   "label": "A bustling city where people need help",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q6-o22",
+   "question_id": "q6",
+   "label": "A great library or university",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q6-o23",
+   "question_id": "q6",
+   "label": "A gathering of friends full of laughter",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q7-o24",
+   "question_id": "q7",
+   "label": "Offer it up as a sacrifice for others",
+   "trait_contemplative": 1,
+   "trait_charitable": 2,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q7-o25",
+   "question_id": "q7",
+   "label": "Try to understand its meaning and purpose",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q7-o26",
+   "question_id": "q7",
+   "label": "Face it head-on with determination",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q7-o27",
+   "question_id": "q7",
+   "label": "Find small joys to keep your spirits up",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q8-o28",
+   "question_id": "q8",
+   "label": "Thoughtful advice and perspective",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q8-o29",
+   "question_id": "q8",
+   "label": "Comfort and a listening ear",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q8-o30",
+   "question_id": "q8",
+   "label": "Encouragement to be brave",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q8-o31",
+   "question_id": "q8",
+   "label": "A good laugh and good company",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q9-o32",
+   "question_id": "q9",
+   "label": "\"Be still and know that I am God\"",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q9-o33",
+   "question_id": "q9",
+   "label": "\"Whatever you did for the least of these, you did for me\"",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q9-o34",
+   "question_id": "q9",
+   "label": "\"The truth will set you free\"",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q9-o35",
+   "question_id": "q9",
+   "label": "\"Rejoice in the Lord always\"",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q10-o36",
+   "question_id": "q10",
+   "label": "To know God intimately in the depths of your soul",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q10-o37",
+   "question_id": "q10",
+   "label": "To serve others as Christ served",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q10-o38",
+   "question_id": "q10",
+   "label": "To defend the faith and stand for what is right",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 3,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q10-o39",
+   "question_id": "q10",
+   "label": "To radiate God's love and joy to everyone you meet",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q11-o40",
+   "question_id": "q11",
+   "label": "The Psalms and their raw honesty before God",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q11-o41",
+   "question_id": "q11",
+   "label": "The Gospels and the life of Jesus among the poor",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q11-o42",
+   "question_id": "q11",
+   "label": "The letters of Paul and their theological depth",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q11-o43",
+   "question_id": "q11",
+   "label": "The Book of Revelation and its vivid imagery",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 1,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q12-o44",
+   "question_id": "q12",
+   "label": "Sit with them in silence — your presence is enough",
+   "trait_contemplative": 3,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q12-o45",
+   "question_id": "q12",
+   "label": "Drop everything and help with practical needs",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q12-o46",
+   "question_id": "q12",
+   "label": "Help them think through their options clearly",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q12-o47",
+   "question_id": "q12",
+   "label": "Remind them of God's faithfulness and lift their spirits",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q13-o48",
+   "question_id": "q13",
+   "label": "The Desert Fathers era — solitude and simplicity",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q13-o49",
+   "question_id": "q13",
+   "label": "The early Church — community and radical generosity",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q13-o50",
+   "question_id": "q13",
+   "label": "The medieval universities — faith meets reason",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q13-o51",
+   "question_id": "q13",
+   "label": "The age of martyrs — standing firm under persecution",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q14-o52",
+   "question_id": "q14",
+   "label": "A silent retreat with no distractions",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q14-o53",
+   "question_id": "q14",
+   "label": "A mission trip serving those in need",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q14-o54",
+   "question_id": "q14",
+   "label": "A theology course or reading group",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q14-o55",
+   "question_id": "q14",
+   "label": "A pilgrimage to a sacred place",
+   "trait_contemplative": 1,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 2,
+   "trait_joyful": 1,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q15-o56",
+   "question_id": "q15",
+   "label": "I crave it — silence is where I find God",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q15-o57",
+   "question_id": "q15",
+   "label": "I appreciate it, but I feel called to be among people",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 2,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q15-o58",
+   "question_id": "q15",
+   "label": "I use it to think deeply and work through ideas",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q15-o59",
+   "question_id": "q15",
+   "label": "I find God more in music, laughter, and conversation",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q16-o60",
+   "question_id": "q16",
+   "label": "Pray fervently for God to intervene",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q16-o61",
+   "question_id": "q16",
+   "label": "Personally help those who are suffering",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q16-o62",
+   "question_id": "q16",
+   "label": "Write, speak, or educate others about it",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q16-o63",
+   "question_id": "q16",
+   "label": "Confront it directly and rally others to act",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q17-o64",
+   "question_id": "q17",
+   "label": "A deep inner life and awareness of His presence",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q17-o65",
+   "question_id": "q17",
+   "label": "A tender heart that feels the pain of others",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q17-o66",
+   "question_id": "q17",
+   "label": "A sharp mind that seeks truth",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q17-o67",
+   "question_id": "q17",
+   "label": "A spirit that brings light and hope to others",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 3,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q18-o68",
+   "question_id": "q18",
+   "label": "Lean into the mystery — not everything needs an answer",
+   "trait_contemplative": 2,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 3
+  },
+  {
+   "id": "q18-o69",
+   "question_id": "q18",
+   "label": "Focus on loving others — faith shows itself in action",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q18-o70",
+   "question_id": "q18",
+   "label": "Study and research until I find solid ground",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q18-o71",
+   "question_id": "q18",
+   "label": "Trust and press forward even when it is hard",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q19-o72",
+   "question_id": "q19",
+   "label": "A contemplative monk or hermit",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q19-o73",
+   "question_id": "q19",
+   "label": "A humanitarian working in a refugee camp",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q19-o74",
+   "question_id": "q19",
+   "label": "A brilliant theologian or philosopher",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q19-o75",
+   "question_id": "q19",
+   "label": "A joyful community leader who brings people together",
+   "trait_contemplative": 0,
+   "trait_charitable": 1,
+   "trait_intellectual": 0,
+   "trait_courageous": 1,
+   "trait_joyful": 3,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q20-o76",
+   "question_id": "q20",
+   "label": "That I lived a life of deep prayer and peace",
+   "trait_contemplative": 3,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 0,
+   "trait_mystical": 2
+  },
+  {
+   "id": "q20-o77",
+   "question_id": "q20",
+   "label": "That I truly cared for the forgotten and the hurting",
+   "trait_contemplative": 0,
+   "trait_charitable": 3,
+   "trait_intellectual": 0,
+   "trait_courageous": 0,
+   "trait_joyful": 1,
+   "trait_mystical": 0
+  },
+  {
+   "id": "q20-o78",
+   "question_id": "q20",
+   "label": "That I never stopped seeking and sharing truth",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 3,
+   "trait_courageous": 1,
+   "trait_joyful": 0,
+   "trait_mystical": 1
+  },
+  {
+   "id": "q20-o79",
+   "question_id": "q20",
+   "label": "That I stood up for what was right no matter the cost",
+   "trait_contemplative": 0,
+   "trait_charitable": 0,
+   "trait_intellectual": 0,
+   "trait_courageous": 3,
+   "trait_joyful": 1,
+   "trait_mystical": 1
+  }
+ ]
+}

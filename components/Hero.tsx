@@ -23,7 +23,7 @@ export default function Hero({ onStart }: { onStart: () => void }) {
           <span className="text-gold">Are You?</span>
         </h1>
         <p className="text-cream text-base md:text-lg max-w-xl mx-auto mb-4 font-medium">
-          Free Catholic personality quiz &middot; 500+ saints &middot; 21
+          Free Catholic personality quiz &middot; 480+ saints &middot; 21
           questions
         </p>
         <p className="text-cream-dark text-lg md:text-xl max-w-xl mx-auto mb-12 font-light">
@@ -64,7 +64,7 @@ export default function Hero({ onStart }: { onStart: () => void }) {
         transition={{ delay: 1, duration: 1 }}
         className="absolute bottom-8 text-center text-cream-dark text-sm"
       >
-        500+ Saints &middot; 6 Virtues &middot; 1 Match
+        480+ Saints &middot; 6 Virtues &middot; 1 Match
       </motion.div>
     </motion.div>
   );

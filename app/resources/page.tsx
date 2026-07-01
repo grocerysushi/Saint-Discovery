@@ -9,7 +9,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Catholic Resources and Saints Directory",
   description:
-    "Browse trusted Catholic resources, discover saints of the day, and search a directory of 500+ Catholic saints by name, feast day, and patronage.",
+    "Browse trusted Catholic resources, discover saints of the day, and search a directory of 480+ Catholic saints by name, feast day, and patronage.",
   keywords: [
     "catholic saints directory",
     "saint of the day catholic",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Catholic Resources and Saints Directory",
     description:
-      "Explore Catholic resources, saint biographies, feast days, and a searchable directory of 500+ saints.",
+      "Explore Catholic resources, saint biographies, feast days, and a searchable directory of 480+ saints.",
     url: absoluteUrl("/resources"),
     siteName: siteConfig.name,
     type: "website",

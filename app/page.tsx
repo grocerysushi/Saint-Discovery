@@ -6,7 +6,7 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
   description:
-    "Take the Catholic saint personality quiz and discover which of 500+ saints reflects your spiritual gifts. Free, fast, and rooted in Catholic tradition.",
+    "Take the Catholic saint personality quiz and discover which of nearly 500 saints reflects your spiritual gifts. Free, fast, and rooted in Catholic tradition.",
   keywords: [
     "which catholic saint are you",
     "which catholic saint are you quiz",
@@ -58,7 +58,7 @@ const FAQS = [
   },
   {
     q: "How many saints can I match with?",
-    a: "Saint Discovery includes more than 500 canonized Catholic saints — from early martyrs and Doctors of the Church to modern saints like Maximilian Kolbe and Thérèse of Lisieux.",
+    a: "Saint Discovery includes nearly 500 canonized Catholic saints — from early martyrs and Doctors of the Church to modern saints like Maximilian Kolbe and Thérèse of Lisieux.",
   },
   {
     q: "Is this the same as a patron saint?",

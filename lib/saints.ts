@@ -1,22 +1,17 @@
-import { insforge } from "@/lib/insforge";
 import { Saint } from "@/lib/types";
+import saintsData from "@/lib/data/saints.json";
+
+// Saint content is baked into the repo (lib/data/saints.json, regenerated via
+// scripts/build-data.mjs) so every page and the sitemap build statically with
+// no runtime database dependency.
+const SAINTS = saintsData as Saint[];
 
 export async function getAllSaints(): Promise<Saint[]> {
-  const res = await insforge.database
-    .from("saints")
-    .select()
-    .order("name", { ascending: true });
-  return (res.data || []) as Saint[];
+  return SAINTS;
 }
 
 export async function getSaintBySlug(slug: string): Promise<Saint | null> {
-  const res = await insforge.database
-    .from("saints")
-    .select()
-    .eq("slug", slug)
-    .limit(1);
-  const rows = (res.data || []) as Saint[];
-  return rows[0] ?? null;
+  return SAINTS.find((s) => s.slug === slug) ?? null;
 }
 
 const TRAIT_COLUMNS = [

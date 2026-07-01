@@ -1,4 +1,4 @@
-const FALLBACK_SITE_URL = "https://saintdiscoveryquiz.com";
+const FALLBACK_SITE_URL = "https://www.saintdiscoveryquiz.com";
 
 function normalizeSiteUrl(value?: string) {
   if (!value) {

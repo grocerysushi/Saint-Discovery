@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
+import ShareButtons from "@/components/ShareButtons";
 
 export const revalidate = 86400;
 
@@ -28,9 +29,9 @@ export async function generateMetadata({
 
   const title = `St. ${saint.name} — Biography, Feast Day & Prayer`;
   const descParts = [
+    saint.patron_of ? `Patron saint of ${saint.patron_of}.` : null,
     saint.feast_day ? `Feast day: ${saint.feast_day}.` : null,
-    saint.tagline ? `"${saint.tagline}"` : null,
-    saint.description,
+    saint.known_for ?? saint.description,
   ].filter(Boolean);
   const raw =
     descParts.join(" ") ||
@@ -39,6 +40,12 @@ export async function generateMetadata({
     raw.length > 160 ? `${raw.slice(0, 157).trimEnd()}...` : raw;
 
   const url = absoluteUrl(`/saints/${saint.slug}`);
+
+  const patronKeywords = (saint.patron_of ?? "")
+    .split(/,\s*/)
+    .filter(Boolean)
+    .slice(0, 4)
+    .map((p) => `patron saint of ${p}`);
 
   return {
     title,
@@ -50,6 +57,7 @@ export async function generateMetadata({
       `${saint.name} feast day`,
       `${saint.name} prayer`,
       `who was St. ${saint.name}`,
+      ...patronKeywords,
       "catholic saint",
     ],
     alternates: { canonical: `/saints/${saint.slug}` },
@@ -98,7 +106,8 @@ export default async function SaintPage({
       name: `Saint ${saint.name}`,
       alternateName: `St. ${saint.name}`,
       honorificPrefix: "St.",
-      description: saint.description || saint.tagline || undefined,
+      description: saint.known_for || saint.description || saint.tagline || undefined,
+      gender: saint.gender || undefined,
       url,
     },
   };
@@ -171,10 +180,31 @@ export default async function SaintPage({
                 &ldquo;{saint.tagline}&rdquo;
               </p>
             )}
-            {saint.feast_day && (
-              <p className="text-cream-dark/70 text-sm">
-                <strong className="text-cream">Feast Day:</strong>{" "}
-                {saint.feast_day}
+            <dl className="text-sm space-y-1.5">
+              {saint.feast_day && (
+                <div className="flex gap-2">
+                  <dt className="text-cream font-semibold">Feast Day:</dt>
+                  <dd className="text-cream-dark/70">{saint.feast_day}</dd>
+                </div>
+              )}
+              {saint.patron_of && (
+                <div className="flex gap-2">
+                  <dt className="text-cream font-semibold">Patron Saint of:</dt>
+                  <dd className="text-cream-dark/70">{saint.patron_of}</dd>
+                </div>
+              )}
+              {(saint.dates || saint.origin) && (
+                <div className="flex gap-2">
+                  <dt className="text-cream font-semibold">Lived:</dt>
+                  <dd className="text-cream-dark/70">
+                    {[saint.dates, saint.origin].filter(Boolean).join(" — ")}
+                  </dd>
+                </div>
+              )}
+            </dl>
+            {saint.known_for && (
+              <p className="text-cream-dark leading-relaxed mt-5">
+                {saint.known_for}
               </p>
             )}
           </header>
@@ -190,6 +220,23 @@ export default async function SaintPage({
             </section>
           )}
 
+          {saint.quotes && saint.quotes.length > 0 && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
+                Quotes from St. {saint.name}
+              </h2>
+              <ul className="space-y-4">
+                {saint.quotes.map((quote) => (
+                  <li key={quote}>
+                    <blockquote className="border-l-2 border-gold/40 pl-4 text-cream-dark italic leading-relaxed">
+                      &ldquo;{quote}&rdquo;
+                    </blockquote>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
           {saint.prayer && (
             <section className="mb-10 bg-navy-light/50 rounded-xl p-6 border border-navy-lighter">
               <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-3">
@@ -200,6 +247,22 @@ export default async function SaintPage({
               </p>
             </section>
           )}
+
+          {saint.fun_fact && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
+                Did You Know?
+              </h2>
+              <p className="text-cream-dark leading-relaxed">
+                {saint.fun_fact}
+              </p>
+            </section>
+          )}
+
+          <ShareButtons
+            url={url}
+            text={`St. ${saint.name} — biography, feast day, and prayer.`}
+          />
 
           {relatedSaints.length > 0 && (
             <section className="mt-12 pt-8 border-t border-navy-lighter">
