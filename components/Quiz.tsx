@@ -35,6 +35,8 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
     joyful: 0,
     mystical: 0,
   });
+  // Chosen option per answered question, so Back can rewind the score.
+  const [answers, setAnswers] = useState<Option[]>([]);
   const [result, setResult] = useState<Saint | null>(null);
 
   // Total steps = 1 (gender) + number of trait questions
@@ -56,6 +58,7 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
       newScores[key] += opt[`trait_${key}` as keyof Option] as number;
     }
     setScores(newScores);
+    setAnswers([...answers, opt]);
 
     if (current + 1 < questions.length) {
       setCurrent(current + 1);
@@ -79,6 +82,22 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
         }
       }
     }
+  };
+
+  const handleBack = () => {
+    if (current === 0) {
+      // Back from the first trait question returns to the gender step.
+      setGender(null);
+      return;
+    }
+    const lastAnswer = answers[answers.length - 1];
+    const newScores = { ...scores };
+    for (const key of TRAIT_KEYS) {
+      newScores[key] -= lastAnswer[`trait_${key}` as keyof Option] as number;
+    }
+    setScores(newScores);
+    setAnswers(answers.slice(0, -1));
+    setCurrent(current - 1);
   };
 
   if (result) {
@@ -123,6 +142,16 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
           onSelect={handleSelect}
         />
       </AnimatePresence>
+      <div className="w-full max-w-lg mx-auto mt-6">
+        <button
+          type="button"
+          onClick={handleBack}
+          className="text-cream-dark/60 hover:text-gold text-sm transition-colors cursor-pointer"
+          aria-label="Go back to the previous question"
+        >
+          &larr; Back
+        </button>
+      </div>
     </div>
   );
 }
