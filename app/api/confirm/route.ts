@@ -44,63 +44,58 @@ export async function POST(request: NextRequest) {
   const saint = await getSaintBySlug(verified.slug);
   if (!saint) return seeOther("/subscribed?status=invalid");
 
-  // Idempotent-ish: only insert + send if this address isn't already stored, so
-  // re-clicking the confirm link doesn't create duplicates or re-send the email.
-  // postgrest-js resolves with { data, error } instead of throwing, so we must
-  // inspect `error` explicitly: on an unknown DB state we do NOT assume "new" and
-  // do NOT send (which would otherwise re-send the result email on every re-click).
-  let isNew = false;
+  // Record the signup, idempotently (one row per email). Best-effort — a backend
+  // hiccup must never block the confirmation. postgrest-js resolves with
+  // { data, error } instead of throwing, so inspect `error` explicitly.
   try {
     const { data: existing, error: selErr } = await insforge.database
       .from("email_signups")
       .select("id")
       .eq("email", verified.email)
       .limit(1);
-    if (!selErr) {
-      isNew = !(Array.isArray(existing) && existing.length > 0);
-      if (isNew) {
-        const saintId =
-          (saintDbIds as Record<string, string | undefined>)[saint.slug] ?? null;
-        const { error: insErr } = await insforge.database
-          .from("email_signups")
-          .insert([{ email: verified.email, saint_id: saintId }]);
-        if (insErr) isNew = false; // insert failed -> don't claim/send
-      }
+    if (!selErr && !(Array.isArray(existing) && existing.length > 0)) {
+      const saintId =
+        (saintDbIds as Record<string, string | undefined>)[saint.slug] ?? null;
+      await insforge.database
+        .from("email_signups")
+        .insert([{ email: verified.email, saint_id: saintId }]);
     }
   } catch {
-    // Best-effort: never fail the user's confirmation on a backend hiccup.
-    isNew = false;
+    // ignore — delivering the result email below is the priority
   }
 
-  if (isNew) {
-    const origin = emailLinkOrigin();
-    const unsubToken = createToken({
-      email: verified.email,
-      slug: saint.slug,
-      purpose: "unsub",
-      ttlSeconds: UNSUB_TTL,
-    });
-    const { subject, html, text } = buildResultEmail({
-      saint,
-      saintUrl: `${origin}/saints/${saint.slug}`,
-      unsubscribeUrl: `${origin}/unsubscribe?token=${encodeURIComponent(
-        unsubToken
-      )}`,
-      siteUrl: origin,
-      postalAddress: EMAIL_POSTAL_ADDRESS,
-    });
-    const sent = await sendEmail({
-      to: verified.email,
-      subject,
-      html,
-      text,
-      listUnsubscribeUrl: `${origin}/api/unsubscribe?token=${encodeURIComponent(
-        unsubToken
-      )}`,
-      listUnsubscribeMailto: RESEND_REPLY_TO,
-    });
-    if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
-  }
+  // ALWAYS send the result email on a valid confirmation — it is the payoff the
+  // user just confirmed for. (Sending only on first-ever signup meant anyone
+  // already on the list — including returning users picking a new saint — got
+  // nothing.) A confirm token is single-recipient, so a repeated click can only
+  // re-mail the confirmer themselves; harmless.
+  const origin = emailLinkOrigin();
+  const unsubToken = createToken({
+    email: verified.email,
+    slug: saint.slug,
+    purpose: "unsub",
+    ttlSeconds: UNSUB_TTL,
+  });
+  const { subject, html, text } = buildResultEmail({
+    saint,
+    saintUrl: `${origin}/saints/${saint.slug}`,
+    unsubscribeUrl: `${origin}/unsubscribe?token=${encodeURIComponent(
+      unsubToken
+    )}`,
+    siteUrl: origin,
+    postalAddress: EMAIL_POSTAL_ADDRESS,
+  });
+  const sent = await sendEmail({
+    to: verified.email,
+    subject,
+    html,
+    text,
+    listUnsubscribeUrl: `${origin}/api/unsubscribe?token=${encodeURIComponent(
+      unsubToken
+    )}`,
+    listUnsubscribeMailto: RESEND_REPLY_TO,
+  });
+  if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
 
   return seeOther("/subscribed?status=ok");
 }
