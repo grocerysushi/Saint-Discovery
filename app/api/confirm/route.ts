@@ -9,6 +9,7 @@ import {
   EMAIL_POSTAL_ADDRESS,
   RESEND_REPLY_TO,
 } from "@/lib/emails/config";
+import { circuitAllows } from "@/lib/emails/rateLimit";
 import saintDbIds from "@/lib/data/saint-db-ids.json";
 
 export const runtime = "nodejs";
@@ -85,17 +86,23 @@ export async function POST(request: NextRequest) {
     siteUrl: origin,
     postalAddress: EMAIL_POSTAL_ADDRESS,
   });
-  const sent = await sendEmail({
-    to: verified.email,
-    subject,
-    html,
-    text,
-    listUnsubscribeUrl: `${origin}/api/unsubscribe?token=${encodeURIComponent(
-      unsubToken
-    )}`,
-    listUnsubscribeMailto: RESEND_REPLY_TO,
-  });
-  if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
+  // Bound outbound volume per instance so a valid token replayed in a loop can't
+  // burn the Resend quota. A legitimate single confirm is far under the cap.
+  if (circuitAllows()) {
+    const sent = await sendEmail({
+      to: verified.email,
+      subject,
+      html,
+      text,
+      listUnsubscribeUrl: `${origin}/api/unsubscribe?token=${encodeURIComponent(
+        unsubToken
+      )}`,
+      listUnsubscribeMailto: RESEND_REPLY_TO,
+    });
+    if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
+  } else {
+    console.warn("[confirm] result email skipped: send circuit open");
+  }
 
   return seeOther("/subscribed?status=ok");
 }
