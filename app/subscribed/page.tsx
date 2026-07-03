@@ -35,6 +35,26 @@ export default async function SubscribedPage({
     );
   }
 
+  if (status === "pending") {
+    return (
+      <EmailFlowCard eyebrow="You're confirmed" title="Almost there">
+        <p>
+          You&rsquo;re confirmed. We&rsquo;re finishing up — your saint result and
+          novena should arrive shortly. If it doesn&rsquo;t come through, open your
+          confirmation link again and we&rsquo;ll resend it.
+        </p>
+        <p>
+          <Link
+            href="/resources"
+            className="text-gold hover:text-gold-light underline"
+          >
+            Explore more saints →
+          </Link>
+        </p>
+      </EmailFlowCard>
+    );
+  }
+
   return (
     <EmailFlowCard eyebrow="Saint Discovery" title="This link is no longer valid">
       <p>

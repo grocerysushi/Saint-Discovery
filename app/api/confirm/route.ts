@@ -88,6 +88,7 @@ export async function POST(request: NextRequest) {
   });
   // Bound outbound volume per instance so a valid token replayed in a loop can't
   // burn the Resend quota. A legitimate single confirm is far under the cap.
+  let delivered = false;
   if (circuitAllows()) {
     const sent = await sendEmail({
       to: verified.email,
@@ -100,9 +101,15 @@ export async function POST(request: NextRequest) {
       listUnsubscribeMailto: RESEND_REPLY_TO,
     });
     if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
+    delivered = sent.ok;
   } else {
     console.warn("[confirm] result email skipped: send circuit open");
   }
 
-  return seeOther("/subscribed?status=ok");
+  // Only claim delivery when the email actually dispatched. On a skip or failure
+  // the confirm token is still valid (7-day TTL), so the "pending" page invites a
+  // re-click rather than falsely promising an email that never left.
+  return seeOther(
+    delivered ? "/subscribed?status=ok" : "/subscribed?status=pending"
+  );
 }
