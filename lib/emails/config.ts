@@ -3,8 +3,11 @@
 import { siteConfig } from "@/lib/seo";
 
 export const RESEND_API_KEY = process.env.RESEND_API_KEY ?? "";
+// saintdiscoveryquiz.com is verified in Resend, so default to it. Falling back to
+// onboarding@resend.dev would silently restrict delivery to the account owner's
+// own address only, which reads as "emails not working" for every other recipient.
 export const RESEND_FROM =
-  process.env.RESEND_FROM ?? "Saint Discovery <onboarding@resend.dev>";
+  process.env.RESEND_FROM ?? "Saint Discovery <hello@saintdiscoveryquiz.com>";
 export const RESEND_REPLY_TO = process.env.RESEND_REPLY_TO || undefined;
 export const EMAIL_POSTAL_ADDRESS = process.env.EMAIL_POSTAL_ADDRESS ?? "";
 export const EMAIL_TOKEN_SECRET = process.env.EMAIL_TOKEN_SECRET ?? "";
