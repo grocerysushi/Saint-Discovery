@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import ShareButtons from "@/components/ShareButtons";
+import EmailCapture from "@/components/EmailCapture";
 import { absoluteUrl } from "@/lib/seo";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
 
@@ -127,6 +128,10 @@ export default function Result({
               {saint.prayer}
             </p>
           </motion.div>
+        )}
+
+        {saint.slug && (
+          <EmailCapture saintSlug={saint.slug} saintName={saint.name} />
         )}
 
         <motion.div
