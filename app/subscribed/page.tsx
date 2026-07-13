@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import EmailFlowCard from "@/components/EmailFlowCard";
+import LeadPing from "@/components/LeadPing";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default async function SubscribedPage({
   if (status === "ok") {
     return (
       <EmailFlowCard eyebrow="You're all set" title="Check your inbox">
+        <LeadPing />
         <p>
           Your saint result and a short novena are on their way. If it isn&rsquo;t
           there within a minute, check your spam folder and mark it &ldquo;not
@@ -38,6 +40,7 @@ export default async function SubscribedPage({
   if (status === "pending") {
     return (
       <EmailFlowCard eyebrow="You're confirmed" title="Almost there">
+        <LeadPing />
         <p>
           You&rsquo;re confirmed. We&rsquo;re finishing up — your saint result and
           novena should arrive shortly. If it doesn&rsquo;t come through, open your

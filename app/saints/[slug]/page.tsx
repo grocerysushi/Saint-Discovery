@@ -3,7 +3,18 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { getPatronLinksForSaint } from "@/lib/patronage";
 import ShareButtons from "@/components/ShareButtons";
+import saintExtended from "@/lib/data/saint-extended.json";
+
+// Long-form biographies + FAQs for the most-searched saints (generated and
+// fact-checked offline; keyed by slug). Pages without an entry fall back to
+// the short description.
+interface ExtendedContent {
+  biography: string[];
+  faqs: { question: string; answer: string }[];
+}
+const EXTENDED = saintExtended as unknown as Record<string, ExtendedContent>;
 
 export const revalidate = 86400;
 
@@ -88,6 +99,8 @@ export default async function SaintPage({
   const url = absoluteUrl(`/saints/${saint.slug}`);
   const allSaints = await getAllSaints().catch(() => []);
   const relatedSaints = getRelatedSaints(saint, allSaints);
+  const extended = EXTENDED[saint.slug];
+  const patronLinks = getPatronLinksForSaint(saint.slug);
 
   const personJsonLd = {
     "@context": "https://schema.org",
@@ -147,6 +160,22 @@ export default async function SaintPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
+      {extended && extended.faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: extended.faqs.map((faq) => ({
+                "@type": "Question",
+                name: faq.question,
+                acceptedAnswer: { "@type": "Answer", text: faq.answer },
+              })),
+            }),
+          }}
+        />
+      )}
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
       <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
         <nav
@@ -190,7 +219,21 @@ export default async function SaintPage({
               {saint.patron_of && (
                 <div className="flex gap-2">
                   <dt className="text-cream font-semibold">Patron Saint of:</dt>
-                  <dd className="text-cream-dark/70">{saint.patron_of}</dd>
+                  <dd className="text-cream-dark/70">
+                    {patronLinks.length > 0
+                      ? patronLinks.map((link, i) => (
+                          <span key={link.slug}>
+                            {i > 0 && ", "}
+                            <Link
+                              href={`/patron-saint-of/${link.slug}`}
+                              className="hover:text-gold underline decoration-gold/30 underline-offset-2 transition-colors"
+                            >
+                              {link.label}
+                            </Link>
+                          </span>
+                        ))
+                      : saint.patron_of}
+                  </dd>
                 </div>
               )}
               {(saint.dates || saint.origin) && (
@@ -209,15 +252,28 @@ export default async function SaintPage({
             )}
           </header>
 
-          {saint.description && (
+          {extended ? (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
                 Biography
               </h2>
-              <p className="text-cream-dark leading-relaxed whitespace-pre-line">
-                {saint.description}
-              </p>
+              <div className="text-cream-dark leading-relaxed space-y-4">
+                {extended.biography.map((paragraph) => (
+                  <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+                ))}
+              </div>
             </section>
+          ) : (
+            saint.description && (
+              <section className="mb-10">
+                <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
+                  Biography
+                </h2>
+                <p className="text-cream-dark leading-relaxed whitespace-pre-line">
+                  {saint.description}
+                </p>
+              </section>
+            )
           )}
 
           {saint.quotes && saint.quotes.length > 0 && (
@@ -256,6 +312,26 @@ export default async function SaintPage({
               <p className="text-cream-dark leading-relaxed">
                 {saint.fun_fact}
               </p>
+            </section>
+          )}
+
+          {extended && extended.faqs.length > 0 && (
+            <section className="mb-10">
+              <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
+                Frequently Asked Questions
+              </h2>
+              <dl className="space-y-6">
+                {extended.faqs.map((faq) => (
+                  <div key={faq.question}>
+                    <dt className="text-cream font-semibold mb-2">
+                      {faq.question}
+                    </dt>
+                    <dd className="text-cream-dark leading-relaxed">
+                      {faq.answer}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </section>
           )}
 

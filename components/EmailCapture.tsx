@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
+import { track } from "@/lib/analytics";
 
 // Double opt-in email capture shown on the result screen. Posts to /api/subscribe
 // (JSON); the server sends a confirmation email and writes nothing until the user
@@ -37,6 +38,7 @@ export default function EmailCapture({
       });
       if (!res.ok) throw new Error("request failed");
       setStatus("success");
+      track("email_signup", { saint_slug: saintSlug });
     } catch {
       setStatus("error");
     }

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
+import SiteFooter from "@/components/SiteFooter";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -133,7 +134,10 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased">
-        <LiturgicalTheme>{children}</LiturgicalTheme>
+        <LiturgicalTheme>
+          {children}
+          <SiteFooter />
+        </LiturgicalTheme>
       </body>
     </html>
   );

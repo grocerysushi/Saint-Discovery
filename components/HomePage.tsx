@@ -4,6 +4,7 @@ import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import Hero from "@/components/Hero";
 import Quiz from "@/components/Quiz";
+import { track } from "@/lib/analytics";
 
 type Screen = "hero" | "quiz";
 
@@ -16,7 +17,13 @@ export default function HomePage() {
       <div className="relative z-10">
         <AnimatePresence mode="wait">
           {screen === "hero" ? (
-            <Hero key="hero" onStart={() => setScreen("quiz")} />
+            <Hero
+              key="hero"
+              onStart={() => {
+                track("quiz_start");
+                setScreen("quiz");
+              }}
+            />
           ) : (
             <Quiz key="quiz" onRestart={() => setScreen("hero")} />
           )}
