@@ -13,6 +13,7 @@
     "framer-motion": "^12.35.1",
     "next": "16.1.6",
     "posthog-js": "^1.404.1",
+    "posthog-node": "^5.45.2",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },

@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { insforge } from "@/lib/insforge";
 import { verifyToken } from "@/lib/emails/tokens";
+import { getPostHogClient } from "@/lib/posthog-server";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -35,6 +36,15 @@ export async function POST(request: NextRequest) {
       ok = !delErr;
     } catch {
       ok = false;
+    }
+    if (ok) {
+      const posthog = getPostHogClient();
+      posthog.capture({
+        distinctId: verified.email,
+        event: "email_unsubscribed",
+        properties: { saint_slug: verified.slug },
+      });
+      await posthog.flush();
     }
   }
 
