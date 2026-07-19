@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
+import { PATRON_TOPICS } from "@/lib/patronage";
 import SaintsDirectory from "@/components/SaintsDirectory";
 
 export const revalidate = 86400;
@@ -78,6 +79,14 @@ export default async function Resources() {
   const saintsOfTheDay = saints.filter(
     (s) => s.feast_day && s.feast_day.trim() === todayStr
   );
+
+  // Slim patron-topic index for the directory's high-intent search
+  // (e.g. typing "doctors" surfaces the Patron Saint of Doctors page).
+  const patronTopics = PATRON_TOPICS.map((t) => ({
+    slug: t.slug,
+    label: t.label,
+    saintCount: t.saints.length,
+  }));
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -229,7 +238,7 @@ export default async function Resources() {
             </p>
           </div>
 
-          <SaintsDirectory saints={saints} />
+          <SaintsDirectory saints={saints} patronTopics={patronTopics} />
         </section>
 
         <div className="text-center mt-16 text-cream-dark text-sm">

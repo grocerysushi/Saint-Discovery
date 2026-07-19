@@ -109,7 +109,10 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
   // Gender question (step 0)
   if (gender === null) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center px-6">
+      <div
+        className="flex flex-col items-center justify-center px-6"
+        style={{ minHeight: "calc(100vh - var(--header-height))" }}
+      >
         <ProgressBar current={currentStep} total={totalSteps} />
         <AnimatePresence mode="wait">
           <motion.div
@@ -135,7 +138,10 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
 
   // Trait questions (steps 1+)
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-6">
+    <div
+      className="flex flex-col items-center justify-center px-6"
+      style={{ minHeight: "calc(100vh - var(--header-height))" }}
+    >
       <ProgressBar current={currentStep} total={totalSteps} />
       <AnimatePresence mode="wait">
         <QuestionCard

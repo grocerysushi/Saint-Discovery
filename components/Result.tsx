@@ -21,7 +21,8 @@ export default function Result({
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen flex items-center justify-center px-6 py-16"
+      className="flex items-center justify-center px-6 py-16"
+      style={{ minHeight: "calc(100vh - var(--header-height))" }}
     >
       <div className="max-w-lg w-full text-center">
         <motion.div

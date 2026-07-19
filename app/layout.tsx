@@ -6,6 +6,7 @@ import LiturgicalTheme from "@/components/LiturgicalTheme";
 import PostHogPageview from "@/components/PostHogPageview";
 import PostHogProvider from "@/components/PostHogProvider";
 import SiteFooter from "@/components/SiteFooter";
+import SiteHeader from "@/components/SiteHeader";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -138,6 +139,7 @@ export default function RootLayout({
       </head>
       <body className="antialiased">
         <PostHogProvider>
+          <SiteHeader />
           <LiturgicalTheme>
             {children}
             <SiteFooter />

@@ -7,7 +7,8 @@ export default function Hero({ onStart }: { onStart: () => void }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen flex flex-col items-center justify-center px-6 text-center"
+      className="flex flex-col items-center justify-center px-6 text-center"
+      style={{ minHeight: "calc(100vh - var(--header-height))" }}
     >
       <motion.div
         initial={{ y: 30, opacity: 0 }}

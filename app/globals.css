@@ -13,6 +13,10 @@
   --font-body: 'Inter', sans-serif;
 }
 
+:root {
+  --header-height: 64px;
+}
+
 body {
   background: var(--color-navy);
   color: var(--color-cream);
@@ -22,4 +26,37 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-heading);
+}
+
+/* Skip link for keyboard / screen-reader users — visually hidden until
+   focused, then anchored to the very top of the viewport. */
+.skip-to-content {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-gold);
+  color: var(--color-navy);
+  font-weight: 600;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.skip-to-content:focus {
+  left: 0;
+  outline: 2px solid var(--color-cream);
+  outline-offset: 2px;
+}
+
+/* Respect users who don't want animation. Framer Motion components are
+   JS-driven, but this catches the CSS-side transitions and decorative
+   animations throughout the site. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
