@@ -5,6 +5,7 @@ import { insforge } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
 import { track } from "@/lib/analytics";
+import posthog from "posthog-js";
 import quizData from "@/lib/data/quiz.json";
 import quizSaints from "@/lib/data/quiz-saints.json";
 import saintDbIds from "@/lib/data/saint-db-ids.json";
@@ -70,6 +71,7 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
       const matched = matchSaint(newScores, pool);
       setResult(matched);
       track("quiz_complete", { saint_slug: matched.slug });
+      posthog.capture("quiz_completed", { saint_slug: matched.slug, gender });
       // Best-effort analytics; never let a backend outage break the result
       // screen. quiz_results.saint_id is a FK to the backend's saints table,
       // so log with the DB UUID and skip saints the DB doesn't have yet.

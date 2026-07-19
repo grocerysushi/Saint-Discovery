@@ -4,6 +4,7 @@ import ShareButtons from "@/components/ShareButtons";
 import EmailCapture from "@/components/EmailCapture";
 import { absoluteUrl } from "@/lib/seo";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
+import posthog from "posthog-js";
 
 export default function Result({
   saint,
@@ -153,6 +154,7 @@ export default function Result({
             transition={{ delay: 1.15 }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
+            onClick={() => posthog.capture("saint_profile_clicked", { saint_slug: saint.slug })}
             className="inline-block mt-6 px-8 py-3 bg-gold text-navy font-semibold rounded-full
                        hover:bg-gold-light transition-colors cursor-pointer"
           >
@@ -166,7 +168,10 @@ export default function Result({
           transition={{ delay: 1.2 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.97 }}
-          onClick={onRestart}
+          onClick={() => {
+            posthog.capture("quiz_restarted", { saint_slug: saint.slug });
+            onRestart();
+          }}
           className="block mx-auto mt-4 px-8 py-3 border border-gold/30 text-gold rounded-full
                      hover:bg-gold/10 transition-colors cursor-pointer"
         >

@@ -2,6 +2,7 @@ import { type NextRequest, NextResponse } from "next/server";
 import { insforge } from "@/lib/insforge";
 import { getSaintBySlug } from "@/lib/saints";
 import { verifyToken, createToken } from "@/lib/emails/tokens";
+import { getPostHogClient } from "@/lib/posthog-server";
 import { buildResultEmail } from "@/lib/emails/render";
 import { sendEmail } from "@/lib/emails/resend";
 import {
@@ -104,6 +105,20 @@ export async function POST(request: NextRequest) {
     delivered = sent.ok;
   } else {
     console.warn("[confirm] result email skipped: send circuit open");
+  }
+
+  if (delivered) {
+    const posthog = getPostHogClient();
+    posthog.capture({
+      distinctId: verified.email,
+      event: "email_subscription_confirmed",
+      properties: { saint_slug: saint.slug },
+    });
+    posthog.identify({
+      distinctId: verified.email,
+      properties: { $email: verified.email },
+    });
+    await posthog.flush();
   }
 
   // Only claim delivery when the email actually dispatched. On a skip or failure

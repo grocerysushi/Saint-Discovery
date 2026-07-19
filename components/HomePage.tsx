@@ -5,6 +5,7 @@ import { AnimatePresence } from "framer-motion";
 import Hero from "@/components/Hero";
 import Quiz from "@/components/Quiz";
 import { track } from "@/lib/analytics";
+import posthog from "posthog-js";
 
 type Screen = "hero" | "quiz";
 
@@ -21,6 +22,7 @@ export default function HomePage() {
               key="hero"
               onStart={() => {
                 track("quiz_start");
+                posthog.capture("quiz_start");
                 setScreen("quiz");
               }}
             />
