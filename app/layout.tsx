@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import { Suspense } from "react";
 import "./globals.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
+import PostHogPageview from "@/components/PostHogPageview";
+import PostHogProvider from "@/components/PostHogProvider";
 import SiteFooter from "@/components/SiteFooter";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
 
@@ -134,10 +137,15 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased">
-        <LiturgicalTheme>
-          {children}
-          <SiteFooter />
-        </LiturgicalTheme>
+        <PostHogProvider>
+          <LiturgicalTheme>
+            {children}
+            <SiteFooter />
+            <Suspense>
+              <PostHogPageview />
+            </Suspense>
+          </LiturgicalTheme>
+        </PostHogProvider>
       </body>
     </html>
   );

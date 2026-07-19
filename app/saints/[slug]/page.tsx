@@ -6,6 +6,7 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
 import ShareButtons from "@/components/ShareButtons";
 import saintExtended from "@/lib/data/saint-extended.json";
+import PostHogSaintViewed from "@/components/PostHogSaintViewed";
 
 // Long-form biographies + FAQs for the most-searched saints (generated and
 // fact-checked offline; keyed by slug). Pages without an entry fall back to
@@ -152,6 +153,12 @@ export default async function SaintPage({
 
   return (
     <main className="relative min-h-screen overflow-hidden">
+      <PostHogSaintViewed
+        slug={saint.slug}
+        name={saint.name}
+        feastDay={saint.feast_day}
+        patronOf={saint.patron_of}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}

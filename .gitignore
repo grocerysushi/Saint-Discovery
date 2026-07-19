@@ -57,3 +57,7 @@ next-env.d.ts
 .roo/
 .trae/
 .windsurf/
+
+# extended bio writer (Python) — cache and run logs
+/scripts/__pycache__/
+/scripts/logs/
