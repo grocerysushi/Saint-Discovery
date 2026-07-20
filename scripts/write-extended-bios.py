@@ -399,6 +399,12 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0, help="Max saints to process (0 = all remaining)")
     parser.add_argument("--slug", type=str, default=None, help="Process only this slug")
     parser.add_argument(
+        "--slugs",
+        type=str,
+        default=None,
+        help="Comma-separated list of slugs to process (e.g. 'abraham,adam')",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Don't write to saint-extended.json, just log what would have been written",
@@ -433,6 +439,12 @@ def main() -> int:
         saints = [s for s in saints if s["slug"] == args.slug]
         if not saints:
             log(f"No saint with slug={args.slug!r} found")
+            return 1
+    if args.slugs:
+        target = {s.strip() for s in args.slugs.split(",") if s.strip()}
+        saints = [s for s in saints if s["slug"] in target]
+        if not saints:
+            log(f"No saints matching --slugs={args.slugs!r} found")
             return 1
 
     remaining = [s for s in saints if s["slug"] not in existing]
