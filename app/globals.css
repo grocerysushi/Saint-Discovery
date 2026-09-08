@@ -127,7 +127,8 @@ a,button,input { transition: color .2s, background-color .2s, border-color .2s, 
 .saint-card p { color: var(--color-cream-dark); font-size: .875rem; line-height: 1.6; }
 .saint-card-bottom { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 22px; margin-top: auto; color: var(--color-gold); font-size: .75rem; }
 .directory-support { border-top: 1px solid var(--color-navy-lighter); margin-top: 60px; padding-top: 40px; }
-.directory-support h2 { font-size: 2rem; margin-bottom: 20px; }
+.directory-resources { margin-bottom: 48px; }
+.directory-support h2,.directory-resources h2 { font-size: 2rem; margin-bottom: 20px; }
 .topic-match { padding: 16px 20px; border: 1px solid var(--color-gold); border-radius: 8px; display: block; font-size: .875rem; }
 .reading-page { max-width: 840px; margin-inline: auto; padding: 50px 32px 80px; }
 .reading-page article > header { border-bottom: 1px solid var(--color-navy-lighter); padding-bottom: 32px; }
