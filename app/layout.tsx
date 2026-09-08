@@ -1,10 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Suspense } from "react";
 import "./globals.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
-import PostHogPageview from "@/components/PostHogPageview";
-import PostHogProvider from "@/components/PostHogProvider";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { absoluteUrl, siteConfig } from "@/lib/seo";
@@ -80,7 +77,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#081527",
+  themeColor: "#111b21",
 };
 
 export default function RootLayout({
@@ -138,16 +135,11 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased">
-        <PostHogProvider>
-          <SiteHeader />
-          <LiturgicalTheme>
-            {children}
-            <SiteFooter />
-            <Suspense>
-              <PostHogPageview />
-            </Suspense>
-          </LiturgicalTheme>
-        </PostHogProvider>
+        <SiteHeader />
+        <LiturgicalTheme>
+          <div id="main-content" tabIndex={-1}>{children}</div>
+          <SiteFooter />
+        </LiturgicalTheme>
       </body>
     </html>
   );

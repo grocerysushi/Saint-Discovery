@@ -1,0 +1,378 @@
+{
+  "abraham": {
+    "src": "/images/generated-saints/abraham.webp",
+    "alt": "AI-generated artistic interpretation of Saint Abraham",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/abraham",
+    "generated": true
+  },
+  "adrian-of-canterbury": {
+    "src": "/images/generated-saints/adrian-of-canterbury.webp",
+    "alt": "AI-generated artistic interpretation of Saint Adrian of Canterbury",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/adrian-of-canterbury",
+    "generated": true
+  },
+  "agenoria": {
+    "src": "/images/generated-saints/agenoria.webp",
+    "alt": "AI-generated artistic interpretation of Saint Agenoria",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/agenoria",
+    "generated": true
+  },
+  "luke-the-evangelist": {
+    "src": "/images/generated-saints/luke-the-evangelist.webp",
+    "alt": "AI-generated artistic interpretation of Saint Luke the Evangelist",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/luke-the-evangelist",
+    "generated": true
+  },
+  "maurice": {
+    "src": "/images/generated-saints/maurice.webp",
+    "alt": "AI-generated artistic interpretation of Saint Maurice",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/maurice",
+    "generated": true
+  },
+  "maximilian-of-tebessa": {
+    "src": "/images/generated-saints/maximilian-of-tebessa.webp",
+    "alt": "AI-generated artistic interpretation of Saint Maximilian of Tebessa",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/maximilian-of-tebessa",
+    "generated": true
+  },
+  "albert-of-montecorvino": {
+    "src": "/images/generated-saints/albert-of-montecorvino.webp",
+    "alt": "AI-generated artistic interpretation of Saint Albert of Montecorvino",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/albert-of-montecorvino",
+    "generated": true
+  },
+  "basil-the-elder": {
+    "src": "/images/generated-saints/basil-the-elder.webp",
+    "alt": "AI-generated artistic interpretation of Saint Basil the Elder",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/basil-the-elder",
+    "generated": true
+  },
+  "brocard": {
+    "src": "/images/generated-saints/brocard.webp",
+    "alt": "AI-generated artistic interpretation of Saint Brocard",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/brocard",
+    "generated": true
+  },
+  "enda": {
+    "src": "/images/generated-saints/enda.webp",
+    "alt": "AI-generated artistic interpretation of Saint Enda",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/enda",
+    "generated": true
+  },
+  "eulalia": {
+    "src": "/images/generated-saints/eulalia.webp",
+    "alt": "AI-generated artistic interpretation of Saint Eulalia",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/eulalia",
+    "generated": true
+  },
+  "eulogius-of-toledo": {
+    "src": "/images/generated-saints/eulogius-of-toledo.webp",
+    "alt": "AI-generated artistic interpretation of Saint Eulogius of Toledo",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/eulogius-of-toledo",
+    "generated": true
+  },
+  "carlo-acutis": {
+    "src": "/images/generated-saints/carlo-acutis.webp",
+    "alt": "AI-generated artistic interpretation of Saint Carlo Acutis",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/carlo-acutis",
+    "generated": true
+  },
+  "chaeremon": {
+    "src": "/images/generated-saints/chaeremon.webp",
+    "alt": "AI-generated artistic interpretation of Saint Chaeremon",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/chaeremon",
+    "generated": true
+  },
+  "chiara-badano": {
+    "src": "/images/generated-saints/chiara-badano.webp",
+    "alt": "AI-generated artistic interpretation of Saint Chiara Badano",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/chiara-badano",
+    "generated": true
+  },
+  "febronia": {
+    "src": "/images/generated-saints/febronia.webp",
+    "alt": "AI-generated artistic interpretation of Saint Febronia",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/febronia",
+    "generated": true
+  },
+  "flannan": {
+    "src": "/images/generated-saints/flannan.webp",
+    "alt": "AI-generated artistic interpretation of Saint Flannan",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/flannan",
+    "generated": true
+  },
+  "gabriel-of-our-lady-of-sorrows": {
+    "src": "/images/generated-saints/gabriel-of-our-lady-of-sorrows.webp",
+    "alt": "AI-generated artistic interpretation of Saint Gabriel of Our Lady of Sorrows",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/gabriel-of-our-lady-of-sorrows",
+    "generated": true
+  },
+  "nemesius": {
+    "src": "/images/generated-saints/nemesius.webp",
+    "alt": "AI-generated artistic interpretation of Saint Nemesius",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/nemesius",
+    "generated": true
+  },
+  "our-lady-of-lourdes": {
+    "src": "/images/generated-saints/our-lady-of-lourdes.webp",
+    "alt": "AI-generated artistic interpretation of Saint Our Lady of Lourdes",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/our-lady-of-lourdes",
+    "generated": true
+  },
+  "pedro-calungsod": {
+    "src": "/images/generated-saints/pedro-calungsod.webp",
+    "alt": "AI-generated artistic interpretation of Saint Pedro Calungsod",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/pedro-calungsod",
+    "generated": true
+  },
+  "george": {
+    "src": "/images/generated-saints/george.webp",
+    "alt": "AI-generated artistic interpretation of Saint George",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/george",
+    "generated": true
+  },
+  "head-of-the-holy-innocents": {
+    "src": "/images/generated-saints/head-of-the-holy-innocents.webp",
+    "alt": "AI-generated artistic interpretation of Saint Head of the Holy Innocents",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/head-of-the-holy-innocents",
+    "generated": true
+  },
+  "isidore-of-seville": {
+    "src": "/images/generated-saints/isidore-of-seville.webp",
+    "alt": "AI-generated artistic interpretation of Saint Isidore of Seville",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/isidore-of-seville",
+    "generated": true
+  },
+  "perfectus": {
+    "src": "/images/generated-saints/perfectus.webp",
+    "alt": "AI-generated artistic interpretation of Saint Perfectus",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/perfectus",
+    "generated": true
+  },
+  "peter-julian-eymard": {
+    "src": "/images/generated-saints/peter-julian-eymard.webp",
+    "alt": "AI-generated artistic interpretation of Saint Peter Julian Eymard",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/peter-julian-eymard",
+    "generated": true
+  },
+  "romanus-of-condat": {
+    "src": "/images/generated-saints/romanus-of-condat.webp",
+    "alt": "AI-generated artistic interpretation of Saint Romanus of Condat",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/romanus-of-condat",
+    "generated": true
+  },
+  "cuan": {
+    "src": "/images/generated-saints/cuan.webp",
+    "alt": "AI-generated artistic interpretation of Saint Cuan",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/cuan",
+    "generated": true
+  },
+  "david-i-of-scotland": {
+    "src": "/images/generated-saints/david-i-of-scotland.webp",
+    "alt": "AI-generated artistic interpretation of Saint David I of Scotland",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/david-i-of-scotland",
+    "generated": true
+  },
+  "douard": {
+    "src": "/images/generated-saints/douard.webp",
+    "alt": "AI-generated artistic interpretation of Saint Édouard",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/douard",
+    "generated": true
+  },
+  "edward-the-confessor": {
+    "src": "/images/generated-saints/edward-the-confessor.webp",
+    "alt": "AI-generated artistic interpretation of Saint Edward the Confessor",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/edward-the-confessor",
+    "generated": true
+  },
+  "eleutherius": {
+    "src": "/images/generated-saints/eleutherius.webp",
+    "alt": "AI-generated artistic interpretation of Saint Eleutherius",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/eleutherius",
+    "generated": true
+  },
+  "elizabeth-mother-of-john-baptist": {
+    "src": "/images/generated-saints/elizabeth-mother-of-john-baptist.webp",
+    "alt": "AI-generated artistic interpretation of Saint Elizabeth (mother of John Baptist)",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/elizabeth-mother-of-john-baptist",
+    "generated": true
+  },
+  "john-baptist-de-rossi": {
+    "src": "/images/generated-saints/john-baptist-de-rossi.webp",
+    "alt": "AI-generated artistic interpretation of Saint John Baptist de Rossi",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/john-baptist-de-rossi",
+    "generated": true
+  },
+  "john-berchmans": {
+    "src": "/images/generated-saints/john-berchmans.webp",
+    "alt": "AI-generated artistic interpretation of Saint John Berchmans",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/john-berchmans",
+    "generated": true
+  },
+  "john-of-san-facundo": {
+    "src": "/images/generated-saints/john-of-san-facundo.webp",
+    "alt": "AI-generated artistic interpretation of Saint John of San Facundo",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/john-of-san-facundo",
+    "generated": true
+  },
+  "saturninus": {
+    "src": "/images/generated-saints/saturninus.webp",
+    "alt": "AI-generated artistic interpretation of Saint Saturninus",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/saturninus",
+    "generated": true
+  },
+  "simeon": {
+    "src": "/images/generated-saints/simeon.webp",
+    "alt": "AI-generated artistic interpretation of Saint Simeon",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/simeon",
+    "generated": true
+  },
+  "sixtus-ii": {
+    "src": "/images/generated-saints/sixtus-ii.webp",
+    "alt": "AI-generated artistic interpretation of Saint Sixtus II",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/sixtus-ii",
+    "generated": true
+  },
+  "emma": {
+    "src": "/images/generated-saints/emma.webp",
+    "alt": "AI-generated artistic interpretation of Saint Emma",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/emma",
+    "generated": true
+  },
+  "jonas": {
+    "src": "/images/generated-saints/jonas.webp",
+    "alt": "AI-generated artistic interpretation of Saint Jonas",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/jonas",
+    "generated": true
+  },
+  "joseph-cafasso": {
+    "src": "/images/generated-saints/joseph-cafasso.webp",
+    "alt": "AI-generated artistic interpretation of Saint Joseph Cafasso",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/joseph-cafasso",
+    "generated": true
+  },
+  "thecla": {
+    "src": "/images/generated-saints/thecla.webp",
+    "alt": "AI-generated artistic interpretation of Saint Thecla",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/thecla",
+    "generated": true
+  },
+  "wasnildus": {
+    "src": "/images/generated-saints/wasnildus.webp",
+    "alt": "AI-generated artistic interpretation of Saint Wasnildus",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/wasnildus",
+    "generated": true
+  },
+  "william-of-york": {
+    "src": "/images/generated-saints/william-of-york.webp",
+    "alt": "AI-generated artistic interpretation of Saint William of York",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/william-of-york",
+    "generated": true
+  },
+  "julia": {
+    "src": "/images/generated-saints/julia.webp",
+    "alt": "AI-generated artistic interpretation of Saint Julia",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/julia",
+    "generated": true
+  },
+  "kate-of-siena": {
+    "src": "/images/generated-saints/kate-of-siena.webp",
+    "alt": "AI-generated artistic interpretation of Saint Kate of Siena",
+    "credit": "Saint Discovery",
+    "license": "AI-generated illustration",
+    "source": "/saints/kate-of-siena",
+    "generated": true
+  }
+}

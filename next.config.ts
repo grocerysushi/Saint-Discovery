@@ -35,6 +35,7 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
 };
 
 const nextConfig: NextConfig = {
+  images: { remotePatterns: [{ protocol: "https", hostname: "upload.wikimedia.org", pathname: "/wikipedia/commons/**" }] },
   turbopack: {
     root: __dirname,
   },

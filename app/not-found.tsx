@@ -23,7 +23,7 @@ export default function NotFound() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/"
+            href="/quiz"
             className="px-8 py-3 bg-gold text-navy font-semibold rounded-full hover:bg-gold-light transition-colors"
           >
             Take the Saint Quiz

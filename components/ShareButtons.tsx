@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const BUTTON_CLASS = `px-5 py-2.5 rounded-full bg-navy-lighter border border-navy-lighter
+const BUTTON_CLASS = `px-4 py-2.5 rounded-lg bg-navy border border-navy-lighter
   hover:border-gold/40 text-cream/80 hover:text-cream text-sm transition-colors`;
 
 export default function ShareButtons({
@@ -13,6 +13,7 @@ export default function ShareButtons({
   text: string;
 }) {
   const [copied, setCopied] = useState(false);
+  const [copyError, setCopyError] = useState(false);
   const encodedUrl = encodeURIComponent(url);
   const encodedText = encodeURIComponent(text);
 
@@ -45,15 +46,15 @@ export default function ShareButtons({
         </a>
       ))}
       <button
-        onClick={() => {
-          navigator.clipboard.writeText(`${text} ${url}`);
-          setCopied(true);
-          setTimeout(() => setCopied(false), 2000);
+        onClick={async () => {
+          try { await navigator.clipboard.writeText(`${text} ${url}`); setCopyError(false); setCopied(true); setTimeout(() => setCopied(false), 2000); }
+          catch { setCopyError(true); }
         }}
         className={`${BUTTON_CLASS} cursor-pointer`}
       >
-        {copied ? "Copied!" : "Copy Link"}
+        {copied ? "Copied!" : "Copy link"}
       </button>
+      <span role="status" className={copyError ? "w-full text-sm text-cream-dark" : "sr-only"}>{copyError ? "Couldn’t copy the link. You can use one of the sharing options above." : copied ? "Link copied to clipboard" : ""}</span>
     </div>
   );
 }

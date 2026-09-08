@@ -53,12 +53,12 @@ export default function EmailCapture({
         aria-live="polite"
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="bg-navy-light rounded-2xl p-6 mb-8 text-center outline-none
+        className="result-panel text-center outline-none
                    focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2
                    focus-visible:ring-offset-navy"
       >
         <p className="text-2xl mb-2" aria-hidden>
-          📬
+          ✉
         </p>
         <p className="text-cream font-heading text-lg mb-1">Check your inbox</p>
         <p className="text-cream-dark text-sm leading-relaxed">
@@ -75,7 +75,7 @@ export default function EmailCapture({
       aria-busy={status === "submitting"}
       initial={{ opacity: 0, y: 10 }}
       animate={{ opacity: 1, y: 0 }}
-      className="bg-navy-light rounded-2xl p-6 mb-8 text-left"
+      className="result-panel text-left"
     >
       <p className="text-cream font-heading text-lg mb-1 text-center">
         Take St. {saintName} with you
@@ -108,7 +108,7 @@ export default function EmailCapture({
         </label>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-3">
+      <div className="flex flex-col gap-3">
         <input
           type="email"
           required
@@ -118,7 +118,7 @@ export default function EmailCapture({
           aria-label="Your email address"
           aria-invalid={status === "error"}
           aria-describedby="emailcapture-msg"
-          className="flex-1 min-w-0 px-4 py-3 rounded-full bg-navy border border-navy-lighter
+          className="flex-1 min-w-0 px-4 py-3 rounded-lg bg-navy border border-navy-lighter
                      text-cream placeholder:text-cream-dark/60 transition-colors
                      focus:outline-none focus-visible:ring-2 focus-visible:ring-gold
                      focus-visible:ring-offset-2 focus-visible:ring-offset-navy-light"
@@ -126,7 +126,7 @@ export default function EmailCapture({
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="px-6 py-3 bg-gold text-navy font-semibold rounded-full whitespace-nowrap
+          className="px-6 py-3 bg-gold text-navy font-semibold rounded-lg whitespace-nowrap
                      hover:bg-gold-light transition-colors cursor-pointer
                      disabled:opacity-60 disabled:cursor-not-allowed
                      focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-light

@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion } from "framer-motion";
 import { insforge } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
@@ -39,6 +39,8 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
   // Chosen option per answered question, so Back can rewind the score.
   const [answers, setAnswers] = useState<Option[]>([]);
   const [result, setResult] = useState<Saint | null>(null);
+  const genderHeading = useRef<HTMLHeadingElement>(null);
+  useEffect(() => { if (gender === null) genderHeading.current?.focus({ preventScroll: true }); }, [gender]);
 
   // Total steps = 1 (gender) + number of trait questions
   const totalSteps = questions.length + 1;
@@ -106,60 +108,19 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
     return <Result saint={result} scores={scores} onRestart={onRestart} />;
   }
 
-  // Gender question (step 0)
-  if (gender === null) {
-    return (
-      <div
-        className="flex flex-col items-center justify-center px-6"
-        style={{ minHeight: "calc(100vh - var(--header-height))" }}
-      >
-        <ProgressBar current={currentStep} total={totalSteps} />
-        <AnimatePresence mode="wait">
-          <motion.div
-            key="gender-question"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.4 }}
-            className="w-full max-w-lg mx-auto"
-          >
-            <h2 className="text-2xl md:text-3xl font-heading font-semibold text-cream mb-8 text-center leading-relaxed">
-              What is your gender?
-            </h2>
-            <div className="flex flex-col gap-3">
-              <OptionButton label="Male" index={0} onSelect={() => handleGenderSelect("Male")} />
-              <OptionButton label="Female" index={1} onSelect={() => handleGenderSelect("Female")} />
-            </div>
-          </motion.div>
-        </AnimatePresence>
-      </div>
-    );
-  }
-
-  // Trait questions (steps 1+)
   return (
-    <div
-      className="flex flex-col items-center justify-center px-6"
-      style={{ minHeight: "calc(100vh - var(--header-height))" }}
-    >
+    <div className="quiz-shell">
       <ProgressBar current={currentStep} total={totalSteps} />
-      <AnimatePresence mode="wait">
-        <QuestionCard
-          key={questions[current].id}
-          question={questions[current]}
-          onSelect={handleSelect}
-        />
-      </AnimatePresence>
-      <div className="w-full max-w-lg mx-auto mt-6">
-        <button
-          type="button"
-          onClick={handleBack}
-          className="text-cream-dark/60 hover:text-gold text-sm transition-colors cursor-pointer"
-          aria-label="Go back to the previous question"
-        >
-          &larr; Back
-        </button>
-      </div>
+      {gender === null ? (
+        <motion.section initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="question-card" aria-labelledby="gender-heading">
+          <p className="eyebrow">Let’s start with you</p>
+          <h1 ref={genderHeading} tabIndex={-1} id="gender-heading" className="question-title outline-none">What is your gender?</h1>
+          <p className="text-cream-dark text-sm leading-relaxed mb-6">This helps us match you with a saint of the same gender.</p>
+          <div className="question-options"><OptionButton label="Male" index={0} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female" index={1} onSelect={() => handleGenderSelect("Female")} /></div>
+        </motion.section>
+      ) : <QuestionCard key={questions[current].id} question={questions[current]} onSelect={handleSelect} />}
+      <button type="button" onClick={gender === null ? onRestart : handleBack} className="quiz-back">← {gender === null ? "Back to discovery" : "Previous question"}</button>
+      <p className="quiz-hint">No right or wrong answers. Choose what feels most like you.</p>
     </div>
   );
 }

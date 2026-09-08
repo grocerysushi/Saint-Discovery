@@ -26,9 +26,9 @@ export default async function AboutPage() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
+      <div className="relative z-10 reading-page">
         <header className="mb-10">
-          <p className="text-gold tracking-[0.25em] uppercase text-xs mb-3">
+          <p className="eyebrow mb-3">
             Saint Discovery
           </p>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
@@ -82,7 +82,7 @@ export default async function AboutPage() {
 
         <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
           <Link
-            href="/"
+            href="/quiz"
             className="px-6 py-3 bg-gold text-navy font-semibold rounded-full text-center hover:bg-gold-light transition-colors"
           >
             Take the Saint Quiz

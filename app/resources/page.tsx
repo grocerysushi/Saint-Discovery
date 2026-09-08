@@ -141,111 +141,12 @@ export default async function Resources() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-6xl mx-auto px-6 py-16">
-        <div className="text-center mb-16">
-          <Link
-            href="/"
-            className="inline-block text-gold/50 hover:text-gold text-sm transition-colors mb-6"
-          >
-            ← Back to Quiz
-          </Link>
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4">
-            Catholic Resources &amp; Saints Directory
-          </h1>
-          <p className="text-cream-dark text-lg max-w-xl mx-auto">
-            Deepen your faith with trusted Catholic resources, and explore the
-            full directory of {saints.length || "500+"} saints — biographies,
-            feast days, and prayers.
-          </p>
-        </div>
-
-        {saintsOfTheDay.length > 0 && (
-          <section className="mb-20">
-            <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
-              Saint of the Day
-            </h2>
-            <p className="text-cream-dark/50 text-sm mb-4">{todayStr}</p>
-            <div className="grid gap-4">
-              {saintsOfTheDay.map((saint) => (
-                <Link
-                  key={saint.id}
-                  href={`/saints/${saint.slug}`}
-                  className="block rounded-2xl border border-gold/30 bg-gradient-to-br from-navy-light/80 to-navy-light/40 p-6 hover:border-gold/60 transition-colors"
-                >
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-2xl" aria-hidden>
-                      ✦
-                    </span>
-                    <h3 className="text-2xl font-heading font-bold text-cream">
-                      St. {saint.name}
-                    </h3>
-                  </div>
-                  {saint.tagline && (
-                    <p className="text-gold-light text-sm italic mb-4 ml-8">
-                      &ldquo;{saint.tagline}&rdquo;
-                    </p>
-                  )}
-                  {saint.description && (
-                    <p className="text-cream-dark/80 text-sm leading-relaxed">
-                      {saint.description}
-                    </p>
-                  )}
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
-
-        <section className="mb-20">
-          <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
-            Catholic Resources
-          </h2>
-          <div className="grid gap-4">
-            {RESOURCES.map((r) => (
-              <a
-                key={r.url}
-                href={r.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block p-5 rounded-xl border border-navy-lighter bg-navy-light/40
-                           hover:border-gold/40 transition-colors group"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <h3 className="text-lg font-semibold text-cream group-hover:text-gold transition-colors">
-                    {r.name}
-                  </h3>
-                  <span className="text-gold/40 group-hover:text-gold/70 text-sm transition-colors">
-                    →
-                  </span>
-                </div>
-                <p className="text-cream-dark/70 text-sm leading-relaxed">
-                  {r.description}
-                </p>
-              </a>
-            ))}
-          </div>
-        </section>
-
-        <section>
-          <div className="mb-8">
-            <h2 className="text-2xl font-heading font-semibold text-cream mb-2">
-              Saints Directory
-            </h2>
-            <p className="text-cream-dark/60 text-sm">
-              {saints.length} saints — explore biographies, feast days, and
-              prayers.
-            </p>
-          </div>
-
-          <SaintsDirectory saints={saints} patronTopics={patronTopics} />
-        </section>
-
-        <div className="text-center mt-16 text-cream-dark text-sm">
-          <Link href="/" className="hover:text-gold transition-colors">
-            ← Take the Quiz
-          </Link>
-        </div>
+      <div className="site-width directory-page">
+        <header className="page-intro"><p className="eyebrow">The saints directory</p><h1>So many lives.<br /><em className="text-gold">So much to discover.</em></h1><p>Meet {saints.length} saints, from familiar companions to names you haven’t heard yet. Explore their stories, feast days, and the causes close to their hearts.</p></header>
+        <section aria-label="Saints directory"><SaintsDirectory saints={saints} patronTopics={patronTopics} /></section>
+        {saintsOfTheDay.length > 0 && <section className="directory-support"><p className="eyebrow mb-3">{todayStr}</p><h2>Saint of the day</h2><div className="grid gap-4">{saintsOfTheDay.map(saint => <Link key={saint.id} href={`/saints/${saint.slug}`} className="result-panel"><h3 className="text-2xl mb-2">St. {saint.name} <span className="text-gold" aria-hidden>↗</span></h3>{saint.tagline && <p className="text-gold italic mb-3">{saint.tagline}</p>}{saint.description && <p className="text-cream-dark leading-relaxed">{saint.description}</p>}</Link>)}</div></section>}
+        <section className="directory-support"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
+        <div className="mt-10"><Link href="/quiz" className="btn-secondary">Find your saint match <span aria-hidden>↗</span></Link></div>
       </div>
     </main>
   );

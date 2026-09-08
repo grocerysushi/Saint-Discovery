@@ -6,7 +6,6 @@ import { absoluteUrl, siteConfig } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
 import ShareButtons from "@/components/ShareButtons";
 import saintExtended from "@/lib/data/saint-extended.json";
-import PostHogSaintViewed from "@/components/PostHogSaintViewed";
 
 // Long-form biographies + FAQs for the most-searched saints (generated and
 // fact-checked offline; keyed by slug). Pages without an entry fall back to
@@ -153,12 +152,6 @@ export default async function SaintPage({
 
   return (
     <main className="relative min-h-screen overflow-hidden">
-      <PostHogSaintViewed
-        slug={saint.slug}
-        name={saint.name}
-        feastDay={saint.feast_day}
-        patronOf={saint.patron_of}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
@@ -184,7 +177,7 @@ export default async function SaintPage({
         />
       )}
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
+      <div className="relative z-10 reading-page">
         <nav
           aria-label="Breadcrumb"
           className="text-sm text-gold/60 mb-8 flex flex-wrap gap-2"
@@ -205,7 +198,7 @@ export default async function SaintPage({
 
         <article>
           <header className="mb-10">
-            <p className="text-gold tracking-[0.25em] uppercase text-xs mb-3">
+            <p className="eyebrow mb-3">
               Catholic Saint
             </p>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
@@ -301,7 +294,7 @@ export default async function SaintPage({
           )}
 
           {saint.prayer && (
-            <section className="mb-10 bg-navy-light/50 rounded-xl p-6 border border-navy-lighter">
+            <section className="mb-10 bg-navy-light rounded-xl p-7 border border-navy-lighter">
               <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-3">
                 Prayer to St. {saint.name}
               </h2>
@@ -376,7 +369,7 @@ export default async function SaintPage({
 
           <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
             <Link
-              href="/"
+              href="/quiz"
               className="px-6 py-3 bg-gold text-navy font-semibold rounded-full text-center hover:bg-gold-light transition-colors"
             >
               Take the Saint Quiz

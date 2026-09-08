@@ -84,15 +84,15 @@ export default function PatronIndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
-        <header className="mb-10">
-          <p className="text-gold tracking-[0.25em] uppercase text-xs mb-3">
+      <div className="relative z-10 site-width directory-page">
+        <header className="page-intro">
+          <p className="eyebrow mb-3">
             Saint Discovery
           </p>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-5 leading-tight">
             Patron Saints by Cause
           </h1>
-          <p className="text-cream-dark leading-relaxed">
+          <p className="text-cream-dark leading-relaxed max-w-2xl">
             For nearly every profession, place, illness, and struggle, the
             Church has a patron — a saint whose own life touched that corner of
             human experience and who is asked to pray for those living it now.
@@ -120,14 +120,14 @@ export default function PatronIndexPage() {
         </section>
 
         {letters.map((letter) => (
-          <section key={letter} className="mb-8">
+          <section key={letter} className="patron-letter-group">
             <h2 className="text-gold font-heading text-2xl mb-3">{letter}</h2>
-            <div className="flex flex-wrap gap-x-4 gap-y-2">
+            <div className="patron-links">
               {groups.get(letter)!.map((t) => (
                 <Link
                   key={t.slug}
                   href={`/patron-saint-of/${t.slug}`}
-                  className="text-sm text-cream-dark/80 hover:text-gold transition-colors"
+                  className="text-sm text-cream-dark hover:text-gold transition-colors"
                 >
                   {titleCaseLabel(t.label)}
                   {t.saints.length > 1 && (
@@ -141,7 +141,7 @@ export default function PatronIndexPage() {
 
         <section className="mt-12 pt-8 border-t border-navy-lighter">
           <Link
-            href="/"
+            href="/quiz"
             className="inline-block px-6 py-3 bg-gold text-navy font-semibold rounded-full hover:bg-gold-light transition-colors"
           >
             Take the Saint Quiz

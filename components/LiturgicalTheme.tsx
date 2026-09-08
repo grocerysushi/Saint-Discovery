@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { MotionConfig } from "framer-motion";
 import {
   getLiturgicalTheme,
   getMillisecondsUntilNextMidnight,
@@ -44,7 +45,7 @@ export default function LiturgicalTheme({
 
   return (
     <div style={theme.cssVars} data-liturgical-color={theme.color}>
-      {children}
+      <MotionConfig reducedMotion="user">{children}</MotionConfig>
     </div>
   );
 }

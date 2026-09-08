@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
 };
 
-const EFFECTIVE_DATE = "July 19, 2026";
+const EFFECTIVE_DATE = "September 8, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -41,9 +41,9 @@ export default function PrivacyPage() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
+      <div className="relative z-10 reading-page">
         <header className="mb-10">
-          <p className="text-gold tracking-[0.25em] uppercase text-xs mb-3">
+          <p className="eyebrow mb-3">
             Saint Discovery
           </p>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
@@ -82,12 +82,11 @@ export default function PrivacyPage() {
           </p>
           <p>
             <strong className="text-cream">Usage analytics.</strong> We use
-            Google Analytics and PostHog to understand how visitors use the
+            Google Analytics to understand how visitors use the
             site — pages viewed, quiz starts and completions, which saints
             people look up, and general location and device information. This
-            data is aggregated and does not identify you to us. You can opt
-            out of PostHog tracking by enabling &ldquo;Do Not Track&rdquo; in
-            your browser or by using the opt-out controls described below.
+            data is aggregated and does not identify you to us. You can use
+            the Google Analytics opt-out controls described below.
           </p>
         </Section>
 
@@ -153,45 +152,13 @@ export default function PrivacyPage() {
               </a>
               .
             </li>
-            <li>
-              <strong className="text-cream">PostHog</strong> — product
-              analytics. PostHog (us.posthog.com) receives the page URL,
-              referrer, user agent, and the custom events we trigger from the
-              site (e.g. <code className="text-cream/80">quiz_start</code>,{" "}
-              <code className="text-cream/80">quiz_complete</code>,{" "}
-              <code className="text-cream/80">saint_viewed</code>,{" "}
-              <code className="text-cream/80">email_signup</code>). PostHog
-              sets a first-party cookie to recognize repeat visitors; their
-              data handling is described in{" "}
-              <a
-                href="https://posthog.com/privacy"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gold hover:text-gold-light underline"
-              >
-                PostHog&rsquo;s privacy policy
-              </a>
-              . We route events through our own domain (<code className="text-cream/80">/ingest</code>)
-              so the data is not sent directly to PostHog from your browser. You
-              can opt out by enabling &ldquo;Do Not Track&rdquo; in your
-              browser, or by using the{" "}
-              <a
-                href="https://posthog.com/docs/privacy/opt-out-cookies"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gold hover:text-gold-light underline"
-              >
-                PostHog opt-out
-              </a>{" "}
-              instructions.
-            </li>
           </ul>
         </Section>
 
         <Section title="Cookies">
           <p>
             Saint Discovery itself does not set tracking cookies. Google
-            Analytics, Google Ads, and PostHog set first-party cookies to
+            Analytics and Google Ads set first-party cookies to
             measure visits and recognize returning visitors, as described
             above. Your browser settings let you block or delete cookies at
             any time; the quiz works fine without them.

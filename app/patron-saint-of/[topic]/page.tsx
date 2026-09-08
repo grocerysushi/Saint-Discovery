@@ -121,7 +121,7 @@ export default async function PatronTopicPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 max-w-3xl mx-auto px-6 py-16">
+      <div className="relative z-10 reading-page">
         <nav
           aria-label="Breadcrumb"
           className="text-sm text-gold/60 mb-8 flex flex-wrap gap-2"
@@ -141,7 +141,7 @@ export default async function PatronTopicPage({
         </nav>
 
         <header className="mb-10">
-          <p className="text-gold tracking-[0.25em] uppercase text-xs mb-3">
+          <p className="eyebrow mb-3">
             Patronage
           </p>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-5 leading-tight">
@@ -230,7 +230,7 @@ export default async function PatronTopicPage({
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/"
+              href="/quiz"
               className="px-6 py-3 bg-gold text-navy font-semibold rounded-full text-center hover:bg-gold-light transition-colors"
             >
               Take the Saint Quiz
