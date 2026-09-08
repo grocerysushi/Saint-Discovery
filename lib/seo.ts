@@ -9,10 +9,9 @@ function normalizeSiteUrl(value?: string) {
   return normalized.replace(/\/+$/, "");
 }
 
-const envSiteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ??
-  process.env.VERCEL_PROJECT_PRODUCTION_URL ??
-  process.env.VERCEL_URL;
+// Deployment hostnames are not the public canonical domain. In particular,
+// VERCEL_URL changes per deployment and would split indexing signals.
+const envSiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const siteConfig = {
   name: "Saint Discovery",
@@ -25,4 +24,8 @@ export const siteConfig = {
 
 export function absoluteUrl(path = "/") {
   return new URL(path, siteConfig.url).toString();
+}
+
+export function serializeJsonLd(value: unknown) {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
 }

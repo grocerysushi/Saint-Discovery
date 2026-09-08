@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
 import SaintsDirectory from "@/components/SaintsDirectory";
@@ -122,7 +122,7 @@ export default async function Resources() {
     mainEntity: {
       "@type": "ItemList",
       numberOfItems: saints.length,
-      itemListElement: saints.slice(0, 100).map((s, i) => ({
+      itemListElement: saints.map((s, i) => ({
         "@type": "ListItem",
         position: i + 1,
         url: absoluteUrl(`/saints/${s.slug}`),
@@ -135,14 +135,14 @@ export default async function Resources() {
     <main className="relative min-h-screen overflow-hidden">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(collectionJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
       />
       <div className="site-width directory-page">
-        <header className="page-intro"><p className="eyebrow">The saints directory</p><h1>So many lives.<br /><em className="text-gold">So much to discover.</em></h1><p>Meet {saints.length} saints, from familiar companions to names you haven’t heard yet. Explore their stories, feast days, and the causes close to their hearts.</p></header>
+        <header className="page-intro"><p className="eyebrow">The saints directory</p><h1>Catholic saints directory.<br /><em className="text-gold">So much to discover.</em></h1><p>Explore {saints.length} entries, from familiar companions to names you haven’t heard yet. Read their stories, find feast days, and discover the causes close to their hearts.</p></header>
         <section className="directory-resources"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
         <section aria-label="Saints directory"><SaintsDirectory saints={saints} patronTopics={patronTopics} /></section>
         {saintsOfTheDay.length > 0 && <section className="directory-support"><p className="eyebrow mb-3">{todayStr}</p><h2>Saint of the day</h2><div className="grid gap-4">{saintsOfTheDay.map(saint => <Link key={saint.id} href={`/saints/${saint.slug}`} className="result-panel"><h3 className="text-2xl mb-2">St. {saint.name} <span className="text-gold" aria-hidden>↗</span></h3>{saint.tagline && <p className="text-gold italic mb-3">{saint.tagline}</p>}{saint.description && <p className="text-cream-dark leading-relaxed">{saint.description}</p>}</Link>)}</div></section>}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
 
 export const revalidate = 86400;
@@ -81,7 +81,7 @@ export default function PatronIndexPage() {
     <main className="relative min-h-screen overflow-hidden">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
       <div className="relative z-10 site-width directory-page">

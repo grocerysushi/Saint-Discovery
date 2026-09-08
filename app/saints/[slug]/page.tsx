@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
+import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
 import saintExtended from "@/lib/data/saint-extended.json";
 
@@ -38,49 +39,25 @@ export async function generateMetadata({
     return { title: "Saint Not Found" };
   }
 
-  const title = `St. ${saint.name} — Biography, Feast Day & Prayer`;
-  const descParts = [
-    saint.patron_of ? `Patron saint of ${saint.patron_of}.` : null,
-    saint.feast_day ? `Feast day: ${saint.feast_day}.` : null,
-    saint.known_for ?? saint.description,
-  ].filter(Boolean);
-  const raw =
-    descParts.join(" ") ||
-    `Read the biography, feast day, and prayer of St. ${saint.name}.`;
-  const description =
-    raw.length > 160 ? `${raw.slice(0, 157).trimEnd()}...` : raw;
-
+  const { title, description } = saintSearchSummary(saint);
   const url = absoluteUrl(`/saints/${saint.slug}`);
-
-  const patronKeywords = (saint.patron_of ?? "")
-    .split(/,\s*/)
-    .filter(Boolean)
-    .slice(0, 4)
-    .map((p) => `patron saint of ${p}`);
+  const images = [{ url: absoluteUrl(`/saints/${saint.slug}/opengraph-image`), width: 1200, height: 630, alt: title }];
 
   return {
     title,
     description,
-    keywords: [
-      `St. ${saint.name}`,
-      `Saint ${saint.name}`,
-      `${saint.name} biography`,
-      `${saint.name} feast day`,
-      `${saint.name} prayer`,
-      `who was St. ${saint.name}`,
-      ...patronKeywords,
-      "catholic saint",
-    ],
     alternates: { canonical: `/saints/${saint.slug}` },
     openGraph: {
       title,
       description,
       url,
       siteName: siteConfig.name,
-      type: "profile",
+      type: "article",
+      images,
     },
     twitter: {
       card: "summary_large_image",
+      images,
       title,
       description,
     },
@@ -100,29 +77,21 @@ export default async function SaintPage({
   const allSaints = await getAllSaints().catch(() => []);
   const relatedSaints = getRelatedSaints(saint, allSaints);
   const extended = EXTENDED[saint.slug];
+  const { name, title, description } = saintSearchSummary(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
 
-  const personJsonLd = {
+  const articleJsonLd = {
     "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "@id": url,
+    "@type": "Article",
+    "@id": `${url}#article`,
     url,
-    name: `St. ${saint.name} — Biography, Feast Day & Prayer`,
+    headline: title,
+    description,
     inLanguage: "en-US",
-    isPartOf: {
-      "@type": "WebSite",
-      name: siteConfig.name,
-      url: siteConfig.url,
-    },
-    mainEntity: {
-      "@type": "Person",
-      name: `Saint ${saint.name}`,
-      alternateName: `St. ${saint.name}`,
-      honorificPrefix: "St.",
-      description: saint.known_for || saint.description || saint.tagline || undefined,
-      gender: saint.gender || undefined,
-      url,
-    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    about: { "@type": "Thing", name },
+    publisher: { "@id": absoluteUrl("/#organization") },
+    isPartOf: { "@id": absoluteUrl("/#website") },
   };
 
   const breadcrumbJsonLd = {
@@ -144,7 +113,7 @@ export default async function SaintPage({
       {
         "@type": "ListItem",
         position: 3,
-        name: `St. ${saint.name}`,
+        name,
         item: url,
       },
     ],
@@ -154,17 +123,17 @@ export default async function SaintPage({
     <main className="relative min-h-screen overflow-hidden">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
       />
       {extended && extended.faqs.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
+            __html: serializeJsonLd({
               "@context": "https://schema.org",
               "@type": "FAQPage",
               mainEntity: extended.faqs.map((faq) => ({
@@ -193,16 +162,16 @@ export default async function SaintPage({
             Saints
           </Link>
           <span aria-hidden>/</span>
-          <span className="text-cream-dark/70">St. {saint.name}</span>
+          <span className="text-cream-dark/70">{name}</span>
         </nav>
 
         <article>
           <header className="mb-10">
             <p className="eyebrow mb-3">
-              Catholic Saint
+              Saints &amp; Catholic tradition
             </p>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
-              St. {saint.name}
+              {name}
             </h1>
             {saint.tagline && (
               <p className="text-gold-light text-lg italic mb-4">
@@ -252,8 +221,14 @@ export default async function SaintPage({
             )}
           </header>
 
+          <nav aria-label="On this page" className="flex flex-wrap gap-4 mb-8 text-sm text-gold">
+            {(extended || saint.description) && <a href="#biography" className="underline underline-offset-4">Biography</a>}
+            {saint.prayer && <a href="#prayer" className="underline underline-offset-4">Prayer</a>}
+            {extended && extended.faqs.length > 0 && <a href="#questions" className="underline underline-offset-4">Common questions</a>}
+          </nav>
+
           {extended ? (
-            <section className="mb-10">
+            <section id="biography" className="mb-10 scroll-mt-24">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
                 Biography
               </h2>
@@ -265,7 +240,7 @@ export default async function SaintPage({
             </section>
           ) : (
             saint.description && (
-              <section className="mb-10">
+              <section id="biography" className="mb-10 scroll-mt-24">
                 <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
                   Biography
                 </h2>
@@ -279,7 +254,7 @@ export default async function SaintPage({
           {saint.quotes && saint.quotes.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
-                Quotes from St. {saint.name}
+                Quotes from {name}
               </h2>
               <ul className="space-y-4">
                 {saint.quotes.map((quote) => (
@@ -294,9 +269,9 @@ export default async function SaintPage({
           )}
 
           {saint.prayer && (
-            <section className="mb-10 bg-navy-light rounded-xl p-7 border border-navy-lighter">
+            <section id="prayer" className="mb-10 scroll-mt-24 bg-navy-light rounded-xl p-7 border border-navy-lighter">
               <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-3">
-                Prayer to St. {saint.name}
+                Prayer to {name}
               </h2>
               <p className="text-cream-dark italic leading-relaxed whitespace-pre-line">
                 {saint.prayer}
@@ -316,7 +291,7 @@ export default async function SaintPage({
           )}
 
           {extended && extended.faqs.length > 0 && (
-            <section className="mb-10">
+            <section id="questions" className="mb-10 scroll-mt-24">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
                 Frequently Asked Questions
               </h2>
@@ -337,7 +312,7 @@ export default async function SaintPage({
 
           <ShareButtons
             url={url}
-            text={`St. ${saint.name} — biography, feast day, and prayer.`}
+            text={title}
           />
 
           {relatedSaints.length > 0 && (
@@ -354,7 +329,7 @@ export default async function SaintPage({
                                hover:border-gold/40 transition-colors group"
                   >
                     <h3 className="text-cream font-semibold group-hover:text-gold transition-colors">
-                      St. {related.name}
+                      {saintDisplayName(related)}
                     </h3>
                     {related.tagline && (
                       <p className="text-cream-dark/70 text-sm italic mt-1">

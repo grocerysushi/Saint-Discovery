@@ -4,7 +4,7 @@ import HomePage from "@/components/HomePage";
 import { getSaintOfDay } from "@/lib/saint-of-day";
 
 export const revalidate = 300;
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
@@ -61,7 +61,7 @@ const FAQS = [
   },
   {
     q: "How many saints can I match with?",
-    a: "Saint Discovery includes nearly 500 canonized Catholic saints — from early martyrs and Doctors of the Church to modern saints like Maximilian Kolbe and Thérèse of Lisieux.",
+    a: "Saint Discovery includes nearly 500 entries in its saint directory — from early martyrs and Doctors of the Church to modern saints like Maximilian Kolbe and Thérèse of Lisieux.",
   },
   {
     q: "Is this the same as a patron saint?",
@@ -75,7 +75,7 @@ export default function Home() {
     "@type": "Quiz",
     name: "Which Catholic Saint Are You?",
     description:
-      "A 21-question Catholic personality quiz that matches you with a canonized saint whose virtues reflect your own.",
+      "A 21-question Catholic personality quiz that helps you discover a saint whose virtues reflect your own.",
     url: absoluteUrl("/"),
     educationalUse: "Self-reflection",
     learningResourceType: "Quiz",
@@ -102,11 +102,11 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(quizJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(quizJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(faqJsonLd) }}
       />
       <HomePage dailySaint={getSaintOfDay()} />
       <div className="site-width home-information">
@@ -116,6 +116,24 @@ export default function Home() {
             <p>The saints had their own personalities, struggles, and gifts. Some found God in quiet contemplation. Others lived their faith through bold action, boundless generosity, or everyday joy.</p>
             <p>Our free Catholic personality quiz explores six spiritual traits to introduce you to a saint whose life reflects your own. Your result includes their story, feast day, and a prayer to take with you.</p>
             <Link href="/about" className="text-link text-gold">The story behind Saint Discovery <span aria-hidden>↗</span></Link>
+          </div>
+        </section>
+        <section className="home-about editorial-grid" aria-labelledby="explore-saints">
+          <div><p className="eyebrow">Explore their lives</p><h2 id="explore-saints">Saint biographies,<br />feast days &amp; prayers.</h2></div>
+          <div className="editorial-copy">
+            <p>Learn about a saint’s life, discover their patronage, and find a prayer for your own journey.</p>
+            <ul className="grid sm:grid-cols-2 gap-4 my-6">
+              {[
+                ["francis-of-assisi", "St. Francis of Assisi"],
+                ["anthony-of-padua", "St. Anthony of Padua"],
+                ["therese-of-lisieux", "St. Thérèse of Lisieux"],
+                ["joseph", "St. Joseph"],
+                ["jude-thaddeus", "St. Jude Thaddeus"],
+                ["padre-pio", "St. Padre Pio"],
+              ].map(([slug, name]) => <li key={slug}><Link href={`/saints/${slug}`} className="text-link">{name} <span aria-hidden>↗</span></Link></li>)}
+            </ul>
+            <Link href="/resources" className="text-link">Browse the saints directory →</Link>
+            <p className="mt-4"><Link href="/patron-saint-of" className="text-link">Find patron saints by cause or vocation →</Link></p>
           </div>
         </section>
         <section className="faq-section editorial-grid">

@@ -1,112 +1,27 @@
 import { ImageResponse } from "next/og";
 import { getSaintBySlug } from "@/lib/saints";
+import { saintDisplayName } from "@/lib/saint-seo";
 
+export const alt = "Saint biography, feast day and prayer on Saint Discovery";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
 export const revalidate = 86400;
 
-export const alt = "Catholic saint biography on Saint Discovery";
-export const size = {
-  width: 1200,
-  height: 630,
-};
-export const contentType = "image/png";
-
-export default async function OpenGraphImage({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}) {
+export default async function SaintImage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const saint = await getSaintBySlug(slug).catch(() => null);
-
-  const name = saint ? `St. ${saint.name}` : "Catholic Saint";
-  const tagline = saint?.tagline ?? "Biography, feast day, and prayer";
-  const feastDay = saint?.feast_day ? `Feast Day: ${saint.feast_day}` : null;
+  const saint = await getSaintBySlug(slug);
+  if (!saint) return new Response("Not found", { status: 404 });
+  const name = saintDisplayName(saint);
 
   return new ImageResponse(
-    (
-      <div
-        style={{
-          display: "flex",
-          height: "100%",
-          width: "100%",
-          background:
-            "linear-gradient(135deg, #081527 0%, #102748 50%, #17345F 100%)",
-          color: "#F5ECD8",
-          padding: "64px",
-          fontFamily: "Georgia, serif",
-        }}
-      >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-between",
-            width: "100%",
-            border: "2px solid rgba(212, 175, 55, 0.45)",
-            borderRadius: "32px",
-            padding: "48px",
-            background: "rgba(6, 17, 34, 0.35)",
-          }}
-        >
-          <div
-            style={{
-              display: "flex",
-              fontSize: "26px",
-              letterSpacing: "0.24em",
-              textTransform: "uppercase",
-              color: "#D4AF37",
-            }}
-          >
-            Saint Discovery
-          </div>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "18px",
-              maxWidth: "980px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                fontSize: name.length > 26 ? "58px" : "74px",
-                fontWeight: 700,
-                lineHeight: 1.05,
-              }}
-            >
-              {name}
-            </div>
-            <div
-              style={{
-                display: "flex",
-                fontSize: "30px",
-                lineHeight: 1.35,
-                fontStyle: "italic",
-                color: "rgba(245, 236, 216, 0.82)",
-              }}
-            >
-              {tagline.length > 120 ? `${tagline.slice(0, 117)}...` : tagline}
-            </div>
-          </div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              fontSize: "24px",
-              color: "#F5ECD8",
-            }}
-          >
-            <div style={{ display: "flex" }}>
-              {feastDay ?? "Biography • Feast Day • Prayer"}
-            </div>
-            <div style={{ display: "flex", color: "#D4AF37" }}>
-              Which Catholic saint are you?
-            </div>
-          </div>
-        </div>
+    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "100%", height: "100%", padding: "64px 76px", background: "#111e24", color: "#f5f3eb", borderLeft: "16px solid #b7c99d" }}>
+      <div style={{ display: "flex", fontSize: 25, letterSpacing: "0.14em", color: "#b7c99d" }}>SAINT DISCOVERY</div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+        <div style={{ display: "flex", fontSize: name.length > 38 ? 54 : 72, lineHeight: 1.1, fontWeight: 700 }}>{name}</div>
+        {saint.feast_day && <div style={{ display: "flex", fontSize: 32, color: "#b7c99d" }}>Feast day: {saint.feast_day}</div>}
       </div>
-    ),
-    size
+      <div style={{ display: "flex", fontSize: 26, color: "#c2ced0" }}>Discover the story{saint.prayer ? " · Find a prayer" : ""} · Explore the directory</div>
+    </div>,
+    size,
   );
 }

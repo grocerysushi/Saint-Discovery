@@ -7,7 +7,7 @@ export const revalidate = 86400;
 
 // Bump when site content meaningfully changes. A stable date keeps lastmod
 // honest — stamping every URL with build time teaches Google to ignore it.
-const CONTENT_UPDATED = new Date("2026-07-13");
+const CONTENT_UPDATED = new Date("2026-09-08");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = CONTENT_UPDATED;
@@ -33,32 +33,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified,
+      lastModified: new Date("2026-07-13"),
       changeFrequency: "monthly",
       priority: 0.4,
     },
     {
       url: absoluteUrl("/privacy"),
-      lastModified,
+      lastModified: new Date("2026-07-13"),
       changeFrequency: "yearly",
       priority: 0.2,
     },
   ];
 
-  let saintEntries: MetadataRoute.Sitemap = [];
-  try {
-    const saints = await getAllSaints();
-    saintEntries = saints
-      .filter((s) => s.slug)
-      .map((s) => ({
-        url: absoluteUrl(`/saints/${s.slug}`),
-        lastModified,
-        changeFrequency: "monthly" as const,
-        priority: 0.7,
-      }));
-  } catch {
-    // If saint data is unavailable at build time, fall back to static entries.
-  }
+  // Data is bundled locally: fail visibly if it cannot load instead of
+  // silently publishing a sitemap with every saint biography missing.
+  const saints = await getAllSaints();
+  const saintEntries: MetadataRoute.Sitemap = saints
+    .filter((s) => s.slug)
+    .map((s) => ({
+      url: absoluteUrl(`/saints/${s.slug}`),
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }));
 
   const patronEntries: MetadataRoute.Sitemap = PATRON_TOPICS.map((t) => ({
     url: absoluteUrl(`/patron-saint-of/${t.slug}`),
