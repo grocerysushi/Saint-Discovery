@@ -29,6 +29,13 @@ export const metadata: Metadata = {
     "catholic resources",
   ],
   applicationName: siteConfig.name,
+  icons: {
+    icon: [
+      { url: "/icons/saint-discovery-v2-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icons/saint-discovery-v2-256.png", sizes: "256x256", type: "image/png" },
+    ],
+    apple: [{ url: "/icons/saint-discovery-v2-180.png", sizes: "180x180", type: "image/png" }],
+  },
   category: "religion",
   authors: [{ name: siteConfig.name, url: siteConfig.url }],
   creator: siteConfig.name,

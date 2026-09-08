@@ -1,5 +1,6 @@
 // Rasterize the shared SVG component into a multi-resolution Windows ICO.
 import fs from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import vm from 'node:vm';
 import ts from 'typescript';
@@ -33,3 +34,10 @@ for (const [index, image] of images.entries()) {
 }
 fs.writeFileSync(new URL('../app/favicon.ico', import.meta.url), Buffer.concat([directory, ...images]));
 console.log(`Generated favicon.ico: ${sizes.join(', ')} px`);
+
+// Versioned public filenames force browsers to fetch the redesigned icon.
+const iconDir = new URL('../public/icons/', import.meta.url);
+fs.mkdirSync(iconDir, { recursive: true });
+for (const size of [32, 180, 256]) {
+  await sharp(svg).resize(size, size).png().toFile(fileURLToPath(new URL(`saint-discovery-v2-${size}.png`, iconDir)));
+}
