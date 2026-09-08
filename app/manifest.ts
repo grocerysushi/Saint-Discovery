@@ -8,16 +8,16 @@ export default function manifest(): MetadataRoute.Manifest {
     description: siteConfig.description,
     start_url: "/",
     display: "standalone",
-    background_color: "#081527",
-    theme_color: "#081527",
+    background_color: "#111b21",
+    theme_color: "#111b21",
     icons: [
       {
-        src: "/icon",
+        src: "/icon?v=20260908",
         sizes: "256x256",
         type: "image/png",
       },
       {
-        src: "/apple-icon",
+        src: "/apple-icon?v=20260908",
         sizes: "180x180",
         type: "image/png",
       },
