@@ -84,6 +84,8 @@ export function buildResultEmail(params: {
     SAINT_URL: params.saintUrl,
     UNSUBSCRIBE_URL: params.unsubscribeUrl,
     SITE_URL: params.siteUrl,
+    DAILY_URL: new URL("/saint-of-day", params.siteUrl).toString(),
+    GUIDE_URL: new URL("/confirmation-saint-guide", params.siteUrl).toString(),
   };
 
   let html = T.RESULT_HTML;

@@ -23,6 +23,9 @@ test('reviewed Blessed email retains its title and omits absent devotional field
   assert.doesNotMatch(result.text, /""|The Prayer|words below/);
   assert.match(result.html, /August 13/);
   assert.ok(result.html.includes(params.unsubscribeUrl));
+  assert.ok(result.html.includes(params.postalAddress));
+  assert.ok(result.html.includes('https://example.org/saint-of-day'));
+  assert.ok(result.html.includes('https://example.org/confirmation-saint-guide'));
 });
 
 test('available tagline and prayer survive rendering with HTML escaping', () => {
@@ -44,4 +47,19 @@ test('confirmation still carries its actionable subscription link', () => {
   assert.ok(result.html.includes(confirmUrl));
   assert.ok(result.text.includes(confirmUrl));
   assert.doesNotMatch(result.html, /\{\{|\[\[/);
+});
+
+test('both email layouts use the current site palette and a fluid email-safe frame', () => {
+  const result = buildResultEmail({ ...params, saint: {
+    name: 'Joseph', slug: 'joseph', kind: 'saint', description: 'A life to explore.',
+    tagline: '', prayer: null, feast_day: null,
+  } });
+  const confirmation = buildConfirmEmail({ confirmUrl: 'https://example.org/confirm?token=test', siteUrl: params.siteUrl });
+  for (const email of [result, confirmation]) {
+    for (const color of ['#111b21', '#19272e', '#becda6', '#f6f4ed']) assert.ok(email.html.includes(color));
+    assert.doesNotMatch(email.html, /#f2ede4|#1a1a2e|#d4a574|\{\{|\[\[/);
+    assert.match(email.html, /width:100%;max-width:600px/);
+    assert.match(email.html, /role="presentation"/);
+    assert.ok(email.html.length < 100000);
+  }
 });
