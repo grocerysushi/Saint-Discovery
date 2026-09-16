@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { saintDisplayName } from "@/lib/saint-seo";
 import { notFound } from "next/navigation";
+import { PATRON_GUIDES, getPatronGuide } from "@/lib/patron-guides";
+import PatronGuideContent from "./PatronGuideContent";
 import { getAllSaints } from "@/lib/saints";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import {
@@ -14,7 +16,7 @@ import {
 export const revalidate = 86400;
 
 export function generateStaticParams() {
-  return PATRON_TOPICS.map((t) => ({ topic: t.slug }));
+  return [...new Set([...PATRON_TOPICS, ...PATRON_GUIDES].map(t => t.slug))].map(topic => ({ topic }));
 }
 
 type Params = { topic: string };
@@ -25,6 +27,14 @@ export async function generateMetadata({
   params: Promise<Params>;
 }): Promise<Metadata> {
   const { topic: topicSlug } = await params;
+  const guide = getPatronGuide(topicSlug);
+  if (guide) return {
+    title: guide.title,
+    description: guide.description,
+    alternates: { canonical: `/patron-saint-of/${guide.slug}` },
+    openGraph: { title: guide.title, description: guide.description, url: absoluteUrl(`/patron-saint-of/${guide.slug}`), siteName: siteConfig.name, type: "article" },
+    twitter: { card: "summary_large_image", title: guide.title, description: guide.description },
+  };
   const topic = getTopicBySlug(topicSlug);
   if (!topic) return { title: "Patronage Not Found" };
 
@@ -66,6 +76,8 @@ export default async function PatronTopicPage({
   params: Promise<Params>;
 }) {
   const { topic: topicSlug } = await params;
+  const guide = getPatronGuide(topicSlug);
+  if (guide) return <PatronGuideContent guide={guide} />;
   const topic = getTopicBySlug(topicSlug);
   if (!topic) notFound();
 
@@ -227,7 +239,7 @@ export default async function PatronTopicPage({
         <section className="pt-8 border-t border-navy-lighter">
           <p className="text-cream-dark mb-5">
             Not sure which saint walks closest to you? The quiz matches your
-            temperament against 480+ saints in about two minutes.
+            temperament with saints in the directory in about two minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

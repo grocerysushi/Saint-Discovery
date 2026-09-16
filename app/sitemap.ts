@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { absoluteUrl } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
+import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { getBiographyReview } from "@/lib/saint-reviews";
 
 export const revalidate = 86400;
@@ -33,13 +34,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/resources"),
-      lastModified,
+      lastModified: new Date("2026-09-16"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: absoluteUrl("/patron-saint-of"),
-      lastModified,
+      lastModified: new Date("2026-09-16"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
@@ -69,12 +70,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     }));
 
-  const patronEntries: MetadataRoute.Sitemap = PATRON_TOPICS.map((t) => ({
+  const guideSlugs = new Set(PATRON_GUIDES.map(guide => guide.slug));
+  const patronEntries: MetadataRoute.Sitemap = PATRON_TOPICS.filter(t => !guideSlugs.has(t.slug)).map((t) => ({
     url: absoluteUrl(`/patron-saint-of/${t.slug}`),
     lastModified,
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));
 
-  return [...staticEntries, ...saintEntries, ...patronEntries];
+  const guideEntries: MetadataRoute.Sitemap = PATRON_GUIDES.map(guide => ({
+    url: absoluteUrl(`/patron-saint-of/${guide.slug}`),
+    lastModified: new Date(guide.reviewedOn),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
+
+  return [...staticEntries, ...saintEntries, ...patronEntries, ...guideEntries];
 }

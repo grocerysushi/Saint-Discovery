@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs",
+    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs tests/directory-filters.test.mjs tests/patron-guides.test.mjs",
     "test:seo": "node --test tests/seo-build.test.mjs"
   },
   "dependencies": {

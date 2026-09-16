@@ -5,6 +5,7 @@ import { getAllSaints, getAllSaintSlugs, getRelatedSaints, getSaintBySlug } from
 import { getBiographyReview } from "@/lib/saint-reviews";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
+import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
@@ -81,6 +82,7 @@ export default async function SaintPage({
   const extended = review ? { biography: review.biography, faqs: [] } : EXTENDED[saint.slug];
   const { name, title, description } = saintSearchSummary(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
+  const relatedGuides = PATRON_GUIDES.filter(guide => guide.saints.some(entry => entry.slug === saint.slug));
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -334,6 +336,20 @@ export default async function SaintPage({
             url={url}
             text={title}
           />
+
+          {relatedGuides.length > 0 && (
+            <section className="mt-12 pt-8 border-t border-navy-lighter" aria-labelledby="related-guides-heading">
+              <h2 id="related-guides-heading" className="text-2xl font-heading font-semibold text-cream mb-4">Explore this saint in everyday life</h2>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {relatedGuides.map(guide => (
+                  <Link key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block rounded-xl border border-navy-lighter bg-navy-light/40 p-4 hover:border-gold/40">
+                    <h3 className="font-semibold text-gold">{guide.title}</h3>
+                    <p className="mt-2 text-sm text-cream-dark">{guide.description}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           {relatedSaints.length > 0 && (
             <section className="mt-12 pt-8 border-t border-navy-lighter">

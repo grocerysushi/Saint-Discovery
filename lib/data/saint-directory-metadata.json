@@ -1,0 +1,2085 @@
+{
+  "abraham": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "adrian-of-canterbury": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "agnes-le-thi-thanh": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "agnes-of-assisi": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "agnes-of-bohemia": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "aidan": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "albert-chmielowski": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": []
+  },
+  "albert-of-montecorvino": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "albert-the-great": {
+    "vocations": [
+      "Bishop",
+      "Education"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "alberto-hurtado": {
+    "vocations": [
+      "Priest",
+      "Education"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "alexander-of-jerusalem": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "aloysius-gonzaga": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "alphonsa-of-the-immaculate-conception": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "alphonsus-liguori": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Redemptorists"
+    ]
+  },
+  "ambrose": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "andr-bessette": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Congregation of Holy Cross"
+    ]
+  },
+  "andrew": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "andrew-corsini": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "andrew-dung-lac": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "andrew-kim-taegon": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "anicetus": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "ansbert": {
+    "vocations": [
+      "Bishop",
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "anselm-of-canterbury": {
+    "vocations": [
+      "Bishop",
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "ansgar": {
+    "vocations": [
+      "Bishop",
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "anthony-mary-claret": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "anthony-mary-zaccaria": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "anthony-of-padua": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "anthony-the-great": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "anuarite-nengapeta": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "apollinaris": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "arsenius": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "athanasius": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "augustine-of-canterbury": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "augustine-of-hippo": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "augustine-zhao-rong": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "barnabas": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "bartholomew": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "basil-the-elder": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "basil-the-great": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "bede-the-venerable": {
+    "vocations": [
+      "Priest",
+      "Monastic life",
+      "Education"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "benedict": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "benedict-the-moor": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "benjamin": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": []
+  },
+  "bernadette-soubirous": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "bernard-of-clairvaux": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Cistercians"
+    ]
+  },
+  "bernardine-of-siena": {
+    "vocations": [],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "blaise": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "bonaventure": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "boniface": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "brendan-the-navigator": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "bridget-of-sweden": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "brigid-of-ireland": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "brocard": {
+    "vocations": [],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "bruno": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Carthusians"
+    ]
+  },
+  "cajetan": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "callistus-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "camillus-de-lellis": {
+    "vocations": [
+      "Priest",
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "carlo-acutis": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "catherine-de-ricci": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "catherine-labour": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Daughters of Charity"
+    ]
+  },
+  "catherine-of-siena": {
+    "vocations": [],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "cesario": {
+    "vocations": [
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "chaeremon": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "charbel-makhlouf": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "charles-borromeo": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "charles-lwanga": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "charles-of-mount-argus": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Passionists"
+    ]
+  },
+  "chiara-badano": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "clare-of-assisi": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "claude-de-la-colombi-re": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "colette-of-corbie": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "columba-of-iona": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "conrad-of-piacenza": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "cosmas": {
+    "vocations": [
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "cuthbert-of-lindisfarne": {
+    "vocations": [
+      "Bishop",
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "cyprian": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "cyril-of-alexandria": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "cyril-of-jerusalem": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "damasus-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "damien-of-molokai": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "daniel-comboni": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "david-of-wales": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "denis": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "devasahayam-pillai": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "dominic": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "dominic-of-silos": {
+    "vocations": [
+      "Priest",
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "dominic-savio": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "dulce-lopes-pontes": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "dunstan": {
+    "vocations": [
+      "Bishop",
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "edith-stein": {
+    "vocations": [
+      "Religious sister",
+      "Education"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "edmund-campion": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "edmund-rich": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "egwin": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "el-bieta-hesselblad": {
+    "vocations": [
+      "Religious sister",
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "eleutherius": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "elizabeth-ann-seton": {
+    "vocations": [
+      "Religious sister",
+      "Married life / parenthood",
+      "Education"
+    ],
+    "orders": []
+  },
+  "elizabeth-mother-of-john-baptist": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "elizabeth-of-hungary": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "elizabeth-of-portugal": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "elizabeth-of-the-trinity": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "emma": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "enda": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "ephrem-the-syrian": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": []
+  },
+  "eulogius-of-toledo": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "euphrasia-eluvathingal": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "eutychian": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "evaristus": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "ezequiel-moreno": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "faustina-kowalska": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "finbar": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "flannan": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "frances-of-rome": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "frances-xavier-cabrini": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "francis-caracciolo": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "francis-de-sales": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "francis-of-assisi": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "francis-xavier": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "franz-jagerstatter": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "frederick": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "fructuosus": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "frumentius": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "gabriel-of-our-lady-of-sorrows": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Passionists"
+    ]
+  },
+  "gelasius-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "gerard-majella": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Redemptorists"
+    ]
+  },
+  "gertrude-the-great": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "gianna-beretta-molla": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life",
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "gregory-barbarigo": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "gregory-of-nazianzus": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "gregory-the-great": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "gregory-the-illuminator": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "hilary-of-arles": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "hilary-of-poitiers": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "hilda-of-whitby": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "hildegard-of-bingen": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "hugh-of-grenoble": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "hyacinth": {
+    "vocations": [],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "hyginus": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "ignatius-of-antioch": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "ignatius-of-loyola": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "irenaeus-of-lyon": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "isaac-jogues": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "isidore-bakanja": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "isidore-of-seville": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "isidore-the-farmer": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "james-the-greater": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "jane-frances-de-chantal": {
+    "vocations": [
+      "Religious sister",
+      "Married life / parenthood"
+    ],
+    "orders": [
+      "Visitation"
+    ]
+  },
+  "januarius": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "jeanne-jugan": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Little Sisters of the Poor"
+    ]
+  },
+  "joan-of-arc": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "john-baptist-de-la-salle": {
+    "vocations": [
+      "Education"
+    ],
+    "orders": []
+  },
+  "john-baptist-de-rossi": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "john-berchmans": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "john-bosco": {
+    "vocations": [
+      "Priest",
+      "Education"
+    ],
+    "orders": [
+      "Salesian family"
+    ]
+  },
+  "john-cantius": {
+    "vocations": [
+      "Priest",
+      "Education"
+    ],
+    "orders": []
+  },
+  "john-chrysostom": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "john-climacus": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "john-de-br-beuf": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "john-eudes": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "john-fisher": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "john-francis-regis": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "john-henry-newman": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Oratorians"
+    ]
+  },
+  "john-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "john-neumann": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": [
+      "Redemptorists"
+    ]
+  },
+  "john-of-beverley": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "john-of-capistrano": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "john-of-damascus": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "john-of-god": {
+    "vocations": [
+      "Religious brother",
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "john-of-san-facundo": {
+    "vocations": [],
+    "orders": [
+      "Augustinian family"
+    ]
+  },
+  "john-of-the-cross": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "john-of-vila": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "john-ogilvie": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "john-paul-ii": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "john-the-apostle": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "john-vianney": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "john-xxiii": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "josaphat": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "jose-sanchez-del-rio": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "josemaria-escriva": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "joseph": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "joseph-cafasso": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "joseph-of-cupertino": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "josephine-bakhita": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "juan-diego": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "jude-thaddeus": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "jun-pero-serra": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "kateri-tekakwitha": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "katharine-drexel": {
+    "vocations": [
+      "Religious sister",
+      "Education"
+    ],
+    "orders": []
+  },
+  "kevin": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "kizito": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "kuriakose-elias-chavara": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "laura-montoya": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "lawrence": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": []
+  },
+  "lawrence-of-brindisi": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "lawrence-otoole": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "leo-the-great": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "leopold-mandi": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "lioba": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "lorenzo-ruiz": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "louis-de-montfort": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "louis-martin": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "louise-de-marillac": {
+    "vocations": [
+      "Religious sister",
+      "Married life / parenthood"
+    ],
+    "orders": [
+      "Daughters of Charity"
+    ]
+  },
+  "luke-of-simferopol": {
+    "vocations": [
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "magdalen-of-canossa": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "malachy": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "marcellin-champagnat": {
+    "vocations": [
+      "Priest",
+      "Education"
+    ],
+    "orders": []
+  },
+  "marcellinus": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "marcellus-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "margaret-clitherow": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "margaret-mary-alacoque": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Visitation"
+    ]
+  },
+  "margaret-of-hungary": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "margaret-of-scotland": {
+    "vocations": [
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "marguerite-bays": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "marguerite-bourgeoys": {
+    "vocations": [
+      "Religious sister",
+      "Education"
+    ],
+    "orders": []
+  },
+  "marguerite-dyouville": {
+    "vocations": [
+      "Religious sister",
+      "Married life / parenthood"
+    ],
+    "orders": []
+  },
+  "maria-de-jesus-sacramentado": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "maria-goretti": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "maria-guadalupe-garcia-zavala": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "maria-mazzarello": {
+    "vocations": [
+      "Religious sister",
+      "Education"
+    ],
+    "orders": [
+      "Salesian family"
+    ]
+  },
+  "mariam-baouardy": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "mariam-thresia-chiramel": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "marianne-cope": {
+    "vocations": [
+      "Religious sister",
+      "Healthcare"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "maroun": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "martin-de-porres": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "martin-i": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "mary-mackillop": {
+    "vocations": [
+      "Religious sister",
+      "Education"
+    ],
+    "orders": [
+      "Sisters of Saint Joseph of the Sacred Heart"
+    ]
+  },
+  "mary-of-egypt": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "matthew": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "matthias": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "maurus": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "maximilian-kolbe": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "michael-mcgivney": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "miguel-pro": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "monica": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "moses-the-black": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "mother-teresa": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Missionaries of Charity"
+    ]
+  },
+  "nicholas-of-myra": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "nicholas-owen": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "norbert": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "notburga": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "odilo-of-cluny": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "oliver-plunkett": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "oscar-romero": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "pachomius": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "pacian-of-barcelona": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "pacificus-of-san-severino": {
+    "vocations": [],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "padre-pio": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "paisios-of-mount-athos": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "pantaleon": {
+    "vocations": [
+      "Healthcare"
+    ],
+    "orders": []
+  },
+  "paschal-bayl-n": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "patrick": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "paul-chong-hasang": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "paul-miki": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "paul-of-the-cross": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Passionists"
+    ]
+  },
+  "paul-the-apostle": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "paul-the-simple": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "pedro-calungsod": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "perfectus": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "perpetua": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "peter": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "peter-canisius": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "peter-chanel": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Society of Mary (Marists)"
+    ]
+  },
+  "peter-claver": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "peter-damian": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "peter-julian-eymard": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "peter-of-alc-ntara": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "peter-to-rot": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "philip-neri": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Oratorians"
+    ]
+  },
+  "philip-the-apostle": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "pier-giorgio-frassati": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "pius-v": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "pius-x": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "polycarp": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "rabanus-maurus": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Benedictine family"
+    ]
+  },
+  "rafqa": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "raymond-of-pe-afort": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "richard-of-chichester": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "rita-of-cascia": {
+    "vocations": [
+      "Religious sister",
+      "Married life / parenthood"
+    ],
+    "orders": [
+      "Augustinian family"
+    ]
+  },
+  "robert-bellarmine": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "robert-of-newminster": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": [
+      "Cistercians"
+    ]
+  },
+  "romanus-of-condat": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "romuald": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "roque-gonz-lez": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "rose-of-lima": {
+    "vocations": [],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "rose-philippine-duchesne": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": []
+  },
+  "scholastica": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "seraphim-of-sarov": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "sergius-of-radonezh": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "simon-the-apostle": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "sixtus-ii": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "solanus-casey": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Franciscan family"
+    ]
+  },
+  "stanislaus": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "stanislaus-kostka": {
+    "vocations": [
+      "Religious brother"
+    ],
+    "orders": [
+      "Jesuits"
+    ]
+  },
+  "stanley-rother": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "stephen": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": []
+  },
+  "sylvester": {
+    "vocations": [
+      "Pope"
+    ],
+    "orders": []
+  },
+  "teresa-of-avila": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "teresa-of-the-andes": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "therese-of-lisieux": {
+    "vocations": [
+      "Religious sister"
+    ],
+    "orders": [
+      "Carmelite family"
+    ]
+  },
+  "thomas-aquinas": {
+    "vocations": [
+      "Priest",
+      "Education"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "thomas-becket": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "thomas-more": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "thomas-the-apostle": {
+    "vocations": [
+      "Apostle"
+    ],
+    "orders": []
+  },
+  "toribio-romo-gonz-lez": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "turibius-of-mogrovejo": {
+    "vocations": [
+      "Bishop"
+    ],
+    "orders": []
+  },
+  "vincent": {
+    "vocations": [
+      "Deacon"
+    ],
+    "orders": []
+  },
+  "vincent-de-paul": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "vincent-ferrer": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": [
+      "Dominican family"
+    ]
+  },
+  "walburga": {
+    "vocations": [
+      "Monastic life"
+    ],
+    "orders": []
+  },
+  "yves": {
+    "vocations": [
+      "Priest"
+    ],
+    "orders": []
+  },
+  "zelie-martin": {
+    "vocations": [
+      "Married life / parenthood",
+      "Lay life"
+    ],
+    "orders": []
+  },
+  "zita": {
+    "vocations": [
+      "Lay life"
+    ],
+    "orders": []
+  }
+}

@@ -4,6 +4,7 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
+import { PATRON_GUIDES } from "@/lib/patron-guides";
 import SaintsDirectory from "@/components/SaintsDirectory";
 
 export const revalidate = 86400;
@@ -11,7 +12,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Catholic Resources and Saints Directory",
   description:
-    "Browse trusted Catholic resources, discover saints of the day, and search a directory of 480+ Catholic saints by name, feast day, and patronage.",
+    "Browse Catholic resources and a sourced saints directory. Filter by feast month, country or region, vocation, religious order, and saint or blessed status.",
   keywords: [
     "catholic saints directory",
     "saint of the day catholic",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Catholic Resources and Saints Directory",
     description:
-      "Explore Catholic resources, saint biographies, feast days, and a searchable directory of 480+ saints.",
+      "Explore Catholic resources and saint biographies. Search by name or patronage, and filter by feast month, place, vocation, religious family, and status.",
     url: absoluteUrl("/resources"),
     siteName: siteConfig.name,
     type: "website",
@@ -83,7 +84,7 @@ export default async function Resources() {
 
   // Slim patron-topic index for the directory's high-intent search
   // (e.g. typing "doctors" surfaces the Patron Saint of Doctors page).
-  const patronTopics = PATRON_TOPICS.map((t) => ({
+  const patronTopics = [...PATRON_GUIDES, ...PATRON_TOPICS.filter(topic => !PATRON_GUIDES.some(guide => guide.slug === topic.slug))].map((t) => ({
     slug: t.slug,
     label: t.label,
     saintCount: t.saints.length,

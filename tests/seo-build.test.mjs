@@ -12,6 +12,35 @@ const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "
 const meta = (source, key) => decode(source.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]*)"`))?.[1] ?? '');
 const jsonLd = source => [...source.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
 
+test('life guides have indexable content, citations, sitemap entries, and reciprocal biography links', () => {
+  const { PATRON_GUIDES } = loadTs('lib/patron-guides.ts');
+  const sitemap = read('.next/server/app/sitemap.xml.body');
+  const index = html('patron-saint-of');
+  for (const guide of PATRON_GUIDES) {
+    const route = `/patron-saint-of/${guide.slug}`;
+    const source = html(route.slice(1));
+    const rendered = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
+    assert.equal((source.match(/<h1\b/g) ?? []).length, 1, guide.slug);
+    assert.ok(source.includes(`rel="canonical" href="${origin}${route}"`), guide.slug);
+    assert.equal(meta(source, 'description'), guide.description, guide.slug);
+    assert.ok(!/noindex/.test(meta(source, 'robots')), guide.slug);
+    assert.equal(sitemap.split(`<loc>${origin}${route}</loc>`).length - 1, 1, guide.slug);
+    assert.ok(index.includes(`href="${route}"`), guide.slug);
+    assert.ok(rendered.includes(guide.distinction), guide.slug);
+    const article = jsonLd(source).flatMap(item => item['@graph'] ?? [item]).find(item => item['@type'] === 'Article');
+    assert.equal(article?.dateModified, guide.reviewedOn, guide.slug);
+    for (const entry of guide.saints) {
+      assert.ok(rendered.includes(entry.explanation), `${guide.slug}: explanation`);
+      assert.ok(source.includes(`href="/saints/${entry.slug}"`), `${guide.slug}: biography link`);
+      assert.ok(html(`saints/${entry.slug}`).includes(`href="${route}"`), `${guide.slug}: reverse link`);
+      for (const citation of entry.sources) {
+        assert.ok(source.includes(`href="${citation.url.replace(/&/g, '&amp;')}"`), citation.url);
+        assert.ok(article.citation.includes(citation.url), citation.url);
+      }
+    }
+  }
+});
+
 test('confirmation guide is discoverable and recommends only reviewed Catholic saints', () => {
   const source = html('confirmation-saint-guide');
   const { CONFIRMATION_PICKS } = loadTs('lib/confirmation-guide.ts');

@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
+import { PATRON_GUIDES } from "@/lib/patron-guides";
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "Patron Saints by Cause — Find the Patron Saint of Anything",
+  title: "Patron Saints by Cause and Guides for Everyday Life",
   description:
-    "Browse 700+ Catholic patronages A to Z — from travelers and nurses to lost causes and anxiety — and find which saint to ask for intercession.",
+    "Explore sourced saint guides for blacksmiths, nurses, parents, students, grief, and difficult decisions, alongside an A-to-Z patron saint directory.",
   keywords: [
     "patron saint of",
     "patron saints list",
@@ -20,14 +21,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Patron Saints by Cause | Saint Discovery",
     description:
-      "Browse 700+ Catholic patronages A to Z and find which saint to ask for intercession.",
+      "Explore patronages A to Z and sourced guides to saints for everyday life.",
     url: absoluteUrl("/patron-saint-of"),
     siteName: siteConfig.name,
     type: "website",
   },
 };
 
-// The topics people actually search for, surfaced above the A–Z wall.
+// Editorial shortcuts, not a ranking of Search Console query volumes.
 const FEATURED_SLUGS = [
   "travelers",
   "the-sick",
@@ -93,17 +94,26 @@ export default function PatronIndexPage() {
             Patron Saints by Cause
           </h1>
           <p className="text-cream-dark leading-relaxed max-w-2xl">
-            For nearly every profession, place, illness, and struggle, the
-            Church has a patron — a saint whose own life touched that corner of
-            human experience and who is asked to pray for those living it now.
-            Browse {PATRON_TOPICS.length} patronages below, or start with the
-            ones people look for most.
+            Find saints connected with work, family life, and the challenges
+            you face. Start with a sourced guide, or browse {PATRON_TOPICS.length}{" "}
+            patronage topics. The guides explain the difference between
+            documented patronage and a saint offered as a spiritual companion.
           </p>
         </header>
 
+        <section className="mb-12" aria-labelledby="life-guides">
+          <h2 id="life-guides" className="font-heading text-3xl text-cream mb-5">Saints for everyday life</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            {PATRON_GUIDES.map(guide => <Link key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block p-6 rounded-xl border border-navy-lighter bg-navy-light/40 hover:border-gold transition-colors">
+              <h3 className="font-heading text-xl text-cream mb-3">{guide.label} <span aria-hidden="true">→</span></h3>
+              <p className="text-sm text-cream-dark leading-relaxed">{guide.description}</p>
+            </Link>)}
+          </div>
+        </section>
+
         <section className="mb-12">
           <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-4">
-            Most searched
+            Explore patronages
           </h2>
           <div className="flex flex-wrap gap-2">
             {featured.map((t) => (
