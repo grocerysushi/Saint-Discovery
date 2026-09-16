@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { saintDisplayName } from "@/lib/saint-seo";
 import { Saint } from "@/lib/types";
 
 interface PatronTopicMini {
@@ -88,7 +89,7 @@ export default function SaintsDirectory({
         {topicMatches.length > 0 && <section className="mb-6" aria-label="Matching patronages"><div className="grid grid-cols-1 md:grid-cols-3 gap-3">{topicMatches.map(t => <Link key={t.slug} href={`/patron-saint-of/${t.slug}`} className="topic-match"><span className="eyebrow block mb-2">Related patronage</span><span className="text-cream capitalize">{t.label}</span><span className="text-gold float-right" aria-hidden>↗</span><span className="text-cream-dark text-xs block mt-2">{t.saintCount} saint{t.saintCount !== 1 ? "s" : ""}</span></Link>)}</div></section>}
         <div className="saint-grid">{filtered.map(saint => <Link key={saint.id} href={`/saints/${saint.slug}`} className="saint-card">
           {saint.feast_day && <div className="saint-card-top"><span className="saint-card-date">{saint.feast_day}</span></div>}
-          <h3>St. {saint.name}</h3>{saint.tagline && <p className="line-clamp-2">{saint.tagline}</p>}
+          <h3>{saintDisplayName(saint)}</h3>{saint.tagline && <p className="line-clamp-2">{saint.tagline}</p>}
           <div className="saint-card-bottom"><span>{saint.origin || "A life of faith"}</span><span className="arrow" aria-hidden>↗</span></div>
         </Link>)}</div>
       </>}

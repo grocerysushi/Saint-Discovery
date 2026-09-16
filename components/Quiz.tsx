@@ -7,11 +7,14 @@ import { matchSaint } from "@/lib/scoring";
 import { track } from "@/lib/analytics";
 import quizData from "@/lib/data/quiz.json";
 import quizSaints from "@/lib/data/quiz-saints.json";
+import { applySaintReview, canonicalSaintSlug } from "@/lib/saint-reviews";
 import saintDbIds from "@/lib/data/saint-db-ids.json";
 import ProgressBar from "./ProgressBar";
 import QuestionCard from "./QuestionCard";
 import OptionButton from "./OptionButton";
 import Result from "./Result";
+import { moreQuizSaints } from "@/lib/quiz-results";
+import { saveQuizResult, useQuizSession } from "./useQuizSession";
 
 // Quiz content ships with the bundle (lib/data/*.json) so the quiz works even
 // if the backend is unreachable; only result logging touches the network.
@@ -21,9 +24,13 @@ const QUESTIONS: QuestionWithOptions[] = quizData.questions.map((q) => ({
     (o) => o.question_id === q.id
   ),
 }));
-const SAINTS = quizSaints as Saint[];
+const SAINTS = (quizSaints as Saint[])
+  .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
+  .map(applySaintReview)
+  .filter(saint => saint.kind !== "unresolved" && saint.kind !== "observance");
 
-export default function Quiz({ onRestart }: { onRestart: () => void }) {
+export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onExit: () => void }) {
+  const saved = useQuizSession();
   const [questions] = useState<QuestionWithOptions[]>(QUESTIONS);
   const [saints] = useState<Saint[]>(SAINTS);
   const [gender, setGender] = useState<string | null>(null);
@@ -71,6 +78,7 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
       const pool = filtered.length > 0 ? filtered : saints;
       const matched = matchSaint(newScores, pool);
       setResult(matched);
+      saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: newScores });
       track("quiz_complete", { saint_slug: matched.slug });
       // Best-effort analytics; never let a backend outage break the result
       // screen. quiz_results.saint_id is a FK to the backend's saints table,
@@ -104,8 +112,11 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
     setCurrent(current - 1);
   };
 
-  if (result) {
-    return <Result saint={result} scores={scores} onRestart={onRestart} />;
+  const displayedResult = result ?? (saved ? saints.find(saint => saint.slug === saved.slug) : null);
+  if (displayedResult) {
+    const displayedScores = result ? scores : saved!.scores;
+    const displayedGender = result ? gender : saved!.gender;
+    return <Result saint={displayedResult} scores={displayedScores} relatedSaints={moreQuizSaints(displayedScores, saints.filter(saint => saint.gender === displayedGender), displayedResult.slug)} onRestart={() => { saveQuizResult(null); onRestart(); }} />;
   }
 
   return (
@@ -119,7 +130,7 @@ export default function Quiz({ onRestart }: { onRestart: () => void }) {
           <div className="question-options"><OptionButton label="Male" index={0} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female" index={1} onSelect={() => handleGenderSelect("Female")} /></div>
         </motion.section>
       ) : <QuestionCard key={questions[current].id} question={questions[current]} onSelect={handleSelect} />}
-      <button type="button" onClick={gender === null ? onRestart : handleBack} className="quiz-back">← {gender === null ? "Back to discovery" : "Previous question"}</button>
+      <button type="button" onClick={gender === null ? onExit : handleBack} className="quiz-back">← {gender === null ? "Back to discovery" : "Previous question"}</button>
       <p className="quiz-hint">No right or wrong answers. Choose what feels most like you.</p>
     </div>
   );

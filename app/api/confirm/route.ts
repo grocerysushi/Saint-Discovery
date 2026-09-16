@@ -43,7 +43,7 @@ export async function POST(request: NextRequest) {
   if (!verified) return seeOther("/subscribed?status=invalid");
 
   const saint = await getSaintBySlug(verified.slug);
-  if (!saint) return seeOther("/subscribed?status=invalid");
+  if (!saint || saint.kind === "unresolved") return seeOther("/subscribed?status=invalid");
 
   // Record the signup, idempotently (one row per email). Best-effort — a backend
   // hiccup must never block the confirmation. postgrest-js resolves with

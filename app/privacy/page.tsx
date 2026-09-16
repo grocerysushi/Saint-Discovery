@@ -155,6 +155,10 @@ export default function PrivacyPage() {
           </ul>
         </Section>
 
+        <Section title="Remembering your quiz result in this tab">
+          <p>After you finish the quiz, we keep the matched saint’s identifier, your selected gender, and the six calculated trait scores in this tab’s session storage. This lets you read biographies and return to your result without repeating the quiz. Individual answers are not included in this saved result, and this feature does not send it to a server or include it in shared links.</p>
+          <p>Starting a new quiz clears the saved result. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, the result is kept in memory while the page remains open and may be lost on refresh.</p>
+        </Section>
         <Section title="Cookies">
           <p>
             Saint Discovery itself does not set tracking cookies. Google

@@ -1,0 +1,7 @@
+# Corrected-calendar artwork additions — 2026-09-15
+
+Scanned every valid month/day through `getSaintOfDay` using the test TypeScript loader. Five represented dates lacked an image: March 15 (Longinus), March 25 (Dismas), April 17 (Maria of Gatchina), October 20 (Magdalene of Nagasaki), and December 25 (Anastasia of Sirmium). Added five overrides while preserving the existing Adam record. No feast dates changed. Rescan: 320 represented dates, zero missing images.
+
+Wikimedia Commons description and licensing metadata were inspected. Dismas is a Metropolitan Museum CC0 scan of Jacques Callot's 1636 print. Longinus is Bernini's historic sculpture with a photograph explicitly released to the public domain by its photographer. Anastasia is a medieval Hermitage icon tagged PD-Art/PD-old-100.
+
+Maria uses an anonymous historical photograph dated before 1932, Commons page 52202402, classified PD-old. The alternate close-up had inconsistent 1920s/PD-RusEmpire metadata and was avoided. Magdalene uses the portrait reproduced in the Vatican missionary directory and classified PD-Art/PD-old-70 on Commons. Its artist and original production date are not supplied; attribution remains explicitly unknown and the license label identifies Commons as the classification source. This is source metadata verification, not independent copyright provenance research. No modern icon was substituted or mislabeled as historical artwork, and no image was generated or edited.

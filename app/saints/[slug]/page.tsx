@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { getAllSaints, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
+import { notFound, permanentRedirect } from "next/navigation";
+import { getAllSaints, getAllSaintSlugs, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
+import { getBiographyReview } from "@/lib/saint-reviews";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
 import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
+import BiographyJourney from "@/components/BiographyJourney";
 import saintExtended from "@/lib/data/saint-extended.json";
 
-// Long-form biographies + FAQs for the most-searched saints (generated and
-// fact-checked offline; keyed by slug). Pages without an entry fall back to
-// the short description.
+// Legacy generated copy is replaced as each external-source review is completed.
+// Its former model-only checking process was not independent fact verification.
 interface ExtendedContent {
   biography: string[];
   faqs: { question: string; answer: string }[];
@@ -20,10 +21,7 @@ const EXTENDED = saintExtended as unknown as Record<string, ExtendedContent>;
 export const revalidate = 86400;
 
 export async function generateStaticParams() {
-  const saints = await getAllSaints();
-  return saints
-    .filter((s) => s.slug)
-    .map((s) => ({ slug: s.slug }));
+  return getAllSaintSlugs().map(slug => ({ slug }));
 }
 
 type Params = { slug: string };
@@ -47,6 +45,7 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical: `/saints/${saint.slug}` },
+    ...(saint.kind === "unresolved" ? { robots: { index: false, follow: true } } : {}),
     openGraph: {
       title,
       description,
@@ -72,11 +71,14 @@ export default async function SaintPage({
   const { slug } = await params;
   const saint = await getSaintBySlug(slug);
   if (!saint) notFound();
+  if (saint.slug !== slug) permanentRedirect(`/saints/${saint.slug}`);
 
   const url = absoluteUrl(`/saints/${saint.slug}`);
   const allSaints = await getAllSaints().catch(() => []);
-  const relatedSaints = getRelatedSaints(saint, allSaints);
-  const extended = EXTENDED[saint.slug];
+  const relatedSaints = saint.kind === "unresolved" || saint.kind === "observance"
+    ? [] : getRelatedSaints(saint, allSaints.filter(entry => entry.kind !== "observance"));
+  const review = getBiographyReview(saint.slug);
+  const extended = review ? { biography: review.biography, faqs: [] } : EXTENDED[saint.slug];
   const { name, title, description } = saintSearchSummary(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
 
@@ -92,6 +94,7 @@ export default async function SaintPage({
     about: { "@type": "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
+    ...(review ? { dateModified: review.reviewed_on, citation: review.sources.map(source => source.url) } : {}),
   };
 
   const breadcrumbJsonLd = {
@@ -165,6 +168,7 @@ export default async function SaintPage({
           <span className="text-cream-dark/70">{name}</span>
         </nav>
 
+        {saint.kind !== "unresolved" && saint.kind !== "observance" && <BiographyJourney slug={saint.slug} />}
         <article>
           <header className="mb-10">
             <p className="eyebrow mb-3">
@@ -173,6 +177,8 @@ export default async function SaintPage({
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
               {name}
             </h1>
+            {review?.kind === "orthodox-saint" && <p className="text-gold mb-4">Venerated in Orthodox Christianity</p>}
+            {review?.kind === "unresolved" && <p className="text-gold mb-4">This identity could not be established from reliable sources. Its earlier biographical claims have been withdrawn.</p>}
             {saint.tagline && (
               <p className="text-gold-light text-lg italic mb-4">
                 &ldquo;{saint.tagline}&rdquo;
@@ -214,6 +220,7 @@ export default async function SaintPage({
                 </div>
               )}
             </dl>
+            {review?.feast_note && <p className="text-sm text-cream-dark/70 mt-3">{review.feast_note}</p>}
             {saint.known_for && (
               <p className="text-cream-dark leading-relaxed mt-5">
                 {saint.known_for}
@@ -222,6 +229,8 @@ export default async function SaintPage({
           </header>
 
           <nav aria-label="On this page" className="flex flex-wrap gap-4 mb-8 text-sm text-gold">
+            {saint.kind !== "unresolved" && saint.kind !== "observance" && <a href="#reflection" className="underline underline-offset-4">Reflect on this life</a>}
+            {review && <a href="#sources" className="underline underline-offset-4">Sources</a>}
             {(extended || saint.description) && <a href="#biography" className="underline underline-offset-4">Biography</a>}
             {saint.prayer && <a href="#prayer" className="underline underline-offset-4">Prayer</a>}
             {extended && extended.faqs.length > 0 && <a href="#questions" className="underline underline-offset-4">Common questions</a>}
@@ -251,6 +260,7 @@ export default async function SaintPage({
             )
           )}
 
+          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol><li>Which event or decision in this life stood out to you?</li><li>What virtue would you like to understand or practice more deeply?</li><li>What small action could you take today in response?</li></ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5"><Link href="/confirmation-saint-guide" className="btn-secondary">Explore your Confirmation choice →</Link><Link href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link></div></section>}
           {saint.quotes && saint.quotes.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
@@ -307,6 +317,16 @@ export default async function SaintPage({
                   </div>
                 ))}
               </dl>
+            </section>
+          )}
+
+          {review && (
+            <section id="sources" className="mb-10 border-t border-navy-lighter pt-7">
+              <h2 className="text-2xl font-heading font-semibold text-cream mb-4">Sources and further reading</h2>
+              <ul className="space-y-3 text-cream-dark">
+                {review.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-4 hover:text-gold">{source.title} ↗</a></li>)}
+              </ul>
+              <p className="text-sm text-cream-dark/70 mt-4">{review.status === "needs-identification" ? "Identity investigated" : "Compared with these sources"} on {review.reviewed_on}. Historical uncertainties and later traditions are identified in the biography.</p>
             </section>
           )}
 

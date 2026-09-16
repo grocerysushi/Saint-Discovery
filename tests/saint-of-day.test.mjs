@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import ts from 'typescript';
+import { loadTs } from './load-ts.mjs';
 import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -35,6 +36,33 @@ function loadDaily(overrides = {}) {
 const portrait = slug => ({ src: `/images/generated-saints/${slug}.webp`, generated: true });
 const fixtures = [{ slug: 'first', name: 'First', feast_day: 'January 1' }, { slug: 'second', name: 'Second', feast_day: 'January 1' }];
 
+test('daily experience uses reviewed biographies and keeps feast companions on the selected date', async () => {
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts');
+  const { getBiographyReview } = loadTs('lib/saint-reviews.ts');
+  const daily = await getDailyExperience('10-04');
+  assert.ok(daily.featured);
+  assert.deepEqual(Array.from(daily.biography), Array.from(getBiographyReview(daily.featured.slug).biography));
+  assert.ok(daily.sources.length > 0);
+  for (const other of daily.alsoToday) {
+    assert.notEqual(other.slug, daily.featured.slug);
+    assert.equal(getBiographyReview(other.slug).feast_day, 'October 4');
+    assert.notEqual(other.kind, 'unresolved');
+  }
+  assert.equal((await getDailyExperience('10-04')).reflection.action, daily.reflection.action);
+});
+
+test('daily experience provides reflection on uncovered dates without inventing a biography', async () => {
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts', { 'saints.json': [] });
+  const daily = await getDailyExperience('02-29');
+  assert.equal(daily.featured, null);
+  assert.equal(daily.biography.length, 0);
+  assert.equal(daily.sources.length, 0);
+  assert.ok(daily.reflection.question && daily.reflection.prayer && daily.reflection.action);
+  assert.equal(await getDailyExperience('02-30'), null);
+  assert.equal(await getDailyExperience('13-01'), null);
+  assert.equal(await getDailyExperience('invalid'), null);
+});
+
 test('uses a saved generated illustration when historical art is missing', () => {
   const { getSaintOfDay } = loadDaily({ 'saints.json': fixtures, 'saint-images.json': {}, 'saint-generated-images.json': { first: portrait('first') } });
   const saint = getSaintOfDay('01-01');
@@ -51,14 +79,16 @@ test('historical artwork wins across saints sharing a feast day', () => {
 });
 
 test('does not invent feast days or accept invalid dates', () => {
-  const { getSaintOfDay } = loadDaily();
+  const { getSaintOfDay } = loadDaily({ 'saints.json': [
+    ...fixtures, { slug: 'leap-day-fixture', name: 'Leap day fixture', feast_day: 'February 29' },
+  ] });
   for (const date of ['02-30', '13-01', '00-00', 'bad', '05-31', '10-03']) assert.equal(getSaintOfDay(date), null);
   assert.equal(getSaintOfDay('02-29').date, '02-29');
 });
 
-test('every feast day in the current calendar has historical or generated artwork', () => {
+test('every feast day in the corrected calendar has historical or generated artwork', async () => {
   const { getSaintOfDay } = loadDaily();
-  const saints = JSON.parse(fs.readFileSync(path.join(root, 'lib/data/saints.json'), 'utf8'));
+  const saints = await loadTs('lib/saints.ts').getAllSaints();
   const dates = new Set(saints.map(s => s.feast_day).filter(Boolean));
   for (const feast of dates) {
     const date = new Date(`${feast}, 2024`);

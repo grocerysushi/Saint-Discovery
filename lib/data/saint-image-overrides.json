@@ -1,0 +1,44 @@
+{
+  "adam": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Creation_of_Adam.jpg",
+    "alt": "The Creation of Adam by Michelangelo, from the Sistine Chapel ceiling",
+    "credit": "Michelangelo · Sistine Chapel",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Creation_of_Adam.jpg"
+  },
+  "longinus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Saint_Longinus.jpg",
+    "alt": "Bernini's marble statue of Longinus holding a lance in Saint Peter's Basilica",
+    "credit": "Gian Lorenzo Bernini · photograph by Use the force, 2007",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Longinus.jpg"
+  },
+  "dismas": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/St._Dismas%2C_The_Good_Thief_Met_DP890895.jpg",
+    "alt": "Saint Dismas, the Good Thief, in Jacques Callot's 1636 etching for March 25",
+    "credit": "Jacques Callot · The Metropolitan Museum of Art, 17.50.17-371(100)",
+    "license": "CC0 1.0 Public Domain Dedication",
+    "source": "https://commons.wikimedia.org/wiki/File:St._Dismas,_The_Good_Thief_Met_DP890895.jpg"
+  },
+  "maria-of-gatchina": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/%D0%9C%D0%B0%D1%80%D0%B8%D1%8F_%D0%93%D0%B0%D1%82%D1%87%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F._%D1%84%D0%BE%D1%82%D0%BE.jpg",
+    "alt": "Historical photograph of Maria of Gatchina, taken before 1932",
+    "credit": "Unknown photographer · historical photograph via Wikimedia Commons",
+    "license": "Public domain (Commons PD-old classification)",
+    "source": "https://commons.wikimedia.org/w/index.php?curid=52202402"
+  },
+  "magdalena-of-nagasaki": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Rc_con_cevang_ps_pospa_img_magdaleneofnagasaki.jpg",
+    "alt": "Devotional portrait of Magdalene of Nagasaki",
+    "credit": "Unknown artist · Vatican missionary directory image via Wikimedia Commons",
+    "license": "Public domain (Commons PD-Art classification)",
+    "source": "https://commons.wikimedia.org/wiki/File:Rc_con_cevang_ps_pospa_img_magdaleneofnagasaki.jpg"
+  },
+  "anastasia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Anastasia_of_Sirmium.jpg",
+    "alt": "Medieval icon of Anastasia of Sirmium from the State Hermitage collection",
+    "credit": "Unknown medieval artist · State Hermitage Museum",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Anastasia_of_Sirmium.jpg"
+  }
+}

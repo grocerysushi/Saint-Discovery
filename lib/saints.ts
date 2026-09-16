@@ -1,17 +1,24 @@
 import { Saint } from "@/lib/types";
 import saintsData from "@/lib/data/saints.json";
+import { applySaintReview, canonicalSaintSlug } from "@/lib/saint-reviews";
 
 // Saint content is baked into the repo (lib/data/saints.json, regenerated via
 // scripts/build-data.mjs) so every page and the sitemap build statically with
 // no runtime database dependency.
-const SAINTS = saintsData as Saint[];
+const SAINTS = (saintsData as Saint[])
+  .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
+  .map(applySaintReview);
+
+export function getAllSaintSlugs(): string[] {
+  return saintsData.map(saint => saint.slug);
+}
 
 export async function getAllSaints(): Promise<Saint[]> {
-  return SAINTS;
+  return SAINTS.filter(saint => saint.kind !== "unresolved");
 }
 
 export async function getSaintBySlug(slug: string): Promise<Saint | null> {
-  return SAINTS.find((s) => s.slug === slug) ?? null;
+  return SAINTS.find((s) => s.slug === canonicalSaintSlug(slug)) ?? null;
 }
 
 const TRAIT_COLUMNS = [

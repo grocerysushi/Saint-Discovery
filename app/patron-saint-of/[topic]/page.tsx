@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { saintDisplayName } from "@/lib/saint-seo";
 import { notFound } from "next/navigation";
 import { getAllSaints } from "@/lib/saints";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
@@ -28,7 +29,7 @@ export async function generateMetadata({
   if (!topic) return { title: "Patronage Not Found" };
 
   const saints = await getSaintsForTopic(topic.saints);
-  const names = saints.slice(0, 3).map((s) => `St. ${s.name}`);
+  const names = saints.slice(0, 3).map((s) => saintDisplayName(s));
   const title = topicTitle(topic);
   const description =
     saints.length === 1
@@ -105,7 +106,7 @@ export default async function PatronTopicPage({
     itemListElement: saints.map((s, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      name: `St. ${s.name}`,
+      name: saintDisplayName(s),
       url: absoluteUrl(`/saints/${s.slug}`),
     })),
   };
@@ -151,7 +152,7 @@ export default async function PatronTopicPage({
             {saints.length === 1 ? (
               <>
                 The Catholic Church venerates{" "}
-                <strong className="text-cream">St. {saints[0].name}</strong> as
+                <strong className="text-cream">{saintDisplayName(saints[0])}</strong> as
                 the patron saint of {topic.label}. Patron saints are heavenly
                 intercessors — believers entrust a place, profession, or
                 struggle to a saint whose own life touched it, and ask for
@@ -181,7 +182,7 @@ export default async function PatronTopicPage({
             >
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
                 <h2 className="text-xl font-heading font-semibold text-cream group-hover:text-gold transition-colors">
-                  St. {saint.name}
+                  {saintDisplayName(saint)}
                 </h2>
                 {saint.feast_day && (
                   <span className="text-gold/70 text-xs uppercase tracking-wider">

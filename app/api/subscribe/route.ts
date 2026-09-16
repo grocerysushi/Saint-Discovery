@@ -65,7 +65,7 @@ export async function POST(request: NextRequest) {
 
   const slug = typeof data.saintSlug === "string" ? data.saintSlug : "";
   const saint = await getSaintBySlug(slug);
-  if (!saint) return generic(); // never trust the client slug; must be known
+  if (!saint || saint.kind === "unresolved") return generic();
 
   // Best-effort abuse controls.
   if (!allowByIp(clientIp(request))) return generic();

@@ -63,7 +63,7 @@ export default function EmailCapture({
         <p className="text-cream font-heading text-lg mb-1">Check your inbox</p>
         <p className="text-cream-dark text-sm leading-relaxed">
           We just sent a confirmation link. Click it and your result plus a short
-          novena to St. {saintName} will be on the way.
+          novena to {saintName} will be on the way.
         </p>
       </motion.div>
     );
@@ -78,7 +78,7 @@ export default function EmailCapture({
       className="result-panel text-left"
     >
       <p className="text-cream font-heading text-lg mb-1 text-center">
-        Take St. {saintName} with you
+        Take {saintName} with you
       </p>
       <p className="text-cream-dark text-sm mb-4 text-center leading-relaxed">
         Get your result and a short novena &amp; reflection by email.

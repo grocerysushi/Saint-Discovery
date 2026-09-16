@@ -4,7 +4,9 @@ import type { Saint } from "@/lib/types";
 // adding a saint title to them or asserting Person schema for every record.
 const OBSERVANCES = new Set(["all-saints", "all-souls", "guardian-angels"]);
 
-export function saintDisplayName(saint: Pick<Saint, "name" | "slug">) {
+export function saintDisplayName(saint: Pick<Saint, "name" | "slug" | "kind">) {
+  if (saint.kind === "observance" || saint.kind === "unresolved") return saint.name;
+  if (saint.kind === "blessed") return /^Blessed /i.test(saint.name) ? saint.name : `Blessed ${saint.name}`;
   if (OBSERVANCES.has(saint.slug) || /^(St\.? |Saint |Blessed |Our Lady\b)/i.test(saint.name)) return saint.name;
   return `St. ${saint.name}`;
 }

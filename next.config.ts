@@ -35,6 +35,8 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
 };
 
 const nextConfig: NextConfig = {
+  // Allow an isolated local build when a Windows sync service locks .next.
+  distDir: process.env.SAINT_BUILD_DIR || ".next",
   images: { remotePatterns: [{ protocol: "https", hostname: "upload.wikimedia.org", pathname: "/wikipedia/commons/**" }] },
   turbopack: {
     root: __dirname,

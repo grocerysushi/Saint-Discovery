@@ -17,6 +17,7 @@ export const TRAIT_KEYS: (keyof TraitScores)[] = [
 ];
 
 export interface Saint {
+  kind?: "saint" | "blessed" | "orthodox-saint" | "observance" | "unresolved";
   id: string;
   name: string;
   slug: string;

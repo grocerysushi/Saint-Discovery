@@ -1,3 +1,4 @@
+import { saintDisplayName } from "../saint-seo";
 import { Saint } from "@/lib/types";
 import { escapeHtml } from "./validation";
 import * as T from "./templates";
@@ -65,11 +66,13 @@ export function buildResultEmail(params: {
   postalAddress: string;
 }): RenderedEmail {
   const { saint } = params;
+  const displayName = saintDisplayName(saint);
+  const hasTagline = Boolean(saint.tagline?.trim());
   const hasFeast = Boolean(saint.feast_day && saint.feast_day.trim());
   const hasPrayer = Boolean(saint.prayer && saint.prayer.trim());
 
   const textTokens: Record<string, string> = {
-    SAINT_NAME: saint.name,
+    SAINT_NAME: displayName,
     TAGLINE: saint.tagline ?? "",
     DESCRIPTION: saint.description ?? "",
     FEAST_DAY: saint.feast_day ?? "",
@@ -84,16 +87,18 @@ export function buildResultEmail(params: {
   };
 
   let html = T.RESULT_HTML;
+  html = optionalBlock(html, "TAGLINE", hasTagline);
   html = optionalBlock(html, "FEAST", hasFeast);
   html = optionalBlock(html, "PRAYER", hasPrayer);
   html = fill(html, textTokens, urlTokens, true);
 
   let text = T.RESULT_TEXT;
+  text = optionalBlock(text, "TAGLINE", hasTagline);
   text = optionalBlock(text, "FEAST", hasFeast);
   text = optionalBlock(text, "PRAYER", hasPrayer);
   text = fill(text, textTokens, urlTokens, false);
 
-  const subject = replaceToken(T.RESULT_SUBJECT, "SAINT_NAME", saint.name);
+  const subject = replaceToken(T.RESULT_SUBJECT, "SAINT_NAME", displayName);
 
   return { subject, html, text };
 }

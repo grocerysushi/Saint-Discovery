@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { saintDisplayName } from "@/lib/saint-seo";
 import EmailFlowCard from "@/components/EmailFlowCard";
 import { verifyToken } from "@/lib/emails/tokens";
 import { getSaintBySlug } from "@/lib/saints";
@@ -44,7 +45,7 @@ export default async function ConfirmPage({
         Confirm your email and we&rsquo;ll send{" "}
         {saint ? (
           <>
-            your match — <span className="text-cream">St. {saint.name}</span> —
+            your match — <span className="text-cream">{saintDisplayName(saint)}</span> —
           </>
         ) : (
           "your saint result"

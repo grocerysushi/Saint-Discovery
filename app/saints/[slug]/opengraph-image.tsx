@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { getSaintBySlug } from "@/lib/saints";
 import { saintDisplayName } from "@/lib/saint-seo";
 
-export const alt = "Saint biography, feast day and prayer on Saint Discovery";
+export const alt = "Saint biography and sources on Saint Discovery";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const revalidate = 86400;
