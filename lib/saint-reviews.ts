@@ -3,6 +3,10 @@ import research1 from "@/lib/data/saint-reviews-research1.json";
 import research2 from "@/lib/data/saint-reviews-research2.json";
 import research3 from "@/lib/data/saint-reviews-research3.json";
 import rootReviews from "@/lib/data/saint-reviews-root.json";
+import expansions1 from "@/lib/data/saint-biography-expansions-1.json";
+import expansions2 from "@/lib/data/saint-biography-expansions-2.json";
+import expansions3 from "@/lib/data/saint-biography-expansions-3.json";
+import expansions4 from "@/lib/data/saint-biography-expansions-4.json";
 import type { Saint } from "@/lib/types";
 
 export interface BiographyReview {
@@ -35,6 +39,26 @@ for (const batch of [reviewData, research1, research2, research3, rootReviews]) 
   for (const [slug, review] of Object.entries(batch)) {
     if (reviews[slug]) throw new Error(`Duplicate biography review: ${slug}`);
     reviews[slug] = review as BiographyReview | DuplicateReview;
+  }
+}
+
+// Expansion files replace editorial content only; researched identity corrections stay intact.
+const expandedSlugs = new Set<string>();
+for (const batch of [expansions1, expansions2, expansions3, expansions4]) {
+  for (const [slug, expansion] of Object.entries(batch)) {
+    const review = reviews[slug];
+    if (!review || review.status !== "source-reviewed") {
+      throw new Error(`Biography expansion requires a reviewed canonical identity: ${slug}`);
+    }
+    if (expandedSlugs.has(slug)) throw new Error(`Duplicate biography expansion: ${slug}`);
+    expandedSlugs.add(slug);
+    reviews[slug] = {
+      ...review,
+      biography: expansion.biography,
+      sources: expansion.sources,
+      reviewed_on: expansion.reviewed_on,
+      review_method: expansion.review_method,
+    };
   }
 }
 

@@ -93,10 +93,45 @@ for (const [slug, { review: r, file }] of reviews) {
   if (r.status === 'needs-identification') for (const key of ['feast_day', 'origin', 'dates', 'patron_of']) if (r[key] !== null) fail(`unresolved identity must not assert ${key}`);
 }
 const pending = [...slugs].filter(s => !reviews.has(s)).sort();
+const expansionFiles = (await readdir(dataDir)).filter(f => /^saint-biography-expansions-\d+\.json$/.test(f)).sort();
+const expansions = new Map();
+const words = paragraphs => paragraphs.join(' ').trim().split(/\s+/u).length;
+for (const file of expansionFiles) {
+  try {
+    const raw = await readFile(path.join(dataDir, file), 'utf8');
+    const parsed = JSON.parse(raw);
+    if (!object(parsed)) throw new Error('root must be an object keyed by slug');
+    const keys = rootKeys(raw);
+    if (new Set(keys).size !== keys.length) errors.push(`${file}: repeated JSON keys`);
+    for (const [slug, expansion] of Object.entries(parsed)) {
+      const fail = message => errors.push(`${file} / ${slug}: ${message}`);
+      const base = reviews.get(slug)?.review;
+      if (base?.status !== 'source-reviewed') fail('requires a source-reviewed canonical identity');
+      if (expansions.has(slug)) fail('duplicate expansion');
+      expansions.set(slug, expansion);
+      if (!object(expansion)) { fail('expansion must be an object'); continue; }
+      if (Object.keys(expansion).some(key => !['biography', 'sources', 'reviewed_on', 'review_method'].includes(key))) fail('unexpected field: expansions must not change identity metadata');
+      if (!date(expansion.reviewed_on) || !text(expansion.review_method)) fail('requires valid review date and method');
+      if (!Array.isArray(expansion.biography) || expansion.biography.length < 4 || !expansion.biography.every(text)) fail('requires at least four nonempty paragraphs');
+      else if (base?.biography && words(expansion.biography) < words(base.biography) + 50) fail('requires at least 50 additional words of biography');
+      if (!Array.isArray(expansion.sources) || !expansion.sources.length) fail('sources must be a nonempty array');
+      else for (const source of expansion.sources) {
+        if (!object(source) || !text(source.title)) fail('source requires a title');
+        try {
+          const url = new URL(source?.url);
+          if (url.protocol !== 'https:' || !url.hostname || url.username || url.password) throw new Error();
+        } catch { fail(`source must have a valid HTTPS URL: ${source?.url}`); }
+      }
+    }
+  } catch (error) { errors.push(`${file}: ${error.message}`); }
+}
+const unexpanded = [...reviews].filter(([slug, { review }]) => review.status === 'source-reviewed' && !expansions.has(slug));
+if (args.has('--require-complete') && unexpanded.length) errors.push(`${unexpanded.length} published biographies still lack expansions`);
 const unresolved = [...reviews].filter(([, v]) => v.review?.status === 'needs-identification').sort();
 const aliases = [...reviews].filter(([, v]) => v.review?.status === 'duplicate').sort();
 console.log(`Raw records: ${saints.length}; unique slugs: ${slugs.size}`);
 console.log(`Review files: ${files.length}; unique review records: ${reviews.size}`);
+console.log(`Expanded biographies: ${expansions.size}; expansion files: ${expansionFiles.length}; remaining: ${unexpanded.length}`);
 for (const status of ['source-reviewed', 'duplicate', 'needs-identification']) console.log(`${status}: ${counts[status] ?? 0}`);
 console.log(`Pending (${pending.length}): ${pending.join(', ') || 'none'}`);
 console.log(`Unresolved (${unresolved.length}): ${unresolved.map(([s]) => s).join(', ') || 'none'}`);
@@ -118,10 +153,11 @@ if (args.has('--write-report')) {
     'node scripts/audit-biographies.mjs',
     'node scripts/audit-biographies.mjs --require-complete',
     'node scripts/audit-biographies.mjs --require-complete --write-report', '```', '',
-    'The audit reads every lib/data/saint-reviews*.json file. It checks the raw inventory, repeated JSON keys, cross-file collisions, extra slugs, schema, nonempty biography paragraphs, HTTPS source URLs, and direct canonical duplicate targets. --require-complete fails for missing reviews. Explicitly unresolved identities count as completed research dispositions, not verified saints. This structural audit does not fetch sources or automatically verify historical claims.', '',
+    'The audit reads every lib/data/saint-reviews*.json and saint-biography-expansions-*.json file. It checks the raw inventory, repeated JSON keys, cross-file collisions, extra slugs, schema, nonempty biography paragraphs, HTTPS source URLs, and direct canonical duplicate targets. Expansion files may update biography and review provenance only; they require four paragraphs and at least 50 additional words. --require-complete fails for missing reviews or missing expansions of published identities. Explicitly unresolved identities count as completed research dispositions, not verified saints. This structural audit does not fetch sources or automatically verify historical claims.', '',
     '## Current coverage', '', '| Measure | Count |', '| --- | ---: |',
     `| Raw records | ${saints.length} |`, `| Review files | ${files.length} |`,
     `| Source-reviewed | ${counts['source-reviewed'] ?? 0} |`, `| Duplicate redirects | ${aliases.length} |`,
+    `| Expanded published biographies | ${expansions.size} |`, `| Published biographies awaiting expansion | ${unexpanded.length} |`,
     `| Needs identification | ${unresolved.length} |`, `| Pending | ${pending.length} |`, `| Audit errors | ${errors.length} |`, '',
     `Review files: ${files.map(f => '`' + f + '`').join(', ')}.`, '',
     '## Unresolved identities', '',

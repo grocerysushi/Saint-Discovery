@@ -20,7 +20,7 @@ node scripts/audit-biographies.mjs --require-complete
 node scripts/audit-biographies.mjs --require-complete --write-report
 ```
 
-The audit reads every lib/data/saint-reviews*.json file. It checks the raw inventory, repeated JSON keys, cross-file collisions, extra slugs, schema, nonempty biography paragraphs, HTTPS source URLs, and direct canonical duplicate targets. --require-complete fails for missing reviews. Explicitly unresolved identities count as completed research dispositions, not verified saints. This structural audit does not fetch sources or automatically verify historical claims.
+The audit reads every lib/data/saint-reviews*.json and saint-biography-expansions-*.json file. It checks the raw inventory, repeated JSON keys, cross-file collisions, extra slugs, schema, nonempty biography paragraphs, HTTPS source URLs, and direct canonical duplicate targets. Expansion files may update biography and review provenance only; they require four paragraphs and at least 50 additional words. --require-complete fails for missing reviews or missing expansions of published identities. Explicitly unresolved identities count as completed research dispositions, not verified saints. This structural audit does not fetch sources or automatically verify historical claims.
 
 ## Current coverage
 
@@ -30,6 +30,8 @@ The audit reads every lib/data/saint-reviews*.json file. It checks the raw inven
 | Review files | 5 |
 | Source-reviewed | 460 |
 | Duplicate redirects | 16 |
+| Expanded published biographies | 460 |
+| Published biographies awaiting expansion | 0 |
 | Needs identification | 10 |
 | Pending | 0 |
 | Audit errors | 0 |

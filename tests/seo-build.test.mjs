@@ -50,6 +50,10 @@ test('every saint has a unique canonical, readable server-rendered content, and 
     assert.equal(article?.url, canonical, saint.slug);
     assert.equal(article?.mainEntityOfPage?.['@id'], canonical, saint.slug);
     assert.ok(source.includes('id="sources"'), `${saint.slug}: missing sources`);
+    const renderedContent = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
+    for (const paragraph of reviews[saint.slug].biography) {
+      assert.ok(renderedContent.includes(paragraph), `${saint.slug}: missing server-rendered biography paragraph`);
+    }
     assert.equal(article.dateModified, reviews[saint.slug].reviewed_on, saint.slug);
     assert.deepEqual(article.citation, Array.from(reviews[saint.slug].sources, entry => entry.url), saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
