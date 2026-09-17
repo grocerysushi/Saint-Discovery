@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { insforge } from "@/lib/insforge";
+import { getInsforgeAdmin } from "@/lib/insforge-admin";
 import { getSaintBySlug } from "@/lib/saints";
 import { verifyToken, createToken } from "@/lib/emails/tokens";
 import { buildResultEmail } from "@/lib/emails/render";
@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
   // hiccup must never block the confirmation. postgrest-js resolves with
   // { data, error } instead of throwing, so inspect `error` explicitly.
   try {
-    const { data: existing, error: selErr } = await insforge.database
+    const { data: existing, error: selErr } = await getInsforgeAdmin().database
       .from("email_signups")
       .select("id")
       .eq("email", verified.email)
@@ -57,7 +57,7 @@ export async function POST(request: NextRequest) {
     if (!selErr && !(Array.isArray(existing) && existing.length > 0)) {
       const saintId =
         (saintDbIds as Record<string, string | undefined>)[saint.slug] ?? null;
-      await insforge.database
+      await getInsforgeAdmin().database
         .from("email_signups")
         .insert([{ email: verified.email, saint_id: saintId }]);
     }

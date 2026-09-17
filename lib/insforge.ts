@@ -1,6 +1,8 @@
 import { createClient } from "@insforge/sdk";
 
-export const insforge = createClient({
-  baseUrl: "https://f6zwvi29.us-east.insforge.app",
-  anonKey: "ik_37e852ed16d8cbaa131e40a633a5d804",
-});
+export function getInsforgePublic() {
+  const baseUrl = process.env.NEXT_PUBLIC_INSFORGE_URL;
+  const anonKey = process.env.NEXT_PUBLIC_INSFORGE_ANON_KEY;
+  if (!baseUrl || !anonKey) throw new Error("Public InsForge configuration is missing.");
+  return createClient({ baseUrl, anonKey });
+}

@@ -62,3 +62,18 @@ next-env.d.ts
 # extended bio writer (Python) — cache and run logs
 /scripts/__pycache__/
 /scripts/logs/
+
+# InsForge & AI agent skills
+.insforge
+.agent
+.agents
+.augment
+.claude
+.cline
+.github/copilot*
+.kilocode
+.qoder
+.qwen
+.roo
+.trae
+.windsurf

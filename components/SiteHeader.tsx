@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const LINKS = [{href:"/saint-of-day",label:"Saint of the day"},{href:"/resources",label:"Saints directory"},{href:"/patron-saint-of",label:"Patron saints"},{href:"/confirmation-saint-guide",label:"Confirmation guide"}];
+const LINKS = [{href:"/saint-of-day",label:"Saint of the day"},{href:"/resources",label:"Saints directory"},{href:"/patron-saint-of",label:"Patron saints"},{href:"/confirmation-saint-guide",label:"Confirmation guide"},{href:"/blog",label:"Blog"}];
 
 export default function SiteHeader() {
   const pathname = usePathname();
@@ -22,7 +22,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     const onPointer = (event: PointerEvent) => {
       if (!nav.current?.contains(event.target as Node) && !toggle.current?.contains(event.target as Node)) setOpen(false);
     };
-    const onResize = () => { if (window.innerWidth > 1000) setOpen(false); };
+    const onResize = () => { if (window.innerWidth > 1200) setOpen(false); };
     document.addEventListener("keydown", onKey);
     document.addEventListener("pointerdown", onPointer);
     window.addEventListener("resize", onResize);

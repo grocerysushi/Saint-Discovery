@@ -1,5 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server";
-import { insforge } from "@/lib/insforge";
+import { getInsforgeAdmin } from "@/lib/insforge-admin";
 import { verifyToken } from "@/lib/emails/tokens";
 
 export const runtime = "nodejs";
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
     try {
       // postgrest-js resolves with { data, error }; only a missing error means
       // the row was actually removed.
-      const { error: delErr } = await insforge.database
+      const { error: delErr } = await getInsforgeAdmin().database
         .from("email_signups")
         .delete()
         .eq("email", verified.email);

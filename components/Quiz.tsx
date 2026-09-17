@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { insforge } from "@/lib/insforge";
+import { getInsforgePublic } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
 import { track } from "@/lib/analytics";
@@ -86,7 +86,7 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
       const dbId = (saintDbIds as Record<string, string>)[matched.slug];
       if (dbId) {
         try {
-          void insforge.database
+          void getInsforgePublic().database
             .from("quiz_results")
             .insert([{ saint_id: dbId, scores: newScores }]);
         } catch {

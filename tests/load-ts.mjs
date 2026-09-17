@@ -16,7 +16,7 @@ export function loadTs(relativePath, overrides = {}) {
       compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true, target: ts.ScriptTarget.ES2022 },
     }).outputText;
     vm.runInNewContext(source, {
-      module: loadedModule, exports: loadedModule.exports, Date, URL,
+      module: loadedModule, exports: loadedModule.exports, Date, URL, URLSearchParams, structuredClone, process: { env: {} },
       require(specifier) {
         const target = specifier.startsWith('@/') ? path.join(root, specifier.slice(2)) : path.resolve(path.dirname(file), specifier);
         return load(path.extname(target) ? target : `${target}.ts`);
