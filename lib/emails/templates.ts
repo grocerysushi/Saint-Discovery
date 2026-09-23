@@ -37,14 +37,15 @@ body{margin:0;padding:0;width:100%!important;}table{border-collapse:collapse;mso
 }
 
 export const CONFIRM_SUBJECT = "Confirm your Saint Discovery email";
-export const CONFIRM_PREHEADER = "One small step. Your saint match and nine-day prayer guide are ready.";
+export const CONFIRM_PREHEADER = "Open this email, then confirm on our website to receive your saint result and novena.";
 export const CONFIRM_HTML = layout("Confirm your Saint Discovery email", `
 <tr><td class="sd-pad" style="padding:40px;">
 <p style="${eyebrow}">One small step</p>
 <h1 class="sd-h1" style="${heading}">Your discovery.<br><em style="color:#becda6;font-weight:normal;">Ready to keep.</em></h1>
 <p style="${pStyle}">Bring your saint match with you, along with a reflection and a simple guide for nine days of prayer.</p>
-<p style="${pStyle}">Open the link below, then confirm on our site to receive your result by email.</p>
-${button("{{CONFIRM_URL}}", "Confirm my email")}
+<p style="${pStyle}"><strong>Two quick steps:</strong> choose Continue to confirmation below. On the page that opens, press <strong>Confirm &amp; send my novena</strong>. Your result email is sent after that final step.</p>
+${button("{{CONFIRM_URL}}", "Continue to confirmation")}
+<p style="${pStyle}">This link works for seven days. You can return to the same link if you need to request your result email again.</p>
 <p style="${pStyle}font-size:13px;line-height:21px;margin-bottom:0;">Button not working? Copy this link into your browser:<br><a href="{{CONFIRM_URL}}" style="color:#becda6;word-break:break-all;overflow-wrap:anywhere;text-decoration:underline;">{{CONFIRM_URL}}</a></p>
 </td></tr>
 ${section(`<p style="${eyebrow}">Made for a moment of reflection</p><p style="${pStyle}margin-bottom:0;">Read the life behind your match. Notice what speaks to you. Carry one good thing into your day.</p>`)}`, `<p style="margin:0;">You received this because someone asked for a Saint Discovery quiz result at this address. If that wasn&rsquo;t you, ignore this message. You won&rsquo;t receive the result unless you confirm.</p>`);
@@ -54,8 +55,12 @@ YOUR DISCOVERY. READY TO KEEP.
 
 Bring your saint match with you, along with a reflection and a simple guide for nine days of prayer.
 
-Open this link, then confirm on our site to receive your result by email:
+1. Open this link (valid for seven days):
 {{CONFIRM_URL}}
+
+2. On our website, press "Confirm & send my novena". Your result email is sent after that final step.
+
+You can return to this link to request your result email again.
 
 If you did not ask for this, ignore the message. You will not receive the result unless you confirm.
 

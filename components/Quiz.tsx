@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { getInsforgePublic } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
-import { track } from "@/lib/analytics";
+import { createQuizTracker } from "@/lib/quiz-analytics";
 import quizData from "@/lib/data/quiz.json";
 import quizSaints from "@/lib/data/quiz-saints.json";
 import { applySaintReview, canonicalSaintSlug } from "@/lib/saint-reviews";
@@ -14,7 +14,7 @@ import QuestionCard from "./QuestionCard";
 import OptionButton from "./OptionButton";
 import Result from "./Result";
 import { moreQuizSaints } from "@/lib/quiz-results";
-import { saveQuizResult, useQuizSession } from "./useQuizSession";
+import { getSavedQuizResult, saveQuizResult, useQuizSession } from "./useQuizSession";
 
 // Quiz content ships with the bundle (lib/data/*.json) so the quiz works even
 // if the backend is unreachable; only result logging touches the network.
@@ -46,6 +46,8 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
   // Chosen option per answered question, so Back can rewind the score.
   const [answers, setAnswers] = useState<Option[]>([]);
   const [result, setResult] = useState<Saint | null>(null);
+  const [analytics] = useState(() => createQuizTracker(QUESTIONS.length + 1));
+  const selectionLocked = useRef(false);
   const genderHeading = useRef<HTMLHeadingElement>(null);
   useEffect(() => { if (gender === null) genderHeading.current?.focus({ preventScroll: true }); }, [gender]);
 
@@ -53,15 +55,27 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
   const totalSteps = questions.length + 1;
   // Current step: 0 = gender, 1+ = trait questions
   const currentStep = gender === null ? 0 : current + 1;
+  useEffect(() => {
+    selectionLocked.current = false;
+    const restored = getSavedQuizResult();
+    if (result || (restored && SAINTS.some(saint => saint.slug === restored.slug))) return;
+    analytics.view(currentStep + 1);
+  }, [analytics, currentStep, result]);
 
   const handleGenderSelect = (selected: string) => {
+    if (selectionLocked.current) return;
+    selectionLocked.current = true;
+    analytics.answer(1);
     setGender(selected);
   };
 
   const handleSelect = (optionId: string) => {
+    if (selectionLocked.current) return;
     const q = questions[current];
     const opt = q.options.find((o) => o.id === optionId);
     if (!opt) return;
+    selectionLocked.current = true;
+    analytics.answer(current + 2);
 
     const newScores = { ...scores };
     for (const key of TRAIT_KEYS) {
@@ -79,7 +93,7 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
       const matched = matchSaint(newScores, pool);
       setResult(matched);
       saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: newScores });
-      track("quiz_complete", { saint_slug: matched.slug });
+      analytics.complete(matched.slug);
       // Best-effort analytics; never let a backend outage break the result
       // screen. quiz_results.saint_id is a FK to the backend's saints table,
       // so log with the DB UUID and skip saints the DB doesn't have yet.
@@ -97,6 +111,9 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
   };
 
   const handleBack = () => {
+    if (selectionLocked.current) return;
+    selectionLocked.current = true;
+    analytics.back(currentStep + 1);
     if (current === 0) {
       // Back from the first trait question returns to the gender step.
       setGender(null);

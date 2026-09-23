@@ -1,6 +1,4 @@
-// Thin GA4 event helper. gtag.js is loaded in app/layout.tsx; this no-ops when
-// it hasn't loaded (blocked, SSR, dev without network) — analytics must never
-// break the app.
+// The beforeInteractive bootstrap queues calls until Google's script loads.
 type EventParams = Record<string, string | number | boolean | undefined>;
 
 declare global {
@@ -9,11 +7,27 @@ declare global {
   }
 }
 
-export function track(event: string, params?: EventParams) {
-  if (typeof window === "undefined") return;
+export function track(event: string, params?: EventParams): boolean {
+  if (typeof window === "undefined") return false;
   try {
-    window.gtag?.("event", event, params);
+    if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || !window.gtag) return false;
+    const location = new URL(window.location.href);
+    location.searchParams.delete("token");
+    window.gtag("event", event, { ...params, page_location: location.href });
+    return true;
   } catch {
-    // ignore
+    return false;
   }
+}
+
+const recorded = new Set<string>();
+export function trackConfirmedSubscription(receiptId: string): boolean {
+  if (typeof window === "undefined" || !/^[a-f0-9-]{36}$/.test(receiptId)) return false;
+  const key = `sd:confirmed-subscription:${receiptId}`;
+  if (recorded.has(key)) return false;
+  try { if (window.localStorage.getItem(key)) return false; } catch { /* memory fallback */ }
+  if (!track("generate_lead", { method: "email_confirm" })) return false;
+  recorded.add(key);
+  try { window.localStorage.setItem(key, "1"); } catch { /* memory fallback */ }
+  return true;
 }

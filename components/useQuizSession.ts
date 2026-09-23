@@ -17,6 +17,7 @@ function subscribe(callback: () => void) {
   return () => { window.removeEventListener(EVENT, callback); window.removeEventListener("storage", onStorage); };
 }
 const serverSnapshot = () => null;
+export function getSavedQuizResult() { return parseQuizResult(snapshot()); }
 export function saveQuizResult(value: SavedQuizResult | null) {
   memory = value ? JSON.stringify(value) : null;
   try { if (memory) sessionStorage.setItem(KEY, memory); else sessionStorage.removeItem(KEY); memoryOnly = false; }

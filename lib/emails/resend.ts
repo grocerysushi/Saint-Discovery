@@ -19,10 +19,10 @@ export interface SendEmailInput {
 
 export type SendResult =
   | { ok: true; id: string }
-  | { ok: false; error: string };
+  | { ok: false; error: string; code: string };
 
 export async function sendEmail(input: SendEmailInput): Promise<SendResult> {
-  if (!RESEND_API_KEY) return { ok: false, error: "RESEND_API_KEY not configured" };
+  if (!RESEND_API_KEY) return { ok: false, error: "RESEND_API_KEY not configured", code: "not_configured" };
 
   const body: Record<string, unknown> = {
     from: RESEND_FROM,
@@ -54,6 +54,7 @@ export async function sendEmail(input: SendEmailInput): Promise<SendResult> {
       },
       body: JSON.stringify(body),
       cache: "no-store",
+      signal: AbortSignal.timeout(10000),
     });
 
     const json = (await res.json().catch(() => ({}))) as {
@@ -66,15 +67,16 @@ export async function sendEmail(input: SendEmailInput): Promise<SendResult> {
       return {
         ok: false,
         error: json.message || json.name || `HTTP ${res.status}`,
+        code: `http_${res.status}`,
       };
     }
     // A 2xx with no id means the send didn't really happen — treat as a failure
     // so it surfaces in the caller's warn logs rather than a fabricated success.
     if (!json.id) {
-      return { ok: false, error: json.message || "Resend 2xx with no message id" };
+      return { ok: false, error: json.message || "Resend 2xx with no message id", code: "missing_message_id" };
     }
     return { ok: true, id: json.id };
   } catch (e) {
-    return { ok: false, error: e instanceof Error ? e.message : "network error" };
+    return { ok: false, error: e instanceof Error ? e.message : "network error", code: "transport_error" };
   }
 }

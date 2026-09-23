@@ -9,8 +9,10 @@ import {
   EMAIL_POSTAL_ADDRESS,
   RESEND_REPLY_TO,
 } from "@/lib/emails/config";
-import { circuitAllows } from "@/lib/emails/rateLimit";
+import { circuitAllows, reserveEmailSend } from "@/lib/emails/rateLimit";
+import { CONFIRM_RETRY_COOKIE, CONFIRM_RETRY_TTL } from "@/lib/emails/confirmation-flow";
 import saintDbIds from "@/lib/data/saint-db-ids.json";
+import { CONVERSION_COOKIE, CONVERSION_TTL, createConversionReceipt } from "@/lib/emails/conversion-receipt";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,11 +21,20 @@ const UNSUB_TTL = 60 * 60 * 24 * 730; // ~2 years (unsubscribe links must last)
 
 // Relative same-origin redirect after POST. 303 forces the browser to follow
 // with GET; a relative Location avoids reconstructing an origin from headers.
-function seeOther(path: string) {
-  return new NextResponse(null, {
+function seeOther(path: string, newlyConfirmed = false, retryToken = "") {
+  const response = new NextResponse(null, {
     status: 303,
     headers: { Location: path, "Cache-Control": "no-store" },
   });
+  response.cookies.set(CONVERSION_COOKIE, newlyConfirmed ? createConversionReceipt() : "", {
+    httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "lax",
+    path: "/subscribed", maxAge: newlyConfirmed ? CONVERSION_TTL : 0,
+  });
+  response.cookies.set(CONFIRM_RETRY_COOKIE, retryToken, {
+    httpOnly: true, secure: process.env.NODE_ENV === "production", sameSite: "lax",
+    path: "/subscribed", maxAge: retryToken ? CONFIRM_RETRY_TTL : 0,
+  });
+  return response;
 }
 
 // State change happens ONLY here, on a real POST from the /confirm page's button
@@ -45,31 +56,28 @@ export async function POST(request: NextRequest) {
   const saint = await getSaintBySlug(verified.slug);
   if (!saint || saint.kind === "unresolved") return seeOther("/subscribed?status=invalid");
 
-  // Record the signup, idempotently (one row per email). Best-effort — a backend
-  // hiccup must never block the confirmation. postgrest-js resolves with
-  // { data, error } instead of throwing, so inspect `error` explicitly.
+  // The RPC serializes confirmations per address. Only a newly saved row
+  // qualifies as a subscription conversion; an outage or replay never does.
+  let newlyConfirmed = false;
+  let subscriptionSaved = false;
   try {
-    const { data: existing, error: selErr } = await getInsforgeAdmin().database
-      .from("email_signups")
-      .select("id")
-      .eq("email", verified.email)
-      .limit(1);
-    if (!selErr && !(Array.isArray(existing) && existing.length > 0)) {
-      const saintId =
-        (saintDbIds as Record<string, string | undefined>)[saint.slug] ?? null;
-      await getInsforgeAdmin().database
-        .from("email_signups")
-        .insert([{ email: verified.email, saint_id: saintId }]);
-    }
+    const { data, error } = await getInsforgeAdmin().database.rpc("record_confirmed_subscription", {
+      p_email: verified.email,
+      p_saint_id: (saintDbIds as Record<string, string | undefined>)[saint.slug] ?? null,
+    });
+    newlyConfirmed = !error && data === true;
+    subscriptionSaved = !error && typeof data === "boolean";
   } catch {
-    // ignore — delivering the result email below is the priority
+    // Show a retry instead of claiming the subscription was saved.
   }
 
-  // ALWAYS send the result email on a valid confirmation — it is the payoff the
-  // user just confirmed for. (Sending only on first-ever signup meant anyone
-  // already on the list — including returning users picking a new saint — got
-  // nothing.) A confirm token is single-recipient, so a repeated click can only
-  // re-mail the confirmer themselves; harmless.
+  if (!subscriptionSaved) {
+    console.warn("[confirm] subscription_save_failed");
+    return seeOther("/subscribed?status=save_failed", false, token);
+  }
+
+  // Returning subscribers can request their result too. Signed recipient tokens
+  // and the separate result-email cooldown bound repeated sends.
   const origin = emailLinkOrigin();
   const unsubToken = createToken({
     email: verified.email,
@@ -89,6 +97,8 @@ export async function POST(request: NextRequest) {
   // Bound outbound volume per instance so a valid token replayed in a loop can't
   // burn the Resend quota. A legitimate single confirm is far under the cap.
   let delivered = false;
+  const reservation = reserveEmailSend(verified.email, "result");
+  if (!reservation.allowed) return seeOther(`/subscribed?status=cooldown&retryAfter=${reservation.retryAfter}`, newlyConfirmed, token);
   if (circuitAllows()) {
     const sent = await sendEmail({
       to: verified.email,
@@ -100,16 +110,19 @@ export async function POST(request: NextRequest) {
       )}`,
       listUnsubscribeMailto: RESEND_REPLY_TO,
     });
-    if (!sent.ok) console.warn("[confirm] result email failed:", sent.error);
+    if (!sent.ok) console.warn("[confirm] result_send_failed", { code: sent.code });
+    else console.info("[confirm] result_send_accepted", { messageId: sent.id });
     delivered = sent.ok;
   } else {
     console.warn("[confirm] result email skipped: send circuit open");
   }
 
-  // Only claim delivery when the email actually dispatched. On a skip or failure
+  // Only claim acceptance when the provider accepted the send. On a skip or failure
   // the confirm token is still valid (7-day TTL), so the "pending" page invites a
   // re-click rather than falsely promising an email that never left.
   return seeOther(
-    delivered ? "/subscribed?status=ok" : "/subscribed?status=pending"
+    delivered ? "/subscribed?status=ok" : "/subscribed?status=pending",
+    newlyConfirmed,
+    token
   );
 }

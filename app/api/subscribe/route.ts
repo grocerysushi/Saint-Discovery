@@ -7,7 +7,7 @@ import { sendEmail } from "@/lib/emails/resend";
 import { emailLinkOrigin } from "@/lib/emails/config";
 import {
   allowByIp,
-  allowByEmail,
+  reserveEmailSend,
   circuitAllows,
   clientIp,
 } from "@/lib/emails/rateLimit";
@@ -15,13 +15,13 @@ import {
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-// Same generic response for every outcome (new, already-subscribed, honeypot,
-// cooldown, invalid) so the endpoint leaks nothing and can't be used to probe
-// whether an address is on the list. It also writes NOTHING to the DB — a row is
-// only created after the recipient confirms.
+// Never look up subscription membership here. Existing and new subscribers
+// receive the same response; validation and service errors can still be honest.
 const GENERIC = {
   ok: true,
-  message: "Almost there — check your inbox for a confirmation link.",
+  status: "accepted",
+  retryAfter: 60,
+  message: "Check your inbox for a confirmation link.",
 };
 const CONFIRM_TTL = 60 * 60 * 24 * 7; // 7 days
 
@@ -29,6 +29,12 @@ function generic() {
   return NextResponse.json(GENERIC, {
     status: 200,
     headers: { "Cache-Control": "no-store" },
+  });
+}
+
+function failure(status: number, message: string, retryAfter = 0) {
+  return NextResponse.json({ ok: false, message, retryAfter }, {
+    status, headers: { "Cache-Control": "no-store", ...(retryAfter ? { "Retry-After": String(retryAfter) } : {}) },
   });
 }
 
@@ -45,15 +51,17 @@ export async function POST(request: NextRequest) {
   try {
     raw = await request.text();
   } catch {
-    return generic();
+    return failure(400, "Please check your email address and try again.");
   }
-  if (raw.length > 4096) return generic(); // reject oversized bodies pre-parse
+  if (raw.length > 4096) return failure(413, "Please check your email address and try again.");
 
   let data: Record<string, unknown>;
   try {
-    data = JSON.parse(raw) as Record<string, unknown>;
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return failure(400, "Please check your email address and try again.");
+    data = parsed;
   } catch {
-    return generic();
+    return failure(400, "Please check your email address and try again.");
   }
 
   // Honeypot: any non-empty decoy field => silently drop (never tell the bot).
@@ -61,34 +69,44 @@ export async function POST(request: NextRequest) {
   if (typeof hp === "string" && hp.trim().length > 0) return generic();
 
   const email = normalizeEmail(data.email);
-  if (!email) return generic();
+  if (!email) return failure(400, "Enter a valid email address.");
 
   const slug = typeof data.saintSlug === "string" ? data.saintSlug : "";
   const saint = await getSaintBySlug(slug);
-  if (!saint || saint.kind === "unresolved") return generic();
+  if (!saint || saint.kind === "unresolved") return failure(400, "Please return to your quiz result and try again.");
 
   // Best-effort abuse controls.
-  if (!allowByIp(clientIp(request))) return generic();
-  if (!allowByEmail(email)) return generic();
-  if (!circuitAllows()) return generic();
+  if (!allowByIp(clientIp(request))) return failure(429, "Too many requests. Please wait before trying again.", 720);
+  const reservation = reserveEmailSend(email);
+  if (!reservation.allowed) return failure(429, "A confirmation was requested recently. Check your inbox, or wait to resend.", reservation.retryAfter);
+  if (!circuitAllows()) return failure(503, "Email is temporarily unavailable. Please try again shortly.", 60);
 
-  const token = createToken({
-    email,
-    slug: saint.slug,
-    purpose: "confirm",
-    ttlSeconds: CONFIRM_TTL,
-  });
-  const origin = emailLinkOrigin();
-  const confirmUrl = `${origin}/confirm?token=${encodeURIComponent(token)}`;
+  try {
+    const token = createToken({
+      email,
+      slug: saint.slug,
+      purpose: "confirm",
+      ttlSeconds: CONFIRM_TTL,
+    });
+    const origin = emailLinkOrigin();
+    const confirmUrl = `${origin}/confirm?token=${encodeURIComponent(token)}`;
 
-  const { subject, html, text } = buildConfirmEmail({
-    confirmUrl,
-    siteUrl: origin,
-  });
+    const { subject, html, text } = buildConfirmEmail({
+      confirmUrl,
+      siteUrl: origin,
+    });
 
-  // Fire the confirmation email; the response is generic regardless of outcome.
-  const sent = await sendEmail({ to: email, subject, html, text });
-  if (!sent.ok) console.warn("[subscribe] confirmation email failed:", sent.error);
+    // Accepted by Resend does not mean delivered to the recipient's inbox.
+    const sent = await sendEmail({ to: email, subject, html, text });
+    if (!sent.ok) {
+      console.warn("[subscribe] confirmation_send_failed", { code: sent.code });
+      return failure(503, "We couldn't send the confirmation email. Please try again in a minute.", 60);
+    }
+    console.info("[subscribe] confirmation_send_accepted", { messageId: sent.id });
 
-  return generic();
+    return generic();
+  } catch {
+    console.warn("[subscribe] confirmation_send_failed");
+    return failure(503, "We couldn't send the confirmation email. Please try again in a minute.", 60);
+  }
 }

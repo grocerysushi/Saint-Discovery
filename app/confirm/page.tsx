@@ -4,6 +4,7 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import EmailFlowCard from "@/components/EmailFlowCard";
 import { verifyToken } from "@/lib/emails/tokens";
 import { getSaintBySlug } from "@/lib/saints";
+import EmailConfirmationForm from "@/components/EmailConfirmationForm";
 
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
@@ -27,12 +28,13 @@ export default async function ConfirmPage({
     return (
       <EmailFlowCard eyebrow="Saint Discovery" title="This link has expired">
         <p>
-          Confirmation links are valid for seven days. Retake the quiz to get a
-          fresh one.
+          Confirmation links work for seven days. Return to your saved quiz result
+          and request a new email. If your result is no longer saved in this browser,
+          you can take the quiz again.
         </p>
         <p>
-          <Link href="/" className="text-gold hover:text-gold-light underline">
-            Back to the quiz →
+          <Link href="/quiz" className="text-gold hover:text-gold-light underline">
+            Return to my result →
           </Link>
         </p>
       </EmailFlowCard>
@@ -40,7 +42,7 @@ export default async function ConfirmPage({
   }
 
   return (
-    <EmailFlowCard eyebrow="One last step" title="Confirm your subscription">
+    <EmailFlowCard eyebrow="One last step" title="Your novena is one step away">
       <p>
         Confirm your email and we&rsquo;ll send{" "}
         {saint ? (
@@ -52,16 +54,8 @@ export default async function ConfirmPage({
         )}{" "}
         plus a short novena and a reflection.
       </p>
-      <form method="POST" action="/api/confirm" className="pt-2">
-        <input type="hidden" name="token" defaultValue={token ?? ""} />
-        <button
-          type="submit"
-          className="inline-block px-8 py-3 bg-gold text-navy font-semibold rounded-full
-                     hover:bg-gold-light transition-colors cursor-pointer"
-        >
-          Confirm my email
-        </button>
-      </form>
+      <EmailConfirmationForm token={token ?? ""} />
+      <p className="text-sm text-cream-dark">Opening the email link does not complete confirmation. Press the button above to receive your result and occasional Saint Discovery notes. Unsubscribe anytime.</p>
       <p className="text-cream-dark/60 text-sm">
         If you didn&rsquo;t take the Saint Discovery quiz, you can ignore this
         page — nothing will be sent.

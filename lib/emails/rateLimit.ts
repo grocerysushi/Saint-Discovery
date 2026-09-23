@@ -47,17 +47,22 @@ export function allowByIp(ip: string): boolean {
 
 // --- Per-email cooldown (protects the victim from inbox-bombing) ------------
 // Stores a hash of the email, never the plaintext.
-const emailCooldown = new Map<string, number>();
-const COOLDOWN_MS = 15 * 60 * 1000;
+const emailCooldown = new Map<string, number[]>();
+export const EMAIL_RETRY_SECONDS = 60;
+const EMAIL_WINDOW_MS = 60 * 60 * 1000;
+const EMAIL_WINDOW_MAX = 3;
 
-export function allowByEmail(email: string): boolean {
+export function reserveEmailSend(email: string, purpose = "confirmation"): { allowed: boolean; retryAfter: number } {
   const now = Date.now();
-  const key = crypto.createHash("sha256").update(email).digest("hex");
-  const last = emailCooldown.get(key);
-  if (last && now - last < COOLDOWN_MS) return false;
-  emailCooldown.set(key, now);
+  const key = crypto.createHash("sha256").update(`${purpose}:${email.trim().toLowerCase()}`).digest("hex");
+  const recent = (emailCooldown.get(key) ?? []).filter(time => now - time < EMAIL_WINDOW_MS);
+  const last = recent.at(-1);
+  const availableAt = recent.length >= EMAIL_WINDOW_MAX ? recent[0] + EMAIL_WINDOW_MS : last === undefined ? now : last + EMAIL_RETRY_SECONDS * 1000;
+  if (now < availableAt) return { allowed: false, retryAfter: Math.ceil((availableAt - now) / 1000) };
+  recent.push(now);
+  emailCooldown.set(key, recent);
   evictIfLarge(emailCooldown);
-  return true;
+  return { allowed: true, retryAfter: EMAIL_RETRY_SECONDS };
 }
 
 // --- Per-instance circuit breaker (caps outbound sends/minute) -------------

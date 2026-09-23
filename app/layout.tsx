@@ -5,6 +5,7 @@ import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
+import { ANALYTICS_BOOTSTRAP } from "@/lib/analytics-bootstrap";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -135,13 +136,8 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-C75CMC27YN"
           strategy="afterInteractive"
         />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-C75CMC27YN');
-          `}
+        <Script id="google-analytics" strategy="beforeInteractive">
+          {ANALYTICS_BOOTSTRAP}
         </Script>
       </head>
       <body className="antialiased">
