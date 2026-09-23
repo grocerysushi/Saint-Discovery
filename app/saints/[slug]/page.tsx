@@ -9,6 +9,7 @@ import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
+import BlogRecommendations from "@/components/BlogRecommendations";
 import saintExtended from "@/lib/data/saint-extended.json";
 
 // Legacy generated copy is replaced as each external-source review is completed.
@@ -261,6 +262,8 @@ export default async function SaintPage({
               </section>
             )
           )}
+
+          {saint.kind !== "unresolved" && saint.kind !== "observance" && <BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="biography_blog" />}
 
           {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol><li>Which event or decision in this life stood out to you?</li><li>What virtue would you like to understand or practice more deeply?</li><li>What small action could you take today in response?</li></ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5"><Link href="/confirmation-saint-guide" className="btn-secondary">Explore your Confirmation choice →</Link><Link href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link></div></section>}
           {saint.quotes && saint.quotes.length > 0 && (

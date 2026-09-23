@@ -63,6 +63,10 @@ next-env.d.ts
 /scripts/__pycache__/
 /scripts/logs/
 
+# Generated classroom artifacts (served copies live in public/downloads)
+/output/pdf/
+/tmp/pdfs/
+
 # InsForge & AI agent skills
 .insforge
 .agent

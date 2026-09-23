@@ -1,0 +1,75 @@
+{
+  "updated": "2026-09-23",
+  "permission": "Original activities by Saint Discovery. Free to print, copy, and adapt for your classroom, parish, or household with attribution. Linked source materials retain their own copyright.",
+  "worksheet": {
+    "title": "Saint-reflection worksheet",
+    "description": "Move from reading a saint's life to noticing a virtue and choosing one concrete act of love. Use with any teacher-approved saint biography.",
+    "filename": "saint-reflection-worksheet.pdf",
+    "pages": [
+      {
+        "title": "Read a life. Notice a choice.",
+        "intro": "Read a saint biography and check one of its sources. Use your own words. You may leave a personal answer private and share only what you are comfortable sharing.",
+        "fields": [
+          { "label": "First name (optional) / Date", "lines": 1 },
+          { "label": "Saint's name / When and where they lived", "lines": 2 },
+          { "label": "1. What happened? Describe one specific choice this saint made and the difficulty they faced.", "lines": 4 },
+          { "label": "2. What can you verify? Name the biography and a source it links to. Record a fact the source supports. If a story is described as tradition or uncertain, say so.", "lines": 4 },
+          { "label": "3. What virtue do you notice? Explain how that choice shows courage, patience, generosity, humility, or another virtue.", "lines": 4 }
+        ]
+      },
+      {
+        "title": "Reflect. Pray. Take one step.",
+        "intro": "Keep the saint's example connected to following Jesus. An ordinary, achievable act of care is a good place to start.",
+        "fields": [
+          { "label": "4. What does this life teach you about following Jesus? Connect one detail from the biography to something you have learned about him.", "lines": 4 },
+          { "label": "5. What will you practice this week? Name one action, when you will do it, and who it could help. You do not need to name another person.", "lines": 4 },
+          { "label": "6. What would you like to ask? Write a question for your teacher, catechist, or sponsor. You may also write an original prayer in your own words.", "lines": 4 },
+          { "label": "After one week: What did you try? What did you learn? What is your next small step?", "lines": 3 }
+        ]
+      }
+    ]
+  },
+  "lesson": {
+    "title": "Confirmation lesson guide",
+    "description": "A 45-minute session connecting Confirmation, a saint's example, and everyday discipleship. Includes a timed plan, discussion prompts, and a sponsor follow-up.",
+    "filename": "confirmation-lesson-guide.pdf",
+    "pages": [
+      {
+        "title": "Prepare the session",
+        "sections": [
+          { "title": "Audience and purpose", "body": ["Designed for middle and high school Confirmation groups; adaptations for younger learners and adult OCIA groups appear on page 3. This is one supplementary session, not a complete sacramental preparation program. Follow your parish or diocese's preparation and naming guidance."] },
+          { "title": "By the end, learners can...", "body": ["Explain in their own words how Confirmation strengthens a baptized person for Christian witness; identify a virtue through a specific, sourced event in a saint's life; and plan one achievable act of service or prayer for the coming week."] },
+          { "title": "Gather and prepare", "body": ["Bring Bibles, pencils, one two-page saint-reflection worksheet per learner, and access to two or three suitable biographies. Preview the biographies and their sources for reading level and sensitive details. Use the saints directory to choose examples relevant to your group.", "For an offline session, prepare a brief, attributed summary of each selected life in your own words. Have learners identify the source you used. No student account, email address, or quiz is required. Allow written, spoken, dictated, or drawn responses."] },
+          { "title": "Teaching anchors", "body": ["Confirmation deepens baptismal grace and strengthens the Christian's bond with Christ and the Church, and their witness in word and action. Keep the Holy Spirit at the center of this lesson. [1, 2]", "The saints offer examples of discipleship and intercede for us; their example leads us toward Christ. Read Catechism paragraphs 956-957 for the Church's teaching on communion with the saints. [3]", "Choose a saint to study today, without requiring a final Confirmation-name decision. Help learners ask their parish about its requirements. A personality quiz can prompt exploration, but it does not determine a vocation, holiness, or readiness for a sacrament."] },
+          { "title": "Set a welcoming expectation", "body": ["Say: We will read carefully, ask honest questions, and connect a saint's example to daily life. You can keep personal reflections private. We are practicing thoughtful learning, not comparing anyone's faith."] }
+        ]
+      },
+      {
+        "title": "Teach the 45-minute lesson",
+        "sections": [
+          { "title": "0-5 minutes | Welcome and pray", "body": ["Invite learners to name a quality they admire in someone, without sharing private details. Offer this original prayer: Holy Spirit, help us listen with open hearts. Teach us through the saints to follow Jesus with courage and kindness. Guide one small act of love this week. Amen."] },
+          { "title": "5-12 minutes | Scripture and Confirmation", "body": ["Read Acts 1:8 from your Bible. Ask: Who gives the disciples strength? What are they sent to do? Briefly explain the Confirmation teaching anchors on page 1. Ask learners to suggest what Christian witness might look like at school, at home, or at work. [1, 2, 4]"] },
+          { "title": "12-25 minutes | Read and investigate", "body": ["Offer the prepared biographies. Each learner chooses one and completes worksheet prompts 1-3. In pairs, identify a particular action, the obstacle, and a virtue. Open a source cited by the biography or use your prepared source notes. Ask: What supports this fact? Is any part labeled tradition or uncertain? Help learners avoid treating every familiar story as established history."] },
+          { "title": "25-35 minutes | Reflect and discuss", "body": ["Complete prompts 4-6 privately, then invite voluntary sharing. Ask: How does this example point toward Jesus? Can someone practice this virtue in a different way today? What realistic step would serve another person? Learners may discuss the biography without sharing their own personal reflection."] },
+          { "title": "35-41 minutes | Plan a next step", "body": ["Invite each learner to choose one specific action and a time to try it. Replace vague goals such as be nicer with an achievable step such as include someone who is left out at lunch. For Confirmation candidates, write one question to discuss with a sponsor or catechist. The selection guide can support later research, without rushing a name decision."] },
+          { "title": "41-45 minutes | Check understanding and close", "body": ["Use an exit ticket: In one sentence, what does Confirmation strengthen us to do? Then name one saintly virtue and the event that shows it. Invite a quiet moment of prayer. Learners keep their personal worksheet; collect only the factual exit ticket if you need evidence of learning. Arrange a brief check-in the following week."] }
+        ]
+      },
+      {
+        "title": "Support learning after the session",
+        "sections": [
+          { "title": "Check understanding, not personal holiness", "body": ["Look for three things: a connection between the Holy Spirit and Christian witness; a specific event with a named source; and a feasible next step. If a response is vague, ask the learner to point to a sentence in the biography or explain the action in their own words. Do not grade prayer, personal disclosure, or perceived spiritual maturity.", "A sound exit-ticket answer might say that Confirmation strengthens us through the Holy Spirit to follow Christ and bear witness to him. Accept different wording that preserves the meaning. Historical answers will vary with the chosen saint; check them against the cited source. [1, 2]"] },
+          { "title": "Adapt for your group", "body": ["Younger learners: read one short life aloud, draw a scene, and answer prompts 1, 3, and 5 together. Give sentence starters: The saint helped by...; I can help by....", "Adult OCIA: use adult-life examples of family, work, and parish service. Invite questions about initiation and follow the parish's formation plan; do not assume everyone has the same baptismal background.", "Reading or access needs: provide large print, read aloud, allow a scribe, or use the online text with assistive technology. For a 60-minute group, add 15 minutes to compare two saints' responses to a similar challenge."] },
+          { "title": "Sponsor or household follow-up", "body": ["Invite a short conversation: What surprised you about this saint? What does their example help you understand about following Jesus? What question will you bring to your catechist? After one week, revisit the final worksheet prompt without requiring public disclosure."] },
+          { "title": "Use with Google Classroom", "body": ["Attach the worksheet PDF or link to this resource page in an assignment. Ask learners to use a teacher-approved biography and submit factual notes through your school's usual process. They can write on a printed copy or respond in a separate document. These PDFs are printable documents, not interactive forms. Avoid asking students to post private prayers or personal information publicly."] }
+        ]
+      }
+    ]
+  },
+  "sources": [
+    { "label": "USCCB: Confirmation", "url": "https://www.usccb.org/prayer-and-worship/sacraments-and-sacramentals/confirmation" },
+    { "label": "Catechism of the Catholic Church, 1302-1305: the effects of Confirmation", "url": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_2/iii_the_effects_of_confirmation.html" },
+    { "label": "Catechism of the Catholic Church, 956-957: communion with the saints", "url": "https://www.vatican.va/content/catechism/en/part_one/section_two/chapter_three/article_9/paragraph_5_the_communion_of_saints.html" },
+    { "label": "Acts 1:8 (USCCB Bible)", "url": "https://bible.usccb.org/bible/acts/1" }
+  ]
+}

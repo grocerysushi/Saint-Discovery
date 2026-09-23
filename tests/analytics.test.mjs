@@ -44,17 +44,88 @@ function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Ma
   return { location: { hostname, href: `https://${hostname}/subscribed?status=ok&token=private` },
     localStorage: { getItem: k => storage.get(k), setItem: (k, v) => storage.set(k, v) } };
 }
-test('bootstrap queues early events after config, strips tokens, keeps campaign attribution', () => {
+
+function boot(window) {
   const { ANALYTICS_BOOTSTRAP } = load('lib/analytics-bootstrap.ts');
+  const scripts = [], listeners = {}, historyCalls = [];
+  window.addEventListener = (name, callback) => { listeners[name] = callback; };
+  const history = Object.fromEntries(['pushState', 'replaceState'].map(name => [name, function (_state, _title, url) {
+    historyCalls.push({ name, blocked: window['ga-disable-G-C75CMC27YN'] === true });
+    if (url != null) window.location.href = new URL(url, window.location.href).href;
+  }]));
+  const document = { referrer: 'https://www.saintdiscoveryquiz.com/confirm?token=private', createElement: () => ({}), head: { appendChild: script => scripts.push(script) } };
+  vm.runInNewContext(ANALYTICS_BOOTSTRAP, { window, location: window.location, history, document, URL });
+  return { scripts, listeners, history, historyCalls };
+}
+test('bootstrap queues early events after config, strips tokens, keeps campaign attribution', () => {
   const window = browserWindow();
   window.location.href += '&utm_source=newsletter';
-  vm.runInNewContext(ANALYTICS_BOOTSTRAP, { window, location: window.location, document: { referrer: 'https://www.saintdiscoveryquiz.com/confirm?token=private' }, URL });
+  const { scripts } = boot(window);
+  assert.equal(scripts.length, 1);
   const { track } = load('lib/analytics.ts', {}, { window });
   assert.equal(track('quiz_complete', { saint_slug: 'joseph' }), true);
   assert.deepEqual(Array.from(window.dataLayer, args => args[0]), ['js', 'config', 'event']);
   assert.equal(window.dataLayer[1][1], 'G-C75CMC27YN');
   assert.doesNotMatch(JSON.stringify(window.dataLayer), /private|token=/);
   assert.match(JSON.stringify(window.dataLayer), /utm_source=newsletter/);
+});
+
+test('admin, encoded admin, local and preview loads never configure or load Google Analytics', () => {
+  for (const url of ['https://www.saintdiscoveryquiz.com/admin', 'https://saintdiscoveryquiz.com/admin/blog?test=1', 'https://www.saintdiscoveryquiz.com/%61dmin/blog', 'http://localhost:3107/', 'http://127.0.0.1:3107/quiz', 'https://preview.vercel.app/blog']) {
+    const window = browserWindow(new URL(url).hostname);
+    window.location.href = url;
+    const { scripts } = boot(window);
+    assert.equal(scripts.length, 0);
+    assert.equal(window.dataLayer, undefined);
+    window.gtag = () => { throw new Error('unexpected event'); };
+    assert.equal(load('lib/analytics.ts', {}, { window }).track('quiz_complete'), false);
+  }
+});
+
+test('client navigation blocks admin before history listeners and stays blocked until full reload', () => {
+  for (const method of ['pushState', 'replaceState']) {
+    const window = browserWindow();
+    const { history, historyCalls, listeners } = boot(window);
+    history[method]({}, '', '/blog');
+    assert.equal(historyCalls[0].blocked, false);
+    history[method]({}, '', '/admin/blog');
+    assert.equal(historyCalls[1].blocked, true);
+    history[method]({}, '', '/quiz');
+    assert.equal(historyCalls[2].blocked, true);
+    assert.equal(load('lib/analytics.ts', {}, { window }).track('quiz_complete'), false);
+    assert.equal(typeof listeners.popstate, 'function');
+  }
+  for (const event of ['popstate', 'pageshow']) {
+    const window = browserWindow(); const { listeners } = boot(window);
+    window.location.href = 'https://www.saintdiscoveryquiz.com/admin/blog';
+    listeners[event]();
+    assert.equal(window['ga-disable-G-C75CMC27YN'], true);
+  }
+});
+
+test('internal and debug traffic are opt-in, mutually exclusive, and absent for readers', () => {
+  for (const mode of ['reader', 'internal', 'developer', 'unexpected']) {
+    const window = browserWindow(undefined, new Map([['sd:analytics-mode', mode]]));
+    boot(window);
+    const settings = window.dataLayer[1][2];
+    assert.equal(settings.traffic_type, mode === 'internal' ? 'internal' : undefined);
+    assert.equal(settings.debug_mode, mode === 'developer' ? true : undefined);
+  }
+  const window = browserWindow();
+  window.localStorage.getItem = () => { throw Error('blocked storage'); };
+  boot(window);
+  assert.equal(window.dataLayer[1][2].debug_mode, undefined);
+  assert.equal(window.dataLayer[1][2].traffic_type, undefined);
+});
+
+test('cross-tab preference changes stop stale classification without blocking unrelated storage', () => {
+  const window = browserWindow(); const { listeners } = boot(window);
+  listeners.storage({ key: 'unrelated' });
+  assert.equal(window['ga-disable-G-C75CMC27YN'], undefined);
+  listeners.storage({ key: 'sd:analytics-mode' });
+  assert.equal(window['ga-disable-G-C75CMC27YN'], true);
+  const second = browserWindow(); boot(second).listeners.storage({ key: null });
+  assert.equal(second['ga-disable-G-C75CMC27YN'], true);
 });
 test('SSR, localhost, preview, unavailable or failing Google tag never break the app', () => {
   assert.equal(load('lib/analytics.ts').track('test'), false);

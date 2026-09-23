@@ -5,6 +5,7 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import { motion } from "framer-motion";
 import ShareButtons from "@/components/ShareButtons";
 import EmailCapture from "@/components/EmailCapture";
+import BlogRecommendations from "@/components/BlogRecommendations";
 import { absoluteUrl } from "@/lib/seo";
 import { Saint, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { resultPath, strongestTraits } from "@/lib/quiz-results";
@@ -24,6 +25,7 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
       {saint.feast_day && <div className="inline-flex gap-3 border border-navy-lighter rounded-md px-4 py-2 text-sm mb-6"><span className="text-cream-dark">Feast day</span><span>{saint.feast_day}</span></div>}
       <p>{saint.description}</p>
       <div className="result-reading-invite"><p className="eyebrow">Your next chapter</p><h2>Get to know the person behind the match.</h2><p>Read the biography, explore its sources, and notice one choice or virtue you want to understand better.</p><Link href={`/saints/${saint.slug}`} onClick={() => track("biography_click", { saint_slug: saint.slug, link_placement: "result_primary" })} className="btn-primary">Read the full story <span aria-hidden>→</span></Link><p className="result-session-note">Your match and trait profile are kept in this browser tab so you can return after reading. Start a new quiz to clear them. Browser settings may limit recovery after a refresh.</p></div>
+      <BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="result_blog" />
       <section className="result-share-panel" aria-labelledby="share-match-title"><p className="eyebrow">A discovery worth sharing</p><h2 id="share-match-title">Who will your friends get?</h2><p>Share your saint match and invite someone to find theirs. Your answers and trait scores stay off the shared page.</p><ShareButtons url={shareUrl} text={`I matched with ${saintDisplayName(saint)} on Saint Discovery. Which saint will you get?`} /><Link href={resultPath(saint.slug)} target="_blank" rel="noopener noreferrer" className="text-link">Preview my shared result <span className="sr-only">(opens in a new tab)</span> ↗</Link></section>
       {saint.prayer && <div className="result-prayer"><h2 className="eyebrow mb-3">A prayer to take with you</h2><p>{saint.prayer}</p></div>}
       <div className="flex flex-wrap gap-6 mt-5"><button onClick={onRestart} className="text-link">↻ Take the quiz again</button><Link href="/resources" className="text-link">Explore all saints →</Link></div>

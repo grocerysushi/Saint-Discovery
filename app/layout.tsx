@@ -132,10 +132,6 @@ export default function RootLayout({
             __html: serializeJsonLd(websiteJsonLd),
           }}
         />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-C75CMC27YN"
-          strategy="afterInteractive"
-        />
         <Script id="google-analytics" strategy="beforeInteractive">
           {ANALYTICS_BOOTSTRAP}
         </Script>

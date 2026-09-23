@@ -22,7 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/confirmation-saint-guide"),
-      lastModified: new Date("2026-09-15"),
+      lastModified: new Date("2026-09-23"),
       changeFrequency: "monthly",
       priority: 0.8,
     },
@@ -34,9 +34,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/resources"),
-      lastModified: new Date("2026-09-16"),
+      lastModified: new Date("2026-09-23"),
       changeFrequency: "weekly",
       priority: 0.8,
+    },
+    {
+      url: absoluteUrl("/resources/teachers"),
+      lastModified: new Date("2026-09-23"),
+      changeFrequency: "monthly",
+      priority: 0.7,
     },
     {
       url: absoluteUrl("/patron-saint-of"),
