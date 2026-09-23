@@ -8,6 +8,8 @@ On September 23, 2026, `quiz_complete` and `generate_lead` were marked as key ev
 
 | Event | Trigger | Key event? |
 | --- | --- | --- |
+| `homepage_quiz_click` | Homepage hero's Take the free quiz link | No |
+| `homepage_directory_click` | Homepage hero's Browse saint biographies link | No |
 | `quiz_start` | First selection in a fresh quiz attempt, including an explicit restart | No |
 | `quiz_step_view` | First view of each step in that attempt | No |
 | `quiz_step_complete` | First answer to each step in that attempt | No |
@@ -41,6 +43,8 @@ Live event-scoped custom dimensions:
 | Recommendation position | `recommendation_position` |
 
 Biography placement values: `result_primary`, `result_next_steps`, `result_related`. `total_steps` also accompanies quiz events for troubleshooting.
+
+Homepage hero actions reuse `link_placement=home_hero` and add `content_version=clear_intro_v1`. They measure link selection, not actual quiz participation. `content_version` is not registered as a custom dimension. See [the homepage clarity trial](direct-entry-copy-trial.md) for the source/landing-page baseline and rollout evaluation. These events begin only after deployment and are deliberately not key events.
 
 Blog discovery reuses `link_placement` with `result_blog` and `biography_blog` (the existing GA4 dimension is named **Biography link placement**). The three article dimensions above were added in the live property on September 23, 2026. `recommendation_version` starts at `v1`; positions are 1 or 2. See `blog-discovery-trial.md` for the rollout evaluation. These events contain article/saint slugs, never quiz answers, trait scores, email addresses or visitor profiles.
 

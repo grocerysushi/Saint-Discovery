@@ -3,6 +3,7 @@ import DailySaintCard from "./DailySaintCard";
 import type { DailySaint } from "@/lib/saint-of-day";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { track } from "@/lib/analytics";
 
 export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) {
   return (
@@ -10,12 +11,12 @@ export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) 
       <div className="site-width">
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow hero-kicker">A little reflection. A lasting connection.</p>
+            <p className="eyebrow hero-kicker">Free Catholic saint quiz</p>
             <h1 className="hero-title">Which Catholic<br />saint <em>are you?</em></h1>
-            <p className="hero-description">Discover the saint who shares your spirit. A few thoughtful questions can introduce you to a lifetime of inspiration.</p>
+            <p className="hero-description">Take a short quiz to discover a Catholic saint whose virtues connect with your answers. Then explore their story, feast day, and a prayer.</p>
             <div className="hero-actions">
-              <Link href="/quiz" className="btn-primary">Find my saint <span className="arrow" aria-hidden>↗</span></Link>
-              <Link href="/resources" className="text-link">Explore the saints <span aria-hidden>→</span></Link>
+              <Link href="/quiz" onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "clear_intro_v1" })} className="btn-primary">Take the free quiz <span className="arrow" aria-hidden>↗</span></Link>
+              <Link href="/resources" onClick={() => track("homepage_directory_click", { link_placement: "home_hero", content_version: "clear_intro_v1" })} className="text-link">Browse saint biographies <span aria-hidden>→</span></Link>
             </div>
             <p className="hero-note"><span aria-hidden>✓</span> Free to explore · 3–5 minutes · No account needed</p>
           </div>
