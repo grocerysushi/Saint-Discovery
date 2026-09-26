@@ -4,6 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getAllSaints, getAllSaintSlugs, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { getBiographyReview } from "@/lib/saint-reviews";
 import { getSaintLearningGuide } from "@/lib/saint-learning-guides";
+import { getSaintContribution } from "@/lib/saint-contributions";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
@@ -82,8 +83,9 @@ export default async function SaintPage({
     ? [] : getRelatedSaints(saint, allSaints.filter(entry => entry.kind !== "observance"));
   const review = getBiographyReview(saint.slug);
   const learningGuide = getSaintLearningGuide(saint.slug);
+  const contribution = getSaintContribution(saint.slug);
   const extended: ExtendedContent | undefined = review ? { biography: review.biography, faqs: learningGuide?.faqs ?? [] } : EXTENDED[saint.slug];
-  const reflectionPrompts = learningGuide?.prompts ?? [
+  const reflectionPrompts = contribution ? [...(learningGuide?.prompts ?? []), contribution.reflection] : learningGuide?.prompts ?? [
     "Which event or decision in this life stood out to you?",
     "What virtue would you like to understand or practice more deeply?",
     "What small action could you take today in response?",
@@ -104,7 +106,7 @@ export default async function SaintPage({
     about: { "@type": "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
-    ...(review ? { dateModified: review.reviewed_on, citation: review.sources.map(source => source.url) } : {}),
+    ...(review ? { dateModified: contribution?.reviewed_on ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(contribution?.sources ?? [])].map(source => source.url))] } : {}),
   };
 
   const breadcrumbJsonLd = {
@@ -243,6 +245,7 @@ export default async function SaintPage({
             {review && <a href="#sources" className="underline underline-offset-4">Sources</a>}
             {(extended || saint.description) && <a href="#biography" className="underline underline-offset-4">Biography</a>}
             {learningGuide && <a href="#reading-guide" className="underline underline-offset-4">Reading guide</a>}
+            {contribution && <a href="#contribution" className="underline underline-offset-4">Context &amp; contribution</a>}
             {saint.prayer && <a href="#prayer" className="underline underline-offset-4">Prayer</a>}
             {extended && extended.faqs.length > 0 && <a href="#questions" className="underline underline-offset-4">Common questions</a>}
           </nav>
@@ -269,6 +272,16 @@ export default async function SaintPage({
                 </p>
               </section>
             )
+          )}
+
+          {contribution && (
+            <section id="contribution" aria-labelledby="contribution-title" className="mb-10 scroll-mt-24">
+              <p className="eyebrow mb-3">Context &amp; contribution</p>
+              <h2 id="contribution-title" className="text-2xl font-heading font-semibold text-cream mb-4">{contribution.title}</h2>
+              <div className="text-cream-dark leading-relaxed space-y-4">{contribution.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
+              <div className="mt-5 text-sm text-cream-dark"><p className="font-semibold mb-2">Explore the sources for this section</p><ul className="space-y-2">{contribution.sources.map(source => <li key={source.url}><a href={source.url} className="text-gold underline underline-offset-4">{source.title} ↗</a></li>)}</ul><p className="mt-3">AI-assisted source comparison updated {contribution.reviewed_on}. <Link href="/editorial-policy" className="underline underline-offset-4">Editorial approach</Link></p></div>
+              {saint.kind === "observance" && <p className="mt-5 text-cream-dark"><strong>For reflection:</strong> {contribution.reflection}</p>}
+            </section>
           )}
 
           {learningGuide && (

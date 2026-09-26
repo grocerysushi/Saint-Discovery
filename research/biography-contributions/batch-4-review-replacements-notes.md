@@ -1,0 +1,18 @@
+# Independent review replacements for batch 4
+
+Reviewed and researched 2026-09-26. Read all 115 proposed contributions; compared the strongest repetition candidates directly with their existing expansion paragraphs. No data, identity, or shared application files changed in this review pass. The six replacement objects are isolated in `batch-4-review-replacements.json` for the parent to merge.
+
+## Research support
+
+- **padre-pio**: Padre Pio Prayer Groups, *Follow the Path That God Has Chosen for You*, seventh step, printed page 21 / PDF page 22. Retrieved PDF text gives the 1925 San Francesco hospital, 1940 committee, construction in 1947, outpatient services in 1954, and 1991 research designation. Avoided inconsistent exact construction-start days within the source and made no claims about present institutional status.
+- **paul-chong-hasang**: GWU-hosted Baker colloquium paper, paragraph beginning with the Korean Catholic Church's fight to restrain state authority and footnote 9. Retrieved indexed PDF text gives his plea for tolerance, comparison with Buddhists and shamans, and appeal to observable conduct. The following paragraph provides the historian's interpretation concerning ultimate moral and ritual authority. No purported final-speech quotation used.
+- **peter-chanel**: The Marist Places, Belley, paragraphs on Jean-Claude Colin's school leadership, Chanel as vice-superior/spiritual director, and courtyard statue. Source openly retrieved and institutionally attributed to the Marist Internet Project. The source connects teaching, school responsibility, and the statue's boy/palm imagery.
+- **philip-the-apostle**: Benedict XVI, general audience, September 6, 2006. Retrieved full text. Used the Nathanael and Greek-visitor episodes rather than repeating the baseline feeding and Last Supper passages. Avoided the English source's apparent geographical typo in its later-tradition paragraph.
+- **pacian-of-barcelona**: Primary text *Exhortation to Penance*, sections 2 and 15–16, C. H. Collyns translation, hosted by Roger Pearse at tertullian.org. Retrieved full text. The admission concerning Cervulus, medical image, and community sympathy all appear explicitly. No claims that ancient medical analogies constitute current clinical advice.
+- **rose-of-lima**: Teodoro Hampe Martínez, *El proceso de canonización de Santa Rosa*, at CEMHAL, paragraphs on her surviving paper hearts and ascent diagram; full page retrieved. Julián de Cos OP, *The Prayer of Love*, page 98, hosted on the official Dominican laity site: direct PDF opening errored, but indexed text retrieved the passage permitting her adviser to burn the hearts and asking correction. This limited-access fact is documented here; only text actually retrieved was used. Described the objects as testimony to Rose's understanding, not verification of supernatural claims.
+
+Each replacement has two original paragraphs, a saint-specific study activity, and its own relevant source references. Each source contributes fewer than 200 paraphrased words to the replacement; there are no direct quotations. Baseline biographical paragraphs remain untouched.
+
+## Other findings sent to parent
+
+Strong semantic repetition: solanus-casey, symphorian, titus, turibius-of-mogrovejo, vincent-de-paul, zita, romuald, romanus-of-condat, stanley-rother, thomas-becket, willibrord, ursula. Further weak-new-value cases: olaf, severinus, scholastica, zelie-martin, simon-the-apostle. These are editorial findings rather than established factual errors. Parent is handling follow-up changes. No obvious identity error was found in the complete contribution read; this is not a certification of every factual claim against every source.

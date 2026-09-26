@@ -6,6 +6,7 @@ import { loadTs } from './load-ts.mjs';
 const read = file => fs.readFileSync(new URL(`../${file.replace(/^\.next\//, `${process.env.SAINT_BUILD_DIR || '.next'}/`)}`, import.meta.url), 'utf8');
 const saints = await loadTs('lib/saints.ts').getAllSaints();
 const { reviews } = loadTs('lib/saint-reviews.ts');
+const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
 const origin = 'https://www.saintdiscoveryquiz.com';
 const html = route => read(`.next/server/app/${route}.html`);
 const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
@@ -83,8 +84,21 @@ test('every saint has a unique canonical, readable server-rendered content, and 
     for (const paragraph of reviews[saint.slug].biography) {
       assert.ok(renderedContent.includes(paragraph), `${saint.slug}: missing server-rendered biography paragraph`);
     }
-    assert.equal(article.dateModified, reviews[saint.slug].reviewed_on, saint.slug);
-    assert.deepEqual(article.citation, Array.from(reviews[saint.slug].sources, entry => entry.url), saint.slug);
+    const contribution = getSaintContribution(saint.slug);
+    assert.equal(article.dateModified, contribution?.reviewed_on ?? reviews[saint.slug].reviewed_on, saint.slug);
+    if (contribution) {
+      const rendered = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
+      assert.ok(rendered.includes(contribution.title), `${saint.slug}: contribution heading`);
+      for (const paragraph of contribution.paragraphs) assert.ok(rendered.includes(paragraph), `${saint.slug}: contribution body`);
+      assert.ok(rendered.includes(contribution.reflection), `${saint.slug}: original reflection`);
+      for (const citation of contribution.sources) {
+        assert.ok(source.includes(`href="${citation.url.replace(/&/g, '&amp;')}"`), `${saint.slug}: source link`);
+        assert.ok(article.citation.includes(citation.url), `${saint.slug}: structured citation`);
+      }
+      const sitemap = read('.next/server/app/sitemap.xml.body');
+      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${contribution.reviewed_on}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
+    }
+    assert.deepEqual(article.citation, [...new Set([...reviews[saint.slug].sources, ...(contribution?.sources ?? [])].map(entry => entry.url))], saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
     assert.ok(!data.some(item => item['@type'] === 'ProfilePage'), saint.slug);
     const crumbs = data.find(item => item['@type'] === 'BreadcrumbList');
