@@ -17,7 +17,7 @@ export function BlogImage({ src, alt, className = "" }: { src: string; alt: stri
   const [broken, setBroken] = useState(false);
   return !broken && safeBlogUrl(src, true) ? <img src={safeBlogUrl(src, true)} alt={alt} className={className} onError={() => setBroken(true)} /> : <div className={`blog-art-placeholder ${className}`} role="img" aria-label={alt || "Saint Discovery journal"}><span aria-hidden>✦</span></div>;
 }
-function renderNode(node: JSONContent, key: number): ReactNode {
+function renderNode(node: JSONContent, key: number, headingId?: string): ReactNode {
   const children = node.content?.map((n, i) => renderNode(n, i));
   if (node.type === "text") {
     let value: ReactNode = node.text ?? "";
@@ -33,7 +33,7 @@ function renderNode(node: JSONContent, key: number): ReactNode {
   }
   switch (node.type) {
     case "paragraph": return <p key={key}>{children || <br />}</p>;
-    case "heading": return node.attrs?.level === 3 ? <h3 key={key}>{children}</h3> : <h2 key={key}>{children}</h2>;
+    case "heading": return node.attrs?.level === 3 ? <h3 id={headingId} key={key}>{children}</h3> : <h2 id={headingId} key={key}>{children}</h2>;
     case "bulletList": return <ul key={key}>{children}</ul>;
     case "orderedList": return <ol key={key}>{children}</ol>;
     case "listItem": return <li key={key}>{children}</li>;
@@ -47,10 +47,12 @@ function renderNode(node: JSONContent, key: number): ReactNode {
 }
 export function ArticleView({ content, date, preview = false }: { content: BlogContent; date?: string | null; preview?: boolean }) {
   const nodes = content.body.content ?? [];
+  const sections = nodes.flatMap((node, index) => node.type === "heading" && node.attrs?.level !== 3 ? [{ id: `article-section-${index}`, label: (node.content ?? []).map(n => n.text ?? "").join("") }] : []);
   return <div className="blog-article-wrap">
-    <header className="blog-article-heading"><p className="eyebrow">{content.category} <span> / </span> The Saint Discovery Journal</p><h1>{content.title || "Your story starts here"}</h1><p className="blog-deck">{content.excerpt}</p><div className="blog-byline"><span className="blog-avatar" aria-hidden>✦</span><span>{content.author || "Author"}<small>{date ? new Date(date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Draft preview"} · {readingTime(content.body)} min read</small></span></div></header>
+    <header className="blog-article-heading"><p className="eyebrow">{content.category} <span> / </span> The Saint Discovery Journal</p><h1>{content.title || "Your story starts here"}</h1><p className="blog-deck">{content.excerpt}</p><div className="blog-byline"><span className="blog-avatar" aria-hidden>✦</span><span>{content.author === "Saint Discovery" ? <Link href="/about">Saint Discovery</Link> : content.author || "Author"}<small>{date ? new Date(date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Draft preview"} · {readingTime(content.body)} min read</small></span></div></header>
     {content.cover && <figure className="blog-cover"><BlogImage key={content.cover} src={content.cover} alt={content.coverAlt} />{content.coverCredit && <figcaption>{content.coverCredit}</figcaption>}</figure>}
-    <div className={`blog-reading-grid ${!content.ads ? "blog-no-ads" : ""}`}><article className="blog-prose">{nodes.map((node, i) => <Fragment key={i}>{renderNode(node, i)}{content.ads && i === 3 && nodes.length > 5 && <AdSpace format="inline" />}</Fragment>)}<div className="blog-endmark" aria-hidden>✦</div></article>{content.ads && <aside className="blog-reading-aside"><AdSpace format="rectangle" /><div className="blog-related-note"><p className="eyebrow">A life worth knowing</p><h2>Find a saint to walk with.</h2><p>Go deeper with the stories behind the names.</p><Link href="/resources">Explore the saints →</Link></div></aside>}</div>
+    <div className={`blog-reading-grid ${!content.ads ? "blog-no-ads" : ""}`}><article className="blog-prose">{sections.length >= 3 && <nav className="blog-contents" aria-label="In this article"><p>In this article</p><ol>{sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.label}</a></li>)}</ol></nav>}{nodes.map((node, i) => <Fragment key={i}>{renderNode(node, i, `article-section-${i}`)}{content.ads && i === 3 && nodes.length > 5 && <AdSpace format="inline" />}</Fragment>)}<div className="blog-endmark" aria-hidden>✦</div></article>{content.ads && <aside className="blog-reading-aside"><AdSpace format="rectangle" /><div className="blog-related-note"><p className="eyebrow">A life worth knowing</p><h2>Find a saint to walk with.</h2><p>Go deeper with the stories behind the names.</p><Link href="/resources">Explore the saints →</Link></div></aside>}</div>
+    {!preview && <aside className="blog-editorial-note" aria-label="About this publication"><p>Published by Saint Discovery, an independent Catholic learning project. Our research and writing use AI assistance; source links let you explore the references.</p><Link href="/editorial-policy">Editorial approach &amp; corrections →</Link></aside>}
     {!preview && <div className="blog-back"><Link href="/blog">← More from the journal</Link></div>}
   </div>;
 }
@@ -65,6 +67,7 @@ export function BlogIndex({ posts, page, pages, total, category, search }: { pos
       {rest.length > 0 && <section className="blog-more"><div className="blog-section-title"><h2>A moment to explore</h2><span>{total} {total === 1 ? "story" : "stories"}</span></div><div className="blog-story-grid">{rest.map((post, i) => <Link className={`blog-story-card blog-story-tone-${i % 2}`} key={post.id} href={`/blog/${post.published.slug}`}><div className="blog-card-art">{post.published.cover ? <BlogImage src={post.published.cover} alt={post.published.coverAlt} /> : <><span aria-hidden>{i % 2 ? "☾" : "✦"}</span><small>The Saint Discovery Journal</small></>}</div><p className="eyebrow">{post.published.category}</p><h3>{post.published.title}</h3><p>{post.published.excerpt}</p><span className="blog-card-meta">{post.published.author} <span aria-hidden>↗</span></span></Link>)}</div></section>}
       {pages > 1 && <nav className="blog-pagination" aria-label="Journal pages">{page > 1 && <Link href={blogBrowseUrl(page - 1, category, search)} rel="prev">← Newer stories</Link>}<span>Page {page} of {pages}</span>{page < pages && <Link href={blogBrowseUrl(page + 1, category, search)} rel="next">Older stories →</Link>}</nav>}
     </>}
-    <section className="blog-invitation"><p className="eyebrow">Keep discovering</p><h2>A story can be the start of something.</h2><p>Meet the saints whose lives might speak to yours.</p><Link href="/quiz" className="btn-primary">Find your saint ↗</Link></section>
+    {page === 1 && !category && !search && <section className="blog-reading-paths" aria-labelledby="reading-paths"><p className="eyebrow">Start with your question</p><h2 id="reading-paths">Choose a path through the journal</h2><div><section><h3>Choosing a Confirmation saint</h3><p>Compare possible patrons, read their sources, and prepare a thoughtful reflection.</p><Link href="/confirmation-saint-guide">Choose your saint →</Link><Link href="/blog/how-to-write-confirmation-saint-report">Write your saint report →</Link></section><section><h3>Learning to pray</h3><p>Begin with the meaning of prayer, then try praying with a passage of Scripture.</p><Link href="/blog/what-is-prayer-catholic-guide-beginners">A beginner’s guide to prayer →</Link><Link href="/blog/how-to-pray-lectio-divina-catholic-guide">Try lectio divina →</Link></section><section><h3>Teaching or exploring the faith</h3><p>Connect Catholic beliefs with a lesson, discussion, or a question for your parish.</p><Link href="/blog/seven-sacraments-catholic-church-explained">Understand the sacraments →</Link><Link href="/resources/teachers">Printable teaching resources →</Link></section></div></section>}
+    <section className="blog-invitation"><p className="eyebrow">Keep discovering</p><h2>A story can be the start of something.</h2><p>Meet the saints whose lives might speak to yours.</p><Link href="/quiz" className="btn-primary">Find your saint ↗</Link><p><Link href="/editorial-policy">How we prepare our content and handle corrections →</Link></p></section>
   </main>;
 }

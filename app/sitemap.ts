@@ -52,15 +52,21 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified: new Date("2026-07-13"),
+      lastModified: new Date("2026-09-25"),
       changeFrequency: "monthly",
       priority: 0.4,
     },
     {
       url: absoluteUrl("/privacy"),
-      lastModified: new Date("2026-07-13"),
+      lastModified: new Date("2026-09-25"),
       changeFrequency: "yearly",
       priority: 0.2,
+    },
+    {
+      url: absoluteUrl("/editorial-policy"),
+      lastModified: new Date("2026-09-25"),
+      changeFrequency: "monthly",
+      priority: 0.3,
     },
   ];
 
