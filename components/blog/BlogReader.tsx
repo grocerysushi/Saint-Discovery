@@ -7,7 +7,10 @@ import { BLOG_CATEGORIES, readingTime, safeBlogUrl, type BlogContent } from "@/l
 import type { BlogSummary } from "@/lib/blog-public";
 import { blogBrowseUrl } from "@/lib/blog-seo";
 
+// Placeholders stay hidden until a live ad network is approved; flip to true to preview placements.
+const SHOW_AD_PLACEHOLDERS = false;
 export function AdSpace({ format = "banner" }: { format?: "banner" | "rectangle" | "inline" }) {
+  if (!SHOW_AD_PLACEHOLDERS) return null;
   return <aside className={`blog-ad blog-ad-${format}`} aria-label="Advertisement placeholder"><span>Advertisement</span><div><span aria-hidden>▧</span><p>Space for a thoughtful partner</p><small>{format === "banner" ? "Responsive banner · 728 × 90 desktop" : format === "rectangle" ? "Sidebar · 300 × 250" : "In-article · responsive"}</small></div><span>Preview placement · no live ads</span></aside>;
 }
 export function BlogImage({ src, alt, className = "" }: { src: string; alt: string; className?: string }) {
