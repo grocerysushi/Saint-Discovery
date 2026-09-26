@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
 };
 
-const EFFECTIVE_DATE = "September 8, 2026";
+const EFFECTIVE_DATE = "September 25, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -58,10 +58,10 @@ export default function PrivacyPage() {
           <p>
             Saint Discovery is a free Catholic saint quiz and directory. You can
             take the quiz and browse every page without creating an account or
-            giving us your name. The only personal information we ever store is
-            an email address — and only if you ask us to email you your result
-            and confirm that request from your inbox. You can unsubscribe with
-            one click at any time, which deletes your address from our list.
+            giving us your name. Optional email delivery, analytics, hosting,
+            and administration involve the data described below. We add your
+            address to the result-email list after you confirm the request.
+            You can unsubscribe using the link in an email.
           </p>
         </Section>
 
@@ -72,7 +72,10 @@ export default function PrivacyPage() {
             confirmation link (double opt-in). Only after you click that link do
             we store your email address together with the saint you matched
             with, so we can send you your result and a short novena. If you
-            never confirm, nothing is stored.
+            never confirm, you are not added to that list. Your address is still
+            processed to send the confirmation message, and our delivery provider
+            may retain delivery records. Confirmation links contain a signed
+            token with your email address and saint identifier; keep them private.
           </p>
           <p>
             <strong className="text-cream">Anonymous quiz results.</strong>{" "}
@@ -84,8 +87,9 @@ export default function PrivacyPage() {
             <strong className="text-cream">Usage analytics.</strong> We use
             Google Analytics to understand how visitors use the
             site — pages viewed, quiz starts and completions, which saints
-            people look up, and general location and device information. This
-            data is aggregated and does not identify you to us. You can use
+            people look up, and general location and device information. These
+            reports are used in aggregate, but analytics can use browser
+            identifiers and cookies to distinguish visits. You can use
             the Google Analytics opt-out controls described below.
           </p>
         </Section>
@@ -94,7 +98,8 @@ export default function PrivacyPage() {
           <p>
             We use your confirmed email address to send you the result and
             novena you requested, and occasional notes from Saint Discovery. We
-            do not sell, rent, or share our email list with anyone. Every email
+            do not sell or rent our email list. Service providers process data
+            to operate the website and deliver email as described below. Every email
             we send includes an unsubscribe link; unsubscribing removes your
             address from our list.
           </p>
@@ -117,13 +122,17 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong className="text-cream">InsForge</strong> — the database
-              where confirmed email signups and anonymous quiz results are
-              stored.
+              where confirmed email signups, quiz results, blog content, and
+              blog administrator account information are stored. Administrative
+              access uses authentication; visitors do not need an account.
             </li>
             <li>
               <strong className="text-cream">Google Analytics &amp; Google
-              Ads</strong> — analytics and advertising. Google may set cookies
-              and use identifiers as described in{" "}
+              AdSense</strong> — analytics and planned blog advertising.
+              AdSense ads are not currently enabled. If enabled, advertisements
+              will be confined to the blog. Google and its advertising partners
+              may use cookies or identifiers to serve and measure ads, including
+              based on visits to this and other websites. See{" "}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -161,11 +170,12 @@ export default function PrivacyPage() {
         </Section>
         <Section title="Cookies">
           <p>
-            Saint Discovery itself does not set tracking cookies. Google
-            Analytics and Google Ads set first-party cookies to
-            measure visits and recognize returning visitors, as described
-            above. Your browser settings let you block or delete cookies at
-            any time; the quiz works fine without them.
+            Google Analytics can set cookies to measure visits and recognize
+            returning browsers. The blog editor uses authentication cookies;
+            these are separate from visitor analytics. If blog advertising is
+            enabled, advertising providers may also set cookies as described
+            above. Your browser settings let you block or delete cookies;
+            the quiz does not require advertising or analytics cookies.
           </p>
         </Section>
 

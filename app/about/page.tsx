@@ -43,13 +43,15 @@ export default async function AboutPage() {
             struggles, and gifts, and every one of us has more in common with
             some of them than we might guess. The quiz matches your answers
             against six spiritual traits — contemplative, charitable,
-            intellectual, courageous, joyful, and mystical — and pairs you with
-            the saint whose life most resembles your own temperament.
+            intellectual, courageous, joyful, and mystical — and suggests a
+            saint to explore based on your answers. It is a starting point for
+            reflection, not an authoritative choice of patron saint.
           </p>
           <p>
             Behind the quiz sits a growing directory of{" "}
             {saintCount > 0 ? `${saintCount} ` : ""}Catholic saints, each with a
-            biography, feast day, patronages, quotes, and a prayer. Whether you
+            biography and source references, with feast days and patronages
+            where documented. Whether you
             arrived here looking for a confirmation saint, the patron of your
             profession, or just five minutes of fun that turns into a friendship
             with someone who ran the race before you — welcome.
@@ -80,6 +82,11 @@ export default async function AboutPage() {
           </p>
         </div>
 
+        <section className="mt-10 text-cream-dark leading-relaxed space-y-4">
+          <h2 className="text-2xl font-heading text-cream">Learn, reflect, and keep exploring</h2>
+          <p>Use the <Link href="/confirmation-saint-guide" className="text-link">Confirmation guide</Link> to compare possible patrons and prepare for a conversation with your sponsor. Our <Link href="/resources/teachers" className="text-link">teacher resources</Link> include a printable reflection worksheet and lesson guide. The <Link href="/blog" className="text-link">journal</Link> connects Catholic teaching and saint stories with practical questions.</p>
+          <p>Saint Discovery is an independent project, not an official Church publication. AI tools assist with research and writing. Read our <Link href="/editorial-policy" className="text-link">editorial approach</Link> for how we use sources, describe uncertainty, and accept corrections. Advertising is planned for the blog only; the quiz and learning resources remain free.</p>
+        </section>
         <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
           <Link
             href="/quiz"
