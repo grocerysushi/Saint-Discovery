@@ -38,8 +38,10 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
   const image = saint?.image;
   const showImage = image && failedImage !== image.src;
   return <figure className={`hero-art daily-saint-card${showImage ? "" : " daily-saint-no-art"}`}>
-    {showImage && <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 760px) 100vw, 520px" priority onError={() => setFailedImage(image.src)} />}
+    <div className="daily-saint-image">
+    {showImage && <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1000px) 45vw, 470px" priority onError={() => setFailedImage(image.src)} />}
     {!showImage && <div className="daily-saint-placeholder" aria-hidden><span>✦</span></div>}
+    </div>
     <figcaption className="art-caption">
       <p className="eyebrow">{saint ? `Saint of the day · ${saint.feastDay}` : "Discover the saints"}</p>
       <h2>{saint ? saintDisplayName(saint) : "A companion for your journey"}</h2>

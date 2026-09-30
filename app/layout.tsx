@@ -1,6 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
+import "@/components/home-refresh.css";
+import "@/components/content-refresh.css";
+import "./design-refresh.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
@@ -88,7 +91,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#111b21",
+  themeColor: "#0c1c2a",
 };
 
 export default function RootLayout({

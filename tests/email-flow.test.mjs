@@ -161,3 +161,137 @@ test('capture retains form and never claims success after provider, malformed or
     assert.equal(ui.events.filter(e => e.name === 'email_confirmation_error').length, 1);
   }
 });
+
+// Real token signing with a synthetic secret, and a database that never leaves
+// this process. These tests must not send email or change real subscriptions.
+const unsubscribeTokens = load('lib/emails/tokens.ts', {
+  'node:crypto': crypto,
+  './config': { EMAIL_TOKEN_SECRET: 'local-unsubscribe-regression-secret-only' },
+});
+const unsubscribeToken = (purpose = 'unsub', ttlSeconds = 60) => unsubscribeTokens.createToken({
+  email: 'reader@example.invalid', slug: 'joseph', purpose, ttlSeconds,
+});
+
+function unsubscribeHarness(outcomes = [null]) {
+  const deletions = [];
+  const route = load('app/api/unsubscribe/route.ts', {
+    'next/server': { NextResponse: class {
+      constructor(body, options) { Object.assign(this, { body }, options); }
+    } },
+    '@/lib/emails/tokens': unsubscribeTokens,
+    '@/lib/insforge-admin': { getInsforgeAdmin: () => ({ database: { from(table) {
+      assert.equal(table, 'email_signups');
+      return { delete: () => ({ eq: async (column, email) => {
+        deletions.push({ column, email });
+        const outcome = outcomes.shift();
+        if (outcome instanceof Error) throw outcome;
+        return { data: [], error: outcome ?? null };
+      } }) };
+    } } }) },
+  });
+  const request = ({ token = '', browser = true, form = false } = {}) => ({
+    nextUrl: new URL(`https://example.invalid/api/unsubscribe${form ? '' : `?token=${encodeURIComponent(token)}`}`),
+    headers: new Headers({ accept: browser ? 'text/html' : '*/*' }),
+    formData: async () => new URLSearchParams({ token }),
+  });
+  return { deletions, post: options => route.POST(request(options)), get: options => route.GET(request(options)) };
+}
+
+function unsubscribePage(file) {
+  const jsx = (type, props) => ({ type, props });
+  return load(file, {
+    'react/jsx-runtime': { jsx, jsxs: jsx },
+    'next/link': 'Link',
+    '@/components/EmailFlowCard': 'EmailFlowCard',
+    '@/lib/emails/tokens': unsubscribeTokens,
+  });
+}
+
+test('browser unsubscribe failures preserve a verified token and render a working retry form', async () => {
+  const page = unsubscribePage('app/unsubscribe/page.tsx');
+  assert.equal(page.metadata.referrer, 'no-referrer');
+  for (const failure of [{ message: 'private backend diagnostic' }, new Error('private backend diagnostic')]) {
+    const token = unsubscribeToken();
+    const api = unsubscribeHarness([failure, null]);
+    const failed = await api.post({ token, form: true });
+    assert.equal(failed.status, 303);
+    assert.equal(failed.headers['Cache-Control'], 'no-store');
+    assert.equal(failed.headers['Referrer-Policy'], 'no-referrer');
+    const location = new URL(failed.headers.Location, 'https://example.invalid');
+    assert.equal(location.pathname, '/unsubscribe');
+    assert.equal(location.searchParams.get('status'), 'error');
+    assert.equal(location.searchParams.get('token'), token);
+    assert.doesNotMatch(JSON.stringify(failed), /reader@|private backend diagnostic/);
+
+    const tree = await page.default({ searchParams: Promise.resolve(Object.fromEntries(location.searchParams)) });
+    assert.equal(tree.props.title, "We couldn't complete your unsubscribe");
+    assert.ok(nodes(tree).some(node => node.props?.role === 'alert'));
+    const form = nodes(tree).find(node => node.type === 'form');
+    assert.equal(form.props.method, 'POST');
+    assert.equal(form.props.action, '/api/unsubscribe');
+    const hidden = nodes(form).find(node => node.type === 'input' && node.props.name === 'token');
+    assert.equal(hidden.props.defaultValue, token);
+    assert.ok(nodes(form).some(node => node.type === 'button' && node.props.children === 'Try unsubscribing again'));
+    const retried = await api.post({ token: hidden.props.defaultValue, form: true });
+    assert.equal(retried.headers.Location, '/unsubscribed?status=ok');
+    assert.equal(api.deletions.length, 2);
+  }
+});
+
+test('successful and repeated unsubscribe submissions are idempotent for browser and provider', async () => {
+  for (const browser of [true, false]) {
+    const api = unsubscribeHarness();
+    const token = unsubscribeToken();
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const response = await api.post({ token, browser, form: browser });
+      assert.equal(response.status, browser ? 303 : 200);
+      if (browser) assert.equal(response.headers.Location, '/unsubscribed?status=ok');
+      else assert.equal(response.body, null);
+    }
+    assert.deepEqual(api.deletions, Array(2).fill({ column: 'email', email: 'reader@example.invalid' }));
+  }
+  const page = unsubscribePage('app/unsubscribed/page.tsx');
+  const tree = await page.default({ searchParams: Promise.resolve({ status: 'ok' }) });
+  assert.equal(tree.props.title, "You've been unsubscribed");
+});
+
+test('provider one-click unsubscribe still returns 500 on persistence failures', async () => {
+  for (const failure of [{ message: 'database error' }, new Error('network error')]) {
+    const api = unsubscribeHarness([failure]);
+    const response = await api.post({ token: unsubscribeToken(), browser: false });
+    assert.equal(response.status, 500);
+    assert.equal(response.body, null);
+    assert.equal(api.deletions.length, 1);
+  }
+});
+
+test('invalid, missing, expired and wrong-purpose unsubscribe tokens never delete or offer a retry', async () => {
+  const page = unsubscribePage('app/unsubscribe/page.tsx');
+  for (const token of ['', 'forged-token', unsubscribeToken('confirm'), unsubscribeToken('unsub', -1)]) {
+    const api = unsubscribeHarness();
+    const browser = await api.post({ token });
+    assert.equal(browser.status, 303);
+    assert.equal(browser.headers.Location, '/unsubscribed');
+    assert.equal((await api.post({ token, browser: false })).status, 200);
+    assert.equal(api.deletions.length, 0);
+    const tree = await page.default({ searchParams: Promise.resolve({ token, status: 'error' }) });
+    assert.equal(tree.props.title, 'Link not recognized');
+    assert.equal(nodes(tree).some(node => node.type === 'form'), false);
+  }
+  const neutral = await unsubscribePage('app/unsubscribed/page.tsx').default({ searchParams: Promise.resolve({}) });
+  assert.match(JSON.stringify(neutral), /couldn't verify this unsubscribe request/);
+  assert.doesNotMatch(JSON.stringify(neutral), /you've been removed|You've been unsubscribed|You won't receive/);
+});
+
+test('unsubscribe GET and ordinary confirmation rendering stay read-only', async () => {
+  const token = unsubscribeToken();
+  const api = unsubscribeHarness();
+  const response = await api.get({ token });
+  assert.equal(response.status, 303);
+  assert.equal(response.headers.Location, `/unsubscribe?token=${encodeURIComponent(token)}`);
+  assert.equal(api.deletions.length, 0);
+  const tree = await unsubscribePage('app/unsubscribe/page.tsx').default({ searchParams: Promise.resolve({ token }) });
+  assert.equal(tree.props.title, 'Unsubscribe');
+  assert.ok(nodes(tree).some(node => node.type === 'button' && node.props.children === 'Unsubscribe me'));
+  assert.equal(nodes(tree).some(node => node.props?.role === 'alert'), false);
+});

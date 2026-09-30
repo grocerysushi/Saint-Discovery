@@ -2,12 +2,11 @@
 import DailySaintCard from "./DailySaintCard";
 import type { DailySaint } from "@/lib/saint-of-day";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { track } from "@/lib/analytics";
 
 export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="home-hero">
+    <div className="home-hero">
       <div className="site-width">
         <div className="hero-grid">
           <div className="hero-copy">
@@ -28,6 +27,6 @@ export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) 
           <div className="hero-fact"><strong>21</strong><span>questions to your match</span></div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

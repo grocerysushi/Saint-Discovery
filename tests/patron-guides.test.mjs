@@ -5,6 +5,17 @@ import { loadTs } from './load-ts.mjs';
 const { PATRON_GUIDES, getPatronGuide, getGuidesForSaint } = loadTs('lib/patron-guides.ts');
 const { getAllSaints } = loadTs('lib/saints.ts');
 
+test('featured patronage shortcuts resolve to current populated topics', () => {
+  const { FEATURED_PATRON_SLUGS, FEATURED_PATRON_TOPICS, getTopicBySlug } = loadTs('lib/patronage.ts');
+  assert.ok(FEATURED_PATRON_TOPICS.length > 0);
+  assert.equal(FEATURED_PATRON_TOPICS.length, FEATURED_PATRON_SLUGS.length, 'replace retired featured topics instead of silently dropping every shortcut');
+  for (const topic of FEATURED_PATRON_TOPICS) {
+    assert.equal(getTopicBySlug(topic.slug), topic);
+    assert.ok(topic.saints.length > 0);
+    assert.ok(!PATRON_GUIDES.some(guide => guide.slug === topic.slug), 'complement the guides already displayed above');
+  }
+});
+
 test('every guide links to published canonical biographies and traceable sources', async () => {
   const saints = new Set((await getAllSaints()).map(saint => saint.slug));
   assert.deepEqual(Array.from(PATRON_GUIDES, guide => guide.slug), ['blacksmiths', 'nurses', 'parents', 'students', 'grief', 'difficult-decisions']);

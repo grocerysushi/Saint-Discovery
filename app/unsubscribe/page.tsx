@@ -6,6 +6,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Unsubscribe",
   robots: { index: false, follow: false },
+  referrer: "no-referrer",
 };
 
 // Read-only page: unsubscribing happens on the POST to /api/unsubscribe (button
@@ -13,9 +14,9 @@ export const metadata: Metadata = {
 export default async function UnsubscribePage({
   searchParams,
 }: {
-  searchParams: Promise<{ token?: string }>;
+  searchParams: Promise<{ token?: string; status?: string }>;
 }) {
-  const { token } = await searchParams;
+  const { token, status } = await searchParams;
   const verified = token ? verifyToken(token, "unsub") : null;
 
   if (!verified) {
@@ -29,12 +30,25 @@ export default async function UnsubscribePage({
     );
   }
 
+  const retry = status === "error";
+
   return (
-    <EmailFlowCard eyebrow="Saint Discovery" title="Unsubscribe">
-      <p>Stop receiving emails from Saint Discovery?</p>
+    <EmailFlowCard
+      eyebrow="Saint Discovery"
+      title={retry ? "We couldn't complete your unsubscribe" : "Unsubscribe"}
+    >
+      {retry ? (
+        <p role="alert">
+          Something went wrong while removing your subscription. Please try again
+          below. If it still fails, reply to any of our emails and we&rsquo;ll
+          remove you.
+        </p>
+      ) : (
+        <p>Stop receiving emails from Saint Discovery?</p>
+      )}
       <form
         method="POST"
-        action={`/api/unsubscribe?token=${encodeURIComponent(token ?? "")}`}
+        action="/api/unsubscribe"
         className="pt-2"
       >
         <input type="hidden" name="token" defaultValue={token ?? ""} />
@@ -43,7 +57,7 @@ export default async function UnsubscribePage({
           className="inline-block px-8 py-3 border border-gold/40 text-gold rounded-full
                      hover:bg-gold/10 transition-colors cursor-pointer"
         >
-          Unsubscribe me
+          {retry ? "Try unsubscribing again" : "Unsubscribe me"}
         </button>
       </form>
     </EmailFlowCard>

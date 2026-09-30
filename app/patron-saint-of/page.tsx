@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
-import { PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
+import { FEATURED_PATRON_TOPICS, PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 
 export const revalidate = 86400;
@@ -28,27 +28,7 @@ export const metadata: Metadata = {
   },
 };
 
-// Editorial shortcuts, not a ranking of Search Console query volumes.
-const FEATURED_SLUGS = [
-  "travelers",
-  "the-sick",
-  "lost-causes",
-  "anxiety",
-  "mental-illness",
-  "students",
-  "nurses",
-  "expectant-mothers",
-  "animals",
-  "musicians",
-  "soldiers",
-  "the-poor",
-];
-
 export default function PatronIndexPage() {
-  const featured = FEATURED_SLUGS.map((slug) =>
-    PATRON_TOPICS.find((t) => t.slug === slug)
-  ).filter((t): t is NonNullable<typeof t> => Boolean(t));
-
   const groups = new Map<string, typeof PATRON_TOPICS>();
   for (const topic of PATRON_TOPICS) {
     // Group by first letter of the meaningful word ("the sick" files under S).
@@ -111,12 +91,12 @@ export default function PatronIndexPage() {
           </div>
         </section>
 
-        <section className="mb-12">
+        {FEATURED_PATRON_TOPICS.length > 0 && <section className="mb-12">
           <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-4">
             Explore patronages
           </h2>
           <div className="flex flex-wrap gap-2">
-            {featured.map((t) => (
+            {FEATURED_PATRON_TOPICS.map((t) => (
               <Link
                 key={t.slug}
                 href={`/patron-saint-of/${t.slug}`}
@@ -127,7 +107,7 @@ export default function PatronIndexPage() {
               </Link>
             ))}
           </div>
-        </section>
+        </section>}
 
         {letters.map((letter) => (
           <section key={letter} className="patron-letter-group">

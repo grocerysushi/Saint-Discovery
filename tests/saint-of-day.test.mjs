@@ -6,7 +6,40 @@ import vm from 'node:vm';
 import ts from 'typescript';
 import { loadTs } from './load-ts.mjs';
 import { fileURLToPath } from 'node:url';
+import { hasRemoteMatch } from 'next/dist/shared/lib/match-remote-pattern.js';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+
+function imagePatterns() {
+  const compiled = ts.transpileModule(fs.readFileSync(path.join(root, 'next.config.ts'), 'utf8'), {
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
+  }).outputText;
+  const loaded = { exports: {} };
+  vm.runInNewContext(compiled, { module: loaded, exports: loaded.exports, process: { env: {} }, __dirname: root });
+  return loaded.exports.default.images.remotePatterns;
+}
+
+test('the image optimizer accepts remote artwork for every day in the calendar', () => {
+  const patterns = imagePatterns();
+  const { getSaintOfDay } = loadDaily();
+  for (let i = 0; i < 366; i++) {
+    const day = new Date(2024, 0, i + 1);
+    const date = `${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`;
+    const saint = getSaintOfDay(date);
+    if (saint?.image?.src.startsWith('https://')) {
+      assert.ok(hasRemoteMatch([], patterns, new URL(saint.image.src)), `${date}: ${saint.slug}`);
+    }
+  }
+});
+
+test('thumbnail permission stays limited to HTTPS Commons paths on the exact host', () => {
+  const patterns = imagePatterns();
+  for (const url of [
+    'http://thumb.wikimedia.org/wikipedia/commons/thumb/example.jpg',
+    'https://thumb.wikimedia.org:444/wikipedia/commons/thumb/example.jpg',
+    'https://thumb.wikimedia.org/other/example.jpg',
+    'https://thumb.wikimedia.org.example.com/wikipedia/commons/thumb/example.jpg',
+  ]) assert.equal(hasRemoteMatch([], patterns, new URL(url)), false, url);
+});
 
 function loadDaily(overrides = {}) {
   const cache = new Map();

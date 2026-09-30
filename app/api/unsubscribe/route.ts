@@ -45,10 +45,15 @@ export async function POST(request: NextRequest) {
     return new NextResponse(null, {
       status: 303,
       headers: {
-        // Only claim success when the delete truly succeeded; otherwise fall back
-        // to the neutral "request received" copy.
-        Location: ok ? "/unsubscribed?status=ok" : "/unsubscribed",
+        // Keep a verified token available for another attempt after a backend
+        // failure. Invalid tokens get a neutral response without being echoed.
+        Location: ok
+          ? "/unsubscribed?status=ok"
+          : verified
+            ? `/unsubscribe?status=error&token=${encodeURIComponent(token)}`
+            : "/unsubscribed",
         "Cache-Control": "no-store",
+        "Referrer-Policy": "no-referrer",
       },
     });
   }

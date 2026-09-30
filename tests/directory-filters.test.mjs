@@ -28,6 +28,17 @@ test('all filters compose, including gender, text, vocation, month, country and 
   assert.ok(select({ search: ' Jesuits ' }).some(saint => saint.slug === 'ignatius-of-loyola'));
 });
 
+test('plain, accented, and decomposed name searches agree and compose with filters', () => {
+  const expected = select({ search: 'Thérèse' }).map(saint => saint.slug);
+  assert.ok(expected.includes('therese-of-lisieux'));
+  for (const search of ['therese', '  THÉRÈSE  ', 'The\u0301re\u0300se']) {
+    assert.deepEqual(select({ search }).map(saint => saint.slug), expected);
+    assert.deepEqual(select({ search, month: 'October' }).map(saint => saint.slug), ['therese-of-lisieux']);
+    assert.equal(select({ search, month: 'October', gender: 'Male' }).length, 0);
+  }
+  assert.equal(select({ search: 'no matching biography' }).length, 0);
+});
+
 test('unknown classification is explicit and is not a claim of no religious membership', () => {
   assert.ok(select({ order: UNCLASSIFIED }).some(saint => saint.slug === 'elias-of-the-carmelites'));
   assert.equal(getDirectoryEntry(bySlug('elias-of-the-carmelites')).orders.length, 0);

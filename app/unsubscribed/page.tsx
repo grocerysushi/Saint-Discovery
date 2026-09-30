@@ -23,7 +23,7 @@ export default async function UnsubscribedPage({
       <p>
         {status === "ok"
           ? "You won't receive any more emails from Saint Discovery. You're always welcome back."
-          : "If that link was valid, you've been removed. You can also reply to any email and we'll take care of it."}
+          : "We couldn't verify this unsubscribe request. Please use the unsubscribe link in your email, or reply to any of our emails and we'll take care of it."}
       </p>
       <p>
         <Link href="/" className="text-gold hover:text-gold-light underline">

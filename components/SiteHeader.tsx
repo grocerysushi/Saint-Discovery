@@ -55,7 +55,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     </Link>
   ));
   return (
-    <header ref={header} className="site-header" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
+    <header ref={header} className="site-header site-header-refresh" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
       <a href="#main-content" className="skip-to-content">Skip to content</a>
       <div className="site-width header-inner">
         <Link href="/" className="brand" aria-label="Saint Discovery home" onClick={close}><span className="brand-mark" aria-hidden>✦</span><span className="brand-name">Saint Discovery</span></Link>

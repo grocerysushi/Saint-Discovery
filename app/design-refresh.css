@@ -1,0 +1,140 @@
+/* Shared presentation: content and application behavior remain in their existing components. */
+:root { --header-height: 82px; }
+body { font-size: 16px; }
+.site-width { width: min(1240px, calc(100% - 80px)); }
+.eyebrow { font-size: .8125rem; font-weight: 550; letter-spacing: .025em; text-transform: none; }
+.btn-primary, .btn-secondary { border-radius: 6px; min-height: 50px; padding: 14px 22px; gap: 18px; line-height: 1.4; }
+.btn-primary { box-shadow: 0 3px 0 color-mix(in srgb, var(--color-gold) 25%, transparent); }
+.btn-secondary { background: color-mix(in srgb, var(--color-navy-light) 55%, transparent); }
+input, textarea, select { color: inherit; }
+input::placeholder, textarea::placeholder { color: currentColor; opacity: .6; }
+.text-link { font-size: .9375rem; }
+
+/* Long-form biographies and policy pages share a comfortable reading measure. */
+.reading-page { max-width: 920px; padding: 48px 40px 88px; }
+.reading-page h1 { font-size: clamp(2.6rem, 5vw, 4.3rem); line-height: 1.08; letter-spacing: -.035em; font-weight: 400; }
+.reading-page h2 { font-size: clamp(1.65rem, 2.7vw, 2.2rem); line-height: 1.22; }
+.reading-page h3 { line-height: 1.3; }
+.reading-page > nav, .reading-page > article > nav { font-size: .875rem; line-height: 1.6; }
+.reading-page > nav { margin-bottom: 28px; }
+.reading-page > nav a, .reading-page > nav span { color: var(--color-cream-dark); }
+.reading-page > nav a:hover { color: var(--color-gold); }
+.reading-page article > header { padding: 30px 0 32px; border-top: 3px solid var(--color-gold); border-bottom: 1px solid var(--color-navy-lighter); }
+.reading-page article > header dl { display: grid; grid-template-columns: 1fr; gap: 10px; padding-top: 16px; font-size: .9375rem; }
+.reading-page article > header dl > div { gap: 8px 18px; align-items: baseline; }
+.reading-page article > header dt { min-width: 120px; font-size: .8125rem; }
+.reading-page article > header dd { color: var(--color-cream-dark); flex: 1; min-width: 180px; }
+.reading-page article > header p { line-height: 1.8; }
+.reading-page article > nav { padding: 16px 0; border-bottom: 1px solid var(--color-navy-lighter); gap: 10px 22px; }
+.reading-page article > section { margin-top: 40px; }
+.reading-page article > section p, .reading-page > div p { font-size: 1.0625rem; line-height: 1.85; }
+.reading-page article > section h2 { margin-bottom: 20px; }
+.reading-page #sources { padding-top: 30px; border-top: 1px solid var(--color-navy-lighter); }
+.reading-page #sources a { overflow-wrap: anywhere; }
+.biography-journey { padding: 20px 24px; border-color: var(--color-navy-lighter); border-radius: 8px; }
+.biography-reflection { padding: 28px 30px; border-left: 3px solid var(--color-gold); border-radius: 0 8px 8px 0; }
+.reading-page blockquote { border-left: 3px solid var(--color-gold); padding: 24px 28px; }
+.reading-page .faq-list details { padding-block: 20px; }
+.blog-discovery-card { border-radius: 8px; padding: 24px; }
+.blog-discovery-category { letter-spacing: .015em; }
+
+/* Quiz options carry the interaction, with the question given clear priority. */
+.quiz-shell { width: min(780px, calc(100% - 48px)); padding-block: 48px 72px; }
+.quiz-progress-label { font-size: .875rem; margin-bottom: 14px; }
+.quiz-progress-track { height: 6px; background: var(--color-navy-lighter); }
+.question-card { border-radius: 10px; padding: 38px 40px; border-color: color-mix(in srgb, var(--color-gold) 28%, var(--color-navy-lighter)); box-shadow: 0 16px 44px #0000001a; }
+.question-title { font-size: clamp(1.85rem, 3vw, 2.6rem); line-height: 1.18; margin-block: 16px 30px; }
+.question-options { gap: 12px; }
+.option-button { border-radius: 6px; padding: 17px 18px; min-height: 66px; font-size: 1rem; }
+.option-key { border-radius: 50%; width: 32px; height: 32px; font-weight: 600; }
+.option-button:hover .option-key, .option-button:focus-visible .option-key { background: var(--color-gold); color: var(--color-navy); border-color: var(--color-gold); }
+.quiz-hint, .quiz-back { font-size: .875rem; }
+.result-layout { gap: 56px; padding-block: 54px 72px; grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); }
+.result-story h1 { font-size: clamp(2.8rem, 4.8vw, 4.5rem); line-height: 1.08; }
+.result-panel { border-radius: 8px; padding: 28px; border-top: 2px solid color-mix(in srgb, var(--color-gold) 55%, transparent); }
+.result-panel h2 { font-size: 1.9rem; line-height: 1.18; }
+.result-share-panel { border-radius: 8px; border-color: var(--color-navy-lighter); }
+.result-prayer { border-left: 3px solid var(--color-gold); border-radius: 0 8px 8px 0; }
+.result-explore-grid { gap: 20px; }
+.email-flow-card { padding: 40px; border-radius: 10px; border-top: 3px solid var(--color-gold); box-shadow: 0 16px 48px #0000001a; }
+.email-flow-card h1 { font-size: clamp(2.1rem, 4vw, 2.8rem); line-height: 1.12; }
+.email-flow-card p { line-height: 1.8; }
+
+/* Calendar pages frame the artwork and keep its attribution beside the image. */
+.daily-page { padding-block: 48px 72px; }
+.daily-page-heading { align-items: flex-start; padding-bottom: 28px; border-bottom: 1px solid var(--color-navy-lighter); }
+.daily-page-heading h1 { font-size: clamp(2.8rem, 5vw, 4.4rem); margin-block: 12px 18px; }
+.daily-page-heading .daily-date { padding: 16px 20px; border: 1px solid var(--color-navy-lighter); border-radius: 6px; margin-top: 12px; }
+.daily-date-nav { margin-block: 24px 36px; border-top: 0; padding-block: 0 20px; }
+.daily-date-nav a { min-height: 44px; }
+.daily-story { grid-template-columns: minmax(0,.85fr) minmax(0,1.15fr); gap: 48px; }
+.daily-artwork { min-height: 0; padding: 10px; border-radius: 8px; }
+.daily-artwork-image { position: relative; height: 460px; border: 1px solid color-mix(in srgb,var(--color-gold) 25%, transparent); overflow: hidden; }
+.daily-artwork figcaption { position: static; padding: 14px 8px 6px; background: none; color: var(--color-cream-dark); font-size: .75rem; }
+.daily-artwork-fallback { min-height: 100%; }
+.daily-story-copy h2 { margin-block: 12px 24px; font-size: clamp(2rem, 3.4vw, 3rem); }
+.daily-practice-grid { gap: 22px; }
+.daily-practice-grid article { border-radius: 8px; padding: 28px; border-top: 2px solid color-mix(in srgb,var(--color-gold) 60%,transparent); }
+.daily-progress { border-radius: 8px; }
+.daily-checks label { background: var(--color-navy-light); border-radius: 6px; padding-inline: 12px; }
+.daily-more a { background: var(--color-navy-light); }
+.daily-sources { border-radius: 6px; padding-inline: 20px; background: var(--color-navy-light); }
+
+/* Learning guides use the same visual hierarchy as biographies. */
+.guide-hero { padding-block: 54px 48px; gap: 48px; }
+.guide-hero h1 { font-size: clamp(2.8rem, 5vw, 4.5rem); }
+.guide-hero h1 em { font-style: normal; color: inherit; }
+.guide-intro-note { border-radius: 8px; border-top: 3px solid var(--color-gold); padding: 30px; }
+.guide-intro-note h2 { margin-block: 14px; }
+.guide-jump-links { gap: 12px 26px; padding-block: 16px; }
+.guide-section { padding-top: 50px; }
+.guide-steps { gap: 26px 40px; }
+.guide-candidates { gap: 22px; }
+.guide-candidate { border-radius: 8px; padding: 28px; }
+.guide-shortlist { border-radius: 8px; background: var(--color-navy-light); }
+.guide-filters button { border-radius: 6px; }
+.patron-letter-group { grid-template-columns: 48px minmax(0,1fr); }
+.patron-links a { padding-block: 8px; min-height: 44px; }
+.educator-page .page-intro { padding-top: 42px; }
+.educator-card { border-radius: 8px; }
+.educator-start { padding-block: 28px; }
+.educator-paper-preview span, .educator-paper-preview small { letter-spacing: .06em; }
+
+@media (max-width: 1000px) {
+  .site-width { width: min(1240px, calc(100% - 48px)); }
+  .result-layout { gap: 28px; }
+  .daily-story { gap: 30px; }
+  .guide-hero { gap: 30px; }
+}
+@media (max-width: 760px) {
+  :root { --header-height: 74px; }
+  .site-width { width: calc(100% - 40px); }
+  .reading-page { width: 100%; padding: 32px 22px 56px; }
+  .reading-page article > header { padding-top: 24px; }
+  .reading-page article > header dt { min-width: 108px; }
+  .reading-page article > header dd { min-width: 150px; }
+  .reading-page article > section p, .reading-page > div p { font-size: 1rem; line-height: 1.8; }
+  .biography-journey, .biography-reflection { padding: 22px; }
+  .quiz-shell { width: calc(100% - 32px); padding-block: 28px 48px; }
+  .question-card { padding: 26px 20px; }
+  .option-button { padding: 16px 12px; }
+  .result-layout { grid-template-columns: 1fr; padding-block: 36px 50px; gap: 30px; }
+  .result-panel, .result-share-panel { padding: 24px; }
+  .result-explore-grid { grid-template-columns: 1fr; }
+  .email-flow-card { padding: 30px 24px; }
+  .daily-page { padding-top: 32px; }
+  .daily-page-heading .daily-date { margin-top: 0; text-align: left; }
+  .daily-story { grid-template-columns: 1fr; }
+  .daily-artwork-image { height: 380px; }
+  .daily-date-nav { gap: 8px 20px; }
+  .daily-practice-grid article { padding: 24px; }
+  .daily-practice { padding-top: 32px; }
+  .guide-hero { padding-block: 38px 30px; grid-template-columns: 1fr; }
+  .guide-intro-note { padding: 26px; }
+  .guide-shortlist { padding: 24px; }
+}
+@media (max-width: 380px) {
+  .site-width { width: calc(100% - 32px); }
+  .reading-page { padding-inline: 18px; }
+  .daily-artwork-image { height: 330px; }
+}

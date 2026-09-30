@@ -2,13 +2,13 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #111b21;
-  --color-navy-light: #19272e;
-  --color-navy-lighter: #324149;
-  --color-gold: #becda6;
-  --color-gold-light: #e0e9cd;
-  --color-cream: #f6f4ed;
-  --color-cream-dark: #c6cece;
+  --color-navy: #0c1c2a;
+  --color-navy-light: #152b3a;
+  --color-navy-lighter: #395362;
+  --color-gold: #dec48e;
+  --color-gold-light: #f4dfa8;
+  --color-cream: #faf6eb;
+  --color-cream-dark: #c5d1d6;
   --font-heading: 'DM Serif Display', Georgia, serif;
   --font-body: 'DM Sans', sans-serif;
 }

@@ -1,0 +1,69 @@
+/* The directory is a working catalogue: search first, supporting reading later. */
+.directory-page { padding-block:48px 80px; }
+.directory-page .page-intro { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(0,.75fr); column-gap:64px; row-gap:12px; padding-block:0 30px; margin-bottom:30px; }
+.directory-page .page-intro>.eyebrow { grid-column:1/-1; }
+.directory-page .page-intro h1 { margin:0; font-size:clamp(2.5rem,4.5vw,4.2rem); line-height:1.13; letter-spacing:-.025em; }
+.directory-page .page-intro>p:last-child { align-self:end; font-size:.975rem; line-height:1.8; }
+.directory-page .eyebrow { text-transform:none; letter-spacing:.015em; font-size:.85rem; }
+.directory-search-panel { padding:20px 24px 16px; background:var(--color-navy-light); border:1px solid var(--color-navy-lighter); border-radius:14px; margin-bottom:22px; }
+.directory-page .directory-toolbar { align-items:center; gap:16px; margin:0; }
+.directory-page .search-field { min-width:0; }
+.directory-page .search-field input { min-height:56px; background:var(--color-navy); border-radius:8px; font-size:1rem; }
+.directory-page .search-field svg { top:18px; }
+.directory-page .gender-filters { background:transparent; border:0; padding:0; flex-shrink:0; }
+.directory-page .gender-filters button { min-height:44px; padding:10px 13px; }
+.directory-refine { margin-top:14px; border-top:1px solid var(--color-navy-lighter); }
+.directory-refine>summary { display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:48px; padding-top:8px; list-style:none; color:var(--color-gold); font-size:.875rem; cursor:pointer; border-radius:4px; }
+.directory-refine>summary::-webkit-details-marker { display:none; }
+.directory-refine>summary svg { width:18px; height:18px; flex-shrink:0; }
+.directory-refine[open]>summary svg { transform:rotate(180deg); }
+.directory-refine fieldset { min-width:0; padding-block:16px 8px; }
+.directory-select { min-height:48px; width:100%; border:1px solid var(--color-navy-lighter); border-radius:7px; background:var(--color-navy); padding:12px; font-size:.875rem; color:var(--color-cream); }
+.directory-select option { background:var(--color-navy); color:var(--color-cream); }
+.directory-refine #directory-filter-help { max-width:92ch; font-size:.8rem; line-height:1.7; }
+.directory-clear-filters { display:block; padding:8px 12px; border:1px solid var(--color-navy-lighter); border-radius:6px; color:var(--color-gold); font-size:.85rem; margin-top:8px; min-height:44px; }
+.directory-clear-filters:hover { border-color:var(--color-gold); }
+.directory-page :is(summary,input,select,button,a):focus-visible { outline:2px solid var(--color-gold-light); outline-offset:4px; }
+.directory-page .directory-count { margin-block:0 18px; font-size:.875rem; }
+.directory-page .saint-grid { grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; }
+.directory-page .saint-card { min-height:180px; padding:22px; border-radius:10px; background:var(--color-navy-light); position:relative; border-color:var(--color-navy-lighter); }
+.directory-page .saint-card:hover { border-color:var(--color-gold); background:color-mix(in srgb,var(--color-gold) 5%,var(--color-navy-light)); }
+.directory-page .saint-card-top { justify-content:space-between; margin-bottom:16px; gap:8px; }
+.directory-page .saint-card h3 { font-size:1.55rem; margin-bottom:8px; letter-spacing:-.015em; }
+.directory-page .saint-card-bottom { padding-top:18px; }
+.directory-page .saint-card-bottom .arrow { display:grid; place-items:center; width:28px; height:28px; border:1px solid var(--color-navy-lighter); border-radius:50%; }
+.directory-page .directory-support { margin-top:44px; padding:32px 0 40px; }
+.directory-support>.grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.directory-support .result-panel { padding:24px; border-radius:10px; border-color:var(--color-navy-lighter); }
+.directory-support .result-panel h3 { font-size:1.55rem; }
+.directory-support .result-panel h3 span { float:right; margin-left:12px; }
+.directory-support .result-panel p { font-size:.925rem; line-height:1.75; }
+.directory-page .directory-resources { margin-block:0 32px; padding-top:32px; border-top:1px solid var(--color-navy-lighter); }
+.directory-page :is(.directory-support,.directory-resources) h2 { font-size:2.2rem; line-height:1.2; }
+.directory-page .directory-resources .saint-card { min-height:0; padding:24px; background:transparent; }
+.directory-page .directory-resources .saint-card h3 { font-size:1.5rem; margin-bottom:12px; }
+.directory-page .guide-directory-link { padding-block:28px; margin-block:0 24px; gap:20px; }
+.directory-page .guide-directory-link h2 { font-size:clamp(1.7rem,3vw,2.3rem); margin-block:10px 12px; }
+.directory-page .guide-directory-link p:not(.eyebrow) { font-size:.95rem; }
+@media (max-width:1000px) {
+  .directory-page .page-intro { column-gap:32px; grid-template-columns:minmax(0,1fr) minmax(0,.65fr); }
+  .directory-page .directory-toolbar { flex-direction:column; align-items:stretch; gap:12px; }
+  .directory-page .gender-filters { align-self:start; }
+  .directory-page .saint-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media (max-width:650px) {
+  .directory-page { padding-block:32px 56px; }
+  .directory-page .page-intro { display:block; padding-bottom:24px; margin-bottom:24px; }
+  .directory-page .page-intro h1 { font-size:clamp(2.1rem,8vw,3rem); margin-block:14px; }
+  .directory-page .page-intro>p:last-child { font-size:.925rem; }
+  .directory-search-panel { padding:16px; }
+  .directory-page .search-field input { font-size:.9rem; padding-left:42px; }
+  .directory-page .search-field svg { left:14px; width:18px; }
+  .directory-page .gender-filters { gap:4px; }
+  .directory-page .gender-filters button { padding-inline:12px; font-size:.825rem; }
+  .directory-support>.grid { grid-template-columns:1fr; }
+  .directory-page .saint-card { min-height:0; padding:20px; }
+  .directory-page .saint-card h3 { font-size:1.4rem; }
+  .directory-page .guide-directory-link { align-items:flex-start; }
+}
+@media (max-width:440px) { .directory-page .saint-grid { grid-template-columns:1fr; } }

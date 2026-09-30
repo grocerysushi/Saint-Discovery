@@ -12,9 +12,18 @@ export const getPublishedBlogPage = cache(async (page = 1, category = "", search
   let query = client.database.from("blog_published_posts").select(summaryColumns, { count: "exact" }).order("publishedAt", { ascending: false }).order("id");
   if (category) query = query.eq("published->>category", category);
   if (search) {
-    // Quote the filter value and escape PostgREST and LIKE metacharacters.
-    const value = `%${search.replace(/[\\%_]/g, '\\$&').replace(/"/g, '\\"')}%`;
+    // LIKE consumes one escape layer, then the quoted PostgREST value consumes another.
+    const pattern = `%${search.replace(/[\\%_]/g, '\\$&')}%`;
+    const value = pattern.replace(/[\\"]/g, '\\$&');
     query = query.or(`published->>title.ilike."${value}",published->>excerpt.ilike."${value}"`);
+  }
+  if (page > 1) {
+    // An offset beyond the result count can fail before the caller can return 404.
+    // Count with a valid, bounded range using the same category/search filters first.
+    const { count, error } = await query.range(0, 0);
+    if (error || count === null) throw new Error("Published blog posts could not be loaded.");
+    const pages = Math.max(1, Math.ceil(count / size));
+    if (page > pages) return { posts: [], total: count, page, pages };
   }
   const { data, count, error } = await query.range((page - 1) * size, page * size - 1);
   if (error) throw new Error("Published blog posts could not be loaded.");

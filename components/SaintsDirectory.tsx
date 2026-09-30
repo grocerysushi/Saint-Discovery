@@ -3,8 +3,9 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { saintDisplayName } from "@/lib/saint-seo";
-import { directoryOptions, EMPTY_FILTERS, getDirectoryEntry, matchesDirectoryFilters, MONTHS, STATUS_LABELS, UNCLASSIFIED, type DirectoryFilters } from "@/lib/directory-filters";
+import { directoryOptions, EMPTY_FILTERS, getDirectoryEntry, matchesDirectoryFilters, normalizeDirectorySearch, MONTHS, STATUS_LABELS, UNCLASSIFIED, type DirectoryFilters } from "@/lib/directory-filters";
 import type { Saint } from "@/lib/types";
+import DirectoryDailySaints from "@/components/DirectoryDailySaints";
 
 interface PatronTopicMini { slug: string; label: string; saintCount: number }
 
@@ -19,8 +20,8 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
   }, [entries]);
   const filtered = useMemo(() => entries.filter(({ saint, facets }) => matchesDirectoryFilters(saint, facets, filters)), [entries, filters]);
   const activeCount = Object.values(filters).filter(value => value.trim() !== "").length;
-  const q = filters.search.toLowerCase().trim();
-  const topicMatches = useMemo(() => !q ? [] : patronTopics.filter(topic => topic.label.toLowerCase().includes(q) || topic.slug.toLowerCase().includes(q) || q.includes(topic.label.toLowerCase())).slice(0, 3), [q, patronTopics]);
+  const q = normalizeDirectorySearch(filters.search);
+  const topicMatches = useMemo(() => !q ? [] : patronTopics.filter(topic => normalizeDirectorySearch(topic.label).includes(q) || normalizeDirectorySearch(topic.slug).includes(q) || q.includes(normalizeDirectorySearch(topic.label))).slice(0, 3), [q, patronTopics]);
 
   const controls: { key: "month" | "country" | "vocation" | "order" | "status"; label: string; all: string; options: { value: string; label: string }[]; unknown?: boolean }[] = [
     { key: "month", label: "Feast month", all: "Every month", options: MONTHS.map(month => ({ value: month, label: month })), unknown: true },
@@ -31,7 +32,8 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
   ];
 
   return (
-    <div>
+    <><section className="directory-catalogue" aria-label="Saints directory">
+      <div className="directory-search-panel">
       <div className="directory-toolbar">
         <div className="search-field">
           <label htmlFor="saint-search" className="sr-only">Search saints by name, patronage, or feast day</label>
@@ -42,12 +44,13 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
         <div className="gender-filters" role="group" aria-label="Filter by gender">{["", "Male", "Female"].map(gender => <button type="button" key={gender} onClick={() => update("gender", gender)} aria-pressed={filters.gender === gender}>{gender || "All entries"}</button>)}</div>
       </div>
 
-      <fieldset className="mt-5 rounded-xl border border-white/15 bg-white/[0.025] p-4 md:p-5" aria-describedby="directory-filter-help">
-        <legend className="px-2 text-sm text-gold">Explore by life, place, and feast</legend>
+      <details className="directory-refine">
+        <summary id="directory-refine-label">Explore by life, place, and feast <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6" /></svg></summary>
+      <fieldset aria-labelledby="directory-refine-label" aria-describedby="directory-filter-help">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {controls.map(control => <div key={control.key} className="min-w-0">
             <label htmlFor={`directory-${control.key}`} className="mb-2 block text-sm text-cream">{control.label}</label>
-            <select id={`directory-${control.key}`} value={filters[control.key]} onChange={event => update(control.key, event.target.value)} className="min-h-12 w-full rounded-lg border border-white/20 bg-[#1a2b31] px-3 py-3 text-sm text-cream focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold">
+            <select id={`directory-${control.key}`} value={filters[control.key]} onChange={event => update(control.key, event.target.value)} className="directory-select">
               <option value="">{control.all}</option>
               {control.options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
               {control.unknown && <option value={UNCLASSIFIED}>{control.key === "month" ? "Feast not recorded" : "Not yet classified"}</option>}
@@ -55,8 +58,10 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
           </div>)}
         </div>
         <p id="directory-filter-help" className="mt-4 max-w-4xl text-xs leading-relaxed text-cream-dark">Places describe the origins and associations recorded in each biography, not nationality. Vocation and order filters are being classified from our sourced biographies; an unclassified entry does not mean there was no vocation or religious order. Religious families can include lay members. Feast dates may vary by calendar.</p>
-        {activeCount > 0 && <button type="button" className="mt-4 rounded-lg border border-white/20 px-4 py-2 text-sm text-gold hover:bg-white/5 focus-visible:outline-2 focus-visible:outline-gold" onClick={reset}>Clear all filters ({activeCount})</button>}
       </fieldset>
+      </details>
+      {activeCount > 0 && <button type="button" className="directory-clear-filters" onClick={reset}>Clear all filters ({activeCount})</button>}
+      </div>
 
       <p className="directory-count" role="status" aria-live="polite" aria-atomic="true">{filtered.length} of {saints.length} entries{q ? ` matching “${filters.search.trim()}”` : ""}{activeCount > 0 ? " with these filters" : " to get to know"}</p>
       {topicMatches.length > 0 && <section className="mb-6" aria-label="Related saint guides"><p className="mb-3 text-sm text-cream-dark">Related guides for your search (directory filters do not apply)</p><div className="grid grid-cols-1 md:grid-cols-3 gap-3">{topicMatches.map(topic => <Link key={topic.slug} href={`/patron-saint-of/${topic.slug}`} className="topic-match"><span className="eyebrow block mb-2">Related guide</span><span className="text-cream capitalize">{topic.label}</span><span className="text-gold float-right" aria-hidden>↗</span><span className="text-cream-dark text-xs block mt-2">{topic.saintCount} linked {topic.saintCount !== 1 ? "biographies" : "biography"}</span></Link>)}</div></section>}
@@ -65,6 +70,6 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
         <h3>{saintDisplayName(saint)}</h3>{saint.tagline && <p className="line-clamp-2">{saint.tagline}</p>}
         <div className="saint-card-bottom"><span>{saint.origin || "A life of faith"}</span><span className="arrow" aria-hidden>↗</span></div>
       </Link>)}</div>}
-    </div>
+    </section><DirectoryDailySaints saints={saints} /></>
   );
 }

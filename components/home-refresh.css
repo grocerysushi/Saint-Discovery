@@ -1,0 +1,158 @@
+/* Shared navigation and the illustrated homepage. Content remains in the existing components. */
+.site-header-refresh {
+  background: var(--color-navy);
+  backdrop-filter: none;
+  border-bottom-color: var(--color-navy-lighter);
+}
+.site-header-refresh .header-inner { gap: 20px; }
+.site-header-refresh .brand { gap: 12px; }
+.site-header-refresh .brand-mark {
+  width: 37px;
+  height: 43px;
+  border-radius: 18px 18px 7px 7px;
+  background: var(--color-navy-light);
+  font-size: 24px;
+}
+.site-header-refresh .brand-name { font-size: 1.4rem; letter-spacing: -.025em; }
+.site-header-refresh .desktop-nav { gap: 3px; }
+.site-header-refresh .nav-link { border-radius: 5px; font-size: .875rem; padding-inline: 12px; }
+.site-header-refresh .nav-link[aria-current],
+.site-header-refresh .nav-link[data-active] { box-shadow: inset 0 -2px var(--color-gold); }
+.site-header-refresh .header-quiz { border-radius: 6px; min-height: 46px; padding-inline: 19px; }
+.site-header-refresh .nav-divider { margin-inline: 8px 11px; }
+.site-header-refresh .nav-panel { width: 345px; padding: 20px 12px 12px; border-radius: 10px; background: var(--color-navy-light); }
+.site-header-refresh .nav-group-label { text-transform: none; letter-spacing: 0; font-size: .8125rem; margin-bottom: 11px; }
+.site-header-refresh .nav-destination { padding: 16px 12px; border-radius: 6px; }
+.site-header-refresh .nav-destination + .nav-destination { border-top: 1px solid var(--color-navy-lighter); }
+.site-header-refresh .nav-description { font-size: .8125rem; max-width: 29ch; }
+.site-header-refresh .menu-toggle { border-radius: 6px; }
+
+.home-refresh .hero-grid {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: clamp(36px, 5vw, 76px);
+  min-height: 0;
+  padding-block: 56px 40px;
+}
+.home-refresh .hero-copy { padding-block: 15px; }
+.home-refresh .hero-kicker { text-transform: none; letter-spacing: 0; font-size: .9375rem; margin: 0 0 24px; }
+.home-refresh .hero-kicker::before { display: none; }
+.home-refresh .hero-title {
+  font-size: clamp(3.8rem, 5.6vw, 5.5rem);
+  letter-spacing: -.045em;
+  line-height: 1.04;
+  margin: 0 0 27px;
+}
+.home-refresh .hero-title em { color: inherit; font-style: normal; }
+.home-refresh .hero-description { max-width: 45ch; font-size: 1.0625rem; line-height: 1.8; }
+.home-refresh .hero-actions { gap: 12px 22px; margin-top: 30px; align-items: flex-start; flex-direction: column; }
+.home-refresh .hero-actions .btn-primary { min-height: 58px; padding-inline: 28px; border-radius: 6px; font-size: 1rem; gap: 30px; }
+.home-refresh .hero-actions .text-link { color: var(--color-cream); font-size: .9375rem; }
+.home-refresh .hero-note { margin-top: 19px; line-height: 1.7; font-size: .8125rem; }
+.home-refresh .hero-art {
+  height: auto;
+  min-width: 0;
+  margin: 0;
+  border: 1px solid var(--color-navy-lighter);
+  border-radius: 36px 36px 10px 10px;
+  padding: 10px;
+  background: var(--color-navy-light);
+}
+.home-refresh .hero-art::after { display: none; }
+.home-refresh .daily-saint-image { position: relative; height: 365px; overflow: hidden; border-radius: 26px 26px 4px 4px; background: var(--color-navy); }
+.home-refresh .daily-saint-image img { object-position: 50% 30%; }
+.home-refresh .daily-saint-placeholder span { margin: 0; }
+.home-refresh .art-caption { position: relative; inset: auto; padding: 20px 14px 12px; }
+.home-refresh .art-caption .eyebrow { color: var(--color-gold); font-size: .8125rem; letter-spacing: 0; text-transform: none; line-height: 1.5; }
+.home-refresh .daily-saint-card .art-caption h2 { font-size: clamp(1.55rem, 2.4vw, 2rem); line-height: 1.2; margin-top: 8px; color: var(--color-cream); }
+.home-refresh .art-caption > a:not(.daily-art-credit) { font-size: .875rem; color: var(--color-gold-light); margin-top: 12px; min-height: 28px; }
+.home-refresh .art-caption .daily-art-credit { margin-top: 12px; color: var(--color-cream-dark); font-size: .6875rem; line-height: 1.6; }
+.home-refresh .hero-facts { margin-bottom: 0; border-top: 0; border-bottom: 1px solid var(--color-navy-lighter); padding-block: 14px 30px; gap: 30px; }
+.home-refresh .hero-fact { justify-content: flex-start; gap: 14px; }
+.home-refresh .hero-fact + .hero-fact { padding-left: 30px; }
+.home-refresh .hero-fact strong { font-size: 2.5rem; }
+.home-refresh .hero-fact span { max-width: 16ch; font-size: .875rem; }
+
+.home-information .home-about { padding-block: 60px; }
+.home-information .editorial-grid { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 70px; }
+.home-information .eyebrow { text-transform: none; letter-spacing: 0; font-size: .875rem; }
+.home-information .editorial-grid h2 { margin-top: 16px; font-size: clamp(2.25rem, 3.7vw, 3.4rem); line-height: 1.15; }
+.home-information .editorial-copy { font-size: 1rem; line-height: 1.85; }
+.home-information .home-about + .home-about { border-top: 1px solid var(--color-navy-lighter); }
+.home-information .editorial-copy ul { gap: 0 22px; margin-block: 22px; }
+.home-information .editorial-copy li { border-bottom: 1px solid var(--color-navy-lighter); }
+.home-information .editorial-copy li .text-link { min-height: 54px; width: 100%; justify-content: space-between; gap: 12px; font-size: .9375rem; color: var(--color-cream); }
+.home-information .text-link { font-size: .875rem; }
+.home-information .faq-section { padding-block: 55px 65px; }
+.home-information .faq-list details { padding-block: 20px; }
+.home-information .faq-list summary { font-size: 1rem; line-height: 1.5; }
+.home-information .faq-list details p { font-size: .9375rem; line-height: 1.8; }
+
+.site-footer-refresh { padding-block: 48px 28px; background: var(--color-navy-light); }
+.site-footer-refresh .footer-top { display: grid; grid-template-columns: minmax(210px, .8fr) minmax(0, 1.2fr); gap: 50px; align-items: start; }
+.site-footer-refresh .brand-mark { background: var(--color-navy); }
+.site-footer-refresh .brand-name { font-size: 1.5rem; }
+.site-footer-refresh .footer-top nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px 25px; }
+.site-footer-refresh .footer-top nav a { display: inline-flex; align-items: center; min-height: 38px; font-size: .875rem; line-height: 1.5; }
+.site-footer-refresh .footer-bottom { margin-top: 30px; padding-top: 24px; gap: 24px; line-height: 1.6; }
+.site-footer-refresh .footer-bottom a { display: inline-flex; align-items: center; min-height: 32px; }
+
+@media (min-width: 1001px) and (max-width: 1120px) {
+  .site-header-refresh .brand-name { font-size: 1.2rem; }
+  .site-header-refresh .nav-link { padding-inline: 8px; font-size: .8125rem; }
+  .site-header-refresh .header-quiz { padding-inline: 13px; }
+}
+@media (max-width: 1000px) {
+  .home-refresh .hero-grid { gap: 32px; }
+  .home-refresh .hero-title { font-size: clamp(3.2rem, 6.2vw, 4.75rem); }
+  .home-refresh .daily-saint-image { height: 330px; }
+  .home-information .editorial-grid { gap: 38px; }
+  .site-footer-refresh .footer-top { grid-template-columns: 1fr 1.5fr; gap: 30px; }
+  .site-footer-refresh .footer-top nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .home-refresh .hero-grid { grid-template-columns: 1fr; padding-block: 32px 28px; gap: 28px; }
+  .home-refresh .hero-copy { padding: 0; }
+  .home-refresh .hero-kicker { margin-bottom: 17px; font-size: .875rem; }
+  .home-refresh .hero-title { font-size: clamp(3.1rem, 9.7vw, 4.6rem); margin-bottom: 20px; }
+  .home-refresh .hero-description { max-width: 46ch; font-size: 1rem; }
+  .home-refresh .hero-actions { margin-top: 24px; gap: 10px; }
+  .home-refresh .hero-actions .btn-primary { width: 100%; justify-content: space-between; padding-inline: 22px; min-height: 54px; }
+  .home-refresh .hero-actions .text-link { justify-content: flex-start; }
+  .home-refresh .hero-note { font-size: .75rem; margin-top: 15px; }
+  .home-refresh .hero-art { border-radius: 28px 28px 10px 10px; }
+  .home-refresh .daily-saint-image { height: 310px; border-radius: 19px 19px 4px 4px; }
+  .home-refresh .art-caption { padding: 17px 10px 10px; }
+  .home-refresh .daily-saint-card .art-caption h2 { font-size: 1.7rem; }
+  .home-refresh .hero-facts { gap: 15px; padding-block: 8px 26px; }
+  .home-refresh .hero-fact { flex-direction: column; align-items: flex-start; gap: 5px; }
+  .home-refresh .hero-fact + .hero-fact { padding-left: 15px; }
+  .home-refresh .hero-fact strong { font-size: 2rem; }
+  .home-refresh .hero-fact span { font-size: .75rem; line-height: 1.55; }
+  .home-information .editorial-grid { grid-template-columns: 1fr; gap: 26px; }
+  .home-information .home-about { padding-block: 38px; }
+  .home-information .editorial-grid h2 { font-size: 2.4rem; margin-top: 12px; }
+  .home-information .faq-section { padding-block: 38px 45px; }
+  .site-footer-refresh { padding-block: 35px 22px; }
+  .site-footer-refresh .footer-top { grid-template-columns: 1fr; gap: 25px; }
+  .site-footer-refresh .footer-top nav { gap: 4px 22px; }
+  .site-footer-refresh .footer-bottom { gap: 16px; margin-top: 22px; }
+}
+@media (max-width: 520px) {
+  .site-header-refresh .header-inner { gap: 10px; }
+  .site-header-refresh .brand { gap: 8px; }
+  .site-header-refresh .brand-name { font-size: 1.1rem; max-width: 76px; }
+  .site-header-refresh .brand-mark { width: 32px; height: 38px; font-size: 22px; }
+  .site-header-refresh .header-quiz { font-size: .8125rem; padding-inline: 12px; gap: 10px; min-height: 44px; }
+  .site-header-refresh .mobile-nav { padding-inline: 12px; }
+  .site-header-refresh .mobile-nav-shortcuts { gap: 8px; }
+  .site-header-refresh .mobile-nav-shortcuts .nav-link { padding-inline: 10px; }
+}
+@media (max-width: 360px) {
+  .site-header-refresh .brand-name { font-size: 1rem; }
+  .site-header-refresh .header-mobile-actions { gap: 6px; }
+  .site-header-refresh .header-quiz { padding-inline: 9px; }
+  .home-refresh .hero-title { font-size: 2.8rem; }
+  .home-refresh .daily-saint-image { height: 270px; }
+  .home-refresh .hero-facts { gap: 9px; }
+  .home-refresh .hero-fact + .hero-fact { padding-left: 9px; }
+}

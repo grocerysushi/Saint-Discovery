@@ -62,7 +62,9 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
     </nav>
     <section id="read" className="daily-story" aria-labelledby="daily-story-title">
       <figure className="daily-artwork">
+        <div className="daily-artwork-image">
         {image && !imageFailed ? <Image src={image.src} alt={image.alt} fill sizes="(max-width: 760px) 100vw, 480px" priority onError={() => setImageFailed(true)} /> : <div className="daily-artwork-fallback" aria-hidden>✦</div>}
+        </div>
         {image && !imageFailed && <figcaption>{image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license} ↗</a>}</figcaption>}
         {(!image || imageFailed) && <figcaption>{saint ? "Artwork unavailable. Read the story alongside it." : "A moment for reflection"}</figcaption>}
       </figure>

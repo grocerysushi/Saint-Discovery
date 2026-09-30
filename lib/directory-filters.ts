@@ -46,9 +46,13 @@ export function getDirectoryEntry(saint: Saint): DirectoryEntry {
   };
 }
 
+export function normalizeDirectorySearch(value: string): string {
+  return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().trim();
+}
+
 export function matchesDirectoryFilters(saint: Saint, entry: DirectoryEntry, filters: DirectoryFilters): boolean {
   const matches = (selected: string, values: string[]) => !selected || (selected === UNCLASSIFIED ? values.length === 0 : values.includes(selected));
-  const query = filters.search.toLocaleLowerCase().trim();
+  const query = normalizeDirectorySearch(filters.search);
   return (!filters.gender || saint.gender === filters.gender)
     && matches(filters.month, entry.month ? [entry.month] : [])
     && matches(filters.country, entry.countries)
@@ -56,7 +60,7 @@ export function matchesDirectoryFilters(saint: Saint, entry: DirectoryEntry, fil
     && matches(filters.order, entry.orders)
     && matches(filters.status, entry.status ? [entry.status] : [])
     && (!query || [saint.name, saint.tagline, saint.feast_day, saint.description, saint.origin, saint.patron_of, ...entry.vocations, ...entry.orders]
-      .some(value => value?.toLocaleLowerCase().includes(query)));
+      .some(value => value && normalizeDirectorySearch(value).includes(query)));
 }
 
 export function directoryOptions(entries: DirectoryEntry[], key: "countries" | "vocations" | "orders"): string[] {

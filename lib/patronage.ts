@@ -32,6 +32,16 @@ export const PATRON_TOPICS: PatronTopic[] = data.topics.map(topic => ({
 
 const TOPIC_BY_SLUG = new Map(PATRON_TOPICS.map((t) => [t.slug, t]));
 
+// Editorial shortcuts to supported topics, complementing the everyday-life guides.
+export const FEATURED_PATRON_SLUGS = [
+  "cancer-patients", "children", "cooks", "farmers", "firefighters",
+  "gardeners", "hospitals", "immigrants", "lawyers", "prisoners",
+];
+
+export const FEATURED_PATRON_TOPICS = FEATURED_PATRON_SLUGS
+  .map(slug => TOPIC_BY_SLUG.get(slug))
+  .filter((topic): topic is PatronTopic => Boolean(topic));
+
 export function getTopicBySlug(slug: string): PatronTopic | null {
   return TOPIC_BY_SLUG.get(slug) ?? null;
 }
