@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { getInsforgePublic } from "@/lib/insforge";
 import { Saint, QuestionWithOptions, Option, TraitScores, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
+import { normalizeQuizScores, shuffleQuizOptions } from "@/lib/quiz-questions";
 import { createQuizTracker } from "@/lib/quiz-analytics";
 import quizData from "@/lib/data/quiz.json";
 import quizSaints from "@/lib/data/quiz-saints.json";
@@ -31,7 +32,10 @@ const SAINTS = (quizSaints as Saint[])
 
 export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onExit: () => void }) {
   const saved = useQuizSession();
-  const [questions] = useState<QuestionWithOptions[]>(QUESTIONS);
+  // Choices are not rendered until the opening question is answered, so the
+  // per-attempt shuffle cannot change server-rendered markup during hydration.
+  // Keep that order when going Back; remounting for a new attempt reshuffles.
+  const [questions] = useState<QuestionWithOptions[]>(() => shuffleQuizOptions(QUESTIONS));
   const [saints] = useState<Saint[]>(SAINTS);
   const [gender, setGender] = useState<string | null>(null);
   const [current, setCurrent] = useState(0);
@@ -81,18 +85,20 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
     for (const key of TRAIT_KEYS) {
       newScores[key] += opt[`trait_${key}` as keyof Option] as number;
     }
-    setScores(newScores);
     setAnswers([...answers, opt]);
 
     if (current + 1 < questions.length) {
+      setScores(newScores);
       setCurrent(current + 1);
     } else {
       // Filter saints by selected gender, then match
       const filtered = saints.filter((s) => s.gender === gender);
       const pool = filtered.length > 0 ? filtered : saints;
-      const matched = matchSaint(newScores, pool);
+      const normalizedScores = normalizeQuizScores(newScores, questions);
+      const matched = matchSaint(normalizedScores, pool);
+      setScores(normalizedScores);
       setResult(matched);
-      saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: newScores });
+      saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: normalizedScores });
       analytics.complete(matched.slug);
       // Best-effort analytics; never let a backend outage break the result
       // screen. quiz_results.saint_id is a FK to the backend's saints table,
@@ -102,7 +108,7 @@ export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onE
         try {
           void getInsforgePublic().database
             .from("quiz_results")
-            .insert([{ saint_id: dbId, scores: newScores }]);
+            .insert([{ saint_id: dbId, scores: normalizedScores }]);
         } catch {
           // ignore
         }

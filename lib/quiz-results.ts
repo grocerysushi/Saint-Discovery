@@ -1,4 +1,4 @@
-import { matchSaint } from "./scoring";
+import { rankSaints } from "./scoring";
 import { TRAIT_KEYS, type Saint, type TraitScores } from "./types";
 
 export function resultPath(slug: string) {
@@ -10,17 +10,6 @@ export function strongestTraits(scores: TraitScores) {
 }
 
 export function moreQuizSaints(scores: TraitScores, saints: Saint[], matchedSlug: string) {
-  const seen = new Set([matchedSlug]);
-  let pool = saints.filter(saint => {
-    if (seen.has(saint.slug) || saint.kind === "unresolved" || saint.kind === "observance") return false;
-    seen.add(saint.slug);
-    return true;
-  });
-  const results: Saint[] = [];
-  while (pool.length && results.length < 3) {
-    const saint = matchSaint(scores, pool);
-    results.push(saint);
-    pool = pool.filter(candidate => candidate.slug !== saint.slug);
-  }
-  return results;
+  return rankSaints(scores, saints.filter(saint => saint.slug !== matchedSlug))
+    .slice(0, 3).map(match => match.saint);
 }

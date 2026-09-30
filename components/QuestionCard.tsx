@@ -10,5 +10,6 @@ export default function QuestionCard({ question, onSelect }: { question: Questio
     <p className="eyebrow">Take a moment to reflect</p>
     <h1 id="question-heading" ref={heading} tabIndex={-1} className="question-title outline-none">{question.text}</h1>
     <div className="question-options">{question.options.map((opt,i) => <OptionButton key={opt.id} label={opt.label} index={i} onSelect={() => onSelect(opt.id)} />)}</div>
+    {question.options.some(option => option.source) && <p className="text-cream-dark text-sm leading-relaxed mt-4">Brief excerpts from the New American Bible, Revised Edition (NABRE). Read in context: {question.options.filter(option => option.source).map((option, index) => <span key={option.id}>{index > 0 && " · "}<a href={option.source!.url} target="_blank" rel="noopener noreferrer" className="text-link">{option.source!.label}<span className="sr-only"> (opens in a new tab)</span></a></span>)}</p>}
   </motion.section>;
 }

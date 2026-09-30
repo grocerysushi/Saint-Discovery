@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import crypto from 'node:crypto';
 import ts from 'typescript';
+import { loadTs } from './load-ts.mjs';
 
 function load(file, dependencies = {}, globals = {}) {
   const loadedModule = { exports: {} };
@@ -17,7 +18,8 @@ function load(file, dependencies = {}, globals = {}) {
     }, ...globals });
   return loadedModule.exports;
 }
-const { createQuizTracker } = load('lib/quiz-analytics.ts', { './analytics': { track() {} } });
+const matching = loadTs('lib/scoring.ts');
+const { createQuizTracker } = load('lib/quiz-analytics.ts', { './analytics': { track() {} }, './scoring': matching });
 test('steps, backtracking, effect replays and restarts have consistent attempt counts', () => {
   const events = [];
   const emit = (name, params) => events.push({ name, params });
@@ -38,6 +40,8 @@ test('steps, backtracking, effect replays and restarts have consistent attempt c
   restart.view(1); restart.answer(1);
   assert.equal(events.filter(e => e.name === 'quiz_start').length, 2);
   assert.doesNotMatch(JSON.stringify(events), /gender|scores|answer_id|email/);
+  assert.ok(events.every(event => event.params.quiz_version === '2026-09-30'));
+  assert.equal(events.find(event => event.name === 'quiz_complete').params.match_algorithm_version, matching.MATCHING_VERSION);
 });
 
 function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Map()) {

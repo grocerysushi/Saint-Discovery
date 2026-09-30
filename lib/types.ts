@@ -51,6 +51,7 @@ export interface Option {
   id: string;
   question_id: string;
   label: string;
+  source?: { label: string; url: string };
   trait_contemplative: number;
   trait_charitable: number;
   trait_intellectual: number;
