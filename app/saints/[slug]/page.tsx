@@ -233,6 +233,7 @@ export default async function SaintPage({
               )}
             </dl>
             {review?.feast_note && <p className="text-sm text-cream-dark/70 mt-3">{review.feast_note}</p>}
+            {review?.recognition_note && <p className="text-sm text-cream-dark/70 mt-3">{review.recognition_note}</p>}
             {saint.known_for && (
               <p className="text-cream-dark leading-relaxed mt-5">
                 {saint.known_for}

@@ -24,9 +24,9 @@ Vercel project saint-discovery-ulzh in kyles-projects-8f9ed4d4 has main configur
 as its production branch. However, inspection of the live domain aliases and
 GitHub production deployments identifies hide-ad-placeholders commit 5d78412
 as the actual production source. It is six commits ahead of main in open PR #7.
-Work therefore preserves that live version. The user subsequently authorized
-production releases, but the release path needs resolution without discarding
-live changes or implicitly merging the existing PR.
+Work preserves that live version. The user explicitly approved bringing the six
+already-live commits into main together with tested updates. Cleanup commit
+35b2533 was pushed as a normal fast-forward to main on 2026-10-01.
 
 ## Catholic-only cleanup
 
@@ -64,3 +64,42 @@ Next coverage priorities: individually documented women and lay saints,
 Korean, Vietnamese and Chinese martyrs, African saints, and regional calendars.
 Group totals are candidate pools, never automatic increments to public counts.
 Do not count a cohort once and then claim its members as additional people.
+
+## Repeatable local workflow
+
+1. Read an individual institutional biography and record its stable source URL,
+   recognition evidence and reviewed date. Compare name, aliases, dates and
+   biography against legacy and new records; transliteration alone is not identity.
+2. Add an array entry to research/directory-batches/YYYY-MM-DD-topic.json.
+   Follow the first batch schema. All prose must be original and factual.
+   Source access and factual review are editorial steps, not claims made by the
+   validator. Add citations for each new assertion; do not pad sparse lives.
+3. Run `npm run directory:build` then `npm run directory:check`. The deterministic
+   compiler rejects identity/alias collisions, duplicate institutional identity
+   keys, non-saints, groups, short placeholders and dates without scoped citations.
+   It writes only lib/data/directory-additions.json and never contacts a database.
+4. Run `npm test`, `npm run lint`, `npx tsc --noEmit`, `npm run build`, and
+   `npm run test:seo`. Inspect biographies, links and counts before releasing.
+   Confirm the production commit, canonical sitemap and old excluded URLs after
+   pushing main; do not treat a Git push as proof of successful deployment.
+
+The first batch contains 21 individually documented Jesuit saints and lay
+collaborators, with 21 distinct individual source URLs and original summaries.
+They bring the Catholic-only directory from 426 to 447 records; all 21 are new
+individuals, not aliases, groups or reclassifications. This is a deliberately
+limited first batch, predominantly European men; it does not complete the
+regional and gender coverage goals above. Each biography is about 65–120 words.
+The institutional source is the Society of Jesus, a Catholic religious order.
+
+All 21 calendar dates are explicitly unverified (null); no date-of-death field
+was repurposed as a feast. Pignatelli, de Brito and de la Lande have inconsistent
+day/month metadata in their sources, while Goupil's source has inconsistent
+geography. Those details are withheld or qualified in the original summaries.
+No full biographies, source images, patronages, prayers or quotations are copied.
+
+New entries use stable directory IDs and directory_only=true. Six numeric zeros
+exist solely to satisfy the legacy Saint interface, never as researched trait
+ratings. Scoring, shared quiz results and trait-based related ranking explicitly
+exclude these records. The quiz dataset and its established scores are unchanged;
+the earlier Catholic-only cleanup is the only eligibility reduction.
+Legacy seed regeneration cannot erase this separate directory overlay.

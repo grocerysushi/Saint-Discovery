@@ -1,4 +1,5 @@
 import metadata from "@/lib/data/saint-directory-metadata.json";
+import directoryAdditions from "@/lib/data/directory-additions.json";
 import type { Saint } from "@/lib/types";
 
 export const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -36,7 +37,8 @@ const GEOGRAPHY: [string, RegExp][] = [
 ];
 
 export function getDirectoryEntry(saint: Saint): DirectoryEntry {
-  const curated = (metadata as Record<string, DirectoryMetadata>)[saint.slug];
+  const curated = (metadata as Record<string, DirectoryMetadata>)[saint.slug]
+    ?? directoryAdditions.find(entry => entry.saint.slug === saint.slug)?.metadata;
   return {
     countries: GEOGRAPHY.filter(([, pattern]) => pattern.test(saint.origin ?? "")).map(([label]) => label),
     vocations: curated?.vocations ?? [],
@@ -59,7 +61,7 @@ export function matchesDirectoryFilters(saint: Saint, entry: DirectoryEntry, fil
     && matches(filters.vocation, entry.vocations)
     && matches(filters.order, entry.orders)
     && matches(filters.status, entry.status ? [entry.status] : [])
-    && (!query || [saint.name, saint.tagline, saint.feast_day, saint.description, saint.origin, saint.patron_of, ...entry.vocations, ...entry.orders]
+    && (!query || [saint.name, ...(saint.alternate_names ?? []), saint.tagline, saint.feast_day, saint.description, saint.origin, saint.patron_of, ...entry.vocations, ...entry.orders]
       .some(value => value && normalizeDirectorySearch(value).includes(query)));
 }
 

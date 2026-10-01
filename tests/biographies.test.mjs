@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { loadTs } from './load-ts.mjs';
 const { reviews } = loadTs('lib/saint-reviews.ts');
-const catalog = JSON.parse(fs.readFileSync(new URL('../lib/data/saints.json', import.meta.url)));
+const catalog = [...JSON.parse(fs.readFileSync(new URL('../lib/data/saints.json', import.meta.url))), ...JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json', import.meta.url))).map(e => e.saint)];
 const readData = name => JSON.parse(fs.readFileSync(new URL(`../lib/data/${name}.json`, import.meta.url)));
 const baseReviews = Object.assign({}, ...['saint-reviews', 'saint-reviews-research1', 'saint-reviews-research2', 'saint-reviews-research3', 'saint-reviews-root'].map(readData));
 const expansionBatches = [1, 2, 3, 4].map(n => readData(`saint-biography-expansions-${n}`));

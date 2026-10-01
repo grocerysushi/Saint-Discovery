@@ -1,17 +1,19 @@
 import { Saint } from "@/lib/types";
 import saintsData from "@/lib/data/saints.json";
+import directoryAdditions from "@/lib/data/directory-additions.json";
 import { applySaintReview, canonicalSaintSlug, isPublishedSaintSlug } from "@/lib/saint-reviews";
 
 // Saint content is baked into the repo (lib/data/saints.json, regenerated via
 // scripts/build-data.mjs) so every page and the sitemap build statically with
 // no runtime database dependency.
-const SAINTS = (saintsData as Saint[])
+const CATALOG = [...saintsData, ...directoryAdditions.map(entry => entry.saint)] as Saint[];
+const SAINTS = CATALOG
   .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
   .filter(saint => isPublishedSaintSlug(saint.slug))
   .map(applySaintReview);
 
 export function getAllSaintSlugs(): string[] {
-  return saintsData.filter(saint => isPublishedSaintSlug(saint.slug)).map(saint => saint.slug);
+  return CATALOG.filter(saint => isPublishedSaintSlug(saint.slug)).map(saint => saint.slug);
 }
 
 export async function getAllSaints(): Promise<Saint[]> {
@@ -36,8 +38,9 @@ export function getRelatedSaints(
   allSaints: Saint[],
   count = 4
 ): Saint[] {
+  if (saint.directory_only) return [];
   return allSaints
-    .filter((s) => s.slug && s.id !== saint.id)
+    .filter((s) => s.slug && s.id !== saint.id && !s.directory_only)
     .map((s) => ({
       saint: s,
       distance: TRAIT_COLUMNS.reduce(

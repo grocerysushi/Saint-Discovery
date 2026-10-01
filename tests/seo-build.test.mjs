@@ -5,7 +5,7 @@ import { loadTs } from './load-ts.mjs';
 
 const read = file => fs.readFileSync(new URL(`../${file.replace(/^\.next\//, `${process.env.SAINT_BUILD_DIR || '.next'}/`)}`, import.meta.url), 'utf8');
 const saints = await loadTs('lib/saints.ts').getAllSaints();
-const { reviews } = loadTs('lib/saint-reviews.ts');
+const { reviews, getBiographyReview, isPublishedSaintSlug } = loadTs('lib/saint-reviews.ts');
 const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
 const origin = 'https://www.saintdiscoveryquiz.com';
 const html = route => read(`.next/server/app/${route}.html`);
@@ -14,7 +14,7 @@ const meta = (source, key) => decode(source.match(new RegExp(`<meta (?:name|prop
 const jsonLd = source => [...source.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
 
 test('public sharing metadata and sourced patronage context survive production rendering', () => {
-  for (const route of ['about', 'privacy', 'editorial-policy', 'patron-saint-of', 'patron-saint-of/italy', 'patron-saint-of/the-americas', 'patron-saint-of/goldsmiths', 'patron-saint-of/african-americans']) {
+  for (const route of ['about', 'privacy', 'editorial-policy', 'patron-saint-of', 'patron-saint-of/italy', 'patron-saint-of/goldsmiths', 'patron-saint-of/african-americans']) {
     const source = html(route);
     assert.equal(meta(source, 'og:url'), `${origin}/${route}`, route);
     assert.ok(meta(source, 'og:title') && meta(source, 'og:description') && meta(source, 'og:image'), route);
@@ -22,7 +22,7 @@ test('public sharing metadata and sourced patronage context survive production r
   }
   assert.match(html('patron-saint-of/italy'), /href="\/saints\/catherine-of-siena"/);
   assert.match(html('patron-saint-of/italy'), /hf_p-xii_brief_19390618_patroni-italia/);
-  assert.match(html('patron-saint-of/the-americas'), /ecclesia-in-america/);
+  assert.ok(!loadTs('lib/patronage.ts').getTopicBySlug('the-americas'), 'A topic supported only by an excluded observance is unpublished');
   assert.match(html('patron-saint-of/goldsmiths'), /later legend/);
   assert.match(html('patron-saint-of/african-americans'), /franciscanmedia.org/);
   const home = html('index');
@@ -116,7 +116,7 @@ test('every saint has a unique canonical, readable server-rendered content, and 
       const sitemap = read('.next/server/app/sitemap.xml.body');
       assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${contribution.reviewed_on}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
     }
-    assert.deepEqual(article.citation, [...new Set([...reviews[saint.slug].sources, ...(contribution?.sources ?? [])].map(entry => entry.url))], saint.slug);
+    assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(contribution?.sources ?? [])].map(entry => entry.url))], saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
     assert.ok(!data.some(item => item['@type'] === 'ProfilePage'), saint.slug);
     const crumbs = data.find(item => item['@type'] === 'BreadcrumbList');
@@ -131,14 +131,12 @@ test('duplicate routes redirect and unresolved identities stay out of search dis
   const sitemap = read('.next/server/app/sitemap.xml.body');
   const directory = html('resources');
   for (const [slug, review] of Object.entries(reviews)) {
-    if (review.status === 'duplicate') {
+    if (review.status === 'duplicate' && isPublishedSaintSlug(slug)) {
       const redirect = JSON.parse(read(`.next/server/app/saints/${slug}.meta`));
       assert.equal(redirect.status, 308, slug);
       assert.equal(redirect.headers.Location ?? redirect.headers.location, `/saints/${review.canonical_slug}`, slug);
-    } else if (review.status === 'needs-identification') {
-      const source = html(`saints/${slug}`);
-      assert.match(meta(source, 'robots'), /noindex/, slug);
-      assert.ok(source.includes('earlier biographical claims have been withdrawn'), slug);
+    } else if (!isPublishedSaintSlug(slug)) {
+      assert.ok(!fs.existsSync(new URL(`../${process.env.SAINT_BUILD_DIR || '.next'}/server/app/saints/${slug}.html`, import.meta.url)), `${slug}: excluded route must not be prerendered`);
     } else continue;
     assert.ok(!sitemap.includes(`<loc>${origin}/saints/${slug}</loc>`), slug);
     assert.ok(!directory.includes(`href="/saints/${slug}"`), slug);

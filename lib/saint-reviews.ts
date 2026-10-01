@@ -9,8 +9,10 @@ import expansions3 from "@/lib/data/saint-biography-expansions-3.json";
 import expansions4 from "@/lib/data/saint-biography-expansions-4.json";
 import type { Saint } from "@/lib/types";
 import catholicRecognition from "@/lib/data/catholic-recognition.json";
+import directoryAdditions from "@/lib/data/directory-additions.json";
 
 export interface BiographyReview {
+  recognition_note?: string;
   status: "source-reviewed" | "needs-identification";
   reviewed_on: string;
   review_method: string;
@@ -44,6 +46,11 @@ for (const batch of [reviewData, research1, research2, research3, rootReviews]) 
 }
 
 // Expansion files replace editorial content only; researched identity corrections stay intact.
+for (const entry of directoryAdditions) {
+  if (reviews[entry.saint.slug]) throw new Error(`Duplicate directory identity: ${entry.saint.slug}`);
+  reviews[entry.saint.slug] = entry.review as BiographyReview;
+}
+
 const expandedSlugs = new Set<string>();
 for (const batch of [expansions1, expansions2, expansions3, expansions4]) {
   for (const [slug, expansion] of Object.entries(batch)) {

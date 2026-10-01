@@ -59,7 +59,7 @@ export function rankSaints(scores: TraitScores, saints: Saint[]): SaintMatch[] {
   const matches: (SaintMatch & { bucket: number; tie: number })[] = [];
 
   for (const saint of saints) {
-    if (seen.has(saint.slug) || saint.kind !== "saint") continue;
+    if (seen.has(saint.slug) || saint.kind !== "saint" || saint.directory_only) continue;
     const candidate = proportions(TRAIT_KEYS.map(key => saint[`trait_${key}`]));
     if (!candidate || candidate.every(value => value === 0)) continue;
     seen.add(saint.slug);

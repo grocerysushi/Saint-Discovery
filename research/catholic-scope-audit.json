@@ -1,0 +1,507 @@
+{
+  "reviewed_on": "2026-10-01",
+  "policy": "Publish recognized Catholic saints only; archive rather than delete. Exclusion for insufficient evidence is not a claim that Catholic recognition is impossible.",
+  "retained_after_recognition_review": [
+    "gleb",
+    "gregory-palamas",
+    "sergius-of-radonezh"
+  ],
+  "excluded": [
+    {
+      "slug": "boris-of-bulgaria",
+      "name": "Boris of Bulgaria",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Saint Boris",
+          "url": "https://www.oca.org/saints/lives/1998/05/02/101277-saint-boris-in-baptism-michael-equal-of-the-apostles-prince-and"
+        }
+      ]
+    },
+    {
+      "slug": "barbara-the-new-martyr",
+      "name": "Barbara the New Martyr",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Nun-martyr Barbara",
+          "url": "https://www.oca.org/saints/lives/1000/07/18/101916-nun-martyr-barbara"
+        }
+      ]
+    },
+    {
+      "slug": "anuarite-nengapeta",
+      "name": "Marie-Clémentine Anuarite Nengapeta",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Vatican News: Sixty years since Anuarite’s martyrdom",
+          "url": "https://www.vaticannews.va/fr/eglise/news/2024-12/aumonerie-congolaise-rome-celebre-30-ans-60-ans-martyr-anuarite.html"
+        },
+        {
+          "title": "John Paul II: Qui autem perseveraverit, 1985",
+          "url": "https://www.vatican.va/content/john-paul-ii/la/apost_letters/1985/documents/hf_jp-ii_apl_19850815_qui-autem-perseveraverit.html"
+        }
+      ]
+    },
+    {
+      "slug": "alexander-nevsky",
+      "name": "Alexander Nevsky",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Repose of Saint Alexander Nevsky",
+          "url": "https://www.oca.org/saints/lives/2026/11/23/103377-repose-of-saint-alexander-nevsky"
+        },
+        {
+          "title": "Orthodox Church in America: Translation of his relics",
+          "url": "https://www.oca.org/saints/lives/1002/08/30/102424-translation-of-the-relics-of-saint-alexander-nevsky"
+        }
+      ]
+    },
+    {
+      "slug": "all-saints",
+      "name": "All Saints",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "USCCB: Holy Days of Obligation",
+          "url": "https://www.usccb.org/beliefs-and-teachings/what-we-believe/canon-law/complementary-norms/canon-1246"
+        },
+        {
+          "title": "USCCB: All Saints Day reflection",
+          "url": "https://www.usccb.org/resources/Nov-1-Friday-Fast.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "all-souls",
+      "name": "All Souls",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "USCCB: Commemoration of All the Faithful Departed, novena resource",
+          "url": "https://www.usccb.org/issues-and-action/cultural-diversity/african-american/resources/upload/Archdiocese-of-Cincinnati-Novena-Oct-31-Nov-9.pdf"
+        },
+        {
+          "title": "USCCB: All Saints Day reflection",
+          "url": "https://www.usccb.org/resources/Nov-1-Friday-Fast.pdf"
+        }
+      ]
+    },
+    {
+      "slug": "anne-catherine-emmerich",
+      "name": "Anne Catherine Emmerich",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "John Paul II: Beatification of five Servants of God, October 3, 2004",
+          "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2004/documents/hf_jp-ii_hom_20041003_beatifications.html"
+        },
+        {
+          "title": "Dicastery for the Causes of Saints: Anna Katharina Emmerick",
+          "url": "https://www.causesanti.va/it/santi-e-beati/anna-katharina-emmerick.html"
+        }
+      ]
+    },
+    {
+      "slug": "aetherius",
+      "name": "Aitherius (Aetherius)",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "OrthodoxWiki: December 12",
+          "url": "https://orthodoxwiki.org/December_12"
+        },
+        {
+          "title": "Corpus Christianorum: Clavis Clavium newsletter 6",
+          "url": "https://www.corpuschristianorum.org/post/clavis-clavium-newsletter-6"
+        }
+      ]
+    },
+    {
+      "slug": "brocard",
+      "name": "Brocard of Mount Carmel",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Our Lady of Mercy Lay Carmelites: Brocard",
+          "url": "https://olmlaycarmelites.org/saints/st-brocard"
+        },
+        {
+          "title": "Carmelo Veneto: Beato Brocardo",
+          "url": "https://www.carmeloveneto.it/joomla/s-teresa-di-gesu/13-santi/900-2-settembre-memoria-del-beato-brocardo"
+        }
+      ]
+    },
+    {
+      "slug": "chiara-badano",
+      "name": "Chiara Badano",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Focolare: Chiara Luce Badano",
+          "url": "https://www.focolare.org/chiara-luce-badano-life-love-light/"
+        },
+        {
+          "title": "Focolare: October 29 liturgical memorial",
+          "url": "https://www.focolare.org/polska/2024/10/26/29-pazdziernika-liturgiczne-wspomnienie-blogoslawionej-chiary-badano/"
+        }
+      ]
+    },
+    {
+      "slug": "elizabeth-the-new-martyr",
+      "name": "Elizabeth Feodorovna, the New Martyr",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Greek Orthodox Archdiocese: Elizabeth and Barbara",
+          "url": "https://www.goarch.org/chapel/saints?contentid=2343"
+        },
+        {
+          "title": "Orthodox Church in America: July 18 lives",
+          "url": "https://www.oca.org/saints/all-lives/0200/07/18"
+        },
+        {
+          "title": "Community of the Holy Martyr Elizabeth: Life",
+          "url": "https://gdelizabeth.org.uk/html/st_elizabeth.shtml"
+        }
+      ]
+    },
+    {
+      "slug": "franz-jagerstatter",
+      "name": "Franz Jägerstätter",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Dicastery: Franz Jägerstätter",
+          "url": "https://www.causesanti.va/it/santi-e-beati/franz-jagerstatter.html"
+        },
+        {
+          "title": "Diocese of Linz: May 21 commemoration",
+          "url": "https://www.dioezese-linz.at/institution/814501/aktuelles/article/6946.html"
+        }
+      ]
+    },
+    {
+      "slug": "guardian-angels",
+      "name": "Guardian Angels",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "Vatican News: Guardian angels and the Father",
+          "url": "https://www.vaticannews.va/en/pope-francis/mass-casa-santa-marta/2018-10/pope-francis-homily-daily-mass-guardian-angels-transcendence.html"
+        }
+      ]
+    },
+    {
+      "slug": "head-of-the-holy-innocents",
+      "name": "Holy Innocents",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "Vatican News: Holy Innocents",
+          "url": "https://www.vaticannews.va/en/saints/12/28.html"
+        }
+      ]
+    },
+    {
+      "slug": "herman-of-alaska",
+      "name": "Herman of Alaska",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Herman of Alaska",
+          "url": "https://www.oca.org/saints/lives/2019/12/13/103530-repose-of-venerable-herman-of-alaska-wonderworker-of-all-america"
+        }
+      ]
+    },
+    {
+      "slug": "imelda-lambertini",
+      "name": "Imelda Lambertini",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "English Dominicans: Blessed Imelda Lambertini",
+          "url": "https://english.op.org/godzdogz/saints-this-month-13-may-blessed-imelda-lambertini/"
+        }
+      ]
+    },
+    {
+      "slug": "isidore-bakanja",
+      "name": "Isidore Bakanja",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Our Lady of Mercy Lay Carmelites: Isidore Bakanja",
+          "url": "https://olmlaycarmelites.com/saints/bl-isidore-bakanja"
+        }
+      ]
+    },
+    {
+      "slug": "luke-of-simferopol",
+      "name": "Luke of Simferopol",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "www.oca.org: Luke of Simferopol",
+          "url": "https://www.oca.org/saints/lives/2001/06/11/100476-saint-luke-archbishop-of-simferopol"
+        }
+      ]
+    },
+    {
+      "slug": "maria-of-gatchina",
+      "name": "Maria of Gatchina",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "pravenc.ru: Maria of Gatchina",
+          "url": "https://pravenc.ru/text/2562092.html"
+        },
+        {
+          "title": "mitropolia.spb.ru: Maria of Gatchina",
+          "url": "https://mitropolia.spb.ru/news/av/?id=29320"
+        }
+      ]
+    },
+    {
+      "slug": "mary-mother-of-god",
+      "name": "Mary, Mother of God",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "www.vaticannews.va: Mary, Mother of God",
+          "url": "https://www.vaticannews.va/en/liturgical-holidays/solemnity-of-mary--the-holy-mother-of-god.html"
+        },
+        {
+          "title": "www.vaticanstate.va: Mary, Mother of God",
+          "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/3400-january-1-mary-most-holy-mother-of-god.html"
+        }
+      ]
+    },
+    {
+      "slug": "matrona-of-moscow",
+      "name": "Matrona of Moscow",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "www.oca.org: Matrona of Moscow",
+          "url": "https://www.oca.org/saints/lives/2023/05/02/205349-saint-matrona-of-moscow"
+        }
+      ]
+    },
+    {
+      "slug": "michael-mcgivney",
+      "name": "Michael McGivney",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "fathermcgivney.org.ph: Michael McGivney",
+          "url": "https://fathermcgivney.org.ph/about/"
+        },
+        {
+          "title": "www.kilmorediocese.ie: Michael McGivney",
+          "url": "https://www.kilmorediocese.ie/blessed-michael-mcgivney/"
+        }
+      ]
+    },
+    {
+      "slug": "miguel-pro",
+      "name": "Miguel Agustín Pro",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "www.jesuits.global: Miguel Agustín Pro",
+          "url": "https://www.jesuits.global/saint-blessed/blessed-miguel-agustin-pro/"
+        },
+        {
+          "title": "www.jesuit.org.sg: Miguel Agustín Pro",
+          "url": "https://www.jesuit.org.sg/nov-miguel-pro-sj/"
+        }
+      ]
+    },
+    {
+      "slug": "nektarios-of-aegina",
+      "name": "Nektarios of Aegina",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "www.goarch.org: Nektarios of Aegina",
+          "url": "https://www.goarch.org/chapel/saints?contentid=283"
+        },
+        {
+          "title": "www.oca.org: Nektarios of Aegina",
+          "url": "https://www.oca.org/orthodoxy/the-orthodox-faith/church-history/nineteenth-century/eastern-europe-and-greece"
+        }
+      ]
+    },
+    {
+      "slug": "our-lady-of-guadalupe",
+      "name": "Our Lady of Guadalupe",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "www.vaticannews.va: Our Lady of Guadalupe",
+          "url": "https://www.vaticannews.va/en/church/news/2018-12/our-lady-of-guadaloupe-feast-day-mexico-americas.html"
+        }
+      ]
+    },
+    {
+      "slug": "our-lady-of-lourdes",
+      "name": "Our Lady of Lourdes",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "www.vaticannews.va: Our Lady of Lourdes",
+          "url": "https://www.vaticannews.va/en/liturgical-holidays/optional-memorial-of-our-lady-of-lourdes.html"
+        },
+        {
+          "title": "www.vaticanstate.va: Our Lady of Lourdes",
+          "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/1478-11-february-our-lady-of-lourdes.html"
+        }
+      ]
+    },
+    {
+      "slug": "our-lady-of-the-rosary",
+      "name": "Our Lady of the Rosary",
+      "previous_kind": "observance",
+      "reason": "Liturgical observance rather than an individual saint record.",
+      "existing_sources": [
+        {
+          "title": "www.vaticannews.va: Our Lady of the Rosary",
+          "url": "https://www.vaticannews.va/en/liturgical-holidays/memorial-of-our-lady-of-the-rosary.html"
+        },
+        {
+          "title": "www.vaticannews.va: Our Lady of the Rosary",
+          "url": "https://www.vaticannews.va/en/africa/news/2024-10/on-the-feast-of-our-lady-of-the-rosary-heeding-pope-francis-ca.html"
+        }
+      ]
+    },
+    {
+      "slug": "paisios-of-mount-athos",
+      "name": "Paisios of Mount Athos",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "www.oca.org: Paisios of Mount Athos",
+          "url": "https://www.oca.org/saints/lives/0999/07/12/100401-venerable-paisios-of-the-holy-mountain"
+        },
+        {
+          "title": "www.goarch.org: Paisios of Mount Athos",
+          "url": "https://www.goarch.org/chapel/saints?contentid=2497"
+        }
+      ]
+    },
+    {
+      "slug": "savva-of-serbia",
+      "name": "Sava of Serbia",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Sava of Serbia",
+          "url": "https://www.oca.org/saints/all-lives/2024/01/14"
+        }
+      ]
+    },
+    {
+      "slug": "seraphim-of-sarov",
+      "name": "Seraphim of Sarov",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Seraphim of Sarov",
+          "url": "https://www.oca.org/saints/all-lives/0201/01/02"
+        }
+      ]
+    },
+    {
+      "slug": "seraphim-of-vyritsa",
+      "name": "Seraphim of Vyritsa",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Orthodox Church in America: Seraphim of Vyritsa",
+          "url": "https://www.oca.org/saints/lives/1953/03/21/103710-venerable-seraphim-of-vyritsa"
+        }
+      ]
+    },
+    {
+      "slug": "solanus-casey",
+      "name": "Solanus Casey",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Solanus Casey Center: Biography",
+          "url": "https://www.solanuscasey.org/about-blessed-solanus-casey/"
+        },
+        {
+          "title": "Solanus Casey Center: Feast day",
+          "url": "https://www.solanuscasey.org/about-the-solanus-casey-center/novena/"
+        }
+      ]
+    },
+    {
+      "slug": "stanley-rother",
+      "name": "Stanley Rother",
+      "previous_kind": "blessed",
+      "reason": "Blessed rather than canonized saint in current reviewed data.",
+      "existing_sources": [
+        {
+          "title": "Archdiocese of Oklahoma City: Stanley Rother beatified",
+          "url": "https://archokc.org/blog/oklahoma-priest-stanley-rother-beatified"
+        }
+      ]
+    },
+    {
+      "slug": "tekle-haymanot",
+      "name": "Tekle Haymanot",
+      "previous_kind": "orthodox-saint",
+      "reason": "Catholic recognition not established in this review; archived pending a Catholic liturgical or recognition source.",
+      "existing_sources": [
+        {
+          "title": "Saint Takla Church: Monastic tradition",
+          "url": "https://st-takla.org/Story-5.html"
+        },
+        {
+          "title": "Additional ecclesiastical source",
+          "url": "https://st-takla.org/Story-6.html"
+        }
+      ]
+    }
+  ],
+  "follow_up": [
+    "Verify Eastern Catholic calendar evidence for Sava of Serbia, Seraphim of Sarov and Tekle Haymanot; do not infer status from discussion forums or a Catholic publisher describing an Orthodox saint.",
+    "Do not conflate Aitherius the December martyr with Aetherius the bishop of Lyon."
+  ]
+}

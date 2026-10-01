@@ -5,7 +5,7 @@ import { loadTs } from './load-ts.mjs';
 
 const { getAllSaints } = loadTs('lib/saints.ts');
 const { getDirectoryEntry, matchesDirectoryFilters, directoryOptions, EMPTY_FILTERS, UNCLASSIFIED } = loadTs('lib/directory-filters.ts');
-const saints = await getAllSaints();
+const saints = Array.from(await getAllSaints());
 const bySlug = slug => saints.find(saint => saint.slug === slug);
 const select = overrides => saints.filter(saint => matchesDirectoryFilters(saint, getDirectoryEntry(saint), { ...EMPTY_FILTERS, ...overrides }));
 

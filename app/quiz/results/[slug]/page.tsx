@@ -10,7 +10,7 @@ import ShareButtons from "@/components/ShareButtons";
 type Props = { params: Promise<{ slug: string }> };
 async function sharedSaint(slug: string) {
   const saint = await getSaintBySlug(slug);
-  if (!saint || saint.kind === "unresolved" || saint.kind === "observance") return null;
+  if (!saint || saint.kind !== "saint" || saint.directory_only) return null;
   return saint;
 }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

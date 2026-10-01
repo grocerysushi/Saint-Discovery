@@ -1,5 +1,6 @@
 import { localDateKey, validDateKey } from "./calendar-date";
 import saints from "@/lib/data/saints.json";
+import directoryAdditions from "@/lib/data/directory-additions.json";
 import images from "@/lib/data/saint-images.json";
 import generatedImages from "@/lib/data/saint-generated-images.json";
 import imageOverrides from "@/lib/data/saint-image-overrides.json";
@@ -21,7 +22,7 @@ export function getSaintOfDay(date = localDateKey()): DailySaint | null {
   if (!validDateKey(date)) return null;
   const [month, day] = date.split("-").map(Number);
   const feastDay = new Date(2024, month - 1, day).toLocaleDateString("en-US", { month: "long", day: "numeric" });
-  const matches = (saints as Saint[])
+  const matches = ([...saints, ...directoryAdditions.map(entry => entry.saint)] as Saint[])
     .filter(s => canonicalSaintSlug(s.slug) === s.slug)
     .map(applySaintReview)
     .filter(s => s.kind === "saint" && s.feast_day === feastDay);

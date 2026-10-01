@@ -1,12 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import { loadTs } from './load-ts.mjs';
 
 const { saintContributions, getSaintContribution } = loadTs('lib/saint-contributions.ts');
 const { reviews } = loadTs('lib/saint-reviews.ts');
 
-test('every canonical directory entry has an original sourced contribution and reflection', () => {
-  const eligible = Object.keys(reviews).filter(slug => reviews[slug].status === 'source-reviewed').sort();
+test('all legacy canonical biographies retain their sourced contribution and reflection', () => {
+  const legacySlugs = new Set(JSON.parse(fs.readFileSync(new URL('../lib/data/saints.json', import.meta.url))).map(s => s.slug));
+  const eligible = Object.keys(reviews).filter(slug => legacySlugs.has(slug) && reviews[slug].status === 'source-reviewed').sort();
   assert.deepEqual(Object.keys(saintContributions).sort(), eligible);
   const paragraphs = new Set();
   const reflections = new Set();
