@@ -56,6 +56,6 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const output=JSON.stringify(compile(entries),null,2)+'\n';
   const target=path.join(root,'lib/data/directory-additions.json');
   if(args[0]==='--write') fs.writeFileSync(target,output);
-  else if(fs.readFileSync(target,'utf8')!==output) throw new Error('Generated directory additions are stale; run directory:build');
+  else if(fs.readFileSync(target,'utf8').replace(/\r\n/g,'\n')!==output) throw new Error('Generated directory additions are stale; run directory:build');
   console.log(`Verified ${entries.length} new unique individual Catholic saints; 0 aliases, groups or blesseds counted. No network or database writes.`);
 }
