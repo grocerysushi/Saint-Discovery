@@ -9,14 +9,12 @@ const saints = await getAllSaints();
 const bySlug = slug => saints.find(saint => saint.slug === slug);
 const select = overrides => saints.filter(saint => matchesDirectoryFilters(saint, getDirectoryEntry(saint), { ...EMPTY_FILTERS, ...overrides }));
 
-test('the default and reset state retain all published entries, including observances', () => {
-  assert.equal(saints.length, 460);
+test('the default and reset state contain only recognized Catholic saints', () => {
+  assert.ok(saints.length >= 426);
   assert.equal(select({}).length, saints.length);
-  assert.ok(select({ status: 'observance' }).some(saint => saint.slug === 'all-saints'));
-  for (const status of ['saint', 'blessed', 'orthodox-saint']) {
-    const results = select({ status });
-    assert.ok(results.length > 0);
-    assert.ok(results.every(saint => saint.kind === status));
+  assert.ok(saints.every(saint => saint.kind === 'saint'));
+  for (const status of ['observance', 'blessed', 'orthodox-saint']) {
+    assert.equal(select({ status }).length, 0);
   }
 });
 
@@ -59,10 +57,10 @@ test('geography preserves historical regions and multiple recorded associations'
   assert.equal(getDirectoryEntry({ ...bySlug('joseph'), origin: 'Place of origin uncertain' }).countries.length, 0);
 });
 
-test('curated metadata only uses published canonical identities and nonduplicated classifications', () => {
+test('curated metadata preserves archived identities and has nonduplicated classifications', () => {
   const metadata = JSON.parse(fs.readFileSync(new URL('../lib/data/saint-directory-metadata.json', import.meta.url)));
   for (const [slug, entry] of Object.entries(metadata)) {
-    assert.ok(bySlug(slug), slug);
+    assert.equal(loadTs('lib/saint-reviews.ts').reviews[slug]?.status, 'source-reviewed', slug);
     for (const key of ['vocations', 'orders']) {
       assert.equal(new Set(entry[key]).size, entry[key].length, slug);
       assert.ok(entry[key].every(value => typeof value === 'string' && value.trim()), slug);

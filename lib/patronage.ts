@@ -24,7 +24,7 @@ export const PATRON_TOPICS: PatronTopic[] = data.topics.map(topic => ({
   ...topic,
   saints: [...new Set(topic.saints.map(canonicalSaintSlug))].filter(slug => {
     const review = getBiographyReview(slug);
-    if (!review) return true;
+    if (!review || review.kind !== "saint") return false;
     return (review.patron_of ?? "").split(/[,;]/)
       .some(label => label.trim().toLowerCase() === topic.label.toLowerCase());
   }),

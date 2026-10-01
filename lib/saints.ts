@@ -1,16 +1,17 @@
 import { Saint } from "@/lib/types";
 import saintsData from "@/lib/data/saints.json";
-import { applySaintReview, canonicalSaintSlug } from "@/lib/saint-reviews";
+import { applySaintReview, canonicalSaintSlug, isPublishedSaintSlug } from "@/lib/saint-reviews";
 
 // Saint content is baked into the repo (lib/data/saints.json, regenerated via
 // scripts/build-data.mjs) so every page and the sitemap build statically with
 // no runtime database dependency.
 const SAINTS = (saintsData as Saint[])
   .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
+  .filter(saint => isPublishedSaintSlug(saint.slug))
   .map(applySaintReview);
 
 export function getAllSaintSlugs(): string[] {
-  return saintsData.map(saint => saint.slug);
+  return saintsData.filter(saint => isPublishedSaintSlug(saint.slug)).map(saint => saint.slug);
 }
 
 export async function getAllSaints(): Promise<Saint[]> {

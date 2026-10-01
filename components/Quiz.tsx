@@ -28,7 +28,7 @@ const QUESTIONS: QuestionWithOptions[] = quizData.questions.map((q) => ({
 const SAINTS = (quizSaints as Saint[])
   .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
   .map(applySaintReview)
-  .filter(saint => saint.kind !== "unresolved" && saint.kind !== "observance");
+  .filter(saint => saint.kind === "saint");
 
 export default function Quiz({ onRestart, onExit }: { onRestart: () => void; onExit: () => void }) {
   const saved = useQuizSession();

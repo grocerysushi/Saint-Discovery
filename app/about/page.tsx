@@ -42,8 +42,8 @@ export default async function AboutPage() {
           </p>
           <p>
             Behind the quiz sits a growing directory of{" "}
-            {saintCount > 0 ? `${saintCount} ` : ""}entries exploring saints,
-            blessed people, and liturgical observances. Reviewed biographies
+            {saintCount > 0 ? `${saintCount} ` : ""}entries exploring recognized Catholic saints,
+            including saints honored in Eastern Catholic traditions. Reviewed biographies
             link to sources, with feast days and patronages where documented. Whether you
             arrived here looking for a confirmation saint, the patron of your
             profession, or just five minutes of fun that turns into a friendship

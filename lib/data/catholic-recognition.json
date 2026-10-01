@@ -1,0 +1,23 @@
+{
+  "gleb": {
+    "kind": "saint",
+    "feast_day": "July 24",
+    "feast_note": "July 24 in the Ukrainian Greek Catholic calendar; the 2025 UGCC report documents this celebration. This is not a claim of a General Roman Calendar memorial.",
+    "sources": [{"title":"Ukrainian Greek Catholic Church: Feast of Saints Borys and Hlib (2025)","url":"https://ugcc.ua/en/data/metropolitan-borys-celebrates-divine-liturgy-in-senlis-on-the-feast-of-saints-borys-and-hlib-1797/"}],
+    "recognition_note": "Gleb (Hlib), brother of Borys, is celebrated by the Ukrainian Greek Catholic Church. Shared Orthodox veneration does not exclude Catholic recognition."
+  },
+  "gregory-palamas": {
+    "kind": "saint",
+    "feast_day": null,
+    "feast_note": "Commemorated on the movable Second Sunday of the Great Fast in the Melkite Catholic tradition. No fixed Gregorian date is assigned here; this is not a General Roman Calendar memorial.",
+    "sources": [{"title":"Melkite Catholic Diocese of Newton: St. Gregory of Palamas","url":"https://melkite.org/faith/st-gregory-of-palamas"},{"title":"Melkite Catholic Diocese of Newton: The Fathers Reaffirmed","url":"https://melkite.org/faith/sunday-scriptures/the-fathers-reaffirmed"}],
+    "recognition_note": "The Melkite Catholic Church explicitly celebrates him as a saint. Retained as an Eastern Catholic recognition, not described as a modern Roman canonization."
+  },
+  "sergius-of-radonezh": {
+    "kind": "saint",
+    "feast_day": "September 25",
+    "feast_note": "September 25 is recorded by Catholic Online. This reference date does not imply a General Roman Calendar memorial.",
+    "sources": [{"title":"Catholic Online: St. Sergius of Radonezh","url":"https://www.catholic.org/saints/saint.php?saint_id=2508"},{"title":"Catholic Near East Welfare Association: Saga of a Saint","url":"https://cnewa.org/magazine/saga-of-a-saint-30937/"}],
+    "recognition_note": "Retained on Catholic reference coverage (Catholic Online and the papal agency CNEWA); no claim of a modern papal canonization or universal memorial."
+  }
+}

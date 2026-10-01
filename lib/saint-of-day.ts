@@ -24,7 +24,7 @@ export function getSaintOfDay(date = localDateKey()): DailySaint | null {
   const matches = (saints as Saint[])
     .filter(s => canonicalSaintSlug(s.slug) === s.slug)
     .map(applySaintReview)
-    .filter(s => s.kind !== "unresolved" && s.feast_day === feastDay);
+    .filter(s => s.kind === "saint" && s.feast_day === feastDay);
   // Historical artwork always takes precedence over a generated illustration.
   // Keep generated assets separate so refreshing Wikimedia metadata cannot erase them.
   const historical = { ...images, ...imageOverrides } as Record<string, DailySaint["image"]>;

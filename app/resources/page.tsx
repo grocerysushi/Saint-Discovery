@@ -12,7 +12,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: "Catholic Resources and Saints Directory",
   description:
-    "Browse Catholic resources and a sourced saints directory. Filter by feast month, country or region, vocation, religious order, and saint or blessed status.",
+    "Browse Catholic resources and a sourced directory of recognized Catholic saints. Filter by feast month, country or region, vocation, and religious order.",
   keywords: [
     "catholic saints directory",
     "saint of the day catholic",

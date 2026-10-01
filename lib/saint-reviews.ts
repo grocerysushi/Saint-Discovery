@@ -8,6 +8,7 @@ import expansions2 from "@/lib/data/saint-biography-expansions-2.json";
 import expansions3 from "@/lib/data/saint-biography-expansions-3.json";
 import expansions4 from "@/lib/data/saint-biography-expansions-4.json";
 import type { Saint } from "@/lib/types";
+import catholicRecognition from "@/lib/data/catholic-recognition.json";
 
 export interface BiographyReview {
   status: "source-reviewed" | "needs-identification";
@@ -68,8 +69,18 @@ export function canonicalSaintSlug(slug: string): string {
 }
 
 export function getBiographyReview(slug: string): BiographyReview | null {
-  const review = reviews[canonicalSaintSlug(slug)];
-  return review && review.status !== "duplicate" ? review : null;
+  const canonical = canonicalSaintSlug(slug);
+  const review = reviews[canonical];
+  if (!review || review.status === "duplicate") return null;
+  const recognition = (catholicRecognition as Record<string, { kind: "saint"; feast_day: string | null; feast_note: string; sources: { title: string; url: string }[]; recognition_note: string }>)[canonical];
+  return recognition ? { ...review, ...recognition, reviewed_on: "2026-10-01", sources: [...review.sources, ...recognition.sources] } : review;
+}
+
+// Archived reviews stay in source control; every public catalog consumer uses
+// this policy, including aliases, quizzes, patron links and daily selections.
+export function isPublishedSaintSlug(slug: string): boolean {
+  const review = getBiographyReview(slug);
+  return review?.status === "source-reviewed" && review.kind === "saint";
 }
 
 // Keep researched corrections separate from the legacy seed generator.

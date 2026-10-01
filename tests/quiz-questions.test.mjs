@@ -57,8 +57,8 @@ test('equal proportions of available points produce a balanced saint match despi
     { options: [option({ trait_charitable: 3 }), option({ trait_courageous: 3 })] },
   ];
   const raw = { ...zero(), charitable: 3, courageous: 2 };
-  const balanced = { slug: 'balanced', ...option({ trait_charitable: 1, trait_courageous: 1 }) };
-  const charity = { slug: 'charity', ...option({ trait_charitable: 3, trait_courageous: 2 }) };
+  const balanced = { slug: 'balanced', kind: 'saint', ...option({ trait_charitable: 1, trait_courageous: 1 }) };
+  const charity = { slug: 'charity', kind: 'saint', ...option({ trait_charitable: 3, trait_courageous: 2 }) };
   assert.equal(matchSaint(raw, [balanced, charity]).slug, 'charity');
   const normalized = normalizeQuizScores(raw, uneven);
   assert.equal(normalized.charitable, normalized.courageous);

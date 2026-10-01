@@ -62,7 +62,7 @@ const FAQS = [
   },
   {
     q: "Who can I discover in the saint directory?",
-    a: "Saint Discovery includes early martyrs, Doctors of the Church, and modern saints like Maximilian Kolbe and Thérèse of Lisieux. The directory also includes blessed people and liturgical observances; some directory entries are not available as quiz matches.",
+    a: "Saint Discovery includes recognized Catholic saints: early martyrs, Doctors of the Church, and modern saints like Maximilian Kolbe and Thérèse of Lisieux, including saints honored in Eastern Catholic traditions. Some directory entries are not available as quiz matches.",
   },
   {
     q: "Is this the same as a patron saint?",

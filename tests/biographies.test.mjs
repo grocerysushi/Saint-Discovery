@@ -49,13 +49,13 @@ test('every reviewed identity has traceable sources; aliases resolve without cha
   const { getAllSaints, getAllSaintSlugs, getSaintBySlug } = loadTs('lib/saints.ts');
   const all = await getAllSaints();
   assert.equal(Object.keys(reviews).length, catalog.length, 'Every original entry must have a review outcome');
-  assert.equal(getAllSaintSlugs().length, catalog.length);
+  assert.ok(getAllSaintSlugs().length < catalog.length, 'Archived non-Catholic records have no generated public route');
   assert.equal(new Set(all.map(s => s.slug)).size, all.length);
   for (const [slug, review] of Object.entries(reviews)) {
     assert.ok(catalog.some(s => s.slug === slug), slug);
     if (review.status === 'duplicate') {
       assert.equal(reviews[review.canonical_slug]?.status, 'source-reviewed', slug);
-      assert.equal((await getSaintBySlug(slug)).slug, review.canonical_slug, slug);
+      assert.equal((await getSaintBySlug(slug))?.slug ?? null, (await getSaintBySlug(review.canonical_slug))?.slug ?? null, slug);
       assert.ok(!all.some(s => s.slug === slug), slug);
     } else {
       assert.ok(review.sources.length > 0, slug);
@@ -67,7 +67,7 @@ test('every reviewed identity has traceable sources; aliases resolve without cha
       if (review.status === 'needs-identification') {
         assert.equal(review.kind, 'unresolved', slug);
         assert.ok(!all.some(s => s.slug === slug), slug);
-        assert.equal((await getSaintBySlug(slug)).kind, 'unresolved', slug);
+        assert.equal(await getSaintBySlug(slug), null, slug);
       }
     }
   }
@@ -82,9 +82,8 @@ test('reviewed corrections remove legacy quotations and preserve quiz traits', a
   assert.equal(saint.prayer, null);
   assert.equal(saint.quotes.length, 0);
   for (const key of Object.keys(original).filter(key => key.startsWith('trait_'))) assert.equal(saint[key], original[key]);
-  const { saintDisplayName } = loadTs('lib/saint-seo.ts');
-  assert.equal(saintDisplayName(await getSaintBySlug('anne-catherine-emmerich')), 'Blessed Anne Catherine Emmerich');
-  assert.equal(saintDisplayName(await getSaintBySlug('all-souls')), 'All Souls');
+  assert.equal(await getSaintBySlug('anne-catherine-emmerich'), null);
+  assert.equal(await getSaintBySlug('all-souls'), null);
 });
 
 test('unsupported patronage cannot survive through the legacy topic index', () => {

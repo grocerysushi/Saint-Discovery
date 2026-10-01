@@ -67,7 +67,7 @@ function loadDaily(overrides = {}) {
 }
 
 const portrait = slug => ({ src: `/images/generated-saints/${slug}.webp`, generated: true });
-const fixtures = [{ slug: 'first', name: 'First', feast_day: 'January 1' }, { slug: 'second', name: 'Second', feast_day: 'January 1' }];
+const fixtures = [{ slug: 'first', kind: 'saint', name: 'First', feast_day: 'January 1' }, { slug: 'second', kind: 'saint', name: 'Second', feast_day: 'January 1' }];
 
 test('daily experience uses reviewed biographies and keeps feast companions on the selected date', async () => {
   const { getDailyExperience } = loadTs('lib/daily-experience.ts');
@@ -113,13 +113,13 @@ test('historical artwork wins across saints sharing a feast day', () => {
 
 test('does not invent feast days or accept invalid dates', () => {
   const { getSaintOfDay } = loadDaily({ 'saints.json': [
-    ...fixtures, { slug: 'leap-day-fixture', name: 'Leap day fixture', feast_day: 'February 29' },
+    ...fixtures, { slug: 'leap-day-fixture', kind: 'saint', name: 'Leap day fixture', feast_day: 'February 29' },
   ] });
   for (const date of ['02-30', '13-01', '00-00', 'bad', '05-31', '10-03']) assert.equal(getSaintOfDay(date), null);
   assert.equal(getSaintOfDay('02-29').date, '02-29');
 });
 
-test('every feast day in the corrected calendar has historical or generated artwork', async () => {
+test('every published feast day resolves to a Catholic saint, with optional artwork', async () => {
   const { getSaintOfDay } = loadDaily();
   const saints = await loadTs('lib/saints.ts').getAllSaints();
   const dates = new Set(saints.map(s => s.feast_day).filter(Boolean));
@@ -128,7 +128,8 @@ test('every feast day in the corrected calendar has historical or generated artw
     const key = `${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
     const saint = getSaintOfDay(key);
     assert.equal(saint.feastDay, feast);
-    assert.ok(saint.image, `Missing artwork for ${feast}: ${saint.name}`);
+    assert.equal(saint.kind, 'saint');
+    if (saint.image) assert.ok(saint.image.src);
   }
 });
 

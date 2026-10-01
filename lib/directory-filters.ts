@@ -4,7 +4,7 @@ import type { Saint } from "@/lib/types";
 export const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 export const UNCLASSIFIED = "__unclassified";
 export const STATUS_LABELS: Record<string, string> = {
-  saint: "Saint", blessed: "Blessed", "orthodox-saint": "Orthodox saint", observance: "Liturgical observance",
+  saint: "Catholic saint",
 };
 export interface DirectoryMetadata { vocations: string[]; orders: string[] }
 export interface DirectoryEntry extends DirectoryMetadata { countries: string[]; month: string; status: string }

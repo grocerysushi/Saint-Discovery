@@ -28,7 +28,7 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
     { key: "country", label: "Country / region", all: "Every country / region", options: options.country.map(value => ({ value, label: value })), unknown: true },
     { key: "vocation", label: "Vocation / work", all: "Every vocation", options: options.vocation.map(value => ({ value, label: value })), unknown: true },
     { key: "order", label: "Religious order / family", all: "Every order / family", options: options.order.map(value => ({ value, label: value })), unknown: true },
-    { key: "status", label: "Saint / blessed", all: "Every entry type", options: Object.entries(STATUS_LABELS).map(([value, label]) => ({ value, label })) },
+    { key: "status", label: "Recognition", all: "All Catholic saints", options: Object.entries(STATUS_LABELS).map(([value, label]) => ({ value, label })) },
   ];
 
   return (
