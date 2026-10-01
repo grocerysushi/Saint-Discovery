@@ -28,6 +28,16 @@ test('structured content cannot terminate its HTML script element', () => {
   assert.deepEqual(JSON.parse(encoded), value);
 });
 
+test('sharing cards identify their own canonical page and retain an image', () => {
+  const { socialMetadata } = load('lib/seo.ts');
+  const card = socialMetadata('Editorial policy', 'How we research our content.', '/editorial-policy');
+  assert.equal(card.openGraph.url, 'https://www.saintdiscoveryquiz.com/editorial-policy');
+  assert.equal(card.openGraph.title, 'Editorial policy');
+  assert.equal(card.twitter.description, 'How we research our content.');
+  assert.equal(card.twitter.card, 'summary_large_image');
+  assert.ok(card.openGraph.images[0].url.endsWith('/opengraph-image'));
+});
+
 test('search snippets name their subject and only promise available sections', () => {
   const { saintSearchSummary, saintDisplayName } = load('lib/saint-seo.ts');
   const short = saintSearchSummary({ name: 'Joseph', slug: 'joseph', description: 'A life of faith.' });

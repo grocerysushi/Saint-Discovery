@@ -54,7 +54,7 @@ test('recommendation endpoint validates saints, returns public summaries and fai
   assert.equal(offline.status, 503); assert.equal(offline.headers['Cache-Control'], 'no-store'); assert.equal(offline.body.posts.length, 0);
 });
 
-function componentHarness(fetcher) {
+function componentHarness(fetcher, initialPosts = []) {
   const effects = [], events = [], state = [];
   let cursor = 0, intersection, disconnected = 0;
   const jsx = (type, props) => ({ type, props });
@@ -64,7 +64,7 @@ function componentHarness(fetcher) {
   }, { fetch: fetcher, window: { setTimeout: () => 1, clearTimeout() {} }, IntersectionObserver: class {
     constructor(fn) { intersection = fn; } observe() {} disconnect() { disconnected++; }
   } });
-  return { render: () => { cursor = 0; return component.default({ saintSlug: saint.slug, placement: 'result_blog' }); },
+  return { render: () => { cursor = 0; return component.default({ saintSlug: saint.slug, placement: 'result_blog', initialPosts }); },
     effects, events, intersect: ratio => intersection([{ isIntersecting: ratio > 0, intersectionRatio: ratio }]), disconnected: () => disconnected };
 }
 function nodes(tree) {
@@ -101,4 +101,23 @@ test('outages leave a working blog link and unmounted requests cannot set state'
   late.render(); const cleanup = late.effects.shift()(); cleanup();
   resolve({ ok: true, json: async () => ({ posts }) }); await flush();
   assert.equal(nodes(late.render()).filter(n => typeof n.type === 'function').length, 0);
+});
+
+test('biography article links are present before effects run and survive a refresh outage', async () => {
+  const initialPosts = recommendBlogPosts(saint, posts, now);
+  const ui = componentHarness(async () => { throw Error('offline'); }, initialPosts);
+  assert.equal(nodes(ui.render()).filter(n => typeof n.type === 'function').length, 2);
+  ui.effects.shift()(); await flush();
+  assert.equal(nodes(ui.render()).filter(n => typeof n.type === 'function').length, 2);
+  let fail = false;
+  const jsx = (type, props) => ({ type, props });
+  const server = load('components/BiographyArticles.tsx', {
+    'react/jsx-runtime': { jsx }, './BlogRecommendations': 'Cards',
+    '@/lib/blog-recommendations': { recommendBlogPosts },
+    '@/lib/blog-recommendations-server': { getReadingCatalog: async () => { if (fail) throw Error('offline'); return posts; } },
+  });
+  assert.equal((await server.default({ saint })).props.initialPosts.length, 2);
+  fail = true;
+  assert.equal((await server.default({ saint })).props.initialPosts.length, 0);
+  assert.equal(await server.default({ saint: { ...saint, kind: 'observance' } }), null);
 });

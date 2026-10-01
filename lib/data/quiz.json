@@ -457,7 +457,7 @@
   {
    "id": "q9-o32",
    "question_id": "q9",
-   "label": "“Be still and know that I am God!” — Psalm 46:11, NABRE",
+   "label": "“Be still and know that I am God!”",
    "trait_contemplative": 3,
    "trait_charitable": 0,
    "trait_intellectual": 0,
@@ -472,7 +472,7 @@
   {
    "id": "q9-o33",
    "question_id": "q9",
-   "label": "“whatever you did for one of these least brothers of mine, you did for me.” — Matthew 25:40, NABRE",
+   "label": "“You shall love your neighbor as yourself.”",
    "trait_contemplative": 0,
    "trait_charitable": 3,
    "trait_intellectual": 0,
@@ -480,14 +480,14 @@
    "trait_joyful": 0,
    "trait_mystical": 0,
    "source": {
-    "label": "Matthew 25:40",
-    "url": "https://bible.usccb.org/bible/matthew/25"
+    "label": "Matthew 22:39",
+    "url": "https://bible.usccb.org/bible/matthew/22"
    }
   },
   {
    "id": "q9-o34",
    "question_id": "q9",
-   "label": "“the truth will set you free.” — John 8:32, NABRE",
+   "label": "“the truth will set you free.”",
    "trait_contemplative": 0,
    "trait_charitable": 0,
    "trait_intellectual": 3,
@@ -502,7 +502,7 @@
   {
    "id": "q9-o35",
    "question_id": "q9",
-   "label": "“Rejoice in the Lord always.” — Philippians 4:4, NABRE",
+   "label": "“Rejoice in the Lord always.”",
    "trait_contemplative": 0,
    "trait_charitable": 0,
    "trait_intellectual": 0,

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { socialMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Editorial approach & corrections",
   description: "How Saint Discovery prepares biographies and articles, uses sources and AI assistance, distinguishes history from tradition, and handles corrections.",
   alternates: { canonical: "/editorial-policy" },
+  ...socialMetadata("Editorial approach & corrections", "How Saint Discovery uses sources, distinguishes history from tradition, and handles corrections.", "/editorial-policy"),
 };
 
 export default function EditorialPolicy() {

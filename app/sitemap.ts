@@ -13,8 +13,6 @@ export const revalidate = 86400;
 const CONTENT_UPDATED = new Date("2026-09-08");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const lastModified = CONTENT_UPDATED;
-
   const staticEntries: MetadataRoute.Sitemap = [
     {
       url: absoluteUrl("/saint-of-day"),
@@ -29,7 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/"),
-      lastModified,
+      lastModified: new Date("2026-10-01"),
       changeFrequency: "weekly",
       priority: 1,
     },
@@ -53,7 +51,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified: new Date("2026-09-25"),
+      lastModified: new Date("2026-10-01"),
       changeFrequency: "monthly",
       priority: 0.4,
     },
@@ -86,7 +84,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const guideSlugs = new Set(PATRON_GUIDES.map(guide => guide.slug));
   const patronEntries: MetadataRoute.Sitemap = PATRON_TOPICS.filter(t => !guideSlugs.has(t.slug)).map((t) => ({
     url: absoluteUrl(`/patron-saint-of/${t.slug}`),
-    lastModified,
+    lastModified: new Date("2026-10-01"),
     changeFrequency: "monthly" as const,
     priority: 0.5,
   }));

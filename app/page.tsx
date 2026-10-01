@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import HomePage from "@/components/HomePage";
 import { getSaintOfDay } from "@/lib/saint-of-day";
+import { getAllSaints } from "@/lib/saints";
 
 export const revalidate = 300;
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
@@ -9,7 +10,7 @@ import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
   description:
-    "Take the Catholic saint personality quiz and discover which of nearly 500 saints reflects your spiritual gifts. Free, fast, and rooted in Catholic tradition.",
+    "Take the free Catholic saint personality quiz to discover a saint whose virtues connect with your answers. Explore their biography, feast day, and prayer.",
   keywords: [
     "which catholic saint are you",
     "which catholic saint are you quiz",
@@ -60,8 +61,8 @@ const FAQS = [
     a: "Yes. The quiz, every saint biography, the prayers, and the directory are all free. There is no sign-up required to take the quiz or read your result.",
   },
   {
-    q: "How many saints can I match with?",
-    a: "Saint Discovery includes nearly 500 entries in its saint directory — from early martyrs and Doctors of the Church to modern saints like Maximilian Kolbe and Thérèse of Lisieux.",
+    q: "Who can I discover in the saint directory?",
+    a: "Saint Discovery includes early martyrs, Doctors of the Church, and modern saints like Maximilian Kolbe and Thérèse of Lisieux. The directory also includes blessed people and liturgical observances; some directory entries are not available as quiz matches.",
   },
   {
     q: "Is this the same as a patron saint?",
@@ -69,7 +70,8 @@ const FAQS = [
   },
 ];
 
-export default function Home() {
+export default async function Home() {
+  const directoryCount = (await getAllSaints()).length;
   const quizJsonLd = {
     "@context": "https://schema.org",
     "@type": "Quiz",
@@ -99,7 +101,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(quizJsonLd) }}
@@ -108,7 +110,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(faqJsonLd) }}
       />
-      <HomePage dailySaint={getSaintOfDay()} />
+      <HomePage dailySaint={getSaintOfDay()} directoryCount={directoryCount} />
       <div className="site-width home-information">
         <section className="home-about editorial-grid">
           <div><p className="eyebrow">More than a name</p><h2>Real people.<br />Remarkable faith.</h2></div>
@@ -141,6 +143,6 @@ export default function Home() {
           <div className="faq-list">{FAQS.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
         </section>
       </div>
-    </>
+    </main>
   );
 }

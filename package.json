@@ -7,9 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/saint-contributions.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs tests/quiz-questions.test.mjs tests/scoring.test.mjs tests/directory-filters.test.mjs tests/resources-daily.test.mjs tests/patron-guides.test.mjs tests/blog.test.mjs tests/blog-storage.test.mjs tests/blog-public.test.mjs tests/blog-seo.test.mjs tests/analytics.test.mjs tests/email-flow.test.mjs tests/blog-recommendations.test.mjs",
+    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/saint-contributions.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs tests/quiz-questions.test.mjs tests/scoring.test.mjs tests/directory-filters.test.mjs tests/resources-daily.test.mjs tests/patron-guides.test.mjs tests/blog.test.mjs tests/blog-storage.test.mjs tests/blog-public.test.mjs tests/blog-seo.test.mjs tests/analytics.test.mjs tests/email-flow.test.mjs tests/blog-recommendations.test.mjs tests/jev-seo.test.mjs",
     "test:blog-seo": "node --test tests/blog-seo-http.test.mjs",
-    "test:seo": "node --test tests/seo-build.test.mjs"
+    "test:seo": "node --test tests/seo-build.test.mjs",
+    "seo:jev": "node scripts/jev-seo.mjs",
+    "seo:site": "node scripts/seo-site-audit.mjs",
+    "test:jev": "node --test tests/jev-seo.test.mjs"
   },
   "dependencies": {
     "@insforge/sdk": "^1.5.2",
@@ -31,6 +34,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "parse5": "^8.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

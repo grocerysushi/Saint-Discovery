@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
+import { absoluteUrl, serializeJsonLd, socialMetadata } from "@/lib/seo";
 import { FEATURED_PATRON_TOPICS, PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 
@@ -18,14 +18,7 @@ export const metadata: Metadata = {
     "which saint to pray to",
   ],
   alternates: { canonical: "/patron-saint-of" },
-  openGraph: {
-    title: "Patron Saints by Cause | Saint Discovery",
-    description:
-      "Explore patronages A to Z and sourced guides to saints for everyday life.",
-    url: absoluteUrl("/patron-saint-of"),
-    siteName: siteConfig.name,
-    type: "website",
-  },
+  ...socialMetadata("Patron Saints by Cause | Saint Discovery", "Explore patronages A to Z and sourced guides to saints for everyday life.", "/patron-saint-of"),
 };
 
 export default function PatronIndexPage() {

@@ -4,7 +4,7 @@ import type { DailySaint } from "@/lib/saint-of-day";
 import Link from "next/link";
 import { track } from "@/lib/analytics";
 
-export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) {
+export default function Hero({ dailySaint, directoryCount }: { dailySaint: DailySaint | null; directoryCount: number }) {
   return (
     <div className="home-hero">
       <div className="site-width">
@@ -22,7 +22,7 @@ export default function Hero({ dailySaint }: { dailySaint: DailySaint | null }) 
           <DailySaintCard initialSaint={dailySaint} />
         </div>
         <div className="hero-facts" aria-label="About the quiz">
-          <div className="hero-fact"><strong>480+</strong><span>saints to discover</span></div>
+          <div className="hero-fact"><strong>{directoryCount}</strong><span>directory entries to explore</span></div>
           <div className="hero-fact"><strong>6</strong><span>spiritual traits</span></div>
           <div className="hero-fact"><strong>21</strong><span>questions to your match</span></div>
         </div>

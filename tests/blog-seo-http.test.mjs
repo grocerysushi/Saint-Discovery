@@ -13,6 +13,10 @@ test('production blog HTML, pagination, metadata, feeds and privacy boundaries',
       body: { type: 'doc', content: [{ type: 'paragraph', content: [{ type: 'text', text: `SSR_PUBLISHED_BODY_${i + 1}` }] }] } },
   }));
   rows[12].published.category = 'Meet the saints';
+  rows[0].published.title += ': Daily Prayer';
+  rows[1].published.title += ': Prayer for Beginners';
+  rows[0].published.cover = 'https://example.org/cover.jpg';
+  rows[0].published.coverAlt = 'Fixture cover';
   const backend = await startBlogBackend(rows);
   const probe = http.createServer(); probe.listen(0, '127.0.0.1'); await once(probe, 'listening');
   const port = probe.address().port; await new Promise(resolve => probe.close(resolve));
@@ -35,6 +39,9 @@ test('production blog HTML, pagination, metadata, feeds and privacy boundaries',
   assert.equal(index.response.status, 200, output);
   assert.match(visible(index.html), /Published faith article 1/);
   assert.match(index.html, /href="\/blog\?page=2"/);
+  assert.match(index.html, /"@type":"CollectionPage"/);
+  assert.match(index.html, /"numberOfItems":12/);
+  assert.match(index.html, /property="og:url" content="https:\/\/www.saintdiscoveryquiz.com\/blog"/);
   assert.doesNotMatch(index.html.match(/<meta name="robots"[^>]+>/)?.[0] || '', /noindex/);
   const second = await get('/blog?page=2');
   assert.equal(second.response.status, 200);
@@ -61,6 +68,9 @@ test('production blog HTML, pagination, metadata, feeds and privacy boundaries',
   assert.match(article.html, /"@type":"BlogPosting"/);
   assert.match(article.html, /"@type":"BreadcrumbList"/);
   assert.match(article.html, /property="og:type" content="article"/);
+  assert.match(visible(article.html), /href="\/blog\/published-faith-2"/);
+  assert.match(visible(article.html), /class="blog-cover-frame"/);
+  assert.match(visible(article.html), /loading="eager" fetchPriority="high" decoding="async"/i);
   assert.match(article.html, /rel="canonical" href="https:\/\/www.saintdiscoveryquiz.com\/blog\/published-faith-1"/);
   const missing = await get('/blog/private-draft');
   assert.equal(missing.response.status, 404); assert.match(missing.html, /noindex/);

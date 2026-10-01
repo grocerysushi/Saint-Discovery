@@ -4,8 +4,9 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import { notFound } from "next/navigation";
 import { PATRON_GUIDES, getPatronGuide } from "@/lib/patron-guides";
 import PatronGuideContent from "./PatronGuideContent";
+import PatronageContext from "./PatronageContext";
 import { getAllSaints } from "@/lib/saints";
-import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
+import { absoluteUrl, serializeJsonLd, socialMetadata } from "@/lib/seo";
 import {
   PATRON_TOPICS,
   getTopicBySlug,
@@ -32,8 +33,7 @@ export async function generateMetadata({
     title: guide.title,
     description: guide.description,
     alternates: { canonical: `/patron-saint-of/${guide.slug}` },
-    openGraph: { title: guide.title, description: guide.description, url: absoluteUrl(`/patron-saint-of/${guide.slug}`), siteName: siteConfig.name, type: "article" },
-    twitter: { card: "summary_large_image", title: guide.title, description: guide.description },
+    ...socialMetadata(guide.title, guide.description, `/patron-saint-of/${guide.slug}`, "article"),
   };
   const topic = getTopicBySlug(topicSlug);
   if (!topic) return { title: "Patronage Not Found" };
@@ -43,22 +43,14 @@ export async function generateMetadata({
   const title = topicTitle(topic);
   const description =
     saints.length === 1
-      ? `${names[0]} is the ${title.toLowerCase()}. Learn why, read the biography, feast day, and a prayer for their intercession.`
-      : `${names.join(", ")}${saints.length > 3 ? ` and ${saints.length - 3} more` : ""} are venerated as ${title.toLowerCase()}. Feast days, biographies, and prayers.`;
+      ? `Explore ${names[0]} and the patronage of ${topic.label}. Read the biography, feast day, prayer, and linked sources.`
+      : `Explore ${names.join(", ")}${saints.length > 3 ? ` and ${saints.length - 3} more` : ""} as patrons of ${topic.label}. Read biographies, feast days, and linked sources.`;
 
-  const url = absoluteUrl(`/patron-saint-of/${topic.slug}`);
   return {
     title,
     description,
     alternates: { canonical: `/patron-saint-of/${topic.slug}` },
-    openGraph: {
-      title: `${title} | Saint Discovery`,
-      description,
-      url,
-      siteName: siteConfig.name,
-      type: "website",
-    },
-    twitter: { card: "summary_large_image", title, description },
+    ...socialMetadata(title, description, `/patron-saint-of/${topic.slug}`),
   };
 }
 
@@ -163,26 +155,28 @@ export default async function PatronTopicPage({
           <p className="text-cream-dark leading-relaxed">
             {saints.length === 1 ? (
               <>
-                The Catholic Church venerates{" "}
+                This directory highlights{" "}
                 <strong className="text-cream">{saintDisplayName(saints[0])}</strong> as
-                the patron saint of {topic.label}. Patron saints are heavenly
+                a patron of {topic.label}. Patron saints are heavenly
                 intercessors — believers entrust a place, profession, or
                 struggle to a saint whose own life touched it, and ask for
                 their prayers before God.
               </>
             ) : (
               <>
-                The Catholic Church venerates{" "}
+                This directory highlights{" "}
                 <strong className="text-cream">
                   {saints.length} saints
                 </strong>{" "}
-                as patrons of {topic.label}. Each came to this patronage
-                through their own life — read their stories below and ask for
+                associated with {topic.label}. Read their stories below and ask for
                 the intercession of the one whose path speaks to yours.
               </>
             )}
           </p>
+          <p className="text-sm text-cream-dark/80 leading-relaxed mt-4">Some patronages have a formal Church designation; others reflect longstanding local or devotional traditions. The biographies link to sources for further reading. This directory is a starting point, rather than an exhaustive list of every patron.</p>
         </header>
+
+        <PatronageContext slug={topic.slug} />
 
         <section className="space-y-4 mb-12">
           {saints.map((saint) => (
@@ -239,7 +233,7 @@ export default async function PatronTopicPage({
         <section className="pt-8 border-t border-navy-lighter">
           <p className="text-cream-dark mb-5">
             Not sure which saint walks closest to you? The quiz matches your
-            temperament with saints in the directory in about two minutes.
+            temperament with saints in the directory in about three to five minutes.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link

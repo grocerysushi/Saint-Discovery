@@ -1,20 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { socialMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "How Saint Discovery handles your data: what we collect, how the email list works, the services we rely on, and how to unsubscribe or request deletion.",
   alternates: { canonical: "/privacy" },
-  openGraph: {
-    title: "Privacy Policy | Saint Discovery",
-    description:
-      "How Saint Discovery handles your data and how to unsubscribe or request deletion.",
-    url: absoluteUrl("/privacy"),
-    siteName: siteConfig.name,
-    type: "website",
-  },
+  ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
 const EFFECTIVE_DATE = "September 25, 2026";

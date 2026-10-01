@@ -67,6 +67,12 @@ next-env.d.ts
 /output/pdf/
 /tmp/pdfs/
 
+# Local Jev SEO reports (public-page evidence and API judgments)
+/output/jev-seo/
+/output/seo-improvements/
+/output/quiz-choice-review/
+/.next-jev-seo/
+
 # InsForge & AI agent skills
 .insforge
 .agent

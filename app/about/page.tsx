@@ -1,21 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { absoluteUrl, siteConfig } from "@/lib/seo";
+import { socialMetadata } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
 
 export const metadata: Metadata = {
   title: "About Saint Discovery",
   description:
-    "Saint Discovery is a free Catholic saint personality quiz and a directory of 480+ saints — biographies, feast days, patronages, and prayers.",
+    "Learn about Saint Discovery, a free Catholic saint quiz and source-linked directory of saint biographies, feast days, patronages, and prayers.",
   alternates: { canonical: "/about" },
-  openGraph: {
-    title: "About Saint Discovery",
-    description:
-      "A free Catholic saint personality quiz and a directory of 480+ saints.",
-    url: absoluteUrl("/about"),
-    siteName: siteConfig.name,
-    type: "website",
-  },
+  ...socialMetadata("About Saint Discovery", "A free Catholic saint quiz, source-linked biographies, and practical resources for exploring your faith.", "/about"),
 };
 
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
@@ -49,9 +42,9 @@ export default async function AboutPage() {
           </p>
           <p>
             Behind the quiz sits a growing directory of{" "}
-            {saintCount > 0 ? `${saintCount} ` : ""}Catholic saints, each with a
-            biography and source references, with feast days and patronages
-            where documented. Whether you
+            {saintCount > 0 ? `${saintCount} ` : ""}entries exploring saints,
+            blessed people, and liturgical observances. Reviewed biographies
+            link to sources, with feast days and patronages where documented. Whether you
             arrived here looking for a confirmation saint, the patron of your
             profession, or just five minutes of fun that turns into a friendship
             with someone who ran the race before you — welcome.

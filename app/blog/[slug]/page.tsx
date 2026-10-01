@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArticleView } from "@/components/blog/BlogReader";
+import RelatedArticles from "@/components/RelatedArticles";
 import { getPublishedBlogPost } from "@/lib/blog-public";
 import { blogArticleSchema, blogBreadcrumbs, blogDescription, blogImageUrl } from "@/lib/blog-seo";
 import { absoluteUrl, serializeJsonLd } from "@/lib/seo";
@@ -41,6 +42,7 @@ export default async function Page({ params }: Props) {
       </ol>
     </nav>
     <ArticleView content={content} date={post.publishedAt} />
+    <RelatedArticles content={content} />
     <section className="blog-related-links" aria-labelledby="continue-exploring"><h2 id="continue-exploring">Continue exploring your faith</h2><Link href="/resources">Read saint biographies →</Link><Link href="/patron-saint-of">Explore patron-saint guides →</Link><Link href="/confirmation-saint-guide">Choose a Confirmation saint →</Link><Link href="/saint-of-day">Today’s saint and reflection →</Link></section>
   </main>;
 }

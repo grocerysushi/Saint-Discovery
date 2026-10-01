@@ -176,7 +176,9 @@ body:has(.blog-admin) .site-header,body:has(.blog-admin) .site-footer { display:
 .blog-byline small { font-size:.8rem; line-height:1.65; }
 .blog-avatar { width:44px; height:44px; border-color:var(--color-gold); border-radius:24px 24px 5px 5px; }
 .blog-cover { max-width:1000px; margin:0 auto 40px; }
-.blog-cover img { max-height:520px; border-radius:14px; }
+.blog-cover-frame { aspect-ratio:16/9; overflow:hidden; border-radius:14px; background:var(--color-navy-light); }
+.blog-cover-frame img,.blog-cover-frame .blog-art-placeholder { display:block; width:100%; height:100%; min-height:0; max-height:none; object-fit:cover; }
+.blog-cover-frame .blog-art-placeholder { display:grid; }
 .blog-cover figcaption { font-size:.8rem; line-height:1.7; text-align:left; padding:12px 0; }
 .blog-reading-grid { grid-template-columns:minmax(0,780px) 260px; gap:32px; align-items:start; }
 .blog-reading-grid.blog-no-ads { grid-template-columns:minmax(0,800px); }

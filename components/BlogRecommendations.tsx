@@ -27,8 +27,8 @@ function ArticleCard({ post, placement, saintSlug, position }: { post: BlogRecom
 }
 
 // Keyed by saint at call sites so a different result cannot reuse old articles.
-export default function BlogRecommendations({ saintSlug, placement }: { saintSlug: string; placement: Placement }) {
-  const [posts, setPosts] = useState<BlogRecommendation[]>([]);
+export default function BlogRecommendations({ saintSlug, placement, initialPosts = [] }: { saintSlug: string; placement: Placement; initialPosts?: BlogRecommendation[] }) {
+  const [posts, setPosts] = useState<BlogRecommendation[]>(initialPosts);
   useEffect(() => {
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 7000);

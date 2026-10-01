@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { loadTs } from './load-ts.mjs';
 const seo = loadTs('lib/blog-seo.ts');
 const { SAMPLE_POSTS } = loadTs('lib/blog.ts');
+const { relatedArticles } = loadTs('lib/blog-reading-paths.ts');
 test('article metadata uses the publication, real author, and honest publication date', () => {
   const content = SAMPLE_POSTS[0].published;
   const schema = seo.blogArticleSchema(content, '2026-09-17T12:00:00Z');
@@ -26,4 +27,23 @@ test('feed content is escaped and pagination preserves search filters', () => {
   assert.equal(page.searchParams.get('page'), '2');
   assert.equal(page.searchParams.get('q'), 'saint & prayer');
   assert.equal(page.searchParams.get('category'), 'Prayer & reflection');
+});
+
+test('blog collection data describes only the rendered page and its filters', () => {
+  const posts = [{ published: { slug: 'faith-and-prayer', title: 'Faith and Prayer' } }];
+  const schema = seo.blogCollectionSchema(posts, 2, 'Prayer & reflection');
+  assert.equal(schema['@type'], 'CollectionPage');
+  assert.equal(schema.mainEntity.numberOfItems, 1);
+  assert.equal(schema.mainEntity.itemListElement[0].url, 'https://www.saintdiscoveryquiz.com/blog/faith-and-prayer');
+  assert.equal(new URL(schema.url).searchParams.get('page'), '2');
+  assert.equal(new URL(schema.url).searchParams.get('category'), 'Prayer & reflection');
+  assert.equal(seo.blogCollectionSchema([]).mainEntity.itemListElement.length, 0);
+});
+
+test('related reading stays relevant and excludes self-links, duplicates, unsafe and future articles', () => {
+  const current = { slug: 'prayer-guide', title: 'How to Begin Daily Prayer', excerpt: 'A practical introduction to prayer.' };
+  const post = (slug, title, extra = {}) => ({ slug, title, excerpt: '', category: 'Everyday faith', publishedAt: '2026-09-01', ...extra });
+  const catalog = [post('prayer-guide', current.title), post('daily-examen', 'How to Pray the Daily Examen'), post('daily-examen', 'How to Pray Again'), post('gospel-history', 'The History of the Bible'), post('../admin', 'Daily Prayer'), post('future-prayer', 'Daily Prayer', { publishedAt: '2030-01-01' }), post('undated', 'Daily Prayer', { publishedAt: '' })];
+  assert.deepEqual(Array.from(relatedArticles(current, catalog, Date.parse('2026-10-01')), p => p.slug), ['daily-examen']);
+  assert.equal(relatedArticles({ slug: 'unrelated', title: 'A Distinct Subject', excerpt: '' }, catalog, Date.parse('2026-10-01')).length, 0);
 });

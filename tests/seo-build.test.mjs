@@ -13,6 +13,24 @@ const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "
 const meta = (source, key) => decode(source.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]*)"`))?.[1] ?? '');
 const jsonLd = source => [...source.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
 
+test('public sharing metadata and sourced patronage context survive production rendering', () => {
+  for (const route of ['about', 'privacy', 'editorial-policy', 'patron-saint-of', 'patron-saint-of/italy', 'patron-saint-of/the-americas', 'patron-saint-of/goldsmiths', 'patron-saint-of/african-americans']) {
+    const source = html(route);
+    assert.equal(meta(source, 'og:url'), `${origin}/${route}`, route);
+    assert.ok(meta(source, 'og:title') && meta(source, 'og:description') && meta(source, 'og:image'), route);
+    assert.ok(meta(source, 'twitter:title') && meta(source, 'twitter:description'), route);
+  }
+  assert.match(html('patron-saint-of/italy'), /href="\/saints\/catherine-of-siena"/);
+  assert.match(html('patron-saint-of/italy'), /hf_p-xii_brief_19390618_patroni-italia/);
+  assert.match(html('patron-saint-of/the-americas'), /ecclesia-in-america/);
+  assert.match(html('patron-saint-of/goldsmiths'), /later legend/);
+  assert.match(html('patron-saint-of/african-americans'), /franciscanmedia.org/);
+  const home = html('index');
+  assert.equal((home.match(/<main\b/g) ?? []).length, 1);
+  assert.match(home, new RegExp(`<strong>${saints.length}</strong><span>directory entries`));
+  assert.match(home, /Who can I discover in the saint directory/);
+});
+
 test('life guides have indexable content, citations, sitemap entries, and reciprocal biography links', () => {
   const { PATRON_GUIDES } = loadTs('lib/patron-guides.ts');
   const sitemap = read('.next/server/app/sitemap.xml.body');

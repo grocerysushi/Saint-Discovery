@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 const FALLBACK_SITE_URL = "https://www.saintdiscoveryquiz.com";
 
 function normalizeSiteUrl(value?: string) {
@@ -28,4 +30,14 @@ export function absoluteUrl(path = "/") {
 
 export function serializeJsonLd(value: unknown) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+// Next.js replaces nested Open Graph/Twitter objects rather than merging them.
+// Supply the full sharing card on every page that overrides those fields.
+export function socialMetadata(title: string, description: string, path: string, type: "website" | "article" = "website"): Pick<Metadata, "openGraph" | "twitter"> {
+  const image = { url: absoluteUrl("/opengraph-image"), width: 1200, height: 630, alt: "Saint Discovery — Catholic saints, prayer and faith" };
+  return {
+    openGraph: { title, description, url: absoluteUrl(path), siteName: siteConfig.name, locale: siteConfig.locale, type, images: [image] },
+    twitter: { card: "summary_large_image", title, description, images: [image.url] },
+  };
 }

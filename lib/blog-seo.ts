@@ -41,3 +41,15 @@ export function blogBrowseUrl(page = 1, category = "", query = "") {
   if (page > 1) params.set("page", String(page));
   return `/blog${params.size ? `?${params}` : ""}`;
 }
+
+export function blogCollectionSchema(posts: { published: Pick<BlogContent, "slug" | "title"> }[], page = 1, category = "", query = "") {
+  const url = absoluteUrl(blogBrowseUrl(page, category, query));
+  return {
+    "@context": "https://schema.org", "@type": "CollectionPage", url,
+    name: `Saint Discovery Journal${page > 1 ? ` — Page ${page}` : ""}`,
+    isPartOf: { "@id": absoluteUrl("/#website") },
+    mainEntity: { "@type": "ItemList", numberOfItems: posts.length,
+      itemListElement: posts.map((post, i) => ({ "@type": "ListItem", position: i + 1, name: post.published.title, url: absoluteUrl(`/blog/${post.published.slug}`) })),
+    },
+  };
+}
