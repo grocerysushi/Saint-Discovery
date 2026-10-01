@@ -103,3 +103,34 @@ ratings. Scoring, shared quiz results and trait-based related ranking explicitly
 exclude these records. The quiz dataset and its established scores are unchanged;
 the earlier Catholic-only cleanup is the only eligibility reduction.
 Legacy seed regeneration cannot erase this separate directory overlay.
+
+## Second batch: Korean lay martyrs
+
+The second batch, `2026-10-01-korean-martyrs.json`, adds 40 unique people from
+the Catholic Bishops' Conference of Korea's individual 103 Korean Martyr Saints
+biographies: 27 women and 13 men. The 447-record directory becomes 487 records,
+with 61 new individuals across both batches. Existing Andrew Kim Tae-gon and
+Paul Chong Ha-sang are not counted again. The separate 124 blesseds collection
+is not imported. No group record or new quiz personality ratings are added.
+
+Each original biography is 91-107 words and cites its individual institutional
+page. `research/korean-martyrs-source-audit.json` records the URL, successful
+HTTP read, review timestamp, content hash and editorial limitations; copyrighted
+source prose and artwork are not committed. Related family members remain
+distinct. Lucia Kim (July 1839), CBCK number 23, is distinguished from the older
+widow Lucia Kim, number 45, who is not in this batch. Alternate names preserve
+attested Latin/English forms and family-first name order for search.
+
+All 40 feast dates remain explicitly unknown pending scoped calendar sources.
+No birth year is calculated from an age, particularly where traditional age
+reckoning may differ. Maria Won Kwi-im's inconsistent birth-year/age fields are
+withheld, John Pak Hu-jae's two possible birth years remain qualified, and Agatha
+Yi So-sa's individual biography resolves an inconsistent year in her brother's
+introductory paragraph. Miracle anecdotes and retrospective medical diagnoses
+are not asserted. Two particularly sparse candidates (CBCK 19 and 20) are
+deferred for further research rather than padded into new pages.
+
+This batch substantially improves Korean lay and women coverage. It does not
+complete the 103 Korean saints or the Vietnamese and Chinese martyr collections.
+Further batches still need individual source review, transliteration/family
+deduplication and calendar research; a cohort total is never an import count.

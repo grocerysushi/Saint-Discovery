@@ -1423,5 +1423,2718 @@
       "calendar_scope": "unverified",
       "calendar_source": null
     }
+  },
+  {
+    "saint": {
+      "id": "directory:peter-yi-ho-yong",
+      "slug": "peter-yi-ho-yong",
+      "name": "Peter Yi Ho-yong",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Yi Ho-yong Peter"
+      ],
+      "tagline": "",
+      "description": "Peter Yi Ho-yong was born in Incheon and later lived in poverty with his family in Seoul. He learned the Catholic faith from Paul Yi Kyong-on and became a catechist after the arrival of the Chinese priest Pacificus Yu. His older sister, Agatha Yi So-sa, also helped sustain the family and its religious life.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1803-1838",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 3 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Peter Yi Ho-yong",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1803-1838",
+      "patron_of": null,
+      "biography": [
+        "Peter Yi Ho-yong was born in Incheon and later lived in poverty with his family in Seoul. He learned the Catholic faith from Paul Yi Kyong-on and became a catechist after the arrival of the Chinese priest Pacificus Yu. His older sister, Agatha Yi So-sa, also helped sustain the family and its religious life.",
+        "Arrested in 1835, Peter continued to pray and instruct others during a long imprisonment. He and Agatha sometimes met under guard and encouraged each other. Illness and the harsh conditions weakened him, and he died in prison in 1838. The Korean bishops identify him among the 103 canonized martyr saints."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Peter Yi Ho-yong",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/3"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/3",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 3 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Agatha's death year in this page's introductory comparison conflicts with her own CBCK biography; her individual source is followed in her separate entry. No ages converted into birth years. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:protasius-chong-kuk-bo",
+      "slug": "protasius-chong-kuk-bo",
+      "name": "Protasius Chong Kuk-bo",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Chong Kuk-bo Protasius"
+      ],
+      "tagline": "",
+      "description": "Protasius Chong Kuk-bo worked with his father making straw rope in Seoul after the family lost its former prosperity. He encountered Catholicism as an adult. A priest entrusted him with a house where Catholics visiting the capital could stay while receiving the sacraments, and Protasius and his wife cared for these guests.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1799-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 4 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Protasius Chong Kuk-bo",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1799-1839",
+      "patron_of": null,
+      "biography": [
+        "Protasius Chong Kuk-bo worked with his father making straw rope in Seoul after the family lost its former prosperity. He encountered Catholicism as an adult. A priest entrusted him with a house where Catholics visiting the capital could stay while receiving the sacraments, and Protasius and his wife cared for these guests.",
+        "During the 1839 persecution he initially renounced his faith under pressure and was released. He regretted that decision and repeatedly sought permission to retract it before the authorities. Returned to prison, he suffered further beatings and illness and died there in May. His biography emphasizes repentance as well as his final perseverance."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Protasius Chong Kuk-bo",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/4"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/4",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 4 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:agatha-kim-a-gi",
+      "slug": "agatha-kim-a-gi",
+      "name": "Agatha Kim A-gi",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim A-gi Agatha"
+      ],
+      "tagline": "",
+      "description": "Agatha Kim A-gi came from a household without Catholic ties and married into another such family. A visit from her Catholic older sister prompted her to study the faith. She struggled to memorize prayers, but continued her preparation despite the danger that becoming Catholic brought in Korea at that time.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 5 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Agatha Kim A-gi",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Agatha Kim A-gi came from a household without Catholic ties and married into another such family. A visit from her Catholic older sister prompted her to study the faith. She struggled to memorize prayers, but continued her preparation despite the danger that becoming Catholic brought in Korea at that time.",
+        "She was arrested in 1836 and received baptism while imprisoned. Alongside Magdalene Kim Ob-i and Barbara Han A-gi, she refused demands to renounce her belief. After years in confinement, Agatha was executed in Seoul in 1839. The bishops' account records her canonization in 1984; it does not establish a modern medical diagnosis for her learning difficulties."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Agatha Kim A-gi",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/5"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/5",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 5 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Learning difficulties are described without assigning a retrospective medical diagnosis. Exact birth year is not established by this page. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:anna-pak-a-gi",
+      "slug": "anna-pak-a-gi",
+      "name": "Anna Pak A-gi",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Pak A-gi Anne",
+        "Anne Pak A-gi"
+      ],
+      "tagline": "",
+      "description": "Anna Pak A-gi grew up in a Catholic family near the Han River. She married, raised five children and taught them the faith, drawing particular strength from prayer about Christ's Passion. She was arrested with her husband and eldest son in 1836.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 6 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Anna Pak A-gi",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Anna Pak A-gi grew up in a Catholic family near the Han River. She married, raised five children and taught them the faith, drawing particular strength from prayer about Christ's Passion. She was arrested with her husband and eldest son in 1836.",
+        "Her husband and son renounced their faith and were released, but Anna remained in prison. Their repeated appeals for her to return home added to the distress of imprisonment and torture. She continued to profess Catholicism and was executed in Seoul in May 1839. The bishops' biography identifies her as one of the martyrs canonized by John Paul II in 1984."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Anna Pak A-gi",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/6"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/6",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 6 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:agatha-yi-so-sa",
+      "slug": "agatha-yi-so-sa",
+      "name": "Agatha Yi So-sa",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Yi So-sa Agatha"
+      ],
+      "tagline": "",
+      "description": "Agatha Yi So-sa was widowed after a short marriage and returned to care for her mother and much younger brother, Peter Yi Ho-yong. Sewing helped her support the household. She studied Catholic teaching and shared it with Peter while the family lived in difficult financial circumstances.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1784-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 7 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Agatha Yi So-sa",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1784-1839",
+      "patron_of": null,
+      "biography": [
+        "Agatha Yi So-sa was widowed after a short marriage and returned to care for her mother and much younger brother, Peter Yi Ho-yong. Sewing helped her support the household. She studied Catholic teaching and shared it with Peter while the family lived in difficult financial circumstances.",
+        "The siblings were arrested together in 1835. Agatha refused both to abandon her faith and to identify other believers to the authorities. Peter died during their imprisonment, while she remained in custody until her execution in Seoul in May 1839. Her individual biography supplies that death year, correcting the inconsistent reference to her in Peter's account."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Agatha Yi So-sa",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/7"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/7",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 7 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The individual biography explicitly records execution in 1839; the 1838 reference to Agatha in Peter's introductory paragraph is not followed. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:magdalene-kim-ob-i",
+      "slug": "magdalene-kim-ob-i",
+      "name": "Magdalene Kim Ob-i",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Magdalena Kim Ob-i",
+        "Kim Ob-I Magdalene"
+      ],
+      "tagline": "",
+      "description": "Magdalene Kim Ob-i practiced Catholicism from childhood. Although she had hoped to remain unmarried, she accepted her parents' decision that she should marry. After losing her husband and children, she devoted more of her life to religious instruction, helping neighbors learn Catholic teaching.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 8 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Magdalene Kim Ob-i",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Magdalene Kim Ob-i practiced Catholicism from childhood. Although she had hoped to remain unmarried, she accepted her parents' decision that she should marry. After losing her husband and children, she devoted more of her life to religious instruction, helping neighbors learn Catholic teaching.",
+        "Together with Barbara Han A-gi's mother, she also encouraged Barbara to return to practicing the faith. Magdalene and Barbara were arrested in 1836. Magdalene continued to explain her beliefs during questioning and refused to renounce them. She was executed in Seoul in 1839, alongside Barbara, Agatha Kim A-gi and other Catholics."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Magdalena Kim Ob-i",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/8"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/8",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 8 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:augustine-yi-kwang-hon",
+      "slug": "augustine-yi-kwang-hon",
+      "name": "Augustine Yi Kwang-hon",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Augustinus Yi Kwang-hon",
+        "Yi Kwang-hon Augustine"
+      ],
+      "tagline": "",
+      "description": "Augustine Yi Kwang-hon became Catholic as an adult after a conversation that led him to reconsider his earlier conduct. His wife Barbara Kwon Hui and younger brother John Baptist Yi Kwang-nyol also embraced the faith. Augustine became a catechist, and his home served as a meeting place for Catholics.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1787-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 9 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Augustine Yi Kwang-hon",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1787-1839",
+      "patron_of": null,
+      "biography": [
+        "Augustine Yi Kwang-hon became Catholic as an adult after a conversation that led him to reconsider his earlier conduct. His wife Barbara Kwon Hui and younger brother John Baptist Yi Kwang-nyol also embraced the faith. Augustine became a catechist, and his home served as a meeting place for Catholics.",
+        "He and Barbara instructed others and visited sick people. Authorities arrested the family during the 1839 persecution. Augustine rejected an offer of freedom and restored property in exchange for abandoning his beliefs, and was executed that May. His wife, brother and daughter Agatha also became martyrs, each with a distinct life and execution history."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Augustinus Yi Kwang-hon",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/9"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/9",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 9 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-han-a-gi",
+      "slug": "barbara-han-a-gi",
+      "name": "Barbara Han A-gi",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Han A-gi Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Han A-gi learned Christianity from her mother but stopped practicing after marrying a man who was not Catholic. Her mother and Magdalene Kim Ob-i helped her return to the faith. When Barbara later lost her husband and children, she moved back to her parents' home.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 10 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Han A-gi",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Han A-gi learned Christianity from her mother but stopped practicing after marrying a man who was not Catholic. Her mother and Magdalene Kim Ob-i helped her return to the faith. When Barbara later lost her husband and children, she moved back to her parents' home.",
+        "There she instructed people preparing for baptism and baptized children in danger of death. She was arrested with Magdalene in 1836 and endured prolonged imprisonment. Barbara refused to give up Catholicism under interrogation and was executed in Seoul in May 1839. Her individual entry belongs to the Korean bishops' collection of canonized martyr saints."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Han A-gi",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/10"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/10",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 10 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:lucia-pak-hui-sun",
+      "slug": "lucia-pak-hui-sun",
+      "name": "Lucia Pak Hui-sun",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Pak Hui-sun Lucia",
+        "Lucy Pak Hui-sun"
+      ],
+      "tagline": "",
+      "description": "Lucia Pak Hui-sun served as a lady-in-waiting in the Korean royal palace and could read both Korean and Chinese. After learning about Catholicism, she obtained permission to leave court life. Her father opposed her conversion, so she lived with a nephew rather than returning to the family home.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 11 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Lucia Pak Hui-sun",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Lucia Pak Hui-sun served as a lady-in-waiting in the Korean royal palace and could read both Korean and Chinese. After learning about Catholicism, she obtained permission to leave court life. Her father opposed her conversion, so she lived with a nephew rather than returning to the family home.",
+        "Her older sister Maria joined her there. Both were arrested in 1839, and Lucia refused to identify other Catholics or renounce her faith. In prison she taught and comforted fellow prisoners. She was executed in May, while Maria remained imprisoned until September. The sisters are distinct members of the 103 canonized Korean martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Lucia Pak Hui-sun",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/11"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/11",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 11 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:damian-nam-myong-hyok",
+      "slug": "damian-nam-myong-hyok",
+      "name": "Damian Nam Myong-hyok",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Damiano Nam Myong-hyog",
+        "Nam Myong-hyok Damian"
+      ],
+      "tagline": "",
+      "description": "Damian Nam Myong-hyok became Catholic around the age of thirty and received baptism from the priest Pacificus Yu. As a catechist, he taught in his home and cared for sick neighbors. He also kept religious items belonging to Bishop Laurent Imbert.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1802-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 12 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Damian Nam Myong-hyok",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1802-1839",
+      "patron_of": null,
+      "biography": [
+        "Damian Nam Myong-hyok became Catholic around the age of thirty and received baptism from the priest Pacificus Yu. As a catechist, he taught in his home and cared for sick neighbors. He also kept religious items belonging to Bishop Laurent Imbert.",
+        "When Damian and his family were arrested in 1839, those items drew particular attention during questioning. He refused to reveal the names of other Catholics and suffered severe torture. Before his execution in Seoul that May, he wrote to his imprisoned wife about their faith and hope of reunion. His wife, Maria Yi Yon-hui, was also later martyred."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Damiano Nam Myong-hyog",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/12"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/12",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 12 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:peter-kwon-tug-in",
+      "slug": "peter-kwon-tug-in",
+      "name": "Peter Kwon Tug-in",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Petrus Kwon Tug-in",
+        "Kwon Tug-in Peter"
+      ],
+      "tagline": "",
+      "description": "Peter Kwon Tug-in grew up in a Catholic family in Seoul and was deeply influenced by his mother's religious practice. After her death he married and worked first in his brother's herb shop. He later made crucifixes and religious medals, supporting both his household and church expenses.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1805-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 13 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Peter Kwon Tug-in",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1805-1839",
+      "patron_of": null,
+      "biography": [
+        "Peter Kwon Tug-in grew up in a Catholic family in Seoul and was deeply influenced by his mother's religious practice. After her death he married and worked first in his brother's herb shop. He later made crucifixes and religious medals, supporting both his household and church expenses.",
+        "Authorities arrested him and his family during the 1839 persecution. Peter refused to disclose other believers' names, explaining that doing so would harm them. The bishops' account notes that making and selling religious articles formed part of the case against him. He was executed with other Catholics in Seoul in May 1839."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Petrus Kwon Tug-in",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/13"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/13",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 13 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:joseph-chang-song-jip",
+      "slug": "joseph-chang-song-jip",
+      "name": "Joseph Chang Song-jip",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Ioseph Chang Song-jib",
+        "Chang Song-jip Joseph"
+      ],
+      "tagline": "",
+      "description": "Joseph Chang Song-jip worked in a herb shop in Seoul and was twice widowed. He began studying Catholicism as an adult but stopped when he struggled with its teachings about the Incarnation and Christ's birth. A Catholic friend later persuaded him to resume his religious life.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 14 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Joseph Chang Song-jip",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Joseph Chang Song-jip worked in a herb shop in Seoul and was twice widowed. He began studying Catholicism as an adult but stopped when he struggled with its teachings about the Incarnation and Christ's birth. A Catholic friend later persuaded him to resume his religious life.",
+        "Joseph turned to prayer, meditation and Scripture, and received baptism and confirmation in 1838. Arrested during the following year's persecution, he explained his beliefs to those urging him to abandon them. After beatings and continued imprisonment, he died in a Seoul prison in May 1839. The Korean bishops include him among their canonized martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Ioseph Chang Song-jib",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/14"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/14",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 14 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-kim",
+      "slug": "barbara-kim",
+      "name": "Barbara Kim",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Kim came from a poor Catholic household and entered domestic service while young. Living with a devout Catholic family strengthened her religious commitment. She later married a man who did not share her faith, and differences over religion troubled their family life.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 15 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Kim",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Kim came from a poor Catholic household and entered domestic service while young. Living with a devout Catholic family strengthened her religious commitment. She later married a man who did not share her faith, and differences over religion troubled their family life.",
+        "After her husband died, Barbara devoted herself to prayer and charitable work. Arrested in 1839, she refused to renounce Catholicism or reveal other believers' names. Torture, hunger and disease marked her imprisonment, and she died of fever in a Seoul prison that year. The bishops' biography records her canonization in 1984."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Kim",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/15"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/15",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 15 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-yi",
+      "slug": "barbara-yi",
+      "name": "Barbara Yi",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Yi Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Yi was an orphan from Seoul who lived with her aunts, Magdalene Yi Yong-hui and Barbara Yi Chong-hui. The Korean bishops' account describes her as a young teenager at the time of her arrest. She continued to profess her faith when questioned and tortured by the authorities.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 16 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Yi",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Yi was an orphan from Seoul who lived with her aunts, Magdalene Yi Yong-hui and Barbara Yi Chong-hui. The Korean bishops' account describes her as a young teenager at the time of her arrest. She continued to profess her faith when questioned and tortured by the authorities.",
+        "A judge returned her to police custody because of her youth. In prison she and other young detainees encouraged one another, but she contracted typhoid fever in the crowded conditions and died in 1839. She is a separate person from her aunt Barbara Yi Chong-hui, who was executed later that year."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Yi",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/16"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/16",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 16 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The source ends with an incomplete age sentence. Birth year is not inferred from its approximate adolescent age; the explicit death year is retained. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:rosa-kim",
+      "slug": "rosa-kim",
+      "name": "Rosa Kim",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Rosa"
+      ],
+      "tagline": "",
+      "description": "Rosa Kim was born in Hanyang and encountered Catholicism after separating from her husband and moving in with a Catholic relative. She studied the faith as an adult and helped her mother and older brother understand it. She also supported priests and became known for her regular prayer.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1784-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 17 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Rosa Kim",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1784-1839",
+      "patron_of": null,
+      "biography": [
+        "Rosa Kim was born in Hanyang and encountered Catholicism after separating from her husband and moving in with a Catholic relative. She studied the faith as an adult and helped her mother and older brother understand it. She also supported priests and became known for her regular prayer.",
+        "Following her arrest, Rosa continued to explain her beliefs in prison. She refused demands to renounce God or identify other Catholics, regarding betrayal of them as a serious wrong. She was sentenced to death and executed in July 1839. Her biography records her inclusion in the 1984 canonization of the Korean martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Rosa Kim",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/17"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/17",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 17 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:martha-kim-song-im",
+      "slug": "martha-kim-song-im",
+      "name": "Martha Kim Song-im",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Song-im Martha"
+      ],
+      "tagline": "",
+      "description": "Martha Kim Song-im encountered Catholicism through someone sharing her lodging in Hanyang. After a difficult period of family life and bereavement, fellow Catholics helped her, and she worked in their homes in return. Their support and example helped her deepen her own religious practice.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 18 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Martha Kim Song-im",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Martha Kim Song-im encountered Catholicism through someone sharing her lodging in Hanyang. After a difficult period of family life and bereavement, fellow Catholics helped her, and she worked in their homes in return. Their support and example helped her deepen her own religious practice.",
+        "During the 1839 persecution she and three other women presented themselves to the authorities as Catholics. They remained firm during interrogation and torture. Martha was executed in Seoul in July 1839. The bishops' account preserves her personal story within the canonized martyrs; its typographical problems are not used to supply precise birth or beatification dates here."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Martha Kim Song-im",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/18"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/18",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 18 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The source contains apparent typographical errors in its beatification and papal-name lines. Exact beatification date and birth year are withheld. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:john-baptist-yi-kwang-nyol",
+      "slug": "john-baptist-yi-kwang-nyol",
+      "name": "John Baptist Yi Kwang-nyol",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Ioannes B. Yi Kwang-nyol",
+        "John Yi Kwang-nyol",
+        "Yi Kwang-ryol John the Baptist"
+      ],
+      "tagline": "",
+      "description": "John Baptist Yi Kwang-nyol embraced Catholicism with his older brother Augustine Yi Kwang-hon. He traveled to Beijing, where he was baptized. On returning to Korea he chose an unmarried life marked by prayer and religious discipline.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 21 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "John Baptist Yi Kwang-nyol",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "John Baptist Yi Kwang-nyol embraced Catholicism with his older brother Augustine Yi Kwang-hon. He traveled to Beijing, where he was baptized. On returning to Korea he chose an unmarried life marked by prayer and religious discipline.",
+        "He was arrested in April 1839 and remained committed to his faith through repeated interrogation and torture. The bishops' biography explains that he and Augustine were not executed together because of a rule concerning brothers. Augustine died first; John remained in prison until his own execution in Seoul in July. His separate identity is preserved despite the brothers' closely connected accounts."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Ioannes B. Yi Kwang-nyol",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/21"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/21",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 21 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:magdalene-yi-yong-hui",
+      "slug": "magdalene-yi-yong-hui",
+      "name": "Magdalene Yi Yong-hui",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Magdalena Yi Yong-hui",
+        "Yi Yong-hui Magdalene"
+      ],
+      "tagline": "",
+      "description": "Magdalene Yi Yong-hui belonged to a family in which her mother, sister and aunt practiced Catholicism despite her father's opposition. When he arranged a marriage she did not want, she left home and found refuge with her aunt, Theresa Yi Mae-im, in Seoul. Her father eventually accepted her decision to remain there.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 22 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Magdalene Yi Yong-hui",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Magdalene Yi Yong-hui belonged to a family in which her mother, sister and aunt practiced Catholicism despite her father's opposition. When he arranged a marriage she did not want, she left home and found refuge with her aunt, Theresa Yi Mae-im, in Seoul. Her father eventually accepted her decision to remain there.",
+        "During the persecution Magdalene and three other Catholic women surrendered to the authorities. She was executed in Seoul in July 1839. Her mother Magdalene Ho Kye-im and sister Barbara Yi Chong-hui were also martyred, but each is identified separately in the Korean bishops' collection."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Magdalena Yi Yong-hui",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/22"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/22",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 22 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:lucia-kim-july-1839",
+      "slug": "lucia-kim-july-1839",
+      "name": "Lucia Kim (July 1839)",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Lucy Kim (July 1839)",
+        "Kim Lucia (July 1839)"
+      ],
+      "tagline": "",
+      "description": "This Lucia Kim was a young unmarried Catholic woman, distinct from the older widow of the same name also honored among the Korean martyrs. After her parents died, she sold her property to meet their funeral costs and lived with a Catholic household.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 23 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Lucia Kim (July 1839)",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "This Lucia Kim was a young unmarried Catholic woman, distinct from the older widow of the same name also honored among the Korean martyrs. After her parents died, she sold her property to meet their funeral costs and lived with a Catholic household.",
+        "During the persecution she took a leading role among four women who presented themselves to the authorities. In prison, she sold her hair to buy food for fellow prisoners and wrote to a friend asking for prayer. She was executed in Seoul in July 1839. The month in this page's name distinguishes her from the other Lucia Kim; it is not a feast designation."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Lucia Kim",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/23"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/23",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 23 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "CBCK identity 23 is the young woman executed in July, not CBCK identity 45, the older widow also named Lucia Kim. The parenthetical month is an editorial identity qualifier, not a feast date. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:maria-won-kwi-im",
+      "slug": "maria-won-kwi-im",
+      "name": "Maria Won Kwi-im",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Won Kwi-im Maria",
+        "Mary Won Kwi-im"
+      ],
+      "tagline": "",
+      "description": "Maria Won Kwi-im lost her mother in childhood and endured poverty with her father. A Catholic relative took her in, taught her prayers and catechism, and helped her learn embroidery as a means of support. Maria received baptism and chose to remain unmarried.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 24 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Maria Won Kwi-im",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Maria Won Kwi-im lost her mother in childhood and endured poverty with her father. A Catholic relative took her in, taught her prayers and catechism, and helped her learn embroidery as a means of support. Maria received baptism and chose to remain unmarried.",
+        "A neighbor reported her religious belief to the authorities. Though initially discouraged in prison, she recovered her resolve and refused to renounce her faith during interrogation. She was executed with other Catholics in Seoul in July 1839. The bishops' page gives a birth year that does not clearly align with its stated age, so this summary leaves her birth year unconfirmed."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Maria Won Kwi-im",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/24"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/24",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 24 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The source states birth in 1819 and death in 1839 at age 22. Because those fields do not clearly agree, birth year and exact age are withheld. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:maria-pak-kun-a-gi",
+      "slug": "maria-pak-kun-a-gi",
+      "name": "Maria Pak Kun-a-gi",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Park K'un-agi Maria",
+        "Pak Maria"
+      ],
+      "tagline": "",
+      "description": "Maria Pak Kun-a-gi was the older sister of Lucia Pak Hui-sun. Both came from a prosperous family in Hanyang. Maria joined Lucia in a nephew's household, where they practiced Catholicism together. The bishops' account does not establish exactly how Maria first came to believe.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 25 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Maria Pak Kun-a-gi",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Maria Pak Kun-a-gi was the older sister of Lucia Pak Hui-sun. Both came from a prosperous family in Hanyang. Maria joined Lucia in a nephew's household, where they practiced Catholicism together. The bishops' account does not establish exactly how Maria first came to believe.",
+        "Arrested with her sister and other Catholics in 1839, Maria endured imprisonment and torture. Lucia was executed in May, while Maria remained in prison until September, when she too was executed in Seoul. Their shared source tells much more about Lucia, but records Maria as an individual martyr and identifies both sisters as canonized saints."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Maria Pak Kun-a-gi",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/25"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/25",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 25 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The source admits uncertainty about Maria's conversion; Lucia's palace service and specific prison activities are not assigned to her older sister. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-kwon-hui",
+      "slug": "barbara-kwon-hui",
+      "name": "Barbara Kwon Hui",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kwon Hui Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Kwon Hui became Catholic with her husband, Augustine Yi Kwang-hon. Their home offered lodging to Bishop Imbert and other missionaries and provided a place where Catholics could attend Mass and learn their faith. This hospitality exposed the household to danger during persecution.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 26 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Kwon Hui",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Kwon Hui became Catholic with her husband, Augustine Yi Kwang-hon. Their home offered lodging to Bishop Imbert and other missionaries and provided a place where Catholics could attend Mass and learn their faith. This hospitality exposed the household to danger during persecution.",
+        "Barbara was arrested in 1839 alongside members of her family. She endured torture and the distress of seeing her daughter Agatha suffer in custody. Barbara was executed in Seoul that September. Her husband, daughter and brother-in-law John Baptist Yi Kwang-nyol were also martyrs, but her individual biography records her own service and imprisonment."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Kwon Hui",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/26"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/26",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 26 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:john-pak-hu-jae",
+      "slug": "john-pak-hu-jae",
+      "name": "John Pak Hu-jae",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Ioannes Pak Hu-jae",
+        "Pak Hu-jae John"
+      ],
+      "tagline": "",
+      "description": "John Pak Hu-jae was born in Yongin and later earned a living making straw shoes in Seoul. His father, Laurence Pak, had died for the faith during the earlier persecution. John married and practiced Catholicism while supporting his household through his trade.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1798 or 1799-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 27 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "John Pak Hu-jae",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1798 or 1799-1839",
+      "patron_of": null,
+      "biography": [
+        "John Pak Hu-jae was born in Yongin and later earned a living making straw shoes in Seoul. His father, Laurence Pak, had died for the faith during the earlier persecution. John married and practiced Catholicism while supporting his household through his trade.",
+        "As the 1839 persecution approached, he divided his remaining money with his wife and arranged for her to stay with a relative. He was then arrested. During interrogation he refused to identify other believers or abandon his religion, and was executed in September. The bishops' biography gives two possible birth years; both possibilities are retained here."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Ioannes Pak Hu-jae",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/27"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/27",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 27 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The institutional source gives 1798 or 1799 as possible birth years. The uncertainty is retained rather than resolved from reported age. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-yi-chong-hui",
+      "slug": "barbara-yi-chong-hui",
+      "name": "Barbara Yi Chong-hui",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Yi Chong-hui Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Yi Chong-hui was a daughter of Magdalene Ho Kye-im and sister of Magdalene Yi Yong-hui. She resisted a proposed marriage to a man who was not Catholic and later married a Catholic. Widowed after two years, she eventually moved to Seoul and lived with her aunt, Theresa Yi Mae-im.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1799-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 28 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Yi Chong-hui",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1799-1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Yi Chong-hui was a daughter of Magdalene Ho Kye-im and sister of Magdalene Yi Yong-hui. She resisted a proposed marriage to a man who was not Catholic and later married a Catholic. Widowed after two years, she eventually moved to Seoul and lived with her aunt, Theresa Yi Mae-im.",
+        "Her sister joined the same household. Barbara was arrested during the 1839 persecution and endured torture without abandoning her beliefs. She was executed in Seoul in September. Her niece Barbara Yi, who died earlier in prison, was another member of this family and is a distinct saint."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Yi Chong-hui",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/28"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/28",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 28 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:maria-yi-yon-hui",
+      "slug": "maria-yi-yon-hui",
+      "name": "Maria Yi Yon-hui",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Mary Yi Yon-hui",
+        "Yi Yon-hui Maria"
+      ],
+      "tagline": "",
+      "description": "Maria Yi Yon-hui and her husband, the catechist Damian Nam Myong-hyok, welcomed Bishop Imbert and other missionaries into their home. Maria cared for Catholics gathering there, taught them and helped them prepare to receive the sacraments. Hosting these meetings placed the family at risk.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 29 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Maria Yi Yon-hui",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Maria Yi Yon-hui and her husband, the catechist Damian Nam Myong-hyok, welcomed Bishop Imbert and other missionaries into their home. Maria cared for Catholics gathering there, taught them and helped them prepare to receive the sacraments. Hosting these meetings placed the family at risk.",
+        "She was arrested during the 1839 persecution. In custody she endured severe mistreatment and the anguish of knowing that her young son was also being harmed in a separate cell. Maria continued to profess her faith and was executed in Seoul in September 1839. Her life is documented individually in the Korean bishops' martyr collection."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Maria Yi Yon-hui",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/29"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/29",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 29 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:agnes-kim-hyo-ju",
+      "slug": "agnes-kim-hyo-ju",
+      "name": "Agnes Kim Hyo-ju",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Hyo-ju Agnes"
+      ],
+      "tagline": "",
+      "description": "Agnes Kim Hyo-ju grew up near the Han River and became Catholic with members of her family after her father's death. With her sisters Columba and Clara she chose an unmarried life devoted to prayer and service. They lived with their brother Anthony and gave help to people in need.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1816-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 30 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Agnes Kim Hyo-ju",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1816-1839",
+      "patron_of": null,
+      "biography": [
+        "Agnes Kim Hyo-ju grew up near the Han River and became Catholic with members of her family after her father's death. With her sisters Columba and Clara she chose an unmarried life devoted to prayer and service. They lived with their brother Anthony and gave help to people in need.",
+        "Agnes and Columba were arrested in 1839. Both resisted demands to renounce their faith or reveal other Catholics' whereabouts, despite severe abuse in prison. Agnes was executed in Seoul in September, before Columba's later execution that month. The bishops' biography explicitly identifies the sisters as separate canonized martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Agnes Kim Hyo-ju",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/30"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/30",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 30 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:francis-choe-kyong-hwan",
+      "slug": "francis-choe-kyong-hwan",
+      "name": "Francis Choe Kyong-hwan",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Franciscus Choe Kyong-hwan",
+        "Choe Kyong-hwan Francis"
+      ],
+      "tagline": "",
+      "description": "Francis Choe Kyong-hwan helped build a Catholic community near Mount Suri, clearing land and assisting families as they settled. He gathered neighbors for religious instruction and became a catechist. During persecution he collected money for imprisoned Catholics and poor neighbors, and helped bury people who had been executed.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "1805-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 31 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Francis Choe Kyong-hwan",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1805-1839",
+      "patron_of": null,
+      "biography": [
+        "Francis Choe Kyong-hwan helped build a Catholic community near Mount Suri, clearing land and assisting families as they settled. He gathered neighbors for religious instruction and became a catechist. During persecution he collected money for imprisoned Catholics and poor neighbors, and helped bury people who had been executed.",
+        "He and his wife agreed to send their son Thomas Yang-eop abroad to prepare for the priesthood. Arrested with other villagers in 1839, Francis continued teaching and praying in prison. He died there after repeated torture in September. His canonized status is distinct from the separate recognition histories of his wife and son."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Franciscus Choe Kyong-hwan",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/31"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/31",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 31 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The father alone is added. His wife and son have separate recognition histories and are not counted as canonized saints through family association. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:augustine-yu-chin-gil",
+      "slug": "augustine-yu-chin-gil",
+      "name": "Augustine Yu Chin-gil",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Auguestinus Yu Chin-gil",
+        "You Chin-gil Augustine",
+        "Yu Chin-gil Augustine"
+      ],
+      "tagline": "",
+      "description": "Augustine Yu Chin-gil was an interpreter whose religious inquiry led him from reading Korean and Chinese philosophical traditions to Catholic writings. He traveled to Beijing with Paul Chong Ha-sang and received baptism there. Together they sought priests for the Catholic communities in Korea.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 35 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Augustine Yu Chin-gil",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Augustine Yu Chin-gil was an interpreter whose religious inquiry led him from reading Korean and Chinese philosophical traditions to Catholic writings. He traveled to Beijing with Paul Chong Ha-sang and received baptism there. Together they sought priests for the Catholic communities in Korea.",
+        "Back in Korea, Augustine helped support missionary activity and shared his faith with others. Arrested in 1839, he acknowledged his own role but refused to identify fellow Catholic leaders. He was executed in Seoul that September. His son Peter Yu Tae-chol also became a martyr; father and son have separate entries in the Korean bishops' collection."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Auguestinus Yu Chin-gil",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/35"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/35",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 35 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:magdalene-ho-kye-im",
+      "slug": "magdalene-ho-kye-im",
+      "name": "Magdalene Ho Kye-im",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Magdalena Ho Kye-im",
+        "Ho Kye-im Magdalene"
+      ],
+      "tagline": "",
+      "description": "Magdalene Ho Kye-im lived in Pongchon and raised her children as Catholics, although her husband did not share her faith. Two of her daughters, Magdalene Yi Yong-hui and Barbara Yi Chong-hui, were executed during the 1839 persecution. The bishops' account distinguishes their mother's story from theirs.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 36 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Magdalene Ho Kye-im",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Magdalene Ho Kye-im lived in Pongchon and raised her children as Catholics, although her husband did not share her faith. Two of her daughters, Magdalene Yi Yong-hui and Barbara Yi Chong-hui, were executed during the 1839 persecution. The bishops' account distinguishes their mother's story from theirs.",
+        "The surviving biography is brief: it records that Magdalene endured torture without giving up her belief and was executed in Seoul in September 1839. Her inclusion among the canonized Korean martyrs is clear, while many details of her earlier life remain unrecorded in this source."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Magdalena Ho Kye-im",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/36"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/36",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 36 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The individual source explicitly says little biographical information survives; the summary limits itself to the documented family relationship, imprisonment and martyrdom. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:sebastian-nam-i-gwan",
+      "slug": "sebastian-nam-i-gwan",
+      "name": "Sebastian Nam I-gwan",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Sebastianus Nam I-gwan",
+        "Nam I-gwan Sebastian"
+      ],
+      "tagline": "",
+      "description": "Sebastian Nam I-gwan came from a family affected by the 1801 persecution, when his father died in exile. Sebastian himself spent years in exile and received baptism as an adult. After his release he worked with Paul Chong Ha-sang's group to help the Chinese priest Pacificus Yu enter Korea.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 37 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Sebastian Nam I-gwan",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Sebastian Nam I-gwan came from a family affected by the 1801 persecution, when his father died in exile. Sebastian himself spent years in exile and received baptism as an adult. After his release he worked with Paul Chong Ha-sang's group to help the Chinese priest Pacificus Yu enter Korea.",
+        "He assisted the priest and offered him lodging. During the 1839 persecution Sebastian was arrested outside Seoul and refused demands to abandon his religion. He was executed in September. His wife Barbara Cho Chung-i was also martyred, but their individual biographies and separate executions are not combined into a single directory identity."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Sebastianus Nam I-gwan",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/37"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Education"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/37",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 37 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Chronological details about exile, marriage and the arrival of Father Yu vary across connected biographies and are not assigned precise years here. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:julietta-kim",
+      "slug": "julietta-kim",
+      "name": "Julietta Kim",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Iulietta Kim",
+        "Kim Julietta"
+      ],
+      "tagline": "",
+      "description": "Julietta Kim wished to remain unmarried despite her parents' plans for her. After the family left Seoul during the 1801 persecution, she entered royal service. She later left the court because she found it difficult to practice Catholicism there and moved into a Catholic household.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 38 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Julietta Kim",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Julietta Kim wished to remain unmarried despite her parents' plans for her. After the family left Seoul during the 1801 persecution, she entered royal service. She later left the court because she found it difficult to practice Catholicism there and moved into a Catholic household.",
+        "She supported herself by weaving and eventually purchased a small home. Arrested during the later persecution, she refused to renounce her faith or reveal where other Catholics and religious books were hidden. After repeated torture she was executed in Seoul in September 1839. Her independent working life forms a distinctive part of the bishops' account."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Iulietta Kim",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/38"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/38",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 38 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:agatha-chon-kyong-hyob",
+      "slug": "agatha-chon-kyong-hyob",
+      "name": "Agatha Chon Kyong-hyob",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Chon Kyong-hyob Agatha"
+      ],
+      "tagline": "",
+      "description": "Agatha Chon Kyong-hyob lost her father while young and was helped by a woman serving at court. Agatha also entered court life, where Lucia Pak Hui-sun influenced her conversion to Catholicism. She later left the palace and lived with Lucia, devoting herself to prayer and religious reading.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 39 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Agatha Chon Kyong-hyob",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Agatha Chon Kyong-hyob lost her father while young and was helped by a woman serving at court. Agatha also entered court life, where Lucia Pak Hui-sun influenced her conversion to Catholicism. She later left the palace and lived with Lucia, devoting herself to prayer and religious reading.",
+        "Despite poverty and poor health, she encouraged others to become Catholic. After her arrest, officials and her influential brother pressed her to abandon her faith. She refused and was executed in Seoul in September 1839. This summary omits miraculous-healing and poisoning anecdotes rather than presenting them as independently verified events."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Agatha Chon Kyong-hyob",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/39"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/39",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 39 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Miraculous-healing and poisoning anecdotes have not been independently corroborated and are omitted. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:charles-cho-shin-chol",
+      "slug": "charles-cho-shin-chol",
+      "name": "Charles Cho Shin-chol",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Carolus Cho Shin-chol",
+        "Cho Shin-chol Charles"
+      ],
+      "tagline": "",
+      "description": "Charles Cho Shin-chol worked as a servant accompanying Korean envoys to Beijing and used his earnings to support his family. Augustine Yu Chin-gil and Paul Chong Ha-sang introduced him to Catholicism. He received baptism in Beijing and later assisted missionaries in Korea, including Father Maubant.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 40 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Charles Cho Shin-chol",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Charles Cho Shin-chol worked as a servant accompanying Korean envoys to Beijing and used his earnings to support his family. Augustine Yu Chin-gil and Paul Chong Ha-sang introduced him to Catholicism. He received baptism in Beijing and later assisted missionaries in Korea, including Father Maubant.",
+        "His work included accompanying missionary journeys and sometimes interpreting. When police arrested people in his household in 1839, Charles went to the authorities and was himself imprisoned. He refused to disclose information that would endanger other Catholics. After severe torture, he was executed in Seoul in September of that year."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Carolus Cho Shin-chol",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/40"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/40",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 40 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:ignatius-kim-che-jun",
+      "slug": "ignatius-kim-che-jun",
+      "name": "Ignatius Kim Che-jun",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Che-jun Ignatius"
+      ],
+      "tagline": "",
+      "description": "Ignatius Kim Che-jun was the father of Andrew Kim Tae-gon, who became Korea's first native Catholic priest. Ignatius supported the decision to send Andrew to Macao for priestly studies, despite the danger that sending him abroad created for the family.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Male",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 41 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Ignatius Kim Che-jun",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Ignatius Kim Che-jun was the father of Andrew Kim Tae-gon, who became Korea's first native Catholic priest. Ignatius supported the decision to send Andrew to Macao for priestly studies, despite the danger that sending him abroad created for the family.",
+        "He was arrested during the 1839 persecution and questioned both about his religion and his son's departure. Under torture he initially renounced his faith, then withdrew that denial after encouragement from Catholic fellow prisoners. He endured further beatings and was executed in Seoul in September 1839. His martyrdom preceded Andrew's by several years."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Ignatius Kim Che-jun",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/41"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/41",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 41 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:magdalene-pak-pong-son",
+      "slug": "magdalene-pak-pong-son",
+      "name": "Magdalene Pak Pong-son",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Magdalena Pak Pong-son",
+        "Pak Pong-son Magdalene"
+      ],
+      "tagline": "",
+      "description": "Magdalene Pak Pong-son was a married woman with two daughters who returned to Seoul after her husband died. Her stepmother, Cecilia Kim, encouraged her to become Catholic in 1834. Magdalene then lived in a relative's household that also sheltered a number of poor people.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 42 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Magdalene Pak Pong-son",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Magdalene Pak Pong-son was a married woman with two daughters who returned to Seoul after her husband died. Her stepmother, Cecilia Kim, encouraged her to become Catholic in 1834. Magdalene then lived in a relative's household that also sheltered a number of poor people.",
+        "She became known for caring for these neighbors. After her arrest during the persecution, she repeatedly refused to renounce her faith or accuse fellow Catholics, despite torture. Magdalene was executed in Seoul in September 1839. Her individual biography in the bishops' collection preserves both her charitable work and her final imprisonment."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Magdalena Pak Pong-son",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/42"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/42",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 42 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:perpetua-hong-kum-ju",
+      "slug": "perpetua-hong-kum-ju",
+      "name": "Perpetua Hong Kum-ju",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Hong Kum-ju Perpetua"
+      ],
+      "tagline": "",
+      "description": "Perpetua Hong Kum-ju grew up with her grandmother and married while young. After losing her husband and later her son, she lived in Minari-kol. A Catholic householder helped her renew her understanding of the catechism, and she became known for prayer and practical service to others.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 43 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Perpetua Hong Kum-ju",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Perpetua Hong Kum-ju grew up with her grandmother and married while young. After losing her husband and later her son, she lived in Minari-kol. A Catholic householder helped her renew her understanding of the catechism, and she became known for prayer and practical service to others.",
+        "During imprisonment she refused to renounce her faith or reveal Catholics' hiding places. Although she became seriously ill, she recovered enough to care for fellow prisoners, who regarded her with affection. Perpetua was executed in Seoul in September 1839. The Korean bishops preserve her story among the 103 canonized martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Perpetua Hong Kum-ju",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/43"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/43",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 43 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:columba-kim-hyo-im",
+      "slug": "columba-kim-hyo-im",
+      "name": "Columba Kim Hyo-im",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Kim Hyo-im Columba"
+      ],
+      "tagline": "",
+      "description": "Columba Kim Hyo-im grew up near the Han River and became Catholic with her mother and siblings after her father died. She and her sisters Agnes and Clara chose to remain unmarried. Living in their brother Anthony's household, they practiced prayer, fasting and assistance to people in need.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1814-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 44 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Columba Kim Hyo-im",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1814-1839",
+      "patron_of": null,
+      "biography": [
+        "Columba Kim Hyo-im grew up near the Han River and became Catholic with her mother and siblings after her father died. She and her sisters Agnes and Clara chose to remain unmarried. Living in their brother Anthony's household, they practiced prayer, fasting and assistance to people in need.",
+        "Columba was arrested with Agnes in 1839 and protested the guards' mistreatment of her sister. Both endured abuse without renouncing their faith or betraying fellow Catholics. Columba was executed in Seoul later in September, after Agnes had already been killed. The bishops' shared biography identifies each sister separately as a canonized martyr."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Columba Kim Hyo-im",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/44"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/44",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 44 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:cecilia-yu-so-sa",
+      "slug": "cecilia-yu-so-sa",
+      "name": "Cecilia Yu So-sa",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Caecilia Yu So-sa",
+        "Yu So-sa Cecilia"
+      ],
+      "tagline": "",
+      "description": "Cecilia Yu So-sa became Catholic through her husband, Augustine Chong Yak-jong. After his martyrdom in 1801, she and her children faced confiscation of their property and a difficult period living with relatives. Her son Paul Chong Ha-sang later helped bring missionaries into Korea.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 49 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Cecilia Yu So-sa",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Cecilia Yu So-sa became Catholic through her husband, Augustine Chong Yak-jong. After his martyrdom in 1801, she and her children faced confiscation of their property and a difficult period living with relatives. Her son Paul Chong Ha-sang later helped bring missionaries into Korea.",
+        "In old age Cecilia devoted much of her time to prayer and sometimes went without food to help others. Arrested during the 1839 persecution, she refused to abandon her faith or identify fellow Catholics. She died in prison that November after severe beatings. Her story is distinct from those of her martyred children Paul and Elizabeth."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Caecilia Yu So-sa",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/49"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/49",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 49 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:barbara-cho-chung-i",
+      "slug": "barbara-cho-chung-i",
+      "name": "Barbara Cho Chung-i",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Cho Chung-i Barbara",
+        "Cho Chŭng-i Barbara"
+      ],
+      "tagline": "",
+      "description": "Barbara Cho Chung-i was married to Sebastian Nam I-gwan. The earlier persecution separated them when he was exiled, and she eventually moved to Seoul to live among practicing Catholics. She helped her cousin Paul Chong Ha-sang prepare journeys connected with bringing missionaries to Korea.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "1781-1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 51 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Barbara Cho Chung-i",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "1781-1839",
+      "patron_of": null,
+      "biography": [
+        "Barbara Cho Chung-i was married to Sebastian Nam I-gwan. The earlier persecution separated them when he was exiled, and she eventually moved to Seoul to live among practicing Catholics. She helped her cousin Paul Chong Ha-sang prepare journeys connected with bringing missionaries to Korea.",
+        "Barbara later provided a small house where priests could stay and Catholics could gather for prayer and the sacraments. Arrested in 1839, she refused to reveal her husband's hiding place or deny her faith. She comforted other prisoners before being executed in Seoul that December. Her martyrdom followed Sebastian's separate execution."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Barbara Cho Chung-i",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/51"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/51",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 51 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "The source has a confusing chronology relating release from exile to Father Yu's arrival. The summary retains the documented service but omits those disputed sequence dates. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:magdalene-han-yong-i",
+      "slug": "magdalene-han-yong-i",
+      "name": "Magdalene Han Yong-i",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [
+        "Magdalena Han Yong-i",
+        "Han Yŏng-i Magdalene"
+      ],
+      "tagline": "",
+      "description": "Magdalene Han Yong-i was married to Kwon Chin, a government official who became Catholic in middle age. He encouraged her to embrace the faith and, before dying, asked her to continue practicing it. Magdalene then lived in poverty while maintaining her religious commitment.",
+      "prayer": null,
+      "feast_day": null,
+      "gender": "Female",
+      "dates": "d. 1839",
+      "origin": "Korea",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-01",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 52 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
+      "name": "Magdalene Han Yong-i",
+      "kind": "saint",
+      "feast_day": null,
+      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "origin": "Korea",
+      "dates": "d. 1839",
+      "patron_of": null,
+      "biography": [
+        "Magdalene Han Yong-i was married to Kwon Chin, a government official who became Catholic in middle age. He encouraged her to embrace the faith and, before dying, asked her to continue practicing it. Magdalene then lived in poverty while maintaining her religious commitment.",
+        "Her daughter Agatha Kwon Chin-i and Agatha's friend also lived with her. The women were arrested in 1839, and Magdalene was separated from her daughter in custody. She endured torture without giving up her beliefs and was executed in Seoul in December. The bishops' collection recognizes Magdalene individually among the canonized Korean martyrs."
+      ],
+      "sources": [
+        {
+          "title": "Catholic Bishops' Conference of Korea: Magdalena Han Yong-i",
+          "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/52"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/52",
+      "entry_type": "person",
+      "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 52 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
+      "uncertainty_note": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
+      "calendar_scope": "unverified",
+      "calendar_source": null
+    }
   }
 ]

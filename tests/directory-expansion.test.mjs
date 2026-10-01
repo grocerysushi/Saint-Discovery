@@ -3,16 +3,18 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { compile, validateEntries } from '../scripts/directory-expansion.mjs';
 import { loadTs } from './load-ts.mjs';
-const entries = JSON.parse(fs.readFileSync(new URL('../research/directory-batches/2026-10-01-jesuit-saints.json', import.meta.url)));
+const batches = new URL('../research/directory-batches/', import.meta.url);
+const entries = fs.readdirSync(batches).filter(file => file.endsWith('.json')).sort()
+  .flatMap(file => JSON.parse(fs.readFileSync(new URL(file, batches))));
 const generated = JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json', import.meta.url)));
 
-test('reproducible batch adds 21 unique named Catholic saints with sources and unknown calendars', async () => {
+test('reproducible batches add 61 unique named Catholic saints with sources and unknown calendars', async () => {
   assert.deepEqual(compile(entries),generated);
-  assert.equal(entries.length,21);
+  assert.equal(entries.length,61);
   const {getAllSaints,getSaintBySlug,getAllSaintSlugs}=loadTs('lib/saints.ts');
   const all=await getAllSaints();
-  assert.equal(all.length,447);
-  assert.equal(new Set(all.map(s=>s.slug)).size,447);
+  assert.equal(all.length,487);
+  assert.equal(new Set(all.map(s=>s.slug)).size,487);
   for(const e of entries) {
     const saint=await getSaintBySlug(e.slug);
     assert.equal(saint.name,e.name);
@@ -22,6 +24,23 @@ test('reproducible batch adds 21 unique named Catholic saints with sources and u
     assert.equal(saint.prayer,null);
     assert.equal(saint.patron_of,null);
   }
+});
+
+test('Korean batch preserves individual identities and records source limitations', () => {
+  const korean = entries.filter(e => new URL(e.identity_key).hostname === 'cbck.or.kr');
+  assert.equal(korean.length,40);
+  assert.equal(korean.filter(e => e.gender === 'Female').length,27);
+  assert.ok(korean.every(e => e.vocations.includes('Lay life')), 'Use the existing directory vocabulary');
+  const sourceIds = korean.map(e => Number(new URL(e.identity_key).pathname.split('/').at(-1)));
+  assert.equal(new Set(sourceIds).size,40);
+  assert.ok(!sourceIds.includes(1) && !sourceIds.includes(2), 'Existing Andrew and Paul are not recounted');
+  assert.ok(!sourceIds.includes(19) && !sourceIds.includes(20), 'Deferred sparse biographies are not published');
+  const bySlug = Object.fromEntries(korean.map(e => [e.slug,e]));
+  assert.equal(bySlug['maria-won-kwi-im'].dates,'d. 1839', 'Conflicting birth metadata is withheld');
+  assert.equal(bySlug['john-pak-hu-jae'].dates,'1798 or 1799-1839');
+  assert.match(bySlug['lucia-kim-july-1839'].uncertainty_note,/not CBCK identity 45/);
+  assert.notEqual(bySlug['barbara-yi'].identity_key,bySlug['barbara-yi-chong-hui'].identity_key);
+  assert.notEqual(bySlug['agnes-kim-hyo-ju'].identity_key,bySlug['columba-kim-hyo-im'].identity_key);
 });
 
 test('validation refuses duplicates, legacy aliases, blesseds, groups, thin content and unscoped dates', () => {

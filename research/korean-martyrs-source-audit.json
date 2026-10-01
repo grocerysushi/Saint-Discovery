@@ -1,0 +1,383 @@
+{
+  "reviewed_on": "2026-10-01",
+  "baseline_published_records": 447,
+  "batch_unique_people": 40,
+  "women": 27,
+  "men": 13,
+  "published_records_after_batch": 487,
+  "calendar_policy": "All 40 feast days remain null pending a scoped Catholic calendar source. Dates of execution are not feast dates.",
+  "omitted_candidates": [
+    {
+      "cbck_id": 19,
+      "name": "Teresia Yi Mae-im",
+      "reason": "Individual biography too brief for a substantive entry without padding; retain for later source research."
+    },
+    {
+      "cbck_id": 20,
+      "name": "Anna Kim Chang-gum",
+      "reason": "Sparse individual account; deferred in favor of better-documented women."
+    }
+  ],
+  "sources": [
+    {
+      "slug": "peter-yi-ho-yong",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/3",
+      "title": "Peter Yi Ho-yong",
+      "status": 200,
+      "checked_at": "2026-10-01T23:20:58.410Z",
+      "biography_sha256": "7e09e81d1f2f1b0162314917593f3211560bcb7b790b533a856dbedadbf3876f",
+      "editorial_limitations": "Agatha's death year in this page's introductory comparison conflicts with her own CBCK biography; her individual source is followed in her separate entry. No ages converted into birth years. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "protasius-chong-kuk-bo",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/4",
+      "title": "Protasius Chong Kuk-bo",
+      "status": 200,
+      "checked_at": "2026-10-01T23:20:59.285Z",
+      "biography_sha256": "9b5472808b3c419ca0c2dc284a7b737397a1609ccb8afba72f7dd8f4bd8c8470",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "agatha-kim-a-gi",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/5",
+      "title": "Agatha Kim A-gi",
+      "status": 200,
+      "checked_at": "2026-10-01T23:20:59.487Z",
+      "biography_sha256": "cd8aa67aa1e07010746c1570562d7e082e97b1d364b834f0930e2ca67f5f8eec",
+      "editorial_limitations": "Learning difficulties are described without assigning a retrospective medical diagnosis. Exact birth year is not established by this page. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "anna-pak-a-gi",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/6",
+      "title": "Anna Pak A-gi",
+      "status": 200,
+      "checked_at": "2026-10-01T23:20:59.683Z",
+      "biography_sha256": "a7b71edcfca4ee5797d7d1c53000cafab74d5a7dad031dc77876e7ba33718993",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "agatha-yi-so-sa",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/7",
+      "title": "Agatha Yi So-sa",
+      "status": 200,
+      "checked_at": "2026-10-01T23:20:59.876Z",
+      "biography_sha256": "ab87cdbca315eeee20db7aca54d443a05437421ba51dd535ae16eb2eef242e3d",
+      "editorial_limitations": "The individual biography explicitly records execution in 1839; the 1838 reference to Agatha in Peter's introductory paragraph is not followed. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "magdalene-kim-ob-i",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/8",
+      "title": "Magdalena Kim Ob-i",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:00.231Z",
+      "biography_sha256": "cd8aa67aa1e07010746c1570562d7e082e97b1d364b834f0930e2ca67f5f8eec",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "augustine-yi-kwang-hon",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/9",
+      "title": "Augustinus Yi Kwang-hon",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:00.428Z",
+      "biography_sha256": "04f139e66a9df87de5ffc60426d5338b0494ae60568f0a001ae7d31313dfffc0",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-han-a-gi",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/10",
+      "title": "Barbara Han A-gi",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:00.620Z",
+      "biography_sha256": "cd8aa67aa1e07010746c1570562d7e082e97b1d364b834f0930e2ca67f5f8eec",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "lucia-pak-hui-sun",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/11",
+      "title": "Lucia Pak Hui-sun",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:00.817Z",
+      "biography_sha256": "eb4d9284f501e778bfe2fc20de7883bf55de354a8b71d9de8f867df7226fdf9c",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "damian-nam-myong-hyok",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/12",
+      "title": "Damiano Nam Myong-hyog",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.011Z",
+      "biography_sha256": "4d6454bcfba41c1fc346f45aeb9aa8f7f9b0c8f8974c9cbe67ce0df7e280b023",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "peter-kwon-tug-in",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/13",
+      "title": "Petrus Kwon Tug-in",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.206Z",
+      "biography_sha256": "00036027b9d33ad85d6cc885a5b00263bd6f8497af05323bd4bae973fa4c61c6",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "joseph-chang-song-jip",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/14",
+      "title": "Ioseph Chang Song-jib",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.401Z",
+      "biography_sha256": "34956db0aa07e69ceab1a5dba41c8602a704b1b033957f1561a945152518b09c",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-kim",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/15",
+      "title": "Barbara Kim",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.599Z",
+      "biography_sha256": "f6ca454ee61d4cfde829146f0add370088c1d826957bb667887b6d564de5c667",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-yi",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/16",
+      "title": "Barbara Yi",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.792Z",
+      "biography_sha256": "3db31cf24884a0676bae49320505f1dda118a813a9e0792a124d380b11ca3cbb",
+      "editorial_limitations": "The source ends with an incomplete age sentence. Birth year is not inferred from its approximate adolescent age; the explicit death year is retained. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "rosa-kim",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/17",
+      "title": "Rosa Kim",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:01.990Z",
+      "biography_sha256": "b77751a5d7ba56a73742427645e50b5cb459aecb7a9f18d4c8ebbf7cc843b5d2",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "martha-kim-song-im",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/18",
+      "title": "Martha Kim Song-im",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:02.184Z",
+      "biography_sha256": "18bbe72f4486589cfffa7211d2a491e94ae1f83c299a6e81e354ccabb6030bea",
+      "editorial_limitations": "The source contains apparent typographical errors in its beatification and papal-name lines. Exact beatification date and birth year are withheld. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "john-baptist-yi-kwang-nyol",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/21",
+      "title": "Ioannes B. Yi Kwang-nyol",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:02.769Z",
+      "biography_sha256": "435130d4bde8367e738f76bf3e27bed36ae719c7fc32bd017763e18aadcace4c",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "magdalene-yi-yong-hui",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/22",
+      "title": "Magdalena Yi Yong-hui",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:02.962Z",
+      "biography_sha256": "f59388c4e81de5200c59d444ea23b6a33eae4f9c818bbd43a88dd692e9f9a3ab",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "lucia-kim-july-1839",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/23",
+      "title": "Lucia Kim",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:03.159Z",
+      "biography_sha256": "33495a7d2ec124be4f8a2584bd062d5cf79cd0df721124ea0d9e4ede721971a4",
+      "editorial_limitations": "CBCK identity 23 is the young woman executed in July, not CBCK identity 45, the older widow also named Lucia Kim. The parenthetical month is an editorial identity qualifier, not a feast date. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "maria-won-kwi-im",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/24",
+      "title": "Maria Won Kwi-im",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:03.353Z",
+      "biography_sha256": "b3510ee1c42db54ea536ecccedfdfcfbabf77b4da273a5339a55bf27b4ca1200",
+      "editorial_limitations": "The source states birth in 1819 and death in 1839 at age 22. Because those fields do not clearly agree, birth year and exact age are withheld. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "maria-pak-kun-a-gi",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/25",
+      "title": "Maria Pak Kun-a-gi",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:03.547Z",
+      "biography_sha256": "eb4d9284f501e778bfe2fc20de7883bf55de354a8b71d9de8f867df7226fdf9c",
+      "editorial_limitations": "The source admits uncertainty about Maria's conversion; Lucia's palace service and specific prison activities are not assigned to her older sister. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-kwon-hui",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/26",
+      "title": "Barbara Kwon Hui",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:03.738Z",
+      "biography_sha256": "0497574b7cf37a8aa02f942c72bdbc258bdd7cf8da17509c870ea7cf2f14c886",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "john-pak-hu-jae",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/27",
+      "title": "Ioannes Pak Hu-jae",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:03.933Z",
+      "biography_sha256": "e7aae109d9cb84c9bbcb23ea7877e25ab30fd4a1aec9bac41319a8d979e4d087",
+      "editorial_limitations": "The institutional source gives 1798 or 1799 as possible birth years. The uncertainty is retained rather than resolved from reported age. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-yi-chong-hui",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/28",
+      "title": "Barbara Yi Chong-hui",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:04.127Z",
+      "biography_sha256": "7e1bb90445cc9c3783ce58fad8e8b74fe58a5ed4fb74150f868f6de9f0220f1b",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "maria-yi-yon-hui",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/29",
+      "title": "Maria Yi Yon-hui",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:04.322Z",
+      "biography_sha256": "ddf8a176abe904b8d43effa7745fa63e709e68d3e279124ca02c7fc4121e4b09",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "agnes-kim-hyo-ju",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/30",
+      "title": "Agnes Kim Hyo-ju",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:04.511Z",
+      "biography_sha256": "bfd92ec378b004eccd7f5528fcfab789f5a08d7d3462fc9dc41888a3a50f5c91",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "francis-choe-kyong-hwan",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/31",
+      "title": "Franciscus Choe Kyong-hwan",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:04.703Z",
+      "biography_sha256": "bf48e3920897782a55d403a9d3a8e386bcaa3d093898b6c3481885b4ed98d780",
+      "editorial_limitations": "The father alone is added. His wife and son have separate recognition histories and are not counted as canonized saints through family association. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "augustine-yu-chin-gil",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/35",
+      "title": "Auguestinus Yu Chin-gil",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:04.897Z",
+      "biography_sha256": "ae8cd86cd8390c74e77f1b38f5bff55194d118e88981fc1f7882ccd8f53bcf6b",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "magdalene-ho-kye-im",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/36",
+      "title": "Magdalena Ho Kye-im",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:05.090Z",
+      "biography_sha256": "ec7dae0b8220fb8a7182c1d990fcffcf7023e36bc97d28c4c477fa764e013c0c",
+      "editorial_limitations": "The individual source explicitly says little biographical information survives; the summary limits itself to the documented family relationship, imprisonment and martyrdom. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "sebastian-nam-i-gwan",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/37",
+      "title": "Sebastianus Nam I-gwan",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:05.283Z",
+      "biography_sha256": "eacadb0e886846dc775e45787632f7afa43cfa4e411ce44d30f728a3222f205b",
+      "editorial_limitations": "Chronological details about exile, marriage and the arrival of Father Yu vary across connected biographies and are not assigned precise years here. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "julietta-kim",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/38",
+      "title": "Iulietta Kim",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:05.477Z",
+      "biography_sha256": "ba1dfb54fc8b2ffa1f0663fad52345cedd691e22f7464f1b2575680370a24380",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "agatha-chon-kyong-hyob",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/39",
+      "title": "Agatha Chon Kyong-hyob",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:05.669Z",
+      "biography_sha256": "01501d6df4c1bc2bd7eac87144d08ea13f552dcc51d8c40a98de6bfc9c343072",
+      "editorial_limitations": "Miraculous-healing and poisoning anecdotes have not been independently corroborated and are omitted. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "charles-cho-shin-chol",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/40",
+      "title": "Carolus Cho Shin-chol",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:05.865Z",
+      "biography_sha256": "be0733defa2f312b064e4b1a332021f942ba883727721a91c87338a16c7d69cb",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "ignatius-kim-che-jun",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/41",
+      "title": "Ignatius Kim Che-jun",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:06.057Z",
+      "biography_sha256": "4cad4ca67b335cf9a9dc895394667429019758fb26ecd644786e3721d5585a5a",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "magdalene-pak-pong-son",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/42",
+      "title": "Magdalena Pak Pong-son",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:06.250Z",
+      "biography_sha256": "bc8c3ae7cc326da209edbe9fb406ed200478b61bce2ef09a2a44b6d4fd1de846",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "perpetua-hong-kum-ju",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/43",
+      "title": "Perpetua Hong Kum-ju",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:06.442Z",
+      "biography_sha256": "f490b4355401e1fbfb4726121cb18c012e19d5f6f3734953419767008a7af0c2",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "columba-kim-hyo-im",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/44",
+      "title": "Columba Kim Hyo-im",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:06.636Z",
+      "biography_sha256": "bfd92ec378b004eccd7f5528fcfab789f5a08d7d3462fc9dc41888a3a50f5c91",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "cecilia-yu-so-sa",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/49",
+      "title": "Caecilia Yu So-sa",
+      "status": 200,
+      "checked_at": "2026-10-01T23:21:06.831Z",
+      "biography_sha256": "762575bf15ad4c7eeef874ed733a37c5ecd237d40cccf02d80d022d987791b2e",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "barbara-cho-chung-i",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/51",
+      "title": "Barbara Cho Chung-i",
+      "status": 200,
+      "checked_at": "2026-10-01T23:27:51.282Z",
+      "biography_sha256": "0b3b3f8288b6b20232f08c088e54f5e6a4fa41029d4af8993d43e9ccc24235c6",
+      "editorial_limitations": "The source has a confusing chronology relating release from exile to Father Yu's arrival. The summary retains the documented service but omits those disputed sequence dates. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    },
+    {
+      "slug": "magdalene-han-yong-i",
+      "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/52",
+      "title": "Magdalena Han Yong-i",
+      "status": 200,
+      "checked_at": "2026-10-01T23:27:52.153Z",
+      "biography_sha256": "0524228fcefc5bae34634fb4d098059cf20acd309e4370cb0b48fd6806c477bc",
+      "editorial_limitations": "Birth years are used only when explicit in the institutional narrative; none is calculated from an age at death. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied."
+    }
+  ]
+}

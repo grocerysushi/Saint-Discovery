@@ -8,6 +8,7 @@ const {getAllSaints}=loadTs('lib/saints.ts');
 const {reviews,isPublishedSaintSlug}=loadTs('lib/saint-reviews.ts');
 const saints=await getAllSaints();
 const additions=JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json',import.meta.url)));
+const decode=value=>value.replace(/&quot;/g,'"').replace(/&#x27;|&#39;/g,"'").replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const get=async route=>{
   const response=await fetch(origin+route,{signal:AbortSignal.timeout(30000),redirect:'manual'});
   return {status:response.status,body:await response.text()};
@@ -29,6 +30,8 @@ const jobs=[
     assert.equal(page.status,200,entry.saint.slug);
     assert.ok(page.body.includes(`rel="canonical" href="${origin}/saints/${entry.saint.slug}"`));
     assert.ok(!/<meta name="robots" content="[^"]*noindex/.test(page.body));
+    const visible=decode(page.body.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,''));
+    for(const paragraph of entry.review.biography) assert.ok(visible.includes(paragraph),`${entry.saint.slug}: live biography differs from reviewed content`);
     for(const source of entry.review.sources) assert.ok(page.body.includes(`href="${source.url}"`),source.url);
     assert.ok(page.body.includes('A Catholic liturgical calendar date has not yet been verified'));
   }),
