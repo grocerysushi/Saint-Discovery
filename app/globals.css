@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=DM+Serif+Display:ital@0;1&display=swap');
 @import "tailwindcss";
 
 @theme inline {
-  --color-navy: #0c1c2a;
-  --color-navy-light: #152b3a;
-  --color-navy-lighter: #395362;
-  --color-gold: #dec48e;
-  --color-gold-light: #f4dfa8;
-  --color-cream: #faf6eb;
-  --color-cream-dark: #c5d1d6;
-  --font-heading: 'DM Serif Display', Georgia, serif;
-  --font-body: 'DM Sans', sans-serif;
+  --color-navy: var(--surface-navy, #0c1c2a);
+  --color-navy-light: var(--surface-navy-light, #152b3a);
+  --color-navy-lighter: var(--surface-navy-lighter, #395362);
+  --color-gold: var(--surface-gold, #dec48e);
+  --color-gold-light: var(--surface-gold-light, #f4dfa8);
+  --color-cream: var(--surface-cream, #faf6eb);
+  --color-cream-dark: var(--surface-cream-dark, #c5d1d6);
+  --font-heading: 'Source Serif 4', Georgia, serif;
+  --font-body: 'Source Sans 3', Arial, sans-serif;
 }
 :root { --header-height: 88px; color-scheme: dark; }
 * { box-sizing: border-box; }

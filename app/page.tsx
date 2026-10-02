@@ -101,7 +101,7 @@ export default async function Home() {
   };
 
   return (
-    <main>
+    <main className="editorial-surface">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(quizJsonLd) }}
@@ -113,7 +113,7 @@ export default async function Home() {
       <HomePage dailySaint={getSaintOfDay()} directoryCount={directoryCount} />
       <div className="site-width home-information">
         <section className="home-about editorial-grid">
-          <div><p className="eyebrow">More than a name</p><h2>Real people.<br />Remarkable faith.</h2></div>
+          <div><h2>Different lives.<br />A shared faith.</h2></div>
           <div className="editorial-copy">
             <p>The saints had their own personalities, struggles, and gifts. Some found God in quiet contemplation. Others lived their faith through bold action, boundless generosity, or everyday joy.</p>
             <p>Our free Catholic personality quiz explores six spiritual traits to introduce you to a saint whose life reflects your own. Your result includes their story, feast day, and a prayer to take with you.</p>
@@ -121,7 +121,7 @@ export default async function Home() {
           </div>
         </section>
         <section className="home-about editorial-grid" aria-labelledby="explore-saints">
-          <div><p className="eyebrow">Explore their lives</p><h2 id="explore-saints">Saint biographies,<br />feast days &amp; prayers.</h2></div>
+          <div><h2 id="explore-saints">Begin with a familiar name.</h2></div>
           <div className="editorial-copy">
             <p>Learn about a saint’s life, discover their patronage, and find a prayer for your own journey.</p>
             <ul className="grid sm:grid-cols-2 gap-4 my-6">
@@ -139,7 +139,7 @@ export default async function Home() {
           </div>
         </section>
         <section className="faq-section editorial-grid">
-          <div><p className="eyebrow">A few things to know</p><h2>A little curiosity<br />goes a long way.</h2><Link href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
+          <div><h2>About Saint Discovery</h2><Link href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
           <div className="faq-list">{FAQS.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
         </section>
       </div>

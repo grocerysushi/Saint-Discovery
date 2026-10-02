@@ -1,0 +1,13 @@
+{
+  "commit": "32fc5628645d91c7d10de98b6b79ffe2489fe014",
+  "normalization": "LF line endings only",
+  "sha256": {
+    "lib/data/quiz.json": "a115f6d0d8bfa5c9e1dc62206e3b48b1b477e094c2a73ad0ba73ba46e15c248c",
+    "lib/data/quiz-saints.json": "7d2daa6c0993252d913b7c6a35c2188ebf8f5ab8223734ecb40a321181578e6a",
+    "lib/scoring.ts": "30f3269e5a91db07dd23d69f8b811b1f07f1da47c600090ea57f9e1f69d5cdb2",
+    "lib/quiz-questions.ts": "c77eb2cbb7afda33c24641b5bd4136d35d88e174463bb0f55cb685b8e7c6bfae",
+    "components/Quiz.tsx": "215e672cbcc9da97d21618e5777248aa6c5a2f68404d7db9ae323809c67dfc1c",
+    "components/QuestionCard.tsx": "e911c062adb7de4df6f22526defff7613f125d3dd4684db6c040714c123aa399",
+    "components/OptionButton.tsx": "6244c18259408b89d21921e9d1178819405b248f21bbf1ea4a1ceafd9d35790b"
+  }
+}

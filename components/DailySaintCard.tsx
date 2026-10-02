@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+
 import Link from "next/link";
 import { saintDisplayName } from "@/lib/saint-seo";
 import type { DailySaint } from "@/lib/saint-of-day";
@@ -8,7 +8,7 @@ import { localDateKey } from "@/lib/calendar-date";
 
 export default function DailySaintCard({ initialSaint }: { initialSaint: DailySaint | null }) {
   const [saint, setSaint] = useState(initialSaint);
-  const [failedImage, setFailedImage] = useState<string | null>(null);
+
   useEffect(() => {
     let controller: AbortController | undefined;
     let timer: ReturnType<typeof setTimeout>;
@@ -35,21 +35,8 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
     document.addEventListener("visibilitychange", onVisible);
     return () => { stopped = true; controller?.abort(); clearTimeout(timer); document.removeEventListener("visibilitychange", onVisible); };
   }, []);
-  const image = saint?.image;
-  const showImage = image && failedImage !== image.src;
-  return <figure className={`hero-art daily-saint-card${showImage ? "" : " daily-saint-no-art"}`}>
-    <div className="daily-saint-image">
-    {showImage && <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 760px) calc(100vw - 48px), (max-width: 1000px) 45vw, 470px" priority onError={() => setFailedImage(image.src)} />}
-    {!showImage && <div className="daily-saint-placeholder" aria-hidden><span>✦</span></div>}
-    </div>
-    <figcaption className="art-caption">
-      <p className="eyebrow">{saint ? `Saint of the day · ${saint.feastDay}` : "Discover the saints"}</p>
-      <h2>{saint ? saintDisplayName(saint) : "A companion for your journey"}</h2>
-      <Link href="/saint-of-day">Read, reflect &amp; pray today <span aria-hidden>↗</span></Link>
-      {showImage && (image.generated
-        ? <p className="daily-art-credit">AI-generated illustration · Artistic interpretation</p>
-        : <a href={image.source} target="_blank" rel="noopener noreferrer" className="daily-art-credit">Artwork: {image.credit} · {image.license}</a>)}
-      {!showImage && saint && <p className="daily-art-credit">Artwork unavailable. Their story is ready to explore.</p>}
-    </figcaption>
-  </figure>;
+  return <section className="home-daily-reading" aria-label="Saint of the day">
+    <div><p>Saint of the day{saint ? `, ${saint.feastDay}` : ""}</p><h2>{saint ? saintDisplayName(saint) : "A moment for reflection"}</h2></div>
+    <Link href="/saint-of-day" className="btn-secondary">Read today’s reflection</Link>
+  </section>;
 }

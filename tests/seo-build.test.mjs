@@ -27,7 +27,8 @@ test('public sharing metadata and sourced patronage context survive production r
   assert.match(html('patron-saint-of/african-americans'), /franciscanmedia.org/);
   const home = html('index');
   assert.equal((home.match(/<main\b/g) ?? []).length, 1);
-  assert.match(home, new RegExp(`<strong>${saints.length}</strong><span>directory entries`));
+  assert.match(home, new RegExp(`<strong>${saints.length}</strong>`));
+  assert.match(home, /saint biographies to explore/);
   assert.match(home, /Who can I discover in the saint directory/);
 });
 

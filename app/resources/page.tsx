@@ -125,7 +125,7 @@ export default async function Resources() {
   };
 
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="editorial-surface min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(collectionJsonLd) }}
@@ -135,7 +135,7 @@ export default async function Resources() {
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
       />
       <div className="site-width directory-page">
-        <header className="page-intro"><p className="eyebrow">The saints directory</p><h1>Catholic saints directory.<br /><em className="text-gold">So much to discover.</em></h1><p>Explore {saints.length} entries, from familiar companions to names you haven’t heard yet. Read their stories, find feast days, and discover the causes close to their hearts.</p></header>
+        <header className="catalogue-intro"><h1>The saints directory</h1><p>Explore {saints.length} Catholic saint biographies, with sources, historical context and room for further discovery.</p></header>
         <SaintsDirectory saints={saints} patronTopics={patronTopics} />
         <section className="directory-resources"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
         <div className="guide-directory-link"><div><p className="eyebrow">Preparing for Confirmation?</p><h2>Find a saint to walk with you.</h2><p>Explore suggestions, build a shortlist, and reflect with your sponsor.</p></div><Link href="/confirmation-saint-guide" className="btn-secondary">Read the selection guide <span aria-hidden>↗</span></Link></div>

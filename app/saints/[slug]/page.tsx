@@ -135,7 +135,7 @@ export default async function SaintPage({
   };
 
   return (
-    <main className="relative min-h-screen overflow-hidden">
+    <main className="editorial-surface biography-page min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }}
@@ -160,8 +160,7 @@ export default async function SaintPage({
           }}
         />
       )}
-      <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light/30 to-navy pointer-events-none" />
-      <div className="relative z-10 reading-page">
+      <div className="reading-page biography-reading">
         <nav
           aria-label="Breadcrumb"
           className="text-sm text-gold/60 mb-8 flex flex-wrap gap-2"
@@ -180,11 +179,10 @@ export default async function SaintPage({
           <span className="text-cream-dark/70">{name}</span>
         </nav>
 
-        {saint.kind !== "unresolved" && saint.kind !== "observance" && <BiographyJourney slug={saint.slug} />}
         <article>
           <header className="mb-10">
             <p className="eyebrow mb-3">
-              Saints &amp; Catholic tradition
+              Catholic saint biography
             </p>
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
               {name}
@@ -239,17 +237,22 @@ export default async function SaintPage({
                 {saint.known_for}
               </p>
             )}
+            {review && <a href="#sources" className="profile-source-link">Read the sources for this biography</a>}
           </header>
 
-          <nav aria-label="On this page" className="flex flex-wrap gap-4 mb-8 text-sm text-gold">
-            {saint.kind !== "unresolved" && saint.kind !== "observance" && <a href="#reflection" className="underline underline-offset-4">Reflect on this life</a>}
-            {review && <a href="#sources" className="underline underline-offset-4">Sources</a>}
-            {(extended || saint.description) && <a href="#biography" className="underline underline-offset-4">Biography</a>}
-            {learningGuide && <a href="#reading-guide" className="underline underline-offset-4">Reading guide</a>}
-            {contribution && <a href="#contribution" className="underline underline-offset-4">Context &amp; contribution</a>}
-            {saint.prayer && <a href="#prayer" className="underline underline-offset-4">Prayer</a>}
-            {extended && extended.faqs.length > 0 && <a href="#questions" className="underline underline-offset-4">Common questions</a>}
+          <nav aria-label="On this page" className="profile-contents">
+            <h2>On this page</h2>
+            <div>
+              {(extended || saint.description) && <a href="#biography">Biography</a>}
+              {contribution && <a href="#contribution">Context &amp; contribution</a>}
+              {learningGuide && <a href="#reading-guide">Reading guide</a>}
+              {saint.prayer && <a href="#prayer">Prayer</a>}
+              <a href="#reflection">Reflection</a>
+              {extended && extended.faqs.length > 0 && <a href="#questions">Common questions</a>}
+              {review && <a href="#sources">Sources</a>}
+            </div>
           </nav>
+
 
           {extended ? (
             <section id="biography" className="mb-10 scroll-mt-24">
@@ -374,6 +377,7 @@ export default async function SaintPage({
             </section>
           )}
 
+          <BiographyJourney slug={saint.slug} />
           <ShareButtons
             url={url}
             text={title}
