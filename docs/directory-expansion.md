@@ -134,3 +134,41 @@ This batch substantially improves Korean lay and women coverage. It does not
 complete the 103 Korean saints or the Vietnamese and Chinese martyr collections.
 Further batches still need individual source review, transliteration/family
 deduplication and calendar research; a cohort total is never an import count.
+
+## Third expansion: 100 additional individuals
+
+Reviewed against the 487-record directory at `e9a8b55`. The two new batches,
+`2026-10-01-korean-martyrs-completion.json` and `2026-10-01-vatican-saints.json`,
+add 58 Korean martyr identities and 42 individuals from the Vatican's
+canonizations of John Paul II. The directory now contains 587 records. All
+100 additions are separate named people, with 36 women and 64 men. The 587
+total remains a directory-record count because the legacy catalog also has
+group entries and archangels.
+
+The 61 earlier additions are preserved unchanged. Combined validation rejects
+collisions with canonical names, legacy aliases, archived records and other
+batches. Original two-paragraph summaries are 96–125 words and cite individual
+Catholic institutional biographies. Vatican biographies are also linked to
+the canonization index: some historical page text still says Blessed because
+it was prepared before the canonization ceremony. The separate beatification
+index is not used as proof of sainthood.
+
+The Korean series now contributes 98 new individuals, alongside the two
+already-existing Andrew and Paul entries. CBCK identities 19 and 20 remain
+deferred for sparse evidence, and identity 68 returned an empty biography
+despite HTTP 200. No replacement text was manufactured. Conflicting birth
+years and ages are withheld; uncertain death methods are qualified. The two
+Lucia Kim biographies refer to different people who both died in 1839.
+Josep Manyanet's Vatican heading gives 1833–1901, while its opening sentence
+has an incompatible 1933 typo; the heading is followed and the conflict noted.
+
+`research/saints-expansion-100-audit.json` records source URLs, HTTP reads,
+timestamps, hashes, original word counts, recognition evidence and limitations.
+Source prose remains in local research caches rather than the publication
+data. Feast days remain unverified; no patronages, quotations, copied images
+or personality scores are introduced. The new records are directory-only
+and do not become quiz results. This is a local expansion pending release,
+not evidence that production has already deployed it.
+
+The read-only progress dashboard and its research caches are local tools.
+Do not include its page, API, component, CSS or progress helper in a commit.
