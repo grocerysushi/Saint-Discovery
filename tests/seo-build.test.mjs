@@ -30,6 +30,9 @@ test('public sharing metadata and sourced patronage context survive production r
   assert.match(home, new RegExp(`<strong>${saints.length}</strong>`));
   assert.match(home, /saint biographies to explore/);
   assert.match(home, /Who can I discover in the saint directory/);
+  assert.match(home, /Checking your local day/);
+  assert.doesNotMatch(home, /<section class="liturgical-banner"[^>]*data-calendar-date=/);
+  assert.doesNotMatch(home, /<html[^>]*data-liturgical-color=/);
 });
 
 test('life guides have indexable content, citations, sitemap entries, and reciprocal biography links', () => {

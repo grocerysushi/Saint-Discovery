@@ -9,14 +9,17 @@ export function validDateKey(value: string): boolean {
   return date.getMonth() === month - 1 && date.getDate() === day;
 }
 
+export function millisecondsUntilLocalMidnight(date = new Date()): number {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate() + 1).getTime() - date.getTime();
+}
+
 // Notify browser subscribers at their local midnight, and catch up after sleep
 // or a time-zone change when they return to the tab.
 export function subscribeToLocalDate(onChange: () => void): () => void {
   let timer: ReturnType<typeof setTimeout>;
   function schedule() {
     const now = new Date();
-    const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-    timer = setTimeout(() => { onChange(); schedule(); }, midnight.getTime() - now.getTime() + 1000);
+    timer = setTimeout(() => { onChange(); schedule(); }, millisecondsUntilLocalMidnight(now) + 1000);
   }
   const visible = () => {
     if (document.visibilityState !== "visible") return;

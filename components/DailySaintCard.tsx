@@ -36,7 +36,7 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
     return () => { stopped = true; controller?.abort(); clearTimeout(timer); document.removeEventListener("visibilitychange", onVisible); };
   }, []);
   return <section className="home-daily-reading" aria-label="Saint of the day">
-    <div><p>Saint of the day{saint ? `, ${saint.feastDay}` : ""}</p><h2>{saint ? saintDisplayName(saint) : "A moment for reflection"}</h2></div>
+    <div><p>From the saint directory{saint ? ` · ${saint.feastDay}` : ""}</p><h2>{saint ? saintDisplayName(saint) : "A moment for reflection"}</h2><p className="daily-directory-note">A daily reading; the liturgical celebration may differ.</p></div>
     <Link href="/saint-of-day" className="btn-secondary">Read today’s reflection</Link>
   </section>;
 }
