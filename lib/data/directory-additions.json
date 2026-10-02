@@ -79,7 +79,7 @@
       "tagline": "",
       "description": "Francis Borgia moved from a life of Spanish court service and family responsibilities into the Society of Jesus. He married Leonor de Castro, raised eight children and served as duke of Gandía. After his wife's death, he prepared to become a Jesuit while arranging his children's affairs.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "October 3",
       "gender": "Male",
       "dates": "1510–1572",
       "origin": "Spain",
@@ -95,12 +95,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical name, alternate names, life dates and individual institutional source against the 486 legacy records and reviewed identities; no matching person found.",
       "name": "Francis Borgia",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Dates of death are not treated as feast days.",
+      "feast_day": "October 3",
+      "feast_note": "October 3 is Francis Borgia’s Jesuit commemoration recorded by Nominis; September 30 is his Roman Martyrology date.",
       "origin": "Spain",
       "dates": "1510–1572",
       "patron_of": null,
@@ -112,6 +112,10 @@
         {
           "title": "Society of Jesus: Saint Francis Borgia",
           "url": "https://www.jesuits.global/saint-blessed/saint-francis-borgia/"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: Francis Borgia",
+          "url": "https://nominis.cef.fr/contenus/saint/8492/Saint-Fran%C3%A7ois-de-Borgia.html"
         }
       ],
       "quotes": [],
@@ -130,9 +134,9 @@
       "identity_key": "https://www.jesuits.global/saint-blessed/saint-francis-borgia/",
       "entry_type": "person",
       "recognition_evidence": "The Society of Jesus's individual institutional biography explicitly classifies this person as Saint.",
-      "uncertainty_note": "Concise institutional-source account; feast calendar and patronages remain unverified. No quotations, miracle claims or artwork imported.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "uncertainty_note": "Concise institutional-source account; patronages remain unverified. No quotations, miracle claims or artwork imported.",
+      "calendar_scope": "Regional or religious-community Catholic calendar",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/8492/Saint-Fran%C3%A7ois-de-Borgia.html"
     }
   },
   {
@@ -7155,7 +7159,7 @@
       "tagline": "",
       "description": "Francis Choe Kyong-hwan helped build a Catholic community near Mount Suri, clearing land and assisting families as they settled. He gathered neighbors for religious instruction and became a catechist. During persecution he collected money for imprisoned Catholics and poor neighbors, and helped bury people who had been executed.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "September 12",
       "gender": "Male",
       "dates": "1805-1839",
       "origin": "Korea",
@@ -7171,12 +7175,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 31 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
       "name": "Francis Choe Kyong-hwan",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "feast_day": "September 12",
+      "feast_note": "September 12 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
       "origin": "Korea",
       "dates": "1805-1839",
       "patron_of": null,
@@ -7188,6 +7192,10 @@
         {
           "title": "Catholic Bishops' Conference of Korea: Franciscus Choe Kyong-hwan",
           "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/31"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: Francis Choe Kyong-hwan",
+          "url": "https://nominis.cef.fr/contenus/saint/10400/Saint-Fran%C3%A7ois-Ch-oe-Kyong-Kwan.html"
         }
       ],
       "quotes": [],
@@ -7206,8 +7214,8 @@
       "entry_type": "person",
       "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 31 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
       "uncertainty_note": "The father alone is added. His wife and son have separate recognition histories and are not counted as canonized saints through family association. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/10400/Saint-Fran%C3%A7ois-Ch-oe-Kyong-Kwan.html"
     }
   },
   {
@@ -8884,7 +8892,7 @@
       "tagline": "",
       "description": "John Gabriel Perboyre first encountered seminary life while accompanying his younger brother. He entered the Congregation of the Mission in 1818 and, after ordination in 1826, helped form seminarians in France. His brother Louis hoped to serve in China but died during the journey. John Gabriel subsequently asked to take up that missionary work himself.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "September 11",
       "gender": "Male",
       "dates": "1802–1840",
       "origin": "France; ministry in China",
@@ -8900,12 +8908,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
       "name": "John Gabriel Perboyre",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "feast_day": "September 11",
+      "feast_note": "September 11 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
       "origin": "France; ministry in China",
       "dates": "1802–1840",
       "patron_of": null,
@@ -8921,6 +8929,10 @@
         {
           "title": "Vatican: canonizations of John Paul II",
           "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: John Gabriel Perboyre",
+          "url": "https://nominis.cef.fr/contenus/saint/1834/Saint-Jean-Gabriel-Perboyre.html"
         }
       ],
       "quotes": [],
@@ -8940,8 +8952,8 @@
       "entry_type": "person",
       "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
       "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1834/Saint-Jean-Gabriel-Perboyre.html"
     }
   },
   {
@@ -9665,7 +9677,7 @@
       "tagline": "",
       "description": "Paula Montal Fornés lost her father as a child and helped support her family. Growing up in Arenys de Mar, she recognized how limited educational opportunities were for girls. In 1829 she and Inés Busquets opened a school in Figueres, offering a broader education within a Christian setting.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "February 26",
       "gender": "Female",
       "dates": "1799–1889",
       "origin": "Spain",
@@ -9681,12 +9693,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
       "name": "Paula Montal Fornés",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "feast_day": "February 26",
+      "feast_note": "February 26 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
       "origin": "Spain",
       "dates": "1799–1889",
       "patron_of": null,
@@ -9702,6 +9714,10 @@
         {
           "title": "Vatican: canonizations of John Paul II",
           "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: Paula Montal Fornés",
+          "url": "https://nominis.cef.fr/contenus/saint/11482/Sainte-Paule-Montal-Forn%C3%A9s-de-Saint-Joseph-de-Calasanz.html"
         }
       ],
       "quotes": [],
@@ -9721,8 +9737,8 @@
       "entry_type": "person",
       "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
       "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/11482/Sainte-Paule-Montal-Forn%C3%A9s-de-Saint-Joseph-de-Calasanz.html"
     }
   },
   {
@@ -10515,7 +10531,7 @@
       "tagline": "",
       "description": "Ursula Ledóchowska entered the Ursulines in Kraków and developed a particular concern for students. She organized accommodation for women attending university, then undertook educational work in Saint Petersburg under restrictions on Catholic religious life. The First World War forced her to leave Russia and continue her work in Scandinavia.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "May 29",
       "gender": "Female",
       "dates": "1865–1939",
       "origin": "Poland; ministry in Russia and Scandinavia",
@@ -10531,12 +10547,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
       "name": "Ursula Ledóchowska",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "feast_day": "May 29",
+      "feast_note": "May 29 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
       "origin": "Poland; ministry in Russia and Scandinavia",
       "dates": "1865–1939",
       "patron_of": null,
@@ -10552,6 +10568,10 @@
         {
           "title": "Vatican: canonizations of John Paul II",
           "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: Ursula Ledóchowska",
+          "url": "https://nominis.cef.fr/contenus/saint/7145/Sainte-Ursule-Ledochowska.html"
         }
       ],
       "quotes": [],
@@ -10571,8 +10591,8 @@
       "entry_type": "person",
       "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
       "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/7145/Sainte-Ursule-Ledochowska.html"
     }
   },
   {
@@ -11010,7 +11030,7 @@
       "tagline": "",
       "description": "Josep Manyanet y Vives worked to support his education before being ordained in 1859. After diocesan service in Urgell, he founded the Sons of the Holy Family in 1864 and the Missionary Daughters of the Holy Family of Nazareth in 1874. Both foundations emphasized the Christian formation of families through education and ministry.",
       "prayer": null,
-      "feast_day": null,
+      "feast_day": "December 17",
       "gender": "Male",
       "dates": "1833–1901",
       "origin": "Spain",
@@ -11026,12 +11046,12 @@
     },
     "review": {
       "status": "source-reviewed",
-      "reviewed_on": "2026-10-01",
+      "reviewed_on": "2026-10-02",
       "review_method": "Individual Catholic institutional source review; original concise factual summary. Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
       "name": "Josep Manyanet y Vives",
       "kind": "saint",
-      "feast_day": null,
-      "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+      "feast_day": "December 17",
+      "feast_note": "December 17 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
       "origin": "Spain",
       "dates": "1833–1901",
       "patron_of": null,
@@ -11047,6 +11067,10 @@
         {
           "title": "Vatican: canonizations of John Paul II",
           "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+        },
+        {
+          "title": "Nominis — Catholic Church in France: Josep Manyanet y Vives",
+          "url": "https://nominis.cef.fr/contenus/saint/9663/Saint-Joseph-Manyanet-y-Vives.html"
         }
       ],
       "quotes": [],
@@ -11066,8 +11090,2549 @@
       "entry_type": "person",
       "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
       "uncertainty_note": "The biography heading gives 1833–1901; the first sentence incorrectly gives 1933, which is incompatible with the documented 1859 ordination. The heading is followed here. No unverified feast, patronage, quotation or artwork added.",
-      "calendar_scope": "unverified",
-      "calendar_source": null
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/9663/Saint-Joseph-Manyanet-y-Vives.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:hyacintha-marescotti",
+      "slug": "hyacintha-marescotti",
+      "name": "Hyacintha Marescotti",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Hyacintha Marescotti was a Franciscan religious in Viterbo, Italy. Her religious life did not begin with an easy acceptance of convent discipline. The Catholic account describes years of attachment to comfort and social status before illness brought her to reconsider the way she was living.",
+      "prayer": null,
+      "feast_day": "January 30",
+      "gender": "Female",
+      "dates": "d. 1640",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Hyacintha Marescotti",
+      "kind": "saint",
+      "feast_day": "January 30",
+      "feast_note": "January 30 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "d. 1640",
+      "patron_of": null,
+      "biography": [
+        "Hyacintha Marescotti was a Franciscan religious in Viterbo, Italy. Her religious life did not begin with an easy acceptance of convent discipline. The Catholic account describes years of attachment to comfort and social status before illness brought her to reconsider the way she was living.",
+        "Her later life joined penitence with concrete care for others. She organized fraternities that assisted elderly people and supported Eucharistic adoration. Her story is therefore more than an account of private austerity: a changed attitude led to organized service. Nominis records her January 30 commemoration and identifies her as a saint of the Franciscan Third Order Regular."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Hyacintha Marescotti",
+          "url": "https://nominis.cef.fr/contenus/saint/5410/Sainte-Jacinthe.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious sister"
+      ],
+      "orders": [
+        "Franciscan Third Order"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/5410/Sainte-Jacinthe.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Jacinthe as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/5410/Sainte-Jacinthe.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:richard-the-pilgrim",
+      "slug": "richard-the-pilgrim",
+      "name": "Richard the Pilgrim",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Richard the Pilgrim is remembered as the father of Willibald, Winebald and Walburga. His family belonged to the English Christian world from which missionaries later traveled to continental Europe. He undertook a pilgrimage toward Rome with his sons and died at Lucca in Italy before the journey was completed.",
+      "prayer": null,
+      "feast_day": "February 7",
+      "gender": "Male",
+      "dates": "d. early 8th century",
+      "origin": "England; Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Richard the Pilgrim",
+      "kind": "saint",
+      "feast_day": "February 7",
+      "feast_note": "February 7 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "England; Italy",
+      "dates": "d. early 8th century",
+      "patron_of": null,
+      "biography": [
+        "Richard the Pilgrim is remembered as the father of Willibald, Winebald and Walburga. His family belonged to the English Christian world from which missionaries later traveled to continental Europe. He undertook a pilgrimage toward Rome with his sons and died at Lucca in Italy before the journey was completed.",
+        "Catholic tradition has attached royal titles and further details to his life, but the secure outline is much smaller than those later stories. The Roman Martyrology notice reproduced by Nominis centers on his family, pilgrimage and burial at Lucca. His February 7 commemoration invites readers to distinguish that modest historical outline from elaborations about his rank and travels."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Richard the Pilgrim",
+          "url": "https://nominis.cef.fr/contenus/saint/589/Saint-Richard.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Parenthood"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/589/Saint-Richard.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Richard as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/589/Saint-Richard.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:gregory-ii",
+      "slug": "gregory-ii",
+      "name": "Gregory II",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Gregory II served as bishop of Rome from 715 to 731. His pontificate unfolded amid disputes over imperial taxation, the government of Italy and the place of sacred images in Christian worship. He resisted attempts by Byzantine imperial authority to determine the Church's teaching about those images.",
+      "prayer": null,
+      "feast_day": "February 11",
+      "gender": "Male",
+      "dates": "d. 731",
+      "origin": "Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Gregory II",
+      "kind": "saint",
+      "feast_day": "February 11",
+      "feast_note": "February 11 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Rome",
+      "dates": "d. 731",
+      "patron_of": null,
+      "biography": [
+        "Gregory II served as bishop of Rome from 715 to 731. His pontificate unfolded amid disputes over imperial taxation, the government of Italy and the place of sacred images in Christian worship. He resisted attempts by Byzantine imperial authority to determine the Church's teaching about those images.",
+        "Alongside these conflicts, Gregory supported the preaching of the Gospel among Germanic peoples. He commissioned Boniface for missionary work, connecting Rome's pastoral concerns with communities far beyond Italy. The Catholic calendar remembers him on February 11. His life shows how a pope's work could combine a difficult defense of ecclesial independence with encouragement for missionaries and the growth of local churches."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Gregory II",
+          "url": "https://nominis.cef.fr/contenus/saint/613/Saint-Gr%C3%A9goire-II.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/613/Saint-Gr%C3%A9goire-II.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Grégoire II as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/613/Saint-Gr%C3%A9goire-II.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:benedict-of-aniane",
+      "slug": "benedict-of-aniane",
+      "name": "Benedict of Aniane",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Benedict of Aniane was a monastic reformer in the Carolingian period. After service at the royal court, he entered monastic life at Saint-Seine in Burgundy and later established a monastery at Aniane in southern France. His concern was the practical renewal of communities whose life had been disrupted by war and differing customs.",
+      "prayer": null,
+      "feast_day": "February 12",
+      "gender": "Male",
+      "dates": "d. 821",
+      "origin": "France; Germany",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Benedict of Aniane",
+      "kind": "saint",
+      "feast_day": "February 12",
+      "feast_note": "February 12 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France; Germany",
+      "dates": "d. 821",
+      "patron_of": null,
+      "biography": [
+        "Benedict of Aniane was a monastic reformer in the Carolingian period. After service at the royal court, he entered monastic life at Saint-Seine in Burgundy and later established a monastery at Aniane in southern France. His concern was the practical renewal of communities whose life had been disrupted by war and differing customs.",
+        "He helped promote a common observance of the Rule of Saint Benedict across monasteries of the empire. A gathering of abbots at Aachen in 817 was an important part of this work. The Martyrology also remembers his contribution to monastic customs and the liturgy. He died in 821 and is commemorated on February 12, a different date and identity from Benedict of Nursia."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Benedict of Aniane",
+          "url": "https://nominis.cef.fr/contenus/saint/611/Saint-Beno%C3%AEt-d-Aniane.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Abbot"
+      ],
+      "orders": [
+        "Benedictines"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/611/Saint-Beno%C3%AEt-d-Aniane.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Benoît d'Aniane as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/611/Saint-Beno%C3%AEt-d-Aniane.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:fulcran-of-lodeve",
+      "slug": "fulcran-of-lodeve",
+      "name": "Fulcran of Lodève",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Fulcran was bishop of Lodève in southern France. The Catholic account presents his ministry as a sustained combination of prayer, teaching and care for people in need. He visited the sick, supported hospitals and helped the poor, while also calling influential people to account for conduct that harmed others.",
+      "prayer": null,
+      "feast_day": "February 13",
+      "gender": "Male",
+      "dates": "d. 1006",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Fulcran of Lodève",
+      "kind": "saint",
+      "feast_day": "February 13",
+      "feast_note": "February 13 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "d. 1006",
+      "patron_of": null,
+      "biography": [
+        "Fulcran was bishop of Lodève in southern France. The Catholic account presents his ministry as a sustained combination of prayer, teaching and care for people in need. He visited the sick, supported hospitals and helped the poor, while also calling influential people to account for conduct that harmed others.",
+        "He founded monasteries and built churches as part of the religious life of his diocese. His memory remained closely connected with Lodève after his death in 1006. Nominis reproduces the Roman Martyrology's emphasis on his generosity toward the poor and concern for divine worship, and records February 13 as his commemoration. These pastoral priorities are firmer foundations for his biography than later devotional embellishments."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Fulcran of Lodève",
+          "url": "https://nominis.cef.fr/contenus/saint/628/Saint-Fulcran-de-Lod%C3%A8ve.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/628/Saint-Fulcran-de-Lod%C3%A8ve.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Fulcran de Lodève as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/628/Saint-Fulcran-de-Lod%C3%A8ve.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:juliana-of-nicomedia",
+      "slug": "juliana-of-nicomedia",
+      "name": "Juliana of Nicomedia",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Juliana of Nicomedia is venerated as an early Christian virgin and martyr associated with Nicomedia, in what is now Türkiye. The received account centers on her refusal to abandon her Christian commitment under pressure to marry and conform to the religious demands around her. Her Catholic commemoration is February 16.",
+      "prayer": null,
+      "feast_day": "February 16",
+      "gender": "Female",
+      "dates": "early Christian period; exact dates uncertain",
+      "origin": "Nicomedia, Asia Minor",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Juliana of Nicomedia",
+      "kind": "saint",
+      "feast_day": "February 16",
+      "feast_note": "February 16 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Nicomedia, Asia Minor",
+      "dates": "early Christian period; exact dates uncertain",
+      "patron_of": null,
+      "biography": [
+        "Juliana of Nicomedia is venerated as an early Christian virgin and martyr associated with Nicomedia, in what is now Türkiye. The received account centers on her refusal to abandon her Christian commitment under pressure to marry and conform to the religious demands around her. Her Catholic commemoration is February 16.",
+        "The detailed stories of her trial and extraordinary escapes from torture come through later hagiography. They should be read as traditions about her witness rather than a complete contemporary record. Her cult also reached communities outside Asia Minor, including devotional observances in France. Distinguishing the established veneration from the literary details allows her story to be presented without treating every medieval episode as documented history."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Juliana of Nicomedia",
+          "url": "https://nominis.cef.fr/contenus/saint/652/Sainte-Julienne-de-Nicom%C3%A9die.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/652/Sainte-Julienne-de-Nicom%C3%A9die.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Julienne de Nicomédie as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/652/Sainte-Julienne-de-Nicom%C3%A9die.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:alexis-falconieri",
+      "slug": "alexis-falconieri",
+      "name": "Alexis Falconieri",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Alexis Falconieri was one of the seven Florentine founders of the Servants of Mary, commonly called the Servites. These merchants left their businesses to pursue prayer, fraternal life and service under the patronage of Mary. Their community developed at Monte Senario and followed the Rule of Saint Augustine.",
+      "prayer": null,
+      "feast_day": "February 17",
+      "gender": "Male",
+      "dates": "d. 1310",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Alexis Falconieri",
+      "kind": "saint",
+      "feast_day": "February 17",
+      "feast_note": "February 17 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "d. 1310",
+      "patron_of": null,
+      "biography": [
+        "Alexis Falconieri was one of the seven Florentine founders of the Servants of Mary, commonly called the Servites. These merchants left their businesses to pursue prayer, fraternal life and service under the patronage of Mary. Their community developed at Monte Senario and followed the Rule of Saint Augustine.",
+        "The seven founders were canonized together by Leo XIII in 1888, but Alexis remains an individually identifiable member of that group. Their shared February 17 commemoration is associated with the death of Alexis, the last surviving founder, in 1310. His biography belongs within that common history: it is a story of friendship, shared renunciation and the development of a religious community, rather than a separate founding of his own."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Alexis Falconieri",
+          "url": "https://nominis.cef.fr/contenus/saint/656/Saint-Alexis-Falconieri.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious brother"
+      ],
+      "orders": [
+        "Servites"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/656/Saint-Alexis-Falconieri.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Alexis Falconieri as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/656/Saint-Alexis-Falconieri.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:ethelbert-of-kent",
+      "slug": "ethelbert-of-kent",
+      "name": "Ethelbert of Kent",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Ethelbert was king of Kent and one of the early English rulers to become Christian. His wife Bertha was a Frankish Christian. He received Augustine and the missionaries sent by Pope Gregory the Great, listened to their teaching and was baptized. His support gave the mission an important place from which to develop.",
+      "prayer": null,
+      "feast_day": "February 24",
+      "gender": "Male",
+      "dates": "d. 616",
+      "origin": "England",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Ethelbert of Kent",
+      "kind": "saint",
+      "feast_day": "February 24",
+      "feast_note": "February 24 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "England",
+      "dates": "d. 616",
+      "patron_of": null,
+      "biography": [
+        "Ethelbert was king of Kent and one of the early English rulers to become Christian. His wife Bertha was a Frankish Christian. He received Augustine and the missionaries sent by Pope Gregory the Great, listened to their teaching and was baptized. His support gave the mission an important place from which to develop.",
+        "The Catholic account also associates his reign with the establishment of churches, including the first Saint Paul's cathedral in London. The Martyrology commemorates his burial at Canterbury in 616, and his calendar date is February 24. He should not be confused with other rulers named Ethelbert. His significance lies in the relationship between royal patronage, conversion and the beginnings of organized Christian mission in Kent."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Ethelbert of Kent",
+          "url": "https://nominis.cef.fr/contenus/saint/692/Saint-Ethelbert.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life",
+        "Parenthood",
+        "Ruler"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/692/Saint-Ethelbert.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Ethelbert as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/692/Saint-Ethelbert.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:oswald-of-worcester",
+      "slug": "oswald-of-worcester",
+      "name": "Oswald of Worcester",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Oswald was a monk and bishop connected with the renewal of English monastic life. He first served as a canon at Winchester, then entered the Benedictine monastery at Fleury in France. Returning to England, he became bishop of Worcester and later also took responsibility for the Church of York.",
+      "prayer": null,
+      "feast_day": "February 29",
+      "gender": "Male",
+      "dates": "d. 992",
+      "origin": "England; France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Oswald of Worcester",
+      "kind": "saint",
+      "feast_day": "February 29",
+      "feast_note": "Oswald of Worcester is commemorated on February 28 in ordinary years and February 29 in leap years.",
+      "origin": "England; France",
+      "dates": "d. 992",
+      "patron_of": null,
+      "biography": [
+        "Oswald was a monk and bishop connected with the renewal of English monastic life. He first served as a canon at Winchester, then entered the Benedictine monastery at Fleury in France. Returning to England, he became bishop of Worcester and later also took responsibility for the Church of York.",
+        "He helped establish the Rule of Saint Benedict in a number of monasteries. The Martyrology remembers him as a learned and approachable teacher as well as a bishop. He died in 992. His commemoration is February 28 in ordinary years and moves to February 29 in leap years. He is a different person from Oswald, the seventh-century king of Northumbria."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Oswald of Worcester",
+          "url": "https://nominis.cef.fr/contenus/saint/720/Saint-Oswald.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Bishop"
+      ],
+      "orders": [
+        "Benedictines"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/720/Saint-Oswald.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Oswald as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/720/Saint-Oswald.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:john-joseph-of-the-cross",
+      "slug": "john-joseph-of-the-cross",
+      "name": "John Joseph of the Cross",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "John Joseph of the Cross was a Franciscan from Ischia who worked in the Naples region. He entered the Friars Minor while young and devoted much of his ministry to renewing community life according to the reform associated with Peter of Alcántara. His responsibilities included leadership within the order and spiritual direction.",
+      "prayer": null,
+      "feast_day": "March 5",
+      "gender": "Male",
+      "dates": "1654–1734",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "John Joseph of the Cross",
+      "kind": "saint",
+      "feast_day": "March 5",
+      "feast_note": "March 5 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "1654–1734",
+      "patron_of": null,
+      "biography": [
+        "John Joseph of the Cross was a Franciscan from Ischia who worked in the Naples region. He entered the Friars Minor while young and devoted much of his ministry to renewing community life according to the reform associated with Peter of Alcántara. His responsibilities included leadership within the order and spiritual direction.",
+        "The Catholic account emphasizes poverty, compassion and practical ability alongside prayer. He helped restore religious discipline in several friaries rather than limiting his work to personal devotion. Later accounts also contain extraordinary mystical episodes, which are not needed to establish this outline of his life. He died in Naples in 1734 and is commemorated on March 5."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: John Joseph of the Cross",
+          "url": "https://nominis.cef.fr/contenus/saint/11499/Saint-Jean-Joseph-de-la-Croix.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Priest",
+        "Religious brother"
+      ],
+      "orders": [
+        "Franciscans"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/11499/Saint-Jean-Joseph-de-la-Croix.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Jean-Joseph de la Croix as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/11499/Saint-Jean-Joseph-de-la-Croix.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:julie-billiart",
+      "slug": "julie-billiart",
+      "name": "Julie Billiart",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Julie Billiart was born at Cuvilly in France and taught the catechism from a young age. She worked to help support her family and later lived for many years with paralysis. Her commitment to Christian education continued through these difficulties and through the upheaval of the French revolutionary period.",
+      "prayer": null,
+      "feast_day": "April 8",
+      "gender": "Female",
+      "dates": "1751–1816",
+      "origin": "France; Belgium",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Julie Billiart",
+      "kind": "saint",
+      "feast_day": "April 8",
+      "feast_note": "April 8 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France; Belgium",
+      "dates": "1751–1816",
+      "patron_of": null,
+      "biography": [
+        "Julie Billiart was born at Cuvilly in France and taught the catechism from a young age. She worked to help support her family and later lived for many years with paralysis. Her commitment to Christian education continued through these difficulties and through the upheaval of the French revolutionary period.",
+        "In 1804 she founded the Sisters of Notre Dame, whose mission included educating girls from poor families. Difficulties with diocesan authorities in Amiens led the community to move to Namur in 1809. She died there on April 8, 1816. Her legacy is a religious congregation dedicated to education, with a history that includes both the perseverance of its founder and the practical challenge of establishing schools and community life."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Julie Billiart",
+          "url": "https://nominis.cef.fr/contenus/saint/934/Sainte-Julie-Billiart.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious sister",
+        "Founder",
+        "Educator"
+      ],
+      "orders": [
+        "Sisters of Notre Dame de Namur"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/934/Sainte-Julie-Billiart.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Julie Billiart as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/934/Sainte-Julie-Billiart.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:liborius-of-le-mans",
+      "slug": "liborius-of-le-mans",
+      "name": "Liborius of Le Mans",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Liborius was a fourth-century bishop of Le Mans in France. The surviving Catholic commemoration gives a restrained outline of his identity; many familiar details belong to the later history of his veneration. His relics have been kept at Paderborn in Germany since their transfer in 836, linking the two churches across many centuries.",
+      "prayer": null,
+      "feast_day": "April 9",
+      "gender": "Male",
+      "dates": "4th century",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Liborius of Le Mans",
+      "kind": "saint",
+      "feast_day": "April 9",
+      "feast_note": "April 9 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "4th century",
+      "patron_of": null,
+      "biography": [
+        "Liborius was a fourth-century bishop of Le Mans in France. The surviving Catholic commemoration gives a restrained outline of his identity; many familiar details belong to the later history of his veneration. His relics have been kept at Paderborn in Germany since their transfer in 836, linking the two churches across many centuries.",
+        "He became patron of Paderborn's cathedral and a focus of continuing relations between Paderborn and Le Mans. Devotional images often show stones with a book, reflecting the tradition of invoking his intercession for illnesses involving stones. That symbolism is part of his cult, not a medical promise. Vatican News lists him on April 9; local celebrations can use other dates."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Liborius of Le Mans",
+          "url": "https://nominis.cef.fr/contenus/saint/1554/Saint-Liboire.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1554/Saint-Liboire.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Liboire as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1554/Saint-Liboire.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:julius-i",
+      "slug": "julius-i",
+      "name": "Julius I",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Julius I was bishop of Rome from 337 to 352, during the controversies surrounding the Church's confession of the divinity of Christ. He supported Athanasius of Alexandria when that bishop was driven into exile and received him in Rome. His ministry connected pastoral hospitality with the defense of Catholic teaching.",
+      "prayer": null,
+      "feast_day": "April 12",
+      "gender": "Male",
+      "dates": "d. 352",
+      "origin": "Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Julius I",
+      "kind": "saint",
+      "feast_day": "April 12",
+      "feast_note": "April 12 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Rome",
+      "dates": "d. 352",
+      "patron_of": null,
+      "biography": [
+        "Julius I was bishop of Rome from 337 to 352, during the controversies surrounding the Church's confession of the divinity of Christ. He supported Athanasius of Alexandria when that bishop was driven into exile and received him in Rome. His ministry connected pastoral hospitality with the defense of Catholic teaching.",
+        "Julius also helped bring about the Council of Sardica as the dispute continued among bishops and imperial authorities. The Martyrology remembers his steadfastness and his support for Athanasius rather than attributing the resolution of the entire controversy to one pontificate. His burial at the cemetery of Calepodius in Rome is commemorated on April 12. He is distinct from later popes with the same name."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Julius I",
+          "url": "https://nominis.cef.fr/contenus/saint/958/Saint-Jules-Ier.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/958/Saint-Jules-Ier.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Jules Ier as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/958/Saint-Jules-Ier.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:cesar-de-bus",
+      "slug": "cesar-de-bus",
+      "name": "César de Bus",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "César de Bus was a French priest whose ministry grew out of a decisive change from an unsettled worldly life to prayer, study and service. He was ordained in 1582 and became especially concerned that people without formal education should be able to understand the Christian faith, including those living in rural communities.",
+      "prayer": null,
+      "feast_day": "April 15",
+      "gender": "Male",
+      "dates": "1544–1607",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "César de Bus",
+      "kind": "saint",
+      "feast_day": "April 15",
+      "feast_note": "April 15 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "1544–1607",
+      "patron_of": null,
+      "biography": [
+        "César de Bus was a French priest whose ministry grew out of a decisive change from an unsettled worldly life to prayer, study and service. He was ordained in 1582 and became especially concerned that people without formal education should be able to understand the Christian faith, including those living in rural communities.",
+        "In 1592 he founded the Fathers of Christian Doctrine to carry out preaching and catechetical instruction. His work joined teaching with visits to sick and poor people. He died at Avignon on April 15, 1607, the date of his commemoration, and was canonized in 2022. His legacy concerns accessible religious formation and the sustained work of a teaching community, rather than education reserved for a privileged few."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: César de Bus",
+          "url": "https://nominis.cef.fr/contenus/saint/982/Saint-C%C3%A9sar-de-Bus.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Priest",
+        "Founder",
+        "Educator"
+      ],
+      "orders": [
+        "Fathers of Christian Doctrine"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/982/Saint-C%C3%A9sar-de-Bus.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint César de Bus as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/982/Saint-C%C3%A9sar-de-Bus.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:germanus-of-paris",
+      "slug": "germanus-of-paris",
+      "name": "Germanus of Paris",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Germanus of Paris came from the region of Autun and first lived as a monk. He became abbot of Saint-Symphorien before being called to the episcopal ministry in Paris. His contemporary friend Venantius Fortunatus wrote about his life, providing an important early witness to his memory.",
+      "prayer": null,
+      "feast_day": "May 28",
+      "gender": "Male",
+      "dates": "d. 576",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Germanus of Paris",
+      "kind": "saint",
+      "feast_day": "May 28",
+      "feast_note": "May 28 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "d. 576",
+      "patron_of": null,
+      "biography": [
+        "Germanus of Paris came from the region of Autun and first lived as a monk. He became abbot of Saint-Symphorien before being called to the episcopal ministry in Paris. His contemporary friend Venantius Fortunatus wrote about his life, providing an important early witness to his memory.",
+        "As bishop he retained the habits of monastic life while caring for people beyond the monastery. Catholic accounts particularly remember his generosity to the poor and his efforts on behalf of prisoners and enslaved people. He supported the monastery of the Holy Cross, where he was buried; it became known as Saint-Germain-des-Prés. He died in 576 and is commemorated on May 28. He is distinct from Germanus of Capua."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Germanus of Paris",
+          "url": "https://nominis.cef.fr/contenus/saint/1232/Saint-Germain-de-Paris.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Abbot",
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1232/Saint-Germain-de-Paris.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Germain de Paris as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1232/Saint-Germain-de-Paris.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:felix-of-nicosia",
+      "slug": "felix-of-nicosia",
+      "name": "Felix of Nicosia",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Felix of Nicosia was a Capuchin brother in Sicily. Born Giacomo Amoroso, he sought admission to the community for years before being accepted. His religious life centered on simple duties and collecting alms, work that brought him into regular contact with people outside the friary.",
+      "prayer": null,
+      "feast_day": "May 31",
+      "gender": "Male",
+      "dates": "1715–1787",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Felix of Nicosia",
+      "kind": "saint",
+      "feast_day": "May 31",
+      "feast_note": "May 31 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "1715–1787",
+      "patron_of": null,
+      "biography": [
+        "Felix of Nicosia was a Capuchin brother in Sicily. Born Giacomo Amoroso, he sought admission to the community for years before being accepted. His religious life centered on simple duties and collecting alms, work that brought him into regular contact with people outside the friary.",
+        "Although he had little formal education, the Catholic account remembers the effect of his humility and kindness rather than measuring his service by academic achievement. He carried out ordinary tasks with fidelity and shared the life of a community dependent on generosity. He died in 1787, was canonized by Benedict XVI in 2005, and is commemorated on May 31. No quotation or extraordinary episode is necessary to describe this practical pattern of service."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Felix of Nicosia",
+          "url": "https://nominis.cef.fr/contenus/saint/11759/Saint-F%C3%A9lix-%28Jacques-Amoroso%29.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious brother"
+      ],
+      "orders": [
+        "Capuchins"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/11759/Saint-F%C3%A9lix-%28Jacques-Amoroso%29.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Félix (Jacques Amoroso) as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/11759/Saint-F%C3%A9lix-%28Jacques-Amoroso%29.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:silverius",
+      "slug": "silverius",
+      "name": "Silverius",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Silverius was pope during the Byzantine struggle for control of Rome in the sixth century. His short pontificate became entangled with disputes about the leadership and teaching of the Church of Constantinople. He was removed from office, exiled and eventually died on the island of Palmarola.",
+      "prayer": null,
+      "feast_day": "June 20",
+      "gender": "Male",
+      "dates": "d. 537",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Silverius",
+      "kind": "saint",
+      "feast_day": "June 20",
+      "feast_note": "June 20 is Silverius’s local commemoration at Palmarola; the Roman Martyrology also remembers him on December 2.",
+      "origin": "Italy",
+      "dates": "d. 537",
+      "patron_of": null,
+      "biography": [
+        "Silverius was pope during the Byzantine struggle for control of Rome in the sixth century. His short pontificate became entangled with disputes about the leadership and teaching of the Church of Constantinople. He was removed from office, exiled and eventually died on the island of Palmarola.",
+        "The accounts of the accusations and political decisions surrounding his removal are complicated, so a brief biography should not turn every disputed motive into a settled fact. Catholic tradition venerates him as a pope and martyr. June 20 is a local commemoration linked with his arrival on the island, while December 2 also appears in calendar sources. These dates illustrate why a daily reading need not coincide with the universal liturgical calendar."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Silverius",
+          "url": "https://nominis.cef.fr/contenus/saint/1357/Saint-Silv%C3%A8re.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope",
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1357/Saint-Silv%C3%A8re.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Silvère as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Regional or religious-community Catholic calendar",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1357/Saint-Silv%C3%A8re.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:bernardino-realino",
+      "slug": "bernardino-realino",
+      "name": "Bernardino Realino",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Bernardino Realino was an Italian Jesuit priest whose earlier career included public administration and legal responsibilities. After entering the Society of Jesus as an adult, he was sent to Lecce. There his priestly ministry brought him to hospitals, prisons and people seeking confession or spiritual counsel.",
+      "prayer": null,
+      "feast_day": "July 2",
+      "gender": "Male",
+      "dates": "d. early 17th century",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Bernardino Realino",
+      "kind": "saint",
+      "feast_day": "July 2",
+      "feast_note": "July 2 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "d. early 17th century",
+      "patron_of": null,
+      "biography": [
+        "Bernardino Realino was an Italian Jesuit priest whose earlier career included public administration and legal responsibilities. After entering the Society of Jesus as an adult, he was sent to Lecce. There his priestly ministry brought him to hospitals, prisons and people seeking confession or spiritual counsel.",
+        "The Catholic account especially remembers the patient welcome he offered and his attention to sick and imprisoned people. He exchanged positions of civic influence for a pastoral life rooted in one community. Nominis records July 2 as his commemoration. Its narrative and reproduced Martyrology notice give differing death years, so this entry leaves the exact year open rather than silently choosing between them."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Bernardino Realino",
+          "url": "https://nominis.cef.fr/contenus/saint/7432/Saint-Bernardin-Realino.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Priest"
+      ],
+      "orders": [
+        "Society of Jesus (Jesuits)"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/7432/Saint-Bernardin-Realino.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Bernardin Realino as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/7432/Saint-Bernardin-Realino.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:kilian-of-wurzburg",
+      "slug": "kilian-of-wurzburg",
+      "name": "Kilian of Würzburg",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Kilian is remembered as an Irish missionary bishop who preached in the region of Würzburg. His ministry forms part of the movement of Irish Christians to continental Europe during the early medieval period. The Catholic commemoration associates his death with the priest Coloman and the deacon Totnan, his companions in mission.",
+      "prayer": null,
+      "feast_day": "July 8",
+      "gender": "Male",
+      "dates": "d. c. 689",
+      "origin": "Ireland; Germany",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Kilian of Würzburg",
+      "kind": "saint",
+      "feast_day": "July 8",
+      "feast_note": "July 8 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Ireland; Germany",
+      "dates": "d. c. 689",
+      "patron_of": null,
+      "biography": [
+        "Kilian is remembered as an Irish missionary bishop who preached in the region of Würzburg. His ministry forms part of the movement of Irish Christians to continental Europe during the early medieval period. The Catholic commemoration associates his death with the priest Coloman and the deacon Totnan, his companions in mission.",
+        "Later accounts place their killing within a conflict over the marriage of a local ruler. Those narrative details come through the received tradition and should not be treated as a surviving contemporary trial record. The Martyrology identifies Kilian personally as a bishop and martyr. His July 8 commemoration preserves that individual identity within the shared witness of the three missionaries."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Kilian of Würzburg",
+          "url": "https://nominis.cef.fr/contenus/saint/1468/Saint-Kilien.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop",
+        "Missionary",
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1468/Saint-Kilien.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Kilien as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1468/Saint-Kilien.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:mary-magdalene-postel",
+      "slug": "mary-magdalene-postel",
+      "name": "Mary Magdalene Postel",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Mary Magdalene Postel was a teacher and religious founder from Barfleur in Normandy. Born Julie Postel, she opened a school before the French Revolution. During the persecution of the Church she helped priests, taught the catechism and supported the sacramental life of the sick and other Catholics.",
+      "prayer": null,
+      "feast_day": "July 16",
+      "gender": "Female",
+      "dates": "1756–1846",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Mary Magdalene Postel",
+      "kind": "saint",
+      "feast_day": "July 16",
+      "feast_note": "July 16 is Mary Magdalene Postel’s commemoration; the diocesan proper of Coutances and Avranches uses July 17.",
+      "origin": "France",
+      "dates": "1756–1846",
+      "patron_of": null,
+      "biography": [
+        "Mary Magdalene Postel was a teacher and religious founder from Barfleur in Normandy. Born Julie Postel, she opened a school before the French Revolution. During the persecution of the Church she helped priests, taught the catechism and supported the sacramental life of the sick and other Catholics.",
+        "In 1807 she and her first companions formed a teaching congregation, eventually establishing their community at the former abbey of Saint-Sauveur-le-Vicomte. The education of girls from poor families remained central to their work. She died in 1846 and was canonized in 1925. Her July 16 commemoration is distinct from the July 17 celebration noted in the diocesan proper of Coutances and Avranches."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Mary Magdalene Postel",
+          "url": "https://nominis.cef.fr/contenus/saint/1519/Sainte-Marie-Madeleine-Postel.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious sister",
+        "Founder",
+        "Educator"
+      ],
+      "orders": [
+        "Sisters of the Christian Schools of Mercy"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1519/Sainte-Marie-Madeleine-Postel.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Marie-Madeleine Postel as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Regional or religious-community Catholic calendar",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1519/Sainte-Marie-Madeleine-Postel.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:giles-of-saint-gilles",
+      "slug": "giles-of-saint-gilles",
+      "name": "Giles of Saint-Gilles",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Giles, also known as Aegidius, is associated with a hermitage and monastery in the region of Nîmes in southern France. The community and town of Saint-Gilles preserve his name. His tomb became an important destination for medieval pilgrims traveling along routes connected with Santiago de Compostela.",
+      "prayer": null,
+      "feast_day": "September 1",
+      "gender": "Male",
+      "dates": "early medieval period; exact dates uncertain",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Giles of Saint-Gilles",
+      "kind": "saint",
+      "feast_day": "September 1",
+      "feast_note": "September 1 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "early medieval period; exact dates uncertain",
+      "patron_of": null,
+      "biography": [
+        "Giles, also known as Aegidius, is associated with a hermitage and monastery in the region of Nîmes in southern France. The community and town of Saint-Gilles preserve his name. His tomb became an important destination for medieval pilgrims traveling along routes connected with Santiago de Compostela.",
+        "Much of the familiar narrative of his life comes from legend. The widely depicted deer belongs to that devotional tradition and does not establish a detailed historical biography. Catholic sources themselves acknowledge the uncertainty about his origins and dates. His September 1 commemoration recognizes the saint's enduring cult while allowing readers to distinguish evidence about a place of pilgrimage from stories composed long after his lifetime."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Giles of Saint-Gilles",
+          "url": "https://nominis.cef.fr/contenus/saint/1774/Saint-Gilles.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Hermit",
+        "Abbot"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1774/Saint-Gilles.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Gilles as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1774/Saint-Gilles.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:agricol-of-avignon",
+      "slug": "agricol-of-avignon",
+      "name": "Agricol of Avignon",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Agricol was a bishop of Avignon who had earlier followed the monastic life at Lérins. The Martyrology account presents him as an assistant to his father, the bishop Magnus, before succeeding him. His episcopal ministry maintained a connection with the monks of Lérins and their spiritual formation.",
+      "prayer": null,
+      "feast_day": "September 2",
+      "gender": "Male",
+      "dates": "d. c. 700",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Agricol of Avignon",
+      "kind": "saint",
+      "feast_day": "September 2",
+      "feast_note": "September 2 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "d. c. 700",
+      "patron_of": null,
+      "biography": [
+        "Agricol was a bishop of Avignon who had earlier followed the monastic life at Lérins. The Martyrology account presents him as an assistant to his father, the bishop Magnus, before succeeding him. His episcopal ministry maintained a connection with the monks of Lérins and their spiritual formation.",
+        "The Church of Avignon continued to preserve his memory, and he later became patron of the city. These local traditions show how the service of a bishop could remain significant to a community long after his death. Nominis identifies him as a Catholic saint, reproduces the Martyrology notice and records September 2 as his commemoration. His death is placed around the year 700, without an exact birth date."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Agricol of Avignon",
+          "url": "https://nominis.cef.fr/contenus/saint/1779/Saint-Agricol-d-Avignon.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1779/Saint-Agricol-d-Avignon.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Agricol d'Avignon as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1779/Saint-Agricol-d-Avignon.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:onesiphorus",
+      "slug": "onesiphorus",
+      "name": "Onesiphorus",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Onesiphorus is a Christian remembered in the Second Letter to Timothy for supporting Paul. The letter describes his encouragement and his willingness to seek Paul out in Rome rather than distance himself from a prisoner. It also recalls service at Ephesus and includes a greeting to his household.",
+      "prayer": null,
+      "feast_day": "September 6",
+      "gender": "Male",
+      "dates": "1st century",
+      "origin": "Ephesus; Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Onesiphorus",
+      "kind": "saint",
+      "feast_day": "September 6",
+      "feast_note": "September 6 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Ephesus; Rome",
+      "dates": "1st century",
+      "patron_of": null,
+      "biography": [
+        "Onesiphorus is a Christian remembered in the Second Letter to Timothy for supporting Paul. The letter describes his encouragement and his willingness to seek Paul out in Rome rather than distance himself from a prisoner. It also recalls service at Ephesus and includes a greeting to his household.",
+        "The Catholic commemoration on September 6 draws on this scriptural portrait. It gives a concrete picture of faithful friendship: someone crossed the barrier of shame attached to imprisonment to offer help. Later descriptions of his martyrdom should be distinguished from what the letter itself records. The biblical evidence supplies the foundation of this biography without requiring a detailed reconstruction of his later life."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Onesiphorus",
+          "url": "https://nominis.cef.fr/contenus/saint/1806/Saint-On%C3%A9siphore.html"
+        },
+        {
+          "title": "USCCB NABRE: 2 Timothy 1",
+          "url": "https://bible.usccb.org/bible/2timothy/1"
+        },
+        {
+          "title": "USCCB NABRE: 2 Timothy 4",
+          "url": "https://bible.usccb.org/bible/2timothy/4"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Lay life"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1806/Saint-On%C3%A9siphore.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Onésiphore as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1806/Saint-On%C3%A9siphore.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:regina-of-alesia",
+      "slug": "regina-of-alesia",
+      "name": "Regina of Alésia",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Regina, known in French as Reine, is venerated as a martyr at Alésia in Burgundy. Evidence for her local cult includes a basilica erected over her tomb by the fifth century. The continuing association of the saint with Alise-Sainte-Reine is stronger historical evidence than the elaborate narrative sometimes told about her trial.",
+      "prayer": null,
+      "feast_day": "September 7",
+      "gender": "Female",
+      "dates": "early Christian period; exact dates uncertain",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Regina of Alésia",
+      "kind": "saint",
+      "feast_day": "September 7",
+      "feast_note": "September 7 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "early Christian period; exact dates uncertain",
+      "patron_of": null,
+      "biography": [
+        "Regina, known in French as Reine, is venerated as a martyr at Alésia in Burgundy. Evidence for her local cult includes a basilica erected over her tomb by the fifth century. The continuing association of the saint with Alise-Sainte-Reine is stronger historical evidence than the elaborate narrative sometimes told about her trial.",
+        "Nominis explicitly warns that the surviving Acts borrowed from another saint's story and do not provide a reliable account of her life. This entry therefore does not repeat the dialogue, personal background or miraculous episodes as facts. Her September 7 commemoration and established veneration can be described honestly while acknowledging how little secure information survives about the circumstances of her martyrdom."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Regina of Alésia",
+          "url": "https://nominis.cef.fr/contenus/saint/1807/Sainte-Reine.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1807/Sainte-Reine.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Reine as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1807/Sainte-Reine.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:nicholas-of-tolentino",
+      "slug": "nicholas-of-tolentino",
+      "name": "Nicholas of Tolentino",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Nicholas of Tolentino was an Augustinian priest from the Marche region of Italy. He entered the order as a young man and devoted his life to prayer, preaching and pastoral ministry. His name should not cause confusion with Nicholas of Myra, the earlier bishop whom his family venerated.",
+      "prayer": null,
+      "feast_day": "September 10",
+      "gender": "Male",
+      "dates": "1245–1305",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Nicholas of Tolentino",
+      "kind": "saint",
+      "feast_day": "September 10",
+      "feast_note": "September 10 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "1245–1305",
+      "patron_of": null,
+      "biography": [
+        "Nicholas of Tolentino was an Augustinian priest from the Marche region of Italy. He entered the order as a young man and devoted his life to prayer, preaching and pastoral ministry. His name should not cause confusion with Nicholas of Myra, the earlier bishop whom his family venerated.",
+        "The Catholic account emphasizes a striking contrast within his pastoral character: he practiced severe discipline himself but treated people seeking confession with gentleness. His life at Tolentino joined personal asceticism to sympathy for others. He died in 1305, was canonized in 1446, and is commemorated on September 10. The foundation of this biography is his religious community and ministry, rather than unverified promises attached to later devotion."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Nicholas of Tolentino",
+          "url": "https://nominis.cef.fr/contenus/saint/1561/Saint-Nicolas-de-Tolentino.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Priest",
+        "Religious brother"
+      ],
+      "orders": [
+        "Augustinians"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1561/Saint-Nicolas-de-Tolentino.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Nicolas de Tolentino as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1561/Saint-Nicolas-de-Tolentino.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:leodegar-of-autun",
+      "slug": "leodegar-of-autun",
+      "name": "Leodegar of Autun",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Leodegar, also known as Léger, was bishop of Autun in the seventh century. His ministry unfolded during conflicts between Frankish political powers in Burgundy and Neustria. The Catholic account relates that he surrendered during the siege of Autun to spare his people further suffering.",
+      "prayer": null,
+      "feast_day": "October 2",
+      "gender": "Male",
+      "dates": "7th century",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Leodegar of Autun",
+      "kind": "saint",
+      "feast_day": "October 2",
+      "feast_note": "October 2 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "France",
+      "dates": "7th century",
+      "patron_of": null,
+      "biography": [
+        "Leodegar, also known as Léger, was bishop of Autun in the seventh century. His ministry unfolded during conflicts between Frankish political powers in Burgundy and Neustria. The Catholic account relates that he surrendered during the siege of Autun to spare his people further suffering.",
+        "He was tortured, detained and eventually killed on the orders of Ebroin, a powerful official of the Neustrian court. The Church later recognized his witness as martyrdom. Sources disagree on some details, including the exact death year and location, so those points are left qualified here. His local Catholic commemoration is October 2, independently of the Guardian Angels memorial celebrated on the same date."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Leodegar of Autun",
+          "url": "https://nominis.cef.fr/contenus/saint/1952/Saint-L%C3%A9ger.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop",
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1952/Saint-L%C3%A9ger.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Léger as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1952/Saint-L%C3%A9ger.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:mark-pope",
+      "slug": "mark-pope",
+      "name": "Mark, Pope",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Mark was bishop of Rome for a short period in 336. He is a different person from Mark the Evangelist. The Catholic calendar preserves his memory on October 7, while the surviving outline of his pontificate is much more limited than that of many later popes.",
+      "prayer": null,
+      "feast_day": "October 7",
+      "gender": "Male",
+      "dates": "d. 336",
+      "origin": "Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Mark, Pope",
+      "kind": "saint",
+      "feast_day": "October 7",
+      "feast_note": "October 7 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Rome",
+      "dates": "d. 336",
+      "patron_of": null,
+      "biography": [
+        "Mark was bishop of Rome for a short period in 336. He is a different person from Mark the Evangelist. The Catholic calendar preserves his memory on October 7, while the surviving outline of his pontificate is much more limited than that of many later popes.",
+        "The Martyrology associates him with the church in the Pallacina district of Rome and with a cemetery basilica on the Via Ardeatina, where he was buried. These places are useful anchors for his biography. Other practices have been attributed to him in later tradition, but the evidence given here does not establish those attributions securely. His entry therefore concentrates on the churches, burial and brief episcopal ministry recorded by the Catholic source."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Mark, Pope",
+          "url": "https://nominis.cef.fr/contenus/saint/1974/Saint-Marc.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/1974/Saint-Marc.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Marc as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/1974/Saint-Marc.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:eata-of-hexham",
+      "slug": "eata-of-hexham",
+      "name": "Eata of Hexham",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Eata was trained in the Christian community associated with Aidan at Lindisfarne. He became abbot of Melrose and took responsibility for other monastic foundations, including Ripon. His ministry eventually included episcopal service in northern England and the leadership of the Church of Hexham.",
+      "prayer": null,
+      "feast_day": "October 26",
+      "gender": "Male",
+      "dates": "d. c. 686",
+      "origin": "England",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Eata of Hexham",
+      "kind": "saint",
+      "feast_day": "October 26",
+      "feast_note": "October 26 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "England",
+      "dates": "d. c. 686",
+      "patron_of": null,
+      "biography": [
+        "Eata was trained in the Christian community associated with Aidan at Lindisfarne. He became abbot of Melrose and took responsibility for other monastic foundations, including Ripon. His ministry eventually included episcopal service in northern England and the leadership of the Church of Hexham.",
+        "After the Synod of Whitby he accepted the Roman practice adopted by the local Church. The Catholic account remembers his peaceful character and the simplicity he retained while holding positions of authority. He continued an ascetic way of life rather than treating episcopal office as a departure from monastic commitment. His death is placed around 686, and his commemoration is October 26."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Eata of Hexham",
+          "url": "https://nominis.cef.fr/contenus/saint/12315/Saint-Eata.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Abbot",
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/12315/Saint-Eata.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Eata as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/12315/Saint-Eata.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:narcissus-of-jerusalem",
+      "slug": "narcissus-of-jerusalem",
+      "name": "Narcissus of Jerusalem",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Narcissus was an early bishop of Jerusalem who took part in the Church's discussions about the celebration of Easter. He supported the observance of the Resurrection on Sunday, agreeing with the position associated with Pope Victor. His ministry belongs to the period when Christian communities were working toward agreement across different inherited practices.",
+      "prayer": null,
+      "feast_day": "October 29",
+      "gender": "Male",
+      "dates": "late 2nd–early 3rd century",
+      "origin": "Jerusalem",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Narcissus of Jerusalem",
+      "kind": "saint",
+      "feast_day": "October 29",
+      "feast_note": "October 29 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Jerusalem",
+      "dates": "late 2nd–early 3rd century",
+      "patron_of": null,
+      "biography": [
+        "Narcissus was an early bishop of Jerusalem who took part in the Church's discussions about the celebration of Easter. He supported the observance of the Resurrection on Sunday, agreeing with the position associated with Pope Victor. His ministry belongs to the period when Christian communities were working toward agreement across different inherited practices.",
+        "Catholic tradition remembers him as a bishop of great age whose prayer continued to support the community when others undertook its leadership. The numerical claims about his lifespan vary, and this entry does not choose a precise age. His October 29 commemoration gives readers a witness to patience and ecclesial unity while avoiding an unwarranted reconstruction of every detail of his life."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Narcissus of Jerusalem",
+          "url": "https://nominis.cef.fr/contenus/saint/2098/Saint-Narcisse.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/2098/Saint-Narcisse.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Narcisse as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/2098/Saint-Narcisse.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:germanus-of-capua",
+      "slug": "germanus-of-capua",
+      "name": "Germanus of Capua",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Germanus of Capua was a bishop in southern Italy remembered for efforts to restore communion between Rome and Constantinople. As a papal representative he took part in the work of ending a long separation between the churches. The Catholic source places this diplomatic service alongside his episcopal ministry at Capua.",
+      "prayer": null,
+      "feast_day": "October 30",
+      "gender": "Male",
+      "dates": "6th century",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Germanus of Capua",
+      "kind": "saint",
+      "feast_day": "October 30",
+      "feast_note": "October 30 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "6th century",
+      "patron_of": null,
+      "biography": [
+        "Germanus of Capua was a bishop in southern Italy remembered for efforts to restore communion between Rome and Constantinople. As a papal representative he took part in the work of ending a long separation between the churches. The Catholic source places this diplomatic service alongside his episcopal ministry at Capua.",
+        "Gregory the Great also mentioned Germanus in his writings. The account of Benedict seeing his soul carried to heaven belongs to that devotional tradition and should be distinguished from the practical record of a bishop serving the unity of the Church. His October 30 commemoration is separate from that of Germanus of Paris. The sources place his death in the sixth century, with differing exact years."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Germanus of Capua",
+          "url": "https://nominis.cef.fr/contenus/saint/2103/Saint-Germain-de-Capoue.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/2103/Saint-Germain-de-Capoue.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Germain de Capoue as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/2103/Saint-Germain-de-Capoue.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:austremonius-of-clermont",
+      "slug": "austremonius-of-clermont",
+      "name": "Austremonius of Clermont",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Austremonius, also called Stremonius, is remembered as the first bishop of Clermont and an early evangelizer of Auvergne. His cult became associated with churches and relics at places including Issoire and Mozac. Gregory of Tours included him in the tradition of missionary bishops sent into Gaul.",
+      "prayer": null,
+      "feast_day": "November 1",
+      "gender": "Male",
+      "dates": "probably late 3rd–early 4th century",
+      "origin": "France",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Austremonius of Clermont",
+      "kind": "saint",
+      "feast_day": "November 1",
+      "feast_note": "November 1 is a commemoration of Austremonius; the Clermont diocesan proper uses November 3. This reading does not replace All Saints.",
+      "origin": "France",
+      "dates": "probably late 3rd–early 4th century",
+      "patron_of": null,
+      "biography": [
+        "Austremonius, also called Stremonius, is remembered as the first bishop of Clermont and an early evangelizer of Auvergne. His cult became associated with churches and relics at places including Issoire and Mozac. Gregory of Tours included him in the tradition of missionary bishops sent into Gaul.",
+        "The date and circumstances of that mission have been interpreted differently, and later accounts of martyrdom are not a secure contemporary record. Catholic diocesan material cited by Nominis places the beginnings of his episcopate around the end of the third century. November 1 appears as a commemoration, while the local diocesan proper also uses November 3. Neither observance replaces the universal solemnity of All Saints."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Austremonius of Clermont",
+          "url": "https://nominis.cef.fr/contenus/saint/64/Saint-Austremoine.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Bishop",
+        "Missionary"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/64/Saint-Austremoine.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Austremoine as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/64/Saint-Austremoine.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:justus-of-trieste",
+      "slug": "justus-of-trieste",
+      "name": "Justus of Trieste",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Justus of Trieste is venerated as an early Christian martyr and as patron of the city and diocese. The received account places his death during the persecution under Diocletian and describes execution by drowning. These details belong to the traditional martyr narrative, while the continuing diocesan veneration is directly documented by the Church of Trieste.",
+      "prayer": null,
+      "feast_day": "November 2",
+      "gender": "Male",
+      "dates": "early 4th century, traditionally c. 303",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Justus of Trieste",
+      "kind": "saint",
+      "feast_day": "November 2",
+      "feast_note": "November 2 is Justus of Trieste’s commemoration in the Martyrology. Trieste celebrates its patron on November 3; this reading does not replace All Souls.",
+      "origin": "Italy",
+      "dates": "early 4th century, traditionally c. 303",
+      "patron_of": null,
+      "biography": [
+        "Justus of Trieste is venerated as an early Christian martyr and as patron of the city and diocese. The received account places his death during the persecution under Diocletian and describes execution by drowning. These details belong to the traditional martyr narrative, while the continuing diocesan veneration is directly documented by the Church of Trieste.",
+        "Nominis records his November 2 commemoration. The Diocese of Trieste celebrates its patron's solemnity on November 3, a distinction that matters because November 2 is All Souls' Day in the Roman calendar. This entry preserves both dates in their proper contexts and does not turn the devotional account into a fully documented contemporary legal history."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Justus of Trieste",
+          "url": "https://nominis.cef.fr/contenus/saint/8894/Saint-Juste-de-Trieste.html"
+        },
+        {
+          "title": "Diocese of Trieste: Saint Justus, martyr",
+          "url": "https://www.diocesi.trieste.it/san-giusto-martire/"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Martyr"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/8894/Saint-Juste-de-Trieste.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Juste de Trieste as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/8894/Saint-Juste-de-Trieste.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:clement-i",
+      "slug": "clement-i",
+      "name": "Clement I",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Clement I was one of the earliest bishops of Rome. His memory is closely associated with a letter sent from the Roman Church to the Christians of Corinth during a serious internal dispute. The letter calls the community back to concord and is an important witness to Christian life soon after the apostolic period.",
+      "prayer": null,
+      "feast_day": "November 23",
+      "gender": "Male",
+      "dates": "late 1st century",
+      "origin": "Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Clement I",
+      "kind": "saint",
+      "feast_day": "November 23",
+      "feast_note": "November 23 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Rome",
+      "dates": "late 1st century",
+      "patron_of": null,
+      "biography": [
+        "Clement I was one of the earliest bishops of Rome. His memory is closely associated with a letter sent from the Roman Church to the Christians of Corinth during a serious internal dispute. The letter calls the community back to concord and is an important witness to Christian life soon after the apostolic period.",
+        "The precise details of his pontificate and later death are less certain than the existence and importance of that letter. The account of exile and martyrdom in Crimea is a tradition, not an established contemporary report. His November 23 commemoration therefore offers a good occasion to begin with the surviving appeal for peace and then distinguish later stories from the early evidence."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Clement I",
+          "url": "https://nominis.cef.fr/contenus/saint/19/Saint-Cl%C3%A9ment-Ier.html"
+        },
+        {
+          "title": "Benedict XVI: Saint Clement, Bishop of Rome, 7 March 2007",
+          "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070307.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/19/Saint-Cl%C3%A9ment-Ier.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Clément Ier as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/19/Saint-Cl%C3%A9ment-Ier.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:sabas-the-sanctified",
+      "slug": "sabas-the-sanctified",
+      "name": "Sabas the Sanctified",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Sabas was born in Cappadocia and moved to the region of Jerusalem as a young man. Before following a solitary way of life, he received formation in a monastic community associated with Euthymius and Theoctistus. Other monks later gathered around him, leading to the development of the Great Lavra in the Judean desert.",
+      "prayer": null,
+      "feast_day": "December 5",
+      "gender": "Male",
+      "dates": "d. early 6th century",
+      "origin": "Cappadocia; Holy Land",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Sabas the Sanctified",
+      "kind": "saint",
+      "feast_day": "December 5",
+      "feast_note": "December 5 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Cappadocia; Holy Land",
+      "dates": "d. early 6th century",
+      "patron_of": null,
+      "biography": [
+        "Sabas was born in Cappadocia and moved to the region of Jerusalem as a young man. Before following a solitary way of life, he received formation in a monastic community associated with Euthymius and Theoctistus. Other monks later gathered around him, leading to the development of the Great Lavra in the Judean desert.",
+        "His work brought individual hermits together under common spiritual leadership while retaining room for solitude. He also defended the teaching of the Council of Chalcedon during disputes that affected his communities. Catholic sources remember him on December 5. They give differing death years around 531–532, so this entry retains that uncertainty rather than making the exact date central to his legacy."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Sabas the Sanctified",
+          "url": "https://nominis.cef.fr/contenus/saint/225/Saint-Sabas.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Abbot"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/225/Saint-Sabas.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Sabas as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/225/Saint-Sabas.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:finnian-of-clonard",
+      "slug": "finnian-of-clonard",
+      "name": "Finnian of Clonard",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Finnian of Clonard, also called Finnian of Leinster, was an abbot and teacher in early medieval Ireland. Catholic tradition connects his Christian formation with the followers of Patrick and describes a period in Wales before his work at Clonard. These journeys belong to the received account of his religious formation.",
+      "prayer": null,
+      "feast_day": "December 12",
+      "gender": "Male",
+      "dates": "6th century; exact death year uncertain",
+      "origin": "Ireland; Wales",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Finnian of Clonard",
+      "kind": "saint",
+      "feast_day": "December 12",
+      "feast_note": "December 12 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Ireland; Wales",
+      "dates": "6th century; exact death year uncertain",
+      "patron_of": null,
+      "biography": [
+        "Finnian of Clonard, also called Finnian of Leinster, was an abbot and teacher in early medieval Ireland. Catholic tradition connects his Christian formation with the followers of Patrick and describes a period in Wales before his work at Clonard. These journeys belong to the received account of his religious formation.",
+        "He founded monasteries and taught a large community of monks. Clonard became an important center within the wider growth of Irish monastic and missionary life. The Martyrology remembers him principally as the founder and teacher of these communities. His commemoration is December 12. Because the Catholic source gives different death years, the entry identifies his period without selecting one exact year as certain."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Finnian of Clonard",
+          "url": "https://nominis.cef.fr/contenus/saint/9577/Saint-Finnian-de-Leinster.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Monk",
+        "Abbot",
+        "Educator"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/9577/Saint-Finnian-de-Leinster.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Finnian de Leinster as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/9577/Saint-Finnian-de-Leinster.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:maria-crocifissa-di-rosa",
+      "slug": "maria-crocifissa-di-rosa",
+      "name": "Maria Crocifissa di Rosa",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Maria Crocifissa di Rosa was born into a prosperous family in Brescia, Italy. Her care for poor and sick people became especially visible during the cholera epidemic of 1836. Companions joined her in this work, and their shared service developed into the religious community known as the Handmaids of Charity.",
+      "prayer": null,
+      "feast_day": "December 15",
+      "gender": "Female",
+      "dates": "1813–1855",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Maria Crocifissa di Rosa",
+      "kind": "saint",
+      "feast_day": "December 15",
+      "feast_note": "December 15 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "1813–1855",
+      "patron_of": null,
+      "biography": [
+        "Maria Crocifissa di Rosa was born into a prosperous family in Brescia, Italy. Her care for poor and sick people became especially visible during the cholera epidemic of 1836. Companions joined her in this work, and their shared service developed into the religious community known as the Handmaids of Charity.",
+        "The congregation began in 1839 and later received papal approval. She committed her resources and her own life to the spiritual and physical needs of others, taking the religious name Crocifissa to express devotion to the suffering Christ. She died in 1855, was canonized by Pius XII in 1954, and is commemorated on December 15. Her foundation connected religious commitment with sustained, organized care."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Maria Crocifissa di Rosa",
+          "url": "https://nominis.cef.fr/contenus/saint/261/Sainte-Marie-Crucifi%C3%A9e-de-Rose.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious sister",
+        "Founder"
+      ],
+      "orders": [
+        "Handmaids of Charity"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/261/Sainte-Marie-Crucifi%C3%A9e-de-Rose.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Marie-Crucifiée de Rose as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/261/Sainte-Marie-Crucifi%C3%A9e-de-Rose.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:anastasius-i",
+      "slug": "anastasius-i",
+      "name": "Anastasius I",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Anastasius I was pope from 399 to 401. Jerome praised his simplicity and pastoral concern. His brief pontificate coincided with disputes about the writings of Origen, and Catholic sources remember his resistance to teaching he judged incompatible with the faith of the Church.",
+      "prayer": null,
+      "feast_day": "December 19",
+      "gender": "Male",
+      "dates": "d. 401",
+      "origin": "Rome",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Anastasius I",
+      "kind": "saint",
+      "feast_day": "December 19",
+      "feast_note": "December 19 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Rome",
+      "dates": "d. 401",
+      "patron_of": null,
+      "biography": [
+        "Anastasius I was pope from 399 to 401. Jerome praised his simplicity and pastoral concern. His brief pontificate coincided with disputes about the writings of Origen, and Catholic sources remember his resistance to teaching he judged incompatible with the faith of the Church.",
+        "The same account emphasizes care for Christians who had faltered under persecution and sought to return. This combination of doctrinal responsibility and concern for reconciliation offers a more complete outline than presenting him only as a figure in theological controversy. His burial in Rome is recorded by the Martyrology, and his commemoration is December 19. He should not be confused with later popes named Anastasius."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Anastasius I",
+          "url": "https://nominis.cef.fr/contenus/saint/282/Saint-Anastase-Ier.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Pope"
+      ],
+      "orders": []
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/282/Saint-Anastase-Ier.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Saint Anastase Ier as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/282/Saint-Anastase-Ier.html"
+    }
+  },
+  {
+    "saint": {
+      "id": "directory:catherine-volpicelli",
+      "slug": "catherine-volpicelli",
+      "name": "Catherine Volpicelli",
+      "kind": "saint",
+      "directory_only": true,
+      "alternate_names": [],
+      "tagline": "",
+      "description": "Catherine Volpicelli was a religious founder whose work in Naples combined devotion to the Sacred Heart with practical assistance to poor and sick people. She established the Handmaids of the Sacred Heart and sought forms of Christian service that responded to the needs of the society around her.",
+      "prayer": null,
+      "feast_day": "December 28",
+      "gender": "Female",
+      "dates": "1839–1894",
+      "origin": "Italy",
+      "patron_of": null,
+      "quotes": [],
+      "fun_fact": null,
+      "trait_contemplative": 0,
+      "trait_charitable": 0,
+      "trait_intellectual": 0,
+      "trait_courageous": 0,
+      "trait_joyful": 0,
+      "trait_mystical": 0
+    },
+    "review": {
+      "status": "source-reviewed",
+      "reviewed_on": "2026-10-02",
+      "review_method": "Individual Catholic institutional source review; original concise factual summary. Checked against all existing canonical directory identities and aliases. Individual person, not a group or an observance; original English biography written from the linked Catholic sources.",
+      "name": "Catherine Volpicelli",
+      "kind": "saint",
+      "feast_day": "December 28",
+      "feast_note": "December 28 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
+      "origin": "Italy",
+      "dates": "1839–1894",
+      "patron_of": null,
+      "biography": [
+        "Catherine Volpicelli was a religious founder whose work in Naples combined devotion to the Sacred Heart with practical assistance to poor and sick people. She established the Handmaids of the Sacred Heart and sought forms of Christian service that responded to the needs of the society around her.",
+        "Her foundation placed care for people at the center of religious commitment, addressing bodily hardship alongside spiritual needs. She died in Naples in 1894 and is commemorated on December 28. John Paul II beatified her in 2001 and Benedict XVI canonized her in 2009. These dates also explain why older Martyrology notices may still use the title Blessed even though she is now recognized as a saint."
+      ],
+      "sources": [
+        {
+          "title": "Nominis — Catholic Church in France: Catherine Volpicelli",
+          "url": "https://nominis.cef.fr/contenus/saint/10844/Sainte-Catherine-Volpicelli.html"
+        }
+      ],
+      "quotes": [],
+      "prayer": null,
+      "fun_fact": null
+    },
+    "metadata": {
+      "vocations": [
+        "Religious sister",
+        "Founder"
+      ],
+      "orders": [
+        "Handmaids of the Sacred Heart"
+      ]
+    },
+    "provenance": {
+      "identity_key": "https://nominis.cef.fr/contenus/saint/10844/Sainte-Catherine-Volpicelli.html",
+      "entry_type": "person",
+      "recognition_evidence": "Nominis explicitly identifies Sainte Catherine Volpicelli as a saint in its individual Catholic entry. Where later canonizations are noted, the current title takes precedence over older Martyrology wording.",
+      "uncertainty_note": "Historical and hagiographical limitations are stated in the biography. No unsupported patronage, direct quotation, miracle claim or artwork imported.",
+      "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+      "calendar_source": "https://nominis.cef.fr/contenus/saint/10844/Sainte-Catherine-Volpicelli.html"
     }
   }
 ]

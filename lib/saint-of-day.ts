@@ -6,6 +6,7 @@ import generatedImages from "@/lib/data/saint-generated-images.json";
 import imageOverrides from "@/lib/data/saint-image-overrides.json";
 import { applySaintReview, canonicalSaintSlug } from "@/lib/saint-reviews";
 import type { Saint } from "@/lib/types";
+import { getSaintCommemoration, saintHasCalendarDate } from "@/lib/saint-calendar";
 
 export interface DailySaint {
   date: string;
@@ -13,6 +14,8 @@ export interface DailySaint {
   kind?: Saint["kind"];
   slug: string;
   feastDay: string;
+  calendarNote?: string;
+  calendarSources?: { title: string; url: string }[];
   image: { src: string; alt: string; credit: string; license: string; source: string; generated?: boolean } | null;
 }
 
@@ -25,7 +28,7 @@ export function getSaintOfDay(date = localDateKey()): DailySaint | null {
   const matches = ([...saints, ...directoryAdditions.map(entry => entry.saint)] as Saint[])
     .filter(s => canonicalSaintSlug(s.slug) === s.slug)
     .map(applySaintReview)
-    .filter(s => s.kind === "saint" && s.feast_day === feastDay);
+    .filter(s => saintHasCalendarDate(s, date));
   // Historical artwork always takes precedence over a generated illustration.
   // Keep generated assets separate so refreshing Wikimedia metadata cannot erase them.
   const historical = { ...images, ...imageOverrides } as Record<string, DailySaint["image"]>;
@@ -34,5 +37,9 @@ export function getSaintOfDay(date = localDateKey()): DailySaint | null {
     ?? matches.find(s => generated[s.slug])
     ?? matches[0];
   if (!saint) return null;
-  return { date, name: saint.name, kind: saint.kind, slug: saint.slug, feastDay, image: historical[saint.slug] ?? generated[saint.slug] ?? null };
+  const commemoration = getSaintCommemoration(saint.slug, date);
+  return { date, name: saint.name, kind: saint.kind, slug: saint.slug, feastDay,
+    calendarNote: commemoration?.note,
+    calendarSources: commemoration?.sources,
+    image: historical[saint.slug] ?? generated[saint.slug] ?? null };
 }

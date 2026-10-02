@@ -42,6 +42,9 @@ test('thumbnail permission stays limited to HTTPS Commons paths on the exact hos
 });
 
 function loadDaily(overrides = {}) {
+  if (Object.hasOwn(overrides, 'saints.json')) {
+    overrides = { 'directory-additions.json': [], 'saint-calendar-commemorations.json': {}, ...overrides };
+  }
   const cache = new Map();
   function load(file) {
     if (cache.has(file)) return cache.get(file);
@@ -85,7 +88,7 @@ test('daily experience uses reviewed biographies and keeps feast companions on t
 });
 
 test('daily experience provides reflection on uncovered dates without inventing a biography', async () => {
-  const { getDailyExperience } = loadTs('lib/daily-experience.ts', { 'saints.json': [] });
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts', { 'saints.json': [], 'directory-additions.json': [], 'saint-calendar-commemorations.json': {} });
   const daily = await getDailyExperience('02-29');
   assert.equal(daily.featured, null);
   assert.equal(daily.biography.length, 0);
@@ -131,6 +134,53 @@ test('every published feast day resolves to a Catholic saint, with optional artw
     assert.equal(saint.kind, 'saint');
     if (saint.image) assert.ok(saint.image.src);
   }
+});
+
+test('every civil date in ordinary and leap years has a published, sourced daily biography', async () => {
+  const { getSaintOfDay } = loadDaily();
+  const { getSaintBySlug } = loadTs('lib/saints.ts');
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts');
+  const { saintHasCalendarDate } = loadTs('lib/saint-calendar.ts');
+  for (const year of [2025, 2024]) {
+    let checked = 0;
+    for (let day = new Date(year, 0, 1); day.getFullYear() === year; day.setDate(day.getDate() + 1)) {
+      const key = `${String(day.getMonth() + 1).padStart(2, '0')}-${String(day.getDate()).padStart(2, '0')}`;
+      const featured = getSaintOfDay(key);
+      assert.ok(featured, `${year}-${key}: missing daily saint`);
+      const saint = await getSaintBySlug(featured.slug);
+      assert.equal(saint?.kind, 'saint', key);
+      assert.ok(saintHasCalendarDate(saint, key), key);
+      const daily = await getDailyExperience(key);
+      assert.equal(daily.featured.slug, featured.slug, key);
+      assert.ok(daily.biography.length >= 2, `${key}: missing biography`);
+      assert.ok(daily.sources.length > 0, `${key}: missing sources`);
+      for (const companion of daily.alsoToday) {
+        assert.ok(saintHasCalendarDate(await getSaintBySlug(companion.slug), key), `${key}: wrongly dated companion`);
+      }
+      checked++;
+    }
+    assert.equal(checked, year === 2024 ? 366 : 365);
+  }
+});
+
+test('additional commemorations preserve identity, main feast and date-specific explanations', async () => {
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts');
+  const { getSaintBySlug } = loadTs('lib/saints.ts');
+  for (const [date, slug, primaryDate, explanation] of [
+    ['01-25', 'paul-the-apostle', 'June 29', /Conversion/],
+    ['05-01', 'joseph', 'March 19', /Worker/],
+    ['04-17', 'kateri-tekakwitha', 'July 14', /Canada/],
+  ]) {
+    const daily = await getDailyExperience(date);
+    assert.equal(daily.featured.slug, slug);
+    assert.equal((await getSaintBySlug(slug)).feast_day, primaryDate);
+    assert.match(daily.feastNote, explanation);
+    assert.ok(daily.sources.some(source => /nominis\.cef\.fr|vaticannews\.va|cccb\.ca/.test(source.url)));
+  }
+  const leap = await getDailyExperience('02-29');
+  assert.equal(leap.featured.slug, 'oswald-of-worcester');
+  assert.match(leap.feastNote, /ordinary years.*leap years/);
+  assert.equal((await getDailyExperience('10-02')).featured.slug, 'leodegar-of-autun');
 });
 
 test('generated entries point to bundled files and carry explicit disclosure', () => {

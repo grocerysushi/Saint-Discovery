@@ -60,6 +60,15 @@ test('uncovered local dates keep the reflection link and explain the directory g
   assert.match(html, /href="\/saint-of-day"/);
 });
 
+test('directory links agree with daily readings for additional and leap-day commemorations', async () => {
+  const saints = await loadTs('lib/saints.ts').getAllSaints();
+  for (const [date, slug] of [['05-01', 'joseph'], ['04-17', 'kateri-tekakwitha'], ['10-02', 'leodegar-of-autun'], ['02-29', 'oswald-of-worcester']]) {
+    const html = renderDaily(saints, date);
+    assert.match(html, new RegExp(`/saints/${slug}"`));
+    assert.doesNotMatch(html, /does not yet include an entry/);
+  }
+});
+
 test('local calendar refreshes at midnight, catches up on visibility, and cleans up', () => {
   let now = new Date(2026, 8, 29, 23, 59, 50).getTime();
   class TestDate extends Date { constructor(...args) { super(...(args.length ? args : [now])); } }

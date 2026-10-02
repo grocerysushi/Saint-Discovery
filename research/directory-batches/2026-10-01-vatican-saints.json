@@ -438,10 +438,10 @@
     "gender": "Male",
     "dates": "1802–1840",
     "origin": "France; ministry in China",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+    "feast_day": "September 11",
+    "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/1834/Saint-Jean-Gabriel-Perboyre.html",
+    "feast_note": "September 11 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
     "biography": [
       "John Gabriel Perboyre first encountered seminary life while accompanying his younger brother. He entered the Congregation of the Mission in 1818 and, after ordination in 1826, helped form seminarians in France. His brother Louis hoped to serve in China but died during the journey. John Gabriel subsequently asked to take up that missionary work himself.",
       "He arrived in China in 1835, learned the language, and visited small Christian communities before his arrest and martyrdom in 1840. His biography connects missionary commitment with the less visible work of teaching and preparation. The Vatican's canonization record places his recognition as a saint in 1996; he should not be confused with the earlier Vincentian martyr Francis Regis Clet."
@@ -454,9 +454,13 @@
       {
         "title": "Vatican: canonizations of John Paul II",
         "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: John Gabriel Perboyre",
+        "url": "https://nominis.cef.fr/contenus/saint/1834/Saint-Jean-Gabriel-Perboyre.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
     "identity_review": "Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
     "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
@@ -867,10 +871,10 @@
     "gender": "Female",
     "dates": "1799–1889",
     "origin": "Spain",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+    "feast_day": "February 26",
+    "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/11482/Sainte-Paule-Montal-Forn%C3%A9s-de-Saint-Joseph-de-Calasanz.html",
+    "feast_note": "February 26 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
     "biography": [
       "Paula Montal Fornés lost her father as a child and helped support her family. Growing up in Arenys de Mar, she recognized how limited educational opportunities were for girls. In 1829 she and Inés Busquets opened a school in Figueres, offering a broader education within a Christian setting.",
       "Further schools followed, and cooperation with the Piarists helped shape the Sisters of the Pious Schools. Paula drew on the educational spirituality of Saint Joseph Calasanz and made teaching central to the congregation's religious commitment. Her contribution was not simply founding a school, but building a durable community around girls' education. She was canonized in 2001."
@@ -883,9 +887,13 @@
       {
         "title": "Vatican: canonizations of John Paul II",
         "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: Paula Montal Fornés",
+        "url": "https://nominis.cef.fr/contenus/saint/11482/Sainte-Paule-Montal-Forn%C3%A9s-de-Saint-Joseph-de-Calasanz.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
     "identity_review": "Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
     "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
@@ -1333,10 +1341,10 @@
     "gender": "Female",
     "dates": "1865–1939",
     "origin": "Poland; ministry in Russia and Scandinavia",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+    "feast_day": "May 29",
+    "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/7145/Sainte-Ursule-Ledochowska.html",
+    "feast_note": "May 29 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
     "biography": [
       "Ursula Ledóchowska entered the Ursulines in Kraków and developed a particular concern for students. She organized accommodation for women attending university, then undertook educational work in Saint Petersburg under restrictions on Catholic religious life. The First World War forced her to leave Russia and continue her work in Scandinavia.",
       "There she assisted war victims and worked with people across religious and political divisions. Returning to Poland in 1920 with sisters and orphaned children, she guided the community that became the Ursulines of the Agonizing Heart of Jesus. Her ministry linked schooling, hospitality, and practical reconciliation. Canonized in 2003, Ursula is distinct from her sister Maria Teresa, who founded another community and was beatified."
@@ -1349,9 +1357,13 @@
       {
         "title": "Vatican: canonizations of John Paul II",
         "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: Ursula Ledóchowska",
+        "url": "https://nominis.cef.fr/contenus/saint/7145/Sainte-Ursule-Ledochowska.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
     "identity_review": "Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
     "uncertainty_note": "Original concise summary of an institutional biography. Historical congregation statistics are not presented as current figures. No unverified feast, patronage, quotation or artwork added.",
@@ -1604,10 +1616,10 @@
     "gender": "Male",
     "dates": "1833–1901",
     "origin": "Spain",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+    "feast_day": "December 17",
+    "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/9663/Saint-Joseph-Manyanet-y-Vives.html",
+    "feast_note": "December 17 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
     "biography": [
       "Josep Manyanet y Vives worked to support his education before being ordained in 1859. After diocesan service in Urgell, he founded the Sons of the Holy Family in 1864 and the Missionary Daughters of the Holy Family of Nazareth in 1874. Both foundations emphasized the Christian formation of families through education and ministry.",
       "He wrote for families and religious communities, established schools, and promoted devotion to the Holy Family, including the idea of a church dedicated to it in Barcelona. His contribution was spiritual and educational rather than architectural. The Vatican biography's opening sentence contains a birth-year typo; its heading gives 1833–1901. The canonization index records his recognition as a saint in 2004."
@@ -1620,9 +1632,13 @@
       {
         "title": "Vatican: canonizations of John Paul II",
         "url": "https://www.vatican.va/news_services/liturgy/saints/index_saints_en.html"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: Josep Manyanet y Vives",
+        "url": "https://nominis.cef.fr/contenus/saint/9663/Saint-Joseph-Manyanet-y-Vives.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The individual biography is linked from the Vatican canonization index, not its separate beatification index. Historical biography text sometimes uses Blessed because it was prepared before the ceremony; recognition is checked against the canonization listing.",
     "identity_review": "Individual biography name, life dates, community and location checked against the existing published directory; the compiler additionally rejects name and slug collisions with archived legacy records and every expansion batch.",
     "uncertainty_note": "The biography heading gives 1833–1901; the first sentence incorrectly gives 1933, which is incompatible with the documented 1859 ordination. The heading is followed here. No unverified feast, patronage, quotation or artwork added.",

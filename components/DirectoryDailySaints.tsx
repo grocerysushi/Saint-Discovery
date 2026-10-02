@@ -5,6 +5,7 @@ import Link from "next/link";
 import { localDateKey, subscribeToLocalDate } from "@/lib/calendar-date";
 import { saintDisplayName } from "@/lib/saint-seo";
 import type { Saint } from "@/lib/types";
+import { saintHasCalendarDate } from "@/lib/saint-calendar";
 
 const serverDate = () => null;
 
@@ -14,7 +15,7 @@ export default function DirectoryDailySaints({ saints }: { saints: Saint[] }) {
   const date = useSyncExternalStore(subscribeToLocalDate, localDateKey, serverDate);
   const [month, day] = date?.split("-").map(Number) ?? [];
   const label = date ? new Date(2024, month - 1, day).toLocaleDateString("en-US", { month: "long", day: "numeric" }) : null;
-  const dailySaints = label ? saints.filter(saint => saint.feast_day?.trim() === label) : [];
+  const dailySaints = date ? saints.filter(saint => saintHasCalendarDate(saint, date)) : [];
 
   return <section className="directory-support" aria-labelledby="directory-daily-title">
     {label && <p className="eyebrow mb-3">{label}</p>}

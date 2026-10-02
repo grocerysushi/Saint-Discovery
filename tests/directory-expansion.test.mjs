@@ -8,19 +8,19 @@ const entries = fs.readdirSync(batches).filter(file => file.endsWith('.json')).s
   .flatMap(file => JSON.parse(fs.readFileSync(new URL(file, batches))));
 const generated = JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json', import.meta.url)));
 
-test('reproducible batches preserve 61 additions and add 100 unique named Catholic saints', async () => {
+test('reproducible batches preserve earlier additions and add 38 calendar-coverage saints', async () => {
   assert.deepEqual(compile(entries),generated);
-  assert.equal(entries.length,161);
+  assert.equal(entries.length,199);
   const {getAllSaints,getSaintBySlug,getAllSaintSlugs}=loadTs('lib/saints.ts');
   const all=await getAllSaints();
-  assert.equal(all.length,587);
-  assert.equal(new Set(all.map(s=>s.slug)).size,587);
+  assert.equal(all.length,625);
+  assert.equal(new Set(all.map(s=>s.slug)).size,625);
   for(const e of entries) {
     const saint=await getSaintBySlug(e.slug);
     assert.equal(saint.name,e.name);
     assert.ok(getAllSaintSlugs().includes(e.slug));
     assert.equal(saint.directory_only,true);
-    assert.equal(saint.feast_day,null);
+    assert.equal(saint.feast_day,e.feast_day);
     assert.equal(saint.prayer,null);
     assert.equal(saint.patron_of,null);
   }

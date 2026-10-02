@@ -942,10 +942,10 @@
     "gender": "Male",
     "dates": "1805-1839",
     "origin": "Korea",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Execution dates are not treated as feast days; a shared celebration requires a scoped calendar citation.",
+    "feast_day": "September 12",
+    "calendar_scope": "Catholic commemoration documented by Nominis; not a claim of universal liturgical rank",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/10400/Saint-Fran%C3%A7ois-Ch-oe-Kyong-Kwan.html",
+    "feast_note": "September 12 is a Catholic commemoration recorded by Nominis. This daily reading does not determine the Mass or liturgical rank; local calendars and higher-ranking celebrations can differ.",
     "biography": [
       "Francis Choe Kyong-hwan helped build a Catholic community near Mount Suri, clearing land and assisting families as they settled. He gathered neighbors for religious instruction and became a catechist. During persecution he collected money for imprisoned Catholics and poor neighbors, and helped bury people who had been executed.",
       "He and his wife agreed to send their son Thomas Yang-eop abroad to prepare for the priesthood. Arrested with other villagers in 1839, Francis continued teaching and praying in prison. He died there after repeated torture in September. His canonized status is distinct from the separate recognition histories of his wife and son."
@@ -954,9 +954,13 @@
       {
         "title": "Catholic Bishops' Conference of Korea: Franciscus Choe Kyong-hwan",
         "url": "https://cbck.or.kr/en/CatholicChurchInKorea/103-Korean-Martyr-Saints/31"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: Francis Choe Kyong-hwan",
+        "url": "https://nominis.cef.fr/contenus/saint/10400/Saint-Fran%C3%A7ois-Ch-oe-Kyong-Kwan.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The Catholic Bishops' Conference of Korea identifies this individual as number 31 in its 103 Korean Martyr Saints collection, separate from its 124 Korean Martyr Blesseds collection.",
     "identity_review": "Compared canonical and source name variants, family relationships and death details against 486 legacy records and all 21 prior additions (447 published records). CBCK individual 31 is a distinct person, not either existing Korean saint Andrew Kim Tae-gon or Paul Chong Ha-sang.",
     "uncertainty_note": "The father alone is added. His wife and son have separate recognition histories and are not counted as canonized saints through family association. Feast calendar, patronages and quotations remain unverified. No artwork or source prose copied.",

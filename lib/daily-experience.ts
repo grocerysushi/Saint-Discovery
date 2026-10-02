@@ -3,6 +3,7 @@ import { getAllSaints } from "@/lib/saints";
 import { getBiographyReview } from "@/lib/saint-reviews";
 import { validDateKey, localDateKey } from "@/lib/calendar-date";
 import { saintDisplayName } from "@/lib/saint-seo";
+import { saintHasCalendarDate } from "@/lib/saint-calendar";
 
 // Original editorial prompts, never quotations or prayers attributed to a saint.
 const REFLECTIONS = [
@@ -20,13 +21,13 @@ export async function getDailyExperience(date = localDateKey()) {
   const featured = getSaintOfDay(date);
   const [month, day] = date.split("-").map(Number);
   const label = new Date(2024, month - 1, day).toLocaleDateString("en-US", { month: "long", day: "numeric" });
-  const saints = (await getAllSaints()).filter(saint => saint.feast_day === label);
+  const saints = (await getAllSaints()).filter(saint => saintHasCalendarDate(saint, date));
   const review = featured ? getBiographyReview(featured.slug) : null;
   return {
     date, label, featured,
     biography: review?.biography ?? [],
-    sources: review?.sources ?? [],
-    feastNote: review?.feast_note ?? "",
+    sources: [...new Map([...(review?.sources ?? []), ...(featured?.calendarSources ?? [])].map(source => [source.url, source])).values()],
+    feastNote: featured?.calendarNote ?? review?.feast_note ?? "",
     alsoToday: saints.filter(saint => saint.slug !== featured?.slug).map(saint => ({ slug: saint.slug, name: saintDisplayName(saint), kind: saint.kind })),
     reflection: REFLECTIONS[((month - 1) * 31 + day - 1) % REFLECTIONS.length],
   };
