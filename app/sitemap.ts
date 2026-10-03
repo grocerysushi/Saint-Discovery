@@ -3,8 +3,7 @@ import { absoluteUrl } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
-import { getBiographyReview } from "@/lib/saint-reviews";
-import { getSaintContribution } from "@/lib/saint-contributions";
+import { getBiographyUpdatedOn } from "@/lib/directory-editorial";
 
 export const revalidate = 86400;
 
@@ -63,7 +62,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/editorial-policy"),
-      lastModified: new Date("2026-09-25"),
+      lastModified: new Date("2026-10-03"),
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
+    {
+      url: absoluteUrl("/editorial-policy/feast-calendars"),
+      lastModified: new Date("2026-10-03"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: absoluteUrl("/editorial-policy/corrections"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "monthly",
       priority: 0.3,
     },
@@ -76,7 +87,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .filter((s) => s.slug)
     .map((s) => ({
       url: absoluteUrl(`/saints/${s.slug}`),
-      lastModified: new Date(getSaintContribution(s.slug)?.reviewed_on ?? getBiographyReview(s.slug)?.reviewed_on ?? CONTENT_UPDATED),
+      lastModified: new Date(getBiographyUpdatedOn(s.slug) ?? CONTENT_UPDATED),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }));

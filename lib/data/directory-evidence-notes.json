@@ -1,0 +1,46 @@
+{
+  "mary-magdalene": {
+    "reviewed_on": "2026-10-03",
+    "history": {
+      "text": "The Gospel accounts and the later identification of several women named Mary are different kinds of evidence. The Holy See's explanation of the 2016 liturgical change describes the older Western conflation and the reformed liturgy's focus on Mary of Magdala. A painting or an older devotional life that combines these figures does not establish that they were the same person.",
+      "sources": [{ "title": "Holy See: Mary Magdalene, apostle of the apostles (2016)", "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2016/06/10/160610c.html" }]
+    },
+    "calendar": {
+      "text": "July 22 is a feast in the General Roman Calendar. The 2016 decree changed the celebration's rank from an obligatory memorial to a feast; it did not move the date. Here, feast describes a specific liturgical rank, rather than a general term for any saint's anniversary.",
+      "sources": [{ "title": "Congregation for Divine Worship: The new preface of Saint Mary Magdalene", "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/il-nuovo-prefazio-maddalena-articolo_en.pdf" }]
+    }
+  },
+  "christopher": {
+    "reviewed_on": "2026-10-03",
+    "history": {
+      "text": "Vatican News explicitly presents the river crossing and the child who becomes impossibly heavy as a legend. The story explains Christopher's imagery and devotional association with travelers; it does not supply independently established dialogue, a birthplace, or a precise lifespan. Evidence for his veneration and the historical truth of every episode in a later life are separate questions.",
+      "sources": [{ "title": "Vatican News: Saint Christopher, martyr", "url": "https://www.vaticannews.va/en/saints/07/25/st--christopher--martyr.html" }]
+    },
+    "calendar": {
+      "text": "July 25 is the Western commemoration shown in the Vatican News saint directory. A listing in a saint directory should not be read as a claim that every parish celebrates an obligatory memorial on that date. Check the approved calendar for your country, diocese, or religious community when planning a liturgical celebration.",
+      "sources": [{ "title": "Vatican News: July 25, Saint Christopher", "url": "https://www.vaticannews.va/en/saints/07/25/st--christopher--martyr.html" }, { "title": "USCCB: Liturgical Calendar for the Dioceses of the United States", "url": "https://www.usccb.org/committees/divine-worship/liturgical-calendar" }]
+    }
+  },
+  "george": {
+    "reviewed_on": "2026-10-03",
+    "history": {
+      "text": "The dragon episode belongs to later legend. Vatican News labels it that way while discussing its Christian symbolism. The biography's discussion of medieval English patronage concerns George's later reception, not new evidence about his ancient death. Keep those layers separate when using his story in a lesson or interpreting an artwork.",
+      "sources": [{ "title": "Vatican News: Saint George, martyr", "url": "https://www.vaticannews.va/en/saints/04/23/st--george--martyr.html" }]
+    },
+    "calendar": {
+      "text": "April 23 is the commemoration used by the cited Vatican News page. The directory preserves this recurring date; the calendar used for Mass can have a different local rank or an observance affected by another celebration. A saint's customary date and the celebration assigned in a particular year are not interchangeable.",
+      "sources": [{ "title": "Vatican News: April 23, Saint George", "url": "https://www.vaticannews.va/en/saints/04/23/st--george--martyr.html" }, { "title": "USCCB: 2026 liturgical calendar, introduction and local additions", "url": "https://www.usccb.org/resources/2026cal.pdf" }]
+    }
+  },
+  "john-paul-ii": {
+    "reviewed_on": "2026-10-03",
+    "history": {
+      "text": "The Holy See's biographical record supports dates and events in John Paul II's life. Assessments of the effects of his pontificate require additional evidence and should not be treated as automatically established by that biography. His poetry, personal recollections, legislation, and formal teaching documents also have different purposes and authority.",
+      "sources": [{ "title": "Holy See: Biography of John Paul II", "url": "https://www.vatican.va/content/john-paul-ii/en/biografia/documents/hf_jp-ii_spe_20190722_biografia.html" }]
+    },
+    "calendar": {
+      "text": "The USCCB identifies October 22 as an optional memorial, following its inclusion in the General Roman Calendar in 2014. This date recalls the inauguration of his pontificate; he died on April 2, 2005. An optional memorial is a different liturgical rank from a feast, even though everyday usage often calls both a saint's feast day.",
+      "sources": [{ "title": "USCCB: Saint John Paul II and his liturgical memorial", "url": "https://www.usccb.org/prayer-and-worship/liturgical-year-and-calendar/saint-john-paul-ii" }, { "title": "USCCB: 2026 liturgical calendar, October 22", "url": "https://www.usccb.org/resources/2026cal.pdf" }]
+    }
+  }
+}
