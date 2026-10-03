@@ -1,6 +1,6 @@
 # Directory editorial maintenance
 
-The public evidence notes and dated corrections log began October 3, 2026. The initial structural inventory covers all 641 published biographies; targeted reading covers Mary Magdalene, Christopher, George, and John Paul II. Neither a structural check nor an HTTP success verifies every historical claim.
+The public evidence notes and dated corrections log began October 3, 2026. The initial structural inventory contained 625 distinct published biographies plus 16 alias references; its original 641 total was corrected to exclude those aliases. Targeted reading covered Mary Magdalene, Christopher, George, and John Paul II. Neither a structural check nor an HTTP success verifies every historical claim.
 
 ## Checking a biography
 
@@ -26,7 +26,7 @@ No qualified human review was performed or credited during this implementation. 
 - Date completed, findings, corrections accepted, and unresolved disagreements.
 - The reviewer's confirmation of the final wording and permission to publish the credit.
 
-Publish the name, relevant qualification, date, scope, and reviewed version only after completion. Review of selected pages does not imply approval of all 641 biographies. Later substantive revisions need renewed review or an explicit notice that the credit applies to the earlier version. Do not turn a volunteer review, a priest's title, or an institutional email address into a claim of ecclesiastical approval. Imprimatur and diocesan endorsement require their own documented authorization.
+Publish the name, relevant qualification, date, scope, and reviewed version only after completion. Review of selected pages does not imply approval of the whole directory. Later substantive revisions need renewed review or an explicit notice that the credit applies to the earlier version. Do not turn a volunteer review, a priest's title, or an institutional email address into a claim of ecclesiastical approval. Imprimatur and diocesan endorsement require their own documented authorization.
 
 Prioritize sparse early lives, legends used in classroom materials, calendar disagreements, similar-name identities, and records relying solely on old reference works. Invite specialist review through hello@saintdiscoveryquiz.com; do not imply a reviewer has accepted an invitation before they respond.
 

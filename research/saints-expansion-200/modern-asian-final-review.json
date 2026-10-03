@@ -1,0 +1,31 @@
+{
+  "reviewed_on": "2026-10-03",
+  "review_method": "AI-assisted independent source and identity review; no qualified human or ecclesiastical review claimed. Read all 70 original biographies, individual headings and selected relevant paragraphs from cached Hanoi sources, and all 117 entries of the Vatican individual register. Two unusually long sources were read selectively for facts used rather than every devotional paragraph.",
+  "asian_count": 70,
+  "distinct_vatican_individuals": 70,
+  "baseline_archived_or_canonical_count": 685,
+  "normalized_name_alias_or_identity_collisions": [],
+  "combined_validation_count": 399,
+  "unresolved_concrete_defects": [],
+  "corrected_findings": [
+    {
+      "name": "Dominic Mậu",
+      "finding": "The Francis Xavier Hà Trọng Mậu catechist page contains a duplicated priest biography. Final entry cites the Dominic priest page, matches Vatican48 priest OP deceased1858, withholds ambiguous Hà Trọng display/alias, and distinguishes Vatican75 catechist deceased1839."
+    },
+    {
+      "name": "John Baptist Đinh Văn Thanh",
+      "finding": "Companion Hanoi biographies conflict on shared arrest year1837/1838. Owning agent removed the explicit1838 prefix from final biography and recorded the conflict; latest paragraph checked."
+    },
+    {
+      "name": "Joseph Trần Văn Tuân",
+      "finding": "Hanoi body givesJune7,1862 while Vatican102 givesJanuary7,1862. Final biography uses1862 only and note records conflict. Priest JosephTuân is separately identified as Vatican56; no duplicate or mergedperson."
+    }
+  ],
+  "other_qualifications": [
+    "Peter Nguyễn Văn Hiếu/Lê Văn Hiếu are two surnames in one catechist account, with same companions and1840death; final heading follows Vatican79.",
+    "Paul Vũ Văn Đổng source uses erroneous Peter in body; final keeps Paul as Vatican107 and does not retain Peter as an alias.",
+    "Peter Nguyễn Đích is explicitly corrected from Anthony in the Hanoi source and matches Vatican64.",
+    "John Đoàn Trinh Hoan source closing paragraph calls Joseph, but heading/body and Vatican57 identify John; final follows John.",
+    "Several local headings/day dates disagree with Vatican death dates. Since feast_day remains null and biographies omit precise conflicting days, these do not create false scoped calendar claims."
+  ]
+}

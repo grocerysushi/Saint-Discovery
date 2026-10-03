@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-10-03-distinct-directory-count",
+    "date": "2026-10-03",
+    "slug": null,
+    "type": "correction",
+    "title": "Excluded alternate URLs from the biography audit total",
+    "before": "The initial source inventory described 641 entries as published biographies, including 16 alternate URLs for existing people.",
+    "after": "The audit now counts canonical published biographies only. The directory held 625 distinct records before this expansion; alternate URLs do not count as new saints.",
+    "method": "Compared the source inventory with the canonical directory data and duplicate-identity records; AI-assisted technical maintenance, not historical or theological review.",
+    "sources": []
+  },
+  {
     "id": "2026-10-03-revision-dates",
     "date": "2026-10-03",
     "slug": null,

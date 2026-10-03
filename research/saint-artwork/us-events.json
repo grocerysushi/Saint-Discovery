@@ -1,0 +1,1404 @@
+{
+  "sources": [
+    {
+      "url": "https://litcal.johnromanodorazio.com/api/v5/calendar/nation/US/2026?year_type=CIVIL&locale=en_US&ascension=SUNDAY",
+      "retrievedAt": "2026-10-03T14:35:03.509Z",
+      "sha256": "130c836ee94b0002fdee2d5c5ba2586470abb3e08d516f4e8e13fd96a2bcfba6",
+      "version": "5.7"
+    },
+    {
+      "url": "https://litcal.johnromanodorazio.com/api/v5/calendar/nation/US/2027?year_type=CIVIL&locale=en_US&ascension=SUNDAY",
+      "retrievedAt": "2026-10-03T14:35:03.686Z",
+      "sha256": "b75d97b791c1406e041c2bc48a27eed951bf132af5111819c87d164a31db7598",
+      "version": "5.7"
+    }
+  ],
+  "events": [
+    {
+      "date": "01-01",
+      "key": "MaryMotherOfGod",
+      "name": "Mary, Mother of God",
+      "grade": 6
+    },
+    {
+      "date": "01-02",
+      "key": "StsBasilGreg",
+      "name": "Saints Basil the Great and Gregory Nazianzen, Bishops and Doctors of the Church",
+      "grade": 3
+    },
+    {
+      "date": "01-03",
+      "key": "NameJesus",
+      "name": "The Most Holy Name of Jesus",
+      "grade": 2
+    },
+    {
+      "date": "01-04",
+      "key": "StElizabethSeton",
+      "name": "[ US ] Saint Elizabeth Ann Seton, Religious",
+      "grade": 3
+    },
+    {
+      "date": "01-05",
+      "key": "StJohnNeumann",
+      "name": "[ US ] Saint John Neumann, Bishop",
+      "grade": 3
+    },
+    {
+      "date": "01-06",
+      "key": "StAndreBessette",
+      "name": "[ US ] Saint André Bessette, Religious",
+      "grade": 2
+    },
+    {
+      "date": "01-07",
+      "key": "StRayPenyafort",
+      "name": "Saint Raymond of Penyafort, Priest",
+      "grade": 2
+    },
+    {
+      "date": "01-13",
+      "key": "StHilaryPoitiers",
+      "name": "Saint Hilary, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "01-17",
+      "key": "StAnthonyEgypt",
+      "name": "Saint Anthony, Abbot",
+      "grade": 3
+    },
+    {
+      "date": "01-20",
+      "key": "StFabianPope",
+      "name": "Saint Fabian, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "01-20",
+      "key": "StSebastian",
+      "name": "Saint Sebastian, Martyr",
+      "grade": 2
+    },
+    {
+      "date": "01-21",
+      "key": "StAgnes",
+      "name": "Saint Agnes, Virgin and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "01-22",
+      "key": "PrayerUnborn",
+      "name": "[ USA ] Day of Prayer for the Legal Protection of Unborn Children",
+      "grade": 3
+    },
+    {
+      "date": "01-22",
+      "key": "StVincentDeacon",
+      "name": "Saint Vincent, Deacon and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "01-24",
+      "key": "StFrancisDeSales",
+      "name": "Saint Francis de Sales, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "01-25",
+      "key": "ConversionStPaul",
+      "name": "The Conversion of Saint Paul the Apostle",
+      "grade": 4
+    },
+    {
+      "date": "01-26",
+      "key": "StsTimothyTitus",
+      "name": "Saints Timothy and Titus, Bishops",
+      "grade": 3
+    },
+    {
+      "date": "01-27",
+      "key": "StAngelaMerici",
+      "name": "Saint Angela Merici, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "01-28",
+      "key": "StThomasAquinas",
+      "name": "Saint Thomas Aquinas, Priest and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "01-31",
+      "key": "StJohnBosco",
+      "name": "Saint John Bosco, Priest",
+      "grade": 3
+    },
+    {
+      "date": "02-02",
+      "key": "Presentation",
+      "name": "Presentation of the Lord",
+      "grade": 5
+    },
+    {
+      "date": "02-03",
+      "key": "StBlase",
+      "name": "Saint Blase, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "02-03",
+      "key": "StAnsgar",
+      "name": "Saint Ansgar, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "02-05",
+      "key": "StAgatha",
+      "name": "Saint Agatha, Virgin and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "02-06",
+      "key": "StsPaulMiki",
+      "name": "Saint Paul Miki and Companions, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "02-08",
+      "key": "StJeromeEmiliani",
+      "name": "Saint Jerome Emiliani, Priest",
+      "grade": 2
+    },
+    {
+      "date": "02-08",
+      "key": "StJosephineBakhita",
+      "name": "Saint Josephine Bakhita, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "02-10",
+      "key": "StScholastica",
+      "name": "Saint Scholastica, Virgin",
+      "grade": 3
+    },
+    {
+      "date": "02-11",
+      "key": "OurLadyOfLourdes",
+      "name": "Our Lady of Lourdes",
+      "grade": 2
+    },
+    {
+      "date": "02-14",
+      "key": "StsCyrilMethodius",
+      "name": "Saints Cyril, Monk, and Methodius, Bishop",
+      "grade": 3
+    },
+    {
+      "date": "02-17",
+      "key": "SevenHolyFounders",
+      "name": "The Seven Holy Founders of the Servite Order",
+      "grade": 1
+    },
+    {
+      "date": "02-21",
+      "key": "StPeterDamian",
+      "name": "Saint Peter Damian, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "02-22",
+      "key": "ChairStPeter",
+      "name": "The Chair of Saint Peter the Apostle",
+      "grade": 4
+    },
+    {
+      "date": "02-23",
+      "key": "StPolycarp",
+      "name": "Saint Polycarp, Bishop and Martyr",
+      "grade": 1
+    },
+    {
+      "date": "02-27",
+      "key": "StGregoryNarek",
+      "name": "Saint Gregory of Narek, Abbot and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "03-03",
+      "key": "StKatharineDrexel",
+      "name": "[ US ] Saint Katharine Drexel, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "03-04",
+      "key": "StCasimir",
+      "name": "Saint Casimir",
+      "grade": 1
+    },
+    {
+      "date": "03-07",
+      "key": "StsPerpetuaFelicity",
+      "name": "Saints Perpetua and Felicity, Martyrs",
+      "grade": 1
+    },
+    {
+      "date": "03-08",
+      "key": "StJohnGod",
+      "name": "Saint John of God, Religious",
+      "grade": 1
+    },
+    {
+      "date": "03-09",
+      "key": "StFrancesRome",
+      "name": "Saint Frances of Rome, Religious",
+      "grade": 1
+    },
+    {
+      "date": "03-17",
+      "key": "StPatrick",
+      "name": "Saint Patrick, Bishop",
+      "grade": 1
+    },
+    {
+      "date": "03-18",
+      "key": "StCyrilJerusalem",
+      "name": "Saint Cyril of Jerusalem, Bishop and Doctor of the Church",
+      "grade": 1
+    },
+    {
+      "date": "03-19",
+      "key": "StJoseph",
+      "name": "Saint Joseph Husband of the Blessed Virgin Mary",
+      "grade": 6
+    },
+    {
+      "date": "03-23",
+      "key": "StTuribius",
+      "name": "Saint Turibius of Mogrovejo, Bishop",
+      "grade": 1
+    },
+    {
+      "date": "03-25",
+      "key": "Annunciation",
+      "name": "Annunciation of the Lord",
+      "grade": 6
+    },
+    {
+      "date": "04-05",
+      "key": "Annunciation",
+      "name": "Annunciation of the Lord",
+      "grade": 6
+    },
+    {
+      "date": "04-07",
+      "key": "StJohnBaptistDeLaSalle",
+      "name": "Saint John Baptist de la Salle, Priest",
+      "grade": 3
+    },
+    {
+      "date": "04-13",
+      "key": "StMartinPope",
+      "name": "Saint Martin I, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "04-21",
+      "key": "StAnselm",
+      "name": "Saint Anselm, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "04-23",
+      "key": "StGeorge",
+      "name": "Saint George, Martyr",
+      "grade": 2
+    },
+    {
+      "date": "04-23",
+      "key": "StAdalbert",
+      "name": "Saint Adalbert, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "04-24",
+      "key": "StFidelisSigmaringen",
+      "name": "Saint Fidelis of Sigmaringen, Priest and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "04-25",
+      "key": "StMarkEvangelist",
+      "name": "Saint Mark the Evangelist",
+      "grade": 4
+    },
+    {
+      "date": "04-28",
+      "key": "StPeterChanel",
+      "name": "Saint Peter Chanel, Priest and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "04-28",
+      "key": "StLouisGrignionMontfort",
+      "name": "Saint Louis Grignion de Montfort, Priest",
+      "grade": 2
+    },
+    {
+      "date": "04-29",
+      "key": "StCatherineSiena",
+      "name": "Saint Catherine of Siena, Virgin and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "04-30",
+      "key": "StPiusV",
+      "name": "Saint Pius V, Pope",
+      "grade": 2
+    },
+    {
+      "date": "05-01",
+      "key": "StJosephWorker",
+      "name": "Saint Joseph the Worker",
+      "grade": 2
+    },
+    {
+      "date": "05-02",
+      "key": "StAthanasius",
+      "name": "Saint Athanasius, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "05-03",
+      "key": "StsPhilipJames",
+      "name": "Saints Philip and James, Apostles",
+      "grade": 4
+    },
+    {
+      "date": "05-10",
+      "key": "StJohnAvila",
+      "name": "Saint John of Avila, Priest and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "05-10",
+      "key": "StDamienVeuster",
+      "name": "[ US ] Saint Damien de Veuster, Priest",
+      "grade": 2
+    },
+    {
+      "date": "05-12",
+      "key": "StsNereusAchilleus",
+      "name": "Saints Nereus and Achilleus, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "05-12",
+      "key": "StPancras",
+      "name": "Saint Pancras, Martyr",
+      "grade": 2
+    },
+    {
+      "date": "05-13",
+      "key": "OurLadyOfFatima",
+      "name": "Our Lady of Fatima",
+      "grade": 2
+    },
+    {
+      "date": "05-14",
+      "key": "StMatthiasAp",
+      "name": "Saint Matthias the Apostle",
+      "grade": 4
+    },
+    {
+      "date": "05-15",
+      "key": "StIsidore",
+      "name": "[ US ] Saint Isidore",
+      "grade": 2
+    },
+    {
+      "date": "05-18",
+      "key": "StJohnIPope",
+      "name": "Saint John I, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "05-20",
+      "key": "StBernardineSiena",
+      "name": "Saint Bernardine of Siena, Priest",
+      "grade": 2
+    },
+    {
+      "date": "05-21",
+      "key": "StChristopherMagallanes",
+      "name": "Saint Christopher Magallanes, Priest, and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "05-22",
+      "key": "StRitaCascia",
+      "name": "Saint Rita of Cascia, Religious",
+      "grade": 2
+    },
+    {
+      "date": "05-25",
+      "key": "StBedeVenerable",
+      "name": "Saint Bede the Venerable, Priest and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "05-25",
+      "key": "StGregoryVII",
+      "name": "Saint Gregory VII, Pope",
+      "grade": 2
+    },
+    {
+      "date": "05-25",
+      "key": "StMaryMagdalenePazzi",
+      "name": "Saint Mary Magdalene de Pazzi, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "05-26",
+      "key": "StPhilipNeri",
+      "name": "Saint Philip Neri, Priest",
+      "grade": 3
+    },
+    {
+      "date": "05-27",
+      "key": "StAugustineCanterbury",
+      "name": "Saint Augustine of Canterbury, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "05-29",
+      "key": "StPaulVI",
+      "name": "Saint Paul VI, Pope",
+      "grade": 2
+    },
+    {
+      "date": "05-31",
+      "key": "Visitation",
+      "name": "Visitation of the Blessed Virgin Mary",
+      "grade": 4
+    },
+    {
+      "date": "06-01",
+      "key": "StJustinMartyr",
+      "name": "Saint Justin Martyr",
+      "grade": 3
+    },
+    {
+      "date": "06-02",
+      "key": "StsMarcellinusPeter",
+      "name": "Saints Marcellinus and Peter, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "06-03",
+      "key": "StsCharlesLwanga",
+      "name": "Saint Charles Lwanga and Companions, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "06-05",
+      "key": "StBoniface",
+      "name": "Saint Boniface, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "06-06",
+      "key": "StNorbert",
+      "name": "Saint Norbert, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "06-09",
+      "key": "StEphrem",
+      "name": "Saint Ephrem, Deacon and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "06-11",
+      "key": "StBarnabasAp",
+      "name": "Saint Barnabas the Apostle",
+      "grade": 3
+    },
+    {
+      "date": "06-13",
+      "key": "StAnthonyPadua",
+      "name": "Saint Anthony of Padua, Priest and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "06-19",
+      "key": "StRomuald",
+      "name": "Saint Romuald, Abbot",
+      "grade": 2
+    },
+    {
+      "date": "06-21",
+      "key": "StAloysiusGonzaga",
+      "name": "Saint Aloysius Gonzaga, Religious",
+      "grade": 3
+    },
+    {
+      "date": "06-22",
+      "key": "StPaulinusNola",
+      "name": "Saint Paulinus of Nola, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "06-22",
+      "key": "StsJohnFisherThomasMore",
+      "name": "Saints John Fisher, Bishop, and Thomas More, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "06-24",
+      "key": "NativityJohnBaptist",
+      "name": "The Nativity of Saint John the Baptist",
+      "grade": 6
+    },
+    {
+      "date": "06-27",
+      "key": "StCyrilAlexandria",
+      "name": "Saint Cyril of Alexandria, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "06-28",
+      "key": "StIrenaeus",
+      "name": "Saint Irenaeus, Bishop and Martyr and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "06-29",
+      "key": "StsPeterPaulAp",
+      "name": "Saints Peter and Paul, Apostles",
+      "grade": 6
+    },
+    {
+      "date": "06-30",
+      "key": "FirstMartyrsRome",
+      "name": "The First Martyrs of the Holy Roman Church",
+      "grade": 2
+    },
+    {
+      "date": "07-01",
+      "key": "JuniperoSerra",
+      "name": "[ US ] Blessed Junípero Serra, Priest",
+      "grade": 2
+    },
+    {
+      "date": "07-03",
+      "key": "StThomasAp",
+      "name": "Saint Thomas the Apostle",
+      "grade": 4
+    },
+    {
+      "date": "07-04",
+      "key": "IndependenceDay",
+      "name": "[ US ] Independence Day",
+      "grade": 3
+    },
+    {
+      "date": "07-05",
+      "key": "StAnthonyZaccaria",
+      "name": "Saint Anthony Zaccaria, Priest",
+      "grade": 2
+    },
+    {
+      "date": "07-05",
+      "key": "StElizabethPortugal",
+      "name": "Saint Elizabeth of Portugal",
+      "grade": 2
+    },
+    {
+      "date": "07-06",
+      "key": "StMariaGoretti",
+      "name": "Saint Maria Goretti, Virgin and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "07-09",
+      "key": "StAugustineZhaoRong",
+      "name": "Saint Augustine Zhao Rong, Priest, and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "07-11",
+      "key": "StBenedict",
+      "name": "Saint Benedict, Abbot",
+      "grade": 3
+    },
+    {
+      "date": "07-13",
+      "key": "StHenry",
+      "name": "Saint Henry",
+      "grade": 2
+    },
+    {
+      "date": "07-14",
+      "key": "KateriTekakwitha",
+      "name": "[ US ] Blessed Kateri Tekakwitha, Virgin",
+      "grade": 3
+    },
+    {
+      "date": "07-14",
+      "key": "StCamillusDeLellis",
+      "name": "Saint Camillus de Lellis, Priest",
+      "grade": 2
+    },
+    {
+      "date": "07-15",
+      "key": "StBonaventure",
+      "name": "Saint Bonaventure, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "07-16",
+      "key": "OurLadyOfMountCarmel",
+      "name": "Our Lady of Mount Carmel",
+      "grade": 2
+    },
+    {
+      "date": "07-20",
+      "key": "StApollinaris",
+      "name": "Saint Apollinaris, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "07-21",
+      "key": "StLawrenceBrindisi",
+      "name": "Saint Lawrence of Brindisi, Priest and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "07-22",
+      "key": "StMaryMagdalene",
+      "name": "Saint Mary Magdalene",
+      "grade": 3
+    },
+    {
+      "date": "07-23",
+      "key": "StBridget",
+      "name": "Saint Bridget, Religious",
+      "grade": 2
+    },
+    {
+      "date": "07-24",
+      "key": "StSharbelMakhluf",
+      "name": "Saint Sharbel Makhluf, Hermit",
+      "grade": 2
+    },
+    {
+      "date": "07-25",
+      "key": "StJamesAp",
+      "name": "Saint James, Apostle",
+      "grade": 4
+    },
+    {
+      "date": "07-26",
+      "key": "StsJoachimAnne",
+      "name": "Saints Joachim and Anne, Parents of the Blessed Virgin Mary",
+      "grade": 3
+    },
+    {
+      "date": "07-29",
+      "key": "StMartha",
+      "name": "Saint Martha",
+      "grade": 3
+    },
+    {
+      "date": "07-30",
+      "key": "StPeterChrysologus",
+      "name": "Saint Peter Chrysologus, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "07-31",
+      "key": "StIgnatiusLoyola",
+      "name": "Saint Ignatius of Loyola, Priest",
+      "grade": 3
+    },
+    {
+      "date": "08-01",
+      "key": "StAlphonsusMariaDeLiguori",
+      "name": "Saint Alphonsus Mary Liguori, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "08-02",
+      "key": "StEusebius",
+      "name": "Saint Eusebius of Vercelli, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "08-02",
+      "key": "StPeterJulianEymard",
+      "name": "Saint Peter Julian Eymard, Priest",
+      "grade": 2
+    },
+    {
+      "date": "08-04",
+      "key": "StJeanVianney",
+      "name": "Saint John Mary Vianney, Priest",
+      "grade": 3
+    },
+    {
+      "date": "08-05",
+      "key": "DedicationStMaryMajor",
+      "name": "The Dedication of the Basilica of Saint Mary Major",
+      "grade": 2
+    },
+    {
+      "date": "08-06",
+      "key": "Transfiguration",
+      "name": "The Transfiguration of the Lord",
+      "grade": 5
+    },
+    {
+      "date": "08-07",
+      "key": "StSixtusIIPope",
+      "name": "Saint Sixtus II, Pope, and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "08-07",
+      "key": "StCajetan",
+      "name": "Saint Cajetan, Priest",
+      "grade": 2
+    },
+    {
+      "date": "08-08",
+      "key": "StDominic",
+      "name": "Saint Dominic, Priest",
+      "grade": 3
+    },
+    {
+      "date": "08-09",
+      "key": "StEdithStein",
+      "name": "Saint Teresa Benedicta of the Cross, Virgin and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "08-10",
+      "key": "StLawrenceDeacon",
+      "name": "Saint Lawrence, Deacon and Martyr",
+      "grade": 4
+    },
+    {
+      "date": "08-11",
+      "key": "StClare",
+      "name": "Saint Clare, Virgin",
+      "grade": 3
+    },
+    {
+      "date": "08-12",
+      "key": "StJaneFrancesDeChantal",
+      "name": "Saint Jane Frances de Chantal, Religious",
+      "grade": 2
+    },
+    {
+      "date": "08-13",
+      "key": "StsPontianHippolytus",
+      "name": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "08-14",
+      "key": "StMaximilianKolbe",
+      "name": "Saint Maximilian Mary Kolbe, Priest and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "08-15",
+      "key": "Assumption",
+      "name": "The Assumption of the Blessed Virgin Mary",
+      "grade": 6
+    },
+    {
+      "date": "08-16",
+      "key": "StStephenHungary",
+      "name": "Saint Stephen of Hungary",
+      "grade": 2
+    },
+    {
+      "date": "08-19",
+      "key": "StJohnEudes",
+      "name": "Saint John Eudes, Priest",
+      "grade": 2
+    },
+    {
+      "date": "08-20",
+      "key": "StBernardClairvaux",
+      "name": "Saint Bernard, Abbot and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "08-21",
+      "key": "StPiusX",
+      "name": "Saint Pius X, Pope",
+      "grade": 3
+    },
+    {
+      "date": "08-22",
+      "key": "QueenshipMary",
+      "name": "The Queenship of the Blessed Virgin Mary",
+      "grade": 3
+    },
+    {
+      "date": "08-23",
+      "key": "StRoseLima",
+      "name": "Saint Rose of Lima, virgin",
+      "grade": 2
+    },
+    {
+      "date": "08-24",
+      "key": "StBartholomewAp",
+      "name": "Saint Bartholomew, Apostle",
+      "grade": 4
+    },
+    {
+      "date": "08-25",
+      "key": "StLouis",
+      "name": "Saint Louis",
+      "grade": 2
+    },
+    {
+      "date": "08-25",
+      "key": "StJosephCalasanz",
+      "name": "Saint Joseph Calasanz, Priest",
+      "grade": 2
+    },
+    {
+      "date": "08-27",
+      "key": "StMonica",
+      "name": "Saint Monica",
+      "grade": 3
+    },
+    {
+      "date": "08-28",
+      "key": "StAugustineHippo",
+      "name": "Saint Augustine, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "08-29",
+      "key": "BeheadingJohnBaptist",
+      "name": "The Beheading of Saint John the Baptist, Martyr",
+      "grade": 3
+    },
+    {
+      "date": "09-03",
+      "key": "StGregoryGreat",
+      "name": "Saint Gregory the Great, Pope and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "09-05",
+      "key": "StMotherTeresa",
+      "name": "Saint Teresa of Calcutta, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "09-08",
+      "key": "NativityVirginMary",
+      "name": "The Nativity of the Blessed Virgin Mary",
+      "grade": 4
+    },
+    {
+      "date": "09-09",
+      "key": "StPeterClaver",
+      "name": "[ US ] Saint Peter Claver, Priest",
+      "grade": 3
+    },
+    {
+      "date": "09-12",
+      "key": "HolyNameMary",
+      "name": "The Holy Name of the Blessed Virgin Mary",
+      "grade": 2
+    },
+    {
+      "date": "09-13",
+      "key": "StJohnChrysostom",
+      "name": "Saint John Chrysostom, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "09-14",
+      "key": "ExaltationCross",
+      "name": "Exaltation of the Holy Cross",
+      "grade": 5
+    },
+    {
+      "date": "09-15",
+      "key": "OurLadyOfSorrows",
+      "name": "Our Lady of Sorrows",
+      "grade": 3
+    },
+    {
+      "date": "09-16",
+      "key": "StsCorneliusCyprian",
+      "name": "Saints Cornelius, Pope, and Cyprian, Bishop, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "09-17",
+      "key": "StRobertBellarmine",
+      "name": "Saint Robert Bellarmine, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "09-17",
+      "key": "StHildegardBingen",
+      "name": "Saint Hildegard of Bingen, Virgin and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "09-19",
+      "key": "StJanuarius",
+      "name": "Saint Januarius, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "09-20",
+      "key": "StAndrewKimTaegon",
+      "name": "Saint Andrew Kim Tae-gŏn, Priest, and Paul Chŏng Ha-sang, and Companions, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "09-21",
+      "key": "StMatthewEvangelist",
+      "name": "Saint Matthew, Apostle and Evangelist",
+      "grade": 4
+    },
+    {
+      "date": "09-23",
+      "key": "StPioPietrelcina",
+      "name": "Saint Pius of Pietrelcina, Priest",
+      "grade": 3
+    },
+    {
+      "date": "09-26",
+      "key": "StsCosmasDamian",
+      "name": "Saints Cosmas and Damian, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "09-27",
+      "key": "StVincentDePaul",
+      "name": "Saint Vincent de Paul, Priest",
+      "grade": 3
+    },
+    {
+      "date": "09-28",
+      "key": "StWenceslaus",
+      "name": "Saint Wenceslaus, Martyr",
+      "grade": 2
+    },
+    {
+      "date": "09-28",
+      "key": "StsLawrenceRuiz",
+      "name": "Saint Lawrence Ruiz and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "09-29",
+      "key": "StsArchangels",
+      "name": "Saints Michael, Gabriel and Raphael, Archangels",
+      "grade": 4
+    },
+    {
+      "date": "09-30",
+      "key": "StJerome",
+      "name": "Saint Jerome, Priest and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "10-01",
+      "key": "StThereseChildJesus",
+      "name": "Saint Thérèse of the Child Jesus, Virgin and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "10-02",
+      "key": "GuardianAngels",
+      "name": "The Holy Guardian Angels",
+      "grade": 3
+    },
+    {
+      "date": "10-04",
+      "key": "StFrancisAssisi",
+      "name": "Saint Francis of Assisi",
+      "grade": 3
+    },
+    {
+      "date": "10-05",
+      "key": "StFaustinaKowalska",
+      "name": "Saint Faustina Kowalska",
+      "grade": 2
+    },
+    {
+      "date": "10-06",
+      "key": "StBruno",
+      "name": "Saint Bruno, Priest",
+      "grade": 2
+    },
+    {
+      "date": "10-06",
+      "key": "MarieDurocher",
+      "name": "[ US ] Blessed Marie Rose Durocher, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "10-07",
+      "key": "OurLadyOfTheRosary",
+      "name": "Our Lady of the Rosary",
+      "grade": 3
+    },
+    {
+      "date": "10-09",
+      "key": "StDenis",
+      "name": "Saint Denis, Bishop, and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "10-09",
+      "key": "StJohnLeonardi",
+      "name": "Saint John Leonardi, Priest",
+      "grade": 2
+    },
+    {
+      "date": "10-11",
+      "key": "StJohnXXIII",
+      "name": "Saint John XXIII, Pope",
+      "grade": 2
+    },
+    {
+      "date": "10-14",
+      "key": "StCallistusIPope",
+      "name": "Saint Callistus I, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "10-15",
+      "key": "StTeresaJesus",
+      "name": "Saint Teresa of Jesus, Virgin and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "10-16",
+      "key": "StHedwig",
+      "name": "Saint Hedwig, Religious",
+      "grade": 2
+    },
+    {
+      "date": "10-16",
+      "key": "StMargaretAlacoque",
+      "name": "Saint Margaret Mary Alacoque, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "10-17",
+      "key": "StIgnatiusAntioch",
+      "name": "Saint Ignatius of Antioch, Bishop and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "10-18",
+      "key": "StLukeEvangelist",
+      "name": "Saint Luke, Evangelist",
+      "grade": 4
+    },
+    {
+      "date": "10-19",
+      "key": "StsJeanBrebeuf",
+      "name": "Saints John de Brébeuf and Isaac Jogues, Priests, and Companions, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "10-19",
+      "key": "StPaulCross",
+      "name": "Saint Paul of the Cross, Priest",
+      "grade": 2
+    },
+    {
+      "date": "10-22",
+      "key": "StJohnPaulII",
+      "name": "Saint John Paul II, Pope",
+      "grade": 2
+    },
+    {
+      "date": "10-23",
+      "key": "StJohnCapistrano",
+      "name": "Saint John of Capestrano, Priest",
+      "grade": 2
+    },
+    {
+      "date": "10-24",
+      "key": "StAnthonyMaryClaret",
+      "name": "Saint Anthony Mary Claret, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "10-28",
+      "key": "StSimonStJudeAp",
+      "name": "Saints Simon and Jude, Apostles",
+      "grade": 4
+    },
+    {
+      "date": "11-01",
+      "key": "AllSaints",
+      "name": "All Saints",
+      "grade": 6
+    },
+    {
+      "date": "11-02",
+      "key": "AllSouls",
+      "name": "The Commemoration of all the Faithful Departed (All Souls' Day)",
+      "grade": 6
+    },
+    {
+      "date": "11-03",
+      "key": "StMartinPorres",
+      "name": "Saint Martin de Porres, Religious",
+      "grade": 2
+    },
+    {
+      "date": "11-04",
+      "key": "StCharlesBorromeo",
+      "name": "Saint Charles Borromeo, Bishop",
+      "grade": 3
+    },
+    {
+      "date": "11-09",
+      "key": "DedicationLateran",
+      "name": "The Dedication of the Lateran Basilica",
+      "grade": 5
+    },
+    {
+      "date": "11-10",
+      "key": "StLeoGreat",
+      "name": "Saint Leo the Great, Pope and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "11-11",
+      "key": "StMartinTours",
+      "name": "Saint Martin of Tours, Bishop",
+      "grade": 3
+    },
+    {
+      "date": "11-12",
+      "key": "StJosaphat",
+      "name": "Saint Josaphat, Bishop and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "11-13",
+      "key": "StFrancesXCabrini",
+      "name": "[ US ] Saint Frances Xavier Cabrini, Virgin",
+      "grade": 3
+    },
+    {
+      "date": "11-15",
+      "key": "StAlbertGreat",
+      "name": "Saint Albert the Great, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "11-16",
+      "key": "StMargaretScotland",
+      "name": "Saint Margaret of Scotland",
+      "grade": 2
+    },
+    {
+      "date": "11-16",
+      "key": "StGertrudeGreat",
+      "name": "Saint Gertrude the Great, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "11-17",
+      "key": "StElizabethHungary",
+      "name": "Saint Elizabeth of Hungary, Religious",
+      "grade": 3
+    },
+    {
+      "date": "11-18",
+      "key": "DedicationStsPeterPaul",
+      "name": "The Dedication of the Basilicas of Saints Peter and Paul, Apostles",
+      "grade": 2
+    },
+    {
+      "date": "11-18",
+      "key": "StRoseDuchesne",
+      "name": "[ US ] Saint Rose Philippine Duchesne, Virgin",
+      "grade": 2
+    },
+    {
+      "date": "11-21",
+      "key": "PresentationMary",
+      "name": "The Presentation of the Blessed Virgin Mary",
+      "grade": 3
+    },
+    {
+      "date": "11-22",
+      "key": "StCecilia",
+      "name": "Saint Cecilia, Virgin and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "11-23",
+      "key": "StClementIPope",
+      "name": "Saint Clement I, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "11-23",
+      "key": "StColumban",
+      "name": "Saint Columban, Religious",
+      "grade": 2
+    },
+    {
+      "date": "11-23",
+      "key": "MiguelPro",
+      "name": "[ US ] Blessed Miguel Agustín Pro, Priest and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "11-24",
+      "key": "StAndrewDungLac",
+      "name": "Saint Andrew Dũng-Lạc, Priest, and Companions, Martyrs",
+      "grade": 3
+    },
+    {
+      "date": "11-25",
+      "key": "StCatherineAlexandria",
+      "name": "Saint Catherine of Alexandria, Virgin and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "11-30",
+      "key": "StAndrewAp",
+      "name": "Saint Andrew, Apostle",
+      "grade": 4
+    },
+    {
+      "date": "12-03",
+      "key": "StFrancisXavier",
+      "name": "Saint Francis Xavier, Priest",
+      "grade": 3
+    },
+    {
+      "date": "12-04",
+      "key": "StJohnDamascene",
+      "name": "Saint John Damascene, Priest and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "12-06",
+      "key": "StNicholas",
+      "name": "Saint Nicholas, Bishop",
+      "grade": 2
+    },
+    {
+      "date": "12-07",
+      "key": "StAmbrose",
+      "name": "Saint Ambrose, Bishop and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "12-08",
+      "key": "ImmaculateConception",
+      "name": "The Immaculate Conception of the Blessed Virgin Mary, Patronal feastday of the United States of America",
+      "grade": 6
+    },
+    {
+      "date": "12-09",
+      "key": "JuanDiego",
+      "name": "Saint Juan Diego Cuauhtlatoatzin",
+      "grade": 2
+    },
+    {
+      "date": "12-10",
+      "key": "OurLadyOfLoreto",
+      "name": "Blessed Virgin Mary of Loreto",
+      "grade": 2
+    },
+    {
+      "date": "12-11",
+      "key": "StDamasusIPope",
+      "name": "Saint Damasus I, Pope",
+      "grade": 2
+    },
+    {
+      "date": "12-12",
+      "key": "OurLadyOfGuadalupe",
+      "name": "[ USA ] Our Lady of Guadalupe",
+      "grade": 4
+    },
+    {
+      "date": "12-13",
+      "key": "StLucySyracuse",
+      "name": "Saint Lucy of Syracuse, Virgin and Martyr",
+      "grade": 3
+    },
+    {
+      "date": "12-14",
+      "key": "StJohnCross",
+      "name": "Saint John of the Cross, Priest and Doctor of the Church",
+      "grade": 3
+    },
+    {
+      "date": "12-21",
+      "key": "StPeterCanisius",
+      "name": "Saint Peter Canisius, Priest and Doctor of the Church",
+      "grade": 1
+    },
+    {
+      "date": "12-23",
+      "key": "StJohnKanty",
+      "name": "Saint John of Kanty, Priest",
+      "grade": 1
+    },
+    {
+      "date": "12-25",
+      "key": "Christmas",
+      "name": "Christmas",
+      "grade": 7
+    },
+    {
+      "date": "12-26",
+      "key": "StStephenProtomartyr",
+      "name": "Saint Stephen, The First Martyr",
+      "grade": 4
+    },
+    {
+      "date": "12-27",
+      "key": "StJohnEvangelist",
+      "name": "Saint John, Apostle and Evangelist",
+      "grade": 4
+    },
+    {
+      "date": "12-28",
+      "key": "HolyInnocents",
+      "name": "The Holy Innocents, Martyrs",
+      "grade": 4
+    },
+    {
+      "date": "12-29",
+      "key": "StThomasBecket",
+      "name": "Saint Thomas Becket, Bishop and Martyr",
+      "grade": 1
+    },
+    {
+      "date": "12-31",
+      "key": "StSylvesterIPope",
+      "name": "Saint Sylvester I, Pope",
+      "grade": 1
+    }
+  ]
+}

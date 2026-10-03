@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-03",
+  "status": "validated for release; see Git history for commit status and hosting checks for deployment status",
+  "directoryEntries": 825,
+  "historicalImages": 540,
+  "existingGeneratedIllustrations": 36,
+  "symbolicImages": 249,
+  "newHistoricalAssignments": 183,
+  "rejectedCandidates": 36,
+  "bundledRemoteAssets": 532,
+  "uniqueAssignedAssets": 571,
+  "missingOrInvalidImageAssets": 0,
+  "dailyDateCoverage": 366,
+  "usCalendarRecurringDates": 173,
+  "usCalendarAssociations": 209,
+  "selection": "USCCB U.S. calendar rank before artwork availability; companions and other documented dates preserved",
+  "verification": {
+    "unitAndIntegrationTests": "136 passed",
+    "productionSEOTests": "6 passed; all 825 biographies render images and disclosures without client JavaScript",
+    "typescript": "passed",
+    "scopedSourceLint": "passed; existing ignored local dashboard excluded",
+    "productionBuild": "passed; 904 static pages",
+    "assetChecks": "all 571 assigned local assets decode with positive dimensions",
+    "browser": [
+      "1280px: Thomas More and Theodore Guérin historical images loaded with source/license captions and no horizontal overflow",
+      "1280px: directory contains 825 image cards; visible historical images loaded",
+      "July 14: Kateri Tekakwitha featured with USCCB calendar note; Camillus de Lellis preserved as companion",
+      "390px: Agnes Lê Thị Thành symbolic artwork loaded, explicitly not a portrait, with no horizontal overflow"
+    ]
+  },
+  "limitations": [
+    "Symbolic images are not individual saint portraits.",
+    "Existing AI illustrations remain clearly identified as artistic interpretations.",
+    "Calendar priority is for a recurring reading guide; the separate dated liturgical banner retains yearly precedence.",
+    "Checks were AI-assisted source comparisons and technical verification, not a credited independent human or ecclesiastical review."
+  ]
+}

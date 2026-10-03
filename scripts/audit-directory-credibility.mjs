@@ -4,10 +4,10 @@ import { fileURLToPath } from 'node:url';
 import { loadTs } from '../tests/load-ts.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
-const { reviews, isPublishedSaintSlug, getBiographyReview } = loadTs('lib/saint-reviews.ts');
+const { reviews, isPublishedSaintSlug, getBiographyReview, canonicalSaintSlug } = loadTs('lib/saint-reviews.ts');
 const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
 const { directoryEvidenceNotes, getBiographyUpdatedOn } = loadTs('lib/directory-editorial.ts');
-const slugs = Object.keys(reviews).filter(isPublishedSaintSlug).sort();
+const slugs = Object.keys(reviews).filter(slug => canonicalSaintSlug(slug) === slug && isPublishedSaintSlug(slug)).sort();
 const errors = [];
 const inventory = slugs.map(slug => {
   const review = getBiographyReview(slug);

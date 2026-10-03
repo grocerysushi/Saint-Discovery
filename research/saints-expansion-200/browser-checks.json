@@ -1,0 +1,80 @@
+{
+  "checkedAt": "2026-10-03T14:22:50.520Z",
+  "directoryCount": 825,
+  "alternateNameSearch": {
+    "query": "Anne-Thérèse Guérin",
+    "matchedSlug": "theodore-guerin",
+    "matches": 1
+  },
+  "biographyPages": [
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/jose-gregorio-hernandez-cisneros",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/jose-gregorio-hernandez-cisneros",
+      "sources": [
+        "https://www.causesanti.va/it/santi-e-beati/jose-gregorio-hernandez-cisneros.html"
+      ],
+      "title": "St. José Gregorio Hernández Cisneros"
+    },
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/ignatius-maloyan",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/ignatius-maloyan",
+      "sources": [
+        "https://www.causesanti.va/it/santi-e-beati/ignazio-maloyan.html"
+      ],
+      "title": "St. Ignatius Maloyan"
+    },
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/dominic-mau",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/dominic-mau",
+      "sources": [
+        "https://www.tonggiaophanhanoi.org/ngay-05-11-thanh-da-minh-mau-linh-muc-1794-1858/",
+        "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19880619_martiri_vietnam_fr.html"
+      ],
+      "title": "St. Dominic Mậu"
+    },
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/paul-vu-van-dong",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/paul-vu-van-dong",
+      "sources": [
+        "https://www.tonggiaophanhanoi.org/ngay-03-6-thanh-phaolo-vu-van-dong-duong-thu-ba-1802-1862/",
+        "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19880619_martiri_vietnam_fr.html"
+      ],
+      "title": "St. Paul Vũ Văn Đổng"
+    },
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/mildred-of-thanet",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/mildred-of-thanet",
+      "sources": [
+        "https://nominis.cef.fr/contenus/saint/1500/Sainte-Mildred-de-Thanet.html",
+        "https://minsterabbeynuns.org/saints-of-minster/"
+      ],
+      "title": "St. Mildred of Thanet"
+    },
+    {
+      "canonical": "https://www.saintdiscoveryquiz.com/saints/macrina-the-younger",
+      "hasCalendarExplanation": true,
+      "hasMain": true,
+      "paragraphs": 2,
+      "path": "/saints/macrina-the-younger",
+      "sources": [
+        "https://nominis.cef.fr/contenus/saint/7643/Sainte-Macrine-la-Jeune.html"
+      ],
+      "title": "St. Macrina the Younger"
+    }
+  ]
+}

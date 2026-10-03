@@ -14,6 +14,8 @@ import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
 import BiographyArticles from "@/components/BiographyArticles";
 import saintExtended from "@/lib/data/saint-extended.json";
+import { getSaintArtwork } from "@/lib/saint-artwork";
+import SaintArtworkFigure from "@/components/SaintArtwork";
 
 // Legacy generated copy is replaced as each external-source review is completed.
 // Its former model-only checking process was not independent fact verification.
@@ -95,6 +97,7 @@ export default async function SaintPage({
     "What small action could you take today in response?",
   ];
   const { name, title, description } = saintSearchSummary(saint);
+  const artwork = getSaintArtwork(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
   const relatedGuides = PATRON_GUIDES.filter(guide => guide.saints.some(entry => entry.slug === saint.slug));
 
@@ -104,6 +107,7 @@ export default async function SaintPage({
     "@id": `${url}#article`,
     url,
     headline: title,
+    ...(!artwork.symbolic ? { image: absoluteUrl(artwork.src) } : {}),
     description,
     inLanguage: "en-US",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
@@ -244,6 +248,8 @@ export default async function SaintPage({
             )}
             {review && <a href="#sources" className="profile-source-link">Read the sources for this biography</a>}
           </header>
+
+          <SaintArtworkFigure artwork={artwork} name={name} />
 
           <nav aria-label="On this page" className="profile-contents">
             <h2>On this page</h2>

@@ -1,0 +1,37 @@
+{
+  "reviewed_on": "2026-10-03",
+  "review_method": "AI-assisted independent read-only cross-batch review; no human or ecclesiastical review claimed.",
+  "historical_count": 60,
+  "modern_count": 70,
+  "baseline_archived_and_canonical_count": 685,
+  "published_baseline_count": 625,
+  "exact_normalized_name_or_alias_collisions": [],
+  "individual_source_identity_collisions": [],
+  "notes": [
+    {
+      "type": "semantic_identity_review",
+      "finding": "No semantic identity collision found after reading baseline names and alternate names. Similar names remain different people: Gertrude of Nivelles / Gertrude the Great; Mechthild of Hackeborn / Matilda of Ringelheim; Anselm of Lucca / Anselm of Canterbury; Hugh of Cluny / Hugh of Grenoble; Odo of Cluny / Odilo of Cluny; Caesarius of Arles / Caesarius of Nazianzus; Stephen of Hungary / Stephen the first martyr; Henry II / Henry Morse or Henry Walpole."
+    },
+    {
+      "type": "biographical_claim_review",
+      "finding": "All 60 historical original biographies were read against their cached main Catholic institutional source texts. Their core life facts are supported. Dates, reported miracles, reader-supplied additions and conflicting chronology are generally qualified or omitted. The writing agent subsequently moved several methodological limitations out of biographies into uncertainty_note; these moves do not alter the assessed core facts."
+    },
+    {
+      "type": "additional_recognition_evidence",
+      "slug": "mildred-of-thanet",
+      "url": "https://minsterabbeynuns.org/saints-of-minster/",
+      "source_reader_evidence": "Primary Catholic Benedictine abbey source opened through web reader from the Nominis link. Its Saints of Minster section, lines 79–81 in the reader result, was read.",
+      "finding": "The abbey identifies St. Mildred as its second abbess, describes ongoing veneration of her relics in its chapel and a local feast. This provides independent institutional recognition of traditional Catholic veneration without inventing a modern canonization or Roman Martyrology notice.",
+      "limitation": "Its death year 725 differs from the Nominis heading 700, so retaining null dates is appropriate. Source addition and improved recognition wording suggested to owning agent; no historical batch was edited by this reviewer."
+    },
+    {
+      "type": "recognition_wording_issue",
+      "slugs": [
+        "robert-of-molesme",
+        "wilfrid-of-york"
+      ],
+      "finding": "The source pages are titled Saint and include a Martyrologe romain signature and commemoration information, but their cached text lacks a separate standard notice explicitly naming the saint. The statement that a reproduced notice separately names this individual should be qualified. This is an evidence-description issue rather than a discovery that either person is unrecognized.",
+      "reported_to": "Owning historical agent and root; no direct edits made."
+    }
+  ]
+}

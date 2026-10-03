@@ -26,13 +26,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/"),
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: absoluteUrl("/resources"),
-      lastModified: new Date("2026-09-23"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
@@ -50,7 +50,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "monthly",
       priority: 0.4,
     },

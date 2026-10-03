@@ -1,6 +1,7 @@
 import commemorations from "@/lib/data/saint-calendar-commemorations.json";
 import { validDateKey } from "@/lib/calendar-date";
 import type { Saint } from "@/lib/types";
+import { getUSSaintCommemoration } from "@/lib/us-saint-calendar";
 
 export interface SaintCommemoration {
   slug: string;
@@ -15,7 +16,11 @@ const MONTHS = ["January", "February", "March", "April", "May", "June", "July", 
 
 export function getSaintCommemoration(slug: string, date: string): SaintCommemoration | null {
   if (!validDateKey(date)) return null;
-  return CALENDAR[date]?.find(entry => entry.slug === slug) ?? null;
+  const local = CALENDAR[date]?.find(entry => entry.slug === slug);
+  const us = getUSSaintCommemoration(slug, date);
+  if (!us) return local ?? null;
+  return { ...us, note: local ? `${local.note} ${us.note}` : us.note,
+    sources: [...us.sources, ...(local?.sources ?? [])] };
 }
 
 // A person can have several documented commemorations: a national or religious

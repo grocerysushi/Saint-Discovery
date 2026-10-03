@@ -31,15 +31,16 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
     return () => { stopped = true; controller?.abort(); unsubscribe(); };
   }, []);
   const image = saint?.image;
-  const showImage = image && failedImage !== image.src;
+  const symbolic = image?.symbolic || failedImage === image?.src;
+  const showImage = !!image;
   return <figure className="home-artwork home-daily-feature" aria-labelledby="home-daily-title">
     <Link href="/saint-of-day" className="home-daily-feature-image" aria-label={saint ? `Read today’s story and reflection: ${saintDisplayName(saint)}` : "Read today’s reflection"}>
-      {showImage ? <Image key={image.src} src={image.src} alt={image.alt} fill sizes="(max-width: 760px) 90vw, 40vw" priority onError={() => setFailedImage(image.src)} /> : <div className="home-daily-feature-placeholder"><span aria-hidden>✦</span><span>{saint ? "A life to discover" : "Make space for reflection"}</span></div>}
+      {image ? <Image key={symbolic ? "symbolic" : image.src} src={symbolic ? "/images/saint-symbolic.svg" : image.src} alt={symbolic ? `Symbolic artwork for ${saint?.name}; not a portrait` : image.alt} fill sizes="(max-width: 760px) 90vw, 40vw" priority onError={() => setFailedImage(image.src)} /> : <div className="home-daily-feature-placeholder"><span aria-hidden>✦</span><span>{saint ? "A life to discover" : "Make space for reflection"}</span></div>}
     </Link>
     <figcaption>
       <p className="home-daily-feature-label"><span>Saint of the Day</span>{saint && <span>{saint.feastDay}</span>}</p>
       <h2 id="home-daily-title"><Link href={saint ? `/saints/${saint.slug}` : "/saint-of-day"}>{saint ? saintDisplayName(saint) : "A moment for reflection"}</Link></h2>
-      {showImage && <p className="home-daily-feature-credit">{image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license}</a>}</p>}
+      {image && <p className="home-daily-feature-credit">{symbolic ? "Symbolic artwork · Not a portrait" : image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license}</a>}</p>}
       {!showImage && <p className="home-daily-feature-credit">{saint ? "Artwork unavailable. Discover the story behind the name." : "Our directory has no saint entry for this date. You can still pause for today’s reflection."}</p>}
       {saint && <p className="daily-directory-note">A daily reading; the liturgical celebration may differ.</p>}
       <Link href="/saint-of-day" className="text-link home-daily-feature-action">Read today’s reflection <span aria-hidden>→</span></Link>

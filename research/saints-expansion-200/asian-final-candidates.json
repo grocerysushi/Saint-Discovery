@@ -1,0 +1,577 @@
+[
+  {
+    "slug": "joseph-tran-van-tuan",
+    "name": "Joseph Trần Văn Tuân",
+    "alternate_names": [
+      "Giuse Trần Văn Tuân"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-7-01-thanh-giuse-tran-van-tuan-giao-dan-1825-1859/"
+  },
+  {
+    "slug": "dominic-pham-trong-kham",
+    "name": "Dominic Phạm Trọng Khảm",
+    "alternate_names": [
+      "Đa Minh Phạm Trọng Khảm"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-13-01-thanh-da-minh-pham-trong-kham-chanh-an-1780-1859/"
+  },
+  {
+    "slug": "joseph-pham-trong-ta",
+    "name": "Joseph Phạm Trọng Tả",
+    "alternate_names": [
+      "Giuse Phạm Trọng Tả"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-13-01-thanh-giuse-pham-trong-ta-chanh-tong-1800-1859/"
+  },
+  {
+    "slug": "luke-pham-trong-thin",
+    "name": "Luke Phạm Trọng Thìn",
+    "alternate_names": [
+      "Luca Phạm Trọng Thìn"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-13-01-thanh-luca-pham-trong-thin-chanh-tong-1820-1859/"
+  },
+  {
+    "slug": "paul-le-van-loc",
+    "name": "Paul Lê Văn Lộc",
+    "alternate_names": [
+      "Phaolô Lê Văn Lộc"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-13-02-thanh-phaolo-le-van-loc-linh-muc-1830-1859/"
+  },
+  {
+    "slug": "dominic-nguyen-van-cam",
+    "name": "Dominic Nguyễn Văn Cẩm",
+    "alternate_names": [
+      "Đa Minh Cẩm"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-11-3-thanh-da-minh-cam-linh-muc-1859/"
+  },
+  {
+    "slug": "dominic-vu-dinh-tuoc",
+    "name": "Dominic Vũ Đình Tước",
+    "alternate_names": [
+      "Đa Minh Vũ Đình Tước"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-02-4-thanh-da-minh-vu-dinh-tuoc-linh-muc-1775-1839/"
+  },
+  {
+    "slug": "paul-le-bao-tinh",
+    "name": "Paul Lê Bảo Tịnh",
+    "alternate_names": [
+      "Phaolô Lê Bảo Tịnh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-06-4-thanh-phaolo-le-bao-tinh-linh-muc-1793-1857/"
+  },
+  {
+    "slug": "peter-nguyen-van-luu",
+    "name": "Peter Nguyễn Văn Lựu",
+    "alternate_names": [
+      "Phêrô Nguyễn Văn Lựu"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-07-4-thanh-phero-nguyen-van-luu-linh-muc-1812-1861/"
+  },
+  {
+    "slug": "lawrence-nguyen-van-huong",
+    "name": "Lawrence Nguyễn Văn Hưởng",
+    "alternate_names": [
+      "Lô-ren-sô Nguyễn Văn Hưởng"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-27-4-thanh-lo-ren-so-nguyen-van-huong-linh-muc-1802-1850/"
+  },
+  {
+    "slug": "paul-pham-khac-khoan",
+    "name": "Paul Phạm Khắc Khoan",
+    "alternate_names": [
+      "Phao-lô Phạm Khắc Khoan"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-28-4-thanh-phao-lo-pham-khac-khoan-linh-muc-1771-1840/"
+  },
+  {
+    "slug": "peter-nguyen-van-hieu",
+    "name": "Peter Nguyễn Văn Hiếu",
+    "alternate_names": [
+      "Peter Lê Văn Hiếu",
+      "Phêrô Lê Văn Hiếu",
+      "Phêrô Nguyễn Văn Hiếu"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-28-4-thanh-phero-nguyen-van-hieu-thay-giang-1783-1840/"
+  },
+  {
+    "slug": "john-baptist-dinh-van-thanh",
+    "name": "John Baptist Đinh Văn Thanh",
+    "alternate_names": [
+      "Gioan Baotixita Đinh Văn Thành"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-28-4-thanh-gioan-baotixita-dinh-van-thanh-thay-giang-1796-1840/"
+  },
+  {
+    "slug": "joseph-nguyen-duy-tuan",
+    "name": "Joseph Nguyễn Duy Tuân",
+    "alternate_names": [
+      "Giuse Tuân"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-30-4-thanh-giuse-tuan-linh-muc-1811-1861/"
+  },
+  {
+    "slug": "francis-do-minh-chieu",
+    "name": "Francis Đỗ Minh Chiểu",
+    "alternate_names": [
+      "Phanxicô Đỗ Văn Chiểu"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-26-thang-6-thanh-phanxico-do-van-chieu-thay-giang-1797-1838/"
+  },
+  {
+    "slug": "thomas-vu-quang-toan",
+    "name": "Thomas Vũ Quang Toán",
+    "alternate_names": [
+      "Tôma Toán"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-27-thang-6-thanh-toma-toan-thay-giang-1764-1840/"
+  },
+  {
+    "slug": "vincent-do-yen",
+    "name": "Vincent Đỗ Yến",
+    "alternate_names": [
+      "Vinh Sơn Đỗ Yến"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-30-thang-6-thanh-vinh-son-do-yen-linh-muc-1764-1838/"
+  },
+  {
+    "slug": "philip-phan-van-minh",
+    "name": "Philip Phan Văn Minh",
+    "alternate_names": [
+      "Philipphê Phan Văn Minh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-3-thang-7-thanh-philipphe-phan-van-minh-linh-muc-1815-1853/"
+  },
+  {
+    "slug": "joseph-nguyen-dinh-uyen",
+    "name": "Joseph Nguyễn Đình Uyển",
+    "alternate_names": [
+      "Giuse Nguyễn Đình Uyển"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-4-thang-7-thanh-giuse-nguyen-dinh-uyen-thay-giang-1773-1838/"
+  },
+  {
+    "slug": "peter-nguyen-khac-tu",
+    "name": "Peter Nguyễn Khắc Tự",
+    "alternate_names": [
+      "Phêrô Nguyễn Khắc Tự"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-10-thang-7-thanh-phero-nguyen-khac-tu-thay-giang-1808-1840/"
+  },
+  {
+    "slug": "anthony-nguyen-huu-quynh",
+    "name": "Anthony Nguyễn Hữu Quỳnh",
+    "alternate_names": [
+      "Antôn Năm Quỳnh",
+      "Antôn Nguyễn Hữu Quỳnh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-10-thang-7-thanh-anton-nguyen-huu-quynh-tu-nam-quynh-trum-chanh-1768-1840/"
+  },
+  {
+    "slug": "peter-nguyen-ba-tuan",
+    "name": "Peter Nguyễn Bá Tuần",
+    "alternate_names": [
+      "Phêrô Nguyễn Bá Tuần"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-15-thang-7-thanh-phero-nguyen-ba-tuan-linh-muc-1766-1838/"
+  },
+  {
+    "slug": "andrew-nguyen-kim-thong",
+    "name": "Andrew Nguyễn Kim Thông",
+    "alternate_names": [
+      "Anrê Năm Thuông",
+      "Anrê Nguyễn Kim Thông"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-15-thang-7-thanh-anre-nguyen-kim-thong-nam-thong-trum-chanh-1790-1855/"
+  },
+  {
+    "slug": "peter-doan-cong-quy",
+    "name": "Peter Đoàn Công Quý",
+    "alternate_names": [
+      "Phêrô Đoàn Công Quý"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-31-thang-7-thanh-phero-doan-cong-quy-linh-muc-1826-1859/"
+  },
+  {
+    "slug": "bernard-vu-van-due",
+    "name": "Bernard Vũ Văn Duệ",
+    "alternate_names": [
+      "Bê-na-đô Võ Văn Duệ",
+      "Bernadô Võ Văn Duệ"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-1-8-thanh-bernado-vo-van-due-linh-muc-1755-1838/"
+  },
+  {
+    "slug": "dominic-nguyen-van-hanh",
+    "name": "Dominic Nguyễn Văn Hạnh",
+    "alternate_names": [
+      "Đa Minh Nguyễn Văn Hạnh Diệu",
+      "Đa Minh Nguyễn Văn Hạnh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-1-8-thanh-da-minh-nguyen-van-hanh-linh-muc-1772-1838/"
+  },
+  {
+    "slug": "michael-nguyen-huy-my",
+    "name": "Michael Nguyễn Huy Mỹ",
+    "alternate_names": [
+      "Micae Nguyễn Huy Diệu",
+      "Micae Nguyễn Huy Mỹ"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-8-thanh-micae-nguyen-huy-my-ly-truong-1804-1838/"
+  },
+  {
+    "slug": "peter-nguyen-van-tu",
+    "name": "Peter Nguyễn Văn Tự",
+    "alternate_names": [
+      "Phêrô Nguyễn Văn Tự"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-5-9-thanh-phero-nguyen-van-tu-linh-muc-1796-1838/"
+  },
+  {
+    "slug": "joseph-hoang-luong-canh",
+    "name": "Joseph Hoàng Lương Cảnh",
+    "alternate_names": [
+      "Giuse Hoàng Lương Cảnh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-5-9-thanh-giuse-hoang-luong-canh-trum-ho-1763-1838/"
+  },
+  {
+    "slug": "emmanuel-nguyen-van-trieu",
+    "name": "Emmanuel Nguyễn Văn Triệu",
+    "alternate_names": [],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-17-9-thanh-emmanuel-nguyen-van-trieu-linh-muc-1756-1798/"
+  },
+  {
+    "slug": "dominic-vu-duc-trach",
+    "name": "Dominic Vũ Đức Trạch",
+    "alternate_names": [
+      "Đa Minh Trạch"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-18-9-thanh-da-minh-trach-linh-muc-1772-1840/"
+  },
+  {
+    "slug": "francois-jaccard",
+    "name": "François Jaccard",
+    "alternate_names": [
+      "Phanxicô Jaccard Phan"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-21-9-thanh-phanxico-jaccard-phan-linh-muc-thua-sai-paris-1799-1838/"
+  },
+  {
+    "slug": "thomas-tran-van-thien",
+    "name": "Thomas Trần Văn Thiện",
+    "alternate_names": [
+      "Tôma Trần Văn Thiện"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-21-9-thanh-toma-tran-van-thien-chung-sinh-1820-1838/"
+  },
+  {
+    "slug": "francis-tran-van-trung",
+    "name": "Francis Trần Văn Trung",
+    "alternate_names": [
+      "Phanxcicô Trần Văn Trung"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-6-10-thanh-phanxcico-tran-van-trung-cai-doi-tu-dao/"
+  },
+  {
+    "slug": "peter-le-tuy",
+    "name": "Peter Lê Tùy",
+    "alternate_names": [
+      "Phêrô Lê Tùy"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-11-10-thanh-phero-le-tuy-linh-muc-1773-1833/"
+  },
+  {
+    "slug": "joseph-le-dang-thi",
+    "name": "Joseph Lê Đăng Thị",
+    "alternate_names": [
+      "Giuse Lê Đăng Thi"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-24-10-thanh-giuse-le-dang-thi-cai-doi-1825-1860/"
+  },
+  {
+    "slug": "etienne-theodore-cuenot",
+    "name": "Étienne-Théodore Cuenot",
+    "alternate_names": [
+      "Têphanô Têôđo Cuênot Thể",
+      "Tê-pha-nô Tê-ô-đo Cu-ê-not Thể"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-14-11-thanh-te-pha-no-te-o-do-cu-e-not-the-giam-muc-tu-dao-1802-1861/"
+  },
+  {
+    "slug": "francis-xavier-nguyen-can",
+    "name": "Francis Xavier Nguyễn Cần",
+    "alternate_names": [
+      "Phanxicô Xavier Nguyễn Cần"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-20-11-thanh-phanxico-xavier-nguyen-can-thay-giang-1803-1837/"
+  },
+  {
+    "slug": "dominic-nguyen-van-xuyen",
+    "name": "Dominic Nguyễn Văn Xuyên",
+    "alternate_names": [
+      "Đa Minh Nguyễn Văn Xuyên"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-26-11-thanh-da-minh-nguyen-van-xuyen-linh-muc-1780-1839/"
+  },
+  {
+    "slug": "joseph-nguyen-duy-khang",
+    "name": "Joseph Nguyễn Duy Khang",
+    "alternate_names": [
+      "Giuse Nguyễn Duy Khang"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-6-12-thanh-giuse-nguyen-duy-khang-thay-giang-1832-1861/"
+  },
+  {
+    "slug": "simon-phan-dac-hoa",
+    "name": "Simon Phan Đắc Hòa",
+    "alternate_names": [
+      "Si-mon Phan Khắc Hòa"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-10-12-thanh-simon-phan-dac-hoa-y-si-1774-1840/"
+  },
+  {
+    "slug": "paul-nguyen-van-my",
+    "name": "Paul Nguyễn Văn Mỹ",
+    "alternate_names": [
+      "Phaolô Nguyễn Văn Hữu",
+      "Phaolô Nguyễn Văn Mỹ"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-18-12-thanh-phaolo-nguyen-van-my-thay-giang-1798-1838/"
+  },
+  {
+    "slug": "peter-truong-van-duong",
+    "name": "Peter Trương Văn Đường",
+    "alternate_names": [
+      "Phêrô Nguyễn Văn Đường",
+      "Phêrô Trương Văn Đường"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-18-12-thay-phero-truong-van-duong-thay-giang-1808-1838/"
+  },
+  {
+    "slug": "dominic-mau",
+    "name": "Dominic Mậu",
+    "alternate_names": [
+      "Đa Minh Mậu"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-05-11-thanh-da-minh-mau-linh-muc-1794-1858/"
+  },
+  {
+    "slug": "peter-truong-van-thi",
+    "name": "Peter Trương Văn Thi",
+    "alternate_names": [
+      "Phêrô Trương Văn Thi"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-21-12-thanh-phero-truong-van-thi-linh-muc-1763-1839/"
+  },
+  {
+    "slug": "joseph-nguyen-van-luu",
+    "name": "Joseph Nguyễn Văn Lựu",
+    "alternate_names": [
+      "Giu-se Nguyễn Văn Lựu"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-02-5-thanh-giuse-nguyen-van-luu-trum-ho-1790-1854/"
+  },
+  {
+    "slug": "joseph-do-quang-hien",
+    "name": "Joseph Đỗ Quang Hiển",
+    "alternate_names": [
+      "Giu-se Đỗ Quang Hiển"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-09-5-thanh-giuse-do-quang-hien-linh-muc-1775-1840/"
+  },
+  {
+    "slug": "matthew-le-van-gam",
+    "name": "Matthew Lê Văn Gẫm",
+    "alternate_names": [
+      "Mát-thêu Lê Văn Gẫm"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-11-5-thanh-mattheu-le-van-gam-nha-buon-1813-1847/"
+  },
+  {
+    "slug": "lawrence-ngon",
+    "name": "Lawrence Ngôn",
+    "alternate_names": [
+      "Lô-ren-sô Ngôn",
+      "Lau-ren-sô Ngôn"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-22-5-thanh-laurenso-ngon-giao-dan-1840-1862/"
+  },
+  {
+    "slug": "michael-ho-dinh-hy",
+    "name": "Michael Hồ Đình Hy",
+    "alternate_names": [
+      "Micae Hồ Đình Thục",
+      "Mi-ca-e Hồ Đình Hy"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-22-5-thanh-micae-ho-dinh-hy-quan-thai-boc-1808-1857/"
+  },
+  {
+    "slug": "peter-doan-van-van",
+    "name": "Peter Đoàn Văn Vân",
+    "alternate_names": [
+      "Phê-rô Đoàn Văn Vân"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-25-5-thanh-phero-doan-van-van-thay-giang-1780-1857/"
+  },
+  {
+    "slug": "john-doan-trinh-hoan",
+    "name": "John Đoàn Trinh Hoan",
+    "alternate_names": [
+      "Gio-an Đoàn Thanh Hoan"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-26-5-thanh-gioan-doan-thanh-hoan-linh-muc-1798-1861/"
+  },
+  {
+    "slug": "matthew-nguyen-van-phuong",
+    "name": "Matthew Nguyễn Văn Phượng",
+    "alternate_names": [
+      "Mát-thêu Nguyễn Văn Đắc",
+      "Mát-thêu Nguyễn Văn Phượng"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-26-5-thanh-mattheu-nguyen-van-phuong-trum-ho-1808-1861/"
+  },
+  {
+    "slug": "joseph-pham-quang-tuc",
+    "name": "Joseph Phạm Quang Túc",
+    "alternate_names": [
+      "Giuse Túc"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-01-6-thanh-giuse-tuc-giao-dan-1843-1862/"
+  },
+  {
+    "slug": "dominic-tran-duy-ninh",
+    "name": "Dominic Trần Duy Ninh",
+    "alternate_names": [
+      "Đaminh Ninh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-02-6-thanh-daminh-ninh-giao-dan-1841-1862/"
+  },
+  {
+    "slug": "paul-vu-van-dong",
+    "name": "Paul Vũ Văn Đổng",
+    "alternate_names": [
+      "Phaolô Dương",
+      "Phaolô Vũ Văn Đổng"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-03-6-thanh-phaolo-vu-van-dong-duong-thu-ba-1802-1862/"
+  },
+  {
+    "slug": "luke-vu-ba-loan",
+    "name": "Luke Vũ Bá Loan",
+    "alternate_names": [
+      "Luca Vũ Bá Loan"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-05-6-thanh-luca-vu-ba-loan-linh-muc-1756-1840/"
+  },
+  {
+    "slug": "augustine-phan-viet-huy",
+    "name": "Augustine Phan Viết Huy",
+    "alternate_names": [
+      "Augustinô Phan Viết Huy"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-6-thanh-augustino-phan-viet-huy-quan-nhan-1795-1939/"
+  },
+  {
+    "slug": "nicholas-bui-duc-the",
+    "name": "Nicholas Bùi Đức Thể",
+    "alternate_names": [
+      "Nicolao Bùi Đức Thể"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-6-thanh-nicolao-bui-duc-the-quan-nhan-1792-1839/"
+  },
+  {
+    "slug": "dominic-dinh-dat",
+    "name": "Dominic Đinh Đạt",
+    "alternate_names": [
+      "Đaminh Đinh Văn Đạt",
+      "Đaminh Đinh Đạt"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-6-thanh-daminh-dinh-dat-quan-nhan-1803-1839/"
+  },
+  {
+    "slug": "emmanuel-le-van-phung",
+    "name": "Emmanuel Lê Văn Phụng",
+    "alternate_names": [],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-31-7-thanh-emmanuel-le-van-phung-trum-chanh-1796-1859/"
+  },
+  {
+    "slug": "james-do-mai-nam",
+    "name": "James Đỗ Mai Năm",
+    "alternate_names": [
+      "Giacôbê Đỗ Mai Năm"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-thang-8-thanh-giacobe-do-mai-nam-linh-muc-1781-1838/"
+  },
+  {
+    "slug": "peter-nguyen-dich",
+    "name": "Peter Nguyễn Đích",
+    "alternate_names": [
+      "Phê-rô Nguyễn Đích",
+      "Antôn Nguyễn Đích"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-12-8-thanh-anton-nguyen-dich-trum-chanh-1769-1838/"
+  },
+  {
+    "slug": "joseph-dang-dinh-vien",
+    "name": "Joseph Đặng Đình Viên",
+    "alternate_names": [
+      "Giuse Đặng Đình Viên"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-21-8-thanh-giuse-dang-dinh-vien-linh-muc-1787-1838/"
+  },
+  {
+    "slug": "john-dat",
+    "name": "John Đạt",
+    "alternate_names": [
+      "Gio-an Đạt"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-28-10-thanh-gioan-dat-linh-muc-1765-1798/"
+  },
+  {
+    "slug": "paul-nguyen-ngan",
+    "name": "Paul Nguyễn Ngân",
+    "alternate_names": [
+      "Phaolô Nguyễn Ngân"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-08-11-thanh-phaolo-nguyen-ngan-linh-muc-1790-1840/"
+  },
+  {
+    "slug": "joseph-nguyen-dinh-nghi",
+    "name": "Joseph Nguyễn Đình Nghi",
+    "alternate_names": [
+      "Giuse Nguyễn Đình Kim",
+      "Giuse Nguyễn Đình Nghi"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-08-11-thanh-giuse-nguyen-dinh-nghi-linh-muc-1793-1840/"
+  },
+  {
+    "slug": "martin-ta-duc-thinh",
+    "name": "Martin Tạ Đức Thịnh",
+    "alternate_names": [
+      "Martinô Tạ Đức Thịnh"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-08-11-thanh-martino-ta-duc-thinh-linh-muc-1760-1840/"
+  },
+  {
+    "slug": "john-baptist-con",
+    "name": "John Baptist Cỏn",
+    "alternate_names": [
+      "Gioan Bao-ti-xi-ta Trần Ngọc Cỏn",
+      "John Baptist Bốn",
+      "Gioan Baotixita Cỏn"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-08-11-thanh-gioan-baotixita-con-bon-ly-truong-1805-1840/"
+  },
+  {
+    "slug": "vincent-nguyen-the-diem",
+    "name": "Vincent Nguyễn Thế Điểm",
+    "alternate_names": [
+      "Vinh Sơn Nguyễn Thế Điểm"
+    ],
+    "identity_key": "https://www.tonggiaophanhanoi.org/ngay-24-11-thanh-vinh-son-nguyen-the-diem-linh-muc-1761-1838/"
+  }
+]

@@ -7,6 +7,7 @@ const read = file => fs.readFileSync(new URL(`../${file.replace(/^\.next\//, `${
 const saints = await loadTs('lib/saints.ts').getAllSaints();
 const { reviews, getBiographyReview, isPublishedSaintSlug } = loadTs('lib/saint-reviews.ts');
 const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
+const { getBiographyUpdatedOn, getDirectoryEvidenceNote } = loadTs('lib/directory-editorial.ts');
 const origin = 'https://www.saintdiscoveryquiz.com';
 const html = route => read(`.next/server/app/${route}.html`);
 const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
@@ -83,6 +84,7 @@ test('confirmation guide is discoverable and recommends only reviewed Catholic s
 
 test('every saint has a unique canonical, readable server-rendered content, and matching article/breadcrumb metadata', () => {
   const titles = new Set();
+  const { getSaintArtwork } = loadTs('lib/saint-artwork.ts');
   for (const saint of saints) {
     const source = html(`saints/${saint.slug}`);
     const canonical = `${origin}/saints/${saint.slug}`;
@@ -101,13 +103,28 @@ test('every saint has a unique canonical, readable server-rendered content, and 
     const article = data.find(item => item['@type'] === 'Article');
     assert.equal(article?.url, canonical, saint.slug);
     assert.equal(article?.mainEntityOfPage?.['@id'], canonical, saint.slug);
+    const artwork = getSaintArtwork(saint);
+    const figure = source.match(/<figure class="biography-artwork"[\s\S]*?<\/figure>/)?.[0];
+    assert.ok(figure && /<img\b/.test(figure), `${saint.slug}: artwork must render without client JavaScript`);
+    const artworkAlt = decode(figure.match(/<img\b[^>]*\balt="([^"]*)"/)?.[1] ?? '');
+    assert.ok(artworkAlt.length > 0, `${saint.slug}: artwork alternative text`);
+    if (artwork.symbolic) {
+      assert.ok(artworkAlt.includes(saint.name) && /not a portrait/i.test(artworkAlt), saint.slug);
+      assert.ok(decode(figure).includes('Not a portrait'), saint.slug);
+      assert.equal(article.image, undefined, `${saint.slug}: symbolic artwork is not a portrait in structured data`);
+    } else {
+      assert.equal(artworkAlt, artwork.alt, saint.slug);
+      assert.equal(article.image, `${origin}${artwork.src}`, saint.slug);
+      assert.ok(decode(figure).includes(artwork.generated ? 'AI-generated illustration' : artwork.credit), saint.slug);
+      if (!artwork.generated) assert.ok(figure.includes(`href="${artwork.source.replace(/&/g, '&amp;')}"`), saint.slug);
+    }
     assert.ok(source.includes('id="sources"'), `${saint.slug}: missing sources`);
     const renderedContent = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
     for (const paragraph of reviews[saint.slug].biography) {
       assert.ok(renderedContent.includes(paragraph), `${saint.slug}: missing server-rendered biography paragraph`);
     }
     const contribution = getSaintContribution(saint.slug);
-    assert.equal(article.dateModified, contribution?.reviewed_on ?? reviews[saint.slug].reviewed_on, saint.slug);
+    assert.equal(article.dateModified, getBiographyUpdatedOn(saint.slug), saint.slug);
     if (contribution) {
       const rendered = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
       assert.ok(rendered.includes(contribution.title), `${saint.slug}: contribution heading`);
@@ -118,9 +135,10 @@ test('every saint has a unique canonical, readable server-rendered content, and 
         assert.ok(article.citation.includes(citation.url), `${saint.slug}: structured citation`);
       }
       const sitemap = read('.next/server/app/sitemap.xml.body');
-      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${contribution.reviewed_on}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
+      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${getBiographyUpdatedOn(saint.slug)}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
     }
-    assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(contribution?.sources ?? [])].map(entry => entry.url))], saint.slug);
+    const note = getDirectoryEvidenceNote(saint.slug);
+    assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(contribution?.sources ?? []), ...(note?.history.sources ?? []), ...(note?.calendar.sources ?? [])].map(entry => entry.url))], saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
     assert.ok(!data.some(item => item['@type'] === 'ProfilePage'), saint.slug);
     const crumbs = data.find(item => item['@type'] === 'BreadcrumbList');

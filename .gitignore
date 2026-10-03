@@ -72,8 +72,21 @@ next-env.d.ts
 /output/seo-improvements/
 /output/quiz-choice-review/
 /.next-jev-seo/
+/.next-saints-200/
+
+# 200-saint research: retain authored audit metadata, not copied source caches
+/research/saints-expansion-200/*
+!/research/saints-expansion-200/*audit.json
+!/research/saints-expansion-200/*review.json
+!/research/saints-expansion-200/*final-candidates.json
+!/research/saints-expansion-200/integration-record.json
+!/research/saints-expansion-200/browser-checks.json
 
 # InsForge & AI agent skills
+# Artwork research: retain authored provenance, exclude copied metadata and logs
+/research/saint-artwork/candidates.json
+/research/saint-artwork/*.log
+
 .insforge
 .agent
 .agents

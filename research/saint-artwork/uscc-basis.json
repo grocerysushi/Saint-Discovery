@@ -1,0 +1,1287 @@
+{
+  "reviewedOn": "2026-10-03",
+  "scope": "Recurring saint dates in the U.S. Roman Rite; discovery priority, not year-specific liturgical precedence",
+  "sources": [
+    {
+      "title": "USCCB: 2026 Liturgical Calendar (February 2026 revision)",
+      "url": "https://www.usccb.org/resources/2026cal.pdf"
+    },
+    {
+      "title": "USCCB: 2027 Liturgical Calendar",
+      "url": "https://www.usccb.org/resources/2027cal.pdf"
+    }
+  ],
+  "attribution": "Original directory identity mapping. Reduced factual dates derived from Apache-2.0 LiturgicalCalendarAPI and checked against USCCB proper/calendar corrections; no readings or calendar prose reproduced.",
+  "upstreamSources": [
+    {
+      "url": "https://litcal.johnromanodorazio.com/api/v5/calendar/nation/US/2026?year_type=CIVIL&locale=en_US&ascension=SUNDAY",
+      "retrievedAt": "2026-10-03T14:35:03.509Z",
+      "sha256": "130c836ee94b0002fdee2d5c5ba2586470abb3e08d516f4e8e13fd96a2bcfba6",
+      "version": "5.7"
+    },
+    {
+      "url": "https://litcal.johnromanodorazio.com/api/v5/calendar/nation/US/2027?year_type=CIVIL&locale=en_US&ascension=SUNDAY",
+      "retrievedAt": "2026-10-03T14:35:03.686Z",
+      "sha256": "b75d97b791c1406e041c2bc48a27eed951bf132af5111819c87d164a31db7598",
+      "version": "5.7"
+    }
+  ],
+  "dates": {
+    "01-02": [
+      {
+        "slug": "basil-the-great",
+        "rank": 3
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "rank": 3
+      }
+    ],
+    "01-04": [
+      {
+        "slug": "elizabeth-ann-seton",
+        "rank": 3
+      }
+    ],
+    "01-05": [
+      {
+        "slug": "john-neumann",
+        "rank": 3
+      }
+    ],
+    "01-06": [
+      {
+        "slug": "andr-bessette",
+        "rank": 2
+      }
+    ],
+    "01-07": [
+      {
+        "slug": "raymond-of-pe-afort",
+        "rank": 2
+      }
+    ],
+    "01-13": [
+      {
+        "slug": "hilary-of-poitiers",
+        "rank": 2
+      }
+    ],
+    "01-17": [
+      {
+        "slug": "anthony-the-great",
+        "rank": 3
+      }
+    ],
+    "01-20": [
+      {
+        "slug": "sebastian",
+        "rank": 2
+      }
+    ],
+    "01-21": [
+      {
+        "slug": "agnes",
+        "rank": 3
+      }
+    ],
+    "01-23": [
+      {
+        "slug": "marianne-cope",
+        "rank": 2
+      },
+      {
+        "slug": "vincent",
+        "rank": 2
+      }
+    ],
+    "01-24": [
+      {
+        "slug": "francis-de-sales",
+        "rank": 3
+      }
+    ],
+    "01-25": [
+      {
+        "slug": "paul-the-apostle",
+        "rank": 4
+      }
+    ],
+    "01-26": [
+      {
+        "slug": "timothy",
+        "rank": 3
+      },
+      {
+        "slug": "titus",
+        "rank": 3
+      }
+    ],
+    "01-27": [
+      {
+        "slug": "angela-merici",
+        "rank": 2
+      }
+    ],
+    "01-28": [
+      {
+        "slug": "thomas-aquinas",
+        "rank": 3
+      }
+    ],
+    "01-31": [
+      {
+        "slug": "john-bosco",
+        "rank": 3
+      }
+    ],
+    "02-03": [
+      {
+        "slug": "ansgar",
+        "rank": 2
+      },
+      {
+        "slug": "blaise",
+        "rank": 2
+      }
+    ],
+    "02-05": [
+      {
+        "slug": "agatha",
+        "rank": 3
+      }
+    ],
+    "02-06": [
+      {
+        "slug": "paul-miki",
+        "rank": 3
+      }
+    ],
+    "02-08": [
+      {
+        "slug": "jerome-emiliani",
+        "rank": 2
+      },
+      {
+        "slug": "josephine-bakhita",
+        "rank": 2
+      }
+    ],
+    "02-10": [
+      {
+        "slug": "scholastica",
+        "rank": 3
+      }
+    ],
+    "02-14": [
+      {
+        "slug": "cyril-and-methodius",
+        "rank": 3
+      }
+    ],
+    "02-21": [
+      {
+        "slug": "peter-damian",
+        "rank": 2
+      }
+    ],
+    "02-22": [
+      {
+        "slug": "peter",
+        "rank": 4
+      }
+    ],
+    "02-23": [
+      {
+        "slug": "polycarp",
+        "rank": 3
+      }
+    ],
+    "03-03": [
+      {
+        "slug": "katharine-drexel",
+        "rank": 2
+      }
+    ],
+    "03-04": [
+      {
+        "slug": "casimir",
+        "rank": 2
+      }
+    ],
+    "03-07": [
+      {
+        "slug": "felicity-of-carthage",
+        "rank": 3
+      },
+      {
+        "slug": "perpetua",
+        "rank": 3
+      }
+    ],
+    "03-08": [
+      {
+        "slug": "john-of-god",
+        "rank": 2
+      }
+    ],
+    "03-09": [
+      {
+        "slug": "frances-of-rome",
+        "rank": 2
+      }
+    ],
+    "03-17": [
+      {
+        "slug": "patrick",
+        "rank": 2
+      }
+    ],
+    "03-18": [
+      {
+        "slug": "cyril-of-jerusalem",
+        "rank": 2
+      }
+    ],
+    "03-19": [
+      {
+        "slug": "joseph",
+        "rank": 6
+      }
+    ],
+    "03-23": [
+      {
+        "slug": "turibius-of-mogrovejo",
+        "rank": 2
+      }
+    ],
+    "04-07": [
+      {
+        "slug": "john-baptist-de-la-salle",
+        "rank": 3
+      }
+    ],
+    "04-13": [
+      {
+        "slug": "martin-i",
+        "rank": 2
+      }
+    ],
+    "04-21": [
+      {
+        "slug": "anselm-of-canterbury",
+        "rank": 2
+      }
+    ],
+    "04-23": [
+      {
+        "slug": "george",
+        "rank": 2
+      }
+    ],
+    "04-24": [
+      {
+        "slug": "fidelis-of-sigmaringen",
+        "rank": 2
+      }
+    ],
+    "04-25": [
+      {
+        "slug": "mark-the-evangelist",
+        "rank": 4
+      }
+    ],
+    "04-28": [
+      {
+        "slug": "louis-de-montfort",
+        "rank": 2
+      },
+      {
+        "slug": "peter-chanel",
+        "rank": 2
+      }
+    ],
+    "04-29": [
+      {
+        "slug": "catherine-of-siena",
+        "rank": 3
+      }
+    ],
+    "04-30": [
+      {
+        "slug": "pius-v",
+        "rank": 2
+      }
+    ],
+    "05-01": [
+      {
+        "slug": "joseph",
+        "rank": 2
+      }
+    ],
+    "05-02": [
+      {
+        "slug": "athanasius",
+        "rank": 3
+      }
+    ],
+    "05-03": [
+      {
+        "slug": "philip-the-apostle",
+        "rank": 4
+      }
+    ],
+    "05-10": [
+      {
+        "slug": "damien-of-molokai",
+        "rank": 2
+      },
+      {
+        "slug": "john-of-vila",
+        "rank": 2
+      }
+    ],
+    "05-14": [
+      {
+        "slug": "matthias",
+        "rank": 4
+      }
+    ],
+    "05-15": [
+      {
+        "slug": "isidore-the-farmer",
+        "rank": 2
+      }
+    ],
+    "05-18": [
+      {
+        "slug": "john-i",
+        "rank": 2
+      }
+    ],
+    "05-20": [
+      {
+        "slug": "bernardine-of-siena",
+        "rank": 2
+      }
+    ],
+    "05-22": [
+      {
+        "slug": "rita-of-cascia",
+        "rank": 2
+      }
+    ],
+    "05-25": [
+      {
+        "slug": "bede-the-venerable",
+        "rank": 2
+      },
+      {
+        "slug": "gregory-vii",
+        "rank": 2
+      },
+      {
+        "slug": "mary-magdalene-de-pazzi",
+        "rank": 2
+      }
+    ],
+    "05-26": [
+      {
+        "slug": "philip-neri",
+        "rank": 3
+      }
+    ],
+    "05-27": [
+      {
+        "slug": "augustine-of-canterbury",
+        "rank": 2
+      }
+    ],
+    "05-29": [
+      {
+        "slug": "paul-vi",
+        "rank": 2
+      }
+    ],
+    "06-01": [
+      {
+        "slug": "justin-martyr",
+        "rank": 3
+      }
+    ],
+    "06-03": [
+      {
+        "slug": "charles-lwanga",
+        "rank": 3
+      }
+    ],
+    "06-05": [
+      {
+        "slug": "boniface",
+        "rank": 3
+      }
+    ],
+    "06-06": [
+      {
+        "slug": "norbert",
+        "rank": 2
+      }
+    ],
+    "06-09": [
+      {
+        "slug": "ephrem-the-syrian",
+        "rank": 2
+      }
+    ],
+    "06-11": [
+      {
+        "slug": "barnabas",
+        "rank": 3
+      }
+    ],
+    "06-13": [
+      {
+        "slug": "anthony-of-padua",
+        "rank": 3
+      }
+    ],
+    "06-19": [
+      {
+        "slug": "romuald",
+        "rank": 2
+      }
+    ],
+    "06-21": [
+      {
+        "slug": "aloysius-gonzaga",
+        "rank": 3
+      }
+    ],
+    "06-22": [
+      {
+        "slug": "john-fisher",
+        "rank": 2
+      },
+      {
+        "slug": "paulinus-of-nola",
+        "rank": 2
+      },
+      {
+        "slug": "thomas-more",
+        "rank": 2
+      }
+    ],
+    "06-24": [
+      {
+        "slug": "john-the-baptist",
+        "rank": 6
+      }
+    ],
+    "06-27": [
+      {
+        "slug": "cyril-of-alexandria",
+        "rank": 2
+      }
+    ],
+    "06-28": [
+      {
+        "slug": "irenaeus-of-lyon",
+        "rank": 3
+      }
+    ],
+    "06-29": [
+      {
+        "slug": "paul-the-apostle",
+        "rank": 6
+      },
+      {
+        "slug": "peter",
+        "rank": 6
+      }
+    ],
+    "07-01": [
+      {
+        "slug": "jun-pero-serra",
+        "rank": 2
+      }
+    ],
+    "07-03": [
+      {
+        "slug": "thomas-the-apostle",
+        "rank": 4
+      }
+    ],
+    "07-05": [
+      {
+        "slug": "anthony-mary-zaccaria",
+        "rank": 2
+      },
+      {
+        "slug": "elizabeth-of-portugal",
+        "rank": 2
+      }
+    ],
+    "07-06": [
+      {
+        "slug": "maria-goretti",
+        "rank": 2
+      }
+    ],
+    "07-09": [
+      {
+        "slug": "augustine-zhao-rong",
+        "rank": 2
+      }
+    ],
+    "07-11": [
+      {
+        "slug": "benedict",
+        "rank": 3
+      }
+    ],
+    "07-13": [
+      {
+        "slug": "henry-ii",
+        "rank": 2
+      }
+    ],
+    "07-14": [
+      {
+        "slug": "kateri-tekakwitha",
+        "rank": 3
+      }
+    ],
+    "07-18": [
+      {
+        "slug": "camillus-de-lellis",
+        "rank": 2
+      }
+    ],
+    "07-15": [
+      {
+        "slug": "bonaventure",
+        "rank": 3
+      }
+    ],
+    "07-20": [
+      {
+        "slug": "apollinaris",
+        "rank": 2
+      }
+    ],
+    "07-21": [
+      {
+        "slug": "lawrence-of-brindisi",
+        "rank": 2
+      }
+    ],
+    "07-22": [
+      {
+        "slug": "mary-magdalene",
+        "rank": 4
+      }
+    ],
+    "07-23": [
+      {
+        "slug": "bridget-of-sweden",
+        "rank": 2
+      }
+    ],
+    "07-24": [
+      {
+        "slug": "charbel-makhlouf",
+        "rank": 2
+      }
+    ],
+    "07-25": [
+      {
+        "slug": "james-the-greater",
+        "rank": 4
+      }
+    ],
+    "07-26": [
+      {
+        "slug": "anne",
+        "rank": 3
+      },
+      {
+        "slug": "joachim",
+        "rank": 3
+      }
+    ],
+    "07-29": [
+      {
+        "slug": "lazarus",
+        "rank": 3
+      },
+      {
+        "slug": "martha",
+        "rank": 3
+      }
+    ],
+    "07-31": [
+      {
+        "slug": "ignatius-of-loyola",
+        "rank": 3
+      }
+    ],
+    "08-01": [
+      {
+        "slug": "alphonsus-liguori",
+        "rank": 3
+      }
+    ],
+    "08-02": [
+      {
+        "slug": "eusebius-of-vercelli",
+        "rank": 2
+      },
+      {
+        "slug": "peter-julian-eymard",
+        "rank": 2
+      }
+    ],
+    "08-04": [
+      {
+        "slug": "john-vianney",
+        "rank": 3
+      }
+    ],
+    "08-07": [
+      {
+        "slug": "cajetan",
+        "rank": 2
+      },
+      {
+        "slug": "sixtus-ii",
+        "rank": 2
+      }
+    ],
+    "08-08": [
+      {
+        "slug": "dominic",
+        "rank": 3
+      }
+    ],
+    "08-09": [
+      {
+        "slug": "edith-stein",
+        "rank": 2
+      }
+    ],
+    "08-10": [
+      {
+        "slug": "lawrence",
+        "rank": 4
+      }
+    ],
+    "08-11": [
+      {
+        "slug": "clare-of-assisi",
+        "rank": 3
+      }
+    ],
+    "08-12": [
+      {
+        "slug": "jane-frances-de-chantal",
+        "rank": 2
+      }
+    ],
+    "08-14": [
+      {
+        "slug": "maximilian-kolbe",
+        "rank": 3
+      }
+    ],
+    "08-16": [
+      {
+        "slug": "stephen-of-hungary",
+        "rank": 2
+      }
+    ],
+    "08-19": [
+      {
+        "slug": "john-eudes",
+        "rank": 2
+      }
+    ],
+    "08-20": [
+      {
+        "slug": "bernard-of-clairvaux",
+        "rank": 3
+      }
+    ],
+    "08-21": [
+      {
+        "slug": "pius-x",
+        "rank": 3
+      }
+    ],
+    "08-23": [
+      {
+        "slug": "rose-of-lima",
+        "rank": 2
+      }
+    ],
+    "08-24": [
+      {
+        "slug": "bartholomew",
+        "rank": 4
+      }
+    ],
+    "08-25": [
+      {
+        "slug": "joseph-calasanz",
+        "rank": 2
+      },
+      {
+        "slug": "louis-ix",
+        "rank": 2
+      }
+    ],
+    "08-27": [
+      {
+        "slug": "monica",
+        "rank": 3
+      }
+    ],
+    "08-28": [
+      {
+        "slug": "augustine-of-hippo",
+        "rank": 3
+      }
+    ],
+    "08-29": [
+      {
+        "slug": "john-the-baptist",
+        "rank": 3
+      }
+    ],
+    "09-03": [
+      {
+        "slug": "gregory-the-great",
+        "rank": 3
+      }
+    ],
+    "09-05": [
+      {
+        "slug": "mother-teresa",
+        "rank": 2
+      }
+    ],
+    "09-09": [
+      {
+        "slug": "peter-claver",
+        "rank": 3
+      }
+    ],
+    "09-13": [
+      {
+        "slug": "john-chrysostom",
+        "rank": 3
+      }
+    ],
+    "09-16": [
+      {
+        "slug": "cyprian",
+        "rank": 3
+      }
+    ],
+    "09-17": [
+      {
+        "slug": "hildegard-of-bingen",
+        "rank": 2
+      },
+      {
+        "slug": "robert-bellarmine",
+        "rank": 2
+      }
+    ],
+    "09-19": [
+      {
+        "slug": "januarius",
+        "rank": 2
+      }
+    ],
+    "09-20": [
+      {
+        "slug": "andrew-kim-taegon",
+        "rank": 3
+      },
+      {
+        "slug": "paul-chong-hasang",
+        "rank": 3
+      }
+    ],
+    "09-21": [
+      {
+        "slug": "matthew",
+        "rank": 4
+      }
+    ],
+    "09-23": [
+      {
+        "slug": "padre-pio",
+        "rank": 3
+      }
+    ],
+    "09-26": [
+      {
+        "slug": "cosmas",
+        "rank": 2
+      }
+    ],
+    "09-27": [
+      {
+        "slug": "vincent-de-paul",
+        "rank": 3
+      }
+    ],
+    "09-28": [
+      {
+        "slug": "lorenzo-ruiz",
+        "rank": 2
+      },
+      {
+        "slug": "wenceslaus",
+        "rank": 2
+      }
+    ],
+    "09-29": [
+      {
+        "slug": "gabriel-the-archangel",
+        "rank": 4
+      },
+      {
+        "slug": "michael-the-archangel",
+        "rank": 4
+      },
+      {
+        "slug": "raphael-the-archangel",
+        "rank": 4
+      }
+    ],
+    "09-30": [
+      {
+        "slug": "jerome",
+        "rank": 3
+      }
+    ],
+    "10-01": [
+      {
+        "slug": "therese-of-lisieux",
+        "rank": 3
+      }
+    ],
+    "10-04": [
+      {
+        "slug": "francis-of-assisi",
+        "rank": 3
+      }
+    ],
+    "10-05": [
+      {
+        "slug": "faustina-kowalska",
+        "rank": 2
+      }
+    ],
+    "10-06": [
+      {
+        "slug": "bruno",
+        "rank": 2
+      }
+    ],
+    "10-09": [
+      {
+        "slug": "denis",
+        "rank": 2
+      },
+      {
+        "slug": "john-henry-newman",
+        "rank": 2
+      },
+      {
+        "slug": "john-leonardi",
+        "rank": 2
+      }
+    ],
+    "10-11": [
+      {
+        "slug": "john-xxiii",
+        "rank": 2
+      }
+    ],
+    "10-14": [
+      {
+        "slug": "callistus-i",
+        "rank": 2
+      }
+    ],
+    "10-15": [
+      {
+        "slug": "teresa-of-avila",
+        "rank": 3
+      }
+    ],
+    "10-16": [
+      {
+        "slug": "hedwig",
+        "rank": 2
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "rank": 2
+      }
+    ],
+    "10-17": [
+      {
+        "slug": "ignatius-of-antioch",
+        "rank": 3
+      }
+    ],
+    "10-18": [
+      {
+        "slug": "luke-the-evangelist",
+        "rank": 4
+      }
+    ],
+    "10-19": [
+      {
+        "slug": "anthony-daniel",
+        "rank": 3
+      },
+      {
+        "slug": "charles-garnier",
+        "rank": 3
+      },
+      {
+        "slug": "gabriel-lalemant",
+        "rank": 3
+      },
+      {
+        "slug": "isaac-jogues",
+        "rank": 3
+      },
+      {
+        "slug": "john-de-br-beuf",
+        "rank": 3
+      },
+      {
+        "slug": "john-de-la-lande",
+        "rank": 3
+      },
+      {
+        "slug": "noel-chabanel",
+        "rank": 3
+      },
+      {
+        "slug": "rene-goupil",
+        "rank": 3
+      }
+    ],
+    "10-20": [
+      {
+        "slug": "paul-of-the-cross",
+        "rank": 2
+      }
+    ],
+    "10-22": [
+      {
+        "slug": "john-paul-ii",
+        "rank": 2
+      }
+    ],
+    "10-23": [
+      {
+        "slug": "john-of-capistrano",
+        "rank": 2
+      }
+    ],
+    "10-24": [
+      {
+        "slug": "anthony-mary-claret",
+        "rank": 2
+      }
+    ],
+    "10-28": [
+      {
+        "slug": "jude-thaddeus",
+        "rank": 4
+      },
+      {
+        "slug": "simon-the-apostle",
+        "rank": 4
+      }
+    ],
+    "11-03": [
+      {
+        "slug": "martin-de-porres",
+        "rank": 2
+      }
+    ],
+    "11-04": [
+      {
+        "slug": "charles-borromeo",
+        "rank": 3
+      }
+    ],
+    "11-10": [
+      {
+        "slug": "leo-the-great",
+        "rank": 3
+      }
+    ],
+    "11-11": [
+      {
+        "slug": "martin-of-tours",
+        "rank": 3
+      }
+    ],
+    "11-12": [
+      {
+        "slug": "josaphat",
+        "rank": 3
+      }
+    ],
+    "11-13": [
+      {
+        "slug": "frances-xavier-cabrini",
+        "rank": 3
+      }
+    ],
+    "11-15": [
+      {
+        "slug": "albert-the-great",
+        "rank": 2
+      }
+    ],
+    "11-16": [
+      {
+        "slug": "gertrude-the-great",
+        "rank": 2
+      },
+      {
+        "slug": "margaret-of-scotland",
+        "rank": 2
+      }
+    ],
+    "11-17": [
+      {
+        "slug": "elizabeth-of-hungary",
+        "rank": 3
+      }
+    ],
+    "11-18": [
+      {
+        "slug": "rose-philippine-duchesne",
+        "rank": 2
+      }
+    ],
+    "11-22": [
+      {
+        "slug": "cecilia",
+        "rank": 3
+      }
+    ],
+    "11-23": [
+      {
+        "slug": "clement-i",
+        "rank": 2
+      }
+    ],
+    "11-24": [
+      {
+        "slug": "andrew-dung-lac",
+        "rank": 3
+      }
+    ],
+    "11-25": [
+      {
+        "slug": "catherine-of-alexandria",
+        "rank": 2
+      }
+    ],
+    "11-30": [
+      {
+        "slug": "andrew",
+        "rank": 4
+      }
+    ],
+    "12-03": [
+      {
+        "slug": "francis-xavier",
+        "rank": 3
+      }
+    ],
+    "12-04": [
+      {
+        "slug": "john-of-damascus",
+        "rank": 2
+      }
+    ],
+    "12-06": [
+      {
+        "slug": "nicholas-of-myra",
+        "rank": 2
+      }
+    ],
+    "12-07": [
+      {
+        "slug": "ambrose",
+        "rank": 3
+      }
+    ],
+    "12-09": [
+      {
+        "slug": "juan-diego",
+        "rank": 2
+      }
+    ],
+    "12-11": [
+      {
+        "slug": "damasus-i",
+        "rank": 2
+      }
+    ],
+    "12-13": [
+      {
+        "slug": "lucy",
+        "rank": 3
+      }
+    ],
+    "12-14": [
+      {
+        "slug": "john-of-the-cross",
+        "rank": 3
+      }
+    ],
+    "12-21": [
+      {
+        "slug": "peter-canisius",
+        "rank": 2
+      }
+    ],
+    "12-23": [
+      {
+        "slug": "john-cantius",
+        "rank": 2
+      }
+    ],
+    "12-26": [
+      {
+        "slug": "stephen",
+        "rank": 4
+      }
+    ],
+    "12-27": [
+      {
+        "slug": "john-the-apostle",
+        "rank": 4
+      }
+    ],
+    "12-29": [
+      {
+        "slug": "thomas-becket",
+        "rank": 2
+      }
+    ],
+    "12-31": [
+      {
+        "slug": "sylvester",
+        "rank": 2
+      }
+    ],
+    "04-04": [
+      {
+        "slug": "isidore-of-seville",
+        "rank": 2
+      }
+    ],
+    "04-05": [
+      {
+        "slug": "vincent-ferrer",
+        "rank": 2
+      }
+    ],
+    "04-11": [
+      {
+        "slug": "stanislaus",
+        "rank": 3
+      }
+    ]
+  },
+  "unmapped": [
+    {
+      "date": "01-20",
+      "key": "StFabianPope",
+      "name": "Saint Fabian, Pope and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "02-27",
+      "key": "StGregoryNarek",
+      "name": "Saint Gregory of Narek, Abbot and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "04-23",
+      "key": "StAdalbert",
+      "name": "Saint Adalbert, Bishop and Martyr",
+      "grade": 2
+    },
+    {
+      "date": "05-12",
+      "key": "StsNereusAchilleus",
+      "name": "Saints Nereus and Achilleus, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "05-12",
+      "key": "StPancras",
+      "name": "Saint Pancras, Martyr",
+      "grade": 2
+    },
+    {
+      "date": "05-21",
+      "key": "StChristopherMagallanes",
+      "name": "Saint Christopher Magallanes, Priest, and Companions, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "06-02",
+      "key": "StsMarcellinusPeter",
+      "name": "Saints Marcellinus and Peter, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "07-30",
+      "key": "StPeterChrysologus",
+      "name": "Saint Peter Chrysologus, Bishop and Doctor of the Church",
+      "grade": 2
+    },
+    {
+      "date": "08-13",
+      "key": "StsPontianHippolytus",
+      "name": "Saints Pontian, Pope, and Hippolytus, Priest, Martyrs",
+      "grade": 2
+    },
+    {
+      "date": "11-23",
+      "key": "StColumban",
+      "name": "Saint Columban, Religious",
+      "grade": 2
+    },
+    {
+      "date": "10-05",
+      "key": "FrancisSeelos",
+      "name": "Francis Xavier Seelos",
+      "grade": 2
+    },
+    {
+      "date": "04-02",
+      "key": "StFrancisPaola",
+      "name": "Francis of Paola",
+      "grade": 2
+    }
+  ]
+}

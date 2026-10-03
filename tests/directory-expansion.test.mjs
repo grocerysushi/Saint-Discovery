@@ -8,13 +8,13 @@ const entries = fs.readdirSync(batches).filter(file => file.endsWith('.json')).s
   .flatMap(file => JSON.parse(fs.readFileSync(new URL(file, batches))));
 const generated = JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json', import.meta.url)));
 
-test('reproducible batches preserve earlier additions and add 38 calendar-coverage saints', async () => {
+test('reproducible batches add 200 distinct saints and preserve all earlier additions', async () => {
   assert.deepEqual(compile(entries),generated);
-  assert.equal(entries.length,199);
+  assert.equal(entries.length,399);
   const {getAllSaints,getSaintBySlug,getAllSaintSlugs}=loadTs('lib/saints.ts');
   const all=await getAllSaints();
-  assert.equal(all.length,625);
-  assert.equal(new Set(all.map(s=>s.slug)).size,625);
+  assert.equal(all.length,825);
+  assert.equal(new Set(all.map(s=>s.slug)).size,825);
   for(const e of entries) {
     const saint=await getSaintBySlug(e.slug);
     assert.equal(saint.name,e.name);
@@ -41,6 +41,31 @@ test('Korean batch preserves individual identities and records source limitation
   assert.match(bySlug['lucia-kim-july-1839'].uncertainty_note,/not CBCK identity 45/);
   assert.notEqual(bySlug['barbara-yi'].identity_key,bySlug['barbara-yi-chong-hui'].identity_key);
   assert.notEqual(bySlug['agnes-kim-hyo-ju'].identity_key,bySlug['columba-kim-hyo-im'].identity_key);
+});
+
+test('200-person expansion has individual Catholic recognition, sourced biographies and honest calendar limits', () => {
+  const files = ['2026-10-03-modern-canonizations.json','2026-10-03-asian-martyrs.json','2026-10-03-historical-saints.json'];
+  const groups = files.map(file => JSON.parse(fs.readFileSync(new URL(file,batches))));
+  assert.deepEqual(groups.map(group=>group.length),[70,70,60]);
+  const added = groups.flat();
+  assert.equal(new Set(added.map(entry=>entry.identity_key)).size,200);
+  const oldSlugs = new Set(entries.filter(entry=>entry.reviewed_on!=='2026-10-03').map(entry=>entry.slug));
+  assert.equal(oldSlugs.size,199);
+  for(const entry of added) {
+    assert.equal(entry.kind,'saint');
+    assert.equal(entry.entry_type,'person');
+    assert.ok(!oldSlugs.has(entry.slug));
+    assert.ok(entry.sources.some(source=>source.url===entry.identity_key));
+    assert.ok(entry.recognition_evidence.length>50);
+    assert.match(entry.identity_review,/AI-assisted|AI assistance/i);
+    assert.equal(entry.feast_day,null);
+    assert.equal(entry.calendar_scope,'unverified');
+    assert.equal(entry.calendar_source,null);
+  }
+  assert.ok(!added.some(entry=>['agnes-le-thi-thanh','andrew-dung-lac'].includes(entry.slug)), 'Existing Vietnamese identities are not recounted');
+  assert.match(groups[0].find(entry=>entry.slug==='jose-gregorio-hernandez-cisneros').recognition_evidence,/2025/);
+  const oldGenerated=generated.filter(entry=>oldSlugs.has(entry.saint.slug));
+  assert.deepEqual(oldGenerated,compile(entries.filter(entry=>oldSlugs.has(entry.slug))));
 });
 
 test('100-person expansion uses individual recognition sources and preserves uncertain Korean identities', () => {
