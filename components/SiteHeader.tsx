@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 
 const GROUPS = [
   { id: "guides", label: "Guides", links: [
+    { href: "/resources/reading", label: "Guided reading", description: "Compare two lives and explore their sources." },
     { href: "/blog", label: "Journal", description: "Further reading and reflection." },
     { href: "/confirmation-saint-guide", label: "Confirmation guide", description: "Choose a saint to walk with you." },
     { href: "/resources/teachers", label: "Teachers & catechists", description: "Free worksheets and lesson resources." },

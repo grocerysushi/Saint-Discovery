@@ -112,7 +112,7 @@ try {
   await guides.focus(); await page.keyboard.press('Enter');
   assert.equal(await guides.getAttribute('aria-expanded'), 'true');
   await page.keyboard.press('Tab');
-  assert.match(await page.evaluate(()=>document.activeElement?.textContent), /Journal/);
+  assert.match(await page.evaluate(()=>document.activeElement?.textContent), /Guided reading/);
   await page.keyboard.press('Escape');
   assert.equal(await guides.getAttribute('aria-expanded'), 'false');
   assert.equal(await guides.evaluate(el=>el === document.activeElement), true);

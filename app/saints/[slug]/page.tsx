@@ -4,6 +4,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { getAllSaints, getAllSaintSlugs, getRelatedSaints, getSaintBySlug } from "@/lib/saints";
 import { getBiographyReview } from "@/lib/saint-reviews";
 import { getSaintLearningGuide } from "@/lib/saint-learning-guides";
+import { getProfileUpdatedOn } from "@/lib/profile-updates";
 import { getSaintContribution } from "@/lib/saint-contributions";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
@@ -106,7 +107,7 @@ export default async function SaintPage({
     about: { "@type": "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
-    ...(review ? { dateModified: contribution?.reviewed_on ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(contribution?.sources ?? [])].map(source => source.url))] } : {}),
+    ...(review ? { dateModified: getProfileUpdatedOn(saint.slug), citation: [...new Set([...review.sources, ...(contribution?.sources ?? [])].map(source => source.url))] } : {}),
   };
 
   const breadcrumbJsonLd = {
@@ -249,7 +250,7 @@ export default async function SaintPage({
               {saint.prayer && <a href="#prayer">Prayer</a>}
               <a href="#reflection">Reflection</a>
               {extended && extended.faqs.length > 0 && <a href="#questions">Common questions</a>}
-              {review && <a href="#sources">Sources</a>}
+              {review && <a href="#sources">Sources &amp; corrections</a>}
             </div>
           </nav>
 
@@ -369,10 +370,13 @@ export default async function SaintPage({
           {review && (
             <section id="sources" className="mb-10 border-t border-navy-lighter pt-7">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">Sources and further reading</h2>
+              {learningGuide?.sourceContext && <p className="text-cream-dark leading-relaxed mb-5">{learningGuide.sourceContext}</p>}
               <ul className="space-y-3 text-cream-dark">
                 {review.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-4 hover:text-gold">{source.title} ↗</a></li>)}
               </ul>
-              <p className="text-sm text-cream-dark/70 mt-4">{review.status === "needs-identification" ? "Identity investigated" : "Compared with these sources"} on {review.reviewed_on}. Historical uncertainties and later traditions are identified in the biography.</p>
+              <p className="text-sm text-cream-dark/70 mt-4">{review.status === "needs-identification" ? "Identity investigated" : "Biography source comparison recorded"} on <time dateTime={review.reviewed_on}>{review.reviewed_on}</time>. This is an AI-assisted comparison, not independent human or ecclesiastical approval.</p>
+              <details className="mt-4 text-sm text-cream-dark"><summary className="cursor-pointer text-gold">What the recorded review covers</summary><p className="mt-3">{review.review_method}</p><p className="mt-3">A source list helps you check an account; it does not establish that every claim is certain. Follow the biography’s qualifications about historical evidence, traditions and feast calendars.</p></details>
+              <p className="mt-4 text-sm"><a className="text-link" href={`mailto:hello@saintdiscoveryquiz.com?subject=${encodeURIComponent(`Correction: ${name}`)}&body=${encodeURIComponent(`Page: ${url}\n\nPassage to check:\n\nSuggested correction and supporting source:\n`)}`}>Suggest a correction to this biography</a></p>
               <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy" className="underline underline-offset-4">How we research these pages and handle corrections</Link></p>
             </section>
           )}
@@ -400,8 +404,9 @@ export default async function SaintPage({
           {relatedSaints.length > 0 && (
             <section className="mt-12 pt-8 border-t border-navy-lighter">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
-                Saints with Similar Spiritual Gifts
+                More lives to explore
               </h2>
+              <p className="text-cream-dark mb-5">Suggestions based on the site’s quiz themes, not a historical relationship or a measure of holiness.</p>
               <div className="grid gap-3 sm:grid-cols-2">
                 {relatedSaints.map((related) => (
                   <Link

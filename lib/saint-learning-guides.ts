@@ -1,10 +1,64 @@
 export interface SaintLearningGuide {
+  reviewedOn?: string;
+  sourceContext?: string;
   reading: { title: string; introduction: string; exercise: string; url: string; label: string };
   prompts: string[];
   faqs: { question: string; answer: string; source: { title: string; url: string } }[];
 }
 
 const guides: Record<string, SaintLearningGuide> = {
+  "francis-of-assisi": {
+    reviewedOn: "2026-10-04",
+    sourceContext: "Benedict XVI's 2010 audience is a modern Catholic interpretation of Francis's life. It draws on earlier Franciscan accounts and writings; it is not an eyewitness record. Its treatment of reported visions should be read as religious tradition, with the pope's interpretation distinguished from the events described.",
+    reading: {
+      title: "Follow the changing meaning of rebuilding",
+      introduction: "Read the account of San Damiano in Benedict XVI's audience, then continue to Francis's relationship with his companions and the Church. Notice how repairing a building becomes a way of discussing renewal in a community.",
+      exercise: "Make a small diagram with three headings: building, community, personal response. Under the first two, record what the audience actually says; under the third, propose one modest responsibility you could take on in your parish or neighborhood. Mark that last item as your application, not an instruction Francis gave.",
+      url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html",
+      label: "Read Benedict XVI on Francis and renewal",
+    },
+    prompts: ["Which part of this account changes your picture of Francis beyond familiar animal imagery?", "What would serving a community require of you besides pointing out what is wrong?", "Name one possession, commitment, or habit you could simplify to make room for that responsibility."],
+    faqs: [{ question: "Did Francis seek renewal apart from the Church?", answer: "Benedict XVI presents Francis's renewal as taking place within the Church. He describes Francis seeking the pope's approval for his community and links his Gospel commitment with the Eucharist and communion with the Church.", source: { title: "Read the audience on Francis and the Church", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html" } }],
+  },
+  "ignatius-of-loyola": {
+    reviewedOn: "2026-10-04",
+    sourceContext: "The Jesuit Conference provides a modern institutional overview of its founder. The Office of Ignatian Spirituality explains how the Spiritual Exercises are used today. These introductions help orient a reader; neither replaces Ignatius's own text or an accompanied retreat.",
+    reading: {
+      title: "Notice what follows an ambition",
+      introduction: "Read the recovery episode in the Jesuit Conference's account of Ignatius. Pay attention to the different aftereffects of his daydreams, and then follow the account into his pilgrimage and studies rather than treating one feeling as the whole story.",
+      exercise: "Draw a short sequence of the changes the biography describes. Beside each, note what Ignatius noticed and what he did next, leaving a blank when the source does not say. Then write one question you would want to discuss with a trusted spiritual guide about a decision of your own. This reading exercise is not the Spiritual Exercises or a test that reveals God's will.",
+      url: "https://www.jesuits.org/about-us/ignatius-of-loyola/",
+      label: "Read the Jesuit Conference's account of Ignatius",
+    },
+    prompts: ["How does looking at the effects of a choice over time differ from following your first reaction?", "Which part of Ignatius's journey involved learning from another person?", "What information or counsel would help you examine a decision more patiently?"],
+    faqs: [{ question: "Are the Spiritual Exercises a book to read straight through?", answer: "The Office of Ignatian Spirituality describes them as a handbook for a guided process of prayer, rather than ordinary continuous reading. Retreat formats include a concentrated 30-day retreat and an extended retreat alongside daily responsibilities, with guidance from a spiritual director.", source: { title: "Read the Office of Ignatian Spirituality's introduction", url: "https://www.jesuitseastois.org/spiritualexercises" } }],
+  },
+  "catherine-of-siena": {
+    reviewedOn: "2026-10-04",
+    sourceContext: "Benedict XVI's 2010 audience introduces Catherine's teaching through her writings and Raymond of Capua's biography. It is a later papal catechesis, not a contemporary transcript of her life. The reported visions belong to that spiritual testimony and should not be treated as independently documented public events.",
+    reading: {
+      title: "Trace Catherine's image of a bridge",
+      introduction: "Near the end of the audience below, Benedict XVI explains Catherine's image of Christ as a bridge in the Dialogue. Read that explanation alongside the earlier account of her care for sick people and her work for peace.",
+      exercise: "Sketch the bridge and label its three stages using the explanation in the audience. Beside the sketch, write one question the image helps you ask and one point you still do not understand. Then find an example of practical service in the same reading. Discuss how that example might relate to the teaching without assuming your connection is Catherine's own explanation.",
+      url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101124.html",
+      label: "Read an introduction to Catherine's life and teaching",
+    },
+    prompts: ["What is easier for you to notice in this reading: its vivid spiritual language or its practical demands?", "How could a firm request for change also show care for the person receiving it?", "Which of Catherine's writings would you investigate next, and what question would you bring to it?"],
+    faqs: [{ question: "Did Catherine live in a cloistered convent?", answer: "Benedict XVI describes her as a member of the Dominican Third Order's Mantellate who lived at home. Her vocation included prayer, service to sick people, spiritual guidance, and journeys for peace and Church reform.", source: { title: "Read the audience on Catherine's Dominican vocation", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101124.html" } }],
+  },
+  "peter-faber": {
+    reviewedOn: "2026-10-04",
+    sourceContext: "The Society of Jesus page reproduces Adolfo Nicolás's letter of 17 December 2013 celebrating Faber's canonization. It cites Faber's Memorial and accounts by his companions, but selects them for a spiritual reflection. Francis's 2014 homily likewise interprets Faber's example; neither is a complete critical biography.",
+    reading: {
+      title: "Study the work behind a gentle conversation",
+      introduction: "Read the sections on friendship and reconciliation in the Jesuit letter about Faber. Look for concrete practices connected with his gentleness, including conversation, prayer, and attention to the people around him.",
+      exercise: "Choose one passage the letter attributes to Faber or a companion. Note who is speaking, then separate that testimony from Nicolás's modern commentary. For a low-stakes disagreement of your own, draft a question that would help you understand the other person's position before responding. This is your practice in listening, not a reconstructed quotation from Faber.",
+      url: "https://www.jesuits.global/saint-blessed/saint-peter-faber/",
+      label: "Read the Jesuit letter on Faber's example",
+    },
+    prompts: ["Which action in the account makes gentleness more concrete than simply being agreeable?", "When have you understood a disagreement differently after asking a careful question?", "What would it mean to hold a conviction clearly while speaking with respect?"],
+    faqs: [{ question: "Did Faber's gentleness mean avoiding difficult commitments?", answer: "Francis's 2014 homily presents Faber's sensitivity alongside his capacity to make decisions, travel, and proclaim the Gospel. Its portrait connects gentle dialogue with committed action, rather than with having no convictions.", source: { title: "Read Francis's homily on Peter Faber", url: "https://www.vatican.va/content/francesco/en/homilies/2014/documents/papa-francesco_20140103_omelia-santissimo-nome-gesu.html" } }],
+  },
   "hildegard-of-bingen": {
     reading: {
       title: "Begin with Hildegard’s world of symbols",

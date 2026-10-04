@@ -7,11 +7,27 @@ const read = file => fs.readFileSync(new URL(`../${file.replace(/^\.next\//, `${
 const saints = await loadTs('lib/saints.ts').getAllSaints();
 const { reviews, getBiographyReview, isPublishedSaintSlug } = loadTs('lib/saint-reviews.ts');
 const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
+const { getProfileUpdatedOn } = loadTs('lib/profile-updates.ts');
 const origin = 'https://www.saintdiscoveryquiz.com';
 const html = route => read(`.next/server/app/${route}.html`);
 const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const meta = (source, key) => decode(source.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]*)"`))?.[1] ?? '');
 const jsonLd = source => [...source.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
+
+test('guided reading is rendered, canonical, linked and dated without claiming a directory-wide review', () => {
+  const source = html('resources/reading');
+  assert.ok(source.includes(`rel="canonical" href="${origin}/resources/reading"`));
+  assert.equal((source.match(/<h1\b/g) ?? []).length, 1);
+  const { READING_PATHS } = loadTs('lib/reading-paths.ts');
+  for (const path of READING_PATHS) {
+    assert.ok(decode(source).includes(path.exercise));
+    for (const slug of path.slugs) assert.ok(source.includes(`href="/saints/${slug}#reading-guide"`));
+  }
+  assert.ok(read('.next/server/app/sitemap.xml.body').includes(`<loc>${origin}/resources/reading</loc>`));
+  assert.match(decode(html('editorial-policy')), /not a fresh fact-check of every directory entry/);
+  assert.match(html('saints/ignatius-of-loyola'), /Biography source comparison recorded/);
+  assert.match(html('saints/peter-faber'), /omelia-santissimo-nome-gesu/);
+});
 
 test('public sharing metadata and sourced patronage context survive production rendering', () => {
   for (const route of ['about', 'privacy', 'editorial-policy', 'patron-saint-of', 'patron-saint-of/italy', 'patron-saint-of/goldsmiths', 'patron-saint-of/african-americans']) {
@@ -107,7 +123,7 @@ test('every saint has a unique canonical, readable server-rendered content, and 
       assert.ok(renderedContent.includes(paragraph), `${saint.slug}: missing server-rendered biography paragraph`);
     }
     const contribution = getSaintContribution(saint.slug);
-    assert.equal(article.dateModified, contribution?.reviewed_on ?? reviews[saint.slug].reviewed_on, saint.slug);
+    assert.equal(article.dateModified, getProfileUpdatedOn(saint.slug), saint.slug);
     if (contribution) {
       const rendered = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
       assert.ok(rendered.includes(contribution.title), `${saint.slug}: contribution heading`);
@@ -118,7 +134,7 @@ test('every saint has a unique canonical, readable server-rendered content, and 
         assert.ok(article.citation.includes(citation.url), `${saint.slug}: structured citation`);
       }
       const sitemap = read('.next/server/app/sitemap.xml.body');
-      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${contribution.reviewed_on}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
+      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${getProfileUpdatedOn(saint.slug)}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
     }
     assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(contribution?.sources ?? [])].map(entry => entry.url))], saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
