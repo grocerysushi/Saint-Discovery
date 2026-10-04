@@ -79,7 +79,8 @@ try {
       if (route === '/editorial-policy') {
         assert.match(await page.locator('main').innerText(), /not a fresh fact-check of every directory entry/);
         assert.match(await page.locator('main').innerText(), /AI tools assist/);
-        assert.equal(await page.locator('main a[href^="mailto:"]').count(), 1);
+        assert.equal(await page.locator('main a[href="mailto:hello@saintdiscoveryquiz.com?subject=Content%20correction"]').count(), 1);
+        assert.equal(await page.locator('main a[href="mailto:hello@saintdiscoveryquiz.com?subject=Qualified%20content%20review"]').count(), 1);
       }
       if (route.startsWith('/quiz/results/')) {
         await learning().waitFor();

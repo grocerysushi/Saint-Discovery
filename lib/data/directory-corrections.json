@@ -1,0 +1,79 @@
+[
+  {
+    "id": "2026-10-03-distinct-directory-count",
+    "date": "2026-10-03",
+    "slug": null,
+    "type": "correction",
+    "title": "Excluded alternate URLs from the biography audit total",
+    "before": "The initial source inventory described 641 entries as published biographies, including 16 alternate URLs for existing people.",
+    "after": "The audit now counts canonical published biographies only. The directory held 625 distinct records before this expansion; alternate URLs do not count as new saints.",
+    "method": "Compared the source inventory with the canonical directory data and duplicate-identity records; AI-assisted technical maintenance, not historical or theological review.",
+    "sources": []
+  },
+  {
+    "id": "2026-10-03-revision-dates",
+    "date": "2026-10-03",
+    "slug": null,
+    "type": "correction",
+    "title": "Biography revision dates now use the latest recorded content update",
+    "before": "Article metadata and sitemap entries preferred the contribution section's date whenever that section existed, even if the biography had been revised more recently.",
+    "after": "Article metadata and sitemap entries use the latest recorded biography, contribution, or evidence-note revision. A newer biography revision is no longer hidden by an older section date.",
+    "method": "Code and data comparison; AI-assisted maintenance, not qualified human historical review.",
+    "sources": []
+  },
+  {
+    "id": "2026-10-03-calendar-label",
+    "date": "2026-10-03",
+    "slug": null,
+    "type": "clarification",
+    "title": "Distinguished a saint's commemoration date from liturgical rank",
+    "before": "Every biography's recurring date was labeled Feast Day, including optional memorials and traditional commemorations.",
+    "after": "The date is labeled Commemoration. Calendar notes and an explanatory guide distinguish the directory's recurring date from a feast, memorial, or local observance in an approved liturgical calendar.",
+    "method": "AI-assisted comparison with bishops' conference calendar guidance.",
+    "sources": [{ "title": "USCCB: Liturgical Calendar for the Dioceses of the United States", "url": "https://www.usccb.org/committees/divine-worship/liturgical-calendar" }]
+  },
+  {
+    "id": "2026-10-03-mary-magdalene-evidence",
+    "date": "2026-10-03",
+    "slug": "mary-magdalene",
+    "type": "clarification",
+    "title": "Explained Mary Magdalene's distinct identity and the 2016 feast-rank change",
+    "before": "The biography already distinguished the Gospel figures, but had no separate evidence note explaining the older liturgical conflation or the meaning of feast rank.",
+    "after": "Added source-linked evidence and calendar notes: the reformed liturgy concerns Mary of Magdala, and the 2016 change elevated the celebration's rank without moving July 22.",
+    "method": "AI-assisted reading of the Holy See's 2016 explanation and preface commentary; no qualified human review credited.",
+    "sources": [{ "title": "Holy See: Mary Magdalene, apostle of the apostles", "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2016/06/10/160610c.html" }]
+  },
+  {
+    "id": "2026-10-03-christopher-evidence",
+    "date": "2026-10-03",
+    "slug": "christopher",
+    "type": "clarification",
+    "title": "Added a contemporary Catholic source identifying Christopher's river story as legend",
+    "before": "The biography already identified the river crossing as legend and cited a historical reference work.",
+    "after": "Added a directly linked Vatican News explanation and clarified that a July 25 saint-directory listing does not establish a universal obligatory memorial.",
+    "method": "AI-assisted comparison with Vatican News and calendar guidance; no qualified human review credited.",
+    "sources": [{ "title": "Vatican News: Saint Christopher, martyr", "url": "https://www.vaticannews.va/en/saints/07/25/st--christopher--martyr.html" }]
+  },
+  {
+    "id": "2026-10-03-george-evidence",
+    "date": "2026-10-03",
+    "slug": "george",
+    "type": "clarification",
+    "title": "Separated George's dragon legend, later patronage, and recurring calendar date",
+    "before": "These distinctions were already present in the narrative but were not gathered in a dedicated evidence note.",
+    "after": "Added source-linked guidance for reading the legend and medieval reception separately from evidence about the ancient martyr, with a note on local calendars.",
+    "method": "AI-assisted source comparison; no qualified human review credited.",
+    "sources": [{ "title": "Vatican News: Saint George, martyr", "url": "https://www.vaticannews.va/en/saints/04/23/st--george--martyr.html" }]
+  },
+  {
+    "id": "2026-10-03-john-paul-ii-calendar",
+    "date": "2026-10-03",
+    "slug": "john-paul-ii",
+    "type": "clarification",
+    "title": "Explained John Paul II's optional memorial and anniversary choice",
+    "before": "The short calendar note named October 22 and the inauguration of his pontificate.",
+    "after": "Added a USCCB reference explaining the optional memorial's rank, its inclusion in the General Roman Calendar, and its distinction from his April 2 death anniversary.",
+    "method": "AI-assisted comparison with the USCCB liturgical page; no qualified human review credited.",
+    "sources": [{ "title": "USCCB: Saint John Paul II", "url": "https://www.usccb.org/prayer-and-worship/liturgical-year-and-calendar/saint-john-paul-ii" }]
+  }
+]

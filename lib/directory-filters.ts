@@ -21,10 +21,10 @@ export const EMPTY_FILTERS: DirectoryFilters = { search: "", gender: "", month: 
 // Geographic associations from the reviewed origin field, not modern nationality.
 // Historical regions are kept as regions rather than assigned to current borders.
 const GEOGRAPHY: [string, RegExp][] = [
-  ...["Albania", "Armenia", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Colombia", "Cuba", "Czech Republic", "Denmark", "Ecuador", "Egypt", "El Salvador", "England", "Ethiopia", "France", "Germany", "Greece", "Guatemala", "Hungary", "India", "Ireland", "Italy", "Japan", "Korea", "Lebanon", "Lithuania", "Mexico", "Montenegro", "Netherlands", "Norway", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Russia", "Scotland", "Serbia", "Spain", "Sudan", "Sweden", "Switzerland", "Syria", "Tunisia", "Uganda", "Ukraine", "United States", "Vietnam", "Wales"].map(name => [name, new RegExp(`\\b${name}\\b`, "i")] as [string, RegExp]),
+  ...["Albania", "Algeria", "Argentina", "Armenia", "Australia", "Austria", "Belgium", "Brazil", "Bulgaria", "Canada", "Chile", "China", "Colombia", "Cuba", "Czech Republic", "Denmark", "Ecuador", "Egypt", "El Salvador", "England", "Ethiopia", "France", "Germany", "Greece", "Guatemala", "Hungary", "India", "Ireland", "Italy", "Japan", "Korea", "Lebanon", "Lithuania", "Luxembourg", "Madagascar", "Malta", "Mexico", "Montenegro", "Netherlands", "Norway", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", "Russia", "Scotland", "Serbia", "Spain", "Sri Lanka", "Sudan", "Sweden", "Switzerland", "Syria", "Tunisia", "Uganda", "Ukraine", "United States", "Uruguay", "Venezuela", "Vietnam", "Wales"].map(name => [name, new RegExp(`\\b${name}\\b`, "i")] as [string, RegExp]),
   ["Democratic Republic of the Congo", /\bDemocratic Republic of the Congo\b/i],
   ["Türkiye", /\b(?:Turkey|Türkiye)\b/i],
-  ["Holy Land (historical region)", /\b(?:Holy Land|Judea|Galilee|Jerusalem|Mount Carmel|Samaria|Ancient Israel)\b/i],
+  ["Holy Land (historical region)", /\b(?:Holy Land|Judea|Galilee|Jerusalem|Mount Carmel|Samaria|Ancient Israel|Palestine)\b/i],
   ["Asia Minor (historical region)", /\b(?:Asia Minor|Cappadocia|Pontus|Bithynia|Cilicia|Nicomedia)\b/i],
   ["North Africa (historical region)", /\bNorth Africa\b/i],
   ["Mesopotamia (historical region)", /\b(?:Mesopotamia|Edessa)\b/i],

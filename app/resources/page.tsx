@@ -6,6 +6,7 @@ import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 import SaintsDirectory from "@/components/SaintsDirectory";
+import { getSaintArtwork } from "@/lib/saint-artwork";
 
 export const revalidate = 86400;
 
@@ -136,8 +137,9 @@ export default async function Resources() {
       />
       <div className="site-width directory-page">
         <header className="catalogue-intro"><h1>The saints directory</h1><p>Explore {saints.length} Catholic saint biographies, with sources, historical context and room for further discovery.</p></header>
-        <SaintsDirectory saints={saints} patronTopics={patronTopics} />
+        <SaintsDirectory saints={saints} patronTopics={patronTopics} artwork={Object.fromEntries(saints.map(saint => { const {src,alt,symbolic,generated} = getSaintArtwork(saint); return [saint.slug,{src,alt,...(symbolic?{symbolic}:{}),...(generated?{generated}:{})}]; }))} />
         <div className="guide-directory-link"><div><p className="eyebrow">Not sure where to begin?</p><h2>Read two lives around one question.</h2><p>Try a guided comparison, follow the evidence, and make room for your own questions.</p></div><Link href="/resources/reading" className="btn-secondary">Choose a reading path</Link></div>
+
         <section className="directory-resources"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
         <div className="guide-directory-link"><div><p className="eyebrow">Preparing for Confirmation?</p><h2>Find a saint to walk with you.</h2><p>Explore suggestions, build a shortlist, and reflect with your sponsor.</p></div><Link href="/confirmation-saint-guide" className="btn-secondary">Read the selection guide <span aria-hidden>↗</span></Link></div>
         <div className="guide-directory-link"><div><p className="eyebrow">For teachers &amp; catechists</p><h2>Bring a saint’s story into your classroom.</h2><p>Free printable reflections and a 45-minute Confirmation lesson, ready for your next session.</p></div><Link href="/resources/teachers" className="btn-secondary">Get the teaching resources <span aria-hidden>↗</span></Link></div>

@@ -57,6 +57,15 @@ test('geography preserves historical regions and multiple recorded associations'
   assert.equal(getDirectoryEntry({ ...bySlug('joseph'), origin: 'Place of origin uncertain' }).countries.length, 0);
 });
 
+test('new biographies can be discovered through their recorded geographic associations', () => {
+  assert.deepEqual(Array.from(getDirectoryEntry(bySlug('george-preca')).countries),['Malta']);
+  assert.deepEqual(Array.from(getDirectoryEntry(bySlug('joseph-vaz')).countries),['India','Sri Lanka']);
+  assert.ok(select({country:'Venezuela'}).some(s=>s.slug==='jose-gregorio-hernandez-cisneros'));
+  assert.ok(select({country:'Madagascar'}).some(s=>s.slug==='jacques-berthieu'));
+  assert.ok(select({country:'Argentina'}).some(s=>s.slug==='artemide-zatti'));
+  assert.ok(getDirectoryEntry(bySlug('marie-alphonsine-danil-ghattas')).countries.includes('Holy Land (historical region)'));
+});
+
 test('curated metadata preserves archived identities and has nonduplicated classifications', () => {
   const metadata = JSON.parse(fs.readFileSync(new URL('../lib/data/saint-directory-metadata.json', import.meta.url)));
   for (const [slug, entry] of Object.entries(metadata)) {

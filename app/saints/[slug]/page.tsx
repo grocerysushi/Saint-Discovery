@@ -6,6 +6,7 @@ import { getBiographyReview } from "@/lib/saint-reviews";
 import { getSaintLearningGuide } from "@/lib/saint-learning-guides";
 import { getProfileUpdatedOn } from "@/lib/profile-updates";
 import { getSaintContribution } from "@/lib/saint-contributions";
+import { getDirectoryEvidenceNote, getDirectoryCorrections } from "@/lib/directory-editorial";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getPatronLinksForSaint } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
@@ -14,6 +15,8 @@ import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
 import BiographyArticles from "@/components/BiographyArticles";
 import saintExtended from "@/lib/data/saint-extended.json";
+import { getSaintArtwork } from "@/lib/saint-artwork";
+import SaintArtworkFigure from "@/components/SaintArtwork";
 
 // Legacy generated copy is replaced as each external-source review is completed.
 // Its former model-only checking process was not independent fact verification.
@@ -85,6 +88,9 @@ export default async function SaintPage({
   const review = getBiographyReview(saint.slug);
   const learningGuide = getSaintLearningGuide(saint.slug);
   const contribution = getSaintContribution(saint.slug);
+  const evidenceNote = getDirectoryEvidenceNote(saint.slug);
+  const corrections = getDirectoryCorrections(saint.slug);
+  const updatedOn = getProfileUpdatedOn(saint.slug);
   const extended: ExtendedContent | undefined = review ? { biography: review.biography, faqs: learningGuide?.faqs ?? [] } : EXTENDED[saint.slug];
   const reflectionPrompts = contribution ? [...(learningGuide?.prompts ?? []), contribution.reflection] : learningGuide?.prompts ?? [
     "Which event or decision in this life stood out to you?",
@@ -92,6 +98,7 @@ export default async function SaintPage({
     "What small action could you take today in response?",
   ];
   const { name, title, description } = saintSearchSummary(saint);
+  const artwork = getSaintArtwork(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
   const relatedGuides = PATRON_GUIDES.filter(guide => guide.saints.some(entry => entry.slug === saint.slug));
 
@@ -101,13 +108,15 @@ export default async function SaintPage({
     "@id": `${url}#article`,
     url,
     headline: title,
+    ...(!artwork.symbolic ? { image: absoluteUrl(artwork.src) } : {}),
     description,
     inLanguage: "en-US",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     about: { "@type": "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
-    ...(review ? { dateModified: getProfileUpdatedOn(saint.slug), citation: [...new Set([...review.sources, ...(contribution?.sources ?? [])].map(source => source.url))] } : {}),
+    ...(review ? { dateModified: updatedOn ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(contribution?.sources ?? []), ...(evidenceNote?.history.sources ?? []), ...(evidenceNote?.calendar.sources ?? [])].map(source => source.url))] } : {}),
+
   };
 
   const breadcrumbJsonLd = {
@@ -198,7 +207,7 @@ export default async function SaintPage({
             <dl className="text-sm space-y-1.5">
               {saint.feast_day && (
                 <div className="flex gap-2">
-                  <dt className="text-cream font-semibold">Feast Day:</dt>
+                  <dt className="text-cream font-semibold">Commemoration:</dt>
                   <dd className="text-cream-dark/70">{saint.feast_day}</dd>
                 </div>
               )}
@@ -232,6 +241,7 @@ export default async function SaintPage({
               )}
             </dl>
             {review?.feast_note && <p className="text-sm text-cream-dark/70 mt-3">{review.feast_note}</p>}
+            {saint.feast_day && <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy/feast-calendars" className="underline underline-offset-4">Why dates and liturgical observances can differ</Link></p>}
             {review?.recognition_note && <p className="text-sm text-cream-dark/70 mt-3">{review.recognition_note}</p>}
             {saint.known_for && (
               <p className="text-cream-dark leading-relaxed mt-5">
@@ -240,6 +250,8 @@ export default async function SaintPage({
             )}
             {review && <a href="#sources" className="profile-source-link">Read the sources for this biography</a>}
           </header>
+
+          <SaintArtworkFigure artwork={artwork} name={name} />
 
           <nav aria-label="On this page" className="profile-contents">
             <h2>On this page</h2>
@@ -251,6 +263,9 @@ export default async function SaintPage({
               <a href="#reflection">Reflection</a>
               {extended && extended.faqs.length > 0 && <a href="#questions">Common questions</a>}
               {review && <a href="#sources">Sources &amp; corrections</a>}
+              {evidenceNote && <a href="#evidence">History &amp; calendar notes</a>}
+              {corrections.length > 0 && <a href="#updates">Editorial updates</a>}
+
             </div>
           </nav>
 
@@ -367,6 +382,20 @@ export default async function SaintPage({
             </section>
           )}
 
+          {evidenceNote && (
+            <section id="evidence" aria-labelledby="evidence-title" className="mb-10 scroll-mt-24">
+              <h2 id="evidence-title" className="text-2xl font-heading font-semibold text-cream mb-4">History, tradition &amp; the calendar</h2>
+              <div className="space-y-5 text-cream-dark leading-relaxed">
+                {[{ title: "Reading the evidence", note: evidenceNote.history }, { title: "Understanding the commemoration", note: evidenceNote.calendar }].map(({ title, note }) => <div key={title}>
+                  <h3 className="font-semibold text-cream mb-2">{title}</h3>
+                  <p>{note.text}</p>
+                  <ul className="mt-2 space-y-2 text-sm">{note.sources.map(source => <li key={source.url}><a className="text-link" href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul>
+                </div>)}
+              </div>
+              <p className="text-sm text-cream-dark/70 mt-4">These notes were compared with the linked sources on {evidenceNote.reviewed_on} using AI assistance.</p>
+            </section>
+          )}
+
           {review && (
             <section id="sources" className="mb-10 border-t border-navy-lighter pt-7">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">Sources and further reading</h2>
@@ -377,9 +406,15 @@ export default async function SaintPage({
               <p className="text-sm text-cream-dark/70 mt-4">{review.status === "needs-identification" ? "Identity investigated" : "Biography source comparison recorded"} on <time dateTime={review.reviewed_on}>{review.reviewed_on}</time>. This is an AI-assisted comparison, not independent human or ecclesiastical approval.</p>
               <details className="mt-4 text-sm text-cream-dark"><summary className="cursor-pointer text-gold">What the recorded review covers</summary><p className="mt-3">{review.review_method}</p><p className="mt-3">A source list helps you check an account; it does not establish that every claim is certain. Follow the biography’s qualifications about historical evidence, traditions and feast calendars.</p></details>
               <p className="mt-4 text-sm"><a className="text-link" href={`mailto:hello@saintdiscoveryquiz.com?subject=${encodeURIComponent(`Correction: ${name}`)}&body=${encodeURIComponent(`Page: ${url}\n\nPassage to check:\n\nSuggested correction and supporting source:\n`)}`}>Suggest a correction to this biography</a></p>
-              <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy" className="underline underline-offset-4">How we research these pages and handle corrections</Link></p>
+              <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy" className="underline underline-offset-4">How we research these pages and handle corrections</Link> · <Link href="/editorial-policy/corrections" className="underline underline-offset-4">Directory corrections log</Link></p>
+
             </section>
           )}
+
+          {corrections.length > 0 && <section id="updates" aria-labelledby="updates-title" className="mb-10 scroll-mt-24">
+            <h2 id="updates-title" className="text-2xl font-heading font-semibold text-cream mb-4">Editorial updates</h2>
+            <ul className="space-y-4 text-cream-dark">{corrections.map(entry => <li key={entry.id}><p className="text-sm"><time dateTime={entry.date}>{entry.date}</time> · {entry.type === "correction" ? "Correction" : "Clarification"}</p><p className="font-semibold">{entry.title}</p><p>{entry.after}</p><Link className="text-link text-sm" href={`/editorial-policy/corrections#${entry.id}`}>Read the change record →</Link></li>)}</ul>
+          </section>}
 
           <BiographyJourney slug={saint.slug} />
           <ShareButtons

@@ -1,0 +1,497 @@
+[
+  {
+    "date": "01-30",
+    "slug": "hyacintha-marescotti",
+    "name": "Hyacintha Marescotti",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/5410/Sainte-Jacinthe.html",
+    "status": 200,
+    "title": "Sainte Jacinthe"
+  },
+  {
+    "date": "02-02",
+    "slug": "catherine-de-ricci",
+    "name": "Catherine de Ricci",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/546/Sainte-Catherine-de-Ricci.html",
+    "status": 200,
+    "title": "Sainte Catherine de Ricci"
+  },
+  {
+    "date": "02-07",
+    "slug": "richard-the-pilgrim",
+    "name": "Richard the Pilgrim",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/589/Saint-Richard.html",
+    "status": 200,
+    "title": "Saint Richard"
+  },
+  {
+    "date": "02-11",
+    "slug": "gregory-ii",
+    "name": "Gregory II",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/613/Saint-Gr%C3%A9goire-II.html",
+    "status": 200,
+    "title": "Saint Grégoire II"
+  },
+  {
+    "date": "02-12",
+    "slug": "benedict-of-aniane",
+    "name": "Benedict of Aniane",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/611/Saint-Beno%C3%AEt-d-Aniane.html",
+    "status": 200,
+    "title": "Saint Benoît d'Aniane"
+  },
+  {
+    "date": "02-13",
+    "slug": "fulcran-of-lodeve",
+    "name": "Fulcran of Lodève",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/628/Saint-Fulcran-de-Lod%C3%A8ve.html",
+    "status": 200,
+    "title": "Saint Fulcran de Lodève"
+  },
+  {
+    "date": "02-16",
+    "slug": "juliana-of-nicomedia",
+    "name": "Juliana of Nicomedia",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/652/Sainte-Julienne-de-Nicom%C3%A9die.html",
+    "status": 200,
+    "title": "Sainte Julienne de Nicomédie"
+  },
+  {
+    "date": "02-17",
+    "slug": "alexis-falconieri",
+    "name": "Alexis Falconieri",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/656/Saint-Alexis-Falconieri.html",
+    "status": 200,
+    "title": "Saint Alexis Falconieri"
+  },
+  {
+    "date": "02-18",
+    "slug": "bernadette-soubirous",
+    "name": "Bernadette Soubirous",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/662/Sainte-Bernadette-Soubirous.html",
+    "status": 200,
+    "title": "Sainte Bernadette Soubirous"
+  },
+  {
+    "date": "02-24",
+    "slug": "ethelbert-of-kent",
+    "name": "Ethelbert of Kent",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/692/Saint-Ethelbert.html",
+    "status": 200,
+    "title": "Saint Ethelbert"
+  },
+  {
+    "date": "02-26",
+    "slug": "paula-montal-fornes",
+    "name": "Paula Montal Fornés",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/11482/Sainte-Paule-Montal-Forn%C3%A9s-de-Saint-Joseph-de-Calasanz.html",
+    "status": 200,
+    "title": "Sainte Paule Montal Fornés de Saint-Joseph de Calasanz"
+  },
+  {
+    "date": "02-29",
+    "slug": "oswald-of-worcester",
+    "name": "Oswald of Worcester",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/720/Saint-Oswald.html",
+    "status": 200,
+    "title": "Saint Oswald"
+  },
+  {
+    "date": "03-05",
+    "slug": "john-joseph-of-the-cross",
+    "name": "John Joseph of the Cross",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/11499/Saint-Jean-Joseph-de-la-Croix.html",
+    "status": 200,
+    "title": "Saint Jean-Joseph de la Croix"
+  },
+  {
+    "date": "04-08",
+    "slug": "julie-billiart",
+    "name": "Julie Billiart",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/934/Sainte-Julie-Billiart.html",
+    "status": 200,
+    "title": "Sainte Julie Billiart"
+  },
+  {
+    "date": "04-09",
+    "slug": "liborius-of-le-mans",
+    "name": "Liborius of Le Mans",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1554/Saint-Liboire.html",
+    "status": 200,
+    "title": "Saint Liboire"
+  },
+  {
+    "date": "04-12",
+    "slug": "julius-i",
+    "name": "Julius I",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/958/Saint-Jules-Ier.html",
+    "status": 200,
+    "title": "Saint Jules Ier"
+  },
+  {
+    "date": "04-15",
+    "slug": "cesar-de-bus",
+    "name": "César de Bus",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/982/Saint-C%C3%A9sar-de-Bus.html",
+    "status": 200,
+    "title": "Saint César de Bus"
+  },
+  {
+    "date": "04-17",
+    "slug": "kateri-tekakwitha",
+    "name": "Kateri Tekakwitha",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/9934/Sainte-Kateri-Tekakwitha.html",
+    "status": 200,
+    "title": "Sainte Kateri Tekakwitha"
+  },
+  {
+    "date": "05-01",
+    "slug": "joseph",
+    "name": "Joseph",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/2120/Saint-Joseph-Artisan.html",
+    "status": 200,
+    "title": "Saint Joseph Artisan"
+  },
+  {
+    "date": "05-08",
+    "slug": "arsenius",
+    "name": "Arsenius the Great",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/1532/Saint-Ars%C3%A8ne.html",
+    "status": 200,
+    "title": "Saint Arsène"
+  },
+  {
+    "date": "05-28",
+    "slug": "germanus-of-paris",
+    "name": "Germanus of Paris",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1232/Saint-Germain-de-Paris.html",
+    "status": 200,
+    "title": "Saint Germain de Paris"
+  },
+  {
+    "date": "05-29",
+    "slug": "ursula-ledochowska",
+    "name": "Ursula Ledóchowska",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/7145/Sainte-Ursule-Ledochowska.html",
+    "status": 200,
+    "title": "Sainte Ursule Ledochowska"
+  },
+  {
+    "date": "05-31",
+    "slug": "felix-of-nicosia",
+    "name": "Felix of Nicosia",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/11759/Saint-F%C3%A9lix-%28Jacques-Amoroso%29.html",
+    "status": 200,
+    "title": "Saint Félix (Jacques Amoroso)"
+  },
+  {
+    "date": "06-14",
+    "slug": "lidwina-of-schiedam",
+    "name": "Lidwina of Schiedam",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/974/Sainte-Lidwine-de-Schiedam.html",
+    "status": 200,
+    "title": "Sainte Lidwine de Schiedam"
+  },
+  {
+    "date": "06-20",
+    "slug": "silverius",
+    "name": "Silverius",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1357/Saint-Silv%C3%A8re.html",
+    "status": 200,
+    "title": "Saint Silvère"
+  },
+  {
+    "date": "07-02",
+    "slug": "bernardino-realino",
+    "name": "Bernardino Realino",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/7432/Saint-Bernardin-Realino.html",
+    "status": 200,
+    "title": "Saint Bernardin Realino"
+  },
+  {
+    "date": "07-08",
+    "slug": "kilian-of-wurzburg",
+    "name": "Kilian of Würzburg",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1468/Saint-Kilien.html",
+    "status": 200,
+    "title": "Saint Kilien"
+  },
+  {
+    "date": "07-10",
+    "slug": "canute",
+    "name": "Canute IV of Denmark",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/459/Saint-Knud-le-Saint.html",
+    "status": 200,
+    "title": "Saint Knud le Saint"
+  },
+  {
+    "date": "07-16",
+    "slug": "mary-magdalene-postel",
+    "name": "Mary Magdalene Postel",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1519/Sainte-Marie-Madeleine-Postel.html",
+    "status": 200,
+    "title": "Sainte Marie-Madeleine Postel"
+  },
+  {
+    "date": "08-03",
+    "slug": "lydia",
+    "name": "Lydia of Thyatira",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/1614/Sainte-Lydie.html",
+    "status": 200,
+    "title": "Sainte Lydie"
+  },
+  {
+    "date": "08-06",
+    "slug": "sixtus-ii",
+    "name": "Sixtus II",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/1627/Saint-Sixte-II.html",
+    "status": 200,
+    "title": "Saint Sixte II"
+  },
+  {
+    "date": "08-15",
+    "slug": "stanislaus-kostka",
+    "name": "Stanislaus Kostka",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/1672/Saint-Stanislas-Kostka.html",
+    "status": 200,
+    "title": "Saint Stanislas Kostka"
+  },
+  {
+    "date": "08-26",
+    "slug": "mariam-baouardy",
+    "name": "Mariam Baouardy",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/8008/Sainte-Marie-de-J%C3%A9sus-Crucifi%C3%A9.html",
+    "status": 200,
+    "title": "Sainte Marie de Jésus Crucifié"
+  },
+  {
+    "date": "09-01",
+    "slug": "giles-of-saint-gilles",
+    "name": "Giles of Saint-Gilles",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1774/Saint-Gilles.html",
+    "status": 200,
+    "title": "Saint Gilles"
+  },
+  {
+    "date": "09-02",
+    "slug": "agricol-of-avignon",
+    "name": "Agricol of Avignon",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1779/Saint-Agricol-d-Avignon.html",
+    "status": 200,
+    "title": "Saint Agricol d'Avignon"
+  },
+  {
+    "date": "09-06",
+    "slug": "onesiphorus",
+    "name": "Onesiphorus",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1806/Saint-On%C3%A9siphore.html",
+    "status": 200,
+    "title": "Saint Onésiphore"
+  },
+  {
+    "date": "09-07",
+    "slug": "regina-of-alesia",
+    "name": "Regina of Alésia",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1807/Sainte-Reine.html",
+    "status": 200,
+    "title": "Sainte Reine"
+  },
+  {
+    "date": "09-10",
+    "slug": "nicholas-of-tolentino",
+    "name": "Nicholas of Tolentino",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1561/Saint-Nicolas-de-Tolentino.html",
+    "status": 200,
+    "title": "Saint Nicolas de Tolentino"
+  },
+  {
+    "date": "09-11",
+    "slug": "john-gabriel-perboyre",
+    "name": "John Gabriel Perboyre",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/1834/Saint-Jean-Gabriel-Perboyre.html",
+    "status": 200,
+    "title": "Saint Jean-Gabriel Perboyre"
+  },
+  {
+    "date": "09-12",
+    "slug": "francis-choe-kyong-hwan",
+    "name": "Francis Choe Kyong-hwan",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/10400/Saint-Fran%C3%A7ois-Ch-oe-Kyong-Kwan.html",
+    "status": 200,
+    "title": "Saint François Ch'oe Kyong-Kwan"
+  },
+  {
+    "date": "10-02",
+    "slug": "leodegar-of-autun",
+    "name": "Leodegar of Autun",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1952/Saint-L%C3%A9ger.html",
+    "status": 200,
+    "title": "Saint Léger"
+  },
+  {
+    "date": "10-03",
+    "slug": "francis-borgia",
+    "name": "Francis Borgia",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/8492/Saint-Fran%C3%A7ois-de-Borgia.html",
+    "status": 200,
+    "title": "Saint François de Borgia"
+  },
+  {
+    "date": "10-07",
+    "slug": "mark-pope",
+    "name": "Mark, Pope",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/1974/Saint-Marc.html",
+    "status": 200,
+    "title": "Saint Marc"
+  },
+  {
+    "date": "10-26",
+    "slug": "eata-of-hexham",
+    "name": "Eata of Hexham",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/12315/Saint-Eata.html",
+    "status": 200,
+    "title": "Saint Eata"
+  },
+  {
+    "date": "10-29",
+    "slug": "narcissus-of-jerusalem",
+    "name": "Narcissus of Jerusalem",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/2098/Saint-Narcisse.html",
+    "status": 200,
+    "title": "Saint Narcisse"
+  },
+  {
+    "date": "10-30",
+    "slug": "germanus-of-capua",
+    "name": "Germanus of Capua",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/2103/Saint-Germain-de-Capoue.html",
+    "status": 200,
+    "title": "Saint Germain de Capoue"
+  },
+  {
+    "date": "11-01",
+    "slug": "austremonius-of-clermont",
+    "name": "Austremonius of Clermont",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/64/Saint-Austremoine.html",
+    "status": 200,
+    "title": "Saint Austremoine"
+  },
+  {
+    "date": "11-02",
+    "slug": "justus-of-trieste",
+    "name": "Justus of Trieste",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/8894/Saint-Juste-de-Trieste.html",
+    "status": 200,
+    "title": "Saint Juste de Trieste"
+  },
+  {
+    "date": "11-23",
+    "slug": "clement-i",
+    "name": "Clement I",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/19/Saint-Cl%C3%A9ment-Ier.html",
+    "status": 200,
+    "title": "Saint Clément Ier"
+  },
+  {
+    "date": "12-05",
+    "slug": "sabas-the-sanctified",
+    "name": "Sabas the Sanctified",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/225/Saint-Sabas.html",
+    "status": 200,
+    "title": "Saint Sabas"
+  },
+  {
+    "date": "12-12",
+    "slug": "finnian-of-clonard",
+    "name": "Finnian of Clonard",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/9577/Saint-Finnian-de-Leinster.html",
+    "status": 200,
+    "title": "Saint Finnian de Leinster"
+  },
+  {
+    "date": "12-15",
+    "slug": "maria-crocifissa-di-rosa",
+    "name": "Maria Crocifissa di Rosa",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/261/Sainte-Marie-Crucifi%C3%A9e-de-Rose.html",
+    "status": 200,
+    "title": "Sainte Marie-Crucifiée de Rose"
+  },
+  {
+    "date": "12-17",
+    "slug": "josep-manyanet-y-vives",
+    "name": "Josep Manyanet y Vives",
+    "isNew": false,
+    "url": "https://nominis.cef.fr/contenus/saint/9663/Saint-Joseph-Manyanet-y-Vives.html",
+    "status": 200,
+    "title": "Saint Joseph Manyanet y Vives"
+  },
+  {
+    "date": "12-19",
+    "slug": "anastasius-i",
+    "name": "Anastasius I",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/282/Saint-Anastase-Ier.html",
+    "status": 200,
+    "title": "Saint Anastase Ier"
+  },
+  {
+    "date": "12-28",
+    "slug": "catherine-volpicelli",
+    "name": "Catherine Volpicelli",
+    "isNew": true,
+    "url": "https://nominis.cef.fr/contenus/saint/10844/Sainte-Catherine-Volpicelli.html",
+    "status": 200,
+    "title": "Sainte Catherine Volpicelli"
+  }
+]

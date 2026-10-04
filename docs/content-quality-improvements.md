@@ -7,7 +7,7 @@
 - [x] Connect quiz results to biography, evidence and reflection, preserving quiz logic.
 - [x] Add four paired reading paths, source limitations and direct correction links.
 - [x] Complete final build, tests and desktop/mobile browser validation.
-- [ ] Publish: blocked by the existing execution approval restriction; no push attempted in this content pass.
+- [ ] Publish: user authorized commit `b3614bf` for release; integrated validation completed before push.
 
 Google's notice identified low-value content, not a particular faulty page or a
 traffic threshold. This work improves reader utility; it does not establish that
@@ -91,6 +91,20 @@ the repository at `../design-evidence/content-quality/` (report.json and
 learning-report.json with screenshots); test logs use `../content-quality-*`.
 All browser checks used the local production build, not CSS injection. These
 results do not establish deployment; post-publication checks remain pending.
+
+Release integration on October 4 combines this commit with the newer `3b67eb7`
+directory release. The audit figures above describe the original 487-record
+checkout; the integrated release retains all 825 current directory records,
+their artwork, calendar coverage, USCCB priority, evidence notes and correction
+log. Profile metadata uses the latest biography, contribution, evidence-note
+or tailored-guide date. The quiz content and scoring remain unchanged.
+Integrated validation: 139 tests, seven generated-page SEO checks, TypeScript,
+and a webpack production build passed. ESLint reports no errors and one
+pre-existing unused-variable warning in the calendar research script.
+The integrated browser suites also passed all 40 accessibility scans, with
+no horizontal overflow or browser exceptions. Evidence is saved outside the
+checkout in `../content-release-evidence/`. The learning suite checks both
+existing editorial contact links rather than assuming the page has only one.
 
 Official guidance consulted:
 [AdSense content and user experience](https://support.google.com/adsense/answer/10015918?hl=en)

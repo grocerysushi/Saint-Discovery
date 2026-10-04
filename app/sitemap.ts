@@ -5,6 +5,7 @@ import { PATRON_TOPICS } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { getProfileUpdatedOn } from "@/lib/profile-updates";
 
+
 export const revalidate = 86400;
 
 // Bump when site content meaningfully changes. A stable date keeps lastmod
@@ -27,13 +28,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/"),
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: absoluteUrl("/resources"),
-      lastModified: new Date("2026-09-23"),
+      lastModified: new Date("2026-10-04"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
@@ -51,7 +52,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: absoluteUrl("/about"),
-      lastModified: new Date("2026-10-01"),
+      lastModified: new Date("2026-10-03"),
       changeFrequency: "monthly",
       priority: 0.4,
     },
@@ -67,6 +68,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.3,
     },
+    {
+      url: absoluteUrl("/editorial-policy/feast-calendars"),
+      lastModified: new Date("2026-10-03"),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
+      url: absoluteUrl("/editorial-policy/corrections"),
+      lastModified: new Date("2026-10-03"),
+
+      changeFrequency: "monthly",
+      priority: 0.3,
+    },
   ];
 
   // Data is bundled locally: fail visibly if it cannot load instead of
@@ -77,6 +91,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     .map((s) => ({
       url: absoluteUrl(`/saints/${s.slug}`),
       lastModified: new Date(getProfileUpdatedOn(s.slug) ?? CONTENT_UPDATED),
+
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }));

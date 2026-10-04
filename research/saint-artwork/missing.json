@@ -1,0 +1,3633 @@
+[
+  {
+    "slug": "agnes-le-thi-thanh",
+    "name": "Agnes Lê Thị Thành",
+    "alternateNames": [],
+    "dates": "Died 1841",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "anna-wang",
+    "name": "Anna Wang",
+    "alternateNames": [],
+    "dates": "Died at about fourteen years of age",
+    "origin": "China"
+  },
+  {
+    "slug": "apollinaris",
+    "name": "Apollinaris of Ravenna",
+    "alternateNames": [],
+    "dates": "Early Christian period; chronology uncertain",
+    "origin": "Ravenna and Classe, Italy"
+  },
+  {
+    "slug": "benignus",
+    "name": "Benignus of Armagh",
+    "alternateNames": [],
+    "dates": "Fifth century; traditionally died 467",
+    "origin": "Ireland"
+  },
+  {
+    "slug": "cesario",
+    "name": "Caesarius of Nazianzus",
+    "alternateNames": [],
+    "dates": "About 330–368/369",
+    "origin": "Cappadocia, in present-day Türkiye"
+  },
+  {
+    "slug": "charles-lwanga",
+    "name": "Charles Lwanga",
+    "alternateNames": [],
+    "dates": "About 1860–1886",
+    "origin": "Buganda, present-day Uganda"
+  },
+  {
+    "slug": "charles-of-mount-argus",
+    "name": "Charles of Mount Argus",
+    "alternateNames": [],
+    "dates": "1821–1893",
+    "origin": "Munstergeleen, Netherlands; ministry in Ireland"
+  },
+  {
+    "slug": "denis",
+    "name": "Denis of Paris",
+    "alternateNames": [],
+    "dates": "Third century",
+    "origin": "Paris, Roman Gaul"
+  },
+  {
+    "slug": "dulce-lopes-pontes",
+    "name": "Dulce Lopes Pontes",
+    "alternateNames": [],
+    "dates": "1914–1992",
+    "origin": "Salvador, Bahia, Brazil"
+  },
+  {
+    "slug": "elias-of-the-carmelites",
+    "name": "Elijah the Prophet",
+    "alternateNames": [],
+    "dates": "Traditionally ninth century BC",
+    "origin": "Ancient Israel"
+  },
+  {
+    "slug": "el-bieta-hesselblad",
+    "name": "Mary Elizabeth Hesselblad",
+    "alternateNames": [],
+    "dates": "1870–1957",
+    "origin": "Fåglavik, Sweden"
+  },
+  {
+    "slug": "euphrasia-eluvathingal",
+    "name": "Euphrasia Eluvathingal",
+    "alternateNames": [],
+    "dates": "1877–1952",
+    "origin": "Kattoor, Kerala, India"
+  },
+  {
+    "slug": "gregory-of-nazianzus",
+    "name": "Gregory of Nazianzus",
+    "alternateNames": [],
+    "dates": "About 330–390",
+    "origin": "Cappadocia, present-day Turkey"
+  },
+  {
+    "slug": "hedwig",
+    "name": "Hedwig of Silesia",
+    "alternateNames": [],
+    "dates": "About 1174–1243",
+    "origin": "Andechs, Bavaria"
+  },
+  {
+    "slug": "helena",
+    "name": "Helena",
+    "alternateNames": [],
+    "dates": "About 250–about 330",
+    "origin": "Possibly Drepanum, Bithynia"
+  },
+  {
+    "slug": "jadwiga-of-poland",
+    "name": "Jadwiga of Poland",
+    "alternateNames": [],
+    "dates": "1374–1399",
+    "origin": "Hungary"
+  },
+  {
+    "slug": "john-of-vila",
+    "name": "John of Ávila",
+    "alternateNames": [],
+    "dates": "1499/1500–1569",
+    "origin": "Almodóvar del Campo, Spain"
+  },
+  {
+    "slug": "john-the-baptist",
+    "name": "John the Baptist",
+    "alternateNames": [],
+    "dates": "First century",
+    "origin": "Judea"
+  },
+  {
+    "slug": "louis-ix",
+    "name": "Louis IX of France",
+    "alternateNames": [],
+    "dates": "1214–1270",
+    "origin": "France"
+  },
+  {
+    "slug": "louis-martin",
+    "name": "Louis Martin",
+    "alternateNames": [],
+    "dates": "1823–1894",
+    "origin": "France"
+  },
+  {
+    "slug": "margaret-of-scotland",
+    "name": "Margaret of Scotland",
+    "alternateNames": [],
+    "dates": "About 1045–1093",
+    "origin": "Anglo-Saxon royal family; queen in Scotland"
+  },
+  {
+    "slug": "maria-de-jesus-sacramentado",
+    "name": "María de Jesús Sacramentado Venegas de la Torre",
+    "alternateNames": [],
+    "dates": "1868–1959",
+    "origin": "Jalisco, Mexico"
+  },
+  {
+    "slug": "olaf",
+    "name": "Olaf II of Norway",
+    "alternateNames": [],
+    "dates": "About 995–1030",
+    "origin": "Norway"
+  },
+  {
+    "slug": "paul-chong-hasang",
+    "name": "Paul Chông Hasang",
+    "alternateNames": [],
+    "dates": "Died 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-to-rot",
+    "name": "Peter To Rot",
+    "alternateNames": [],
+    "dates": "1912–1945",
+    "origin": "Rakunai, Papua New Guinea"
+  },
+  {
+    "slug": "roque-gonz-lez",
+    "name": "Roque González",
+    "alternateNames": [],
+    "dates": "1576–1628",
+    "origin": "Asunción, Paraguay"
+  },
+  {
+    "slug": "severinus",
+    "name": "Severinus of Noricum",
+    "alternateNames": [],
+    "dates": "Fifth century; died c. 482",
+    "origin": "Danube region, present-day Austria and Germany"
+  },
+  {
+    "slug": "stanislaus",
+    "name": "Stanislaus of Kraków",
+    "alternateNames": [],
+    "dates": "Eleventh century; died 1079",
+    "origin": "Poland"
+  },
+  {
+    "slug": "thomas-more",
+    "name": "Thomas More",
+    "alternateNames": [],
+    "dates": "1478–1535",
+    "origin": "London, England"
+  },
+  {
+    "slug": "turibius-of-mogrovejo",
+    "name": "Turibius of Mogrovejo",
+    "alternateNames": [],
+    "dates": "1538–1606",
+    "origin": "Mayorga, Spain; ministry in Peru"
+  },
+  {
+    "slug": "vladimir-of-kiev",
+    "name": "Vladimir of Kyiv",
+    "alternateNames": [],
+    "dates": "Tenth–eleventh centuries",
+    "origin": "Kyivan Rus’"
+  },
+  {
+    "slug": "wenceslaus",
+    "name": "Wenceslaus",
+    "alternateNames": [],
+    "dates": "Tenth century",
+    "origin": "Bohemia, present-day Czech Republic"
+  },
+  {
+    "slug": "yves",
+    "name": "Yves of Tréguier",
+    "alternateNames": [],
+    "dates": "1253–1303",
+    "origin": "Brittany, France"
+  },
+  {
+    "slug": "andrew-bobola",
+    "name": "Andrew Bobola",
+    "alternateNames": [
+      "Andrzej Bobola"
+    ],
+    "dates": "1597–1657",
+    "origin": "Poland"
+  },
+  {
+    "slug": "francis-borgia",
+    "name": "Francis Borgia",
+    "alternateNames": [],
+    "dates": "1510–1572",
+    "origin": "Spain"
+  },
+  {
+    "slug": "joseph-pignatelli",
+    "name": "Joseph Pignatelli",
+    "alternateNames": [
+      "Giuseppe Pignatelli"
+    ],
+    "dates": "1737–1811",
+    "origin": "Spain"
+  },
+  {
+    "slug": "alphonsus-rodriguez",
+    "name": "Alphonsus Rodriguez",
+    "alternateNames": [
+      "Alfonso Rodriguez"
+    ],
+    "dates": "Died 1617",
+    "origin": "Spain"
+  },
+  {
+    "slug": "peter-faber",
+    "name": "Peter Faber",
+    "alternateNames": [],
+    "dates": "Died 1546",
+    "origin": "Savoy (historical region)"
+  },
+  {
+    "slug": "edmund-arrowsmith",
+    "name": "Edmund Arrowsmith",
+    "alternateNames": [
+      "Brian Arrowsmith"
+    ],
+    "dates": "1585–1628",
+    "origin": "England"
+  },
+  {
+    "slug": "henry-morse",
+    "name": "Henry Morse",
+    "alternateNames": [],
+    "dates": "1595–1645",
+    "origin": "England"
+  },
+  {
+    "slug": "henry-walpole",
+    "name": "Henry Walpole",
+    "alternateNames": [],
+    "dates": "1558–1595",
+    "origin": "England"
+  },
+  {
+    "slug": "john-de-brito",
+    "name": "John de Brito",
+    "alternateNames": [
+      "João de Brito"
+    ],
+    "dates": "1647–1693",
+    "origin": "Portugal; India"
+  },
+  {
+    "slug": "robert-southwell",
+    "name": "Robert Southwell",
+    "alternateNames": [],
+    "dates": "1561–1595",
+    "origin": "England"
+  },
+  {
+    "slug": "alexander-briant",
+    "name": "Alexander Briant",
+    "alternateNames": [],
+    "dates": "1556–1581",
+    "origin": "England"
+  },
+  {
+    "slug": "david-lewis",
+    "name": "David Lewis",
+    "alternateNames": [],
+    "dates": "1616–1679",
+    "origin": "Wales"
+  },
+  {
+    "slug": "philip-evans",
+    "name": "Philip Evans",
+    "alternateNames": [],
+    "dates": "1645–1679",
+    "origin": "Wales"
+  },
+  {
+    "slug": "thomas-garnet",
+    "name": "Thomas Garnet",
+    "alternateNames": [],
+    "dates": "1575–1608",
+    "origin": "England"
+  },
+  {
+    "slug": "anthony-daniel",
+    "name": "Anthony Daniel",
+    "alternateNames": [
+      "Antoine Daniel"
+    ],
+    "dates": "1601–1648",
+    "origin": "France; Canada"
+  },
+  {
+    "slug": "charles-garnier",
+    "name": "Charles Garnier",
+    "alternateNames": [],
+    "dates": "1606–1649",
+    "origin": "France; Canada"
+  },
+  {
+    "slug": "gabriel-lalemant",
+    "name": "Gabriel Lalemant",
+    "alternateNames": [],
+    "dates": "1610–1649",
+    "origin": "France; Canada"
+  },
+  {
+    "slug": "noel-chabanel",
+    "name": "Noël Chabanel",
+    "alternateNames": [
+      "Noél Chabanel"
+    ],
+    "dates": "1613–1649",
+    "origin": "France; Canada"
+  },
+  {
+    "slug": "rene-goupil",
+    "name": "René Goupil",
+    "alternateNames": [],
+    "dates": "1608–1642",
+    "origin": "France; New France (historical region)"
+  },
+  {
+    "slug": "john-de-la-lande",
+    "name": "John de la Lande",
+    "alternateNames": [
+      "Jean de La Lande"
+    ],
+    "dates": "Birth date unknown; died 1646",
+    "origin": "France; New France (historical region)"
+  },
+  {
+    "slug": "francis-jerome",
+    "name": "Francis Jerome",
+    "alternateNames": [
+      "Francesco de Geronimo",
+      "Francis Gerome"
+    ],
+    "dates": "1642–1716",
+    "origin": "Italy"
+  },
+  {
+    "slug": "laurent-imbert",
+    "name": "Laurent Imbert",
+    "alternateNames": [
+      "Laurentius Imbert",
+      "Imbert Laurentius"
+    ],
+    "dates": "d. 1839",
+    "origin": "France"
+  },
+  {
+    "slug": "pierre-maubant",
+    "name": "Pierre Maubant",
+    "alternateNames": [
+      "Petrus Maubant",
+      "Maubant Petrus"
+    ],
+    "dates": "d. 1839",
+    "origin": "France"
+  },
+  {
+    "slug": "jacques-chastan",
+    "name": "Jacques Chastan",
+    "alternateNames": [
+      "Iacobus Chastan",
+      "Chastan Iacobus"
+    ],
+    "dates": "d. 1839",
+    "origin": "France"
+  },
+  {
+    "slug": "lucia-kim-prison-1839",
+    "name": "Lucia Kim (1839 prison martyr)",
+    "alternateNames": [
+      "Lucia Kim (Kopch’u)",
+      "Kim (Kopch’u) Lucia"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "catherine-yi",
+    "name": "Catherine Yi",
+    "alternateNames": [
+      "Catharina Yi",
+      "Yi Catharina"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-cho",
+    "name": "Magdalene Cho",
+    "alternateNames": [
+      "Magdalena Cho",
+      "Cho Magdalena"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-yu-tae-chol",
+    "name": "Peter Yu Tae-chol",
+    "alternateNames": [
+      "Petrus Yu Tae-chol",
+      "Yu Tae-chol Petrus"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-choe-chang-hub",
+    "name": "Peter Choe Chang-hub",
+    "alternateNames": [
+      "Petrus Choe Chang-hub",
+      "Choe Chang-hub Petrus"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "benedicta-hyon-kyong-nyon",
+    "name": "Benedicta Hyon Kyong-nyon",
+    "alternateNames": [
+      "Hyon Kyong-nyon Benedicta"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "elizabeth-chong-chong-hye",
+    "name": "Elizabeth Chong Chong-hye",
+    "alternateNames": [
+      "Elisabeth Chong Chong-hye",
+      "Chong Chong-hye Elisabeth"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-ko-sun-i",
+    "name": "Barbara Ko Sun-i",
+    "alternateNames": [
+      "Ko Sun-i Barbara"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-yi-yong-dog",
+    "name": "Magdalene Yi Yong-dog",
+    "alternateNames": [
+      "Magdalena Yi Yong-dog",
+      "Yi Yong-dog Magdalena"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "teresa-kim-1840",
+    "name": "Teresa Kim (1840 martyr)",
+    "alternateNames": [
+      "Teresia Kim",
+      "Kim Teresia"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-yi-1840",
+    "name": "Agatha Yi (1840 martyr)",
+    "alternateNames": [
+      "Agatha Yi",
+      "Yi Agatha"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "stephen-min-kuk-ka",
+    "name": "Stephen Min Kuk-ka",
+    "alternateNames": [
+      "Stephanus Min Kuk-ka",
+      "Min Kuk-ka Stephanus"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "andrew-chong-hwa-gyong",
+    "name": "Andrew Chong Hwa-gyong",
+    "alternateNames": [
+      "Andreas Chong Hwa-gyong",
+      "Chong Hwa-gyong Andreas"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "paul-ho-hyob",
+    "name": "Paul Ho Hyob",
+    "alternateNames": [
+      "Paulus Ho Hyob",
+      "Ho Hyob Paulus"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "augustine-pak-chong-won",
+    "name": "Augustine Pak Chong-won",
+    "alternateNames": [
+      "Augustinus Pak Chong-won",
+      "Pak Chong-won Augustinus"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-hong-pyong-ju",
+    "name": "Peter Hong Pyong-ju",
+    "alternateNames": [
+      "Petrus Hong Pyong-ju",
+      "Hong Pyong-ju Petrus"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-son-so-byog",
+    "name": "Magdalene Son So-byog",
+    "alternateNames": [
+      "Magdalena Son So-byog",
+      "Son So-byog Magdalena"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-yi-kyong-i",
+    "name": "Agatha Yi Kyong-i",
+    "alternateNames": [
+      "Yi Kyong-i Agatha"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "mary-yi-in-dog",
+    "name": "Mary Yi In-dog",
+    "alternateNames": [
+      "Maria Yi In-dog",
+      "Yi In-dog Maria"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-kwon-chin-i",
+    "name": "Agatha Kwon Chin-i",
+    "alternateNames": [
+      "Kwon Chin-i Agatha"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "john-yi-mun-u",
+    "name": "John Yi Mun-u",
+    "alternateNames": [
+      "Ioannes Yi Mun-u",
+      "Yi Mun-u Ioannes"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-choe-yong-i",
+    "name": "Barbara Choe Yong-i",
+    "alternateNames": [
+      "Choe Yong-i Barbara"
+    ],
+    "dates": "d. 1840",
+    "origin": "Korea"
+  },
+  {
+    "slug": "anthony-kim-song-u",
+    "name": "Anthony Kim Song-u",
+    "alternateNames": [
+      "Antonius Kim Song-u",
+      "Kim Song-u Antonius"
+    ],
+    "dates": "d. 1841",
+    "origin": "Korea"
+  },
+  {
+    "slug": "charles-hyon-song-mun",
+    "name": "Charles Hyon Song-mun",
+    "alternateNames": [
+      "Carolus Hyon Song-mun",
+      "Hyon Song-mun Carolus"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-nam-kyong-mun",
+    "name": "Peter Nam Kyong-mun",
+    "alternateNames": [
+      "Petrus Nam Kyong-mun",
+      "Nam Kyong-mun Petrus"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "lawrence-han-i-hyong",
+    "name": "Lawrence Han I-hyong",
+    "alternateNames": [
+      "Laurentius Han I-hyong",
+      "Han I-hyong Laurentius"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "susanna-u-sur-im",
+    "name": "Susanna U Sur-im",
+    "alternateNames": [
+      "U Sur-im Susanna"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "joseph-im-chi-baeg",
+    "name": "Joseph Im Chi-baeg",
+    "alternateNames": [
+      "Ioseph Im Chi-baeg",
+      "Im Chi-baeg Ioseph"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "teresa-kim-im-i",
+    "name": "Teresa Kim Im-i",
+    "alternateNames": [
+      "Teresia Kim Im-i",
+      "Kim Im-i Teresia"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-yi-kan-nan",
+    "name": "Agatha Yi Kan-nan",
+    "alternateNames": [
+      "Yi Kan-nan Agatha"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "catherine-chong-chor-yom",
+    "name": "Catherine Chong Chor-yom",
+    "alternateNames": [
+      "Catharina Chong Chor-yom",
+      "Chong Chor-yom Catharina"
+    ],
+    "dates": "d. 1846",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-yu-chong-nyul",
+    "name": "Peter Yu Chong-nyul",
+    "alternateNames": [
+      "Petrus Yu Chong-nyul",
+      "Yu Chong-nyul Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "simeon-berneux",
+    "name": "Siméon Berneux",
+    "alternateNames": [
+      "Simeon Berneux",
+      "Berneux Simeon"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "just-ranfer-de-bretenieres",
+    "name": "Just Ranfer de Bretenières",
+    "alternateNames": [
+      "Iustus Ranfer de Bretenières",
+      "Ranfer de Bretenières Iustus"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "pierre-henri-dorie",
+    "name": "Pierre Henri Dorie",
+    "alternateNames": [
+      "Henricus Dorie",
+      "Dorie Henricus"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "bernard-louis-beaulieu",
+    "name": "Bernard Louis Beaulieu",
+    "alternateNames": [
+      "Ludovicus Beaulieu",
+      "Beaulieu Ludovicus"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "john-baptist-nam-chong-sam",
+    "name": "John Baptist Nam Chong-sam",
+    "alternateNames": [
+      "Ioannes B. Nam Chong-sam",
+      "B. Nam Chong-sam Ioannes"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "john-baptist-chon-chang-un",
+    "name": "John Baptist Chon Chang-un",
+    "alternateNames": [
+      "Ioannes B. Chon Chang-un",
+      "B. Chon Chang-un Ioannes"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-choe-hyong",
+    "name": "Peter Choe Hyong",
+    "alternateNames": [
+      "Petrus Choe Hyong",
+      "Choe Hyong Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "mark-chong-ui-bae",
+    "name": "Mark Chong Ui-bae",
+    "alternateNames": [
+      "Marcus Chong Ui-bae",
+      "Chong Ui-bae Marcus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "alexius-u-se-yong",
+    "name": "Alexius U Se-yong",
+    "alternateNames": [
+      "U Se-yong Alexius"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "antoine-daveluy",
+    "name": "Antoine Daveluy",
+    "alternateNames": [
+      "Antonius Daveluy",
+      "Daveluy Antonius"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "martin-luc-huin",
+    "name": "Martin Luc Huin",
+    "alternateNames": [
+      "Lucas Huin",
+      "Huin Lucas"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "pierre-aumaitre",
+    "name": "Pierre Aumaître",
+    "alternateNames": [
+      "Petrus Aumaitre",
+      "Aumaitre Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "France"
+  },
+  {
+    "slug": "joseph-chang-chu-gi",
+    "name": "Joseph Chang Chu-gi",
+    "alternateNames": [
+      "Ioseph Chang Chu-gi",
+      "Chang Chu-gi Ioseph"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "luke-hwang-sok-tu",
+    "name": "Luke Hwang Sok-tu",
+    "alternateNames": [
+      "Lucas Hwang Sok-tu",
+      "Hwang Sok-tu Lucas"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "thomas-son-cha-son",
+    "name": "Thomas Son Cha-son",
+    "alternateNames": [
+      "Son Cha-son Thomas"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "bartholomew-chong-mun-ho",
+    "name": "Bartholomew Chong Mun-ho",
+    "alternateNames": [
+      "Bartholomeus Chong Mun-ho",
+      "Chong Mun-ho Bartholomeus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-cho-hwa-so",
+    "name": "Peter Cho Hwa-so",
+    "alternateNames": [
+      "Petrus Cho Hwa-so",
+      "Cho Hwa-so Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-son-son-ji",
+    "name": "Peter Son Son-ji",
+    "alternateNames": [
+      "Petrus Son Son-ji",
+      "Son Son-ji Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-yi-myong-so",
+    "name": "Peter Yi Myong-so",
+    "alternateNames": [
+      "Petrus Yi Myong-so",
+      "Yi Myong-so Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "joseph-han-chae-kwon",
+    "name": "Joseph Han Chae-kwon",
+    "alternateNames": [
+      "Ioseph Han Chae-kwon",
+      "Han Chae-kwon Ioseph"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-chong-won-ji",
+    "name": "Peter Chong Won-ji",
+    "alternateNames": [
+      "Petrus Chong Won-ji",
+      "Chong Won-ji Petrus"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "joseph-cho-yun-ho",
+    "name": "Joseph Cho Yun-ho",
+    "alternateNames": [
+      "Ioseph Cho Yun-ho",
+      "Cho Yun-ho Ioseph"
+    ],
+    "dates": "d. 1866",
+    "origin": "Korea"
+  },
+  {
+    "slug": "john-yi-yun-il",
+    "name": "John Yi Yun-il",
+    "alternateNames": [
+      "Ioannes Yi Yun-il",
+      "Yi Yun-il Ioannes"
+    ],
+    "dates": "d. 1867",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-yi-ho-yong",
+    "name": "Peter Yi Ho-yong",
+    "alternateNames": [
+      "Yi Ho-yong Peter"
+    ],
+    "dates": "1803-1838",
+    "origin": "Korea"
+  },
+  {
+    "slug": "protasius-chong-kuk-bo",
+    "name": "Protasius Chong Kuk-bo",
+    "alternateNames": [
+      "Chong Kuk-bo Protasius"
+    ],
+    "dates": "1799-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-kim-a-gi",
+    "name": "Agatha Kim A-gi",
+    "alternateNames": [
+      "Kim A-gi Agatha"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "anna-pak-a-gi",
+    "name": "Anna Pak A-gi",
+    "alternateNames": [
+      "Pak A-gi Anne",
+      "Anne Pak A-gi"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-yi-so-sa",
+    "name": "Agatha Yi So-sa",
+    "alternateNames": [
+      "Yi So-sa Agatha"
+    ],
+    "dates": "1784-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-kim-ob-i",
+    "name": "Magdalene Kim Ob-i",
+    "alternateNames": [
+      "Magdalena Kim Ob-i",
+      "Kim Ob-I Magdalene"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "augustine-yi-kwang-hon",
+    "name": "Augustine Yi Kwang-hon",
+    "alternateNames": [
+      "Augustinus Yi Kwang-hon",
+      "Yi Kwang-hon Augustine"
+    ],
+    "dates": "1787-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-han-a-gi",
+    "name": "Barbara Han A-gi",
+    "alternateNames": [
+      "Han A-gi Barbara"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "lucia-pak-hui-sun",
+    "name": "Lucia Pak Hui-sun",
+    "alternateNames": [
+      "Pak Hui-sun Lucia",
+      "Lucy Pak Hui-sun"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "damian-nam-myong-hyok",
+    "name": "Damian Nam Myong-hyok",
+    "alternateNames": [
+      "Damiano Nam Myong-hyog",
+      "Nam Myong-hyok Damian"
+    ],
+    "dates": "1802-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "peter-kwon-tug-in",
+    "name": "Peter Kwon Tug-in",
+    "alternateNames": [
+      "Petrus Kwon Tug-in",
+      "Kwon Tug-in Peter"
+    ],
+    "dates": "1805-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "joseph-chang-song-jip",
+    "name": "Joseph Chang Song-jip",
+    "alternateNames": [
+      "Ioseph Chang Song-jib",
+      "Chang Song-jip Joseph"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-kim",
+    "name": "Barbara Kim",
+    "alternateNames": [
+      "Kim Barbara"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-yi",
+    "name": "Barbara Yi",
+    "alternateNames": [
+      "Yi Barbara"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "rosa-kim",
+    "name": "Rosa Kim",
+    "alternateNames": [
+      "Kim Rosa"
+    ],
+    "dates": "1784-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "martha-kim-song-im",
+    "name": "Martha Kim Song-im",
+    "alternateNames": [
+      "Kim Song-im Martha"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "john-baptist-yi-kwang-nyol",
+    "name": "John Baptist Yi Kwang-nyol",
+    "alternateNames": [
+      "Ioannes B. Yi Kwang-nyol",
+      "John Yi Kwang-nyol",
+      "Yi Kwang-ryol John the Baptist"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-yi-yong-hui",
+    "name": "Magdalene Yi Yong-hui",
+    "alternateNames": [
+      "Magdalena Yi Yong-hui",
+      "Yi Yong-hui Magdalene"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "lucia-kim-july-1839",
+    "name": "Lucia Kim (July 1839)",
+    "alternateNames": [
+      "Lucy Kim (July 1839)",
+      "Kim Lucia (July 1839)"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "maria-won-kwi-im",
+    "name": "Maria Won Kwi-im",
+    "alternateNames": [
+      "Won Kwi-im Maria",
+      "Mary Won Kwi-im"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "maria-pak-kun-a-gi",
+    "name": "Maria Pak Kun-a-gi",
+    "alternateNames": [
+      "Park K'un-agi Maria",
+      "Pak Maria"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-kwon-hui",
+    "name": "Barbara Kwon Hui",
+    "alternateNames": [
+      "Kwon Hui Barbara"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "john-pak-hu-jae",
+    "name": "John Pak Hu-jae",
+    "alternateNames": [
+      "Ioannes Pak Hu-jae",
+      "Pak Hu-jae John"
+    ],
+    "dates": "1798 or 1799-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-yi-chong-hui",
+    "name": "Barbara Yi Chong-hui",
+    "alternateNames": [
+      "Yi Chong-hui Barbara"
+    ],
+    "dates": "1799-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "maria-yi-yon-hui",
+    "name": "Maria Yi Yon-hui",
+    "alternateNames": [
+      "Mary Yi Yon-hui",
+      "Yi Yon-hui Maria"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agnes-kim-hyo-ju",
+    "name": "Agnes Kim Hyo-ju",
+    "alternateNames": [
+      "Kim Hyo-ju Agnes"
+    ],
+    "dates": "1816-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "francis-choe-kyong-hwan",
+    "name": "Francis Choe Kyong-hwan",
+    "alternateNames": [
+      "Franciscus Choe Kyong-hwan",
+      "Choe Kyong-hwan Francis"
+    ],
+    "dates": "1805-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "augustine-yu-chin-gil",
+    "name": "Augustine Yu Chin-gil",
+    "alternateNames": [
+      "Auguestinus Yu Chin-gil",
+      "You Chin-gil Augustine",
+      "Yu Chin-gil Augustine"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-ho-kye-im",
+    "name": "Magdalene Ho Kye-im",
+    "alternateNames": [
+      "Magdalena Ho Kye-im",
+      "Ho Kye-im Magdalene"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "sebastian-nam-i-gwan",
+    "name": "Sebastian Nam I-gwan",
+    "alternateNames": [
+      "Sebastianus Nam I-gwan",
+      "Nam I-gwan Sebastian"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "julietta-kim",
+    "name": "Julietta Kim",
+    "alternateNames": [
+      "Iulietta Kim",
+      "Kim Julietta"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "agatha-chon-kyong-hyob",
+    "name": "Agatha Chon Kyong-hyob",
+    "alternateNames": [
+      "Chon Kyong-hyob Agatha"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "charles-cho-shin-chol",
+    "name": "Charles Cho Shin-chol",
+    "alternateNames": [
+      "Carolus Cho Shin-chol",
+      "Cho Shin-chol Charles"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "ignatius-kim-che-jun",
+    "name": "Ignatius Kim Che-jun",
+    "alternateNames": [
+      "Kim Che-jun Ignatius"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-pak-pong-son",
+    "name": "Magdalene Pak Pong-son",
+    "alternateNames": [
+      "Magdalena Pak Pong-son",
+      "Pak Pong-son Magdalene"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "perpetua-hong-kum-ju",
+    "name": "Perpetua Hong Kum-ju",
+    "alternateNames": [
+      "Hong Kum-ju Perpetua"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "columba-kim-hyo-im",
+    "name": "Columba Kim Hyo-im",
+    "alternateNames": [
+      "Kim Hyo-im Columba"
+    ],
+    "dates": "1814-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "cecilia-yu-so-sa",
+    "name": "Cecilia Yu So-sa",
+    "alternateNames": [
+      "Caecilia Yu So-sa",
+      "Yu So-sa Cecilia"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "barbara-cho-chung-i",
+    "name": "Barbara Cho Chung-i",
+    "alternateNames": [
+      "Cho Chung-i Barbara",
+      "Cho Chŭng-i Barbara"
+    ],
+    "dates": "1781-1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "magdalene-han-yong-i",
+    "name": "Magdalene Han Yong-i",
+    "alternateNames": [
+      "Magdalena Han Yong-i",
+      "Han Yŏng-i Magdalene"
+    ],
+    "dates": "d. 1839",
+    "origin": "Korea"
+  },
+  {
+    "slug": "jeanne-delanoue",
+    "name": "Jeanne Delanoue",
+    "alternateNames": [],
+    "dates": "1666–1736",
+    "origin": "France"
+  },
+  {
+    "slug": "paola-frassinetti",
+    "name": "Paola Frassinetti",
+    "alternateNames": [],
+    "dates": "1809–1882",
+    "origin": "Italy"
+  },
+  {
+    "slug": "francis-anthony-fasani",
+    "name": "Francis Anthony Fasani",
+    "alternateNames": [],
+    "dates": "1681–1742",
+    "origin": "Italy"
+  },
+  {
+    "slug": "joseph-mary-tomasi",
+    "name": "Joseph Mary Tomasi",
+    "alternateNames": [],
+    "dates": "1649–1713",
+    "origin": "Italy"
+  },
+  {
+    "slug": "simon-de-rojas",
+    "name": "Simón de Rojas",
+    "alternateNames": [],
+    "dates": "1552–1624",
+    "origin": "Spain"
+  },
+  {
+    "slug": "clelia-barbieri",
+    "name": "Clelia Barbieri",
+    "alternateNames": [],
+    "dates": "1847–1870",
+    "origin": "Italy"
+  },
+  {
+    "slug": "gaspar-bertoni",
+    "name": "Gaspar Bertoni",
+    "alternateNames": [],
+    "dates": "1777–1853",
+    "origin": "Italy"
+  },
+  {
+    "slug": "richard-pampuri",
+    "name": "Richard Pampuri",
+    "alternateNames": [],
+    "dates": "1897–1930",
+    "origin": "Italy"
+  },
+  {
+    "slug": "raphael-kalinowski",
+    "name": "Raphael Kalinowski",
+    "alternateNames": [],
+    "dates": "1835–1907",
+    "origin": "Vilnius"
+  },
+  {
+    "slug": "claudine-thevenet",
+    "name": "Claudine Thévenet",
+    "alternateNames": [],
+    "dates": "1774–1837",
+    "origin": "France"
+  },
+  {
+    "slug": "eugene-de-mazenod",
+    "name": "Eugene de Mazenod",
+    "alternateNames": [],
+    "dates": "1782–1861",
+    "origin": "France"
+  },
+  {
+    "slug": "john-gabriel-perboyre",
+    "name": "John Gabriel Perboyre",
+    "alternateNames": [],
+    "dates": "1802–1840",
+    "origin": "France; ministry in China"
+  },
+  {
+    "slug": "juan-grande-roman",
+    "name": "Juan Grande Román",
+    "alternateNames": [],
+    "dates": "1546–1600",
+    "origin": "Spain"
+  },
+  {
+    "slug": "john-calabria",
+    "name": "John Calabria",
+    "alternateNames": [],
+    "dates": "1873–1954",
+    "origin": "Italy"
+  },
+  {
+    "slug": "agostina-pietrantoni",
+    "name": "Agostina Pietrantoni",
+    "alternateNames": [],
+    "dates": "1864–1894",
+    "origin": "Italy"
+  },
+  {
+    "slug": "benedict-menni",
+    "name": "Benedict Menni",
+    "alternateNames": [],
+    "dates": "1841–1914",
+    "origin": "Italy; ministry in Spain"
+  },
+  {
+    "slug": "thomas-of-cori",
+    "name": "Thomas of Cori",
+    "alternateNames": [],
+    "dates": "1655–1729",
+    "origin": "Italy"
+  },
+  {
+    "slug": "maria-josefa-heart-of-jesus",
+    "name": "Maria Josefa of the Heart of Jesus",
+    "alternateNames": [],
+    "dates": "1842–1912",
+    "origin": "Spain"
+  },
+  {
+    "slug": "luigi-scrosoppi",
+    "name": "Luigi Scrosoppi",
+    "alternateNames": [],
+    "dates": "1804–1884",
+    "origin": "Italy"
+  },
+  {
+    "slug": "bernard-of-corleone",
+    "name": "Bernard of Corleone",
+    "alternateNames": [],
+    "dates": "1605–1667",
+    "origin": "Italy"
+  },
+  {
+    "slug": "teresa-eustochio-verzeri",
+    "name": "Teresa Eustochio Verzeri",
+    "alternateNames": [],
+    "dates": "1801–1852",
+    "origin": "Italy"
+  },
+  {
+    "slug": "joseph-marello",
+    "name": "Joseph Marello",
+    "alternateNames": [],
+    "dates": "1844–1895",
+    "origin": "Italy"
+  },
+  {
+    "slug": "paula-montal-fornes",
+    "name": "Paula Montal Fornés",
+    "alternateNames": [],
+    "dates": "1799–1889",
+    "origin": "Spain"
+  },
+  {
+    "slug": "leonie-frances-de-sales-aviat",
+    "name": "Léonie Frances de Sales Aviat",
+    "alternateNames": [],
+    "dates": "1844–1914",
+    "origin": "France"
+  },
+  {
+    "slug": "maria-crescentia-hoss",
+    "name": "Maria Crescentia Höss",
+    "alternateNames": [],
+    "dates": "1682–1744",
+    "origin": "Germany"
+  },
+  {
+    "slug": "pauline-agonizing-heart-jesus",
+    "name": "Pauline of the Agonizing Heart of Jesus",
+    "alternateNames": [],
+    "dates": "1865–1942",
+    "origin": "Italy; ministry in Brazil"
+  },
+  {
+    "slug": "benedetta-cambiagio-frassinello",
+    "name": "Benedetta Cambiagio Frassinello",
+    "alternateNames": [],
+    "dates": "1791–1858",
+    "origin": "Italy"
+  },
+  {
+    "slug": "peter-de-betancurt",
+    "name": "Peter de Betancurt",
+    "alternateNames": [],
+    "dates": "1626–1667",
+    "origin": "Tenerife; ministry in Guatemala"
+  },
+  {
+    "slug": "pedro-poveda-castroverde",
+    "name": "Pedro Poveda Castroverde",
+    "alternateNames": [],
+    "dates": "1874–1936",
+    "origin": "Spain"
+  },
+  {
+    "slug": "jose-maria-rubio-peralta",
+    "name": "José María Rubio Peralta",
+    "alternateNames": [],
+    "dates": "1864–1929",
+    "origin": "Spain"
+  },
+  {
+    "slug": "genoveva-torres-morales",
+    "name": "Genoveva Torres Morales",
+    "alternateNames": [],
+    "dates": "1870–1956",
+    "origin": "Spain"
+  },
+  {
+    "slug": "angela-of-the-cross",
+    "name": "Angela of the Cross",
+    "alternateNames": [],
+    "dates": "1846–1932",
+    "origin": "Spain"
+  },
+  {
+    "slug": "maria-maravillas-of-jesus",
+    "name": "María Maravillas of Jesus",
+    "alternateNames": [],
+    "dates": "1891–1974",
+    "origin": "Spain"
+  },
+  {
+    "slug": "joseph-sebastian-pelczar",
+    "name": "Joseph Sebastian Pelczar",
+    "alternateNames": [],
+    "dates": "1842–1924",
+    "origin": "Poland"
+  },
+  {
+    "slug": "ursula-ledochowska",
+    "name": "Ursula Ledóchowska",
+    "alternateNames": [],
+    "dates": "1865–1939",
+    "origin": "Poland; ministry in Russia and Scandinavia"
+  },
+  {
+    "slug": "maria-de-mattias",
+    "name": "Maria De Mattias",
+    "alternateNames": [],
+    "dates": "1805–1866",
+    "origin": "Italy"
+  },
+  {
+    "slug": "virginia-centurione-bracelli",
+    "name": "Virginia Centurione Bracelli",
+    "alternateNames": [],
+    "dates": "1587–1651",
+    "origin": "Italy"
+  },
+  {
+    "slug": "arnold-janssen",
+    "name": "Arnold Janssen",
+    "alternateNames": [],
+    "dates": "1837–1909",
+    "origin": "Germany; foundation in the Netherlands"
+  },
+  {
+    "slug": "joseph-freinademetz",
+    "name": "Joseph Freinademetz",
+    "alternateNames": [],
+    "dates": "1852–1908",
+    "origin": "South Tyrol; ministry in China"
+  },
+  {
+    "slug": "luigi-orione",
+    "name": "Luigi Orione",
+    "alternateNames": [],
+    "dates": "1872–1940",
+    "origin": "Italy"
+  },
+  {
+    "slug": "hannibal-mary-di-francia",
+    "name": "Hannibal Mary Di Francia",
+    "alternateNames": [],
+    "dates": "1851–1927",
+    "origin": "Italy"
+  },
+  {
+    "slug": "josep-manyanet-y-vives",
+    "name": "Josep Manyanet y Vives",
+    "alternateNames": [],
+    "dates": "1833–1901",
+    "origin": "Spain"
+  },
+  {
+    "slug": "hyacintha-marescotti",
+    "name": "Hyacintha Marescotti",
+    "alternateNames": [],
+    "dates": "d. 1640",
+    "origin": "Italy"
+  },
+  {
+    "slug": "richard-the-pilgrim",
+    "name": "Richard the Pilgrim",
+    "alternateNames": [],
+    "dates": "d. early 8th century",
+    "origin": "England; Italy"
+  },
+  {
+    "slug": "gregory-ii",
+    "name": "Gregory II",
+    "alternateNames": [],
+    "dates": "d. 731",
+    "origin": "Rome"
+  },
+  {
+    "slug": "benedict-of-aniane",
+    "name": "Benedict of Aniane",
+    "alternateNames": [],
+    "dates": "d. 821",
+    "origin": "France; Germany"
+  },
+  {
+    "slug": "fulcran-of-lodeve",
+    "name": "Fulcran of Lodève",
+    "alternateNames": [],
+    "dates": "d. 1006",
+    "origin": "France"
+  },
+  {
+    "slug": "juliana-of-nicomedia",
+    "name": "Juliana of Nicomedia",
+    "alternateNames": [],
+    "dates": "early Christian period; exact dates uncertain",
+    "origin": "Nicomedia, Asia Minor"
+  },
+  {
+    "slug": "alexis-falconieri",
+    "name": "Alexis Falconieri",
+    "alternateNames": [],
+    "dates": "d. 1310",
+    "origin": "Italy"
+  },
+  {
+    "slug": "ethelbert-of-kent",
+    "name": "Ethelbert of Kent",
+    "alternateNames": [],
+    "dates": "d. 616",
+    "origin": "England"
+  },
+  {
+    "slug": "oswald-of-worcester",
+    "name": "Oswald of Worcester",
+    "alternateNames": [],
+    "dates": "d. 992",
+    "origin": "England; France"
+  },
+  {
+    "slug": "john-joseph-of-the-cross",
+    "name": "John Joseph of the Cross",
+    "alternateNames": [],
+    "dates": "1654–1734",
+    "origin": "Italy"
+  },
+  {
+    "slug": "julie-billiart",
+    "name": "Julie Billiart",
+    "alternateNames": [],
+    "dates": "1751–1816",
+    "origin": "France; Belgium"
+  },
+  {
+    "slug": "liborius-of-le-mans",
+    "name": "Liborius of Le Mans",
+    "alternateNames": [],
+    "dates": "4th century",
+    "origin": "France"
+  },
+  {
+    "slug": "julius-i",
+    "name": "Julius I",
+    "alternateNames": [],
+    "dates": "d. 352",
+    "origin": "Rome"
+  },
+  {
+    "slug": "cesar-de-bus",
+    "name": "César de Bus",
+    "alternateNames": [],
+    "dates": "1544–1607",
+    "origin": "France"
+  },
+  {
+    "slug": "germanus-of-paris",
+    "name": "Germanus of Paris",
+    "alternateNames": [],
+    "dates": "d. 576",
+    "origin": "France"
+  },
+  {
+    "slug": "felix-of-nicosia",
+    "name": "Felix of Nicosia",
+    "alternateNames": [],
+    "dates": "1715–1787",
+    "origin": "Italy"
+  },
+  {
+    "slug": "silverius",
+    "name": "Silverius",
+    "alternateNames": [],
+    "dates": "d. 537",
+    "origin": "Italy"
+  },
+  {
+    "slug": "bernardino-realino",
+    "name": "Bernardino Realino",
+    "alternateNames": [],
+    "dates": "d. early 17th century",
+    "origin": "Italy"
+  },
+  {
+    "slug": "kilian-of-wurzburg",
+    "name": "Kilian of Würzburg",
+    "alternateNames": [],
+    "dates": "d. c. 689",
+    "origin": "Ireland; Germany"
+  },
+  {
+    "slug": "mary-magdalene-postel",
+    "name": "Mary Magdalene Postel",
+    "alternateNames": [],
+    "dates": "1756–1846",
+    "origin": "France"
+  },
+  {
+    "slug": "giles-of-saint-gilles",
+    "name": "Giles of Saint-Gilles",
+    "alternateNames": [],
+    "dates": "early medieval period; exact dates uncertain",
+    "origin": "France"
+  },
+  {
+    "slug": "agricol-of-avignon",
+    "name": "Agricol of Avignon",
+    "alternateNames": [],
+    "dates": "d. c. 700",
+    "origin": "France"
+  },
+  {
+    "slug": "onesiphorus",
+    "name": "Onesiphorus",
+    "alternateNames": [],
+    "dates": "1st century",
+    "origin": "Ephesus; Rome"
+  },
+  {
+    "slug": "regina-of-alesia",
+    "name": "Regina of Alésia",
+    "alternateNames": [],
+    "dates": "early Christian period; exact dates uncertain",
+    "origin": "France"
+  },
+  {
+    "slug": "nicholas-of-tolentino",
+    "name": "Nicholas of Tolentino",
+    "alternateNames": [],
+    "dates": "1245–1305",
+    "origin": "Italy"
+  },
+  {
+    "slug": "leodegar-of-autun",
+    "name": "Leodegar of Autun",
+    "alternateNames": [],
+    "dates": "7th century",
+    "origin": "France"
+  },
+  {
+    "slug": "mark-pope",
+    "name": "Mark, Pope",
+    "alternateNames": [],
+    "dates": "d. 336",
+    "origin": "Rome"
+  },
+  {
+    "slug": "eata-of-hexham",
+    "name": "Eata of Hexham",
+    "alternateNames": [],
+    "dates": "d. c. 686",
+    "origin": "England"
+  },
+  {
+    "slug": "narcissus-of-jerusalem",
+    "name": "Narcissus of Jerusalem",
+    "alternateNames": [],
+    "dates": "late 2nd–early 3rd century",
+    "origin": "Jerusalem"
+  },
+  {
+    "slug": "germanus-of-capua",
+    "name": "Germanus of Capua",
+    "alternateNames": [],
+    "dates": "6th century",
+    "origin": "Italy"
+  },
+  {
+    "slug": "austremonius-of-clermont",
+    "name": "Austremonius of Clermont",
+    "alternateNames": [],
+    "dates": "probably late 3rd–early 4th century",
+    "origin": "France"
+  },
+  {
+    "slug": "justus-of-trieste",
+    "name": "Justus of Trieste",
+    "alternateNames": [],
+    "dates": "early 4th century, traditionally c. 303",
+    "origin": "Italy"
+  },
+  {
+    "slug": "clement-i",
+    "name": "Clement I",
+    "alternateNames": [],
+    "dates": "late 1st century",
+    "origin": "Rome"
+  },
+  {
+    "slug": "sabas-the-sanctified",
+    "name": "Sabas the Sanctified",
+    "alternateNames": [],
+    "dates": "d. early 6th century",
+    "origin": "Cappadocia; Holy Land"
+  },
+  {
+    "slug": "finnian-of-clonard",
+    "name": "Finnian of Clonard",
+    "alternateNames": [],
+    "dates": "6th century; exact death year uncertain",
+    "origin": "Ireland; Wales"
+  },
+  {
+    "slug": "maria-crocifissa-di-rosa",
+    "name": "Maria Crocifissa di Rosa",
+    "alternateNames": [],
+    "dates": "1813–1855",
+    "origin": "Italy"
+  },
+  {
+    "slug": "anastasius-i",
+    "name": "Anastasius I",
+    "alternateNames": [],
+    "dates": "d. 401",
+    "origin": "Rome"
+  },
+  {
+    "slug": "catherine-volpicelli",
+    "name": "Catherine Volpicelli",
+    "alternateNames": [],
+    "dates": "1839–1894",
+    "origin": "Italy"
+  },
+  {
+    "slug": "joseph-tran-van-tuan",
+    "name": "Joseph Trần Văn Tuân",
+    "alternateNames": [
+      "Giuse Trần Văn Tuân"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-pham-trong-kham",
+    "name": "Dominic Phạm Trọng Khảm",
+    "alternateNames": [
+      "Đa Minh Phạm Trọng Khảm"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-pham-trong-ta",
+    "name": "Joseph Phạm Trọng Tả",
+    "alternateNames": [
+      "Giuse Phạm Trọng Tả"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "luke-pham-trong-thin",
+    "name": "Luke Phạm Trọng Thìn",
+    "alternateNames": [
+      "Luca Phạm Trọng Thìn"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-le-van-loc",
+    "name": "Paul Lê Văn Lộc",
+    "alternateNames": [
+      "Phaolô Lê Văn Lộc"
+    ],
+    "dates": "1830-1859",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-nguyen-van-cam",
+    "name": "Dominic Nguyễn Văn Cẩm",
+    "alternateNames": [
+      "Đa Minh Cẩm"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-vu-dinh-tuoc",
+    "name": "Dominic Vũ Đình Tước",
+    "alternateNames": [
+      "Đa Minh Vũ Đình Tước"
+    ],
+    "dates": "1775-1839",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-le-bao-tinh",
+    "name": "Paul Lê Bảo Tịnh",
+    "alternateNames": [
+      "Phaolô Lê Bảo Tịnh"
+    ],
+    "dates": "1793-1857",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-van-luu",
+    "name": "Peter Nguyễn Văn Lựu",
+    "alternateNames": [
+      "Phêrô Nguyễn Văn Lựu"
+    ],
+    "dates": "1812-1861",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "lawrence-nguyen-van-huong",
+    "name": "Lawrence Nguyễn Văn Hưởng",
+    "alternateNames": [
+      "Lô-ren-sô Nguyễn Văn Hưởng"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-pham-khac-khoan",
+    "name": "Paul Phạm Khắc Khoan",
+    "alternateNames": [
+      "Phao-lô Phạm Khắc Khoan"
+    ],
+    "dates": "1771-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-van-hieu",
+    "name": "Peter Nguyễn Văn Hiếu",
+    "alternateNames": [
+      "Peter Lê Văn Hiếu",
+      "Phêrô Lê Văn Hiếu",
+      "Phêrô Nguyễn Văn Hiếu"
+    ],
+    "dates": "1783-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "john-baptist-dinh-van-thanh",
+    "name": "John Baptist Đinh Văn Thanh",
+    "alternateNames": [
+      "Gioan Baotixita Đinh Văn Thành"
+    ],
+    "dates": "1796-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-nguyen-duy-tuan",
+    "name": "Joseph Nguyễn Duy Tuân",
+    "alternateNames": [
+      "Giuse Tuân"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "francis-do-minh-chieu",
+    "name": "Francis Đỗ Minh Chiểu",
+    "alternateNames": [
+      "Phanxicô Đỗ Văn Chiểu"
+    ],
+    "dates": "1797-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "thomas-vu-quang-toan",
+    "name": "Thomas Vũ Quang Toán",
+    "alternateNames": [
+      "Tôma Toán"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "vincent-do-yen",
+    "name": "Vincent Đỗ Yến",
+    "alternateNames": [
+      "Vinh Sơn Đỗ Yến"
+    ],
+    "dates": "1764-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "philip-phan-van-minh",
+    "name": "Philip Phan Văn Minh",
+    "alternateNames": [
+      "Philipphê Phan Văn Minh"
+    ],
+    "dates": "1815-1853",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-nguyen-dinh-uyen",
+    "name": "Joseph Nguyễn Đình Uyển",
+    "alternateNames": [
+      "Giuse Nguyễn Đình Uyển"
+    ],
+    "dates": "1773-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-khac-tu",
+    "name": "Peter Nguyễn Khắc Tự",
+    "alternateNames": [
+      "Phêrô Nguyễn Khắc Tự"
+    ],
+    "dates": "1808-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "anthony-nguyen-huu-quynh",
+    "name": "Anthony Nguyễn Hữu Quỳnh",
+    "alternateNames": [
+      "Antôn Năm Quỳnh",
+      "Antôn Nguyễn Hữu Quỳnh"
+    ],
+    "dates": "1768-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-ba-tuan",
+    "name": "Peter Nguyễn Bá Tuần",
+    "alternateNames": [
+      "Phêrô Nguyễn Bá Tuần"
+    ],
+    "dates": "1766-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "andrew-nguyen-kim-thong",
+    "name": "Andrew Nguyễn Kim Thông",
+    "alternateNames": [
+      "Anrê Năm Thuông",
+      "Anrê Nguyễn Kim Thông"
+    ],
+    "dates": "1790-1855",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-doan-cong-quy",
+    "name": "Peter Đoàn Công Quý",
+    "alternateNames": [
+      "Phêrô Đoàn Công Quý"
+    ],
+    "dates": "1826-1859",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "bernard-vu-van-due",
+    "name": "Bernard Vũ Văn Duệ",
+    "alternateNames": [
+      "Bê-na-đô Võ Văn Duệ",
+      "Bernadô Võ Văn Duệ"
+    ],
+    "dates": "1755-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-nguyen-van-hanh",
+    "name": "Dominic Nguyễn Văn Hạnh",
+    "alternateNames": [
+      "Đa Minh Nguyễn Văn Hạnh Diệu",
+      "Đa Minh Nguyễn Văn Hạnh"
+    ],
+    "dates": "1772-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "michael-nguyen-huy-my",
+    "name": "Michael Nguyễn Huy Mỹ",
+    "alternateNames": [
+      "Micae Nguyễn Huy Diệu",
+      "Micae Nguyễn Huy Mỹ"
+    ],
+    "dates": "1804-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-van-tu",
+    "name": "Peter Nguyễn Văn Tự",
+    "alternateNames": [
+      "Phêrô Nguyễn Văn Tự"
+    ],
+    "dates": "1796-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-hoang-luong-canh",
+    "name": "Joseph Hoàng Lương Cảnh",
+    "alternateNames": [
+      "Giuse Hoàng Lương Cảnh"
+    ],
+    "dates": "1763-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "emmanuel-nguyen-van-trieu",
+    "name": "Emmanuel Nguyễn Văn Triệu",
+    "alternateNames": [],
+    "dates": "1756-1798",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-vu-duc-trach",
+    "name": "Dominic Vũ Đức Trạch",
+    "alternateNames": [
+      "Đa Minh Trạch"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "francois-jaccard",
+    "name": "François Jaccard",
+    "alternateNames": [
+      "Phanxicô Jaccard Phan"
+    ],
+    "dates": "1799-1838",
+    "origin": "France; ministry in Vietnam"
+  },
+  {
+    "slug": "thomas-tran-van-thien",
+    "name": "Thomas Trần Văn Thiện",
+    "alternateNames": [
+      "Tôma Trần Văn Thiện"
+    ],
+    "dates": "1820-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "francis-tran-van-trung",
+    "name": "Francis Trần Văn Trung",
+    "alternateNames": [
+      "Phanxcicô Trần Văn Trung"
+    ],
+    "dates": "1825-1858",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-le-tuy",
+    "name": "Peter Lê Tùy",
+    "alternateNames": [
+      "Phêrô Lê Tùy"
+    ],
+    "dates": "1773-1833",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-le-dang-thi",
+    "name": "Joseph Lê Đăng Thị",
+    "alternateNames": [
+      "Giuse Lê Đăng Thi"
+    ],
+    "dates": "c.1825-1860",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "etienne-theodore-cuenot",
+    "name": "Étienne-Théodore Cuenot",
+    "alternateNames": [
+      "Têphanô Têôđo Cuênot Thể",
+      "Tê-pha-nô Tê-ô-đo Cu-ê-not Thể"
+    ],
+    "dates": "1802-1861",
+    "origin": "France; ministry in Vietnam"
+  },
+  {
+    "slug": "francis-xavier-nguyen-can",
+    "name": "Francis Xavier Nguyễn Cần",
+    "alternateNames": [
+      "Phanxicô Xavier Nguyễn Cần"
+    ],
+    "dates": "1803-1837",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-nguyen-van-xuyen",
+    "name": "Dominic Nguyễn Văn Xuyên",
+    "alternateNames": [
+      "Đa Minh Nguyễn Văn Xuyên"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-nguyen-duy-khang",
+    "name": "Joseph Nguyễn Duy Khang",
+    "alternateNames": [
+      "Giuse Nguyễn Duy Khang"
+    ],
+    "dates": "1832-1861",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "simon-phan-dac-hoa",
+    "name": "Simon Phan Đắc Hòa",
+    "alternateNames": [
+      "Si-mon Phan Khắc Hòa"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-nguyen-van-my",
+    "name": "Paul Nguyễn Văn Mỹ",
+    "alternateNames": [
+      "Phaolô Nguyễn Văn Hữu",
+      "Phaolô Nguyễn Văn Mỹ"
+    ],
+    "dates": "1798-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-truong-van-duong",
+    "name": "Peter Trương Văn Đường",
+    "alternateNames": [
+      "Phêrô Nguyễn Văn Đường",
+      "Phêrô Trương Văn Đường"
+    ],
+    "dates": "1808-1838",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-mau",
+    "name": "Dominic Mậu",
+    "alternateNames": [
+      "Đa Minh Mậu"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-truong-van-thi",
+    "name": "Peter Trương Văn Thi",
+    "alternateNames": [
+      "Phêrô Trương Văn Thi"
+    ],
+    "dates": "1763-1839",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-nguyen-van-luu",
+    "name": "Joseph Nguyễn Văn Lựu",
+    "alternateNames": [
+      "Giu-se Nguyễn Văn Lựu"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-do-quang-hien",
+    "name": "Joseph Đỗ Quang Hiển",
+    "alternateNames": [
+      "Giu-se Đỗ Quang Hiển"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "matthew-le-van-gam",
+    "name": "Matthew Lê Văn Gẫm",
+    "alternateNames": [
+      "Mát-thêu Lê Văn Gẫm"
+    ],
+    "dates": "1813-1847",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "lawrence-ngon",
+    "name": "Lawrence Ngôn",
+    "alternateNames": [
+      "Lô-ren-sô Ngôn",
+      "Lau-ren-sô Ngôn"
+    ],
+    "dates": "1840-1862",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "michael-ho-dinh-hy",
+    "name": "Michael Hồ Đình Hy",
+    "alternateNames": [
+      "Micae Hồ Đình Thục",
+      "Mi-ca-e Hồ Đình Hy"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-doan-van-van",
+    "name": "Peter Đoàn Văn Vân",
+    "alternateNames": [
+      "Phê-rô Đoàn Văn Vân"
+    ],
+    "dates": "1780-1857",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "john-doan-trinh-hoan",
+    "name": "John Đoàn Trinh Hoan",
+    "alternateNames": [
+      "Gio-an Đoàn Thanh Hoan"
+    ],
+    "dates": "1798-1861",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "matthew-nguyen-van-phuong",
+    "name": "Matthew Nguyễn Văn Phượng",
+    "alternateNames": [
+      "Mát-thêu Nguyễn Văn Đắc",
+      "Mát-thêu Nguyễn Văn Phượng"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-pham-quang-tuc",
+    "name": "Joseph Phạm Quang Túc",
+    "alternateNames": [
+      "Giuse Túc"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-tran-duy-ninh",
+    "name": "Dominic Trần Duy Ninh",
+    "alternateNames": [
+      "Đaminh Ninh"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-vu-van-dong",
+    "name": "Paul Vũ Văn Đổng",
+    "alternateNames": [
+      "Phaolô Dương",
+      "Phaolô Vũ Văn Đổng"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "luke-vu-ba-loan",
+    "name": "Luke Vũ Bá Loan",
+    "alternateNames": [
+      "Luca Vũ Bá Loan"
+    ],
+    "dates": "1756-1840",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "augustine-phan-viet-huy",
+    "name": "Augustine Phan Viết Huy",
+    "alternateNames": [
+      "Augustinô Phan Viết Huy"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "nicholas-bui-duc-the",
+    "name": "Nicholas Bùi Đức Thể",
+    "alternateNames": [
+      "Nicolao Bùi Đức Thể"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "dominic-dinh-dat",
+    "name": "Dominic Đinh Đạt",
+    "alternateNames": [
+      "Đaminh Đinh Văn Đạt",
+      "Đaminh Đinh Đạt"
+    ],
+    "dates": "1803-1839",
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "emmanuel-le-van-phung",
+    "name": "Emmanuel Lê Văn Phụng",
+    "alternateNames": [],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "james-do-mai-nam",
+    "name": "James Đỗ Mai Năm",
+    "alternateNames": [
+      "Giacôbê Đỗ Mai Năm"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "peter-nguyen-dich",
+    "name": "Peter Nguyễn Đích",
+    "alternateNames": [
+      "Phê-rô Nguyễn Đích",
+      "Antôn Nguyễn Đích"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-dang-dinh-vien",
+    "name": "Joseph Đặng Đình Viên",
+    "alternateNames": [
+      "Giuse Đặng Đình Viên"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "john-dat",
+    "name": "John Đạt",
+    "alternateNames": [
+      "Gio-an Đạt"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "paul-nguyen-ngan",
+    "name": "Paul Nguyễn Ngân",
+    "alternateNames": [
+      "Phaolô Nguyễn Ngân"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "joseph-nguyen-dinh-nghi",
+    "name": "Joseph Nguyễn Đình Nghi",
+    "alternateNames": [
+      "Giuse Nguyễn Đình Kim",
+      "Giuse Nguyễn Đình Nghi"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "martin-ta-duc-thinh",
+    "name": "Martin Tạ Đức Thịnh",
+    "alternateNames": [
+      "Martinô Tạ Đức Thịnh"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "john-baptist-con",
+    "name": "John Baptist Cỏn",
+    "alternateNames": [
+      "Gioan Bao-ti-xi-ta Trần Ngọc Cỏn",
+      "John Baptist Bốn",
+      "Gioan Baotixita Cỏn"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "vincent-nguyen-the-diem",
+    "name": "Vincent Nguyễn Thế Điểm",
+    "alternateNames": [
+      "Vinh Sơn Nguyễn Thế Điểm"
+    ],
+    "dates": null,
+    "origin": "Vietnam"
+  },
+  {
+    "slug": "mary-magdalene-de-pazzi",
+    "name": "Mary Magdalene de Pazzi",
+    "alternateNames": [
+      "Maria Maddalena de Pazzi"
+    ],
+    "dates": "Died 1607",
+    "origin": "Florence, Italy"
+  },
+  {
+    "slug": "veronica-giuliani",
+    "name": "Veronica Giuliani",
+    "alternateNames": [
+      "Ursula Giuliani"
+    ],
+    "dates": "Died 1727",
+    "origin": "Mercatello; Citta di Castello, Italy"
+  },
+  {
+    "slug": "clare-of-montefalco",
+    "name": "Clare of Montefalco",
+    "alternateNames": [
+      "Clare of the Cross of Montefalco"
+    ],
+    "dates": "Died 1308",
+    "origin": "Montefalco, Italy"
+  },
+  {
+    "slug": "catherine-of-bologna",
+    "name": "Catherine of Bologna",
+    "alternateNames": [],
+    "dates": "Died 1463",
+    "origin": "Ferrara; Bologna, Italy"
+  },
+  {
+    "slug": "catherine-of-sweden",
+    "name": "Catherine of Sweden",
+    "alternateNames": [
+      "Catherine of Vadstena"
+    ],
+    "dates": "Died 1381",
+    "origin": "Sweden; Rome"
+  },
+  {
+    "slug": "juliana-of-cornillon",
+    "name": "Juliana of Cornillon",
+    "alternateNames": [
+      "Juliana of Mont Cornillon"
+    ],
+    "dates": null,
+    "origin": "Liege; Fosses-la-Ville, Belgium"
+  },
+  {
+    "slug": "lutgardis-of-aywiers",
+    "name": "Lutgardis of Aywiers",
+    "alternateNames": [
+      "Lutgarde of Aywiers"
+    ],
+    "dates": "Died 1246",
+    "origin": "Tongeren; Aywiers, Belgium"
+  },
+  {
+    "slug": "mechthild-of-hackeborn",
+    "name": "Mechthild of Hackeborn",
+    "alternateNames": [
+      "Mechtilde of Helfta"
+    ],
+    "dates": "Died about 1298",
+    "origin": "Helfta, Germany"
+  },
+  {
+    "slug": "gertrude-of-nivelles",
+    "name": "Gertrude of Nivelles",
+    "alternateNames": [],
+    "dates": "Died 659",
+    "origin": "Nivelles, Belgium"
+  },
+  {
+    "slug": "begga-of-andenne",
+    "name": "Begga of Andenne",
+    "alternateNames": [
+      "Begge of Andenne"
+    ],
+    "dates": "Died 693",
+    "origin": "Andenne, Belgium"
+  },
+  {
+    "slug": "bathildis",
+    "name": "Bathildis",
+    "alternateNames": [
+      "Bathilde"
+    ],
+    "dates": "Died 680",
+    "origin": "Anglo-Saxon England; Chelles, France"
+  },
+  {
+    "slug": "radegund-of-poitiers",
+    "name": "Radegund of Poitiers",
+    "alternateNames": [
+      "Radegonde of Poitiers"
+    ],
+    "dates": "Died 587",
+    "origin": "Thuringia; Poitiers, France"
+  },
+  {
+    "slug": "clotilde",
+    "name": "Clotilde",
+    "alternateNames": [
+      "Clotilda"
+    ],
+    "dates": "Died 545",
+    "origin": "Burgundy; Tours, France"
+  },
+  {
+    "slug": "etheldreda-of-ely",
+    "name": "Etheldreda of Ely",
+    "alternateNames": [
+      "Audrey of Ely",
+      "Ethelthryth of Ely"
+    ],
+    "dates": "Died 679",
+    "origin": "East Anglia; Ely, England"
+  },
+  {
+    "slug": "mildred-of-thanet",
+    "name": "Mildred of Thanet",
+    "alternateNames": [
+      "Mildrith of Thanet"
+    ],
+    "dates": null,
+    "origin": "Thanet, England; Chelles, France"
+  },
+  {
+    "slug": "bertille-of-chelles",
+    "name": "Bertille of Chelles",
+    "alternateNames": [],
+    "dates": "Died about 705",
+    "origin": "Jouarre; Chelles, France"
+  },
+  {
+    "slug": "macrina-the-younger",
+    "name": "Macrina the Younger",
+    "alternateNames": [],
+    "dates": "Died 379",
+    "origin": "Pontus, Asia Minor"
+  },
+  {
+    "slug": "olympias-of-constantinople",
+    "name": "Olympias of Constantinople",
+    "alternateNames": [
+      "Olympiade of Constantinople"
+    ],
+    "dates": null,
+    "origin": "Constantinople; Nicomedia"
+  },
+  {
+    "slug": "paula-of-rome",
+    "name": "Paula of Rome",
+    "alternateNames": [
+      "Paula of Bethlehem"
+    ],
+    "dates": "Died 404",
+    "origin": "Rome; Bethlehem"
+  },
+  {
+    "slug": "eustochium-of-bethlehem",
+    "name": "Eustochium of Bethlehem",
+    "alternateNames": [],
+    "dates": null,
+    "origin": "Rome; Bethlehem"
+  },
+  {
+    "slug": "fabiola-of-rome",
+    "name": "Fabiola of Rome",
+    "alternateNames": [
+      "Fabiola"
+    ],
+    "dates": "Died 399",
+    "origin": "Rome; Holy Land"
+  },
+  {
+    "slug": "melania-the-younger",
+    "name": "Melania the Younger",
+    "alternateNames": [],
+    "dates": "Died 439",
+    "origin": "Rome; North Africa; Jerusalem"
+  },
+  {
+    "slug": "cunegund-of-luxembourg",
+    "name": "Cunegund of Luxembourg",
+    "alternateNames": [
+      "Cunegonde of Luxembourg"
+    ],
+    "dates": null,
+    "origin": "Luxembourg; Bamberg; Kaufungen"
+  },
+  {
+    "slug": "ludmila-of-bohemia",
+    "name": "Ludmila of Bohemia",
+    "alternateNames": [
+      "Ludmilla of Bohemia"
+    ],
+    "dates": "Died 921",
+    "origin": "Bohemia"
+  },
+  {
+    "slug": "francis-solano",
+    "name": "Francis Solano",
+    "alternateNames": [
+      "Francisco Solano"
+    ],
+    "dates": "Died 1610",
+    "origin": "Spain; South America"
+  },
+  {
+    "slug": "peter-nolasco",
+    "name": "Peter Nolasco",
+    "alternateNames": [
+      "Pedro Nolasco"
+    ],
+    "dates": null,
+    "origin": "Barcelona; western Mediterranean"
+  },
+  {
+    "slug": "raymond-nonnatus",
+    "name": "Raymond Nonnatus",
+    "alternateNames": [
+      "Raymond Nonnat"
+    ],
+    "dates": "Died about 1240",
+    "origin": "Catalonia; North Africa"
+  },
+  {
+    "slug": "louis-bertrand",
+    "name": "Louis Bertrand",
+    "alternateNames": [
+      "Louis Bertran",
+      "Luis Bertran"
+    ],
+    "dates": null,
+    "origin": "Valencia, Spain; South America"
+  },
+  {
+    "slug": "antoninus-of-florence",
+    "name": "Antoninus of Florence",
+    "alternateNames": [
+      "Antonino of Florence"
+    ],
+    "dates": "Died 1459",
+    "origin": "Florence, Italy"
+  },
+  {
+    "slug": "philip-benizi",
+    "name": "Philip Benizi",
+    "alternateNames": [
+      "Philippe Benizi"
+    ],
+    "dates": "Died 1285",
+    "origin": "Florence; Todi, Italy"
+  },
+  {
+    "slug": "andrew-avellino",
+    "name": "Andrew Avellino",
+    "alternateNames": [
+      "Andrea Avellino",
+      "Lancelot Avellino"
+    ],
+    "dates": "Died 1608",
+    "origin": "Naples, Italy"
+  },
+  {
+    "slug": "joseph-calasanz",
+    "name": "Joseph Calasanz",
+    "alternateNames": [
+      "Joseph of Calasanz",
+      "Jose de Calasanz"
+    ],
+    "dates": "Died 1648",
+    "origin": "Aragon, Spain; Rome, Italy"
+  },
+  {
+    "slug": "jerome-emiliani",
+    "name": "Jerome Emiliani",
+    "alternateNames": [
+      "Girolamo Emiliani"
+    ],
+    "dates": "Died 1537",
+    "origin": "Venice; Somasca, Italy"
+  },
+  {
+    "slug": "john-gualbert",
+    "name": "John Gualbert",
+    "alternateNames": [
+      "Giovanni Gualberto"
+    ],
+    "dates": "Died 1073",
+    "origin": "Florence; Vallombrosa, Italy"
+  },
+  {
+    "slug": "bernard-of-menthon",
+    "name": "Bernard of Menthon",
+    "alternateNames": [
+      "Bernard of Aosta"
+    ],
+    "dates": null,
+    "origin": "Aosta; Alpine passes"
+  },
+  {
+    "slug": "stephen-harding",
+    "name": "Stephen Harding",
+    "alternateNames": [
+      "Etienne Harding"
+    ],
+    "dates": "Died 1134",
+    "origin": "England; Citeaux, France"
+  },
+  {
+    "slug": "robert-of-molesme",
+    "name": "Robert of Molesme",
+    "alternateNames": [],
+    "dates": "Died 1110",
+    "origin": "Burgundy, France"
+  },
+  {
+    "slug": "alberic-of-citeaux",
+    "name": "Alberic of Citeaux",
+    "alternateNames": [],
+    "dates": null,
+    "origin": "Burgundy, France"
+  },
+  {
+    "slug": "hugh-of-cluny",
+    "name": "Hugh of Cluny",
+    "alternateNames": [
+      "Hugh of Semur"
+    ],
+    "dates": "Died 1109",
+    "origin": "Semur; Cluny, France"
+  },
+  {
+    "slug": "odo-of-cluny",
+    "name": "Odo of Cluny",
+    "alternateNames": [
+      "Odon of Cluny"
+    ],
+    "dates": "Died 942",
+    "origin": "Tours; Cluny, France"
+  },
+  {
+    "slug": "aelred-of-rievaulx",
+    "name": "Aelred of Rievaulx",
+    "alternateNames": [],
+    "dates": "Died 1166",
+    "origin": "Scotland; Yorkshire, England"
+  },
+  {
+    "slug": "celestine-v",
+    "name": "Celestine V",
+    "alternateNames": [
+      "Peter of Morrone",
+      "Pietro da Morrone"
+    ],
+    "dates": "Died 1296",
+    "origin": "Abruzzo; Fumone, Italy"
+  },
+  {
+    "slug": "gregory-vii",
+    "name": "Gregory VII",
+    "alternateNames": [
+      "Hildebrand"
+    ],
+    "dates": "Died 1085",
+    "origin": "Rome; Salerno, Italy"
+  },
+  {
+    "slug": "leo-ix",
+    "name": "Leo IX",
+    "alternateNames": [
+      "Bruno of Eguisheim"
+    ],
+    "dates": "Died 1054",
+    "origin": "Alsace; Toul; Rome"
+  },
+  {
+    "slug": "leo-iii",
+    "name": "Leo III",
+    "alternateNames": [],
+    "dates": "Died 816",
+    "origin": "Rome, Italy"
+  },
+  {
+    "slug": "innocent-i",
+    "name": "Innocent I",
+    "alternateNames": [
+      "Pope Innocent I"
+    ],
+    "dates": "Died 417",
+    "origin": "Rome, Italy"
+  },
+  {
+    "slug": "hormisdas",
+    "name": "Hormisdas",
+    "alternateNames": [
+      "Pope Hormisdas"
+    ],
+    "dates": "Died 523",
+    "origin": "Campania; Rome, Italy"
+  },
+  {
+    "slug": "symmachus",
+    "name": "Symmachus",
+    "alternateNames": [
+      "Pope Symmachus"
+    ],
+    "dates": "Died 514",
+    "origin": "Rome, Italy"
+  },
+  {
+    "slug": "anselm-of-lucca",
+    "name": "Anselm of Lucca",
+    "alternateNames": [
+      "Anselm of Mantua"
+    ],
+    "dates": "Died 1086",
+    "origin": "Mantua; Lucca, Italy"
+  },
+  {
+    "slug": "ulrich-of-augsburg",
+    "name": "Ulrich of Augsburg",
+    "alternateNames": [
+      "Udalric of Augsburg",
+      "Ulric of Augsburg"
+    ],
+    "dates": "Died 973",
+    "origin": "Augsburg, Germany"
+  },
+  {
+    "slug": "henry-ii",
+    "name": "Henry II",
+    "alternateNames": [
+      "Henry II the Emperor"
+    ],
+    "dates": "Died 1024",
+    "origin": "Bavaria; Bamberg, Germany"
+  },
+  {
+    "slug": "stephen-of-hungary",
+    "name": "Stephen of Hungary",
+    "alternateNames": [
+      "Stephen I of Hungary",
+      "Istvan of Hungary"
+    ],
+    "dates": "Died 1038",
+    "origin": "Hungary"
+  },
+  {
+    "slug": "eusebius-of-vercelli",
+    "name": "Eusebius of Vercelli",
+    "alternateNames": [
+      "Eusebius of Verceil"
+    ],
+    "dates": "Died 371",
+    "origin": "Sardinia; Vercelli, Italy"
+  },
+  {
+    "slug": "paulinus-of-nola",
+    "name": "Paulinus of Nola",
+    "alternateNames": [],
+    "dates": "Died 431",
+    "origin": "Gaul; Spain; Nola, Italy"
+  },
+  {
+    "slug": "nicetius-of-lyon",
+    "name": "Nicetius of Lyon",
+    "alternateNames": [
+      "Nizier of Lyon"
+    ],
+    "dates": "Died 573",
+    "origin": "Lyon, France"
+  },
+  {
+    "slug": "caesarius-of-arles",
+    "name": "Caesarius of Arles",
+    "alternateNames": [
+      "Cesaire of Arles"
+    ],
+    "dates": null,
+    "origin": "Burgundy; Lerins; Arles, France"
+  },
+  {
+    "slug": "john-of-matha",
+    "name": "John of Matha",
+    "alternateNames": [
+      "Jean de Matha"
+    ],
+    "dates": "Died 1213",
+    "origin": "Provence; Paris; Rome"
+  },
+  {
+    "slug": "leander-of-seville",
+    "name": "Leander of Seville",
+    "alternateNames": [],
+    "dates": "Died about 600",
+    "origin": "Seville, Spain; Constantinople"
+  },
+  {
+    "slug": "thomas-of-villanova",
+    "name": "Thomas of Villanova",
+    "alternateNames": [
+      "Thomas of Villanueva"
+    ],
+    "dates": "Died 1555",
+    "origin": "Castile; Valencia, Spain"
+  },
+  {
+    "slug": "wilfrid-of-york",
+    "name": "Wilfrid of York",
+    "alternateNames": [
+      "Wilfrid of Ripon"
+    ],
+    "dates": "Died 709",
+    "origin": "Northumbria; Sussex; continental Europe"
+  },
+  {
+    "slug": "filippo-smaldone",
+    "name": "Filippo Smaldone",
+    "alternateNames": [],
+    "dates": "1848–1923",
+    "origin": "Italy"
+  },
+  {
+    "slug": "gaetano-catanoso",
+    "name": "Gaetano Catanoso",
+    "alternateNames": [],
+    "dates": "1879–1963",
+    "origin": "Italy"
+  },
+  {
+    "slug": "rosa-venerini",
+    "name": "Rosa Venerini",
+    "alternateNames": [],
+    "dates": "1656–1728",
+    "origin": "Italy"
+  },
+  {
+    "slug": "antonio-de-sant-anna-galvao",
+    "name": "Antônio de Sant’Anna Galvão",
+    "alternateNames": [
+      "Frei Galvão"
+    ],
+    "dates": "1739–1822",
+    "origin": "Brazil"
+  },
+  {
+    "slug": "theodore-guerin",
+    "name": "Theodore Guérin",
+    "alternateNames": [
+      "Anne-Thérèse Guérin"
+    ],
+    "dates": "1798–1856",
+    "origin": "France; United States"
+  },
+  {
+    "slug": "szymon-of-lipnica",
+    "name": "Szymon of Lipnica",
+    "alternateNames": [
+      "Simon of Lipnica"
+    ],
+    "dates": "c. 1435/1440–1482",
+    "origin": "Poland"
+  },
+  {
+    "slug": "arcangelo-tadini",
+    "name": "Arcangelo Tadini",
+    "alternateNames": [],
+    "dates": "1846–1912",
+    "origin": "Italy"
+  },
+  {
+    "slug": "bernardo-tolomei",
+    "name": "Bernardo Tolomei",
+    "alternateNames": [],
+    "dates": "1272–1348",
+    "origin": "Italy"
+  },
+  {
+    "slug": "geltrude-comensoli",
+    "name": "Geltrude Comensoli",
+    "alternateNames": [
+      "Caterina Comensoli"
+    ],
+    "dates": "1847–1903",
+    "origin": "Italy"
+  },
+  {
+    "slug": "giulia-salzano",
+    "name": "Giulia Salzano",
+    "alternateNames": [],
+    "dates": "1846–1929",
+    "origin": "Italy"
+  },
+  {
+    "slug": "guido-maria-conforti",
+    "name": "Guido Maria Conforti",
+    "alternateNames": [],
+    "dates": "1865–1931",
+    "origin": "Italy"
+  },
+  {
+    "slug": "luigi-guanella",
+    "name": "Luigi Guanella",
+    "alternateNames": [],
+    "dates": "1842–1915",
+    "origin": "Italy"
+  },
+  {
+    "slug": "giovanni-battista-piamarta",
+    "name": "Giovanni Battista Piamarta",
+    "alternateNames": [],
+    "dates": "1841–1913",
+    "origin": "Italy"
+  },
+  {
+    "slug": "bonifacia-rodriguez-castro",
+    "name": "Bonifacia Rodríguez Castro",
+    "alternateNames": [
+      "Bonifacia Rodríguez de Castro"
+    ],
+    "dates": "1837–1905",
+    "origin": "Spain"
+  },
+  {
+    "slug": "giovanni-antonio-farina",
+    "name": "Giovanni Antonio Farina",
+    "alternateNames": [],
+    "dates": "1803–1888",
+    "origin": "Italy"
+  },
+  {
+    "slug": "jacques-berthieu",
+    "name": "Jacques Berthieu",
+    "alternateNames": [],
+    "dates": "1838–1896",
+    "origin": "France; Madagascar"
+  },
+  {
+    "slug": "nicholas-of-longobardi",
+    "name": "Nicholas of Longobardi",
+    "alternateNames": [
+      "Nicola Saggio"
+    ],
+    "dates": "1650–1709",
+    "origin": "Italy"
+  },
+  {
+    "slug": "ludovico-of-casoria",
+    "name": "Ludovico of Casoria",
+    "alternateNames": [
+      "Arcangelo Palmentieri"
+    ],
+    "dates": "1814–1885",
+    "origin": "Italy"
+  },
+  {
+    "slug": "maria-cristina-brando",
+    "name": "Maria Cristina Brando",
+    "alternateNames": [
+      "Adelaide Brando"
+    ],
+    "dates": "1856–1906",
+    "origin": "Italy"
+  },
+  {
+    "slug": "amato-ronconi",
+    "name": "Amato Ronconi",
+    "alternateNames": [],
+    "dates": "c. 1226–before 1304",
+    "origin": "Italy"
+  },
+  {
+    "slug": "lodovico-pavoni",
+    "name": "Lodovico Pavoni",
+    "alternateNames": [],
+    "dates": "1784–1849",
+    "origin": "Italy"
+  },
+  {
+    "slug": "vincenzo-grossi",
+    "name": "Vincenzo Grossi",
+    "alternateNames": [],
+    "dates": "1845–1917",
+    "origin": "Italy"
+  },
+  {
+    "slug": "alfonso-maria-fusco",
+    "name": "Alfonso Maria Fusco",
+    "alternateNames": [],
+    "dates": "1839–1910",
+    "origin": "Italy"
+  },
+  {
+    "slug": "solomon-leclercq",
+    "name": "Solomon Leclercq",
+    "alternateNames": [
+      "Salomone Leclercq"
+    ],
+    "dates": "1745–1792",
+    "origin": "France"
+  },
+  {
+    "slug": "manuel-gonzalez-garcia",
+    "name": "Manuel González García",
+    "alternateNames": [],
+    "dates": "1877–1940",
+    "origin": "Spain"
+  },
+  {
+    "slug": "rafael-arnaiz-baron",
+    "name": "Rafael Arnáiz Barón",
+    "alternateNames": [],
+    "dates": "1911–1938",
+    "origin": "Spain"
+  },
+  {
+    "slug": "luigi-maria-palazzolo",
+    "name": "Luigi Maria Palazzolo",
+    "alternateNames": [],
+    "dates": "1827–1886",
+    "origin": "Italy"
+  },
+  {
+    "slug": "giuseppina-vannini",
+    "name": "Giuseppina Vannini",
+    "alternateNames": [
+      "Giuditta Vannini"
+    ],
+    "dates": "1859–1911",
+    "origin": "Italy"
+  },
+  {
+    "slug": "carolina-santocanale",
+    "name": "Carolina Santocanale",
+    "alternateNames": [
+      "Maria di Gesù Santocanale"
+    ],
+    "dates": "1852–1923",
+    "origin": "Italy"
+  },
+  {
+    "slug": "titus-brandsma",
+    "name": "Titus Brandsma",
+    "alternateNames": [],
+    "dates": "1881–1942",
+    "origin": "Netherlands"
+  },
+  {
+    "slug": "maria-domenica-mantovani",
+    "name": "Maria Domenica Mantovani",
+    "alternateNames": [],
+    "dates": "1862–1934",
+    "origin": "Italy"
+  },
+  {
+    "slug": "paul-vi",
+    "name": "Paul VI",
+    "alternateNames": [
+      "Giovanni Battista Montini"
+    ],
+    "dates": "1897–1978",
+    "origin": "Italy"
+  },
+  {
+    "slug": "giuseppe-allamano",
+    "name": "Giuseppe Allamano",
+    "alternateNames": [],
+    "dates": "1851–1926",
+    "origin": "Italy"
+  },
+  {
+    "slug": "angela-of-foligno",
+    "name": "Angela of Foligno",
+    "alternateNames": [],
+    "dates": "1248–1309",
+    "origin": "Italy"
+  },
+  {
+    "slug": "elena-guerra",
+    "name": "Elena Guerra",
+    "alternateNames": [],
+    "dates": "1835–1914",
+    "origin": "Italy"
+  },
+  {
+    "slug": "vincenzo-romano",
+    "name": "Vincenzo Romano",
+    "alternateNames": [],
+    "dates": "1751–1831",
+    "origin": "Italy"
+  },
+  {
+    "slug": "francesco-spinelli",
+    "name": "Francesco Spinelli",
+    "alternateNames": [],
+    "dates": "1853–1913",
+    "origin": "Italy"
+  },
+  {
+    "slug": "angelo-of-acri",
+    "name": "Angelo of Acri",
+    "alternateNames": [
+      "Luca Antonio Falcone"
+    ],
+    "dates": "1669–1739",
+    "origin": "Italy"
+  },
+  {
+    "slug": "nazaria-ignacia-march-mesa",
+    "name": "Nazaria Ignacia March Mesa",
+    "alternateNames": [],
+    "dates": "1889–1943",
+    "origin": "Spain; Latin America"
+  },
+  {
+    "slug": "nunzio-sulprizio",
+    "name": "Nunzio Sulprizio",
+    "alternateNames": [],
+    "dates": "1817–1836",
+    "origin": "Italy"
+  },
+  {
+    "slug": "maria-katharina-kasper",
+    "name": "Maria Katharina Kasper",
+    "alternateNames": [],
+    "dates": "1820–1898",
+    "origin": "Germany"
+  },
+  {
+    "slug": "faustino-miguez",
+    "name": "Faustino Míguez",
+    "alternateNames": [
+      "Faustino of the Incarnation"
+    ],
+    "dates": "1831–1925",
+    "origin": "Spain"
+  },
+  {
+    "slug": "ignatius-of-santhia",
+    "name": "Ignatius of Santhià",
+    "alternateNames": [
+      "Lorenzo Maurizio Belvisotti"
+    ],
+    "dates": "1686–1770",
+    "origin": "Italy"
+  },
+  {
+    "slug": "humilis-of-bisignano",
+    "name": "Humilis of Bisignano",
+    "alternateNames": [
+      "Umile of Bisignano",
+      "Luca Antonio Pirozzo"
+    ],
+    "dates": "1582–1637",
+    "origin": "Italy"
+  },
+  {
+    "slug": "gaetano-errico",
+    "name": "Gaetano Errico",
+    "alternateNames": [],
+    "dates": "1791–1860",
+    "origin": "Italy"
+  },
+  {
+    "slug": "camilla-battista-da-varano",
+    "name": "Camilla Battista da Varano",
+    "alternateNames": [],
+    "dates": "1458–1524",
+    "origin": "Italy"
+  },
+  {
+    "slug": "marie-eugenie-milleret",
+    "name": "Marie Eugénie Milleret",
+    "alternateNames": [
+      "Anne Eugénie Milleret"
+    ],
+    "dates": "1817–1898",
+    "origin": "France"
+  },
+  {
+    "slug": "nuno-alvares-pereira",
+    "name": "Nuno Álvares Pereira",
+    "alternateNames": [
+      "Nuno of Saint Mary"
+    ],
+    "dates": "1360–1431",
+    "origin": "Portugal"
+  },
+  {
+    "slug": "candida-maria-de-jesus",
+    "name": "Cándida María de Jesús",
+    "alternateNames": [
+      "Juana Josefa Cipitria y Barriola"
+    ],
+    "dates": "1845–1912",
+    "origin": "Spain"
+  },
+  {
+    "slug": "marie-alphonsine-danil-ghattas",
+    "name": "Marie Alphonsine Danil Ghattas",
+    "alternateNames": [
+      "Sultaneh Ghattas"
+    ],
+    "dates": "1843–1927",
+    "origin": "Palestine"
+  },
+  {
+    "slug": "jeanne-emilie-de-villeneuve",
+    "name": "Jeanne Émilie de Villeneuve",
+    "alternateNames": [],
+    "dates": "1811–1854",
+    "origin": "France"
+  },
+  {
+    "slug": "stanis-aw-papczynski",
+    "name": "Stanisław Papczyński",
+    "alternateNames": [
+      "Stanislaus Papczyński"
+    ],
+    "dates": "1631–1701",
+    "origin": "Poland"
+  },
+  {
+    "slug": "jose-gabriel-del-rosario-brochero",
+    "name": "José Gabriel del Rosario Brochero",
+    "alternateNames": [
+      "Cura Brochero"
+    ],
+    "dates": "1840–1914",
+    "origin": "Argentina"
+  },
+  {
+    "slug": "francisco-coll-y-guitart",
+    "name": "Francisco Coll y Guitart",
+    "alternateNames": [],
+    "dates": "1812–1875",
+    "origin": "Spain"
+  },
+  {
+    "slug": "charles-de-foucauld",
+    "name": "Charles de Foucauld",
+    "alternateNames": [],
+    "dates": "1858–1916",
+    "origin": "France; Algeria"
+  },
+  {
+    "slug": "maria-francesca-rubatto",
+    "name": "Maria Francesca Rubatto",
+    "alternateNames": [
+      "Anna Maria Rubatto"
+    ],
+    "dates": "1844–1904",
+    "origin": "Italy; Uruguay"
+  },
+  {
+    "slug": "joseph-vaz",
+    "name": "Joseph Vaz",
+    "alternateNames": [
+      "José Vaz"
+    ],
+    "dates": "1651–1711",
+    "origin": "India; Sri Lanka"
+  },
+  {
+    "slug": "marie-rivier",
+    "name": "Marie Rivier",
+    "alternateNames": [],
+    "dates": "1768–1838",
+    "origin": "France"
+  },
+  {
+    "slug": "marie-leonie-paradis",
+    "name": "Marie-Léonie Paradis",
+    "alternateNames": [
+      "Virginie Alodie Paradis"
+    ],
+    "dates": "1840–1912",
+    "origin": "Canada; United States"
+  },
+  {
+    "slug": "jozef-bilczewski",
+    "name": "Józef Bilczewski",
+    "alternateNames": [],
+    "dates": "1860–1923",
+    "origin": "Poland; Ukraine"
+  },
+  {
+    "slug": "zygmunt-gorazdowski",
+    "name": "Zygmunt Gorazdowski",
+    "alternateNames": [],
+    "dates": "1845–1920",
+    "origin": "Poland; Ukraine"
+  },
+  {
+    "slug": "zygmunt-szczesny-felinski",
+    "name": "Zygmunt Szczęsny Feliński",
+    "alternateNames": [],
+    "dates": "1822–1895",
+    "origin": "Poland; Russia"
+  },
+  {
+    "slug": "giustino-maria-russolillo",
+    "name": "Giustino Maria Russolillo",
+    "alternateNames": [],
+    "dates": "1891–1955",
+    "origin": "Italy"
+  },
+  {
+    "slug": "george-preca",
+    "name": "George Preca",
+    "alternateNames": [
+      "Giorgio Preca"
+    ],
+    "dates": "1880–1962",
+    "origin": "Malta"
+  },
+  {
+    "slug": "artemide-zatti",
+    "name": "Artemide Zatti",
+    "alternateNames": [],
+    "dates": "1880–1951",
+    "origin": "Italy; Argentina"
+  },
+  {
+    "slug": "john-leonardi",
+    "name": "John Leonardi",
+    "alternateNames": [
+      "Giovanni Leonardi"
+    ],
+    "dates": "1541–1609",
+    "origin": "Italy"
+  },
+  {
+    "slug": "rafael-guizar-valencia",
+    "name": "Rafael Guízar Valencia",
+    "alternateNames": [],
+    "dates": "1878–1938",
+    "origin": "Mexico"
+  },
+  {
+    "slug": "leonard-murialdo",
+    "name": "Leonard Murialdo",
+    "alternateNames": [
+      "Leonardo Murialdo"
+    ],
+    "dates": "1828–1900",
+    "origin": "Italy"
+  },
+  {
+    "slug": "jose-gregorio-hernandez-cisneros",
+    "name": "José Gregorio Hernández Cisneros",
+    "alternateNames": [],
+    "dates": "1864–1919",
+    "origin": "Venezuela"
+  },
+  {
+    "slug": "ignatius-maloyan",
+    "name": "Ignatius Maloyan",
+    "alternateNames": [
+      "Ignace Choukrallah Maloyan"
+    ],
+    "dates": "1869–1915",
+    "origin": "Turkey; Armenian Catholic Church"
+  }
+]

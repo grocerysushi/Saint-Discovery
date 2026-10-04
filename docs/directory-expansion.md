@@ -134,3 +134,89 @@ This batch substantially improves Korean lay and women coverage. It does not
 complete the 103 Korean saints or the Vietnamese and Chinese martyr collections.
 Further batches still need individual source review, transliteration/family
 deduplication and calendar research; a cohort total is never an import count.
+
+## Third expansion: 100 additional individuals
+
+Reviewed against the 487-record directory at `e9a8b55`. The two new batches,
+`2026-10-01-korean-martyrs-completion.json` and `2026-10-01-vatican-saints.json`,
+add 58 Korean martyr identities and 42 individuals from the Vatican's
+canonizations of John Paul II. The directory now contains 587 records. All
+100 additions are separate named people, with 36 women and 64 men. The 587
+total remains a directory-record count because the legacy catalog also has
+group entries and archangels.
+
+The 61 earlier additions are preserved unchanged. Combined validation rejects
+collisions with canonical names, legacy aliases, archived records and other
+batches. Original two-paragraph summaries are 96–125 words and cite individual
+Catholic institutional biographies. Vatican biographies are also linked to
+the canonization index: some historical page text still says Blessed because
+it was prepared before the canonization ceremony. The separate beatification
+index is not used as proof of sainthood.
+
+The Korean series now contributes 98 new individuals, alongside the two
+already-existing Andrew and Paul entries. CBCK identities 19 and 20 remain
+deferred for sparse evidence, and identity 68 returned an empty biography
+despite HTTP 200. No replacement text was manufactured. Conflicting birth
+years and ages are withheld; uncertain death methods are qualified. The two
+Lucia Kim biographies refer to different people who both died in 1839.
+Josep Manyanet's Vatican heading gives 1833–1901, while its opening sentence
+has an incompatible 1933 typo; the heading is followed and the conflict noted.
+
+`research/saints-expansion-100-audit.json` records source URLs, HTTP reads,
+timestamps, hashes, original word counts, recognition evidence and limitations.
+Source prose remains in local research caches rather than the publication
+data. Feast days remain unverified; no patronages, quotations, copied images
+or personality scores are introduced. The new records are directory-only
+and do not become quiz results. This is a local expansion pending release,
+not evidence that production has already deployed it.
+
+The read-only progress dashboard and its research caches are local tools.
+Do not include its page, API, component, CSS or progress helper in a commit.
+
+## Fourth expansion: 200 additional individuals
+
+The October 3, 2026 expansion adds 70 individually documented canonizations,
+70 Vietnamese martyrs, and 60 historical Catholic saints. The directory grows
+from 625 distinct published records to 825. The earlier source audit's 641
+total included 16 alternate URLs; these aliases are not new biographies.
+The 199 earlier directory additions and all existing published identities
+remain intact. The total still counts directory records, including legacy
+group entries and archangels, rather than 825 individual human lives.
+
+Each new person has an original two-paragraph biography, an individual
+institutional source URL, recognition evidence, alternate names where
+supported, and recorded factual limits. Sources include the Dicastery for
+the Causes of Saints, the Holy See's named Vietnamese martyr list, the
+Archdiocese of Hanoi's individual biographies, the Catholic Church in France's
+Nominis directory, and Minster Abbey. Modern recognition is supported by a
+completed canonization; older Catholic recognition is described through
+institutional testimony and traditional veneration without inventing a
+modern papal ceremony.
+
+Three research agents prepared separate batches and reviewed identities and
+source conflicts. Source title or HTTP success alone was not considered a
+biographical verification. The matching audits record retrieval dates,
+content hashes, claim summaries and unresolved details. This was AI-assisted
+research, not qualified human review or ecclesiastical approval.
+
+Vietnamese transliterations and related names were compared with the Vatican's
+117-person list. Existing Andrew Dung-Lac and Agnes Le Thi Thanh are excluded.
+The priest Dominic Mau (1858) is distinguished from the catechist Francis
+Xavier Ha Trong Mau (1839); a duplicated diocesan biography is not imported
+as a second person's life. Conflicting names, dates and ages are withheld or
+qualified. Mildred's differing death years in the Abbey and Nominis sources
+remain unresolved; continued Catholic veneration is separately documented.
+
+All 200 feast dates remain explicitly unverified until a scoped approved
+calendar is checked. No death date or saint-of-the-day listing is silently
+converted into a universal feast. The existing year-round daily calendar is
+separate. No copied artwork, invented patronages, prayers, quotations or
+personality ratings are introduced; these additions remain directory-only
+and do not change quiz eligibility.
+
+`research/saints-expansion-200/integration-record.json` records the exact count,
+preservation checks, final source references and limitations. Keep fetched
+source HTML, source caches, prior-data snapshots and the local progress
+dashboard out of publication commits. Curated batch data and source audit
+metadata are suitable for the repository. Integration and local validation
+do not establish that the new biographies are already deployed.

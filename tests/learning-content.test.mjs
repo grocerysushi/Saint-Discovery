@@ -17,7 +17,7 @@ test('every paired reading destination resolves to a published saint with a real
     assert.ok(guide?.reading.exercise && guide?.reading.introduction, slug);
     for (const url of [guide.reading.url, ...guide.faqs.map(faq => faq.source.url)]) assert.equal(new URL(url).protocol, 'https:');
   }
-  assert.equal((await getAllSaints()).length, 487, 'Reading paths must not add identities');
+  assert.equal((await getAllSaints()).length, 825, 'Reading paths must not add identities');
   assert.equal(getSaintLearningGuide('unlisted-person'), undefined);
 });
 

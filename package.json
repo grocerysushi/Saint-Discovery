@@ -7,7 +7,8 @@
     "build": "npm run directory:check && next build",
     "start": "next start",
     "lint": "eslint",
-    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/saint-contributions.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs tests/quiz-questions.test.mjs tests/scoring.test.mjs tests/directory-filters.test.mjs tests/resources-daily.test.mjs tests/patron-guides.test.mjs tests/blog.test.mjs tests/blog-storage.test.mjs tests/blog-public.test.mjs tests/blog-seo.test.mjs tests/analytics.test.mjs tests/email-flow.test.mjs tests/blog-recommendations.test.mjs tests/jev-seo.test.mjs tests/catholic-catalog.test.mjs tests/directory-expansion.test.mjs tests/directory-url.test.mjs tests/quiz-content-preservation.test.mjs tests/liturgical-calendar.test.mjs tests/learning-content.test.mjs",
+    "test": "node --test tests/saint-of-day.test.mjs tests/seo.test.mjs tests/biographies.test.mjs tests/saint-contributions.test.mjs tests/email-render.test.mjs tests/quiz-results.test.mjs tests/quiz-questions.test.mjs tests/scoring.test.mjs tests/directory-filters.test.mjs tests/resources-daily.test.mjs tests/patron-guides.test.mjs tests/blog.test.mjs tests/blog-storage.test.mjs tests/blog-public.test.mjs tests/blog-seo.test.mjs tests/analytics.test.mjs tests/email-flow.test.mjs tests/blog-recommendations.test.mjs tests/jev-seo.test.mjs tests/catholic-catalog.test.mjs tests/directory-expansion.test.mjs tests/directory-url.test.mjs tests/quiz-content-preservation.test.mjs tests/liturgical-calendar.test.mjs tests/learning-content.test.mjs tests/directory-editorial.test.mjs",
+
     "test:blog-seo": "node --test tests/blog-seo-http.test.mjs",
     "test:seo": "node --test tests/seo-build.test.mjs",
     "test:design": "node tests/browser-design.mjs",
@@ -19,7 +20,9 @@
     "calendar:refresh": "node scripts/import-liturgical-calendar.mjs",
     "test:theme": "node tests/public-theme-browser.mjs",
     "content:audit": "node scripts/content-quality-audit.mjs",
-    "test:learning": "node tests/learning-browser.mjs"
+    "test:learning": "node tests/learning-browser.mjs",
+    "directory:credibility": "node scripts/audit-directory-credibility.mjs"
+
   },
   "dependencies": {
     "@fontsource/source-sans-3": "^5.3.0",

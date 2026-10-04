@@ -4,6 +4,8 @@ import path from 'node:path';
 import os from 'node:os';
 import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
+import { loadTs } from './load-ts.mjs';
+const directoryCount=(await loadTs('lib/saints.ts').getAllSaints()).length;
 
 // Run against a started local production build. External writes are blocked.
 const origin = process.env.DESIGN_BASE_URL || 'http://localhost:3100';
@@ -88,7 +90,7 @@ try {
   await page.getByLabel('Women and men', { exact:true }).selectOption('Female');
   await page.waitForFunction(() => location.search.includes('gender=Female'));
   const filteredCount = await page.locator('.catalogue-list li').count();
-  assert(filteredCount >= 27 && filteredCount < 487);
+  assert(filteredCount >= 27 && filteredCount < directoryCount);
   const searchUrl = page.url();
   await page.locator('.catalogue-entry').first().click();
   await page.waitForURL('**/saints/**');
@@ -101,13 +103,13 @@ try {
   assert.equal(await page.locator('.catalogue-list li').count(), filteredCount);
   check('Home search; combined country text/gender filters; profile/back and reload preserve filters');
   await page.getByRole('button', {name:'Clear all filters', exact:true}).click();
-  await page.waitForFunction(() => document.querySelectorAll('.catalogue-list li').length === 487);
+  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,directoryCount);
   assert.equal(await page.locator('#saint-search').evaluate(el=>el === document.activeElement), true);
   await page.getByLabel('Search the directory', {exact:true}).fill('zzzz-no-such-saint-zzzz');
   await page.getByRole('heading', {name:'No saints match this search.'}).waitFor();
   await page.getByRole('button', {name:'Show all saints'}).click();
-  await page.waitForFunction(() => document.querySelectorAll('.catalogue-list li').length === 487);
-  check('Empty results, clear all, full 487-entry restoration and search focus');
+  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,directoryCount);
+  check(`Empty results, clear all, full ${directoryCount}-entry restoration and search focus`);
   const guides = page.getByRole('button', {name:'Guides', exact:true});
   await guides.focus(); await page.keyboard.press('Enter');
   assert.equal(await guides.getAttribute('aria-expanded'), 'true');

@@ -46,10 +46,10 @@
     "gender": "Male",
     "dates": "1510–1572",
     "origin": "Spain",
-    "feast_day": null,
-    "calendar_scope": "unverified",
-    "calendar_source": null,
-    "feast_note": "A Catholic liturgical calendar date has not yet been verified for this entry. Dates of death are not treated as feast days.",
+    "feast_day": "October 3",
+    "calendar_scope": "Regional or religious-community Catholic calendar",
+    "calendar_source": "https://nominis.cef.fr/contenus/saint/8492/Saint-Fran%C3%A7ois-de-Borgia.html",
+    "feast_note": "October 3 is Francis Borgia’s Jesuit commemoration recorded by Nominis; September 30 is his Roman Martyrology date.",
     "biography": [
       "Francis Borgia moved from a life of Spanish court service and family responsibilities into the Society of Jesus. He married Leonor de Castro, raised eight children and served as duke of Gandía. After his wife's death, he prepared to become a Jesuit while arranging his children's affairs.",
       "He relinquished his title and was ordained a priest. Elected the Jesuits' third superior general in 1565, he oversaw schools, missions and the developing organization of the order. He died in Rome in 1572 after illness interrupted a journey. His biography illustrates a vocation that developed through several distinct stages of life."
@@ -58,12 +58,16 @@
       {
         "title": "Society of Jesus: Saint Francis Borgia",
         "url": "https://www.jesuits.global/saint-blessed/saint-francis-borgia/"
+      },
+      {
+        "title": "Nominis — Catholic Church in France: Francis Borgia",
+        "url": "https://nominis.cef.fr/contenus/saint/8492/Saint-Fran%C3%A7ois-de-Borgia.html"
       }
     ],
-    "reviewed_on": "2026-10-01",
+    "reviewed_on": "2026-10-02",
     "recognition_evidence": "The Society of Jesus's individual institutional biography explicitly classifies this person as Saint.",
     "identity_review": "Compared canonical name, alternate names, life dates and individual institutional source against the 486 legacy records and reviewed identities; no matching person found.",
-    "uncertainty_note": "Concise institutional-source account; feast calendar and patronages remain unverified. No quotations, miracle claims or artwork imported.",
+    "uncertainty_note": "Concise institutional-source account; patronages remain unverified. No quotations, miracle claims or artwork imported.",
     "vocations": [
       "Priest"
     ],

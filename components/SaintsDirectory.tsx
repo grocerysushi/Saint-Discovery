@@ -6,6 +6,7 @@ import { directoryOptions, EMPTY_FILTERS, getDirectoryEntry, matchesDirectoryFil
 import { readDirectoryQuery, directoryQuery } from "@/lib/directory-url";
 import type { Saint } from "@/lib/types";
 import DirectoryDailySaints from "@/components/DirectoryDailySaints";
+import { SaintArtworkThumbnail, type ArtworkPreview } from "@/components/SaintArtwork";
 
 interface PatronTopicMini { slug: string; label: string; saintCount: number }
 const subscribeQuery = (notify: () => void) => {
@@ -16,7 +17,7 @@ const subscribeQuery = (notify: () => void) => {
 const querySnapshot = () => window.location.search;
 const serverQuery = () => "";
 
-export default function SaintsDirectory({ saints, patronTopics = [] }: { saints: Saint[]; patronTopics?: PatronTopicMini[] }) {
+export default function SaintsDirectory({ saints, patronTopics = [], artwork = {} }: { saints: Saint[]; patronTopics?: PatronTopicMini[]; artwork?: Record<string, ArtworkPreview> }) {
   const query = useSyncExternalStore(subscribeQuery, querySnapshot, serverQuery);
   const filters = useMemo(() => readDirectoryQuery(query), [query]);
   const [filtersOpen, setFiltersOpen] = useState(false);
@@ -63,7 +64,7 @@ export default function SaintsDirectory({ saints, patronTopics = [] }: { saints:
       <div className="catalogue-search"><label htmlFor="saint-search">Search the directory</label><div><input ref={search} id="saint-search" type="search" value={filters.search} onChange={event => update("search", event.target.value)} placeholder="Name, place or patronage" />{filters.search && <button type="button" onClick={() => { update("search", ""); search.current?.focus(); }} aria-label="Clear search">Clear</button>}</div></div>
       <div className="catalogue-result-summary"><p className="directory-count" role="status" aria-live="polite" aria-atomic="true">{filtered.length} of {saints.length} saints{q ? ` matching “${filters.search.trim()}”` : ""}</p>{activeCount > 0 && <button type="button" className="catalogue-reset" onClick={reset}>Clear all filters</button>}</div>
       {topicMatches.length > 0 && <section className="catalogue-related" aria-label="Related saint guides"><h2>Related patronage guides</h2><p>These guides may help your search; directory filters do not apply.</p>{topicMatches.map(topic => <Link key={topic.slug} href={`/patron-saint-of/${topic.slug}`}>{topic.label} ({topic.saintCount} biographies)</Link>)}</section>}
-      {filtered.length === 0 ? <div className="catalogue-empty"><h2>No saints match this search.</h2><p>Try a shorter name or clear the filters to start again.</p><button type="button" className="btn-secondary" onClick={reset}>Show all saints</button></div> : <ul className="catalogue-list">{filtered.map(({ saint }) => <li key={saint.id}><Link href={`/saints/${saint.slug}`} className="catalogue-entry"><h2>{saintDisplayName(saint)}</h2><p className="catalogue-life">{[saint.dates,saint.origin].filter(Boolean).join(" · ")}</p><p className="catalogue-description">{saint.description || saint.tagline}</p><p className="catalogue-feast">{saint.feast_day ? `Feast: ${saint.feast_day}` : "Feast date not yet recorded"}</p></Link></li>)}</ul>}
+      {filtered.length === 0 ? <div className="catalogue-empty"><h2>No saints match this search.</h2><p>Try a shorter name or clear the filters to start again.</p><button type="button" className="btn-secondary" onClick={reset}>Show all saints</button></div> : <ul className="catalogue-list">{filtered.map(({ saint }) => <li key={saint.id}><Link href={`/saints/${saint.slug}`} className="catalogue-entry"><SaintArtworkThumbnail name={saint.name} artwork={artwork[saint.slug] ?? {src:"/images/saint-symbolic.svg",alt:`Symbolic artwork for ${saint.name}; not a portrait`,symbolic:true}} /><h2>{saintDisplayName(saint)}</h2><p className="catalogue-life">{[saint.dates,saint.origin].filter(Boolean).join(" · ")}</p><p className="catalogue-description">{saint.description || saint.tagline}</p><p className="catalogue-feast">{saint.feast_day ? `Feast: ${saint.feast_day}` : "Feast date not yet recorded"}</p><span className="catalogue-artwork-credit">Artwork details in biography ↗</span></Link></li>)}</ul>}
     </div>
   </section><DirectoryDailySaints saints={saints} /></>;
 }
