@@ -16,6 +16,8 @@
 # next.js
 /.next/
 /.next-daily/
+/.next-languages/
+/.next-languages-build/
 /out/
 
 # production

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "September 25, 2026";
+const EFFECTIVE_DATE = "October 12, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -155,6 +155,11 @@ export default function PrivacyPage() {
               .
             </li>
           </ul>
+        </Section>
+
+        <Section title="Optional website translation">
+          <p>The language button opens a public page in Google Translate, a separate Google service. Google receives the public page address and processes the content to translate it. No translation request is made just by opening our language menu. Translations are automatic and may contain errors; English is our original editorial text.</p>
+          <p>Language-menu links omit query strings and fragments and are unavailable on administrator, subscription and email-confirmation pages. Searches and directory filters used within the translated view are processed by Google with that page. Email signup is unavailable in the translated view. You can return to the English site using the language menu. The translated view remembers the chosen language in that tab’s session storage so public-page navigation can keep the same language. Google’s service is subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="underline">Google’s privacy policy</a>.</p>
         </Section>
 
         <Section title="Remembering your quiz result in this tab">

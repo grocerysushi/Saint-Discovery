@@ -105,7 +105,7 @@ function nodes(tree) {
   return [tree, ...nodes(tree.props?.children)];
 }
 
-function captureHarness(responses) {
+function captureHarness(responses, translationProxy = false) {
   let cursor = 0, tree, sends = 0, now = 100000;
   const hooks = [], events = [], pending = [];
   const jsx = (type, props) => ({ type, props });
@@ -118,6 +118,8 @@ function captureHarness(responses) {
     'react/jsx-runtime': { jsx, jsxs: jsx }, 'framer-motion': { motion: { div: 'div', form: 'form' } },
     '@/lib/analytics': { track: (name, params) => events.push({ name, params }) },
     '@/lib/emails/address-suggestion': suggestions,
+    '@/lib/use-translation-proxy': { useTranslationProxy: () => translationProxy },
+    '@/lib/site-languages': { SITE_ORIGIN: 'https://www.saintdiscoveryquiz.com' },
   }, { Date: { now: () => now }, window: { requestAnimationFrame: fn => fn() },
     fetch: async () => { const response = responses[sends++]; if (response instanceof Error) throw response; return response; } });
   const render = () => { cursor = 0; tree = component.default({ saintSlug: 'joseph', saintName: 'Joseph' }); return tree; };
@@ -130,6 +132,14 @@ function captureHarness(responses) {
   };
 }
 const accepted = { ok: true, status: 200, json: async () => ({ ok: true, status: 'accepted', retryAfter: 60 }) };
+
+test('translation proxy never renders an email input or submits a subscription', () => {
+  const ui = captureHarness([], true);
+  assert.equal(ui.nodes().some(node => node.type === 'input' || node.type === 'form'), false);
+  assert.equal(ui.nodes().find(node => node.type === 'a').props.href, 'https://www.saintdiscoveryquiz.com/quiz');
+  assert.equal(ui.sends(), 0);
+  assert.equal(ui.events.length, 0);
+});
 
 test('capture supports resend and changing address while excluding PII from events', async () => {
   const ui = captureHarness([accepted, accepted]);

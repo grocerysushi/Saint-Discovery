@@ -4,6 +4,7 @@ import Link from "next/link";
 import { saintDisplayName } from "@/lib/saint-seo";
 import { directoryOptions, EMPTY_FILTERS, getDirectoryEntry, matchesDirectoryFilters, normalizeDirectorySearch, MONTHS, UNCLASSIFIED, type DirectoryFilters } from "@/lib/directory-filters";
 import { readDirectoryQuery, directoryQuery } from "@/lib/directory-url";
+import { isTranslationProxy, proxyNavigationUrl } from "@/lib/site-languages";
 import type { Saint } from "@/lib/types";
 import DirectoryDailySaints from "@/components/DirectoryDailySaints";
 import { SaintArtworkThumbnail, type ArtworkPreview } from "@/components/SaintArtwork";
@@ -24,7 +25,12 @@ export default function SaintsDirectory({ saints, patronTopics = [], artwork = {
   const search = useRef<HTMLInputElement>(null);
   const write = (next: DirectoryFilters) => {
     const parameters = directoryQuery(next);
-    window.history.replaceState(window.history.state, "", `/resources${parameters ? `?${parameters}` : ""}`);
+    let destination = `/resources${parameters ? `?${parameters}` : ""}`;
+    if (isTranslationProxy(window.location.hostname)) {
+      const language = new URLSearchParams(window.location.search).get("_x_tr_tl");
+      if (language) destination = proxyNavigationUrl(destination, language) ?? destination;
+    }
+    window.history.replaceState(window.history.state, "", destination);
     window.dispatchEvent(new Event("directory-query-change"));
   };
   const update = (key: keyof DirectoryFilters, value: string) => write({ ...filters, [key]: value });

@@ -3,8 +3,11 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
 import { track } from "@/lib/analytics";
 import { suggestEmailAddress } from "@/lib/emails/address-suggestion";
+import { useTranslationProxy } from "@/lib/use-translation-proxy";
+import { SITE_ORIGIN } from "@/lib/site-languages";
 
 export default function EmailCapture({ saintSlug, saintName }: { saintSlug: string; saintName: string }) {
+  const translationProxy = useTranslationProxy();
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [sent, setSent] = useState(false);
@@ -24,6 +27,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   }, []);
 
   async function requestConfirmation(resend: boolean) {
+    if (translationProxy) return;
     if (inFlight.current || Date.now() < nextRequestAt.current) return;
     inFlight.current = true;
     setBusy(true); setMessage("");
@@ -54,6 +58,11 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   }
 
   const waitLabel = remaining >= 60 ? `${Math.ceil(remaining / 60)} min` : `${remaining}s`;
+  if (translationProxy) return <section className="result-panel">
+    <h2>Email delivery</h2>
+    <p className="text-sm text-cream-dark">Email requests are available on our English site. To request a novena, open the English quiz and complete it there. Your translated result stays in this tab.</p>
+    <a href={`${SITE_ORIGIN}/quiz`} data-language-choice="en" target="_blank" rel="noopener noreferrer" className="text-link" onClick={event => { event.preventDefault(); window.open(`${SITE_ORIGIN}/quiz`, "_blank", "noopener,noreferrer"); }}>Open the English quiz ↗</a>
+  </section>;
   if (sent) return (
     <motion.div ref={successRef} tabIndex={-1} className="result-panel outline-none focus-visible:ring-2 focus-visible:ring-gold" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
       <p className="eyebrow">Your next step</p>
