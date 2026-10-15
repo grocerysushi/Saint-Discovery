@@ -13,11 +13,14 @@ await fs.mkdir(output, { recursive: true });
 const artworks = [
   { slug: 'jesus-prayer', title: 'How to Pray the Jesus Prayer', cover: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Christ_Icon_Sinai_6th_century.jpg', coverAlt: 'Sixth-century icon of Christ holding a Gospel book and raising his right hand in blessing.', coverCredit: "Christ Pantocrator, sixth century, unknown artist. Saint Catherine's Monastery, Sinai. Public-domain reproduction via Wikimedia Commons (PD-Art/PD-old-100-expired)." },
   { slug: 'act-of-contrition', title: 'What Is an Act of Contrition?', cover: 'https://upload.wikimedia.org/wikipedia/commons/0/07/El_Greco_-_Tears_of_St._Peter_-_NG.M.01346_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg', coverAlt: 'Saint Peter with clasped hands and an upward gaze, painted by El Greco.', coverCredit: 'El Greco, Tears of St. Peter, 1590s. National Museum, Oslo, NG.M.01346. Digital reproduction via Wikimedia Commons, CC BY 4.0. No editorial alterations; display may crop.' },
+  { slug: 'sacred-heart', title: 'Sacred Heart Devotion', cover: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/SacredHeartBatoni.jpg', coverAlt: "Pompeo Batoni's painting of Jesus holding a radiant heart topped by a cross", coverCredit: 'Pompeo Batoni, Sacred Heart of Jesus, 1767, Church of the Gesù, Rome. Photo: Lloydbaltazar · CC0.', fit: 'contain' },
 ];
 const rows = Array.from({ length: 12 }, (_, i) => ({
   id: `image-fixture-${String(i).padStart(2, '0')}`, publishedAt: '2026-10-14T12:00:00Z',
   published: { ...artworks[i === 2 ? 1 : 0], slug: i === 1 ? artworks[0].slug : i === 2 ? artworks[1].slug : `image-fixture-${i}`, excerpt: 'Read the story and explore its sacred artwork.', author: 'Saint Discovery', category: 'Everyday faith', ads: true, body: { type: 'doc', content: [{ type: 'paragraph', content: [{ type: 'text', text: 'Local image rendering verification.' }] }] } },
 }));
+rows[0].published = { ...rows[0].published, ...artworks[2], slug: 'image-fixture-0' };
+rows[6].published = { ...rows[6].published, ...artworks[2] };
 // Exercise the editor-compatible fallback through the same public component.
 rows[3].published.cover = 'https://example.org/editor-art.png';
 rows[4].published.cover = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+/l9sAAAAASUVORK5CYII=';
@@ -73,17 +76,19 @@ try {
     assert.equal(response.status(), 200, `${label}: optimizer response`);
     const bytes = (await response.body()).length;
     const originalBytes = report.original.find(row => row.slug === slug).bytes;
-    assert.ok(bytes < originalBytes * .4, `${label}: ${bytes} vs original ${originalBytes}`);
+    assert.ok(bytes < originalBytes * (slug === 'sacred-heart' ? .5 : .4), `${label}: ${bytes} vs original ${originalBytes}`);
     report.measurements.push({ label, slug, width, bytes, originalBytes, reductionPercent: Number((100 * (1 - bytes / originalBytes)).toFixed(1)), format: response.headers()['content-type'], ...data });
   };
   await page.goto(origin + '/blog');
   await page.evaluate(() => document.fonts.ready);
   await page.locator('.blog-feature img').evaluate(img => img.decode());
+  assert.equal(await page.locator('.blog-feature img').evaluate(img => getComputedStyle(img).objectFit), 'contain');
   assert.equal(await page.locator('.blog-public img[loading="eager"]').count(), 1);
   assert.equal(await page.locator('.blog-public img[loading="lazy"]').count() + await page.locator('.blog-card-art .blog-art-placeholder').count(), 11);
   for (const art of artworks) {
     const card = page.locator(`.blog-story-card[href="/blog/${art.slug}"]`);
     await inspect(card.locator('img'), art.slug, 'mobile-card');
+    assert.equal(await card.locator('img').evaluate(img => getComputedStyle(img).objectFit), art.fit ?? 'cover');
     await card.screenshot({ path: path.join(output, `${art.slug}-card-optimized.png`) });
     await card.locator('img').evaluate((img, src) => { img.removeAttribute('srcset'); img.src = src; }, art.cover);
     await card.locator('img').evaluate(img => img.decode());
@@ -101,13 +106,20 @@ try {
     await page.setViewportSize({ width, height: label === 'mobile' ? 844 : 1000 });
     await page.goto(origin + '/blog');
     await page.locator('.blog-feature img').evaluate(img => img.decode());
+    assert.equal(await page.locator('.blog-feature img').evaluate(img => getComputedStyle(img).objectFit), 'contain');
+    await page.locator('.blog-feature-art').screenshot({ path: path.join(output, `sacred-heart-feature-${label}.png`) });
+    const sacredCard = page.locator('.blog-story-card[href="/blog/sacred-heart"]');
+    await inspect(sacredCard.locator('img'), 'sacred-heart', `${label}-card`);
+    assert.equal(await sacredCard.locator('img').evaluate(img => getComputedStyle(img).objectFit), 'contain');
+    await sacredCard.locator('.blog-card-art').screenshot({ path: path.join(output, `sacred-heart-card-${label}.png`) });
     await page.screenshot({ path: path.join(output, `journal-${label}.png`) });
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
     for (const art of artworks) {
       await page.goto(origin + '/blog/' + art.slug);
       await inspect(page.locator('.blog-cover img'), art.slug, `${label}-article`);
       assert.equal(await page.locator('.blog-cover img').getAttribute('alt'), art.coverAlt);
-      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectPosition), '50% 20%', 'Portrait faces must stay in the cover frame');
+      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectPosition), art.fit === 'contain' ? '50% 50%' : '50% 20%', 'Portrait framing must preserve its subject');
+      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectFit), art.fit ?? 'cover');
       assert.equal(await page.locator('.blog-cover figcaption').textContent(), art.coverCredit);
       assert.ok((await page.content()).includes(art.cover), 'Original retained in article metadata');
       const frame = page.locator('.blog-cover-frame');

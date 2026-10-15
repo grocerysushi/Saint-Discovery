@@ -16,6 +16,14 @@ export function blogImagePosition(src: string): string {
   return BLOG_IMAGE_POSITIONS[src] ?? "50% 50%";
 }
 
+// This portrait's face and heart span more height than a landscape crop can
+// retain. Apply to the source so every card, cover, and reused post agrees.
+export function blogImageFit(src: string): "contain" | "cover" {
+  return src === "https://upload.wikimedia.org/wikipedia/commons/4/4f/SacredHeartBatoni.jpg"
+    ? "contain"
+    : "cover";
+}
+
 // Keep this allowlist aligned with next.config.ts. Other editor-approved URLs
 // and data uploads still render directly, without opening an arbitrary proxy.
 export function canOptimizeBlogImage(src: string): boolean {
