@@ -250,7 +250,7 @@ body { background: var(--color-navy); }
 .liturgical-details p { margin-bottom:12px; }
 .liturgical-details a { text-decoration:underline; text-underline-offset:3px; color:var(--color-gold); }
 .liturgical-details label { display:inline-flex; gap:14px; align-items:center; flex-wrap:wrap; margin:5px 18px 10px 0; }
-.liturgical-details input { padding:8px 10px; border:1px solid var(--color-navy-lighter); background:var(--color-navy); color:var(--color-cream); border-radius:6px; min-height:44px; }
+.liturgical-details input { padding:8px 10px; border:1px solid var(--color-navy-lighter); background:var(--color-navy); color:var(--color-cream); border-radius:6px; min-height:44px; font-size:1rem; }
 .liturgical-details button { color:var(--color-gold); text-decoration:underline; min-height:44px; }
 .catalogue-intro h1 { font-size:clamp(2rem,3vw,2.6rem); letter-spacing:-.025em; }
 .catalogue-layout { gap:28px; }

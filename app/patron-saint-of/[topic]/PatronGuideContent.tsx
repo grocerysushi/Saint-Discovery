@@ -82,7 +82,7 @@ export default async function PatronGuideContent({ guide }: { guide: PatronGuide
     <section className="border-t border-navy-lighter pt-8">
       <h2 className="font-heading text-2xl text-cream mb-4">Explore another guide</h2>
       <div className="flex flex-wrap gap-3 mb-6">{PATRON_GUIDES.filter(other => other.slug !== guide.slug).map(other => <Link key={other.slug} href={`/patron-saint-of/${other.slug}`} className="rounded-full border border-navy-lighter px-4 py-2 text-gold hover:border-gold">{other.label}</Link>)}</div>
-      <div className="flex flex-wrap gap-5 text-gold"><Link href="/patron-saint-of" className="underline underline-offset-4">Browse all patronages</Link><Link href="/resources" className="underline underline-offset-4">Saint directory</Link><Link href="/quiz" className="underline underline-offset-4">Discover a saint with the quiz</Link></div>
+      <div className="flex flex-wrap gap-5 text-gold"><Link href="/patron-saint-of" className="underline underline-offset-4">Browse all patronages</Link><Link href="/resources" className="underline underline-offset-4">Saint directory</Link><Link href="/quiz" prefetch={false} className="underline underline-offset-4">Discover a saint with the quiz</Link></div>
     </section>
   </main>;
 }

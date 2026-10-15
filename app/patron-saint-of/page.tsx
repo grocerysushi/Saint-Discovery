@@ -124,7 +124,7 @@ export default function PatronIndexPage() {
 
         <section className="mt-12 pt-8 border-t border-navy-lighter">
           <Link
-            href="/quiz"
+            href="/quiz" prefetch={false}
             className="inline-block px-6 py-3 bg-gold text-navy font-semibold rounded-full hover:bg-gold-light transition-colors"
           >
             Take the Saint Quiz

@@ -13,7 +13,7 @@ export default function Hero({ dailySaint, directoryCount }: { dailySaint: Daily
         <p className="eyebrow">Saint Discovery</p>
         <h1 className="question-title">Which Catholic<br />saint are you?</h1>
         <p className="discovery-lead">Meet a saint whose virtues connect with yours. Then discover the life, faith and courage behind the name.</p>
-        <div className="discovery-actions"><Link href="/quiz" onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })} className="btn-primary">Take the saint quiz <span aria-hidden>→</span></Link><Link href="/resources" className="text-link" onClick={() => track("homepage_directory_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })}>Explore the saints</Link></div>
+        <div className="discovery-actions"><Link href="/quiz" prefetch={false} onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })} className="btn-primary">Take the saint quiz <span aria-hidden>→</span></Link><Link href="/resources" className="text-link" onClick={() => track("homepage_directory_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })}>Explore the saints</Link></div>
         <p className="discovery-note">About 3–5 minutes. Free, with no account needed.</p>
       </div>
       <DailySaintCard initialSaint={dailySaint} />

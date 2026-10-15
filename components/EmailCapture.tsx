@@ -97,7 +97,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
       </div>
       <div className="flex flex-col gap-3">
         <label className="text-sm text-cream">Your email address
-          <input ref={emailRef} type="email" name="email" required autoComplete="email" inputMode="email" spellCheck={false} value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" aria-describedby="emailcapture-msg" className="block w-full mt-2 px-4 py-3 rounded-lg bg-navy border border-navy-lighter text-cream focus:outline-none focus-visible:ring-2 focus-visible:ring-gold" />
+          <input ref={emailRef} type="email" name="email" required autoComplete="email" inputMode="email" spellCheck={false} value={email} onChange={e => setEmail(e.target.value)} placeholder="you@example.com" aria-describedby="emailcapture-msg" className="block w-full mt-2 px-4 py-3 text-base rounded-lg bg-navy border border-navy-lighter text-cream focus:outline-none focus-visible:ring-2 focus-visible:ring-gold" />
         </label>
         {suggestion && <p className="text-sm text-cream-dark">Did you mean <button type="button" className="text-link break-all" onClick={() => { setEmail(suggestion); emailRef.current?.focus(); }}>{suggestion}</button>? Select it to update your address, or keep the address you entered.</p>}
         <button type="submit" disabled={busy || remaining > 0} className="btn-primary disabled:opacity-60 disabled:cursor-not-allowed">{busy ? "Sending…" : remaining > 0 ? `Try again in ${waitLabel}` : "Email me my novena"}</button>

@@ -82,7 +82,7 @@ export default async function AboutPage() {
         </section>
         <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
           <Link
-            href="/quiz"
+            href="/quiz" prefetch={false}
             className="px-6 py-3 bg-gold text-navy font-semibold rounded-full text-center hover:bg-gold-light transition-colors"
           >
             Take the Saint Quiz

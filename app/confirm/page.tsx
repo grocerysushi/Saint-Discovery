@@ -33,7 +33,7 @@ export default async function ConfirmPage({
           you can take the quiz again.
         </p>
         <p>
-          <Link href="/quiz" className="text-gold hover:text-gold-light underline">
+          <Link href="/quiz" prefetch={false} className="text-gold hover:text-gold-light underline">
             Return to my result →
           </Link>
         </p>

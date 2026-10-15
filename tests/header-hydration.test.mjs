@@ -20,7 +20,7 @@ function headerAt(pathname){
    if(name==='react')return React;
    if(name==='react/jsx-runtime')return jsx;
    if(name==='next/navigation')return {usePathname:()=>pathname};
-   if(name==='next/link')return {__esModule:true,default:({children,...props})=>React.createElement('a',props,children)};
+   if(name==='next/link')return {__esModule:true,default:({children,...props})=>{delete props.prefetch;return React.createElement('a',props,children);}};
    const target=name.startsWith('@/')?path.join(root,name.slice(2)):path.resolve(path.dirname(file),name);
    return load(path.extname(target)?target:target+(fs.existsSync(target+'.tsx')?'.tsx':'.ts'));
   }},{filename:file});

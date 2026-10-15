@@ -24,7 +24,7 @@ export default async function SubscribedPage({
   const receiptId = verifyConversionReceipt(cookieStore.get(CONVERSION_COOKIE)?.value);
   const retryToken = cookieStore.get(CONFIRM_RETRY_COOKIE)?.value;
   const canRetry = retryToken && verifyToken(retryToken, "confirm");
-  const retryForm = canRetry ? <EmailConfirmationForm token={retryToken} retry /> : <p><Link href="/quiz" className="text-link">Return to my result →</Link></p>;
+  const retryForm = canRetry ? <EmailConfirmationForm token={retryToken} retry /> : <p><Link href="/quiz" prefetch={false} className="text-link">Return to my result →</Link></p>;
 
   if (status === "ok") {
     return (
@@ -81,7 +81,7 @@ export default async function SubscribedPage({
         your saved quiz result and request a fresh confirmation email.
       </p>
       <p>
-        <Link href="/quiz" className="text-gold hover:text-gold-light underline">
+        <Link href="/quiz" prefetch={false} className="text-gold hover:text-gold-light underline">
           Return to my result →
         </Link>
       </p>
