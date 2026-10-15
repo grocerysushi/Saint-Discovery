@@ -70,7 +70,8 @@ test('production blog HTML, pagination, metadata, feeds and privacy boundaries',
   assert.match(article.html, /property="og:type" content="article"/);
   assert.match(visible(article.html), /href="\/blog\/published-faith-2"/);
   assert.match(visible(article.html), /class="blog-cover-frame"/);
-  assert.match(visible(article.html), /loading="eager" fetchPriority="high" decoding="async"/i);
+  const coverTag = visible(article.html).match(/<img\b[^>]*alt="Fixture cover"[^>]*>/)?.[0] || '';
+  for (const attribute of [/loading="eager"/i, /fetchPriority="high"/i, /decoding="async"/i]) assert.match(coverTag, attribute);
   assert.match(article.html, /rel="canonical" href="https:\/\/www.saintdiscoveryquiz.com\/blog\/published-faith-1"/);
   const missing = await get('/blog/private-draft');
   assert.equal(missing.response.status, 404); assert.match(missing.html, /noindex/);
