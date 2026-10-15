@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "October 12, 2026";
+const EFFECTIVE_DATE = "October 15, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -162,9 +162,10 @@ export default function PrivacyPage() {
           <p>Language-menu links omit query strings and fragments and are unavailable on administrator, subscription and email-confirmation pages. Searches and directory filters used within the translated view are processed by Google with that page. Email signup is unavailable in the translated view. You can return to the English site using the language menu. The translated view remembers the chosen language in that tab’s session storage so public-page navigation can keep the same language. Google’s service is subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="underline">Google’s privacy policy</a>.</p>
         </Section>
 
-        <Section title="Remembering your quiz result in this tab">
+        <Section title="Remembering your quiz in this tab">
+          <p>While you answer, we keep your selected gender, answer-option identifiers, and shuffled option order in this tab’s session storage so you can resume after a refresh. We rebuild your scores from the current quiz content when restoring an attempt. This unfinished progress stays in your browser and is not sent to a server or included in shared links. Choosing Start over or completing the quiz clears it.</p>
           <p>After you finish the quiz, we keep the matched saint’s identifier, your selected gender, and the six calculated trait scores in this tab’s session storage. This lets you read biographies and return to your result without repeating the quiz. Individual answers are not included in this saved result, and this feature does not send it to a server or include it in shared links.</p>
-          <p>Starting a new quiz clears the saved result. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, the result is kept in memory while the page remains open and may be lost on refresh.</p>
+          <p>Starting a new quiz clears the saved result and unfinished progress. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, progress and results are kept in memory while the page remains open and may be lost on refresh.</p>
         </Section>
         <Section title="Cookies">
           <p>
