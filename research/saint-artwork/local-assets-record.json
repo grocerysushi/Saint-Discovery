@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-03T15:02:39.853Z",
-  "assets": 532,
-  "saved": 532,
-  "bytes": 61257924,
+  "checkedAt": "2026-10-15T12:57:43.210Z",
+  "assets": 539,
+  "saved": 539,
+  "bytes": 62071136,
   "records": [
     {
       "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Creation_of_Adam.jpg/960px-Creation_of_Adam.jpg",
@@ -4790,6 +4790,69 @@
       "sourceSha256": "2f6146065e8e225b8bb7a199a0b7d753900bbabbb638524a48b2708c4c08c335",
       "sourceBytes": 22350,
       "outputBytes": 19112,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fiesta_de_Santa_Genoveva_Torres_Morales_02.jpg",
+      "local": "/images/saint-artwork/c589d33df4a43e84faf9.webp",
+      "status": 200,
+      "sourceSha256": "79daa4530bcec697e950a630167e5b2d7320ecbffce6f369ab615e6d787b6b83",
+      "sourceBytes": 9341407,
+      "outputBytes": 88680,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D0%A4%D0%B8%D0%BB%D0%B8%D0%BF%D0%BF_%D0%B8%D0%B7_%D0%9D%D0%B8%D0%BA%D0%BE%D0%B7%D0%B8%D0%B8.jpg",
+      "local": "/images/saint-artwork/63792f8862c7cc69bfa0.webp",
+      "status": 200,
+      "sourceSha256": "ff016f0a6338f9898d0097cccae4d14db05dd1f74ef7bb4a69c51c75c0774e39",
+      "sourceBytes": 91030,
+      "outputBytes": 132848,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Petrus_de_Ebulo_-_Balneum_Sudatorium.jpg",
+      "local": "/images/saint-artwork/bd6c9f4220006d5d86d1.webp",
+      "status": 200,
+      "sourceSha256": "f70266cf557a27ba7be74f9f79af39770f170d79cc4d190b2eb19779b3522c08",
+      "sourceBytes": 775472,
+      "outputBytes": 202832,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Statue_St_Finnian_of_Clonard_%28cropped%29.jpg",
+      "local": "/images/saint-artwork/bd0ef298395617da261e.webp",
+      "status": 200,
+      "sourceSha256": "0c2a20b1a3aa9c11408a8ccb6394024230b27397c81f70280e0d7cf7e2949761",
+      "sourceBytes": 151614,
+      "outputBytes": 34240,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Szymon_z_Lipnicy_%28sculpture%29.jpg",
+      "local": "/images/saint-artwork/6ee187928305d07efb63.webp",
+      "status": 200,
+      "sourceSha256": "2597d8e698dd89db197d0b3a881de2b08d961141c5b2a33ce899e001325c8325",
+      "sourceBytes": 385230,
+      "outputBytes": 33948,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vita_del_gran_servo_di_Dio_Angelo_d%27Acri%2C_missionario%2C_exprovinciale_cappuccino%2C_della_provincia_di_Cosenza_%281754%29_%2814760813134%29.jpg",
+      "local": "/images/saint-artwork/9834a66975775fdf6382.webp",
+      "status": 200,
+      "sourceSha256": "96ffd6b10a90543117d7f322fe6a498c8a44f32a9f26fb6716dfb38ca9ad75c9",
+      "sourceBytes": 2826835,
+      "outputBytes": 282636,
+      "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Rafael_Gu%C3%ADzar_y_Valencia_%28cropped%29.jpg",
+      "local": "/images/saint-artwork/7b542de3717b3a5a88ff.webp",
+      "status": 200,
+      "sourceSha256": "00f78debee6e9209226dfe495c5eeebcf4216311b0770c9a59e3df92bf7c3da2",
+      "sourceBytes": 998315,
+      "outputBytes": 38028,
       "modifications": "Orientation respected; resized inside 960px and converted to WebP. No cropping or other retouching."
     }
   ]

@@ -1,0 +1,726 @@
+{
+  "checkedAt": "2026-10-15T13:39:03.917Z",
+  "origin": "http://127.0.0.1:3125",
+  "results": [
+    {
+      "path": "/resources?q=alexius",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Alexis",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fc228527e1ae3143760b8.webp&w=640&q=75",
+          "width": 161,
+          "height": 246
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Alexius U Se-yong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Falexius-u-se-yong.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/resources?q=anna%20wang",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/resources?page=2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Alphonsa of the Immaculate Conception",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F6342833e3156de75604f.webp&w=640&q=75",
+          "width": 351,
+          "height": 286
+        },
+        {
+          "alt": "Image associated with Saint Alphonsus Liguori",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F203ed802f73bb7c2897b.webp&w=640&q=75",
+          "width": 351,
+          "height": 516
+        },
+        {
+          "alt": "Artwork depicting Alphonsus Rodriguez",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F96ea8e188e17043dccec.webp&w=640&q=75",
+          "width": 347,
+          "height": 526
+        },
+        {
+          "alt": "Artwork depicting Amato Ronconi",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F0650c2cefa980e713c25.webp&w=640&q=75",
+          "width": 236,
+          "height": 329
+        },
+        {
+          "alt": "Image associated with Saint Ambrose",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fdbc231ba3ac5361f06a0.webp&w=640&q=75",
+          "width": 167,
+          "height": 184
+        },
+        {
+          "alt": "Medieval icon of Anastasia of Sirmium from the State Hermitage collection",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fa79bb931c457d682fd7c.webp&w=640&q=75",
+          "width": 351,
+          "height": 524
+        },
+        {
+          "alt": "Artwork depicting Anastasius I",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe0b65e21191645102e2b.webp&w=640&q=75",
+          "width": 329,
+          "height": 512
+        },
+        {
+          "alt": "Image associated with Saint André Bessette",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fb89fe4c3f09006213b53.webp&w=640&q=75",
+          "width": 351,
+          "height": 522
+        },
+        {
+          "alt": "Artwork depicting Andrew Avellino",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe142731591ddffafcfbe.webp&w=640&q=75",
+          "width": 351,
+          "height": 508
+        },
+        {
+          "alt": "Artwork depicting Andrew Bobola",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7631530f61c60c3b8800.webp&w=640&q=75",
+          "width": 340,
+          "height": 526
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Andrew Chong Hwa-gyong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fandrew-chong-hwa-gyong.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Andrew Corsini",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F070a2baa37dc3264b5a3.webp&w=640&q=75",
+          "width": 332,
+          "height": 526
+        },
+        {
+          "alt": "Image associated with Saint Andrew Dung-Lac",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5b4c3869ceb1875ccea6.webp&w=640&q=75",
+          "width": 303,
+          "height": 483
+        },
+        {
+          "alt": "Image associated with Saint Andrew Kim Taegon",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5a699214616369c37884.webp&w=640&q=75",
+          "width": 104,
+          "height": 207
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Andrew Nguyễn Kim Thông",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fandrew-nguyen-kim-thong.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Andrew",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fda55ee4d4d1f09307fd6.webp&w=640&q=75",
+          "width": 351,
+          "height": 459
+        },
+        {
+          "alt": "Image associated with Saint Angela Merici",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5d75f75cdd0de7a8d67f.webp&w=640&q=75",
+          "width": 204,
+          "height": 265
+        },
+        {
+          "alt": "Artwork depicting Angela of Foligno",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fdbd97977747df3b8899c.webp&w=640&q=75",
+          "width": 219,
+          "height": 192
+        },
+        {
+          "alt": "Artwork depicting Angela of the Cross",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe3817095553f3a914283.webp&w=640&q=75",
+          "width": 351,
+          "height": 493
+        },
+        {
+          "alt": "Portrait engraving from the 1754 biography of Saint Angelo of Acri",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F9834a66975775fdf6382.webp&w=640&q=75",
+          "width": 345,
+          "height": 526
+        },
+        {
+          "alt": "Image associated with Saint Anicetus",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F826365bb5daa86993fb0.webp&w=640&q=75",
+          "width": 351,
+          "height": 526
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Pak A-gi",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-pak-a-gi.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Anne",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fad31abb124a6719bdcbf.webp&w=640&q=75",
+          "width": 351,
+          "height": 458
+        },
+        {
+          "alt": "Image associated with Saint Ansbert",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5b00985ecae175c4ce7e.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Anselm of Canterbury",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7df863d2ea6dcd0cbb65.webp&w=640&q=75",
+          "width": 351,
+          "height": 418
+        },
+        {
+          "alt": "Artwork depicting Anselm of Lucca",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fa2d0bfd518e9c8f321fc.webp&w=640&q=75",
+          "width": 351,
+          "height": 516
+        },
+        {
+          "alt": "Image associated with Saint Ansgar",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F8b8ebd8ac7abd60676d4.webp&w=640&q=75",
+          "width": 230,
+          "height": 526
+        },
+        {
+          "alt": "Historical group artwork of the North American Martyrs, including Anthony Daniel",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fb747f6f972d7d7d5d30f.webp&w=640&q=75",
+          "width": 134,
+          "height": 164
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anthony Kim Song-u",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanthony-kim-song-u.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Anthony Mary Claret",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Feabf568e21ddb7aeebf1.webp&w=640&q=75",
+          "width": 351,
+          "height": 517
+        },
+        {
+          "alt": "Image associated with Saint Anthony Mary Zaccaria",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F8f76593d60c1afe3a4c8.webp&w=640&q=75",
+          "width": 182,
+          "height": 274
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anthony Nguyễn Hữu Quỳnh",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanthony-nguyen-huu-quynh.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        },
+        {
+          "alt": "Image associated with Saint Anthony of Padua",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F43f52c04346af4077af1.webp&w=640&q=75",
+          "width": 342,
+          "height": 526
+        },
+        {
+          "alt": "Image associated with Saint Anthony the Great",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7c46b5d32a1f0a937630.webp&w=640&q=75",
+          "width": 351,
+          "height": 450
+        },
+        {
+          "alt": "Artwork depicting Antoine Daveluy",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Ffebcbe4ccaa9189d3235.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/alexius-u-se-yong",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Alexius U Se-yong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Falexius-u-se-yong.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/anna-wang",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 351,
+          "height": 467
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/finnian-of-clonard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Statue of Saint Finnian of Clonard holding a torch",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fbd0ef298395617da261e.webp&w=640&q=75",
+          "width": 323,
+          "height": 526
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/francis-of-assisi",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Saint Francis Receiving the Stigmata by El Greco",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsacred-art.webp&w=640&q=75",
+          "width": 351,
+          "height": 369
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Teresa of Avila",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F4098af69fe1fcdfd39a8.webp&w=384&q=75",
+          "width": 350,
+          "height": 469
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/resources?q=alexius",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Alexis",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fc228527e1ae3143760b8.webp&w=640&q=75",
+          "width": 110,
+          "height": 168
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Alexius U Se-yong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Falexius-u-se-yong.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/resources?q=anna%20wang",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/resources?page=2",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Alphonsa of the Immaculate Conception",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F6342833e3156de75604f.webp&w=640&q=75",
+          "width": 240,
+          "height": 196
+        },
+        {
+          "alt": "Image associated with Saint Alphonsus Liguori",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F203ed802f73bb7c2897b.webp&w=640&q=75",
+          "width": 240,
+          "height": 352
+        },
+        {
+          "alt": "Artwork depicting Alphonsus Rodriguez",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F96ea8e188e17043dccec.webp&w=640&q=75",
+          "width": 237,
+          "height": 360
+        },
+        {
+          "alt": "Artwork depicting Amato Ronconi",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F0650c2cefa980e713c25.webp&w=640&q=75",
+          "width": 162,
+          "height": 225
+        },
+        {
+          "alt": "Image associated with Saint Ambrose",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fdbc231ba3ac5361f06a0.webp&w=640&q=75",
+          "width": 114,
+          "height": 126
+        },
+        {
+          "alt": "Medieval icon of Anastasia of Sirmium from the State Hermitage collection",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fa79bb931c457d682fd7c.webp&w=640&q=75",
+          "width": 240,
+          "height": 358
+        },
+        {
+          "alt": "Artwork depicting Anastasius I",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe0b65e21191645102e2b.webp&w=640&q=75",
+          "width": 225,
+          "height": 350
+        },
+        {
+          "alt": "Image associated with Saint André Bessette",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fb89fe4c3f09006213b53.webp&w=640&q=75",
+          "width": 240,
+          "height": 357
+        },
+        {
+          "alt": "Artwork depicting Andrew Avellino",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe142731591ddffafcfbe.webp&w=640&q=75",
+          "width": 240,
+          "height": 347
+        },
+        {
+          "alt": "Artwork depicting Andrew Bobola",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7631530f61c60c3b8800.webp&w=640&q=75",
+          "width": 232,
+          "height": 360
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Andrew Chong Hwa-gyong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fandrew-chong-hwa-gyong.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Andrew Corsini",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F070a2baa37dc3264b5a3.webp&w=640&q=75",
+          "width": 227,
+          "height": 360
+        },
+        {
+          "alt": "Image associated with Saint Andrew Dung-Lac",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5b4c3869ceb1875ccea6.webp&w=640&q=75",
+          "width": 207,
+          "height": 330
+        },
+        {
+          "alt": "Image associated with Saint Andrew Kim Taegon",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5a699214616369c37884.webp&w=640&q=75",
+          "width": 71,
+          "height": 141
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Andrew Nguyễn Kim Thông",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fandrew-nguyen-kim-thong.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Andrew",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fda55ee4d4d1f09307fd6.webp&w=640&q=75",
+          "width": 240,
+          "height": 313
+        },
+        {
+          "alt": "Image associated with Saint Angela Merici",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5d75f75cdd0de7a8d67f.webp&w=640&q=75",
+          "width": 139,
+          "height": 181
+        },
+        {
+          "alt": "Artwork depicting Angela of Foligno",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fdbd97977747df3b8899c.webp&w=640&q=75",
+          "width": 150,
+          "height": 131
+        },
+        {
+          "alt": "Artwork depicting Angela of the Cross",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fe3817095553f3a914283.webp&w=640&q=75",
+          "width": 240,
+          "height": 337
+        },
+        {
+          "alt": "Portrait engraving from the 1754 biography of Saint Angelo of Acri",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F9834a66975775fdf6382.webp&w=640&q=75",
+          "width": 236,
+          "height": 360
+        },
+        {
+          "alt": "Image associated with Saint Anicetus",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F826365bb5daa86993fb0.webp&w=640&q=75",
+          "width": 240,
+          "height": 360
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Pak A-gi",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-pak-a-gi.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Anne",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fad31abb124a6719bdcbf.webp&w=640&q=75",
+          "width": 240,
+          "height": 313
+        },
+        {
+          "alt": "Image associated with Saint Ansbert",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F5b00985ecae175c4ce7e.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Anselm of Canterbury",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7df863d2ea6dcd0cbb65.webp&w=640&q=75",
+          "width": 240,
+          "height": 286
+        },
+        {
+          "alt": "Artwork depicting Anselm of Lucca",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fa2d0bfd518e9c8f321fc.webp&w=640&q=75",
+          "width": 240,
+          "height": 352
+        },
+        {
+          "alt": "Image associated with Saint Ansgar",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F8b8ebd8ac7abd60676d4.webp&w=640&q=75",
+          "width": 157,
+          "height": 360
+        },
+        {
+          "alt": "Historical group artwork of the North American Martyrs, including Anthony Daniel",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fb747f6f972d7d7d5d30f.webp&w=640&q=75",
+          "width": 92,
+          "height": 112
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anthony Kim Song-u",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanthony-kim-song-u.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Anthony Mary Claret",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Feabf568e21ddb7aeebf1.webp&w=640&q=75",
+          "width": 240,
+          "height": 354
+        },
+        {
+          "alt": "Image associated with Saint Anthony Mary Zaccaria",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F8f76593d60c1afe3a4c8.webp&w=640&q=75",
+          "width": 124,
+          "height": 187
+        },
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anthony Nguyễn Hữu Quỳnh",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanthony-nguyen-huu-quynh.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        },
+        {
+          "alt": "Image associated with Saint Anthony of Padua",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F43f52c04346af4077af1.webp&w=640&q=75",
+          "width": 234,
+          "height": 360
+        },
+        {
+          "alt": "Image associated with Saint Anthony the Great",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F7c46b5d32a1f0a937630.webp&w=640&q=75",
+          "width": 240,
+          "height": 307
+        },
+        {
+          "alt": "Artwork depicting Antoine Daveluy",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Ffebcbe4ccaa9189d3235.webp&w=640&q=75",
+          "width": 240,
+          "height": 319
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/alexius-u-se-yong",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Alexius U Se-yong",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Falexius-u-se-yong.webp&w=640&q=75",
+          "width": 640,
+          "height": 853
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/anna-wang",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "AI-generated artistic interpretation of Saint Anna Wang",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fgenerated-saints%2Fanna-wang.webp&w=640&q=75",
+          "width": 640,
+          "height": 853
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/finnian-of-clonard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Statue of Saint Finnian of Clonard holding a torch",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2Fbd0ef298395617da261e.webp&w=640&q=75",
+          "width": 590,
+          "height": 960
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/saints/francis-of-assisi",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Saint Francis Receiving the Stigmata by El Greco",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsacred-art.webp&w=640&q=75",
+          "width": 640,
+          "height": 674
+        }
+      ],
+      "errors": []
+    },
+    {
+      "path": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "placeholders": 0,
+      "images": [
+        {
+          "alt": "Image associated with Saint Teresa of Avila",
+          "src": "http://127.0.0.1:3125/_next/image?url=%2Fimages%2Fsaint-artwork%2F4098af69fe1fcdfd39a8.webp&w=640&q=75",
+          "width": 576,
+          "height": 771
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

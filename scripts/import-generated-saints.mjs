@@ -2,13 +2,14 @@ import { readFile, readdir, mkdir, writeFile } from 'node:fs/promises';
 import { dirname, resolve, basename, extname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
+import { loadTs } from '../tests/load-ts.mjs';
 
 // Import reviewed illustrations generated ahead of time. No API key or paid
 // generation endpoint is exposed to visitors. Run with one or more asset folders.
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sources = process.argv.slice(2);
 if (!sources.length) throw new Error('Usage: node scripts/import-generated-saints.mjs <asset-folder> [more-folders]');
-const saints = JSON.parse(await readFile(join(root, 'lib/data/saints.json'), 'utf8'));
+const saints = await loadTs('lib/saints.ts').getAllSaints();
 const known = new Map(saints.map(s => [s.slug, s]));
 const manifestPath = join(root, 'lib/data/saint-generated-images.json');
 const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));

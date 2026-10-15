@@ -1681,5 +1681,72 @@
     "source": "https://commons.wikimedia.org/wiki/File:Blessed_Choukrallah_Maloyan.jpg",
     "article": "https://en.wikipedia.org/wiki/Ignatius_Maloyan",
     "reviewedOn": "2026-10-03"
+  },
+  "genoveva-torres-morales": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fiesta_de_Santa_Genoveva_Torres_Morales_02.jpg",
+    "alt": "Statue of Saint Genoveva Torres Morales in Valladolid",
+    "credit": "Iglesia en Valladolid",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fiesta_de_Santa_Genoveva_Torres_Morales_02.jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "article": "https://en.wikipedia.org/wiki/Genoveva_Torres_Morales",
+    "reviewedOn": "2026-10-15"
+  },
+  "felix-of-nicosia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D0%A4%D0%B8%D0%BB%D0%B8%D0%BF%D0%BF_%D0%B8%D0%B7_%D0%9D%D0%B8%D0%BA%D0%BE%D0%B7%D0%B8%D0%B8.jpg",
+    "alt": "Historical devotional painting of Saint Felix of Nicosia",
+    "credit": "Unknown artist, nineteenth-century devotional painting",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%B8%D0%BB%D0%B8%D0%BF%D0%BF_%D0%B8%D0%B7_%D0%9D%D0%B8%D0%BA%D0%BE%D0%B7%D0%B8%D0%B8.jpg",
+    "article": "https://en.wikipedia.org/wiki/Felix_of_Nicosia",
+    "reviewedOn": "2026-10-15"
+  },
+  "germanus-of-capua": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Petrus_de_Ebulo_-_Balneum_Sudatorium.jpg",
+    "alt": "Medieval manuscript illustration of the tradition of Saint Germanus at the baths of Agnano",
+    "credit": "Medieval illustration in De Balneis Puteolanis, Biblioteca Angelica; reproduction uploaded by Denghiù",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Petrus_de_Ebulo_-_Balneum_Sudatorium.jpg",
+    "article": "https://en.wikipedia.org/wiki/Germanus_of_Capua",
+    "reviewedOn": "2026-10-15"
+  },
+  "finnian-of-clonard": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Statue_St_Finnian_of_Clonard_%28cropped%29.jpg",
+    "alt": "Statue of Saint Finnian of Clonard holding a torch",
+    "credit": "Studi Nicoli, sculpture; Andreas F. Borchert, photograph",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Statue_St_Finnian_of_Clonard_(cropped).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "article": "https://en.wikipedia.org/wiki/Finnian_of_Clonard",
+    "reviewedOn": "2026-10-15"
+  },
+  "szymon-of-lipnica": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Szymon_z_Lipnicy_%28sculpture%29.jpg",
+    "alt": "Sculpture of Saint Szymon of Lipnica in Saint Joseph’s Church, Muszyna",
+    "credit": "Krzysztof Burghardt, photograph",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Szymon_z_Lipnicy_(sculpture).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "article": "https://en.wikipedia.org/wiki/Szymon_of_Lipnica",
+    "reviewedOn": "2026-10-15"
+  },
+  "angelo-of-acri": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Vita_del_gran_servo_di_Dio_Angelo_d%27Acri%2C_missionario%2C_exprovinciale_cappuccino%2C_della_provincia_di_Cosenza_%281754%29_%2814760813134%29.jpg",
+    "alt": "Portrait engraving from the 1754 biography of Saint Angelo of Acri",
+    "credit": "Vita del gran servo di Dio Angelo d’Acri (1754), Internet Archive / University of Illinois Urbana-Champaign",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:Vita_del_gran_servo_di_Dio_Angelo_d%27Acri,_missionario,_exprovinciale_cappuccino,_della_provincia_di_Cosenza_(1754)_(14760813134).jpg",
+    "article": "https://en.wikipedia.org/wiki/Luca_Antonio_Falcone",
+    "reviewedOn": "2026-10-15"
+  },
+  "rafael-guizar-valencia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Rafael_Gu%C3%ADzar_y_Valencia_%28cropped%29.jpg",
+    "alt": "Portrait of Saint Rafael Guízar y Valencia in the Church of Our Lady of Mount Carmel, Playa del Carmen",
+    "credit": "Unknown painter; Nheyob, photograph",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rafael_Gu%C3%ADzar_y_Valencia_(cropped).jpg",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "article": "https://en.wikipedia.org/wiki/Rafael_Gu%C3%ADzar_y_Valencia",
+    "reviewedOn": "2026-10-15"
   }
 }

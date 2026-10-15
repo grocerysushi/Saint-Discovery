@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-15",
+  "status": "validated",
+  "request": "Replace all assigned generic saint artwork placeholders, including Alexius U Se-yong.",
+  "placeholderCountBefore": 249,
+  "placeholderCountAfter": 0,
+  "publishedSaints": 825,
+  "uniqueAssets": 819,
+  "invalidAssets": [],
+  "addedHistoricalArtworks": 7,
+  "addedGeneratedIllustrations": 242,
+  "generatedImageBytes": 32867504,
+  "generationTool": "Built-in image_gen tool",
+  "promptSet": "research/saint-artwork/generation-plan-2026-10-15.json",
+  "generatedAssetManifest": "research/saint-artwork/generated-assets-2026-10-15.json",
+  "historicalSelection": "research/saint-artwork/apply-reviewed-2026-10-15.mjs",
+  "visualReview": "AI-assisted review of all replacements in twelve review sheets; no qualified human or historical-likeness review is claimed.",
+  "disclosures": "AI illustration badge on cards; AI-generated artistic interpretation caption on biographies; source and license links retained for historical artwork.",
+  "validation": {
+    "testsPassed": 163,
+    "productionBuild": "passed (Next.js webpack)",
+    "directoryIntegrity": "passed",
+    "lint": "0 errors; generated build directories excluded; one existing unused-variable warning in unrelated calendar research",
+    "browserChecks": 16,
+    "browserViewports": [
+      390,
+      1440
+    ],
+    "browserErrors": [],
+    "journalPosts": 86,
+    "journalImageUrls": 75,
+    "journalMissingCovers": [],
+    "journalFailedImages": []
+  },
+  "notes": [
+    "Runtime artwork inventory now includes the curated artwork additions and canonical published catalog.",
+    "Importer now accepts directory additions, not only the older base catalog.",
+    "An honestly labeled error fallback remains available if an image fails to load.",
+    "No authentication, backend content, advertising or deployment settings changed."
+  ]
+}

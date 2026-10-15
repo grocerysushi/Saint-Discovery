@@ -88,6 +88,7 @@ next-env.d.ts
 # Artwork research: retain authored provenance, exclude copied metadata and logs
 /research/saint-artwork/candidates.json
 /research/saint-artwork/*.log
+/research/saint-artwork/generated-*/
 
 .insforge
 .agent

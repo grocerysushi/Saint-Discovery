@@ -2,10 +2,10 @@ import fs from 'node:fs';
 import { loadTs } from '../tests/load-ts.mjs';
 
 const saints = await loadTs('lib/saints.ts').getAllSaints();
-const saved = Object.assign({}, ...['saint-images', 'saint-image-overrides', 'saint-generated-images'].map(name => JSON.parse(fs.readFileSync(`lib/data/${name}.json`, 'utf8'))));
+const { getSaintArtwork } = loadTs('lib/saint-artwork.ts');
 const dir = 'research/saint-artwork';
 fs.mkdirSync(dir, { recursive: true });
-const missing = saints.filter(saint => !saved[saint.slug]);
+const missing = saints.filter(saint => getSaintArtwork(saint).symbolic);
 fs.writeFileSync(`${dir}/missing.json`, JSON.stringify(missing.map(s => ({ slug: s.slug, name: s.name, alternateNames: s.alternate_names ?? [], dates: s.dates, origin: s.origin })), null, 2) + '\n');
 console.log(JSON.stringify({ total: saints.length, assigned: saints.length - missing.length, missing: missing.length }));
 
@@ -22,7 +22,7 @@ if (process.argv.includes('--discover')) {
   const pages = new Map();
   for (let i = 0; i < titles.length; i += 40) {
     const batch = titles.slice(i, i + 40);
-    const data = await api('en.wikipedia.org', { titles: batch.join('|'), redirects: '1', prop: 'pageimages|pageprops', piprop: 'name', pilicense: 'free' });
+    const data = await api('en.wikipedia.org', { titles: batch.join('|'), redirects: '1', prop: 'pageimages|pageprops|extracts', piprop: 'name', pilicense: 'free', exintro: '1', explaintext: '1' });
     const redirects = new Map([...(data.query.normalized ?? []), ...(data.query.redirects ?? [])].map(r => [r.from, r.to]));
     const resolve = input => { const visited = new Set(); while (redirects.has(input) && !visited.has(input)) { visited.add(input); input = redirects.get(input); } return input; };
     for (const title of batch) pages.set(title, data.query.pages.find(p => p.title === resolve(title)));
