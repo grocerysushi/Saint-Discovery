@@ -1,4 +1,5 @@
 import type { Saint } from "./types";
+import { blogSaintAliases, blogSaintConnections } from "./blog-saint-connections";
 
 export interface RecommendationPost {
   slug: string; title: string; excerpt: string; category: string; publishedAt: string;
@@ -16,21 +17,16 @@ const topics = [
   { words: ["pilgrimage", "pilgrim", "pilgrims", "camino"], label: "Explore the pilgrim journey" },
   { words: ["rosary", "marian"], label: "Explore Marian prayer" },
 ];
-// Editorial connections supplement saints whose names have several forms.
-const connections: Record<string, string[]> = {
-  "faustina-kowalska": ["what-is-divine-mercy-chaplet-sunday"],
-  "james-the-greater": ["walking-camino-de-santiago-catholic-guide"],
-  "michael-the-archangel": ["michael-gabriel-raphael-archangels-feast"],
-  "gabriel-the-archangel": ["michael-gabriel-raphael-archangels-feast"],
-  "raphael-the-archangel": ["michael-gabriel-raphael-archangels-feast"],
-};
+const associatedArticles = new Set(Object.values(blogSaintConnections).flat());
 const foundations = ["why-do-catholics-pray-to-saints", "how-to-celebrate-patron-saint-feast-day", "how-to-write-confirmation-saint-report"];
 
 // Uses publication summaries, never drafts, article bodies or visitor profiles.
 export function recommendBlogPosts(saint: Pick<Saint, "slug" | "name" | "description" | "known_for" | "patron_of" | "kind">, posts: RecommendationPost[], now = Date.now()): BlogRecommendation[] {
   if (saint.kind === "unresolved" || saint.kind === "observance") return [];
   const context = normalize([saint.description, saint.known_for, saint.patron_of].filter(Boolean).join(" "));
-  const names = [normalize(saint.slug), normalize(saint.name).replace(/^(st|saint|blessed) /, "")].filter(name => name.length > 3);
+  const names = [normalize(saint.slug), normalize(saint.name).replace(/^(st|saint|blessed) /, ""), ...(blogSaintAliases[saint.slug] ?? [])]
+    .filter(name => name.includes(" "));
+  const connections = blogSaintConnections[saint.slug] ?? [];
   const seen = new Set<string>();
   return posts.flatMap(post => {
     if (!post || typeof post.slug !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(post.slug) || post.slug.length > 100 || seen.has(post.slug)
@@ -38,17 +34,23 @@ export function recommendBlogPosts(saint: Pick<Saint, "slug" | "name" | "descrip
       || !Number.isFinite(Date.parse(post.publishedAt)) || Date.parse(post.publishedAt) > now) return [];
     seen.add(post.slug);
     const text = normalize(`${post.title} ${post.excerpt}`);
-    let score = 0, reason = "A next step with your saint";
-    if (names.some(name => contains(text, name)) || connections[saint.slug]?.includes(post.slug)) { score = 100; reason = "Connected to this saint"; }
+    let score = 0, tier = 0, reason = "A next step with your saint";
+    const association = connections.indexOf(post.slug);
+    if (association !== -1) {
+      tier = 3; score = connections.length - association; reason = "Connected to this saint";
+    } else if (!associatedArticles.has(post.slug) && names.some(name => contains(text, name))) {
+      // An editorial association is authoritative over incidental name mentions.
+      tier = 2; reason = "Connected to this saint";
+    }
     for (const topic of topics) {
       if (topic.words.some(word => contains(context, word)) && topic.words.some(word => contains(text, word))) {
-        if (!score) reason = topic.label;
-        score += 10;
+        if (!tier) { tier = 1; reason = topic.label; }
+        if (tier === 1) score += 10;
       }
     }
     const foundation = foundations.indexOf(post.slug);
-    if (!score && foundation !== -1) score = 3 - foundation;
-    return score ? [{ ...post, reason, score }] : [];
-  }).sort((a, b) => b.score - a.score || b.publishedAt.localeCompare(a.publishedAt) || a.slug.localeCompare(b.slug))
+    if (!tier && foundation !== -1) score = 3 - foundation;
+    return tier || score ? [{ ...post, reason, tier, score }] : [];
+  }).sort((a, b) => b.tier - a.tier || b.score - a.score || b.publishedAt.localeCompare(a.publishedAt) || a.slug.localeCompare(b.slug))
     .slice(0, 2).map(({ slug, title, excerpt, category, publishedAt, reason }) => ({ slug, title, excerpt, category, publishedAt, reason }));
 }

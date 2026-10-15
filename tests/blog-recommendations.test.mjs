@@ -10,6 +10,19 @@ const article = (slug, title, excerpt = '', extra = {}) => ({ slug, title, excer
 const posts = [article('why-do-catholics-pray-to-saints', 'Why Do Catholics Pray to Saints?'), article('what-is-prayer', 'What Is Prayer?'), article('padre-pio-confession-lessons', 'Padre Pio and Confession'), article('unrelated', 'Walking the Camino')];
 const now = Date.parse('2026-09-23T12:00:00Z');
 
+test('editorial connections and aliases reference canonical saints with unique safe article slugs', async () => {
+  const { blogSaintConnections, blogSaintAliases } = loadTs('lib/blog-saint-connections.ts');
+  const saints = await loadTs('lib/saints.ts').getAllSaints();
+  for (const slug of new Set([...Object.keys(blogSaintConnections), ...Object.keys(blogSaintAliases)])) {
+    assert.ok(saints.some(s => s.slug === slug && s.kind !== 'unresolved' && s.kind !== 'observance'), slug);
+  }
+  for (const articles of Object.values(blogSaintConnections)) {
+    assert.equal(new Set(articles).size, articles.length);
+    for (const slug of articles) assert.match(slug, /^[a-z0-9]+(?:-[a-z0-9]+)*$/);
+  }
+  for (const aliases of Object.values(blogSaintAliases)) for (const alias of aliases) assert.ok(alias.includes(' '), alias);
+});
+
 test('saint-specific articles outrank thematic matches and unrelated latest posts', () => {
   const result = recommendBlogPosts(saint, posts, now);
   assert.deepEqual(Array.from(result, p => p.slug), ['padre-pio-confession-lessons', 'what-is-prayer']);
@@ -25,6 +38,72 @@ test('fallbacks are useful saint guides; unavailable, future and malformed artic
   assert.equal(recommendBlogPosts(neutral, [], now).length, 0);
   assert.equal(recommendBlogPosts({ ...neutral, kind: 'unresolved' }, catalog, now).length, 0);
   assert.equal(recommendBlogPosts({ ...neutral, name: 'John', slug: 'john', description: '' }, [article('johnson', 'Johnson writes a book')], now).length, 0);
+});
+
+test('editorial connections outrank all themes, name matches and recency in a stable reading order', () => {
+  const francis = { slug: 'francis-of-assisi', name: 'Francis of Assisi', description: 'Prayer, Scripture, Gospel, mercy, mission, Eucharist and pilgrimage.' };
+  const catalog = [
+    article('latest-themes', 'Prayer Scripture mercy mission Eucharist pilgrimage rosary suffering', '', { publishedAt: '2026-09-22' }),
+    article('new-francis', 'Francis of Assisi and Prayer', '', { publishedAt: '2026-09-22' }),
+    article('what-is-transitus-st-francis-october-3', 'What Is the Transitus of St. Francis? An October 3 Guide'),
+    article('can-lay-people-become-franciscans-secular-order', 'Can Lay People Become Franciscans? The Secular Order Explained'),
+    article('canticle-of-the-creatures-st-francis-prayer', 'The Canticle of the Creatures: St. Francis’s Song of Praise Explained', '', { publishedAt: '2026-08-01' }),
+  ];
+  const expected = ['canticle-of-the-creatures-st-francis-prayer', 'can-lay-people-become-franciscans-secular-order'];
+  assert.deepEqual(Array.from(recommendBlogPosts(francis, catalog, now), p => p.slug), expected);
+  assert.deepEqual(Array.from(recommendBlogPosts(francis, [...catalog].reverse(), now), p => p.slug), expected);
+  assert.equal(recommendBlogPosts(francis, catalog.filter(p => !expected.includes(p.slug)), now)[0].slug, 'what-is-transitus-st-francis-october-3');
+});
+
+test('Faustina, Thérèse and both Ignatius saints receive their own associated reading', () => {
+  const catalog = [
+    article('how-to-read-saint-faustina-diary', 'How to Read Saint Faustina’s Diary'),
+    article('what-is-divine-mercy-chaplet-sunday', 'What Is Divine Mercy?'),
+    article('saint-therese-little-way-daily-life', 'Saint Thérèse’s Little Way in Daily Life'),
+    article('why-st-therese-patron-saint-missions', 'Why Is St. Thérèse the Patron Saint of Missions?'),
+    article('how-to-pray-daily-examen-five-steps', 'How to Pray the Daily Examen in Five Steps'),
+    article('saint-ignatius-antioch-eucharist-letters-guide', 'Saint Ignatius of Antioch: His Letters and the Eucharist'),
+  ];
+  for (const [slug, name, expected] of [
+    ['faustina-kowalska', 'Faustina Kowalska', ['how-to-read-saint-faustina-diary', 'what-is-divine-mercy-chaplet-sunday']],
+    ['therese-of-lisieux', 'Thérèse of Lisieux', ['saint-therese-little-way-daily-life', 'why-st-therese-patron-saint-missions']],
+    ['ignatius-of-loyola', 'Ignatius of Loyola', ['how-to-pray-daily-examen-five-steps']],
+    ['ignatius-of-antioch', 'Ignatius of Antioch', ['saint-ignatius-antioch-eucharist-letters-guide']],
+  ]) assert.deepEqual(Array.from(recommendBlogPosts({ slug, name, description: '' }, catalog, now), p => p.slug), expected);
+});
+
+test('shared first names and incidental mentions do not become direct saint connections', () => {
+  const catalog = [
+    article('canticle-of-the-creatures-st-francis-prayer', 'St. Francis’s Song', 'Compare this with Francis de Sales.'),
+    article('daily-prayer-routine-busy-catholics', 'A Daily Prayer Routine', 'Saint Francis de Sales offers help.'),
+    article('pope-francis', 'Pope Francis on hope'),
+    article('why-saint-john-xxiii-feast-day-october-11', 'Saint John XXIII’s Feast'),
+    article('joseph-cupertino', 'Saint Joseph of Cupertino'),
+    article('teresa-andes', 'Saint Teresa of Jesus of the Andes'),
+  ];
+  assert.equal(recommendBlogPosts({ slug: 'francis-de-sales', name: 'Francis de Sales', description: '' }, catalog, now)[0].slug, 'daily-prayer-routine-busy-catholics');
+  for (const [slug, name] of [['john', 'John'], ['joseph', 'Joseph'], ['teresa-of-avila', 'Teresa of Avila']]) {
+    assert.equal(recommendBlogPosts({ slug, name, description: '' }, catalog, now).length, 0);
+  }
+  assert.deepEqual(Array.from(recommendBlogPosts({ slug: 'francis-of-assisi', name: 'Francis of Assisi', description: '' }, catalog, now), p => p.slug), ['canticle-of-the-creatures-st-francis-prayer']);
+});
+
+test('qualified editorial aliases normalize accents without accepting bare abbreviated names', () => {
+  const saint = { slug: 'therese-of-lisieux', name: 'Thérèse of Lisieux', description: '' };
+  const result = recommendBlogPosts(saint, [article('therese-alias', 'Lessons from Thérèse Lisieux'), article('another-teresa', 'Teresa on prayer'), article('bare-therese', 'Thérèse on prayer')], now);
+  assert.deepEqual(Array.from(result, p => p.slug), ['therese-alias']);
+});
+
+test('editorial links remain subject to publication and input guards; absent links are not invented', () => {
+  const saint = { slug: 'francis-of-assisi', name: 'Francis of Assisi', description: '' };
+  const result = recommendBlogPosts(saint, [
+    article('canticle-of-the-creatures-st-francis-prayer', 'The Canticle', '', { publishedAt: '2030-01-01' }),
+    article('can-lay-people-become-franciscans-secular-order', ''),
+    article('what-is-transitus-st-francis-october-3', 'The Transitus'),
+    article('what-is-transitus-st-francis-october-3', 'Duplicate'),
+  ], now);
+  assert.deepEqual(Array.from(result, p => p.slug), ['what-is-transitus-st-francis-october-3']);
+  assert.deepEqual(Array.from(recommendBlogPosts(saint, [], now)), []);
 });
 
 function load(file, deps, globals = {}) {
@@ -85,7 +164,12 @@ test('cards track visibility once and clicks separately with placement and no pr
   ui.intersect(.5); ui.intersect(1);
   assert.equal(ui.events.length, 1); assert.equal(ui.disconnected(), 1);
   rendered.props.onClick();
+  assert.equal(ui.events[0].name, 'article_recommendation_view');
+  assert.deepEqual(JSON.parse(JSON.stringify(ui.events[0].params)), {
+    article_slug: 'padre-pio-confession-lessons', saint_slug: 'padre-pio', link_placement: 'result_blog', recommendation_position: 1, recommendation_version: 'v1',
+  });
   assert.equal(ui.events[1].name, 'article_recommendation_click');
+  assert.deepEqual(ui.events[1].params, ui.events[0].params);
   assert.equal(ui.events[1].params.link_placement, 'result_blog');
   assert.equal(ui.events[1].params.article_slug, 'padre-pio-confession-lessons');
   assert.doesNotMatch(JSON.stringify(ui.events), /score|answer|email|token/);
