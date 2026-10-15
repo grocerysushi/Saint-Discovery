@@ -9,4 +9,6 @@ test('directory filters round-trip through a shareable URL without losing accent
   assert.deepEqual({...readDirectoryQuery(directoryQuery(state))},{...state});
   assert.equal(directoryQuery(readDirectoryQuery('')),'');
   assert.equal(directoryQuery(readDirectoryQuery('?unrelated=ignored')),'');
+  assert.equal(directoryQuery(readDirectoryQuery('?q=%20Th%C3%A9r%C3%A8se%20&gender=%20Female%20')), 'q=Th%C3%A9r%C3%A8se&gender=Female');
+  assert.equal(directoryQuery(readDirectoryQuery('?q=%20%20')), '');
 });

@@ -2,15 +2,13 @@ import metadata from "@/lib/data/saint-directory-metadata.json";
 import directoryAdditions from "@/lib/data/directory-additions.json";
 import type { Saint } from "@/lib/types";
 
-export const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-export const UNCLASSIFIED = "__unclassified";
+import { MONTHS, UNCLASSIFIED, type DirectoryFilters } from "./directory-shared";
+export { MONTHS, UNCLASSIFIED, EMPTY_FILTERS, type DirectoryFilters } from "./directory-shared";
 export const STATUS_LABELS: Record<string, string> = {
   saint: "Catholic saint",
 };
 export interface DirectoryMetadata { vocations: string[]; orders: string[] }
 export interface DirectoryEntry extends DirectoryMetadata { countries: string[]; month: string; status: string }
-export interface DirectoryFilters { search: string; gender: string; month: string; country: string; vocation: string; order: string; status: string }
-export const EMPTY_FILTERS: DirectoryFilters = { search: "", gender: "", month: "", country: "", vocation: "", order: "", status: "" };
 
 // The JSON is a manually curated index of the reviewed biographies and their
 // linked sources, keyed only by canonical slug. Categories can overlap across

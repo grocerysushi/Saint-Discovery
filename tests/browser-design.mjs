@@ -6,6 +6,7 @@ import { chromium } from 'playwright';
 import AxeBuilder from '@axe-core/playwright';
 import { loadTs } from './load-ts.mjs';
 const directoryCount=(await loadTs('lib/saints.ts').getAllSaints()).length;
+const { DIRECTORY_PAGE_SIZE } = loadTs('lib/directory-page.ts');
 
 // Run against a started local production build. External writes are blocked.
 const origin = process.env.DESIGN_BASE_URL || 'http://localhost:3100';
@@ -102,14 +103,14 @@ try {
   await page.waitForFunction(() => document.querySelector('#directory-gender')?.value === 'Female');
   assert.equal(await page.locator('.catalogue-list li').count(), filteredCount);
   check('Home search; combined country text/gender filters; profile/back and reload preserve filters');
-  await page.getByRole('button', {name:'Clear all filters', exact:true}).click();
-  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,directoryCount);
+  await page.getByRole('link', {name:'Clear all filters', exact:true}).click();
+  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,DIRECTORY_PAGE_SIZE);
   assert.equal(await page.locator('#saint-search').evaluate(el=>el === document.activeElement), true);
   await page.getByLabel('Search the directory', {exact:true}).fill('zzzz-no-such-saint-zzzz');
   await page.getByRole('heading', {name:'No saints match this search.'}).waitFor();
-  await page.getByRole('button', {name:'Show all saints'}).click();
-  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,directoryCount);
-  check(`Empty results, clear all, full ${directoryCount}-entry restoration and search focus`);
+  await page.getByRole('link', {name:'Show all saints'}).click();
+  await page.waitForFunction(count => document.querySelectorAll('.catalogue-list li').length === count,DIRECTORY_PAGE_SIZE);
+  check(`Empty results, clear all, bounded ${DIRECTORY_PAGE_SIZE}-entry restoration from ${directoryCount} saints and search focus`);
   const guides = page.getByRole('button', {name:'Guides', exact:true});
   await guides.focus(); await page.keyboard.press('Enter');
   assert.equal(await guides.getAttribute('aria-expanded'), 'true');

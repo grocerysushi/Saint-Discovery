@@ -334,3 +334,16 @@ body { background: var(--color-navy); }
 @media (max-width:1180px) { .desktop-nav { display:none; } .header-mobile-actions { display:flex; } .language-toggle-label, .language-chevron { display:none; } }
 @media (max-width:520px) { .header-tools { gap:8px; } .language-switcher { position:static; } .language-panel { top:100%; left:16px; right:16px; width:auto; max-width:none; } }
 @media (max-width:380px) { .header-mobile-actions .header-quiz { display:none; } .mobile-menu-quiz { display:flex; } }
+
+/* A bounded directory page with native GET controls and crawlable links. */
+.catalogue-search > div { display:flex; gap:8px; align-items:center; }
+.catalogue-search input { flex:1; min-width:0; width:auto; padding-inline:12px; }
+.catalogue-search button { position:static; flex-shrink:0; border:1px solid var(--color-navy-lighter); border-radius:6px; text-decoration:none; }
+.catalogue-apply { min-height:44px; padding:8px 14px; margin-bottom:16px; border:1px solid var(--color-gold); border-radius:6px; color:var(--color-gold); }
+.catalogue-page-count { display:block; padding-top:8px; font-size:.875rem; }
+.catalogue-updating { min-height:1.5em; margin-bottom:12px; color:var(--color-cream-dark); font-size:.875rem; }
+.catalogue-pagination { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px; margin-top:32px; padding-top:24px; border-top:1px solid var(--color-navy-lighter); }
+.catalogue-pagination > span { display:inline-flex; gap:10px; align-items:center; }
+.catalogue-pagination a,.catalogue-current-page { display:inline-flex; align-items:center; justify-content:center; min-width:44px; min-height:44px; padding:8px 12px; border:1px solid var(--color-navy-lighter); border-radius:6px; }
+.catalogue-current-page { background:var(--color-gold); color:var(--color-navy); border-color:var(--color-gold); }
+.catalogue-pagination-gap { padding-inline:2px; }

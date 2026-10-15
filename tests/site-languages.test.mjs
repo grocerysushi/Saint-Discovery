@@ -45,10 +45,11 @@ test('all offered languages are unique, valid destinations and include both Chin
 });
 
 test('translated searches preserve only recognized public filters', () => {
-  const directory = new URL(proxyNavigationUrl('/resources?q=Th%C3%A9r%C3%A8se&gender=Female&month=October&token=secret&email=private&redirect=evil#private', 'es'));
+  const directory = new URL(proxyNavigationUrl('/resources?q=Th%C3%A9r%C3%A8se&gender=Female&month=October&page=2&token=secret&email=private&redirect=evil#private', 'es'));
   assert.equal(directory.searchParams.get('q'), 'Thérèse');
   assert.equal(directory.searchParams.get('gender'), 'Female');
   assert.equal(directory.searchParams.get('month'), 'October');
+  assert.equal(directory.searchParams.get('page'), '2');
   assert.equal(directory.searchParams.get('_x_tr_tl'), 'es');
   assert.doesNotMatch(directory.href, /secret|private|redirect/);
   const blog = new URL(proxyNavigationUrl('/blog?q=prayer&category=Everyday%20faith&page=2&unknown=discard', 'de'));

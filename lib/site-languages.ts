@@ -84,7 +84,7 @@ export function proxyNavigationUrl(path: string, language: string): string | nul
   if (!page || !isSupportedLanguage(language)) return null;
   const source = new URL(path, SITE_ORIGIN);
   const allowed = page.pathname === "/resources"
-    ? ["q", "gender", "month", "country", "vocation", "order", "status"]
+    ? ["q", "gender", "month", "country", "vocation", "order", "status", "page"]
     : page.pathname === "/blog" ? ["q", "category", "page"] : [];
   for (const key of allowed) {
     const value = source.searchParams.get(key);

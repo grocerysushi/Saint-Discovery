@@ -20,7 +20,7 @@ function renderDaily(saints, date) {
   vm.runInNewContext(compile(fs.readFileSync(new URL('../components/DirectoryDailySaints.tsx', import.meta.url), 'utf8')), {
     module: compiledModule, exports: compiledModule.exports, Date,
     require: specifier => {
-      if (specifier === 'react' && date !== undefined) return { ...React, useSyncExternalStore: () => date };
+      if (specifier === 'react' && date !== undefined) return { ...React, useSyncExternalStore: () => date, useEffect: () => {}, useState: () => [{ date, saints: loadTs('lib/directory-page.ts').getDirectoryDailyCards(saints, date), failed: false }, () => {}] };
       if (specifier.startsWith('@/')) return loadTs(`${specifier.slice(2)}.ts`);
       return require(specifier);
     },
