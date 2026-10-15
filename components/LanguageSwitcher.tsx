@@ -92,7 +92,7 @@ export default function LanguageSwitcher({ pathname, onOpen }: { pathname: strin
   const link = (item: { code: string; name: string; english: string }) => <a
     key={item.code} href={translatedPageUrl(pathname, item.code)!}
     data-language-choice={item.code} hrefLang={item.code} rel="nofollow noreferrer"
-    lang={item.code} aria-current={language === item.code ? "true" : undefined}
+    lang={item.code} dir="auto" aria-current={language === item.code ? "true" : undefined}
     onClick={event => {
       track("language_select", { selected_language: item.code, translation_method: item.code === "en" ? "original" : "google_translate" });
       if (item.code === "en") { event.preventDefault(); window.location.assign(page.href); }
@@ -100,14 +100,14 @@ export default function LanguageSwitcher({ pathname, onOpen }: { pathname: strin
     }}
   ><span>{item.name}</span><small lang="en">{item.english}</small>{language === item.code && <span aria-hidden="true">✓</span>}</a>;
 
-  return <div className="language-switcher notranslate" translate="no" ref={root} onBlur={event => {
+  return <div className="language-switcher notranslate" translate="no" lang="en" dir="ltr" ref={root} onBlur={event => {
     if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setOpen(false);
   }}>
     <button type="button" className="language-toggle" ref={button}
       aria-label={`Language: ${active?.english ?? "English"}`} aria-expanded={open} aria-controls={id}
       onClick={() => { if (!open) onOpen(); setOpen(!open); }}>
       <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6h14M5 18h14"/></svg>
-      <span className="language-toggle-label">{active?.name ?? "Language"}</span>
+      <span className="language-toggle-label" lang={active?.code ?? "en"} dir="auto">{active?.name ?? "Language"}</span>
       <svg className="language-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
     </button>
     <div className="language-panel" id={id} hidden={!open}>

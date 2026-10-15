@@ -6,6 +6,54 @@ import vm from 'node:vm';
 import ts from 'typescript';
 
 const { SITE_LANGUAGES, publicTranslationUrl, translatedPageUrl, proxyNavigationUrl, isTranslationProxy } = loadTs('lib/site-languages.ts');
+const { TRANSLATION_LANGUAGE_BOOTSTRAP } = loadTs('lib/translation-language.ts');
+
+function documentLanguageHarness(hostname, search, attributes = { lang: 'en', dir: '' }) {
+  const listeners = new Map(), observations = [];
+  let changed;
+  const location = { hostname, search };
+  vm.runInNewContext(TRANSLATION_LANGUAGE_BOOTSTRAP, {
+    location, URLSearchParams, document: { documentElement: attributes },
+    window: { addEventListener: (name, callback) => listeners.set(name, callback) },
+    MutationObserver: class {
+      constructor(callback) { changed = callback; }
+      observe(target, options) { observations.push({ target, options }); }
+    },
+  });
+  return { attributes, location, listeners, observations, changed };
+}
+
+test('only the exact Google proxy applies a supported target document language and direction', () => {
+  for (const { code } of SITE_LANGUAGES) {
+    const { attributes } = documentLanguageHarness('www-saintdiscoveryquiz-com.translate.goog', `?_x_tr_tl=${code}`);
+    assert.equal(attributes.lang, code);
+    assert.equal(attributes.dir, code === 'ar' ? 'rtl' : 'ltr');
+  }
+  for (const hostname of ['www.saintdiscoveryquiz.com', 'localhost', 'www-saintdiscoveryquiz-com.translate.goog.evil.example']) {
+    const result = documentLanguageHarness(hostname, '?_x_tr_tl=es');
+    assert.equal(result.attributes.lang, 'en');
+    assert.equal(result.attributes.dir, '');
+    assert.equal(result.observations.length, 0);
+  }
+  for (const search of ['', '?_x_tr_tl=unsupported', '?_x_tr_tl=en', '?tl=es']) {
+    assert.equal(documentLanguageHarness('www-saintdiscoveryquiz-com.translate.goog', search).attributes.lang, 'en');
+  }
+});
+
+test('proxy language survives provider attribute replacement and back/forward target changes', () => {
+  const result = documentLanguageHarness('www-saintdiscoveryquiz-com.translate.goog', '?_x_tr_tl=es');
+  assert.deepEqual(Array.from(result.observations[0].options.attributeFilter), ['lang', 'dir']);
+  result.attributes.lang = 'en'; result.attributes.dir = 'rtl'; result.changed();
+  assert.equal(result.attributes.lang, 'es'); assert.equal(result.attributes.dir, 'ltr');
+  result.location.search = '?_x_tr_tl=ar'; result.listeners.get('popstate')();
+  assert.equal(result.attributes.lang, 'ar'); assert.equal(result.attributes.dir, 'rtl');
+  result.location.search = '?_x_tr_tl=fr'; result.listeners.get('pageshow')();
+  assert.equal(result.attributes.lang, 'fr'); assert.equal(result.attributes.dir, 'ltr');
+  let writes = 0;
+  const stable = { get lang() { return 'es'; }, set lang(_) { writes++; }, get dir() { return 'ltr'; }, set dir(_) { writes++; } };
+  const settled = documentLanguageHarness('www-saintdiscoveryquiz-com.translate.goog', '?_x_tr_tl=es', stable);
+  settled.changed(); assert.equal(writes, 0, 'An observer callback must not loop on matching attributes');
+});
 
 test('translation retains the public page but strips all potentially private URL data', () => {
   const url = new URL(translatedPageUrl('/saints/joseph?token=secret&email=private%40example.com#private', 'es'));

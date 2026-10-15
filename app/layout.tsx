@@ -14,6 +14,7 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { ANALYTICS_BOOTSTRAP } from "@/lib/analytics-bootstrap";
+import { TRANSLATION_LANGUAGE_BOOTSTRAP } from "@/lib/translation-language";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -132,8 +133,11 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
+        <Script id="translation-document-language" strategy="beforeInteractive">
+          {TRANSLATION_LANGUAGE_BOOTSTRAP}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

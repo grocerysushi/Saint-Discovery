@@ -57,7 +57,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     <header ref={header} className="site-header site-header-refresh" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
       <a href="#main-content" className="skip-to-content">Skip to content</a>
       <div className="site-width header-inner">
-        <Link href="/" className="brand notranslate" translate="no" aria-label="Saint Discovery home" onClick={close}><span className="brand-name">Saint Discovery</span></Link>
+        <Link href="/" className="brand notranslate" translate="no" lang="en" dir="ltr" aria-label="Saint Discovery home" onClick={close}><span className="brand-name">Saint Discovery</span></Link>
         <nav className="desktop-nav" aria-label="Main">
           <Link href="/resources" onClick={close} className="nav-link" aria-current={isCurrent("/resources") || pathname.startsWith("/saints/") ? "page" : undefined}>Saints directory</Link>
           <Link href="/patron-saint-of" onClick={close} className="nav-link" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}>Patron saints</Link>
