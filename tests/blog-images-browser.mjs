@@ -15,6 +15,8 @@ const artworks = [
   { slug: 'act-of-contrition', title: 'What Is an Act of Contrition?', cover: 'https://upload.wikimedia.org/wikipedia/commons/0/07/El_Greco_-_Tears_of_St._Peter_-_NG.M.01346_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg', coverAlt: 'Saint Peter with clasped hands and an upward gaze, painted by El Greco.', coverCredit: 'El Greco, Tears of St. Peter, 1590s. National Museum, Oslo, NG.M.01346. Digital reproduction via Wikimedia Commons, CC BY 4.0. No editorial alterations; display may crop.' },
   { slug: 'sacred-heart', title: 'Sacred Heart Devotion', cover: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/SacredHeartBatoni.jpg', coverAlt: "Pompeo Batoni's painting of Jesus holding a radiant heart topped by a cross", coverCredit: 'Pompeo Batoni, Sacred Heart of Jesus, 1767, Church of the Gesù, Rome. Photo: Lloydbaltazar · CC0.', fit: 'contain' },
 ];
+// Long licensed-source credits must wrap inside a mobile article cover.
+artworks[1].coverCredit += ` Source: ${artworks[1].cover}`;
 const rows = Array.from({ length: 12 }, (_, i) => ({
   id: `image-fixture-${String(i).padStart(2, '0')}`, publishedAt: '2026-10-14T12:00:00Z',
   published: { ...artworks[i === 2 ? 1 : 0], slug: i === 1 ? artworks[0].slug : i === 2 ? artworks[1].slug : `image-fixture-${i}`, excerpt: 'Read the story and explore its sacred artwork.', author: 'Saint Discovery', category: 'Everyday faith', ads: true, body: { type: 'doc', content: [{ type: 'paragraph', content: [{ type: 'text', text: 'Local image rendering verification.' }] }] } },
@@ -88,7 +90,7 @@ try {
   for (const art of artworks) {
     const card = page.locator(`.blog-story-card[href="/blog/${art.slug}"]`);
     await inspect(card.locator('img'), art.slug, 'mobile-card');
-    assert.equal(await card.locator('img').evaluate(img => getComputedStyle(img).objectFit), art.fit ?? 'cover');
+    assert.equal(await card.locator('img').evaluate(img => getComputedStyle(img).objectFit), 'contain');
     await card.screenshot({ path: path.join(output, `${art.slug}-card-optimized.png`) });
     await card.locator('img').evaluate((img, src) => { img.removeAttribute('srcset'); img.src = src; }, art.cover);
     await card.locator('img').evaluate(img => img.decode());
@@ -118,8 +120,8 @@ try {
       await page.goto(origin + '/blog/' + art.slug);
       await inspect(page.locator('.blog-cover img'), art.slug, `${label}-article`);
       assert.equal(await page.locator('.blog-cover img').getAttribute('alt'), art.coverAlt);
-      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectPosition), art.fit === 'contain' ? '50% 50%' : '50% 20%', 'Portrait framing must preserve its subject');
-      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectFit), art.fit ?? 'cover');
+      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectPosition), '50% 50%', 'Full artwork stays centered in its frame');
+      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectFit), 'contain');
       assert.equal(await page.locator('.blog-cover figcaption').textContent(), art.coverCredit);
       assert.ok((await page.content()).includes(art.cover), 'Original retained in article metadata');
       const frame = page.locator('.blog-cover-frame');
@@ -134,7 +136,7 @@ try {
   }
   assert.deepEqual(errors, []);
   assert.deepEqual(report.imageErrors ?? [], []);
-  report.checks.push('Mobile/desktop journal and article layouts; portrait focal points; exact alt and credit text; licensed original URL retained; no page errors or horizontal overflow');
+  report.checks.push('Mobile/desktop journal and article layouts preserve complete artwork; exact alt and credit text; licensed original URL retained; no page errors or horizontal overflow');
   await fs.writeFile(path.join(output, 'verification.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify({ measurements: report.measurements.map(({ label, slug, width, bytes, reductionPercent, browserEncodedBytes }) => ({ label, slug, width, bytes, reductionPercent, browserEncodedBytes })), checks: report.checks }, null, 2));
 } finally {

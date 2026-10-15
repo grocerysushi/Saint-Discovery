@@ -5,24 +5,9 @@ export const BLOG_IMAGE_SIZES = {
   cover: "(max-width: 600px) calc(100vw - 40px), (max-width: 1000px) calc(100vw - 56px), (max-width: 1096px) calc(100vw - 96px), 1000px",
 };
 
-// These tall portraits need a higher focal point in the landscape cover frame.
-// Key by the licensed source rather than a post slug so reused artwork agrees.
-const BLOG_IMAGE_POSITIONS: Record<string, string> = {
-  "https://upload.wikimedia.org/wikipedia/commons/f/fb/Christ_Icon_Sinai_6th_century.jpg": "50% 20%",
-  "https://upload.wikimedia.org/wikipedia/commons/0/07/El_Greco_-_Tears_of_St._Peter_-_NG.M.01346_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg": "50% 20%",
-};
-
-export function blogImagePosition(src: string): string {
-  return BLOG_IMAGE_POSITIONS[src] ?? "50% 50%";
-}
-
-// This portrait's face and heart span more height than a landscape crop can
-// retain. Apply to the source so every card, cover, and reused post agrees.
-export function blogImageFit(src: string): "contain" | "cover" {
-  return src === "https://upload.wikimedia.org/wikipedia/commons/4/4f/SacredHeartBatoni.jpg"
-    ? "contain"
-    : "cover";
-}
+// Sacred art can place faces, gestures, and identifying objects at opposite
+// edges. Preserve the whole composition in every frame, including new posts.
+export const BLOG_IMAGE_STYLE = { objectFit: "contain", objectPosition: "50% 50%" } as const;
 
 // Keep this allowlist aligned with next.config.ts. Other editor-approved URLs
 // and data uploads still render directly, without opening an arbitrary proxy.

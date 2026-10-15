@@ -7,7 +7,7 @@ import type { JSONContent } from "@tiptap/core";
 import { BLOG_CATEGORIES, readingTime, safeBlogUrl, type BlogContent } from "@/lib/blog";
 import type { BlogSummary } from "@/lib/blog-public";
 import { blogBrowseUrl } from "@/lib/blog-seo";
-import { BLOG_IMAGE_SIZES, blogImageFit, blogImagePosition, canOptimizeBlogImage } from "@/lib/blog-images";
+import { BLOG_IMAGE_SIZES, BLOG_IMAGE_STYLE, canOptimizeBlogImage } from "@/lib/blog-images";
 
 // Placeholders stay hidden until a live ad network is approved; flip to true to preview placements.
 const SHOW_AD_PLACEHOLDERS = false;
@@ -21,8 +21,8 @@ export function BlogImage({ src, alt, className = "", priority = false, variant 
   const loading = priority ? "eager" : "lazy";
   const fetchPriority = priority ? "high" : "auto";
   if (!safeSrc || failedSource === src) return <div className={`blog-art-placeholder ${className}`} style={variant ? { position: "absolute", inset: 0, minHeight: 0 } : undefined} role="img" aria-label={alt || "Saint Discovery journal"}><span aria-hidden>✦</span></div>;
-  if (variant) return <Image src={safeSrc} alt={alt} className={className} fill sizes={BLOG_IMAGE_SIZES[variant]} quality={75} unoptimized={!canOptimizeBlogImage(safeSrc)} style={{ objectFit: blogImageFit(safeSrc), objectPosition: blogImagePosition(safeSrc) }} loading={loading} fetchPriority={fetchPriority} decoding="async" onError={() => setFailedSource(src)} />;
-  return <img src={safeSrc} alt={alt} className={className} loading={loading} fetchPriority={fetchPriority} decoding="async" onError={() => setFailedSource(src)} />;
+  if (variant) return <Image src={safeSrc} alt={alt} className={className} fill sizes={BLOG_IMAGE_SIZES[variant]} quality={75} unoptimized={!canOptimizeBlogImage(safeSrc)} style={BLOG_IMAGE_STYLE} loading={loading} fetchPriority={fetchPriority} decoding="async" onError={() => setFailedSource(src)} />;
+  return <img src={safeSrc} alt={alt} className={className} style={BLOG_IMAGE_STYLE} loading={loading} fetchPriority={fetchPriority} decoding="async" onError={() => setFailedSource(src)} />;
 }
 function renderNode(node: JSONContent, key: number, headingId?: string): ReactNode {
   const children = node.content?.map((n, i) => renderNode(n, i));
