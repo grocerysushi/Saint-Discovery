@@ -18,7 +18,10 @@ function Chevron() {
 }
 
 export default function SiteHeader() {
-  const pathname = usePathname();
+  // Vercel's root ISR function renders as /index, while the browser sees /.
+  // Keep the first header render identical, including the language switcher.
+  const route = usePathname();
+  const pathname = route === "/index" ? "/" : route;
   return <HeaderNavigation key={pathname} pathname={pathname} />;
 }
 

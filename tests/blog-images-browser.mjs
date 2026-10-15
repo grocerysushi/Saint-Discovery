@@ -107,6 +107,7 @@ try {
       await page.goto(origin + '/blog/' + art.slug);
       await inspect(page.locator('.blog-cover img'), art.slug, `${label}-article`);
       assert.equal(await page.locator('.blog-cover img').getAttribute('alt'), art.coverAlt);
+      assert.equal(await page.locator('.blog-cover img').evaluate(img => getComputedStyle(img).objectPosition), '50% 20%', 'Portrait faces must stay in the cover frame');
       assert.equal(await page.locator('.blog-cover figcaption').textContent(), art.coverCredit);
       assert.ok((await page.content()).includes(art.cover), 'Original retained in article metadata');
       const frame = page.locator('.blog-cover-frame');
@@ -121,7 +122,7 @@ try {
   }
   assert.deepEqual(errors, []);
   assert.deepEqual(report.imageErrors ?? [], []);
-  report.checks.push('Mobile/desktop journal and article layouts; existing crops; exact alt and credit text; licensed original URL retained; no page errors or horizontal overflow');
+  report.checks.push('Mobile/desktop journal and article layouts; portrait focal points; exact alt and credit text; licensed original URL retained; no page errors or horizontal overflow');
   await fs.writeFile(path.join(output, 'verification.json'), JSON.stringify(report, null, 2));
   console.log(JSON.stringify({ measurements: report.measurements.map(({ label, slug, width, bytes, reductionPercent, browserEncodedBytes }) => ({ label, slug, width, bytes, reductionPercent, browserEncodedBytes })), checks: report.checks }, null, 2));
 } finally {

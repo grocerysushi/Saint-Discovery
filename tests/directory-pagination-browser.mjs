@@ -102,6 +102,9 @@ try {
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
     const scan = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
     assert.deepEqual(scan.violations.map(v => v.id), [], `Accessibility at ${width}px`);
+    assert.ok(!scan.incomplete.some(v => v.id === 'aria-prohibited-attr' && v.nodes.some(n => n.target.includes('.catalogue-current-page'))));
+    assert.equal(await page.locator('.catalogue-current-page').getAttribute('aria-label'), null);
+    assert.equal(await page.locator('.catalogue-current-page').textContent(), 'Page 1');
     const dom = await page.locator('*').count(); assert.ok(dom < 2000);
     report.browser.push({ width, cards: 36, domElements: dom, accessibilityViolations: scan.violations.length });
     await page.screenshot({ path: path.join(output, `directory-${width}.png`) });

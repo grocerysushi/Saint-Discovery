@@ -170,7 +170,7 @@ export default async function Resources(props: Props) {
           })}</ul>}
           {data.pages > 1 && <nav className="catalogue-pagination" aria-label="Directory pages">
             {data.page > 1 && <Link href={directoryUrl(filters, data.page - 1)} rel="prev" prefetch={false}>← Previous</Link>}
-            {Array.from({ length: data.pages }, (_, i) => i + 1).filter(page => page === 1 || page === data.pages || Math.abs(page - data.page) <= 1).map((page, i, pages) => <span key={page}>{i > 0 && page - pages[i - 1] > 1 && <span className="catalogue-pagination-gap" aria-hidden>…</span>}{page === data.page ? <span className="catalogue-current-page" aria-current="page" aria-label={`Page ${page}`}>{page}</span> : <Link href={directoryUrl(filters, page)} aria-label={`Page ${page}`} prefetch={false}>{page}</Link>}</span>)}
+            {Array.from({ length: data.pages }, (_, i) => i + 1).filter(page => page === 1 || page === data.pages || Math.abs(page - data.page) <= 1).map((page, i, pages) => <span key={page}>{i > 0 && page - pages[i - 1] > 1 && <span className="catalogue-pagination-gap" aria-hidden>…</span>}{page === data.page ? <span className="catalogue-current-page" aria-current="page"><span className="sr-only">Page </span>{page}</span> : <Link href={directoryUrl(filters, page)} aria-label={`Page ${page}`} prefetch={false}>{page}</Link>}</span>)}
             {data.page < data.pages && <Link href={directoryUrl(filters, data.page + 1)} rel="next" prefetch={false}>Next →</Link>}
           </nav>}
         </SaintsDirectory>
