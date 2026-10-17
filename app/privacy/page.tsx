@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "October 15, 2026";
+const EFFECTIVE_DATE = "October 17, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -51,8 +51,8 @@ export default function PrivacyPage() {
           <p>
             Saint Discovery is a free Catholic saint quiz and directory. You can
             take the quiz and browse every page without creating an account or
-            giving us your name. Optional email delivery, analytics, hosting,
-            and administration involve the data described below. We add your
+            giving us your name. Optional email delivery, analytics, advertising,
+            hosting, and administration involve the data described below. We add your
             address to the result-email list after you confirm the request.
             You can unsubscribe using the link in an email.
           </p>
@@ -121,9 +121,8 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong className="text-cream">Google Analytics &amp; Google
-              AdSense</strong> — analytics and planned blog advertising.
-              AdSense ads are not currently enabled. If enabled, advertisements
-              will be confined to the blog. Google and its advertising partners
+              AdSense</strong> — usage analytics and advertisements that may
+              appear on this site. Google and its advertising partners
               may use cookies or identifiers to serve and measure ads, including
               based on visits to this and other websites. See{" "}
               <a
@@ -171,8 +170,8 @@ export default function PrivacyPage() {
           <p>
             Google Analytics can set cookies to measure visits and recognize
             returning browsers. The blog editor uses authentication cookies;
-            these are separate from visitor analytics. If blog advertising is
-            enabled, advertising providers may also set cookies as described
+            these are separate from visitor analytics. Advertising providers
+            may also set cookies as described
             above. Your browser settings let you block or delete cookies;
             the quiz does not require advertising or analytics cookies.
           </p>

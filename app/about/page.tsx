@@ -78,7 +78,7 @@ export default async function AboutPage() {
         <section className="mt-10 text-cream-dark leading-relaxed space-y-4">
           <h2 className="text-2xl font-heading text-cream">Learn, reflect, and keep exploring</h2>
           <p>Use the <Link href="/confirmation-saint-guide" className="text-link">Confirmation guide</Link> to compare possible patrons and prepare for a conversation with your sponsor. Our <Link href="/resources/teachers" className="text-link">teacher resources</Link> include a printable reflection worksheet and lesson guide. The <Link href="/blog" className="text-link">journal</Link> connects Catholic teaching and saint stories with practical questions.</p>
-          <p>Saint Discovery is an independent project, not an official Church publication. AI tools assist with research and writing. Read our <Link href="/editorial-policy" className="text-link">editorial approach</Link> for how we use sources, describe uncertainty, and accept corrections. Advertising is planned for the blog only; the quiz and learning resources remain free.</p>
+          <p>Saint Discovery is an independent project, not an official Church publication. AI tools assist with research and writing. Read our <Link href="/editorial-policy" className="text-link">editorial approach</Link> for how we use sources, describe uncertainty, and accept corrections. Advertisements may appear on Saint Discovery to support the project. The quiz and learning resources remain free to use.</p>
         </section>
         <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
           <Link

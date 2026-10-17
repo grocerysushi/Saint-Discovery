@@ -13,7 +13,7 @@ import { BLOG_IMAGE_SIZES, BLOG_IMAGE_STYLE, canOptimizeBlogImage } from "@/lib/
 const SHOW_AD_PLACEHOLDERS = false;
 export function AdSpace({ format = "banner" }: { format?: "banner" | "rectangle" | "inline" }) {
   if (!SHOW_AD_PLACEHOLDERS) return null;
-  return <aside className={`blog-ad blog-ad-${format}`} aria-label="Advertisement placeholder"><span>Advertisement</span><div><span aria-hidden>▧</span><p>Space for a thoughtful partner</p><small>{format === "banner" ? "Responsive banner · 728 × 90 desktop" : format === "rectangle" ? "Sidebar · 300 × 250" : "In-article · responsive"}</small></div><span>Preview placement · no live ads</span></aside>;
+  return <aside className={`blog-ad blog-ad-${format}`} aria-label="Advertisement placeholder"><span>Advertisement</span><div><span aria-hidden>▧</span><p>Space for a thoughtful partner</p><small>{format === "banner" ? "Responsive banner · 728 × 90 desktop" : format === "rectangle" ? "Sidebar · 300 × 250" : "In-article · responsive"}</small></div></aside>;
 }
 export function BlogImage({ src, alt, className = "", priority = false, variant }: { src: string; alt: string; className?: string; priority?: boolean; variant?: keyof typeof BLOG_IMAGE_SIZES }) {
   const [failedSource, setFailedSource] = useState("");

@@ -1,6 +1,6 @@
 # Teacher and catechist resources
 
-`/resources/teachers` provides free, ungated, ad-free classroom materials. The directory, Confirmation guide, and footer link to it; the main sitemap includes it. It includes a two-page student worksheet and a three-page, 45-minute lesson for middle/high school Confirmation groups, with younger learner and adult OCIA adaptations.
+`/resources/teachers` provides free, ungated classroom materials. The directory, Confirmation guide, and footer link to it; the main sitemap includes it. It includes a two-page student worksheet and a three-page, 45-minute lesson for middle/high school Confirmation groups, with younger learner and adult OCIA adaptations.
 
 ## Content and PDF updates
 
