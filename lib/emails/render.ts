@@ -2,6 +2,7 @@ import { saintDisplayName } from "../saint-seo";
 import { Saint } from "@/lib/types";
 import { escapeHtml } from "./validation";
 import * as T from "./templates";
+import { DISCORD_INVITE_URL } from "../community";
 
 // Remove an optional [[NAME]]..[[/NAME]] block entirely when `keep` is false;
 // otherwise strip just the marker lines and keep the inner content.
@@ -86,6 +87,8 @@ export function buildResultEmail(params: {
     SITE_URL: params.siteUrl,
     DAILY_URL: new URL("/saint-of-day", params.siteUrl).toString(),
     GUIDE_URL: new URL("/confirmation-saint-guide", params.siteUrl).toString(),
+    DISCORD_URL: DISCORD_INVITE_URL,
+    DISCORD_ICON_URL: new URL("/brand/discord.png", params.siteUrl).toString(),
   };
 
   let html = T.RESULT_HTML;
