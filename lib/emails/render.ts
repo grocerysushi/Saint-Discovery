@@ -2,7 +2,7 @@ import { saintDisplayName } from "../saint-seo";
 import { Saint } from "@/lib/types";
 import { escapeHtml } from "./validation";
 import * as T from "./templates";
-import { DISCORD_INVITE_URL, INSTAGRAM_PROFILE_URL } from "../community";
+import { DISCORD_INVITE_URL, INSTAGRAM_PROFILE_URL, X_PROFILE_URL } from "../community";
 
 // Remove an optional [[NAME]]..[[/NAME]] block entirely when `keep` is false;
 // otherwise strip just the marker lines and keep the inner content.
@@ -91,6 +91,8 @@ export function buildResultEmail(params: {
     DISCORD_ICON_URL: new URL("/brand/discord.png", params.siteUrl).toString(),
     INSTAGRAM_URL: INSTAGRAM_PROFILE_URL,
     INSTAGRAM_ICON_URL: new URL("/brand/instagram.png", params.siteUrl).toString(),
+    X_URL: X_PROFILE_URL,
+    X_ICON_URL: new URL("/brand/x.png", params.siteUrl).toString(),
   };
 
   let html = T.RESULT_HTML;

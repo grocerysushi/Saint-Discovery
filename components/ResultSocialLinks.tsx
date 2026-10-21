@@ -1,12 +1,13 @@
 "use client";
 
 import { track } from "@/lib/analytics";
-import { DISCORD_INVITE_URL, INSTAGRAM_PROFILE_URL } from "@/lib/community";
+import { DISCORD_INVITE_URL, INSTAGRAM_PROFILE_URL, X_PROFILE_URL } from "@/lib/community";
 import Image from "next/image";
 
 const links = [
   { href: DISCORD_INVITE_URL, label: "Join Saint Discovery on Discord (18+; opens in a new tab)", icon: "/brand/discord.svg", width: 32, height: 24, event: "discord_join_click" },
   { href: INSTAGRAM_PROFILE_URL, label: "Follow Saint Discovery on Instagram (opens in a new tab)", icon: "/brand/instagram.svg", width: 24, height: 24, event: "instagram_profile_click" },
+  { href: X_PROFILE_URL, label: "Follow Saint Discovery on X (opens in a new tab)", icon: "/brand/x.svg", width: 24, height: 24, event: "x_profile_click" },
 ];
 
 export default function ResultSocialLinks({ placement }: { placement: "quiz_result" | "shared_result" }) {
