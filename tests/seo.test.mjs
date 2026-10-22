@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import ts from 'typescript';
+import { loadTs } from './load-ts.mjs';
 
 function load(file, env = {}) {
   const mod = { exports: {} };
@@ -39,7 +40,7 @@ test('sharing cards identify their own canonical page and retain an image', () =
 });
 
 test('search snippets name their subject and only promise available sections', () => {
-  const { saintSearchSummary, saintDisplayName } = load('lib/saint-seo.ts');
+  const { saintSearchSummary, saintDisplayName } = loadTs('lib/saint-seo.ts');
   const short = saintSearchSummary({ name: 'Joseph', slug: 'joseph', description: 'A life of faith.' });
   assert.equal(short.title, 'St. Joseph: Biography');
   assert.match(short.description, /^Discover St\. Joseph\./);
@@ -48,4 +49,30 @@ test('search snippets name their subject and only promise available sections', (
   assert.ok(full.description.length <= 160);
   assert.equal(saintDisplayName({ name: 'All Saints', slug: 'all-saints' }), 'All Saints');
   assert.equal(saintDisplayName({ name: 'Our Lady of Lourdes', slug: 'our-lady-of-lourdes' }), 'Our Lady of Lourdes');
+});
+
+test('query-led saint snippets are specific without changing unrelated biographies', async () => {
+  const { getAllSaints } = loadTs('lib/saints.ts');
+  const { saintSearchSummary } = loadTs('lib/saint-seo.ts');
+  const { getSaintReaderGuide } = loadTs('lib/saint-reader-guides.ts');
+  const { getBiographyUpdatedOn } = loadTs('lib/directory-editorial.ts');
+  const saints = await getAllSaints();
+  const targets = ['joachim', 'jadwiga-of-poland', 'gabriel-the-archangel', 'toribio-romo-gonz-lez', 'kizito'];
+  for (const saint of saints) {
+    const guide = getSaintReaderGuide(saint.slug);
+    assert.equal(Boolean(guide), targets.includes(saint.slug), saint.slug);
+    const summary = saintSearchSummary(saint);
+    assert.ok(summary.description.length <= 160, `${saint.slug}: description length`);
+    if (!guide) continue;
+    assert.equal(summary.title, guide.title);
+    assert.equal(summary.description, guide.description);
+    assert.equal(getBiographyUpdatedOn(saint.slug), '2026-10-22');
+    assert.ok(guide.questions.every(question => question.sources.length > 0));
+    for (const link of guide.related.filter(link => link.href.startsWith('/saints/'))) {
+      assert.ok(saints.some(candidate => link.href === `/saints/${candidate.slug}`), link.href);
+    }
+  }
+  assert.match(getSaintReaderGuide('joachim').introduction, /tradition/);
+  assert.match(getSaintReaderGuide('kizito').introduction, /about 14/);
+  assert.match(getSaintReaderGuide('gabriel-the-archangel').introduction, /not a human/);
 });

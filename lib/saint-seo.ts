@@ -1,4 +1,5 @@
 import type { Saint } from "@/lib/types";
+import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
 
 // These entries describe observances rather than individual people. Avoid
 // adding a saint title to them or asserting Person schema for every record.
@@ -13,6 +14,8 @@ export function saintDisplayName(saint: Pick<Saint, "name" | "slug" | "kind">) {
 
 export function saintSearchSummary(saint: Saint) {
   const name = saintDisplayName(saint);
+  const guide = getSaintReaderGuide(saint.slug);
+  if (guide) return { name, title: guide.title, description: guide.description };
   const sections = ["Biography", saint.feast_day && "Feast Day", saint.prayer && "Prayer"].filter(Boolean);
   const title = `${name}: ${sections.join(", ")}`;
   const raw = [

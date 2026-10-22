@@ -17,6 +17,8 @@ import BiographyArticles from "@/components/BiographyArticles";
 import saintExtended from "@/lib/data/saint-extended.json";
 import { getSaintArtwork } from "@/lib/saint-artwork";
 import SaintArtworkFigure from "@/components/SaintArtwork";
+import SaintReaderQuestions from "@/components/SaintReaderQuestions";
+import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
 
 // Legacy generated copy is replaced as each external-source review is completed.
 // Its former model-only checking process was not independent fact verification.
@@ -87,6 +89,7 @@ export default async function SaintPage({
     ? [] : getRelatedSaints(saint, allSaints.filter(entry => entry.kind !== "observance"));
   const review = getBiographyReview(saint.slug);
   const learningGuide = getSaintLearningGuide(saint.slug);
+  const readerGuide = getSaintReaderGuide(saint.slug);
   const contribution = getSaintContribution(saint.slug);
   const evidenceNote = getDirectoryEvidenceNote(saint.slug);
   const corrections = getDirectoryCorrections(saint.slug);
@@ -115,8 +118,7 @@ export default async function SaintPage({
     about: { "@type": "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
-    ...(review ? { dateModified: updatedOn ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(contribution?.sources ?? []), ...(evidenceNote?.history.sources ?? []), ...(evidenceNote?.calendar.sources ?? [])].map(source => source.url))] } : {}),
-
+    ...(review ? { dateModified: updatedOn ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(readerGuide?.questions.flatMap(question => question.sources) ?? []), ...(contribution?.sources ?? []), ...(evidenceNote?.history.sources ?? []), ...(evidenceNote?.calendar.sources ?? [])].map(source => source.url))] } : {}),
   };
 
   const breadcrumbJsonLd = {
@@ -197,6 +199,7 @@ export default async function SaintPage({
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
               {name}
             </h1>
+            {readerGuide && <p className="text-cream-dark text-lg leading-relaxed mb-5">{readerGuide.introduction}</p>}
             {review?.kind === "orthodox-saint" && <p className="text-gold mb-4">Venerated in Orthodox Christianity</p>}
             {review?.kind === "unresolved" && <p className="text-gold mb-4">This identity could not be established from reliable sources. Its earlier biographical claims have been withdrawn.</p>}
             {saint.tagline && (
@@ -256,6 +259,7 @@ export default async function SaintPage({
           <nav aria-label="On this page" className="profile-contents">
             <h2>On this page</h2>
             <div>
+              {readerGuide && <a href="#quick-answers">Key questions answered</a>}
               {(extended || saint.description) && <a href="#biography">Biography</a>}
               {contribution && <a href="#contribution">Context &amp; contribution</a>}
               {learningGuide && <a href="#reading-guide">Reading guide</a>}
@@ -269,6 +273,7 @@ export default async function SaintPage({
             </div>
           </nav>
 
+          {readerGuide && <SaintReaderQuestions guide={readerGuide} />}
 
           {extended ? (
             <section id="biography" className="mb-10 scroll-mt-24">

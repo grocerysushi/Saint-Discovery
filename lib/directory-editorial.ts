@@ -2,6 +2,7 @@ import evidenceData from "@/lib/data/directory-evidence-notes.json";
 import correctionData from "@/lib/data/directory-corrections.json";
 import { canonicalSaintSlug, getBiographyReview } from "@/lib/saint-reviews";
 import { getSaintContribution } from "@/lib/saint-contributions";
+import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
 
 type Source = { title: string; url: string };
 export interface EvidenceNote {
@@ -38,6 +39,7 @@ export function getBiographyUpdatedOn(slug: string): string | null {
   const canonical = canonicalSaintSlug(slug);
   const dates = [getBiographyReview(canonical)?.reviewed_on,
     getSaintContribution(canonical)?.reviewed_on,
+    getSaintReaderGuide(canonical)?.reviewedOn,
     getDirectoryEvidenceNote(canonical)?.reviewed_on].filter((date): date is string => Boolean(date));
   return dates.sort().at(-1) ?? null;
 }
