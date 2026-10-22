@@ -3,13 +3,14 @@
 import { Fragment, type ReactNode, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import BlogAdSense from "./BlogAdSense";
 import type { JSONContent } from "@tiptap/core";
 import { BLOG_CATEGORIES, readingTime, safeBlogUrl, type BlogContent } from "@/lib/blog";
 import type { BlogSummary } from "@/lib/blog-public";
 import { blogBrowseUrl } from "@/lib/blog-seo";
 import { BLOG_IMAGE_SIZES, BLOG_IMAGE_STYLE, canOptimizeBlogImage } from "@/lib/blog-images";
 
-// Placeholders stay hidden until a live ad network is approved; flip to true to preview placements.
+// Auto ads are supplied by BlogAdSense; do not show fake advertisement boxes.
 const SHOW_AD_PLACEHOLDERS = false;
 export function AdSpace({ format = "banner" }: { format?: "banner" | "rectangle" | "inline" }) {
   if (!SHOW_AD_PLACEHOLDERS) return null;
@@ -56,6 +57,7 @@ export function ArticleView({ content, date, preview = false }: { content: BlogC
   const nodes = content.body.content ?? [];
   const sections = nodes.flatMap((node, index) => node.type === "heading" && node.attrs?.level !== 3 ? [{ id: `article-section-${index}`, label: (node.content ?? []).map(n => n.text ?? "").join("") }] : []);
   return <div className="blog-article-wrap">
+    {!preview && content.ads && <BlogAdSense />}
     <header className="blog-article-heading"><p className="eyebrow">{content.category} <span> / </span> The Saint Discovery Journal</p><h1>{content.title || "Your story starts here"}</h1><p className="blog-deck">{content.excerpt}</p><div className="blog-byline"><span className="blog-avatar" aria-hidden>✦</span><span>{content.author === "Saint Discovery" ? <Link href="/about">Saint Discovery</Link> : content.author || "Author"}<small>{date ? new Date(date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Draft preview"} · {readingTime(content.body)} min read</small></span></div></header>
     {content.cover && <figure className="blog-cover"><div className="blog-cover-frame"><BlogImage key={content.cover} src={content.cover} alt={content.coverAlt} variant="cover" priority /></div>{content.coverCredit && <figcaption>{content.coverCredit}</figcaption>}</figure>}
     <div className={`blog-reading-grid ${!content.ads ? "blog-no-ads" : ""}`}><article className="blog-prose">{sections.length >= 3 && <nav className="blog-contents" aria-label="In this article"><p>In this article</p><ol>{sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.label}</a></li>)}</ol></nav>}{nodes.map((node, i) => <Fragment key={i}>{renderNode(node, i, `article-section-${i}`)}{content.ads && i === 3 && nodes.length > 5 && <AdSpace format="inline" />}</Fragment>)}<div className="blog-endmark" aria-hidden>✦</div></article>{content.ads && <aside className="blog-reading-aside"><AdSpace format="rectangle" /><div className="blog-related-note"><p className="eyebrow">A life worth knowing</p><h2>Find a saint to walk with.</h2><p>Go deeper with the stories behind the names.</p><Link href="/resources">Explore the saints →</Link></div></aside>}</div>
@@ -66,6 +68,7 @@ export function ArticleView({ content, date, preview = false }: { content: BlogC
 export function BlogIndex({ posts, page, pages, total, category, search }: { posts: BlogSummary[]; page: number; pages: number; total: number; category: string; search: string }) {
   const [featured, ...rest] = posts;
   return <main className="blog-public site-width"><div className="blog-demo-note"><span>The Saint Discovery Journal</span><Link href="/blog/feed.xml">Subscribe via RSS ↗</Link></div>
+    {posts.length > 0 && <BlogAdSense />}
     <header className="blog-masthead"><p className="eyebrow">The Saint Discovery Journal</p><h1>Old wisdom.<br /><em>Everyday life.</em></h1><p>Stories, reflections, and small invitations to live your faith.<br className="blog-desktop-break" /> A little inspiration for the journey.</p></header>
     <div className="blog-browse"><nav aria-label="Story categories">{["All stories", ...BLOG_CATEGORIES].map(c => <Link key={c} href={blogBrowseUrl(1, c === "All stories" ? "" : c, search)} aria-current={(category || "All stories") === c ? "page" : undefined}>{c}</Link>)}</nav><form action="/blog" role="search">{category && <input type="hidden" name="category" value={category} />}<input aria-label="Search stories" type="search" name="q" key={search} defaultValue={search} maxLength={100} placeholder="Search the journal…" /><button type="submit">Search</button></form></div>
     {!featured ? <div className="blog-empty"><h2>{category || search ? "No stories match your search." : "New stories are on their way."}</h2><p>{category || search ? "Try another topic or browse all stories." : "Explore our saint biographies and guides while the first journal articles are being prepared."}</p><Link href={category || search ? "/blog" : "/resources"} className="text-link">{category || search ? "Browse all stories →" : "Explore the saints →"}</Link></div> : <>
