@@ -57,7 +57,7 @@ test('query-led saint snippets are specific without changing unrelated biographi
   const { getSaintReaderGuide } = loadTs('lib/saint-reader-guides.ts');
   const { getBiographyUpdatedOn } = loadTs('lib/directory-editorial.ts');
   const saints = await getAllSaints();
-  const targets = ['joachim', 'jadwiga-of-poland', 'gabriel-the-archangel', 'toribio-romo-gonz-lez', 'kizito'];
+  const targets = ['joachim', 'jadwiga-of-poland', 'gabriel-the-archangel', 'toribio-romo-gonz-lez', 'kizito', 'jude-thaddeus', 'peter'];
   for (const saint of saints) {
     const guide = getSaintReaderGuide(saint.slug);
     assert.equal(Boolean(guide), targets.includes(saint.slug), saint.slug);
@@ -75,4 +75,6 @@ test('query-led saint snippets are specific without changing unrelated biographi
   assert.match(getSaintReaderGuide('joachim').introduction, /tradition/);
   assert.match(getSaintReaderGuide('kizito').introduction, /about 14/);
   assert.match(getSaintReaderGuide('gabriel-the-archangel').introduction, /not a human/);
+  assert.match(getSaintReaderGuide('jude-thaddeus').introduction, /October 28/);
+  assert.match(getSaintReaderGuide('peter').questions[0].answer, /not.*date of birth/);
 });

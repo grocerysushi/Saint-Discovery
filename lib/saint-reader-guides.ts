@@ -34,6 +34,56 @@ const munyonyoSource = {
 // Editorial answers to observed reader questions. Keep these separate from
 // identity/patronage records; query demand is not evidence for a historical claim.
 const guides: Record<string, SaintReaderGuide> = {
+  "jude-thaddeus": {
+    title: "St. Jude Thaddeus: October 28 Feast Day & Apostle",
+    description: "St. Jude Thaddeus shares his October 28 feast with Simon. Learn which apostle he is, why he is also called Thaddaeus, and where he appears in Scripture.",
+    introduction: "St. Jude Thaddeus is one of Jesus' Twelve Apostles. His feast day in the Roman Catholic calendar is October 28, shared with Saint Simon. Jude is distinct from Judas Iscariot, the apostle who betrayed Jesus.",
+    heading: "Jude Thaddeus: feast day, names and Scripture",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "When is Saint Jude Thaddeus' feast day?",
+        answer: "October 28 is the Feast of Saints Simon and Jude, Apostles, in the Roman Catholic calendar. In 2026 it falls on a Wednesday. The celebration honors both apostles; a parish or shrine may also arrange devotional events on nearby dates. Check its published schedule for Mass or novena times.",
+        sources: [{ title: "USCCB: 2026 liturgical calendar, October 28", url: "https://www.usccb.org/resources/2026cal.pdf" }],
+      },
+      {
+        question: "Are Jude, Thaddeus and Thaddaeus the same apostle?",
+        answer: "Thaddeus and Thaddaeus are spellings used for the apostle traditionally identified with Jude. Benedict XVI explains that Matthew and Mark name Thaddaeus, while Luke and Acts name Judas, son of James. This is why Catholic biographies often combine the names as Jude Thaddeus. He is not Judas Iscariot.",
+        sources: [{ title: "Benedict XVI: Simon and Jude, October 11, 2006", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20061011.html" }],
+      },
+      {
+        question: "What do we know about Jude from the Gospels?",
+        answer: "The New Testament gives relatively little biographical detail about him. Benedict XVI draws attention to John 14:22–23: at the Last Supper, Jude asks why Jesus will reveal himself to the disciples rather than to the world. Jesus' reply connects love, keeping his word and communion with the Father. This passage offers a firmer starting point than treating later stories about Jude's travels as equally well documented.",
+        sources: [{ title: "Benedict XVI: Jude's question at the Last Supper", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20061011.html" }],
+      },
+    ],
+    related: [{ label: "Jude and Judas Iscariot: understand the distinction", href: "/blog/is-saint-jude-same-as-judas-iscariot" }, { label: "What makes a celebration a feast?", href: "/blog/solemnity-feast-memorial-catholic-calendar" }],
+  },
+  peter: {
+    title: "St. Peter the Apostle: Life, Names & June 29 Feast",
+    description: "Who was Saint Peter? Meet Simon Peter, the fisherman called by Jesus, understand his June 29 feast with Paul, and learn why it is not his birthday.",
+    introduction: "Saint Peter the Apostle, also called Simon Peter or Cephas, was a fisherman from Bethsaida whom Jesus called to follow him. Catholics celebrate him with Saint Paul on June 29. That celebration is not a record of Peter's birthday.",
+    heading: "Peter the Apostle: names, birthday and feast day",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "When was Saint Peter born?",
+        answer: "A precise birthday is not established by the Gospel accounts discussed in Benedict XVI's biography of Peter. They place him in the first-century world of Jesus and identify his home town and work, but do not supply a birth date. June 29 is his liturgical celebration with Paul; it should not be copied into a biography as his date of birth.",
+        sources: [{ title: "Benedict XVI: Peter, the fisherman", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20060517.html" }, { title: "USCCB: 2026 liturgical calendar, June 29", url: "https://www.usccb.org/resources/2026cal.pdf" }],
+      },
+      {
+        question: "Are Simon, Cephas and Peter the same person?",
+        answer: "Yes, in these accounts they refer to the same apostle. Simon was his earlier name; Cephas is the Aramaic name given by Jesus, rendered Peter in Greek and associated with rock. Benedict XVI identifies him as Andrew's brother and a fisherman from Bethsaida. Simon the Zealot, another member of the Twelve, is a different apostle.",
+        sources: [{ title: "Benedict XVI: Peter's names, family and home town", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20060517.html" }, { title: "Benedict XVI: Simon the Zealot and Jude", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20061011.html" }],
+      },
+      {
+        question: "When is Saint Peter's feast day?",
+        answer: "June 29 is the Solemnity of Saints Peter and Paul, Apostles, in the Roman Catholic calendar. It is a shared celebration, even though Peter and Paul have distinct life stories. In 2026, June 29 falls on a Monday. This is a date for the Church's worship, not evidence of Peter's historical birthday.",
+        sources: [{ title: "USCCB: liturgical calendar and celebrations of Saint Peter", url: "https://www.usccb.org/resources/2026cal.pdf" }],
+      },
+    ],
+    related: [{ label: "Explore the lives of other saints", href: "/resources" }, { label: "Understand solemnities, feasts and memorials", href: "/blog/solemnity-feast-memorial-catholic-calendar" }],
+  },
   joachim: {
     title: "St. Joachim: Mary's Father, Tradition & Feast Day",
     description: "Who was St. Joachim? Learn why Catholics honor him as Mary's father, what the Bible does and does not say, and why he shares July 26 with St. Anne.",
