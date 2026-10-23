@@ -29,7 +29,7 @@ test('stored variants are verified and reused; failed uploads never return an in
   const bytes = await sharp({create:{width:900,height:1200,channels:3,background:'#987'}}).jpeg().toBuffer();
   const objects = new Map(); let writes=0;
   const upload = async (key, data, mime) => { writes++; objects.set(PUBLIC_BASE+key,{data,mime}); return {key,url:PUBLIC_BASE+key}; };
-  const request = async (url, options) => { const o=objects.get(url); return o ? new Response(options?.method === 'HEAD'?null:o.data,{headers:{'content-type':o.mime}}) : new Response(null,{status:404}); };
+  const request = async (url, options) => { const o=objects.get(url); return o ? new Response(options?.method === 'HEAD'?null:o.data,{headers:{'content-type':'binary/octet-stream'}}) : new Response(null,{status:404}); };
   const image = await storeArtwork(bytes, upload, request);
   assert.equal(image.variants.length,3); assert.equal(writes,4);
   assert(image.src.endsWith('-900.webp')); assert(objects.has(image.receiptUrl));
