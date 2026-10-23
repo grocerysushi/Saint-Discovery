@@ -160,7 +160,7 @@ body:has(.blog-admin) .site-header,body:has(.blog-admin) .site-footer { display:
 .blog-story-card h3 { font-size:1.7rem; letter-spacing:-.015em; margin-block:12px; line-height:1.23; text-wrap:pretty; }
 .blog-story-card>p:not(.eyebrow) { font-size:.925rem; line-height:1.75; margin-bottom:4px; }
 .blog-story-card .blog-card-meta { padding-top:22px; margin-top:auto; }
-.blog-reading-paths { border-top:1px solid var(--color-navy-lighter); margin-top:48px; padding-top:32px; }
+.blog-reading-paths { border-top:1px solid var(--color-navy-lighter); margin-block:48px; padding-top:32px; }
 .blog-reading-paths>div { gap:24px; }
 .blog-reading-paths section { border-radius:10px; background:var(--color-navy-light); padding:26px; }
 .blog-reading-paths h3 { font-size:1.65rem; line-height:1.25; }

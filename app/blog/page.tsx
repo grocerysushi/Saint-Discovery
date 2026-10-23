@@ -20,7 +20,7 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
   const data = await browse(props);
   const index = !data.category && !data.search && data.total > 0;
   const title = `Catholic Saints, Prayer & Everyday Faith Blog${data.page > 1 ? ` — Page ${data.page}` : ""}`;
-  const description = `${data.page > 1 ? `Page ${data.page}: ` : ""}Explore Catholic saints, prayer and everyday faith through source-linked articles and practical guides from the Saint Discovery Journal.`;
+  const description = `${data.page > 1 ? `Page ${data.page}: ` : ""}Explore Catholic saints, prayer and everyday faith through source-linked articles and practical guides from the Saint Discovery Blog.`;
   const url = absoluteUrl(blogBrowseUrl(data.page, data.category, data.search));
   return { title, description, alternates: { canonical: url, types: { "application/rss+xml": "/blog/feed.xml" } }, robots: { index, follow: true, googleBot: { index, follow: true } },
     ...socialMetadata(title, description, url),

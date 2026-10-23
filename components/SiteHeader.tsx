@@ -7,7 +7,6 @@ import LanguageSwitcher from "./LanguageSwitcher";
 const GROUPS = [
   { id: "guides", label: "Guides", links: [
     { href: "/resources/reading", label: "Guided reading", description: "Compare two lives and explore their sources." },
-    { href: "/blog", label: "Journal", description: "Further reading and reflection." },
     { href: "/confirmation-saint-guide", label: "Confirmation guide", description: "Choose a saint to walk with you." },
     { href: "/resources/teachers", label: "Teachers & catechists", description: "Free worksheets and lesson resources." },
   ] },
@@ -65,6 +64,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
           <Link prefetch={false} href="/resources" onClick={close} className="nav-link" aria-current={isCurrent("/resources") || pathname.startsWith("/saints/") ? "page" : undefined}>Saints directory</Link>
           <Link prefetch={false} href="/patron-saint-of" onClick={close} className="nav-link" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}>Patron saints</Link>
           <Link prefetch={false} href="/saint-of-day" onClick={close} className="nav-link nav-today" aria-current={isCurrent("/saint-of-day") ? "page" : undefined}><span className="nav-today-dot" aria-hidden />Saint of the day</Link>
+          <Link prefetch={false} href="/blog" onClick={close} className="nav-link" aria-current={isCurrent("/blog") ? "page" : undefined}>Blog</Link>
           {GROUPS.map(group => <div className="nav-group" key={group.id} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setPanel(current => current === group.id ? null : current); }}>
             <button className="nav-link nav-disclosure" data-active={group.links.some(link => isCurrent(link.href)) || undefined} aria-expanded={panel === group.id} aria-controls={`nav-${group.id}`} onClick={event => { panelToggle.current = event.currentTarget; setPanel(panel === group.id ? null : group.id); }}>{group.label}<Chevron /></button>
             <div id={`nav-${group.id}`} className="nav-panel" hidden={panel !== group.id}><p className="nav-group-label">{group.label}</p>{groupLinks(group)}</div>
