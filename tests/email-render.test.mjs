@@ -31,6 +31,12 @@ test('reviewed Blessed email retains its title and omits absent devotional field
     assert.ok(output.includes('(18+)'));
   }
   assert.ok(result.html.includes('https://example.org/brand/discord.png'));
+  for (const output of [result.html, result.text]) {
+    assert.ok(output.includes('https://www.pinterest.com/saintdiscoveryquiz/'));
+    assert.ok(output.indexOf('https://x.com/saintdiscovery') < output.indexOf('https://www.pinterest.com/saintdiscoveryquiz/'));
+  }
+  assert.ok(result.html.includes('https://example.org/brand/pinterest.png'));
+  assert.match(result.html, /aria-label="Follow Saint Discovery on Pinterest"/);
 });
 
 test('available tagline and prayer survive rendering with HTML escaping', () => {

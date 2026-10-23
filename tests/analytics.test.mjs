@@ -86,6 +86,35 @@ test('admin, encoded admin, local and preview loads never configure or load Goog
   }
 });
 
+test('Pinterest result link opens the correct profile and reports placement while preserving inbound campaign tags', () => {
+  const window = browserWindow();
+  window.location.href += '&utm_source=pinterest&utm_medium=social&utm_campaign=saint_of_day&utm_content=2026-10-22_john-paul-ii_pin';
+  boot(window);
+  const analytics = load('lib/analytics.ts', {}, { window });
+  const { default: ResultSocialLinks } = load('components/ResultSocialLinks.tsx', {
+    'react/jsx-runtime': { jsx: (type, props) => ({ type, props }), jsxs: (type, props) => ({ type, props }) },
+    'next/image': 'Image', '@/lib/analytics': analytics,
+    '@/lib/community': loadTs('lib/community.ts'),
+  });
+  for (const placement of ['quiz_result', 'shared_result']) {
+    const links = ResultSocialLinks({ placement }).props.children;
+    const link = links.find(link => link.props.href === 'https://www.pinterest.com/saintdiscoveryquiz/');
+    assert.ok(link);
+    assert.match(link.props['aria-label'], /Follow Saint Discovery on Pinterest/);
+    assert.equal(link.props.target, '_blank');
+    link.props.onClick();
+    const event = window.dataLayer.at(-1);
+    assert.equal(event[1], 'pinterest_profile_click');
+    assert.equal(event[2].link_placement, placement);
+  }
+  const trackedUrl = new URL(window.dataLayer[1][2].page_location);
+  assert.equal(trackedUrl.searchParams.get('utm_source'), 'pinterest');
+  assert.equal(trackedUrl.searchParams.get('utm_medium'), 'social');
+  assert.equal(trackedUrl.searchParams.get('utm_campaign'), 'saint_of_day');
+  assert.equal(trackedUrl.searchParams.get('utm_content'), '2026-10-22_john-paul-ii_pin');
+  assert.equal(trackedUrl.searchParams.has('token'), false);
+});
+
 test('client navigation blocks admin before history listeners and stays blocked until full reload', () => {
   for (const method of ['pushState', 'replaceState']) {
     const window = browserWindow();
