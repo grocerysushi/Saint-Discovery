@@ -7,6 +7,14 @@ import sharp from 'sharp';
 import { allowedImageSource, downloadArtwork, readLimited, storeArtwork } from '../lib/blog-image-import.mjs';
 import { processArtwork, PUBLIC_BASE } from '../lib/blog-image-processing.mjs';
 
+test('AVIF uploads produce WebP variants despite HEIF container metadata', async () => {
+  const source = await sharp({create:{width:32,height:48,channels:3,background:'#987'}}).avif().toBuffer();
+  const artwork = await processArtwork(source);
+  assert.equal(artwork.variants.length, 1);
+  assert.equal((await sharp(artwork.variants[0].buffer).metadata()).format, 'webp');
+  assert.equal(artwork.variants[0].height, 48);
+});
+
 test('remote importer rejects private/untrusted locations and checks every redirect', async () => {
   for (const url of ['http://upload.wikimedia.org/wikipedia/commons/a.jpg','https://127.0.0.1/a','https://www.saintdiscoveryquiz.com/api/blog/admin/posts','https://upload.wikimedia.org.evil.test/wikipedia/commons/a.jpg','https://user:pass@upload.wikimedia.org/wikipedia/commons/a.jpg','https://upload.wikimedia.org:8443/wikipedia/commons/a.jpg','https://example.com/a.jpg','file:///etc/passwd']) assert.equal(allowedImageSource(url), null, url);
   const url = 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Test.jpg';
