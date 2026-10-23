@@ -3095,11 +3095,12 @@
     "article": "https://en.wikipedia.org/wiki/Wolfgang_of_Regensburg"
   },
   "zelie-martin": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/Louis_Martin_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "alt": "Sepia photograph of Louis Martin seated beside a table; not a portrait of Zélie Martin",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Z%C3%A9lie_Martin_1.jpg",
+    "alt": "Sepia photograph of Zélie Martin seated in a dark dress, with one arm resting across her waist",
     "credit": "Unidentified photographer",
     "license": "Public domain",
-    "source": "https://commons.wikimedia.org/wiki/File:Louis_Martin_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Z%C3%A9lie_Martin_1.jpg",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "article": "https://en.wikipedia.org/wiki/Louis_Martin_and_Marie-Az%C3%A9lie_Gu%C3%A9rin"
   },
   "zita": {

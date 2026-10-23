@@ -11,13 +11,17 @@
 ## Changes
 
 - Historical saint artwork now describes what is visible rather than saying “Image associated with …”. Maps, churches, coins, group scenes and shrines are described as those things, not portraits.
-- The Zélie Martin record currently uses a photograph of Louis Martin. Its alternative now explicitly identifies Louis and says it is not a portrait of Zélie; no unverified replacement artwork was introduced.
+- The initial audit found that Zélie Martin's record used a photograph of Louis Martin and labeled it accurately. A subsequent user-authorized correction replaced it with the verified Zélie photograph described below.
 - Directory thumbnails are decorative because the same link contains the saint's name and summary. Full artwork descriptions remain on the biographies. Visible artwork licensing links remain intact; the identical alt sentence is no longer repeated in the figure caption.
 - Website social icons remain decorative inside explicitly named links. Email icons carry full destination/action alternatives because email clients may remove ARIA attributes. Discord's 18+ requirement remains in the label.
 - A failed informative blog image announces “Image unavailable” with its description. A failed decorative image stays hidden from assistive technology.
 - Blog publication validation now rejects missing/null inline-image alternatives while preserving deliberately empty alternatives for decorative images. The editor already asks for descriptive alt text on image insertion and covers.
 
 ## Regression checks
+
+### Zélie Martin portrait correction
+
+Verified on October 23, 2026: [Zélie Martin 1.jpg on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Z%C3%A9lie_Martin_1.jpg) identifies the sitter as Marie-Azélie "Zélie" Martin, circa 1875, by an unidentified photographer. Commons marks the work public domain and supplies the Public Domain Mark 1.0. The original 314 × 470 JPEG is bundled unchanged at `public/images/saint-artwork/zelie-martin-portrait.jpg`; no crop, retouching or invented likeness was introduced. The shared artwork record now points to her photograph, with matching alt text, source and public-domain credit. The old Louis asset is preserved for any other references.
 
 Saint-artwork coverage tests check every published record for non-generic alternatives, honest generated-art labels and valid local media. Email rendering tests verify all four destinations still have meaningful names after ARIA removal. Blog tests cover nested missing alternatives, null alternatives, descriptions and explicit decorative alternatives.
 
