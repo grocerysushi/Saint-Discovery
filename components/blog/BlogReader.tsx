@@ -3,6 +3,8 @@ import { Fragment, type ReactNode, useState } from "react";
 import Link from "next/link";
 import Image from "@/components/StaticImage";
 import BlogAdSense from "./BlogAdSense";
+import ArticleAd from "./ArticleAd";
+import { articleLayout } from "@/lib/blog-layout";
 import type { JSONContent } from "@tiptap/core";
 import { BLOG_CATEGORIES, readingTime, safeBlogUrl, type BlogContent } from "@/lib/blog";
 import type { BlogSummary } from "@/lib/blog-public";
@@ -53,12 +55,14 @@ function renderNode(node: JSONContent, key: number, headingId?: string): ReactNo
 }
 export function ArticleView({ content, date, preview = false }: { content: BlogContent; date?: string | null; preview?: boolean }) {
   const nodes = content.body.content ?? [];
+  const { leadIndex, adAfterIndex } = articleLayout(nodes);
   const sections = nodes.flatMap((node, index) => node.type === "heading" && node.attrs?.level !== 3 ? [{ id: `article-section-${index}`, label: (node.content ?? []).map(n => n.text ?? "").join("") }] : []);
   return <div className="blog-article-wrap">
     {!preview && content.ads && <BlogAdSense />}
     <header className="blog-article-heading"><p className="eyebrow">{content.category} <span> / </span> The Saint Discovery Journal</p><h1>{content.title || "Your story starts here"}</h1><p className="blog-deck">{content.excerpt}</p><div className="blog-byline"><span className="blog-avatar" aria-hidden>✦</span><span>{content.author === "Saint Discovery" ? <Link prefetch={false} href="/about">Saint Discovery</Link> : content.author || "Author"}<small>{date ? new Date(date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Draft preview"} · {readingTime(content.body)} min read</small></span></div></header>
+    {leadIndex === 0 && <div className="blog-prose blog-lead">{renderNode(nodes[0], 0)}</div>}
     {content.cover && <figure className="blog-cover"><div className="blog-cover-frame"><BlogImage key={content.cover} src={content.cover} alt={content.coverAlt} variant="cover" priority /></div>{content.coverCredit && <figcaption>{content.coverCredit}</figcaption>}</figure>}
-    <div className={`blog-reading-grid ${!content.ads ? "blog-no-ads" : ""}`}><article className="blog-prose">{sections.length >= 3 && <nav className="blog-contents" aria-label="In this article"><p>In this article</p><ol>{sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.label}</a></li>)}</ol></nav>}{nodes.map((node, i) => <Fragment key={i}>{renderNode(node, i, `article-section-${i}`)}{content.ads && i === 3 && nodes.length > 5 && <AdSpace format="inline" />}</Fragment>)}<div className="blog-endmark" aria-hidden>✦</div></article>{content.ads && <aside className="blog-reading-aside"><AdSpace format="rectangle" /><div className="blog-related-note"><p className="eyebrow">A life worth knowing</p><h2>Find a saint to walk with.</h2><p>Go deeper with the stories behind the names.</p><Link prefetch={false} href="/resources">Explore the saints →</Link></div></aside>}</div>
+    <div className={`blog-reading-grid ${!content.ads ? "blog-no-ads" : ""}`}><article className="blog-prose">{sections.length >= 3 && <details className="blog-contents"><summary>In this article</summary><nav aria-label="In this article"><ol>{sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.label}</a></li>)}</ol></nav></details>}{nodes.map((node, i) => i === leadIndex ? null : <Fragment key={i}>{renderNode(node, i, `article-section-${i}`)}{!preview && content.ads && i === adAfterIndex && <ArticleAd />}</Fragment>)}<div className="blog-endmark" aria-hidden>✦</div></article>{content.ads && <aside className="blog-reading-aside"><div className="blog-related-note"><p className="eyebrow">A life worth knowing</p><h2>Find a saint to walk with.</h2><p>Go deeper with the stories behind the names.</p><Link prefetch={false} href="/resources">Explore the saints →</Link></div></aside>}</div>
     {!preview && <aside className="blog-editorial-note" aria-label="About this publication"><p>Published by Saint Discovery, an independent Catholic learning project. Our research and writing use AI assistance; source links let you explore the references.</p><Link prefetch={false} href="/editorial-policy">Editorial approach &amp; corrections →</Link></aside>}
     {!preview && <div className="blog-back"><Link prefetch={false} href="/blog">← More from the journal</Link></div>}
   </div>;

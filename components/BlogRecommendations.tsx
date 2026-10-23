@@ -4,8 +4,8 @@ import Link from "next/link";
 import { track } from "@/lib/analytics";
 import type { BlogRecommendation } from "@/lib/blog-recommendations";
 
-type Placement = "result_blog" | "biography_blog";
-function ArticleCard({ post, placement, saintSlug, position }: { post: BlogRecommendation; placement: Placement; saintSlug: string; position: number }) {
+type Placement = "result_blog" | "biography_blog" | "shared_result_blog" | "home_blog" | "confirmation_blog" | "teachers_blog";
+export function ArticleCard({ post, placement, saintSlug = "", position }: { post: BlogRecommendation; placement: Placement; saintSlug?: string; position: number }) {
   const element = useRef<HTMLAnchorElement>(null);
   const seen = useRef(false);
   useEffect(() => {
@@ -22,7 +22,7 @@ function ArticleCard({ post, placement, saintSlug, position }: { post: BlogRecom
   }, [post.slug, saintSlug, placement, position]);
   return <Link prefetch={false} ref={element} href={`/blog/${post.slug}`} className="blog-discovery-card" onClick={() => track("article_recommendation_click", { article_slug: post.slug, saint_slug: saintSlug, link_placement: placement, recommendation_position: position, recommendation_version: "v1" })}>
     <span className="blog-discovery-category">{post.category}</span><h3>{post.title}</h3><p>{post.excerpt}</p>
-    <span className="blog-discovery-reason">{post.reason}</span><span className="text-link">Read the article <span aria-hidden>↗</span></span>
+    {post.reason && <span className="blog-discovery-reason">{post.reason}</span>}<span className="text-link">Read the article <span aria-hidden>↗</span></span>
   </Link>;
 }
 

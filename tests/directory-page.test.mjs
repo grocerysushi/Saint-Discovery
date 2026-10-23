@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadTs } from './load-ts.mjs';
 const saints = await loadTs('lib/saints.ts').getAllSaints();
-const { getDirectoryPage, getDirectoryDailyCards, DIRECTORY_PAGE_SIZE } = loadTs('lib/directory-page.ts');
+const { getDirectoryPage, getDirectoryDailyCards, directoryNameRank, DIRECTORY_PAGE_SIZE } = loadTs('lib/directory-page.ts');
 const { directoryUrl } = loadTs('lib/directory-url.ts');
 
 test('every biography occurs on exactly one stable bounded directory page', () => {
@@ -45,6 +45,18 @@ test('empty searches are valid first pages; malformed or out-of-range pages are 
   for (const page of ['0', '-1', '2.5', 'abc', '01', '100001', ['1', '2']]) assert.equal(getDirectoryPage(saints, { page }).validPage, false);
   assert.equal(getDirectoryPage(saints, { page: '999' }).validPage, false);
   assert.equal(getDirectoryPage(saints, { q: 'zzzz-no-such-saint', page: '2' }).validPage, false);
+});
+
+test('name and alias matches precede incidental descriptions without losing broader matches', () => {
+  const results = [...getDirectoryPage(saints, { q: 'francis' }).saints, ...getDirectoryPage(saints, { q: 'francis', page: '2' }).saints];
+  const ranks = results.map(saint => directoryNameRank(saint, 'francis'));
+  assert.deepEqual(ranks, [...ranks].sort((a, b) => a - b));
+  assert.ok(results.findIndex(s => s.slug === 'francis-of-assisi') < results.findIndex(s => s.slug === 'anthony-of-padua'));
+  assert.equal(getDirectoryPage(saints, { q: 'Francis of Assisi' }).saints[0].slug, 'francis-of-assisi');
+  assert.equal(getDirectoryPage(saints, { q: 'therese of lisieux' }).saints[0].slug, 'therese-of-lisieux');
+  assert.equal(directoryNameRank({ name: 'St. Example', alternate_names: ['Thérèse'] }, 'therese'), 0);
+  assert.equal(directoryNameRank({ name: 'St. Francis Xavier' }, 'francis'), 1);
+  assert.equal(directoryNameRank({ name: 'St. Anthony' }, 'francis'), 4);
 });
 
 test('the daily endpoint projects only the local date cards, without quiz or calendar data', () => {

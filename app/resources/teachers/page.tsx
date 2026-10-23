@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import ContextualReading from "@/components/ContextualReading";
 import Link from "next/link";
 import EducatorDownload from "@/components/EducatorDownload";
 import content from "@/data/educator-resources.json";
@@ -84,6 +85,7 @@ export default function TeacherResources() {
       <p>For a candidate’s next step, use the <Link href="/confirmation-saint-guide">Confirmation saint selection guide</Link> with their sponsor or catechist.</p>
     </section>
 
+    <ContextualReading context="teachers" />
     <section className="guide-sources" aria-labelledby="teacher-sources"><h2 id="teacher-sources">Sources &amp; classroom use</h2>
       <ol>{content.sources.map((source, i) => <li id={`teacher-source-${i + 1}`} key={source.url}><a href={source.url}>{i + 1}. {source.label}</a></li>)}</ol>
       <p>{content.permission}</p><p>Prepared September 23, 2026. These independent teaching resources are not an official diocesan curriculum.</p>

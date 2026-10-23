@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HomePage from "@/components/HomePage";
+import ContextualReading from "@/components/ContextualReading";
 import { getAllSaints } from "@/lib/saints";
 
 export const revalidate = false;
@@ -137,6 +138,7 @@ export default async function Home() {
             <p className="mt-4"><Link href="/patron-saint-of" className="text-link">Find patron saints by cause or vocation →</Link></p>
           </div>
         </section>
+        <ContextualReading context="home" />
         <section className="faq-section editorial-grid">
           <div><h2>About Saint Discovery</h2><Link href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
           <div className="faq-list">{FAQS.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>

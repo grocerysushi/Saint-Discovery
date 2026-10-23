@@ -2,6 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import ts from 'typescript';
 import { loadTs } from './load-ts.mjs';
 
 const { BLOG_ADS_BOOTSTRAP, ADSENSE_CLIENT } = loadTs('lib/blog-ads.ts');
@@ -53,7 +54,40 @@ test('programmatic navigation and browser back cannot carry the ad runtime into 
 test('ad loading is scoped to public rendered blog content and respects the editor ad toggle', () => {
   const reader = fs.readFileSync(new URL('../components/blog/BlogReader.tsx', import.meta.url), 'utf8');
   assert.match(reader, /!preview && content\.ads && <BlogAdSense/);
+  assert.match(reader, /!preview && content\.ads && i === adAfterIndex && <ArticleAd/);
   assert.match(reader, /posts\.length > 0 && <BlogAdSense/);
   const root = fs.readFileSync(new URL('../app/layout.tsx', import.meta.url), 'utf8');
   assert.doesNotMatch(root, /BlogAdSense|BLOG_ADS_BOOTSTRAP/);
+});
+
+test('in-article unit queues one request near view, with no requests on previews or local pages', () => {
+  const code = ts.transpileModule(fs.readFileSync(new URL('../components/blog/ArticleAd.tsx', import.meta.url), 'utf8'), {
+    compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2022 },
+  }).outputText;
+  function mount(href, width = 330, initialized = false) {
+    let effect, intersection, disconnected = 0;
+    const window = {}, loaded = { exports: {} };
+    const element = { hasAttribute: () => initialized, getBoundingClientRect: () => ({ width }) };
+    vm.runInNewContext(code, { module: loaded, exports: loaded.exports, URL, window, location: new URL(href), process: { env: { NODE_ENV: 'production' } },
+      IntersectionObserver: class { constructor(fn) { intersection = fn; } observe() {} disconnect() { disconnected++; } },
+      require(name) {
+        if (name === 'react') return { useRef: () => ({ current: element }), useEffect: fn => { effect = fn; } };
+        if (name === 'react/jsx-runtime') return { jsx: () => null, jsxs: () => null };
+        if (name === '@/lib/blog-ads') return { ADSENSE_CLIENT };
+        throw Error(name);
+      },
+    });
+    loaded.exports.default(); const cleanup = effect();
+    return { window, cleanup, intersect: () => intersection?.([{ isIntersecting: true }]), disconnected: () => disconnected };
+  }
+  const publicUrl = 'https://www.saintdiscoveryquiz.com/blog/prayer-guide';
+  const live = mount(publicUrl);
+  assert.equal(live.window.adsbygoogle, undefined);
+  live.intersect(); live.intersect();
+  assert.equal(live.window.adsbygoogle.length, 1);
+  live.cleanup(); assert.ok(live.disconnected() > 0);
+  for (const href of ['http://localhost:3201/blog/prayer-guide', 'https://preview.vercel.app/blog/prayer-guide', publicUrl + '?preview=1', 'https://www.saintdiscoveryquiz.com/quiz']) {
+    const blocked = mount(href); blocked.intersect(); assert.equal(blocked.window.adsbygoogle, undefined);
+  }
+  for (const ui of [mount(publicUrl, 0), mount(publicUrl, 330, true)]) { ui.intersect(); assert.equal(ui.window.adsbygoogle, undefined); }
 });
