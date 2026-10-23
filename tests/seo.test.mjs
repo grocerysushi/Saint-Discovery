@@ -57,7 +57,7 @@ test('query-led saint snippets are specific without changing unrelated biographi
   const { getSaintReaderGuide } = loadTs('lib/saint-reader-guides.ts');
   const { getBiographyUpdatedOn } = loadTs('lib/directory-editorial.ts');
   const saints = await getAllSaints();
-  const targets = ['joachim', 'jadwiga-of-poland', 'gabriel-the-archangel', 'toribio-romo-gonz-lez', 'kizito', 'jude-thaddeus', 'peter'];
+  const targets = ['joachim', 'jadwiga-of-poland', 'gabriel-the-archangel', 'toribio-romo-gonz-lez', 'kizito', 'jude-thaddeus', 'peter', 'francis-of-assisi', 'charles-lwanga', 'pelagia', 'helena'];
   for (const saint of saints) {
     const guide = getSaintReaderGuide(saint.slug);
     assert.equal(Boolean(guide), targets.includes(saint.slug), saint.slug);

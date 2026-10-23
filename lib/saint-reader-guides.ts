@@ -34,6 +34,106 @@ const munyonyoSource = {
 // Editorial answers to observed reader questions. Keep these separate from
 // identity/patronage records; query demand is not evidence for a historical claim.
 const guides: Record<string, SaintReaderGuide> = {
+  "francis-of-assisi": {
+    title: "St. Francis of Assisi: Birth, Life & October 4 Feast",
+    description: "Francis was born in Assisi in 1181 or 1182. Explore his conversion, Franciscan vocation, October 4 feast, and the difference between his death and feast dates.",
+    introduction: "Saint Francis of Assisi founded the Order of Friars Minor. Born in Assisi in late 1181 or early 1182, he turned from ambitions of wealth and military honor toward a life shaped by the Gospel, poverty and fraternity.",
+    heading: "Francis of Assisi: birth, death and feast dates",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "When and where was Saint Francis of Assisi born?",
+        answer: "Benedict XVI places his birth in Assisi at the end of 1181 or the beginning of 1182. That uncertainty is why reliable biographies give both years. October 4 is his feast day, not an established birthday.",
+        sources: [{ title: "Benedict XVI: Francis of Assisi, January 27, 2010", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html" }],
+      },
+      {
+        question: "Why do accounts mention both October 3 and October 4?",
+        answer: "Francis died on the evening of October 3, 1226, at the Portiuncula. His annual liturgical commemoration is October 4. The Franciscan remembrance of his passing, called the Transitus, concerns his death; it does not establish a second birthday or a different Francis.",
+        sources: [{ title: "Benedict XVI: Francis's final years and death", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html" }, { title: "USCCB: 2026 liturgical calendar", url: "https://www.usccb.org/resources/2026cal.pdf" }],
+      },
+      {
+        question: "When was Francis canonized?",
+        answer: "Pope Gregory IX canonized him in 1228, two years after his death. Learning his dates is a starting point; his own Canticle and the story of his conversion help explain the faith behind his enduring influence.",
+        sources: [{ title: "Benedict XVI: canonization two years after Francis's death", url: "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html" }],
+      },
+    ],
+    related: [{ label: "Read Francis's Canticle of the Creatures", href: "/blog/canticle-of-the-creatures-st-francis-prayer" }, { label: "Compare saints for Confirmation", href: "/confirmation-saint-guide" }],
+  },
+  "charles-lwanga": {
+    title: "St. Charles Lwanga: Uganda Martyr & June 3 Feast",
+    description: "Learn who Charles Lwanga was, how he died at Namugongo in 1886, why he is remembered with companions on June 3, and his connection to Kizito.",
+    introduction: "Saint Charles Lwanga was a Christian leader among the royal pages in Buganda, in present-day Uganda. He encouraged young believers during persecution and was burned to death at Namugongo on June 3, 1886.",
+    heading: "Charles Lwanga: martyrdom, companions and feast day",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "How did Charles Lwanga die, and who ordered his death?",
+        answer: "Charles was burned to death at Namugongo during the persecution ordered by King Mwanga II. The king condemned Christians who would not abandon their faith. The judgment at Munyonyo and the execution at Namugongo were separate events; the place names should not be used interchangeably.",
+        sources: [{ title: "Benedict XV: official beatification account (Italian)", url: "https://www.vatican.va/content/benedict-xv/it/briefs/documents/hf_ben-xv_briefs_19200606_africam-quisnam.html" }, { title: "Munyonyo Martyrs Shrine: from Munyonyo to Namugongo", url: "https://munyonyo-shrine.ug/martyrs/" }],
+      },
+      {
+        question: "When is Saint Charles Lwanga's feast day?",
+        answer: "June 3 is the Memorial of Saint Charles Lwanga and Companions, Martyrs, in the Roman Catholic calendar. The shared title remembers a community of witnesses, not Charles alone. A memorial is a liturgical rank; it does not by itself create an obligation for everyone to attend weekday Mass.",
+        sources: [{ title: "USCCB: June 3 memorial", url: "https://bible.usccb.org/bible/readings/060326.cfm" }],
+      },
+      {
+        question: "What is Charles Lwanga's connection to Saint Kizito?",
+        answer: "Charles baptized Kizito and other future martyrs before their journey to Namugongo. Munyonyo Shrine commemorates those baptisms. Reading Kizito's story alongside Charles's shows how their lives were connected through teaching, encouragement and care during danger.",
+        sources: [munyonyoSource],
+      },
+    ],
+    related: [{ label: "Read the story of Saint Kizito", href: "/saints/kizito" }, { label: "Understand memorials and feast days", href: "/blog/solemnity-feast-memorial-catholic-calendar" }],
+  },
+  pelagia: {
+    title: "St. Pelagia the Penitent: Story & October 8 Feast",
+    description: "Meet Pelagia the Penitent, remembered on October 8. Understand her conversion story, its historical limits, and how she differs from other saints named Pelagia.",
+    introduction: "Pelagia the Penitent is remembered on October 8 for a traditional story of conversion and a hidden life of prayer. She should be distinguished from the martyr Pelagia of Antioch and from Pelagia of Tarsus.",
+    heading: "Which Saint Pelagia? Her story and its limits",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "Are Pelagia the Penitent and Pelagia the martyr the same saint?",
+        answer: "The traditions should be kept distinct. The penitent's story concerns a performer, conversion through Bishop Nonnus and an ascetic life near Jerusalem. The Antiochene martyr has a different account of death under persecution. The shared name and association with Antioch can cause biographies to blend their stories.",
+        sources: [{ title: "Catholic Encyclopedia: the different Pelagia traditions", url: "https://www.newadvent.org/cathen/11601d.htm" }],
+      },
+      {
+        question: "What is known about Pelagia's birth date?",
+        answer: "There is no securely established birth date for Pelagia the Penitent. Her familiar life is a devotional narrative whose historical basis is uncertain. A precise age or date taken from a different Pelagia should not be added to her biography.",
+        sources: [{ title: "Catholic Encyclopedia: historical assessment of the penitent's narrative", url: "https://www.newadvent.org/cathen/11601d.htm" }],
+      },
+      {
+        question: "When is Pelagia the Penitent commemorated?",
+        answer: "October 8 is the commemoration recorded for the penitent in the sources linked here. The Orthodox Church in America's account also uses that date. This does not mean every Catholic parish celebrates her at Mass that day; the local liturgical calendar determines the celebration.",
+        sources: [{ title: "Catholic Encyclopedia: Pelagia's commemoration", url: "https://www.newadvent.org/cathen/11601d.htm" }, { title: "Orthodox Church in America: Pelagia the Penitent, October 8", url: "https://www.oca.org/saints/lives/2025/10/08/102899-venerable-pelagia-the-penitent" }],
+      },
+    ],
+    related: [{ label: "How we distinguish saint traditions and sources", href: "/editorial-policy" }, { label: "Why saint calendars can differ", href: "/editorial-policy/feast-calendars" }],
+  },
+  helena: {
+    title: "St. Helena (Saint Helen): Constantine's Mother & Feast",
+    description: "Who was St. Helena, also called Helen or Elena? Learn about Constantine's mother, her August 18 commemoration and the tradition of finding the True Cross.",
+    introduction: "Saint Helena, also called Helen and known as Elena in Spanish, was the mother of Emperor Constantine. She supported Christian holy places and charitable work. Her Western commemoration is August 18.",
+    heading: "Helena: names, feast dates and the True Cross",
+    reviewedOn: "2026-10-22",
+    questions: [
+      {
+        question: "Do Saint Helena, Saint Helen and Santa Elena refer to the same person?",
+        answer: "They can refer to this saint: the fourth-century mother of Constantine. Vatican News calls her Helena in English and Elena in Spanish. Check that family connection when comparing pages; a similar first name alone does not establish the identity of a saint or a patronage.",
+        sources: [{ title: "Vatican News: Helena, empress", url: "https://www.vaticannews.va/en/saints/08/18/st---helena--empress.html" }, { title: "Vatican News: Elena, emperatriz (Spanish)", url: "https://www.vaticannews.va/es/santos/08/18/s--elena--emperatriz.html" }],
+      },
+      {
+        question: "Is Saint Helena's feast day August 18 or May 21?",
+        answer: "Vatican News identifies August 18 as her Western commemoration and May 21 as her Eastern commemoration. These reflect different calendar traditions. Follow your own parish's calendar rather than assuming one date makes the other a mistake.",
+        sources: [{ title: "Vatican News: Helena's commemoration in East and West", url: "https://www.vaticannews.va/en/saints/08/18/st---helena--empress.html" }],
+      },
+      {
+        question: "Did Saint Helena find the True Cross?",
+        answer: "Christian tradition associates her with its discovery in Jerusalem. The evidence needs care: her pilgrimage and church patronage are recorded by Eusebius, while the discovery story developed in later accounts. Artwork of Helena holding a cross expresses that tradition; it is not contemporary documentation of the event.",
+        sources: [{ title: "Catholic Encyclopedia: Helena and the early evidence", url: "https://www.newadvent.org/cathen/07202b.htm" }],
+      },
+    ],
+    related: [{ label: "How we research biographies and traditions", href: "/editorial-policy" }, { label: "Explore other saints' lives", href: "/resources" }],
+  },
   "jude-thaddeus": {
     title: "St. Jude Thaddeus: October 28 Feast Day & Apostle",
     description: "St. Jude Thaddeus shares his October 28 feast with Simon. Learn which apostle he is, why he is also called Thaddaeus, and where he appears in Scripture.",
