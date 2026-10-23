@@ -281,4 +281,6 @@ body:has(.blog-admin) .site-header,body:has(.blog-admin) .site-footer { display:
   .blog-prose.blog-lead { padding:22px; }
   .blog-contents { padding:8px 18px; }
 }
+/* Keep the in-article unit above Google's 250px minimum on 320px screens. */
+@media(max-width:360px) { .blog-article-ad { margin-inline:-12px; } }
 .blog-feature-art { aspect-ratio:4/3; }
