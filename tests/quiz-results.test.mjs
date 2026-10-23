@@ -5,6 +5,32 @@ import { loadTs } from './load-ts.mjs';
 const { moreQuizSaints, strongestTraits, resultPath } = loadTs('lib/quiz-results.ts');
 const scores = { contemplative: 4, charitable: 8, intellectual: 2, courageous: 6, joyful: 1, mystical: 0 };
 
+test('invitation tracking contains only public identity and fixed attribution', () => {
+  const { resultInvitationUrl } = loadTs('lib/result-sharing.ts');
+  const url = new URL(resultInvitationUrl('francis-of-assisi'));
+  assert.equal(url.pathname, '/quiz/results/francis-of-assisi');
+  assert.deepEqual(Object.fromEntries(url.searchParams), {
+    utm_source: 'reader_share', utm_medium: 'referral',
+    utm_campaign: 'quiz_invite', utm_content: 'francis-of-assisi',
+  });
+  const hostile = new URL(resultInvitationUrl('../name?token=private&scores=9'));
+  assert.equal(hostile.origin, 'https://www.saintdiscoveryquiz.com');
+  assert.equal(hostile.searchParams.has('token'), false);
+  assert.equal(hostile.searchParams.has('scores'), false);
+});
+
+test('card artwork escapes names and fits all published quiz saints without clipping', async () => {
+  const { resultCardSvg, resultCardLines } = loadTs('lib/result-sharing.ts');
+  assert.ok(!resultCardSvg('<script>&"').includes('<script>'));
+  const saints = await loadTs('lib/saints.ts').getAllSaints();
+  const { saintDisplayName } = loadTs('lib/saint-seo.ts');
+  for (const saint of saints.filter(s => s.kind === 'saint' && !s.directory_only)) {
+    const lines = resultCardLines(saintDisplayName(saint));
+    assert.ok(lines.every(line => line.length <= 24), saint.slug);
+    assert.ok(lines.length <= 5, saint.slug);
+  }
+});
+
 test('tab result recovery accepts only valid identities and finite bounded scores', () => {
   const { parseQuizResult } = loadTs('lib/quiz-session.ts');
   const saved = { version: 1, slug: 'francis-of-assisi', gender: 'Male', scores };
