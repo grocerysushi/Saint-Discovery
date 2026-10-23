@@ -177,11 +177,11 @@ export default async function SaintPage({
           aria-label="Breadcrumb"
           className="text-sm text-gold/60 mb-8 flex flex-wrap gap-2"
         >
-          <Link href="/" className="hover:text-gold transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-gold transition-colors">
             Home
           </Link>
           <span aria-hidden>/</span>
-          <Link
+          <Link prefetch={false}
             href="/resources"
             className="hover:text-gold transition-colors"
           >
@@ -222,7 +222,7 @@ export default async function SaintPage({
                       ? patronLinks.map((link, i) => (
                           <span key={link.slug}>
                             {i > 0 && ", "}
-                            <Link
+                            <Link prefetch={false}
                               href={`/patron-saint-of/${link.slug}`}
                               className="hover:text-gold underline decoration-gold/30 underline-offset-2 transition-colors"
                             >
@@ -244,7 +244,7 @@ export default async function SaintPage({
               )}
             </dl>
             {review?.feast_note && <p className="text-sm text-cream-dark/70 mt-3">{review.feast_note}</p>}
-            {saint.feast_day && <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy/feast-calendars" className="underline underline-offset-4">Why dates and liturgical observances can differ</Link></p>}
+            {saint.feast_day && <p className="text-sm text-cream-dark/70 mt-3"><Link prefetch={false} href="/editorial-policy/feast-calendars" className="underline underline-offset-4">Why dates and liturgical observances can differ</Link></p>}
             {review?.recognition_note && <p className="text-sm text-cream-dark/70 mt-3">{review.recognition_note}</p>}
             {saint.known_for && (
               <p className="text-cream-dark leading-relaxed mt-5">
@@ -304,7 +304,7 @@ export default async function SaintPage({
               <p className="eyebrow mb-3">Context &amp; contribution</p>
               <h2 id="contribution-title" className="text-2xl font-heading font-semibold text-cream mb-4">{contribution.title}</h2>
               <div className="text-cream-dark leading-relaxed space-y-4">{contribution.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}</div>
-              <div className="mt-5 text-sm text-cream-dark"><p className="font-semibold mb-2">Explore the sources for this section</p><ul className="space-y-2">{contribution.sources.map(source => <li key={source.url}><a href={source.url} className="text-gold underline underline-offset-4">{source.title} ↗</a></li>)}</ul><p className="mt-3">AI-assisted source comparison updated {contribution.reviewed_on}. <Link href="/editorial-policy" className="underline underline-offset-4">Editorial approach</Link></p></div>
+              <div className="mt-5 text-sm text-cream-dark"><p className="font-semibold mb-2">Explore the sources for this section</p><ul className="space-y-2">{contribution.sources.map(source => <li key={source.url}><a href={source.url} className="text-gold underline underline-offset-4">{source.title} ↗</a></li>)}</ul><p className="mt-3">AI-assisted source comparison updated {contribution.reviewed_on}. <Link prefetch={false} href="/editorial-policy" className="underline underline-offset-4">Editorial approach</Link></p></div>
               {saint.kind === "observance" && <p className="mt-5 text-cream-dark"><strong>For reflection:</strong> {contribution.reflection}</p>}
             </section>
           )}
@@ -319,14 +319,14 @@ export default async function SaintPage({
                 <h3 className="font-semibold text-cream">Try this with the text</h3>
                 <p>{learningGuide.reading.exercise}</p>
                 <p className="text-sm">An original study activity from Saint Discovery, for personal reading, a class, or a Confirmation group.</p>
-                <Link href="/resources/teachers" className="inline-block text-gold underline underline-offset-4">Find printable reflection resources →</Link>
+                <Link prefetch={false} href="/resources/teachers" className="inline-block text-gold underline underline-offset-4">Find printable reflection resources →</Link>
               </div>
             </section>
           )}
 
           <BiographyArticles saint={saint} />
 
-          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5"><Link href="/confirmation-saint-guide" className="btn-secondary">Explore your Confirmation choice →</Link><Link href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link></div></section>}
+          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5"><Link prefetch={false} href="/confirmation-saint-guide" className="btn-secondary">Explore your Confirmation choice →</Link><Link prefetch={false} href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link></div></section>}
           {saint.quotes && saint.quotes.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
@@ -411,14 +411,14 @@ export default async function SaintPage({
               <p className="text-sm text-cream-dark/70 mt-4">{review.status === "needs-identification" ? "Identity investigated" : "Biography source comparison recorded"} on <time dateTime={review.reviewed_on}>{review.reviewed_on}</time>. This is an AI-assisted comparison, not independent human or ecclesiastical approval.</p>
               <details className="mt-4 text-sm text-cream-dark"><summary className="cursor-pointer text-gold">What the recorded review covers</summary><p className="mt-3">{review.review_method}</p><p className="mt-3">A source list helps you check an account; it does not establish that every claim is certain. Follow the biography’s qualifications about historical evidence, traditions and feast calendars.</p></details>
               <p className="mt-4 text-sm"><a className="text-link" href={`mailto:hello@saintdiscoveryquiz.com?subject=${encodeURIComponent(`Correction: ${name}`)}&body=${encodeURIComponent(`Page: ${url}\n\nPassage to check:\n\nSuggested correction and supporting source:\n`)}`}>Suggest a correction to this biography</a></p>
-              <p className="text-sm text-cream-dark/70 mt-3"><Link href="/editorial-policy" className="underline underline-offset-4">How we research these pages and handle corrections</Link> · <Link href="/editorial-policy/corrections" className="underline underline-offset-4">Directory corrections log</Link></p>
+              <p className="text-sm text-cream-dark/70 mt-3"><Link prefetch={false} href="/editorial-policy" className="underline underline-offset-4">How we research these pages and handle corrections</Link> · <Link prefetch={false} href="/editorial-policy/corrections" className="underline underline-offset-4">Directory corrections log</Link></p>
 
             </section>
           )}
 
           {corrections.length > 0 && <section id="updates" aria-labelledby="updates-title" className="mb-10 scroll-mt-24">
             <h2 id="updates-title" className="text-2xl font-heading font-semibold text-cream mb-4">Editorial updates</h2>
-            <ul className="space-y-4 text-cream-dark">{corrections.map(entry => <li key={entry.id}><p className="text-sm"><time dateTime={entry.date}>{entry.date}</time> · {entry.type === "correction" ? "Correction" : "Clarification"}</p><p className="font-semibold">{entry.title}</p><p>{entry.after}</p><Link className="text-link text-sm" href={`/editorial-policy/corrections#${entry.id}`}>Read the change record →</Link></li>)}</ul>
+            <ul className="space-y-4 text-cream-dark">{corrections.map(entry => <li key={entry.id}><p className="text-sm"><time dateTime={entry.date}>{entry.date}</time> · {entry.type === "correction" ? "Correction" : "Clarification"}</p><p className="font-semibold">{entry.title}</p><p>{entry.after}</p><Link prefetch={false} className="text-link text-sm" href={`/editorial-policy/corrections#${entry.id}`}>Read the change record →</Link></li>)}</ul>
           </section>}
 
           <BiographyJourney slug={saint.slug} />
@@ -432,7 +432,7 @@ export default async function SaintPage({
               <h2 id="related-guides-heading" className="text-2xl font-heading font-semibold text-cream mb-4">Explore this saint in everyday life</h2>
               <div className="grid gap-3 sm:grid-cols-2">
                 {relatedGuides.map(guide => (
-                  <Link key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block rounded-xl border border-navy-lighter bg-navy-light/40 p-4 hover:border-gold/40">
+                  <Link prefetch={false} key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block rounded-xl border border-navy-lighter bg-navy-light/40 p-4 hover:border-gold/40">
                     <h3 className="font-semibold text-gold">{guide.title}</h3>
                     <p className="mt-2 text-sm text-cream-dark">{guide.description}</p>
                   </Link>
@@ -449,7 +449,7 @@ export default async function SaintPage({
               <p className="text-cream-dark mb-5">Suggestions based on the site’s quiz themes, not a historical relationship or a measure of holiness.</p>
               <div className="grid gap-3 sm:grid-cols-2">
                 {relatedSaints.map((related) => (
-                  <Link
+                  <Link prefetch={false}
                     key={related.id}
                     href={`/saints/${related.slug}`}
                     className="block p-4 rounded-xl border border-navy-lighter bg-navy-light/40
@@ -476,7 +476,7 @@ export default async function SaintPage({
             >
               Take the Saint Quiz
             </Link>
-            <Link
+            <Link prefetch={false}
               href="/resources"
               className="px-6 py-3 border border-gold/40 text-gold rounded-full text-center hover:bg-gold/10 transition-colors"
             >

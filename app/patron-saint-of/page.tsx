@@ -77,7 +77,7 @@ export default function PatronIndexPage() {
         <section className="mb-12" aria-labelledby="life-guides">
           <h2 id="life-guides" className="font-heading text-3xl text-cream mb-5">Saints for everyday life</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            {PATRON_GUIDES.map(guide => <Link key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block p-6 rounded-xl border border-navy-lighter bg-navy-light/40 hover:border-gold transition-colors">
+            {PATRON_GUIDES.map(guide => <Link prefetch={false} key={guide.slug} href={`/patron-saint-of/${guide.slug}`} className="block p-6 rounded-xl border border-navy-lighter bg-navy-light/40 hover:border-gold transition-colors">
               <h3 className="font-heading text-xl text-cream mb-3">{guide.label} <span aria-hidden="true">→</span></h3>
               <p className="text-sm text-cream-dark leading-relaxed">{guide.description}</p>
             </Link>)}
@@ -90,7 +90,7 @@ export default function PatronIndexPage() {
           </h2>
           <div className="flex flex-wrap gap-2">
             {FEATURED_PATRON_TOPICS.map((t) => (
-              <Link
+              <Link prefetch={false}
                 key={t.slug}
                 href={`/patron-saint-of/${t.slug}`}
                 className="px-4 py-2 rounded-full bg-navy-light border border-navy-lighter
@@ -107,7 +107,7 @@ export default function PatronIndexPage() {
             <h2 className="text-gold font-heading text-2xl mb-3">{letter}</h2>
             <div className="patron-links">
               {groups.get(letter)!.map((t) => (
-                <Link
+                <Link prefetch={false}
                   key={t.slug}
                   href={`/patron-saint-of/${t.slug}`}
                   className="text-sm text-cream-dark hover:text-gold transition-colors"

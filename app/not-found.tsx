@@ -28,7 +28,7 @@ export default function NotFound() {
           >
             Take the Saint Quiz
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/resources"
             className="px-8 py-3 border border-gold/40 text-gold rounded-full hover:bg-gold/10 transition-colors"
           >

@@ -65,14 +65,14 @@ export default function TeacherResources() {
 
     <section className="educator-start" aria-labelledby="classroom-start">
       <div><p className="eyebrow">A little preparation. A meaningful conversation.</p><h2 id="classroom-start">Start with your group.</h2></div>
-      <ol><li><strong>Choose a life.</strong> Preview a biography from the <Link href="/resources">saints directory</Link> for your learners’ reading level.</li><li><strong>Print or share.</strong> Print on US Letter paper at actual size, or fit to A4. Attach the PDF or this page to a Google Classroom assignment.</li><li><strong>Make room for reflection.</strong> Learners can write on paper or answer in a separate document. Personal prayers and reflections can stay private.</li></ol>
+      <ol><li><strong>Choose a life.</strong> Preview a biography from the <Link prefetch={false} href="/resources">saints directory</Link> for your learners’ reading level.</li><li><strong>Print or share.</strong> Print on US Letter paper at actual size, or fit to A4. Attach the PDF or this page to a Google Classroom assignment.</li><li><strong>Make room for reflection.</strong> Learners can write on paper or answer in a separate document. Personal prayers and reflections can stay private.</li></ol>
       <p>Designed for middle and high school groups, with adaptations for younger learners and adult OCIA. Use alongside your parish’s preparation program. The PDFs are printable documents, not interactive forms.</p>
     </section>
 
     <section id="worksheet" className="guide-section educator-online" aria-labelledby="worksheet-heading">
       <p className="eyebrow">Student resource · Online edition</p><h2 id="worksheet-heading">{content.worksheet.title}</h2>
       {content.worksheet.pages.map(page => <div key={page.title}><h3>{page.title}</h3><p>{page.intro}</p><ul className="educator-prompts">{page.fields.map(field => <li key={field.label}>{field.label}</li>)}</ul></div>)}
-      <p>Find a biography in the <Link href="/resources">saints directory</Link>, or explore the <Link href="/saint-of-day">Saint of the Day</Link> together.</p>
+      <p>Find a biography in the <Link prefetch={false} href="/resources">saints directory</Link>, or explore the <Link prefetch={false} href="/saint-of-day">Saint of the Day</Link> together.</p>
     </section>
 
     <section id="lesson" className="guide-section educator-online" aria-labelledby="lesson-heading">
@@ -82,7 +82,7 @@ export default function TeacherResources() {
         <summary>{String(i + 1).padStart(2, "0")} · {page.title}</summary>
         {page.sections.map(section => <div key={section.title}><h3>{section.title}</h3>{section.body.map(body => <p key={body}><CitedText text={body} /></p>)}</div>)}
       </details>)}
-      <p>For a candidate’s next step, use the <Link href="/confirmation-saint-guide">Confirmation saint selection guide</Link> with their sponsor or catechist.</p>
+      <p>For a candidate’s next step, use the <Link prefetch={false} href="/confirmation-saint-guide">Confirmation saint selection guide</Link> with their sponsor or catechist.</p>
     </section>
 
     <ContextualReading context="teachers" />

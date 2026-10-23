@@ -236,7 +236,7 @@ export default function PrivacyPage() {
         </Section>
 
         <p className="pt-4 border-t border-navy-lighter">
-          <Link href="/" className="text-gold hover:text-gold-light underline">
+          <Link prefetch={false} href="/" className="text-gold hover:text-gold-light underline">
             ← Back to the quiz
           </Link>
         </p>

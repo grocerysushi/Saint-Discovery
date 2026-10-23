@@ -6,7 +6,9 @@ import RelatedArticles from "@/components/RelatedArticles";
 import { getPublishedBlogPost } from "@/lib/blog-public";
 import { blogArticleSchema, blogBreadcrumbs, blogDescription, blogImageUrl } from "@/lib/blog-seo";
 import { absoluteUrl, serializeJsonLd } from "@/lib/seo";
-export const revalidate = 300;
+// The editor invalidates published pages on save. Direct backend updates
+// refresh on the next request after an hour, without repeatedly rewriting stable articles.
+export const revalidate = 3600;
 export async function generateStaticParams() { return []; }
 type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -30,10 +32,10 @@ export default async function Page({ params }: Props) {
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd([blogArticleSchema(content, post.publishedAt), blogBreadcrumbs(content.title, content.slug)]) }} />
     <nav className="blog-breadcrumbs" aria-label="Breadcrumb">
       <ol role="list">
-        <li><Link href="/">Home</Link></li>
+        <li><Link prefetch={false} href="/">Home</Link></li>
         <li>
           <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="m6 4 4 4-4 4" /></svg>
-          <Link href="/blog">Blog</Link>
+          <Link prefetch={false} href="/blog">Blog</Link>
         </li>
         <li className="blog-breadcrumb-current">
           <svg aria-hidden="true" focusable="false" viewBox="0 0 16 16"><path d="m6 4 4 4-4 4" /></svg>
@@ -43,6 +45,6 @@ export default async function Page({ params }: Props) {
     </nav>
     <ArticleView content={content} date={post.publishedAt} />
     <RelatedArticles content={content} />
-    <section className="blog-related-links" aria-labelledby="continue-exploring"><h2 id="continue-exploring">Continue exploring your faith</h2><Link href="/resources">Read saint biographies →</Link><Link href="/patron-saint-of">Explore patron-saint guides →</Link><Link href="/confirmation-saint-guide">Choose a Confirmation saint →</Link><Link href="/saint-of-day">Today’s saint and reflection →</Link></section>
+    <section className="blog-related-links" aria-labelledby="continue-exploring"><h2 id="continue-exploring">Continue exploring your faith</h2><Link prefetch={false} href="/resources">Read saint biographies →</Link><Link prefetch={false} href="/patron-saint-of">Explore patron-saint guides →</Link><Link prefetch={false} href="/confirmation-saint-guide">Choose a Confirmation saint →</Link><Link prefetch={false} href="/saint-of-day">Today’s saint and reflection →</Link></section>
   </main>;
 }

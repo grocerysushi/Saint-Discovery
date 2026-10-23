@@ -131,11 +131,11 @@ export default async function PatronTopicPage({
           aria-label="Breadcrumb"
           className="text-sm text-gold/60 mb-8 flex flex-wrap gap-2"
         >
-          <Link href="/" className="hover:text-gold transition-colors">
+          <Link prefetch={false} href="/" className="hover:text-gold transition-colors">
             Home
           </Link>
           <span aria-hidden>/</span>
-          <Link
+          <Link prefetch={false}
             href="/patron-saint-of"
             className="hover:text-gold transition-colors"
           >
@@ -180,7 +180,7 @@ export default async function PatronTopicPage({
 
         <section className="space-y-4 mb-12">
           {saints.map((saint) => (
-            <Link
+            <Link prefetch={false}
               key={saint.slug}
               href={`/saints/${saint.slug}`}
               className="block p-5 rounded-xl border border-navy-lighter bg-navy-light/40
@@ -217,7 +217,7 @@ export default async function PatronTopicPage({
             </h2>
             <div className="flex flex-wrap gap-2">
               {related.map((t) => (
-                <Link
+                <Link prefetch={false}
                   key={t.slug}
                   href={`/patron-saint-of/${t.slug}`}
                   className="px-3 py-1.5 rounded-full border border-navy-lighter text-sm
@@ -242,7 +242,7 @@ export default async function PatronTopicPage({
             >
               Take the Saint Quiz
             </Link>
-            <Link
+            <Link prefetch={false}
               href="/patron-saint-of"
               className="px-6 py-3 border border-gold/40 text-gold rounded-full text-center hover:bg-gold/10 transition-colors"
             >

@@ -117,7 +117,7 @@ export default async function Home() {
           <div className="editorial-copy">
             <p>The saints had their own personalities, struggles, and gifts. Some found God in quiet contemplation. Others lived their faith through bold action, boundless generosity, or everyday joy.</p>
             <p>Our free Catholic personality quiz explores six spiritual traits to introduce you to a saint whose life reflects your own. Your result includes their story, feast day, and a prayer to take with you.</p>
-            <Link href="/about" className="text-link text-gold">The story behind Saint Discovery <span aria-hidden>↗</span></Link>
+            <Link prefetch={false} href="/about" className="text-link text-gold">The story behind Saint Discovery <span aria-hidden>↗</span></Link>
           </div>
         </section>
         <section className="home-about editorial-grid" aria-labelledby="explore-saints">
@@ -132,15 +132,15 @@ export default async function Home() {
                 ["joseph", "St. Joseph"],
                 ["jude-thaddeus", "St. Jude Thaddeus"],
                 ["padre-pio", "St. Padre Pio"],
-              ].map(([slug, name]) => <li key={slug}><Link href={`/saints/${slug}`} className="text-link">{name} <span aria-hidden>↗</span></Link></li>)}
+              ].map(([slug, name]) => <li key={slug}><Link prefetch={false} href={`/saints/${slug}`} className="text-link">{name} <span aria-hidden>↗</span></Link></li>)}
             </ul>
-            <Link href="/resources" className="text-link">Browse the saints directory →</Link>
-            <p className="mt-4"><Link href="/patron-saint-of" className="text-link">Find patron saints by cause or vocation →</Link></p>
+            <Link prefetch={false} href="/resources" className="text-link">Browse the saints directory →</Link>
+            <p className="mt-4"><Link prefetch={false} href="/patron-saint-of" className="text-link">Find patron saints by cause or vocation →</Link></p>
           </div>
         </section>
         <ContextualReading context="home" />
         <section className="faq-section editorial-grid">
-          <div><h2>About Saint Discovery</h2><Link href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
+          <div><h2>About Saint Discovery</h2><Link prefetch={false} href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
           <div className="faq-list">{FAQS.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
         </section>
       </div>

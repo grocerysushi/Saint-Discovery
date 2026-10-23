@@ -26,7 +26,7 @@ export default async function UnsubscribedPage({
           : "We couldn't verify this unsubscribe request. Please use the unsubscribe link in your email, or reply to any of our emails and we'll take care of it."}
       </p>
       <p>
-        <Link href="/" className="text-gold hover:text-gold-light underline">
+        <Link prefetch={false} href="/" className="text-gold hover:text-gold-light underline">
           Back to Saint Discovery →
         </Link>
       </p>

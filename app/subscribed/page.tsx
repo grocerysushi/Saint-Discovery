@@ -37,7 +37,7 @@ export default async function SubscribedPage({
         </p>
         <details className="text-sm text-cream-dark mt-4"><summary className="cursor-pointer">My result email hasn’t arrived</summary><p className="mt-3">Wait at least a minute before requesting another copy. If you already have it, there’s nothing else to do.</p>{retryForm}<p className="mt-3">You can also reopen the confirmation link in your original email for seven days.</p></details>
         <p>
-          <Link
+          <Link prefetch={false}
             href="/resources"
             className="text-gold hover:text-gold-light underline"
           >
@@ -57,7 +57,7 @@ export default async function SubscribedPage({
         </p>
         {retryForm}
         <p>
-          <Link
+          <Link prefetch={false}
             href="/resources"
             className="text-gold hover:text-gold-light underline"
           >

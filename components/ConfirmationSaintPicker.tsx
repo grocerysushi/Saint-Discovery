@@ -49,7 +49,7 @@ export default function ConfirmationSaintPicker({ candidates }: { candidates: Co
           <h3>{saint.name}</h3><p className="text-gold">{saint.reason}</p>
           <p className="text-cream-dark">{saint.description}</p>
           <div className="guide-card-actions">
-            <Link href={`/saints/${saint.slug}`} target="_blank" rel="noopener noreferrer" className="text-link">Read biography <span className="sr-only">(opens in a new tab)</span><span aria-hidden>↗</span></Link>
+            <Link prefetch={false} href={`/saints/${saint.slug}`} target="_blank" rel="noopener noreferrer" className="text-link">Read biography <span className="sr-only">(opens in a new tab)</span><span aria-hidden>↗</span></Link>
             <button type="button" className="btn-secondary" aria-pressed={chosen} aria-label={`${chosen ? "Remove" : "Shortlist"} ${saint.name}`} disabled={!chosen && selected.length >= 3} onClick={() => setSelected(current => chosen ? current.filter(slug => slug !== saint.slug) : current.length < 3 ? [...current, saint.slug] : current)}>{chosen ? "Remove" : "Shortlist +"}</button>
           </div>
         </article>;

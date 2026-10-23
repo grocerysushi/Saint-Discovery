@@ -23,7 +23,7 @@ export default function SaintReaderQuestions({ guide }: { guide: SaintReaderGuid
       </div>}
       <p className="mt-5 text-sm text-cream-dark/70">These answers were compared with the linked sources on <time dateTime={guide.reviewedOn}>{guide.reviewedOn}</time> using AI assistance.</p>
       <nav aria-label="Continue exploring" className="mt-4 flex flex-col gap-3">
-        {guide.related.map(link => <Link key={link.href} href={link.href} className="text-gold underline underline-offset-4">{link.label} →</Link>)}
+        {guide.related.map(link => <Link prefetch={false} key={link.href} href={link.href} className="text-gold underline underline-offset-4">{link.label} →</Link>)}
       </nav>
     </section>
   );

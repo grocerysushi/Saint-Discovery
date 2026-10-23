@@ -28,8 +28,8 @@ export default async function PatronGuideContent({ guide }: { guide: PatronGuide
   return <main className="min-h-screen reading-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />
     <nav aria-label="Breadcrumb" className="text-sm text-gold mb-8 flex flex-wrap gap-2">
-      <Link href="/">Home</Link><span aria-hidden="true">/</span>
-      <Link href="/patron-saint-of">Patron Saints</Link><span aria-hidden="true">/</span>
+      <Link prefetch={false} href="/">Home</Link><span aria-hidden="true">/</span>
+      <Link prefetch={false} href="/patron-saint-of">Patron Saints</Link><span aria-hidden="true">/</span>
       <span className="text-cream-dark">{guide.label}</span>
     </nav>
     <header className="mb-10">
@@ -54,7 +54,7 @@ export default async function PatronGuideContent({ guide }: { guide: PatronGuide
         <ul className="text-sm text-cream-dark space-y-2 mb-5" aria-label="Sources">
           {entry.sources.map(source => <li key={source.url}>Source: <a className="text-gold underline underline-offset-4" href={source.url} target="_blank" rel="noopener noreferrer">{source.title}<span className="sr-only"> (opens in a new tab)</span></a></li>)}
         </ul>
-        <Link className="inline-block text-gold font-semibold underline underline-offset-4" href={`/saints/${entry.slug}`}>Read {entry.saint ? saintDisplayName(entry.saint) : "the saint"}&apos;s biography →</Link>
+        <Link prefetch={false} className="inline-block text-gold font-semibold underline underline-offset-4" href={`/saints/${entry.slug}`}>Read {entry.saint ? saintDisplayName(entry.saint) : "the saint"}&apos;s biography →</Link>
         {entry.saint?.feast_day && <p className="text-sm text-cream-dark mt-3">Feast: {entry.saint.feast_day}</p>}
       </section>)}
     </div>
@@ -81,8 +81,8 @@ export default async function PatronGuideContent({ guide }: { guide: PatronGuide
     </section>
     <section className="border-t border-navy-lighter pt-8">
       <h2 className="font-heading text-2xl text-cream mb-4">Explore another guide</h2>
-      <div className="flex flex-wrap gap-3 mb-6">{PATRON_GUIDES.filter(other => other.slug !== guide.slug).map(other => <Link key={other.slug} href={`/patron-saint-of/${other.slug}`} className="rounded-full border border-navy-lighter px-4 py-2 text-gold hover:border-gold">{other.label}</Link>)}</div>
-      <div className="flex flex-wrap gap-5 text-gold"><Link href="/patron-saint-of" className="underline underline-offset-4">Browse all patronages</Link><Link href="/resources" className="underline underline-offset-4">Saint directory</Link><Link href="/quiz" prefetch={false} className="underline underline-offset-4">Discover a saint with the quiz</Link></div>
+      <div className="flex flex-wrap gap-3 mb-6">{PATRON_GUIDES.filter(other => other.slug !== guide.slug).map(other => <Link prefetch={false} key={other.slug} href={`/patron-saint-of/${other.slug}`} className="rounded-full border border-navy-lighter px-4 py-2 text-gold hover:border-gold">{other.label}</Link>)}</div>
+      <div className="flex flex-wrap gap-5 text-gold"><Link prefetch={false} href="/patron-saint-of" className="underline underline-offset-4">Browse all patronages</Link><Link prefetch={false} href="/resources" className="underline underline-offset-4">Saint directory</Link><Link href="/quiz" prefetch={false} className="underline underline-offset-4">Discover a saint with the quiz</Link></div>
     </section>
   </main>;
 }

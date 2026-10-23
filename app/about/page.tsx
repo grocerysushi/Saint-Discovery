@@ -53,7 +53,7 @@ export default async function AboutPage() {
             The quiz is free, requires no account, and always will. If you want
             to take your result with you, you can have it emailed along with a
             short novena — see our{" "}
-            <Link
+            <Link prefetch={false}
               href="/privacy"
               className="text-gold hover:text-gold-light underline"
             >
@@ -77,8 +77,8 @@ export default async function AboutPage() {
 
         <section className="mt-10 text-cream-dark leading-relaxed space-y-4">
           <h2 className="text-2xl font-heading text-cream">Learn, reflect, and keep exploring</h2>
-          <p>Use the <Link href="/confirmation-saint-guide" className="text-link">Confirmation guide</Link> to compare possible patrons and prepare for a conversation with your sponsor. Our <Link href="/resources/teachers" className="text-link">teacher resources</Link> include a printable reflection worksheet and lesson guide. The <Link href="/blog" className="text-link">blog</Link> connects Catholic teaching and saint stories with practical questions.</p>
-          <p>Saint Discovery is an independent project, not an official Church publication. AI tools assist with research and writing. Read our <Link href="/editorial-policy" className="text-link">editorial approach</Link> for how we use sources, describe uncertainty, and accept corrections. Advertisements may appear on Saint Discovery to support the project. The quiz and learning resources remain free to use.</p>
+          <p>Use the <Link prefetch={false} href="/confirmation-saint-guide" className="text-link">Confirmation guide</Link> to compare possible patrons and prepare for a conversation with your sponsor. Our <Link prefetch={false} href="/resources/teachers" className="text-link">teacher resources</Link> include a printable reflection worksheet and lesson guide. The <Link prefetch={false} href="/blog" className="text-link">blog</Link> connects Catholic teaching and saint stories with practical questions.</p>
+          <p>Saint Discovery is an independent project, not an official Church publication. AI tools assist with research and writing. Read our <Link prefetch={false} href="/editorial-policy" className="text-link">editorial approach</Link> for how we use sources, describe uncertainty, and accept corrections. Advertisements may appear on Saint Discovery to support the project. The quiz and learning resources remain free to use.</p>
         </section>
         <section className="mt-12 pt-8 border-t border-navy-lighter flex flex-col sm:flex-row gap-4">
           <Link
@@ -87,7 +87,7 @@ export default async function AboutPage() {
           >
             Take the Saint Quiz
           </Link>
-          <Link
+          <Link prefetch={false}
             href="/resources"
             className="px-6 py-3 border border-gold/40 text-gold rounded-full text-center hover:bg-gold/10 transition-colors"
           >

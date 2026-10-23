@@ -39,12 +39,12 @@ export default function DirectoryDailySaints() {
     <h2 id="directory-daily-title">Saint of the day</h2>
     {date && !loaded && <p role="status">Loading today’s saints…</p>}
     {loaded && data.failed && <p>Today’s saints could not be loaded. You can still visit the daily reflection.</p>}
-    <div className="grid gap-4">{dailySaints.map(saint => <Link key={saint.slug} href={`/saints/${saint.slug}`} className="result-panel">
+    <div className="grid gap-4">{dailySaints.map(saint => <Link prefetch={false} key={saint.slug} href={`/saints/${saint.slug}`} className="result-panel">
       <h3 className="text-2xl mb-2">{saintDisplayName(saint)} <span className="text-gold" aria-hidden>↗</span></h3>
       {saint.tagline && <p className="text-gold italic mb-3">{saint.tagline}</p>}
       {saint.description && <p className="text-cream-dark leading-relaxed">{saint.description}</p>}
     </Link>)}</div>
     {label && loaded && !data.failed && dailySaints.length === 0 && <p className="text-cream-dark">Our directory does not yet include an entry for {label}. You can still visit the daily reflection.</p>}
-    <p className="mt-5"><Link href="/saint-of-day" className="text-link">Read today’s reflection →</Link></p>
+    <p className="mt-5"><Link prefetch={false} href="/saint-of-day" className="text-link">Read today’s reflection →</Link></p>
   </section>;
 }
