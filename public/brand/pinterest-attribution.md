@@ -1,8 +1,10 @@
 # Pinterest badge
 
-Official primary red badge from Pinterest's brand guidelines:
+White Pinterest badge, consistent with the monochrome option in Pinterest's brand guidelines:
 https://business.pinterest.com/brand-guidelines/
 
-Source: https://images.ctfassets.net/h67z7i6sbjau/3UNVcp6NxYTEeNqBDjkato/8083af72a1b7970d86687240d4075aa6/primary_red_logo.jpg
+SVG source: https://uxwing.com/pinterest-round-white-icon/
+Asset: https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pinterest-round-white-icon.svg
+Usage terms: https://uxwing.com/license/ (website and commercial use permitted; Pinterest retains its trademarks).
 
-The surrounding example canvas was removed and the intact badge resized to 96 x 96 pixels for a 24 x 24 CSS-pixel display. Pinterest owns its trademarks. Used as a linked profile badge with an accessible Follow call to action. PNG also supports email clients.
+The SVG is unmodified. The matching transparent PNG is rasterized at 96 x 96 pixels for email clients, displayed at 24 x 24 CSS pixels. Used only as a linked Pinterest profile badge with an accessible Follow call to action.
