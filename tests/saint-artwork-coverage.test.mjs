@@ -14,8 +14,11 @@ test('every published saint has assigned artwork with honest attribution and a v
     assert.ok(!artwork.symbolic, `Unassigned artwork: ${saint.slug}`);
     assert.ok(artwork.src.startsWith('/images/'), `Unbundled image: ${saint.slug}`);
     assert.ok(artwork.alt && artwork.credit && artwork.license && artwork.source, saint.slug);
+    assert.doesNotMatch(artwork.alt, /^Image associated with|^Artwork depicting|^image$|^photo$/i, saint.slug);
     if (artwork.generated) {
-      assert.match(artwork.alt, /AI-generated artistic interpretation/i, saint.slug);
+      assert.match(artwork.alt, /AI-generated illustration/i, saint.slug);
+      assert.ok(artwork.alt.includes(saint.name), saint.slug);
+      assert.match(artwork.alt, /not a historical portrait/, saint.slug);
       assert.equal(artwork.license, 'AI-generated illustration', saint.slug);
     } else if (/^CC BY/.test(artwork.license)) {
       assert.ok(artwork.source.startsWith('https://'), saint.slug);

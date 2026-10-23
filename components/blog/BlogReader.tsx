@@ -23,7 +23,7 @@ export function BlogImage({ src, alt, className = "", priority = false, variant 
   const loading = priority ? "eager" : "lazy";
   const fetchPriority = priority ? "high" : "auto";
   const optimize = canOptimizeBlogImage(safeSrc) && failedOptimizationSource !== src;
-  if (!safeSrc || failedSource === src) return <div className={`blog-art-placeholder ${className}`} style={variant ? { position: "absolute", inset: 0, minHeight: 0 } : undefined} role="img" aria-label={alt || "Saint Discovery journal"}><span aria-hidden>✦</span></div>;
+  if (!safeSrc || failedSource === src) return <div className={`blog-art-placeholder ${className}`} style={variant ? { position: "absolute", inset: 0, minHeight: 0 } : undefined} role={alt ? "img" : undefined} aria-hidden={alt ? undefined : true} aria-label={alt ? `Image unavailable: ${alt}` : undefined}><span aria-hidden>✦</span></div>;
   // A failed optimizer (including a quota response) does not mean the artwork
   // is unavailable. Retry its approved source once before showing a placeholder.
   if (variant) return <Image key={`${src}:${optimize ? "optimized" : "direct"}`} src={safeSrc} alt={alt} className={className} fill sizes={BLOG_IMAGE_SIZES[variant]} quality={75} unoptimized={!optimize} style={BLOG_IMAGE_STYLE} loading={loading} fetchPriority={fetchPriority} decoding="async" onError={() => optimize ? setFailedOptimizationSource(src) : setFailedSource(src)} />;

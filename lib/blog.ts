@@ -36,6 +36,11 @@ export function publicationError(post: BlogPost, posts: BlogPost[]) {
   if (!bodyText(content.body).trim()) return "Write some post content before publishing.";
   if (!content.author.trim()) return "Add an author name.";
   if (content.cover && (!safeBlogUrl(content.cover, true) || !content.coverAlt.trim())) return "Add a valid cover image and descriptive alt text.";
+  function missingImageAlt(node: JSONContent): boolean {
+    // An explicit empty string marks a decorative image; absent/null alt is not a decision.
+    return (node.type === "image" && typeof node.attrs?.alt !== "string") || (node.content ?? []).some(missingImageAlt);
+  }
+  if (missingImageAlt(content.body)) return "Add alt text to each inline image, or explicitly use empty alt text for a decorative image.";
   if (posts.some(other => other.id !== post.id && !other.trashed && (other.published?.slug === content.slug || other.draft.slug === content.slug))) return "That URL slug is already used by another post.";
   return "";
 }

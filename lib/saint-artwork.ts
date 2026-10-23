@@ -30,7 +30,8 @@ export function getSaintArtwork(saint: { slug: string; name: string }): SaintArt
   if (!image) return symbolicSaintArtwork(saint.name);
   const src = image.src.replace(/\?utm_source=.*$/, "");
   const optimized = (stableAssets as Record<string,string>)[src] ?? src;
-  return { ...image, src: (localAssets as Record<string,string>)[optimized] ?? optimized };
+  return { ...image, src: (localAssets as Record<string,string>)[optimized] ?? optimized,
+    alt: image.generated ? `AI-generated illustration of ${saint.name}; imagined likeness, not a historical portrait` : image.alt };
 }
 
 export function saintArtworkPriority(slug: string): number {

@@ -40,6 +40,19 @@ test('blog links and images never allow executable or protocol-relative URLs', (
   assert.equal(blog.safeBlogUrl('mailto:hello@example.org', true), '');
   assert.equal(blog.safeBlogUrl('data:image/svg+xml;base64,PHN2Zz4=', true), '');
 });
+
+test('inline images require an explicit text alternative, including nested images', () => {
+  const post = draft();
+  const image = { type: 'image', attrs: { src: 'https://example.org/art.jpg' } };
+  post.draft.body.content.push({ type: 'blockquote', content: [image] });
+  assert.match(blog.publicationError(post, []), /inline image/);
+  image.attrs.alt = null;
+  assert.match(blog.publicationError(post, []), /inline image/);
+  image.attrs.alt = 'A nun holding a crucifix';
+  assert.equal(blog.publicationError(post, []), '');
+  image.attrs.alt = ''; // Deliberately decorative, not an omitted attribute.
+  assert.equal(blog.publicationError(post, []), '');
+});
 test('sample posts are valid and word counts ignore images and attributes', () => {
   for (const post of blog.SAMPLE_POSTS) assert.equal(blog.publicationError(post, blog.SAMPLE_POSTS), '');
   assert.equal(blog.wordCount({ type: 'doc', content: [{ type: 'image', attrs: { src: 'https://example.org/image.png' } }] }), 0);

@@ -60,6 +60,23 @@ test('confirmation still carries its actionable subscription link', () => {
   assert.doesNotMatch(result.html, /\{\{|\[\[/);
 });
 
+test('email image links retain meaningful alternatives when clients strip ARIA and images', () => {
+  const email = buildResultEmail({ ...params, saint: {
+    name: 'Joseph', slug: 'joseph', kind: 'saint', description: 'A life to explore.',
+    tagline: '', prayer: null, feast_day: null,
+  } });
+  const withoutAria = email.html.replace(/\saria-[\w-]+="[^"]*"/g, '');
+  const images = [...withoutAria.matchAll(/<img\b[^>]*>/g)];
+  assert.equal(images.length, 4);
+  const labels = images.map(([tag]) => tag.match(/\balt="([^"]*)"/)?.[1]);
+  assert.deepEqual(labels, [
+    'Join Saint Discovery on Discord (18+)',
+    'Follow Saint Discovery on Instagram',
+    'Follow Saint Discovery on X',
+    'Follow Saint Discovery on Pinterest',
+  ]);
+});
+
 test('both email layouts use the current site palette and a fluid email-safe frame', () => {
   const result = buildResultEmail({ ...params, saint: {
     name: 'Joseph', slug: 'joseph', kind: 'saint', description: 'A life to explore.',
