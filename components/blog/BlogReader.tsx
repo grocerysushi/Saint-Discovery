@@ -47,7 +47,7 @@ function renderNode(node: JSONContent, key: number, headingId?: string): ReactNo
     case "hardBreak": return <br key={key} />;
     case "horizontalRule": return <hr key={key} />;
     case "codeBlock": return <pre key={key}><code>{children}</code></pre>;
-    case "image": return safeBlogUrl(node.attrs?.src, true) ? <figure key={key}><BlogImage src={node.attrs!.src} alt={node.attrs?.alt ?? ""} /></figure> : null;
+    case "image": return safeBlogUrl(node.attrs?.src, true) ? <figure key={key}><BlogImage src={node.attrs!.src} alt={node.attrs?.alt ?? ""} />{typeof node.attrs?.credit === 'string' && node.attrs.credit.trim() && <figcaption>{node.attrs.credit}</figcaption>}</figure> : null;
     default: return <Fragment key={key}>{children}</Fragment>;
   }
 }

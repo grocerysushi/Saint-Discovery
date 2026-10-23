@@ -10,6 +10,11 @@ import { downloadBlog, flushPost, storePost, useBlogPosts } from "./blog-store";
 import { blogDescription } from "@/lib/blog-seo";
 import { ArticleView, BlogImage } from "./BlogReader";
 import { BlogAdminShell } from "./BlogAdmin";
+import { optimizeEditorImage } from "./editor-images";
+
+const CreditedImage = Image.extend({
+  addAttributes() { return { ...this.parent?.(), credit: { default: '', rendered: false }, receiptUrl: { default: '', rendered: false } }; },
+});
 
 export function StudioDialog({ title, children, onClose, wide = false }: { title: string; children: ReactNode; onClose: () => void; wide?: boolean }) {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -33,6 +38,10 @@ function WritingDesk({ initial, storageError }: { initial: BlogPost; storageErro
   const [imageTarget, setImageTarget] = useState<"cover" | "body">("body");
   const [url, setUrl] = useState("");
   const [alt, setAlt] = useState("");
+  const [credit, setCredit] = useState("");
+  const [imageFile, setImageFile] = useState<File | null>(null);
+  const [imageBusy, setImageBusy] = useState(false);
+  const imageRequest = useRef<AbortController | null>(null);
   const [dialogError, setDialogError] = useState("");
   function save(next: BlogPost) {
     let result = next;
@@ -45,31 +54,54 @@ function WritingDesk({ initial, storageError }: { initial: BlogPost; storageErro
     save(next); setNotice("");
   }
   const editor = useEditor({
-    extensions: [StarterKit.configure({ heading: { levels: [2, 3] }, link: { openOnClick: false, defaultProtocol: "https" } }), Image.configure({ allowBase64: true }), Placeholder.configure({ placeholder: "Tell your story. Start writing, or use the toolbar to add something…" })],
+    extensions: [StarterKit.configure({ heading: { levels: [2, 3] }, link: { openOnClick: false, defaultProtocol: "https" } }), CreditedImage.configure({ allowBase64: true }), Placeholder.configure({ placeholder: "Tell your story. Start writing, or use the toolbar to add something…" })],
     content: initial.draft.body,
     immediatelyRender: false,
-    editorProps: { attributes: { class: "studio-writing-body", role: "textbox", "aria-label": "Post content", "aria-multiline": "true" } },
+    editorProps: { attributes: { class: "studio-writing-body", role: "textbox", "aria-label": "Post content", "aria-multiline": "true" },
+      handlePaste: (_view, event) => interceptImage(event.clipboardData),
+      handleDrop: (_view, event, _slice, moved) => !moved && interceptImage(event.dataTransfer),
+    },
     onUpdate: ({ editor: instance }) => update({ body: instance.getJSON() }),
   });
   const format = useEditorState({ editor, selector: ({ editor: e }) => ({ bold: e?.isActive("bold"), italic: e?.isActive("italic"), heading: e?.isActive("heading", { level: 2 }), quote: e?.isActive("blockquote"), list: e?.isActive("bulletList"), ordered: e?.isActive("orderedList"), link: e?.isActive("link") }) });
   useEffect(() => {
-    if (!error && !saving) return;
+    if (!error && !saving && !imageBusy) return;
     const warn = (event: BeforeUnloadEvent) => { event.preventDefault(); };
     window.addEventListener("beforeunload", warn);
     return () => window.removeEventListener("beforeunload", warn);
-  }, [error, saving]);
-  function openImage(target: "cover" | "body") { setImageTarget(target); setUrl(""); setAlt(""); setDialogError(""); setDialog("image"); }
-  function insertImage() {
-    const src = safeBlogUrl(url, true);
-    if (!src || !alt.trim()) { setDialogError("Choose an image and add descriptive alt text."); return; }
-    if (imageTarget === "cover") update({ cover: src, coverAlt: alt });
-    else editor?.chain().focus().setImage({ src, alt }).run();
-    setDialog(null);
+  }, [error, saving, imageBusy]);
+  useEffect(() => () => { imageRequest.current?.abort(); }, []);
+  function openImage(target: "cover" | "body") { setImageTarget(target); setImageFile(null); setUrl(""); setAlt(""); setCredit(""); setDialogError(""); setDialog("image"); }
+  function closeImage() { imageRequest.current?.abort(); imageRequest.current = null; setImageBusy(false); setDialog(null); }
+  function interceptImage(data: DataTransfer | null) {
+    const file = Array.from(data?.files ?? []).find(f => f.type.startsWith('image/'));
+    const html = data?.getData('text/html') || '';
+    const image = html.includes('<img') ? new DOMParser().parseFromString(html, 'text/html').querySelector('img') : null;
+    if (!file && !image) return false;
+    openImage('body');
+    if (file) void loadImage(file);
+    else { setUrl(image?.getAttribute('src') ?? ''); setAlt(image?.getAttribute('alt') ?? ''); }
+    return true;
+  }
+  async function insertImage() {
+    if (imageBusy) return;
+    if ((!imageFile && !safeBlogUrl(url, true)) || !alt.trim() || !credit.trim()) { setDialogError("Choose an image, add descriptive alt text, and include its credit and reuse license."); return; }
+    const controller = new AbortController(); imageRequest.current = controller;
+    setImageBusy(true); setDialogError('');
+    try {
+      const image = await optimizeEditorImage(imageFile ?? url, controller.signal);
+      if (controller.signal.aborted) return;
+      const attribution = credit.trim() + ' Resized as WebP; full composition retained.';
+      if (imageTarget === "cover") update({ cover: image.src, coverAlt: alt.trim(), coverCredit: attribution });
+      else editor?.chain().focus().insertContent({ type: 'image', attrs: { src: image.src, alt: alt.trim(), credit: attribution, receiptUrl: image.receiptUrl } }).run();
+      setDialog(null); setNotice('Image optimized and added.');
+    } catch (e) { if (!controller.signal.aborted) setDialogError((e as Error).message); }
+    finally { if (imageRequest.current === controller) { imageRequest.current = null; setImageBusy(false); } }
   }
   async function loadImage(file?: File) {
     if (!file) return;
-    if (!["image/jpeg", "image/png", "image/webp"].includes(file.type) || file.size > 750_000) { setDialogError("Choose a JPG, PNG, or WebP image under 750 KB per image."); return; }
-    const reader = new FileReader(); reader.onload = () => { setUrl(String(reader.result)); setDialogError(""); }; reader.onerror = () => setDialogError("The image could not be read."); reader.readAsDataURL(file);
+    if (!["image/jpeg", "image/png", "image/webp", "image/avif", "image/tiff"].includes(file.type) || file.size > 4_000_000) { setImageFile(null); setUrl(''); setDialogError("Choose a JPG, PNG, WebP, AVIF or TIFF image under 4 MB."); return; }
+    setImageFile(file); setUrl(''); setDialogError('');
   }
   async function publish() {
     try {
@@ -121,6 +153,15 @@ function WritingDesk({ initial, storageError }: { initial: BlogPost; storageErro
     {dialog === "preview" && <StudioDialog title="Reading preview" onClose={() => setDialog(null)} wide><div className="studio-preview"><p className="studio-preview-note">Preview of your current draft, including ad placements.</p><ArticleView content={content} date={post.publishedAt} preview /></div></StudioDialog>}
     {dialog === "publish" && <StudioDialog title={post.published ? "Ready to share your changes?" : "Ready for your readers?"} onClose={() => setDialog(null)}><div className="studio-dialog-body"><p className="studio-overline">Publish to the journal</p><h3>{content.title || "Untitled post"}</h3><p>This publishes the current draft for all journal readers. It does not send any emails.</p><p className="studio-publish-url">/blog/{content.slug || "your-post"}</p>{(dialogError || publicationError(post, posts ?? [])) && <p className="studio-error" role="alert">{dialogError || publicationError(post, posts ?? [])}</p>}<button className="studio-primary" disabled={!!publicationError(post, posts ?? []) || !!error} onClick={publish}>Publish →</button></div></StudioDialog>}
     {dialog === "link" && <StudioDialog title="Add a link" onClose={() => setDialog(null)}><form className="studio-dialog-body" onSubmit={e => { e.preventDefault(); setLink(); }}><label>Link destination<input autoFocus value={url} onChange={e => setUrl(e.target.value)} placeholder="https://… or /saints/francis-of-assisi" /></label><p>Links apply to selected text. With no selection, a new link is inserted. Clear the field to remove a selected link.</p>{dialogError && <p role="alert" className="studio-error">{dialogError}</p>}<button className="studio-primary" type="submit">Save link</button></form></StudioDialog>}
-    {dialog === "image" && <StudioDialog title={imageTarget === "cover" ? "Add a cover image" : "Add an image"} onClose={() => setDialog(null)}><form className="studio-dialog-body" onSubmit={e => { e.preventDefault(); insertImage(); }}><label>Upload an image<input type="file" accept="image/jpeg,image/png,image/webp" onChange={e => void loadImage(e.target.files?.[0])} /><small>JPG, PNG, or WebP · up to 750 KB</small></label><label>Or use an image URL<input value={url.startsWith("data:") ? "" : url} onChange={e => setUrl(e.target.value)} placeholder="https://…" /></label>{url && <div className="studio-image-preview"><BlogImage key={url} src={url} alt={alt || "Selected image preview"} /></div>}<label>Alt text<input required value={alt} onChange={e => setAlt(e.target.value)} placeholder="Describe what is in the image" /></label><p>Use artwork or photography you have permission to publish.</p>{dialogError && <p role="alert" className="studio-error">{dialogError}</p>}<button className="studio-primary" type="submit">Insert image</button></form></StudioDialog>}
+    {dialog === "image" && <StudioDialog title={imageTarget === "cover" ? "Add a cover image" : "Add an image"} onClose={closeImage}><form className="studio-dialog-body" onSubmit={e => { e.preventDefault(); void insertImage(); }} aria-busy={imageBusy}>
+      <label>Upload an image<input disabled={imageBusy} type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/tiff" onChange={e => void loadImage(e.target.files?.[0])} /><small>JPG, PNG, WebP, AVIF or TIFF · up to 4 MB</small></label>
+      {imageFile && <p>{imageFile.name} selected</p>}
+      <label>Or use an image URL<input disabled={imageBusy} value={url} onChange={e => { setImageFile(null); setUrl(e.target.value); }} placeholder="https://…" /><small>Wikimedia Commons, The Met, or images already on this site. For other sources, upload the downloaded file.</small></label>
+      <label>Alt text<input disabled={imageBusy} required maxLength={1000} value={alt} onChange={e => setAlt(e.target.value)} placeholder="Describe what is in the image" /></label>
+      <label>Image credit and license<textarea disabled={imageBusy} required maxLength={950} value={credit} onChange={e => setCredit(e.target.value)} placeholder="Artist, work title, source URL, and reuse license; or credit your original photograph" /></label>
+      <p>Use images you have permission to publish. Images are compressed automatically, keeping the full composition. Inserted images are stored publicly, even while the post is a draft.</p>
+      {dialogError && <p role="alert" className="studio-error">{dialogError}</p>}
+      <button disabled={imageBusy} className="studio-primary" type="submit">{imageBusy ? 'Optimizing image…' : 'Insert image'}</button>
+    </form></StudioDialog>}
   </>;
 }

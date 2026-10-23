@@ -1,36 +1,21 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import { createHash } from 'node:crypto';
 import { spawnSync } from 'node:child_process';
-import sharp from 'sharp';
+import { processArtwork, PUBLIC_BASE, digest, widthsFor } from '../lib/blog-image-processing.mjs';
 
-export const PUBLIC_BASE = 'https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/';
-export const digest = bytes => createHash('sha256').update(bytes).digest('hex');
-export const widthsFor = width => [...new Set([384, 768, 1280].map(w => Math.min(w, width)))];
+export { PUBLIC_BASE, digest, widthsFor };
 export async function prepareArtwork(bytes, directory) {
-  const original = await sharp(bytes, { limitInputPixels: 40000000 }).metadata();
-  if (!['jpeg', 'png', 'webp', 'avif', 'tiff'].includes(original.format) || (original.pages ?? 1) > 1) throw new Error('Use a single reviewed raster image, not animated artwork.');
-  const normalized = await sharp(bytes, { limitInputPixels: 40000000 }).rotate().png().toBuffer();
-  const { width, height } = await sharp(normalized).metadata();
-  const hash = digest(Buffer.concat([bytes, Buffer.from('blog-webp-v1-q78-70-62-54')])).slice(0, 32);
+  const artwork = await processArtwork(bytes);
   await fs.mkdir(directory, { recursive: true });
-  const originalFile = path.join(directory, `original.${original.format}`);
+  const originalFile = path.join(directory, `original.${artwork.format}`);
   await fs.writeFile(originalFile, bytes);
   const variants = [];
-  for (const w of widthsFor(width)) {
-    let image;
-    for (const quality of [78, 70, 62, 54]) {
-      image = await sharp(normalized).resize({ width: w, withoutEnlargement: true }).webp({ quality }).toBuffer();
-      if (image.length <= 300000) break;
-    }
-    if (image.length > 300000) throw new Error(`The ${w}px image exceeds the 300KB publication budget. Review a simpler source or compression settings.`);
-    const key = `v1-${hash}-${width}x${height}-${w}.webp`;
-    const file = path.join(directory, key);
-    await fs.writeFile(file, image);
-    const dimensions = await sharp(image).metadata();
-    variants.push({ key, file, width: w, height: dimensions.height, bytes: image.length, sha256: digest(image), url: PUBLIC_BASE + key });
+  for (const { buffer, ...variant } of artwork.variants) {
+    const file = path.join(directory, variant.key);
+    await fs.writeFile(file, buffer);
+    variants.push({ ...variant, file });
   }
-  return { version: 1, originalFile, originalSha256: digest(bytes), originalBytes: bytes.length, width, height, variants };
+  return { ...artwork, originalFile, variants };
 }
 
 export async function verifyVariant(variant) {
