@@ -38,6 +38,9 @@ const nextConfig: NextConfig = {
   // Allow an isolated local build when a Windows sync service locks .next.
   distDir: process.env.SAINT_BUILD_DIR || ".next",
   images: {
+    // Raster artwork uses pre-generated srcsets; icons and unknown sources
+    // must never invoke the metered runtime optimizer as a fallback.
+    unoptimized: true,
     remotePatterns: [
       { protocol: "https", hostname: "upload.wikimedia.org", pathname: "/wikipedia/commons/**" },
       // Commons image metadata also returns thumbnails from this dedicated host.
@@ -46,6 +49,9 @@ const nextConfig: NextConfig = {
   },
   turbopack: {
     root: __dirname,
+  },
+  async headers() {
+    return [{ source: "/images/responsive/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] }];
   },
   async redirects() {
     return [

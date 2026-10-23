@@ -14,7 +14,7 @@ import {
   topicTitle,
 } from "@/lib/patronage";
 
-export const revalidate = 86400;
+export const revalidate = false;
 
 export function generateStaticParams() {
   return [...new Set([...PATRON_TOPICS, ...PATRON_GUIDES].map(t => t.slug))].map(topic => ({ topic }));

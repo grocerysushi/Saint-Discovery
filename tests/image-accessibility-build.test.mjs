@@ -8,7 +8,7 @@ test('all built biography images expose the reviewed alternative in server HTML'
   const saints = await loadTs('lib/saints.ts').getAllSaints();
   const { getSaintArtwork } = loadTs('lib/saint-artwork.ts');
   for (const saint of saints) {
-    const html = fs.readFileSync(new URL(`../.next/server/app/saints/${saint.slug}.html`, import.meta.url), 'utf8');
+    const html = fs.readFileSync(new URL(`../${process.env.SAINT_BUILD_DIR || '.next'}/server/app/saints/${saint.slug}.html`, import.meta.url), 'utf8');
     const images = [];
     function walk(node) {
       if (node.tagName === 'img') images.push(Object.fromEntries(node.attrs.map(a => [a.name, a.value])));

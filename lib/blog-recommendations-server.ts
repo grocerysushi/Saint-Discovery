@@ -14,7 +14,7 @@ async function fetchCatalog() {
   return (data ?? []) as unknown as RecommendationPost[];
 }
 export async function getRecommendationCatalog() {
-  return unstable_cache(fetchCatalog, ["blog-recommendation-catalog-v1", blogConfig().baseUrl], { revalidate: 60 })();
+  return unstable_cache(fetchCatalog, ["blog-recommendation-catalog-v1", blogConfig().baseUrl], { revalidate: 240 })();
 }
 
 // Server-rendered biographies need fresh reading links without reducing every

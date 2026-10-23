@@ -28,7 +28,7 @@ interface ExtendedContent {
 }
 const EXTENDED = saintExtended as unknown as Record<string, ExtendedContent>;
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export async function generateStaticParams() {
   return getAllSaintSlugs().map(slug => ({ slug }));

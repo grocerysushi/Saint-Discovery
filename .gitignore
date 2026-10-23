@@ -12,9 +12,11 @@
 
 # testing
 /coverage
+/.cache/
 
 # next.js
 /.next/
+/.next-usage/
 /.next-daily/
 /.next-languages/
 /.next-languages-build/

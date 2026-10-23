@@ -4,7 +4,7 @@ import { absoluteUrl, serializeJsonLd, socialMetadata } from "@/lib/seo";
 import { FEATURED_PATRON_TOPICS, PATRON_TOPICS, titleCaseLabel } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 
-export const revalidate = 86400;
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Patron Saints by Cause and Guides for Everyday Life",

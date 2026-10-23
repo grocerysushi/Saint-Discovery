@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "images:prepare": "node scripts/prepare-static-images.mjs",
     "dev": "next dev",
     "build": "npm run directory:check && next build",
     "start": "next start",

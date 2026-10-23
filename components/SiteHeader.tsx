@@ -52,7 +52,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     return () => { document.removeEventListener("keydown", onKey); document.removeEventListener("pointerdown", onPointer); breakpoint.removeEventListener("change", onResize); };
   }, [open, panel]);
   const groupLinks = (group: typeof GROUPS[number]) => group.links.map(link => (
-    <Link key={link.href} href={link.href} onClick={close} className="nav-destination" aria-current={isCurrent(link.href) ? "page" : undefined}>
+    <Link prefetch={false} key={link.href} href={link.href} onClick={close} className="nav-destination" aria-current={isCurrent(link.href) ? "page" : undefined}>
       <span><strong>{link.label}</strong><span className="nav-description">{link.description}</span></span>
     </Link>
   ));
@@ -60,24 +60,24 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     <header ref={header} className="site-header site-header-refresh" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
       <a href="#main-content" className="skip-to-content">Skip to content</a>
       <div className="site-width header-inner">
-        <Link href="/" className="brand notranslate" translate="no" lang="en" dir="ltr" aria-label="Saint Discovery home" onClick={close}><span className="brand-name">Saint Discovery</span></Link>
+        <Link prefetch={false} href="/" className="brand notranslate" translate="no" lang="en" dir="ltr" aria-label="Saint Discovery home" onClick={close}><span className="brand-name">Saint Discovery</span></Link>
         <nav className="desktop-nav" aria-label="Main">
-          <Link href="/resources" onClick={close} className="nav-link" aria-current={isCurrent("/resources") || pathname.startsWith("/saints/") ? "page" : undefined}>Saints directory</Link>
-          <Link href="/patron-saint-of" onClick={close} className="nav-link" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}>Patron saints</Link>
-          <Link href="/saint-of-day" onClick={close} className="nav-link nav-today" aria-current={isCurrent("/saint-of-day") ? "page" : undefined}><span className="nav-today-dot" aria-hidden />Saint of the day</Link>
+          <Link prefetch={false} href="/resources" onClick={close} className="nav-link" aria-current={isCurrent("/resources") || pathname.startsWith("/saints/") ? "page" : undefined}>Saints directory</Link>
+          <Link prefetch={false} href="/patron-saint-of" onClick={close} className="nav-link" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}>Patron saints</Link>
+          <Link prefetch={false} href="/saint-of-day" onClick={close} className="nav-link nav-today" aria-current={isCurrent("/saint-of-day") ? "page" : undefined}><span className="nav-today-dot" aria-hidden />Saint of the day</Link>
           {GROUPS.map(group => <div className="nav-group" key={group.id} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setPanel(current => current === group.id ? null : current); }}>
             <button className="nav-link nav-disclosure" data-active={group.links.some(link => isCurrent(link.href)) || undefined} aria-expanded={panel === group.id} aria-controls={`nav-${group.id}`} onClick={event => { panelToggle.current = event.currentTarget; setPanel(panel === group.id ? null : group.id); }}>{group.label}<Chevron /></button>
             <div id={`nav-${group.id}`} className="nav-panel" hidden={panel !== group.id}><p className="nav-group-label">{group.label}</p>{groupLinks(group)}</div>
           </div>)}
           <span className="nav-divider" aria-hidden />
-          <Link href="/quiz" prefetch={false} className="btn-primary header-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}>Take the quiz</Link>
+          <Link prefetch={false} href="/quiz" className="btn-primary header-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}>Take the quiz</Link>
         </nav>
         <div className="header-tools"><LanguageSwitcher pathname={pathname} onOpen={close} />
-        <div className="header-mobile-actions"><Link href="/quiz" prefetch={false} onClick={close} className="btn-primary header-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}>Take the quiz</Link>
+        <div className="header-mobile-actions"><Link prefetch={false} href="/quiz" onClick={close} className="btn-primary header-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}>Take the quiz</Link>
         <button ref={toggle} className="menu-toggle" onClick={() => setOpen(!open)} aria-expanded={open} aria-controls="mobile-nav" aria-label={open ? "Close menu" : "Open menu"}><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden><path d={open ? "M6 6l12 12M6 18L18 6" : "M4 8h16M4 16h16"} /></svg></button></div></div>
       </div>
       <nav id="mobile-nav" className="mobile-nav" aria-label="Mobile" hidden={!open}>
-        <div className="mobile-nav-inner"><Link href="/quiz" prefetch={false} onClick={close} className="nav-destination mobile-menu-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}><strong>Take the quiz</strong></Link><Link href="/resources" onClick={close} className="nav-destination" aria-current={isCurrent("/resources") ? "page" : undefined}><strong>Saints directory</strong></Link><Link href="/patron-saint-of" onClick={close} className="nav-destination" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}><strong>Patron saints</strong></Link><div className="mobile-nav-shortcuts"><Link href="/saint-of-day" onClick={close} className="nav-link nav-today" aria-current={isCurrent("/saint-of-day") ? "page" : undefined}><span className="nav-today-dot" aria-hidden />Saint of the day</Link><Link href="/blog" onClick={close} className="nav-link" aria-current={isCurrent("/blog") ? "page" : undefined}>Blog</Link></div>
+        <div className="mobile-nav-inner"><Link prefetch={false} href="/quiz" onClick={close} className="nav-destination mobile-menu-quiz" aria-current={isCurrent("/quiz") ? "page" : undefined}><strong>Take the quiz</strong></Link><Link prefetch={false} href="/resources" onClick={close} className="nav-destination" aria-current={isCurrent("/resources") ? "page" : undefined}><strong>Saints directory</strong></Link><Link prefetch={false} href="/patron-saint-of" onClick={close} className="nav-destination" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}><strong>Patron saints</strong></Link><div className="mobile-nav-shortcuts"><Link prefetch={false} href="/saint-of-day" onClick={close} className="nav-link nav-today" aria-current={isCurrent("/saint-of-day") ? "page" : undefined}><span className="nav-today-dot" aria-hidden />Saint of the day</Link><Link prefetch={false} href="/blog" onClick={close} className="nav-link" aria-current={isCurrent("/blog") ? "page" : undefined}>Blog</Link></div>
         {GROUPS.map(group => <section className="mobile-nav-group" key={group.id} aria-labelledby={`mobile-${group.id}`}><h2 id={`mobile-${group.id}`} className="nav-group-label">{group.label}</h2>{groupLinks(group)}</section>)}</div>
       </nav>
     </header>

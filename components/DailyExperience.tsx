@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "@/components/StaticImage";
 import Link from "next/link";
 import { localDateKey } from "@/lib/calendar-date";
 import { saintDisplayName } from "@/lib/saint-seo";

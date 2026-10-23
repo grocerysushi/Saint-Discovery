@@ -10,7 +10,7 @@ export async function GET(request: NextRequest) {
     const saint = await getSaintBySlug(slug);
     if (!saint || saint.kind === "unresolved" || saint.kind === "observance") return NextResponse.json({ posts: [] }, { status: 404 });
     const posts = recommendBlogPosts(saint, await getRecommendationCatalog());
-    return NextResponse.json({ posts }, { headers: { "Cache-Control": "public, max-age=0, s-maxage=60" } });
+    return NextResponse.json({ posts }, { headers: { "Cache-Control": "public, max-age=60, s-maxage=240" } });
   } catch {
     return NextResponse.json({ posts: [] }, { status: 503, headers: { "Cache-Control": "no-store" } });
   }

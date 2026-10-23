@@ -20,7 +20,7 @@ function ArticleCard({ post, placement, saintSlug, position }: { post: BlogRecom
     observer.observe(element.current);
     return () => observer.disconnect();
   }, [post.slug, saintSlug, placement, position]);
-  return <Link ref={element} href={`/blog/${post.slug}`} className="blog-discovery-card" onClick={() => track("article_recommendation_click", { article_slug: post.slug, saint_slug: saintSlug, link_placement: placement, recommendation_position: position, recommendation_version: "v1" })}>
+  return <Link prefetch={false} ref={element} href={`/blog/${post.slug}`} className="blog-discovery-card" onClick={() => track("article_recommendation_click", { article_slug: post.slug, saint_slug: saintSlug, link_placement: placement, recommendation_position: position, recommendation_version: "v1" })}>
     <span className="blog-discovery-category">{post.category}</span><h3>{post.title}</h3><p>{post.excerpt}</p>
     <span className="blog-discovery-reason">{post.reason}</span><span className="text-link">Read the article <span aria-hidden>↗</span></span>
   </Link>;
@@ -43,7 +43,7 @@ export default function BlogRecommendations({ saintSlug, placement, initialPosts
   const headingId = `blog-discovery-${placement}`;
   return <section className="blog-discovery" aria-labelledby={headingId}>
     <div className="blog-discovery-heading"><div><p className="eyebrow">From the Saint Discovery blog</p><h2 id={headingId}>Keep exploring your faith</h2></div>
-      <Link href="/blog" className="text-link" onClick={() => track("blog_discovery_click", { saint_slug: saintSlug, link_placement: placement, recommendation_version: "v1" })}>Browse all articles <span aria-hidden>→</span></Link>
+      <Link prefetch={false} href="/blog" className="text-link" onClick={() => track("blog_discovery_click", { saint_slug: saintSlug, link_placement: placement, recommendation_version: "v1" })}>Browse all articles <span aria-hidden>→</span></Link>
     </div>
     <p className="blog-discovery-intro">Practical guides to prayer, the saints, and living the Catholic faith.</p>
     {posts.length > 0 && <div className="blog-discovery-grid">{posts.map((post, index) => <ArticleCard key={`${saintSlug}:${post.slug}`} post={post} saintSlug={saintSlug} placement={placement} position={index + 1} />)}</div>}

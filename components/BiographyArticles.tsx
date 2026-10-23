@@ -1,5 +1,5 @@
 import BlogRecommendations from "./BlogRecommendations";
-import { getReadingCatalog } from "@/lib/blog-recommendations-server";
+import catalog from "@/lib/data/blog-artwork-catalog.json";
 import { recommendBlogPosts } from "@/lib/blog-recommendations";
 import type { Saint } from "@/lib/types";
 
@@ -7,6 +7,5 @@ import type { Saint } from "@/lib/types";
 // click/view measurement. A blog outage must not make a biography unavailable.
 export default async function BiographyArticles({ saint }: { saint: Saint }) {
   if (saint.kind === "unresolved" || saint.kind === "observance") return null;
-  const catalog = await getReadingCatalog().catch(() => []);
   return <BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="biography_blog" initialPosts={recommendBlogPosts(saint, catalog)} />;
 }

@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HomePage from "@/components/HomePage";
-import { getSaintOfDay } from "@/lib/saint-of-day";
 import { getAllSaints } from "@/lib/saints";
 
-export const revalidate = 300;
+export const revalidate = false;
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -110,7 +109,7 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(faqJsonLd) }}
       />
-      <HomePage dailySaint={getSaintOfDay()} directoryCount={directoryCount} />
+      <HomePage dailySaint={null} directoryCount={directoryCount} />
       <div className="site-width home-information">
         <section className="home-about editorial-grid">
           <div><h2>Different lives.<br />A shared faith.</h2></div>

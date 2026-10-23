@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Image from "next/image";
+import Image from "@/components/StaticImage";
 import Link from "next/link";
 import { saintDisplayName } from "@/lib/saint-seo";
 import type { DailySaint } from "@/lib/saint-of-day";
@@ -41,7 +41,7 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
       <p className="home-daily-feature-label"><span>Saint of the Day</span>{saint && <span>{saint.feastDay}</span>}</p>
       <h2 id="home-daily-title"><Link href={saint ? `/saints/${saint.slug}` : "/saint-of-day"}>{saint ? saintDisplayName(saint) : "A moment for reflection"}</Link></h2>
       {image && <p className="home-daily-feature-credit">{symbolic ? "Symbolic artwork · Not a portrait" : image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license}</a>}</p>}
-      {!showImage && <p className="home-daily-feature-credit">{saint ? "Artwork unavailable. Discover the story behind the name." : "Our directory has no saint entry for this date. You can still pause for today’s reflection."}</p>}
+      {!showImage && <p className="home-daily-feature-credit">{saint ? "Artwork unavailable. Discover the story behind the name." : "Open today’s reflection to explore a life of faith."}</p>}
       {saint && <p className="daily-directory-note">A daily reading; the liturgical celebration may differ.</p>}
       <Link href="/saint-of-day" className="text-link home-daily-feature-action">Read today’s reflection <span aria-hidden>→</span></Link>
     </figcaption>

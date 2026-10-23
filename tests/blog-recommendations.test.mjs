@@ -193,15 +193,14 @@ test('biography article links are present before effects run and survive a refre
   assert.equal(nodes(ui.render()).filter(n => typeof n.type === 'function').length, 2);
   ui.effects.shift()(); await flush();
   assert.equal(nodes(ui.render()).filter(n => typeof n.type === 'function').length, 2);
-  let fail = false;
   const jsx = (type, props) => ({ type, props });
   const server = load('components/BiographyArticles.tsx', {
     'react/jsx-runtime': { jsx }, './BlogRecommendations': 'Cards',
     '@/lib/blog-recommendations': { recommendBlogPosts },
-    '@/lib/blog-recommendations-server': { getReadingCatalog: async () => { if (fail) throw Error('offline'); return posts; } },
+    '@/lib/data/blog-artwork-catalog.json': posts,
   });
   assert.equal((await server.default({ saint })).props.initialPosts.length, 2);
-  fail = true;
-  assert.equal((await server.default({ saint })).props.initialPosts.length, 0);
+  // Static HTML keeps its build-time links even when the live service is offline.
+  assert.equal((await server.default({ saint })).props.initialPosts.length, 2);
   assert.equal(await server.default({ saint: { ...saint, kind: 'observance' } }), null);
 });

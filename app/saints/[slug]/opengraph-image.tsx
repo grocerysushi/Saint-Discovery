@@ -5,7 +5,8 @@ import { saintDisplayName } from "@/lib/saint-seo";
 export const alt = "Saint biography and sources on Saint Discovery";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const revalidate = 86400;
+export const revalidate = false;
+export const dynamic = "force-static";
 
 export default async function SaintImage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
