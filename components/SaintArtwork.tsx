@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import type { SaintArtwork as Artwork } from "@/lib/saint-artwork";
 
-export type ArtworkPreview = Pick<Artwork, "src" | "alt" | "symbolic" | "generated">;
+export type ArtworkPreview = Pick<Artwork, "src" | "alt" | "symbolic" | "generated" | "unoptimized">;
 
 export function SaintArtworkThumbnail({ artwork }: { artwork: ArtworkPreview }) {
   const [failedSource, setFailedSource] = useState<string | null>(null);
@@ -14,6 +14,7 @@ export function SaintArtworkThumbnail({ artwork }: { artwork: ArtworkPreview }) 
   return <span className="catalogue-artwork" data-symbolic={symbolic || undefined}>
     <Image src={symbolic ? "/images/saint-symbolic.svg" : artwork.src}
       alt=""
+      unoptimized={artwork.unoptimized}
       width={320} height={240} sizes="(max-width: 760px) 90vw, 240px" loading="lazy"
       onError={() => setFailedSource(artwork.src)} />
     {(symbolic || artwork.generated) && <span>{symbolic ? "Symbolic artwork" : "AI illustration"}</span>}
@@ -26,6 +27,7 @@ export default function SaintArtworkFigure({ artwork, name }: { artwork: Artwork
   return <figure className="biography-artwork" data-symbolic={symbolic || undefined}>
     <Image src={symbolic ? "/images/saint-symbolic.svg" : artwork.src}
       alt={symbolic ? `Symbolic cross and light for ${name}; not a portrait` : artwork.alt}
+      unoptimized={artwork.unoptimized}
       width={960} height={720} sizes="(max-width: 760px) 90vw, 640px"
       onError={() => setFailedSource(artwork.src)} />
     <figcaption>{symbolic ? <><strong>Symbolic artwork · Not a portrait.</strong> Original cross and light illustration by Saint Discovery. A verified reusable likeness has not been assigned{failedSource ? " or could not be loaded" : ""}.</>

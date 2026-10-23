@@ -21,6 +21,8 @@
 
 ### Zélie Martin portrait correction
 
+Live deployment testing found that Vercel's image optimizer returned HTTP 402 for the new image while its original local URL returned HTTP 200. This small 83 KB portrait is explicitly served without optimization on both biography and directory views; other artwork retains its current optimization behavior.
+
 Verified on October 23, 2026: [Zélie Martin 1.jpg on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Z%C3%A9lie_Martin_1.jpg) identifies the sitter as Marie-Azélie "Zélie" Martin, circa 1875, by an unidentified photographer. Commons marks the work public domain and supplies the Public Domain Mark 1.0. The original 314 × 470 JPEG is bundled unchanged at `public/images/saint-artwork/zelie-martin-portrait.jpg`; no crop, retouching or invented likeness was introduced. The shared artwork record now points to her photograph, with matching alt text, source and public-domain credit. The old Louis asset is preserved for any other references.
 
 Saint-artwork coverage tests check every published record for non-generic alternatives, honest generated-art labels and valid local media. Email rendering tests verify all four destinations still have meaningful names after ARIA removal. Blog tests cover nested missing alternatives, null alternatives, descriptions and explicit decorative alternatives.

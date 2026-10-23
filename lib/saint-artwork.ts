@@ -8,7 +8,7 @@ import { canonicalSaintSlug } from "@/lib/saint-reviews";
 
 export interface SaintArtwork {
   src: string; alt: string; credit: string; license: string; source: string;
-  licenseUrl?: string; generated?: boolean; symbolic?: boolean;
+  licenseUrl?: string; generated?: boolean; symbolic?: boolean; unoptimized?: boolean;
 }
 const historical = { ...historicalImages, ...imageOverrides, ...addedImages } as Record<string, SaintArtwork>;
 const generated = generatedImages as Record<string, SaintArtwork>;
