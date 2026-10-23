@@ -52,6 +52,7 @@ export const metadata: Metadata = {
   publisher: siteConfig.name,
   other: {
     "google-adsense-account": "ca-pub-6122544703023536",
+    "p:domain_verify": "71f9af1a803aa3e644bf22bed837aaf9",
   },
   alternates: {
     canonical: "/",
