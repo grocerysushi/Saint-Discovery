@@ -4,7 +4,7 @@ export interface SaintReaderGuide {
   introduction: string;
   heading: string;
   reviewedOn: string;
-  questions: { question: string; answer: string; sources: { title: string; url: string }[] }[];
+  questions: { question: string; answer: string; sources: { title: string; url: string }[]; readMore?: { label: string; href: string } }[];
   related: { label: string; href: string }[];
   prayer?: string;
 }
@@ -219,6 +219,7 @@ const guides: Record<string, SaintReaderGuide> = {
       {
         question: "Are Jadwiga and Hedwig the same saint?",
         answer: "In this biography, yes: Jadwiga is the Polish name of the queen called Hedwig in English Vatican texts. The reference to Poland's queen matters because Saint Hedwig of Silesia is a different, earlier saint. Look for the person's place and historical setting when comparing accounts.",
+        readMore: { label: "Compare Saint Jadwiga of Poland and Saint Hedwig of Silesia", href: "/blog/saint-hedwig-silesia-jadwiga-poland-difference" },
         sources: [hedwigSource, { title: "Nominis: Hedwig, Queen of Poland, and the distinct Hedwig of Silesia", url: "https://nominis.cef.fr/contenus/saint/10259/Sainte-Hedwige.html" }],
       },
       {

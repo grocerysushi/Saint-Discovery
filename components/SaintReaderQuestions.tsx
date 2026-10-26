@@ -6,10 +6,11 @@ export default function SaintReaderQuestions({ guide }: { guide: SaintReaderGuid
     <section id="quick-answers" aria-labelledby="quick-answers-title" className="mb-10 scroll-mt-24">
       <h2 id="quick-answers-title" className="text-2xl font-heading font-semibold text-cream mb-6">{guide.heading}</h2>
       <div className="space-y-6">
-        {guide.questions.map(({ question, answer, sources }) => (
+        {guide.questions.map(({ question, answer, sources, readMore }) => (
           <div key={question}>
             <h3 className="text-lg font-semibold text-cream mb-2">{question}</h3>
             <p className="text-cream-dark leading-relaxed">{answer}</p>
+            {readMore && <p className="mt-3"><Link prefetch={false} href={readMore.href} className="text-gold underline underline-offset-4">{readMore.label} →</Link></p>}
             <ul className="mt-2 space-y-2 text-sm">
               {sources.map(source => <li key={source.url}><a className="text-gold underline underline-offset-4" href={source.url}>{source.title} ↗</a></li>)}
             </ul>

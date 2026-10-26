@@ -37,7 +37,7 @@ export default async function PatronGuideContent({ guide }: { guide: PatronGuide
       <h1 className="text-4xl md:text-5xl font-heading text-cream leading-tight mb-5">{guide.title}</h1>
       <p className="text-cream-dark leading-relaxed mb-4">{guide.introduction}</p>
       <p className="text-sm text-cream-dark leading-relaxed border-l-2 border-gold pl-4">{guide.distinction}</p>
-      <p className="text-xs text-cream-dark mt-5">By Saint Discovery · Sources checked <time dateTime={guide.reviewedOn}>September 16, 2026</time></p>
+      <p className="text-xs text-cream-dark mt-5">By Saint Discovery · Sources checked <time dateTime={guide.reviewedOn}>{new Intl.DateTimeFormat("en-US", { dateStyle: "long", timeZone: "UTC" }).format(new Date(`${guide.reviewedOn}T00:00:00Z`))}</time></p>
     </header>
     <nav aria-label="On this page" className="flex flex-wrap gap-3 mb-10 text-sm text-gold">
       {entries.map(entry => <a key={entry.slug} href={`#${entry.slug}`} className="underline underline-offset-4">{entry.saint ? saintDisplayName(entry.saint) : entry.slug}</a>)}
