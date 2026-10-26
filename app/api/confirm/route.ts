@@ -16,6 +16,7 @@ import { CONVERSION_COOKIE, CONVERSION_TTL, createConversionReceipt } from "@/li
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+export const maxDuration = 30;
 
 const UNSUB_TTL = 60 * 60 * 24 * 730; // ~2 years (unsubscribe links must last)
 
@@ -101,6 +102,7 @@ export async function POST(request: NextRequest) {
   if (!reservation.allowed) return seeOther(`/subscribed?status=cooldown&retryAfter=${reservation.retryAfter}`, newlyConfirmed, token);
   if (circuitAllows()) {
     const sent = await sendEmail({
+      purpose: "result",
       to: verified.email,
       subject,
       html,

@@ -5,6 +5,7 @@ import { createToken } from "@/lib/emails/tokens";
 import { buildConfirmEmail } from "@/lib/emails/render";
 import { sendEmail } from "@/lib/emails/resend";
 import { emailLinkOrigin } from "@/lib/emails/config";
+import { readSmallBody, RequestBodyTooLarge } from "@/lib/request-body";
 import {
   allowByIp,
   reserveEmailSend,
@@ -14,6 +15,7 @@ import {
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+export const maxDuration = 30;
 
 // Never look up subscription membership here. Existing and new subscribers
 // receive the same response; validation and service errors can still be honest.
@@ -49,11 +51,11 @@ export async function POST(request: NextRequest) {
 
   let raw: string;
   try {
-    raw = await request.text();
-  } catch {
+    raw = await readSmallBody(request);
+  } catch (error) {
+    if (error instanceof RequestBodyTooLarge) return failure(413, "Please check your email address and try again.");
     return failure(400, "Please check your email address and try again.");
   }
-  if (raw.length > 4096) return failure(413, "Please check your email address and try again.");
 
   let data: Record<string, unknown>;
   try {
@@ -97,7 +99,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Accepted by Resend does not mean delivered to the recipient's inbox.
-    const sent = await sendEmail({ to: email, subject, html, text });
+    const sent = await sendEmail({ to: email, subject, html, text, purpose: "confirmation" });
     if (!sent.ok) {
       console.warn("[subscribe] confirmation_send_failed", { code: sent.code });
       return failure(503, "We couldn't send the confirmation email. Please try again in a minute.", 60);

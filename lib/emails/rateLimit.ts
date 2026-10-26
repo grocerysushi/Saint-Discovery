@@ -4,9 +4,8 @@ import crypto from "node:crypto";
 // Honest caveat: on Vercel Fluid Compute a module-scope Map survives across
 // invocations on the SAME warm instance but is NOT shared globally, so a burst
 // spread across instances/regions can slip past. This stops the trivial single-
-// attacker/single-loop case and protects the send quota; swap the internals for
-// Vercel KV / Upstash (INCR+EXPIRE) if real abuse appears — the call sites don't
-// change.
+// attacker/single-loop case. send-budget.ts independently enforces atomic,
+// shared recipient and total-send ceilings in the existing database.
 
 const MAX_MAP = 5000;
 

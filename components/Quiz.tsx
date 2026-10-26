@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useMemo, useReducer, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { getInsforgePublic } from "@/lib/insforge";
 import { type Saint, type QuestionWithOptions, type Option, TRAIT_KEYS } from "@/lib/types";
 import { matchSaint } from "@/lib/scoring";
 import { normalizeQuizScores, shuffleQuizOptions } from "@/lib/quiz-questions";
@@ -9,7 +8,6 @@ import { quizProgressReducer, quizProgressScores } from "@/lib/quiz-progress";
 import { readQuizProgress, writeQuizProgress } from "./quizProgressStorage";
 import { createQuizTracker } from "@/lib/quiz-analytics";
 import quizData from "@/lib/data/quiz.json";
-import saintDbIds from "@/lib/data/saint-db-ids.json";
 import ProgressBar from "./ProgressBar";
 import QuestionCard from "./QuestionCard";
 import OptionButton from "./OptionButton";
@@ -77,12 +75,6 @@ export default function Quiz({ saints, onRestart, onExit }: { saints: Saint[]; o
       saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: normalizedScores });
       writeQuizProgress(null);
       analytics.complete(matched.slug);
-      const dbId = (saintDbIds as Record<string, string>)[matched.slug];
-      if (dbId) {
-        try {
-          void getInsforgePublic().database.from("quiz_results").insert([{ saint_id: dbId, scores: normalizedScores }]);
-        } catch { /* Best-effort logging never interrupts the result. */ }
-      }
     }
   };
   const handleBack = () => {

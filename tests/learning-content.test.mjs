@@ -22,7 +22,8 @@ test('every paired reading destination resolves to a published saint with a real
 });
 
 test('content timestamps use the newest actual revision and do not hide a newer biography behind older supplemental content', () => {
-  for (const slug of ['ignatius-of-loyola', 'peter-faber', 'francis-of-assisi', 'catherine-of-siena']) assert.equal(getProfileUpdatedOn(slug), '2026-10-04', slug);
+  for (const slug of ['ignatius-of-loyola', 'peter-faber', 'catherine-of-siena']) assert.equal(getProfileUpdatedOn(slug), '2026-10-04', slug);
+  assert.equal(getProfileUpdatedOn('francis-of-assisi'), '2026-10-22', 'The later reader-guide revision takes precedence over the October 4 exercise');
   assert.equal(getProfileUpdatedOn('unlisted-person'), undefined);
   assert.equal(getBiographyReview('francis-of-assisi').reviewed_on, '2026-09-16', 'Adding an exercise must not claim a new full biography review');
 });

@@ -17,6 +17,7 @@ function load(file, dependencies = {}, globals = {}) {
 }
 const validation = load('lib/emails/validation.ts');
 const suggestions = load('lib/emails/address-suggestion.ts');
+const smallBody = load('lib/request-body.ts');
 
 test('address suggestions handle observed typo without guessing custom domains', () => {
   assert.equal(suggestions.suggestEmailAddress(' reader@GMAIL.CON '), 'reader@gmail.com');
@@ -49,6 +50,7 @@ function subscribe({ sendOk = true, allow = true, tokenFails = false } = {}) {
     'next/server': { NextResponse: { json: (body, options) => ({ body, ...options }) } },
     '@/lib/saints': { getSaintBySlug: async slug => slug === 'joseph' ? { slug } : null },
     '@/lib/emails/validation': validation,
+    '@/lib/request-body': smallBody,
     '@/lib/emails/tokens': { createToken: () => { if (tokenFails) throw Error('missing secret'); return 'private-token'; } },
     '@/lib/emails/render': { buildConfirmEmail: () => ({ subject: 'Confirm', html: '', text: '' }) },
     '@/lib/emails/resend': { sendEmail: async () => { sends++; return { ok: sendOk, id: 'test-id', code: 'http_503' }; } },
@@ -56,9 +58,9 @@ function subscribe({ sendOk = true, allow = true, tokenFails = false } = {}) {
     '@/lib/emails/rateLimit': { allowByIp: () => true, clientIp: () => 'test', circuitAllows: () => true,
       reserveEmailSend: () => ({ allowed: allow, retryAfter: 45 }) },
   });
-  return { sends: () => sends, run: (body = { email: 'reader@example.org', saintSlug: 'joseph' }) => route.POST({
-    headers: new Headers({ 'content-type': 'application/json' }), text: async () => typeof body === 'string' ? body : JSON.stringify(body),
-  }) };
+  return { sends: () => sends, run: (body = { email: 'reader@example.org', saintSlug: 'joseph' }) => route.POST(new Request('https://example.invalid/api/subscribe', {
+    method: 'POST', headers: { 'content-type': 'application/json' }, body: typeof body === 'string' ? body : JSON.stringify(body),
+  })) };
 }
 
 test('subscription success means accepted; provider/config failures are retryable errors', async () => {
@@ -91,11 +93,59 @@ test('provider acceptance requires message ID and transport errors have safe dia
     [{ ok: false, status: 429, json: async () => ({ message: 'private recipient rejected' }) }, 'http_429'],
     [null, 'transport_error'],
   ]) {
-    const client = load('lib/emails/resend.ts', { './config': config }, { fetch: async (_url, init) => {
+    const client = load('lib/emails/resend.ts', { './config': config, './send-budget': { reserveSharedSend: async () => true } }, { fetch: async (_url, init) => {
       assert.ok(init.signal); if (!result) throw Error('network'); return result;
     } });
-    const response = await client.sendEmail({ to: 'test@example.invalid', subject: 'Test', html: '', text: '' });
+    const response = await client.sendEmail({ to: 'test@example.invalid', subject: 'Test', html: '', text: '', purpose: 'confirmation' });
     assert.equal(response.ok, false); assert.equal(response.code, code);
+  }
+});
+
+test('oversized JSON is rejected by bytes before sending, including multibyte text', async () => {
+  for (const body of ['x'.repeat(4097), JSON.stringify({ email: 'reader@example.org', saintSlug: 'joseph', extra: '€'.repeat(1400) })]) {
+    const route = subscribe();
+    assert.equal((await route.run(body)).status, 413);
+    assert.equal(route.sends(), 0);
+  }
+});
+
+test('stream reader cancels overflowing chunked bodies and trusts no missing length', async () => {
+  let cancelled = false;
+  const body = new ReadableStream({ start(controller) { controller.enqueue(new Uint8Array(4097)); }, cancel() { cancelled = true; } });
+  await assert.rejects(smallBody.readSmallBody({ headers: new Headers(), body }), smallBody.RequestBodyTooLarge);
+  assert.equal(cancelled, true);
+  let read = false;
+  await assert.rejects(smallBody.readSmallBody({ headers: new Headers({ 'content-length': '99999' }), get body() { read = true; } }), smallBody.RequestBodyTooLarge);
+  assert.equal(read, false);
+});
+
+test('shared budget failure prevents every provider call', async () => {
+  let sends = 0;
+  const client = load('lib/emails/resend.ts', {
+    './config': { RESEND_API_KEY: 'fake-key' }, './send-budget': { reserveSharedSend: async () => false },
+  }, { fetch: async () => { sends++; throw Error('Must not send'); } });
+  const result = await client.sendEmail({ to: 'test@example.invalid', purpose: 'result', subject: 'Test', html: '', text: '' });
+  assert.equal(result.code, 'send_budget_unavailable');
+  assert.equal(sends, 0);
+});
+
+test('shared limiter sends only keyed recipient hashes and fails closed on database errors', async () => {
+  const args = [];
+  let outcome = { data: true, error: null };
+  const budget = load('lib/emails/send-budget.ts', {
+    'server-only': {}, 'node:crypto': crypto, './config': { EMAIL_TOKEN_SECRET: 'synthetic-secret' },
+    '@/lib/insforge-admin': { getInsforgeAdmin: () => ({ database: { rpc: async (name, values) => {
+      args.push({ name, values }); if (outcome instanceof Error) throw outcome; return outcome;
+    } } }) },
+  });
+  assert.equal(await budget.reserveSharedSend(' Reader@Example.org ', 'confirmation'), true);
+  assert.equal(await budget.reserveSharedSend('reader@example.org', 'result'), true);
+  assert.equal(args[0].values.p_recipient, args[1].values.p_recipient);
+  assert.match(args[0].values.p_recipient, /^[a-f0-9]{64}$/);
+  assert.doesNotMatch(JSON.stringify(args), /reader@|synthetic-secret/i);
+  for (const value of [{ data: false }, { data: 'true' }, { data: true, error: {} }, new Error('offline')]) {
+    outcome = value;
+    assert.equal(await budget.reserveSharedSend('reader@example.org', 'confirmation'), false);
   }
 });
 

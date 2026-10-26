@@ -1,4 +1,5 @@
 import { RESEND_API_KEY, RESEND_FROM, RESEND_REPLY_TO } from "./config";
+import { reserveSharedSend } from "./send-budget";
 
 // Minimal Resend REST client (no SDK dependency). Notes baked in from the API:
 // - success body is a bare { id } (NOT { data: { id } } — that's an SDK wrapper)
@@ -7,6 +8,7 @@ import { RESEND_API_KEY, RESEND_FROM, RESEND_REPLY_TO } from "./config";
 // - error body shape: { statusCode, name, message }
 
 export interface SendEmailInput {
+  purpose: "confirmation" | "result";
   to: string;
   subject: string;
   html: string;
@@ -23,6 +25,9 @@ export type SendResult =
 
 export async function sendEmail(input: SendEmailInput): Promise<SendResult> {
   if (!RESEND_API_KEY) return { ok: false, error: "RESEND_API_KEY not configured", code: "not_configured" };
+  if (!await reserveSharedSend(input.to, input.purpose)) {
+    return { ok: false, error: "Email send budget unavailable", code: "send_budget_unavailable" };
+  }
 
   const body: Record<string, unknown> = {
     from: RESEND_FROM,
