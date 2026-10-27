@@ -172,8 +172,8 @@ export default function PrivacyPage() {
         </Section>
 
         <Section title="Remembering your quiz in this tab">
-          <p>While you answer, we keep your selected gender, answer-option identifiers, and shuffled option order in this tab’s session storage so you can resume after a refresh. We rebuild your scores from the current quiz content when restoring an attempt. This unfinished progress stays in your browser and is not sent to a server or included in shared links. Choosing Start over or completing the quiz clears it.</p>
-          <p>After you finish the quiz, we keep the matched saint’s identifier, your selected gender, and the six calculated trait scores in this tab’s session storage. This lets you read biographies and return to your result without repeating the quiz. Individual answers are not included in this saved result, and this feature does not send it to a server or include it in shared links.</p>
+          <p>While you answer, we keep your saint gender preference, answer-option identifiers, and shuffled option order in this tab’s session storage so you can resume after a refresh. We rebuild your scores from the current quiz content when restoring an attempt. This unfinished progress stays in your browser and is not sent to a server or included in shared links. Choosing Start over or completing the quiz clears it.</p>
+          <p>After you finish the quiz, we keep the matched saint’s identifier, your saint gender preference, and the six calculated trait scores in this tab’s session storage. This lets you read biographies and return to your result without repeating the quiz. Individual answers are not included in this saved result, and this feature does not send it to a server or include it in shared links.</p>
           <p>Starting a new quiz clears the saved result and unfinished progress. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, progress and results are kept in memory while the page remains open and may be lost on refresh.</p>
         </Section>
         <Section title="Cookies">

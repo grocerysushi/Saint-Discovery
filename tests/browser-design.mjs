@@ -140,12 +140,12 @@ try {
   }
   check('320px reading and controls do not overflow horizontally');
   await page.setViewportSize({width:390,height:844}); await visit('/quiz');
-  await page.getByRole('heading', {name:'What is your gender?', exact:true}).waitFor();
-  await page.getByRole('button', {name:/Male/}).click();
+  await page.getByRole('heading', {name:'Which saints would you like to discover?', exact:true}).waitFor();
+  await page.getByRole('button', {name:'Male saints', exact:true}).click();
   await page.waitForFunction(()=>document.querySelectorAll('.question-options button').length === 4);
-  assert.notEqual(await page.locator('h1').textContent(), 'What is your gender?');
+  assert.notEqual(await page.locator('h1').textContent(), 'Which saints would you like to discover?');
   await page.getByRole('button', {name:/Previous question/}).click();
-  await page.getByRole('heading', {name:'What is your gender?',exact:true}).waitFor();
+  await page.getByRole('heading', {name:'Which saints would you like to discover?',exact:true}).waitFor();
   check('Unchanged quiz opening, first four answer choices and previous-question navigation');
   const clockContext=await browser.newContext({timezoneId:'America/Chicago',viewport:{width:390,height:844}});
   await clockContext.route('**/*',r=>['GET','HEAD','OPTIONS'].includes(r.request().method())&&!r.request().url().includes('litcal.johnromanodorazio.com')?r.continue():r.abort());

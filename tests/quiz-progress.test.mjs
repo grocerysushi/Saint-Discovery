@@ -5,6 +5,15 @@ const{shuffleQuizOptions,normalizeQuizScores}=loadTs('lib/quiz-questions.ts');
 const{parseQuizProgress,serializeQuizProgress,quizProgressScores,quizProgressReducer}=loadTs('lib/quiz-progress.ts');
 const plain=x=>JSON.parse(JSON.stringify(x));
 const attempt={questions:shuffleQuizOptions(questions,()=>0),gender:'Female',answerIds:questions.slice(0,5).map(q=>q.options[1].id),ready:true};
+test('any-gender preference survives recovery and backtracking',()=>{
+ const any={...attempt,gender:'Any'};
+ const restored=parseQuizProgress(serializeQuizProgress(any),questions);
+ assert.equal(restored.gender,'Any');
+ assert.equal(quizProgressReducer({...restored,answerIds:[]},{type:'back'}).gender,null);
+ const {parseQuizResult}=loadTs('lib/quiz-session.ts');
+ const scores=normalizeQuizScores(quizProgressScores(restored),restored.questions);
+ assert.equal(parseQuizResult(JSON.stringify({version:1,slug:'francis-of-assisi',gender:'Any',scores})).gender,'Any');
+});
 test('mid-quiz recovery preserves answer identities and option order and recomputes scores',()=>{
  const saved=serializeQuizProgress(attempt),restored=parseQuizProgress(saved,questions);
  assert.deepEqual(plain(restored),plain(attempt));

@@ -51,7 +51,7 @@ export default function Quiz({ saints, onRestart, onExit }: { saints: Saint[]; o
     analytics.view(currentStep + 1);
   }, [analytics, currentStep, result, ready, saints]);
 
-  const handleGenderSelect = (selected: "Male" | "Female") => {
+  const handleGenderSelect = (selected: "Male" | "Female" | "Any") => {
     if (!ready || selectionLocked.current) return;
     selectionLocked.current = true;
     analytics.answer(1);
@@ -68,7 +68,7 @@ export default function Quiz({ saints, onRestart, onExit }: { saints: Saint[]; o
     if (current + 1 < questions.length) {
       dispatch({ type: "answer", id: optionId });
     } else {
-      const filtered = saints.filter(s => s.gender === gender);
+      const filtered = gender === "Any" ? saints : saints.filter(s => s.gender === gender);
       const normalizedScores = normalizeQuizScores(newScores, questions);
       const matched = matchSaint(normalizedScores, filtered.length > 0 ? filtered : saints);
       setResult({ saint: matched, scores: normalizedScores });
@@ -86,15 +86,15 @@ export default function Quiz({ saints, onRestart, onExit }: { saints: Saint[]; o
   const restart = () => { writeQuizProgress(null); saveQuizResult(null); onRestart(); };
   const displayedResult = result?.saint ?? (saved ? saints.find(saint => saint.slug === saved.slug) : null);
   if (displayedResult) return <Result saint={displayedResult} scores={result?.scores ?? saved!.scores}
-    relatedSaints={moreQuizSaints(result?.scores ?? saved!.scores, saints.filter(saint => saint.gender === (result ? gender : saved!.gender)), displayedResult.slug)} onRestart={restart} />;
+    relatedSaints={moreQuizSaints(result?.scores ?? saved!.scores, (result ? gender : saved!.gender) === "Any" ? saints : saints.filter(saint => saint.gender === (result ? gender : saved!.gender)), displayedResult.slug)} onRestart={restart} />;
 
   return <div className="quiz-shell">
     <ProgressBar current={currentStep} total={totalSteps} />
     {gender === null ? <motion.section initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="question-card" aria-labelledby="gender-heading">
       <p className="eyebrow">Let’s start with you</p>
-      <h1 ref={genderHeading} tabIndex={-1} id="gender-heading" className="question-title outline-none">What is your gender?</h1>
-      <p className="text-cream-dark text-sm leading-relaxed mb-6">This helps us match you with a saint of the same gender.</p>
-      <div className="question-options"><OptionButton label="Male" index={0} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female" index={1} onSelect={() => handleGenderSelect("Female")} /></div>
+      <h1 ref={genderHeading} tabIndex={-1} id="gender-heading" className="question-title outline-none">Which saints would you like to discover?</h1>
+      <p className="text-cream-dark text-sm leading-relaxed mb-6">Choose a preference for your match, or explore saints of any gender.</p>
+      <div className="question-options"><OptionButton label="Male saints" index={0} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female saints" index={1} onSelect={() => handleGenderSelect("Female")} /><OptionButton label="Saints of any gender" index={2} onSelect={() => handleGenderSelect("Any")} /></div>
     </motion.section> : <QuestionCard key={questions[current].id} question={questions[current]} onSelect={handleSelect} />}
     <div className="flex flex-wrap justify-between gap-4">
       <button type="button" onClick={gender === null ? onExit : handleBack} className="quiz-back">← {gender === null ? "Back to discovery" : "Previous question"}</button>

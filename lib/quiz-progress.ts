@@ -2,7 +2,7 @@ import { TRAIT_KEYS, type QuestionWithOptions, type TraitScores } from "./types"
 
 export interface QuizProgress {
   questions: QuestionWithOptions[];
-  gender: "Male" | "Female" | null;
+  gender: "Male" | "Female" | "Any" | null;
   answerIds: string[];
   ready: boolean;
 }
@@ -17,7 +17,7 @@ export function parseQuizProgress(raw: string | null, questions: QuestionWithOpt
   if (!raw || raw.length > 32000) return null;
   try {
     const value = JSON.parse(raw);
-    if (value?.version !== 1 || ![null, "Male", "Female"].includes(value.gender)
+    if (value?.version !== 1 || ![null, "Male", "Female", "Any"].includes(value.gender)
       || !Array.isArray(value.order) || value.order.length !== questions.length
       || !Array.isArray(value.answers) || value.answers.length >= questions.length
       || (value.gender === null && value.answers.length > 0)) return null;
@@ -46,7 +46,7 @@ export function quizProgressScores(progress: Pick<QuizProgress, "questions" | "a
 }
 
 type Action = { type: "restore"; progress: QuizProgress | null }
-  | { type: "gender"; gender: "Male" | "Female" } | { type: "answer"; id: string } | { type: "back" };
+  | { type: "gender"; gender: "Male" | "Female" | "Any" } | { type: "answer"; id: string } | { type: "back" };
 export function quizProgressReducer(state: QuizProgress, action: Action): QuizProgress {
   switch (action.type) {
     case "restore": return state.ready ? state : action.progress ?? { ...state, ready: true };

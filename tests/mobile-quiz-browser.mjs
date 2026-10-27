@@ -22,7 +22,7 @@ for(const width of[320,390,430]){
  }
 }
 report.checks.push('320/390/430 layouts; reading pages never prefetch quiz; no directory-only editorial records in JavaScript');
-await p.setViewportSize({width:390,height:844});await p.goto(origin+'/quiz',{waitUntil:'networkidle'});await p.getByRole('button',{name:'Male',exact:true}).click();await p.waitForTimeout(150);
+await p.setViewportSize({width:390,height:844});await p.goto(origin+'/quiz',{waitUntil:'networkidle'});await p.getByRole('button',{name:'Male saints',exact:true}).click();await p.waitForTimeout(150);
 const select=async q=>{const before=await p.locator('h1').innerText();await p.getByText(q.options[0].label,{exact:true}).click();await p.waitForFunction(text=>document.querySelector('h1')?.innerText!==text,before);};
 for(let n=0;n<5;n++)await select(questions[n]);
 const heading=await p.locator('h1').innerText(),order=await p.locator('.option-button').allInnerTexts(),raw=await p.evaluate(()=>sessionStorage.getItem('saint-discovery:quiz-progress:v1'));assert.equal(JSON.parse(raw).answers.length,5);
