@@ -48,10 +48,11 @@ export default function TeacherResources() {
     <header className="page-intro">
       <p className="eyebrow">For teachers &amp; catechists</p>
       <h1>Bring the saints<br /><em className="text-gold">into the classroom.</em></h1>
-      <p>Ready-to-use saint reflections and a Confirmation lesson that connect a life of faith to one small, everyday action.</p>
+      <p>Free saint reflections and a Confirmation lesson, ready to print or read online.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
-      <p>Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. On shared devices, enable classroom mode before students browse.</p>
-      <ClassroomModeButton />
+      <div className="educator-quick-links"><a className="btn-primary" href="#worksheet">View the worksheet <span aria-hidden>↓</span></a><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
+      <p>Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
+      <details className="educator-classroom-details"><summary>Classroom safety and settings</summary><ClassroomModeButton /></details>
     </header>
 
     <section className="educator-downloads" aria-label="Download teaching resources">

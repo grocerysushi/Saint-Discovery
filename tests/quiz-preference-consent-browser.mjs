@@ -7,15 +7,17 @@ try {
   const context = await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   await context.route(/google-analytics|googletagmanager|googlesyndication/, route => route.abort());
   const page = await context.newPage();
-  await page.goto(origin+'/quiz');
-  await page.getByRole('button',{name:'Saints of any gender'}).click();
+  await page.goto(origin+'/quiz',{waitUntil:'networkidle'});
+  await page.getByRole('button',{name:'Keep analytics off'}).click();
+  await page.waitForLoadState('networkidle');
+  await page.getByRole('button',{name:'Female',exact:true}).click();
   await page.locator('.option-button').first().waitFor();
   await page.locator('.option-button').first().click();
   await page.waitForFunction(()=>JSON.parse(sessionStorage.getItem('saint-discovery:quiz-progress:v1')||'{}').answers?.length===1);
   const heading=await page.locator('h1').innerText();
   await page.reload();
   await page.waitForFunction(h=>document.querySelector('h1')?.innerText===h,heading);
-  assert.equal(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('saint-discovery:quiz-progress:v1')).gender),'Any');
+  assert.equal(await page.evaluate(()=>JSON.parse(sessionStorage.getItem('saint-discovery:quiz-progress:v1')).gender),'Female');
   for(let i=1;i<20;i++){
     const previous=await page.locator('h1').innerText();
     await page.locator('.option-button').first().click();
@@ -23,14 +25,16 @@ try {
   }
   await page.locator('.result-layout').waitFor();
   const saved=await page.evaluate(()=>JSON.parse(sessionStorage.getItem('saint-discovery:quiz-result:v1')));
-  assert.equal(saved.gender,'Any');
+  assert.equal(saved.gender,'Female');
   const saints=loadTs('lib/quiz-candidates.ts').getQuizCandidates();
-  assert.equal(saved.slug,loadTs('lib/scoring.ts').matchSaint(saved.scores,saints).slug);
+  assert.equal(saved.slug,loadTs('lib/scoring.ts').matchSaint(saved.scores,saints.filter(saint => saint.gender === 'Female')).slug);
   await page.reload();
   await page.locator('.result-layout').waitFor();
   await page.goto(origin+'/resources/teachers');
+  await page.getByText('Classroom safety and settings').click();
   await page.getByText('Classroom mode is not enabled in this browser.').waitFor();
   await page.getByRole('button',{name:'Enable classroom mode'}).click();
+  await page.getByText('Classroom safety and settings').click();
   await page.getByText('Classroom mode is on in this browser.').waitFor();
   let choice=await page.evaluate(()=>JSON.parse(localStorage.getItem('sd:privacy:v1')));
   assert.equal(choice.classroom,true); assert.equal(choice.analytics,false);
@@ -41,6 +45,7 @@ try {
   await page.getByText('Classroom mode is on.',{exact:false}).waitFor();
   await page.getByRole('button',{name:'Keep analytics off'}).click();
   await page.goto(origin+'/resources/teachers');
+  await page.getByText('Classroom safety and settings').click();
   await page.getByText('Classroom mode is not enabled in this browser.').waitFor();
   await page.getByRole('button',{name:'Privacy & cookie choices'}).click();
   assert.equal(await page.getByRole('button',{name:'Allow analytics'}).isDisabled(),true);
@@ -50,5 +55,5 @@ try {
   await page.getByRole('button',{name:'Privacy & cookie choices'}).click();
   await Promise.all([page.waitForEvent('load'),page.getByRole('button',{name:'Keep analytics off'}).click()]);
   await page.waitForFunction(()=>JSON.parse(localStorage.getItem('sd:privacy:v1')||'{}').analytics===false);
-  console.log('PASS: any-gender quiz recovery/completion, classroom state and email suppression, consent allow and withdrawal.');
+  console.log('PASS: female quiz recovery/completion, classroom state and email suppression, consent allow and withdrawal.');
 } finally { await browser.close(); }

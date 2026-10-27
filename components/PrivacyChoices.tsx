@@ -51,7 +51,7 @@ export default function PrivacyChoices() {
     {open && <section aria-labelledby="privacy-choices-title" className="privacy-choices">
       <h2 id="privacy-choices-title" ref={heading} tabIndex={-1}>Your privacy choices</h2>
       {classroom && <p><strong>Classroom mode is on.</strong> Choosing either Analytics option below exits classroom mode on this browser.</p>}
-      <p>Analytics is optional and stays off unless you allow it. The quiz works either way. Advertising choices on blog pages are handled separately by Google’s consent message.</p>
+      <p>Analytics stays off unless you allow it. The quiz works either way. Google handles advertising choices separately on blog pages.</p>
       <label><input type="checkbox" checked={adult} onChange={e => setAdult(e.target.checked)} /> I am 18 or older and choosing for my own use.</label>
       <div className="privacy-choice-actions">
         <button type="button" className="btn-secondary" onClick={() => save(false)}>Keep analytics off</button>

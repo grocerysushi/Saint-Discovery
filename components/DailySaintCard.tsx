@@ -37,12 +37,11 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
   const showImage = !!image;
   return <figure className="home-artwork home-daily-feature" aria-labelledby="home-daily-title">
     <p className="home-daily-feature-label"><span>Saint of the Day</span>{saint && <span>{saint.feastDay}</span>}</p>
+    <div className="gallery-saint-title"><h2 id="home-daily-title"><Link prefetch={false} href={saint ? `/saints/${saint.slug}` : "/saint-of-day"}>{saint ? saintDisplayName(saint) : "A moment for reflection"}</Link></h2><Link prefetch={false} href="/saint-of-day" className="text-link home-daily-feature-action">Today’s reflection <span aria-hidden>→</span></Link></div>
     <Link prefetch={false} href="/saint-of-day" className="home-daily-feature-image" aria-label={saint ? `Read today’s story and reflection: ${saintDisplayName(saint)}` : "Read today’s reflection"}>
       {image ? <Image key={symbolic ? "symbolic" : imageSrc} src={symbolic ? "/images/saint-symbolic.svg" : imageSrc!} alt={symbolic ? `Symbolic artwork for ${saint?.name}; not a portrait` : image.alt} fill sizes="(max-width: 760px) 90vw, 40vw" priority onError={() => setFailedImage(image.src)} /> : <div className="home-daily-feature-placeholder"><span aria-hidden>✦</span><span>{saint ? "A life to discover" : "Make space for reflection"}</span></div>}
     </Link>
     <figcaption>
-      <div className="gallery-saint-title"><h2 id="home-daily-title"><Link prefetch={false} href={saint ? `/saints/${saint.slug}` : "/saint-of-day"}>{saint ? saintDisplayName(saint) : "A moment for reflection"}</Link></h2>
-      <Link prefetch={false} href="/saint-of-day" className="text-link home-daily-feature-action">Today’s reflection <span aria-hidden>→</span></Link></div>
       {image && <p className="home-daily-feature-credit">{symbolic ? "Symbolic artwork · Not a portrait" : image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license}</a>}</p>}
       {!showImage && <p className="home-daily-feature-credit">{saint ? "Artwork unavailable. Discover the story behind the name." : "Open today’s reflection to explore a life of faith."}</p>}
       {saint && <p className="daily-directory-note">A daily reading; the liturgical celebration may differ.</p>}

@@ -92,9 +92,9 @@ export default function Quiz({ saints, onRestart, onExit }: { saints: Saint[]; o
     <ProgressBar current={currentStep} total={totalSteps} />
     {gender === null ? <motion.section initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="question-card" aria-labelledby="gender-heading">
       <p className="eyebrow">Let’s start with you</p>
-      <h1 ref={genderHeading} tabIndex={-1} id="gender-heading" className="question-title outline-none">Which saints would you like to discover?</h1>
-      <p className="text-cream-dark text-sm leading-relaxed mb-6">Start with saints of any gender, or choose a preference below.</p>
-      <div className="question-options quiz-preference-options"><OptionButton label="Saints of any gender" index={0} onSelect={() => handleGenderSelect("Any")} /><OptionButton label="Male saints" index={1} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female saints" index={2} onSelect={() => handleGenderSelect("Female")} /></div>
+      <h1 ref={genderHeading} tabIndex={-1} id="gender-heading" className="question-title outline-none">What is your gender?</h1>
+      <p className="text-cream-dark text-sm leading-relaxed mb-6">Your answer determines whether your match is selected from male or female saints.</p>
+      <div className="question-options"><OptionButton label="Male" index={0} onSelect={() => handleGenderSelect("Male")} /><OptionButton label="Female" index={1} onSelect={() => handleGenderSelect("Female")} /></div>
     </motion.section> : <QuestionCard key={questions[current].id} question={questions[current]} onSelect={handleSelect} />}
     <div className="flex flex-wrap justify-between gap-4">
       <button type="button" onClick={gender === null ? onExit : handleBack} className="quiz-back">← {gender === null ? "Back to discovery" : "Previous question"}</button>

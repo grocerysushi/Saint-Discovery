@@ -85,7 +85,12 @@
 .gallery-footer-more nav { display: flex; flex-wrap: wrap; gap: 10px 22px; padding: 8px 0 16px; }
 .gallery-footer-more nav a { min-height: 36px; display: inline-flex; align-items: center; }
 .gallery-footer-copyright { font-size: .75rem; color: var(--color-cream-dark); margin-top: 12px; }
-.quiz-preference-options .option-button:first-child { border-color: var(--color-gold); }
+.result-match-explanation { margin-bottom: 12px; font-size: .94rem; }
+.result-story .result-match-summary { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; margin-bottom: 20px; }
+.educator-quick-links { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; margin-block: 20px; }
+.educator-classroom-details { margin-top: 14px; }
+.educator-classroom-details summary { color: var(--color-gold); cursor: pointer; min-height: 44px; padding-block: 10px; }
+.home-refresh .gallery-saint-title { margin-bottom: 12px; }
 .reading-path-card { border-top: 2px solid var(--color-gold); }
 @media (max-width: 520px) {
   .site-header-refresh .brand-name { max-width: none; white-space: nowrap; font-size: .84rem; letter-spacing: -.035em; }
@@ -95,6 +100,10 @@
 }
 @media (max-width: 760px) {
   .home-refresh .discovery-intro { grid-template-columns: 1fr; gap: 36px; padding: 38px 0 48px; }
+  .home-refresh .discovery-intro { gap: 24px; padding-top: 28px; }
+  .home-refresh .discovery-copy h1 { margin-block: 18px; }
+  .home-refresh .discovery-actions { margin-top: 22px; }
+  .home-refresh .gallery-explore-link { margin-top: 18px; }
   .home-refresh .discovery-copy h1 { font-size: clamp(2.65rem, 10vw, 3.5rem); }
   .home-refresh .discovery-lead { font-size: 1.05rem; }
   .home-refresh .home-daily-feature { padding: 17px; }
