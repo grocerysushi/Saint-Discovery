@@ -142,7 +142,7 @@ export default async function Home() {
           </div>
         </section>
         </div></details>
-        <details className="home-disclosure"><summary>Reading for everyday faith</summary><div className="home-disclosure-content">
+        <details className="home-disclosure"><summary>Stories for everyday faith</summary><div className="home-disclosure-content">
         <ContextualReading context="home" />
         </div></details>
         <details className="home-disclosure"><summary>Frequently asked questions</summary><div className="home-disclosure-content">
