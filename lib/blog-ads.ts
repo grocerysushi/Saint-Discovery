@@ -6,6 +6,10 @@ export const ADSENSE_CLIENT = "ca-pub-6122544703023536";
 // quiz, admin, an ad-disabled article, or other non-blog content through the SPA.
 export const BLOG_ADS_BOOTSTRAP = `
 (function () {
+  try {
+    var privacy = JSON.parse(window.localStorage.getItem('sd:privacy:v1') || 'null');
+    if (privacy && privacy.classroom === true) return;
+  } catch (_) { return; }
   var current = new URL(location.href);
   if (current.protocol !== 'https:' || !['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(current.hostname)) return;
   if (!/^\\/blog(?:\\/[a-z0-9]+(?:-[a-z0-9]+)*)?\\/?$/.test(current.pathname) || current.searchParams.has('preview')) return;

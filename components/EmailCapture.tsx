@@ -5,10 +5,13 @@ import { track } from "@/lib/analytics";
 import { suggestEmailAddress } from "@/lib/emails/address-suggestion";
 import { useTranslationProxy } from "@/lib/use-translation-proxy";
 import { SITE_ORIGIN } from "@/lib/site-languages";
+import { classroomMode } from "@/lib/visitor-privacy";
 
 export default function EmailCapture({ saintSlug, saintName }: { saintSlug: string; saintName: string }) {
   const translationProxy = useTranslationProxy();
   const [email, setEmail] = useState("");
+  const [adult, setAdult] = useState(false);
+  const [classroom, setClassroom] = useState(false);
   const [company, setCompany] = useState("");
   const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -19,6 +22,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   const successRef = useRef<HTMLDivElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const suggestion = suggestEmailAddress(email);
+  useEffect(() => { setClassroom(classroomMode()); }, []);
 
   useEffect(() => { if (sent) successRef.current?.focus(); }, [sent]);
   useEffect(() => {
@@ -27,7 +31,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   }, []);
 
   async function requestConfirmation(resend: boolean) {
-    if (translationProxy) return;
+    if (translationProxy || classroom || !adult) return;
     if (inFlight.current || Date.now() < nextRequestAt.current) return;
     inFlight.current = true;
     setBusy(true); setMessage("");
@@ -36,7 +40,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
     try {
       const res = await fetch("/api/subscribe", {
         method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, saintSlug, company }), signal: AbortSignal.timeout(15000),
+        body: JSON.stringify({ email, saintSlug, company, adultRequest: true }), signal: AbortSignal.timeout(15000),
       });
       const data = await res.json().catch(() => ({}));
       const wait = Math.min(3600, Math.max(0, Number(data.retryAfter) || (res.ok ? 60 : 0)));
@@ -58,11 +62,13 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   }
 
   const waitLabel = remaining >= 60 ? `${Math.ceil(remaining / 60)} min` : `${remaining}s`;
+  if (classroom) return <section className="result-panel"><h2>Keep your result</h2><p>Email forms are off in classroom mode. You can read your result and prayer guide here without giving an email address.</p></section>;
   if (translationProxy) return <section className="result-panel">
     <h2>Email delivery</h2>
     <p className="text-sm text-cream-dark">Email requests are available on our English site. To request a novena, open the English quiz and complete it there. Your translated result stays in this tab.</p>
     <a href={`${SITE_ORIGIN}/quiz`} data-language-choice="en" target="_blank" rel="noopener noreferrer" className="text-link" onClick={event => { event.preventDefault(); window.open(`${SITE_ORIGIN}/quiz`, "_blank", "noopener,noreferrer"); }}>Open the English quiz ↗</a>
   </section>;
+  if (!adult) return <section className="result-panel"><h2>Email your result (adults only)</h2><p>You can keep reading without email. If you are a parent, guardian or adult reader, you may request delivery to your own address. Do not enter a child’s email address.</p><button type="button" className="btn-secondary" onClick={() => setAdult(true)}>I am 18 or older, using my own email</button></section>;
   if (sent) return (
     <motion.div ref={successRef} tabIndex={-1} className="result-panel outline-none focus-visible:ring-2 focus-visible:ring-gold" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
       <p className="eyebrow">Your next step</p>
@@ -102,7 +108,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
         {suggestion && <p className="text-sm text-cream-dark">Did you mean <button type="button" className="text-link break-all" onClick={() => { setEmail(suggestion); emailRef.current?.focus(); }}>{suggestion}</button>? Select it to update your address, or keep the address you entered.</p>}
         <button type="submit" disabled={busy || remaining > 0} className="btn-primary disabled:opacity-60 disabled:cursor-not-allowed">{busy ? "Sending…" : remaining > 0 ? `Try again in ${waitLabel}` : "Email me my novena"}</button>
       </div>
-      <p id="emailcapture-msg" role={message ? "alert" : "status"} className="text-sm text-cream-dark mt-3">{message || (busy ? "Requesting your confirmation email…" : "Your novena and occasional Saint Discovery notes. Unsubscribe anytime.")}</p>
+      <p id="emailcapture-msg" role={message ? "alert" : "status"} className="text-sm text-cream-dark mt-3">{message || (busy ? "Requesting your confirmation email…" : "Only your requested result and novena. No newsletter. Delivery records expire after seven days and are removed by daily cleanup.")}</p>
     </motion.form>
   );
 }

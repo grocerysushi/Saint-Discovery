@@ -70,6 +70,9 @@ export async function POST(request: NextRequest) {
   const hp = data.company ?? data.website ?? data.hp;
   if (typeof hp === "string" && hp.trim().length > 0) return generic();
 
+  // Adults request their own transactional email; no birth date is collected.
+  if (data.adultRequest !== true) return failure(400, "Email delivery is for adults using their own address. You can read your result without email.");
+
   const email = normalizeEmail(data.email);
   if (!email) return failure(400, "Enter a valid email address.");
 

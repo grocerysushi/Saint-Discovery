@@ -55,7 +55,7 @@ export default async function ConfirmPage({
         plus a short novena and a reflection.
       </p>
       <EmailConfirmationForm token={token ?? ""} />
-      <p className="text-sm text-cream-dark">Opening the email link does not complete confirmation. Press the button above to receive your result and occasional Saint Discovery notes. Unsubscribe anytime.</p>
+      <p className="text-sm text-cream-dark">Opening the email link does not complete confirmation. Press the button above to receive only your requested result and novena. No newsletter. Delivery records expire after seven days and are removed by daily cleanup.</p>
       <p className="text-cream-dark/60 text-sm">
         If you didn&rsquo;t take the Saint Discovery quiz, you can ignore this
         page — nothing will be sent.

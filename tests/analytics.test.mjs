@@ -13,6 +13,7 @@ function load(file, dependencies = {}, globals = {}) {
   }).outputText;
   vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, URL, Date, Buffer, console,
     process: { env: { NODE_ENV: 'production' } }, require(name) {
+      if (name === './visitor-privacy') return load('lib/visitor-privacy.ts', {}, globals);
       if (!(name in dependencies)) throw new Error(`Unexpected dependency ${name}`);
       return dependencies[name];
     }, ...globals });
@@ -45,6 +46,7 @@ test('steps, backtracking, effect replays and restarts have consistent attempt c
 });
 
 function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Map()) {
+  if (!storage.has('sd:privacy:v1')) storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()+86400000}));
   return { location: { hostname, href: `https://${hostname}/subscribed?status=ok&token=private` },
     localStorage: { getItem: k => storage.get(k), setItem: (k, v) => storage.set(k, v) } };
 }
@@ -52,7 +54,11 @@ function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Ma
 function boot(window) {
   const { ANALYTICS_BOOTSTRAP } = load('lib/analytics-bootstrap.ts');
   const scripts = [], listeners = {}, historyCalls = [];
-  window.addEventListener = (name, callback) => { listeners[name] = callback; };
+  window.location.reload = () => { window.reloads = (window.reloads || 0) + 1; };
+  window.addEventListener = (name, callback) => {
+    const previous = listeners[name];
+    listeners[name] = (...args) => { previous?.(...args); callback(...args); };
+  };
   const history = Object.fromEntries(['pushState', 'replaceState'].map(name => [name, function (_state, _title, url) {
     historyCalls.push({ name, blocked: window['ga-disable-G-C75CMC27YN'] === true });
     if (url != null) window.location.href = new URL(url, window.location.href).href;
@@ -68,8 +74,8 @@ test('bootstrap queues early events after config, strips tokens, keeps campaign 
   assert.equal(scripts.length, 1);
   const { track } = load('lib/analytics.ts', {}, { window });
   assert.equal(track('quiz_complete', { saint_slug: 'joseph' }), true);
-  assert.deepEqual(Array.from(window.dataLayer, args => args[0]), ['js', 'config', 'event']);
-  assert.equal(window.dataLayer[1][1], 'G-C75CMC27YN');
+  assert.deepEqual(Array.from(window.dataLayer, args => args[0]), ['consent', 'js', 'config', 'event']);
+  assert.equal(window.dataLayer[2][1], 'G-C75CMC27YN');
   assert.doesNotMatch(JSON.stringify(window.dataLayer), /private|token=/);
   assert.match(JSON.stringify(window.dataLayer), /utm_source=newsletter/);
 });
@@ -107,7 +113,7 @@ test('Pinterest result link opens the correct profile and reports placement whil
     assert.equal(event[1], 'pinterest_profile_click');
     assert.equal(event[2].link_placement, placement);
   }
-  const trackedUrl = new URL(window.dataLayer[1][2].page_location);
+  const trackedUrl = new URL(window.dataLayer[2][2].page_location);
   assert.equal(trackedUrl.searchParams.get('utm_source'), 'pinterest');
   assert.equal(trackedUrl.searchParams.get('utm_medium'), 'social');
   assert.equal(trackedUrl.searchParams.get('utm_campaign'), 'saint_of_day');
@@ -140,21 +146,20 @@ test('internal and debug traffic are opt-in, mutually exclusive, and absent for 
   for (const mode of ['reader', 'internal', 'developer', 'unexpected']) {
     const window = browserWindow(undefined, new Map([['sd:analytics-mode', mode]]));
     boot(window);
-    const settings = window.dataLayer[1][2];
+    const settings = window.dataLayer[2][2];
     assert.equal(settings.traffic_type, mode === 'internal' ? 'internal' : undefined);
     assert.equal(settings.debug_mode, mode === 'developer' ? true : undefined);
   }
   const window = browserWindow();
   window.localStorage.getItem = () => { throw Error('blocked storage'); };
   boot(window);
-  assert.equal(window.dataLayer[1][2].debug_mode, undefined);
-  assert.equal(window.dataLayer[1][2].traffic_type, undefined);
+  assert.equal(window.dataLayer, undefined, 'blocked storage cannot establish consent');
 });
 
 test('cross-tab preference changes stop stale classification without blocking unrelated storage', () => {
   const window = browserWindow(); const { listeners } = boot(window);
   listeners.storage({ key: 'unrelated' });
-  assert.equal(window['ga-disable-G-C75CMC27YN'], undefined);
+  assert.equal(window['ga-disable-G-C75CMC27YN'], false);
   listeners.storage({ key: 'sd:analytics-mode' });
   assert.equal(window['ga-disable-G-C75CMC27YN'], true);
   const second = browserWindow(); boot(second).listeners.storage({ key: null });
@@ -189,14 +194,53 @@ test('confirmed subscriptions deduplicate reloads, allow different receipts, and
   assert.equal(events.length, 2);
   assert.doesNotMatch(JSON.stringify(events), new RegExp(receipt));
 });
-test('blocked storage still deduplicates React effect replays in memory', () => {
+test('blocked storage never sends conversion events without consent', () => {
   const window = browserWindow(); let count = 0;
   window.localStorage = { getItem() { throw 0; }, setItem() { throw 0; } };
   window.gtag = () => count++;
   const { trackConfirmedSubscription } = load('lib/analytics.ts', {}, { window });
   const receipt = crypto.randomUUID();
   trackConfirmedSubscription(receipt); trackConfirmedSubscription(receipt);
-  assert.equal(count, 1);
+  assert.equal(count, 0);
+});
+
+test('unknown, refused, malformed, expired and classroom choices never load Analytics or queue events', () => {
+  for (const choice of [null, 'broken', JSON.stringify({version:1,analytics:false,classroom:false,expires:Date.now()+86400000}), JSON.stringify({version:1,analytics:true,classroom:true,expires:Date.now()+86400000}), JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()-1})]) {
+    const window = browserWindow(undefined, new Map([['sd:privacy:v1',choice]]));
+    assert.equal(boot(window).scripts.length, 0);
+    assert.equal(window.dataLayer, undefined);
+    assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), false);
+  }
+});
+
+test('revocation blocks custom events even before a page reload', () => {
+  const storage = new Map(); const window = browserWindow(undefined, storage); boot(window);
+  const analytics = load('lib/analytics.ts', {}, {window});
+  assert.equal(analytics.track('test'), true);
+  storage.delete('sd:privacy:v1');
+  assert.equal(analytics.track('test'), false);
+  assert.equal(window.dataLayer[0][2].ad_personalization, 'denied');
+  assert.equal(window.dataLayer[2][2].allow_google_signals, false);
+});
+
+test('cross-tab withdrawal and expired back-forward restoration disable and reload the tag', () => {
+  const storage = new Map(), window = browserWindow(undefined, storage);
+  const { listeners } = boot(window);
+  storage.delete('sd:privacy:v1');
+  listeners.storage({ key: 'sd:privacy:v1' });
+  assert.equal(window['ga-disable-G-C75CMC27YN'], true);
+  assert.equal(window.reloads, 1);
+  listeners.pageshow();
+  assert.equal(window.reloads, 2);
+});
+
+test('withdrawal clears only accessible Google Analytics cookies', () => {
+  const writes = [];
+  const document = { get cookie() { return '_ga=one; _ga_ABC=two; _gid=three; session=private; sd-email-retry=keep'; }, set cookie(value) { writes.push(value); } };
+  load('lib/visitor-privacy.ts', {}, { document, location: { hostname: 'www.saintdiscoveryquiz.com' } }).clearAnalyticsCookies();
+  assert.equal(writes.length, 9);
+  assert.ok(writes.every(value => /^_ga|^_gid/.test(value) && value.includes('Max-Age=0')));
+  assert.ok(writes.some(value => value.includes('domain=.saintdiscoveryquiz.com')));
 });
 
 const receiptDeps = { 'node:crypto': crypto, './config': { EMAIL_TOKEN_SECRET: 'test-only-secret-'.repeat(4) } };

@@ -58,7 +58,7 @@ function subscribe({ sendOk = true, allow = true, tokenFails = false } = {}) {
     '@/lib/emails/rateLimit': { allowByIp: () => true, clientIp: () => 'test', circuitAllows: () => true,
       reserveEmailSend: () => ({ allowed: allow, retryAfter: 45 }) },
   });
-  return { sends: () => sends, run: (body = { email: 'reader@example.org', saintSlug: 'joseph' }) => route.POST(new Request('https://example.invalid/api/subscribe', {
+  return { sends: () => sends, run: (body = { email: 'reader@example.org', saintSlug: 'joseph', adultRequest: true }) => route.POST(new Request('https://example.invalid/api/subscribe', {
     method: 'POST', headers: { 'content-type': 'application/json' }, body: typeof body === 'string' ? body : JSON.stringify(body),
   })) };
 }
@@ -75,7 +75,7 @@ test('subscription success means accepted; provider/config failures are retryabl
 });
 
 test('malformed requests, invalid recipients and cooldowns never send', async () => {
-  for (const body of ['{broken', 'null', '[]', { email: 'broken', saintSlug: 'joseph' }, { email: 'reader@example.org', saintSlug: 'missing' }]) {
+  for (const body of ['{broken', 'null', '[]', { email: 'broken', saintSlug: 'joseph', adultRequest:true }, { email: 'reader@example.org', saintSlug: 'missing', adultRequest:true }, {email:'reader@example.org', saintSlug:'joseph'}, {email:'reader@example.org', saintSlug:'joseph', adultRequest:false}]) {
     const route = subscribe();
     assert.equal((await route.run(body)).status, 400); assert.equal(route.sends(), 0);
   }
@@ -170,6 +170,7 @@ function captureHarness(responses, translationProxy = false) {
     '@/lib/emails/address-suggestion': suggestions,
     '@/lib/use-translation-proxy': { useTranslationProxy: () => translationProxy },
     '@/lib/site-languages': { SITE_ORIGIN: 'https://www.saintdiscoveryquiz.com' },
+    '@/lib/visitor-privacy': { classroomMode: () => false },
   }, { Date: { now: () => now }, window: { requestAnimationFrame: fn => fn() },
     fetch: async () => { const response = responses[sends++]; if (response instanceof Error) throw response; return response; } });
   const render = () => { cursor = 0; tree = component.default({ saintSlug: 'joseph', saintName: 'Joseph' }); return tree; };
@@ -177,7 +178,11 @@ function captureHarness(responses, translationProxy = false) {
   render();
   return { render, nodes: () => nodes(tree), events, sends: () => sends, settle,
     advance: () => { now += 60000; },
-    enter: email => { nodes(tree).find(n => n.type === 'input' && n.props.name === 'email').props.onChange({ target: { value: email } }); render(); },
+    enter: email => {
+      const adult = nodes(tree).find(n => n.type === 'button' && n.props.children === 'I am 18 or older, using my own email');
+      if (adult) { assert.equal(nodes(tree).some(n => n.props?.name === 'email'), false); adult.props.onClick(); render(); }
+      nodes(tree).find(n => n.type === 'input' && n.props.name === 'email').props.onChange({ target: { value: email } }); render();
+    },
     submit: () => { tree.props.onSubmit({ preventDefault() {} }); pending.push(settle()); return pending.at(-1); },
   };
 }

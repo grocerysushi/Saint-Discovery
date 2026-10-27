@@ -1,4 +1,5 @@
-// The beforeInteractive bootstrap queues calls until Google's script loads.
+import { analyticsAllowed } from "./visitor-privacy";
+// Events before consent are discarded, never replayed after opt-in.
 type EventParams = Record<string, string | number | boolean | undefined>;
 
 declare global {
@@ -11,6 +12,7 @@ declare global {
 export function track(event: string, params?: EventParams): boolean {
   if (typeof window === "undefined") return false;
   try {
+    if (!analyticsAllowed()) return false;
     if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || !window.gtag || window["ga-disable-G-C75CMC27YN"]) return false;
     const location = new URL(window.location.href);
     if (/^\/admin(?:\/|$)/i.test(decodeURIComponent(location.pathname))) return false;

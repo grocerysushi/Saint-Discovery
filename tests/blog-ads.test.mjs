@@ -6,10 +6,10 @@ import ts from 'typescript';
 import { loadTs } from './load-ts.mjs';
 
 const { BLOG_ADS_BOOTSTRAP, ADSENSE_CLIENT } = loadTs('lib/blog-ads.ts');
-function browser(href = 'https://www.saintdiscoveryquiz.com/blog') {
+function browser(href = 'https://www.saintdiscoveryquiz.com/blog', preference = null) {
   const initial = new URL(href), scripts = [], events = {}, navigations = [], historyCalls = [];
   const location = { href, assign: url => navigations.push(['assign', url]), replace: url => navigations.push(['replace', url]), reload: () => navigations.push(['reload']) };
-  const window = { addEventListener: (name, fn) => { events[name] = fn; } };
+  const window = { localStorage: { getItem: () => preference }, addEventListener: (name, fn) => { events[name] = fn; } };
   const document = { getElementById: id => scripts.find(s => s.id === id), createElement: () => ({}), head: { appendChild: script => scripts.push(script) }, addEventListener: (name, fn) => { events[name] = fn; } };
   const history = Object.fromEntries(['pushState', 'replaceState'].map(method => [method, (...args) => historyCalls.push([method, ...args])]));
   const run = () => vm.runInNewContext(BLOG_ADS_BOOTSTRAP, { URL, window, document, location, history });
@@ -27,6 +27,10 @@ test('Auto ads loads exactly once on production blog documents with the verified
     assert.equal(b.scripts[0].src, `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`);
     assert.equal(b.scripts[0].async, true); assert.equal(b.scripts[0].crossOrigin, 'anonymous');
   }
+});
+test('classroom mode continues blocking Auto ads after its analytics preference expires', () => {
+  const b = browser(undefined, JSON.stringify({ classroom: true, analytics: false, expires: 1 }));
+  b.run(); assert.equal(b.scripts.length, 0);
 });
 test('quiz, admin, preview, non-blog, feeds, local and deployment preview documents never load ads', () => {
   for (const url of ['https://www.saintdiscoveryquiz.com/', 'https://www.saintdiscoveryquiz.com/quiz', 'https://www.saintdiscoveryquiz.com/quiz/results/francis-of-assisi', 'https://www.saintdiscoveryquiz.com/admin/blog', 'https://www.saintdiscoveryquiz.com/blog?preview=1', 'https://www.saintdiscoveryquiz.com/blog/feed.xml', 'https://www.saintdiscoveryquiz.com/blog/sitemap.xml', 'https://www.saintdiscoveryquiz.com/blogging', 'http://www.saintdiscoveryquiz.com/blog', 'http://localhost:3118/blog', 'https://preview.vercel.app/blog']) {
@@ -64,7 +68,7 @@ test('in-article unit queues one request near view, with no requests on previews
   const code = ts.transpileModule(fs.readFileSync(new URL('../components/blog/ArticleAd.tsx', import.meta.url), 'utf8'), {
     compilerOptions: { module: ts.ModuleKind.CommonJS, jsx: ts.JsxEmit.ReactJSX, target: ts.ScriptTarget.ES2022 },
   }).outputText;
-  function mount(href, width = 330, initialized = false) {
+  function mount(href, width = 330, initialized = false, classroom = false) {
     let effect, intersection, disconnected = 0;
     const window = {}, loaded = { exports: {} };
     const element = { hasAttribute: () => initialized, getBoundingClientRect: () => ({ width }) };
@@ -74,6 +78,7 @@ test('in-article unit queues one request near view, with no requests on previews
         if (name === 'react') return { useRef: () => ({ current: element }), useEffect: fn => { effect = fn; } };
         if (name === 'react/jsx-runtime') return { jsx: () => null, jsxs: () => null };
         if (name === '@/lib/blog-ads') return { ADSENSE_CLIENT };
+        if (name === '@/lib/visitor-privacy') return { classroomMode: () => classroom };
         throw Error(name);
       },
     });
@@ -89,5 +94,5 @@ test('in-article unit queues one request near view, with no requests on previews
   for (const href of ['http://localhost:3201/blog/prayer-guide', 'https://preview.vercel.app/blog/prayer-guide', publicUrl + '?preview=1', 'https://www.saintdiscoveryquiz.com/quiz']) {
     const blocked = mount(href); blocked.intersect(); assert.equal(blocked.window.adsbygoogle, undefined);
   }
-  for (const ui of [mount(publicUrl, 0), mount(publicUrl, 330, true)]) { ui.intersect(); assert.equal(ui.window.adsbygoogle, undefined); }
+  for (const ui of [mount(publicUrl, 0), mount(publicUrl, 330, true), mount(publicUrl, 330, false, true)]) { ui.intersect(); assert.equal(ui.window.adsbygoogle, undefined); }
 });

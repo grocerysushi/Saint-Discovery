@@ -4,14 +4,30 @@
 export const ANALYTICS_BOOTSTRAP = `
 (function () {
   var disabledKey = 'ga-disable-G-C75CMC27YN';
+  function allowed() {
+    try {
+      var value = JSON.parse(window.localStorage.getItem('sd:privacy:v1') || 'null');
+      return value && value.version === 1 && value.analytics === true && value.classroom === false &&
+        Number.isFinite(value.expires) && value.expires > Date.now() && value.expires <= Date.now() + 180 * 86400000;
+    }
+    catch (_) { return false; }
+  }
+  window[disabledKey] = true;
+  window.addEventListener('storage', function (event) {
+    if (event.key === 'sd:privacy:v1' || event.key === null) {
+      window[disabledKey] = true;
+      location.reload();
+    }
+  });
   function isAdmin(value) {
     try { return /^\\/admin(?:\\/|$)/i.test(decodeURIComponent(new URL(value, location.href).pathname)); }
     catch (_) { return true; }
   }
-  if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(location.hostname) || isAdmin(location.href)) {
+  if (!allowed() || !['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(location.hostname) || isAdmin(location.href)) {
     window[disabledKey] = true;
     return;
   }
+  window[disabledKey] = false;
   function blockAdmin(value) {
     if (isAdmin(value)) window[disabledKey] = true;
   }
@@ -23,10 +39,13 @@ export const ANALYTICS_BOOTSTRAP = `
     };
   });
   window.addEventListener('popstate', function () { blockAdmin(location.href); }, true);
-  window.addEventListener('pageshow', function () { blockAdmin(location.href); }, true);
+  window.addEventListener('pageshow', function () {
+    blockAdmin(location.href);
+    if (!allowed()) { window[disabledKey] = true; location.reload(); }
+  }, true);
   window.addEventListener('storage', function (event) {
     // Other tabs may have old reader/internal settings; reload before resuming.
-    if (event.key === 'sd:analytics-mode' || event.key === null) window[disabledKey] = true;
+    if (event.key === 'sd:analytics-mode' || event.key === 'sd:privacy:v1' || event.key === null) window[disabledKey] = true;
   });
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -35,6 +54,8 @@ export const ANALYTICS_BOOTSTRAP = `
     catch (_) { return ''; }
   }
   var settings = {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false,
     page_location: safeUrl(location.href),
     page_referrer: safeUrl(document.referrer)
   };
@@ -43,6 +64,7 @@ export const ANALYTICS_BOOTSTRAP = `
     if (mode === 'internal') settings.traffic_type = 'internal';
     if (mode === 'developer') settings.debug_mode = true;
   } catch (_) {}
+  window.gtag('consent', 'default', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
   window.gtag('js', new Date());
   window.gtag('config', 'G-C75CMC27YN', settings);
   var script = document.createElement('script');

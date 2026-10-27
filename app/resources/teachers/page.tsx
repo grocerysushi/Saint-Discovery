@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ContextualReading from "@/components/ContextualReading";
 import Link from "next/link";
 import EducatorDownload from "@/components/EducatorDownload";
+import ClassroomModeButton from "@/components/ClassroomModeButton";
 import content from "@/data/educator-resources.json";
 import { absoluteUrl, serializeJsonLd, siteConfig } from "@/lib/seo";
 
@@ -49,6 +50,8 @@ export default function TeacherResources() {
       <h1>Bring the saints<br /><em className="text-gold">into the classroom.</em></h1>
       <p>Ready-to-use saint reflections and a Confirmation lesson that connect a life of faith to one small, everyday action.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
+      <p>Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. On shared devices, enable classroom mode before students browse.</p>
+      <ClassroomModeButton />
     </header>
 
     <section className="educator-downloads" aria-label="Download teaching resources">

@@ -429,3 +429,12 @@ body:has(.quiz-shell) .home-information, body:has(.result-layout) .home-informat
 .analytics-traffic-controls p { max-width: 760px; margin: 16px 0; color: var(--color-cream-dark); line-height: 1.75; }
 .analytics-traffic-controls label { display: block; margin: 16px 0 8px; }
 .analytics-traffic-controls select { padding: 12px; border: 1px solid var(--color-navy-lighter); border-radius: 6px; background: var(--color-navy-light); color: var(--color-cream); max-width: 100%; }
+/* Non-modal privacy controls leave reading and the quiz available. */
+.privacy-choices { position: fixed; z-index: 1000; bottom: 1rem; left: 1rem; right: 1rem; max-width: 42rem; margin-inline: auto; padding: 1.25rem; background: #0c1c2a; color: #f7f0e2; border: 1px solid #c6a15b; border-radius: .75rem; box-shadow: 0 8px 40px #0008; max-height: 80dvh; overflow: auto; text-align: left; }
+.privacy-choices h2 { font-size: 1.3rem; margin-bottom: .5rem; }
+.privacy-choices p { font-size: .9rem; line-height: 1.5; margin-block: .7rem; }
+.privacy-choices label { display: flex; gap: .6rem; align-items: center; font-size: .9rem; }
+.privacy-choices a { text-decoration: underline; }
+.privacy-choice-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
+.privacy-choice-actions button { min-height: 44px; }
+.privacy-choice-actions button:disabled { opacity: .5; cursor: not-allowed; }

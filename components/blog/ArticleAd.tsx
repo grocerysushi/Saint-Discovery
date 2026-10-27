@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { ADSENSE_CLIENT } from "@/lib/blog-ads";
+import { classroomMode } from "@/lib/visitor-privacy";
 
 // Verified in the existing publisher account; category/advertiser blocking is
 // still managed by that account. This unit is used once per eligible article.
@@ -10,6 +11,7 @@ export const ARTICLE_AD_SLOT = "9590084903";
 export default function ArticleAd() {
   const slot = useRef<HTMLModElement>(null);
   useEffect(() => {
+    if (classroomMode()) return;
     if (process.env.NODE_ENV !== "production" || !slot.current
       || location.protocol !== "https:"
       || !["www.saintdiscoveryquiz.com", "saintdiscoveryquiz.com"].includes(location.hostname)
