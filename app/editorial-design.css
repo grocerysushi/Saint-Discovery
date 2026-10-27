@@ -1,5 +1,5 @@
 /* Reuse the existing quiz palette. Calendar colors only appear in banner swatches. */
-:root { --font-heading: 'Source Serif 4', Georgia, serif; --font-body: 'Source Sans 3', Arial, sans-serif; }
+:root { --font-heading: 'Ranade', Arial, sans-serif; --font-body: 'Ranade', Arial, sans-serif; }
 body { background: var(--color-navy); }
 .editorial-surface { color: var(--color-cream); background: var(--color-navy); }
 .editorial-surface { padding-bottom: 1px; }

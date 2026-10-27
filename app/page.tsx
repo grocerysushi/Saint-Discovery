@@ -112,6 +112,7 @@ export default async function Home() {
       />
       <HomePage dailySaint={null} directoryCount={directoryCount} />
       <div className="site-width home-information">
+        <details className="home-disclosure"><summary>About the saints and the quiz</summary><div className="home-disclosure-content">
         <section className="home-about editorial-grid">
           <div><h2>Different lives.<br />A shared faith.</h2></div>
           <div className="editorial-copy">
@@ -120,6 +121,8 @@ export default async function Home() {
             <Link prefetch={false} href="/about" className="text-link text-gold">The story behind Saint Discovery <span aria-hidden>↗</span></Link>
           </div>
         </section>
+        </div></details>
+        <details className="home-disclosure"><summary>Explore familiar saints</summary><div className="home-disclosure-content">
         <section className="home-about editorial-grid" aria-labelledby="explore-saints">
           <div><h2 id="explore-saints">Begin with a familiar name.</h2></div>
           <div className="editorial-copy">
@@ -138,11 +141,16 @@ export default async function Home() {
             <p className="mt-4"><Link prefetch={false} href="/patron-saint-of" className="text-link">Find patron saints by cause or vocation →</Link></p>
           </div>
         </section>
+        </div></details>
+        <details className="home-disclosure"><summary>Reading for everyday faith</summary><div className="home-disclosure-content">
         <ContextualReading context="home" />
+        </div></details>
+        <details className="home-disclosure"><summary>Frequently asked questions</summary><div className="home-disclosure-content">
         <section className="faq-section editorial-grid">
           <div><h2>About Saint Discovery</h2><Link prefetch={false} href="/resources" className="text-link mt-5">Browse all saints &amp; resources <span aria-hidden>↗</span></Link></div>
           <div className="faq-list">{FAQS.map(f => <details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>)}</div>
         </section>
+        </div></details>
       </div>
     </main>
   );

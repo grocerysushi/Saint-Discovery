@@ -56,10 +56,10 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
     </Link>
   ));
   return (
-    <header ref={header} className="site-header site-header-refresh" onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
+    <header ref={header} className={`site-header site-header-refresh${pathname === "/" ? " gallery-site-header" : ""}`} onBlur={event => { if (!event.currentTarget.contains(event.relatedTarget as Node | null)) close(); }}>
       <a href="#main-content" className="skip-to-content">Skip to content</a>
       <div className="site-width header-inner">
-        <Link prefetch={false} href="/" className="brand notranslate" translate="no" lang="en" dir="ltr" aria-label="Saint Discovery home" onClick={close}><span className="brand-name">Saint Discovery</span></Link>
+        <Link prefetch={false} href="/" className="brand notranslate" translate="no" lang="en" dir="ltr" aria-label="Saint Discovery home" onClick={close}>{pathname === "/" && <span className="gallery-brand-mark" aria-hidden>✣</span>}<span className="brand-name">Saint Discovery</span></Link>
         <nav className="desktop-nav" aria-label="Main">
           <Link prefetch={false} href="/resources" onClick={close} className="nav-link" aria-current={isCurrent("/resources") || pathname.startsWith("/saints/") ? "page" : undefined}>Saints directory</Link>
           <Link prefetch={false} href="/patron-saint-of" onClick={close} className="nav-link" aria-current={isCurrent("/patron-saint-of") ? "page" : undefined}>Patron saints</Link>

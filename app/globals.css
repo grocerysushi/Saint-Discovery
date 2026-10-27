@@ -8,8 +8,8 @@
   --color-gold-light: var(--surface-gold-light, #f4dfa8);
   --color-cream: var(--surface-cream, #faf6eb);
   --color-cream-dark: var(--surface-cream-dark, #c5d1d6);
-  --font-heading: 'Source Serif 4', Georgia, serif;
-  --font-body: 'Source Sans 3', Arial, sans-serif;
+  --font-heading: 'Ranade', Arial, sans-serif;
+  --font-body: 'Ranade', Arial, sans-serif;
 }
 :root { --header-height: 88px; color-scheme: dark; }
 * { box-sizing: border-box; }
