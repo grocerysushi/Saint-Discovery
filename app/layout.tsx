@@ -120,6 +120,7 @@ export default function RootLayout({
         "@id": absoluteUrl("/#organization"),
         name: siteConfig.name,
         url: siteConfig.url,
+        sameAs: ["https://www.instagram.com/saintdiscoveryquiz/", "https://x.com/saintdiscovery", "https://www.pinterest.com/saintdiscoveryquiz/"],
         logo: {
           "@type": "ImageObject",
           url: absoluteUrl("/icon"),
@@ -133,6 +134,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://api.fontshare.com" />
+        <link rel="preconnect" href="https://cdn.fontshare.com" crossOrigin="anonymous" />
         <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=ranade@400,500,700,400i,500i,700i&amp;display=swap" />
         <Script id="translation-document-language" strategy="beforeInteractive">
           {TRANSLATION_LANGUAGE_BOOTSTRAP}

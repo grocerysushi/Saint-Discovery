@@ -7,15 +7,15 @@ try {
   for (const [label, expected] of [['Male', 'Male'], ['Female', 'Female']]) {
     const context = await browser.newContext({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' });
     const page = await context.newPage();
-    await page.goto(`${origin}/quiz`, { waitUntil: 'networkidle' });
+    await page.goto(`${origin}/quiz`, { waitUntil: 'domcontentloaded' });
     await page.getByRole('button', { name: 'Keep analytics off' }).click();
-    await page.waitForLoadState('networkidle');
+    await page.getByRole('heading', { name: 'What is your gender?' }).waitFor();
     assert.equal(await page.getByRole('heading', { name: 'What is your gender?' }).count(), 1);
     await page.getByRole('button', { name: label, exact: true }).click();
     await page.locator('.option-button').first().click();
     await page.waitForFunction(() => JSON.parse(sessionStorage.getItem('saint-discovery:quiz-progress:v1') || '{}').answers?.length === 1);
     assert.equal(await page.evaluate(() => JSON.parse(sessionStorage.getItem('saint-discovery:quiz-progress:v1')).gender), expected);
-    await page.reload({ waitUntil: 'networkidle' });
+    await page.reload({ waitUntil: 'domcontentloaded' });
     await page.getByRole('button', { name: 'Previous question' }).click();
     await page.getByRole('button', { name: 'Previous question' }).click();
     assert.equal(await page.getByRole('heading', { name: 'What is your gender?' }).count(), 1);

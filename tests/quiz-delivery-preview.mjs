@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import { loadTs } from './load-ts.mjs';
+
+const base = process.env.TEST_BASE_URL || 'http://127.0.0.1:3242';
+const response = await fetch(`${base}/quiz`);
+const html = await response.text();
+assert.equal(response.status, 200);
+assert.ok(Buffer.byteLength(html) < 100_000, 'Initial quiz HTML must not include the candidate catalogue');
+assert.match(html, /<link rel="canonical" href="https:\/\/www\.saintdiscoveryquiz\.com\/quiz"/);
+assert.match(html, /<meta name="robots" content="noindex, follow"/);
+assert.match(html, /<meta property="og:url" content="https:\/\/www\.saintdiscoveryquiz\.com\/quiz"/);
+assert.equal(response.headers.get('x-content-type-options'), 'nosniff');
+assert.equal(response.headers.get('x-frame-options'), 'SAMEORIGIN');
+assert.equal(response.headers.get('referrer-policy'), 'strict-origin-when-cross-origin');
+const candidates = await fetch(`${base}/api/quiz/candidates`);
+assert.equal(JSON.stringify(await candidates.json()), JSON.stringify(loadTs('lib/quiz-candidates.ts').getQuizCandidates()), 'Delivered candidates must match the original server data');
+const redirect = await fetch(`${base}/saints`, { redirect: 'manual' });
+assert.equal(redirect.status, 308);
+assert.equal(redirect.headers.get('location'), '/resources');
+console.log('PASS: quiz metadata, payload, candidate parity, headers and directory redirect');

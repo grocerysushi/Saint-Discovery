@@ -7,9 +7,9 @@ try {
   const context = await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});
   await context.route(/google-analytics|googletagmanager|googlesyndication/, route => route.abort());
   const page = await context.newPage();
-  await page.goto(origin+'/quiz',{waitUntil:'networkidle'});
+  await page.goto(origin+'/quiz',{waitUntil:'domcontentloaded'});
   await page.getByRole('button',{name:'Keep analytics off'}).click();
-  await page.waitForLoadState('networkidle');
+  await page.getByRole('heading',{name:'What is your gender?'}).waitFor();
   await page.getByRole('button',{name:'Female',exact:true}).click();
   await page.locator('.option-button').first().waitFor();
   await page.locator('.option-button').first().click();

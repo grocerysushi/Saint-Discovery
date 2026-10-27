@@ -27,6 +27,8 @@
     "directory:credibility": "node scripts/audit-directory-credibility.mjs"
   },
   "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/libre-baskerville": "^5.3.0",
     "@fontsource/source-sans-3": "^5.3.0",
     "@fontsource/source-serif-4": "^5.3.0",
     "@insforge/sdk": "^1.5.2",

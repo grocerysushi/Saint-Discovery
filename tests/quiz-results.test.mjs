@@ -22,6 +22,8 @@ test('invitation tracking contains only public identity and fixed attribution', 
 test('card artwork escapes names and fits all published quiz saints without clipping', async () => {
   const { resultCardSvg, resultCardLines } = loadTs('lib/result-sharing.ts');
   assert.ok(!resultCardSvg('<script>&"').includes('<script>'));
+  assert.match(resultCardSvg('St. Francis', true), />I got<\/text>/);
+  assert.match(resultCardSvg('St. Francis', false), />A saint worth discovering<\/text>/);
   const saints = await loadTs('lib/saints.ts').getAllSaints();
   const { saintDisplayName } = loadTs('lib/saint-seo.ts');
   for (const saint of saints.filter(s => s.kind === 'saint' && !s.directory_only)) {

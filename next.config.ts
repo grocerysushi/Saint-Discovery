@@ -51,7 +51,15 @@ const nextConfig: NextConfig = {
     root: __dirname,
   },
   async headers() {
-    return [{ source: "/images/responsive/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] }];
+    return [
+      { source: "/:path*", headers: [
+        { key: "X-Content-Type-Options", value: "nosniff" },
+        { key: "X-Frame-Options", value: "SAMEORIGIN" },
+        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+      ] },
+      { source: "/images/responsive/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
+    ];
   },
   async redirects() {
     return [
@@ -60,6 +68,7 @@ const nextConfig: NextConfig = {
         destination: `/saints/${to}`,
         permanent: true,
       })),
+      { source: "/saints", destination: "/resources", permanent: true },
       // Legacy URLs from the pre-Next.js static site, still indexed by Google.
       {
         source: "/all-saints.html",

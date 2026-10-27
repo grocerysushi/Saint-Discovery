@@ -26,18 +26,19 @@ export function resultCardLines(name: string) {
 
 // Original typography-only artwork: no external image, personal answers, or
 // server image transformation. The browser renders the downloadable PNG.
-export function resultCardSvg(name: string) {
+export function resultCardSvg(name: string, matched = false) {
   const lines = resultCardLines(name);
+  const cardHeading = matched ? "I got" : "A saint worth discovering";
   const fontSize = Math.min(76, 1260 / Math.max(...lines.map(line => line.length), 1), 380 / Math.max(lines.length, 1));
   const lineHeight = fontSize * 1.2;
   const startY = 600 - (lines.length - 1) * lineHeight / 2;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
-  <title>A saint worth discovering: ${escapeXml(name)}</title>
+  <title>${cardHeading}: ${escapeXml(name)}</title>
   <rect width="1080" height="1350" fill="#142b37"/>
   <rect x="54" y="54" width="972" height="1242" rx="10" fill="none" stroke="#cfb779" stroke-width="2"/>
   <text x="540" y="168" text-anchor="middle" fill="#cfb779" font-family="Georgia,serif" font-size="46">Saint Discovery</text>
   <path d="M150 940V620a390 390 0 0 1 780 0v320" fill="#f4eedf"/>
-  <text x="540" y="360" text-anchor="middle" fill="#142b37" font-family="Arial,sans-serif" font-size="30">A saint worth discovering</text>
+  <text x="540" y="360" text-anchor="middle" fill="#142b37" font-family="Arial,sans-serif" font-size="30">${cardHeading}</text>
   ${lines.map((line, i) => `<text x="540" y="${startY + i * lineHeight}" text-anchor="middle" fill="#142b37" font-family="Georgia,serif" font-size="${fontSize}">${escapeXml(line)}</text>`).join("")}
   <path d="M440 840H640" stroke="#8c7138" stroke-width="3"/>
   <text x="540" y="1050" text-anchor="middle" fill="#f4eedf" font-family="Georgia,serif" font-size="49">Who will you discover?</text>
