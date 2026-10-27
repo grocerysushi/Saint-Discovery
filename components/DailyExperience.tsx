@@ -53,14 +53,9 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
   const stages = [{ id: "read", label: "Read" }, { id: "reflect", label: "Reflect" }, { id: "pray", label: "Pray" }, { id: "act", label: "Act" }];
 
   return <>
-    <header className="daily-page-heading"><div><p className="eyebrow">A little time for faith, every day</p><h1>Saint of the Day</h1><p>Read a life. Make space for prayer. Carry one good thing into your day.</p></div><p className="daily-date">{daily.label}<span>{followToday ? "Your daily pause" : "From the feast-day calendar"}</span></p></header>
-    <nav className="daily-date-nav" aria-label="Browse daily reflections">
-      <Link prefetch={false} href={`/saint-of-day?date=${previous}`} aria-label={`Previous day, ${new Date(2024, month - 1, day - 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>← Previous</Link>
-      <Link prefetch={false} href="/saint-of-day" aria-current={followToday ? "page" : undefined}>Today</Link>
-      <form action="/saint-of-day" className="daily-date-form"><label htmlFor="daily-date">Choose a day</label><select name="date" id="daily-date" defaultValue={daily.date} aria-label="Choose a day in the annual feast-day calendar">{Array.from({ length: 366 }, (_, index) => { const choice = new Date(2024, 0, index + 1); const key = localDateKey(choice); return <option key={key} value={key}>{choice.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</option>; })}</select><button type="submit">Go</button></form>
-      <Link prefetch={false} href={`/saint-of-day?date=${next}`} aria-label={`Next day, ${new Date(2024, month - 1, day + 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>Next →</Link>
-    </nav>
+    <header className="daily-page-heading"><div><p className="eyebrow">A little time for faith, every day</p><h1>Saint of the Day</h1><p>Read a life. Make space for prayer.</p></div><p className="daily-date">{daily.label}<span>{followToday ? "Today’s reflection" : "From the feast-day calendar"}</span></p></header>
     <section id="read" className="daily-story" aria-labelledby="daily-story-title">
+      <div className="daily-story-heading"><p className="eyebrow">01 · Read {saint?.kind === "observance" ? "· An observance" : "· A life to discover"}</p><h2 id="daily-story-title">{name ?? "A quiet day to keep growing"}</h2></div>
       <figure className="daily-artwork">
         <div className="daily-artwork-image">
         {image ? <Image src={imageFailed ? "/images/saint-symbolic.svg" : image.src} alt={imageFailed ? `Symbolic artwork for ${saint?.name}; not a portrait` : image.alt} fill sizes="(max-width: 760px) 100vw, 480px" priority onError={() => setImageFailed(true)} /> : <div className="daily-artwork-fallback" aria-hidden>✦</div>}
@@ -68,10 +63,18 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
         {image && <figcaption>{image.symbolic || imageFailed ? "Symbolic artwork · Not a portrait" : image.generated ? "AI-generated illustration · Artistic interpretation" : <a href={image.source} target="_blank" rel="noopener noreferrer">{image.credit} · {image.license} ↗</a>}</figcaption>}
         {!image && <figcaption>A moment for reflection</figcaption>}
       </figure>
-      <div className="daily-story-copy"><p className="eyebrow">01 · Read {saint?.kind === "observance" ? "· An observance" : "· A life to discover"}</p><h2 id="daily-story-title">{name ?? "A quiet day to keep growing"}</h2>
+      <div className="daily-story-copy">
         {saint ? <>{daily.biography.map((paragraph, index) => <p key={index}>{paragraph}</p>)}<p className="daily-calendar-note">{daily.feastNote}</p>{saint.kind === "orthodox-saint" && <p className="daily-calendar-note">This figure is venerated in Orthodox Christianity.</p>}<Link prefetch={false} href={`/saints/${saint.slug}`} className="text-link">Explore the biography &amp; sources <span aria-hidden>↗</span></Link></> : <><p>Our reviewed directory does not yet include an entry for {daily.label}. This is a gap in our coverage, not a claim that no saints are commemorated today.</p><p>You can still take a few minutes for the reflection below, or choose a life from the directory.</p><Link prefetch={false} href="/resources" className="btn-secondary">Find a biography to read ↗</Link></>}
       </div>
     </section>
+    <details className="daily-date-browser"><summary>Choose another day</summary>
+    <nav className="daily-date-nav" aria-label="Browse daily reflections">
+      <Link prefetch={false} href={`/saint-of-day?date=${previous}`} aria-label={`Previous day, ${new Date(2024, month - 1, day - 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>← Previous</Link>
+      <Link prefetch={false} href="/saint-of-day" aria-current={followToday ? "page" : undefined}>Today</Link>
+      <form action="/saint-of-day" className="daily-date-form"><label htmlFor="daily-date">Choose a day</label><select name="date" id="daily-date" defaultValue={daily.date} aria-label="Choose a day in the annual feast-day calendar">{Array.from({ length: 366 }, (_, index) => { const choice = new Date(2024, 0, index + 1); const key = localDateKey(choice); return <option key={key} value={key}>{choice.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</option>; })}</select><button type="submit">Go</button></form>
+      <Link prefetch={false} href={`/saint-of-day?date=${next}`} aria-label={`Next day, ${new Date(2024, month - 1, day + 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>Next →</Link>
+    </nav>
+    </details>
     <p className="daily-calendar-context">When several saints share a date, this guide first favors saints on the <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar" target="_blank" rel="noopener noreferrer">USCCB’s U.S. calendar</a>, then other documented Catholic commemorations. Dates can vary by place and tradition. This is a discovery guide, not the official liturgical calendar for your parish; the liturgical banner follows the celebration for the year. The date browser includes February 29 for leap years.</p>
     <section className="daily-practice" aria-labelledby="practice-title"><div className="daily-practice-heading"><div><p className="eyebrow">Bring it into your day</p><h2 id="practice-title">{daily.reflection.theme}</h2><p>Original reflections and prayer prompts from Saint Discovery, not words attributed to {name ?? "a saint"}.</p></div><span className="daily-time">About 5 minutes</span></div>
       <div className="daily-practice-grid"><article id="reflect"><p className="eyebrow">02 · Reflect</p><h3>A question to sit with</h3><p>{daily.reflection.question}</p>{saint && <p>What detail in {name}’s story invites you to think differently about your own day?</p>}</article><article id="pray"><p className="eyebrow">03 · Pray</p><h3>Pause in God’s presence</h3><p className="daily-prayer">{daily.reflection.prayer}</p><p className="text-sm">Take a moment to add your own intention.</p></article><article id="act"><p className="eyebrow">04 · Act</p><h3>One small good thing</h3><p>{daily.reflection.action}</p></article></div>

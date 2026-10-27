@@ -24,8 +24,8 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
       {saint.tagline && <p className="font-heading text-2xl italic !text-gold mb-6">{saint.tagline}</p>}
       {saint.feast_day && <div className="inline-flex gap-3 border border-navy-lighter rounded-md px-4 py-2 text-sm mb-6"><span className="text-cream-dark">Feast day</span><span>{saint.feast_day}</span></div>}
       <p>{saint.description}</p>
-      <ResultShare slug={saint.slug} name={saintDisplayName(saint)} matched />
       <div className="result-reading-invite"><p className="eyebrow">Your next chapter</p><h2>Get to know the person behind the match.</h2><p>Read the biography, explore its sources, and notice one choice or virtue you want to understand better.</p><Link prefetch={false} href={`/saints/${saint.slug}`} onClick={() => track("biography_click", { saint_slug: saint.slug, link_placement: "result_primary" })} className="btn-primary">Read the full story <span aria-hidden>→</span></Link><p className="result-session-note">Your match and trait profile are kept in this browser tab so you can return after reading. Start a new quiz to clear them. Browser settings may limit recovery after a refresh.</p></div>
+      <ResultShare slug={saint.slug} name={saintDisplayName(saint)} matched />
       <ResultSocialLinks placement="quiz_result" />
       <ResultLearning slug={saint.slug} name={saintDisplayName(saint)} />
       <BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="result_blog" />

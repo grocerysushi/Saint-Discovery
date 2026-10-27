@@ -73,6 +73,21 @@ input::placeholder, textarea::placeholder { color: currentColor; opacity: .6; }
 .daily-artwork figcaption { position: static; padding: 14px 8px 6px; background: none; color: var(--color-cream-dark); font-size: .75rem; }
 .daily-artwork-fallback { min-height: 100%; }
 .daily-story-copy h2 { margin-block: 12px 24px; font-size: clamp(2rem, 3.4vw, 3rem); }
+.daily-story { margin-top: 30px; row-gap: 20px; }
+.daily-story-heading { grid-column: 1 / -1; }
+.daily-story-heading h2 { margin-block: 8px 0; font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.15; }
+.daily-artwork img { object-fit: contain; background: var(--color-navy); }
+.daily-date-browser { margin-top: 32px; border-block: 1px solid var(--color-navy-lighter); }
+.daily-date-browser > summary { padding: 18px 0; color: var(--color-gold); cursor: pointer; }
+.daily-date-browser .daily-date-nav { margin: 0; }
+.privacy-classroom-details { margin-top: 1rem; font-size: .9rem; }
+.privacy-classroom-details summary { cursor: pointer; color: var(--color-gold); }
+.privacy-choices .privacy-classroom-details p { margin-bottom: 0; }
+@media (max-width: 480px) {
+  .privacy-choice-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .privacy-choice-actions button { padding-inline: 6px; font-size: .8125rem; }
+  .privacy-choice-actions button:last-child { grid-column: 1 / -1; }
+}
 .daily-practice-grid { gap: 22px; }
 .daily-practice-grid article { border-radius: 8px; padding: 28px; border-top: 2px solid color-mix(in srgb,var(--color-gold) 60%,transparent); }
 .daily-progress { border-radius: 8px; }
