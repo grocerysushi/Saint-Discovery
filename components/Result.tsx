@@ -11,6 +11,7 @@ import { strongestTraits } from "@/lib/quiz-results";
 import { track } from "@/lib/analytics";
 import ResultLearning from "@/components/ResultLearning";
 import ResultSocialLinks from "@/components/ResultSocialLinks";
+import ResultArtwork from "@/components/ResultArtwork";
 
 export default function Result({ saint, scores, relatedSaints, onRestart }: { saint: Saint; scores: TraitScores; relatedSaints: Saint[]; onRestart: () => void }) {
   const maxScore = Math.max(...TRAIT_KEYS.map(k => scores[k]), 1);
@@ -18,7 +19,9 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => { heading.current?.focus({ preventScroll: true }); window.scrollTo({ top: 0, behavior: "instant" }); }, []);
   return <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="site-width result-layout">
-    <div className="result-story">
+    <div className="result-feature">
+    <div className="result-portrait"><ResultArtwork slug={saint.slug} name={saintDisplayName(saint)} /></div>
+    <div className="result-intro">
       <p className="eyebrow">Your saint match</p>
       <h1 ref={heading} tabIndex={-1} className="outline-none">{saintDisplayName(saint)}</h1>
       {saint.tagline && <p className="font-heading text-2xl italic !text-gold mb-6">{saint.tagline}</p>}
@@ -26,6 +29,8 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
       {traits.length > 0 && <p className="result-match-explanation">Your answers leaned toward {traits.join(" and ")}. Your match reflects how your full set of answers compares with themes assigned to this saint’s life.</p>}
       <p className="result-match-summary">{saint.description}</p>
       <Link prefetch={false} href={`/saints/${saint.slug}`} onClick={() => track("biography_click", { saint_slug: saint.slug, link_placement: "result_primary" })} className="btn-primary result-primary-story">Read the full story <span aria-hidden>→</span></Link>
+    </div></div>
+    <div className="result-story">
       <div className="result-reading-invite"><p className="eyebrow">Your next chapter</p><h2>Get to know the person behind the match.</h2><p>Read the biography, explore its sources, and notice one choice or virtue you want to understand better.</p><p className="result-session-note">Your match and trait profile are kept in this browser tab so you can return after reading. Start a new quiz to clear them. Browser settings may limit recovery after a refresh.</p></div>
       <ResultShare slug={saint.slug} name={saintDisplayName(saint)} matched />
       <ResultSocialLinks placement="quiz_result" />

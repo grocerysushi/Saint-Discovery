@@ -1,11 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import "@fontsource/source-serif-4/400.css";
 import "./globals.css";
 import "@/components/home-refresh.css";
 import "@/components/content-refresh.css";
 import "./design-refresh.css";
 import "./editorial-design.css";
 import "./gallery-home.css";
+import "./calm-design.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";

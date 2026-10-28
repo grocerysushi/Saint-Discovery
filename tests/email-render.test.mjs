@@ -84,7 +84,8 @@ test('both email layouts use the current site palette and a fluid email-safe fra
   } });
   const confirmation = buildConfirmEmail({ confirmUrl: 'https://example.org/confirm?token=test', siteUrl: params.siteUrl });
   for (const email of [result, confirmation]) {
-    for (const color of ['#0c1c2a', '#152b3a', '#dec48e', '#f4dfa8', '#faf6eb', '#c5d1d6']) assert.ok(email.html.includes(color));
+    for (const color of ['#f8f5ee', '#fffdf8', '#142b3b', '#465b65', '#795c25', '#d9d2c5']) assert.ok(email.html.includes(color));
+    assert.match(email.html, /background-color:#142b3b;color:#fffdf8/);
     assert.doesNotMatch(email.html, /#f2ede4|#1a1a2e|#d4a574|\{\{|\[\[/);
     assert.match(email.html, /width:100%;max-width:640px/);
     assert.match(email.html, /role="presentation"/);
