@@ -43,7 +43,7 @@ export default function AppPrivacyPage() {
           <p>Turning on classroom mode clears the saved quiz session, keeps quiz progress in memory rather than saving it, disables result sharing, and hides the confession tracker. Existing tracker history remains on the device and is not deleted. End the quiz session between learners on a shared device. External websites have their own privacy settings; the app’s classroom setting does not control them.</p>
         </Section>
         <Section title="Artwork and network requests">
-          <p>Most app content and included artwork are available offline. <strong>Load artwork from the website</strong> is off by default. If you enable it, the app may request images from Saint Discovery or an artwork’s credited host. The host can receive your IP address and other information normally included in a network request. You can turn this setting off in Settings.</p>
+          <p>App content and included artwork are available offline. Artwork that is not included in the app is represented by a symbolic placeholder. The app does not load artwork from websites.</p>
         </Section>
         <Section title="Sharing and external links">
           <p>Sharing is optional. When you use an invitation, the shared message or image can include your matched saint’s name and a link identifying that saint. Quiz answers and trait scores are not included. The app offers the iOS share sheet, copy options and links to services including email, X, Facebook and WhatsApp. The destination you choose handles the information you share under its own practices.</p>
