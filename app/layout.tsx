@@ -13,6 +13,7 @@ import "./calm-design.css";
 import "./discovery-design.css";
 import "./encounter-preview.css";
 import "./reading-room.css";
+import "./quiz-reading.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";

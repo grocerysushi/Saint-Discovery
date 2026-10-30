@@ -94,7 +94,7 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
     relatedSaints={moreQuizSaints(result?.scores ?? saved!.scores, (result ? gender : saved!.gender) === "Any" ? saints : saints.filter(saint => saint.gender === (result ? gender : saved!.gender)), displayedResult.slug)} onRestart={restart} />;
 
   const quiz = <div className="quiz-shell">
-    {gender !== null && <div className="quiz-focus-tools"><span>A little space to discover</span><button type="button" onClick={() => pauseDialog.current?.showModal()}>Pause <span aria-hidden>Ⅱ</span></button></div>}
+    {gender !== null && <div className="quiz-focus-tools"><span>One question at a time.</span><button type="button" onClick={() => pauseDialog.current?.showModal()}>Pause <span aria-hidden>Ⅱ</span></button></div>}
     <ProgressBar current={currentStep} total={totalSteps} />
     {gender === null ? <motion.section initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="question-card" aria-labelledby="gender-heading">
       <p className="eyebrow">Let’s start with you</p>
@@ -109,10 +109,10 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
     <p className="quiz-hint">No right or wrong answers. Choose what feels most like you.</p>
     {gender !== null && <p className="quiz-hint">Progress is saved in this browser tab. Start over clears your answers. Browser settings may limit recovery.</p>}
   </div>;
-  return <div className={gender !== null && !paused ? "quiz-focused" : "quiz-entry"}>
-    <div className={gender === null || paused ? "discovery-entry-grid" : undefined}>
-      {(gender === null || paused) && <DiscoverySample />}
-      {paused ? <section className="quiz-resume"><p>Your discovery is waiting</p><h1>Your place is held.</h1><p>Continue at step {currentStep + 1} of {totalSteps}.</p><button type="button" className="btn-primary" onClick={() => { setPaused(false); window.scrollTo({ top: 0, behavior: "instant" }); }}>Resume my discovery</button><p className="text-sm">Progress stays in this browser tab. Start over clears your answers.</p><Link prefetch={false} href="/resources" className="text-link">Explore the saints</Link></section> : <div className="quiz-entry-content">{gender === null && <div className="quiz-entry-intro"><p>A life you haven’t met.<br />A story that stays.</p><span>Discover your saint through 21 simple questions.<br /> Then get to know the person behind your match.</span></div>}{quiz}{gender === null && <p className="quiz-entry-promise">Free to take · About 3–5 minutes · No account needed</p>}</div>}
+  return <div className={`quiz-reading ${gender !== null && !paused ? "quiz-in-progress" : "quiz-at-entry"}`}>
+    <div className="quiz-reading-layout">
+      {paused ? <section className="quiz-resume"><p>Your discovery is waiting</p><h1>Your place is held.</h1><p>Continue at step {currentStep + 1} of {totalSteps}.</p><button type="button" className="btn-primary" onClick={() => { setPaused(false); window.scrollTo({ top: 0, behavior: "instant" }); }}>Resume my discovery</button><p className="text-sm">Progress stays in this browser tab. Start over clears your answers.</p><Link prefetch={false} href="/resources" className="text-link">Explore the saints</Link></section> : <div className="quiz-entry-content">{gender === null && <div className="quiz-entry-intro"><p>Your story starts here.</p><span>Answer 21 questions to meet a saint whose life you can explore.</span></div>}{quiz}{gender === null && <p className="quiz-entry-promise">Free to take · About 3–5 minutes · No account needed</p>}</div>}
+      <DiscoverySample />
     </div>
     <dialog ref={pauseDialog} className="discovery-dialog" aria-labelledby="pause-title"><button type="button" className="dialog-close" aria-label="Close pause dialog" onClick={() => pauseDialog.current?.close()}>×</button><h2 id="pause-title">Come back to it.</h2><p>Your progress stays in this browser tab. Take a breath or explore without starting over. Browser settings may limit recovery.</p><button type="button" className="btn-primary" onClick={() => pauseDialog.current?.close()}>Keep going</button><button type="button" className="text-link" onClick={() => { pauseDialog.current?.close(); setPaused(true); window.scrollTo({ top: 0, behavior: "instant" }); }}>Pause and explore</button></dialog>
     {!home && paused && <p className="site-width"><Link href="/" prefetch={false}>Return to the homepage</Link></p>}
