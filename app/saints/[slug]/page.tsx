@@ -19,6 +19,7 @@ import { getSaintArtwork } from "@/lib/saint-artwork";
 import SaintArtworkFigure from "@/components/SaintArtwork";
 import SaintReaderQuestions from "@/components/SaintReaderQuestions";
 import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
+import "@/components/biography-edition.css";
 
 // Legacy generated copy is replaced as each external-source review is completed.
 // Its former model-only checking process was not independent fact verification.
@@ -104,6 +105,8 @@ export default async function SaintPage({
   const artwork = getSaintArtwork(saint);
   const patronLinks = getPatronLinksForSaint(saint.slug);
   const relatedGuides = PATRON_GUIDES.filter(guide => guide.saints.some(entry => entry.slug === saint.slug));
+  const biographyText = extended?.biography.join(" ") || saint.description || "";
+  const readingMinutes = Math.max(1, Math.ceil(biographyText.split(/\s+/).filter(Boolean).length / 200));
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -147,7 +150,7 @@ export default async function SaintPage({
   };
 
   return (
-    <main className="editorial-surface biography-page min-h-screen">
+    <main className="editorial-surface biography-page biography-edition min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(articleJsonLd) }}
@@ -192,7 +195,8 @@ export default async function SaintPage({
         </nav>
 
         <article>
-          <header className="mb-10">
+          <header className="biography-opening">
+            <div className="biography-opening-copy">
             <p className="eyebrow mb-3">
               Catholic saint biography
             </p>
@@ -207,6 +211,9 @@ export default async function SaintPage({
                 &ldquo;{saint.tagline}&rdquo;
               </p>
             )}
+            {biographyText && <div className="biography-start"><a href="#biography" className="btn-primary">Read the life story <span aria-hidden="true">↓</span></a><span>About {readingMinutes} min · biography</span></div>}
+            <details className="biography-facts">
+            <summary>Dates, patronage &amp; background</summary>
             <dl className="text-sm space-y-1.5">
               {saint.feast_day && (
                 <div className="flex gap-2">
@@ -251,16 +258,19 @@ export default async function SaintPage({
                 {saint.known_for}
               </p>
             )}
+            </details>
             {review && <a href="#sources" className="profile-source-link">Read the sources for this biography</a>}
+            </div>
+            <SaintArtworkFigure artwork={artwork} name={name} />
           </header>
 
-          <SaintArtworkFigure artwork={artwork} name={name} />
-
           <nav aria-label="On this page" className="profile-contents">
-            <h2>On this page</h2>
+            <p className="biography-rail-label">A life to discover</p>
+            <details>
+            <summary>Explore this page</summary>
             <div>
-              {readerGuide && <a href="#quick-answers">Key questions answered</a>}
               {(extended || saint.description) && <a href="#biography">Biography</a>}
+              {readerGuide && <a href="#quick-answers">Key questions answered</a>}
               {contribution && <a href="#contribution">Context &amp; contribution</a>}
               {learningGuide && <a href="#reading-guide">Reading guide</a>}
               {saint.prayer && <a href="#prayer">Prayer</a>}
@@ -271,9 +281,9 @@ export default async function SaintPage({
               {corrections.length > 0 && <a href="#updates">Editorial updates</a>}
 
             </div>
+            </details>
+            {saint.kind !== "unresolved" && saint.kind !== "observance" && <a className="biography-reflection-link" href="#reflection">Pause &amp; reflect <span aria-hidden="true">↗</span></a>}
           </nav>
-
-          {readerGuide && <SaintReaderQuestions guide={readerGuide} />}
 
           {extended ? (
             <section id="biography" className="mb-10 scroll-mt-24">
@@ -298,6 +308,8 @@ export default async function SaintPage({
               </section>
             )
           )}
+
+          {readerGuide && <SaintReaderQuestions guide={readerGuide} />}
 
           {contribution && (
             <section id="contribution" aria-labelledby="contribution-title" className="mb-10 scroll-mt-24">
