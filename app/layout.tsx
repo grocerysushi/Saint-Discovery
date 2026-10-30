@@ -11,6 +11,7 @@ import "./editorial-design.css";
 import "./gallery-home.css";
 import "./calm-design.css";
 import "./discovery-design.css";
+import "./encounter-preview.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
