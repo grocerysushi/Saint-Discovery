@@ -1,8 +1,10 @@
 import { BlogIndex } from "@/components/blog/BlogReader";
+import "@/components/blog/reading-desk.css";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BLOG_CATEGORIES } from "@/lib/blog";
-import { getPublishedBlogPage } from "@/lib/blog-public";
+import { getPublishedBlogPage, getPublishedBlogPost } from "@/lib/blog-public";
+import { BLOG_STARTING_POINTS, type BlogStartingPoint } from "@/lib/blog-discovery";
 import { blogBrowseUrl, blogCollectionSchema } from "@/lib/blog-seo";
 import { absoluteUrl, serializeJsonLd, socialMetadata } from "@/lib/seo";
 type Props = { searchParams: Promise<Record<string, string | string[] | undefined>> };
@@ -28,5 +30,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 }
 export default async function Page(props: Props) {
   const data = await browse(props);
-  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(blogCollectionSchema(data.posts, data.page, data.category, data.search)) }} /><BlogIndex {...data} /></>;
+  const startingPoints: BlogStartingPoint[] = [];
+  if (data.page === 1 && !data.category && !data.search) {
+    const entries = await Promise.allSettled(BLOG_STARTING_POINTS.map(point => getPublishedBlogPost(point.slug)));
+    entries.forEach((entry, index) => {
+      if (entry.status !== "fulfilled" || !entry.value) return;
+      const { title, slug, excerpt, author, category, cover, coverAlt, coverCredit } = entry.value.published;
+      startingPoints.push({ id: BLOG_STARTING_POINTS[index].id, article: { title, slug, excerpt, author, category, cover, coverAlt, coverCredit } });
+    });
+  }
+  return <><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(blogCollectionSchema(data.posts, data.page, data.category, data.search)) }} /><BlogIndex {...data} startingPoints={startingPoints} /></>;
 }

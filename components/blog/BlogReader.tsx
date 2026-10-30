@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, type ReactNode, useState } from "react";
+import { Fragment, type ReactNode, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "@/components/StaticImage";
 
@@ -10,6 +10,7 @@ import { BLOG_CATEGORIES, readingTime, safeBlogUrl, type BlogContent } from "@/l
 import type { BlogSummary } from "@/lib/blog-public";
 import { blogBrowseUrl } from "@/lib/blog-seo";
 import { BLOG_IMAGE_SIZES, BLOG_IMAGE_STYLE } from "@/lib/blog-images";
+import { BLOG_STARTING_POINTS, type BlogStartingPoint } from "@/lib/blog-discovery";
 
 export function BlogImage({ src, alt, className = "", priority = false, variant }: { src: string; alt: string; className?: string; priority?: boolean; variant?: keyof typeof BLOG_IMAGE_SIZES }) {
   const [failedSource, setFailedSource] = useState("");
@@ -61,15 +62,41 @@ export function ArticleView({ content, date, preview = false }: { content: BlogC
     {!preview && <div className="blog-back"><Link prefetch={false} href="/blog">← More from the blog</Link></div>}
   </div>;
 }
-export function BlogIndex({ posts, page, pages, total, category, search }: { posts: BlogSummary[]; page: number; pages: number; total: number; category: string; search: string }) {
-  const [featured, ...rest] = posts;
-  return <main className="blog-public site-width"><div className="blog-demo-note"><span>The Saint Discovery Blog</span><Link prefetch={false} href="/blog/feed.xml">Subscribe via RSS ↗</Link></div>
+function ReadingDesk({ points }: { points: BlogStartingPoint[] }) {
+  const [selected, setSelected] = useState(0);
+  const tabs = useRef<(HTMLButtonElement | null)[]>([]);
+  const paths = points.flatMap(point => {
+    const guide = BLOG_STARTING_POINTS.find(candidate => candidate.id === point.id);
+    return guide ? [{ ...guide, article: point.article }] : [];
+  });
+  if (!paths.length) return null;
+  return <section className="reading-desk" aria-labelledby="desk-heading">
+    <div className="desk-invitation"><p className="desk-label">The Saint Discovery Blog</p><h1 id="desk-heading">What brings <br />you here?</h1><p>A good question is a place to begin. <br />Choose a starting point for your reading.</p>
+      <div role="tablist" aria-label="Choose your reading starting point" className="desk-choices">{paths.map((path, index) => <button key={path.id} ref={element => { tabs.current[index] = element; }} id={`desk-tab-${path.id}`} type="button" role="tab" aria-controls={`desk-panel-${path.id}`} aria-selected={selected === index} tabIndex={selected === index ? 0 : -1} onClick={() => setSelected(index)} onKeyDown={event => {
+        const next = ["ArrowRight", "ArrowDown"].includes(event.key) ? (index + 1) % paths.length : ["ArrowLeft", "ArrowUp"].includes(event.key) ? (index + paths.length - 1) % paths.length : event.key === "Home" ? 0 : event.key === "End" ? paths.length - 1 : null;
+        if (next !== null) { event.preventDefault(); setSelected(next); tabs.current[next]?.focus(); }
+      }}><span className="desk-choice-full">{path.label}</span><span className="desk-choice-short">{path.shortLabel}</span><span aria-hidden>↗</span></button>)}</div>
+      <a href="#story-archive" className="desk-archive-link">Or search all stories <span aria-hidden>↓</span></a>
+    </div>
+    {paths.map((path, index) => <section key={path.id} id={`desk-panel-${path.id}`} aria-labelledby={`desk-tab-${path.id}`} role="tabpanel" tabIndex={0} hidden={selected !== index} className="desk-recommendation">
+      <div className="desk-book"><figure><div className="desk-art"><BlogImage src={path.article.cover} alt={path.article.coverAlt} variant="card" priority={index === 0} /></div>{path.article.coverCredit && <figcaption><details><summary>Artwork credit</summary><p>{path.article.coverCredit}</p></details></figcaption>}</figure>
+        <div><p className="desk-start-label">Start here</p><h2><Link href={`/blog/${path.article.slug}`} prefetch={false}>{path.article.title}</Link></h2><p className="desk-excerpt">{path.article.excerpt}</p><Link prefetch={false} href={`/blog/${path.article.slug}`} className="desk-read">Read the guide <span aria-hidden>↗</span></Link></div>
+      </div>
+      <div className="desk-next"><p>{path.note}</p><Link prefetch={false} href={path.nextUrl}>{path.nextLabel} <span aria-hidden>→</span></Link></div>
+    </section>)}
+    <noscript><style>{`.reading-desk .desk-recommendation[hidden]{display:block!important}.reading-desk .desk-choices{display:none}`}</style></noscript>
+  </section>;
+}
 
-    <header className="blog-masthead"><p className="eyebrow">The Saint Discovery Blog</p><h1>Old wisdom.<br /><em>Everyday life.</em></h1><p>Stories, reflections, and small invitations to live your faith.<br className="blog-desktop-break" /> A little inspiration for the journey.</p></header>
-    <div className="blog-browse"><nav aria-label="Story categories">{["All stories", ...BLOG_CATEGORIES].map(c => <Link prefetch={false} key={c} href={blogBrowseUrl(1, c === "All stories" ? "" : c, search)} aria-current={(category || "All stories") === c ? "page" : undefined}>{c}</Link>)}</nav><form action="/blog" role="search">{category && <input type="hidden" name="category" value={category} />}<input aria-label="Search stories" type="search" name="q" key={search} defaultValue={search} maxLength={100} placeholder="Search the blog…" /><button type="submit">Search</button></form></div>
+export function BlogIndex({ posts, page, pages, total, category, search, startingPoints = [] }: { posts: BlogSummary[]; page: number; pages: number; total: number; category: string; search: string; startingPoints?: BlogStartingPoint[] }) {
+  const [featured, ...rest] = posts;
+  return <main className="blog-public blog-with-desk site-width">
+
+    {startingPoints.length > 0 ? <ReadingDesk points={startingPoints} /> : <header className="desk-results-heading"><p>The Saint Discovery Blog</p><h1>{search ? `Stories about “${search}”` : category || "Explore the stories"}</h1><p>Source-linked guides to saints, prayer, and everyday Catholic life.</p></header>}
+    <div className="desk-archive-heading" id="story-archive"><h2>{search || category ? `${total} ${total === 1 ? "story" : "stories"} found` : "The story archive"}</h2><Link prefetch={false} href="/blog/feed.xml">Subscribe via RSS ↗</Link></div>
+    <div className="blog-browse"><nav aria-label="Story categories">{["All stories", ...BLOG_CATEGORIES].map(c => <Link prefetch={false} key={c} href={blogBrowseUrl(1, c === "All stories" ? "" : c, search)} aria-current={(category || "All stories") === c ? "page" : undefined}>{c}</Link>)}</nav><form action="/blog" role="search">{category && <input type="hidden" name="category" value={category} />}<input aria-label="Search stories" type="search" name="q" key={search} defaultValue={search} maxLength={100} placeholder="Search by topic or question" /><button type="submit">Search</button></form></div>
     {!featured ? <div className="blog-empty"><h2>{category || search ? "No stories match your search." : "New stories are on their way."}</h2><p>{category || search ? "Try another topic or browse all stories." : "Explore our saint biographies and guides while the first blog articles are being prepared."}</p><Link prefetch={false} href={category || search ? "/blog" : "/resources"} className="text-link">{category || search ? "Browse all stories →" : "Explore the saints →"}</Link></div> : <>
       <Link prefetch={false} href={`/blog/${featured.published.slug}`} className="blog-feature"><div className="blog-feature-art"><BlogImage src={featured.published.cover} alt={featured.published.coverAlt} variant="feature" priority /></div><div className="blog-feature-copy"><p className="eyebrow">{featured.published.category} · {page === 1 ? "Latest story" : `Page ${page}`}</p><h2>{featured.published.title}</h2><p>{featured.published.excerpt}</p><span className="blog-card-meta">{featured.published.author}</span><span className="blog-read-link">Read the story <span aria-hidden>↗</span></span></div></Link>
-    {page === 1 && !category && !search && <section className="blog-reading-paths" aria-labelledby="reading-paths"><p className="eyebrow">Start with your question</p><h2 id="reading-paths">Choose a path through the blog</h2><div><section><h3>Choosing a Confirmation saint</h3><p>Compare possible patrons, read their sources, and prepare a thoughtful reflection.</p><Link prefetch={false} href="/confirmation-saint-guide">Choose your saint →</Link><Link prefetch={false} href="/blog/how-to-write-confirmation-saint-report">Write your saint report →</Link></section><section><h3>Learning to pray</h3><p>Begin with the meaning of prayer, then try praying with a passage of Scripture.</p><Link prefetch={false} href="/blog/what-is-prayer-catholic-guide-beginners">A beginner’s guide to prayer →</Link><Link prefetch={false} href="/blog/how-to-pray-lectio-divina-catholic-guide">Try lectio divina →</Link></section><section><h3>Teaching or exploring the faith</h3><p>Connect Catholic beliefs with a lesson, discussion, or a question for your parish.</p><Link prefetch={false} href="/blog/seven-sacraments-catholic-church-explained">Understand the sacraments →</Link><Link prefetch={false} href="/resources/teachers">Printable teaching resources →</Link></section></div></section>}
 
       {rest.length > 0 && <section className="blog-more"><div className="blog-section-title"><h2>A moment to explore</h2><span>{total} {total === 1 ? "story" : "stories"}</span></div><div className="blog-story-grid">{rest.map((post, i) => <Link prefetch={false} className={`blog-story-card blog-story-tone-${i % 2}`} key={post.id} href={`/blog/${post.published.slug}`}><div className="blog-card-art">{post.published.cover ? <BlogImage src={post.published.cover} alt={post.published.coverAlt} variant="card" /> : <><span aria-hidden>{i % 2 ? "☾" : "✦"}</span><small>The Saint Discovery Blog</small></>}</div><p className="eyebrow">{post.published.category}</p><h3>{post.published.title}</h3><p>{post.published.excerpt}</p><span className="blog-card-meta">{post.published.author} <span aria-hidden>↗</span></span></Link>)}</div></section>}
       {pages > 1 && <nav className="blog-pagination" aria-label="Blog pages">{page > 1 && <Link prefetch={false} href={blogBrowseUrl(page - 1, category, search)} rel="prev">← Newer stories</Link>}<span>Page {page} of {pages}</span>{page < pages && <Link prefetch={false} href={blogBrowseUrl(page + 1, category, search)} rel="next">Older stories →</Link>}</nav>}
