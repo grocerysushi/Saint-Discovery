@@ -6,7 +6,7 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import type { DailySaint } from "@/lib/saint-of-day";
 import { localDateKey, subscribeToLocalDate } from "@/lib/calendar-date";
 
-export default function DailySaintCard({ initialSaint }: { initialSaint: DailySaint | null }) {
+export default function DailySaintCard({ initialSaint, compact = false }: { initialSaint: DailySaint | null; compact?: boolean }) {
   const [saint, setSaint] = useState(initialSaint);
   const [failedImage, setFailedImage] = useState<string | null>(null);
 
@@ -30,6 +30,7 @@ export default function DailySaintCard({ initialSaint }: { initialSaint: DailySa
     const unsubscribe = subscribeToLocalDate(() => { void refresh(); });
     return () => { stopped = true; controller?.abort(); unsubscribe(); };
   }, []);
+  if (compact) return <section className="discovery-daily-strip" aria-label="Saint of the Day"><div><p>A story for today</p><small>{saint?.feastDay ?? "Saint of the Day"}</small></div><div><h2>{saint ? saintDisplayName(saint) : "A moment for reflection"}</h2><p>A daily reading; liturgical celebrations may differ by place.</p></div><Link prefetch={false} href="/saint-of-day" className="text-link">Meet today’s saint <span aria-hidden>↗</span></Link></section>;
   const image = saint?.image;
   // Use the complete, reviewed version of this painting for the home feature.
   const imageSrc = saint?.slug === "evaristus" && image && !image.symbolic ? "/images/evaristus-gallery.jpg" : image?.src;

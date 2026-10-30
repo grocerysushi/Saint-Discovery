@@ -12,6 +12,7 @@ import { track } from "@/lib/analytics";
 import ResultLearning from "@/components/ResultLearning";
 import ResultSocialLinks from "@/components/ResultSocialLinks";
 import ResultArtwork from "@/components/ResultArtwork";
+import SaintCompanion from "@/components/SaintCompanion";
 
 export default function Result({ saint, scores, relatedSaints, onRestart }: { saint: Saint; scores: TraitScores; relatedSaints: Saint[]; onRestart: () => void }) {
   const maxScore = Math.max(...TRAIT_KEYS.map(k => scores[k]), 1);
@@ -28,14 +29,13 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
       {saint.feast_day && <div className="inline-flex gap-3 border border-navy-lighter rounded-md px-4 py-2 text-sm mb-6"><span className="text-cream-dark">Feast day</span><span>{saint.feast_day}</span></div>}
       {traits.length > 0 && <p className="result-match-explanation">Your answers leaned toward {traits.join(" and ")}. Your match reflects how your full set of answers compares with themes assigned to this saint’s life.</p>}
       <p className="result-match-summary">{saint.description}</p>
-      <Link prefetch={false} href={`/saints/${saint.slug}`} onClick={() => track("biography_click", { saint_slug: saint.slug, link_placement: "result_primary" })} className="btn-primary result-primary-story">Read the full story <span aria-hidden>→</span></Link>
+      <SaintCompanion name={saintDisplayName(saint)} slug={saint.slug} />
     </div></div>
     <div className="result-story">
-      <div className="result-reading-invite"><p className="eyebrow">Your next chapter</p><h2>Get to know the person behind the match.</h2><p>Read the biography, explore its sources, and notice one choice or virtue you want to understand better.</p><p className="result-session-note">Your match and trait profile are kept in this browser tab so you can return after reading. Start a new quiz to clear them. Browser settings may limit recovery after a refresh.</p></div>
+      <p className="result-session-note">Your match and trait profile are kept in this browser tab so you can return after reading. Start a new quiz to clear them. Browser settings may limit recovery after a refresh.</p>
       <ResultShare slug={saint.slug} name={saintDisplayName(saint)} matched />
       <ResultSocialLinks placement="quiz_result" />
-      <ResultLearning slug={saint.slug} name={saintDisplayName(saint)} />
-      <BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="result_blog" />
+      <details className="home-disclosure"><summary>Explore this life more deeply</summary><ResultLearning slug={saint.slug} name={saintDisplayName(saint)} /><BlogRecommendations key={saint.slug} saintSlug={saint.slug} placement="result_blog" /></details>
       {saint.prayer && <div className="result-prayer"><h2 className="eyebrow mb-3">A prayer to take with you</h2><p>{saint.prayer}</p></div>}
       <div className="flex flex-wrap gap-6 mt-5"><button onClick={onRestart} className="text-link">↻ Take the quiz again</button><Link prefetch={false} href="/resources" className="text-link">Explore all saints →</Link></div>
     </div>
