@@ -3,6 +3,8 @@ import ContextualReading from "@/components/ContextualReading";
 import Link from "next/link";
 import EducatorDownload from "@/components/EducatorDownload";
 import ClassroomModeButton from "@/components/ClassroomModeButton";
+import TeachingSession from "@/components/TeachingSession";
+import "@/components/teaching-session.css";
 import content from "@/data/educator-resources.json";
 import { absoluteUrl, serializeJsonLd, siteConfig } from "@/lib/seo";
 
@@ -45,14 +47,17 @@ export default function TeacherResources() {
 
   return <main className="site-width guide-page educator-page">
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />
-    <header className="page-intro">
+    <header className="page-intro teaching-intro">
+      <div className="teaching-intro-copy">
       <p className="eyebrow">For teachers &amp; catechists</p>
-      <h1>Bring the saints<br /><em className="text-gold">into the classroom.</em></h1>
+      <h1>Bring a saint’s story <br />into your next lesson.</h1>
       <p>Free saint reflections and a Confirmation lesson, ready to print or read online.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
       <div className="educator-quick-links"><a className="btn-primary" href="#worksheet">View the worksheet <span aria-hidden>↓</span></a><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
-      <p>Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
+      <p className="teaching-safety-copy">Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
       <details className="educator-classroom-details"><summary>Classroom safety and settings</summary><ClassroomModeButton /></details>
+      </div>
+      <TeachingSession />
     </header>
 
     <section className="educator-downloads" aria-label="Download teaching resources">

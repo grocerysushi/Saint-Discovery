@@ -1,0 +1,73 @@
+.educator-page .teaching-intro { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,.95fr); gap:64px; align-items:center; margin-bottom:38px; }
+.educator-page .teaching-intro h1 { font-size:clamp(2.7rem,4.4vw,4.25rem); line-height:1.08; font-weight:400; letter-spacing:-.035em; }
+.educator-page .teaching-intro > .teaching-intro-copy > p { max-width:48ch; }
+.educator-page .teaching-intro .teaching-safety-copy { font-size:.9rem; line-height:1.7; margin-top:27px; }
+.educator-page .teaching-intro .educator-classroom-details { font-size:.9rem; }
+.educator-page .teaching-launch { background:#e8edeb; border-radius:5px; padding:28px 32px; color:#162d3b; }
+.educator-page .teaching-launch-top { display:flex; justify-content:space-between; gap:14px; color:#53656b; font-size:.88rem; }
+.educator-page .teaching-launch h2 { font-family:var(--font-heading); font-size:2.5rem; font-weight:400; line-height:1.12; margin:18px 0; }
+.educator-page .teaching-launch > p { color:#53656b; line-height:1.6; font-size:.96rem; margin:0 0 18px; }
+.educator-page .teaching-launch-agenda { list-style:none; padding:0; margin:0 0 22px; }
+.teaching-launch-agenda li { display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-bottom:1px solid #c4cfc7; font-size:.92rem; }
+.teaching-launch-agenda li > span:last-child { flex-shrink:0; color:#53656b; font-size:.82rem; }
+.teaching-launch > button { display:flex; justify-content:space-between; gap:30px; width:100%; padding:14px 20px; color:#faf9f5; background:#162d3b; border-radius:3px; cursor:pointer; font-weight:600; }
+.educator-page .teaching-launch > .teaching-launch-note { font-size:.8rem; margin:12px 0 0; }
+.teaching-dialog { position:fixed; inset:0; margin:auto; width:min(1180px,calc(100vw - 40px)); max-width:none; height:min(850px,calc(100dvh - 40px)); max-height:none; padding:0; color:#162d3b; background:#faf9f5; border:1px solid #b9c8c2; border-radius:8px; overflow:auto; }
+.teaching-dialog::backdrop { background:rgba(15,32,42,.75); }
+.teaching-dialog[open] { display:flex; flex-direction:column; overflow:hidden; }
+.teaching-dialog-header { display:flex; justify-content:space-between; align-items:center; gap:20px; padding:22px 30px; border-bottom:1px solid #c6d1cb; background:#faf9f5; }
+.teaching-dialog-header p { font-size:.8rem; color:#795f2e; margin:0 0 4px; }
+.teaching-dialog-header h2 { font-family:var(--font-heading); font-size:1.5rem; line-height:1.2; }
+.teaching-dialog-header > button { display:flex; align-items:center; gap:18px; padding:10px 14px; border:1px solid #b9c8c2; border-radius:4px; cursor:pointer; }
+.teaching-dialog-header button span { font-size:1.5rem; line-height:1; }
+.teaching-dialog-header { flex-shrink:0; }
+.teaching-workspace { display:grid; grid-template-columns:280px minmax(0,1fr); min-height:0; flex:1; overflow-y:auto; }
+.teaching-agenda { padding:30px 22px; background:#e8edeb; border-right:1px solid #c6d1cb; }
+.teaching-agenda > p { font-size:.84rem; color:#53656b; margin:0 0 18px; }
+.teaching-agenda ol { list-style:none; padding:0; margin:0 0 25px; display:grid; gap:8px; }
+.teaching-agenda button { display:flex; align-items:center; gap:12px; width:100%; padding:12px 10px; text-align:left; border-radius:4px; cursor:pointer; color:#53656b; }
+.teaching-agenda button:hover { background:#dce3de; }
+.teaching-agenda button[aria-current="step"] { background:#162d3b; color:#faf9f5; }
+.teaching-stage-number { font-family:var(--font-heading); font-size:1.6rem; width:20px; flex-shrink:0; }
+.teaching-agenda button small { display:block; margin-top:4px; font-size:.76rem; }
+.teaching-agenda > a { display:block; font-size:.84rem; line-height:1.5; padding:9px 0; text-decoration:underline; text-underline-offset:4px; }
+.teaching-stage { padding:35px 44px; display:flex; flex-direction:column; min-width:0; }
+.teaching-stage-meta { display:flex; justify-content:space-between; gap:15px; flex-wrap:wrap; color:#795f2e; font-size:.86rem; margin-bottom:22px; }
+.teaching-stage h3 { font-family:var(--font-heading); font-size:clamp(2rem,3.5vw,3rem); font-weight:400; line-height:1.12; margin:0 0 26px; }
+.teaching-stage h3:focus { outline:none; }
+.teaching-stage-text { font-size:1.25rem; line-height:1.85; max-width:65ch; }
+.teaching-stage-text p { margin:0 0 20px; }
+.teaching-citation a { text-decoration:underline; text-underline-offset:4px; color:#795f2e; }
+.teaching-privacy-note { font-size:.86rem; line-height:1.65; color:#53656b; border-top:1px solid #c6d1cb; padding-top:20px; margin:20px 0; }
+.teaching-stage-controls { display:flex; justify-content:space-between; gap:15px; padding:16px 30px; border-top:1px solid #c6d1cb; background:#faf9f5; flex-shrink:0; }
+.teaching-stage-controls button { padding:13px 19px; border:1px solid #b9c8c2; border-radius:3px; cursor:pointer; }
+.teaching-stage-controls button:disabled { opacity:.45; cursor:default; }
+.teaching-stage-controls .teaching-next { background:#162d3b; color:#faf9f5; display:flex; align-items:center; gap:25px; border-color:#162d3b; }
+:is(.teaching-launch,.teaching-dialog) :is(button,a):focus-visible { outline:3px solid #97712b; outline-offset:4px; }
+@media(max-width:900px) {
+  .educator-page .teaching-intro { gap:30px; }
+  .teaching-workspace { grid-template-columns:220px minmax(0,1fr); }
+  .teaching-stage { padding:28px; }
+  .teaching-agenda { padding:25px 14px; }
+}
+@media(max-width:700px) {
+  .educator-page .teaching-intro { grid-template-columns:1fr; gap:28px; }
+  .educator-page .teaching-launch { padding:25px; }
+  .teaching-dialog { width:100vw; height:100dvh; border:0; border-radius:0; }
+  .teaching-dialog-header { padding:15px 20px; }
+  .teaching-dialog-header h2 { font-size:1.2rem; }
+  .teaching-dialog-header > button { gap:8px; font-size:.9rem; }
+  .teaching-workspace { display:flex; flex-direction:column-reverse; min-height:0; }
+  .teaching-stage { padding:26px 22px; }
+  .teaching-workspace > * { flex-shrink:0; }
+  .teaching-stage-meta { font-size:.78rem; gap:8px; margin-bottom:19px; }
+  .teaching-stage h3 { font-size:2.3rem; }
+  .teaching-stage-text { font-size:1.09rem; line-height:1.8; }
+  .teaching-stage-controls { padding:14px 20px; }
+  .teaching-stage-controls button { padding:12px 14px; font-size:.92rem; }
+  .teaching-stage-controls .teaching-next { gap:12px; }
+  .teaching-agenda { border-right:0; border-top:1px solid #c6d1cb; padding:25px 22px; }
+  .teaching-agenda ol { grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px; }
+  .teaching-agenda button { font-size:.85rem; gap:8px; }
+}
+@media print { .teaching-launch,.teaching-dialog { display:none; } }
