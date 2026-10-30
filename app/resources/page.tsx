@@ -13,6 +13,8 @@ import DirectoryDailySaints from "@/components/DirectoryDailySaints";
 import { getDirectoryPage, type DirectorySearchParams } from "@/lib/directory-page";
 import { directoryUrl } from "@/lib/directory-url";
 import { normalizeDirectorySearch } from "@/lib/directory-filters";
+import DirectoryGallery from "@/components/DirectoryGallery";
+import { READING_PATHS } from "@/lib/reading-paths";
 
 export const revalidate = 86400;
 
@@ -96,6 +98,14 @@ export async function generateMetadata(props: Props): Promise<Metadata> {
 export default async function Resources(props: Props) {
   const data = await browse(props);
   const { saints, filters } = data;
+  const allSaints = await getAllSaints();
+  const galleryPaths = READING_PATHS.map((path, i) => ({
+    title: path.title, question: path.question, href: `/resources/reading#path-${i + 1}`,
+    saints: path.slugs.flatMap(slug => {
+      const saint = allSaints.find(item => item.slug === slug);
+      return saint ? [{ name: saintDisplayName(saint), slug: saint.slug, description: saint.description || saint.tagline, artwork: getSaintArtwork(saint) }] : [];
+    }),
+  }));
 
   // Slim patron-topic index for the directory's high-intent search
   // (e.g. typing "doctors" surfaces the Patron Saint of Doctors page).
@@ -161,7 +171,7 @@ export default async function Resources(props: Props) {
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(breadcrumbJsonLd) }}
       />
       <div className="site-width directory-page">
-        <header className="catalogue-intro"><h1>The saints directory</h1><p>Explore {data.catalogueTotal} Catholic saint biographies, with sources, historical context and room for further discovery.</p></header>
+        <DirectoryGallery paths={galleryPaths} total={data.catalogueTotal} defaultBrowse={data.page > 1 || Object.values(filters).some(Boolean)}>
         <SaintsDirectory filters={filters} options={data.options} total={data.total} catalogueTotal={data.catalogueTotal} page={data.page} pages={data.pages} offset={data.offset} count={saints.length}>
           {topicMatches.length > 0 && <section className="catalogue-related" aria-label="Related saint guides"><h2>Related patronage guides</h2><p>These guides may help your search; directory filters do not apply.</p>{topicMatches.map(topic => <Link prefetch={false} key={topic.slug} href={`/patron-saint-of/${topic.slug}`}>{topic.label} ({topic.saintCount} biographies)</Link>)}</section>}
           {data.total === 0 ? <div className="catalogue-empty"><h2>No saints match this search.</h2><p>Try a shorter name or clear the filters to start again.</p><Link prefetch={false} href="/resources" className="btn-secondary">Show all saints</Link></div> : <ul className="catalogue-list">{saints.map(saint => {
@@ -174,8 +184,8 @@ export default async function Resources(props: Props) {
             {data.page < data.pages && <Link href={directoryUrl(filters, data.page + 1)} rel="next" prefetch={false}>Next →</Link>}
           </nav>}
         </SaintsDirectory>
+        </DirectoryGallery>
         <DirectoryDailySaints />
-        <div className="guide-directory-link"><div><p className="eyebrow">Not sure where to begin?</p><h2>Read two lives around one question.</h2><p>Try a guided comparison, follow the evidence, and make room for your own questions.</p></div><Link prefetch={false} href="/resources/reading" className="btn-secondary">Choose a reading path</Link></div>
         <section className="directory-resources"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
         <div className="guide-directory-link"><div><p className="eyebrow">Preparing for Confirmation?</p><h2>Find a saint to walk with you.</h2><p>Explore suggestions, build a shortlist, and reflect with your sponsor.</p></div><Link prefetch={false} href="/confirmation-saint-guide" className="btn-secondary">Read the selection guide <span aria-hidden>↗</span></Link></div>
         <div className="guide-directory-link"><div><p className="eyebrow">For teachers &amp; catechists</p><h2>Bring a saint’s story into your classroom.</h2><p>Free printable reflections and a 45-minute Confirmation lesson, ready for your next session.</p></div><Link prefetch={false} href="/resources/teachers" className="btn-secondary">Get the teaching resources <span aria-hidden>↗</span></Link></div>
