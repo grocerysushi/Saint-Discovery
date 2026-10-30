@@ -1,0 +1,18 @@
+{
+  "scope": "Standalone local mockup only",
+  "change": "Three-day example companion at quiz preview completion",
+  "checks": {
+    "javascriptSyntax": "passed",
+    "desktopVisual": "passed",
+    "mobile390": "passed after fixing missing word space",
+    "noHorizontalOverflow": true,
+    "allThreeDaysSwitch": true,
+    "download": "2099-byte HTML reading card includes all three days, source link and print CSS",
+    "maleAndFemalePathsReachLabeledExample": true,
+    "returnPreservesLastAnswer": true,
+    "exampleNotCalculatedMatchDisclosure": true,
+    "consoleErrors": []
+  },
+  "productionModified": false,
+  "conversionImpact": "Unmeasured hypothesis"
+}

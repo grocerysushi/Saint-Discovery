@@ -1,0 +1,28 @@
+{
+  "iteration": 3,
+  "scope": "Standalone mockup only; production untouched",
+  "change": "Automatic focused quiz view after first answer, with in-memory pause and resume",
+  "checks": {
+    "fourDemoSteps": true,
+    "backtrackingRestoresSelection": true,
+    "answerCanBeChanged": true,
+    "pauseExploreResume": true,
+    "brandDuringQuizOpensPause": true,
+    "keepGoingPreservesQuestion": true,
+    "backToGenderRestoresSelection": true,
+    "maleAndFemaleChoices": true,
+    "mobile390NoHorizontalOverflow": true,
+    "mobileChoicesFitScreen": true,
+    "previewEndExplainsNoMatchCalculated": true,
+    "consoleErrors": []
+  },
+  "limitations": [
+    "Only four illustrative steps, not live matching",
+    "State remains in memory only; reload clears it",
+    "Conversion benefit is a hypothesis, not measured"
+  ],
+  "screenshots": [
+    "iteration-3-focus.png",
+    "iteration-3-mobile.png"
+  ]
+}

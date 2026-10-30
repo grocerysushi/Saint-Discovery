@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "scope": "Standalone mockup only",
+  "productionChanges": false,
+  "checks": {
+    "biographyVerifiedAgainstLivePage": true,
+    "lifeReflectPracticeViews": true,
+    "reflectionDownload": true,
+    "quizEntryAndBack": true,
+    "mobile390NoOverflow": true,
+    "mobileSampleDialog": true,
+    "returnToQuiz": true,
+    "choicesVisibleAboveFold": true
+  },
+  "resultDisclaimer": "Example discovery, not your quiz result",
+  "source": "https://www.saintdiscoveryquiz.com/saints/francis-of-assisi"
+}

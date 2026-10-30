@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-30",
+  "liveSiteInspected": [
+    "/",
+    "/quiz"
+  ],
+  "standalone": true,
+  "productionChanges": false,
+  "checks": {
+    "javascriptSyntax": true,
+    "maleChoice": true,
+    "femaleChoice": true,
+    "back": true,
+    "progress": true,
+    "exploreDialog": true,
+    "escapeClosesDialog": true,
+    "dailySaintDialog": true,
+    "mobile390NoHorizontalOverflow": true,
+    "mobileChoicesAboveFold": true,
+    "imageLoaded": true
+  },
+  "scope": "Two illustrative quiz steps; no matching or data submission"
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Saint Discovery — First step concept</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<a class="skip" href="#question">Skip to question</a>
+<header><a class="brand" href="./" aria-label="Saint Discovery mockup home"><span class="cross" aria-hidden="true">✣</span> Saint Discovery</a><div class="header-right"><span class="preview">Design preview</span><button id="pause" hidden>Pause <span aria-hidden="true">Ⅱ</span></button><button class="explore" id="explore" aria-haspopup="dialog">Explore <span aria-hidden="true">☰</span></button></div></header>
+<main>
+<aside class="art-panel" aria-label="Explore an example discovery">
+<div class="art-intro"><h1>Find more than<br>a name.</h1><p>Meet a life. Make a connection.<br>Carry something into your day.</p></div>
+<article class="discovery-card">
+<div class="sample-label"><span class="sample-dot" aria-hidden="true"></span> Example discovery <span>Not your quiz result</span></div>
+<div class="saint-intro"><img src="assets/francis.webp" alt="Saint Francis looking toward Christ in El Greco’s Saint Francis Receiving the Stigmata"><div><span class="saint-place">Assisi, Italy</span><h2>St. Francis<br>of Assisi</h2><p>A different kind<br>of richness.</p></div></div>
+<div class="discovery-tabs" role="group" aria-label="Explore this example"><button data-view="life" aria-pressed="true">His life</button><button data-view="reflect" aria-pressed="false">Reflect</button><button data-view="practice" aria-pressed="false">Try today</button></div>
+<div class="discovery-body" aria-live="polite">
+<section data-content="life"><h3>He changed what mattered.</h3><p>Francis turned from wealth and military ambition toward a life of Gospel poverty and fraternity. He founded the Order of Friars Minor.</p><a href="https://www.saintdiscoveryquiz.com/saints/francis-of-assisi" target="_blank" rel="noopener">Read the life behind the name ↗</a></section>
+<section data-content="reflect" hidden><h3>What could you make room for?</h3><p>Think of one habit or possession you could simplify. What responsibility or relationship might receive more of your attention?</p><small>An original reflection from Saint Discovery.</small></section>
+<section data-content="practice" hidden><h3>Let one small thing become service.</h3><p>Choose a useful possession you no longer need. Find out whether a local charity can use it, and arrange to give it thoughtfully.</p><small>An original suggestion, not a quotation or religious obligation.</small><button class="save-practice">Save this reflection</button></section>
+</div>
+<div class="art-credit">El Greco, <i>Saint Francis Receiving the Stigmata</i>.<br><a href="https://art.thewalters.org/object/37.424/" target="_blank" rel="noopener">The Walters Art Museum</a> · Public domain · Fitted, uncropped.</div>
+</article>
+<button class="companion-preview">Preview the three-day companion <span aria-hidden="true">↗</span></button>
+</aside>
+<section class="encounter" aria-label="Start your saint discovery">
+<div class="intro"><span class="spark" aria-hidden="true">✧</span><p>Find your saint.<br><span>A few questions. A life to discover.</span></p></div>
+<button id="sample-open">See an example discovery <span aria-hidden="true">↗</span></button>
+<section id="resume-panel" hidden aria-label="Paused quiz"><span class="resume-mark" aria-hidden="true">Ⅱ</span><h2>Your place is held.</h2><p id="resume-summary">Continue where you left off.</p><button id="resume" class="solid">Resume my discovery</button><small>Held only while this page stays open.</small></section>
+<div id="quiz-content">
+<div class="progress-meta"><span id="step-label">Let’s begin</span><span id="step-count">1 of 21</span></div><div class="progress" role="progressbar" aria-label="Quiz progress" aria-valuemin="0" aria-valuemax="21" aria-valuenow="1"><span></span></div>
+<h2 id="question" tabindex="-1">What is your <br>gender?</h2>
+<p id="question-help">Your answer selects male or female saints for your match.</p>
+<div id="answers" class="answers"><button data-answer="Male"><span class="letter">A</span><span>Male</span><span class="choice-arrow" aria-hidden="true">↗</span></button><button data-answer="Female"><span class="letter">B</span><span>Female</span><span class="choice-arrow" aria-hidden="true">↗</span></button></div>
+<div class="question-foot"><button id="back" hidden>← Back</button><span id="reassurance">No right or wrong answers. Just you.</span></div>
+<p class="focus-note" hidden>Take your time. There’s no perfect answer.</p><p class="demo-note" hidden>Interactive preview: four of the 21 steps are shown.</p>
+</div>
+<div class="quiet-promise"><span>Free to take</span><span>About 3–5 minutes</span><span>No account needed</span></div>
+</section>
+</main>
+<section id="companion" role="main" hidden aria-labelledby="companion-title">
+<div class="companion-bar"><button id="return-quiz">← Return to the preview</button><span>Example companion · No match calculated</span></div>
+<div class="companion-layout">
+<figure class="companion-art"><img src="assets/francis.webp" alt="El Greco’s Saint Francis contemplating Christ on the cross"><figcaption>El Greco, <i>Saint Francis Receiving the Stigmata</i>.<br><a href="https://art.thewalters.org/object/37.424/" target="_blank" rel="noopener">The Walters Art Museum</a>. Public domain. Fitted, uncropped.</figcaption></figure>
+<div class="companion-reading"><p class="companion-context">Three small encounters with</p><h1 id="companion-title" tabindex="-1">St. Francis <br>of Assisi.</h1><p class="companion-lede">A life is more than a quiz result.<br>Give this one a little room in yours.</p>
+<div class="companion-days" role="group" aria-label="Choose a day"><button data-day="0" aria-pressed="true"><small>Day 1</small>Meet</button><button data-day="1" aria-pressed="false"><small>Day 2</small>Reflect</button><button data-day="2" aria-pressed="false"><small>Day 3</small>Act</button></div>
+<div id="day-content" aria-live="polite"><p class="day-time">A short reading</p><h2 id="day-title">He changed what mattered.</h2><p id="day-copy">Francis turned from wealth and military ambition toward a life of Gospel poverty and fraternity. Begin with the person behind the familiar name.</p><p id="day-prompt">As you read, notice one choice that surprises you.</p><a id="day-reading" class="solid" href="https://www.saintdiscoveryquiz.com/saints/francis-of-assisi" target="_blank" rel="noopener">Read his full story <span aria-hidden="true">↗</span></a><small id="day-credit">Reflection prompts are original to Saint Discovery.</small></div>
+<div class="companion-keep"><button id="save-companion">Keep the three-day reflection <span aria-hidden="true">↓</span></button><p id="save-status" role="status">Download a reading card. No email or account needed.</p></div>
+</div></div><p class="companion-disclosure">This design example always features Francis, regardless of your answers. It does not calculate a match or schedule reminders. Move through the days at your own pace.</p>
+</section>
+<section class="daily"><div class="daily-label"><span class="calendar" aria-hidden="true">30<span>Oct</span></span><p>A story for today<small>October 30, 2026</small></p></div><div class="daily-name"><h2>St. Germanus of Capua</h2><p>A bishop remembered for helping restore communion.</p></div><button class="text-link" id="today">Meet today’s saint <span aria-hidden="true">↗</span></button></section>
+<footer><span>Stories of faith, carefully told.</span><div><button id="about">About this concept</button><button id="privacy">Privacy</button></div></footer>
+<dialog id="library" aria-labelledby="library-title"><div class="dialog-top"><span>Saint Discovery</span><button class="close" aria-label="Close exploration">×</button></div><h2 id="library-title">Follow your curiosity.</h2><p>The quiz is one way in. There’s more to discover.</p><nav aria-label="Explore Saint Discovery"><a href="https://www.saintdiscoveryquiz.com/resources" target="_blank" rel="noopener"><span>Meet the saints<small>Browse lives, places and patronages</small></span><span>↗</span></a><a href="https://www.saintdiscoveryquiz.com/confirmation-saint-guide" target="_blank" rel="noopener"><span>Choose a Confirmation saint<small>Start with the life behind the name</small></span><span>↗</span></a><a href="https://www.saintdiscoveryquiz.com/patron-saint-of" target="_blank" rel="noopener"><span>Find a patron saint<small>For your vocation, place or concern</small></span><span>↗</span></a><a href="https://www.saintdiscoveryquiz.com/blog" target="_blank" rel="noopener"><span>Read the journal<small>Prayer, questions and everyday faith</small></span><span>↗</span></a></nav><small class="dialog-note">These reading links open the existing site in a new tab.</small></dialog>
+<dialog id="daily-dialog" aria-labelledby="daily-title"><div class="dialog-top"><span>October 30</span><button class="close" aria-label="Close saint of the day">×</button></div><h2 id="daily-title">St. Germanus<br>of Capua</h2><p>A sixth-century bishop and papal envoy who helped restore communion between Rome and Constantinople.</p><p class="muted">Today’s featured reading. Liturgical celebrations may differ by place.</p><a class="solid" href="https://www.saintdiscoveryquiz.com/saints/germanus-of-capua" target="_blank" rel="noopener">Read his story ↗</a></dialog>
+<dialog id="note" aria-labelledby="note-title"><div class="dialog-top"><span>Design preview</span><button class="close" aria-label="Close information">×</button></div><h2 id="note-title"></h2><p id="note-copy"></p><button class="solid close">Back to the preview</button></dialog>
+<dialog id="sample-dialog" aria-label="Example saint discovery"><div class="dialog-top"><span>A glimpse of what comes next</span><button class="close" aria-label="Close example discovery">×</button></div><div id="sample-mount"></div><button class="solid close">Return to my quiz</button></dialog>
+<dialog id="pause-dialog" aria-labelledby="pause-title"><div class="dialog-top"><span>A moment to pause</span><button class="close" aria-label="Close pause dialog">×</button></div><h2 id="pause-title">Come back to it.</h2><p>Your answers are held while this page stays open. You can take a breath or explore without starting over.</p><button class="solid close">Keep going</button><button id="pause-explore" class="pause-secondary">Pause and explore</button><small class="dialog-note">Nothing is sent or saved to an account. Reloading clears this preview.</small></dialog>
+<script src="app.js"></script></body></html>
