@@ -1,0 +1,46 @@
+/* A guided reading space, using the same paper, sage and ink as the homepage. */
+.daily-page:has(.daily-pause){padding-top:30px}
+.daily-page:has(.daily-pause) .daily-page-heading{padding:0 0 24px;border:0;align-items:center}
+.daily-page:has(.daily-pause) .daily-page-heading h1{font:36px/1.2 var(--font-heading);letter-spacing:-.8px;margin:0 0 8px}
+.daily-page:has(.daily-pause) .daily-page-heading p{margin:0;font-size:15px;color:#53656b}
+.daily-pause{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:50px;align-items:start;border-top:1px solid #c6d1cb;padding-top:28px}
+.pause-life{padding:26px;background:#e8edeb;min-width:0}
+.pause-life>p:first-child{font-size:13px;color:#53656b;margin:0 0 12px}
+.pause-life h2{font:clamp(30px,3vw,43px)/1.13 var(--font-heading);letter-spacing:-.8px;margin:0 0 24px;color:#162d3b}
+.daily-pause .daily-artwork{padding:0;margin:0;border:0;border-radius:0;background:transparent;min-height:0;overflow:visible}
+.daily-pause .daily-artwork-image{height:330px;background:#162d3b;border:10px solid #162d3b}
+.daily-pause .daily-artwork img{object-fit:contain;background:#162d3b}
+.daily-pause .daily-artwork figcaption{position:static;padding:12px 0 0;background:none;color:#53656b;font-size:11px;line-height:1.6}
+.daily-pause .daily-artwork-fallback{min-height:100%}
+.pause-life .pause-life-note{font:23px/1.4 var(--font-heading);color:#53656b;margin:24px 0 0;padding-top:20px;border-top:1px solid #c6d1cb}
+.pause-reading{min-width:0}
+.pause-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-bottom:1px solid #b9c8c2;gap:8px}
+.pause-tabs button{display:flex;align-items:center;justify-content:center;gap:9px;background:transparent;border:0;border-bottom:3px solid transparent;padding:12px 4px 18px;color:#53656b;font-size:16px;cursor:pointer}
+.pause-tabs button[aria-selected=true]{border-bottom-color:#795f2e;color:#162d3b;font-weight:600}
+.pause-step-number{display:grid;place-items:center;width:24px;height:24px;font-size:12px;border:1px solid #b9c8c2;border-radius:50%}
+.pause-tabs button[aria-selected=true] .pause-step-number{color:#faf9f5;background:#162d3b;border-color:#162d3b}
+.pause-panel{padding-top:30px;min-height:480px;outline-offset:6px}
+.pause-panel[hidden]{display:none}
+.pause-panel .pause-theme{font-size:13px;color:#795f2e;margin:0 0 12px}
+.pause-panel h3{font:34px/1.15 var(--font-heading);color:#162d3b;letter-spacing:-.6px;margin:0 0 22px;max-width:23ch}
+.pause-panel p{font-size:17px;line-height:1.7;color:#53656b;margin:0 0 18px;max-width:65ch}
+.pause-panel .daily-story-copy>p{font-size:16px;line-height:1.75;margin:0 0 18px}
+.pause-panel .daily-story-copy .daily-calendar-note{font-size:12px;line-height:1.6}
+.pause-panel .pause-original{font-size:12px;line-height:1.5;max-width:55ch;margin-bottom:28px}
+.pause-panel .pause-prompt{font:27px/1.5 var(--font-heading);color:#162d3b;max-width:40ch;margin-bottom:28px}
+.pause-panel .pause-prayer{padding:24px 28px;background:#e8edeb;border-left:3px solid #a28a54}
+.pause-navigation{border-top:1px solid #d1d9d7;margin-top:28px;padding-top:22px;display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+.pause-navigation label{display:flex;align-items:center;gap:9px;font-size:13px;color:#53656b;cursor:pointer;min-height:44px}
+.pause-navigation input{width:18px;height:18px;accent-color:#162d3b}
+.pause-navigation button{background:#162d3b;color:#faf9f5;border:1px solid #162d3b;border-radius:4px;padding:14px 18px;font-size:15px;cursor:pointer}
+.pause-navigation button:hover{background:#294b58}
+.pause-navigation button span{margin-left:16px}
+.pause-reading .pause-privacy,.pause-reading .pause-status{font-size:12px;color:#53656b;line-height:1.5;margin:16px 0 0}
+.pause-reading .pause-status{margin-top:5px}
+.pause-quiz-link{display:inline-block;margin:12px 0 5px;color:#162d3b;border-bottom:1px solid #795f2e;padding-bottom:6px;font-size:17px;font-weight:600}
+.pause-quiz-link span{margin-left:16px}
+.daily-pause button:focus-visible,.daily-pause a:focus-visible,.daily-pause input:focus-visible,.daily-pause [tabindex]:focus-visible{outline:3px solid #97712b;outline-offset:4px}
+.daily-page:has(.daily-pause) .daily-calendar-context{font-size:12px;line-height:1.7;max-width:95ch}
+@media(max-width:1000px){.daily-pause{gap:28px;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}.pause-life{padding:20px}.pause-tabs button{gap:5px;font-size:15px}.pause-panel h3{font-size:30px}}
+@media(max-width:760px){.daily-page:has(.daily-pause){padding-top:24px}.daily-page:has(.daily-pause) .daily-page-heading h1{font-size:31px}.daily-page:has(.daily-pause) .daily-page-heading{gap:8px;align-items:flex-start}.daily-pause{display:block;padding-top:0;border:0}.pause-life{display:grid;grid-template-columns:minmax(0,1fr) 102px;column-gap:18px;padding:20px;margin-bottom:22px;align-items:start}.pause-life>p:first-child{grid-column:1;font-size:12px}.pause-life h2{grid-column:1;font-size:29px;margin:0 0 10px}.daily-pause .daily-artwork{grid-column:2;grid-row:1 / 4}.daily-pause .daily-artwork-image{height:155px;border-width:5px}.daily-pause .daily-artwork figcaption{font-size:10px;line-height:1.45;padding-top:9px}.pause-life .pause-life-note{grid-column:1;font-size:17px;margin:8px 0 0;padding-top:14px}.pause-tabs{gap:2px}.pause-tabs button{font-size:14px;gap:6px;min-height:54px;padding:10px 2px 14px}.pause-step-number{width:21px;height:21px;font-size:11px}.pause-panel{padding-top:24px;min-height:0}.pause-panel h3{font-size:29px}.pause-panel .pause-prompt{font-size:25px}.pause-panel .pause-prayer{padding:20px}.pause-navigation{gap:8px}.pause-navigation button{width:100%;display:flex;justify-content:space-between}.pause-panel .daily-story-copy>p{font-size:16px}.pause-panel .daily-story-copy .daily-calendar-note{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.daily-pause *{scroll-behavior:auto!important}}
