@@ -1,0 +1,42 @@
+.home-welcome{display:grid;grid-template-columns:minmax(0,44%) minmax(0,56%);align-items:center;gap:0;padding-top:48px;padding-bottom:48px;min-height:600px}
+.home-welcome-copy{padding-right:44px;position:relative;z-index:1}
+.home-welcome-note{font-size:15px;color:#795f2e;margin:0 0 22px}
+.home-welcome h1{font:clamp(43px,4.4vw,65px)/1.07 var(--font-heading);letter-spacing:-2px;color:#162d3b;margin:0 0 25px;text-wrap:initial}
+.home-welcome-description{font-size:18px;line-height:1.65;color:#53656b;max-width:37ch;margin:0 0 30px}
+.home-invitation-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;background:#162d3b;color:#faf9f5;padding:20px 24px;border:1px solid #162d3b;border-radius:4px;font-size:18px;font-weight:600;min-width:255px;text-decoration:none}
+.home-invitation-button:hover{background:#294b58;color:#faf9f5}
+.home-invitation-button span{font-size:24px;font-weight:400}
+.home-welcome-promise{font-size:13px;color:#5b6b70;margin:14px 0 27px}
+.home-welcome-explore{font-size:15px;color:#213a47;text-decoration:underline;text-underline-offset:6px;line-height:1.6}
+.home-welcome-explore span{margin-left:8px}
+.home-lives-gallery{min-width:0;padding:24px 0 0 22px}
+.home-lives-art{display:grid;grid-template-columns:1fr 1.35fr 1fr;gap:14px;align-items:center}
+.home-life{min-width:0;margin:0;text-align:center}
+.home-life-image{display:flex;align-items:center;justify-content:center;padding:10px;background:#dce3de;box-shadow:0 16px 28px -22px #162d3b66}
+.home-life-image img{display:block;width:100%;height:240px;object-fit:contain;background:#dce3de}
+.home-life-1 .home-life-image{background:#162d3b;padding:12px}
+.home-life-1 .home-life-image img{height:340px;background:#162d3b}
+.home-life-0{align-self:start;margin-top:56px}
+.home-life-2{align-self:end;margin-bottom:36px}
+.home-life-name{display:block;font:25px/1.2 var(--font-heading);color:#213a47;margin-top:18px}
+.home-life figcaption{font-size:12px;line-height:1.5;color:#5b6b70;margin-top:6px}
+.home-gallery-foot{margin-top:30px;padding-top:20px;border-top:1px solid #cad3cf;display:flex;justify-content:space-between;align-items:baseline;gap:20px;flex-wrap:wrap}
+.home-gallery-foot>p{font:19px/1.45 var(--font-heading);margin:0;color:#53656b}
+.home-gallery-foot details{font-size:11px;line-height:1.6;color:#5b6b70}
+.home-gallery-foot summary{cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.home-gallery-foot details[open]{flex-basis:100%}
+.home-gallery-foot ul{margin:12px 0 0;padding-left:18px;display:grid;gap:8px}
+.home-gallery-foot a{text-decoration:underline}
+.home-invitation .discovery-daily-strip{padding:26px max(4.5vw,calc((100vw - 1320px)/2));gap:40px;background:#e8edeb;border-block:1px solid #d1d9d7}
+.home-invitation .discovery-daily-strip>div:first-child{border-right:1px solid #b9c8c2;padding-right:40px;min-width:165px}
+.home-invitation .discovery-daily-strip h2{font-size:28px}
+.home-invitation .discovery-daily-strip>div>p{font-size:13px;line-height:1.5}
+.home-invitation .discovery-daily-strip>div:first-child>p{font-size:15px}
+.home-invitation .discovery-daily-strip>a{font-size:15px;text-decoration:underline;text-underline-offset:5px}
+.home-invitation a:focus-visible,.home-invitation summary:focus-visible{outline:3px solid #97712b;outline-offset:5px}
+@media(min-width:1450px){.home-welcome{padding-top:80px;padding-bottom:80px}.home-life-image img{height:335px}.home-life-1 .home-life-image img{height:465px}}
+@media(max-width:1050px){.home-welcome-copy{padding-right:24px}.home-welcome h1{font-size:58px;letter-spacing:-2px}.home-lives-gallery{padding-left:12px}.home-life-image{padding:6px}.home-life-image img{height:230px}.home-life-1 .home-life-image{padding:8px}.home-life-1 .home-life-image img{height:330px}.home-lives-art{gap:10px}.home-life-name{font-size:22px}.home-welcome-description{font-size:17px}}
+@media(max-width:760px){.home-welcome{display:flex;flex-direction:column;padding-top:30px;padding-bottom:28px;min-height:0;align-items:stretch}.home-welcome-copy{padding:0}.home-welcome-note{font-size:13px;margin-bottom:16px}.home-welcome h1{font-size:51px;letter-spacing:-1.9px;margin-bottom:20px}.home-welcome h1 br:nth-of-type(2){display:none}.home-welcome-description{font-size:16px;line-height:1.55;margin-bottom:23px;max-width:38ch}.home-invitation-button{width:100%;padding:15px 20px;font-size:17px;min-height:58px}.home-welcome-promise{font-size:12px;margin:12px 0 20px}.home-welcome-explore{font-size:14px}.home-lives-gallery{padding:0;margin-top:35px}.home-lives-art{gap:9px;grid-template-columns:1fr 1.25fr 1fr}.home-life-image{padding:5px}.home-life-image img{height:154px}.home-life-1 .home-life-image{padding:6px}.home-life-1 .home-life-image img{height:218px}.home-life-0{margin-top:25px}.home-life-2{margin-bottom:15px}.home-life-name{font-size:22px;margin-top:12px}.home-life figcaption{font-size:10px;line-height:1.4}.home-gallery-foot{margin-top:22px;padding-top:16px;gap:12px}.home-gallery-foot>p{font-size:17px;max-width:27ch}.home-invitation .discovery-daily-strip{padding:24px;display:grid;grid-template-columns:1fr;gap:15px}.home-invitation .discovery-daily-strip>div{margin:0}.home-invitation .discovery-daily-strip>div:first-child{border:0;padding:0;display:flex;justify-content:space-between;align-items:center;gap:12px}.home-invitation .discovery-daily-strip h2{font-size:29px}.home-invitation .discovery-daily-strip>a{justify-self:start}}
+.home-invitation .home-welcome-description{max-width:38ch}
+@media(min-width:761px) and (max-width:1050px){.home-welcome h1{font-size:clamp(41px,4.5vw,52px)}}
+@media(max-width:760px){.home-welcome h1{font-size:clamp(35px,10.8vw,44px);letter-spacing:-1.4px}}
