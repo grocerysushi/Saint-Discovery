@@ -28,12 +28,32 @@ export const ANALYTICS_BOOTSTRAP = `
     return;
   }
   window[disabledKey] = false;
+  // Custom events already check consent, but Google's automatic events also
+  // need to stop when permission expires in a tab that remains open.
+  function checkPermission() {
+    if (!allowed()) {
+      window[disabledKey] = true;
+      location.reload();
+      return false;
+    }
+    return true;
+  }
+  function scheduleExpiry() {
+    if (!checkPermission()) return;
+    var expires = JSON.parse(window.localStorage.getItem('sd:privacy:v1')).expires;
+    // Browsers overflow timeouts above ~24.8 days; recheck in bounded steps.
+    window.setTimeout(scheduleExpiry, Math.min(expires - Date.now(), 2147483647));
+  }
+  scheduleExpiry();
+  window.addEventListener('focus', checkPermission, true);
+  window.addEventListener('visibilitychange', checkPermission, true);
   function blockAdmin(value) {
     if (isAdmin(value)) window[disabledKey] = true;
   }
   ['pushState', 'replaceState'].forEach(function (method) {
     var original = history[method];
     history[method] = function () {
+      if (!checkPermission()) return;
       blockAdmin(arguments[2] == null ? location.href : arguments[2]);
       return original.apply(this, arguments);
     };

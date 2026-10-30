@@ -51,9 +51,10 @@ function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Ma
     localStorage: { getItem: k => storage.get(k), setItem: (k, v) => storage.set(k, v) } };
 }
 
-function boot(window) {
+function boot(window, referrer = 'https://www.saintdiscoveryquiz.com/confirm?token=private') {
   const { ANALYTICS_BOOTSTRAP } = load('lib/analytics-bootstrap.ts');
-  const scripts = [], listeners = {}, historyCalls = [];
+  const scripts = [], listeners = {}, historyCalls = [], timers = [];
+  window.setTimeout = (callback, delay) => timers.push({ callback, delay });
   window.location.reload = () => { window.reloads = (window.reloads || 0) + 1; };
   window.addEventListener = (name, callback) => {
     const previous = listeners[name];
@@ -63,10 +64,60 @@ function boot(window) {
     historyCalls.push({ name, blocked: window['ga-disable-G-C75CMC27YN'] === true });
     if (url != null) window.location.href = new URL(url, window.location.href).href;
   }]));
-  const document = { referrer: 'https://www.saintdiscoveryquiz.com/confirm?token=private', createElement: () => ({}), head: { appendChild: script => scripts.push(script) } };
+  const document = { referrer, createElement: () => ({}), head: { appendChild: script => scripts.push(script) } };
   vm.runInNewContext(ANALYTICS_BOOTSTRAP, { window, location: window.location, history, document, URL });
-  return { scripts, listeners, history, historyCalls };
+  return { scripts, listeners, history, historyCalls, timers };
 }
+
+test('dismissing the banner never grants analytics consent or queues quiz events', () => {
+  const storage = new Map([['sd:privacy:v1', 'null']]);
+  const window = browserWindow(undefined, storage);
+  window.sessionStorage = { getItem: key => key === 'sd:privacy-dismissed' ? '1' : null };
+  assert.equal(boot(window).scripts.length, 0);
+  assert.equal(window['ga-disable-G-C75CMC27YN'], true);
+  assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), false);
+  assert.equal(window.dataLayer, undefined);
+});
+
+test('consent expiry stops the loaded tag in an open tab and on restored focus', () => {
+  for (const trigger of ['timer', 'focus', 'visibilitychange', 'navigation']) {
+    const storage = new Map(), window = browserWindow(undefined, storage);
+    const state = boot(window);
+    assert.equal(state.scripts.length, 1);
+    assert.ok(state.timers[0].delay > 0 && state.timers[0].delay <= 2147483647);
+    storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()-1}));
+    if (trigger === 'timer') state.timers[0].callback();
+    else if (trigger === 'navigation') state.history.pushState({}, '', '/quiz');
+    else state.listeners[trigger]();
+    assert.equal(window['ga-disable-G-C75CMC27YN'], true);
+    assert.equal(window.reloads, 1);
+    assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), false);
+  }
+});
+
+test('180-day consent uses bounded timers rather than an overflowing timeout', () => {
+  const storage = new Map(), window = browserWindow(undefined, storage);
+  storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()+180*86400000}));
+  const {timers} = boot(window);
+  assert.equal(timers[0].delay, 2147483647);
+});
+
+test('opt-in keeps search referrers and UTMs without replaying refused events', () => {
+  const storage = new Map([['sd:privacy:v1', 'null']]);
+  const refused = browserWindow(undefined, storage);
+  boot(refused, 'https://www.google.com/');
+  assert.equal(load('lib/analytics.ts', {}, {window:refused}).track('quiz_complete'), false);
+  assert.equal(refused.dataLayer, undefined);
+  storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()+86400000}));
+  const allowed = browserWindow(undefined, storage);
+  allowed.location.href='https://www.saintdiscoveryquiz.com/quiz?utm_source=pinterest&utm_medium=social&utm_campaign=quiz_invite&utm_content=test';
+  boot(allowed, 'https://www.google.com/');
+  assert.equal(allowed.dataLayer[2][2].page_referrer, 'https://www.google.com/');
+  assert.equal(new URL(allowed.dataLayer[2][2].page_location).searchParams.get('utm_campaign'), 'quiz_invite');
+  assert.equal(allowed.dataLayer.length, 3);
+  assert.equal(load('lib/analytics.ts', {}, {window:allowed}).track('quiz_complete'), true);
+  assert.equal(allowed.dataLayer.at(-1)[1], 'quiz_complete');
+});
 test('bootstrap queues early events after config, strips tokens, keeps campaign attribution', () => {
   const window = browserWindow();
   window.location.href += '&utm_source=newsletter';

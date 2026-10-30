@@ -1,4 +1,4 @@
-// A local preference, not an identity or a substitute for an advertising CMP.
+// A local preference, not an identity. Analytics requires explicit opt-in.
 export const PRIVACY_KEY = "sd:privacy:v1";
 export const PRIVACY_DAYS = 180;
 export type PrivacyChoice = { version: 1; analytics: boolean; classroom: boolean; expires: number };
@@ -15,7 +15,7 @@ export function analyticsAllowed(): boolean {
   catch { return false; }
 }
 export function classroomMode(): boolean {
-  // A shared-device safeguard must not silently expire back into advertising.
+  // A shared-device safeguard must not silently expire back into email forms.
   try { return JSON.parse(window.localStorage.getItem(PRIVACY_KEY) || "null")?.classroom === true; }
   catch { return true; }
 }

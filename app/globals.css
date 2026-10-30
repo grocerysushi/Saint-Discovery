@@ -440,3 +440,15 @@ body:has(.quiz-shell) .home-information, body:has(.result-layout) .home-informat
 .privacy-choice-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1rem; }
 .privacy-choice-actions button { min-height: 44px; }
 .privacy-choice-actions button:disabled { opacity: .5; cursor: not-allowed; }
+.privacy-choices.privacy-banner { max-width: 42rem; padding: .9rem 1rem; box-shadow: 0 4px 18px #0003; }
+.privacy-banner h2 { font-size: 1rem; margin: 0; padding-right: 2.5rem; }
+.privacy-banner p { margin: .35rem 2rem .6rem 0; font-size: .85rem; line-height: 1.45; }
+.privacy-banner-actions { display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; gap: .6rem; }
+.privacy-banner-actions button { min-height: 44px; padding: .5rem .65rem; font-size: .8rem; }
+.privacy-dismiss { position: absolute; top: .25rem; right: .25rem; width: 44px; height: 44px; font-size: 1.5rem; cursor: pointer; }
+.privacy-choices button:focus-visible { outline: 2px solid #f4dfa8; outline-offset: 3px; }
+@media(max-width: 420px) {
+  .privacy-choices.privacy-banner { left: .5rem; right: .5rem; bottom: .5rem; padding: .75rem; }
+  .privacy-banner-actions { gap: .4rem; }
+  .privacy-banner-actions button { padding-inline: .4rem; }
+}

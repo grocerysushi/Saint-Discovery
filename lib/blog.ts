@@ -4,7 +4,7 @@ export const BLOG_STORAGE_KEY = "saint-discovery.blog-prototype.v1";
 export const BLOG_CATEGORIES = ["Everyday faith", "Meet the saints", "Prayer & reflection", "Living the seasons"];
 export interface BlogContent {
   title: string; slug: string; excerpt: string; author: string; category: string;
-  cover: string; coverAlt: string; coverCredit: string; body: JSONContent; ads: boolean;
+  cover: string; coverAlt: string; coverCredit: string; body: JSONContent; ads: boolean; // Legacy storage field; never enables advertising.
 }
 export interface BlogPost {
   id: string; revision: number; updatedAt: string; publishedAt: string | null;
@@ -51,13 +51,13 @@ export function publishPost(post: BlogPost, posts: BlogPost[], now: string): Blo
 }
 export function newBlogPost(id: string, now: string): BlogPost {
   return { id, revision: 0, updatedAt: now, publishedAt: null, published: null, trashed: false,
-    draft: { title: "", slug: "", excerpt: "", author: "Saint Discovery", category: BLOG_CATEGORIES[0], cover: "", coverAlt: "", coverCredit: "", ads: true, body: { type: "doc", content: [{ type: "paragraph" }] } } };
+    draft: { title: "", slug: "", excerpt: "", author: "Saint Discovery", category: BLOG_CATEGORIES[0], cover: "", coverAlt: "", coverCredit: "", ads: false, body: { type: "doc", content: [{ type: "paragraph" }] } } };
 }
 const p = (text: string): JSONContent => ({ type: "paragraph", content: [{ type: "text", text }] });
 const h = (text: string): JSONContent => ({ type: "heading", attrs: { level: 2 }, content: [{ type: "text", text }] });
 const date = "2026-09-16T12:00:00.000Z";
 function sample(id: string, title: string, excerpt: string, category: string, body: JSONContent[], published = true): BlogPost {
-  const draft: BlogContent = { title, slug: slugify(title), excerpt, author: "Saint Discovery", category, cover: published && id === "sample-quiet" ? "/images/sacred-art.webp" : "", coverAlt: published && id === "sample-quiet" ? "Sacred artwork from the Saint Discovery collection" : "", coverCredit: "", body: { type: "doc", content: body }, ads: true };
+  const draft: BlogContent = { title, slug: slugify(title), excerpt, author: "Saint Discovery", category, cover: published && id === "sample-quiet" ? "/images/sacred-art.webp" : "", coverAlt: published && id === "sample-quiet" ? "Sacred artwork from the Saint Discovery collection" : "", coverCredit: "", body: { type: "doc", content: body }, ads: false };
   return { id, revision: 0, updatedAt: date, publishedAt: published ? date : null, draft, published: published ? structuredClone(draft) : null, trashed: false };
 }
 export const SAMPLE_POSTS: BlogPost[] = [

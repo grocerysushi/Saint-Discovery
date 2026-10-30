@@ -86,7 +86,7 @@ input::placeholder, textarea::placeholder { color: currentColor; opacity: .6; }
 @media (max-width: 480px) {
   .privacy-choice-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .privacy-choice-actions button { padding-inline: 6px; font-size: .8125rem; }
-  .privacy-choice-actions button:last-child { grid-column: 1 / -1; }
+  .privacy-choice-actions button:nth-child(3) { grid-column: 1 / -1; }
 }
 .daily-practice-grid { gap: 22px; }
 .daily-practice-grid article { border-radius: 8px; padding: 28px; border-top: 2px solid color-mix(in srgb,var(--color-gold) 60%,transparent); }

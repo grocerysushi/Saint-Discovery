@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "October 26, 2026";
+const EFFECTIVE_DATE = "October 29, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
           <p>
             Saint Discovery is a free Catholic saint quiz and directory. You can
             take the quiz and browse every page without creating an account or
-            giving us your name. Optional email delivery, analytics, advertising,
+            giving us your name. Optional email delivery, analytics,
             hosting, and administration involve the data described below. We keep a short-lived
             delivery record after you confirm an email request. There is no newsletter signup.
             You can unsubscribe using the link in an email.
@@ -88,6 +88,8 @@ export default function PrivacyPage() {
             in the footer to refuse or withdraw permission. We do not load Analytics before
             permission or send earlier events later. Advertising personalization signals and
             Google Signals are disabled in our Analytics configuration.
+            Dismissing the initial banner keeps Analytics off; that dismissal is remembered
+            for the current browser tab. You can reopen the full settings from the footer.
           </p>
         </Section>
 
@@ -130,11 +132,7 @@ export default function PrivacyPage() {
               access uses authentication; visitors do not need an account.
             </li>
             <li>
-              <strong className="text-cream">Google Analytics &amp; Google
-              AdSense</strong> — usage analytics and advertisements that may
-              appear on this site. Google and its advertising partners
-              may use cookies or identifiers to serve and measure ads, including
-              based on visits to this and other websites. See{" "}
+              <strong className="text-cream">Google Analytics</strong> — optional usage measurement, loaded only after an adult explicitly allows it. Advertising personalization and Google signals are disabled. We do not display advertisements or load AdSense. See{" "}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -151,15 +149,6 @@ export default function PrivacyPage() {
                 className="text-gold hover:text-gold-light underline"
               >
                 browser opt-out add-on
-              </a>{" "}
-              and manage ad personalization at{" "}
-              <a
-                href="https://adssettings.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gold hover:text-gold-light underline"
-              >
-                adssettings.google.com
               </a>
               .
             </li>
@@ -181,10 +170,7 @@ export default function PrivacyPage() {
           <p>
             Google Analytics can set cookies to measure visits and recognize
             returning browsers. The blog editor uses authentication cookies;
-            these are separate from visitor analytics. Advertising providers
-            may also set cookies as described
-            above. Google’s separate regional advertising message provides consent and refusal options and, where applicable, privacy/opt-out choices. Our Analytics control does not replace that message. Your browser settings let you block or delete cookies;
-            the quiz does not require advertising or analytics cookies.
+            these are separate from visitor analytics. Your browser settings let you block or delete cookies; the quiz does not require analytics cookies. Saint Discovery does not load advertising cookies.
           </p>
         </Section>
 
@@ -223,7 +209,7 @@ export default function PrivacyPage() {
             We ask for an adult declaration, not a birth date or identity document. This declaration
             is not verified parental consent.
           </p>
-          <p>For classroom or shared-device use, enable classroom mode in the footer before students browse. It turns off Analytics, blog ads and email forms on that browser. Printed worksheets require no signup and do not send written answers to us. Hosting and security services still process web requests. Adults should supervise use, keep children’s personal reflections offline and avoid third-party translation links for children.</p>
+          <p>For classroom or shared-device use, enable classroom mode in the footer before students browse. It turns off Analytics and email forms on that browser. Printed worksheets require no signup and do not send written answers to us. Hosting and security services still process web requests. Adults should supervise use, keep children’s personal reflections offline and avoid third-party translation links for children.</p>
           <p>If you believe we hold a child’s personal information, contact {CONTACT_EMAIL} so we can investigate and delete it. We do not operate a verified parental-consent program. Schools and families should use the offline resources for children under 13 while we review the audience and data practices.</p>
         </Section>
 

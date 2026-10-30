@@ -13,7 +13,7 @@ const serverSnapshot = () => "loading";
 export default function ClassroomModeButton() {
   const [error, setError] = useState("");
   const status = useSyncExternalStore(subscribe, snapshot, serverSnapshot);
-  return <><p>Classroom mode turns off Analytics, blog ads and email forms in this browser. Enable it on each shared device before students browse. It stays on until you change it in Privacy &amp; cookie choices or clear browser storage. Hosting and security services still process web requests.</p>
+  return <><p>Classroom mode turns off Analytics and email forms in this browser. Enable it on each shared device before students browse. It stays on until you change it in Privacy &amp; cookie choices or clear browser storage. Hosting and security services still process web requests.</p>
   {status !== "loading" && <p role="status">{status === "on" ? "Classroom mode is on in this browser." : status === "off" ? "Classroom mode is not enabled in this browser." : "Classroom mode status is unavailable. Please use the printable resources instead."}</p>}
   {status === "off" && <button className="btn-secondary" type="button" onClick={() => {
     window["ga-disable-G-C75CMC27YN"] = true;
