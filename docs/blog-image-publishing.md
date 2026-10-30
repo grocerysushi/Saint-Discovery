@@ -4,6 +4,8 @@ The approved public InsForge `blog-images` bucket stores only reviewed public ar
 
 ## Required daily sequence
 
+Saint Discovery is ad-free as of October 29, 2026. Every new daily payload must explicitly set `ads: false` in both draft and published content. Replace legacy `ads:true` when copying older preparation scripts, then regenerate the payload, SQL and editorial hashes. The mandatory publisher rejects enabled or missing flags before network or database work; its existing SQL equality check also ensures the SQL contains the same ad-free content. Never bypass this gate, restore advertising components/settings, or restart paid campaigns or the deleted AdSense review automation. Keep historical completed records unchanged. Verify new live articles contain no ad scripts, units or placeholders and record that check. Analytics consent and classroom privacy protections remain required.
+
 1. Finish rights/credit/alt-text review. Save the actual reviewed source artwork locally and retain its original source URL and complete attribution in `metadata.json`.
 2. From the linked `Saint-Discovery-review` project run:
 

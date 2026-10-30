@@ -6,8 +6,12 @@ import { pathToFileURL } from 'node:url';
 import { checkBlogCover } from './check-blog-cover.mjs';
 const dir = path.resolve(process.argv[2] ?? '');
 assert(process.argv[2], 'Provide the current reviewed daily folder');
-await checkBlogCover(path.join(dir, 'post.json'), path.join(dir, 'images/image-optimization.json'), path.join(dir, 'images/metadata.optimized.json'));
 const post = JSON.parse(await fs.readFile(path.join(dir, 'post.json'), 'utf8'));
+// Historical daily templates used ads:true. Fail closed before network or DB work.
+for (const stage of ['draft', 'published']) {
+  assert.equal(post[stage]?.ads, false, `Ad-free publishing requires ${stage}.ads to be exactly false`);
+}
+await checkBlogCover(path.join(dir, 'post.json'), path.join(dir, 'images/image-optimization.json'), path.join(dir, 'images/metadata.optimized.json'));
 const sql = await fs.readFile(path.join(dir, 'publish.sql'), 'utf8');
 const encoded = [...sql.matchAll(/decode\('([A-Za-z0-9+/=]+)'\s*,\s*'base64'\)/g)];
 assert.equal(encoded.length, 1, 'Expected exactly one reviewed publication payload');
