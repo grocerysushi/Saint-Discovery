@@ -8,6 +8,16 @@ const entries = fs.readdirSync(batches).filter(file => file.endsWith('.json')).s
   .flatMap(file => JSON.parse(fs.readFileSync(new URL(file, batches))));
 const generated = JSON.parse(fs.readFileSync(new URL('../lib/data/directory-additions.json', import.meta.url)));
 
+test('every published saint has a distinct database UUID for signup references', async () => {
+  const ids=JSON.parse(fs.readFileSync(new URL('../lib/data/saint-db-ids.json',import.meta.url)));
+  const saints=await loadTs('lib/saints.ts').getAllSaints();
+  const mapped=saints.map(saint=>{
+    assert.match(ids[saint.slug]??'',/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i,`${saint.slug}: missing database UUID`);
+    return ids[saint.slug];
+  });
+  assert.equal(new Set(mapped).size,saints.length,'Distinct canonical saints must not share a database ID');
+});
+
 test('reproducible batches add 200 distinct saints and preserve all earlier additions', async () => {
   assert.deepEqual(compile(entries),generated);
   assert.equal(entries.length,399);
