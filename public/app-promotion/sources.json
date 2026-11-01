@@ -1,0 +1,11 @@
+{
+  "owner": "Saint Discovery / Kyle Shaft",
+  "listing": "https://apps.apple.com/us/app/saint-discovery/id6828221648",
+  "purpose": "Owner-approved homepage promotion for the Saint Discovery iPhone app",
+  "retrieved": "2026-11-01",
+  "assets": [
+    { "file": "app-home.webp", "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/24/74/c2/2474c26a-11a2-0ef3-1065-f4db8428fcc2/01-home-ai.png/600x1300bb.webp", "changes": "Displayed within a decorative phone frame; full screenshot retained" },
+    { "file": "app-icon.webp", "source": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/70/31/cc/7031cc29-4f4a-52f0-e5ea-4303f658a763/Placeholder.mill/400x400Icon.ApSiOS01-75.webp", "changes": "Displayed at 64px with rounded corners" }
+  ],
+  "verifiedListingClaims": ["Free", "Only for iPhone", "iOS 17.0 or later", "18+", "No account needed", "Quiz, biographies, patron-saint guides and Saint of the Day reflection"]
+}

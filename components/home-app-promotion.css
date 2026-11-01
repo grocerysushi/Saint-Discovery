@@ -1,0 +1,24 @@
+.home-app-promotion{background:#162d3b;color:#faf9f5;position:relative;isolation:isolate;overflow:hidden;scroll-margin-top:24px}
+.home-app-inner{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:70px;padding-top:64px;padding-bottom:56px}
+.home-app-copy{max-width:590px}
+.home-app-identity{display:flex;gap:16px;align-items:center;margin-bottom:30px}
+.home-app-identity img{border-radius:15px;border:1px solid #ffffff30}
+.home-app-identity span{font-size:18px;font-weight:600;color:#faf9f5}
+.home-app-identity p{font-size:14px;color:#d5c394;margin:4px 0 0}
+.home-app-copy h2{font:clamp(38px,4vw,58px)/1.12 var(--font-heading);letter-spacing:-1.4px;color:#faf9f5;margin:0 0 24px;text-wrap:balance}
+.home-app-intro{font-size:18px;line-height:1.7;color:#d9e2e1;max-width:43ch;margin:0 0 24px}
+.home-app-features{list-style:none;padding:0;margin:0 0 32px;display:grid;gap:12px;color:#e8edeb;font-size:16px}
+.home-app-features li{display:flex;align-items:baseline;gap:13px}
+.home-app-features li::before{content:'✓';color:#d5c394;font-size:15px}
+.home-app-download{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:17px 23px;border:1px solid #faf9f5;border-radius:5px;background:#faf9f5;color:#162d3b;font-size:17px;font-weight:600;text-decoration:none;min-height:56px}
+.home-app-download:hover{background:#e8edeb;color:#162d3b}
+.home-app-download:focus-visible{outline:3px solid #d5c394;outline-offset:5px}
+.home-app-requirements{font-size:13px;line-height:1.6;color:#d5c394;margin:15px 0 0}
+.home-app-no-account{font-size:13px;line-height:1.6;color:#bbc9cd;margin:8px 0 0;max-width:42ch}
+.home-app-visual{margin:0;display:flex;flex-direction:column;align-items:center;position:relative}
+.home-app-visual::before{content:'';position:absolute;width:395px;height:395px;border:1px solid #d5c39435;border-radius:50%;top:90px;z-index:-1}
+.home-app-phone{width:274px;border:6px solid #0c1b24;border-radius:36px;background:#f7f3e7;overflow:hidden;box-shadow:16px 24px 48px #06141c66;outline:1px solid #7d909c70;transform:rotate(3deg)}
+.home-app-phone img{display:block;width:100%;height:auto}
+.home-app-visual figcaption{font-size:12px;color:#bbc9cd;margin-top:24px}
+@media(max-width:1000px){.home-app-inner{gap:35px}.home-app-copy h2{font-size:43px}.home-app-intro{font-size:17px}}
+@media(max-width:760px){.home-app-inner{grid-template-columns:1fr;gap:40px;padding-top:38px;padding-bottom:38px}.home-app-copy{max-width:none}.home-app-identity{margin-bottom:25px}.home-app-copy h2{font-size:clamp(34px,9vw,43px);letter-spacing:-1px}.home-app-intro{font-size:16px}.home-app-features{font-size:15px;gap:11px;margin-bottom:28px}.home-app-download{width:100%;font-size:16px}.home-app-phone{width:240px;transform:none;border-radius:30px}.home-app-visual::before{width:310px;height:310px;top:85px}.home-app-no-account{max-width:none}.home-app-visual figcaption{margin-top:16px}}

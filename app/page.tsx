@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import HomePage from "@/components/HomePage";
+import HomeAppPromotion from "@/components/HomeAppPromotion";
 import ContextualReading from "@/components/ContextualReading";
 import { getAllSaints } from "@/lib/saints";
 
@@ -110,7 +111,7 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: serializeJsonLd(faqJsonLd) }}
       />
-      <HomePage dailySaint={null} directoryCount={directoryCount} />
+      <HomePage dailySaint={null} directoryCount={directoryCount} afterWelcome={<HomeAppPromotion />} />
       <div className="site-width home-information">
         <details className="home-disclosure"><summary>About the saints and the quiz</summary><div className="home-disclosure-content">
         <section className="home-about editorial-grid">

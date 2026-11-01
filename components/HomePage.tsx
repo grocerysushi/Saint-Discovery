@@ -6,6 +6,7 @@ import LiturgicalBanner from "@/components/LiturgicalBanner";
 import Link from "next/link";
 import type { DailySaint } from "@/lib/saint-of-day";
 import "./home-invitation.css";
+import type { ReactNode } from "react";
 
 const HOME_LIVES = [
   { slug: "therese-of-lisieux", name: "St. Thérèse of Lisieux", shortName: "Thérèse", theme: "Love in small things" },
@@ -13,7 +14,7 @@ const HOME_LIVES = [
   { slug: "ignatius-of-loyola", name: "St. Ignatius of Loyola", shortName: "Ignatius", theme: "A change of direction" },
 ].map(saint => ({ ...saint, artwork: getSaintArtwork(saint) }));
 
-export default function HomePage({ dailySaint, directoryCount }: { dailySaint: DailySaint | null; directoryCount: number }) {
+export default function HomePage({ dailySaint, directoryCount, afterWelcome }: { dailySaint: DailySaint | null; directoryCount: number; afterWelcome?: ReactNode }) {
   return (
     <div className="discovery-home-live home-invitation">
       <section className="home-welcome site-width" aria-labelledby="home-welcome-title">
@@ -33,6 +34,7 @@ export default function HomePage({ dailySaint, directoryCount }: { dailySaint: D
           <div className="home-gallery-foot"><p>There is more than one way to live a life of faith.</p><details><summary>About the artwork</summary><ul>{HOME_LIVES.map(saint => <li key={saint.slug}><strong>{saint.name}.</strong> <a href={saint.artwork.source} target="_blank" rel="noopener noreferrer">{saint.artwork.credit} · Source</a>. {saint.artwork.licenseUrl ? <a href={saint.artwork.licenseUrl} target="_blank" rel="noopener noreferrer">{saint.artwork.license}</a> : saint.artwork.license}. Fitted and resized; not cropped.</li>)}</ul></details></div>
         </div>
       </section>
+      {afterWelcome}
       <div className="discovery-home-extras"><DailySaintCard initialSaint={dailySaint} compact />
       <div className="site-width"><details className="home-disclosure"><summary>Search by name, place or patronage</summary><div className="home-disclosure-content"><p>{directoryCount} saint biographies to explore.</p><form action="/resources" className="home-directory-search" role="search"><label htmlFor="home-saint-search">Find a saint</label><div><input id="home-saint-search" name="q" type="search" placeholder="Name, place or patronage" /><button className="btn-primary" type="submit">Search saints</button></div></form><nav className="discovery-reading-links" aria-label="Ways to explore"><Link prefetch={false} href="/resources?gender=Female">Women of faith</Link><Link prefetch={false} href="/resources?country=Korea">The Korean martyrs</Link><Link prefetch={false} href="/patron-saint-of">Patron saints</Link><Link prefetch={false} href="/confirmation-saint-guide">Choosing a Confirmation saint</Link><Link prefetch={false} href="/blog/why-do-catholics-pray-to-saints">Why do Catholics pray to saints?</Link></nav></div></details><details className="home-disclosure"><summary>Today in the Church</summary><div className="home-disclosure-content"><LiturgicalBanner /></div></details></div></div>
     </div>
