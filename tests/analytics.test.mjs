@@ -69,25 +69,26 @@ function boot(window, referrer = 'https://www.saintdiscoveryquiz.com/confirm?tok
   return { scripts, listeners, history, historyCalls, timers };
 }
 
-test('dismissing the banner never grants analytics consent or queues quiz events', () => {
+test('a new visitor starts GA4 automatically without writing an opt-in preference', () => {
   const storage = new Map([['sd:privacy:v1', 'null']]);
   const window = browserWindow(undefined, storage);
   window.sessionStorage = { getItem: key => key === 'sd:privacy-dismissed' ? '1' : null };
-  assert.equal(boot(window).scripts.length, 0);
-  assert.equal(window['ga-disable-G-C75CMC27YN'], true);
-  assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), false);
-  assert.equal(window.dataLayer, undefined);
+  storage.delete('sd:privacy:v1');
+  assert.equal(boot(window).scripts.length, 1);
+  assert.equal(window['ga-disable-G-C75CMC27YN'], false);
+  assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), true);
+  assert.equal(storage.has('sd:privacy:v1'), false);
+  assert.equal(window.dataLayer[0][2].ad_storage, 'denied');
+  assert.equal(window.dataLayer[0][2].ad_user_data, 'denied');
 });
 
-test('consent expiry stops the loaded tag in an open tab and on restored focus', () => {
-  for (const trigger of ['timer', 'focus', 'visibilitychange', 'navigation']) {
+test('explicit withdrawal stops the loaded tag on restored focus or navigation', () => {
+  for (const trigger of ['focus', 'visibilitychange', 'navigation']) {
     const storage = new Map(), window = browserWindow(undefined, storage);
     const state = boot(window);
     assert.equal(state.scripts.length, 1);
-    assert.ok(state.timers[0].delay > 0 && state.timers[0].delay <= 2147483647);
-    storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()-1}));
-    if (trigger === 'timer') state.timers[0].callback();
-    else if (trigger === 'navigation') state.history.pushState({}, '', '/quiz');
+    storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:false,classroom:false,expires:Date.now()-1}));
+    if (trigger === 'navigation') state.history.pushState({}, '', '/quiz');
     else state.listeners[trigger]();
     assert.equal(window['ga-disable-G-C75CMC27YN'], true);
     assert.equal(window.reloads, 1);
@@ -95,15 +96,15 @@ test('consent expiry stops the loaded tag in an open tab and on restored focus',
   }
 });
 
-test('180-day consent uses bounded timers rather than an overflowing timeout', () => {
+test('automatic tracking does not schedule legacy consent-expiry reloads', () => {
   const storage = new Map(), window = browserWindow(undefined, storage);
   storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()+180*86400000}));
   const {timers} = boot(window);
-  assert.equal(timers[0].delay, 2147483647);
+  assert.equal(timers.length, 0);
 });
 
-test('opt-in keeps search referrers and UTMs without replaying refused events', () => {
-  const storage = new Map([['sd:privacy:v1', 'null']]);
+test('re-enabling keeps search referrers and UTMs without replaying refused events', () => {
+  const storage = new Map([['sd:privacy:v1', JSON.stringify({version:1,analytics:false,classroom:false})]]);
   const refused = browserWindow(undefined, storage);
   boot(refused, 'https://www.google.com/');
   assert.equal(load('lib/analytics.ts', {}, {window:refused}).track('quiz_complete'), false);
@@ -245,7 +246,7 @@ test('confirmed subscriptions deduplicate reloads, allow different receipts, and
   assert.equal(events.length, 2);
   assert.doesNotMatch(JSON.stringify(events), new RegExp(receipt));
 });
-test('blocked storage never sends conversion events without consent', () => {
+test('blocked preference storage never sends conversion events', () => {
   const window = browserWindow(); let count = 0;
   window.localStorage = { getItem() { throw 0; }, setItem() { throw 0; } };
   window.gtag = () => count++;
@@ -255,8 +256,8 @@ test('blocked storage never sends conversion events without consent', () => {
   assert.equal(count, 0);
 });
 
-test('unknown, refused, malformed, expired and classroom choices never load Analytics or queue events', () => {
-  for (const choice of [null, 'broken', JSON.stringify({version:1,analytics:false,classroom:false,expires:Date.now()+86400000}), JSON.stringify({version:1,analytics:true,classroom:true,expires:Date.now()+86400000}), JSON.stringify({version:1,analytics:true,classroom:false,expires:Date.now()-1})]) {
+test('refused, malformed and classroom choices never load Analytics, even after legacy expiry', () => {
+  for (const choice of ['', 'broken', '{}', JSON.stringify({version:1,analytics:false,classroom:false,expires:Date.now()+86400000}), JSON.stringify({version:1,analytics:true,classroom:true,expires:Date.now()-1}), JSON.stringify({version:1,analytics:false,classroom:false,expires:Date.now()-1})]) {
     const window = browserWindow(undefined, new Map([['sd:privacy:v1',choice]]));
     assert.equal(boot(window).scripts.length, 0);
     assert.equal(window.dataLayer, undefined);
@@ -268,21 +269,36 @@ test('revocation blocks custom events even before a page reload', () => {
   const storage = new Map(); const window = browserWindow(undefined, storage); boot(window);
   const analytics = load('lib/analytics.ts', {}, {window});
   assert.equal(analytics.track('test'), true);
-  storage.delete('sd:privacy:v1');
+  storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:false,classroom:false}));
   assert.equal(analytics.track('test'), false);
   assert.equal(window.dataLayer[0][2].ad_personalization, 'denied');
   assert.equal(window.dataLayer[2][2].allow_google_signals, false);
 });
 
-test('cross-tab withdrawal and expired back-forward restoration disable and reload the tag', () => {
+test('cross-tab withdrawal and back-forward restoration disable and reload the tag', () => {
   const storage = new Map(), window = browserWindow(undefined, storage);
   const { listeners } = boot(window);
-  storage.delete('sd:privacy:v1');
+  storage.set('sd:privacy:v1', JSON.stringify({version:1,analytics:false,classroom:false}));
   listeners.storage({ key: 'sd:privacy:v1' });
   assert.equal(window['ga-disable-G-C75CMC27YN'], true);
   assert.equal(window.reloads, 1);
   listeners.pageshow();
   assert.equal(window.reloads, 2);
+});
+
+test('browser privacy signals block default tracking and already enabled custom events', () => {
+  for (const navigator of [{globalPrivacyControl:true}, {doNotTrack:'1'}]) {
+    const window = browserWindow();
+    window.navigator = navigator;
+    assert.equal(boot(window).scripts.length, 0);
+    assert.equal(load('lib/analytics.ts', {}, {window}).track('quiz_complete'), false);
+    const active = browserWindow(); const state = boot(active);
+    active.navigator = navigator;
+    assert.equal(load('lib/analytics.ts', {}, {window:active}).track('quiz_complete'), false);
+    state.listeners.focus();
+    assert.equal(active['ga-disable-G-C75CMC27YN'], true);
+    assert.equal(active.reloads, 1);
+  }
 });
 
 test('withdrawal clears only accessible Google Analytics cookies', () => {

@@ -1,4 +1,4 @@
-// A local preference, not an identity. Analytics requires explicit opt-in.
+// Automatic GA4 on public production pages, with persistent visitor exclusions.
 export const PRIVACY_KEY = "sd:privacy:v1";
 export const PRIVACY_DAYS = 180;
 export type PrivacyChoice = { version: 1; analytics: boolean; classroom: boolean; expires: number };
@@ -11,7 +11,16 @@ export function readPrivacyChoice(raw: string | null, now = Date.now()): Privacy
   } catch { return null; }
 }
 export function analyticsAllowed(): boolean {
-  try { return readPrivacyChoice(window.localStorage.getItem(PRIVACY_KEY))?.analytics === true; }
+  try {
+    const browser = window.navigator as (Navigator & { globalPrivacyControl?: boolean }) | undefined;
+    if (browser?.globalPrivacyControl === true || browser?.doNotTrack === "1") return false;
+    const raw = window.localStorage.getItem(PRIVACY_KEY);
+    if (raw === null || raw === undefined) return true;
+    const choice = JSON.parse(raw);
+    if (choice === null) return true;
+    // Never expire a refusal or classroom setting back into tracking.
+    return choice?.version === 1 && choice.analytics === true && choice.classroom === false;
+  }
   catch { return false; }
 }
 export function classroomMode(): boolean {

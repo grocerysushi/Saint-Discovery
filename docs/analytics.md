@@ -2,6 +2,16 @@
 
 GA4 property: Saint Discovery Quiz (`522468250`). Google tag: `G-C75CMC27YN`.
 
+## Automatic GA4 restoration — November 1, 2026
+
+This change restores the pre-October-26 automatic Google tag startup for new visitors on the two public production domains. Commit `1a89004` introduced the opt-in gate on October 26; this restores the startup behavior without reverting that commit's email and classroom protections. The GA4 property, event names, attribution and quiz-attempt deduplication remain unchanged. No first-party replacement dashboard or backend migration is part of this change.
+
+The initial opt-in popup is removed. The footer's Privacy & cookie choices dialog provides a persistent opt-out and classroom controls. Existing explicit refusals, even expired legacy choices, remain off. Classroom mode, Do Not Track, Global Privacy Control, invalid/unreadable preferences, admin routes and non-production hosts also prevent collection. Clearing browser storage clears a saved opt-out; browser privacy signals continue to apply. Refused events are never replayed.
+
+Advertising remains off: no AdSense or ad units, denied ad storage/user-data/personalization and disabled Google Signals. GA4 itself uses cookies and browser identifiers; this is not anonymous or cookieless measurement. The privacy policy describes the changed behavior. There is no geographic consent mechanism in this implementation, and removing advertising alone does not establish that automatic analytics meets every applicable consent requirement.
+
+The owner reviewed the local preview and authorized commit and push on November 1. Local testing deliberately does not send live GA4 events. After deployment, verify a labeled developer visit and quiz completion in the existing property; do not treat synthetic verification activity as audience traffic. The 200-test suite passed, with network-dependent blog tests rerun outside the restricted sandbox; targeted analytics tests, TypeScript, lint and the production build passed. Earlier validation sections below describe historical releases.
+
 On September 23, 2026, `quiz_complete` and `generate_lead` were marked as key events in the live property. Both use **Once per event** counting. No monetary values were invented. Existing unrelated key-event definitions were left intact.
 
 ## Event definitions

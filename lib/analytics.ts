@@ -1,5 +1,5 @@
 import { analyticsAllowed } from "./visitor-privacy";
-// Events before consent are discarded, never replayed after opt-in.
+// Automatic GA4 uses the existing property; excluded events are never replayed.
 type EventParams = Record<string, string | number | boolean | undefined>;
 
 declare global {

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "October 29, 2026";
+const EFFECTIVE_DATE = "November 1, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -75,21 +75,22 @@ export default function PrivacyPage() {
             New quiz results and trait scores are not written to our database. They stay
             in your browser as described below. Historical result records collected before
             October 26, 2026 remain restricted to administrators; this change did not erase them.
-            If you allow Analytics, a quiz-completion event can include the matched saint identifier,
+            When Analytics is enabled, a quiz-completion event can include the matched saint identifier,
             but not your answers, gender, trait scores or email address.
           </p>
           <p>
             <strong className="text-cream">Usage analytics.</strong> We use
-            Google Analytics only after you explicitly allow it to understand how visitors use the
+            Google Analytics automatically on our public production site to understand how visitors use the
             site — pages viewed, quiz starts and completions, which saints
             people look up, and general location and device information. These
             reports are used in aggregate, but analytics can use browser
             identifiers and cookies to distinguish visits. Use “Privacy & cookie choices”
-            in the footer to refuse or withdraw permission. We do not load Analytics before
-            permission or send earlier events later. Advertising personalization signals and
+            in the footer to turn Analytics off. We respect previous explicit refusals,
+            classroom mode, Do Not Track and Global Privacy Control. Excluded events are not
+            saved to send later. Advertising personalization signals and
             Google Signals are disabled in our Analytics configuration.
-            Dismissing the initial banner keeps Analytics off; that dismissal is remembered
-            for the current browser tab. You can reopen the full settings from the footer.
+            There is no initial opt-in popup. You can open settings from the footer at any time.
+            Administrator pages, local development and preview sites do not load Analytics.
           </p>
         </Section>
 
@@ -132,7 +133,7 @@ export default function PrivacyPage() {
               access uses authentication; visitors do not need an account.
             </li>
             <li>
-              <strong className="text-cream">Google Analytics</strong> — optional usage measurement, loaded only after an adult explicitly allows it. Advertising personalization and Google signals are disabled. We do not display advertisements or load AdSense. See{" "}
+              <strong className="text-cream">Google Analytics</strong> — usage measurement loaded automatically on public production pages unless excluded by your saved choice, classroom mode or browser privacy signals. Advertising personalization and Google signals are disabled. We do not display advertisements or load AdSense. See{" "}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -166,7 +167,7 @@ export default function PrivacyPage() {
           <p>Starting a new quiz clears the saved result and unfinished progress. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, progress and results are kept in memory while the page remains open and may be lost on refresh.</p>
         </Section>
         <Section title="Cookies">
-          <p>Your Analytics choice lasts up to 180 days. Analytics defaults to off, including when the preference is missing, invalid or expired. Classroom mode stays on until you change it or clear browser storage. Refusing or withdrawing permission clears the Analytics cookies we can access and reloads the page to stop the loaded tag. Essential quiz recovery, confirmation/retry cookies and administrator authentication are separate from optional analytics.</p>
+          <p>Analytics is on by default for a new browser visiting our public production site. Your saved opt-out and classroom setting stay in effect until you change them or clear browser storage; previous refusals do not expire back into tracking. Clearing storage also removes those choices. Invalid preferences or unavailable preference storage keep Analytics off. Turning Analytics off clears the Analytics cookies we can access and reloads the page to stop the loaded tag. Essential quiz recovery, confirmation/retry cookies and administrator authentication are separate from analytics.</p>
           <p>
             Google Analytics can set cookies to measure visits and recognize
             returning browsers. The blog editor uses authentication cookies;

@@ -6,9 +6,13 @@ export const ANALYTICS_BOOTSTRAP = `
   var disabledKey = 'ga-disable-G-C75CMC27YN';
   function allowed() {
     try {
-      var value = JSON.parse(window.localStorage.getItem('sd:privacy:v1') || 'null');
-      return value && value.version === 1 && value.analytics === true && value.classroom === false &&
-        Number.isFinite(value.expires) && value.expires > Date.now() && value.expires <= Date.now() + 180 * 86400000;
+      var browser = window.navigator || {};
+      if (browser.globalPrivacyControl === true || browser.doNotTrack === '1') return false;
+      var raw = window.localStorage.getItem('sd:privacy:v1');
+      if (raw === null || raw === undefined) return true;
+      var value = JSON.parse(raw);
+      if (value === null) return true;
+      return value.version === 1 && value.analytics === true && value.classroom === false;
     }
     catch (_) { return false; }
   }
@@ -28,8 +32,7 @@ export const ANALYTICS_BOOTSTRAP = `
     return;
   }
   window[disabledKey] = false;
-  // Custom events already check consent, but Google's automatic events also
-  // need to stop when permission expires in a tab that remains open.
+  // Automatic collection still stops for explicit exclusions and classroom mode.
   function checkPermission() {
     if (!allowed()) {
       window[disabledKey] = true;
@@ -38,13 +41,6 @@ export const ANALYTICS_BOOTSTRAP = `
     }
     return true;
   }
-  function scheduleExpiry() {
-    if (!checkPermission()) return;
-    var expires = JSON.parse(window.localStorage.getItem('sd:privacy:v1')).expires;
-    // Browsers overflow timeouts above ~24.8 days; recheck in bounded steps.
-    window.setTimeout(scheduleExpiry, Math.min(expires - Date.now(), 2147483647));
-  }
-  scheduleExpiry();
   window.addEventListener('focus', checkPermission, true);
   window.addEventListener('visibilitychange', checkPermission, true);
   function blockAdmin(value) {
