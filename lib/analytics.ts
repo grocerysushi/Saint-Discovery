@@ -1,3 +1,4 @@
+import { capturePostHog } from "./posthog-client";
 import { analyticsAllowed } from "./visitor-privacy";
 // Automatic GA4 uses the existing property; excluded events are never replayed.
 type EventParams = Record<string, string | number | boolean | undefined>;
@@ -13,12 +14,16 @@ export function track(event: string, params?: EventParams): boolean {
   if (typeof window === "undefined") return false;
   try {
     if (!analyticsAllowed()) return false;
-    if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || !window.gtag || window["ga-disable-G-C75CMC27YN"]) return false;
     const location = new URL(window.location.href);
-    if (/^\/admin(?:\/|$)/i.test(decodeURIComponent(location.pathname))) return false;
-    location.searchParams.delete("token");
-    window.gtag("event", event, { ...params, page_location: location.href });
-    return true;
+    if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || /^\/admin(?:\/|$)/i.test(decodeURIComponent(location.pathname))) return false;
+    if (window["ga-disable-G-C75CMC27YN"]) return false;
+    const captured = capturePostHog(event, params);
+    if (window.gtag && !window["ga-disable-G-C75CMC27YN"]) {
+      location.searchParams.delete("token");
+      window.gtag("event", event, { ...params, page_location: location.href });
+      return true;
+    }
+    return captured;
   } catch {
     return false;
   }
