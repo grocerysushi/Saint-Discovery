@@ -34,9 +34,15 @@ const GEOGRAPHY: [string, RegExp][] = [
   ["Rome", /\bRome\b/i],
 ];
 
+// Indexed once at module load: this runs for every saint on every directory
+// request, and a linear scan over the additions was the expensive part.
+const ADDITION_METADATA = new Map(
+  directoryAdditions.map(entry => [entry.saint.slug, entry.metadata] as const)
+);
+
 export function getDirectoryEntry(saint: Saint): DirectoryEntry {
   const curated = (metadata as Record<string, DirectoryMetadata>)[saint.slug]
-    ?? directoryAdditions.find(entry => entry.saint.slug === saint.slug)?.metadata;
+    ?? ADDITION_METADATA.get(saint.slug);
   return {
     countries: GEOGRAPHY.filter(([, pattern]) => pattern.test(saint.origin ?? "")).map(([label]) => label),
     vocations: curated?.vocations ?? [],

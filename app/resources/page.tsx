@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { cache } from "react";
 import { saintDisplayName } from "@/lib/saint-seo";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { getAllSaints } from "@/lib/saints";
@@ -80,10 +81,18 @@ const RESOURCES = [
 ];
 
 type Props = { searchParams: Promise<DirectorySearchParams> };
-async function browse({ searchParams }: Props) {
-  const data = getDirectoryPage(await getAllSaints(), await searchParams);
+
+// generateMetadata and the page component each resolve the same request, so key
+// the directory computation on the resolved params and run it once per request.
+const loadDirectory = cache(async (_paramsKey: string, params: DirectorySearchParams) => {
+  const data = getDirectoryPage(await getAllSaints(), params);
   if (!data.validPage) notFound();
   return data;
+});
+
+async function browse({ searchParams }: Props) {
+  const params = await searchParams;
+  return loadDirectory(JSON.stringify(params), params);
 }
 
 export async function generateMetadata(props: Props): Promise<Metadata> {
