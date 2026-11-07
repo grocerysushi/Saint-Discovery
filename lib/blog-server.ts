@@ -11,8 +11,11 @@ export function blogConfig() {
   if (!baseUrl || !anonKey) throw new Error("Blog storage is not configured on this server.");
   return { baseUrl, anonKey };
 }
+// The access token is only ever read server-side, so keep it out of reach of
+// scripts: an XSS on the admin origin must not be able to lift a session token.
+export const AUTH_COOKIE_SETTINGS = { options: { accessToken: { httpOnly: true } } };
 export async function blogClient(publicOnly = false) {
-  return createServerClient({ ...blogConfig(), cookies: publicOnly ? undefined : await cookies() });
+  return createServerClient({ ...blogConfig(), ...AUTH_COOKIE_SETTINGS, cookies: publicOnly ? undefined : await cookies() });
 }
 export async function requireBlogEditor() {
   const client = await blogClient();
