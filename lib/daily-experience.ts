@@ -16,8 +16,7 @@ const REFLECTIONS = [
   { theme: "Serve quietly", question: "What good could you do without receiving recognition? Consider how an ordinary act can become a sincere expression of love.", action: "Do one useful thing for someone without drawing attention to yourself.", prayer: "Jesus, teach me to serve with a generous heart. Free me from the need for praise and help me love in ordinary ways. Amen." },
 ];
 
-export async function getDailyExperience(date = localDateKey()) {
-  if (!validDateKey(date)) return null;
+async function buildDailyExperience(date: string) {
   const featured = getSaintOfDay(date);
   const [month, day] = date.split("-").map(Number);
   const label = new Date(2024, month - 1, day).toLocaleDateString("en-US", { month: "long", day: "numeric" });
@@ -33,4 +32,21 @@ export async function getDailyExperience(date = localDateKey()) {
   };
 }
 
-export type DailyExperienceData = NonNullable<Awaited<ReturnType<typeof getDailyExperience>>>;
+export type DailyExperienceData = Awaited<ReturnType<typeof buildDailyExperience>>;
+
+// The route reads ?date=, which keeps it dynamic, so a revalidate window cannot
+// cache the page. The content is static per deploy and depends only on the
+// calendar date, so memoize the computation per date instead. Bounded by the
+// calendar itself; the map is cleared wholesale if that assumption ever breaks.
+const CACHE_LIMIT = 400;
+const experienceCache = new Map<string, DailyExperienceData>();
+
+export async function getDailyExperience(date = localDateKey()): Promise<DailyExperienceData | null> {
+  if (!validDateKey(date)) return null;
+  const cached = experienceCache.get(date);
+  if (cached) return cached;
+  const experience = await buildDailyExperience(date);
+  if (experienceCache.size >= CACHE_LIMIT) experienceCache.clear();
+  experienceCache.set(date, experience);
+  return experience;
+}

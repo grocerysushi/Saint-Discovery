@@ -6,7 +6,9 @@ import { localDateKey } from "@/lib/calendar-date";
 import { absoluteUrl, serializeJsonLd } from "@/lib/seo";
 
 type Props = { searchParams: Promise<{ date?: string | string[] }> };
-export const dynamic = "force-dynamic";
+// Reading ?date= keeps this route dynamic. The per-date work is memoized in
+// lib/daily-experience.ts, and the client corrects the date to the visitor's
+// own timezone, so no per-request catalogue scan is needed here.
 const title = "Saint of the Day: A Daily Story, Reflection & Prayer";
 const description = "Discover the saint of the day, read a sourced biography, pause for reflection and prayer, and choose one simple action to carry into your day.";
 export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
