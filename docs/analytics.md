@@ -26,7 +26,7 @@ On September 23, 2026, `quiz_complete` and `generate_lead` were marked as key ev
 | `quiz_step_back` | Visitor selects Previous question | No |
 | `quiz_complete` | Final answer produces a saint match | Yes |
 | `biography_click` | Primary biography, next-steps biography, or related-saint link on the personalized quiz result | No |
-| `email_signup` | Initial confirmation request is accepted by the provider; not proof of confirmation or delivery | No |
+| `email_confirmation_accepted` | Initial confirmation request is accepted by the provider; not proof of confirmation or delivery | No |
 | `email_confirmation_request` | Initial or resend request begins (`request_type`, `saint_slug`) | No |
 | `email_confirmation_error` | Send, network or rate-limit error (`request_type`, `error_type`) | No |
 | `email_confirmation_resend` | Another confirmation email is accepted by the provider | No |
@@ -101,7 +101,7 @@ References: [Google internal-traffic testing](https://support.google.com/analyti
 
 In GA4 Reports, select `quiz_complete` or `generate_lead` in the Key events selector to compare acquisition channels and landing pages. Use separate outcomes; summing them measures interactions, not unique people.
 
-In Explore → Funnel exploration, use `quiz_start`, then `quiz_step_complete` filtered by Quiz step (2 onward), then `quiz_complete`. For the result journey, use `quiz_complete` followed by `biography_click`, or followed by `email_signup` then `generate_lead`. Confirmation can happen in another browser/device, so that final sequence is not always attributable to the original quiz visitor. These are GA user funnels; repeated attempts and aggregate event ratios are not interchangeable with user conversion rates.
+In Explore → Funnel exploration, use `quiz_start`, then `quiz_step_complete` filtered by Quiz step (2 onward), then `quiz_complete`. For the result journey, use `quiz_complete` followed by `biography_click`, or followed by `email_confirmation_accepted` then `generate_lead`. Confirmation can happen in another browser/device, so that final sequence is not always attributable to the original quiz visitor. These are GA user funnels; repeated attempts and aggregate event ratios are not interchangeable with user conversion rates.
 
 Marking a key event is prospective; historical completion counts do not become historical key-event counts. New custom dimensions can take 24–48 hours to become reportable. See [Google's key-event guide](https://support.google.com/analytics/answer/13128484) and [event-scoped custom dimensions](https://support.google.com/analytics/answer/14240153).
 

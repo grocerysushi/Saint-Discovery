@@ -210,7 +210,7 @@ test('capture supports resend and changing address while excluding PII from even
   ui.advance(); resendButton().props.onClick(); await ui.settle(); assert.equal(ui.sends(), 2);
   ui.nodes().find(n => n.props?.children === 'Change email address').props.onClick(); ui.render();
   assert.ok(ui.nodes().some(n => n.type === 'input' && n.props.name === 'email'));
-  assert.equal(ui.events.filter(e => e.name === 'email_signup').length, 1);
+  assert.equal(ui.events.filter(e => e.name === 'email_confirmation_accepted').length, 1);
   assert.equal(ui.events.filter(e => e.name === 'email_confirmation_resend').length, 1);
   assert.doesNotMatch(JSON.stringify(ui.events), /reader@|gmail\.com/);
 });
@@ -222,7 +222,7 @@ test('capture retains form and never claims success after provider, malformed or
   ]) {
     const ui = captureHarness([response]); ui.enter('reader@example.org'); await ui.submit();
     assert.ok(ui.nodes().some(n => n.type === 'form'));
-    assert.equal(ui.events.filter(e => e.name === 'email_signup').length, 0);
+    assert.equal(ui.events.filter(e => e.name === 'email_confirmation_accepted').length, 0);
     assert.equal(ui.events.filter(e => e.name === 'email_confirmation_error').length, 1);
   }
 });

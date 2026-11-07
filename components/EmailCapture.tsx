@@ -52,7 +52,7 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
         return;
       }
       setSent(true);
-      track(resend ? "email_confirmation_resend" : "email_signup", { saint_slug: saintSlug });
+      track(resend ? "email_confirmation_resend" : "email_confirmation_accepted", { saint_slug: saintSlug });
     } catch {
       nextRequestAt.current = Date.now() + 60000;
       setRemaining(60);
