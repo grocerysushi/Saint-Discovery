@@ -18,6 +18,7 @@ function load(file, dependencies = {}, globals = {}) {
 const validation = load('lib/emails/validation.ts');
 const suggestions = load('lib/emails/address-suggestion.ts');
 const smallBody = load('lib/request-body.ts');
+const requestOrigin = load('lib/request-origin.ts');
 
 test('address suggestions handle observed typo without guessing custom domains', () => {
   assert.equal(suggestions.suggestEmailAddress(' reader@GMAIL.CON '), 'reader@gmail.com');
@@ -57,11 +58,23 @@ function subscribe({ sendOk = true, allow = true, tokenFails = false } = {}) {
     '@/lib/emails/config': { emailLinkOrigin: () => 'https://example.invalid' },
     '@/lib/emails/rateLimit': { allowByIp: () => true, clientIp: () => 'test', circuitAllows: () => true,
       reserveEmailSend: () => ({ allowed: allow, retryAfter: 45 }) },
+    '@/lib/request-origin': requestOrigin,
   });
-  return { sends: () => sends, run: (body = { email: 'reader@example.org', saintSlug: 'joseph', adultRequest: true }) => route.POST(new Request('https://example.invalid/api/subscribe', {
+  return { sends: () => sends, post: request => route.POST(request), run: (body = { email: 'reader@example.org', saintSlug: 'joseph', adultRequest: true }) => route.POST(new Request('https://example.invalid/api/subscribe', {
     method: 'POST', headers: { 'content-type': 'application/json' }, body: typeof body === 'string' ? body : JSON.stringify(body),
   })) };
 }
+
+test('a cross-site Origin is rejected before any send', async () => {
+  const route = subscribe();
+  const response = await route.post(new Request('https://example.invalid/api/subscribe', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json', origin: 'https://evil.example' },
+    body: JSON.stringify({ email: 'reader@example.org', saintSlug: 'joseph', adultRequest: true }),
+  }));
+  assert.equal(response.status, 403);
+  assert.equal(route.sends(), 0);
+});
 
 test('subscription success means accepted; provider/config failures are retryable errors', async () => {
   const route = subscribe();

@@ -6,6 +6,7 @@ import { buildConfirmEmail } from "@/lib/emails/render";
 import { sendEmail } from "@/lib/emails/resend";
 import { emailLinkOrigin } from "@/lib/emails/config";
 import { readSmallBody, RequestBodyTooLarge } from "@/lib/request-body";
+import { sameOrigin } from "@/lib/request-origin";
 import {
   allowByIp,
   reserveEmailSend,
@@ -47,6 +48,13 @@ export async function POST(request: NextRequest) {
       { ok: false, message: "Unsupported content type." },
       { status: 415 }
     );
+  }
+
+  // Reject a cross-site Origin when the browser sends one. Absence is allowed:
+  // some same-origin requests omit it, and a cross-site fetch cannot reach this
+  // route anyway because the JSON content type forces a preflight.
+  if (request.headers.get("origin") && !sameOrigin(request)) {
+    return failure(403, "Invalid request origin.");
   }
 
   let raw: string;
