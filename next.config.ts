@@ -34,6 +34,26 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "z-lie-martin": "zelie-martin",
 };
 
+// A nonce-based script policy is not viable here: every page that renders
+// JSON-LD would have to read headers(), which opts all 909 statically generated
+// pages into dynamic rendering. Inline scripts are therefore allowed, and the
+// policy still blocks third-party script origins, framing, base-uri hijacking
+// and form exfiltration. The session cookie is HttpOnly to cover the rest.
+const CSP = [
+  "default-src 'self'",
+  "base-uri 'self'",
+  "object-src 'none'",
+  "frame-ancestors 'self'",
+  "frame-src 'none'",
+  "form-action 'self'",
+  `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === "production" ? "" : " 'unsafe-eval'"} https://www.googletagmanager.com https://www.google-analytics.com https://us.i.posthog.com https://translate.google.com https://translate.googleapis.com https://*.gstatic.com`,
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
+  "font-src 'self' data:",
+  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://us.i.posthog.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com",
+  ...(process.env.NODE_ENV === "production" ? ["upgrade-insecure-requests"] : []),
+].join("; ");
+
 const nextConfig: NextConfig = {
   // Allow an isolated local build when a Windows sync service locks .next.
   distDir: process.env.SAINT_BUILD_DIR || ".next",
@@ -57,6 +77,7 @@ const nextConfig: NextConfig = {
         { key: "X-Frame-Options", value: "SAMEORIGIN" },
         { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
         { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
+        { key: "Content-Security-Policy", value: CSP },
       ] },
       { source: "/images/responsive/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
     ];
