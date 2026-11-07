@@ -30,3 +30,14 @@ test('unpublished observances and blesseds cannot supply the daily saint', () =>
     if (saint) assert.equal(saint.kind, 'saint');
   }
 });
+
+test('published biographies never render withdrawn seed copy', async () => {
+  const { getAllSaints } = loadTs('lib/saints.ts');
+  const all = await getAllSaints();
+  assert.ok(all.length > 0);
+  for (const saint of all) {
+    assert.equal(saint.tagline, '', `${saint.slug}: seed tagline must stay withdrawn`);
+    assert.equal(saint.known_for, null, `${saint.slug}: seed known_for must stay withdrawn`);
+    assert.ok(saint.description.trim(), `${saint.slug}: reviewed description required`);
+  }
+});

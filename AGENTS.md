@@ -20,3 +20,16 @@ Key patterns:
 - Reference users with `auth.users(id)`; use `auth.uid()` in RLS policies.
 - For storage uploads, persist both the returned `url` and `key`.
 <!-- INSFORGE:END -->
+
+## Saint content policy
+
+- The public catalog is exactly the slugs where `isPublishedSaintSlug` returns true: `status === "source-reviewed"` **and** `kind === "saint"`. Blesseds, Orthodox saints, observances, unresolved identities and duplicates stay in source control but are never published.
+- `applySaintReview` in `lib/saint-reviews.ts` is the only place seed data becomes public copy. It replaces the description with the first reviewed biography paragraph and deliberately blanks `tagline` and `known_for`, because the legacy seed generator produced those without source review. Do not restore them from `lib/data/saints.json`; add reviewed prose to a review or expansion file instead.
+- Because the published catalog only contains `kind: "saint"`, the `unresolved` / `observance` / `orthodox-saint` branches in the biography components are defensive. They exist for archived reviews and are unreachable from published pages.
+- `tests/catholic-catalog.test.mjs` enforces both invariants. If a policy change is intended, update that test in the same commit.
+
+## Verification
+
+- `npm run lint`, `npx tsc --noEmit`, `npm test` and `npm run build` run in CI on every push and pull request (`.github/workflows/ci.yml`).
+- Node is pinned to `.nvmrc`; `package.json` requires `>=22.22.0` because `posthog-node` (via `@insforge/cli`) does.
+- Browser checks (`test:design`, `test:theme`, `test:learning`) need a running server and are not part of CI.

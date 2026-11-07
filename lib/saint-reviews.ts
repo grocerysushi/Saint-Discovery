@@ -101,6 +101,8 @@ export function applySaintReview(saint: Saint): Saint {
     name: review.name,
     kind: review.kind,
     description: review.biography[0],
+    // Legacy seed copy is withdrawn: only source-reviewed prose may render.
+    // Keep these blank instead of falling back to unreviewed data.
     tagline: "",
     known_for: null,
     feast_day: review.feast_day,
