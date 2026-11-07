@@ -42,7 +42,7 @@
     "posthog-js": "^1.444.2",
     "react": "19.2.3",
     "react-dom": "19.2.3",
-    "sharp": "^0.34.5"
+    "sharp": "0.35.5"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.13.0",
