@@ -13,7 +13,15 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Standalone design mockups: not part of the app build.
+    "design-mockups/**",
   ]),
+  {
+    // Tests transpile app modules into a VM context, where a CommonJS
+    // `module` object is the harness, not a browser global.
+    files: ["tests/**/*.mjs"],
+    rules: { "@next/next/no-assign-module-variable": "off" },
+  },
 ]);
 
 export default eslintConfig;
