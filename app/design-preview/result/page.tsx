@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getQuizCandidates } from "@/lib/quiz-candidates";
 import { moreQuizSaints } from "@/lib/quiz-results";
 import Preview from "./Preview";
+import "@/app/reading-room.css";
 
 export const metadata: Metadata = { title: "Result design preview", robots: { index: false, follow: false } };
 

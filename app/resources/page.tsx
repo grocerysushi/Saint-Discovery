@@ -16,6 +16,7 @@ import { directoryUrl } from "@/lib/directory-url";
 import { normalizeDirectorySearch } from "@/lib/directory-filters";
 import DirectoryGallery from "@/components/DirectoryGallery";
 import { READING_PATHS } from "@/lib/reading-paths";
+import "@/components/content-refresh.css";
 
 export const revalidate = 86400;
 
