@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore, type FormEvent } from "react";
 import { motion } from "framer-motion";
 import { track } from "@/lib/analytics";
 import { suggestEmailAddress } from "@/lib/emails/address-suggestion";
@@ -7,11 +7,17 @@ import { useTranslationProxy } from "@/lib/use-translation-proxy";
 import { SITE_ORIGIN } from "@/lib/site-languages";
 import { classroomMode } from "@/lib/visitor-privacy";
 
+// Classroom mode lives in localStorage, which does not exist during SSR. Read it
+// through the external store so the server snapshot stays false and the setting
+// is applied after hydration, without a setState-in-effect cascade.
+const subscribeClassroom = () => () => {};
+const serverClassroom = () => false;
+
 export default function EmailCapture({ saintSlug, saintName }: { saintSlug: string; saintName: string }) {
   const translationProxy = useTranslationProxy();
   const [email, setEmail] = useState("");
   const [adult, setAdult] = useState(false);
-  const [classroom, setClassroom] = useState(false);
+  const classroom = useSyncExternalStore(subscribeClassroom, classroomMode, serverClassroom);
   const [company, setCompany] = useState("");
   const [sent, setSent] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -22,7 +28,6 @@ export default function EmailCapture({ saintSlug, saintName }: { saintSlug: stri
   const successRef = useRef<HTMLDivElement>(null);
   const emailRef = useRef<HTMLInputElement>(null);
   const suggestion = suggestEmailAddress(email);
-  useEffect(() => { setClassroom(classroomMode()); }, []);
 
   useEffect(() => { if (sent) successRef.current?.focus(); }, [sent]);
   useEffect(() => {

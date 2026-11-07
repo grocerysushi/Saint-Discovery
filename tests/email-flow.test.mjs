@@ -164,6 +164,7 @@ function captureHarness(responses, translationProxy = false) {
       useState(initial) { const i = cursor++; hooks[i] ??= initial; return [hooks[i], value => { hooks[i] = value; }]; },
       useRef(initial) { const i = cursor++; hooks[i] ??= { current: initial }; return hooks[i]; },
       useEffect() {},
+      useSyncExternalStore(_subscribe, getSnapshot, getServerSnapshot) { return (getServerSnapshot ?? getSnapshot)(); },
     },
     'react/jsx-runtime': { jsx, jsxs: jsx }, 'framer-motion': { motion: { div: 'div', form: 'form' } },
     '@/lib/analytics': { track: (name, params) => events.push({ name, params }) },
