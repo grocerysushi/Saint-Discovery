@@ -38,3 +38,19 @@ test('privacy changes and admin navigation block pageviews, custom events, and e
 test('a withdrawn tab does not resume recording after another preference change',()=>{
   const state=setup();state.api.initializePostHog();state.listeners.storage({key:'sd:privacy:v1'});assert.equal(state.optOuts,1);assert.equal(state.api.capturePostHog('quiz_complete'),false);
 });
+
+async function connectSrc(env) {
+  const loaded={exports:{}};
+  const source=ts.transpileModule(fs.readFileSync('next.config.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+  vm.runInNewContext(source,{module:loaded,exports:loaded.exports,URL,process:{env},__dirname:process.cwd()});
+  const csp=(await loaded.exports.default.headers())[0].headers.find(header=>header.key==='Content-Security-Policy').value;
+  return csp.split('; ').find(directive=>directive.startsWith('connect-src ')).split(' ');
+}
+test('the CSP lets the browser reach the configured PostHog proxy origin and nothing broader',async()=>{
+  const sources=await connectSrc({NODE_ENV:'production',NEXT_PUBLIC_POSTHOG_HOST:'https://t.saintdiscoveryquiz.com/'});
+  assert.ok(sources.includes('https://t.saintdiscoveryquiz.com'));
+  assert.ok(!sources.some(source=>/^https:\/\/\*\.saintdiscoveryquiz\.com|^https:$/.test(source)));
+  for(const host of [undefined,'','not a url','http://t.saintdiscoveryquiz.com']){
+    assert.deepEqual(await connectSrc({NODE_ENV:'production',...(host===undefined?{}:{NEXT_PUBLIC_POSTHOG_HOST:host})}),sources.filter(source=>source!=='https://t.saintdiscoveryquiz.com'));
+  }
+});
