@@ -34,6 +34,15 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "z-lie-martin": "zelie-martin",
 };
 
+// The browser SDK sends events to NEXT_PUBLIC_POSTHOG_HOST (a first-party
+// proxy in production), so that exact origin must be reachable.
+function postHogOrigin(): string {
+  try {
+    const url = new URL(process.env.NEXT_PUBLIC_POSTHOG_HOST ?? "");
+    return url.protocol === "https:" ? ` ${url.origin}` : "";
+  } catch { return ""; }
+}
+
 // A nonce-based script policy is not viable here: every page that renders
 // JSON-LD would have to read headers(), which opts all 909 statically generated
 // pages into dynamic rendering. Inline scripts are therefore allowed, and the
@@ -50,7 +59,7 @@ const CSP = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
   "font-src 'self' data:",
-  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://us.i.posthog.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com",
+  `connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://us.i.posthog.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com${postHogOrigin()}`,
   ...(process.env.NODE_ENV === "production" ? ["upgrade-insecure-requests"] : []),
 ].join("; ");
 
