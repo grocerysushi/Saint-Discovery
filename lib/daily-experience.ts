@@ -2,6 +2,7 @@ import { getSaintOfDay } from "@/lib/saint-of-day";
 import { getAllSaints } from "@/lib/saints";
 import { getBiographyReview } from "@/lib/saint-reviews";
 import { validDateKey, localDateKey } from "@/lib/calendar-date";
+import { stableLiturgicalCelebration } from "@/lib/liturgical-calendar";
 import { saintDisplayName } from "@/lib/saint-seo";
 import { saintHasCalendarDate } from "@/lib/saint-calendar";
 
@@ -16,14 +17,29 @@ const REFLECTIONS = [
   { theme: "Serve quietly", question: "What good could you do without receiving recognition? Consider how an ordinary act can become a sincere expression of love.", action: "Do one useful thing for someone without drawing attention to yourself.", prayer: "Jesus, teach me to serve with a generous heart. Free me from the need for praise and help me love in ordinary ways. Amen." },
 ];
 
+// The given name usually identifies the celebration. A later distinctive name
+// still counts, so "Pio of Pietrelcina" matches "Saint Pius of Pietrelcina".
+function celebrationNamesSaint(celebration: string, saintName: string): boolean {
+  const normalize = (value: string) => value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+  const celebrationText = normalize(celebration);
+  const tokens = normalize(saintName)
+    .replace(/^(?:st\.?|saint)\s+/, "")
+    .split(/[^a-z]+/)
+    .filter(part => part.length >= 3);
+  const named = (token: string) => new RegExp(`\\b${token}\\b`).test(celebrationText);
+  return Boolean((tokens[0] && named(tokens[0])) || tokens.some(token => token.length >= 5 && named(token)));
+}
+
 async function buildDailyExperience(date: string) {
   const featured = getSaintOfDay(date);
   const [month, day] = date.split("-").map(Number);
   const label = new Date(2024, month - 1, day).toLocaleDateString("en-US", { month: "long", day: "numeric" });
   const saints = (await getAllSaints()).filter(saint => saintHasCalendarDate(saint, date));
   const review = featured ? getBiographyReview(featured.slug) : null;
+  const liturgicalCelebration = stableLiturgicalCelebration(date);
   return {
-    date, label, featured,
+    date, label, featured, liturgicalCelebration,
+    featuredIsAdditionalCommemoration: Boolean(liturgicalCelebration && !celebrationNamesSaint(liturgicalCelebration, featured?.name ?? "")),
     biography: review?.biography ?? [],
     sources: [...new Map([...(review?.sources ?? []), ...(featured?.calendarSources ?? [])].map(source => [source.url, source])).values()],
     feastNote: featured?.calendarNote ?? review?.feast_note ?? "",

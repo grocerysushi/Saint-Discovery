@@ -22,7 +22,7 @@ export default function DailyPause({ daily, name, artwork, children }: { daily: 
   };
   return <section className="daily-pause" aria-label="A daily pause with the saints">
     <aside className="pause-life">
-      <p>{daily.label} · {daily.featured?.kind === "observance" ? "An observance" : "A life to discover"}</p>
+      <p>{daily.label} · {daily.featuredIsAdditionalCommemoration ? "Another commemoration" : daily.featured?.kind === "observance" ? "An observance" : "A life to discover"}</p>
       <h2>{name ?? "A quiet day to keep growing"}</h2>
       {artwork}
       <p className="pause-life-note">One life to read.<br />One thought to carry with you.</p>

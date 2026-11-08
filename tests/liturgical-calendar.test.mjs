@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {loadTs} from './load-ts.mjs';
-const {getLiturgicalDay,validCivilDate,bannerColors}=loadTs('lib/liturgical-calendar.ts');
+const {getLiturgicalDay,validCivilDate,bannerColors,stableLiturgicalCelebration}=loadTs('lib/liturgical-calendar.ts');
 const data=JSON.parse(fs.readFileSync(new URL('../lib/data/liturgical-calendar.json',import.meta.url)));
 const color=date=>getLiturgicalDay(date)?.colors[0];
 test('reviewed national calendar covers every 2026–27 civil date with scoped provenance',()=>{
@@ -30,6 +30,14 @@ test('rose is optional only on Advent III and Lent IV; All Souls has U.S. altern
   assert.equal(rose.length,4);
   for(const [date,day] of rose){assert(['Advent3','Lent4'].includes(day.eventKey),date);assert.equal(day.colors[0],'violet');assert.match(day.note,/may be used/);}
   assert.equal(JSON.stringify(getLiturgicalDay('2026-11-02').colors),JSON.stringify(['violet','white','black']));
+});
+test('a recurring date names a celebration only when every reviewed year agrees',()=>{
+  assert.equal(stableLiturgicalCelebration('12-25'),'Christmas');
+  assert.equal(stableLiturgicalCelebration('11-01'),'All Saints');
+  assert.equal(stableLiturgicalCelebration('08-15'),'The Assumption of the Blessed Virgin Mary');
+  assert.equal(stableLiturgicalCelebration('01-01'),'Mary, Mother of God');
+  assert.equal(stableLiturgicalCelebration('02-29'),null);
+  assert.equal(stableLiturgicalCelebration('11-08'),null);
 });
 test('missing, expired or invalid dates never acquire a guessed liturgical color',()=>{
   for(const date of ['2028-01-01','2025-12-31','2026-02-29','2026-13-01','bad',''])assert.equal(getLiturgicalDay(date),null,date);

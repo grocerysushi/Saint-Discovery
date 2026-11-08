@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "@/components/StaticImage";
 import Link from "next/link";
+import LiturgicalBanner from "@/components/LiturgicalBanner";
 import { localDateKey } from "@/lib/calendar-date";
 import { saintDisplayName } from "@/lib/saint-seo";
 import type { DailyExperienceData } from "@/lib/daily-experience";
@@ -53,6 +54,11 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
 
   return <>
     <header className="daily-page-heading"><div><h1>Saint of the Day</h1><p>A few quiet minutes. Read, reflect, pray, then carry one good thing into your day.</p></div></header>
+    {daily.liturgicalCelebration && <section className="daily-celebration" aria-labelledby="daily-celebration-title">
+      <p className="eyebrow">U.S. liturgical celebration</p>
+      <h2 id="daily-celebration-title">{daily.liturgicalCelebration}</h2>
+      {daily.featuredIsAdditionalCommemoration && <p>{name ? <>This celebration is not a published biography in our directory. {name} is another Catholic commemoration recorded for {daily.label}.</> : <>This celebration is not a published biography in our directory. The reading below is a separate commemoration for {daily.label}.</>}</p>}
+    </section>}
     <DailyPause key={daily.date} daily={daily} name={name} artwork={
       <figure className="daily-artwork">
         <div className="daily-artwork-image">
@@ -73,7 +79,8 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
       <Link prefetch={false} href={`/saint-of-day?date=${next}`} aria-label={`Next day, ${new Date(2024, month - 1, day + 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>Next →</Link>
     </nav>
     </details>
-    <p className="daily-calendar-context">When several saints share a date, this guide first favors saints on the <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar" target="_blank" rel="noopener noreferrer">USCCB’s U.S. calendar</a>, then other documented Catholic commemorations. Dates can vary by place and tradition. This is a discovery guide, not the official liturgical calendar for your parish; the liturgical banner follows the celebration for the year. The date browser includes February 29 for leap years.</p>
+    <p className="daily-calendar-context">When several saints share a date, this guide first favors saints on the <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar" target="_blank" rel="noopener noreferrer">USCCB’s U.S. calendar</a>, then other documented Catholic commemorations. If that celebration has the same name in every reviewed year, it is shown above the reading. Dates can vary by place and tradition. This is a discovery guide, not the official liturgical calendar for your parish. The date browser includes February 29 for leap years.</p>
+    {followToday && <div className="daily-liturgical-banner"><LiturgicalBanner /></div>}
     {daily.alsoToday.length > 0 && <section className="daily-more" aria-labelledby="also-today"><p className="eyebrow">More lives to explore</p><h2 id="also-today">Also remembered on {date.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</h2><div>{daily.alsoToday.map(other => <Link prefetch={false} key={other.slug} href={`/saints/${other.slug}`}>{other.name}<span aria-hidden>↗</span></Link>)}</div></section>}
     {daily.sources.length > 0 && <details className="daily-sources"><summary>Sources for today’s biography</summary><ul>{daily.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul></details>}
     <section className="daily-return"><p className="eyebrow">Let this become a small habit</p><h2>There is another story tomorrow.</h2><p>Bookmark this daily page to return. Or keep exploring a saint whose life speaks to yours.</p><div><Link prefetch={false} href="/confirmation-saint-guide" className="btn-secondary">Choose a Confirmation saint ↗</Link><Link href="/quiz" prefetch={false} className="text-link">Find your saint match ↗</Link></div></section>

@@ -41,6 +41,23 @@ test('every guide links to published canonical biographies and traceable sources
   assert.equal(getGuidesForSaint('unknown').length, 0);
 });
 
+test('reviewed patronages survive an oxford comma and claims the old index omitted', () => {
+  const { getTopicBySlug, getPatronLinksForSaint } = loadTs('lib/patronage.ts');
+  assert.equal(getTopicBySlug('madrid')?.saints.join(','), 'isidore-the-farmer');
+  assert.ok(getTopicBySlug('nurses')?.saints.includes('john-of-god'));
+  assert.equal(getTopicBySlug('firefighters')?.saints.join(','), 'florian,lawrence');
+  assert.ok(getTopicBySlug('deacons')?.saints.includes('lawrence'));
+  assert.ok(getTopicBySlug('catholic-schools')?.saints.includes('thomas-aquinas'));
+  assert.ok(getTopicBySlug('motorists')?.saints.includes('frances-of-rome'));
+  assert.ok(getTopicBySlug('mothers')?.saints.includes('gerard-majella'));
+  assert.ok(getTopicBySlug('shepherdesses')?.saints.includes('germaine-cousin'));
+  assert.ok(getTopicBySlug('jurists')?.saints.includes('raymond-of-pe-afort'));
+  assert.ok(getTopicBySlug('paris')?.saints.includes('denis'));
+  assert.ok(getTopicBySlug('poland')?.saints.includes('jadwiga-of-poland'));
+  assert.ok(getPatronLinksForSaint('isidore-the-farmer').some(link => link.slug === 'madrid'));
+  assert.equal(getTopicBySlug('the-americas'), null);
+});
+
 test('suggested companions do not become official patronages in the legacy index', () => {
   const { PATRON_TOPICS, getPatronLinksForSaint } = loadTs('lib/patronage.ts');
   for (const slug of ['grief', 'difficult-decisions']) {

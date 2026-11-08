@@ -15,6 +15,26 @@ export function validCivilDate(value:string): boolean {
 export function getLiturgicalDay(date:string, days:Record<string,LiturgicalDay> = data.days as Record<string,LiturgicalDay>): LiturgicalDay | null {
   return validCivilDate(date) ? days[date] ?? null : null;
 }
+
+// A recurring month-day can name one celebration only when every reviewed year
+// agrees. Sundays and other movable days stay off the annual page.
+const stableCelebrationByMonthDay = new Map<string, string>();
+{
+  const namesByMonthDay = new Map<string, Set<string>>();
+  for (const [date, day] of Object.entries(data.days as Record<string, LiturgicalDay>)) {
+    const monthDay = date.slice(5);
+    const names = namesByMonthDay.get(monthDay);
+    if (names) names.add(day.celebration);
+    else namesByMonthDay.set(monthDay, new Set([day.celebration]));
+  }
+  for (const [monthDay, names] of namesByMonthDay) {
+    if (names.size === 1) stableCelebrationByMonthDay.set(monthDay, [...names][0]);
+  }
+}
+
+export function stableLiturgicalCelebration(monthDay: string): string | null {
+  return stableCelebrationByMonthDay.get(monthDay) ?? null;
+}
 export { millisecondsUntilLocalMidnight } from './calendar-date';
 export const bannerColors:Record<LiturgicalColor,{swatch:string;label:string}> = {
   white:{swatch:'#fffdf7',label:'White'}, green:{swatch:'#236145',label:'Green'},

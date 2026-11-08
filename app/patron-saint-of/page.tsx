@@ -31,7 +31,8 @@ export default async function PatronIndexPage() {
       portrait: saint ? { name: saintDisplayName(saint), artwork: getSaintArtwork(saint), connection: first.connection } : null,
     };
   });
-  const topics = PATRON_TOPICS.map(topic => ({
+  const guideSlugs = new Set(PATRON_GUIDES.map(guide => guide.slug));
+  const topics = PATRON_TOPICS.filter(topic => !guideSlugs.has(topic.slug)).map(topic => ({
     slug: topic.slug, label: titleCaseLabel(topic.label),
     names: topic.saints.map(slug => { const saint = bySlug.get(slug); return saint ? saintDisplayName(saint) : slug.replaceAll("-", " "); }),
   })).sort((a, b) => a.label.localeCompare(b.label));

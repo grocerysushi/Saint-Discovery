@@ -225,6 +225,31 @@ test('every civil date in ordinary and leap years has a published, sourced daily
   }
 });
 
+test('principal U.S. celebrations stay visible when the featured biography is someone else', async () => {
+  const { getDailyExperience } = loadTs('lib/daily-experience.ts');
+  for (const [date, celebration, slug] of [
+    ['12-25', 'Christmas', 'anastasia'],
+    ['11-01', 'All Saints', 'austremonius-of-clermont'],
+    ['08-15', 'The Assumption of the Blessed Virgin Mary', 'stanislaus-kostka'],
+    ['01-01', 'Mary, Mother of God', 'odilo-of-cluny'],
+  ]) {
+    const daily = await getDailyExperience(date);
+    assert.equal(daily.liturgicalCelebration, celebration, date);
+    assert.equal(daily.featured.slug, slug, date);
+    assert.equal(daily.featuredIsAdditionalCommemoration, true, date);
+  }
+  const joseph = await getDailyExperience('03-19');
+  assert.equal(joseph.liturgicalCelebration, 'Saint Joseph Husband of the Blessed Virgin Mary');
+  assert.equal(joseph.featured.slug, 'joseph');
+  assert.equal(joseph.featuredIsAdditionalCommemoration, false);
+  const agnes = await getDailyExperience('01-21');
+  assert.equal(agnes.featured.slug, 'agnes');
+  assert.equal(agnes.featuredIsAdditionalCommemoration, false);
+  const pio = await getDailyExperience('09-23');
+  assert.equal(pio.liturgicalCelebration, 'Saint Pius of Pietrelcina, Priest');
+  assert.equal(pio.featuredIsAdditionalCommemoration, false);
+});
+
 test('additional commemorations preserve identity, main feast and date-specific explanations', async () => {
   const { getDailyExperience } = loadTs('lib/daily-experience.ts');
   const { getSaintBySlug } = loadTs('lib/saints.ts');
