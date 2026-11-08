@@ -270,6 +270,43 @@ test('additional commemorations preserve identity, main feast and date-specific 
   assert.equal((await getDailyExperience('10-02')).featured.slug, 'leodegar-of-autun');
 });
 
+test('today’s page does not paint the server clock as the visitor’s date', async () => {
+  const page = fs.readFileSync(path.join(root, 'app/saint-of-day/page.tsx'), 'utf8');
+  const experience = fs.readFileSync(path.join(root, 'components/DailyExperience.tsx'), 'utf8');
+  assert.doesNotMatch(page, /localDateKey/);
+  assert.match(page, /date \? await getDailyExperience\(date\) : null/);
+  assert.match(experience, /Today’s reading uses your local date/);
+  const { createRequire } = await import('node:module');
+  const nodeRequire = createRequire(import.meta.url);
+  const { NextRequest } = nodeRequire('next/server');
+  const cache = new Map();
+  function load(target) {
+    if (cache.has(target)) return cache.get(target);
+    if (target.endsWith('.json')) return JSON.parse(fs.readFileSync(target, 'utf8'));
+    const loaded = { exports: {} };
+    cache.set(target, loaded.exports);
+    const output = ts.transpileModule(fs.readFileSync(target, 'utf8'), {
+      compilerOptions: { module: ts.ModuleKind.CommonJS, esModuleInterop: true, target: ts.ScriptTarget.ES2022 },
+    }).outputText;
+    vm.runInNewContext(output, {
+      module: loaded, exports: loaded.exports, Date, URL, URLSearchParams, structuredClone, process: { env: {} },
+      require(specifier) {
+        if (specifier === 'next/server') return nodeRequire('next/server');
+        const resolved = specifier.startsWith('@/') ? path.join(root, specifier.slice(2)) : path.resolve(path.dirname(target), specifier);
+        return load(path.extname(resolved) ? resolved : `${resolved}.ts`);
+      },
+    }, { filename: target });
+    return loaded.exports;
+  }
+  const { GET } = load(path.join(root, 'app/api/saint-of-day/route.ts'));
+  assert.equal((await GET(new NextRequest('https://www.saintdiscoveryquiz.com/api/saint-of-day'))).status, 400);
+  const dated = await GET(new NextRequest('https://www.saintdiscoveryquiz.com/api/saint-of-day?date=12-25&experience=1'));
+  assert.equal(dated.status, 200);
+  const body = await dated.json();
+  assert.equal(body.experience.featured.slug, 'anastasia');
+  assert.equal(body.experience.liturgicalCelebration, 'Christmas');
+});
+
 test('generated entries point to bundled files and carry explicit disclosure', () => {
   const generated = JSON.parse(fs.readFileSync(path.join(root, 'lib/data/saint-generated-images.json'), 'utf8'));
   assert.ok(Object.keys(generated).length > 0);

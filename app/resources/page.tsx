@@ -151,7 +151,7 @@ export default async function Resources(props: Props) {
     "@type": "CollectionPage",
     name: "Catholic Saints Directory",
     description:
-      "A searchable directory of Catholic saints with biographies, feast days, and prayers.",
+      "A searchable directory of Catholic saints with biographies and feast days.",
     url: absoluteUrl(directoryUrl(filters, data.page)),
     isPartOf: {
       "@type": "WebSite",

@@ -39,6 +39,20 @@ test('sharing cards identify their own canonical page and retain an image', () =
   assert.ok(card.openGraph.images[0].url.endsWith('/opengraph-image'));
 });
 
+test('public pages do not promise a saint prayer the reviewed catalog does not have', () => {
+  const home = fs.readFileSync(new URL('../app/page.tsx', import.meta.url), 'utf8');
+  const result = fs.readFileSync(new URL('../components/Result.tsx', import.meta.url), 'utf8');
+  assert.doesNotMatch(home, /a prayer to take with you/);
+  assert.doesNotMatch(home, /the prayers/);
+  assert.match(home, /when a reviewed feast day is recorded/);
+  assert.match(home, /original prayer is on the daily page/);
+  assert.match(result, /\{saint\.prayer &&/);
+  for (const file of ['app/about/page.tsx', 'app/resources/page.tsx', 'app/patron-saint-of/[topic]/page.tsx']) {
+    const source = fs.readFileSync(new URL(`../${file}`, import.meta.url), 'utf8');
+    assert.doesNotMatch(source, /feast day, prayer|and prayers/);
+  }
+});
+
 test('search snippets name their subject and only promise available sections', () => {
   const { saintSearchSummary, saintDisplayName } = loadTs('lib/saint-seo.ts');
   const short = saintSearchSummary({ name: 'Joseph', slug: 'joseph', description: 'A life of faith.' });

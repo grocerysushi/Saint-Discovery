@@ -9,7 +9,7 @@ import { saintDisplayName } from "@/lib/saint-seo";
 import type { DailyExperienceData } from "@/lib/daily-experience";
 import DailyPause from "./DailyPause";
 
-export default function DailyExperience({ initial, followToday }: { initial: DailyExperienceData; followToday: boolean }) {
+export default function DailyExperience({ initial, followToday }: { initial: DailyExperienceData | null; followToday: boolean }) {
   const [daily, setDaily] = useState(initial);
   const [error, setError] = useState(false);
   useEffect(() => {
@@ -39,15 +39,27 @@ export default function DailyExperience({ initial, followToday }: { initial: Dai
     document.addEventListener("visibilitychange", visible);
     return () => { stopped = true; controller?.abort(); clearTimeout(timer); document.removeEventListener("visibilitychange", visible); };
   }, [followToday]);
-  return <>{error && <p role="status" className="daily-notice">Unable to refresh right now. Showing the available reflection for {daily.label}.</p>}<DailyContent key={daily.date} daily={daily} followToday={followToday} /></>;
+  return <>
+    {error && <p role="status" className="daily-notice">{daily ? <>Unable to refresh right now. Showing the available reflection for {daily.label}.</> : <>Unable to load today’s reading for your local date. Choose a day below.</>}</p>}
+    {daily ? <DailyContent key={daily.date} daily={daily} followToday={followToday} /> : <DailyPending />}
+  </>;
+}
+
+function DailyPending() {
+  return <>
+    <header className="daily-page-heading"><div><h1>Saint of the Day</h1><p>A few quiet minutes. Read, reflect, pray, then carry one good thing into your day.</p></div></header>
+    <p role="status" className="daily-notice">Today’s reading uses your local date. It will appear in a moment.</p>
+    <noscript><p className="daily-notice">Choose a day below. This page does not guess today’s saint from the server clock.</p></noscript>
+    <DateBrowser date={null} followToday />
+    <CalendarContext />
+    <div className="daily-liturgical-banner"><LiturgicalBanner /></div>
+  </>;
 }
 
 function DailyContent({ daily, followToday }: { daily: DailyExperienceData; followToday: boolean }) {
   const [imageFailed, setImageFailed] = useState(false);
   const [month, day] = daily.date.split("-").map(Number);
   const date = new Date(2024, month - 1, day);
-  const previous = localDateKey(new Date(2024, month - 1, day - 1));
-  const next = localDateKey(new Date(2024, month - 1, day + 1));
   const saint = daily.featured;
   const image = saint?.image;
   const name = saint ? saintDisplayName(saint) : null;
@@ -71,18 +83,29 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
         {saint ? <>{daily.biography.map((paragraph, index) => <p key={index}>{paragraph}</p>)}<p className="daily-calendar-note">{daily.feastNote}</p>{saint.kind === "orthodox-saint" && <p className="daily-calendar-note">This figure is venerated in Orthodox Christianity.</p>}<Link prefetch={false} href={`/saints/${saint.slug}`} className="text-link">Explore the biography &amp; sources <span aria-hidden>↗</span></Link></> : <><p>Our reviewed directory does not yet include an entry for {daily.label}. This is a gap in our coverage, not a claim that no saints are commemorated today.</p><p>You can still take a few minutes for the reflection below, or choose a life from the directory.</p><Link prefetch={false} href="/resources" className="btn-secondary">Find a biography to read ↗</Link></>}
       </div>
     </DailyPause>
-    <details className="daily-date-browser"><summary>Choose another day</summary>
-    <nav className="daily-date-nav" aria-label="Browse daily reflections">
-      <Link prefetch={false} href={`/saint-of-day?date=${previous}`} aria-label={`Previous day, ${new Date(2024, month - 1, day - 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>← Previous</Link>
-      <Link prefetch={false} href="/saint-of-day" aria-current={followToday ? "page" : undefined}>Today</Link>
-      <form action="/saint-of-day" className="daily-date-form"><label htmlFor="daily-date">Choose a day</label><select name="date" id="daily-date" defaultValue={daily.date} aria-label="Choose a day in the annual feast-day calendar">{Array.from({ length: 366 }, (_, index) => { const choice = new Date(2024, 0, index + 1); const key = localDateKey(choice); return <option key={key} value={key}>{choice.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</option>; })}</select><button type="submit">Go</button></form>
-      <Link prefetch={false} href={`/saint-of-day?date=${next}`} aria-label={`Next day, ${new Date(2024, month - 1, day + 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>Next →</Link>
-    </nav>
-    </details>
-    <p className="daily-calendar-context">When several saints share a date, this guide first favors saints on the <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar" target="_blank" rel="noopener noreferrer">USCCB’s U.S. calendar</a>, then other documented Catholic commemorations. If that celebration has the same name in every reviewed year, it is shown above the reading. Dates can vary by place and tradition. This is a discovery guide, not the official liturgical calendar for your parish. The date browser includes February 29 for leap years.</p>
+    <DateBrowser date={daily.date} followToday={followToday} />
+    <CalendarContext />
     {followToday && <div className="daily-liturgical-banner"><LiturgicalBanner /></div>}
     {daily.alsoToday.length > 0 && <section className="daily-more" aria-labelledby="also-today"><p className="eyebrow">More lives to explore</p><h2 id="also-today">Also remembered on {date.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</h2><div>{daily.alsoToday.map(other => <Link prefetch={false} key={other.slug} href={`/saints/${other.slug}`}>{other.name}<span aria-hidden>↗</span></Link>)}</div></section>}
     {daily.sources.length > 0 && <details className="daily-sources"><summary>Sources for today’s biography</summary><ul>{daily.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul></details>}
     <section className="daily-return"><p className="eyebrow">Let this become a small habit</p><h2>There is another story tomorrow.</h2><p>Bookmark this daily page to return. Or keep exploring a saint whose life speaks to yours.</p><div><Link prefetch={false} href="/confirmation-saint-guide" className="btn-secondary">Choose a Confirmation saint ↗</Link><Link href="/quiz" prefetch={false} className="text-link">Find your saint match ↗</Link></div></section>
   </>;
+}
+
+function CalendarContext() {
+  return <p className="daily-calendar-context">When several saints share a date, this guide first favors saints on the <a href="https://www.usccb.org/committees/divine-worship/liturgical-calendar" target="_blank" rel="noopener noreferrer">USCCB’s U.S. calendar</a>, then other documented Catholic commemorations. If that celebration has the same name in every reviewed year, it is shown above the reading. Dates can vary by place and tradition. This is a discovery guide, not the official liturgical calendar for your parish. The date browser includes February 29 for leap years.</p>;
+}
+
+function DateBrowser({ date, followToday }: { date: string | null; followToday: boolean }) {
+  const [month, day] = date?.split("-").map(Number) ?? [];
+  const previous = date ? localDateKey(new Date(2024, month - 1, day - 1)) : null;
+  const next = date ? localDateKey(new Date(2024, month - 1, day + 1)) : null;
+  return <details className="daily-date-browser" open={date ? undefined : true}><summary>{date ? "Choose another day" : "Choose a day"}</summary>
+    <nav className="daily-date-nav" aria-label="Browse daily reflections">
+      {previous && <Link prefetch={false} href={`/saint-of-day?date=${previous}`} aria-label={`Previous day, ${new Date(2024, month - 1, day - 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>← Previous</Link>}
+      <Link prefetch={false} href="/saint-of-day" aria-current={followToday ? "page" : undefined}>Today</Link>
+      <form action="/saint-of-day" className="daily-date-form"><label htmlFor="daily-date">Choose a day</label><select name="date" id="daily-date" defaultValue={date ?? ""} aria-label="Choose a day in the annual feast-day calendar" required>{!date && <option value="">Choose a day</option>}{Array.from({ length: 366 }, (_, index) => { const choice = new Date(2024, 0, index + 1); const key = localDateKey(choice); return <option key={key} value={key}>{choice.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</option>; })}</select><button type="submit">Go</button></form>
+      {next && <Link prefetch={false} href={`/saint-of-day?date=${next}`} aria-label={`Next day, ${new Date(2024, month - 1, day + 1).toLocaleDateString("en-US", { month: "long", day: "numeric" })}`}>Next →</Link>}
+    </nav>
+  </details>;
 }

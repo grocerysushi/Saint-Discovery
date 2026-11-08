@@ -11,7 +11,7 @@ import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
   description:
-    "Take the free Catholic saint personality quiz to discover a saint whose virtues connect with your answers. Explore their biography, feast day, and prayer.",
+    "Take the free Catholic saint personality quiz to discover a saint whose virtues connect with your answers. Your result includes their story and a reviewed feast day when one is recorded.",
   keywords: [
     "which catholic saint are you",
     "which catholic saint are you quiz",
@@ -59,7 +59,7 @@ const FAQS = [
   },
   {
     q: "Is the saint quiz free?",
-    a: "Yes. The quiz, every saint biography, the prayers, and the directory are all free. There is no sign-up required to take the quiz or read your result.",
+    a: "Yes. The quiz, every saint biography, and the directory are free. The daily page also includes an original reflection and prayer. There is no sign-up required to take the quiz or read your result.",
   },
   {
     q: "Who can I discover in the saint directory?",
@@ -118,7 +118,7 @@ export default async function Home() {
           <div><h2>Different lives.<br />A shared faith.</h2></div>
           <div className="editorial-copy">
             <p>The saints had their own personalities, struggles, and gifts. Some found God in quiet contemplation. Others lived their faith through bold action, boundless generosity, or everyday joy.</p>
-            <p>Our free Catholic personality quiz explores six spiritual traits to introduce you to a saint whose life reflects your own. Your result includes their story, feast day, and a prayer to take with you.</p>
+            <p>Our free Catholic personality quiz explores six spiritual traits to introduce you to a saint whose life reflects your own. Your result includes their story and, when a reviewed feast day is recorded, that date. A short original prayer is on the daily page.</p>
             <Link prefetch={false} href="/about" className="text-link text-gold">The story behind Saint Discovery <span aria-hidden>↗</span></Link>
           </div>
         </section>
@@ -127,7 +127,7 @@ export default async function Home() {
         <section className="home-about editorial-grid" aria-labelledby="explore-saints">
           <div><h2 id="explore-saints">Begin with a familiar name.</h2></div>
           <div className="editorial-copy">
-            <p>Learn about a saint’s life, discover their patronage, and find a prayer for your own journey.</p>
+            <p>Learn about a saint’s life and discover their patronage. For a short original prayer, visit the daily page.</p>
             <ul className="grid sm:grid-cols-2 gap-4 my-6">
               {[
                 ["francis-of-assisi", "St. Francis of Assisi"],

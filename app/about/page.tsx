@@ -6,7 +6,7 @@ import { getAllSaints } from "@/lib/saints";
 export const metadata: Metadata = {
   title: "About Saint Discovery",
   description:
-    "Learn about Saint Discovery, a free Catholic saint quiz and source-linked directory of saint biographies, feast days, patronages, and prayers.",
+    "Learn about Saint Discovery, a free Catholic saint quiz and source-linked directory of saint biographies, feast days, and patronages.",
   alternates: { canonical: "/about" },
   ...socialMetadata("About Saint Discovery", "A free Catholic saint quiz, source-linked biographies, and practical resources for exploring your faith.", "/about"),
 };

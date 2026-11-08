@@ -43,7 +43,7 @@ export async function generateMetadata({
   const title = topicTitle(topic);
   const description =
     saints.length === 1
-      ? `Explore ${names[0]} and the patronage of ${topic.label}. Read the biography, feast day, prayer, and linked sources.`
+      ? `Explore ${names[0]} and the patronage of ${topic.label}. Read the biography, the feast day when one is recorded, and the linked sources.`
       : `Explore ${names.join(", ")}${saints.length > 3 ? ` and ${saints.length - 3} more` : ""} as patrons of ${topic.label}. Read biographies, feast days, and linked sources.`;
 
   return {
