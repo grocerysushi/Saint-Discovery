@@ -13,7 +13,7 @@ esac
 cd "$root"
 # Refuse to start the launcher if the reviewed network policy changed.
 digest=$(/usr/bin/env -i PATH=/usr/bin:/bin /usr/bin/shasum -a 256 .codex/config.toml)
-[ "${digest%% *}" = "bd5c80cd688e2a694b579b415352ce1a5fec45799e75a2f893e848e6b321b443" ] || { echo 'Project policy changed; re-review it first.' >&2; exit 78; }
+[ "${digest%% *}" = "b5b16ca9e8eefda00680121c5e328d150f554614808dc5159aa6e4929517183d" ] || { echo 'Project policy changed; re-review it first.' >&2; exit 78; }
 exec /usr/bin/env -i HOME=/Users/kenne USER=kenne LOGNAME=kenne \
   PATH="$nodebin:/usr/bin:/bin:/usr/sbin:/sbin" NODE_USE_ENV_PROXY=1 \
   "$codex" sandbox --permission-profile saint-discovery --cd "$root" --include-managed-config \

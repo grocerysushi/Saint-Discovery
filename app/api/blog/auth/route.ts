@@ -1,6 +1,6 @@
 import { createAuthActions, refreshAuth } from "@insforge/sdk/ssr";
 import { NextRequest } from "next/server";
-import { AUTH_COOKIE_SETTINGS, BLOG_ADMIN_EMAIL, blogConfig, blogResponse, requireBlogEditor, sameOrigin } from "@/lib/blog-server";
+import { AUTH_COOKIE_SETTINGS, blogConfig, blogResponse, requireBlogEditor, sameOrigin } from "@/lib/blog-server";
 export async function GET() {
   try { return blogResponse({ authenticated: !!(await requireBlogEditor()) }); }
   catch { return blogResponse({ error: "Blog sign-in is not configured on this server." }, 503); }
@@ -19,7 +19,7 @@ export async function POST(request: NextRequest) {
       const origin = request.headers.get("origin")!;
       const { data, error } = await auth.signInWithOAuth("google", {
         redirectTo: `${origin}/api/blog/auth/callback`, skipBrowserRedirect: true,
-        additionalParams: { prompt: "select_account", login_hint: BLOG_ADMIN_EMAIL },
+        additionalParams: { prompt: "select_account" },
       });
       if (error || !data?.url || !data.codeVerifier) return blogResponse({ error: "Google sign-in could not be started. Please try again." }, 503);
       const redirectResponse = blogResponse({ url: data.url });

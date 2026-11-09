@@ -4,7 +4,6 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 export { sameOrigin } from "./request-origin";
 
-export const BLOG_ADMIN_EMAIL = "hello@saintdiscoveryquiz.com";
 export function blogConfig() {
   const baseUrl = process.env.INSFORGE_BLOG_URL;
   const anonKey = process.env.INSFORGE_BLOG_ANON_KEY;

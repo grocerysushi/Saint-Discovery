@@ -1,5 +1,6 @@
 # Project-local shell networking: route Node and other proxy-aware clients
-# through the Codex sandbox proxy, which allows only the linked backend.
+# through the Codex sandbox proxy, which allows only the linked backend and the
+# reviewed source hosts in the publisher's link check (HOSTS in daily-blog-runtime.mjs).
 default_permissions = "saint-discovery"
 
 [features]
@@ -13,6 +14,27 @@ enabled = true
 
 [permissions.saint-discovery.network.domains]
 "f6zwvi29.us-east.insforge.app" = "allow"
+"saintdiscoveryquiz.com" = "allow"
+"www.saintdiscoveryquiz.com" = "allow"
+"www.vatican.va" = "allow"
+"vatican.va" = "allow"
+"www.usccb.org" = "allow"
+"usccb.org" = "allow"
+"bible.usccb.org" = "allow"
+"www.newadvent.org" = "allow"
+"newadvent.org" = "allow"
+"www.franciscanmedia.org" = "allow"
+"franciscanmedia.org" = "allow"
+"commons.wikimedia.org" = "allow"
+"upload.wikimedia.org" = "allow"
+"www.metmuseum.org" = "allow"
+"metmuseum.org" = "allow"
+"www.nga.gov" = "allow"
+"nga.gov" = "allow"
+"www.artic.edu" = "allow"
+"artic.edu" = "allow"
+"creativecommons.org" = "allow"
+"www.creativecommons.org" = "allow"
 
 [shell_environment_policy.set]
 NODE_USE_ENV_PROXY = "1"
