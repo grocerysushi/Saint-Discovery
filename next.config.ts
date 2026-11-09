@@ -48,7 +48,7 @@ const CSP = [
   "form-action 'self'",
   `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === "production" ? "" : " 'unsafe-eval'"} https://www.googletagmanager.com https://www.google-analytics.com https://translate.google.com https://translate.googleapis.com https://*.gstatic.com`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
+  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://cdn.insforge.dev https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
   "font-src 'self' data:",
   "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com",
   ...(process.env.NODE_ENV === "production" ? ["upgrade-insecure-requests"] : []),
