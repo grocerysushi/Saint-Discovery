@@ -19,7 +19,6 @@ function headerAt(pathname){
   vm.runInNewContext(code,{module:loadedModule,exports:loadedModule.exports,URL,URLSearchParams,require(name){
    if(name==='react')return React;
    if(name==='react/jsx-runtime')return jsx;
-   if(name==='posthog-js')return {};
    if(name==='next/navigation')return {usePathname:()=>pathname};
    if(name==='next/link')return {__esModule:true,default:({children,...props})=>{delete props.prefetch;return React.createElement('a',props,children);}};
    const target=name.startsWith('@/')?path.join(root,name.slice(2)):path.resolve(path.dirname(file),name);

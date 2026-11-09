@@ -24,7 +24,7 @@ export default function PrivacyChoices() {
     <button type="button" className="text-link" onClick={open}>Privacy &amp; cookie choices</button>
     <dialog ref={dialog} className="privacy-settings-dialog" aria-labelledby="privacy-choices-title">
       <h2 id="privacy-choices-title">Your privacy choices</h2>
-      <p>Google Analytics and PostHog run automatically on our public site to measure visits and quiz activity. Google Analytics uses cookies; PostHog keeps its identifier in page memory. Advertising, Google Signals and session replay are off.</p>
+      <p>Google Analytics runs automatically on our public site to measure visits and quiz activity. It uses cookies. Advertising and Google Signals are off.</p>
       <p role="status">{classroom ? "Classroom mode is on. Analytics and email forms are off." : enabled ? "Analytics is enabled in your browser preferences." : "Analytics is off in your browser preferences."}</p>
       <p>You can turn analytics off here. We also respect Do Not Track, Global Privacy Control and previous explicit analytics refusals. Local previews and admin pages are never tracked.</p>
       <div className="privacy-settings-actions">

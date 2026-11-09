@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "November 2, 2026";
+const EFFECTIVE_DATE = "November 8, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
           </p>
           <p>
             <strong className="text-cream">Usage analytics.</strong> We use
-            Google Analytics and PostHog automatically on our public production site to understand how visitors use the
+            Google Analytics automatically on our public production site to understand how visitors use the
             site — pages viewed, quiz starts and completions, which saints
             people look up, and general location and device information. These
             reports are used in aggregate, but analytics can use browser
@@ -92,7 +92,6 @@ export default function PrivacyPage() {
             There is no initial opt-in popup. You can open settings from the footer at any time.
             Administrator pages, local development and preview sites do not load Analytics.
           </p>
-          <p>PostHog receives page views, the explicit usage events described above, and generic public-page error reports. Its identifier is kept in memory for the current page lifetime rather than saved in a cookie or browser storage. Session replay, automatic click and form capture, and person profiles are disabled. We remove non-campaign query parameters from PostHog page and referrer URLs. PostHog follows the same browser privacy choices and classroom exclusions as Google Analytics.</p>
         </Section>
 
         <Section title="How we use your information">
@@ -118,7 +117,6 @@ export default function PrivacyPage() {
             Saint Discovery. Each receives only what it needs to do its job:
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li><strong className="text-cream">PostHog</strong> — public-site usage measurement and generic error reporting, subject to the exclusions above. See <a href="https://posthog.com/privacy" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light underline">PostHog’s privacy policy</a>.</li>
             <li>
               <strong className="text-cream">Vercel</strong> — hosts the
               website and processes requests (including IP addresses, as any

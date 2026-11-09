@@ -14,7 +14,6 @@ function load(file, dependencies = {}, globals = {}) {
   vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, URL, Date, Buffer, console,
     process: { env: { NODE_ENV: 'production' } }, require(name) {
       if (name === './visitor-privacy') return load('lib/visitor-privacy.ts', {}, globals);
-      if (name === './posthog-client') return dependencies[name] ?? { capturePostHog: () => false };
       if (!(name in dependencies)) throw new Error(`Unexpected dependency ${name}`);
       return dependencies[name];
     }, ...globals });
