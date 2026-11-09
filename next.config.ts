@@ -50,7 +50,7 @@ const CSP = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
   "font-src 'self' data:",
-  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://us.i.posthog.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com",
+  "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://us.i.posthog.com https://t.saintdiscoveryquiz.com https://f6zwvi29.us-east.insforge.app https://translate.googleapis.com",
   ...(process.env.NODE_ENV === "production" ? ["upgrade-insecure-requests"] : []),
 ].join("; ");
 

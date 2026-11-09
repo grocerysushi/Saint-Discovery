@@ -1,0 +1,7 @@
+# Only the protected launcher may start the local Codex proxy. It never executes
+# a project command outside the named sandbox. No shell/Node/CLI prefix grant.
+prefix_rule(
+    pattern = ["/Users/kenne/Saint-Discovery/.codex/scheduled-project-node"],
+    decision = "allow",
+    justification = "Start the Saint Discovery one-host Codex sandbox for its guarded daily scripts.",
+)

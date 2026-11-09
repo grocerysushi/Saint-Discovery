@@ -1,0 +1,18 @@
+# Project-local shell networking: route Node and other proxy-aware clients
+# through the Codex sandbox proxy, which allows only the linked backend.
+default_permissions = "saint-discovery"
+
+[features]
+network_proxy = true
+
+[permissions.saint-discovery]
+extends = ":workspace"
+
+[permissions.saint-discovery.network]
+enabled = true
+
+[permissions.saint-discovery.network.domains]
+"f6zwvi29.us-east.insforge.app" = "allow"
+
+[shell_environment_policy.set]
+NODE_USE_ENV_PROXY = "1"

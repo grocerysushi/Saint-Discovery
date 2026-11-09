@@ -1,0 +1,23 @@
+{
+  "status": "blocked-before-artwork-download",
+  "recordedAt": "2026-11-08 23:58:06 UTC",
+  "date": "2026-11-08",
+  "timeZone": "America/Chicago",
+  "proposedTopic": "Why Is Saint Cecilia the Patron Saint of Music?",
+  "readiness": "read-only-preflight-passed",
+  "catalogRows": 224,
+  "postCount": 114,
+  "publishedCount": 110,
+  "existingPublicationForToday": false,
+  "catalogScope": "All draft and published titles/slugs including trashed records",
+  "catalogReview": "Read all distinct title/slug pairs. No Cecilia or musical-patronage article identified. Independent semantic editorial review has not occurred.",
+  "blocker": "curl: (6) Could not resolve host: upload.wikimedia.org",
+  "failedOperation": "Download the licensed/public-domain original artwork for local visual inspection and optimization.",
+  "artworkOriginalSaved": false,
+  "articleDrafted": false,
+  "artworkUploaded": false,
+  "publicationAttempted": false,
+  "independentEditorialReview": false,
+  "liveVerification": false,
+  "recovery": "Stopped without retry, escalation, proxy bypass, or domain-policy changes. No publication or upload attempt. Do not backfill this date after its Chicago publishing window."
+}

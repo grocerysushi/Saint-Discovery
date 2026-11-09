@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
+import { cli, assertProject } from './blog-project-guard.mjs';
 import { processArtwork, PUBLIC_BASE, digest, widthsFor } from '../lib/blog-image-processing.mjs';
 
 export { PUBLIC_BASE, digest, widthsFor };
@@ -27,15 +28,17 @@ export async function verifyVariant(variant) {
 }
 
 export async function uploadArtwork(artwork, cliRoot) {
-  const cli = path.join(cliRoot, 'node_modules/@insforge/cli/dist/index.js');
-  const buckets = spawnSync(process.execPath, [cli, 'storage', 'buckets', '--json'], { cwd: cliRoot, encoding: 'utf8', windowsHide: true });
+  assertProject(cli(['current'], cliRoot));
+  const cliPath = path.join(cliRoot, 'node_modules/@insforge/cli/dist/index.js');
+  const buckets = spawnSync(process.execPath, [cliPath, 'storage', 'buckets', '--json'], { cwd: cliRoot, encoding: 'utf8', windowsHide: true });
   if (buckets.status !== 0) throw new Error('Unable to check the linked storage bucket. No upload attempted.');
   const list = JSON.parse(buckets.stdout);
   if (!Array.isArray(list) || !list.some(b => b.name === 'blog-images' && b.public === true)) throw new Error('The approved public blog-images bucket is unavailable. Do not create/change buckets automatically.');
   for (const variant of artwork.variants) {
     const existing = await fetch(variant.url, { method: 'HEAD', signal: AbortSignal.timeout(30000) });
     if (existing.status === 404) {
-      const result = spawnSync(process.execPath, [cli, 'storage', 'upload', variant.file, '--bucket', 'blog-images', '--key', variant.key, '--content-type', 'image/webp', '--json'], { cwd: cliRoot, encoding: 'utf8', windowsHide: true });
+      assertProject(cli(['current'], cliRoot));
+      const result = spawnSync(process.execPath, [cliPath, 'storage', 'upload', variant.file, '--bucket', 'blog-images', '--key', variant.key, '--content-type', 'image/webp', '--json'], { cwd: cliRoot, encoding: 'utf8', windowsHide: true });
       if (result.status !== 0) throw new Error(`Image upload failed: ${variant.key}. Reconcile storage before retrying.`);
       const uploaded = JSON.parse(result.stdout);
       if (uploaded.key !== variant.key || typeof uploaded.url !== 'string') throw new Error('Unexpected upload result. Reconcile storage before retrying.');

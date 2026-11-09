@@ -1,0 +1,20 @@
+#!/bin/sh -p
+# The local Codex rule trusts only this launcher, outside the project sandbox.
+# All repository code, including Node startup, runs INSIDE the named sandbox.
+set -eu
+umask 077
+root=/Users/kenne/Saint-Discovery
+nodebin=/Users/kenne/.npm/_npx/361c55be1121897e/node_modules/node/bin
+codex=/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex
+case "${1-}" in
+  scripts/check-daily-blog-readiness.mjs|scripts/check-daily-blog-status.mjs|scripts/prepare-daily-blog.mjs|scripts/optimize-blog-cover.mjs|scripts/publish-optimized-blog.mjs) ;;
+  *) echo 'Expected a guarded daily workflow script path.' >&2; exit 64 ;;
+esac
+cd "$root"
+# Refuse to start the launcher if the reviewed network policy changed.
+digest=$(/usr/bin/env -i PATH=/usr/bin:/bin /usr/bin/shasum -a 256 .codex/config.toml)
+[ "${digest%% *}" = "bd5c80cd688e2a694b579b415352ce1a5fec45799e75a2f893e848e6b321b443" ] || { echo 'Project policy changed; re-review it first.' >&2; exit 78; }
+exec /usr/bin/env -i HOME=/Users/kenne USER=kenne LOGNAME=kenne \
+  PATH="$nodebin:/usr/bin:/bin:/usr/sbin:/sbin" NODE_USE_ENV_PROXY=1 \
+  "$codex" sandbox --permission-profile saint-discovery --cd "$root" --include-managed-config \
+  -- "$nodebin/node" --require "$root/.codex/require-scheduled-proxy.cjs" -- "$@"
