@@ -12877,24 +12877,6 @@
       ]
     ]
   },
-  "https://upload.wikimedia.org/wikipedia/commons/3/37/George_Frederick_Watts_-_Hope_-_B2011.32_-_Yale_Center_for_British_Art.jpg": {
-    "width": 960,
-    "height": 1196,
-    "variants": [
-      [
-        384,
-        "/images/responsive/cc261407c7289e71b279-384.webp"
-      ],
-      [
-        768,
-        "/images/responsive/cc261407c7289e71b279-768.webp"
-      ],
-      [
-        960,
-        "/images/responsive/cc261407c7289e71b279-960.webp"
-      ]
-    ]
-  },
   "https://upload.wikimedia.org/wikipedia/commons/3/3a/EducacionVirgenVelazquez.jpg": {
     "width": 960,
     "height": 1179,
@@ -13632,6 +13614,20 @@
       [
         960,
         "/images/responsive/8e023b87f6b03595237f-960.webp"
+      ]
+    ]
+  },
+  "https://upload.wikimedia.org/wikipedia/commons/d/da/Photograph_of_Saint_Josephine_Bakhita_%28c._1910%29.jpg": {
+    "width": 546,
+    "height": 546,
+    "variants": [
+      [
+        384,
+        "/images/responsive/81c8f819db6c5a3e1cd2-384.webp"
+      ],
+      [
+        546,
+        "/images/responsive/81c8f819db6c5a3e1cd2-546.webp"
       ]
     ]
   },

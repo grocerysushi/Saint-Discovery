@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "format": "jpeg",
+  "originalSha256": "97bf2b5dadc8029c2b3c09221ce9d828fe2b0de122ecbc872973b6f5f80c901b",
+  "originalBytes": 23013,
+  "width": 546,
+  "height": 546,
+  "variants": [
+    {
+      "key": "v1-ca807dfdec40fa8365df21c9234f2d97-546x546-384.webp",
+      "width": 384,
+      "height": 384,
+      "bytes": 10180,
+      "sha256": "f18364097fed20837ab2768882edc74b566290c7de7820addb4c6c9d5464a7d9",
+      "url": "https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-384.webp",
+      "file": "/Users/kenne/Saint-Discovery/research/blog-image-replacements/2026-11-09-bakhita/images/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-384.webp",
+      "storage": {
+        "key": "v1-ca807dfdec40fa8365df21c9234f2d97-546x546-384.webp",
+        "url": "https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-384.webp?v=c27923306c0c9174d8f11f597c9a98c2"
+      },
+      "verification": {
+        "status": 200,
+        "bytes": 10180,
+        "verifiedAt": "2026-11-09T15:06:11.190Z"
+      }
+    },
+    {
+      "key": "v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp",
+      "width": 546,
+      "height": 546,
+      "bytes": 16400,
+      "sha256": "5f4e4c50624f21a706263178b4803962bfff0d5454a7998d4b80c4a9a0a19071",
+      "url": "https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp",
+      "file": "/Users/kenne/Saint-Discovery/research/blog-image-replacements/2026-11-09-bakhita/images/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp",
+      "storage": {
+        "key": "v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp",
+        "url": "https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp?v=d6d57292b6d23cd754c5e4c92436a9fe"
+      },
+      "verification": {
+        "status": 200,
+        "bytes": 16400,
+        "verifiedAt": "2026-11-09T15:06:12.243Z"
+      }
+    }
+  ],
+  "originalFile": "/Users/kenne/Saint-Discovery/research/blog-image-replacements/2026-11-09-bakhita/images/original.jpeg",
+  "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Photograph_of_Saint_Josephine_Bakhita_%28c._1910%29.jpg",
+  "sourceCredit": "Photograph of Saint Josephine Bakhita, c. 1910, photographer unknown · Listed as CC0 on Wikimedia Commons.",
+  "sourceAlt": "Black-and-white photograph of Saint Josephine Bakhita in profile, wearing her Canossian habit and bonnet, her hands joined in prayer before a crucifix",
+  "sourceMetadataHash": "6b4ec808ccdb0361f7b4cbbd62e89d44e4d2a28433904578ff7f64892447a55e",
+  "status": "uploaded-verified",
+  "reviewedInput": "/Users/kenne/Saint-Discovery/research/blog-image-replacements/2026-11-09-bakhita/cover-original.jpg",
+  "optimizedMetadataHash": "9e45f46c2e9345444f067ca017999e8a89add9dea8455570c68a53dc8d4c4b95",
+  "cover": "https://f6zwvi29.us-east.insforge.app/api/storage/buckets/blog-images/objects/v1-ca807dfdec40fa8365df21c9234f2d97-546x546-546.webp"
+}
