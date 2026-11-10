@@ -19,6 +19,7 @@ import { getSaintArtwork } from "@/lib/saint-artwork";
 import SaintArtworkFigure from "@/components/SaintArtwork";
 import SaintReaderQuestions from "@/components/SaintReaderQuestions";
 import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
+import { Button } from "@/components/ui/button";
 import "@/components/biography-edition.css";
 
 // Legacy generated copy is replaced as each external-source review is completed.
@@ -211,7 +212,14 @@ export default async function SaintPage({
                 &ldquo;{saint.tagline}&rdquo;
               </p>
             )}
-            {biographyText && <div className="biography-start"><a href="#biography" className="btn-primary">Read the life story <span aria-hidden="true">↓</span></a><span>About {readingMinutes} min · biography</span></div>}
+            {biographyText && (
+              <div className="biography-start">
+                <Button asChild variant="gold" size="cta">
+                  <a href="#biography">Read the life story <span aria-hidden="true">↓</span></a>
+                </Button>
+                <span>About {readingMinutes} min · biography</span>
+              </div>
+            )}
             <details className="biography-facts">
             <summary>Dates, patronage &amp; background</summary>
             <dl className="text-sm space-y-1.5">
@@ -338,7 +346,12 @@ export default async function SaintPage({
 
           <BiographyArticles saint={saint} />
 
-          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5"><Link prefetch={false} href="/confirmation-saint-guide" className="btn-secondary">Explore your Confirmation choice →</Link><Link prefetch={false} href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link></div></section>}
+          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5">
+            <Button asChild variant="quiet" size="cta">
+              <Link prefetch={false} href="/confirmation-saint-guide">Explore your Confirmation choice →</Link>
+            </Button>
+            <Link prefetch={false} href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link>
+          </div></section>}
           {saint.quotes && saint.quotes.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">

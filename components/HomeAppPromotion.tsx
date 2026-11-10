@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 import "./home-app-promotion.css";
 
 export const APP_STORE_URL = "https://apps.apple.com/us/app/saint-discovery/id6828221648";
@@ -18,7 +19,12 @@ export default function HomeAppPromotion() {
           <li>Explore biographies and patron-saint guides</li>
           <li>Return for a daily moment of reflection</li>
         </ul>
-        <a href={APP_STORE_URL} className="home-app-download" aria-label="View Saint Discovery on the App Store">View on the App Store <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M6 18 18 6M6 6h12v12" /></svg></a>
+        <Button asChild variant="gold" size="cta" className="home-app-download">
+          <a href={APP_STORE_URL} aria-label="View Saint Discovery on the App Store">
+            View on the App Store{" "}
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" className="size-[21px]" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M6 18 18 6M6 6h12v12" /></svg>
+          </a>
+        </Button>
         <p className="home-app-requirements">Free for iPhone · iOS 17+ · Ages 18+</p>
         <p className="home-app-no-account">No account needed. You can also keep using the web quiz.</p>
       </div>

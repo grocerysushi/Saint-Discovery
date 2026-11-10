@@ -2,6 +2,8 @@
 
 import { useRef, useState } from "react";
 import Link from "next/link";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import SaintArtworkFigure from "@/components/SaintArtwork";
 import type { SaintArtwork } from "@/lib/saint-artwork";
 import { patronSearchMatch, PATRON_SEARCH_TERMS } from "@/lib/patron-finder";
@@ -25,10 +27,20 @@ export default function PatronFinder({ guides, topics }: { guides: FinderGuide[]
 
   return <div className="patron-finder">
     <div className="patron-search-box">
-      <label htmlFor="patron-search">Find a guide or patronage</label>
+      <Label htmlFor="patron-search" className="leading-[inherit]">Find a guide or patronage</Label>
       <div className="patron-search-input">
         <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
-        <input id="patron-search" ref={input} type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Try students, grief or Joseph" aria-describedby="patron-search-help" autoComplete="off" />
+        <Input
+          id="patron-search"
+          ref={input}
+          type="search"
+          value={query}
+          onChange={event => setQuery(event.target.value)}
+          placeholder="Try students, grief or Joseph"
+          aria-describedby="patron-search-help"
+          autoComplete="off"
+          className="h-auto"
+        />
         {hasQuery && <button type="button" onClick={clear}>Clear</button>}
       </div>
       <p id="patron-search-help">Search a concern, occupation, place or saint’s name.</p>

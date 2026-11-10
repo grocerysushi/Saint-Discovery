@@ -9,6 +9,8 @@ import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 const require = createRequire(import.meta.url);
 const root = path.resolve(import.meta.dirname, '..');
+// shadcn/ui components (components/ui/*.tsx) are TSX modules; other app modules are TS.
+const withExtension = file => fs.existsSync(path.join(root, `${file}.ts`)) ? `${file}.ts` : `${file}.tsx`;
 function load(file) {
   const loaded = { exports: {} };
   const code = ts.transpileModule(fs.readFileSync(path.join(root, file), 'utf8'), {
@@ -17,8 +19,8 @@ function load(file) {
   vm.runInNewContext(code, { module: loaded, exports: loaded.exports, URL, URLSearchParams, structuredClone, process: { env: {} }, require(specifier) {
     if (specifier === 'next/link') return function TestLink(props) { const clean = {...props}; delete clean.prefetch; return React.createElement('a', clean); };
     if (specifier === '@/components/StaticImage') return function TestImage(props) { const clean = {...props}; delete clean.fill; return React.createElement('img', clean); };
-    if (specifier.startsWith('@/')) return load(specifier.slice(2)+'.ts');
-    if (specifier.startsWith('.')) return load(path.join(path.dirname(file), specifier)+'.ts');
+    if (specifier.startsWith('@/')) return load(withExtension(specifier.slice(2)));
+    if (specifier.startsWith('.')) return load(withExtension(path.join(path.dirname(file), specifier)));
     return require(specifier);
   }});
   return loaded.exports;

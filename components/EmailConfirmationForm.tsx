@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
+import { Button } from "@/components/ui/button";
 
 export default function EmailConfirmationForm({ token, retry = false }: { token: string; retry?: boolean }) {
   const [pending, setPending] = useState(false);
@@ -18,7 +19,15 @@ export default function EmailConfirmationForm({ token, retry = false }: { token:
     track(retry ? "email_result_resend" : "email_confirmation_submit");
   }}>
     <input type="hidden" name="token" value={token} />
-    <button type="submit" disabled={pending} className="btn-primary disabled:opacity-60 disabled:cursor-not-allowed">{pending ? "Please wait…" : retry ? "Try sending my result again" : "Confirm & send my novena"}</button>
+    <Button
+      type="submit"
+      variant="gold"
+      size="cta"
+      disabled={pending}
+      className="disabled:opacity-60 disabled:cursor-not-allowed"
+    >
+      {pending ? "Please wait…" : retry ? "Try sending my result again" : "Confirm & send my novena"}
+    </Button>
     {pending && <p role="status" className="text-sm text-cream-dark mt-3">We’re processing your request. Please keep this page open.</p>}
   </form>;
 }

@@ -11,7 +11,7 @@
 .home-app-features li{display:flex;align-items:baseline;gap:13px}
 .home-app-features li::before{content:'✓';color:#d5c394;font-size:15px}
 .home-app-download{display:inline-flex;align-items:center;justify-content:space-between;gap:28px;padding:17px 23px;border:1px solid #faf9f5;border-radius:5px;background:#faf9f5;color:#162d3b;font-size:17px;font-weight:600;text-decoration:none;min-height:56px}
-.home-app-download:hover{background:#e8edeb;color:#162d3b}
+.home-app-download:hover{background:#e8edeb;border-color:#faf9f5;color:#162d3b}
 .home-app-download:focus-visible{outline:3px solid #d5c394;outline-offset:5px}
 .home-app-requirements{font-size:13px;line-height:1.6;color:#d5c394;margin:15px 0 0}
 .home-app-no-account{font-size:13px;line-height:1.6;color:#bbc9cd;margin:8px 0 0;max-width:42ch}

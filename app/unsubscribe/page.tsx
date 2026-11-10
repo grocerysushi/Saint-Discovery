@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import EmailFlowCard from "@/components/EmailFlowCard";
+import { Button } from "@/components/ui/button";
 import { verifyToken } from "@/lib/emails/tokens";
 
 export const dynamic = "force-dynamic";
@@ -52,13 +53,15 @@ export default async function UnsubscribePage({
         className="pt-2"
       >
         <input type="hidden" name="token" defaultValue={token ?? ""} />
-        <button
+        <Button
           type="submit"
-          className="inline-block px-8 py-3 border border-gold/40 text-gold rounded-full
+          variant={null}
+          size={null}
+          className="h-auto px-8 py-3 border border-gold/40 text-gold rounded-full text-[length:inherit] font-normal
                      hover:bg-gold/10 transition-colors cursor-pointer"
         >
           {retry ? "Try unsubscribing again" : "Unsubscribe me"}
-        </button>
+        </Button>
       </form>
     </EmailFlowCard>
   );

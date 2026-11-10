@@ -177,6 +177,7 @@ function captureHarness(responses, translationProxy = false) {
       useState(initial) { const i = cursor++; hooks[i] ??= initial; return [hooks[i], value => { hooks[i] = value; }]; },
       useRef(initial) { const i = cursor++; hooks[i] ??= { current: initial }; return hooks[i]; },
       useEffect() {},
+      useId() { return 'email-id'; },
       useSyncExternalStore(_subscribe, getSnapshot, getServerSnapshot) { return (getServerSnapshot ?? getSnapshot)(); },
     },
     'react/jsx-runtime': { jsx, jsxs: jsx }, 'framer-motion': { motion: { div: 'div', form: 'form' } },
@@ -185,6 +186,11 @@ function captureHarness(responses, translationProxy = false) {
     '@/lib/use-translation-proxy': { useTranslationProxy: () => translationProxy },
     '@/lib/site-languages': { SITE_ORIGIN: 'https://www.saintdiscoveryquiz.com' },
     '@/lib/visitor-privacy': { classroomMode: () => false },
+    // shadcn primitives render their native element; toasts are no-ops in this harness.
+    'sonner': { toast: { success() {}, error() {} } },
+    '@/components/ui/button': { Button: 'button' }, '@/components/ui/card': { Card: 'section' },
+    '@/components/ui/input': { Input: 'input' }, '@/components/ui/label': { Label: 'label' },
+    '@/components/shadcnResets': { PLAIN_BUTTON: '', PLAIN_CARD: '' },
   }, { Date: { now: () => now }, window: { requestAnimationFrame: fn => fn() },
     fetch: async () => { const response = responses[sends++]; if (response instanceof Error) throw response; return response; } });
   const render = () => { cursor = 0; tree = component.default({ saintSlug: 'joseph', saintName: 'Joseph' }); return tree; };
@@ -282,6 +288,7 @@ function unsubscribePage(file) {
     'react/jsx-runtime': { jsx, jsxs: jsx },
     'next/link': 'Link',
     '@/components/EmailFlowCard': 'EmailFlowCard',
+    '@/components/ui/button': { Button: 'button' },
     '@/lib/emails/tokens': unsubscribeTokens,
   });
 }

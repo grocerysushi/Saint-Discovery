@@ -7,8 +7,8 @@
 .biography-edition .biography-opening-copy > p { font-size:1.08rem; line-height:1.7; }
 .biography-edition .biography-opening-copy > .eyebrow { font-size:.82rem; letter-spacing:.06em; }
 .biography-edition .biography-start { display:flex; align-items:center; flex-wrap:wrap; gap:15px 22px; margin:30px 0; }
-.biography-edition .biography-start .btn-primary { background:#162d3b; color:#faf9f5; border:1px solid #162d3b; border-radius:3px; padding:14px 22px; display:inline-flex; gap:30px; font-size:1rem; text-decoration:none; }
-.biography-edition .biography-start .btn-primary:hover { background:#294b58; }
+.biography-edition .biography-start [data-slot="button"] { background:#162d3b; color:#faf9f5; border:1px solid #162d3b; border-radius:3px; padding:14px 22px; display:inline-flex; gap:30px; font-size:1rem; text-decoration:none; }
+.biography-edition .biography-start [data-slot="button"]:hover { background:#294b58; }
 .biography-edition .biography-start > span { font-size:.88rem; color:#53656b; }
 .biography-edition .biography-opening .biography-artwork { width:100%; max-width:none; margin:0; border:0; border-radius:0; padding:18px; background:#e8edeb; }
 .biography-edition .biography-opening .biography-artwork img { display:block; width:100%; height:400px; object-fit:contain; border-radius:0; background:#dce3de; }

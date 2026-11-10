@@ -3,6 +3,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import SaintCompanion from "./SaintCompanion";
 import Image from "./StaticImage";
+import { Button } from "@/components/ui/button";
 
 export default function DiscoverySample() {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -15,6 +16,10 @@ export default function DiscoverySample() {
       </figcaption>
     </figure>
     <button type="button" className="encounter-preview" onClick={() => dialog.current?.showModal()}>See what comes after your match <span aria-hidden>↗</span></button>
-    <dialog ref={dialog} className="discovery-dialog" aria-labelledby="sample-companion-title"><button className="dialog-close" type="button" onClick={() => dialog.current?.close()} aria-label="Close example companion">×</button><p>Example companion · Not a quiz result</p><h2 id="sample-companion-title">St. Francis of Assisi</h2><SaintCompanion name="St. Francis of Assisi" slug="francis-of-assisi" /><button type="button" className="btn-primary" onClick={() => dialog.current?.close()}>Return to the quiz</button></dialog>
+    <dialog ref={dialog} className="discovery-dialog" aria-labelledby="sample-companion-title"><button className="dialog-close" type="button" onClick={() => dialog.current?.close()} aria-label="Close example companion">×</button><p>Example companion · Not a quiz result</p><h2 id="sample-companion-title">St. Francis of Assisi</h2><SaintCompanion name="St. Francis of Assisi" slug="francis-of-assisi" />
+      <Button type="button" variant="gold" size="cta" className="mt-[15px]" onClick={() => dialog.current?.close()}>
+        Return to the quiz
+      </Button>
+    </dialog>
   </aside>;
 }

@@ -4,12 +4,15 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
 import ts from 'typescript';
 import React from 'react';
 import * as jsx from 'react/jsx-runtime';
 import {renderToString} from 'react-dom/server';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+// npm packages used by shadcn/ui primitives (radix-ui, lucide-react, clsx, ...) load normally.
+const requirePackage=createRequire(path.join(root,'package.json'));
 function headerAt(pathname){
  const cache=new Map();
  function load(file){
@@ -21,6 +24,7 @@ function headerAt(pathname){
    if(name==='react/jsx-runtime')return jsx;
    if(name==='next/navigation')return {usePathname:()=>pathname};
    if(name==='next/link')return {__esModule:true,default:({children,...props})=>{delete props.prefetch;return React.createElement('a',props,children);}};
+   if(!name.startsWith('@/')&&!name.startsWith('.'))return requirePackage(name);
    const target=name.startsWith('@/')?path.join(root,name.slice(2)):path.resolve(path.dirname(file),name);
    return load(path.extname(target)?target:target+(fs.existsSync(target+'.tsx')?'.tsx':'.ts'));
   }},{filename:file});

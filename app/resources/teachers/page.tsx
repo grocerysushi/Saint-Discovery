@@ -4,6 +4,7 @@ import Link from "next/link";
 import EducatorDownload from "@/components/EducatorDownload";
 import ClassroomModeButton from "@/components/ClassroomModeButton";
 import TeachingSession from "@/components/TeachingSession";
+import { Button } from "@/components/ui/button";
 import "@/components/teaching-session.css";
 import content from "@/data/educator-resources.json";
 import { absoluteUrl, serializeJsonLd, siteConfig } from "@/lib/seo";
@@ -53,7 +54,9 @@ export default function TeacherResources() {
       <h1>Bring a saint’s story <br />into your next lesson.</h1>
       <p>Free saint reflections and a Confirmation lesson, ready to print or read online.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
-      <div className="educator-quick-links"><a className="btn-primary" href="#worksheet">View the worksheet <span aria-hidden>↓</span></a><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
+      <div className="educator-quick-links"><Button asChild variant="gold" size="cta">
+          <a href="#worksheet">View the worksheet <span aria-hidden>↓</span></a>
+        </Button><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
       <p className="teaching-safety-copy">Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
       <details className="educator-classroom-details"><summary>Classroom safety and settings</summary><ClassroomModeButton /></details>
       </div>

@@ -18,9 +18,10 @@ const buttonVariants = cva(
         destructive:
           "bg-destructive/10 text-destructive hover:bg-destructive/20 focus-visible:border-destructive/40 focus-visible:ring-destructive/20 dark:bg-destructive/20 dark:hover:bg-destructive/30 dark:focus-visible:ring-destructive/40",
         link: "text-primary underline-offset-4 hover:underline",
-        // Site call-to-action styles (match the original .btn-primary / .btn-secondary look).
-        gold: "border-primary bg-primary text-primary-foreground hover:border-gold-light hover:bg-gold-light",
-        quiet: "border-navy-lighter text-cream hover:border-gold hover:bg-navy-light",
+        // Site call-to-action styles: reuse the site's own button classes so the
+        // (unlayered) theme CSS in app/*.css keeps styling them exactly as before.
+        gold: "btn-primary",
+        quiet: "btn-secondary",
       },
       size: {
         default:
@@ -34,8 +35,9 @@ const buttonVariants = cva(
         "icon-sm":
           "size-7 rounded-[min(var(--radius-md),12px)] in-data-[slot=button-group]:rounded-lg",
         "icon-lg": "size-9",
-        cta: "min-h-[54px] gap-6 rounded-[8px] px-[25px] py-[17px] text-[.9375rem] font-semibold whitespace-normal",
-        compact: "min-h-11 gap-[18px] rounded-[10px] px-[18px] py-[10px] text-sm font-semibold",
+        // Sizing for site CTAs comes from .btn-primary/.btn-secondary and page CSS.
+        cta: "whitespace-normal",
+        compact: "",
       },
     },
     defaultVariants: {

@@ -4,7 +4,7 @@
 .home-welcome h1{font:clamp(43px,4.4vw,65px)/1.07 var(--font-heading);letter-spacing:-2px;color:#162d3b;margin:0 0 25px;text-wrap:initial}
 .home-welcome-description{font-size:18px;line-height:1.65;color:#53656b;max-width:37ch;margin:0 0 30px}
 .home-invitation-button{display:inline-flex;align-items:center;justify-content:space-between;gap:40px;background:#162d3b;color:#faf9f5;padding:20px 24px;border:1px solid #162d3b;border-radius:4px;font-size:18px;font-weight:600;min-width:255px;text-decoration:none}
-.home-invitation-button:hover{background:#294b58;color:#faf9f5}
+.home-invitation-button:hover{background:#294b58;border-color:#162d3b;color:#faf9f5}
 .home-invitation-button span{font-size:24px;font-weight:400}
 .home-welcome-promise{font-size:13px;color:#5b6b70;margin:14px 0 27px}
 .home-welcome-explore{font-size:15px;color:#213a47;text-decoration:underline;text-underline-offset:6px;line-height:1.6}

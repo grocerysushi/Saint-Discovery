@@ -14,17 +14,17 @@
   font-size: 24px;
 }
 .site-header-refresh .brand-name { font-size: 1.4rem; letter-spacing: -.025em; }
-.site-header-refresh .desktop-nav { gap: 3px; }
-.site-header-refresh .nav-link { border-radius: 5px; font-size: .875rem; padding-inline: 12px; }
+.site-header-refresh .desktop-nav-list { gap: 3px; }
+.site-header-refresh .nav-link, .mobile-nav .nav-link { border-radius: 5px; font-size: .875rem; padding-inline: 12px; }
 .site-header-refresh .nav-link[aria-current],
 .site-header-refresh .nav-link[data-active] { box-shadow: inset 0 -2px var(--color-gold); }
 .site-header-refresh .header-quiz { border-radius: 6px; min-height: 46px; padding-inline: 19px; }
 .site-header-refresh .nav-divider { margin-inline: 8px 11px; }
 .site-header-refresh .nav-panel { width: 345px; padding: 20px 12px 12px; border-radius: 10px; background: var(--color-navy-light); }
-.site-header-refresh .nav-group-label { text-transform: none; letter-spacing: 0; font-size: .8125rem; margin-bottom: 11px; }
-.site-header-refresh .nav-destination { padding: 16px 12px; border-radius: 6px; }
-.site-header-refresh .nav-destination + .nav-destination { border-top: 1px solid var(--color-navy-lighter); }
-.site-header-refresh .nav-description { font-size: .8125rem; max-width: 29ch; }
+.site-header-refresh .nav-group-label, .mobile-nav .nav-group-label { text-transform: none; letter-spacing: 0; font-size: .8125rem; margin-bottom: 11px; }
+.site-header-refresh .nav-destination, .mobile-nav .nav-destination { padding: 16px 12px; border-radius: 6px; }
+.site-header-refresh .nav-destination + .nav-destination, .mobile-nav .nav-destination + .nav-destination { border-top: 1px solid var(--color-navy-lighter); }
+.site-header-refresh .nav-description, .mobile-nav .nav-description { font-size: .8125rem; max-width: 29ch; }
 .site-header-refresh .menu-toggle { border-radius: 6px; }
 
 .home-refresh .hero-grid {
@@ -143,9 +143,9 @@
   .site-header-refresh .brand-name { font-size: 1.1rem; max-width: 76px; }
   .site-header-refresh .brand-mark { width: 32px; height: 38px; font-size: 22px; }
   .site-header-refresh .header-quiz { font-size: .8125rem; padding-inline: 12px; gap: 10px; min-height: 44px; }
-  .site-header-refresh .mobile-nav { padding-inline: 12px; }
-  .site-header-refresh .mobile-nav-shortcuts { gap: 8px; }
-  .site-header-refresh .mobile-nav-shortcuts .nav-link { padding-inline: 10px; }
+  .mobile-nav { padding-inline: 12px; }
+  .mobile-nav-shortcuts { gap: 8px; }
+  .mobile-nav-shortcuts .nav-link { padding-inline: 10px; }
 }
 @media (max-width: 360px) {
   .site-header-refresh .brand-name { font-size: 1rem; }

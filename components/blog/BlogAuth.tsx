@@ -1,5 +1,7 @@
 "use client";
 import { useEffect, useState, type ReactNode } from "react";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
 import { blogRequest } from "./blog-store";
 export default function BlogAuth({ children }: { children: ReactNode }) {
   const [authenticated, setAuthenticated] = useState(false);
@@ -29,5 +31,18 @@ export default function BlogAuth({ children }: { children: ReactNode }) {
     } catch (e) { setError((e as Error).message); setBusy(false); }
   }
   if (authenticated) return children;
-  return <main className="blog-admin studio-login"><div className="studio-dialog-body studio-login-card"><p className="studio-overline">Saint Discovery · Writing studio</p><h1>{loading ? "Opening your studio…" : "A place for your words."}</h1><p>Sign in with your authorized Google account.</p><p>Only your authorized account can write and publish posts.</p>{error && <p role="alert" className="studio-error">{error}</p>}<button className="studio-primary" disabled={loading || busy} onClick={() => void signin()}>{busy ? "Opening Google…" : "Continue with Google →"}</button></div></main>;
+  return (
+    <main className="blog-admin studio-login">
+      <Card className="studio-dialog-body studio-login-card block">
+        <p className="studio-overline">Saint Discovery · Writing studio</p>
+        <h1>{loading ? "Opening your studio…" : "A place for your words."}</h1>
+        <p>Sign in with your authorized Google account.</p>
+        <p>Only your authorized account can write and publish posts.</p>
+        {error && <p role="alert" className="studio-error">{error}</p>}
+        <Button className="studio-primary" disabled={loading || busy} onClick={() => void signin()}>
+          {busy ? "Opening Google…" : "Continue with Google →"}
+        </Button>
+      </Card>
+    </main>
+  );
 }

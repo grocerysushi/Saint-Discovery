@@ -3,6 +3,9 @@ import DailySaintCard from "./DailySaintCard";
 import LiturgicalBanner from "./LiturgicalBanner";
 import type { DailySaint } from "@/lib/saint-of-day";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import { track } from "@/lib/analytics";
 import "./home-vision.css";
 
@@ -12,7 +15,17 @@ export default function Hero({ dailySaint, directoryCount }: { dailySaint: Daily
       <div className="discovery-copy">
         <h1>Which saint’s story speaks to yours?</h1>
         <p className="discovery-lead">Explore lives of faith and find a saint to walk with you.</p>
-        <div className="discovery-actions"><Link href="/quiz" prefetch={false} onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })} className="btn-primary">Find your saint <span aria-hidden>→</span></Link><p className="discovery-note">Free · About 3–5 minutes</p></div>
+        <div className="discovery-actions">
+          <Button asChild variant="gold" size="cta">
+            <Link
+              href="/quiz"
+              prefetch={false}
+              onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })}
+            >
+              Find your saint <span aria-hidden>→</span>
+            </Link>
+          </Button>
+          <p className="discovery-note">Free · About 3–5 minutes</p></div>
       </div>
       <figure className="vision-hero-art">
         {/* The whole work is shown; this is a historical painting, not a portrait. */}
@@ -40,7 +53,15 @@ export default function Hero({ dailySaint, directoryCount }: { dailySaint: Daily
     </section>
     <details className="home-disclosure"><summary>Today in the Church</summary><div className="home-disclosure-content"><LiturgicalBanner /></div></details>
     <details className="home-disclosure"><summary>Search by name or patronage</summary><div className="home-disclosure-content">
-    <section className="home-search-panel" aria-label="Find a saint"><div><h2>Whose story will you discover?</h2><p className="home-directory-total"><strong>{directoryCount}</strong> <Link prefetch={false} href="/resources">saint biographies to explore</Link></p></div><form action="/resources" className="home-directory-search" role="search"><label htmlFor="home-saint-search">Who would you like to discover?</label><div><input id="home-saint-search" name="q" type="search" placeholder="A name, place or patronage" /><button type="submit" className="btn-primary">Search saints</button></div></form></section>
+    <section className="home-search-panel" aria-label="Find a saint"><div><h2>Whose story will you discover?</h2><p className="home-directory-total"><strong>{directoryCount}</strong> <Link prefetch={false} href="/resources">saint biographies to explore</Link></p></div>
+      <form action="/resources" className="home-directory-search" role="search">
+        <Label htmlFor="home-saint-search" className="leading-[inherit]">Who would you like to discover?</Label>
+        <div>
+          <Input id="home-saint-search" name="q" type="search" placeholder="A name, place or patronage" className="h-auto" />
+          <Button variant="gold" size="cta" type="submit">Search saints</Button>
+        </div>
+      </form>
+      </section>
     <nav className="home-reading-paths" aria-label="Ways to explore saints"><Link prefetch={false} href="/resources?gender=Female"><h2>Women of faith</h2><p>Explore the lives of women saints.</p><span aria-hidden>→</span></Link><Link prefetch={false} href="/resources?country=Korea"><h2>The Korean martyrs</h2><p>Meet the people behind the shared witness.</p><span aria-hidden>→</span></Link><Link prefetch={false} href="/patron-saint-of"><h2>A saint for your life</h2><p>Browse patron saints by work, place and need.</p><span aria-hidden>→</span></Link></nav>
     </div></details>
   </div>;
