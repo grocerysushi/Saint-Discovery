@@ -94,23 +94,20 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
         <NavigationMenu
           className="desktop-nav"
           aria-label="Main"
-          viewport={false}
           value={panel}
           onValueChange={setPanel}
         >
           <NavigationMenuList className="desktop-nav-list">
             {[...PRIMARY_LINKS, ...SHORTCUT_LINKS].map(link => (
               <NavigationMenuItem key={link.href}>
-                <NavigationMenuLink asChild active={link.href === "/resources" ? isDirectory(link.href) : isCurrent(link.href)}>
-                  <Link
+                <NavigationMenuLink active={link.href === "/resources" ? isDirectory(link.href) : isCurrent(link.href)} render={<Link
                     prefetch={false}
                     href={link.href}
                     onClick={close}
                     className={link.today ? "nav-link nav-today" : "nav-link"}
                   >
                     <LinkLabel label={link.label} today={link.today} />
-                  </Link>
-                </NavigationMenuLink>
+                  </Link>} />
               </NavigationMenuItem>
             ))}
             {GROUPS.map(group => (
@@ -124,30 +121,26 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
                 <NavigationMenuContent className="nav-panel">
                   <p className="nav-group-label">{group.label}</p>
                   {group.links.map(link => (
-                    <NavigationMenuLink key={link.href} asChild active={isCurrent(link.href)}>
-                      <Link prefetch={false} href={link.href} onClick={close} className="nav-destination">
+                    <NavigationMenuLink key={link.href} active={isCurrent(link.href)} render={<Link prefetch={false} href={link.href} onClick={close} className="nav-destination">
                         <span>
                           <strong>{link.label}</strong>
                           <span className="nav-description">{link.description}</span>
                         </span>
-                      </Link>
-                    </NavigationMenuLink>
+                      </Link>} />
                   ))}
                 </NavigationMenuContent>
               </NavigationMenuItem>
             ))}
             <li className="nav-divider" aria-hidden />
             <NavigationMenuItem>
-              <Button asChild variant="gold" size="compact">
-                <Link
+              <Button variant="gold" size="compact" nativeButton={false} render={<Link
                   prefetch={false}
                   href="/quiz"
                   className="btn-primary header-quiz"
                   aria-current={current(isCurrent("/quiz"))}
                 >
                   Take the quiz
-                </Link>
-              </Button>
+                </Link>} />
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
@@ -155,8 +148,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
         <div className="header-tools">
           <LanguageSwitcher pathname={pathname} onOpen={close} />
           <div className="header-mobile-actions">
-            <Button asChild variant="gold" size="compact">
-              <Link
+            <Button variant="gold" size="compact" nativeButton={false} render={<Link
                 prefetch={false}
                 href="/quiz"
                 onClick={close}
@@ -164,11 +156,9 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
                 aria-current={current(isCurrent("/quiz"))}
               >
                 Take the quiz
-              </Link>
-            </Button>
+              </Link>} />
             <Sheet open={open} onOpenChange={setOpen}>
-              <SheetTrigger asChild>
-                <button
+              <SheetTrigger render={<button
                   type="button"
                   className="menu-toggle"
                   aria-controls="mobile-nav"
@@ -178,8 +168,7 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
                     <path d={open ? "M6 6l12 12M6 18L18 6" : "M4 8h16M4 16h16"} />
                   </svg>
-                </button>
-              </SheetTrigger>
+                </button>} />
               <SheetContent
                 id="mobile-nav"
                 side="right"
@@ -189,11 +178,9 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
               >
                 <div className="mobile-nav-header">
                   <SheetTitle className="mobile-nav-title">Explore</SheetTitle>
-                  <SheetClose asChild>
-                    <Button variant="ghost" size="icon-lg" className="mobile-nav-close" aria-label="Close menu">
+                  <SheetClose render={<Button variant="ghost" size="icon-lg" className="mobile-nav-close" aria-label="Close menu">
                       <XIcon aria-hidden />
-                    </Button>
-                  </SheetClose>
+                    </Button>} />
                 </div>
                 <nav className="mobile-nav-inner" aria-label="Mobile">
                   <Link

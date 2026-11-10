@@ -54,9 +54,7 @@ export default function TeacherResources() {
       <h1>Bring a saint’s story <br />into your next lesson.</h1>
       <p>Free saint reflections and a Confirmation lesson, ready to print or read online.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
-      <div className="educator-quick-links"><Button asChild variant="gold" size="cta">
-          <a href="#worksheet">View the worksheet <span aria-hidden>↓</span></a>
-        </Button><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
+      <div className="educator-quick-links"><Button variant="gold" size="cta" nativeButton={false} render={<a href="#worksheet">View the worksheet <span aria-hidden>↓</span></a>} /><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
       <p className="teaching-safety-copy">Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
       <details className="educator-classroom-details"><summary>Classroom safety and settings</summary><ClassroomModeButton /></details>
       </div>

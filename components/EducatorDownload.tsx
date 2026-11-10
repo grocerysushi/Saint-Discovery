@@ -6,8 +6,7 @@ import { track } from "@/lib/analytics";
 export default function EducatorDownload({ filename, children }: { filename: string; children: React.ReactNode }) {
   const href = `/downloads/educators/${filename}`;
   return (
-    <Button asChild variant="gold" size="cta" className="mt-1.5 max-w-full max-[700px]:text-[.9rem]">
-      <a
+    <Button variant="gold" size="cta" className="mt-1.5 max-w-full max-[700px]:text-[.9rem]" nativeButton={false} render={<a
         href={href}
         download
         onClick={() => track("educator_resource_click", {
@@ -15,7 +14,6 @@ export default function EducatorDownload({ filename, children }: { filename: str
         })}
       >
         {children}<span aria-hidden>↓</span>
-      </a>
-    </Button>
+      </a>} />
   );
 }

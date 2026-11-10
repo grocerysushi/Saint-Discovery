@@ -113,27 +113,23 @@ export default function ShareButtons({
         >
           Copy message
         </Button>
-        <Button asChild variant={null} size={null} className={BUTTON_CLASS}>
-          <a
+        <Button variant={null} size={null} className={BUTTON_CLASS} nativeButton={false} render={<a
             onClick={() => record("email_open")}
             href={`mailto:?subject=${encodeURIComponent("A discovery from Saint Discovery")}&body=${encodedText}%0A${encodedUrl}`}
           >
             Email
-          </a>
-        </Button>
+          </a>} />
       </div>
       <div className="flex flex-wrap gap-3 mt-3">
         {targets.map((t) => (
-          <Button key={t.name} asChild variant={null} size={null} className={BUTTON_CLASS}>
-            <a
+          <Button key={t.name} variant={null} size={null} className={BUTTON_CLASS} nativeButton={false} render={<a
               href={t.href}
               onClick={() => record(t.name === "Share on X" ? "x_open" : `${t.name.toLowerCase()}_open`)}
               target="_blank"
               rel="noopener noreferrer"
             >
               {t.name}
-            </a>
-          </Button>
+            </a>} />
         ))}
       </div>
       {copyError && (

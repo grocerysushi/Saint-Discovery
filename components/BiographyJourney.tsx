@@ -7,8 +7,6 @@ export default function BiographyJourney({ slug }: { slug: string }) {
   const saved = useQuizSession();
   if (!saved) return null;
   return <aside className="biography-journey" aria-label="Your quiz journey"><div><p className="eyebrow">{saved.slug === slug ? "Meet your saint match" : "Keep exploring your match"}</p><p>{saved.slug === slug ? "Go beyond the match. Read the life, notice what speaks to you, and choose one idea to carry with you." : "You’re exploring another life. Your quiz result is still available when you’re ready to return."}</p></div>
-    <Button asChild variant="quiet" size="cta">
-      <Link href="/quiz" prefetch={false}>← Back to my result</Link>
-    </Button>
+    <Button variant="quiet" size="cta" nativeButton={false} render={<Link href="/quiz" prefetch={false}>← Back to my result</Link>} />
   </aside>;
 }

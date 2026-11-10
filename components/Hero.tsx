@@ -16,15 +16,13 @@ export default function Hero({ dailySaint, directoryCount }: { dailySaint: Daily
         <h1>Which saint’s story speaks to yours?</h1>
         <p className="discovery-lead">Explore lives of faith and find a saint to walk with you.</p>
         <div className="discovery-actions">
-          <Button asChild variant="gold" size="cta">
-            <Link
+          <Button variant="gold" size="cta" nativeButton={false} render={<Link
               href="/quiz"
               prefetch={false}
               onClick={() => track("homepage_quiz_click", { link_placement: "home_hero", content_version: "quiz_theme_v2" })}
             >
               Find your saint <span aria-hidden>→</span>
-            </Link>
-          </Button>
+            </Link>} />
           <p className="discovery-note">Free · About 3–5 minutes</p></div>
       </div>
       <figure className="vision-hero-art">

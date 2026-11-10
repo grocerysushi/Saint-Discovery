@@ -41,15 +41,13 @@ export default function Result({ saint, scores, relatedSaints, onRestart }: { sa
         {saint.tagline && <p className="room-tagline">{saint.tagline}</p>}
         <p className="result-match-summary">{saint.description}</p>
         <div className="room-primary-actions">
-          <Button asChild variant="gold" size="cta">
-            <Link
+          <Button variant="gold" size="cta" nativeButton={false} render={<Link
               prefetch={false}
               href={`/saints/${saint.slug}`}
               onClick={() => track("biography_click", { saint_slug: saint.slug, link_placement: "result_primary" })}
             >
               Read the full story <span aria-hidden>↗</span>
-            </Link>
-          </Button>
+            </Link>} />
           <Button type="button" variant={null} size={null} className={PLAIN_BUTTON} onClick={openKeep}>
             Keep my result
           </Button>

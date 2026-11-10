@@ -185,9 +185,7 @@ export default async function Resources(props: Props) {
         <DirectoryGallery paths={galleryPaths} total={data.catalogueTotal} defaultBrowse={data.page > 1 || Object.values(filters).some(Boolean)}>
         <SaintsDirectory filters={filters} options={data.options} total={data.total} catalogueTotal={data.catalogueTotal} page={data.page} pages={data.pages} offset={data.offset} count={saints.length}>
           {topicMatches.length > 0 && <section className="catalogue-related" aria-label="Related saint guides"><h2>Related patronage guides</h2><p>These guides may help your search; directory filters do not apply.</p>{topicMatches.map(topic => <Link prefetch={false} key={topic.slug} href={`/patron-saint-of/${topic.slug}`}>{topic.label} ({topic.saintCount} biographies)</Link>)}</section>}
-          {data.total === 0 ? <div className="catalogue-empty"><h2>No saints match this search.</h2><p>Try a shorter name or clear the filters to start again.</p><Button asChild variant="quiet" size="cta">
-            <Link prefetch={false} href="/resources">Show all saints</Link>
-          </Button></div> : <ul className="catalogue-list">{saints.map(saint => {
+          {data.total === 0 ? <div className="catalogue-empty"><h2>No saints match this search.</h2><p>Try a shorter name or clear the filters to start again.</p><Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/resources">Show all saints</Link>} /></div> : <ul className="catalogue-list">{saints.map(saint => {
             const { src, alt, symbolic, generated, unoptimized } = getSaintArtwork(saint);
             return <li key={saint.slug}><Link href={`/saints/${saint.slug}`} className="catalogue-entry" prefetch={false}><SaintArtworkThumbnail artwork={{ src, alt, symbolic, generated, unoptimized }} /><h2>{saintDisplayName(saint)}</h2><p className="catalogue-life">{[saint.dates, saint.origin].filter(Boolean).join(" · ")}</p><p className="catalogue-description">{saint.description || saint.tagline}</p><p className="catalogue-feast">{saint.feast_day ? `Feast: ${saint.feast_day}` : "Feast date not yet recorded"}</p><span className="catalogue-artwork-credit">Artwork details in biography ↗</span></Link></li>;
           })}</ul>}
@@ -200,16 +198,10 @@ export default async function Resources(props: Props) {
         </DirectoryGallery>
         <DirectoryDailySaints />
         <section className="directory-resources"><p className="eyebrow mb-3">Keep exploring</p><h2>Resources for your faith</h2><div className="grid md:grid-cols-3 gap-4">{RESOURCES.map(r => <a key={r.url} href={r.url} target="_blank" rel="noopener noreferrer" className="saint-card"><h3>{r.name} <span className="text-gold" aria-hidden>↗</span></h3><p>{r.description}</p></a>)}</div></section>
-        <div className="guide-directory-link"><div><p className="eyebrow">Preparing for Confirmation?</p><h2>Find a saint to walk with you.</h2><p>Explore suggestions, build a shortlist, and reflect with your sponsor.</p></div><Button asChild variant="quiet" size="cta">
-          <Link prefetch={false} href="/confirmation-saint-guide">Read the selection guide <span aria-hidden>↗</span></Link>
-        </Button></div>
-        <div className="guide-directory-link"><div><p className="eyebrow">For teachers &amp; catechists</p><h2>Bring a saint’s story into your classroom.</h2><p>Free printable reflections and a 45-minute Confirmation lesson, ready for your next session.</p></div><Button asChild variant="quiet" size="cta">
-          <Link prefetch={false} href="/resources/teachers">Get the teaching resources <span aria-hidden>↗</span></Link>
-        </Button></div>
+        <div className="guide-directory-link"><div><p className="eyebrow">Preparing for Confirmation?</p><h2>Find a saint to walk with you.</h2><p>Explore suggestions, build a shortlist, and reflect with your sponsor.</p></div><Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/confirmation-saint-guide">Read the selection guide <span aria-hidden>↗</span></Link>} /></div>
+        <div className="guide-directory-link"><div><p className="eyebrow">For teachers &amp; catechists</p><h2>Bring a saint’s story into your classroom.</h2><p>Free printable reflections and a 45-minute Confirmation lesson, ready for your next session.</p></div><Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/resources/teachers">Get the teaching resources <span aria-hidden>↗</span></Link>} /></div>
         <div className="mt-10">
-          <Button asChild variant="quiet" size="cta">
-            <Link href="/quiz" prefetch={false}>Find your saint match <span aria-hidden>↗</span></Link>
-          </Button>
+          <Button variant="quiet" size="cta" nativeButton={false} render={<Link href="/quiz" prefetch={false}>Find your saint match <span aria-hidden>↗</span></Link>} />
         </div>
       </div>
     </main>

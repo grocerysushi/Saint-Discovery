@@ -24,15 +24,13 @@ export default function SaintCompanion({ name, slug }: { name: string; slug: str
     <div className="companion-days" role="group" aria-label="Choose a day">{days.map((item, i) => <button key={item.label} type="button" onClick={() => setDay(i)} aria-pressed={day === i}><small>Day {i + 1}</small>{item.label}</button>)}</div>
     <div className="companion-day" aria-live="polite"><h2>{selected.title}</h2><p>{selected.copy}</p><p>{selected.prompt}</p>
       {day === 0 && (
-        <Button asChild variant="gold" size="cta" className="result-primary-story">
-          <Link
+        <Button variant="gold" size="cta" className="result-primary-story" nativeButton={false} render={<Link
             prefetch={false}
             href={`/saints/${slug}`}
             onClick={() => track("biography_click", { saint_slug: slug, link_placement: "result_primary" })}
           >
             Read the full story <span aria-hidden>↗</span>
-          </Link>
-        </Button>
+          </Link>} />
       )}
       <small>Original suggestions by Saint Discovery, not quotations or religious obligations.</small>
     </div>

@@ -39,19 +39,16 @@ function StudioTextButton(props: ComponentProps<typeof Button>) {
 
 export function StudioDialog({ title, children, onClose, wide = false }: { title: string; children: ReactNode; onClose: () => void; wide?: boolean }) {
   return (
-    <Dialog open onOpenChange={open => { if (!open) onClose(); }}>
+    // Like the previous native <dialog>, only Escape or the close button dismisses it.
+    <Dialog open disablePointerDismissal onOpenChange={open => { if (!open) onClose(); }}>
       <DialogContent
         className={`studio-dialog ${wide ? "studio-dialog-wide" : ""}`}
         showCloseButton={false}
         aria-describedby={undefined}
-        // Like the previous native <dialog>, only Escape or the close button dismisses it.
-        onInteractOutside={event => event.preventDefault()}
       >
         <header>
           <DialogTitle>{title}</DialogTitle>
-          <DialogClose asChild>
-            <StudioTextButton aria-label="Close dialog">×</StudioTextButton>
-          </DialogClose>
+          <DialogClose render={<StudioTextButton aria-label="Close dialog">×</StudioTextButton>} />
         </header>
         {children}
       </DialogContent>
@@ -236,11 +233,11 @@ function WritingDesk({ initial, storageError }: { initial: BlogPost; storageErro
           <Input value={content.author} maxLength={100} onChange={e => update({ author: e.target.value })} />
         </Label>
         <Label htmlFor="post-category" className="studio-select-label">Category</Label>
-        <Select value={content.category} onValueChange={category => update({ category })}>
+        <Select value={content.category} onValueChange={category => { if (category) update({ category }); }}>
           <SelectTrigger id="post-category" className="studio-select">
             <SelectValue />
           </SelectTrigger>
-          <SelectContent className="studio-popover" position="popper">
+          <SelectContent className="studio-popover" alignItemWithTrigger={false}>
             {BLOG_CATEGORIES.map(c => <SelectItem key={c} value={c}>{c}</SelectItem>)}
           </SelectContent>
         </Select>

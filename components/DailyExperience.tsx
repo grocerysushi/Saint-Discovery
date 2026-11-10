@@ -82,9 +82,7 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
       </figure>}>
       <div className="daily-story-copy">
         {saint ? <>{daily.biography.map((paragraph, index) => <p key={index}>{paragraph}</p>)}<p className="daily-calendar-note">{daily.feastNote}</p>{saint.kind === "orthodox-saint" && <p className="daily-calendar-note">This figure is venerated in Orthodox Christianity.</p>}<Link prefetch={false} href={`/saints/${saint.slug}`} className="text-link">Explore the biography &amp; sources <span aria-hidden>↗</span></Link></> : <><p>Our reviewed directory does not yet include an entry for {daily.label}. This is a gap in our coverage, not a claim that no saints are commemorated today.</p><p>You can still take a few minutes for the reflection below, or choose a life from the directory.</p>
-          <Button asChild variant="quiet" size="cta">
-            <Link prefetch={false} href="/resources">Find a biography to read ↗</Link>
-          </Button>
+          <Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/resources">Find a biography to read ↗</Link>} />
         </>}
       </div>
     </DailyPause>
@@ -94,9 +92,7 @@ function DailyContent({ daily, followToday }: { daily: DailyExperienceData; foll
     {daily.alsoToday.length > 0 && <section className="daily-more" aria-labelledby="also-today"><p className="eyebrow">More lives to explore</p><h2 id="also-today">Also remembered on {date.toLocaleDateString("en-US", { month: "long", day: "numeric" })}</h2><div>{daily.alsoToday.map(other => <Link prefetch={false} key={other.slug} href={`/saints/${other.slug}`}>{other.name}<span aria-hidden>↗</span></Link>)}</div></section>}
     {daily.sources.length > 0 && <details className="daily-sources"><summary>Sources for today’s biography</summary><ul>{daily.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a></li>)}</ul></details>}
     <section className="daily-return"><p className="eyebrow">Let this become a small habit</p><h2>There is another story tomorrow.</h2><p>Bookmark this daily page to return. Or keep exploring a saint whose life speaks to yours.</p><div>
-      <Button asChild variant="quiet" size="cta">
-        <Link prefetch={false} href="/confirmation-saint-guide">Choose a Confirmation saint ↗</Link>
-      </Button>
+      <Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/confirmation-saint-guide">Choose a Confirmation saint ↗</Link>} />
       <Link href="/quiz" prefetch={false} className="text-link">Find your saint match ↗</Link>
     </div></section>
   </>;

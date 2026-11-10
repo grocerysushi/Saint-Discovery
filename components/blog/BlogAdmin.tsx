@@ -77,8 +77,7 @@ export default function BlogAdmin() {
       <Button className="studio-primary" onClick={create} disabled={!posts || saving}>+ New post</Button>
     </header>
     <div className="studio-prototype"><span>✦</span><p><strong>Your writing, saved online.</strong> Drafts are private. Publishing makes a story available to blog readers.</p><Link href="/blog">View blog ↗</Link></div>
-    <Tabs asChild value={filter} onValueChange={setFilter} className="block">
-      <section className="studio-posts">
+    <Tabs value={filter} onValueChange={setFilter} className="block" render={<section className="studio-posts">
         <div className="studio-post-tools">
           <TabsList className="studio-tabs" aria-label="Filter posts">
             {POST_FILTERS.map(f => <TabsTrigger key={f} value={f}>{f}</TabsTrigger>)}
@@ -118,8 +117,7 @@ export default function BlogAdmin() {
           <span>{visible.length} {visible.length === 1 ? "post" : "posts"}</span>
           <Button variant="ghost" className="studio-text-button" disabled={!posts || saving} onClick={() => downloadBlog("saint-discovery-blog-backup.json", { version: 1, posts })}>Export all posts ↓</Button>
         </footer>
-      </section>
-    </Tabs>
+      </section>} />
     <div className="studio-bottom-cards">
       <section>
         <p className="studio-overline">Your words, your space</p>

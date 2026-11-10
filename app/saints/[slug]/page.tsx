@@ -214,9 +214,7 @@ export default async function SaintPage({
             )}
             {biographyText && (
               <div className="biography-start">
-                <Button asChild variant="gold" size="cta">
-                  <a href="#biography">Read the life story <span aria-hidden="true">↓</span></a>
-                </Button>
+                <Button variant="gold" size="cta" nativeButton={false} render={<a href="#biography">Read the life story <span aria-hidden="true">↓</span></a>} />
                 <span>About {readingMinutes} min · biography</span>
               </div>
             )}
@@ -347,9 +345,7 @@ export default async function SaintPage({
           <BiographyArticles saint={saint} />
 
           {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5">
-            <Button asChild variant="quiet" size="cta">
-              <Link prefetch={false} href="/confirmation-saint-guide">Explore your Confirmation choice →</Link>
-            </Button>
+            <Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/confirmation-saint-guide">Explore your Confirmation choice →</Link>} />
             <Link prefetch={false} href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link>
           </div></section>}
           {saint.quotes && saint.quotes.length > 0 && (

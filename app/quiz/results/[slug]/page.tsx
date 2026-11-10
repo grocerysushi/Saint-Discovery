@@ -37,11 +37,7 @@ export default async function SharedQuizResult({ params }: Props) {
   const name = saintDisplayName(saint);
   const others = getRelatedSaints(saint, (await getAllSaints()).filter(item => item.kind !== "observance"), 3);
   return <main className="site-width shared-result-page"><section className="shared-result-hero"><p className="eyebrow">A Saint Discovery quiz match</p><h1>{name}</h1><p className="shared-result-intro">Every result is an invitation to get to know a life. This is the saint match someone shared with you — discover your own through the quiz.</p>{saint.feast_day && <p className="text-gold mb-5">Feast day · {saint.feast_day}</p>}<p className="text-cream-dark leading-relaxed">{saint.description}</p><div className="hero-actions">
-          <Button asChild variant="gold" size="cta">
-            <Link href="/quiz" prefetch={false}>Find my saint match ↗</Link>
-          </Button>
-          <Button asChild variant="quiet" size="cta">
-            <Link prefetch={false} href={`/saints/${saint.slug}`}>Read {name}’s story ↗</Link>
-          </Button>
+          <Button variant="gold" size="cta" nativeButton={false} render={<Link href="/quiz" prefetch={false}>Find my saint match ↗</Link>} />
+          <Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href={`/saints/${saint.slug}`}>Read {name}’s story ↗</Link>} />
         </div><p className="hero-note">Free · No account needed · About 3–5 minutes</p></section><ResultShare slug={saint.slug} name={name} /><ResultSocialLinks placement="shared_result" /><ResultLearning slug={saint.slug} name={name} /><BiographyArticles saint={saint} placement="shared_result_blog" /><section className="result-explore"><p className="eyebrow">More stories to explore</p><h2>Get to know another saint</h2><p>Related reading suggestions, not the original visitor’s quiz scores.</p><div className="result-explore-grid">{others.map(other => <Link prefetch={false} key={other.slug} href={`/saints/${other.slug}`} className="saint-card"><h3>{saintDisplayName(other)} ↗</h3><p>{other.description}</p></Link>)}</div></section><div className="hero-actions"><Link prefetch={false} href="/confirmation-saint-guide" className="text-link">Explore the Confirmation saint guide ↗</Link><Link prefetch={false} href="/resources" className="text-link">Browse the full directory →</Link></div></main>;
 }

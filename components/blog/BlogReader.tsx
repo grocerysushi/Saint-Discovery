@@ -123,9 +123,7 @@ export function BlogIndex({ posts, page, pages, total, category, search, startin
       {pages > 1 && <nav className="blog-pagination" aria-label="Blog pages">{page > 1 && <Link prefetch={false} href={blogBrowseUrl(page - 1, category, search)} rel="prev">← Newer stories</Link>}<span>Page {page} of {pages}</span>{page < pages && <Link prefetch={false} href={blogBrowseUrl(page + 1, category, search)} rel="next">Older stories →</Link>}</nav>}
     </>}
     <section className="blog-invitation"><p className="eyebrow">Keep discovering</p><h2>A story can be the start of something.</h2><p>Meet the saints whose lives might speak to yours.</p>
-      <Button asChild variant="gold" size="cta" className="mb-6">
-        <Link prefetch={false} href="/quiz">Find your saint ↗</Link>
-      </Button>
+      <Button variant="gold" size="cta" className="mb-6" nativeButton={false} render={<Link prefetch={false} href="/quiz">Find your saint ↗</Link>} />
       <p><Link prefetch={false} href="/editorial-policy">How we prepare our content and handle corrections →</Link></p></section>
   </main>;
 }

@@ -32,6 +32,7 @@
     "blog:prepare": "node scripts/prepare-daily-blog.mjs"
   },
   "dependencies": {
+    "@base-ui/react": "^1.9.0",
     "@fontsource/dm-sans": "^5.3.0",
     "@fontsource/libre-baskerville": "^5.3.0",
     "@fontsource/source-sans-3": "^5.3.0",
@@ -47,7 +48,6 @@
     "framer-motion": "^12.35.1",
     "lucide-react": "^1.71.0",
     "next": "16.4.5",
-    "radix-ui": "^1.8.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "shadcn": "^4.23.0",

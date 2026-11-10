@@ -1,7 +1,9 @@
 import * as React from "react"
+import { Button as ButtonPrimitive } from "@base-ui/react/button"
+import { mergeProps } from "@base-ui/react/merge-props"
+import { useRender } from "@base-ui/react/use-render"
 import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
-import { Slot } from "radix-ui"
 
 const buttonVariants = cva(
   "group/button inline-flex shrink-0 items-center justify-center rounded-lg border border-transparent bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4",
@@ -47,27 +49,33 @@ const buttonVariants = cva(
   }
 )
 
+type ButtonProps = ButtonPrimitive.Props & VariantProps<typeof buttonVariants>
+
 function Button({
   className,
   variant = "default",
   size = "default",
-  asChild = false,
   ...props
-}: React.ComponentProps<"button"> &
-  VariantProps<typeof buttonVariants> & {
-    asChild?: boolean
-  }) {
-  const Comp = asChild ? Slot.Root : "button"
+}: ButtonProps) {
+  const classes = cn(buttonVariants({ variant, size, className }))
+  // A link styled as a button (render={<Link/>} nativeButton={false}) keeps its
+  // link semantics: Base UI's Button would add role="button" to the anchor.
+  if (props.render && props.nativeButton === false) {
+    const { nativeButton, ...linkProps } = props
+    void nativeButton
+    return <ButtonStyledElement {...linkProps} className={classes} />
+  }
+  return <ButtonPrimitive data-slot="button" className={classes} {...props} />
+}
 
-  return (
-    <Comp
-      data-slot="button"
-      data-variant={variant}
-      data-size={size}
-      className={cn(buttonVariants({ variant, size, className }))}
-      {...props}
-    />
-  )
+function ButtonStyledElement({
+  render,
+  ...props
+}: Omit<ButtonPrimitive.Props, "className" | "nativeButton"> & { className: string }) {
+  return useRender({
+    render: render as useRender.RenderProp,
+    props: mergeProps({ "data-slot": "button" } as React.ComponentProps<"a">, props as React.ComponentProps<"a">),
+  })
 }
 
 export { Button, buttonVariants }
