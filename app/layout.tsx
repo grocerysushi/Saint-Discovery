@@ -13,6 +13,7 @@ import "./discovery-design.css";
 import LiturgicalTheme from "@/components/LiturgicalTheme";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
+import { Toaster } from "@/components/ui/sonner";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
 import { ANALYTICS_BOOTSTRAP } from "@/lib/analytics-bootstrap";
 import { TRANSLATION_LANGUAGE_BOOTSTRAP } from "@/lib/translation-language";
@@ -156,6 +157,7 @@ export default function RootLayout({
           <div id="main-content" tabIndex={-1}>{children}</div>
           <SiteFooter />
         </LiturgicalTheme>
+        <Toaster position="bottom-center" />
       </body>
     </html>
   );
