@@ -5144,6 +5144,301 @@
       "biography: no disagreement. The Catholic Encyclopedia gives 354–450 and says he tutored Arcadius from 383 for eleven years and later Honorius too; Nominis gives death in 449. The reviewed biography's caution about chronology fits."
     ]
   },
+  "athanasius": {
+    "templateVersion": 2,
+    "heroSummary": "St. Athanasius was bishop of Alexandria from 328 to 373 and a Doctor of the Church who defended the Council of Nicaea's teaching that the Son is truly God. Driven from his city at least five times, he never stopped writing about the Word made flesh. The Church keeps his memorial on May 2.",
+    "searchDescription": "St. Athanasius of Alexandria (about 300–373), feast May 2: bishop and Doctor of the Church who defended Nicaea's faith in Christ's divinity through five exiles.",
+    "symbols": [
+      {
+        "symbol": "Open book between two Greek columns",
+        "meaning": "His teaching as a pillar of orthodox faith; St. Gregory of Nazianzus called him \"the pillar of the Church.\""
+      },
+      {
+        "symbol": "Equilateral triangle",
+        "meaning": "The Holy Trinity, and his defense of the Son as fully divine, one in substance with the Father."
+      },
+      {
+        "symbol": "Boat on the Nile",
+        "meaning": "A tradition, not documented history, that he escaped pursuers on the river by turning his boat back toward them; it recalls his many flights and exiles."
+      },
+      {
+        "symbol": "Archbishop's pallium",
+        "meaning": "His office as bishop of the great see of Alexandria, which he held for 46 years despite repeated banishment."
+      },
+      {
+        "symbol": "Scroll bearing a quotation from his writings",
+        "meaning": "The works that outlasted his struggles, especially On the Incarnation and the Life of Antony."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Athanasius when holding to the truth is costly. As a young deacon he stood with his bishop at Nicaea, and as bishop he spent about seventeen years in exile for refusing to water down the faith that Jesus is truly God. Yet his fight was never only about words: he believed the Word became man so that we could share God's own life. He also wrote the Life of Antony, which carried the desert monks' example across the Christian world. Students, teachers, catechists and anyone who feels outnumbered for their convictions find in him a steady, hopeful companion.",
+    "quotes": [
+      {
+        "text": "For He was made man that we might be made God; and He manifested Himself by a body that we might receive the idea of the unseen Father; and He endured the insolence of men that we might inherit immortality.",
+        "work": "On the Incarnation of the Word, 54.3",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 4, ed. Archibald Robertson (1892; public domain)"
+      },
+      {
+        "text": "for to me also the bare recollection of Antony is a great accession of help.",
+        "work": "Life of Antony, introduction (letter to the monks in foreign parts)",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 4, trans. H. Ellershaw (1892; public domain)"
+      },
+      {
+        "text": "And the Word was made flesh, and dwelt among us, (and we saw his glory, the glory as it were of the only begotten of the Father,) full of grace and truth.",
+        "work": "John 1:14",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, eternal Word of the Father, you became man so that we might share your divine life. You gave St. Athanasius courage to confess you as true God when emperors, councils and crowds turned against him. Through his prayers, give me a faith that is clear and a heart that stays steady when standing for the truth is lonely. Keep me from bitterness in conflict, teach me to love your Church, and let everything I learn about you lead me to worship. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the memorial of St. Athanasius at Mass on May 2, which always falls in the Easter season, a fitting time to rejoice in the Word made flesh and risen.",
+      "Pray the Nicene Creed slowly, pausing on the words that confess the Son as one in being with the Father, the faith of Nicaea he spent his life defending.",
+      "Read a few sections of On the Incarnation, or the opening chapters of his Life of Antony.",
+      "Pray for unity with the Coptic Orthodox Church: in 1973 Pope Paul VI and Pope Shenouda III marked the 1,600th anniversary of his death together in Rome.",
+      "In Rome, look for his bronze figure, one of four Doctors of the Church supporting Bernini's Altar of the Chair in St. Peter's Basilica."
+    ],
+    "places": [
+      {
+        "name": "St. Peter's Basilica (his statue at Bernini's Altar of the Chair)",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en.html"
+      }
+    ],
+    "confirmationNote": "Athanasius suits a confirmand who loves to think hard about the faith and is not afraid to stand apart. He took seriously that Jesus is truly God and truly man, and he paid for that conviction with years of exile, yet he kept teaching, writing and shepherding his people. Choosing his name can mean promising to know your faith well and to hold it with courage and charity.",
+    "reflectionPrompts": [
+      "When have I stayed quiet about my faith to avoid standing out, and what would courage with kindness look like next time?",
+      "This week, learn one line of the Nicene Creed well enough to explain it to a friend or family member in your own words.",
+      "Read On the Incarnation, sections 54–57, in the Nicene and Post-Nicene Fathers translation, then Benedict XVI's general audience on Athanasius (20 June 2007)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anthony-the-great",
+        "reason": "The desert father whose Life Athanasius wrote",
+        "historical": true
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Praised him in Oration 21 and called him \"the pillar of the Church\"",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-alexandria",
+        "reason": "Later bishop of Alexandria who carried on his teaching about Christ",
+        "historical": true
+      },
+      {
+        "slug": "hilary-of-poitiers",
+        "reason": "Fellow fourth-century bishop exiled for defending Christ's divinity in the West",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 20 June 2007: Saint Athanasius of Alexandria",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070620.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 2 (St. Athanasius)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-02"
+      },
+      {
+        "title": "CCEL: NPNF2-04, Athanasius: Select Works and Letters (public-domain text, 1892)",
+        "url": "https://ccel.org/ccel/schaff/npnf204"
+      },
+      {
+        "title": "Catholic Encyclopedia: Athanasian Creed",
+        "url": "https://www.newadvent.org/cathen/02033b.htm"
+      },
+      {
+        "title": "Paul VI, Farewell address to Shenouda III, 10 May 1973",
+        "url": "https://www.vatican.va/content/paul-vi/en/speeches/1973/may/documents/hf_p-vi_spe_19730510_commiato.html"
+      },
+      {
+        "title": "Paul VI, Homily of 6 May 1973 (Italian)",
+        "url": "https://www.vatican.va/content/paul-vi/it/homilies/1973/documents/hf_p-vi_hom_19730506.html"
+      },
+      {
+        "title": "Vatican News: The baldacchino and the Altar of the Chair of St. Peter (2024)",
+        "url": "https://vaticannews.va/en/vatican-city/news/2024-10/baldacchino-and-the-altar-of-the-chair-of-st-peter-basilica.html"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: May sanctoral calendar",
+        "url": "https://liturgyoffice.org/Calendar/Sanctoral/May.shtml"
+      },
+      {
+        "title": "DRBO.org: John 1 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50001.htm"
+      },
+      {
+        "title": "St. Peter's Basilica (official site)",
+        "url": "https://www.basilicasanpietro.va/en.html"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists only Bellante, Italy, which has no live topic; no other patronage was found in a reputable Catholic source.",
+      "symbols: all five are from Catholic Culture's 'Symbols and Representation' list. Meanings are interpretive: the columns tied to Gregory of Nazianzus's 'pillar of the Church' (quoted by Benedict XVI), and the Nile boat is from legend, labeled as tradition.",
+      "quotes: both Athanasius quotes verified against the CCEL plain text of NPNF2-04 (print basis New York, 1892). The Life of Antony quote begins mid-sentence (lowercase kept). The volume credits H. Ellershaw with the Life of Antony translation; On the Incarnation is cited under the volume editor, Archibald Robertson, because the CCEL text checked did not state its translator explicitly.",
+      "prayer: the Roman Missal collect for May 2 is a copyrighted ICEL translation, so an original prayer is given.",
+      "feastCustoms: EWTN reports that Paul VI gave part of Athanasius's relics to Shenouda III in May 1973, but the vatican.va texts checked (homily of 6 May, farewell of 10 May, common declaration) do not mention relics, so the custom names only the anniversary. The Athanasian Creed was not used as a custom because the Catholic Encyclopedia says he most probably did not write it.",
+      "places: his relics are traditionally said to rest partly in Venice (San Zaccaria) and partly in Cairo; no official site or Vatican source confirming this was checked, so they were left out.",
+      "biography: no conflict. Catholic Culture gives his birth as 295; the reviewed 'about 300' matches Benedict XVI, who also gives his death as 2 May 373 and says he was exiled at least five times for 17 years in total."
+    ]
+  },
+  "augustine-of-canterbury": {
+    "templateVersion": 2,
+    "heroSummary": "St. Augustine of Canterbury is honored as a patron of England. A Roman monk sent by Pope Gregory the Great, he landed in Kent in 597 with a company of nearly forty, won King Æthelberht's permission to preach, and became the first archbishop of Canterbury. The Church remembers him on May 27.",
+    "searchDescription": "St. Augustine of Canterbury (died about 604), feast May 27: Roman monk sent by Gregory the Great to Kent in 597 and first archbishop of Canterbury.",
+    "patronages": [
+      "england"
+    ],
+    "symbols": [
+      {
+        "symbol": "Banner or processional cross with an image of Christ",
+        "meaning": "Bede says the missionaries met the king bearing a silver cross as their banner and an image of the Saviour painted on a board."
+      },
+      {
+        "symbol": "A bishop baptizing a king who rises from the font",
+        "meaning": "The baptism of King Æthelberht of Kent, which opened the way for many of his people to seek baptism."
+      },
+      {
+        "symbol": "Fountain or spring",
+        "meaning": "Tradition, rather than Bede's history, tells of springs linked to his preaching; the water also stands for the many baptisms of the mission."
+      },
+      {
+        "symbol": "Pallium, worn with cope and mitre",
+        "meaning": "His office as archbishop; Bede records that Pope Gregory sent him the pallium."
+      },
+      {
+        "symbol": "Pastoral staff with a pointed cross (cross fitchée) and a book",
+        "meaning": "A missionary bishop who carried the cross into new territory and preached the Gospel."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Augustine of Canterbury when a mission feels too big for them. Bede tells us that his company lost heart on the road and sent him back to Rome to ask to be excused; Pope Gregory instead urged them to finish the good work they had begun. Augustine went on, preached to a king who was cautious but fair, and began by worshipping in St. Martin's church, where the Christian Queen Bertha already prayed. He was no flawless hero, and his talks with the British bishops failed, but he persevered. Missionaries, evangelists, new leaders and anyone sent somewhere unfamiliar find in him an honest companion.",
+    "quotes": [
+      {
+        "text": "Forasmuch as it had been better not to begin a good work, than to think of desisting from one which has been begun, it behoves you, my beloved sons, to fulfil with all diligence the good work, which, by the help of the Lord, you have undertaken.",
+        "work": "Pope St. Gregory the Great to Augustine's company, in Bede, Ecclesiastical History, Book I, chapter 23",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "you must needs rejoice with fear, and fear with joy concerning that heavenly gift; for you will rejoice because the souls of the English are by outward miracles drawn to inward grace",
+        "work": "Pope St. Gregory the Great to Augustine, in Bede, Ecclesiastical History, Book I, chapter 31",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "We beseech thee, O Lord, for Thy great mercy, that Thy wrath and anger be turned away from this city, and from Thy holy house, for we have sinned. Hallelujah.",
+        "work": "Litany Bede says Augustine and his companions sang as they approached Canterbury, Ecclesiastical History, Book I, chapter 25",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord of the harvest, you sent St. Augustine and his companions from Rome to bring the Gospel to the English, and you strengthened them when they wanted to turn back. Through his prayers, give courage to all who are sent to unfamiliar places in your name. When I lose heart halfway through a good work, help me to finish it, trusting in your help rather than my own strength. Bless the Church in England, heal old divisions among Christians, and make me humble when you work through me. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Shrine of St Augustine, Ramsgate (Archdiocese of Southwark)",
+        "url": "https://rcaos.org.uk/diocese/southwark-shrines/shrine-of-st-augustine-and-the-national-pugin-centre-ramsgate-kent/"
+      }
+    },
+    "feastCustoms": [
+      "Celebrate St. Augustine on May 27: an optional memorial in the General Roman Calendar, a feast in England, and an optional memorial in Wales.",
+      "Read Bede's account of the mission, Ecclesiastical History, Book I, chapters 23–33, including Gregory's letters to Augustine.",
+      "Support missionaries with prayer or a gift, remembering that Gregory sent and sustained this mission from Rome.",
+      "Pray for the Church in England and for unity among Christians there, recalling that Augustine's mission met an older British Christianity.",
+      "Pilgrims in Kent can pray at the diocesan Shrine of St Augustine in Ramsgate, near the coast where he landed, which holds relics of the saint."
+    ],
+    "places": [
+      {
+        "name": "Shrine of St Augustine (diocesan shrine, Archdiocese of Southwark)",
+        "city": "Ramsgate, England",
+        "url": "https://rcaos.org.uk/diocese/southwark-shrines/shrine-of-st-augustine-and-the-national-pugin-centre-ramsgate-kent/"
+      },
+      {
+        "name": "St Augustine's Abbey (English Heritage), the monastery he founded and where he was buried",
+        "city": "Canterbury, England",
+        "url": "https://www.english-heritage.org.uk/visit/places/st-augustines-abbey/"
+      },
+      {
+        "name": "Canterbury Cathedral (now Anglican), on the site of the church Augustine restored as his cathedral",
+        "city": "Canterbury, England",
+        "url": "https://www.canterbury-cathedral.org/"
+      }
+    ],
+    "confirmationNote": "Augustine is a good choice for a confirmand who feels sent into something new: a new school, team, job or country. He was not fearless; he once returned to Rome hoping the mission could be called off. But he listened to Pope Gregory's encouragement, went on, and helped build a Church that lasted. Choosing his name can mean promising to finish the good work God has given you.",
+    "reflectionPrompts": [
+      "What good work have I started and wanted to abandon, and what would it take to finish it?",
+      "Think of someone new in your school, parish or neighborhood this week and find one concrete way to welcome them.",
+      "Read Bede's Ecclesiastical History, Book I, chapters 23–26, and note how the missionaries won a hearing from King Æthelberht."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gregory-the-great",
+        "reason": "The pope who chose him, sent him and guided him by letter",
+        "historical": true
+      },
+      {
+        "slug": "ethelbert-of-kent",
+        "reason": "King of Kent who welcomed the mission and was baptized",
+        "historical": true
+      },
+      {
+        "slug": "adrian-of-canterbury",
+        "reason": "Later abbot of the Canterbury monastery Augustine founded",
+        "historical": true
+      },
+      {
+        "slug": "bede-the-venerable",
+        "reason": "His Ecclesiastical History is the main source for Augustine's mission",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, May 27 (St. Augustine of Canterbury)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-27"
+      },
+      {
+        "title": "Bede, Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: May sanctoral calendar",
+        "url": "https://liturgyoffice.org/Calendar/Sanctoral/May.shtml"
+      },
+      {
+        "title": "Catholic Bishops' Conference of England and Wales: Pugin's church becomes official Shrine of St Augustine (2012)",
+        "url": "https://www.cbcew.org.uk/pugins-church-becomes-official-shrine-of-st-augustine"
+      },
+      {
+        "title": "Archdiocese of Southwark: Shrine of St Augustine and the National Pugin Centre, Ramsgate",
+        "url": "https://rcaos.org.uk/diocese/southwark-shrines/shrine-of-st-augustine-and-the-national-pugin-centre-ramsgate-kent/"
+      },
+      {
+        "title": "Vatican News: May 27 calendar",
+        "url": "https://www.vaticannews.va/en/saints/05/27.html"
+      },
+      {
+        "title": "English Heritage: St Augustine's Abbey",
+        "url": "https://www.english-heritage.org.uk/visit/places/st-augustines-abbey/"
+      },
+      {
+        "title": "Canterbury Cathedral (official site)",
+        "url": "https://www.canterbury-cathedral.org/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists England (live topic, included), plus Canterbury, the Diocese of Salford, the Archdiocese of Southwark and the Personal Ordinariate of Our Lady of the Southern Cross, none of which has a live topic. CBCEW calls him 'England's apostle' rather than patron.",
+      "symbols: all five from Catholic Culture's list. The banner meaning is from Bede I.25 and the pallium from Bede I.29. The fountain's meaning is interpretive; Catholic Culture gives no explanation, and the spring legends were not verified, so it is labeled as tradition.",
+      "quotes: Augustine left no writings apart from the questions Bede preserves, which concern church discipline. The quotes are Gregory's letters and the missionaries' litany as given by Bede, verified against the Sellar 1907 text on Project Gutenberg (ebook 38326). The second quote begins mid-sentence (lowercase kept).",
+      "prayer: the Roman Missal collect is a copyrighted ICEL translation, so an original prayer is given; the official shrine site (augustine-pugin.org.uk) could not be loaded, so the link points to the Archdiocese of Southwark's shrine page.",
+      "feastCustoms: the England feast and Wales optional memorial are from the Liturgy Office's sanctoral calendar. The relics at Ramsgate are from the Archdiocese of Southwark page; CBCEW's 2012 note about an annual 'St Augustine's week' was not used because it may be out of date.",
+      "places: St Augustine's Abbey and Canterbury Cathedral sites are official but not Catholic (English Heritage; Church of England). That Augustine is buried at the abbey and restored the cathedral church is from Bede (I.33, II.3); Bede says he was buried in the church of Sts. Peter and Paul, the monastery later called St Augustine's.",
+      "biography: no conflict. Catholic Culture's dates for his death vary (604, 605, 604–609) and Bede's epitaph gives May 26 without a year; the review's 'died about 604' is consistent. Catholic Culture calls his companions Benedictines and says he baptized the king; Bede says only that about forty went and that the king believed and was baptized, so neither detail was asserted."
+    ]
+  },
   "augustine-of-hippo": {
     "templateVersion": 2,
     "heroSummary": "St. Augustine of Hippo (354–430) was a North African teacher of rhetoric who searched for wisdom through philosophy and the Manichees before his conversion in Milan and his baptism in 387. As bishop of Hippo for more than thirty years he preached, cared for the poor, and wrote the Confessions. His feast is August 28.",
@@ -5270,6 +5565,966 @@
       "prayer: 'Breathe in me, O Holy Spirit' deliberately not attributed; see prayer.note.",
       "relatedSaints: jerome is linked by era and as a fellow great Latin Doctor (Catholic Culture); I did not verify their correspondence from a listed source, so it is not claimed.",
       "biography: no disagreement found. The context 'dates' field reads 'Fourth–fifth centuries' while the biography gives 354–430; the hero uses 354–430."
+    ]
+  },
+  "augustine-zhao-rong": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Augustine Zhao Rong was a Chinese soldier who, moved by the patience of a captive French bishop, asked for baptism and later became a diocesan priest. Arrested and cruelly tortured, he died in 1815. On July 9 the Church honors him with 119 companions, Chinese and foreign, martyred in China between 1648 and 1930.",
+    "searchDescription": "St. Augustine Zhao Rong (died 1815), feast July 9: Chinese soldier turned priest, martyred in 1815 and honored with 119 companion martyrs of China.",
+    "whyWeTurn": "People turn to St. Augustine Zhao Rong because his faith began by watching someone else suffer well. As a soldier guarding Bishop Dufresse, he saw a prisoner's patience and wanted to know its source. He was baptized, studied for the priesthood and served Catholics in a time of restriction, until he too was arrested and tortured. With him the Church remembers 119 others: teenagers and elders, catechists and farmers, priests, sisters and missionaries, killed across nearly three centuries. Converts, soldiers, those who suffer for their faith, and Catholics praying for the Church in China find in these martyrs steady, hopeful friends.",
+    "quotes": [
+      {
+        "text": "The justices of the Lord are right, rejoicing hearts: the commandment of the Lord is lightsome, enlightening the eyes.",
+        "work": "Psalm 18:9 (Psalm 19:9 in Hebrew numbering), the psalm St. John Paul II applied to these martyrs at their canonization",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Who then shall separate us from the love of Christ? Shall tribulation? or distress? or famine? or nakedness? or danger? or persecution? or the sword?",
+        "work": "Romans 8:35",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But in all these things we overcome, because of him that hath loved us.",
+        "work": "Romans 8:37",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you touched the heart of St. Augustine Zhao Rong through the patience of a suffering bishop, and you made a soldier into a priest and a martyr. Through the prayers of St. Augustine and his companions, strengthen all who are pressured to deny you. Bless the Church in China and every Catholic who lives the faith at a cost. Let my own patience in hardship point others toward you, and when I am afraid, remind me that nothing can separate me from your love. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate St. Augustine Zhao Rong and Companions on July 9, an optional memorial in the General Roman Calendar that honors the whole group, not a single day of martyrdom.",
+      "Read St. John Paul II's homily for their canonization on October 1, 2000, which recalls 14-year-old Anna Wang and 18-year-old Chi Zhuzi.",
+      "Learn a few of the companions' names, such as Francis Fernández de Capillas, honored as China's protomartyr in 1648, and the Franciscans of Shanxi, killed on July 9, 1900.",
+      "Pray for the Church in China; Pope Benedict XVI also asked Catholics to keep May 24, the memorial of Our Lady Help of Christians, as a day of prayer for it.",
+      "Offer your patience in a hardship for someone who does not yet know Christ, as Bishop Dufresse's patience reached Zhao Rong."
+    ],
+    "confirmationNote": "Augustine Zhao Rong can suit a confirmand who came to faith later, has a military connection, or has Chinese roots. He met Christ not through an argument but through a prisoner's patient witness, then gave his life to serving the Church. Taking his name can mean asking the Holy Spirit for the strength to stay faithful under pressure and to let your own example draw others to Christ.",
+    "reflectionPrompts": [
+      "Whose quiet witness first made me curious about Christ, and have I ever thanked God, or that person, for it?",
+      "This week, respond to one frustration or unfair moment with patience, and offer it as a prayer for persecuted Christians.",
+      "Read the Holy See's biographical notes on Augustine Zhao Rong and his 119 companions on vatican.va, then Romans 8:31–39."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anna-wang",
+        "reason": "Fourteen-year-old martyr canonized with him in 2000",
+        "historical": true
+      },
+      {
+        "slug": "john-gabriel-perboyre",
+        "reason": "French Vincentian priest martyred in China in 1840",
+        "historical": true
+      },
+      {
+        "slug": "andrew-kim-taegon",
+        "reason": "Korean priest-martyr of the same century, also honored in a group memorial",
+        "historical": false
+      },
+      {
+        "slug": "paul-miki",
+        "reason": "Leads another group of East Asian martyrs, those of Japan",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Augustine Zhao Rong and 119 companions, martyrs in China (biographical notes)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20001001_zhao-rong-compagni_en.html"
+      },
+      {
+        "title": "St. John Paul II, Homily for the canonization Mass, 1 October 2000",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2000/documents/hf_jp-ii_hom_20001001_canonization.html"
+      },
+      {
+        "title": "Vatican News: Sts. Augustine Zhao Rong, priest, and Companions, Chinese Martyrs",
+        "url": "https://www.vaticannews.va/en/saints/07/09/sts--augustine-zhao-rong--priest-and-companions--chinese-martyrs.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 9",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-09"
+      },
+      {
+        "title": "Benedict XVI, Letter to the Catholic Church in the People's Republic of China (2007), no. 19",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/letters/2007/documents/hf_ben-xvi_let_20070527_china.html"
+      },
+      {
+        "title": "Catholic Bishops' Conference of England and Wales: St Augustine Zhao Rong",
+        "url": "https://cbcew.org.uk/st-augustine-zhao-rong"
+      },
+      {
+        "title": "DRBO.org: Psalm 18 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21018.htm"
+      },
+      {
+        "title": "DRBO.org: Romans 8 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/52008.htm"
+      }
+    ],
+    "flags": [
+      "symbols: no reputable Catholic source describes established iconographic attributes for him; modern icons and holy cards (e.g. one with chrysanthemums) are not documented as standard attributes, so the field is empty and templateVersion is 1.5.",
+      "patronages: none found in a reputable source (Vatican, Vatican News, Catholic Culture and CBCEW list none).",
+      "quotes: he left no public-domain writings. CBCEW reports words he spoke to officials, but only in a modern translation, so Douay-Rheims verses are used. The homily names only 'the Responsorial Psalm' ('The precepts of the Lord give joy to the heart'); identifying it as Psalm 19:9 (Douay 18:9) is my inference.",
+      "prayer: Catholic Culture links a 'Prayer to Saint Augustine Zhao Rong and Companions' of unverified origin, so an original prayer is given.",
+      "places: no official shrine or church site for him was found. CBCEW says his remains were buried at Guan Shan and moved in 1822, but no official site exists to link.",
+      "biography: Vatican News calls him 'the first Chinese-born diocesan priest' and 'the first Chinese priest to give his life for the Lord', and says John Paul II 'beatified' the group in 2000 (it was a canonization) and gives 1646 rather than 1648; none of these claims was used. Catholic Culture says he accompanied Dufresse 'to his martyrdom in Beijing'; the Holy See says he escorted Dufresse from Chengdu to Beijing, and Dufresse was executed later, on 14 September 1815. The review's wording ('encounter') is consistent with the Holy See.",
+      "biography: CBCEW gives a divergent account (born 1746 in Guizhou; baptized by a 'Father Mei' with no mention of Dufresse; ordained at 35; died in prison in Chengdu awaiting judgment; beatified 27 May 1900; Church in China keeps 27 January). It also contains an internal error (baptism in 1752 when he would have been about six). None of this was used; a human may want to reconcile the conversion story.",
+      "feastCustoms: July 9 is the date the Shanxi Franciscans were killed in 1900 (Holy See notes); no source checked explains why the group memorial is on July 9, so no reason is given."
+    ]
+  },
+  "barbara": {
+    "templateVersion": 2,
+    "heroSummary": "St. Barbara is a traditional patron of firefighters, artillerymen and miners, and of anyone facing sudden danger. Her story of a tower and a cruel father is legend, and in 1969 her feast was dropped from the General Roman Calendar. She remains in the Roman Martyrology on December 4.",
+    "searchDescription": "St. Barbara, December 4: the legendary virgin martyr of the tower, patron of firefighters, miners and artillerymen, and why her feast left the calendar.",
+    "patronages": [
+      "firefighters"
+    ],
+    "symbols": [
+      {
+        "symbol": "Tower with three windows",
+        "meaning": "In her legend, her father kept her shut in a tower, and she had three windows rather than two built into a bath-house as a sign of the Holy Trinity. In art she is shown with a tower that has three windows, recalling both details."
+      },
+      {
+        "symbol": "Palm branch",
+        "meaning": "The palm of martyrdom, a sign of victory through death for Christ. Her veneration as a martyr is old even though the details of her death are not known."
+      },
+      {
+        "symbol": "Chalice and host",
+        "meaning": "Christians long asked her prayers so that they would not die without Penance and the Eucharist; the chalice stands for that hope of a good death."
+      },
+      {
+        "symbol": "Cannon",
+        "meaning": "A later attribute. Because her legend ends with her father struck by lightning, she came to be invoked against sudden, fiery death, and by analogy gunners and miners took her as patron."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Barbara when danger can come without warning: firefighters, miners, soldiers who work with explosives, and anyone caught in a storm. Very little about her life can be known, and the familiar tale of the tower and the lightning is legend. What is certain is that Christians in East and West honored her as a martyr for well over a thousand years. Her devotion also carries an old and tender request: that no one should die suddenly, without the chance to confess and receive Communion. Asking her prayers is a way of placing sudden fears, and our own last hour, in God's hands.",
+    "quotes": [
+      {
+        "text": "The name of the Lord is a strong tower: the just runneth to it, and shall be exalted.",
+        "work": "Proverbs 18:10",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For thou hast been my hope; a tower of strength against the face of the enemy.",
+        "work": "Psalm 60:4 (Psalm 61:3 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, the Church has long remembered St. Barbara as a young woman who would not give up her faith in you. Through her prayers, protect firefighters, miners and all who work near fire, explosives and the dangers of the earth. Shelter us in storms and in sudden trouble. Be our strong tower when we are afraid, and do not let us die unprepared: grant us time to turn back to you, to confess our sins and to receive your Son in the Eucharist. We ask this through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on December 4. Her feast is no longer on the General Roman Calendar, but she is commemorated that day in the Roman Martyrology, and some local churches and Eastern Christians still keep it.",
+      "Cut a Barbara branch: in parts of Europe a cherry twig is set in water on her day in the hope that it will blossom by Christmas Eve, an Advent sign of new life. Forcing a flower bulb works too.",
+      "In Poland, December 4 is Barbórka, the miners' day; pray for miners and for everyone who works underground.",
+      "Pray for firefighters and other emergency workers, or thank someone in your community who does that work.",
+      "Ask for the grace of a prepared death, for yourself and for anyone who is dying, so that no one is without the sacraments at the end."
+    ],
+    "confirmationNote": "Barbara suits a confirmand who wants courage and who is drawn to people who run toward danger, such as firefighters, miners and soldiers. Her life story is legend, and the Church says so honestly, but Christians have honored her as a martyr for centuries. Choosing her means asking for steadiness under pressure and for a faith that is ready, whenever God calls, to meet him well prepared.",
+    "reflectionPrompts": [
+      "What sudden fear do I carry, and have I ever given it to God in prayer?",
+      "Set a cherry twig or flower bulb in water on December 4 and pray for someone in a dangerous job each time you see it grow.",
+      "Read the 1907 Catholic Encyclopedia article on St. Barbara and note what it says can be known about her and what comes from her legendary Acts."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-of-damascus",
+        "reason": "Celebrated on December 4, the day of her commemoration",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-alexandria",
+        "reason": "Another popular virgin martyr whose story comes to us mainly through legend",
+        "historical": false
+      },
+      {
+        "slug": "margaret-of-antioch",
+        "reason": "Another legendary virgin martyr whose imagery outgrew the known facts",
+        "historical": false
+      },
+      {
+        "slug": "florian",
+        "reason": "Also invoked by firefighters and against fire",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Barbara",
+        "url": "https://www.newadvent.org/cathen/02284d.htm"
+      },
+      {
+        "title": "Catholic Culture: St. Barbara, Virgin and Martyr (December 4)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-04"
+      },
+      {
+        "title": "Paul VI, Mysterii Paschalis (1969), approving the new General Roman Calendar",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=5934"
+      },
+      {
+        "title": "Vatican News: December 4 calendar",
+        "url": "https://www.vaticannews.va/en/saints/12/04.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Proverbs 18",
+        "url": "https://www.drbo.org/chapter/22018.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 60",
+        "url": "https://www.drbo.org/chapter/21060.htm"
+      }
+    ],
+    "flags": [
+      "heroSummary/feastCustoms: Catholic Culture says her feast was removed from the General Roman Calendar for lack of historical basis and lists her as a Roman Martyrology commemoration; the 1969 date comes from the calendar reform approved by Mysterii Paschalis (signed February 14, 1969). Mysterii Paschalis itself says only that some saints were removed and does not name her, so a human may want to cite the Calendarium Romanum commentary if a direct citation is needed.",
+      "patronages: 'firefighters' and 'prisoners' both appear in Catholic Culture's long patronage list; the Catholic Encyclopedia names artillerymen, miners, and protection from storms and fire, but not firefighters by name. 'prisoners' (fitting her legendary imprisonment in a tower) is a minor item in that list; a human may prefer to drop it. Also sourced but with no live topic: artillerymen, miners, architects, builders, stonemasons, mathematicians, the dying, against lightning and storms, against sudden death, Syria.",
+      "symbols: tower with three windows, palm, chalice and host, and cannon are all in the Catholic Encyclopedia and Catholic Culture. Catholic Culture also lists a peacock feather, crown and sword; the peacock feather's meaning is not explained in the sources, so it was left out.",
+      "quotes: no writings by Barbara exist; the 'tower' verses (Douay-Rheims, checked at drbo.org) were chosen to echo her main attribute.",
+      "prayer: Catholic Culture prints an old prayer beginning 'Saint Barbara, thou noble bride' but gives no source or date, so an original prayer was written instead.",
+      "places: none listed. No official Catholic shrine site holding her relics was verified.",
+      "feastCustoms: Barbara branch, Barbórka and bulb-forcing come from Catholic Culture; the statement that Eastern Christians keep December 4 follows the Catholic Encyclopedia ('the Greek and the present Roman calendars').",
+      "biography: no disagreement with the reviewed biography.",
+      "patronages: dropped prisoners (minor entry in a long popular list) (coordinator)"
+    ]
+  },
+  "barnabas": {
+    "templateVersion": 2,
+    "heroSummary": "St. Barnabas, whose name means \"son of consolation,\" was a Levite from Cyprus who sold his field for the Jerusalem church, vouched for the newly converted Paul and led the first great missionary journey with him. Though not one of the Twelve, the Church honors him as an apostle on June 11.",
+    "searchDescription": "St. Barnabas, June 11: the Cypriot Levite and \"son of consolation\" who vouched for Paul, led the first mission with him and is honored as an apostle.",
+    "symbols": [
+      {
+        "symbol": "Book (the Gospel of St. Matthew)",
+        "meaning": "His mission as a preacher of the Gospel. Some images give him St. Matthew's Gospel in particular, an attribute found in older lists of his emblems."
+      },
+      {
+        "symbol": "Olive branch",
+        "meaning": "Peace and reconciliation. He is invoked as a peacemaker, fitting the man who brought the feared convert Paul into the community."
+      },
+      {
+        "symbol": "Pilgrim's staff",
+        "meaning": "His journeys as a missionary, from Antioch to Cyprus and the cities of Asia Minor."
+      },
+      {
+        "symbol": "Pile of stones",
+        "meaning": "Art often shows him standing on or near stones, recalling a late tradition that he died a martyr in Cyprus. The time and place of his death are not recorded."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Barnabas when they need encouragement, or want to become someone who gives it. Acts shows him selling his land for the poor, standing up for Paul when others still feared him, and rejoicing at the faith he found in Antioch. He was generous with trust and quick to see what God was doing in someone else. He also knew conflict: he and Paul parted ways over John Mark, yet Mark was later reconciled with Paul. Barnabas reminds us that holiness includes second chances. Tradition holds that he died in Cyprus, but Scripture leaves his end untold.",
+    "quotes": [
+      {
+        "text": "And Joseph, who, by the apostles, was surnamed Barnabas, (which is, by interpretation, The son of consolation,) a Levite, a Cyprian born, Having land, sold it, and brought the price, and laid it at the feet of the apostles.",
+        "work": "Acts 4:36–37",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But Barnabas took him, and brought him to the apostles, and told them how he had seen the Lord, and that he had spoken to him; and how in Damascus he had dealt confidently in the name of Jesus.",
+        "work": "Acts 9:27",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Who, when he was come, and had seen the grace of God, rejoiced: and he exhorted them all with purpose of heart to continue in the Lord. For he was a good man, and full of the Holy Ghost and of faith.",
+        "work": "Acts 11:23–24",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you filled St. Barnabas with faith and the Holy Spirit and made him a son of consolation for your Church. Give me his generous heart, ready to share what I have with those in need. Teach me to see your grace at work in other people, to speak up for those who are doubted, and to encourage those who are starting out. When I disagree with others, keep me open to reconciliation. Through his prayers, strengthen all missionaries who carry the Gospel today. We ask this through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on June 11, the memorial of St. Barnabas, Apostle; his name is also among the saints remembered in Eucharistic Prayer I, the Roman Canon.",
+      "Read the passages about him in Acts (4:36–37, 9:26–28, 11:19–30, 13:1–3 and 15:36–39) and notice how often he encourages someone.",
+      "Write a note of encouragement to someone who is new to the faith, new in a job or struggling to be accepted.",
+      "Give something away for the poor, as Barnabas sold his field for the community.",
+      "Pray for missionaries, and for the Church in Cyprus and Antioch, places tied to his ministry."
+    ],
+    "confirmationNote": "Barnabas suits a confirmand who wants to be an encourager. He saw the good in Paul when others were afraid, rejoiced at God's grace in new believers and gave generously of his own property. Acts calls him a good man, full of the Holy Spirit and of faith, which is exactly what Confirmation asks God to deepen. His quarrel with Paul also shows that saints can disagree and still serve faithfully.",
+    "reflectionPrompts": [
+      "Who in my life needs someone to believe in them, the way Barnabas believed in Paul?",
+      "Send one message of encouragement this week to someone who is starting something new or feeling left out.",
+      "Read Acts 9:26–28, Acts 11:19–26 and Acts 15:36–41, then Colossians 4:10 and 2 Timothy 4:11, and trace how the quarrel over Mark ended."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Barnabas vouched for him in Jerusalem and led their first missionary journey",
+        "historical": true
+      },
+      {
+        "slug": "mark-the-evangelist",
+        "reason": "His cousin, whom he took to Cyprus after parting with Paul",
+        "historical": true
+      },
+      {
+        "slug": "luke-the-evangelist",
+        "reason": "Author of Acts, our main source for Barnabas's life",
+        "historical": true
+      },
+      {
+        "slug": "anthony-mary-zaccaria",
+        "reason": "Founded the Barnabites, named for the church of St. Barnabas in Milan",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience of January 31, 2007: Barnabas, Silas and Apollos",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070131.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Barnabas, Apostle (June 11)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-11"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Barnabas",
+        "url": "https://www.newadvent.org/cathen/02300a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): Barnabites",
+        "url": "https://www.newadvent.org/cathen/02302a.htm"
+      },
+      {
+        "title": "Vatican News: June 11 calendar",
+        "url": "https://www.vaticannews.va/en/saints/06/11.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 4",
+        "url": "https://www.drbo.org/chapter/51004.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 9",
+        "url": "https://www.drbo.org/chapter/51009.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 11",
+        "url": "https://www.drbo.org/chapter/51011.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 13",
+        "url": "https://www.drbo.org/chapter/51013.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 15",
+        "url": "https://www.drbo.org/chapter/51015.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Colossians 4",
+        "url": "https://www.drbo.org/chapter/58004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists against hailstorms, coopers, weavers, invoked as peacemaker, Antioch, Cyprus, Florence, Marino and Marbella, but none has a live topic, so the field is omitted.",
+      "symbols: book/St. Matthew's Gospel, olive branch, pilgrim's staff and pile of stones are from Catholic Culture's list; the olive branch's meaning follows his patronage 'invoked as peacemaker' (Catholic Culture). Catholic Culture also mentions the claim that his body was found at Salamis in 488 ('not confirmed'); the popular story that Matthew's Gospel was found with it was not verified in a reputable source and is not stated. Stoning is NOT stated: Catholic Culture says his death's time and place are unrecorded and the Catholic Encyclopedia calls the Cyprus martyrdom tradition late and untrustworthy.",
+      "places: none listed. The Monastery of St. Barnabas near Salamis (Famagusta) is Orthodox, and no official site for San Barnaba in Milan was found.",
+      "relatedSaints: Mark as 'cousin' follows Colossians 4:10 (Douay-Rheims: 'cousin german of Barnabus' [sic, drbo spelling]). Benedict XVI notes Paul's later reconciliation with Mark (Philemon, 2 Timothy).",
+      "heroSummary: Benedict XVI says Barnabas was really the leader of the first journey, with Paul as collaborator; Catholic Culture says he was 'designated by the Holy Spirit to share the charge and mission of the twelve Apostles' though not one of the Twelve.",
+      "biography: no disagreement. The reviewed biography's 'son of encouragement or consolation' matches Benedict XVI; Douay-Rheims renders it 'son of consolation'."
+    ]
+  },
+  "bartholomew": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bartholomew is one of the Twelve Apostles and a traditional patron of shoemakers, leather workers and Armenia. Tradition identifies him with Nathanael, whom Jesus called \"an Israelite indeed, in whom there is no guile.\" Later accounts place his preaching in India and Armenia and his martyrdom by flaying. His feast is August 24.",
+    "searchDescription": "St. Bartholomew the Apostle, August 24: traditionally identified with Nathanael, linked with India and Armenia, and patron of shoemakers and tanners.",
+    "patronages": [
+      "shoemakers",
+      "armenia"
+    ],
+    "symbols": [
+      {
+        "symbol": "Flaying knife",
+        "meaning": "A tanner's knife recalls the tradition, popular from the Middle Ages, that he was skinned alive; the manner of his death is uncertain. It also explains his patronage of tanners, leather workers and shoemakers."
+      },
+      {
+        "symbol": "His own skin",
+        "meaning": "Art often shows him holding his flayed skin, most famously in Michelangelo's Last Judgment in the Sistine Chapel, where the skin bears the painter's own face."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "His mission as an apostle who carried the Gospel. Some lists specify St. Matthew's Gospel, linked to Eusebius's report that Pantaenus found traces of Bartholomew's preaching in India."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Bartholomew when they are honest skeptics. If tradition is right that he is Nathanael, his first words about Jesus were a doubt: could anything good come from Nazareth? Philip did not argue; he said, \"Come and see.\" Jesus then told him that he had seen him under the fig tree, and the doubter became a believer who called him Son of God. The Gospels record almost nothing else he said or did, which makes him a friend to quiet, faithful people who never make headlines. Tradition holds that he preached far from home and gave his life for Christ.",
+    "quotes": [
+      {
+        "text": "And Nathanael said to him: Can any thing of good come from Nazareth? Philip saith to him: Come and see. Jesus saw Nathanael coming to him: and he saith of him: Behold an Israelite indeed, in whom there is no guile.",
+        "work": "John 1:46–47",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Nathanael answered him, and said: Rabbi, thou art the Son of God, thou art the King of Israel. Jesus answered, and said to him: Because I said unto thee, I saw thee under the fig tree, thou believest: greater things than these shalt thou see.",
+        "work": "John 1:49–50",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And the names of the twelve apostles are these: The first, Simon who is called Peter, and Andrew his brother, James the son of Zebedee, and John his brother, Philip and Bartholomew, Thomas and Matthew the publican...",
+        "work": "Matthew 10:2–3 (excerpt)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you saw Bartholomew before Philip ever called him, and you welcomed his honest doubt with patience. See me too, wherever I sit and wonder. When I am tempted to think nothing good can come from the people or places I look down on, answer me with your gentle invitation: come and see. Make me a person without guile, steady in faith even when no one notices. Through St. Bartholomew's prayers, strengthen Christians in Armenia and everyone who suffers for your name. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 24, the feast of St. Bartholomew, Apostle, in the General Roman Calendar.",
+      "Read John 1:43–51 and imitate Philip: invite someone who has doubts to \"come and see\" a Mass, a parish event or a conversation about faith.",
+      "In Rome, pilgrims pray at the Basilica of St. Bartholomew on Tiber Island, where his relics are venerated and which is now also a memorial to the new martyrs of the 20th and 21st centuries.",
+      "Pray for the Christians of Armenia and for Christians persecuted today.",
+      "In England his day was once a harvest feast, and in Sandwich, Kent, children still run a Bartlemas bun race; a family meal or cookout is a simple way to mark the day."
+    ],
+    "places": [
+      {
+        "name": "Basilica of St. Bartholomew on the Island (San Bartolomeo all'Isola)",
+        "city": "Rome, Italy",
+        "url": "https://www.sanbartolomeo.org/"
+      }
+    ],
+    "confirmationNote": "Bartholomew suits a confirmand who has questions and wants to face them honestly. If he is Nathanael, his faith began with skepticism, then a personal encounter with Jesus turned it into a bold confession. Confirmation is not about having no questions; it is about letting the Holy Spirit lead us to know Christ for ourselves. Bartholomew also shows that quiet faithfulness, without fame, is real discipleship.",
+    "reflectionPrompts": [
+      "What doubt or prejudice of mine might Jesus be answering with \"Come and see\"?",
+      "Invite one person who has questions about faith to come with you to Mass, a talk or a parish event.",
+      "Read John 1:43–51 and Benedict XVI's general audience on Bartholomew (October 4, 2006), and note why tradition links him with Nathanael."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "philip-the-apostle",
+        "reason": "Brought Nathanael to Jesus and is paired with Bartholomew in the apostle lists",
+        "historical": true
+      },
+      {
+        "slug": "jude-thaddeus",
+        "reason": "Fellow apostle also linked by tradition with preaching in Armenia",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-illuminator",
+        "reason": "Patron of Armenia, who brought the faith to its king",
+        "historical": false
+      },
+      {
+        "slug": "crispin",
+        "reason": "Fellow patron of shoemakers",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience of October 4, 2006: Bartholomew",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20061004.html"
+      },
+      {
+        "title": "Catholic Culture: Feast of St. Bartholomew, Apostle (August 24)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-24"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Bartholomew",
+        "url": "https://www.newadvent.org/cathen/02313c.htm"
+      },
+      {
+        "title": "Basilica di San Bartolomeo all'Isola (Community of Sant'Egidio)",
+        "url": "https://www.sanbartolomeo.org/"
+      },
+      {
+        "title": "Vatican News: Feast of Saint Bartholomew",
+        "url": "https://www.vaticannews.va/en/word-of-the-day/2026/08/24.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 1",
+        "url": "https://www.drbo.org/chapter/50001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. 'shoemakers' and 'armenia' come from Catholic Culture's list (also cobblers, tanners, leather workers, bookbinders, butchers, plasterers, trappers, nervous and neurological diseases, Gambatesa); the Catholic Encyclopedia supports the Armenia tradition (death at Albanopolis in Armenia). The others have no live topic.",
+      "symbols: only three established attributes with clear meanings were used (knife, skin, book; all in Catholic Culture's list, the skin also in Benedict XVI and the Catholic Encyclopedia). Catholic Culture also lists a devil under his feet, a scimitar and a cross; their meanings were not explained in the sources consulted, so they were left out. The Pantaenus/Matthew's Gospel link for the book follows Eusebius as reported by Benedict XVI (traces in India) and the Catholic Encyclopedia; a human may want to confirm the Matthew detail.",
+      "quotes: Douay-Rheims numbers these verses John 1:46–47 and 49–50 (one higher than many modern Bibles for the later verses); text checked at drbo.org.",
+      "relatedSaints: the jude-thaddeus Armenia link follows the approved Jude page (Vatican News); Gregory the Illuminator is the live topic's patron of Armenia.",
+      "feastCustoms: relics on Tiber Island per Benedict XVI (brought by Otto III, 983) and Catholic Culture; new-martyrs memorial per the basilica's site. The Sandwich bun race and the harvest feast come from Catholic Culture; the race is a local civic/hospital custom, not a Catholic one, and could change.",
+      "biography: no disagreement. The reviewed biography mentions India; the Catholic Encyclopedia and Catholic Culture add Armenia, Mesopotamia, Persia and elsewhere, and call the manner of death uncertain."
+    ]
+  },
+  "basil-the-elder": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Basil the Elder was a fourth-century Christian layman and respected teacher in Cappadocia and Pontus, husband of St. Emmelia and father of a family of saints, including Basil the Great, Gregory of Nyssa, Peter of Sebaste and Macrina. Little is known of his own life. He and Emmelia are remembered on May 30.",
+    "searchDescription": "St. Basil the Elder, May 30: a lay teacher of Cappadocia, husband of St. Emmelia and father of Basil the Great, Gregory of Nyssa and Macrina.",
+    "whyWeTurn": "People turn to St. Basil the Elder as Christian parents, especially fathers who want to pass on the faith. He was not a bishop or a writer whose works survive. He was a married layman, known in his region as a teacher of virtue, who with his wife Emmelia raised children the Church now honors as saints. St. Gregory of Nazianzus, who knew the family, praised the couple for generosity to the poor, hospitality and setting aside part of their property for God. Basil reminds us that the home is often where holiness is first learned, quietly, long before anyone notices.",
+    "quotes": [
+      {
+        "text": "The union of his parents, cemented as it was by a community of virtue, no less than by cohabitation, was notable for many reasons, especially for generosity to the poor, for hospitality, for purity of soul as the result of self-discipline...",
+        "work": "Gregory of Nazianzus, Oration 43 (Funeral Oration on St. Basil), 9 (excerpt)",
+        "translation": "C. G. Browne and J. E. Swallow, Nicene and Post-Nicene Fathers, Second Series, vol. 7 (1894; public domain)"
+      },
+      {
+        "text": "...under his great father, acknowledged in those days by Pontus, as its common teacher of virtue.",
+        "work": "Gregory of Nazianzus, Oration 43 (Funeral Oration on St. Basil), 12 (excerpt)",
+        "translation": "C. G. Browne and J. E. Swallow, Nicene and Post-Nicene Fathers, Second Series, vol. 7 (1894; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you blessed St. Basil the Elder and St. Emmelia with a home where faith, learning and generosity grew together, and from it you raised saints for your Church. Bless our families. Give fathers and mothers patience to teach by word and example, hearts open to the poor, and homes where guests are welcome. Help us dedicate part of what we have to you. Through the prayers of Basil and Emmelia, let our children come to know and love you, and keep all who suffer for their faith steady and hopeful. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember Sts. Basil the Elder and Emmelia on May 30. They are not on the General Roman Calendar, but the couple are commemorated together on that day.",
+      "Pray for your parents, living or dead, and for fathers and mothers who are trying to hand on the faith.",
+      "As a family, set aside something for the poor or invite a guest to a meal, following the generosity and hospitality Gregory of Nazianzus praised in this household.",
+      "Pray for Christians driven from their homes for their faith, as members of this family were in the persecution of Galerius."
+    ],
+    "confirmationNote": "Basil the Elder suits a confirmand who wants to honor what was handed on at home, or who hopes one day to raise a Christian family. He was a layman and teacher, not a cleric, and his holiness was lived in marriage, work and the daily formation of his children. Confirmation strengthens every baptized person for witness, and Basil shows that ordinary family life can be a place where saints are formed.",
+    "reflectionPrompts": [
+      "Who first taught me the faith at home, and have I thanked God, and them, for it?",
+      "Choose one family habit this week, such as a shared prayer, an act of hospitality or a gift to the poor, and keep it.",
+      "Read sections 9–12 of Gregory of Nazianzus's Oration 43 (his funeral oration for St. Basil) and list what he says about Basil's parents."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "basil-the-great",
+        "reason": "His son, bishop of Caesarea and Doctor of the Church",
+        "historical": true
+      },
+      {
+        "slug": "macrina-the-younger",
+        "reason": "His daughter, who founded a religious community on the family estate at Annesi",
+        "historical": true
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "His son's friend, whose funeral oration praises Basil the Elder as a teacher of virtue",
+        "historical": true
+      },
+      {
+        "slug": "louis-martin",
+        "reason": "Another married layman honored as a saintly father of saints",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Basil the Great",
+        "url": "https://www.newadvent.org/cathen/02330b.htm"
+      },
+      {
+        "title": "Nominis (Conférence des évêques de France): Saint Basile l'Ancien",
+        "url": "https://nominis.cef.fr/contenus/saint/10038/Saint-Basile-l-Ancien.html"
+      },
+      {
+        "title": "Gregory of Nazianzus, Oration 43 (NPNF II/7, at New Advent)",
+        "url": "https://www.newadvent.org/fathers/310243.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols empty. No established iconographic attributes for Basil the Elder were found in any reputable source; he is rarely depicted apart from his family.",
+      "patronages: review lists none, and no reputable source gives him a patronage.",
+      "places: none; no shrine or church dedicated to him with an official site was found.",
+      "quotes: no writings by Basil the Elder survive. The two quotations are Gregory of Nazianzus writing about him (Oration 43), from the public-domain 1894 NPNF translation as edited at New Advent; checked against that page.",
+      "feastCustoms: the May 30 joint commemoration follows the reviewed biography and Nominis, which quotes the Roman Martyrology entry for the couple. The 'persecution of Galerius' item follows the Martyrology text quoted by Nominis (the couple banished under Galerius Maximian, living in the wilds of Pontus).",
+      "biography: possible discrepancy, already hedged in the reviewed biography. The Catholic Encyclopedia says it was Basil the Elder's PARENTS (the grandparents of Basil the Great) who suffered in the persecution of Maximinus Galerius and hid in the mountains of Pontus, while the Roman Martyrology entry quoted by Nominis says Basil and Emmelia themselves were banished. The page says only 'members of this family' to avoid choosing. Nominis gives death dates of 349 and 372 for the couple without saying which is whose; neither date was used. The Catholic Encyclopedia says he died while Basil the Great was still young."
+    ]
+  },
+  "basil-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Basil the Great was a fourth-century bishop of Caesarea in Cappadocia, a Doctor of the Church and a father of Eastern monastic life. He defended the divinity of the Son and the Holy Spirit and built a whole complex of care for the sick and poor. The Church remembers him with his friend St. Gregory Nazianzen on January 2.",
+    "searchDescription": "St. Basil the Great (about 329–379), feast January 2: bishop of Caesarea, Doctor of the Church, monastic guide and founder of care for the sick and poor.",
+    "symbols": [
+      {
+        "symbol": "Book or scroll",
+        "meaning": "His influential writings, including his treatise On the Holy Spirit, his homilies and his rules for monastic life."
+      },
+      {
+        "symbol": "Dove",
+        "meaning": "The Holy Spirit, whose full divinity Basil defended in his treatise On the Holy Spirit."
+      },
+      {
+        "symbol": "Supernatural fire",
+        "meaning": "A sign, drawn from later tradition rather than from his contemporaries, of the Spirit's fire in his preaching and teaching; in art it is often shown together with the dove."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Basil when faith has to show itself in both clear thinking and practical love. He was a brilliant student who, moved partly by his sister Macrina's example, gave up a promising career to seek God. As bishop he defended the Church's faith in the Holy Spirit, stood up to the powerful, and organized care for the sick and the poor on a scale his city had not seen. Benedict XVI called that complex of care the origin of the modern hospital. Students, teachers, nurses, monks and anyone who serves the sick find in Basil a steady, practical companion in prayer.",
+    "quotes": [
+      {
+        "text": "Through His aid hearts are lifted up, the weak are held by the hand, and they who are advancing are brought to perfection.",
+        "work": "On the Holy Spirit (De Spiritu Sancto), chapter 9, section 23 (on the Holy Spirit)",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 8, trans. Blomfield Jackson (Edinburgh: T&T Clark, 1895; public domain)"
+      },
+      {
+        "text": "...so souls wherein the Spirit dwells, illuminated by the Spirit, themselves become spiritual, and send forth their grace to others.",
+        "work": "On the Holy Spirit (De Spiritu Sancto), chapter 9, section 23",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 8, trans. Blomfield Jackson (Edinburgh: T&T Clark, 1895; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Holy Spirit, Lord and giver of life, you filled St. Basil with wisdom to teach the truth and with love to serve the sick and the poor. Through his prayers, lift up my heart when it is heavy, hold me by the hand when I am weak, and lead me on when I grow tired. Teach me to think clearly about my faith and to put it into practice in works of mercy. Let what I receive from you shine out to others, as it did in Basil's life. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the memorial of Sts. Basil the Great and Gregory Nazianzen at Mass on January 2, during the Christmas season.",
+      "Bake a vasilopita, or St. Basil's bread: in Greek tradition, where January 1 is St. Basil's Day, a coin is hidden in the loaf and a portion is set aside for the poor.",
+      "Visit someone who is sick, or give to a hospital, clinic or shelter, remembering the city of care Basil built at Caesarea.",
+      "Read chapter 9 of his treatise On the Holy Spirit and pray for the gifts of the Spirit.",
+      "Learn about the Byzantine liturgy; Benedict XVI noted that a great Eucharistic Prayer still bears Basil's name."
+    ],
+    "confirmationNote": "Basil is a fitting choice for a confirmand who wants faith and service to belong together. He wrote one of the Church's great works on the Holy Spirit, the same Spirit given in Confirmation, and then put that faith to work in care for the sick and poor. He also shows the value of family and friends, since his sister Macrina and his friend Gregory helped shape his vocation.",
+    "reflectionPrompts": [
+      "Who in my family or among my friends has drawn me closer to God, as Macrina and Gregory did for Basil?",
+      "Choose one concrete work of mercy for the sick or the poor this week and do it in Basil's name.",
+      "Read Basil's On the Holy Spirit, chapter 9, in the Nicene and Post-Nicene Fathers translation, alongside Benedict XVI's general audience of 4 July 2007 on him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "His closest friend; they share the January 2 memorial",
+        "historical": true
+      },
+      {
+        "slug": "macrina-the-younger",
+        "reason": "His sister, whose ascetic life helped turn him toward God",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Benedict's Rule, chapter 73, commends the Rule of \"our Holy Father St. Basil\"",
+        "historical": true
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Another saint remembered for founding care for the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 4 July 2007: Saint Basil (1)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070704.html"
+      },
+      {
+        "title": "Vatican News: Saints Basil the Great and Gregory Nazianzen, January 2",
+        "url": "https://www.vaticannews.va/en/saints/01/02.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, January 2 (Sts. Basil and Gregory Nazianzen)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-02"
+      },
+      {
+        "title": "Catholic Culture: Day Nine, Activities for the Feast of St. Basil and St. Gregory (Vasilopita)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=993"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Basil the Great",
+        "url": "https://www.newadvent.org/cathen/02330b.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Ephraem (on the disputed meeting with Basil)",
+        "url": "https://www.newadvent.org/cathen/05498a.htm"
+      },
+      {
+        "title": "CCEL: NPNF2-08, Basil: Letters and Select Works (public-domain text, T&T Clark 1895)",
+        "url": "https://ccel.org/ccel/schaff/npnf208"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists hospital administrators, monks, reformers, Cappadocia, Russia and Cessaniti (Italy); these are sourced but have no live topic. The live 'hospitals' topic was not used because the sourced patronage is specifically hospital administrators; a human may decide whether that is close enough.",
+      "symbols: only three, all from Catholic Culture's list ('Supernatural fire, often with a dove present; carrying a scroll or book'). The meaning of the fire is labeled as tradition; popular accounts tie it to a vision of St. Ephrem, but the Catholic Encyclopedia notes some critics doubt the two ever met, so that story was not stated. Eastern bishop's vestments (omophorion) were not added for lack of a reputable Catholic source.",
+      "quotes: both verified against the CCEL plain-text edition of NPNF2-08 (print basis Edinburgh: T&T Clark, 1895). Editorial footnote markers were dropped; quote 2 begins mid-sentence. The well-known 'bread belongs to the hungry' homily was not quoted because no public-domain English text was verified.",
+      "prayer: the Roman Missal collect for January 2 is a copyrighted ICEL translation, so an original prayer is given; it echoes the first quote.",
+      "places: none listed; no official site directly tied to Basil (tomb, shrine or relics) was verified. Catholic Culture says his relics are scattered, mainly in Orthodox settings.",
+      "feastCustoms: the vasilopita custom is Greek/Orthodox in origin and is presented as such (source: Catholic Culture activity page). Eastern dates (January 1, and January 30 for the Three Hierarchs) appear in the Catholic Encyclopedia but were not added as customs.",
+      "biography: no conflict. Benedict XVI and Catholic Culture agree he became bishop of Caesarea in 370 and died in 379; the Catholic Encyclopedia gives his death date as 1 January 379."
+    ]
+  },
+  "bede-the-venerable": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bede the Venerable was a monk and priest of Wearmouth and Jarrow in Northumbria who spent his whole life studying, teaching and writing. His Ecclesiastical History of the English People earned him the title \"father of English history,\" and Leo XIII named him a Doctor of the Church. His feast is May 25.",
+    "searchDescription": "St. Bede the Venerable (about 672/673–735), feast May 25: monk of Wearmouth and Jarrow, Doctor of the Church and father of English history.",
+    "symbols": [
+      {
+        "symbol": "Monk writing at a desk",
+        "meaning": "A lifetime spent in one monastery, where, in his own words, he delighted in learning, teaching and writing."
+      },
+      {
+        "symbol": "Pen and inkhorn",
+        "meaning": "His many books on Scripture, history, time-reckoning and grammar, some still being dictated in the last days of his life."
+      },
+      {
+        "symbol": "Book (the Ecclesiastical History)",
+        "meaning": "His History of the English Church and people, completed in 731 and still a key source for early English Christianity."
+      },
+      {
+        "symbol": "Scroll",
+        "meaning": "His teaching and commentaries on the Bible, drawn from the Fathers for his brother monks."
+      },
+      {
+        "symbol": "Old monk dying among his community",
+        "meaning": "The account by his student Cuthbert of Bede's peaceful death, chanting \"Glory be to the Father\" on the floor of his cell."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Bede because his holiness grew in ordinary places: a classroom, a library, a choir stall. Given to the monastery at seven, he never traveled far, yet his books reached all of Europe, and the way we date years from the birth of Christ owes much to him. He loved Scripture, taught his students until the day he died, and finished his life singing the Glory Be. Students, teachers, writers, historians, readers at Mass and anyone whose work is quiet and steady find in Bede a gentle companion who shows that faithful study can itself be prayer.",
+    "quotes": [
+      {
+        "text": "I wholly applied myself to the study of Scripture; and amidst the observance of monastic rule, and the daily charge of singing in the church, I always took delight in learning, or teaching, or writing.",
+        "work": "Ecclesiastical History of the English Nation, Book V, chapter 24 (Bede on his own life)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "...the time of my release is at hand; for my soul longs to see Christ my King in His beauty.",
+        "work": "Letter of Cuthbert to Cuthwin on the death of Bede (Bede's words as Cuthbert reports them)",
+        "translation": "In A. M. Sellar's edition of the Ecclesiastical History (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "I declare with truth that I have never seen with my eyes, or heard with my ears, any man so earnest in giving thanks to the living God.",
+        "work": "Letter of Cuthbert to Cuthwin on the death of Bede (Cuthbert writing about Bede)",
+        "translation": "In A. M. Sellar's edition of the Ecclesiastical History (London: George Bell and Sons, 1907; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "And I beseech Thee, good Jesus, that to whom Thou hast graciously granted sweetly to drink in the words of Thy knowledge, Thou wilt also vouchsafe in Thy loving-kindness that he may one day come to Thee, the Fountain of all wisdom, and appear for ever before Thy face.",
+      "kind": "traditional",
+      "source": "Bede, Ecclesiastical History of the English Nation, Book V, chapter 24 (closing prayer), trans. A. M. Sellar (1907, public domain)",
+      "note": "This is Bede's own prayer at the end of his History; Benedict XVI quoted it in his general audience of 18 February 2009. It suits a time before study or reading."
+    },
+    "feastCustoms": [
+      "Attend Mass on May 25, the optional memorial of St. Bede the Venerable, Priest and Doctor of the Church, in the General Roman Calendar.",
+      "Read the Letter of Cuthbert to Cuthwin, the short eyewitness account of Bede's last days, and pray the Glory Be slowly, as he did at his death.",
+      "Before studying or reading, pray Bede's own closing prayer from the Ecclesiastical History.",
+      "Read a chapter of his History aloud as a family, such as the story of Caedmon the cowherd poet (Book IV, chapter 24).",
+      "Thank a teacher or help someone learn something, in honor of a monk who taught his students to the end."
+    ],
+    "places": [
+      {
+        "name": "Durham Cathedral (Bede's tomb in the Galilee Chapel)",
+        "city": "Durham, England",
+        "url": "https://www.durhamcathedral.co.uk/explore/treasures-collections/bedes-tomb"
+      },
+      {
+        "name": "Jarrow Hall (Anglo-Saxon farm, village and Bede Museum)",
+        "city": "Jarrow, England",
+        "url": "https://jarrowhall.com/"
+      }
+    ],
+    "confirmationNote": "Bede suits a confirmand who loves books, history or learning, or who simply wants to grow in faith through steady daily habits. He spent his life listening to Scripture and handing on what he learned. Benedict XVI noted that Bede taught that the sacraments of initiation make a believer \"not only a Christian but Christ.\" His example shows that a quiet, faithful life can bear fruit far beyond its own walls.",
+    "reflectionPrompts": [
+      "What do I truly delight in learning, and how could I offer that study to God?",
+      "Pick one book of the Bible and read a short passage each day this week, asking what it teaches about Christ.",
+      "Read Bede's account of his own life in the Ecclesiastical History, Book V, chapter 24, and then Cuthbert's letter on his death; compare how each describes him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-of-beverley",
+        "reason": "The \"Bishop John\" who ordained Bede deacon and priest",
+        "historical": true
+      },
+      {
+        "slug": "cuthbert-of-lindisfarne",
+        "reason": "Northumbrian saint whose Life Bede wrote; their relics later lay together at Durham",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Abbess whose life and community Bede records in his History",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "Bede's History honors him for sending the mission to the English",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 18 February 2009: Bede, the Venerable",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090218.html"
+      },
+      {
+        "title": "Vatican News (French): Saint Bède le Vénérable",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/05/25/saint-bede-le-venerable.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 25 (Opt. Mem. of St. Bede the Venerable)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-05-25"
+      },
+      {
+        "title": "Bede's Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg eBook #38326 (public domain; includes Cuthbert's letter)",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Durham Cathedral: Bede's Tomb",
+        "url": "https://www.durhamcathedral.co.uk/explore/treasures-collections/bedes-tomb"
+      },
+      {
+        "title": "Jarrow Hall: Anglo-Saxon Farm, Village and Bede Museum (official site)",
+        "url": "https://jarrowhall.com/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists lectors, historians and Redemptoris Mater Seminary (Uzhhorod, Ukraine); these are sourced but have no live topic.",
+      "symbols: all five from Catholic Culture's 'Symbols and Representation' and 'Often portrayed as' lists. Its 'pitcher of water and light from Heaven' (and 'old monk with a jug') was left out because no reputable source explaining its meaning was found.",
+      "quotes: verified against the Gutenberg text of Sellar's 1907 revised translation, which prints Cuthbert's letter in its introductory Life of Bede. Footnote markers were dropped; quote 2 starts mid-sentence. Benedict XVI quotes the same V.24 passage in nearly identical wording.",
+      "prayer: marked 'traditional' because it is Bede's own prayer, verified word for word in Sellar's 1907 text; it is shorter than an original prayer would be (about 50 words).",
+      "places: Durham Cathedral is now a Church of England cathedral; its official page confirms Bede's tomb in the Galilee Chapel. Jarrow Hall is a museum, not a church; it was listed because it is an official site at Bede's monastery town. St. Paul's Church, Jarrow, was not listed because no official website was verified.",
+      "relatedSaints: John of Beverley is identified with Bede's 'Bishop John' (Sellar's note and Bede's own History, V.24); a human may wish to confirm against the john-of-beverley page.",
+      "biography: no conflict with the reviewed text. Note that Benedict XVI's 2009 audience gives Bede's death as '26 May 737'; the reviewed biography, Catholic Culture and Cuthbert's letter (Ascension Day, 26 May, of the year usually reckoned 735) support 735, so 735 is kept. Cuthbert says he died on the evening of Ascension Day; the feast is kept on May 25."
+    ]
+  },
+  "benedict": {
+    "templateVersion": 2,
+    "heroSummary": "St. Benedict of Nursia is the patron of Europe, named by Paul VI in 1964, and a patron of farmers. After living as a hermit at Subiaco, he gathered monks into communities and wrote at Monte Cassino the Rule that still guides Benedictine life: prayer, work and sacred reading. His feast is July 11.",
+    "searchDescription": "St. Benedict of Nursia (about 480–547), feast July 11: patron of Europe, father of Western monasticism and author of the Rule for monks.",
+    "patronages": [
+      "farmers",
+      "europe"
+    ],
+    "symbols": [
+      {
+        "symbol": "Book of the Rule",
+        "meaning": "The Rule for monks he wrote at Monte Cassino; Gregory the Great says it shows his whole manner of life, because he could not teach otherwise than he lived."
+      },
+      {
+        "symbol": "Broken cup with a serpent",
+        "meaning": "Gregory's account that monks who resented his strictness tried to poison his wine, and the glass shattered when he blessed it with the sign of the cross."
+      },
+      {
+        "symbol": "Raven",
+        "meaning": "Gregory tells of a bird that came to him at meals and, at his command, carried away a poisoned loaf; art usually shows a raven."
+      },
+      {
+        "symbol": "Bell",
+        "meaning": "The little bell the monk Romanus tied to a rope to signal that bread was being let down to Benedict's cave at Subiaco."
+      },
+      {
+        "symbol": "Crosier and Benedictine cowl",
+        "meaning": "His office as abbot and father of monks, and the habit still worn by those who follow his Rule."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Benedict because he made holiness livable. He fled a careless student life in Rome, prayed alone in a cave, and then learned to lead others with patience, writing a Rule that balances prayer, work, reading, rest and listening to one another. Its watchword, to prefer nothing to the love of Christ, still guides monks and lay people alike. Many carry the St. Benedict medal, and tradition invokes him against poison, temptation and evil, and for a peaceful death. Farmers, students, families, leaders and anyone seeking order and peace in daily life find in him a wise, steady father.",
+    "quotes": [
+      {
+        "text": "Listen, my son, and turn the ear of thine heart to the precepts of thy Master.",
+        "work": "Rule of St. Benedict, Prologue",
+        "translation": "Cardinal Gasquet (London: Chatto & Windus, The Medieval Library, 1925; public domain)"
+      },
+      {
+        "text": "To prefer nothing to the love of Christ.",
+        "work": "Rule of St. Benedict, chapter 4 (The Instruments of Good Works)",
+        "translation": "Cardinal Gasquet (London: Chatto & Windus, The Medieval Library, 1925; public domain)"
+      },
+      {
+        "text": "...for the holy man could not otherwise teach, than himself lived.",
+        "work": "Gregory the Great, Dialogues, Book II, chapter 36 (Gregory writing about Benedict and his Rule)",
+        "translation": "P. W. (1608), ed. Edmund G. Gardner (London: Philip Lee Warner, 1911; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Benedict to seek you above all things and to build a school of your service where prayer and work belong together. Through his prayers, help me to listen to you with the ear of my heart, to welcome every guest as Christ, and to do ordinary tasks with care. Guard me against temptation and every evil, give peace to Europe and to the whole world, and when my life ends, let me die, like Benedict, held up by others and lifting my hands to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on July 11, the memorial of St. Benedict, Abbot, in the General Roman Calendar; as patron of Europe he receives the liturgical honors of a principal patron there.",
+      "Have a St. Benedict medal blessed, learn the meaning of its letters and symbols, and wear it or keep it at home.",
+      "Read the Prologue of the Rule, or chapter 53 on welcoming guests \"as Christ,\" and offer hospitality to someone who needs it.",
+      "Balance the day the Benedictine way: set aside time for prayer, honest work and a few minutes of slow, prayerful reading of Scripture.",
+      "Pray for peace and unity among the peoples of Europe, the intention Paul VI entrusted to Benedict when he named him patron."
+    ],
+    "places": [
+      {
+        "name": "Abbey of Montecassino (where Benedict wrote the Rule and was buried)",
+        "city": "Cassino, Italy",
+        "url": "https://abbaziamontecassino.it/"
+      },
+      {
+        "name": "Monasteries of Subiaco (including the Sacro Speco, the cave where he lived as a hermit)",
+        "city": "Subiaco, Italy",
+        "url": "https://benedettini-subiaco.org/"
+      },
+      {
+        "name": "Monastery of San Benedetto in Monte (Monks of Norcia, at his birthplace)",
+        "city": "Norcia, Italy",
+        "url": "https://en.nursia.org/"
+      }
+    ],
+    "confirmationNote": "Benedict is a strong choice for a confirmand who wants a faith that shapes ordinary life. His Rule begins with one word, \"Listen,\" and asks Christians to prefer nothing to the love of Christ. He shows how prayer, work, study and community can fit together, and how a young person who chose God over a comfortable career could change the history of a continent.",
+    "reflectionPrompts": [
+      "What do I prefer to the love of Christ, and what would change if I put him first?",
+      "Make a simple daily rule for this week, with a set time for prayer, work, reading and rest, and keep it.",
+      "Read the Prologue of the Rule of St. Benedict and Gregory the Great's Dialogues, Book II, chapters 1–3, on his years at Subiaco."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "scholastica",
+        "reason": "His sister; Gregory says they were buried in the same grave",
+        "historical": true
+      },
+      {
+        "slug": "maurus",
+        "reason": "His disciple, whom Gregory's Dialogues describe at Subiaco",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "Wrote the only early life of Benedict, in Dialogues Book II",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Fellow patron of Europe",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Benedict, Abbot, Patron of Europe",
+        "url": "https://www.vaticannews.va/en/saints/07/11/st--benedict--abbot--patron-of-europe.html"
+      },
+      {
+        "title": "Paul VI, Apostolic Letter Pacis Nuntius (24 October 1964), naming St. Benedict patron of Europe",
+        "url": "https://www.vatican.va/content/paul-vi/la/apost_letters/documents/hf_p-vi_apl_19641024_pacis-nuntius.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience, 9 April 2008: Saint Benedict of Norcia",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080409.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 11 (Memorial of St. Benedict, Abbot)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-11"
+      },
+      {
+        "title": "The Rule of Saint Benedict, trans. Cardinal Gasquet (Chatto & Windus, 1925), Internet Archive",
+        "url": "https://archive.org/details/ruleofsaintbened0000bene"
+      },
+      {
+        "title": "Gregory the Great, Dialogues (1911), Book 2, trans. P. W. (1608), ed. E. G. Gardner, Tertullian Project (public domain)",
+        "url": "https://www.tertullian.org/fathers/gregory_02_dialogues_book2.htm"
+      },
+      {
+        "title": "Abbazia di Montecassino (official website)",
+        "url": "https://abbaziamontecassino.it/"
+      },
+      {
+        "title": "Monasteri di Subiaco (official website)",
+        "url": "https://benedettini-subiaco.org/"
+      },
+      {
+        "title": "Monks of Norcia, Monastero di San Benedetto in Monte (official website)",
+        "url": "https://en.nursia.org/"
+      }
+    ],
+    "flags": [
+      "patronages: 'europe' from Paul VI's Pacis Nuntius and Vatican News; 'farmers' from Catholic Culture's patronage list (which also lists agricultural and farm workers). Pacis Nuntius also cites the plough ('aratro') as one of his gifts to Europe. Other Catholic Culture patronages (against poison, monks, people in religious orders, schoolchildren, dying people, temptations, cavers, Italian architects, Norcia, etc.) are sourced but have no live topic. Europe is listed last as the regional patronage, though the hero names it first as his best-known title.",
+      "symbols: all five from Catholic Culture's list ('Bell; broken cup; broken cup and serpent representing poison; ... crosier; man in a Benedictine cowl holding Benedict's rule or a rod of discipline; raven'). Gregory's 1608 translation calls the bird a 'crow'; Catholic Culture and common art say raven. The serpent is an artistic sign for poison, not in Gregory's text.",
+      "quotes: Rule quotes use Cardinal Gasquet's translation from the 1925 Chatto & Windus printing (published before 1929, so public domain in the US). A 1909 first printing could not be confirmed, so the 1925 printing is cited. Wording was checked against the Internet Archive OCR text; footnote markers were dropped. Leonard Doyle's translation (Gutenberg #50040) is marked 'Copyright 1948' and Verheyen (1949) was not used. The Gregory quote is from the 1911 Gardner edition of the 1608 translation (chapter 36) and begins mid-sentence.",
+      "whyWeTurn: 'tradition invokes him against poison, temptation and evil, and for a peaceful death' rests on Catholic Culture's patronage list (against poison, temptations, dying people) and the St. Benedict medal tradition it describes.",
+      "feastCustoms: the higher liturgical rank in Europe rests on Pacis Nuntius granting 'the liturgical honors and privileges proper to principal patrons'; exact rank varies by country and was not stated. Catholic Culture notes his feast was on March 21 before the 1969 calendar reform; this was not added as a custom.",
+      "places: the 'Monasteri di Subiaco' site describes itself as the official website of the Subiaco monasteries (Santa Scolastica and the Sacro Speco). The Monks of Norcia now live at San Benedetto in Monte above the town, rebuilding after the 2016 earthquakes (per their site); the Basilica of St. Benedict in the town was not listed separately because no official site for it was verified.",
+      "biography: no disagreement. Catholic Culture gives 480–547 and says he died at Monte Cassino; the reviewed biography's 'about 480–547' and the 1964 patronage match."
     ]
   },
   "brigid-of-ireland": {
