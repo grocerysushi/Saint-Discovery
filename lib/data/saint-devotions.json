@@ -1,4 +1,278 @@
 {
+  "adam": {
+    "templateVersion": 2,
+    "heroSummary": "Adam is the first man in the opening chapters of Genesis, the father of the human family whose disobedience the Church calls the original sin. Some devotional calendars remember Adam and Eve on December 24, and that day the Roman Martyrology honors all the holy ancestors of Christ, a line Luke traces back to Adam.",
+    "searchDescription": "Adam, the first man of Genesis: what Scripture and the Church teach about him, original sin, Christ the new Adam, and the Christmas Eve remembrance.",
+    "symbols": [
+      {
+        "symbol": "Tree with fruit, often an apple",
+        "meaning": "The tree of the knowledge of good and evil in Genesis 2–3. Genesis does not name the fruit; the apple is a later artistic tradition. Medieval Christmas Eve plays used an evergreen hung with apples as the 'paradise tree'."
+      },
+      {
+        "symbol": "Serpent",
+        "meaning": "The tempter of Genesis 3, whose head the woman's offspring will crush (Genesis 3:15)."
+      },
+      {
+        "symbol": "Fig leaves or garments of skins",
+        "meaning": "The shame Adam and Eve felt after their sin, and God's care in clothing them before they left the garden (Genesis 3:7, 3:21)."
+      },
+      {
+        "symbol": "Skull at the foot of the crucifix",
+        "meaning": "An old tradition, known to the Church Fathers, that Adam was buried at Golgotha, so that Christ, the new Adam, died over the grave of the first. This is tradition, not a claim of Scripture."
+      }
+    ],
+    "whyWeTurn": "People turn to Adam because his story is everyone's story. Genesis shows him formed from the dust and given the breath of life, set in a garden to tend it, and then hiding after he has sinned and blaming someone else. The Church reads this account as figurative language that still affirms a real event at the beginning of human history. St. Paul calls Christ the last Adam, who restores what the first Adam lost. Some Christian traditions honor Adam as a saint, and the Book of Wisdom says divine Wisdom brought him out of his sin. Remembering him on Christmas Eve sets our need for a Savior right beside the manger.",
+    "quotes": [
+      {
+        "text": "And the Lord God formed man of the slime of the earth: and breathed into his face the breath of life, and man became a living soul.",
+        "work": "Genesis 2:7",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And the Lord God called Adam, and said to him: Where art thou?",
+        "work": "Genesis 3:9",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "I will put enmities between thee and the woman, and thy seed and her seed: she shall crush thy head, and thou shalt lie in wait for her heel.",
+        "work": "Genesis 3:15",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "God our Father, you formed Adam from the dust of the earth and breathed into him the breath of life. When he hid from you, you still called out to him, and you clothed him before he left the garden. Look on me with the same mercy when I hide from you. Help me to tend the work you give me, to take responsibility instead of blaming others, and to welcome Jesus Christ, the new Adam, whose birth we celebrate at Christmas. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember Adam and Eve in prayer on Christmas Eve. December 24 is not a feast of Adam on the General Roman Calendar; the Roman Martyrology that day commemorates all the holy ancestors of Christ, and some devotional calendars name Adam and Eve.",
+      "Decorate a 'paradise tree' with apples. Medieval Christmas Eve plays about the Fall used such a tree, and many Catholic writers see it as one root of the Christmas tree.",
+      "Listen for the Christmas Proclamation, which many parishes sing or read before Christmas Mass; it begins its count of the ages with God creating heaven and earth and forming man in his likeness.",
+      "Read Genesis 3 and Luke 3:23–38 together on Christmas Eve, ending with the genealogy that runs back to 'Adam, who was of God.'"
+    ],
+    "confirmationNote": "Adam is an uncommon Confirmation name, so check with your parish, but it can suit a confirmand drawn to the big questions of where we come from and why we need a Savior. The Catechism teaches that the patriarchs and certain other Old Testament figures are honored as saints in the Church's liturgical traditions. Adam's story is about failure, blame and God's persistent call, and it points to the grace Christ gives through the Spirit.",
+    "reflectionPrompts": [
+      "Where am I hiding from God right now, and how would I answer if he asked me, 'Where art thou?'",
+      "The next time you are tempted to shift blame, as Adam did, name your own part out loud instead.",
+      "Read Genesis 2–3 alongside Romans 5:12–21 and Catechism paragraphs 385–390, and note how St. Paul contrasts Adam with Christ."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "joseph",
+        "reason": "Luke's genealogy of Jesus runs through Joseph back to Adam (Luke 3:23–38)",
+        "historical": true
+      },
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Wrote of Christ as the 'last Adam' in Romans 5 and 1 Corinthians 15",
+        "historical": false
+      },
+      {
+        "slug": "elias-of-the-carmelites",
+        "reason": "Another Old Testament figure honored as a saint",
+        "historical": false
+      },
+      {
+        "slug": "dismas",
+        "reason": "Promised paradise from the cross, the garden Adam lost",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Douay-Rheims Bible: Genesis 2",
+        "url": "https://www.drbo.org/chapter/01002.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Genesis 3",
+        "url": "https://www.drbo.org/chapter/01003.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 3",
+        "url": "https://www.drbo.org/chapter/49003.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Wisdom 10",
+        "url": "https://www.drbo.org/chapter/25010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 15",
+        "url": "https://www.drbo.org/chapter/53015.htm"
+      },
+      {
+        "title": "Catechism of the Catholic Church, 61 (patriarchs honoured as saints)",
+        "url": "https://www.vatican.va/archive/ENG0015/__PG.HTM"
+      },
+      {
+        "title": "Catechism of the Catholic Church, 385–390 (the Fall)",
+        "url": "https://www.vatican.va/archive/ENG0015/__P1C.HTM"
+      },
+      {
+        "title": "Catholic Encyclopedia: Adam",
+        "url": "https://www.newadvent.org/cathen/01129a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: Mount Calvary",
+        "url": "https://www.newadvent.org/cathen/03191a.htm"
+      },
+      {
+        "title": "Archdiocese of Hobart: Saints Adam & Eve – 24 December",
+        "url": "https://hobart.catholic.org.au/?p=81363"
+      },
+      {
+        "title": "National Catholic Register (Fr. Raymond de Souza): Christmas Eve, a Day for the Saints",
+        "url": "https://www.ncregister.com/commentaries/christmas-eve-a-day-for-the-saints"
+      },
+      {
+        "title": "USCCB: The Nativity of our Lord Jesus Christ from the Roman Martyrology (Christmas Proclamation)",
+        "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/christmas/christmas-proclamation"
+      },
+      {
+        "title": "USCCB: Genesis 3 and notes (reviewed biography source)",
+        "url": "https://bible.usccb.org/bible/genesis/3"
+      },
+      {
+        "title": "Catholic Insight (John Paul Meenan): Saints Adam and Eve (reviewed biography source)",
+        "url": "https://catholicinsight.com/2025/12/24/saints-adam-and-eve/"
+      }
+    ],
+    "flags": [
+      "patronages: none included. Gardeners (a live topic) and tailors appear for Adam only in popular lists (Catholic Online, Catholic Stand); no Vatican, diocesan or Catholic Culture source was found, so a human may decide.",
+      "feast: December 24 is not a universal Roman-calendar feast of Adam. The 2004 Roman Martyrology's December 24 entry commemorates all the holy ancestors of Christ (described by NCRegister and Aleteia; the Latin text itself was not fetched). The Archdiocese of Hobart calls the Adam and Eve feast an ancient tradition without naming which calendars keep it; other sources attribute it to Eastern churches, but this was not verified from an official Eastern calendar.",
+      "symbols: drawn from the Genesis text, the Catholic Encyclopedia (skull at Golgotha) and the Archdiocese of Hobart (paradise tree with apples); the apple and the skull are labeled tradition. No single reputable list of Adam's iconographic attributes was found.",
+      "quotes: limited to Douay-Rheims Genesis, as instructed. Wisdom 10:1–2 and Paul are paraphrased in the text, not quoted.",
+      "whyWeTurn: 'figurative language... affirms a real event' paraphrases CCC 390; 'some Christian traditions honor Adam as a saint' is kept general on purpose; the Church makes no claim about Adam's dates.",
+      "places: omitted; there is no shrine of Adam with an official website.",
+      "relatedSaints: Eve has no published page. Joseph is marked historical for the genealogical link in Luke 3; there is no shared feast among published saints.",
+      "usccb.org returned 403 to an automated check; the page exists per search results but the URL should be confirmed in a browser.",
+      "biography: no conflict with the reviewed biography."
+    ]
+  },
+  "adelaide-of-italy": {
+    "templateVersion": 2,
+    "heroSummary": "St. Adelaide of Italy is honored as a patron of prisoners, a tenth-century queen who was herself held captive before escaping to Canossa. Born in Burgundy in 931, she became empress beside Otto I, governed for her grandson Otto III, and gave generously to monasteries and the poor. She died at Seltz in 999 and is remembered on December 16.",
+    "searchDescription": "St. Adelaide of Italy (931–999), remembered December 16: queen, empress, patron of prisoners, regent for Otto III, and friend of monks and the poor.",
+    "patronages": [
+      "prisoners"
+    ],
+    "symbols": [
+      {
+        "symbol": "Empress giving alms and food to the poor",
+        "meaning": "Her charity, which the Catholic Encyclopedia says was generous enough to draw criticism at court; she is often shown this way beside a ship."
+      },
+      {
+        "symbol": "Boat",
+        "meaning": "Her escape from captivity. The Catholic Encyclopedia tells how a priest helped her flee the castle at Lake Garda and fed her with fish from the lake; images of her escaping by boat draw on this story, so the details belong to tradition."
+      },
+      {
+        "symbol": "Model of a church",
+        "meaning": "The churches and monasteries she founded or restored, including the monastery at Seltz in Alsace where she died."
+      },
+      {
+        "symbol": "Veil",
+        "meaning": "Her last years of prayer at Seltz. She lived beside a religious community but never became a nun."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Adelaide when family life and public life both feel heavy. She was widowed young, held captive for refusing a forced marriage, married again, and later endured years of strain with her son and daughter-in-law before being called back to govern for her grandson. Through it all she kept giving to the poor and to monasteries, and the Catholic Encyclopedia notes that she took no revenge on those who had wronged her. Catholics ask her prayers for prisoners and exiles, for widows and stepfamilies, and for anyone caught in difficult in-law relationships. Tradition remembers her final years at Seltz as a time given largely to prayer.",
+    "quotes": [
+      {
+        "text": "Our soul hath been delivered as a sparrow out of the snare of the fowlers. The snare is broken, and we are delivered.",
+        "work": "Psalm 123:7 (124:7 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Who executeth judgment for them that suffer wrong: who giveth food to the hungry. The Lord looseth them that are fettered:",
+        "work": "Psalm 145:7 (146:7 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sustained St. Adelaide through grief, captivity and family conflict, and you gave her a generous heart in the midst of power. Through her prayers, be near to all who are imprisoned, exiled or treated unjustly. Heal the divisions in our families, and give us the grace to forgive without seeking revenge. Teach those who hold authority to use it for the good of the poor, and help me to share what I have with open hands. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her in prayer on December 16, an Advent weekday. She is listed in the Roman Martyrology that day but has no memorial on the General Roman Calendar.",
+      "Pray for people in prison, or support your parish or diocesan prison ministry, since she is a patron of prisoners and was once a captive herself.",
+      "Pray for widows, stepfamilies and families strained by conflict with in-laws, and reach out to someone you know in that situation.",
+      "Give food or alms to the poor during Advent, recalling the images of her feeding the hungry."
+    ],
+    "confirmationNote": "Adelaide suits a confirmand who expects to carry responsibility early or who has known upheaval at home. She refused a marriage forced on her, rebuilt her life after captivity and loss, and later governed without taking revenge on her enemies. Her faith showed in steady charity more than in dramatic gestures. Confirmation strengthens Christians to witness wherever they are placed, and Adelaide shows how that witness can look in public life.",
+    "reflectionPrompts": [
+      "Is there someone in my family I need to forgive without waiting for an apology?",
+      "This week, write to someone in prison, a nursing home or a hospital, or give to a prison ministry.",
+      "Read Psalm 123 (124) and the Catholic Encyclopedia article on St. Adelaide, and notice how the psalm's picture of a bird escaping the snare fits her story."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "odilo-of-cluny",
+        "reason": "Abbot of Cluny who wrote her Life",
+        "historical": true
+      },
+      {
+        "slug": "matilda-of-ringelheim",
+        "reason": "Her mother-in-law, the mother of Otto I and another royal saint",
+        "historical": true
+      },
+      {
+        "slug": "leonard-of-noblac",
+        "reason": "Another patron of prisoners",
+        "historical": false
+      },
+      {
+        "slug": "elizabeth-of-portugal",
+        "reason": "Another queen remembered for charity and for making peace in a divided royal family",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Adelaide",
+        "url": "https://www.newadvent.org/cathen/01140c.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, December 16 (St. Adelaide)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-16"
+      },
+      {
+        "title": "Vatican News: Saints of December 16",
+        "url": "https://www.vaticannews.va/en/saints/12/16.html"
+      },
+      {
+        "title": "Vatican City State: Saint Adelaide, Empress (reviewed biography source)",
+        "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/3201-december-16-saint-adelaide-empress.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Odilo",
+        "url": "https://www.newadvent.org/cathen/11207c.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Matilda",
+        "url": "https://www.newadvent.org/cathen/10049a.htm"
+      },
+      {
+        "title": "Aleteia: St. Adelaide, patroness of abuse victims",
+        "url": "https://aleteia.org/2017/12/16/st-adelaide-this-empress-of-the-holy-roman-empire-is-patroness-of-abuse-victims"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 123",
+        "url": "https://www.drbo.org/chapter/21123.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 145",
+        "url": "https://www.drbo.org/chapter/21145.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; 'prisoners' (live topic) comes from Catholic Culture's patronage list.",
+      "patronages: Catholic Culture also lists abuse victims, in-law problems, brides, empresses, exiles, parenthood, parents of large families, princesses, second marriages, step-parents, widows and Cluny; these are sourced but have no live topic.",
+      "symbols: all four come from Catholic Culture's 'Symbols and Representation' list; the boat's meaning rests on the escape story in the Catholic Encyclopedia and is labeled tradition.",
+      "quotes: no public-domain English translation of her own words (e.g. her inscription to St. Martin or Odilo's account) could be verified, so only Douay-Rheims psalms are used.",
+      "places: omitted. Her relics are at Hanover (Catholic Encyclopedia) and she died at Seltz, but no official site for a shrine of hers could be verified.",
+      "feastCustoms: no feast-specific customs were found in reputable sources (Catholic Culture lists only general Advent activities); the four items are general practices tied to her documented patronage and charity.",
+      "biography: no conflict found. The Catholic Encyclopedia (1907) says she was then not in the Roman Martyrology, while Catholic Culture lists her there on December 16 (current Martyrology). The 1097 canonization by Urban II is not stated in the sources I checked; it comes from the reviewed biography's source and was not contradicted."
+    ]
+  },
   "agnes-le-thi-thanh": {
     "templateVersion": 1.5,
     "heroSummary": "St. Agnes Lê Thị Thành, also called Đê, was a Vietnamese laywoman and mother who hid a priest in her home during a time of persecution. Beaten for refusing to trample a cross, she died in prison in 1841. She is the only woman among the 117 Vietnamese martyrs canonized in 1988.",
@@ -142,7 +416,7 @@
     },
     "feastCustoms": [
       "Attend Mass on July 26, the memorial of Sts. Joachim and Anne, parents of the Blessed Virgin Mary; when it falls on a Sunday, the Sunday liturgy takes its place.",
-      "Keep the World Day for Grandparents and the Elderly, which Pope Francis set on the fourth Sunday of July, close to this feast: visit, call or pray with a grandparent or an older parishioner.",
+      "Keep the World Day for Grandparents and the Elderly, which Pope Francis set on the fourth Sunday of July near this feast (some bishops’ conferences, including in the United States, observe it on another Sunday): visit, call or pray with a grandparent or an older parishioner.",
       "Pray a novena before the feast; the Shrine of Sainte-Anne-de-Beaupré in Quebec keeps a public novena from July 17 to 25.",
       "In Brittany, pilgrims gather for the Grand Pardon at Sainte-Anne-d'Auray on July 25 and 26, with a torchlight procession and a solemn Mass.",
       "In France and French Canada, a summer fruit tart is a traditional dish for the day; share one with family."
@@ -508,6 +782,104 @@
       "places: only one place listed; no verified official English site found for his birthplace church in Lisbon"
     ]
   },
+  "apollonius": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Apollonius of Rome was a learned Christian who, in the reign of Commodus, was denounced and then asked to explain his faith before the Roman Senate. Eusebius says he gave an eloquent defense, yet he was condemned and beheaded around 185. The Church commemorates him on April 21.",
+    "searchDescription": "St. Apollonius of Rome, feast April 21: a learned Christian who defended his faith before the Roman Senate and was beheaded under Commodus, about 185.",
+    "whyWeTurn": "People turn to St. Apollonius when they must give a reason for their faith in front of people who hold power over them: in a courtroom, a classroom, an office or a family argument. Eusebius remembers him as a man known for learning and philosophy who, when the judge pressed him to speak, made an eloquent defense before the Senate instead of simply refusing. The later Acts, which preserve a version of his answers, show him respectful toward the emperor and willing to pray for him, yet unwilling to worship anyone but God. He is a fitting companion for students, scholars and anyone who wants to be both thoughtful and faithful under pressure.",
+    "quotes": [
+      {
+        "text": "Because I am a Christian; therefore, I fear God Who made heaven and earth, and sacrifice not to empty idols.",
+        "work": "Acts of Apollonius, §2 (Armenian version; his answer to the prefect)",
+        "translation": "F. C. Conybeare, The Armenian Apology and Acts of Apollonius and Other Monuments of Early Christianity, 2nd ed. (London: Swan Sonnenschein, 1896; public domain)"
+      },
+      {
+        "text": "It is my desire to live in Christ, but I have no fear of death, because of any love of life; for there is not anything that is more estimable than the life eternal, which is the source of deathlessness for the soul that hath lived here a noble life.",
+        "work": "Acts of Apollonius, §30 (Armenian version)",
+        "translation": "F. C. Conybeare, The Armenian Apology and Acts of Apollonius and Other Monuments of Early Christianity, 2nd ed. (London: Swan Sonnenschein, 1896; public domain)"
+      },
+      {
+        "text": "...for compassion shown to men by men is a bloodless sacrifice and holy unto God.",
+        "work": "Acts of Apollonius, §44 (Armenian version)",
+        "translation": "F. C. Conybeare, The Armenian Apology and Acts of Apollonius and Other Monuments of Early Christianity, 2nd ed. (London: Swan Sonnenschein, 1896; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Apollonius the wisdom to explain his faith and the courage to stay faithful when it cost him his life. Through his prayers, help me to know what I believe and why, so that I can answer questions with patience and respect. Keep me from both fear and arrogance. Teach me to pray for those who govern, to honor what is just in human law, and to give my worship to you alone. May my whole life be a reasonable and faithful witness to Christ. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 21, the date under which Vatican News lists him; he is not on the General Roman Calendar, so this is a day for personal or family prayer rather than a Mass in his honor.",
+      "Read the two earliest notices of his trial, Eusebius, Church History V.21, and Jerome, On Illustrious Men 42, both freely available at New Advent.",
+      "Read part of the Acts of Apollonius in F. C. Conybeare's public-domain translation and notice how he answers each question without insult.",
+      "Pray for those in public office, as 1 Timothy 2:1–2 asks and as the Acts show Apollonius promising to do for the emperor.",
+      "Write a few sentences explaining why you believe, taking up 1 Peter 3:15, so that you are ready when someone asks."
+    ],
+    "confirmationNote": "Apollonius suits a confirmand who loves ideas, debate or study and wants a patron for a thinking faith. When he was asked to explain himself before the Senate, he gave a reasoned defense rather than a slogan, and he stayed faithful when it cost him his life. Confirmation strengthens Christians to bear witness, and his example shows that clear thinking and courage belong together.",
+    "reflectionPrompts": [
+      "If someone asked me tomorrow why I am a Christian, what would I honestly say?",
+      "Write down three reasons for your faith in your own words and keep them where you will see them this week.",
+      "Read Eusebius, Church History, Book V, chapter 21, and Jerome, On Illustrious Men, chapter 42, and note where the two accounts of his trial differ."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "justin-martyr",
+        "reason": "Fellow philosopher-apologist martyred in Rome a generation earlier",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "Wrote one of the two earliest accounts of his trial",
+        "historical": true
+      },
+      {
+        "slug": "irenaeus-of-lyon",
+        "reason": "Bishop and theologian writing in the same era, under Commodus",
+        "historical": true
+      },
+      {
+        "slug": "thomas-more",
+        "reason": "Learned layman who defended his conscience before the authorities and was beheaded",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eusebius, Church History, Book V, chapter 21 (New Advent)",
+        "url": "https://www.newadvent.org/fathers/250105.htm"
+      },
+      {
+        "title": "Jerome, On Illustrious Men, chapter 42 (New Advent)",
+        "url": "https://www.newadvent.org/fathers/2708.htm"
+      },
+      {
+        "title": "Vatican News: Saints of April 21 (Saint Apollonius, philosophe et martyr romain)",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/04/21.html"
+      },
+      {
+        "title": "F. C. Conybeare, The Armenian Apology and Acts of Apollonius (2nd ed., 1896), Internet Archive",
+        "url": "https://archive.org/details/thearmenianapolo00conyuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Timothy 2",
+        "url": "https://www.drbo.org/chapter/61002.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 3",
+        "url": "https://www.drbo.org/chapter/67003.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty. I found no reputable Catholic source listing iconographic attributes for Apollonius of Rome (a sword or martyr's palm would be generic guesses), so templateVersion is 1.5.",
+      "patronages: review lists none and no reputable source gives him a patronage; field omitted.",
+      "places: no shrine or church with an official site connected to him was found; field omitted.",
+      "quotes: verified word for word against the scanned 1896 second edition of Conybeare (archive.org OCR, checked line by line), not the 1894 first edition; OCR '1 am' read as 'I am'. Conybeare translates the Armenian version, in which the judge is called Terentius (Conybeare: a corruption of Perennis). The Acts as we have them are generally treated as resting on the record Eusebius says he collected, with later shaping; Conybeare and Harnack note the opening is missing and that the Acts never call Apollonius a senator. Labeled as the Armenian version for that reason.",
+      "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar (April 21 there is St. Anselm), not from a page fetched here; a human may want to confirm.",
+      "relatedSaints: irenaeus-of-lyon is linked by era only (both late second century, under Commodus); no direct connection between the two is known.",
+      "biography: no disagreement with the reviewed biography. Vatican News dates his death to 185 and calls Perennis 'gouverneur'; Eusebius calls him the judge and he was praetorian prefect. Eusebius's detail that the accusing servant had his legs broken was not used."
+    ]
+  },
   "augustine-of-hippo": {
     "templateVersion": 2,
     "heroSummary": "St. Augustine of Hippo (354–430) was a North African teacher of rhetoric who searched for wisdom through philosophy and the Manichees before his conversion in Milan and his baptism in 387. As bishop of Hippo for more than thirty years he preached, cared for the poor, and wrote the Confessions. His feast is August 28.",
@@ -634,6 +1006,139 @@
       "prayer: 'Breathe in me, O Holy Spirit' deliberately not attributed; see prayer.note.",
       "relatedSaints: jerome is linked by era and as a fellow great Latin Doctor (Catholic Culture); I did not verify their correspondence from a listed source, so it is not claimed.",
       "biography: no disagreement found. The context 'dates' field reads 'Fourth–fifth centuries' while the biography gives 354–430; the hero uses 354–430."
+    ]
+  },
+  "brigid-of-ireland": {
+    "templateVersion": 2,
+    "heroSummary": "St. Brigid of Kildare is a patron of Ireland, honored with Sts. Patrick and Columba as one of the country's three patron saints. She is remembered as abbess of Kildare, a community of women and men that became a center of worship and learning. Her feast is February 1, and many stories told of her are legend.",
+    "searchDescription": "St. Brigid of Kildare, feast February 1: abbess of Kildare and patron of Ireland, with her history kept separate from the legends told about her.",
+    "patronages": [
+      "ireland"
+    ],
+    "symbols": [
+      {
+        "symbol": "St. Brigid's cross woven from rushes",
+        "meaning": "A legend says she wove one to explain Christ's death to a dying chieftain. Irish families still hang the cross at home as a sign of God's protection."
+      },
+      {
+        "symbol": "Flame, lamp or candle",
+        "meaning": "Tradition tells of a fire kept burning at Kildare and of mysterious flames in her Lives. In 1993 the Brigidine Sisters relit a Brigid flame in Kildare, and it is still tended at Solas Bhríde."
+      },
+      {
+        "symbol": "Cow",
+        "meaning": "Many stories in her Lives show her giving milk, butter or cattle to the poor; she is linked with dairying and farm life."
+      },
+      {
+        "symbol": "Abbess's crozier",
+        "meaning": "Her leadership of the religious community at Kildare."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Brigid when they want a faith that is practical, generous and rooted in ordinary life. The stories told of her, many of them legend, keep returning to the same themes: giving food to the poor, welcoming guests, caring for the sick, and blessing homes, fields and animals. Irish families still hang her rush cross in their homes as a sign of God's protection. Behind the legends stands a real woman who led a religious community at Kildare that shaped Irish Christianity for centuries. Those who farm, care for others or keep an open door, and anyone who loves Ireland, find in her a warm and down-to-earth friend.",
+    "quotes": [
+      {
+        "text": "Saint Brigid was not given to sleep, Nor was she intermittent about God's love; Not merely that she did not buy, she did not seek for The wealth of this world below, the holy one.",
+        "work": "Early Irish hymn attributed to St. Broccán Clóen (about Brigid; she left no writings)",
+        "translation": "W. H. Grattan-Flood, \"St. Brigid of Ireland,\" Catholic Encyclopedia, vol. 2 (1907; public domain)"
+      },
+      {
+        "text": "Between St. Patrick and St. Brigid, the columns of the Irish, there was so great a friendship of charity that they had but one heart and one mind. Through him and through her Christ performed many miracles.",
+        "work": "Book of Armagh (eighth-century manuscript), on Patrick and Brigid",
+        "translation": "W. H. Grattan-Flood, \"St. Brigid of Ireland,\" Catholic Encyclopedia, vol. 2 (1907; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Loving God, you gave St. Brigid a generous heart, open hands and a home where strangers were welcome. Through her prayers, bless my household, my work, and the land and creatures that sustain us. Make me quick to share what I have with the poor and slow to count the cost. Where there is division, make me a peacemaker; where there is sickness, a source of care. As her cross is woven from simple rushes, weave my ordinary days into a life that shows the love of Christ. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Irish Catholic Bishops' Conference: Feast of Saint Brigid, with the blessing of St. Brigid's crosses and traditional prayers",
+        "url": "https://www.catholicbishops.ie/2022/01/31/feast-of-saint-brigid/"
+      }
+    },
+    "feastCustoms": [
+      "Celebrate February 1, kept as her feast in Ireland. Since 2023 Ireland has also marked St. Brigid's Day with a public holiday on the first Monday of February, or on February 1 when it falls on a Friday.",
+      "Weave a St. Brigid's cross from rushes or straw on the eve or the day of the feast; many Irish parishes bless the crosses with holy water and a prayer for the protection of lives, land and creatures.",
+      "Hang the blessed cross in your home or a farm building as a sign of trust in God's protection.",
+      "In Ireland, visit a St. Brigid's well on the eve or the feast, a long-standing local custom; in Kildare town, pilgrims also visit Solas Bhríde and St. Brigid's Parish Church, which now holds a relic of the saint returned from Lumiar, Portugal.",
+      "Practice her hospitality: share a meal, bring food to someone in need, or visit someone who is sick or alone."
+    ],
+    "places": [
+      {
+        "name": "Solas Bhríde Centre (Brigidine Sisters)",
+        "city": "Kildare, Ireland",
+        "url": "https://solasbhride.ie/"
+      }
+    ],
+    "confirmationNote": "Brigid suits a confirmand drawn to generosity, hospitality and care for the land, and especially one with Irish roots. The stories told of her, though many are legend, consistently show a woman who gave freely, welcomed strangers and led others in prayer and work. Confirmation strengthens Christians to serve, and Brigid offers a patron whose holiness is rooted in everyday life and open hands.",
+    "reflectionPrompts": [
+      "Where could I be more generous this week with something I usually hold on to?",
+      "Learn to weave a St. Brigid's cross and give it to someone who needs a sign of God's care.",
+      "Read the Catholic Encyclopedia's 1907 article on St. Brigid of Ireland and sort its details into what comes from the early Lives and what the author treats as reasonably certain."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "patrick",
+        "reason": "Fellow patron of Ireland; the Book of Armagh records their close friendship",
+        "historical": true
+      },
+      {
+        "slug": "columba-of-iona",
+        "reason": "Ireland's third patron; tradition says their relics were enshrined together at Downpatrick",
+        "historical": true
+      },
+      {
+        "slug": "kevin",
+        "reason": "Sixth-century monastic founder in Leinster, at Glendalough",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Another abbess who led a monastery of both women and men",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Brigid of Ireland",
+        "url": "https://www.newadvent.org/cathen/02784b.htm"
+      },
+      {
+        "title": "Irish Catholic Bishops' Conference: Feast of Saint Brigid",
+        "url": "https://www.catholicbishops.ie/2022/01/31/feast-of-saint-brigid/"
+      },
+      {
+        "title": "EWTN News: Public holiday marking St. Brigid's feast established in Ireland",
+        "url": "https://www.ewtnnews.com/world/europe/public-holiday-marking-st-brigids-feast-established-in-ireland"
+      },
+      {
+        "title": "EWTN News: Ireland celebrates 1,500th anniversary of St. Brigid's death",
+        "url": "https://www.ewtnnews.com/world/europe/ireland-celebrates-1500th-anniversary-of-st-brigid-s-death"
+      },
+      {
+        "title": "Catholic Culture: Feast of St. Brigid of Ireland (February 1)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2023-02-01"
+      },
+      {
+        "title": "Christian Iconography (Richard Stracke): Saint Brigid",
+        "url": "https://www.christianiconography.info/brigid.html"
+      },
+      {
+        "title": "Solas Bhríde: Kildare since 1992 (the Brigid flame)",
+        "url": "https://solasbhride.ie/kildare-since-1992/"
+      },
+      {
+        "title": "Solas Bhríde: Pilgrimages",
+        "url": "https://solasbhride.ie/pilgrimages/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; 'ireland' rests on the Irish bishops' conference (Secondary Patron of Ireland) and EWTN News (one of Ireland's three patrons) — human please reconcile reviewed_patron_of.",
+      "patronages: Catholic Culture lists dairymaids/dairy workers, babies, scholars, poets, nuns, travelers, sailors, blacksmiths, Leinster and Kildare among others; none has a live topic. Live topics 'farmers' and 'children' were not used: Catholic Culture lists only poultry/chicken farmers and 'children whose parents are not married', which do not match those topics.",
+      "symbols: only 4. Cross from EWTN and the Irish bishops (who call the cross story legend); cow, candle and crozier from Christian Iconography and Catholic Culture; the 1993 relighting from the Brigidine Sisters. Catholic Culture states as fact that she kept Kildare's pagan perpetual fire burning; here it is framed as tradition. The cloak legend (the Curragh) is well known but was left out as it is not a standard image attribute.",
+      "quotes: Brigid left no writings. Both quotes are early texts about her in the 1907 Catholic Encyclopedia's public-domain translation; the hymn's attribution to Broccán is itself traditional.",
+      "feastCustoms: the liturgical rank of February 1 in Ireland (feast vs. solemnity in Kildare) was not verified, so no rank is given. The relic in St. Brigid's Parish Church, Kildare, follows EWTN News (relic from Lumiar installed during the 2024 anniversary).",
+      "places: only one. No verified official website was found for St. Brigid's Parish Church, Kildare; St. Brigid's Cathedral, Kildare, stands on her monastic site but is now Church of Ireland.",
+      "biography: no disagreement with the reviewed biography. Sources give firm dates the review avoids (Catholic Encyclopedia: born 451/452, died 1 February 525; Irish bishops: about 454–524 and founding in 480; EWTN: a goddess shrine on the Kildare site) — none were used."
     ]
   },
   "catherine-of-siena": {
@@ -1214,6 +1719,278 @@
       "feastCustoms: Transitus and blessing of animals are Franciscan and parish customs, not universal liturgy; worded accordingly"
     ]
   },
+  "gabriel-the-archangel": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gabriel the Archangel is the angel Scripture names as God's messenger to Daniel, to Zechariah and to Mary, whom he greets at the Annunciation in Luke 1. His name is usually explained as \"God is my strength.\" Catholics honor him together with Michael and Raphael on September 29.",
+    "symbols": [
+      {
+        "symbol": "Lily",
+        "meaning": "The purity of the Virgin Mary, to whom he brought the news of the Incarnation; the flower is an artistic convention, not a detail from Luke's text."
+      },
+      {
+        "symbol": "Scroll or banner reading \"Ave Maria, gratia plena\"",
+        "meaning": "His greeting to Mary in Luke 1:28, \"Hail, full of grace,\" the words that open the Hail Mary."
+      },
+      {
+        "symbol": "Scepter or herald's staff",
+        "meaning": "His office as a messenger who speaks with God's authority, not his own: \"I am Gabriel, who stand before God\" (Luke 1:19)."
+      },
+      {
+        "symbol": "Trumpet",
+        "meaning": "Later tradition pictures Gabriel sounding the trumpet of the Resurrection; Scripture does not say which angel blows it."
+      },
+      {
+        "symbol": "Wings",
+        "meaning": "He is an angel, a spiritual messenger of God rather than a human saint with a life story."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Gabriel when they are waiting for a word from God, or when they have news to carry and need the right words. In Scripture he comes to people at prayer: Daniel at the evening sacrifice, Zechariah at the altar of incense, Mary in Nazareth. Each time he first quiets fear, then explains what God is doing. Because he is the Church's great messenger, Pope Pius XII named him heavenly patron of telecommunications in 1951, and broadcasters, postal workers and diplomats have long asked his help. Above all, Catholics remember him whenever they pray the Hail Mary, which opens with his greeting.",
+    "quotes": [
+      {
+        "text": "I am Gabriel, who stand before God: and am sent to speak to thee, and to bring thee these good tidings.",
+        "work": "Luke 1:19 (Gabriel to Zechariah)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Hail, full of grace, the Lord is with thee: blessed art thou among women.",
+        "work": "Luke 1:28 (Gabriel to Mary)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "As I was yet speaking in prayer, behold the man Gabriel, whom I had seen in the vision at the beginning, flying swiftly touched me at the time of the evening sacrifice.",
+        "work": "Daniel 9:21",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. Gabriel, messenger of God, you stand before the Lord and were sent to bring good news to Zechariah and to Mary. Pray for us when we wait in the dark for God's word, and help us to hear it without fear. Pray for all who carry news to others, for those who work in communications, and for every family waiting for a child. Like Mary, may we answer God's call with trust: be it done to me according to thy word. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Angelus, the Church's traditional prayer recalling Gabriel's message to Mary, is a natural companion to this prayer."
+    },
+    "feastCustoms": [
+      "Attend Mass on September 29, the feast of Sts. Michael, Gabriel and Raphael, Archangels, in the General Roman Calendar.",
+      "Learn the Angelus and pray it daily, traditionally in the morning, at noon and in the evening; it begins with Gabriel's announcement to Mary.",
+      "Read Luke 1:5–38 aloud, Gabriel's two annunciations, and talk about how Zechariah and Mary each responded.",
+      "Pray for journalists, broadcasters, postal and telecommunications workers, whom the Church has placed under Gabriel's patronage.",
+      "Remember Gabriel again on March 25, the Solemnity of the Annunciation, when the Church celebrates the message he carried to Nazareth."
+    ],
+    "confirmationNote": "Gabriel suits a confirmand who wants to listen well and speak about God with courage. In Scripture he never speaks for himself: he stands before God and carries God's message, and his words to Mary opened the way for her yes. Confirmation strengthens Christians to bear witness to Christ. Choosing Gabriel means asking an angelic messenger, not a human role model, to help you carry the Good News faithfully.",
+    "reflectionPrompts": [
+      "When did I last sense that God was asking something of me, and how did I respond?",
+      "Pray the Angelus at noon every day this week, wherever you are.",
+      "Read Daniel 9:20–27 and Luke 1:5–38 and compare how Gabriel greets Daniel, Zechariah and Mary."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "michael-the-archangel",
+        "reason": "Shares the September 29 feast of the archangels",
+        "historical": true
+      },
+      {
+        "slug": "raphael-the-archangel",
+        "reason": "Shares the September 29 feast of the archangels",
+        "historical": true
+      },
+      {
+        "slug": "john-the-baptist",
+        "reason": "Gabriel announced his birth to Zechariah in the Temple (Luke 1:11–20)",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-mother-of-john-baptist",
+        "reason": "Gabriel gave Mary the news of Elizabeth's pregnancy as a sign (Luke 1:36)",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Gabriel, Archangel",
+        "url": "https://www.vaticannews.va/en/saints/09/29/st--gabriel--archangel.html"
+      },
+      {
+        "title": "Vatican News (Portuguese): São Gabriel Arcanjo, including Pius XII's 1951 patronage of telecommunications",
+        "url": "https://www.vaticannews.va/pt/santo-do-dia/09/29/san-gabriel-arcanjo.html"
+      },
+      {
+        "title": "Catholic Culture: Feast of Sts. Michael, Gabriel and Raphael (September 29)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-29"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 1",
+        "url": "https://www.drbo.org/chapter/49001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Daniel 9",
+        "url": "https://www.drbo.org/chapter/32009.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; telecommunications/communications (Pius XII, 1951, per Vatican News), Vatican Radio, messengers, postal workers, broadcasting, diplomats, ambassadors, stamp collectors, childbirth, clergy, Portugal and the Archdiocese of Seattle are sourced (Vatican News, Catholic Culture) but have no live topic",
+      "symbols: all five attributes are in Catholic Culture's list for Gabriel (which also gives lantern, mirror, olive branch, shield and spear); the lily and trumpet are labeled as artistic convention/tradition",
+      "prayer: no traditional prayer addressed to Gabriel was verified from an official source; the USCCB Angelus page could not be fetched (bot check), so no link is given",
+      "whyWeTurn: Pius XII's 1951 apostolic brief naming Gabriel patron of telecommunications is cited from Vatican News (Portuguese); the Latin document itself was not located on vatican.va",
+      "heroSummary: the name meaning 'God is my strength' is from Catholic Culture",
+      "biography: no disagreement with the reviewed biography",
+      "places: Nazareth basilica (custodia.org) omitted — the site blocks automated verification (coordinator)"
+    ]
+  },
+  "gregory-of-nazianzus": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gregory of Nazianzus, called \"the Theologian\" in the East, was a fourth-century Cappadocian bishop and Doctor of the Church whose sermons on the Trinity shaped how Christians speak of Father, Son and Holy Spirit. A lifelong friend of St. Basil, he briefly led the Church of Constantinople. The Church remembers them together on January 2.",
+    "searchDescription": "St. Gregory of Nazianzus (about 330–390), feast January 2: Cappadocian bishop, Doctor of the Church, \"the Theologian,\" and close friend of St. Basil.",
+    "symbols": [
+      {
+        "symbol": "Bishop holding a book, codex or scroll",
+        "meaning": "His teaching as a bishop and Doctor of the Church, preserved in his orations, letters and poems."
+      },
+      {
+        "symbol": "Dove near him as he writes",
+        "meaning": "The Holy Spirit, whose full divinity he defended in his Fifth Theological Oration."
+      },
+      {
+        "symbol": "Hand of God above him as he writes",
+        "meaning": "Divine inspiration, and his conviction that true theology grows out of prayer."
+      },
+      {
+        "symbol": "Censer",
+        "meaning": "His priestly and episcopal ministry of worship."
+      },
+      {
+        "symbol": "Balding head with a bushy white beard",
+        "meaning": "The traditional likeness by which Eastern icons identify him."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Gregory when faith has to be put into words. He loved solitude and was a reluctant leader, yet he accepted ordination, served a small, struggling Nicene community in Constantinople, and spoke so clearly about the Trinity that the Orthodox still call him the Theologian. He also knew failure: opposition pushed him out of the see of Constantinople, and he went home to pray and write. His friendship with Basil, which he likened to one soul in two bodies, makes him a companion for friends who share their faith. Students, preachers, poets and anyone weary of conflict in the Church find in him an honest, prayerful guide.",
+    "quotes": [
+      {
+        "text": "Christ is born, glorify ye Him. Christ from heaven, go ye out to meet Him. Christ on earth; be ye exalted.",
+        "work": "Oration 38 (On the Theophany, or Birthday of Christ), 1",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, trans. Charles Gordon Browne and James Edward Swallow (public domain)"
+      },
+      {
+        "text": "Was and Was and Was, but Was One Thing. Light thrice repeated; but One Light and One God.",
+        "work": "Oration 31 (Fifth Theological Oration: On the Holy Spirit), 3",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, trans. Charles Gordon Browne and James Edward Swallow (public domain)"
+      },
+      {
+        "text": "we had but one great business and name--to be and to be called Christians.",
+        "work": "Oration 43 (Funeral Oration on the Great S. Basil), 21",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, trans. Charles Gordon Browne and James Edward Swallow (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Holy Trinity, Father, Son and Holy Spirit, you gave St. Gregory a mind to search your mysteries and a heart that sought you in prayer. Through his intercession, teach me to speak of you truthfully and humbly, and to let my study begin and end in worship. Give me faithful friends who draw me closer to you, and peace when conflict and disappointment come. May I, like Gregory, count it my greatest honor to be, and to be called, a Christian. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the memorial of Sts. Basil the Great and Gregory Nazianzen at Mass on January 2, during the Christmas season.",
+      "Read his Christmas sermon, Oration 38, which opens \"Christ is born, glorify ye Him,\" while the Christmas season is still underway.",
+      "Spend time with, or write to, a friend who shares your faith, recalling his lifelong friendship with Basil.",
+      "Pray for unity between Catholic and Orthodox Christians; in 2004 St. John Paul II gave relics of Gregory and St. John Chrysostom to the Ecumenical Patriarch as a sign of reconciliation.",
+      "Visitors to Rome can look for his statue on the colonnade of St. Peter's Square."
+    ],
+    "places": [
+      {
+        "name": "St. Peter's Basilica (Gregorian Chapel, where his relics were placed in 1580)",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en.html"
+      },
+      {
+        "name": "Ecumenical Patriarchate (Patriarchal Church of St. George, which received his relics in 2004)",
+        "city": "Istanbul, Turkey",
+        "url": "https://ec-patr.org/"
+      }
+    ],
+    "confirmationNote": "Gregory is a strong choice for a confirmand who loves ideas, words or poetry. His Fifth Theological Oration defends the full divinity of the Holy Spirit, the same Spirit given in Confirmation. He was also a sensitive, sometimes reluctant leader who kept saying yes when the Church needed him, and a loyal friend. He shows that thinking hard about God and praying to God belong together.",
+    "reflectionPrompts": [
+      "Which friendship in my life helps me most to grow closer to God, and how can I strengthen it?",
+      "Choose one hard question about the faith and spend twenty minutes this week reading a trustworthy answer, beginning and ending with prayer.",
+      "Read Gregory's Fifth Theological Oration (Oration 31) in the Nicene and Post-Nicene Fathers translation, especially section 3 on the \"True Light,\" and Benedict XVI's 2007 audience on him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "basil-the-great",
+        "reason": "His closest friend; they share the January 2 memorial",
+        "historical": true
+      },
+      {
+        "slug": "athanasius",
+        "reason": "Gregory preached Oration 21 in praise of him",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "Became his pupil and disciple at Constantinople",
+        "historical": true
+      },
+      {
+        "slug": "john-chrysostom",
+        "reason": "Later archbishop of Constantinople; their relics were given to the Ecumenical Patriarch together in 2004",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 8 August 2007: Saint Gregory Nazianzus (1)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070808.html"
+      },
+      {
+        "title": "Vatican News: Saints Basil the Great and Gregory Nazianzen, January 2",
+        "url": "https://www.vaticannews.va/en/saints/01/02.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, January 2 (Sts. Basil and Gregory Nazianzen)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-02"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Gregory of Nazianzus",
+        "url": "https://www.newadvent.org/cathen/07010b.htm"
+      },
+      {
+        "title": "CCEL: NPNF2-07, Cyril of Jerusalem, Gregory Nazianzen (public-domain text)",
+        "url": "https://ccel.org/ccel/schaff/npnf207"
+      },
+      {
+        "title": "New Advent Fathers: Oration 38",
+        "url": "https://www.newadvent.org/fathers/310238.htm"
+      },
+      {
+        "title": "New Advent Fathers: Oration 31",
+        "url": "https://www.newadvent.org/fathers/310231.htm"
+      },
+      {
+        "title": "New Advent Fathers: Oration 43",
+        "url": "https://www.newadvent.org/fathers/310243.htm"
+      },
+      {
+        "title": "John Paul II, Letter to Bartholomew I on the transfer of the relics (27 November 2004)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/letters/2004/documents/hf_jp-ii_let_20041127_consegna-reliquie.html"
+      },
+      {
+        "title": "Agenzia Fides: relics of Gregory Nazianzen and John Chrysostom returned (2004)",
+        "url": "https://www.fides.org/en/news/3581"
+      },
+      {
+        "title": "St. Peter's Basilica (official site)",
+        "url": "https://www.basilicasanpietro.va/en.html"
+      },
+      {
+        "title": "Ecumenical Patriarchate (official site)",
+        "url": "https://ec-patr.org/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists harvests and poets; these are sourced but have no live topic.",
+      "symbols: all five from Catholic Culture's 'Symbols and Representation' list; meanings for the dove and hand of God are interpretive, tied to his Oration 31 and Benedict XVI's catechesis.",
+      "quotes: wording verified against the CCEL plain-text edition of NPNF2-07 (CCEL lists its print basis as New York, 1893; the volume is commonly dated 1894). New Advent's online version modernizes some wording (e.g. 'glorify Him', 'lightens'); the CCEL original is used here. The Oration 43 quote starts mid-sentence (lowercase kept as printed); the em dash appears as '--' in the CCEL text.",
+      "prayer: the Roman Missal collect for January 2 is a copyrighted ICEL translation, so an original prayer is given.",
+      "places: Fides (2004) says his relics were placed in the Gregorian Chapel of St. Peter's in 1580 and were to be transferred to the Patriarchal Church of St. George on 30 November 2004. Reports say a portion remained in Rome, but that was not verified from a Vatican source.",
+      "feastCustoms: the statue on the St. Peter's colonnade comes from Catholic Culture. Eastern feast dates (e.g. January 25, January 30) were not added because no reputable source checked here stated them.",
+      "biography: no conflict. The Catholic Encyclopedia gives his death as about 389; the reviewed biography's 'about 330–390' matches Benedict XVI."
+    ]
+  },
   "hedwig": {
     "templateVersion": 2,
     "heroSummary": "St. Hedwig of Silesia is the patron saint of Silesia, a duchess who used her rank and wealth to found monasteries and hospitals and to care for the poor and sick. Born at Andechs in Bavaria around 1174, she spent her widowhood beside the Cistercian nuns of Trzebnica and was canonized in 1267. Her optional memorial is October 16.",
@@ -1768,6 +2545,127 @@
       "relatedSaints: aloysius-gonzaga and teresa-of-avila are linked by order and era, not by direct contact with Ignatius."
     ]
   },
+  "joachim": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joachim is honored by tradition as the father of the Virgin Mary, husband of St. Anne and grandfather of Jesus. Scripture never names him: his name and the story of his long wait for a child come from the second-century Protoevangelium of James. The Church celebrates Joachim and Anne together on July 26.",
+    "symbols": [
+      {
+        "symbol": "Lamb, or a lamb brought to the altar",
+        "meaning": "The offering he brought to the Temple. In the Protoevangelium he is told he may not offer first because he has no child; later legend turns this into a priest refusing his gift."
+      },
+      {
+        "symbol": "Basket of doves",
+        "meaning": "Another image of his Temple offerings and of the prayer for a child that, in the tradition, God answered."
+      },
+      {
+        "symbol": "Shepherd's staff",
+        "meaning": "The Protoevangelium pictures him as a wealthy man with flocks who withdrew to the wilderness to fast and pray for forty days."
+      },
+      {
+        "symbol": "Golden Gate of Jerusalem",
+        "meaning": "Later tradition places his joyful meeting with Anne here after angels announce Mary's birth; the Protoevangelium says only that Anne stood 'by the gate'."
+      },
+      {
+        "symbol": "The child Mary beside him",
+        "meaning": "His place as Mary's father, who in the tradition presents her to the priests for a blessing and later brings her to the Temple."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Joachim as a father and grandfather, someone who waited, prayed and handed on faith. Scripture tells us nothing about him, not even his name; the story comes from an early noncanonical writing and long devotion. In that story he is shamed for having no child, goes into the wilderness to fast, and refuses to eat until God answers him. Tradition holds that the answer was Mary. Fathers, grandfathers, couples longing for children and anyone carrying a long, unanswered prayer find in him a steady companion. With Anne, he reminds the Church that grandparents are often where faith first takes root.",
+    "quotes": [
+      {
+        "text": "But these were men of mercy, whose godly deeds have not failed: Good things continue with their seed, Their posterity are a holy inheritance, and their seed hath stood in the covenants.",
+        "work": "Ecclesiasticus (Sirach) 44:10–12, chosen for context; it is not about Joachim",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And mayest thou see thy children's children, peace upon Israel.",
+        "work": "Psalm 127:6 (Psalm 128:6 in modern numbering), chosen for context; it is not about Joachim",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, the Church has long honored St. Joachim as the father of the Virgin Mary and the grandfather of your Son. Through his prayers, bless fathers and grandfathers, and all who wait a long time for an answer from you. Give them patience when you seem silent, humility when they feel overlooked, and joy in the gifts you send. Help us to honor the older people in our lives and to receive the faith they hand on, so that our families may be places where your promises are remembered. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on July 26, the memorial of Sts. Joachim and Anne, parents of the Blessed Virgin Mary; when it falls on a Sunday, the Sunday liturgy takes its place.",
+      "Honor your grandparents on the day, a long custom tied to this feast: visit, call or pray with them, or remember them at Mass if they have died.",
+      "Keep the World Day for Grandparents and the Elderly, which Pope Francis set on the fourth Sunday of July near this feast; some bishops' conferences, including in the United States, observe it on another Sunday.",
+      "Pray especially for fathers, grandfathers and couples longing for a child.",
+      "In the Byzantine tradition, Eastern Catholics honor Joachim and Anne on September 9, the day after the Nativity of Mary."
+    ],
+    "confirmationNote": "Joachim suits a confirmand who is grateful for a father, grandfather or godparent who handed on the faith. Nothing he said or did is recorded in Scripture, so choosing him is a choice to honor patient, hidden faithfulness and prayer that keeps going when answers are slow. Confirmation strengthens Christians to witness to Christ, and much of that witness happens in families, from one generation to the next.",
+    "reflectionPrompts": [
+      "What prayer have I been carrying for a long time, and can I offer it to God again today with trust?",
+      "Thank a father, grandfather or older mentor this week for something he taught you about faith.",
+      "Read the Catholic Encyclopedia article on St. Joachim and chapters 1–5 of the Protoevangelium of James, noting what the Encyclopedia treats as uncertain."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anne",
+        "reason": "His wife in tradition; they share the July 26 feast",
+        "historical": true
+      },
+      {
+        "slug": "joseph",
+        "reason": "Husband of his daughter Mary and fellow member of Jesus' family",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-mother-of-john-baptist",
+        "reason": "Mary's kinswoman, whose long-childless family also received a child as God's gift",
+        "historical": true
+      },
+      {
+        "slug": "louis-martin",
+        "reason": "A canonized father remembered for handing on faith to his daughters",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1910): St. Joachim",
+        "url": "https://www.newadvent.org/cathen/08406b.htm"
+      },
+      {
+        "title": "Protoevangelium of James, trans. Alexander Walker (Ante-Nicene Fathers), New Advent",
+        "url": "https://www.newadvent.org/fathers/0847.htm"
+      },
+      {
+        "title": "Vatican News: Sts. Joachim and Anne, parents of the Blessed Virgin Mary",
+        "url": "https://www.vaticannews.va/en/saints/07/26/sts--joachim-and-anne--parents-of-b--v---mary.html"
+      },
+      {
+        "title": "Vatican News (Italian): Santi Gioacchino e Anna, genitori della Beata Vergine Maria",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/07/26/santi-gioacchino-e-anna--genitori-della-beata-vergine-maria.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of Sts. Joachim and Anne (July 26, 2025)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-07-26"
+      },
+      {
+        "title": "Catholic Culture: July 26, 2026 (World Day of Grandparents and the Elderly note)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-26"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ecclesiasticus 44",
+        "url": "https://www.drbo.org/chapter/26044.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 127",
+        "url": "https://www.drbo.org/chapter/21127.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; fathers, grandfathers and grandparents (and several places in Brazil and Puerto Rico) are sourced (Catholic Culture) but have no live topic",
+      "quotes: Joachim has no recorded words in Scripture and no writings; both quotes are Scripture chosen for context and are labeled as not about him",
+      "symbols: lamb at the altar, basket of doves, staff, Golden Gate and the child Mary are all in Catholic Culture's list for Joachim; the Protoevangelium (New Advent, ch. 1–7) was checked, and the priest refusing his offering and the Golden Gate are labeled as later tradition",
+      "places: no official website was verified. The Church of St. Anne in Jerusalem (tradition's site of the family home; Missionaries of Africa) has no official page found, and San Gioacchino ai Prati di Castello in Rome (sangioacchino.org) did not load",
+      "feastCustoms: Catholic Culture's 2026 page says the USCCB moved the World Day of Grandparents and the Elderly to the Sunday after Labor Day; the wording stays general ('another Sunday'). Human may want to confirm. The September 9 Byzantine date rests on the Catholic Encyclopedia ('the day following the Blessed Virgin's birthday')",
+      "biography: no disagreement with the reviewed biography; Vatican News adds that Julius II put Joachim's memorial on March 20 in 1510 and the 1969 reform joined it to Anne's on July 26"
+    ]
+  },
   "joan-of-arc": {
     "templateVersion": 2,
     "heroSummary": "St. Joan of Arc is honored by many Catholics as a patron of prisoners and captives, fitting for a young woman who spent her final year in custody. Raised at Domremy, she believed God called her to aid Charles VII. She was condemned and burned in 1431, cleared in 1456, and canonized in 1920.",
@@ -2020,6 +2918,157 @@
       "biography: the jesuits.global page says 'He was ordained a priest in April 1618' in a passage about his father; this appears to refer to his father (who entered the seminary after his wife's death), not John, and the reviewed biography is correct that John died before ordination",
       "biography: Catholic Culture says he died 'after years of illness', while the Catholic Encyclopedia and the Jesuit biography describe an acute illness in August 1621, as the reviewed biography does; no change suggested",
       "relatedSaints: Stanislaus Kostka marked thematic; the shared 1888 canonization day for Alphonsus Rodriguez and Peter Claver rests on USCCB (for Claver's date) and GCatholic"
+    ]
+  },
+  "john-the-baptist": {
+    "templateVersion": 2,
+    "heroSummary": "St. John the Baptist is the prophet who prepared the way for Jesus, calling people to repentance and baptizing in the Jordan. The Church celebrates his birth with a solemnity on June 24 and his martyrdom under Herod Antipas on August 29. His whole mission pointed beyond himself: \"He must increase, but I must decrease.\"",
+    "searchDescription": "St. John the Baptist, feasts June 24 (his birth) and August 29 (his martyrdom): the prophet who baptized Jesus and pointed others to Christ.",
+    "symbols": [
+      {
+        "symbol": "Lamb",
+        "meaning": "Recalls his words on seeing Jesus, \"Behold the Lamb of God\" (John 1:29): John's task was to point others to Christ."
+      },
+      {
+        "symbol": "Cross-tipped staff, often with a banner",
+        "meaning": "Announces the victory of Christ, whose coming and saving death John proclaimed."
+      },
+      {
+        "symbol": "Camel's-hair garment and leather girdle",
+        "meaning": "The rough clothing Matthew 3:4 describes, the dress of a desert prophet who lived simply and called others to penance."
+      },
+      {
+        "symbol": "His head on a dish",
+        "meaning": "His martyrdom: Herod had him beheaded and the head brought on a dish to Herodias' daughter (Matthew 14:8–11)."
+      },
+      {
+        "symbol": "Scroll",
+        "meaning": "Marks him as a prophet; Vatican News calls him the last of Israel's great prophets and the first to bear witness to Jesus."
+      }
+    ],
+    "whyWeTurn": "People turn to St. John the Baptist when they need courage to tell the truth and humility to step aside. He drew large crowds, yet he pointed his own disciples toward Jesus and said his joy was complete when Christ became greater. He asked people to change their lives in concrete ways, and he paid with his life for telling a powerful ruler that his marriage was wrong. Catholics remember him at every baptism, since he baptized Jesus in the Jordan. He is a natural companion for parents, godparents, catechists and anyone whose work is to prepare the way for others and then let Christ take the center.",
+    "quotes": [
+      {
+        "text": "Do penance: for the kingdom of heaven is at hand.",
+        "work": "Matthew 3:2",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Behold the Lamb of God, behold him who taketh away the sin of the world.",
+        "work": "John 1:29",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "He must increase, but I must decrease.",
+        "work": "John 3:30",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. John the Baptist, you prepared the way of the Lord and pointed others to the Lamb of God. Pray for me, that I may turn away from whatever keeps me from Christ and make straight the paths of my life. Give me courage to speak the truth with love, even when it costs me, and the humility to rejoice when others draw closer to Jesus than to me. Help me to remember my baptism and to live it each day. May Christ increase in me, and may I decrease. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on June 24, the Solemnity of the Nativity of St. John the Baptist, the highest rank of feast; its date follows Luke 1:36, six months before Christmas.",
+      "Keep August 29, the memorial of his Passion, by reading the Gospel account of his death (Mark 6:17–29) and praying for those who suffer for telling the truth.",
+      "In many places, especially in Europe and Brazil, communities light St. John's fires on the eve of the feast, recalling John as \"a burning and a shining light\" (John 5:35); a family can light a candle or bless a small fire at home.",
+      "Sing or read the hymn Ut queant laxis, written for his feast, whose opening syllables gave names to the notes of the musical scale.",
+      "Find out the date of your baptism, renew your baptismal promises, and thank God for the people who brought you to the font."
+    ],
+    "places": [
+      {
+        "name": "Archbasilica of St. John Lateran",
+        "city": "Rome, Italy",
+        "url": "https://www.vatican.va/various/basiliche/san_giovanni/index_it.html"
+      }
+    ],
+    "confirmationNote": "John the Baptist suits a confirmand who wants courage to speak truthfully and the humility to let Christ come first. He prepared others to meet Jesus, baptized him in the Jordan, and accepted prison and death rather than flatter a king. Confirmation strengthens Christians to witness to Christ in word and deed, and John's own words, \"He must increase, but I must decrease,\" make a fitting promise for that new strength.",
+    "reflectionPrompts": [
+      "Where in my life do I need Christ to increase and my own need for attention to decrease?",
+      "This week, point someone toward a good you did not create: credit a colleague's work, encourage a friend's faith, or invite someone to Mass.",
+      "Read Luke 1:57–80 and John 3:22–30 in the Douay-Rheims, and compare what Zachary prophesied about his son with what John later says about himself."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "elizabeth-mother-of-john-baptist",
+        "reason": "His mother, whose late pregnancy and naming of the child Luke describes",
+        "historical": true
+      },
+      {
+        "slug": "andrew",
+        "reason": "Followed John before following Jesus (John 1:35–40)",
+        "historical": true
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "Shares his name and the Lateran Basilica's dedication, but is a different John",
+        "historical": false
+      },
+      {
+        "slug": "john-fisher",
+        "reason": "Also beheaded after opposing a king over an unlawful marriage",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Solemnity of the Nativity of Saint John the Baptist",
+        "url": "https://vaticannews.va/en/liturgical-holidays/solemnity-of-the-nativity-of-saint-john-the-baptist.html"
+      },
+      {
+        "title": "Vatican News: Word of the Day, June 24, 2026",
+        "url": "https://www.vaticannews.va/en/word-of-the-day/2026/06/24.html"
+      },
+      {
+        "title": "Catholic Culture: Solemnity of the Nativity of St. John the Baptist (June 24)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-24"
+      },
+      {
+        "title": "Catholic Culture: Memorial of the Passion of St. John the Baptist (August 29)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-29"
+      },
+      {
+        "title": "Jubilee 2025 (Vatican): Basilica of Saint John Lateran",
+        "url": "https://www.iubilaeum2025.va/en/pellegrinaggio/cammini-giubilari-dentro-roma/basiliche-papali/Basilica-San-Giovanni-in-Laterano.html"
+      },
+      {
+        "title": "Vatican: Arcibasilica di San Giovanni in Laterano",
+        "url": "https://www.vatican.va/various/basiliche/san_giovanni/index_it.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 3",
+        "url": "https://www.drbo.org/chapter/47003.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 14",
+        "url": "https://www.drbo.org/chapter/47014.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 1",
+        "url": "https://www.drbo.org/chapter/49001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 1",
+        "url": "https://www.drbo.org/chapter/50001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 3",
+        "url": "https://www.drbo.org/chapter/50003.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 5",
+        "url": "https://www.drbo.org/chapter/50005.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture's list (baptism, converts, monastic life, printers, tailors, epileptics, Knights of Malta, Quebec, Genoa, several U.S. dioceses, etc.) has no matching live topic, so the field is omitted.",
+      "places: the Lateran link is the Italian vatican.va page because the English version returns 404; the basilica's link to John is that it is dedicated to the Most Holy Saviour and to Sts. John the Baptist and John the Evangelist (Jubilee 2025 site). The Franciscan Church of St. John the Baptist at Ain Karem (traditional birthplace, Custody of the Holy Land) was considered, but custodia.org refused automated access, so its URL could not be verified.",
+      "quotes: John left no writings; all three quotes are his words as recorded in the Gospels, Douay-Rheims verified on drbo.org.",
+      "symbols: the attributes come from Catholic Culture's list (lamb, locust, camel's-hair tunic, girdle, head on a charger, scroll, cross-tipped staff, banner of victory); the scroll's meaning is the general prophetic sense, not a meaning Catholic Culture states.",
+      "feastCustoms: St. John's fires are a local custom (Catholic Culture mentions Europe's Johannesfeuer and Brazil), not universal liturgy; the Ut queant laxis note follows Catholic Culture.",
+      "relatedSaints: john-fisher is a thematic parallel (Fisher opposed Henry VIII over his marriage), not a historical link to John the Baptist.",
+      "biography: no disagreement with the reviewed biography. Context for a human: Vatican sources say he and Mary are the only saints whose births have a solemn feast, while a CNA piece counts Jesus as a third; this claim was not used."
     ]
   },
   "joseph": {
@@ -2660,6 +3709,89 @@
       "places: National Shrine of St. Maximilian Kolbe at Marytown (Libertyville, Illinois; kolbeshrine.org) returned a bot challenge and could not be verified as loading, so it was left out; add it if a human confirms the URL",
       "symbols: the two-crowns vision is known through his mother's recollection (Vatican News), and is labeled that way rather than as documented history",
       "relatedSaints: Edith Stein's death at Auschwitz (1942) and John Paul II's 1982 canonization of Kolbe are well established but were not re-fetched from a dedicated page in this pass"
+    ]
+  },
+  "maximinus-of-aix": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Maximin of Aix is honored as the patron of the diocese of Aix and is credited with the beginnings of Christian faith in Aix-en-Provence. His local feast is June 8. Provençal legend makes him one of Christ's seventy-two disciples who sailed to Provence with Mary Magdalene, Martha and Lazarus, but that voyage is tradition, not established history.",
+    "searchDescription": "St. Maximin of Aix, feast June 8: patron of the diocese of Aix, credited with the city's first Christian preaching; the Bethany voyage is legend.",
+    "whyWeTurn": "People turn to St. Maximin to give thanks for those who first brought the faith to a place. Very little about his life can be documented: the Roman Martyrology simply credits him with the beginnings of Christian faith in Aix. Tradition holds much more, that he was one of the seventy-two disciples Jesus sent out and that he came to Provence with Mary Magdalene and the family of Bethany. Whatever the details, Catholics in Provence have kept his name in prayer for centuries. He is a fitting companion for anyone praying for their own diocese, for missionaries, and for people who share the faith quietly where it is new.",
+    "quotes": [
+      {
+        "text": "And after these things the Lord appointed also other seventy-two: and he sent them two and two before his face into every city and place whither he himself was to come.",
+        "work": "Luke 10:1",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "The harvest indeed is great, but the labourers are few. Pray ye therefore the Lord of the harvest, that he send labourers into his harvest.",
+        "work": "Luke 10:2",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you sent your disciples ahead of you into every town to prepare your way. We thank you for St. Maximin and for all who first carried the Gospel to Provence, and for those who first brought the faith to us. Bless our bishops and our parishes, and send labourers into your harvest. Whatever we know or do not know of our beginnings, keep us faithful to what we have received, and make us ready to hand it on with joy. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "June 8 is his feast in the diocese of Aix; elsewhere, remember him in personal prayer, since he is not on the General Roman Calendar. Do not confuse him with St. Maximin of Trier, honored on May 29.",
+      "Pray for your own bishop and diocese, and find out who first brought the faith to your area.",
+      "Read Luke 10:1–20, the sending of the seventy-two, and pray for missionaries and new Christian communities.",
+      "Pilgrims in Provence visit the basilica at Saint-Maximin-la-Sainte-Baume, where tradition places his tomb in the crypt, and Saint-Sauveur Cathedral in Aix, whose Romanesque nave local tradition links to an oratory he founded."
+    ],
+    "confirmationNote": "Maximin could suit a confirmand who wants to honor the people who first handed on the faith, whether in a family or a region. Little about his life is certain beyond his long association with Aix, and the stories of his voyage with Mary Magdalene are legend. What remains is a simple witness: someone remembered for helping the Gospel take root where it was new. Confirmation sends every Christian to do the same where they live.",
+    "reflectionPrompts": [
+      "Who first passed the faith on to me, and have I thanked God, and them, for it?",
+      "Find out who founded your parish or diocese, and pray for your current bishop by name this week.",
+      "Read Luke 10:1–20 and the Catholic Encyclopedia article 'Aix', and compare what history records about the first bishops of Aix with the Provençal tradition."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "medard",
+        "reason": "Shares the June 8 date",
+        "historical": true
+      },
+      {
+        "slug": "trophimus",
+        "reason": "Honored as founder of the church of Arles, now joined with Aix in one archdiocese",
+        "historical": true
+      },
+      {
+        "slug": "mary-magdalene",
+        "reason": "His companion in the Provençal legend of the voyage from the Holy Land",
+        "historical": false
+      },
+      {
+        "slug": "lazarus",
+        "reason": "Also placed in Provence by the same legend of the Bethany family",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nominis (Église catholique en France): Saint Maximin",
+        "url": "https://nominis.cef.fr/contenus/saint/1292/Saint-Maximin.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): Aix",
+        "url": "https://www.newadvent.org/cathen/01237e.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Maximinus (of Trier, for distinction)",
+        "url": "https://www.newadvent.org/cathen/10077a.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 10",
+        "url": "https://www.drbo.org/chapter/49010.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols empty. No reputable source naming established iconographic attributes for Maximin of Aix was found; he is presumably shown as a bishop, but that could not be verified.",
+      "patronages: Diocese of Aix is sourced (Nominis; reviewed biography) but has no live topic.",
+      "places: omitted. No verifiable official website was found for the basilica at Saint-Maximin-la-Sainte-Baume, Saint-Sauveur Cathedral or the Archdiocese of Aix and Arles (catholique-aix-arles.fr did not resolve); cathedrale-aix.net states it is unofficial.",
+      "feastCustoms: the pilgrimage item relies on Nominis for both the tomb tradition and the oratory/nave tradition; both are presented as tradition.",
+      "relatedSaints: the Trophimus link relies on the merged see of Aix and Arles (Catholic Encyclopedia notes Aix long depended on Arles); a human may want to confirm the current archdiocese name.",
+      "biography: no direct conflict, but note that the Catholic Encyclopedia (1907) reports Duchesne's argument that Maximin, though the object of a very ancient local cult, was not regarded in early sources as the first bishop of Aix, and that the Magdalene connection comes from eleventh-century legends linked to Vézelay; the first historically known bishop of Aix is Lazarus (about 400). The reviewed biography's cautious wording ('honored as an early bishop') is compatible."
     ]
   },
   "michael-the-archangel": {
@@ -3473,6 +4605,124 @@
       "biography: the Catholic Encyclopedia dates his arrival in Rome to 1533 and his death to 27 May; the reviewed biography follows Vatican News (1534; early hours of May 26), so no change suggested",
       "relatedSaints: John Bosco's use of the name Oratory is general knowledge and was not checked against a source in this pass",
       "places: only one official site verified"
+    ]
+  },
+  "scholastica": {
+    "templateVersion": 2,
+    "heroSummary": "St. Scholastica was the sister of St. Benedict and, in Gregory the Great's words, dedicated to God from her infancy. Almost all we know comes from two short chapters of Gregory's Dialogues: a prayer that brought down a storm, and Benedict's vision of her soul rising as a dove. Her feast is February 10.",
+    "searchDescription": "St. Scholastica, sister of St. Benedict, is honored February 10. Gregory the Great tells of her storm-bringing prayer and her soul rising as a dove.",
+    "symbols": [
+      {
+        "symbol": "Dove",
+        "meaning": "Gregory's account that Benedict saw her soul ascend to heaven in the likeness of a dove three days after their last meeting; art sometimes shows the dove leaving her mouth."
+      },
+      {
+        "symbol": "Crozier (pastoral staff)",
+        "meaning": "Her role, in Benedictine tradition, as head of a community of women near Montecassino; Gregory himself does not describe her as an abbess."
+      },
+      {
+        "symbol": "Crucifix",
+        "meaning": "A life consecrated to Christ, which Gregory says began in her infancy."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Her consecrated virginity; the Church keeps her feast as the memorial of St. Scholastica, Virgin."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Scholastica because her one remembered conversation is so human. She had a brother she saw once a year, she wanted one more night of talking about God with him, and when he said no, she prayed. Gregory the Great, who tells the story, takes her side: she could do more, he says, because she loved more. Nuns and Benedictine communities honor her as a mother of their way of life, and tradition invokes her against storms and lightning. Brothers and sisters, close friends, and anyone who longs for deeper conversation about faith find in her a patient, loving intercessor.",
+    "quotes": [
+      {
+        "text": "I desired you to stay, and you would not hear me, I have desired our good Lord, and he hath vouchsafed to grant my petition: wherefore if you can now depart, in God's name return to your monastery, and leave me here alone.",
+        "work": "Gregory the Great, Dialogues, Book II, chapter 33 (Scholastica's words to Benedict, as Gregory reports them)",
+        "translation": "P. W. (1608), ed. Edmund G. Gardner (London: Philip Lee Warner, 1911; public domain)"
+      },
+      {
+        "text": "...according to the saying of St. John, God is charity and therefore of right she did more which loved more.",
+        "work": "Gregory the Great, Dialogues, Book II, chapter 33 (Gregory writing about Scholastica)",
+        "translation": "P. W. (1608), ed. Edmund G. Gardner (London: Philip Lee Warner, 1911; public domain)"
+      },
+      {
+        "text": "...as their souls were always one in God whiles they lived, so their bodies continued together after their death.",
+        "work": "Gregory the Great, Dialogues, Book II, chapter 34 (on her burial in Benedict's own grave)",
+        "translation": "P. W. (1608), ed. Edmund G. Gardner (London: Philip Lee Warner, 1911; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Scholastica gave her life to you from childhood and loved to speak with her brother about the joys of heaven. Through her prayers, teach us to pray with the trust of a child who knows she will be heard. Bless our brothers and sisters, our families and our friendships, and make our conversations places where you are welcome. Give us hearts that love much, so that, like her, we may desire you above all things and one day rejoice with her in your presence. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on February 10, the memorial of St. Scholastica, Virgin, in the General Roman Calendar.",
+      "Read Gregory the Great's Dialogues, Book II, chapters 33 and 34, the short account of her last visit with Benedict.",
+      "Call, write to or visit a brother, sister or close friend, and talk about something that matters to your faith.",
+      "With children, tell the story of the \"holy twins\" Benedict and Scholastica and make a paper dove for a window or home altar.",
+      "Try lectio divina, the slow, prayerful reading of Scripture at the heart of Benedictine life, for a few minutes of the day."
+    ],
+    "places": [
+      {
+        "name": "Abbey of Montecassino",
+        "city": "Cassino, Italy",
+        "url": "https://abbaziamontecassino.it/"
+      }
+    ],
+    "confirmationNote": "Scholastica suits a confirmand who prays with confidence and treasures the people who share their faith. Her story is a reminder that prayer is real conversation with a God who listens, and that love can be bold. Confirmation strengthens Christians to live and witness to Christ; Scholastica shows that this witness can grow quietly, through faithful prayer, a consecrated heart and loving friendship.",
+    "reflectionPrompts": [
+      "Who in my life do I most want to talk with about God, and when did I last do it?",
+      "Set aside ten minutes today to bring one specific request to God with the confidence Scholastica showed.",
+      "Read Gregory the Great's Dialogues, Book II, chapters 33–34, and ask why Gregory says she \"did more which loved more\"."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "benedict",
+        "reason": "Her brother; Gregory says they were buried in the same grave",
+        "historical": true
+      },
+      {
+        "slug": "lioba",
+        "reason": "Benedictine abbess who brought women's monastic life to Germany",
+        "historical": true
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Benedictine abbess and later daughter of the tradition Scholastica began",
+        "historical": true
+      },
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Led women in the way of life of another founder, Francis",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gregory the Great, Dialogues (1911), Book 2, trans. P. W. (1608), ed. E. G. Gardner, Tertullian Project (public domain)",
+        "url": "https://www.tertullian.org/fathers/gregory_02_dialogues_book2.htm"
+      },
+      {
+        "title": "Order of Saint Benedict: Gregory the Great, Dialogues Book 2, chapter 33",
+        "url": "https://archive.osb.org/gen/greg/dia-35.html"
+      },
+      {
+        "title": "Vatican News (Italian): Santa Scolastica, vergine, sorella di San Benedetto",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/02/10/santa-scolastica--vergine--sorella-di-san-benedetto.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Scholastica, Virgin (February 10)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-02-10"
+      },
+      {
+        "title": "Abbazia di Montecassino (official website)",
+        "url": "https://abbaziamontecassino.it/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; nuns, Benedictines, convulsive children, against storms, rain and lightning, Le Mans and Monte Cassino Abbey are sourced (Catholic Culture) but have no live topic",
+      "symbols: only four attributes used, all from Catholic Culture's list ('Nun with crozier and crucifix; nun with dove flying from her mouth; dove; lily'); the crozier is labeled as tradition since Gregory never calls her an abbess",
+      "quotes: all three verified against the 1911 Gardner edition of the 1608 translation on tertullian.org; the OSB site's version is a modernized adaptation and was not quoted. In quote 2 a footnote marker (to 1 John 4:8) after 'God is charity' was dropped",
+      "places: Montecassino's official homepage does not itself mention Scholastica; her tomb there is from Catholic Culture and Vatican News, and Gardner's 1911 note calls the location of the bodies 'a little uncertain' because of a reported translation to France. Santa Scolastica at Subiaco bears her name but has no documented link to her life and no verified official URL, so it was not listed",
+      "whyWeTurn: 'tradition invokes her against storms and lightning' rests on Catholic Culture's patronage list",
+      "biography: no disagreement with the reviewed biography, but note that Vatican News (Italian) and Catholic Culture call her Benedict's twin and give dates (about 480–543) and her community at Piumarola; Gregory says only 'sister', so the text avoids 'twin' except in the children's-story custom, where 'holy twins' is quoted as the traditional phrase"
     ]
   },
   "teresa-of-avila": {
