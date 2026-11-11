@@ -1,4 +1,244 @@
 {
+  "agnes-le-thi-thanh": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Agnes Lê Thị Thành, also called Đê, was a Vietnamese laywoman and mother who hid a priest in her home during a time of persecution. Beaten for refusing to trample a cross, she died in prison in 1841. She is the only woman among the 117 Vietnamese martyrs canonized in 1988.",
+    "searchDescription": "St. Agnes Lê Thị Thành, a Vietnamese mother who sheltered a priest, refused to trample a cross and died in prison in 1841. Feast: July 12.",
+    "whyWeTurn": "People turn to St. Agnes Lê Thị Thành because her faith was lived out in an ordinary home. She was not a priest or a nun but a mother, and her courage took the form of hospitality: she sheltered a hunted priest, knowing what it could cost her household. When she was pressed to trample a cross, she refused, and she died in prison after repeated beatings. Mothers, families who keep the faith under pressure, and Vietnamese Catholics around the world find in her a sister who shows that hidden acts of welcome can be a true witness. Much of her life went unrecorded, and that quiet is part of her story too.",
+    "quotes": [
+      {
+        "text": "For I was hungry, and you gave me to eat; I was thirsty, and you gave me to drink; I was a stranger, and you took me in.",
+        "work": "Matthew 25:35",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Blessed are they that suffer persecution for justice' sake: for theirs is the kingdom of heaven.",
+        "work": "Matthew 5:10",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you were welcomed in the home of Saint Agnes Lê Thị Thành when she sheltered your priest at the risk of her life. Through her prayers, make my home a place where you and others find welcome. Strengthen mothers and families who keep the faith under pressure, and comfort all who suffer for your name today. When I am tempted to deny you, even in small ways, give me her steady courage. May the witness of the Vietnamese martyrs keep bearing fruit in your Church. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on July 12, the death date given in the Holy See's list of the Vietnamese martyrs and her individual commemoration.",
+      "Attend Mass on November 24, the universal memorial of St. Andrew Dũng-Lạc and Companions, which honors her together with the other Vietnamese martyrs.",
+      "Pray a rosary for Christians who face persecution in Vietnam and elsewhere, as Catholic Culture suggests for the martyrs' memorial.",
+      "Practice her kind of courage through hospitality: invite someone who is lonely to your table, or support your parish's welcome of missionaries and newcomers.",
+      "Share a Vietnamese meal with family or friends, a custom Catholic Culture suggests for the November 24 memorial."
+    ],
+    "confirmationNote": "St. Agnes Lê Thị Thành can suit a Confirmation candidate who wants a saint from ordinary family life, or who has Vietnamese roots. She was a lay mother, not a priest or religious sister, and her witness began with welcoming a priest into her home. Taking her name can mean committing to hospitality, to quiet courage under pressure, and to keeping faith even when it costs something.",
+    "reflectionPrompts": [
+      "Is there a place where you downplay your faith to avoid trouble? What would quiet courage look like there?",
+      "Invite someone to your home or table this week who might not otherwise be welcomed.",
+      "Read Matthew 25:31–46, then read Vatican News's account of St. Andrew Dũng-Lạc and his companions to learn the history of the persecution she lived through."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "andrew-dung-lac",
+        "reason": "The November 24 memorial of St. Andrew Dũng-Lạc and Companions honors her with him",
+        "historical": true
+      },
+      {
+        "slug": "zelie-martin",
+        "reason": "Shares the July 12 date; another wife and mother honored as a saint",
+        "historical": true
+      },
+      {
+        "slug": "margaret-clitherow",
+        "reason": "English laywoman and mother martyred for sheltering priests",
+        "historical": false
+      },
+      {
+        "slug": "lorenzo-ruiz",
+        "reason": "Lay husband and father martyred in Asia, in Japan",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Official list of the 117 martyrs of Vietnam (French)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19880619_martiri_vietnam_fr.html"
+      },
+      {
+        "title": "Nominis (Conférence des évêques de France): Sainte Agnès Lê Thi Than (Dê)",
+        "url": "https://nominis.cef.fr/contenus/saint/11947/Sainte-Agn%C3%A8s-L%C3%AA-Thi-Than-%28D%C3%AA%29.html"
+      },
+      {
+        "title": "Vatican News: Sts. Andrew Dũng Lạc and his companions, martyrs",
+        "url": "https://www.vaticannews.va/en/saints/11/24/sts--andrew-d_ng-lc--and-his-companions--martyrs.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Andrew Dung-Lac and Companions, November 24",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-11-24"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "symbols: no established individual iconographic attributes could be found in a reputable source (images of her generally show the Vietnamese martyrs as a group), so the field is empty and templateVersion is 1.5",
+      "places: no shrine or church dedicated to her with a verifiable official website was found",
+      "patronages: review lists none and no reputable source states one",
+      "quotes: no words of hers are recorded in the sources; Douay-Rheims verses were used",
+      "date: the Holy See list gives 12 July 1841, while Nominis and its Roman Martyrology text give 1842 (the reviewed biography already notes this); page copy uses 1841",
+      "place of death: Nominis places her martyrdom in Ninh Bình province (matching the reviewed biography); Catholic Online and The Jesuit Post say she died in prison at Nam Định. Not used; needs human check if place is ever stated",
+      "biography detail: Vatican News mentions an unnamed mother of six among the 117; devotional sites (Catholic Online, The Jesuit Post) add a birth year around 1781 (or 1789), a husband, six children, and say she helped priests travel in disguise and was arrested carrying letters to Christian prisoners. These were not verified from a reputable Catholic source and were not used",
+      "feastCustoms: the page's July 12 date is her individual commemoration; she is not separately listed in the General Roman Calendar, which honors her in the November 24 group memorial"
+    ]
+  },
+  "anne": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anne is honored as a patron of mothers and, with St. Joachim, of grandparents. Scripture does not name Mary's parents; the name Anne and the story of her long childlessness come from the second-century Protoevangelium of James and later tradition. The Church celebrates Joachim and Anne together on July 26.",
+    "searchDescription": "St. Anne, honored with St. Joachim on July 26, is by tradition Mary's mother; her name comes from the Protoevangelium of James, not the Gospels.",
+    "patronages": [
+      "mothers"
+    ],
+    "symbols": [
+      {
+        "symbol": "Mary, and often the Child Jesus, in her arms or on her lap",
+        "meaning": "Her place in Catholic devotion as mother of Mary and grandmother of Jesus, three generations shown together."
+      },
+      {
+        "symbol": "Book, often shown as Anne teaching the young Mary to read",
+        "meaning": "Her care in forming her daughter in faith; the scene is devotional imagination, not a recorded event."
+      },
+      {
+        "symbol": "Nest of young birds",
+        "meaning": "From the Protoevangelium of James, where childless Anne sees a sparrow's nest in a laurel tree and grieves; it stands for her longing and her answered prayer."
+      },
+      {
+        "symbol": "Golden Gate of Jerusalem",
+        "meaning": "Later tradition, building on the Protoevangelium, places her joyful meeting with Joachim at this gate after angels announce that she will conceive."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Anne because she stands where so many of us stand: in a family, praying for the people we love. Scripture tells us nothing about her, not even her name; what we have comes from an early noncanonical writing and centuries of devotion. Yet that tradition speaks to real lives: a couple who waited years for a child, a mother who handed on faith to her daughter, a grandmother of Jesus. Mothers, couples longing for children, grandparents and anyone raising young people ask her prayers. Tradition holds that her home was where Mary first learned to pray.",
+    "quotes": [
+      {
+        "text": "For this child did I pray, and the Lord hath granted me my petition, which I asked of him. Therefore I also have lent him to the Lord all the days of his life...",
+        "work": "1 Kings 1:27–28 (1 Samuel 1:27–28 in modern numbering), the prayer of Hannah, on which the Protoevangelium's story of Anne is closely modeled",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And his mercy is from generation unto generations, to them that fear him.",
+        "work": "Luke 1:50, from Mary's Magnificat",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, the Church has long honored St. Anne as the mother of the Virgin Mary. Through her prayers, bless our families and the generations that came before us. Comfort those who long for a child, strengthen mothers and grandparents in their daily care, and help all who raise children to pass on the faith with patience and love. As Mary learned to trust you at home, let our homes become places where your mercy is known from generation to generation. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Shrine of Sainte-Anne-de-Beaupré",
+        "url": "https://sanctuairesainteanne.org/en/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on July 26, the memorial of Sts. Joachim and Anne, parents of the Blessed Virgin Mary; when it falls on a Sunday, the Sunday liturgy takes its place.",
+      "Keep the World Day for Grandparents and the Elderly, which Pope Francis set on the fourth Sunday of July, close to this feast: visit, call or pray with a grandparent or an older parishioner.",
+      "Pray a novena before the feast; the Shrine of Sainte-Anne-de-Beaupré in Quebec keeps a public novena from July 17 to 25.",
+      "In Brittany, pilgrims gather for the Grand Pardon at Sainte-Anne-d'Auray on July 25 and 26, with a torchlight procession and a solemn Mass.",
+      "In France and French Canada, a summer fruit tart is a traditional dish for the day; share one with family."
+    ],
+    "places": [
+      {
+        "name": "Shrine of Sainte-Anne-de-Beaupré",
+        "city": "Sainte-Anne-de-Beaupré, Canada",
+        "url": "https://sanctuairesainteanne.org/en/"
+      },
+      {
+        "name": "Sanctuary of Sainte-Anne-d'Auray",
+        "city": "Sainte-Anne-d'Auray, France",
+        "url": "https://www.sainteanne-sanctuaire.com/"
+      }
+    ],
+    "confirmationNote": "Anne suits a confirmand who is grateful for the faith received from parents, grandparents or godparents and wants to hand it on. Nothing she said or did is recorded in Scripture, so choosing her is a choice to honor quiet faithfulness inside a family. Confirmation strengthens Christians to witness to Christ, and that witness often begins at home, in the way we pray with and care for the people closest to us.",
+    "reflectionPrompts": [
+      "Who first taught me to pray, and how can I thank them, or pray for them, this week?",
+      "Call, visit or write to a grandparent or an older person in your parish before Sunday.",
+      "Read 1 Samuel 1:1–2:10, Hannah's story, and then the Catholic Encyclopedia article on St. Anne, noting how the tradition about Anne borrows from Hannah."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "joachim",
+        "reason": "Her husband in tradition; they share the July 26 feast",
+        "historical": true
+      },
+      {
+        "slug": "joseph",
+        "reason": "Husband of her daughter Mary and fellow member of the Holy Family",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-mother-of-john-baptist",
+        "reason": "Mary's kinswoman, another long-childless mother whose child came as God's gift",
+        "historical": true
+      },
+      {
+        "slug": "gerard-majella",
+        "reason": "Also invoked as a patron of mothers",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Anne",
+        "url": "https://www.newadvent.org/cathen/01538a.htm"
+      },
+      {
+        "title": "Protoevangelium of James, trans. Alexander Walker (Ante-Nicene Fathers), New Advent",
+        "url": "https://www.newadvent.org/fathers/0847.htm"
+      },
+      {
+        "title": "Catholic Culture: Memorial of Sts. Joachim and Anne (July 26)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-07-26"
+      },
+      {
+        "title": "Vatican News: Sts. Joachim and Anne, parents of the Blessed Virgin Mary",
+        "url": "https://www.vaticannews.va/en/saints/07/26/sts--joachim-and-anne--parents-of-b--v---mary.html"
+      },
+      {
+        "title": "Pope Francis, Angelus of January 31, 2021 (World Day for Grandparents and the Elderly)",
+        "url": "https://www.vatican.va/content/francesco/en/angelus/2021/documents/papa-francesco_angelus_20210131.html"
+      },
+      {
+        "title": "Shrine of Sainte-Anne-de-Beaupré",
+        "url": "https://sanctuairesainteanne.org/en/"
+      },
+      {
+        "title": "Shrine of Sainte-Anne-de-Beaupré: Novena 2026",
+        "url": "https://sanctuairesainteanne.org/en/pages/novena-2026"
+      },
+      {
+        "title": "Sanctuary of Sainte-Anne-d'Auray: Grand Pardon",
+        "url": "https://sainteanne-sanctuaire.com/?mode=grand-pardon"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Kings (1 Samuel) 1",
+        "url": "https://www.drbo.org/chapter/09001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 1",
+        "url": "https://www.drbo.org/chapter/49001.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; 'mothers' is in Catholic Culture's patronage list for Anne (it also lists pregnant women and women in labour, and the Catholic Encyclopedia names her patroness of women in labour). Human check requested.",
+      "patronages: grandparents, grandmothers, childless couples, homemakers, miners, carpenters, Brittany, Canada and Quebec are sourced (Catholic Culture, Catholic Encyclopedia) but have no live topic.",
+      "quotes: Anne has no recorded words in Scripture and no writings. The quotes are Scripture chosen for context (Hannah's prayer, which the Protoevangelium imitates, and the Magnificat); neither verse is about Anne.",
+      "symbols: all four are in Catholic Culture's list; the bird's nest is checked against the Protoevangelium (ch. 3, New Advent translation). The Golden Gate is labeled later tradition: the Protoevangelium says only that Anne stood 'by the gate'.",
+      "prayer: no traditional prayer text was verified from an official source, so an original prayer is given; the link goes to the Beaupré shrine's home page, not a specific prayer page.",
+      "feastCustoms: the Beaupré novena dates (July 17 to 25, feast July 26) are confirmed on the shrine's 2026 novena page; the Redemptorists describe the whole period as July 17–26. The fruit-tart custom is from Catholic Culture citing Evelyn Vitz's cookbook.",
+      "biography: no disagreement. The Catholic Encyclopedia dates the Protoevangelium's earliest form to about 150 and Catholic Culture to about 170, so the text says 'second century'."
+    ]
+  },
   "anthony-mary-claret": {
     "templateVersion": 2,
     "heroSummary": "St. Anthony Mary Claret was a Catalan weaver turned missionary preacher who founded the Claretians in 1849, served as archbishop of Santiago de Cuba, and spread the faith through cheap books and pamphlets. He survived an assassin's razor and forgave his attacker. His feast is October 24.",
@@ -552,6 +792,152 @@
       "biography: no disagreement found with the reviewed biography."
     ]
   },
+  "edith-stein": {
+    "templateVersion": 2,
+    "heroSummary": "St. Teresa Benedicta of the Cross, born Edith Stein, is a patron of Europe, one of three women John Paul II named co-patronesses of the continent in 1999. A Jewish-born philosopher who became a Catholic and a Discalced Carmelite nun, she was murdered at Auschwitz in 1942. Catholics remember her on August 9.",
+    "searchDescription": "St. Teresa Benedicta of the Cross (Edith Stein): Jewish-born philosopher, Carmelite nun and patron of Europe, killed at Auschwitz in 1942. Feast: August 9.",
+    "patronages": [
+      "europe"
+    ],
+    "symbols": [
+      {
+        "symbol": "Discalced Carmelite habit",
+        "meaning": "Her religious life as Sister Teresa Benedicta, which began at the Cologne Carmel in 1933 and continued at Echt in the Netherlands."
+      },
+      {
+        "symbol": "Cross",
+        "meaning": "Her religious name, which the Holy See renders \"blessed of the Cross,\" and her last major work, The Science of the Cross, on St. John of the Cross."
+      },
+      {
+        "symbol": "Star of David",
+        "meaning": "Her Jewish birth and family, and the Nazi persecution of people of Jewish ancestry in which she and her sister Rosa died; Catholic Culture lists it as her symbol."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "Her work as a philosopher, teacher and writer, and her lifelong search for truth; in the Edith Stein Society's icon the book is labeled \"Veritas.\""
+      }
+    ],
+    "whyWeTurn": "People turn to St. Teresa Benedicta because she held together things others thought could not meet: a demanding mind and a deep faith, love for her Jewish family and a Catholic vocation. She searched for truth through philosophy until reading St. Teresa of Avila's life convinced her she had found it. Students, teachers, converts, and anyone wrestling with hard questions find in her a companion who took both reason and prayer seriously. She also accompanies people who grieve the Holocaust and those working for understanding between Christians and Jews. Her last recorded words to her sister Rosa, \"Come, we are going for our people,\" show a love that did not turn away from suffering.",
+    "quotes": [
+      {
+        "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.",
+        "work": "Galatians 6:14",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Jesus saith to him: I am the way, and the truth, and the life.",
+        "work": "John 14:6",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "God of truth, you led Saint Teresa Benedicta of the Cross through long searching to your Son, and you gave her courage to share the suffering of her people. Through her prayers, give me an honest mind that keeps asking until it finds you, and a heart that loves without conditions. Comfort all who suffer because of hatred for who they are, and heal the wounds between Christians and Jews. Teach me to accept the crosses of each day, trusting that your love is stronger than death. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 9, her optional memorial in the General Roman Calendar and the date commonly given for her death at Auschwitz.",
+      "Pray for understanding between Christians and Jews and for all victims of the Holocaust, themes John Paul II stressed when he named her a co-patron of Europe.",
+      "Read part of her own writing, such as Life in a Jewish Family or her essays on women, as Catholic Culture suggests for her day.",
+      "Offer a small sacrifice and reflect on the everyday crosses you carry, recalling the meaning of her religious name.",
+      "Learn about Auschwitz, where both she and St. Maximilian Kolbe died, through the Auschwitz-Birkenau State Museum."
+    ],
+    "places": [
+      {
+        "name": "Carmel Maria vom Frieden, her Cologne Carmelite community and home of the Edith Stein Archive",
+        "city": "Cologne, Germany",
+        "url": "https://www.karmelitinnen-koeln.de/"
+      },
+      {
+        "name": "Edith Stein House (Edith Stein Society)",
+        "city": "Wrocław, Poland",
+        "url": "https://edytastein.org.pl/en/"
+      },
+      {
+        "name": "Auschwitz-Birkenau Memorial and Museum",
+        "city": "Oświęcim, Poland",
+        "url": "https://www.auschwitz.org/en/"
+      }
+    ],
+    "confirmationNote": "St. Teresa Benedicta of the Cross can suit a Confirmation candidate who loves hard questions. She studied philosophy at a high level, searched honestly for truth, and found it in Christ without ever disowning her Jewish family. Taking her name can mean committing to think carefully, pray seriously, stand against prejudice, and accept the crosses that come with faithfulness.",
+    "reflectionPrompts": [
+      "What question about God or faith are you carrying right now, and who could you talk it through with honestly?",
+      "Visit a Holocaust memorial or museum, in person or online, and pray for the people whose stories you meet there.",
+      "Read the Holy See's biography of Edith Stein, then John Paul II's 1999 apostolic letter naming her a co-patroness of Europe, and note why he saw her as a bridge between her Jewish roots and her Christian faith."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "teresa-of-avila",
+        "reason": "Reading Teresa's autobiography in 1921 led to her conversion, and she entered the Carmelite order Teresa reformed",
+        "historical": true
+      },
+      {
+        "slug": "john-of-the-cross",
+        "reason": "Subject of her final work, The Science of the Cross, finished at Echt",
+        "historical": true
+      },
+      {
+        "slug": "bridget-of-sweden",
+        "reason": "Named co-patroness of Europe with her in the same 1999 apostolic letter",
+        "historical": true
+      },
+      {
+        "slug": "maximilian-kolbe",
+        "reason": "Fellow martyr who also died at Auschwitz, in 1941",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Edith Stein (1891-1942) biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19981011_edith_stein_en.html"
+      },
+      {
+        "title": "Vatican News: St. Theresa Benedicta of the Cross (Edith Stein)",
+        "url": "https://www.vaticannews.va/en/saints/08/09/st--theresa-benedicta-of-the-cross--edith-stein---carmelitan--vi.html"
+      },
+      {
+        "title": "John Paul II, apostolic letter proclaiming the co-patronesses of Europe (1 October 1999)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_01101999_co-patronesses-europe.html"
+      },
+      {
+        "title": "Discalced Carmelite General Postulation: Teresa Benedicta of the Cross",
+        "url": "https://postocd.org/en/causes/saints/teresa-benedicta-of-the-cross-en/"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Teresa Benedicta of the Cross, August 9",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-08-09"
+      },
+      {
+        "title": "Edith Stein Society (Wrocław): Reflections on the icon of Edith Stein",
+        "url": "https://edytastein.org.pl/en/artykuly/some-guiding-reflections-on-the-icon-of-the-servant-of-yahweh-edith-stein-st-teresia-benedicta-of-the-cross/"
+      },
+      {
+        "title": "Catholic Sun (Diocese of Phoenix): Feast of St. Teresa Benedicta of the Cross",
+        "url": "https://www.catholicsun.org/?p=316962"
+      },
+      {
+        "title": "Karmel Maria vom Frieden, Köln",
+        "url": "https://www.karmelitinnen-koeln.de/"
+      },
+      {
+        "title": "DRBO.org: Galatians 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      },
+      {
+        "title": "DRBO.org: John 14 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50014.htm"
+      }
+    ],
+    "flags": [
+      "patronages: against the death of parents, converts, and martyrs are sourced (Catholic Culture) but have no live topic",
+      "symbols: no single authoritative iconography catalog exists for her; Star of David is listed by Catholic Culture, the book comes from the Edith Stein Society icon, and habit and cross reflect her documented life and religious name. A human may want to confirm these against images the site uses",
+      "quotes: her own writings exist only in in-copyright translations, so Douay-Rheims verses were used. The Holy See biography quotes \"Ave, Crux, Spes unica\" and \"Come, we are going for our people\"; the latter is paraphrase-cited in whyWeTurn as her reported last words",
+      "places: the Cologne entry names her Carmelite community and its Edith Stein Archive; a human should check whether the present monastery building is the same one she entered in 1933 before any copy implies she lived there",
+      "relatedSaints: Kolbe link (same place of death) rests on Catholic Culture for her day",
+      "biography: no disagreement found. The Holy See gives entry to the Cologne Carmel as 14 October 1933 and says she was probably killed on or around 9 August 1942, consistent with the reviewed text"
+    ]
+  },
   "euphrasia": {
     "templateVersion": 1.5,
     "heroSummary": "St. Euphrasia of Constantinople was a young noblewoman of the late fourth century who grew up in a women's monastery in Egypt and chose to stay there for life. Tradition remembers her for giving her inheritance to the poor and for humble, hidden work. Her Western feast is March 13.",
@@ -826,6 +1212,281 @@
       "prayer: Peace Prayer deliberately not attributed; see prayer.note",
       "symbols: the sermon to the birds is presented as early Franciscan storytelling and tradition, not documented history",
       "feastCustoms: Transitus and blessing of animals are Franciscan and parish customs, not universal liturgy; worded accordingly"
+    ]
+  },
+  "hedwig": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hedwig of Silesia is the patron saint of Silesia, a duchess who used her rank and wealth to found monasteries and hospitals and to care for the poor and sick. Born at Andechs in Bavaria around 1174, she spent her widowhood beside the Cistercian nuns of Trzebnica and was canonized in 1267. Her optional memorial is October 16.",
+    "searchDescription": "St. Hedwig of Silesia (about 1174–1243), feast October 16: duchess, patron of Silesia, founder of Trzebnica, and generous servant of the poor and sick.",
+    "patronages": [
+      "silesia"
+    ],
+    "symbols": [
+      {
+        "symbol": "Small statue of the Virgin and Child",
+        "meaning": "Her devotion to Mary; accounts say she carried a little statue of Our Lady and used it to bless the sick."
+      },
+      {
+        "symbol": "Model of a church",
+        "meaning": "The monasteries she and Duke Henry founded, above all the Cistercian convent at Trzebnica, where she spent her last years."
+      },
+      {
+        "symbol": "Pair of shoes carried under her arm",
+        "meaning": "A traditional story says she went barefoot as a penance, even in winter, and when her husband insisted she wear shoes, she carried them instead."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Hedwig when life asks a great deal of them at home and in public. She was a duchess, wife and mother who outlived all but one of her children, nursed her wounded husband, and went in person to win his release from captivity. Through it all she kept praying and kept giving: to monasteries, to hospitals, to lepers and prisoners, to the poor at her door. Catholics ask her prayers for grieving parents, for widows, for strained marriages and for anyone with power or money who wants to use it well. Tradition holds that she gave away even her own comfort.",
+    "quotes": [
+      {
+        "text": "She hath opened her hand to the needy, and stretched out her hands to the poor.",
+        "work": "Proverbs 31:20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Hedwig a generous heart in the midst of power, wealth and grief. Through her prayers, help me to see the poor and the sick as you see them, and to share what I have without counting the cost. When sorrow comes to my family, keep me close to you as she stayed close in prayer. Teach me to hold lightly the comforts I do not need, and to serve those around me with humility and joy. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on October 16, her optional memorial in the General Roman Calendar, which she shares with St. Margaret Mary Alacoque; in Canada both memorials move to October 20.",
+      "Bake shoe-shaped bread, recalling the \"Hedwigsohlen\" (St. Hedwig's soles) once given to the poor of Trzebnica on her feast, and share it.",
+      "Visit someone who is sick or homebound, or give to a hospital or food pantry, in memory of her care for lepers and the poor.",
+      "Pray for parents who have lost a child and for widows, as she was both.",
+      "In Poland, many pilgrims honor her at the Sanctuary of St. Hedwig in Trzebnica, where her tomb is kept."
+    ],
+    "places": [
+      {
+        "name": "International Sanctuary of St. Hedwig of Silesia (Basilica of St. Bartholomew and St. Hedwig)",
+        "city": "Trzebnica, Poland",
+        "url": "https://bazylika-trzebnica.pl/"
+      },
+      {
+        "name": "St. Hedwig's Cathedral",
+        "city": "Berlin, Germany",
+        "url": "https://www.hedwigs-kathedrale.de/"
+      },
+      {
+        "name": "Kloster Andechs (Andechs Abbey)",
+        "city": "Andechs, Germany",
+        "url": "https://www.andechs.de/"
+      }
+    ],
+    "confirmationNote": "Hedwig suits a confirmand who wants faith to shape how they use what they have. She held real power and wealth, yet chose simple clothes, served the sick with her own hands and gave her resources to the poor. She also carried heavy family sorrow without giving up prayer. Confirmation strengthens Christians to witness to Christ in the world, and Hedwig shows that charity can begin wherever we already stand.",
+    "reflectionPrompts": [
+      "Which comfort or possession could I give up this week so that someone else has what they need?",
+      "Choose one corporal work of mercy, such as visiting the sick or feeding the hungry, and do it before Sunday.",
+      "Read Matthew 25:31–46 and the Catholic Encyclopedia article on St. Hedwig, and note how her foundations put that Gospel into practice."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "Her niece, the daughter of Hedwig's sister Gertrude, also known for serving the poor",
+        "historical": true
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "Shares the October 16 optional memorial",
+        "historical": true
+      },
+      {
+        "slug": "jadwiga-of-poland",
+        "reason": "A different saint with the same Polish name, Jadwiga, often confused with her",
+        "historical": false
+      },
+      {
+        "slug": "frances-of-rome",
+        "reason": "Another noble wife and widow who devoted her wealth to the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1910): St. Hedwig",
+        "url": "https://www.newadvent.org/cathen/07189a.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 16 (St. Hedwig)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-16"
+      },
+      {
+        "title": "Vatican News: St. Hedwig, Duchess of Poland, Religious",
+        "url": "https://www.vaticannews.va/en/saints/10/16/st-hedwig--duchesse-of-polonia--religious.html"
+      },
+      {
+        "title": "Basilica of the National Shrine of the Immaculate Conception: Saint Hedwig, Mother of the Poor",
+        "url": "https://www.nationalshrine.org/blog/saint-hedwig-mother-of-the-poor/"
+      },
+      {
+        "title": "Archdiocese of Munich and Freising: Hedwig of Andechs",
+        "url": "https://www2.erzbistum-muenchen.de/glaube/heilige-selige/heililge-hedwig-von-andechs/69318"
+      },
+      {
+        "title": "Douay-Rheims Bible: Proverbs 31",
+        "url": "https://www.drbo.org/chapter/22031.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "Sanctuary of St. Hedwig, Trzebnica (official parish and sanctuary site)",
+        "url": "https://bazylika-trzebnica.pl/"
+      },
+      {
+        "title": "St. Hedwig's Cathedral, Berlin",
+        "url": "https://www.hedwigs-kathedrale.de/"
+      },
+      {
+        "title": "Kloster Andechs",
+        "url": "https://www.andechs.de/"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture also lists Bavaria, brides, duchesses, death of children, marital problems, victims of jealousy and widows; these are sourced but have no live topic.",
+      "patronages: Catholic Culture's text also calls her 'patroness of Poland' (poland is a live topic), and Vatican News calls her Duchess of Poland. Not added, because the poland topic already features Jadwiga of Poland and the reviewed biography stresses not confusing the two; a human may decide.",
+      "symbols: only 3, all from Catholic Culture's list. The statue's meaning (blessing the sick) comes from the National Shrine blog; the shoes story is labeled tradition.",
+      "quotes: no public-domain translation of words attributed to Hedwig could be verified. Vatican News reports her calling the poor 'our masters', but this is a modern summary, not a public-domain text, so it is not quoted.",
+      "feastCustoms: the Hedwigsohlen bread and the Canada transfer to October 20 are from Catholic Culture; the Trzebnica pilgrimage line is general, with no dates given.",
+      "places: Andechs Abbey and St. Hedwig's Cathedral are listed because Catholic Culture says they hold some of her relics; Andechs is also the site of the castle where she was born.",
+      "biography: Catholic Culture says she 'entered the monastery' as a nun after Henry's death, and Vatican News says she took the habit of a lay sister. The reviewed biography (with the Catholic Encyclopedia) says she wore the Cistercian habit but was not received as a professed religious, so that she could keep her income for charity. Text here follows the review. Sources also differ on six or seven children; the text avoids a number except the Catholic Encyclopedia's account that only Gertrude outlived her."
+    ]
+  },
+  "hilda-of-whitby": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hilda of Whitby (614–680) was a Northumbrian noblewoman who became abbess of the double monastery at Whitby, where women and men studied Scripture and five future bishops were trained. Her monastery hosted the Synod of Whitby in 664, and she welcomed the poet Cædmon. Bede is the main source for her life; her feast is November 17.",
+    "searchDescription": "St. Hilda of Whitby (614–680), feast November 17: abbess who made Whitby a school of Scripture, hosted the 664 synod, and welcomed the poet Cædmon.",
+    "symbols": [
+      {
+        "symbol": "Ammonite, or \"snakestone\"",
+        "meaning": "A local legend, not history, says Hilda turned the snakes of Whitby to stone, explaining the coiled fossils on its shore. Three snakestones appear in the town's arms."
+      },
+      {
+        "symbol": "Model of her abbey church",
+        "meaning": "The monastery at Whitby that she built up and governed, which became a place of prayer, Scripture study and counsel."
+      },
+      {
+        "symbol": "Abbess's crozier (pastoral staff)",
+        "meaning": "Her office as a shepherd of her community; Bede says all who knew her called her Mother."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Hilda when they carry responsibility for others and want to lead with wisdom. Bede describes a woman whose counsel was sought by ordinary people and by kings, who made her community study Scripture seriously, and who noticed the hidden gift of a cowherd named Cædmon. She also knew long illness: for six years she suffered fever yet kept teaching and giving thanks. Her last recorded counsel was to keep the peace of the Gospel. Students, teachers, writers, leaders and anyone trying to hold a divided community together find in her a steady, practical friend.",
+    "quotes": [
+      {
+        "text": "Thus this handmaid of Christ, the Abbess Hilda, whom all that knew her called Mother, for her singular piety and grace, was not only an example of good life, to those that lived in her monastery...",
+        "work": "Bede, Ecclesiastical History of England, Book IV, chapter 23 (Bede writing about Hilda)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "...she admonished them to preserve the peace of the Gospel among themselves, and with all others...",
+        "work": "Bede, Ecclesiastical History of England, Book IV, chapter 23 (Bede's report of her final exhortation; her own words are not recorded)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "And he said to me: My grace is sufficient for thee; for power is made perfect in infirmity.",
+        "work": "2 Corinthians 12:9 (the verse Bede echoes in describing her six years of illness)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Hilda wisdom to guide her community, love for your Word, and eyes to recognize the gifts you hide in others. Through her prayers, help me to study Scripture with a hungry heart, to give counsel humbly when it is asked of me, and to make room for the talents of people others overlook. In sickness and in health, teach me to keep thanking you. And as she urged her sisters at the end, help me to keep the peace of the Gospel with everyone. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In England, St. Hilda appears on the national liturgical calendar on November 17; elsewhere that date belongs to St. Elizabeth of Hungary, so remember Hilda in personal prayer.",
+      "Read Bede's account of her life and of Cædmon, Ecclesiastical History, Book IV, chapters 23–24, on or near her feast.",
+      "Pray a psalm or hymn praising God as Creator, recalling Cædmon's first song, the gift Hilda recognized and welcomed into her monastery.",
+      "Take her last counsel to heart: make peace with someone in your family, parish or workplace.",
+      "If you visit North Yorkshire, pray at the ruins of Whitby Abbey, on the headland where her monastery stood, or at St. Hilda's Catholic church in the town."
+    ],
+    "places": [
+      {
+        "name": "Whitby Abbey (English Heritage)",
+        "city": "Whitby, England",
+        "url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/"
+      },
+      {
+        "name": "St. Hilda's Catholic Parish, Whitby",
+        "city": "Whitby, England",
+        "url": "https://sthildasrcwhitby.co.uk/"
+      }
+    ],
+    "confirmationNote": "Hilda suits a confirmand who loves learning, leads others, or hopes to teach. She made her community a place of serious Scripture study, gave counsel to rulers, and saw real talent in an unschooled man whom others would have overlooked. Confirmation strengthens Christians to serve the Church with their gifts, and Hilda shows how to do that with wisdom, humility and a constant care for peace.",
+    "reflectionPrompts": [
+      "Whose hidden gift could I notice and encourage this week, as Hilda did for Cædmon?",
+      "Set aside a fixed time this week for reading Scripture, the habit Hilda required of everyone in her monastery.",
+      "Read Bede's Ecclesiastical History, Book IV, chapters 23–24, in A. M. Sellar's public-domain translation, and note what Bede says she taught during her illness."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "aidan",
+        "reason": "Recalled her to Northumbria and guided her early monastic life",
+        "historical": true
+      },
+      {
+        "slug": "bede-the-venerable",
+        "reason": "Wrote the account of her life on which nearly all knowledge of her rests",
+        "historical": true
+      },
+      {
+        "slug": "john-of-beverley",
+        "reason": "One of the five bishops Bede says were trained in her monasteries",
+        "historical": true
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Another learned abbess whose counsel was sought by rulers",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bede's Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Catholic Encyclopedia (1910): St. Hilda",
+        "url": "https://www.newadvent.org/cathen/07350a.htm"
+      },
+      {
+        "title": "Catholic Ireland: St Hilda of Whitby",
+        "url": "https://catholicireland.net/?p=20208"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, November 2025",
+        "url": "https://liturgyoffice.org/Calendar/2025/Nov.shtml"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 12",
+        "url": "https://www.drbo.org/chapter/54012.htm"
+      },
+      {
+        "title": "English Heritage: Whitby Abbey",
+        "url": "https://www.english-heritage.org.uk/visit/places/whitby-abbey/"
+      },
+      {
+        "title": "Diocese of Middlesbrough: St Hilda, Whitby",
+        "url": "https://middlesbrough-diocese.org.uk/st-hilda-whitby/"
+      },
+      {
+        "title": "St Hilda's Catholic Parish, Whitby",
+        "url": "https://sthildasrcwhitby.co.uk/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Ireland calls her patroness of women's education, and she is widely linked with learning, culture and poetry, but none of these has a live topic, so the field is omitted.",
+      "symbols: only 3. The ammonite and abbey model are sourced to Catholic Ireland; the crozier is the standard attribute of an abbess and is common in her images, but I found no Catholic source listing it specifically for her. The ammonite rests on local legend and is labeled as such.",
+      "quotes: Hilda left no writings. The two non-Scripture quotes are Bede's words about her, verified against the Sellar 1907 text on Project Gutenberg; the second is Bede's reported summary of her last exhortation, not her own words.",
+      "feastCustoms: the England calendar entry is confirmed for 2025 (marked (E), no rank shown); I could not confirm the rank or the 2026 listing. Hilda is not on the General Roman Calendar.",
+      "places: Whitby Abbey's present ruins are from the later medieval Benedictine abbey on the site of her monastery; the English Heritage site is official but secular.",
+      "prayer: no traditional Catholic prayer to St. Hilda with a verifiable text was found, so an original prayer is given.",
+      "biography: no disagreement with the reviewed biography. Context for a human: Bede says Hilda and her followers favored the Irish ('Scots') side at the 664 synod, and the Catholic Encyclopedia says she later sided with Theodore against Wilfrid; the review's neutral wording is accurate."
     ]
   },
   "hildegard-of-bingen": {
@@ -1232,6 +1893,135 @@
       "relatedSaints: therese-of-lisieux is marked thematic; Benedict XVI notes Thérèse's closeness to Joan and their shared patronage of France, but they are not contemporaries."
     ]
   },
+  "john-berchmans": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Berchmans was a Flemish Jesuit student who died in Rome in 1621, aged twenty-two, before he could be ordained. Fellow Jesuits remembered the care he gave to prayer, study, and the ordinary duties of community life. Jesuits celebrate him on November 26, and many altar servers and students look to him as a model.",
+    "searchDescription": "St. John Berchmans, Jesuit student who died at 22 in 1621, remembered for doing ordinary duties with great care. Symbols, prayer and November 26 feast.",
+    "symbols": [
+      {
+        "symbol": "Crucifix",
+        "meaning": "His love for Christ crucified; as he was dying he asked for his crucifix, and his statues show him holding it."
+      },
+      {
+        "symbol": "Book of rules",
+        "meaning": "His faithful keeping of the rule of the Society of Jesus, which the Catholic Encyclopedia singles out as the mark of his holiness."
+      },
+      {
+        "symbol": "Rosary",
+        "meaning": "His devotion to Mary; the rosary was among the three things he asked to hold at the end, and it appears in his statues."
+      }
+    ],
+    "whyWeTurn": "People turn to John Berchmans because his holiness was ordinary in the best sense. He never preached a famous sermon or traveled as a missionary. He studied hard, kept the rule of his community, prayed the rosary, and stayed kind to those around him, even after losing both parents during his years of formation. The Catholic Encyclopedia describes him as a saint who did ordinary actions with extraordinary perfection. That makes him a natural companion for students, altar servers, and anyone tempted to think small duties do not matter. Asking his prayers is a way of asking for faithfulness in whatever is in front of you today.",
+    "quotes": [
+      {
+        "text": "If I do not become a saint when I am young, I shall never become one.",
+        "work": "Saying recorded in the Catholic Encyclopedia, \"St. John Berchmans\" (1910)",
+        "translation": "Catholic Encyclopedia English text (1910, public domain)"
+      },
+      {
+        "text": "My penance is to live the common life.",
+        "work": "Saying recorded in the Catholic Encyclopedia, \"St. John Berchmans\" (1910)",
+        "translation": "Catholic Encyclopedia English text (1910, public domain)"
+      },
+      {
+        "text": "He that is faithful in that which is least, is faithful also in that which is greater.",
+        "work": "Luke 16:10",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you made Saint John Berchmans holy in the middle of classes, chores, and community life. Through his prayers, help me do the small things in front of me with care and love: my studies, my work, my promises, and my prayers. When no one notices, remind me that you do. Keep me close to you on the cross and close to your Mother in the rosary, and make me faithful to the commitments I have made. Give young people the courage to want holiness now, not someday. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Jesuit communities and schools keep his feast on November 26; the Roman Martyrology also remembers him on August 13, the day he died in 1621.",
+      "Pray for and thank the altar servers in your parish; Catholic Culture lists him as a patron of altar servers and young people.",
+      "Pray a decade of the rosary, one of the devotions he held on to as he was dying.",
+      "Pick one ordinary duty, such as homework, a chore, or arriving on time, and do it as carefully as you can as an offering to God.",
+      "In Rome, visit the Jesuit Church of Sant'Ignazio, where his body rests."
+    ],
+    "places": [
+      {
+        "name": "Church of Sant'Ignazio di Loyola",
+        "city": "Rome, Italy",
+        "url": "https://chiesasantignazio.it/en/"
+      }
+    ],
+    "confirmationNote": "John Berchmans suits a Confirmation candidate who is still in school and wonders whether holiness has to wait. He was a student who prayed, studied, and kept his commitments with steady care, and he died young without doing anything the world would call remarkable. Choosing his name can be a commitment to faithfulness in small duties, love for the Eucharist and Mary, and wanting to be a saint now.",
+    "reflectionPrompts": [
+      "Which ordinary duty in your week do you treat as unimportant, and how might you offer it to God instead?",
+      "Choose one small commitment, such as being on time or finishing an assignment carefully, and keep it faithfully for seven days.",
+      "Read Luke 16:10 and 1 Timothy 4:12 in the Douay-Rheims, then read the Catholic Encyclopedia article on St. John Berchmans and note what his fellow Jesuits remembered about him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "aloysius-gonzaga",
+        "reason": "Young Jesuit whose life story helped draw John to the Society of Jesus",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-rodriguez",
+        "reason": "Jesuit brother canonized with him by Leo XIII on January 15, 1888",
+        "historical": true
+      },
+      {
+        "slug": "peter-claver",
+        "reason": "Jesuit missionary canonized on the same day in 1888",
+        "historical": true
+      },
+      {
+        "slug": "stanislaus-kostka",
+        "reason": "Another young Jesuit who died before ordination and is honored as a model for youth",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Society of Jesus: Saint John Berchmans",
+        "url": "https://www.jesuits.global/saint-blessed/saint-john-berchmans/"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. John Berchmans",
+        "url": "https://www.newadvent.org/cathen/08450a.htm"
+      },
+      {
+        "title": "Catholic Culture: St. John Berchmans (August 13 commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-13"
+      },
+      {
+        "title": "Chiesa di Sant'Ignazio di Loyola: St. John Berchmans",
+        "url": "https://chiesasantignazio.it/en/?p=256"
+      },
+      {
+        "title": "Jesuits Goa: Praying with Jesuits (November 26)",
+        "url": "https://www.jesuitsgoa.org/uploads/publications/Praying_with_Jesuits.pdf"
+      },
+      {
+        "title": "USCCB: Excerpt on St. Peter Claver (canonized January 15, 1888)",
+        "url": "https://www.usccb.org/resources/excerpt-st-peter-claver-plurimis"
+      },
+      {
+        "title": "GCatholic: Canonizations in the pontificate of Leo XIII",
+        "url": "https://gcatholic.org/saints/sancti-L13.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 16 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49016.htm"
+      },
+      {
+        "title": "DRBO.org: 1 Timothy 4 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/61004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: altar servers and young people are sourced (Catholic Culture) but have no live topic; review lists none, so left empty",
+      "quotes: both sayings are as quoted in the 1910 Catholic Encyclopedia English text; the second is the first sentence of a longer quotation that the encyclopedia itself abridges",
+      "biography: the jesuits.global page says 'He was ordained a priest in April 1618' in a passage about his father; this appears to refer to his father (who entered the seminary after his wife's death), not John, and the reviewed biography is correct that John died before ordination",
+      "biography: Catholic Culture says he died 'after years of illness', while the Catholic Encyclopedia and the Jesuit biography describe an acute illness in August 1621, as the reviewed biography does; no change suggested",
+      "relatedSaints: Stanislaus Kostka marked thematic; the shared 1888 canonization day for Alphonsus Rodriguez and Peter Claver rests on USCCB (for Claver's date) and GCatholic"
+    ]
+  },
   "joseph": {
     "templateVersion": 2,
     "heroSummary": "St. Joseph is patron of the universal Church and of workers, and Catholic sources also name him a patron of immigrants and of children. The Gospels present him as Mary's husband and the righteous man who protected Jesus. The Church honors him on March 19 and as Joseph the Worker on May 1.",
@@ -1497,6 +2287,99 @@
       "feastCustoms: the 28th-of-the-month custom is sourced to EWTN News/ACI Prensa (Catholic news agency), not an archdiocesan page",
       "relatedSaints: bartholomew 'Armenia' link rests on tradition (Vatican News says Jude preached in Syria, Armenia and Persia); the reviewed biography mentions only Syria, Mesopotamia and Persia — not a contradiction, but a human may prefer a different reason",
       "biography: Vatican News repeats the tradition that Jude was a cousin of Jesus and a detailed martyrdom legend; neither was used, consistent with the reviewed biography's caution"
+    ]
+  },
+  "lioba": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Lioba, also called Leoba, was an English nun who answered the call of her relative St. Boniface and became the first abbess of Tauberbischofsheim in the Frankish lands. Remembered as a learned teacher and wise leader of women, she died around 782. The Diocese of Mainz keeps her memorial on September 28.",
+    "searchDescription": "St. Lioba (Leoba), English nun called by her relative St. Boniface to lead the abbey of Tauberbischofsheim: teacher, abbess and letter-writer. Feast: Sept. 28.",
+    "whyWeTurn": "People turn to Lioba because she shows what steady, learned faith can build. She left England to support a mission in unfamiliar lands, and she did it by teaching, governing a community, and forming women in prayer and Scripture. Her surviving letter to Boniface is humble and warm: she asks him to pray for her late father and her ailing mother, admits she is still practicing her verse, and asks him to correct her writing. Students, teachers, and women in leadership can find in her a companion who joined learning with humility. To ask her prayers is to ask for wisdom, perseverance far from home, and friendships that lead to God.",
+    "quotes": [
+      {
+        "text": "And this I beg of thee fervently, beloved brother, to guard me with the shield of thy prayers, against the poisoned shafts of the hidden enemy.",
+        "work": "Letter of Lioba to Boniface (Kylie no. XXIII)",
+        "translation": "Edward Kylie, The English Correspondence of Saint Boniface (1911, public domain)"
+      },
+      {
+        "text": "The art I have learned from the teaching of Eadburga, who continues without ceasing to search into the divine law.",
+        "work": "Letter of Lioba to Boniface (Kylie no. XXIII)",
+        "translation": "Edward Kylie, The English Correspondence of Saint Boniface (1911, public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "God of wisdom, you called Saint Lioba from her home in England to teach and guide a community in a new land. Through her prayers, give me a love for your word and the patience to keep learning. Bless all who teach, all who lead communities of faith, and all who live far from home. Help me to ask for prayers humbly and to give them faithfully, especially for the members of my family who have died. Guard me with the shield of your grace, and keep me rooted in prayer and steady in service. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The phrase 'shield of your grace' echoes her letter to Boniface, in which she asks him to guard her with the shield of his prayers."
+    },
+    "feastCustoms": [
+      "In the Diocese of Mainz, September 28 is an optional memorial of St. Lioba, abbess of Tauberbischofsheim; elsewhere, remember her in personal or family prayer that day.",
+      "Pray for missionaries and for women who lead religious communities, two of the intentions the Diocese of Mainz suggests for her day.",
+      "Pray for a parent or relative who has died, as Lioba asked Boniface to pray for her father.",
+      "Write to a mentor, teacher, or godparent to thank them and ask for their prayers, following the example of her letter to Boniface.",
+      "Spend time with Scripture or a solid book about the faith to honor her as a teacher; near Fulda, her relics are venerated in the church on the Petersberg."
+    ],
+    "confirmationNote": "Lioba suits a Confirmation candidate who loves learning or feels drawn to teach and lead. She left home to help build the Church in a new land, not through dramatic deeds but through study, prayer, and the patient formation of a community. Her letter to Boniface shows humility and a habit of asking for prayer. Choosing her name can be a commitment to growing in knowledge of the faith and sharing it with others.",
+    "reflectionPrompts": [
+      "Who taught you the faith, and how might you thank them this week?",
+      "Write a short note to a mentor or relative asking for their prayers, and promise to pray for them in return.",
+      "Read Lioba's letter to Boniface (no. XXIII) in Edward Kylie's The English Correspondence of Saint Boniface (1911) and notice what she asks for and why."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "boniface",
+        "reason": "Her relative, who called her to Germany and entrusted her with the abbey of Tauberbischofsheim",
+        "historical": true
+      },
+      {
+        "slug": "walburga",
+        "reason": "Sent to Germany with Lioba in 748 and lived for a time under her rule at Bischofsheim",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Another Anglo-Saxon abbess who led a community of prayer and learning",
+        "historical": false
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Learned Benedictine abbess also honored in the Diocese of Mainz's calendar",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nominis: Sainte Lioba",
+        "url": "https://nominis.cef.fr/contenus/saint/1933/Sainte-Lioba.html"
+      },
+      {
+        "title": "Bistum Mainz: Fürbitten an den Gedenktagen der Mainzer Heiligen (Lioba, September 28)",
+        "url": "https://bistummainz.de/export/sites/bistum/glaube/liturgie/.galleries/downloads/Fuerbitten-Mz-Heilige.pdf"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Walburga",
+        "url": "https://www.newadvent.org/cathen/15526b.htm"
+      },
+      {
+        "title": "Edward Kylie, The English Correspondence of Saint Boniface (1911), Internet Archive scan",
+        "url": "https://archive.org/details/cihm_84747"
+      },
+      {
+        "title": "Elfinspell transcription of Kylie (1911), letters XX–XXIV",
+        "url": "https://elfinspell.com/MedievalMatter/BonifaceLetters/Letters20-24.html"
+      },
+      {
+        "title": "Alfons Weißer, Erstmals 'Lioba-Darstellungen' in St. Lioba (Regionalia, BLB Karlsruhe)",
+        "url": "https://regionalia.blb-karlsruhe.de/files/16715/BLB_Weisser_Lioba-Darstellungen.pdf"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols left empty; no reputable Catholic source found listing 3–5 established iconographic attributes (only Wikipedia-level claims of a crozier, the Rule of St. Benedict, a church model and a red thread from her mother's dream)",
+      "patronages: review lists none and no reputable source found a patronage with a live topic",
+      "places: no official website verified for the Petersberg church near Fulda where her relics rest; the Benedictine community Kloster St. Lioba in Freiburg (kloster-st-lioba.de) bears her name but is a modern foundation, so it was not listed",
+      "feast: September 28 is confirmed as an optional memorial in the Diocese of Mainz; other German dioceses were not checked",
+      "dates: the Mainz text dates the transfer of her bones to the Petersberg to 838, other sources to 836; not used on the page",
+      "biography: no disagreement with the reviewed biography; the Mainz text matches it (first abbess of Tauberbischofsheim, died around 782 at Schornsheim near Mainz, buried at Fulda)"
     ]
   },
   "maria-mazzarello": {
@@ -2328,6 +3211,270 @@
       "searchDescription: written because context description ends with an ellipsis"
     ]
   },
+  "peter-julian-eymard": {
+    "templateVersion": 2,
+    "heroSummary": "St. Peter Julian Eymard was a French priest known as the Apostle of the Eucharist. After serving as a diocesan priest and then a Marist, he founded the Congregation of the Blessed Sacrament in Paris in 1856 and, with Marguerite Guillot, the Servants of the Blessed Sacrament. Catholics remember him on August 2.",
+    "searchDescription": "St. Peter Julian Eymard, the French priest called the Apostle of the Eucharist, founded the Congregation of the Blessed Sacrament in 1856. Feast: August 2.",
+    "symbols": [
+      {
+        "symbol": "Monstrance",
+        "meaning": "Exposition of the Blessed Sacrament for adoration, the center of the religious communities he founded."
+      },
+      {
+        "symbol": "Eucharistic Host",
+        "meaning": "Christ's presence in the Eucharist, the heart of his spirituality and the reason he is called the Apostle of the Eucharist."
+      },
+      {
+        "symbol": "Cope",
+        "meaning": "The vestment a priest wears for solemn exposition and Benediction, recalling his priestly ministry of leading people in adoration."
+      },
+      {
+        "symbol": "Humeral veil",
+        "meaning": "The veil a priest uses to hold the monstrance when blessing the people, a sign of reverence for the Real Presence."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Peter Julian Eymard when they want to pray before the Blessed Sacrament and are not sure where to begin. He spent his life helping others discover Christ present in the Eucharist, first preaching Forty Hours devotions as a Marist, then founding communities devoted to adoration. He did not treat prayer as an escape: in Paris he prepared poor working people for First Communion and worked to improve their circumstances. He also wrote many letters guiding people in the spiritual life. Adorers, catechists, priests, and anyone whose prayer has gone dry find in him a patient guide who believed that time with Christ changes how we serve others.",
+    "quotes": [
+      {
+        "text": "And Jesus said to them: I am the bread of life: he that cometh to me shall not hunger: and he that believeth in me shall never thirst.",
+        "work": "John 6:35",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "He that eateth my flesh, and drinketh my blood, abideth in me, and I in him.",
+        "work": "John 6:57",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, truly present in the Most Holy Sacrament, you gave Saint Peter Julian Eymard a great love for your Eucharistic presence and a heart for the poor. Through his prayers, draw me to spend time with you in adoration, even when my prayer feels dry. Let what I receive at your altar overflow into patience, generosity, and practical care for the people around me. Bless priests, catechists, and all who prepare others to meet you in Holy Communion. Make me, like him, a friend who brings others to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 2, his optional memorial in the General Roman Calendar, where John Paul II placed it in 1995.",
+      "Make a holy hour before the Blessed Sacrament, as Catholic Culture suggests for his day.",
+      "Learn about the Congregation of the Blessed Sacrament and the Servants of the Blessed Sacrament, the communities he founded for men and women.",
+      "Help someone prepare for First Communion or thank your parish catechists, recalling his work with poor working people in Paris.",
+      "If you are in Paris, pray at his tomb in the Chapelle Corpus Christi, where his relics were brought from La Mure in 1877."
+    ],
+    "places": [
+      {
+        "name": "Chapelle Corpus Christi (his tomb; Fathers of the Blessed Sacrament)",
+        "city": "Paris, France",
+        "url": "https://dioceseparis.fr/chapelle-corpus-christi.html"
+      }
+    ],
+    "confirmationNote": "St. Peter Julian Eymard can suit a Confirmation candidate who is drawn to the Eucharist, to adoration, or to teaching the faith. He helped poor workers in Paris prepare for First Communion and founded communities devoted to prayer before the Blessed Sacrament. Taking his name can mean committing to regular time with Christ in the Eucharist and letting that prayer shape how you serve others.",
+    "reflectionPrompts": [
+      "When did you last spend unhurried time with Christ in the Blessed Sacrament, and what keeps you from doing it more often?",
+      "Sign up for an hour of adoration at a parish chapel this month, or offer to help with a First Communion class.",
+      "Read John 6:22–59 slowly, then read the Congregation of the Blessed Sacrament's account of his life and note how his Eucharistic devotion led to practical service."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "marcellin-champagnat",
+        "reason": "Founder of the Marist Brothers, part of the Marist family Eymard joined in 1839",
+        "historical": true
+      },
+      {
+        "slug": "peter-chanel",
+        "reason": "Marist missionary priest martyred in Oceania in 1841, while Eymard was a young Marist",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "Author of Visits to the Blessed Sacrament, whose August 1 feast falls on the anniversary of Eymard's death",
+        "historical": false
+      },
+      {
+        "slug": "carlo-acutis",
+        "reason": "Modern young saint known for his love of the Eucharist",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Congregation of the Blessed Sacrament: The Founder",
+        "url": "https://www.ssscongregatio.org/en/about-us/the-founder.html"
+      },
+      {
+        "title": "Congregation of the Blessed Sacrament: St. Peter Julian Eymard (1811-1868), life story",
+        "url": "https://ssscongregatio.org/en/about-us/the-founder/life-story.html"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Peter Julian Eymard, August 2",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-08-02"
+      },
+      {
+        "title": "Franciscan Media: Saint Peter Julian Eymard",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-peter-julian-eymard/"
+      },
+      {
+        "title": "Diocese of Paris: Chapelle Corpus Christi",
+        "url": "https://dioceseparis.fr/chapelle-corpus-christi.html"
+      },
+      {
+        "title": "Région Île-de-France heritage inventory: Chapelle Saint-Pierre-Julien-Eymard ou Corpus Christi",
+        "url": "https://inventaire.iledefrance.fr/dossier/pdf/afde29a2-9030-43a5-bddb-2881aad3693f/ensemble-de-21-verrieres-chapelle-saint-pierre-julien-eymard-ou-corpus-christi-peres-du-tres-saint-sacrement.pdf"
+      },
+      {
+        "title": "DRBO.org: John 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable source found states a patronage; devotional sites call him patron of Eucharistic adoration, but that is unverified from an authoritative source and has no live topic",
+      "quotes: his letters and notes exist in French originals and modern translations whose public-domain status could not be verified, so Douay-Rheims verses were used",
+      "prayer: Catholic Culture links a Prayer to Saint Peter Julian Eymard, but its text and origin were not verified, so an original prayer was written",
+      "places: only the Paris chapel holding his relics was verified; the Maison Eymard in La Mure (his birthplace town) has no official website that could be confirmed",
+      "feastCustoms: the 1877 transfer of his remains from La Mure to Paris comes from the Île-de-France heritage inventory and the Eymardian Places pilgrim site, not a Church page; Catholic Culture confirms the relics are in the chapel",
+      "relatedSaints: Champagnat and Chanel links rest on their shared Marist (Society of Mary) family, not a documented personal relationship; Alphonsus's August 1 feast and his Visits to the Blessed Sacrament are well established but were not re-fetched in this pass",
+      "biography: no disagreement. The Congregation gives birth 4 February 1811, ordination 20 July 1834, Marist novitiate 1839, founding in Paris 13 May 1856, death at La Mure 1 August 1868, canonization 9 December 1962"
+    ]
+  },
+  "philip-neri": {
+    "templateVersion": 2,
+    "heroSummary": "St. Philip Neri was a sixteenth-century priest in Rome who drew people to God through friendship, prayer, care for the sick, and good humor. From the gatherings around him grew the Congregation of the Oratory, approved in 1575. Catholics keep his memorial on May 26, and many remember him for his cheerfulness.",
+    "searchDescription": "St. Philip Neri, the joyful priest of Rome who founded the Congregation of the Oratory: his symbols, sayings, a prayer and his May 26 feast.",
+    "symbols": [
+      {
+        "symbol": "Heart aflame",
+        "meaning": "Recalls the experience his early biographers place just before Pentecost 1544 in the catacomb of San Sebastiano, when he felt a globe of fire enter his chest; the Church's prayer for his feast asks the Holy Spirit to kindle that same fire in us."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Purity of heart; Catholic Culture lists the lily among his traditional symbols and recalls his spotless youth in Florence."
+      },
+      {
+        "symbol": "Rosary",
+        "meaning": "His prayer to Mary; Catholic Culture lists the rosary among the attributes used for him."
+      },
+      {
+        "symbol": "Priestly vestments or the black cassock of the Oratory",
+        "meaning": "His priesthood from 1551 and the Oratory he founded, a community of secular priests who live together without religious vows."
+      }
+    ],
+    "whyWeTurn": "People turn to Philip Neri because his holiness feels approachable. Long before he was ordained, he visited the sick in Rome's hospitals, prayed through the night, and talked about God with anyone who wanted to listen. As a priest he heard confessions for long hours and used jokes to deflate vanity, including his own. He refused to make faith grim, teaching that cheerfulness helps a person persevere. He also tied prayer to service, saying it was better to answer a call for help than to stay in one's room praying. Many ask his prayers for honest joy, humility without gloom, and a heart set on fire by the Holy Spirit.",
+    "quotes": [
+      {
+        "text": "Rejoice in the Lord always; again, I say, rejoice.",
+        "work": "Philippians 4:4",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Cheerfulness strengthens the heart and makes us persevere in a good life; wherefore the servant of God ought always to be in good spirits.",
+        "work": "Maxims and Sayings of St. Philip Neri, January 7",
+        "translation": "F. W. Faber (1847, public domain)"
+      },
+      {
+        "text": "Charity and cheerfulness, or charity and humility, should be our motto.",
+        "work": "Maxims and Sayings of St. Philip Neri, April 25",
+        "translation": "F. W. Faber (1847, public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you set the heart of Saint Philip Neri on fire with your Holy Spirit and gave him a joy that drew others to you. Through his prayers, free me from the seriousness that is really pride and from the sadness that forgets your mercy. Teach me to laugh at myself, to listen well, and to set my plans aside when someone needs my help. Make me faithful in prayer, hungry for the Eucharist, and honest in confession. Let my friendships lead others toward you, as his did in the streets of Rome. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on May 26, the memorial of St. Philip Neri in the universal Roman calendar; its opening prayer asks that the Holy Spirit kindle in us the fire that filled his heart.",
+      "Spend time before the Blessed Sacrament; Catholic Culture notes that Corpus Christi was his favorite feast, and he died on that feast in 1595.",
+      "Laugh at yourself the next time something annoys you, and make a point of cheering someone else up, as Catholic Culture suggests for his day.",
+      "Read one of his maxims and let it shape your day; the collection of his sayings was arranged for one short reading each day of the year.",
+      "In Rome, pilgrims still walk the roughly 25 km Seven Churches route that Philip began leading with large groups in 1559, and many visit his body at Santa Maria in Vallicella (the Chiesa Nuova)."
+    ],
+    "places": [
+      {
+        "name": "Santa Maria in Vallicella (Chiesa Nuova), church of the Roman Oratory",
+        "city": "Rome, Italy",
+        "url": "https://www.vallicella.org/"
+      }
+    ],
+    "confirmationNote": "Philip Neri suits a Confirmation candidate who wants faith to feel like friendship rather than a performance. He took prayer, confession, and the Eucharist seriously, yet he was quick to laugh and slow to take himself too seriously. He also kept showing up for the sick and for anyone who knocked on his door. Choosing his name can be a commitment to joyful prayer, humility, and loyal friendship.",
+    "reflectionPrompts": [
+      "Where has taking yourself too seriously crowded out joy, and what would it look like to laugh at your own vanity this week?",
+      "Choose one interruption tomorrow and treat it as Philip did, as a call to serve rather than an obstacle to your plans.",
+      "Read Philippians 4:4–7 in the Douay-Rheims and the January maxims in F. W. Faber's translation of the Maxims and Sayings of St. Philip Neri, and note which saying challenges you most."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "Fellow priest in sixteenth-century Rome whom Philip knew as a friend",
+        "historical": true
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Philip was his confessor and spiritual guide in Rome",
+        "historical": true
+      },
+      {
+        "slug": "john-henry-newman",
+        "reason": "Oratorian who founded the first English-speaking house of Philip's Oratory",
+        "historical": true
+      },
+      {
+        "slug": "john-bosco",
+        "reason": "Another cheerful priest who gathered young people in what he also called an Oratory",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Philip Neri, priest, founder of the Congregation of the Oratory",
+        "url": "https://www.vaticannews.va/en/saints/05/26/st--philip-neri--priest--founder-of-the--congregation-of-the-ora.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Philip Neri, May 26",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-26"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Philip Romolo Neri",
+        "url": "https://www.newadvent.org/cathen/12018b.htm"
+      },
+      {
+        "title": "Franciscan Media: Saint Philip Neri",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-philip-neri/"
+      },
+      {
+        "title": "Maxims and Sayings of St. Philip Neri, trans. F. W. Faber (1847), transcription",
+        "url": "https://www.fisheaters.com/srpdf/maximsandsayingsofstphilipneri.pdf"
+      },
+      {
+        "title": "EWTN News: St. Camillus de Lellis, patron saint of hospitals, nurses and the sick",
+        "url": "https://www.ewtnnews.com/world/us/st-camillus-de-lellis-patron-saint-of-hospitals-nurses-and-the-sick"
+      },
+      {
+        "title": "Christian Iconography: Saint Philip Neri",
+        "url": "https://christianiconography.info/philipNeri.html"
+      },
+      {
+        "title": "Congregazione dell'Oratorio di San Filippo Neri, Roma",
+        "url": "https://www.vallicella.org/"
+      },
+      {
+        "title": "Turismo Roma: Il pellegrinaggio delle Sette Chiese",
+        "url": "https://www.turismoroma.it/it/node/123726"
+      },
+      {
+        "title": "Turismo Roma: Santa Maria in Vallicella (Chiesa Nuova) and the rooms of San Filippo Neri",
+        "url": "https://turismoroma.it/en/places/church-santa-maria-vallicella-chiesa-nuova-and-rooms-san-filippo-neri"
+      },
+      {
+        "title": "DRBO.org: Philippians 4 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/57004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic Culture lists Rome, Venice, Gravina, the Philippines, US Army Special Forces, joy, laughter, comedians, artists and writers, but none has a live topic, so left empty",
+      "symbols: the heart episode (Pentecost 1544) comes from early biographies as summarized by the Catholic Encyclopedia and is best read as hagiographic tradition; the vestments/Oratorian cassock attribute is sourced to christianiconography.info rather than a Church source; human check welcome",
+      "quotes: Faber's 1847 translation was read from a fisheaters.com PDF transcription, not a scan of the original edition; spot-check wording against a scan",
+      "biography: the Catholic Encyclopedia dates his arrival in Rome to 1533 and his death to 27 May; the reviewed biography follows Vatican News (1534; early hours of May 26), so no change suggested",
+      "relatedSaints: John Bosco's use of the name Oratory is general knowledge and was not checked against a source in this pass",
+      "places: only one official site verified"
+    ]
+  },
   "teresa-of-avila": {
     "templateVersion": 2,
     "heroSummary": "St. Teresa of Ávila (1515–1582), also called Teresa of Jesus, was a Spanish Carmelite who founded St. Joseph's in Ávila in 1562 and began a reform built on small, prayerful communities. Her Life, Way of Perfection, and Interior Castle still teach prayer as friendship with God. Her feast is October 15.",
@@ -2742,6 +3889,118 @@
       "whyWeTurn: the 'straw' remark is reported by early witnesses and quoted by Catholic Culture; worded as tradition",
       "places: the Fossanova site is the abbey parish's own site (run by the Institute of the Incarnate Word); Jacobins site is run by the city of Toulouse and mentions the relics",
       "relatedSaints: 'Albert taught him at Paris and Cologne' is standard history; the reviewed biography says only that he studied with Albert"
+    ]
+  },
+  "toribio-romo-gonz-lez": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Toribio Romo González is a Mexican priest and martyr whom many migrants invoke as a patron of immigrants, a popular devotion that grew from the 1970s. Born in Jalisco in 1900, he served the parish of Tequila during the persecution of the 1920s and was shot on February 25, 1928. He was canonized in 2000.",
+    "patronages": [
+      "immigrants"
+    ],
+    "whyWeTurn": "Many migrants and their families turn to Santo Toribio before a dangerous journey north. Catholic News Service reports that stories of his help began circulating in the 1970s, some describing him appearing to travelers in need; these are popular accounts, not events the Church has examined. The documented man was a young parish priest who kept celebrating the sacraments while in hiding, prayed never to let a day pass without Mass, and offered his life for peace in the Church. People who feel far from home, unsafe, or uncertain find in him a priest who stayed with his people. To ask his prayers is to entrust the journey, and those who make it, to Christ.",
+    "quotes": [
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "He that eateth my flesh, and drinketh my blood, abideth in me, and I in him.",
+        "work": "John 6:57",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For I was hungry, and you gave me to eat; I was thirsty, and you gave me to drink; I was a stranger, and you took me in.",
+        "work": "Matthew 25:35",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave Saint Toribio Romo a love for the Eucharist so deep that he begged never to spend a day without offering Mass. Through his prayers, protect all who leave home in search of safety or work, and those who wait and worry for them. Give them good people along the way, and give me the courage to welcome the stranger as I would welcome you. Strengthen priests who serve under threat, and keep me close to you in the Eucharist, whatever road I travel. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on May 21, when the Church remembers St. Christopher Magallanes and companions, the martyrs of Mexico's persecution, Toribio among them.",
+      "On February 25, the anniversary of his death, pray for priests and Christians who serve under threat.",
+      "Pray for migrants and their families, and support a parish or Catholic ministry that welcomes them; near his sanctuary in Jalisco, a migrant house named for him shelters travelers.",
+      "Go to a weekday Mass or spend time before the Blessed Sacrament, remembering his prayer never to spend a day without celebrating Mass.",
+      "In Santa Ana de Guadalupe, Jalisco, his hometown, pilgrims visit the sanctuary where he is buried to give thanks and ask his prayers."
+    ],
+    "confirmationNote": "Toribio Romo suits a Confirmation candidate who cares about migrants and refugees, or whose own family knows what it is to leave home. He was an ordinary parish priest who loved the Mass, kept the parish records up to date, and stayed with his people when it was dangerous. Choosing his name can be a commitment to courage, love for the Eucharist, and practical welcome for those far from home.",
+    "reflectionPrompts": [
+      "Who in your family or community has left home to start again, and how can you hold them in prayer this week?",
+      "Find out what a local parish or Catholic agency does for migrants, and offer time, supplies, or a donation.",
+      "Read Matthew 25:31–46 in the Douay-Rheims, then the Vatican's biography of Toribio Romo González, and note how his last night connects to ordinary parish service."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "jose-sanchez-del-rio",
+        "reason": "Teenage martyr of the same persecution, killed in Mexico in February 1928",
+        "historical": true
+      },
+      {
+        "slug": "maria-guadalupe-garcia-zavala",
+        "reason": "Guadalajara foundress who hid priests and the archbishop during the same persecution",
+        "historical": true
+      },
+      {
+        "slug": "frances-xavier-cabrini",
+        "reason": "Shares the patronage of immigrants",
+        "historical": false
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "Patron of parish priests, devoted like Toribio to the Mass and parish work",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican: Toribio Romo González (1900–1928), biografía",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20000521_romo-gonzalez_sp.html"
+      },
+      {
+        "title": "USCCB: Memorial of Saint Christopher Magallanes, Priest, and Companions, Martyrs (May 21)",
+        "url": "https://bible.usccb.org/bible/readings/0521-memorial-christopher-magallanes.cfm"
+      },
+      {
+        "title": "Catholic Sun (Diocese of Phoenix), Catholic News Service: Cristero martyr now popular patron of Mexican migrants headed to US",
+        "url": "https://www.catholicsun.org/2012/05/31/cristero-martyr-now-popular-patron-of-mexican-migrants-headed-to-us/"
+      },
+      {
+        "title": "Angelus (Archdiocese of Los Angeles): 'An example of Christian life': Mass welcomes saint's relic",
+        "url": "https://angelusnews.com/?p=15090"
+      },
+      {
+        "title": "Vatican: María Guadalupe García Zavala, biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040425_zavala_en.html"
+      },
+      {
+        "title": "Denver Catholic: St. José Sánchez del Río",
+        "url": "https://denvercatholic.org/st-jose-de-jesus-sanchez-del-rio-boy-died-love-christ-king/"
+      },
+      {
+        "title": "DRBO.org: John 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      },
+      {
+        "title": "DRBO.org: John 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50006.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols left empty; no reputable source describes established iconographic attributes for him (images generally show a young priest in a cassock, which is not distinctive)",
+      "patronages: review lists none; immigrants is a popular patronage reported by Catholic News Service (via the Diocese of Phoenix's Catholic Sun) and by Angelus (Archdiocese of Los Angeles), which calls him an 'unofficial patron of immigrants'; an AP report quotes Church officials saying it is not an official designation; human check before publishing",
+      "quotes: his recorded words survive in Spanish on the Vatican page with no public-domain English translation, so Douay-Rheims verses were used instead",
+      "places: no official website verified for his sanctuary in Santa Ana de Guadalupe or for the Santuario de los Mártires in Guadalajara",
+      "feast: the 2012 CNS article says pilgrim crowds swell on May 25, 'his feast day', apparently a local celebration; the reviewed biography's May 21 (liturgical memorial with Christopher Magallanes and companions) is kept",
+      "biography: the Vatican page names his refuge as Aguascalientes, a place near Tequila (not the city); the reviewed biography's 'place of refuge near Tequila' is consistent",
+      "feastCustoms: the migrant house near his sanctuary (Casa del Migrante Santo Toribio) is sourced only to an Angelus article and is described without naming it, in case it closes"
     ]
   }
 }
