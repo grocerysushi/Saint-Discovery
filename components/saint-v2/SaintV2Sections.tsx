@@ -73,7 +73,7 @@ export function InTheirOwnWords({ quotes }: { quotes?: SaintQuote[] }) {
                 &ldquo;{quote.text}&rdquo;
               </blockquote>
               <figcaption className="mt-2 pl-4 text-sm text-cream-dark/80">
-                {quote.work} · {quote.translation} (public domain)
+                {quote.work} · {/public domain/i.test(quote.translation) ? quote.translation : `${quote.translation} (public domain)`}
               </figcaption>
             </figure>
           </li>

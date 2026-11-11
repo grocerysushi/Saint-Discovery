@@ -1,1 +1,1455 @@
-{}
+{
+  "anthony-of-padua": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anthony of Padua was a Portuguese Franciscan preacher and Doctor of the Church, known in popular devotion as the saint who helps people find what they have lost. Born Fernando in Lisbon, he died near Padua on June 13, 1231, the date of his feast. His sermons matter as much as his miracles.",
+    "searchDescription": "St. Anthony of Padua (c. 1195–1231) was a Franciscan preacher and Doctor of the Church. Learn about his life, June 13 feast, and help with lost things.",
+    "symbols": [
+      {
+        "symbol": "The Child Jesus in his arms",
+        "meaning": "Recalls a vision of the Christ Child reported at Camposampiero near the end of his life (tradition), and his love for the humanity of Christ."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Purity of heart and his lifelong struggle against evil; pilgrims still bring lilies to his tomb in Padua."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "His knowledge of Scripture, his teaching of theology, and his preaching; he is honored as a Doctor of the Church."
+      },
+      {
+        "symbol": "Bread",
+        "meaning": "Charity toward the poor, continued in the devotion called St. Anthony's Bread."
+      },
+      {
+        "symbol": "Franciscan habit",
+        "meaning": "His choice, in 1220, to leave the Augustinian canons and become a Friar Minor."
+      }
+    ],
+    "whyWeTurn": "Most people meet St. Anthony while hunting for keys or a lost ring. A Franciscan account traces the habit to a borrowed psalter that a novice took and later returned after Anthony prayed; legend embellished the story, but the core is likely true. That small, everyday help is real comfort, and it can lead further. Anthony was first a preacher who spent himself on the crowds of Padua, heard confessions for hours, and confronted greed that crushed the poor. When we turn to him, we can ask him to help us find what we have misplaced, and also what matters more: peace with God, a way back to the sacraments, or a neighbor's need we have overlooked.",
+    "quotes": [
+      {
+        "text": "Preach the word: be instant in season, out of season: reprove, entreat, rebuke in all patience and doctrine.",
+        "work": "2 Timothy 4:2",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Or what woman having ten groats; if she lose one groat, doth not light a candle, and sweep the house, and seek diligently until she find it? And when she hath found it, call together her friends and neighbours, saying: Rejoice with me, because I have found the groat which I had lost.",
+        "work": "Luke 15:8–9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Anthony a love for your Word and a heart for those who were lost or poor. Through his prayers, help me to search patiently for what I have misplaced, and to trust you when it stays hidden. Find me, too, where I have wandered from you, and bring me home through the mercy of your sacraments. Make me generous to people in need, so that whatever I receive becomes bread for someone else. Give me Anthony's courage to speak the truth with charity. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers to Saint Anthony from the Basilica of St. Anthony in Padua",
+        "url": "https://www.santantonio.org/en/sa-category-archive/prayers-saint-anthony-0"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on June 13, his memorial in the universal calendar.",
+      "Pray the Tredicina, the thirteen days of prayer leading up to June 13, kept at the Basilica in Padua, in Franciscan churches and in many homes; some also keep the 13 Tuesdays before the feast.",
+      "Some Franciscan churches bless loaves on June 13 as St. Anthony's Bread; you can keep the custom by giving food or money to the poor in thanksgiving.",
+      "In Padua, pilgrims bring lilies to his tomb and place a hand on it as they pray.",
+      "When something is lost, pray calmly, search patiently, and give thanks afterward, whether or not it turns up."
+    ],
+    "places": [
+      {
+        "name": "Basilica of St. Anthony (Il Santo), site of his tomb",
+        "city": "Padua, Italy",
+        "url": "https://www.santantonio.org/en/basilica"
+      }
+    ],
+    "confirmationNote": "Anthony suits a candidate who loves learning, speaking, or teaching, and who wants that gift to serve other people. He changed direction as a young adult, accepted plans that did not go as he expected, and became a preacher who defended the poor. Choosing him can be a commitment to know Scripture better and to use words with courage and kindness.",
+    "reflectionPrompts": [
+      "What have I lost along the way, such as trust, a friendship or a habit of prayer, that I would like to ask God to help me find again?",
+      "Set aside something this week, food, money or time, as St. Anthony's Bread for someone in need.",
+      "Read Luke 15 in the Douay-Rheims, then Benedict XVI's 2010 audience on St. Anthony, and note how each speaks of seeking the lost."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Friars Minor, who wrote asking Anthony to teach the brothers theology",
+        "historical": true
+      },
+      {
+        "slug": "bonaventure",
+        "reason": "Fellow Franciscan friar and Doctor of the Church of the same century",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "Shares Anthony's practical charity toward the poor",
+        "historical": false
+      },
+      {
+        "slug": "vincent-ferrer",
+        "reason": "Another itinerant preacher whose sermons drew large crowds calling for conversion",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Anthony of Padua (February 10, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100210.html"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: Symbols",
+        "url": "https://www.santantonio.org/en/symbols"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: The Tredicina (Thirteen-Day Novena)",
+        "url": "https://www.santantonio.org/en/content/tredicina-thirteen-day-novena"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: Saint Anthony's Bread",
+        "url": "https://www.santantonio.org/en/content/saint-anthony%E2%80%99s-bread"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: A Lily on Saint Anthony's Tomb",
+        "url": "https://www.santantonio.org/en/content/lily-saint-anthony%E2%80%99s-tomb"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: Traditional Devotions",
+        "url": "https://www.santantonio.org/en/sa-category-archive/devotion"
+      },
+      {
+        "title": "Basilica of St. Anthony, Padua: 13 Tuesdays Novena",
+        "url": "https://www.santantonio.org/en/node/805754/"
+      },
+      {
+        "title": "St. Anthony Shrine (Franciscan Friars, Cincinnati): Who Is St. Anthony?",
+        "url": "https://www.stanthony.org/who-st-anthony/"
+      },
+      {
+        "title": "Franciscan Media: Saint Anthony of Padua",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-anthony-of-padua/"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Timothy 4",
+        "url": "https://www.drbo.org/chapter/62004.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 15",
+        "url": "https://www.drbo.org/chapter/49015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none (reviewed_patron_of is null)",
+      "patronages: lost and stolen articles is sourced (St. Anthony Shrine; Franciscan Media) but has no live topic",
+      "patronages: the poor and travelers are sourced (Franciscan Media) but have no live topic",
+      "patronages: sailors and fishermen (in Portugal, Italy, France and Spain) is sourced (St. Anthony Shrine) but has no live topic",
+      "quotes: Anthony's own sermons are only available to me in modern (copyrighted) English translations, so no saint quote is included; Scripture used instead",
+      "symbols: the Child Jesus vision is a reported tradition; worded as such",
+      "places: only one place listed; no verified official English site found for his birthplace church in Lisbon"
+    ]
+  },
+  "francis-of-assisi": {
+    "templateVersion": 2,
+    "heroSummary": "St. Francis of Assisi is a patron of Italy, proclaimed alongside Catherine of Siena in 1939. He founded the Order of Friars Minor after turning from wealth and military ambition toward Gospel poverty and fraternity. Catholics keep his feast on October 4, the day after he died at the Porziuncola in 1226.",
+    "patronages": [
+      "italy"
+    ],
+    "symbols": [
+      {
+        "symbol": "Tau cross",
+        "meaning": "Francis took the Tau, the mark of Ezekiel 9:4, as a personal sign of conversion and the Cross, and signed letters with it instead of his name."
+      },
+      {
+        "symbol": "San Damiano crucifix",
+        "meaning": "Recalls his prayer at San Damiano, where accounts say he heard the call to repair Christ's Church, first by rebuilding a chapel and then by renewing lives."
+      },
+      {
+        "symbol": "Stigmata on hands, feet and side",
+        "meaning": "Accounts of the stigmata received at La Verna in 1224 express his deep identification with Christ's Passion."
+      },
+      {
+        "symbol": "Plain habit tied with a cord",
+        "meaning": "The poor tunic of the Friars Minor; Franciscans note that a friar with outstretched arms forms the shape of a Tau."
+      },
+      {
+        "symbol": "Birds and animals",
+        "meaning": "His habit of calling creatures \"brother\" and \"sister\" as fellow works of God; the sermon to the birds belongs to early Franciscan storytelling and later tradition."
+      }
+    ],
+    "whyWeTurn": "People turn to Francis when they want to begin again. He was a merchant's son who wanted honor, and he discovered Christ among people suffering from leprosy and in a small, ruined church. His joy did not come from owning much; it came from belonging wholly to God and receiving every person, and every creature, as a gift. Catholics ask his prayers for peace, for the poor, and for care of creation, and Pope Francis called him a patron of all who work in ecology. He also shows that renewal can happen inside the Church, through obedience and fraternity rather than bitterness. Tradition holds that he met illness and death by praising God.",
+    "quotes": [
+      {
+        "text": "Most high, omnipotent, good Lord, Praise, glory and honor and benediction all, are Thine. To Thee alone do they belong, most High, And there is no man fit to mention Thee.",
+        "work": "The Canticle of the Sun (Canticle of the Creatures)",
+        "translation": "Paschal Robinson, The Writings of Saint Francis of Assisi (1906), public domain"
+      },
+      {
+        "text": "Praised be my Lord for those who for Thy love forgive And weakness bear and tribulation. Blessed those who shall in peace endure, For by Thee, most High, shall they be crowned.",
+        "work": "The Canticle of the Sun (Canticle of the Creatures)",
+        "translation": "Paschal Robinson, The Writings of Saint Francis of Assisi (1906), public domain"
+      },
+      {
+        "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.",
+        "work": "Galatians 6:14",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Most high and good Lord, you called Francis of Assisi away from the comfort he trusted and into the freedom of the Gospel. Through his prayers, loosen my grip on whatever I hold too tightly. Teach me to see your image in people others avoid, and to receive every creature as your gift. When I am tempted to judge or to despair of your Church, give me his humility and his courage to begin again from within. Make my life a simple song of praise, in joy and in suffering, until I come to rest in you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The popular Peace Prayer (\"Make me an instrument of your peace\") is not by St. Francis. Its earliest known appearance is an anonymous text in the French magazine La Clochette in 1912, and scholars do not count it among his authentic writings. His own Canticle of the Creatures, quoted above, is a fitting alternative."
+    },
+    "feastCustoms": [
+      "Attend Mass on October 4, his memorial in the universal calendar; Franciscan communities and some local calendars celebrate it with higher rank.",
+      "Join a Transitus service on the evening of October 3, when Franciscan communities recall his passing from this life.",
+      "Bring a pet to a blessing of animals; many parishes and Franciscan churches hold one on or near October 4.",
+      "Pray the Canticle of the Creatures slowly, outdoors if you can, and thank God for one creature by name.",
+      "Do one concrete act of service or friendship for someone who is poor or left out, as Francis did among people with leprosy."
+    ],
+    "places": [
+      {
+        "name": "Basilica of St. Francis (Sacro Convento), site of his tomb",
+        "city": "Assisi, Italy",
+        "url": "https://basilica.sanfrancesco.org/"
+      },
+      {
+        "name": "Porziuncola, in the Basilica of St. Mary of the Angels",
+        "city": "Assisi, Italy",
+        "url": "https://porziuncola.org/"
+      },
+      {
+        "name": "Sanctuary of La Verna",
+        "city": "Chiusi della Verna, Italy",
+        "url": "https://www.laverna.it/"
+      }
+    ],
+    "confirmationNote": "Francis suits a candidate who wants a faith that changes how they live, not just what they say. He is a good companion for someone drawn to serving the poor, caring for creation, simplicity, or peacemaking. Choosing him also means accepting his whole story: prayer, penance, obedience within the Church, and the joy of a life given away. Think about which of those you most need to grow in.",
+    "reflectionPrompts": [
+      "What possession, plan or reputation would be hardest for me to let go of if Christ asked me to?",
+      "This week, spend time with or help one person I usually avoid, and notice what changes in me.",
+      "Read Matthew 10:5–15 in the Douay-Rheims alongside the Canticle of the Creatures, and note what each says about poverty and praise."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Fellow citizen of Assisi who embraced his way of life and founded the Poor Clares",
+        "historical": true
+      },
+      {
+        "slug": "anthony-of-padua",
+        "reason": "Joined the Friars Minor in Francis's lifetime and taught the brothers theology with his approval",
+        "historical": true
+      },
+      {
+        "slug": "bonaventure",
+        "reason": "Franciscan minister general who wrote the Major Legend of his life",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Proclaimed a primary patron of Italy alongside Francis in 1939",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Francis of Assisi (January 27, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100127.html"
+      },
+      {
+        "title": "Vatican News: St. Francis of Assisi, Patron of Italy",
+        "url": "https://www.vaticannews.va/en/saints/10/04/st--francis-of-assisi--founder-of-the-franciscan--order--patron-.html"
+      },
+      {
+        "title": "Pius XII: Brief proclaiming Francis of Assisi and Catherine of Siena primary patrons of Italy (June 18, 1939)",
+        "url": "https://www.vatican.va/content/pius-xii/it/briefs/documents/hf_p-xii_brief_19390618_patroni-italia.html"
+      },
+      {
+        "title": "Francis: Laudato si' (paragraphs 10–12)",
+        "url": "https://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Anthony of Padua (February 10, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100210.html"
+      },
+      {
+        "title": "Franciscan Media: Saint Francis of Assisi",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-francis-of-assisi/"
+      },
+      {
+        "title": "Franciscan Media: What Is the Meaning of the Tau Cross?",
+        "url": "https://www.franciscanmedia.org/ask-a-franciscan/what-is-the-meaning-of-the-tau-cross/"
+      },
+      {
+        "title": "Order of Friars Minor in Great Britain: The Tau Cross",
+        "url": "https://www.friar.org/the-tau-cross/"
+      },
+      {
+        "title": "Franciscan Media (St. Anthony Messenger): A Look at the Peace Prayer of St. Francis",
+        "url": "https://www.franciscanmedia.org/st-anthony-messenger/a-look-at-the-peace-prayer-of-st-francis/"
+      },
+      {
+        "title": "Franciscan Friars (friars.us): Events for St. Francis feast day across the country",
+        "url": "https://friars.us/article/2025/09/22/events-for-st-francis-feast-day-across-the-country"
+      },
+      {
+        "title": "Paschal Robinson, The Writings of Saint Francis of Assisi (1906), Internet Archive scan",
+        "url": "https://archive.org/details/cu31924029364787"
+      },
+      {
+        "title": "Douay-Rheims Bible: Galatians 6",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      },
+      {
+        "title": "Basilica of St. Francis, Assisi (official site)",
+        "url": "https://basilica.sanfrancesco.org/"
+      }
+    ],
+    "flags": [
+      "patronages: ecology is sourced (Franciscan Media; Laudato si' 10) but has no live topic",
+      "patronages: animals and merchants are sourced (Franciscan Media) but have no live topic",
+      "patronages: Catherine of Siena is co-primary patron of Italy with Francis (Pius XII brief, 1939) but is not listed on the live italy topic; consider adding her",
+      "prayer: Peace Prayer deliberately not attributed; see prayer.note",
+      "symbols: the sermon to the birds is presented as early Franciscan storytelling and tradition, not documented history",
+      "feastCustoms: Transitus and blessing of animals are Franciscan and parish customs, not universal liturgy; worded accordingly"
+    ]
+  },
+  "ignatius-of-loyola": {
+    "templateVersion": 2,
+    "heroSummary": "St. Ignatius of Loyola was a Basque nobleman whose wound at Pamplona in 1521 began a slow, searching conversion. He wrote the Spiritual Exercises, gathered the companions who became the Society of Jesus, and led the Jesuits from Rome until his death on July 31, 1556, the date of his feast.",
+    "searchDescription": "St. Ignatius of Loyola (1491–1556), feast July 31: the Basque soldier turned pilgrim who wrote the Spiritual Exercises and founded the Jesuits.",
+    "symbols": [
+      {
+        "symbol": "IHS monogram, often within rays",
+        "meaning": "The Holy Name of Jesus, adopted as the emblem of the Society of Jesus."
+      },
+      {
+        "symbol": "Book inscribed \"Ad Maiorem Dei Gloriam\"",
+        "meaning": "\"For the greater glory of God,\" the Jesuit motto; the book also recalls the Spiritual Exercises and the Society's Constitutions."
+      },
+      {
+        "symbol": "Sword laid on an altar",
+        "meaning": "His vigil at Montserrat, where he laid down his sword before Our Lady and set aside his military ambitions."
+      },
+      {
+        "symbol": "Priestly chasuble",
+        "meaning": "His ordination and his service as a priest and first superior general of the Jesuits."
+      }
+    ],
+    "whyWeTurn": "People turn to Ignatius when they need to make a decision and want to know where God is in it. His own conversion was not tidy: a shattered leg, long boredom, books he had not chosen, a year of struggle at Manresa. Out of that he learned to notice which desires left lasting peace and which left him empty, and he wrote it down so others could pray the same way. Many Catholics ask his prayers before a retreat, a vocation choice, or a hard change of direction. He reminds us that God can be found in ordinary life, study, and work.",
+    "quotes": [
+      {
+        "text": "Man is created to praise, reverence, and serve God our Lord, and by this means to save his soul.",
+        "work": "Spiritual Exercises, Principle and Foundation",
+        "translation": "Elder Mullan, S.J. (1914), public domain"
+      },
+      {
+        "text": "love ought to be put more in deeds than in words.",
+        "work": "Spiritual Exercises, Contemplation to Gain Love, opening note",
+        "translation": "Elder Mullan, S.J. (1914), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Take, Lord, and receive all my liberty, my memory, my intellect, and all my will--all that I have and possess. Thou gavest it to me: to Thee, Lord, I return it! All is Thine, dispose of it according to all Thy will. Give me Thy love and grace, for this is enough for me.",
+      "kind": "traditional",
+      "source": "St. Ignatius of Loyola, Spiritual Exercises, Contemplation to Gain Love, translated by Elder Mullan, S.J. (1914)",
+      "note": "Known as the Suscipe. Ignatius gives it in the Exercises as the retreatant's offering of self; many modern versions use different wording. This is Mullan's public-domain text exactly.",
+      "link": {
+        "label": "Read the Spiritual Exercises (Mullan translation) at CCEL",
+        "url": "https://ccel.org/ccel/ignatius/exercises/exercises.i.html"
+      }
+    },
+    "feastCustoms": [
+      "July 31 is his memorial in the General Roman Calendar; join a parish for Mass, especially at a Jesuit church if one is nearby.",
+      "Begin a daily examination of conscience, a short prayer the Spiritual Exercises recommend for reviewing the day with God.",
+      "Pray the Suscipe slowly, offering God your freedom, memory, understanding, and will.",
+      "Plan a retreat based on the Spiritual Exercises; many Jesuit retreat houses and parishes offer guided retreats, including ones made in daily life.",
+      "Pray for the pope, since the first Jesuits offered themselves to him for whatever mission he chose."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of Loyola",
+        "city": "Azpeitia, Spain",
+        "url": "https://loyola.global/"
+      },
+      {
+        "name": "Cova de Sant Ignasi",
+        "city": "Manresa, Spain",
+        "url": "https://www.covamanresa.cat/"
+      },
+      {
+        "name": "Church of the Gesù (tomb of St. Ignatius)",
+        "city": "Rome, Italy",
+        "url": "https://www.chiesadelgesu.org/"
+      }
+    ],
+    "confirmationNote": "Ignatius suits a Confirmation candidate who is still working out what to do with life. He did not begin holy; he began ambitious, then learned to pay attention to how God moved in his desires. Choosing him is a commitment to daily prayer, honest self-examination, and generous service, and to letting the Holy Spirit shape real decisions about study, work, and vocation.",
+    "reflectionPrompts": [
+      "Which of my daydreams leave me restless afterward, and which leave me at peace? What might that difference be telling me?",
+      "Tonight, take five minutes to review the day: give thanks for one gift, notice one failure, and ask for help with tomorrow.",
+      "Read the Principle and Foundation and the Contemplation to Gain Love in Elder Mullan's 1914 translation of the Spiritual Exercises."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-xavier",
+        "reason": "Ignatius's companion from Paris who made the 1534 vows with him",
+        "historical": true
+      },
+      {
+        "slug": "peter-faber",
+        "reason": "Ignatius's companion from Paris and one of the first Jesuits",
+        "historical": true
+      },
+      {
+        "slug": "aloysius-gonzaga",
+        "reason": "Young Jesuit of the next generation, formed in the order Ignatius founded",
+        "historical": true
+      },
+      {
+        "slug": "teresa-of-avila",
+        "reason": "Sixteenth-century Spanish teacher of prayer, a contemporary of Ignatius",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Ignatius of Loyola, priest, founder of the Jesuits",
+        "url": "https://www.vaticannews.va/en/saints/07/31/st--ignatius-of-loyola--priest--founder-of-the-jesuits.html"
+      },
+      {
+        "title": "Jesuit Conference: Ignatius of Loyola (1491–1556)",
+        "url": "https://www.jesuits.org/glossary/ignatius-of-loyola-1491-1556/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 31 (St. Ignatius of Loyola)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-31"
+      },
+      {
+        "title": "The Spiritual Exercises of St. Ignatius of Loyola, tr. Elder Mullan, S.J. (1914), CCEL",
+        "url": "https://ccel.org/ccel/ignatius/exercises/exercises.i.html"
+      },
+      {
+        "title": "Chiesa del Gesù, Rome",
+        "url": "https://www.chiesadelgesu.org/"
+      },
+      {
+        "title": "Santuario de Loyola",
+        "url": "https://loyola.global/"
+      },
+      {
+        "title": "Cova de Sant Ignasi, Manresa",
+        "url": "https://www.covamanresa.cat/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; no live topic matches his sourced patronages, so the field is omitted.",
+      "patronages: soldiers is sourced (Catholic Culture) but has no live topic.",
+      "patronages: retreats / Spiritual Exercises is sourced (Catholic Culture) but has no live topic.",
+      "patronages: Society of Jesus, the Basque country (Gipuzkoa, Bizkaia, Álava), and the Archdiocese of Baltimore are sourced (Catholic Culture) but have no live topics.",
+      "quotes: the second quote begins lowercase because it is quoted exactly from mid-sentence in Mullan's text ('...the first is that love ought to be put more in deeds than in words').",
+      "symbols: the chasuble refers to his priesthood, which the reviewed biography does not mention; a human may want to add a line on his ordination or drop this symbol.",
+      "relatedSaints: aloysius-gonzaga and teresa-of-avila are linked by order and era, not by direct contact with Ignatius."
+    ]
+  },
+  "joan-of-arc": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joan of Arc is honored by many Catholics as a patron of prisoners and captives, fitting for a young woman who spent her final year in custody. Raised at Domremy, she believed God called her to aid Charles VII. She was condemned and burned in 1431, cleared in 1456, and canonized in 1920.",
+    "searchDescription": "St. Joan of Arc (1412–1431), feast May 30: the young Frenchwoman who answered God's call, was tried and burned at Rouen, and was canonized in 1920.",
+    "patronages": [
+      "prisoners"
+    ],
+    "symbols": [
+      {
+        "symbol": "White banner with lilies and the names \"Jhesus Maria\"",
+        "meaning": "At her trial Joan described her own standard: white cloth sprinkled with lilies, the world shown with an angel on each side, and the names of Jesus and Mary. She said she carried it into battle and valued it far above her sword."
+      },
+      {
+        "symbol": "Armor, often shown bareheaded",
+        "meaning": "Her documented place in the 1429 campaign that relieved Orléans and led to Charles VII's coronation at Reims; artists usually show her as a young woman in armor."
+      },
+      {
+        "symbol": "Sword",
+        "meaning": "Her military role, though she testified that she had never killed anyone and carried her banner in attacks for that reason."
+      },
+      {
+        "symbol": "Fleur-de-lis",
+        "meaning": "The French crown she served; she testified that the king granted her brothers arms bearing two golden lilies and a sword."
+      },
+      {
+        "symbol": "Stake and flames",
+        "meaning": "Her execution by burning at Rouen in May 1431, after a trial later annulled in 1456."
+      }
+    ],
+    "whyWeTurn": "People turn to Joan when they feel small against forces far larger than themselves. She was a teenager with no rank or schooling, yet she trusted that God could use her. Her trial record lets us hear her own voice: frightened at times, but honest, quick, and unwilling to claim more about her soul than she knew. Because she spent her last year as a prisoner and was condemned by a court later found unjust, many Catholics ask her prayers for prisoners, captives, and anyone wrongly accused. Others look to her for courage to keep faith with their conscience under pressure.",
+    "quotes": [
+      {
+        "text": "If I am not, may God place me there; if I am, may God so keep me. I should be the saddest in all the world if I knew that I were not in the grace of God.",
+        "work": "Trial of Condemnation, public examination of February 24, 1431 (answering whether she knew she was in God's grace)",
+        "translation": "T. Douglas Murray, ed., Jeanne d'Arc, Maid of Orleans (1902), public domain"
+      },
+      {
+        "text": "Better, forty times better, my banner than my sword!",
+        "work": "Trial of Condemnation, public examination of February 27, 1431",
+        "translation": "T. Douglas Murray, ed., Jeanne d'Arc, Maid of Orleans (1902), public domain"
+      },
+      {
+        "text": "It was I, myself, who bore this banner, when I attacked the enemy, to save killing any one, for I have never killed any one.",
+        "work": "Trial of Condemnation, public examination of February 27, 1431",
+        "translation": "T. Douglas Murray, ed., Jeanne d'Arc, Maid of Orleans (1902), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Saint Joan of Arc, you trusted God when you were young, unknown, and afraid, and you kept calling on the name of Jesus to the very end. Pray for all who are imprisoned, held captive, or wrongly accused, that they may find mercy, justice, and hope. Pray for me when I must speak the truth before people who misunderstand me. Help me to stay honest without bitterness, brave without pride, and humble enough to say only what I truly know. Ask the Lord to keep me in his grace, and if I have strayed from it, to bring me back. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "May 30, the anniversary of her death, is her commemoration in the Roman Martyrology rather than a memorial on the General Roman Calendar; ask her intercession at a weekday Mass or in personal prayer.",
+      "Pray slowly with the Holy Name of Jesus, the name Joan called on as she died, for example by praying the Litany of the Holy Name.",
+      "Pray for prisoners, captives, and people awaiting trial, and consider supporting a parish or diocesan prison ministry.",
+      "In Orléans, the cathedral celebrates a solemn Mass in her honor each May 8 during the city's festivities marking its liberation in 1429.",
+      "Read a few of her answers from the trial record and notice how she spoke about God, conscience, and grace."
+    ],
+    "places": [
+      {
+        "name": "Cathedral of Sainte-Croix, Orléans",
+        "city": "Orléans, France",
+        "url": "https://www.cathedrale-orleans.fr/"
+      }
+    ],
+    "confirmationNote": "Joan can be a strong Confirmation saint for someone who feels young or overlooked but wants to act on faith. She asks the confirmed to listen for God's call, to pray steadily, and to tell the truth even when it costs something. Choosing her also means learning her real history, including her trial and the Church's later reversal of its verdict, rather than only the heroic legend.",
+    "reflectionPrompts": [
+      "Joan refused to claim certainty she did not have about her own soul. Where am I tempted to overstate or hide the truth about myself before God?",
+      "Write a short note, offer a prayer, or give practical support this week to someone who is in prison or feels trapped by circumstances.",
+      "Read her answers from the February 24, 1431 examination in T. Douglas Murray's 1902 translation of the trial record and note how she responds to trick questions."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "michael-the-archangel",
+        "reason": "Named by Joan at her trial as the first of her heavenly voices",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-alexandria",
+        "reason": "One of the two saints Joan said spoke to her",
+        "historical": true
+      },
+      {
+        "slug": "margaret-of-antioch",
+        "reason": "One of the two saints Joan said spoke to her",
+        "historical": true
+      },
+      {
+        "slug": "therese-of-lisieux",
+        "reason": "Named with Joan as a patroness of France and felt close to her",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience on St. Joan of Arc (January 26, 2011)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110126.html"
+      },
+      {
+        "title": "Vatican News: Saints of May 30",
+        "url": "https://www.vaticannews.va/en/saints/05/30.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 30 (St. Joan of Arc)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-30"
+      },
+      {
+        "title": "T. Douglas Murray, ed., Jeanne d'Arc, Maid of Orleans, Deliverer of France (1902), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/57389"
+      },
+      {
+        "title": "Cathedral of Sainte-Croix, Orléans",
+        "url": "https://www.cathedrale-orleans.fr/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; 'prisoners' is included because Catholic Culture lists captives and imprisoned people among her patronages. A human should reconcile with reviewed_patron_of.",
+      "patronages: France is sourced (Benedict XVI names her a patroness of France with St. Thérèse; Catholic Culture also lists it) but has no live topic.",
+      "patronages: soldiers is sourced (Catholic Culture) but has no live topic.",
+      "places: the Basilica of Bois-Chenu at Domrémy and the Church of Sainte-Jeanne-d'Arc in Rouen were considered, but no official website could be verified.",
+      "prayer: no traditional prayer to Joan was verified from an official source, so an original prayer is given without a link.",
+      "relatedSaints: therese-of-lisieux is marked thematic; Benedict XVI notes Thérèse's closeness to Joan and their shared patronage of France, but they are not contemporaries."
+    ]
+  },
+  "joseph": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joseph is patron of the universal Church and of workers, and Catholic sources also name him a patron of immigrants and of children. The Gospels present him as Mary's husband and the righteous man who protected Jesus. The Church honors him on March 19 and as Joseph the Worker on May 1.",
+    "searchDescription": "St. Joseph, Mary's husband and guardian of Jesus, is patron of the universal Church and workers. Feast: March 19, with Joseph the Worker on May 1.",
+    "patronages": [
+      "immigrants",
+      "children"
+    ],
+    "symbols": [
+      {
+        "symbol": "The Child Jesus in his arms",
+        "meaning": "His role as the guardian and earthly father who cared for Jesus."
+      },
+      {
+        "symbol": "Carpenter's tools or square",
+        "meaning": "His trade (Matthew 13:55) and the dignity of ordinary work, honored on May 1."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "A traditional sign of purity, reflecting his chaste love for Mary."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Joseph because he was trusted with the most ordinary and most important things: a family, a home, a day's work. The Gospels never record a word from him, yet they show him acting, taking Mary into his home, fleeing to Egypt, settling in Nazareth. Parents, workers, migrants and anyone carrying responsibility quietly find a friend in him. The Church has named him patron of the universal Church, and many Catholics also ask his prayers as they prepare for a happy death. Asking Joseph's help is a way of learning to listen to God, then act faithfully.",
+    "quotes": [
+      {
+        "text": "Joseph, son of David, fear not to take unto thee Mary thy wife, for that which is conceived in her, is of the Holy Ghost.",
+        "work": "Matthew 1:20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And Joseph rising up from sleep, did as the angel of the Lord had commanded him, and took unto him his wife.",
+        "work": "Matthew 1:24",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "To thee, O blessed Joseph, we have recourse in our affliction, and having implored the help of thy thrice holy Spouse, we now, with hearts filled with confidence, earnestly beg thee also to take us under thy protection. By that charity wherewith thou wert united to the Immaculate Virgin Mother of God, and by that fatherly love with which thou didst cherish the Child Jesus, we beseech thee and we humbly pray that thou wilt look down with gracious eye upon that inheritance which Jesus Christ purchased by His blood, and wilt succor us in our need by thy power and strength. Defend, O most watchful guardian of the Holy Family, the chosen off-spring of Jesus Christ. Keep from us, O most loving Father, all blight of error and corruption. Aid us from on high, most valiant defender, in this conflict with the powers of darkness. And even as of old thou didst rescue the Child Jesus from the peril of His life, so now defend God's Holy Church from the snares of the enemy and from all adversity. Shield us ever under thy patronage, that, following thine example and strengthened by thy help, we may live a holy life, die a happy death, and attain to everlasting bliss in Heaven. Amen.",
+      "kind": "traditional",
+      "source": "Pope Leo XIII, encyclical Quamquam Pluries (1889), English text on vatican.va",
+      "note": "Leo XIII asked that this prayer be added to the Rosary during October.",
+      "link": {
+        "label": "Quamquam Pluries on vatican.va",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html"
+      }
+    },
+    "feastCustoms": [
+      "Celebrate the Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary, on March 19, and the optional memorial of St. Joseph the Worker on May 1.",
+      "Keep March, traditionally dedicated to St. Joseph, and Wednesdays through the year as days for a prayer to him.",
+      "In Sicily and many Italian-American parishes, families prepare a St. Joseph's Table of breads, sweets and flowers, have it blessed and share the food with guests.",
+      "In October, add Leo XIII's prayer to St. Joseph at the end of the Rosary, as he requested.",
+      "On May 1, pray for workers and for anyone looking for a job."
+    ],
+    "places": [
+      {
+        "name": "Saint Joseph's Oratory of Mount Royal",
+        "city": "Montreal, Canada",
+        "url": "https://saint-joseph.org/en/"
+      }
+    ],
+    "confirmationNote": "Joseph suits a confirmand who wants to grow in quiet faithfulness. Scripture records none of his words, only what he did when God asked something hard of him: he listened, rose and acted. Confirmation strengthens a Christian to live the faith in daily life, and Joseph shows what that looks like in work, in family and in protecting others who depend on us.",
+    "reflectionPrompts": [
+      "Whom has God entrusted to your care, and how can you protect them this week?",
+      "Do one piece of ordinary work today carefully and offer it to God, as Joseph did at Nazareth.",
+      "Read Matthew 1:18–25 and 2:13–23 and notice how often Joseph acts without speaking."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "Wrote Redemptoris Custos on Joseph as Guardian of the Redeemer",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-mother-of-john-baptist",
+        "reason": "Fellow figure in Luke's infancy narrative",
+        "historical": true
+      },
+      {
+        "slug": "frances-xavier-cabrini",
+        "reason": "Also a patron of immigrants",
+        "historical": false
+      },
+      {
+        "slug": "isidore-the-farmer",
+        "reason": "Holiness in ordinary manual labor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Francis, Apostolic Letter Patris Corde (2020)",
+        "url": "https://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html"
+      },
+      {
+        "title": "Leo XIII, Encyclical Quamquam Pluries (1889)",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html"
+      },
+      {
+        "title": "John Paul II, Redemptoris Custos (1989)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html"
+      },
+      {
+        "title": "Catholic Culture: Solemnity of St. Joseph (March 19)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-03-19"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 1",
+        "url": "https://www.drbo.org/chapter/47001.htm"
+      },
+      {
+        "title": "Saint Joseph's Oratory of Mount Royal",
+        "url": "https://saint-joseph.org/en/"
+      }
+    ],
+    "flags": [
+      "patronages: universal Church (Pius IX, 1870) and workers (Pius XII, 1955) are sourced and in the review but have no live topic",
+      "patronages: 'immigrants' rests on Patris Corde ('special patron of all those forced to leave their native lands') and Catholic Culture's list (emigrants, immigrants, exiles) — human check",
+      "patronages: 'children' comes from Catholic Culture's patronage list only — human check",
+      "patronages: fathers, families, the dying / happy death, carpenters, Canada, Mexico, Belgium, Peru, Korea, Viet Nam, the Americas and others are sourced but have no live topic; 'lawyers' (live topic) appears in Catholic Culture's list but was left out as obscure — include if desired",
+      "whyWeTurn: removed the unsourced clause that he died with Jesus and Mary (coordinator edit); happy-death patronage kept as listed by Catholic Culture",
+      "symbols: only 3; flowering rod/branch (Catholic Culture lists 'branch and rod') omitted because its legend-based meaning could not be sourced; lily meaning is a general traditional association",
+      "quotes: Joseph has no recorded words or writings, so only Scripture about him is quoted",
+      "places: Church of St. Joseph in Nazareth (Custody of the Holy Land) not added; custodia.org blocked automated verification"
+    ]
+  },
+  "jude-thaddeus": {
+    "templateVersion": 2,
+    "heroSummary": "St. Jude Thaddeus is one of the Twelve Apostles, invoked as the patron of desperate situations and listed as a patron of hospitals. Catholics celebrate him with St. Simon on October 28. He is not Judas Iscariot, and devotion to him grew as the saint people turn to when every other door seems closed.",
+    "patronages": [
+      "hospitals"
+    ],
+    "symbols": [
+      {
+        "symbol": "Medallion with the face of Christ",
+        "meaning": "Recalls the tradition of the Image of Edessa, a legend in which Jude carries a cloth bearing Christ's face to the ailing King Abgar."
+      },
+      {
+        "symbol": "Flame above the head",
+        "meaning": "The Holy Spirit descending on the apostles at Pentecost."
+      },
+      {
+        "symbol": "Club or axe",
+        "meaning": "Traditional accounts of his martyrdom, which differ and cannot be confirmed historically."
+      },
+      {
+        "symbol": "Green robe",
+        "meaning": "Hope and renewal, like new growth in spring, fitting his role as a saint of hope in hard times."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "The Letter of Jude in the New Testament, which tradition attributes to him."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Jude when a situation feels beyond repair: a diagnosis, a broken relationship, a debt, a prayer that seems to go unanswered. Tradition holds that his name, so close to that of Judas Iscariot, kept many Christians from calling on him for centuries, so he became the apostle people approached when they had tried everything else. Devotion grew from that start into one of the most popular in the Church, especially through shrines in the Americas. Asking Jude's help is not a formula for a guaranteed outcome. It is a way of refusing to give up on God, bringing the hardest things into prayer with a friend of Christ who knows what it means to be overlooked.",
+    "quotes": [
+      {
+        "text": "But you, my beloved, building yourselves upon your most holy faith, praying in the Holy Ghost, keep yourselves in the love of God, waiting for the mercy of our Lord Jesus Christ, unto life everlasting.",
+        "work": "Jude 1:20–21",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Now to him who is able to preserve you without sin, and to present you spotless before the presence of his glory with exceeding joy, in the coming of our Lord Jesus Christ, to the only God our Saviour through Jesus Christ our Lord, be glory and magnificence, empire and power, before all ages, and now, and for all ages of ages. Amen.",
+        "work": "Jude 1:24–25",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. Jude, apostle and friend of Jesus, you know what it is to be misunderstood and overlooked. I bring you the need I have almost stopped praying about. Ask the Lord to give me patience while I wait, courage to do what is mine to do, and peace when the answer is not the one I wanted. Keep me building on the faith I received, praying in the Holy Spirit, and trusting in the mercy of Christ. Help me to hope again. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Traditional prayers to St. Jude at the National Shrine of St. Jude",
+        "url": "https://shrineofstjude.org/prayer/prayers-to-st-jude/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on October 28, the feast of Sts. Simon and Jude, Apostles, in the Roman calendar.",
+      "Pray a novena: the National Shrine of St. Jude in Chicago holds its October solemn novena over the nine days ending on the feast, and you can make one at home with any prayer to St. Jude.",
+      "In Mexico City, the church of San Hipólito y San Casiano honors San Judas Tadeo in a special way on the 28th of every month; some devotees keep the 28th as a monthly day of prayer.",
+      "Bring to prayer one intention you had quietly given up on, and pray Jude 1:20–21 over it.",
+      "Wear or display green, the color linked with St. Jude as a sign of hope."
+    ],
+    "places": [
+      {
+        "name": "National Shrine of St. Jude",
+        "city": "Chicago, United States",
+        "url": "https://shrineofstjude.org/"
+      },
+      {
+        "name": "St. Peter's Basilica",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en/"
+      }
+    ],
+    "confirmationNote": "Jude can suit a confirmand who has known a hard season and wants a patron of hope. He is an apostle, so the name ties you to the foundation of the Church, and the short Letter of Jude, which tradition attributes to him, urges believers to build on their faith, pray in the Holy Spirit and keep themselves in God's love. Choosing him is a quiet promise not to give up on prayer.",
+    "reflectionPrompts": [
+      "What situation in your life have you stopped praying about because it seems impossible?",
+      "Write down one intention you had given up on and pray for it each day for nine days.",
+      "Read the Letter of Jude (one chapter) and note what verses 20–21 ask believers to do."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "simon-the-apostle",
+        "reason": "Shares the October 28 feast",
+        "historical": true
+      },
+      {
+        "slug": "bartholomew",
+        "reason": "Fellow apostle linked by tradition with Armenia",
+        "historical": true
+      },
+      {
+        "slug": "rita-of-cascia",
+        "reason": "Also invoked for impossible causes",
+        "historical": false
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Also a patron of hospitals",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Sts. Simon and Jude (Taddeo), Apostles",
+        "url": "https://www.vaticannews.va/en/saints/10/28/sts--simon-and-jude--taddeo---apostles.html"
+      },
+      {
+        "title": "Catholic Culture: Feast of Sts. Simon and Jude (October 28)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-28"
+      },
+      {
+        "title": "National Shrine of St. Jude: St. Jude Thaddeus Symbols",
+        "url": "https://shrineofstjude.org/the-shrine/st-jude/st-jude-thaddeus-symbols/"
+      },
+      {
+        "title": "National Shrine of St. Jude: Celebrate a St. Jude Novena",
+        "url": "https://shrineofstjude.org/the-shrine/celebrate-a-st-jude-novena/"
+      },
+      {
+        "title": "National Shrine of St. Jude: Prayers to St. Jude",
+        "url": "https://shrineofstjude.org/prayer/prayers-to-st-jude/"
+      },
+      {
+        "title": "EWTN News (ACI Prensa): Reliquia de San Judas Tadeo llega a México",
+        "url": "https://www.ewtnnews.com/es/mundo/america/reliquia-de-san-judas-tadeo-llega-a-mexico"
+      },
+      {
+        "title": "Douay-Rheims Bible: Jude 1",
+        "url": "https://www.drbo.org/chapter/72001.htm"
+      },
+      {
+        "title": "Official Website of St. Peter's Basilica",
+        "url": "https://www.basilicasanpietro.va/en/"
+      }
+    ],
+    "flags": [
+      "patronages: desperate situations / impossible / hopeless causes is sourced (Catholic Culture, National Shrine of St. Jude) but has no live topic",
+      "patronages: review lists none; 'hospitals' (and hospital workers) comes from Catholic Culture's patronage list — human please reconcile reviewed_patron_of",
+      "patronages: Diocese of St. Petersburg, Florida is sourced (Catholic Culture) but has no live topic",
+      "symbols/confirmationNote: Letter of Jude authorship is presented as tradition because the reviewed biography cautions against merging him with every biblical Jude; Catholic Culture states the attribution outright",
+      "whyWeTurn: the explanation that confusion with Judas delayed devotion follows Catholic Culture and is framed as tradition",
+      "feastCustoms: the owner's reference says novena Oct 19–27; the Chicago shrine's 2026 October solemn novena ran Oct 20–28, so wording avoids fixed dates",
+      "feastCustoms: the 28th-of-the-month custom is sourced to EWTN News/ACI Prensa (Catholic news agency), not an archdiocesan page",
+      "relatedSaints: bartholomew 'Armenia' link rests on tradition (Vatican News says Jude preached in Syria, Armenia and Persia); the reviewed biography mentions only Syria, Mesopotamia and Persia — not a contradiction, but a human may prefer a different reason",
+      "biography: Vatican News repeats the tradition that Jude was a cousin of Jesus and a detailed martyrdom legend; neither was used, consistent with the reviewed biography's caution"
+    ]
+  },
+  "maximilian-kolbe": {
+    "templateVersion": 2,
+    "heroSummary": "St. Maximilian Maria Kolbe is a patron of prisoners, honored for the life he gave at Auschwitz in place of a condemned man. A Polish Conventual Franciscan, he founded a Marian movement, built a publishing apostolate at Niepokalanów, and served as a missionary in Japan. Catholics keep his memorial on August 14.",
+    "searchDescription": "St. Maximilian Kolbe, Polish Franciscan, Marian publisher and missionary, who gave his life for another prisoner at Auschwitz in 1941. Feast: August 14.",
+    "patronages": [
+      "prisoners"
+    ],
+    "symbols": [
+      {
+        "symbol": "Two crowns, one white and one red",
+        "meaning": "Purity and martyrdom, from a childhood vision of Mary that he described to his mother; known through her recollection."
+      },
+      {
+        "symbol": "Striped prisoner's uniform with the number 16670",
+        "meaning": "His imprisonment at Auschwitz from May 1941 and his death there for another prisoner."
+      },
+      {
+        "symbol": "Franciscan habit",
+        "meaning": "His life as a Conventual Franciscan friar and priest."
+      },
+      {
+        "symbol": "Miraculous Medal",
+        "meaning": "The outward sign of consecration to Mary he gave the Militia of the Immaculata."
+      },
+      {
+        "symbol": "Magazine or printing press",
+        "meaning": "The Knight of the Immaculata and his publishing work at Niepokalanów."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Maximilian Kolbe because his final act was so concrete. In Auschwitz, when ten men were condemned to starve in reprisal for an escape, he stepped forward to take the place of Franciszek Gajowniczek, a husband and father who survived the war. Prisoners, families, and anyone facing cruelty find in him a friend who knew captivity from the inside. His death did not come out of nowhere: for years he had given himself to Mary and to spreading the faith through presses, magazines, and missions. Many ask his help to love when love costs something, and to hope in places that seem built to destroy hope.",
+    "quotes": [
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And Mary said: Behold the handmaid of the Lord; be it done to me according to thy word.",
+        "work": "Luke 1:38",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave Saint Maximilian a burning love for your Mother and the courage to lay down his life for another prisoner. Through his prayers, strengthen all who are imprisoned, unjustly held, or afraid. Comfort families torn apart by violence. Teach me to give myself to Mary as he did, to use my gifts and the tools of my time to make you known, and to answer hatred with love. When the hour of sacrifice comes, small or great, let me step forward and not hold back. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers to St. Maximilian Kolbe (Militia of the Immaculata)",
+        "url": "https://militiaoftheimmaculata.com/prayers-to-st-maximilian-kolbe/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on August 14, his obligatory memorial in the universal Roman calendar, which falls on the anniversary of his death and the eve of the Assumption.",
+      "Pray the rosary or offer a Mass for prisoners and for people who suffer from human cruelty, as Catholic Culture suggests for his day.",
+      "Make or renew an act of consecration to Mary, the heart of the Militia of the Immaculata he founded in 1917.",
+      "Wear a Miraculous Medal, which he made the outward sign of that consecration.",
+      "Read about Auschwitz and the man he saved, Franciszek Gajowniczek, using the Auschwitz-Birkenau State Museum's account."
+    ],
+    "places": [
+      {
+        "name": "Niepokalanów Friary and Basilica",
+        "city": "Niepokalanów, Poland",
+        "url": "https://www.niepokalanow.pl/"
+      },
+      {
+        "name": "Auschwitz-Birkenau Memorial and Museum (Block 11, site of his death)",
+        "city": "Oświęcim, Poland",
+        "url": "https://www.auschwitz.org/en/"
+      }
+    ],
+    "confirmationNote": "St. Maximilian Kolbe can suit a Confirmation candidate who is drawn to courage, Mary, or communication. He used presses, magazines, and radio to share the faith, and he gave his life for a stranger at Auschwitz. Taking his name can mean committing to love that costs something, to standing with people who are imprisoned or forgotten, and to using today's media for good.",
+    "reflectionPrompts": [
+      "Who in your life might need you to 'step forward' for them this week, even in a small and costly way?",
+      "Write a letter or card to someone in prison, or learn about a prison ministry in your parish or diocese.",
+      "Read John 15:12–17, then read the Auschwitz-Birkenau State Museum's account of his sacrifice and note how the Gospel and the history illuminate each other."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan family to which Kolbe belonged as a Conventual Franciscan",
+        "historical": true
+      },
+      {
+        "slug": "edith-stein",
+        "reason": "Fellow martyr who was also killed at Auschwitz, in 1942",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "Polish pope who canonized him in 1982",
+        "historical": true
+      },
+      {
+        "slug": "titus-brandsma",
+        "reason": "Priest-journalist who also died in a Nazi camp (Dachau)",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Maximilian M. Kolbe, priest",
+        "url": "https://www.vaticannews.va/en/saints/08/14/st--maximilian-m--kolbe---priest-of-the-order--of-the-friars-min.html"
+      },
+      {
+        "title": "Vatican News: Saint Maximilian Kolbe, 80 years since his martyrdom",
+        "url": "https://www.vaticannews.va/en/church/news/2021-08/saint-maximilian-kolbe-martyr-august14-1941-80-years.html"
+      },
+      {
+        "title": "Auschwitz-Birkenau State Museum: The sacrifice and death of Father Maximilian Kolbe",
+        "url": "https://www.auschwitz.org/en/education/e-learning/podcast/the-sacrifice-and-death-of-father-maximilian-kolbe/"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Maximilian Mary Kolbe, August 14",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-14"
+      },
+      {
+        "title": "Franciscan Media: Saint Maximilian Mary Kolbe",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-maximilian-mary-kolbe/"
+      },
+      {
+        "title": "Militia of the Immaculata (MI-USA): home and history",
+        "url": "https://militiaoftheimmaculata.com/"
+      },
+      {
+        "title": "Militia of the Immaculata: The Miraculous Medal",
+        "url": "https://militiaoftheimmaculata.com/the-miraculous-medal-silver-bullet-of-the-mi/"
+      },
+      {
+        "title": "Catholic World Report / CNA: A magazine launched by a saint is still thriving 100 years later",
+        "url": "https://www.catholicworldreport.com/2022/01/10/a-magazine-launched-by-a-saint-is-still-thriving-100-years-later/"
+      },
+      {
+        "title": "DRBO.org: John 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 1 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49001.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; prisoners is stated by Catholic Culture and has a live topic, so included for human reconciliation",
+      "patronages: families is sourced (Catholic Culture) but has no live topic",
+      "patronages: journalists is sourced (Catholic Culture) but has no live topic",
+      "patronages: drug addiction / people with chemical addictions is sourced (Catholic Culture, Franciscan Media) but has no live topic",
+      "patronages: the pro-life movement is sourced (Catholic Culture) but has no live topic",
+      "quotes: his own writings and sayings exist only in modern, in-copyright translations, so Douay-Rheims verses were used",
+      "places: National Shrine of St. Maximilian Kolbe at Marytown (Libertyville, Illinois; kolbeshrine.org) returned a bot challenge and could not be verified as loading, so it was left out; add it if a human confirms the URL",
+      "symbols: the two-crowns vision is known through his mother's recollection (Vatican News), and is labeled that way rather than as documented history",
+      "relatedSaints: Edith Stein's death at Auschwitz (1942) and John Paul II's 1982 canonization of Kolbe are well established but were not re-fetched from a dedicated page in this pass"
+    ]
+  },
+  "michael-the-archangel": {
+    "templateVersion": 2,
+    "heroSummary": "St. Michael the Archangel is a patron of Brussels, whose cathedral is dedicated to him and St. Gudula, and he is invoked across the Church as a protector against evil. Scripture names him in Daniel, Jude and Revelation. Catholics honor him with Gabriel and Raphael on September 29.",
+    "searchDescription": "St. Michael the Archangel, honored September 29 with Gabriel and Raphael, appears in Daniel, Jude and Revelation as a heavenly protector against evil.",
+    "patronages": [
+      "brussels"
+    ],
+    "symbols": [
+      {
+        "symbol": "Armor with sword or lance",
+        "meaning": "His role as leader of the heavenly host in the struggle against evil, drawn from Revelation 12."
+      },
+      {
+        "symbol": "Dragon or devil beneath his feet",
+        "meaning": "The defeat of the dragon, 'that old serpent, who is called the devil and Satan', in Revelation 12."
+      },
+      {
+        "symbol": "Scales",
+        "meaning": "A later tradition that pictures Michael weighing souls at judgment; this image does not come from Scripture."
+      },
+      {
+        "symbol": "Wings",
+        "meaning": "He is an angel, a spiritual messenger of God rather than a human saint."
+      },
+      {
+        "symbol": "Banner",
+        "meaning": "Leadership of God's angels; his name means 'Who is like God?'"
+      }
+    ],
+    "whyWeTurn": "People turn to St. Michael when they feel under attack, whether by temptation, fear, or forces they cannot name. His very name is a question, \"Who is like God?\", and it answers itself: no one is, and evil does not have the last word. Scripture shows him standing guard over God's people, not as a rival power but as a servant acting under God's authority. Soldiers, police officers and the sick have long asked his protection, and Pope Leo XIII wrote a prayer to him that many Catholics still say daily. Calling on Michael is a way of asking for courage and clear sight, and of remembering that the fight against evil is God's before it is ours.",
+    "quotes": [
+      {
+        "text": "And there was a great battle in heaven, Michael and his angels fought with the dragon, and the dragon fought and his angels: and they prevailed not, neither was their place found any more in heaven.",
+        "work": "Apocalypse (Revelation) 12:7–8",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But at that time shall Michael rise up, the great prince, who standeth for the children of thy people.",
+        "work": "Daniel 12:1",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "When Michael the archangel, disputing with the devil, contended about the body of Moses, he durst not bring against him the judgment of railing speech, but said: The Lord command thee.",
+        "work": "Jude 1:9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. Michael the Archangel, defend us in battle, be our protection against the wickedness and snares of the Devil. May God rebuke him, we humbly pray. And do thou, O Prince of the Heavenly Host, by the Power of God, thrust into hell Satan and all evil spirits who wander the earth seeking the ruin of souls. Amen.",
+      "kind": "traditional",
+      "source": "United States Catholic Catechism for Adults (USCCB), Prayer to St. Michael the Archangel",
+      "note": "Composed by Pope Leo XIII in the 1880s and once recited after Low Mass; in 1994 St. John Paul II asked Catholics not to forget it. English wordings vary slightly; this is the USCCB text. The story of a vision behind the prayer is reported, not documented."
+    },
+    "feastCustoms": [
+      "Attend Mass on September 29, the feast of Sts. Michael, Gabriel and Raphael, Archangels, in the Roman calendar.",
+      "Pray the Prayer to St. Michael on the feast and make it a daily habit, as St. John Paul II encouraged.",
+      "In England and other countries the day is called Michaelmas; a traditional British meal is roast goose.",
+      "Decorate the home or table with Michaelmas daisies (purple asters), which bloom around the feast.",
+      "Read Revelation 12 or Daniel 10–12 as a family and talk about where you need courage against evil."
+    ],
+    "places": [
+      {
+        "name": "Cathedral of St. Michael and St. Gudula",
+        "city": "Brussels, Belgium",
+        "url": "https://cathedralisbruxellensis.be/en/"
+      },
+      {
+        "name": "Abbey of Mont-Saint-Michel (Monastic Fraternities of Jerusalem)",
+        "city": "Mont-Saint-Michel, France",
+        "url": "https://www.abbaye-montsaintmichel.com/"
+      }
+    ],
+    "confirmationNote": "Michael is a fitting patron for a confirmand who wants courage. Confirmation strengthens a Christian to bear witness and resist evil, and Michael's name, \"Who is like God?\", keeps the focus on God rather than on our own strength. Because he is an archangel rather than a human saint, choosing him means asking a heavenly protector, not a role model with a life story, to stand with you.",
+    "reflectionPrompts": [
+      "Where in your life do you most need courage to choose good over evil right now?",
+      "Pray the Prayer to St. Michael each morning this week, perhaps before leaving home.",
+      "Read Revelation 12:7–12 and Daniel 12:1–3 and note what each passage says Michael does."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gabriel-the-archangel",
+        "reason": "Shares the September 29 feast of the archangels",
+        "historical": true
+      },
+      {
+        "slug": "raphael-the-archangel",
+        "reason": "Shares the September 29 feast of the archangels",
+        "historical": true
+      },
+      {
+        "slug": "joan-of-arc",
+        "reason": "Heard the 'voice' of St. Michael calling her to act",
+        "historical": true
+      },
+      {
+        "slug": "gudula",
+        "reason": "Co-patron of Brussels; its cathedral bears both names",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Michael, Archangel",
+        "url": "https://www.vaticannews.va/en/saints/09/29/st--michael--archangel.html"
+      },
+      {
+        "title": "Catholic Culture: Feast of Sts. Michael, Gabriel and Raphael (September 29)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-29"
+      },
+      {
+        "title": "USCCB, United States Catholic Catechism for Adults: Prayer to St. Michael the Archangel",
+        "url": "https://www.usccb.org/sites/default/files/flipbooks/uscca/files/assets/basic-html/page-566.html"
+      },
+      {
+        "title": "John Paul II, Regina Caeli, 24 April 1994",
+        "url": "https://www.vatican.va/content/john-paul-ii/it/angelus/1994/documents/hf_jp-ii_reg_19940424.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience on St. Joan of Arc, 26 January 2011",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110126.html"
+      },
+      {
+        "title": "Cathedral of St. Michael and St. Gudula: The Statue of Saint Michael",
+        "url": "https://cathedralisbruxellensis.be/en/oeuvres/the-statue-of-saint-michael/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Apocalypse 12",
+        "url": "https://www.drbo.org/chapter/73012.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Daniel 12",
+        "url": "https://www.drbo.org/chapter/32012.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Jude 1",
+        "url": "https://www.drbo.org/chapter/72001.htm"
+      },
+      {
+        "title": "Fraternités Monastiques de Jérusalem à l'abbaye du Mont-Saint-Michel",
+        "url": "https://www.abbaye-montsaintmichel.com/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; 'brussels' is supported by the cathedral's own site ('cities, like Brussels, chose him as their patron saint') — human please reconcile",
+      "patronages: soldiers, police officers, paratroopers, mariners, the sick, the dying, grocers, radiologists and others are sourced (Catholic Culture) but have no live topic",
+      "quotes: Daniel 12:1 is quoted only in its first clause (the verse continues)",
+      "symbols: 'sword' rests on Vatican News ('sword against evil'); Catholic Culture lists lance and shield, banner and scales",
+      "places: the Monte Sant'Angelo sanctuary site (santuariosanmichele.it) was not used because the fetched page contained injected gambling spam links",
+      "prayer: exact text verified from the USCCB catechism page via a fetch tool in pieces (direct download was blocked by a bot check); a human may want to confirm punctuation/capitalization (e.g. 'Power of God')"
+    ]
+  },
+  "padre-pio": {
+    "templateVersion": 2,
+    "heroSummary": "St. Pio of Pietrelcina, widely known as Padre Pio, was an Italian Capuchin friar and priest who spent more than fifty years at San Giovanni Rotondo celebrating Mass, hearing confessions, and counseling crowds of visitors. Catholics keep his memorial on September 23. Beyond the reports of the stigmata, he left prayer groups and a hospital for the suffering.",
+    "searchDescription": "St. Pio of Pietrelcina (Padre Pio), Capuchin priest of San Giovanni Rotondo known for the confessional, prayer groups and a hospital. Feast: September 23.",
+    "symbols": [
+      {
+        "symbol": "Brown Capuchin habit with cord",
+        "meaning": "His vows as a Capuchin Franciscan friar, a life of poverty and prayer he embraced from 1903."
+      },
+      {
+        "symbol": "Fingerless gloves or mittens on the hands",
+        "meaning": "He covered the wounds on his hands, disliking the attention they drew; surviving gloves are kept as relics."
+      },
+      {
+        "symbol": "Wounds of the stigmata",
+        "meaning": "The marks reported from September 1918, which the Church's prayer for his feast links to a share in Christ's Cross."
+      },
+      {
+        "symbol": "Rosary",
+        "meaning": "His Marian prayer; the National Centre for Padre Pio records that he died holding his rosary."
+      }
+    ],
+    "whyWeTurn": "People turn to Padre Pio because his ministry was close to ordinary struggles. For decades he sat in the confessional for long hours, and visitors left feeling heard and forgiven. He prayed for those who asked, and the National Centre for Padre Pio notes that he recited a novena to the Sacred Heart every day for their intentions. Reports of the stigmata and other extraordinary gifts drew crowds and Church investigations, and he accepted restrictions without protest. Many find comfort in that patience under suffering. He also built something lasting: a hospital for the sick and prayer groups that still meet. To ask his prayers is to be pointed back to Christ, confession, and care for the suffering.",
+    "quotes": [
+      {
+        "text": "With Christ I am nailed to the cross. And I live, now not I; but Christ liveth in me.",
+        "work": "Galatians 2:19–20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.",
+        "work": "Galatians 6:14",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you gave Saint Pio a deep love for your Cross, for the Mass, and for the sacrament of mercy. Through his prayers, give me the courage to bring my sins honestly to confession and to trust your forgiveness. When I suffer, keep me close to you without bitterness. Teach me to pray faithfully for others, as he did for all who asked, and open my eyes to the sick and lonely around me. May I pray, hope, and not lose heart, until I see your face. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayer to Saint Pio (National Centre for Padre Pio)",
+        "url": "https://www.padrepio.org/pray/prayer-to-saint-pio/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on September 23, the obligatory memorial of St. Pio in the universal Roman calendar, and listen for its prayer about sharing in Christ's Cross.",
+      "Go to confession in the days around his feast, honoring the ministry he gave most of his hours to.",
+      "Pray the Efficacious Novena to the Sacred Heart of Jesus, which the National Centre for Padre Pio says he recited daily for those who asked his prayers.",
+      "Look for a Padre Pio Prayer Group near you; the groups began when he invited his spiritual children to pray together, and the Holy See approved their statute in 1986.",
+      "Do something for the sick, such as visiting someone in hospital or supporting a care facility, in the spirit of his Home for the Relief of Suffering; in San Giovanni Rotondo, the feast includes a procession with his statue."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of St. Pio of Pietrelcina",
+        "city": "San Giovanni Rotondo, Italy",
+        "url": "https://www.conventosantuariopadrepio.it/en/"
+      },
+      {
+        "name": "Casa Sollievo della Sofferenza (Home for the Relief of Suffering)",
+        "city": "San Giovanni Rotondo, Italy",
+        "url": "https://www.operapadrepio.it/en/"
+      },
+      {
+        "name": "National Centre for Padre Pio",
+        "city": "Barto, Pennsylvania, USA",
+        "url": "https://www.padrepio.org/"
+      }
+    ],
+    "confirmationNote": "Padre Pio can suit a Confirmation candidate who wants to take prayer and confession seriously. His ministry was mostly quiet and repetitive: Mass, long hours hearing confessions, and counsel for people carrying heavy burdens. He also turned devotion into concrete help for the sick. Choosing his name can be a commitment to regular confession, faithful prayer for others, and patience when you are misunderstood.",
+    "reflectionPrompts": [
+      "When did you last feel truly forgiven, and what might be keeping you from the sacrament of confession now?",
+      "Make a short list of people who have asked for your prayers, and pray for one of them by name each day this week.",
+      "Read Galatians 2:19–20 and 6:14, then read John Paul II's canonization homily for Padre Pio and note how it connects his life to the Cross."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan family; Pio was a Capuchin Franciscan and both are associated with the stigmata",
+        "historical": true
+      },
+      {
+        "slug": "leopold-mandi",
+        "reason": "Fellow Capuchin confessor; their relics were brought to St. Peter's together for the 2016 Jubilee of Mercy",
+        "historical": true
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "Another priest known for spending long hours in the confessional",
+        "historical": false
+      },
+      {
+        "slug": "gemma-galgani",
+        "reason": "Italian mystic of the same era also associated with the stigmata",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican: Pio of Pietrelcina (1887-1968), biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020616_padre-pio_en.html"
+      },
+      {
+        "title": "John Paul II: Homily for the canonization of Padre Pio (June 16, 2002)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020616_padre-pio.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Pius of Pietrelcina, September 23",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-09-23"
+      },
+      {
+        "title": "Franciscan Media: Saint Pio of Pietrelcina",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-pio-of-pietrelcina/"
+      },
+      {
+        "title": "National Centre for Padre Pio: Padre Pio's Story",
+        "url": "https://www.padrepio.org/about/padre-pios-story/"
+      },
+      {
+        "title": "National Centre for Padre Pio: Efficacious Novena to the Sacred Heart",
+        "url": "https://www.padrepio.org/pray/efficacious-novena/"
+      },
+      {
+        "title": "Padre Pio Prayer Groups (Opera di San Pio): The Origins",
+        "url": "https://gruppidipreghiera.operapadrepio.it/en/i-gruppi-di-preghiera-di-padre-pio/come-sono-nati/"
+      },
+      {
+        "title": "Convento Santuario di San Pio da Pietrelcina: St. Pio's feast day",
+        "url": "https://www.conventosantuariopadrepio.it/en/archivio/st-pios-feast-day.html"
+      },
+      {
+        "title": "Vermont Catholic (Diocese of Burlington): Connections to St. Padre Pio",
+        "url": "https://vermontcatholic.org/saints/connections-to-st-padre-pio/"
+      },
+      {
+        "title": "University of Notre Dame, Faith ND: Saint Pius of Pietrelcina",
+        "url": "https://faith.nd.edu/saint/saint-pius-of-pietrelcina/"
+      },
+      {
+        "title": "Holy See Press Office: Translation of the relics of St. Pio and St. Leopold Mandić to Rome (2016)",
+        "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2016/01/29/0064/00140.html"
+      },
+      {
+        "title": "DRBO.org: Galatians 2 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/55002.htm"
+      },
+      {
+        "title": "DRBO.org: Galatians 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable source found states a patronage that matches a live topic (popular lists such as civil defense volunteers or adolescents were not verified and have no live topic); left empty",
+      "quotes: his own words (letters, sayings) survive only in modern, in-copyright translations, so Douay-Rheims verses tied to the Cross were used instead",
+      "prayer: the traditional 'Prayer to Saint Pio' text was not verified word for word, so an original prayer links to the National Centre's page; the phrase 'pray, hope, and not lose heart' echoes his widely cited motto without quoting it",
+      "symbols: gloves sourced to a diocesan newspaper and Notre Dame, not a Vatican source; human check welcome",
+      "places: National Centre for Padre Pio (Barto, PA) is a devotional center rather than a Capuchin-run shrine; drop it if the site prefers only order-run places"
+    ]
+  },
+  "therese-of-lisieux": {
+    "templateVersion": 2,
+    "heroSummary": "St. Thérèse of Lisieux was a French Carmelite nun who died in 1897 at twenty-four and is now a Doctor of the Church. Her \"little way\" teaches confidence in God's merciful love within ordinary duties. Named a patron of missions in 1927 without ever leaving her convent, she is celebrated on October 1.",
+    "searchDescription": "St. Thérèse of Lisieux (1873–1897) was a French Carmelite and Doctor of the Church. Explore her little way, October 1 feast, and patronage of missions.",
+    "symbols": [
+      {
+        "symbol": "Roses",
+        "meaning": "Her hope, recorded by her sisters, to let fall a shower of roses after her death; devotees see them as a sign of her intercession."
+      },
+      {
+        "symbol": "Crucifix",
+        "meaning": "Her love for Christ crucified and her offering of herself to God's merciful love in 1895; she is often shown holding a crucifix together with roses."
+      },
+      {
+        "symbol": "Brown Carmelite habit with white mantle",
+        "meaning": "Her life as a Discalced Carmelite nun in the monastery at Lisieux, which she entered at fifteen."
+      },
+      {
+        "symbol": "The Child Jesus and the Holy Face",
+        "meaning": "Her religious name, Thérèse of the Child Jesus and of the Holy Face, joining trust like a child's with devotion to the suffering Christ."
+      }
+    ],
+    "whyWeTurn": "People turn to Thérèse when they feel small. She did not found an order, travel as a missionary, or write theology in a university, yet the Church calls her a Doctor. Her little way says that holiness begins with trust in God's mercy and grows through ordinary acts of love done well. She is honest company in hard times, too: her last illness came with a long trial of faith, and she kept choosing trust without feeling consolation. Many Catholics ask her prayers for missionaries, for vocations, and for the courage to love in small, hidden ways. Tradition holds that she answers with roses, but her deeper gift is confidence.",
+    "quotes": [
+      {
+        "text": "I will seek out a means of getting to Heaven by a little way--very short and very straight, a little way that is wholly new.",
+        "work": "Story of a Soul, Chapter IX",
+        "translation": "Thomas N. Taylor (1912), public domain"
+      },
+      {
+        "text": "With me prayer is an uplifting of the heart; a glance towards heaven; a cry of gratitude and love, uttered equally in sorrow and in joy.",
+        "work": "Story of a Soul, Chapter X",
+        "translation": "Thomas N. Taylor (1912), public domain"
+      },
+      {
+        "text": "O Jesus, my Love, at last I have found my vocation. My vocation is love! Yes, I have found my place in the bosom of the Church, and this place, O my God, Thou hast Thyself given to me: in the heart of the Church, my Mother, I will be LOVE!",
+        "work": "Story of a Soul, Chapter XI",
+        "translation": "Thomas N. Taylor (1912), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Merciful Father, you taught St. Thérèse to come to you with the trust of a little child. Through her prayers, free me from the need to prove myself, and help me to receive your love as a gift. Show me the small, hidden acts of love I can offer today, in my family, my work and my prayer. Sustain the missionaries who carry the Gospel far from home, and keep me faithful when faith feels dark. Let my life, like hers, become love in the heart of your Church. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayer times at the Sanctuary of Lisieux",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/se-recueillir/temps-de-priere/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on October 1, her memorial in the universal calendar.",
+      "Pray a nine-day novena ending on September 30, the anniversary of her death; many people bring roses to her image as they pray.",
+      "Pray for a missionary by name, or support one, in honor of her patronage of the missions.",
+      "Read one chapter of Story of a Soul and choose one small act of love to practice that day.",
+      "In Lisieux, the Teresian festivals on the weekend before September 30 include a torchlight procession with her relics."
+    ],
+    "places": [
+      {
+        "name": "Basilica of St. Thérèse",
+        "city": "Lisieux, France",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/decouvrir-le-sanctuaire/la-basilique/"
+      },
+      {
+        "name": "Carmel of Lisieux, Chapel of the Shrine",
+        "city": "Lisieux, France",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/decouvrir-le-sanctuaire/le-carmel/"
+      }
+    ],
+    "confirmationNote": "Thérèse suits a candidate who feels ordinary and wonders whether holiness is really meant for them. Her life shows that faith can grow through small faithful choices, honest prayer, and trust when feelings are absent. She is also a good choice for someone who wants to support the Church's mission through prayer and service right where they already live.",
+    "reflectionPrompts": [
+      "Where do I try to earn God's love instead of receiving it, and what would trusting him look like there?",
+      "Choose one hidden act of kindness each day this week that no one will notice or thank you for.",
+      "Read Chapter IX of Story of a Soul (Taylor translation) alongside Proverbs 9:4 and Isaias 66:12–13 in the Douay-Rheims, the passages she used to explain her little way."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "zelie-martin",
+        "reason": "Her mother, who died when Thérèse was four",
+        "historical": true
+      },
+      {
+        "slug": "louis-martin",
+        "reason": "Her father; shares the July 12 feast with Zélie",
+        "historical": true
+      },
+      {
+        "slug": "teresa-of-avila",
+        "reason": "Reformer of the Discalced Carmelites, the order Thérèse entered",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Proclaimed patron of missions with her in 1927",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican: Saint Thérèse of the Child Jesus and the Holy Face (biography)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19101997_stherese_en.html"
+      },
+      {
+        "title": "John Paul II: Divini amoris scientia (1997)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/1997/documents/hf_jp-ii_apl_19101997_divini-amoris.html"
+      },
+      {
+        "title": "Francis: C'est la confiance (2023)",
+        "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2023/10/15/231015a.html"
+      },
+      {
+        "title": "Story of a Soul, trans. Thomas N. Taylor (1912), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/16772"
+      },
+      {
+        "title": "Sanctuary of Lisieux: Celebrations (Teresian festivals; Louis and Zélie Martin, July 12)",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/evenements-actualites/les-grandes-fetes/les-fetes/"
+      },
+      {
+        "title": "Sanctuary of Lisieux: The Basilica",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/decouvrir-le-sanctuaire/la-basilique/"
+      },
+      {
+        "title": "Sanctuary of Lisieux: Carmel, Memorial and Chapel of the Shrine",
+        "url": "https://www.therese-de-lisieux.catholique.fr/en/decouvrir-le-sanctuaire/le-carmel/"
+      },
+      {
+        "title": "Society of the Little Flower (Canada): Frequently asked questions about St. Thérèse",
+        "url": "https://ca.littleflower.org/st-therese/frequently-asked-questions"
+      },
+      {
+        "title": "Douay-Rheims Bible: Proverbs 9",
+        "url": "https://www.drbo.org/chapter/22009.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Isaias 66",
+        "url": "https://www.drbo.org/chapter/27066.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Missions is sourced (Vatican biography: proclaimed patron of missions with Francis Xavier on December 14, 1927; also the reviewed patron_of) but has no live topic",
+      "feastCustoms: the September 22–30 novena timing is popular practice; the source found (Society of the Little Flower) says only that a novena is usually nine days, so the item avoids a fixed start date; the rose custom is phrased as popular devotion",
+      "symbols: the crucifix-with-roses image is supported only by Society of the Little Flower imagery, not a formal iconography source; human may verify",
+      "quotes: 'I will spend my Heaven in doing good upon earth' appears in the Taylor epilogue as a saying reported by her sisters, not her own written text, so it was not used; all three quotes were checked word-for-word against the Project Gutenberg Taylor text (the capitalized LOVE is as printed)",
+      "relatedSaints: teresa-of-avila's role as reformer of the Discalced Carmelites is standard history but was not re-fetched in this pass"
+    ]
+  }
+}

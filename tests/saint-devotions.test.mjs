@@ -12,7 +12,8 @@ const { saintSearchSummary } = loadTs('lib/saint-seo.ts');
 
 const words = text => (text ?? '').trim().split(/\s+/).filter(Boolean).length;
 const blank = value => typeof value === 'string' && /^\s*(n\/?a|none|tbd|unknown)?\s*$/i.test(value);
-const firstSentence = text => (text.match(/^.*?[.!?](\s|$)/) ?? [text])[0];
+// Abbreviations like "St." do not end a sentence.
+const firstSentence = text => (text.replace(/\b(St|Sts|Mt|Fr|Dr)\./g, '$1').match(/^.*?[.!?](\s|$)/) ?? [text])[0];
 
 function problems(slug, entry, publishedSlugs) {
   const issues = [];
