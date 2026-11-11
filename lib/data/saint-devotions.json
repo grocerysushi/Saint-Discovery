@@ -2180,6 +2180,1255 @@
       "prayer: replaced the old-Missal collect (translation not confirmed public domain) with an original prayer (coordinator)"
     ]
   },
+  "aloysius-gonzaga": {
+    "templateVersion": 2,
+    "heroSummary": "St. Aloysius Gonzaga (1568–1591) was the eldest son of an Italian marquis who gave up his inheritance to become a Jesuit. While studying theology in Rome, he cared for people struck by plague and famine, caught the disease himself, and died at twenty-three. His feast is June 21.",
+    "searchDescription": "St. Aloysius Gonzaga (1568–1591), feast June 21: Italian heir who became a Jesuit and died at 23 after caring for plague victims in Rome.",
+    "symbols": [
+      {
+        "symbol": "Lily",
+        "meaning": "Purity of heart; Catholic Culture notes that he made a vow of chastity as a boy of nine."
+      },
+      {
+        "symbol": "Crucifix",
+        "meaning": "His love for Christ crucified; the Jesuits record that he died holding a cross and calling on the name of Jesus."
+      },
+      {
+        "symbol": "Crown at his feet",
+        "meaning": "The princely title and inheritance he renounced in favor of his brother in 1585 in order to enter the Society of Jesus."
+      },
+      {
+        "symbol": "Skull",
+        "meaning": "Remembrance of death and the shortness of life; he told his spiritual director, Robert Bellarmine, that he sensed he would die young."
+      },
+      {
+        "symbol": "Jesuit cassock",
+        "meaning": "His life as a young Jesuit in formation in Rome, where he died before he could be ordained."
+      }
+    ],
+    "whyWeTurn": "People turn to Aloysius because he made a hard choice early. Born into power and privilege, he walked away from a title his family expected him to take, and he did it while still a teenager. He was not naturally gentle; Catholic Culture recalls that he described himself to his brother as a piece of twisted iron, and Bellarmine had to steer his zeal toward moderation. In 1591 he carried sick strangers through the streets of Rome to hospital and paid with his life. Young people, and anyone caring for the sick during an epidemic, find in him a friend who chose love over safety.",
+    "quotes": [
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you called St. Aloysius away from the life his family planned for him and into your service. Give me the courage to choose what is right even when it costs me something, and the humility to accept good guidance as he accepted it from St. Robert Bellarmine. Through his prayers, protect young people who are deciding what to do with their lives, and strengthen all who care for the sick in times of epidemic. When I am tempted to put my own comfort first, teach me to see you in the person who needs me. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on June 21, his memorial in the General Roman Calendar.",
+      "Pray the Litany of Saint Aloysius, which Catholic Culture offers for his feast.",
+      "Pray for doctors, nurses, and caregivers, and for people sick during outbreaks of disease; Catholic Culture lists him as a patron for relief from pestilence and of AIDS patients and caregivers.",
+      "Take Catholic Culture's suggestion to examine your speech for the day, and ask for the grace to use words that build others up.",
+      "In Rome, visit the Church of Sant'Ignazio, where his body rests; his home town of Castiglione delle Stiviere has a basilica dedicated to him."
+    ],
+    "places": [
+      {
+        "name": "Church of Sant'Ignazio di Loyola",
+        "city": "Rome, Italy",
+        "url": "https://chiesasantignazio.it/en/"
+      }
+    ],
+    "confirmationNote": "Aloysius suits a Confirmation candidate who feels pressure to follow a path others have already chosen. He listened to God's call, accepted wise direction, and gave up status and wealth to serve. Choosing his name can be a commitment to make real decisions in faith, to guard purity of heart, and to serve people who are sick or overlooked, even at personal cost.",
+    "reflectionPrompts": [
+      "What expectation from family, friends, or social media is quietly shaping my choices, and what do I think God is asking of me instead?",
+      "This week, visit, call, or write to someone who is sick or homebound, and offer that time to God.",
+      "Read Matthew 25:31–46 in the Douay-Rheims, then the Jesuits' biography of St. Aloysius, and note how his final months put that passage into practice."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "robert-bellarmine",
+        "reason": "His spiritual director in Rome, who guided his zeal toward the Jesuit rule",
+        "historical": true
+      },
+      {
+        "slug": "charles-borromeo",
+        "reason": "Gave him his First Communion at Brescia when Aloysius was about twelve",
+        "historical": true
+      },
+      {
+        "slug": "john-berchmans",
+        "reason": "Flemish Jesuit student drawn to the Society partly by Aloysius's life story",
+        "historical": true
+      },
+      {
+        "slug": "stanislaus-kostka",
+        "reason": "Another young Jesuit who died in Rome before ordination, honored as a model for youth",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Society of Jesus: Saint Aloysius Gonzaga",
+        "url": "https://www.jesuits.global/saint-blessed/saint-aloysius-gonzaga/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, June 21 (St. Aloysius Gonzaga)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-06-21"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Aloysius Gonzaga (1907)",
+        "url": "https://www.newadvent.org/cathen/01331c.htm"
+      },
+      {
+        "title": "Vatican News: Saints of June 21 (St. Louis Gonzaga, Patron of the Catholic Young)",
+        "url": "https://www.vaticannews.va/en/saints/06/21.html"
+      },
+      {
+        "title": "Chiesa di Sant'Ignazio di Loyola, Rome",
+        "url": "https://chiesasantignazio.it/en/"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "DRBO.org: John 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic youth/young people (Vatican News, Catholic Culture), Jesuit students, teenagers, AIDS patients and caregivers, relief from pestilence and sore eyes (Catholic Culture) are sourced but have no live topics",
+      "quotes: no public-domain English translation of his own letters could be verified, so only Douay-Rheims Scripture is quoted; the 'twisted iron' remark in whyWeTurn is paraphrased from Catholic Culture, not quoted",
+      "places: his skull is kept in the Basilica of San Luigi Gonzaga at Castiglione delle Stiviere (Catholic Culture lists the sanctuary), but the listed site santuariosanluigi.it returned a default hosting page, so only Sant'Ignazio is included",
+      "feastCustoms: the traditional 'Six Sundays of St. Aloysius' devotion was left out because I found it only in Aleteia and a Raccolta reprint, not a listed reputable source",
+      "relatedSaints: Charles Borromeo giving his First Communion is from the 1907 Catholic Encyclopedia; the Berchmans link follows the approved john-berchmans entry",
+      "biography: no disagreement. Minor source variance: Catholic Culture says he joined the Jesuits at 16, while the Catholic Encyclopedia (born March 9, 1568; received November 25, 1585) and the Jesuits ('not yet 18') imply he was 17"
+    ]
+  },
+  "alphonsa-of-the-immaculate-conception": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Alphonsa of the Immaculate Conception (1910–1946) was a Franciscan Clarist sister from Kerala and the first woman of India to be canonized. Born Annakutty Muttathupadathu into the Syro-Malabar Church, she lived with years of illness, and Popes John Paul II and Benedict XVI pointed to her patient love of the crucified Christ. Her feast is July 28.",
+    "searchDescription": "St. Alphonsa (1910–1946), feast July 28: Franciscan Clarist sister from Kerala and India's first canonized woman, known for patient faith in illness.",
+    "whyWeTurn": "People turn to Alphonsa when life has narrowed to a sickbed, a hospital routine, or a hidden struggle no one else sees. She never founded anything or traveled far. She taught a little, wrote letters for her parish, and spent much of her short life ill. John Paul II said she came to love suffering because she loved the suffering Christ, and he noted that she still delighted in simple, ordinary things. As India's first canonized woman, she also shows that holiness has deep roots in Kerala's ancient Syro-Malabar Church. She is a companion for anyone learning to trust God when strength runs out.",
+    "quotes": [
+      {
+        "text": "He shall cast death down headlong for ever: and the Lord God shall wipe away tears from every face, and the reproach of his people he shall take away from off the whole earth: for the Lord hath spoken it.",
+        "work": "Isaiah 25:8, the reading Benedict XVI applied to her at her canonization",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For I reckon that the sufferings of this time are not worthy to be compared with the glory to come, that shall be revealed in us.",
+        "work": "Romans 8:18",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you drew St. Alphonsa close to your cross and filled her heart with your joy. Look kindly on everyone who is sick, in pain, or misunderstood today. When my own strength fails, help me to trust you as she did, without bitterness and without giving up on love. Teach me to notice small gifts, to be gentle with the people around me, and to offer my hidden struggles for the good of your Church. Through her prayers, bless the Church in India and all who seek your help at her tomb. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Pray for her intercession on July 28, the day she died in 1946; her feast is kept in the Syro-Malabar Church and in many Catholic communities in India and the Indian diaspora.",
+      "Visit, call, or pray for someone who is chronically ill, and ask St. Alphonsa to stay close to them.",
+      "Offer one hidden difficulty of the day to God with patience, as John Paul II described her offering her sufferings for the Church.",
+      "Read Isaiah 25:6–9, the passage Benedict XVI connected with her at her canonization on October 12, 2008.",
+      "In Kerala, many pilgrims visit the St. Alphonsa Shrine Church and Pilgrim Centre at Bharananganam, in the Syro-Malabar Eparchy of Palai, where she died."
+    ],
+    "confirmationNote": "Alphonsa suits a Confirmation candidate who knows illness, disability, grief, or a struggle others cannot see. She did not choose an easy path: she resisted pressure to marry, held on to her vocation, and stayed faithful through years of pain. Choosing her name can be a commitment to trust God in weakness, to stay kind under strain, and to let hidden sacrifices become prayer.",
+    "reflectionPrompts": [
+      "Where in my life do I feel weak or limited right now, and how might I bring that honestly to Christ instead of hiding it?",
+      "This week, do one small, unnoticed kindness for someone who is struggling, and tell no one about it.",
+      "Read the Holy See's canonization biography of St. Alphonsa, then Benedict XVI's homily of October 12, 2008, and note how each describes her suffering and her joy."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "kuriakose-elias-chavara",
+        "reason": "Beatified with her at Kottayam on February 8, 1986; she prayed a novena to him during her illness",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "She took his name when she began postulancy on his feast in 1928",
+        "historical": false
+      },
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Her Franciscan Clarist congregation follows Clare's spirit; she made final vows on Clare's feast in 1936",
+        "historical": false
+      },
+      {
+        "slug": "euphrasia-eluvathingal",
+        "reason": "Fellow Syro-Malabar religious sister from Kerala, remembered for a hidden life of prayer",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Alphonsa of the Immaculate Conception, canonization biography (2008)",
+        "url": "https://press.vatican.va/news_services/liturgy/saints/2008/ns_lit_doc_20081012_alfonsa_en.html"
+      },
+      {
+        "title": "Benedict XVI: Homily for the canonization of four saints (October 12, 2008)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2008/documents/hf_ben-xvi_hom_20081012_canonizzazioni.html"
+      },
+      {
+        "title": "John Paul II: Homily for the beatification of Kuriakose Elias Chavara and Alphonsa, Kottayam (February 8, 1986)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1986/documents/hf_jp-ii_hom_19860208_stadio-kattayam.html"
+      },
+      {
+        "title": "Vatican Radio archive: Pope raises India's first woman saint to the altars (October 12, 2008)",
+        "url": "https://www.archivioradiovaticana.va/storico/2008/10/12/pope_raises_to_the_honours_of_the_altar_indias__first_woman_saint_-/in2-237172"
+      },
+      {
+        "title": "Eparchy of Palai: St. Alphonsa Shrine Church & Pilgrim Centre, Bharananganam",
+        "url": "https://www.palaidiocese.com/pilgrim-profile/278/1"
+      },
+      {
+        "title": "DRBO.org: Isaiah 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/27025.htm"
+      },
+      {
+        "title": "DRBO.org: Romans 8 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/52008.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty (templateVersion 1.5). Images usually show her in the Clarist habit, sometimes with a crucifix, but I found no reputable Catholic source describing established iconographic attributes",
+      "patronages: review lists none, and I found no patronage stated by a Vatican, diocesan, or order source",
+      "quotes: her own words (e.g. 'I consider a day without suffering as a day lost', quoted by Benedict XVI) are not in a public-domain translation, so only Douay-Rheims Scripture is quoted",
+      "places: no official website for her shrine at Bharananganam could be found; the Eparchy of Palai listing leaves the website field blank, so places is omitted",
+      "feastCustoms: secondary sources describe a novena and feast at Bharananganam from about July 19 to 28, but I could not confirm the dates from a diocesan or shrine source, so no dates are given; I also could not confirm her place in the General Roman Calendar (Catholic Culture's July 28 page does not list her)",
+      "relatedSaints: Euphrasia Eluvathingal is a thematic match (Kerala, Syro-Malabar, religious sister); her details were not checked against a listed source beyond her published page",
+      "biography: no disagreement. Note: John Paul II's homily says her life lasted thirty-six years, but she died on July 28, 1946, three weeks before her 36th birthday (born August 19, 1910, per the Holy See biography)"
+    ]
+  },
+  "alphonsus-liguori": {
+    "templateVersion": 2,
+    "heroSummary": "St. Alphonsus Liguori (1696–1787) was a Neapolitan lawyer who became a priest, founded the Redemptorists in 1732 to preach to the rural poor, and served as bishop of Sant'Agata dei Goti. Pius XII named him patron of confessors and moral theologians. A Doctor of the Church, he is celebrated on August 1.",
+    "searchDescription": "St. Alphonsus Liguori (1696–1787), feast August 1: lawyer turned priest, Redemptorist founder, Doctor of the Church and patron of confessors.",
+    "symbols": [
+      {
+        "symbol": "Monstrance",
+        "meaning": "His devotion to Christ in the Eucharist and his popular book of Visits to the Blessed Sacrament; Catholic Culture notes he is shown praying with a monstrance in his hands."
+      },
+      {
+        "symbol": "Pen or quill",
+        "meaning": "His many writings, from moral theology for confessors to devotional books written for ordinary people, which led to his being named a Doctor of the Church in 1871."
+      },
+      {
+        "symbol": "Crucifix",
+        "meaning": "His preaching of Christ's love shown on the cross, the heart of the parish missions he and the Redemptorists gave."
+      },
+      {
+        "symbol": "Chaplet or rosary",
+        "meaning": "His devotion to Mary, which he spread through works such as The Glories of Mary."
+      },
+      {
+        "symbol": "Bishop bent forward, chin on his chest",
+        "meaning": "The painful illness of his later years, which led him to resign his diocese; Catholic Culture lists him among patrons against arthritis."
+      }
+    ],
+    "whyWeTurn": "People turn to Alphonsus when they need mercy explained in plain words. He left a promising legal career, spent his life preaching to farmers and shepherds whom others overlooked, and wrote short, warm books so that anyone could learn to pray. As a moral theologian he resisted the harsh rigorism of his day and urged confessors to be faithful to Church teaching yet gentle with penitents, as Benedict XVI noted. Catholic Culture lists him as a patron against scrupulosity, and anxious consciences still find relief in him. Priests ask his help in the confessional, and ordinary Catholics in prayer.",
+    "quotes": [
+      {
+        "text": "He who prays is certainly saved. He who prays not is certainly damned.",
+        "work": "The Great Means of Salvation and of Perfection, Part I, chapter 1, conclusion",
+        "translation": "Centenary Edition, ed. Eugene Grimm, C.Ss.R. (1886), public domain"
+      },
+      {
+        "text": "Because with the Lord there is mercy: and with him plentiful redemption.",
+        "work": "Psalm 129:7 (130:7), source of the Redemptorist motto he chose, Copiosa apud eum redemptio",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "My Jesus, I believe that thou art present in the most holy sacrament. I love thee above all things: I desire to receive thee into my soul. Since I cannot now receive thee sacramentally, come at least spiritually into my heart. I embrace thee, and I unite myself entirely to thee, as if thou hadst already come: do not permit me to be ever separated from thee.",
+      "kind": "traditional",
+      "source": "St. Alphonsus Liguori, Visits to the Most Holy Sacrament, introduction, \"An Act for Spiritual Communion\" (English translation by \"a Catholic clergyman,\" New York: Catholic Publication Society, c. 1870), checked against the scanned text at the Internet Archive",
+      "note": "This is the act of spiritual communion found in Alphonsus's own Visits to the Blessed Sacrament. Many modern prayer cards use slightly different wording (for example adding \"truly\" or \"never permit me\"); the text here follows the nineteenth-century translation exactly.",
+      "link": {
+        "label": "Read Visits to the Most Holy Sacrament (scanned edition, Internet Archive)",
+        "url": "https://archive.org/details/visitstothemosth00liguuoft"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on August 1, his memorial in the General Roman Calendar.",
+      "Make a visit to the Blessed Sacrament and pray his act of spiritual communion, the practice his Visits book was written to encourage.",
+      "Go to confession, and pray for priests who hear confessions, since Pius XII named him patron of confessors.",
+      "Read his short work Uniformity with God's Will, which Catholic Culture recommends for his feast.",
+      "Listen to or sing Tu scendi dalle stelle, the Italian Christmas carol Benedict XVI credits to him."
+    ],
+    "places": [
+      {
+        "name": "National Shrine of St. Alphonsus Liguori",
+        "city": "Baltimore, Maryland, USA",
+        "url": "https://www.stalphonsusbalt.org/"
+      }
+    ],
+    "confirmationNote": "Alphonsus suits a Confirmation candidate who is practical, organized, or drawn to law, writing, or helping people who are overlooked. He gave up a successful career to serve the poor, and he spent his life making the faith simple and merciful without making it less true. Choosing his name can be a commitment to regular prayer, frequent confession, and patience with others.",
+    "reflectionPrompts": [
+      "Do I picture God as harsh or as merciful, and what has shaped that picture?",
+      "This week, stop by a church for five minutes before the Blessed Sacrament, or pray an act of spiritual communion each day.",
+      "Read Benedict XVI's general audience on St. Alphonsus (March 30, 2011), then the conclusion of chapter 1 of The Great Means of Salvation in the Centenary Edition."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gerard-majella",
+        "reason": "Redemptorist brother who joined Alphonsus's young congregation and died in 1755",
+        "historical": true
+      },
+      {
+        "slug": "john-neumann",
+        "reason": "Redemptorist missionary who became bishop of Philadelphia",
+        "historical": true
+      },
+      {
+        "slug": "alphonsa-of-the-immaculate-conception",
+        "reason": "Indian Clarist sister who took his name on his feast day in 1928",
+        "historical": false
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "Parish priest who also spent long hours hearing confessions",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Alphonsus Liguori (March 30, 2011)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110330.html"
+      },
+      {
+        "title": "Vatican News: Sant'Alfonso Maria de' Liguori (August 1, Italian)",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/08/01/sant-alfonso-maria-de-liguori--vescovo-e-dottore-della-chiesa--f.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 1 (St. Alphonsus Liguori)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-01"
+      },
+      {
+        "title": "The Great Means of Salvation and of Perfection, Centenary Edition, ed. Eugene Grimm (1886), Internet Archive",
+        "url": "https://archive.org/details/bwb_W9-CTR-079"
+      },
+      {
+        "title": "Visits to the Most Holy Sacrament (New York: Catholic Publication Society), Internet Archive",
+        "url": "https://archive.org/details/visitstothemosth00liguuoft"
+      },
+      {
+        "title": "Redemptorists (cssr.news): Anniversary of the founding of the Congregation of the Most Holy Redeemer",
+        "url": "https://www.cssr.news/?p=1577"
+      },
+      {
+        "title": "Redemptorists of Ireland: Saints' Feasts",
+        "url": "https://www.redemptorists.ie/feasts/saints-feasts/"
+      },
+      {
+        "title": "Holy See: Alphonsa of the Immaculate Conception, canonization biography (name taken from St. Alphonsus)",
+        "url": "https://press.vatican.va/news_services/liturgy/saints/2008/ns_lit_doc_20081012_alfonsa_en.html"
+      },
+      {
+        "title": "National Shrine of St. Alphonsus Liguori, Baltimore",
+        "url": "https://www.stalphonsusbalt.org/"
+      },
+      {
+        "title": "DRBO.org: Psalm 129 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21129.htm"
+      }
+    ],
+    "flags": [
+      "patronages: confessors and moral theologians (reviewed; Catholic Culture and Benedict XVI), plus vocations, final perseverance, against arthritis, against scrupulosity, and several Italian dioceses and towns (Catholic Culture) are sourced but have no live topics",
+      "places: his tomb is in the Basilica of Sant'Alfonso at Pagani (Catholic Culture), but I could not find a working official website for it, so only the Baltimore national shrine (run by the FSSP) is listed",
+      "quotes: the Grimm quotation is the conclusion of Part I, chapter 1 of The Great Means; its stark second sentence is part of his famous teaching on the necessity of prayer and should be kept together with the first. The Redemptorist motto's link to Psalm 129:7 is from cssr.news",
+      "prayer: the 'traditional' text was verified from the scanned Internet Archive edition (OCR checked line by line); the archive dates the scan c. 1870, though the volume carries the approbation of Archbishop Eccleston of Baltimore (d. 1851), so it may be a reprint of an earlier translation. Either way it is pre-1929",
+      "symbols: 'bishop bent forward' meaning ties the image to his illness as described by Catholic Culture; the arthritis connection rests on the patronage list, not a medical source",
+      "biography: no disagreement with the reviewed text. Source variance: Catholic Culture says he resigned his see in 1768, but Benedict XVI gives his episcopate as 1762–1775 (1775 is the usual date), so no resignation year is used here"
+    ]
+  },
+  "ambrose": {
+    "templateVersion": 2,
+    "heroSummary": "St. Ambrose of Milan (about 340–397) was a Roman governor who was acclaimed bishop of Milan in 374 while still a catechumen. He preached, wrote hymns, ransomed captives with church gold, and baptized St. Augustine. A Doctor of the Church, he is celebrated on December 7, the day he was ordained bishop.",
+    "searchDescription": "St. Ambrose of Milan, feast December 7: Roman governor acclaimed bishop in 374, hymn writer, Doctor of the Church, and the bishop who baptized Augustine.",
+    "symbols": [
+      {
+        "symbol": "Beehive or bees",
+        "meaning": "His sweet, persuasive preaching, which earned him the title \"Honey-Tongued Doctor\"; a legend says a swarm of bees settled on his mouth when he was a baby, an omen of his eloquence."
+      },
+      {
+        "symbol": "Scourge or whip",
+        "meaning": "His firmness in defending the faith against Arianism and in calling even an emperor to penance; Catholic Culture notes the whip often has three thongs for the Trinity."
+      },
+      {
+        "symbol": "Bishop's cope and mitre",
+        "meaning": "His more than twenty years as bishop of Milan, which began with his ordination on December 7."
+      },
+      {
+        "symbol": "Book and pen",
+        "meaning": "His writings on Scripture, the sacraments, and Christian duty, which place him among the four great Latin Doctors of the Church."
+      },
+      {
+        "symbol": "Human bones",
+        "meaning": "The relics of the martyrs Gervasius and Protasius, which Augustine records Ambrose found in Milan in 386."
+      }
+    ],
+    "whyWeTurn": "People turn to Ambrose when they are handed a responsibility they did not seek. He was a civil governor, not yet baptized, when the people of Milan demanded him as bishop, and he answered by studying Scripture, giving his wealth to the poor, and preaching often. He melted church vessels to free captives and told an emperor to do public penance. Augustine wrote that Ambrose received him like a father, and his sermons helped bring Augustine to faith. Students, teachers, preachers, and anyone thrust into leadership can ask his help to serve with courage and a generous heart.",
+    "quotes": [
+      {
+        "text": "The Church has gold, not to store up, but to lay out, and to spend on those who need.",
+        "work": "On the Duties of the Clergy (De Officiis), Book II, chapter 28, §137",
+        "translation": "H. de Romestin, Nicene and Post-Nicene Fathers, Second Series, vol. 10 (1896), public domain"
+      },
+      {
+        "text": "Maker of all, the Lord, / And Ruler of the height, / Who, robing day in light, hast poured / Soft slumbers o'er the night",
+        "work": "His evening hymn Deus Creator omnium, as quoted by Augustine in Confessions, Book IX, chapter 12",
+        "translation": "E. B. Pusey (1838), public domain"
+      },
+      {
+        "text": "To him was I unknowing led by Thee, that by him I might knowingly be led to Thee. That man of God received me as a father, and showed me an Episcopal kindness on my coming.",
+        "work": "St. Augustine, Confessions, Book V, chapter 13, on meeting Ambrose in Milan",
+        "translation": "E. B. Pusey (1838), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Ambrose from public office to shepherd your people, and he answered with study, prayer, and generosity. When I am given work I did not expect, help me to learn what I need and to serve faithfully. Make me free with what I own, so that people in need come before my possessions. Give me courage to speak the truth with charity, even to the powerful. Through his prayers, bless all bishops, teachers, and students, and draw restless hearts to you as you drew Augustine through his preaching. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Read On the Duties of the Clergy, Book II (NPNF translation, New Advent)",
+        "url": "https://www.newadvent.org/fathers/34012.htm"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on December 7, his memorial in the General Roman Calendar, which falls during Advent.",
+      "In Milan, December 7 is the feast of the city's patron, and the Archdiocese of Milan still celebrates the Ambrosian Rite that bears his name.",
+      "Give something to people in need, or support work for prisoners and captives, remembering his teaching that the Church's gold is for those who need it.",
+      "Pray his evening hymn \"Maker of all\" before sleep, as Augustine did after his mother's death.",
+      "Bake honey cakes or share honey in honor of the \"Honey-Tongued Doctor,\" a Catholic Culture suggestion for the day."
+    ],
+    "places": [
+      {
+        "name": "Basilica di Sant'Ambrogio",
+        "city": "Milan, Italy",
+        "url": "https://www.basilicasantambrogio.it/"
+      }
+    ],
+    "confirmationNote": "Ambrose suits a Confirmation candidate who has been asked to lead, or who loves public speaking, law, or history. He did not feel ready to be a bishop, yet he learned the Scriptures, gave away his wealth, and stood up for the faith and the poor. Choosing his name can be a commitment to keep learning, to serve generously, and to speak the truth with courage.",
+    "reflectionPrompts": [
+      "Where am I being asked to take responsibility before I feel ready, and what would it mean to trust God with it?",
+      "Choose one possession or sum of money you could share this week, and give it to someone in real need.",
+      "Read Augustine's Confessions, Book V, chapter 13 and Book VI, chapter 3, then Benedict XVI's general audience on St. Ambrose (October 24, 2007)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Heard Ambrose preach in Milan and was baptized by him in 387",
+        "historical": true
+      },
+      {
+        "slug": "monica",
+        "reason": "Augustine's mother, who kept vigil in Ambrose's church during the standoff with the empress Justina",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "Contemporary Latin Father, counted with him among the four great Doctors of the Western Church",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "Pope and fellow member of the four great Latin Doctors of the Church",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Ambrose, Bishop of Milan and Doctor of the Church (December 7)",
+        "url": "https://www.vaticannews.va/en/saints/12/07/st--ambrose--bishop-of-milan-and-doctor-of-the-church.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Ambrose of Milan (October 24, 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071024.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, December 7 (St. Ambrose)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-12-07"
+      },
+      {
+        "title": "Catholic Culture: Celebrating the Feast of St. Ambrose",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=965"
+      },
+      {
+        "title": "Ambrose, On the Duties of the Clergy, Book II (NPNF 2.10), New Advent",
+        "url": "https://www.newadvent.org/fathers/34012.htm"
+      },
+      {
+        "title": "The Confessions of St. Augustine, tr. E. B. Pusey, Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3296"
+      },
+      {
+        "title": "Basilica di Sant'Ambrogio, Milan",
+        "url": "https://www.basilicasantambrogio.it/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic Culture lists beekeepers, bishops, students, learning, police officers, candle makers, domestic animals and Milan/Lombardy, among others, but none has a live topic",
+      "relatedSaints: gregory-the-great is thematic; the grouping of Ambrose, Jerome, Augustine and Gregory as the four great Latin Doctors is from Vatican News",
+      "quotes: the hymn lines are Pusey's verse rendering of Ambrose's Latin hymn as embedded in the Confessions; the third quote is Augustine's words about Ambrose, not Ambrose's own. Chapter numbers (V.13, IX.12) follow the standard division; the Gutenberg Pusey text has no chapter numbers",
+      "feastCustoms: Catholic Culture's activity page dates Milan's Sant'Ambrogio festival to May 7, which appears to be an error (the reviewed biography and the Basilica both mark December 7); the Milan custom is worded generally and the Oh bej! Oh bej! fair is not mentioned because I did not verify it from a listed source",
+      "biography: no disagreement. Birth year varies: Vatican News and Benedict XVI give about 340; Catholic Culture gives 340 in one place and 'around 333' in another. The hero uses 'about 340–397'; death on April 4, 397 is from Benedict XVI"
+    ]
+  },
+  "anastasia": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anastasia of Sirmium is an early Christian martyr remembered for helping Christians persecuted under Diocletian. Her name stands in the Roman Canon among seven women martyrs, and her commemoration on December 25 links her to the Christmas Mass at Dawn. Little about her life is documented; her detailed passion story comes from later tradition.",
+    "searchDescription": "St. Anastasia of Sirmium, martyr under Diocletian, is named in the Roman Canon and remembered on December 25 with the Christmas Mass at Dawn.",
+    "symbols": [
+      {
+        "symbol": "Palm branch",
+        "meaning": "The traditional sign of a martyr's victory, marking her death for Christ."
+      },
+      {
+        "symbol": "Flame, held in her hand or in a bowl",
+        "meaning": "Her death by burning, as her passion story relates it."
+      },
+      {
+        "symbol": "Small cross",
+        "meaning": "The faith in Christ she refused to renounce after her arrest."
+      },
+      {
+        "symbol": "Vase or small vessel",
+        "meaning": "Usually connected with the care she gave to persecuted Christians; the exact origin of this attribute comes from tradition and is not explained in the Catholic sources consulted."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Anastasia when faith begins to cost something. Her memory starts with practical help: she cared for Christians suffering in the persecution of Diocletian and then shared their fate. Tradition holds that she was arrested at Sirmium, escaped from a sinking ship, was taken again and was burned alive. Little else is certain, yet by the fifth century Rome honored her, and her name is still spoken in the Roman Canon. Many Catholics meet her at Christmas, when her quiet memory sits beside the joy of the Nativity. She reminds us to remember prisoners and all who suffer for Christ, and to stay faithful ourselves.",
+    "quotes": [
+      {
+        "text": "Naked, and you covered me: sick, and you visited me: I was in prison, and you came to me.",
+        "work": "Matthew 25:36",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Remember them that are in bands, as if you were bound with them; and them that labour, as being yourselves also in the body.",
+        "work": "Hebrews 13:3",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. Anastasia, you cared for Christians who were imprisoned and afraid, and you did not abandon Christ when your own turn came. Pray for all who suffer for their faith today, and for everyone behind bars who feels forgotten. At Christmas, when we celebrate the Light that came into the world, help me to notice those who sit in darkness. Give me the courage to visit, to write, to give and to speak for them. Keep me faithful when following Jesus costs me something, and let my care for others be a gift laid before the Child of Bethlehem. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On Christmas Day, attend the Mass at Dawn. In the older form of the Roman Rite it includes a commemoration of St. Anastasia, and Rome's traditional station for that Mass is her church, Sant'Anastasia al Palatino.",
+      "When the priest uses Eucharistic Prayer I (the Roman Canon), listen for her name among the women martyrs remembered after the consecration.",
+      "Eastern Catholics and others who follow the Byzantine calendar keep her memory on December 22, so you can begin remembering her before Christmas.",
+      "Remember prisoners during the Christmas season: send a card or gift through a parish or diocesan prison ministry, or support one financially.",
+      "Pray for Christians who are persecuted for their faith today."
+    ],
+    "confirmationNote": "Anastasia can suit a confirmand drawn to quiet, practical courage. Her name comes from the Greek word for resurrection, fitting for a sacrament that completes the new life begun in Baptism. The Church remembers her for helping persecuted Christians and for staying faithful after her own arrest, and her name is still heard in the Roman Canon. Choosing her is a commitment to stand beside people who suffer for their faith.",
+    "reflectionPrompts": [
+      "Who in your life is 'in bands' right now, whether imprisoned, ill or trapped by circumstances, and how could you remember them this week?",
+      "Before Christmas, write to someone in prison through a parish or diocesan prison ministry, or give to one.",
+      "Read Matthew 25:31–46 and Hebrews 13:1–3, and note what each passage asks of Christians toward those in prison."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "agnes",
+        "reason": "Named beside her in the Roman Canon; tradition also places her martyrdom in Diocletian's persecution",
+        "historical": true
+      },
+      {
+        "slug": "lucy",
+        "reason": "Another woman martyr named with her in the Roman Canon",
+        "historical": true
+      },
+      {
+        "slug": "cecilia",
+        "reason": "Another early martyr honored in Rome and named with her in the Roman Canon",
+        "historical": true
+      },
+      {
+        "slug": "leonard-of-noblac",
+        "reason": "Patron of prisoners, recalling Anastasia's care for imprisoned Christians",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: December 25, St. Anastasia of Sirmium",
+        "url": "https://www.vaticannews.va/en/saints/12/25.html"
+      },
+      {
+        "title": "Catholic Culture: Christmas, December 25 (St. Anastasia commemoration, patronage, symbols, Dictionary of Saints entry)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-25"
+      },
+      {
+        "title": "Catholic Culture: Christmas, December 25 (station at Sant'Anastasia for the Mass at Dawn)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2012-12-25"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Hebrews 13",
+        "url": "https://www.drbo.org/chapter/65013.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; martyrs, weavers, widows and Borgorose (Italy) are sourced (Catholic Culture) but have no live topic, so the field is omitted",
+      "places: left empty. Sant'Anastasia al Palatino (Rome; entrusted to the Syro-Malabar Church in 2020, per Catholic Culture) has no official website that I could find; her head relic was kept at an Orthodox monastery in Chalkidiki, Greece, and Catholic Culture says the relics were stolen in 2012",
+      "symbols: palm, flame (in hand or bowl), small cross and vase are all listed by Catholic Culture; the vase's meaning is hedged because no Catholic source consulted explains it (Eastern tradition calls her 'Pharmakolytria', linked to healing, but that explanation came only from Orthodox sites and was not used)",
+      "feastCustoms: the Dawn Mass commemoration belongs to the older Roman Rite (1962 Missal); in the current Missal she is only an 'other commemoration' with no proper prayers at that Mass. The station church and December 22 Byzantine date are from Catholic Culture",
+      "confirmationNote: the Greek etymology of her name (anastasis, resurrection) is standard but was not taken from a cited Catholic source; a human may remove it",
+      "quotes/relatedSaints: the Roman Canon listing is stated by Catholic Culture; the Missal text itself was not fetched from vatican.va or USCCB",
+      "biography: no disagreement with the reviewed biography. Catholic Culture's Dictionary of Saints entry is blunter, saying only worthless legends survive, and its commentary notes that accounts disagree on the place of death (some name Palmaria rather than Sirmium); the legend that she was a Roman noblewoman taught by St. Chrysogonus was not used"
+    ]
+  },
+  "andr-bessette": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. André Bessette was a Holy Cross brother in Montreal who spent almost forty years as a college doorkeeper and sent the troubled and sick who came to him to St. Joseph. From that ministry grew Saint Joseph's Oratory on Mount Royal. Canonized in 2010, he is celebrated on January 7 in Canada and January 6 in the United States.",
+    "searchDescription": "St. André Bessette, Holy Cross brother and doorkeeper, led the sick to St. Joseph and inspired Saint Joseph's Oratory in Montreal. Feast: January 6 or 7.",
+    "symbols": [
+      {
+        "symbol": "Door of the porter's lodge",
+        "meaning": "His assignment in 1871 as doorkeeper at Collège Notre-Dame, where he served for almost forty years and welcomed everyone who came."
+      },
+      {
+        "symbol": "Lamp and oil of St. Joseph",
+        "meaning": "He took oil from a lamp burning before St. Joseph and invited the sick to use it while praying; the Oratory keeps that practice alive."
+      },
+      {
+        "symbol": "Statue of St. Joseph",
+        "meaning": "The saint he pointed every visitor toward; he kept a small statue of Joseph on his windowsill and insisted that Joseph, not he, did the healing."
+      },
+      {
+        "symbol": "Heart",
+        "meaning": "His heart is preserved as a relic at the Oratory, presented there as a sign of his love for God and compassion for others."
+      }
+    ],
+    "whyWeTurn": "People turn to St. André when they are sick, worn out or carrying more than they can manage. He was an orphan who tried many trades without much success before his community gave him one of its humblest jobs: answering the door. He made that door a place of welcome, listening to people in trouble, praying with them and sending them to St. Joseph. Healings were attributed to that prayer, but André kept repeating that St. Joseph was the one who cured. Asking his help is a way of bringing ordinary burdens to God with simple trust, and of learning that no task is too small to serve Christ in others.",
+    "quotes": [
+      {
+        "text": "Go to Joseph: and do all that he shall say to you.",
+        "work": "Genesis 41:55 (Pharaoh's words about the patriarch Joseph, echoed in the devotion 'Ite ad Joseph' that André made his own)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Naked, and you covered me: sick, and you visited me: I was in prison, and you came to me.",
+        "work": "Matthew 25:36",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "St. André, faithful doorkeeper, you welcomed everyone who knocked and listened to their troubles with patience. Teach me to open the door of my heart to those who come to me tired, sick or afraid. Lead me, as you led so many, to St. Joseph, who guarded Jesus and Mary and cares for all who call on him. Pray for the sick, for those who care for them, and for everyone who feels that their work is small and unseen. Help me to trust that God can do great things through humble service. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Brother André and prayer at Saint Joseph's Oratory",
+        "url": "https://saint-joseph.org/en/spirituality/"
+      }
+    },
+    "feastCustoms": [
+      "Keep his feast: January 7 in Canada and at Saint Joseph's Oratory, and January 6 as an optional memorial in the United States.",
+      "Visit, call or run an errand for someone who is sick or homebound, and offer to pray with them, as André did.",
+      "Ask St. Joseph's intercession for a particular need. The Oratory still keeps oil burning before a statue of St. Joseph and offers it to pilgrims who pray for the sick.",
+      "Make a pilgrimage to Saint Joseph's Oratory in Montreal, in person or online through the shrine's website.",
+      "Pray for vocations to religious life, especially for religious brothers."
+    ],
+    "places": [
+      {
+        "name": "Saint Joseph's Oratory of Mount Royal",
+        "city": "Montreal, Canada",
+        "url": "https://saint-joseph.org/en/"
+      }
+    ],
+    "confirmationNote": "André can suit a confirmand who serves quietly or feels overlooked. He took the name André when he entered the Congregation of Holy Cross and then spent almost forty years at a college door, turning an ordinary job into a ministry of welcome and prayer. Choosing him is a promise to treat each person who comes to you as someone Christ has sent, and to point others toward St. Joseph and toward God.",
+    "reflectionPrompts": [
+      "Where is your 'door', the place where people regularly come to you, and how could you welcome them with more patience?",
+      "This week, visit or help one person who is sick, elderly or homebound, and pray for them by name each day.",
+      "Read Genesis 41:53–57 and Matthew 1:18–25, then consider why devotion to St. Joseph borrows Pharaoh's words, 'Go to Joseph.'"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "joseph",
+        "reason": "The saint he trusted and preached; Saint Joseph's Oratory is dedicated to him",
+        "historical": true
+      },
+      {
+        "slug": "marguerite-bourgeoys",
+        "reason": "Another saint whose work shaped Catholic Montreal",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-rodriguez",
+        "reason": "Jesuit brother who also served for decades as a college porter",
+        "historical": false
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Patron of hospitals and nurses, for those who care for the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Saint Joseph's Oratory: Spirituality and Brother André",
+        "url": "https://saint-joseph.org/en/spirituality/"
+      },
+      {
+        "title": "Saint Joseph's Oratory: Encountering Saint Brother André (1845–1937)",
+        "url": "https://saint-joseph.org/en/spirituality/encountering-saint-frere-andre/"
+      },
+      {
+        "title": "Saint Joseph's Oratory: Canonization and feast day",
+        "url": "https://saint-joseph.org/en/canonization/"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. André Bessette (January 6, US)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-06"
+      },
+      {
+        "title": "Congregation of Holy Cross: St. Joseph, Ite ad Joseph",
+        "url": "https://holycrosscongregation.org/news/st-joseph-ite-ad-joseph"
+      },
+      {
+        "title": "Jesuits: St. Alphonsus Rodriguez, SJ",
+        "url": "https://shared.jesuits.org/stories/st-alphonsus-rodriguez-sj/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Genesis 41",
+        "url": "https://www.drbo.org/chapter/01041.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "symbols: as a twentieth-century saint he has no long iconographic tradition. The door, lamp and oil, statue of St. Joseph and heart relic rest on his documented life (Saint Joseph's Oratory, Catholic Culture), not on established iconography, so templateVersion is 1.5 for an owner decision; approve to switch to v2",
+      "patronages: review lists none; 'family caregivers in Canada' is sourced (Catholic Culture) but has no live topic",
+      "quotes: his own sayings ('I do not cure; Saint Joseph cures', the remark about being shown the door) are twentieth-century recollections in modern translation, so they are paraphrased, not quoted; Douay-Rheims verses are used instead",
+      "quotes: the link between Genesis 41:55 and 'Ite ad Joseph' rests on the Vulgate wording of that verse; the Holy Cross page confirms 'Ite ad Joseph' as André's motto but does not cite Genesis",
+      "feastCustoms/heroSummary: the reviewed feast_day is January 7; Catholic Culture lists an optional memorial on January 6 in the US calendar (the Canadian bishops use January 7). Not a contradiction, since feast_note already says local calendars differ, but a human may want the page to show both dates",
+      "relatedSaints: marguerite-bourgeoys (Montreal) and john-of-god were chosen from general knowledge and the live hospitals/nurses topic; Bourgeoys's Montreal work was not re-fetched in this pass",
+      "biography: no disagreement with the reviewed biography. The Oratory adds birth on August 9, 1845, at Saint-Grégoire d'Iberville; entry into the Holy Cross novitiate December 27, 1870; the chapel blessed October 19, 1904; beatification May 23, 1982; and about a million people at his funeral"
+    ]
+  },
+  "andrew": {
+    "templateVersion": 2,
+    "heroSummary": "St. Andrew the Apostle was a fisherman from Bethsaida, a disciple of John the Baptist and the brother of Simon Peter, whom he brought to Jesus. Byzantine tradition calls him the \"First-Called.\" The Church celebrates him on November 30, and later tradition holds that he was martyred at Patras on an X-shaped cross.",
+    "searchDescription": "St. Andrew the Apostle, fisherman of Bethsaida and brother of Peter, brought others to Jesus. Feast: November 30. Tradition links him to Patras.",
+    "symbols": [
+      {
+        "symbol": "Saltire (X-shaped) cross",
+        "meaning": "A later tradition, recorded in the sixth-century Passion of Andrew, says he was crucified at Patras on a diagonal cross; the Gospels do not describe his death."
+      },
+      {
+        "symbol": "Fish, often two fishes",
+        "meaning": "His trade as a fisherman on the Sea of Galilee, and the boy's five loaves and two fishes he pointed out to Jesus (John 6:8–9)."
+      },
+      {
+        "symbol": "Fishing net",
+        "meaning": "Jesus called him from casting his net to become a fisher of men (Matthew 4:18–20)."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "His mission as an apostle sent to carry the Gospel."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Andrew when they want to share their faith but do not know how to begin. The Gospels never give him a long speech. Instead they show him following Jesus after John the Baptist pointed him out, then going straight to find his brother with the news that they had found the Messiah. Later he noticed a boy with five loaves and two fish, and he helped some Greeks who wanted to see Jesus. Tradition holds that he preached around the Black Sea and in Greece and died on a cross at Patras. Asking his help is a way of learning to bring others to Christ, one person at a time.",
+    "quotes": [
+      {
+        "text": "He findeth first his brother Simon, and saith to him: We have found the Messias, which is, being interpreted, the Christ. And he brought him to Jesus.",
+        "work": "John 1:41–42 (excerpt)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And Jesus walking by the sea of Galilee, saw two brethren, Simon who is called Peter, and Andrew his brother, casting a net into the sea (for they were fishers). And he saith to them: Come ye after me, and I will make you to be fishers of men. And they immediately leaving their nets, followed him.",
+        "work": "Matthew 4:18–20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "One of his disciples, Andrew, the brother of Simon Peter, saith to him: There is a boy here that hath five barley loaves, and two fishes; but what are these among so many?",
+        "work": "John 6:8–9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Hail and blessed be the hour and moment in which the Son of God was born of the most pure Virgin Mary, at midnight, in Bethlehem, in piercing cold. In that hour vouchsafe, O my God! to hear my prayer and grant my desires, [here mention your request] through the merits of Our Saviour Jesus Christ, and of His blessed Mother. Amen.",
+      "kind": "traditional",
+      "source": "St. Andrew Christmas Novena, text as given by Catholic Culture (Liturgical Year, November 30)",
+      "note": "Traditionally prayed fifteen times a day from the feast of St. Andrew until Christmas. It takes its name from the day it begins; it is addressed to God, not to St. Andrew, and is not attributed to him. Its exact origin is not documented in the sources consulted.",
+      "link": {
+        "label": "St. Andrew Christmas Novena at Catholic Culture",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-11-30"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on November 30, the feast of St. Andrew, Apostle, in the Roman calendar.",
+      "Begin the St. Andrew Christmas Novena on his feast and pray it each day until Christmas as a way into Advent.",
+      "Pray for Christian unity. St. Andrew is patron of the Ecumenical Patriarchate of Constantinople, and for decades the Holy See has sent a delegation to the Patriarchate's November 30 celebration, while the Patriarchate sends one to Rome for Sts. Peter and Paul.",
+      "In Scotland, whose flag carries his saltire, November 30 is St. Andrew's Day; Catholics can pray at the shrine holding two of his relics in St. Mary's Cathedral, Edinburgh.",
+      "Follow Andrew's example by inviting one person to Mass, to a parish event or to a conversation about Jesus."
+    ],
+    "places": [
+      {
+        "name": "St. Mary's Catholic Cathedral (Shrine of St. Andrew)",
+        "city": "Edinburgh, United Kingdom",
+        "url": "https://www.stmaryscathedral.co.uk/"
+      }
+    ],
+    "confirmationNote": "Andrew suits a confirmand who wants to share faith through friendship rather than argument. In John's Gospel he hears about Jesus, spends a day with him and then goes to find his own brother. Confirmation strengthens the baptized to bear witness to Christ, and Andrew shows how that witness often begins: with a simple invitation to someone close. Choosing him is a promise to help others meet Jesus.",
+    "reflectionPrompts": [
+      "Who first brought you to Jesus, and who might God be asking you to bring to him?",
+      "Invite one friend or family member to Mass, a parish event or a conversation about faith this week.",
+      "Read John 1:35–42, John 6:5–13 and John 12:20–22, and note what Andrew does in each scene."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter",
+        "reason": "His brother, whom Andrew brought to Jesus",
+        "historical": true
+      },
+      {
+        "slug": "john-the-baptist",
+        "reason": "Andrew's first teacher, who pointed him to the Lamb of God",
+        "historical": true
+      },
+      {
+        "slug": "philip-the-apostle",
+        "reason": "Fellow apostle from Bethsaida who brought the Greeks' request to Andrew",
+        "historical": true
+      },
+      {
+        "slug": "james-the-greater",
+        "reason": "Another Galilean fisherman called from his nets on the same shore",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Andrew, Apostle",
+        "url": "https://www.vaticannews.va/en/saints/11/30/st--andrew--apostle.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience of June 14, 2006: Andrew, the Protoclete",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20060614.html"
+      },
+      {
+        "title": "Catholic Culture: Feast of St. Andrew, Apostle (November 30)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-11-30"
+      },
+      {
+        "title": "USCCB News: Ecumenism is not 'absorption or domination,' but sharing gifts, pope says (2025)",
+        "url": "https://www.usccb.org/news/2025/ecumenism-not-absorption-or-domination-sharing-gifts-pope-says"
+      },
+      {
+        "title": "Dicastery for Promoting Christian Unity: Delegation of the Holy See participates in the Patronal Feast of the Ecumenical Patriarchate (2023)",
+        "url": "https://www.christianunity.va/content/unitacristiani/en/news/2023/2023-11-30-une-delegation-du-saint-siege-participe-a-la-fete-pat.html"
+      },
+      {
+        "title": "St. Mary's Catholic Cathedral, Edinburgh: History of the Cathedral",
+        "url": "https://stmaryscathedral.co.uk/cathedral-history"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 1",
+        "url": "https://www.drbo.org/chapter/50001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 4",
+        "url": "https://www.drbo.org/chapter/47004.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 6",
+        "url": "https://www.drbo.org/chapter/50006.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 12",
+        "url": "https://www.drbo.org/chapter/50012.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Scotland, Russia, Greece, fishermen, fishmongers, singers, Amalfi, Patras, the diocese of Constantinople and others are sourced (Catholic Culture; Vatican News adds Romania and Ukraine) but none has a live topic, so the field is omitted",
+      "symbols: saltire cross, fish/two fishes, fishing net and 'tall cross and book' are listed by Catholic Culture; the book's meaning (apostolic preaching) is the conventional reading, not stated by that source",
+      "prayer: the St. Andrew Christmas Novena is traditional and its text was checked against Catholic Culture, but its author and date are undocumented there; the note says so",
+      "feastCustoms: the delegation exchange is from USCCB News (CNS, 2025, which also reports Pope Leo XIV attending the November 30, 2025 liturgy in Istanbul) and the Christian Unity dicastery's 2023 report. Amalfi, whose cathedral crypt holds relics and where his silver bust is carried in procession on November 30, was left out because the only source found was Italy's tourism portal (italia.it), not the archdiocese",
+      "places: Amalfi Cathedral has no official website I could confirm; the Archdiocese of Amalfi-Cava site (diocesiamalficava.it) loads but did not clearly present the cathedral. Patras's church of St. Andrew is Orthodox and was not listed. St. Peter's Basilica kept his head relic until Paul VI returned it to Patras in 1964 (Benedict XVI), so it was not listed as a current relic site",
+      "heroSummary: 'First-Called' (Protokletos) comes from Benedict XVI's general audience of June 14, 2006",
+      "biography: no disagreement with the reviewed biography. Vatican News states the Patras martyrdom and the diagonal-cross request more directly and cites the Golden Legend; Benedict XVI calls the Patras account a later tradition. The page follows the reviewed biography and Benedict in treating it as tradition"
+    ]
+  },
+  "andrew-corsini": {
+    "templateVersion": 2,
+    "heroSummary": "St. Andrew Corsini was a Florentine Carmelite friar who became bishop of Fiesole in 1349. Remembered for serving the sick during the plague, caring for the poor, insisting on well-prepared priests, and working to make peace between rival cities, he died in 1374. The Carmelites keep his feast on January 9.",
+    "searchDescription": "St. Andrew Corsini, Florentine Carmelite and bishop of Fiesole (1349–1374), remembered for charity, care for priests and peacemaking. Feast: January 9.",
+    "symbols": [
+      {
+        "symbol": "Wolf and lamb",
+        "meaning": "Tradition: the wild young man who became gentle after turning to God. The Carmelite Order notes he is usually shown with a wolf, a lamb, or both, from a legend that Mary turned a threatening wolf into a lamb; another telling links it to his mother's dream before his birth."
+      },
+      {
+        "symbol": "Carmelite habit",
+        "meaning": "His life as a friar of the Carmelite convent in Florence, which he kept living even as bishop."
+      },
+      {
+        "symbol": "Bishop's mitre and crozier",
+        "meaning": "His 24 years as bishop of Fiesole, where he visited parishes, examined clergy and cared for the poor."
+      },
+      {
+        "symbol": "Vision of the Virgin Mary",
+        "meaning": "Tradition says Mary appeared to him at his first Mass and urged him to accept the office of bishop; the scene is carved in G. B. Foggini's relief in the Corsini Chapel in Florence."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Andrew Corsini because his story begins with a change of heart. Tradition holds that he was a worldly young man until his mother's warnings turned him toward the Carmelites in Florence, a turn later pictured as a wolf becoming a lamb. What is documented is the life that followed: he served the sick in the plague of 1348, lived simply as bishop of Fiesole, gave bread and clothing to the needy, insisted on well-formed priests, and worked to settle quarrels between cities. Parents praying for a wandering child, priests, and anyone trying to make peace find in him a patient friend.",
+    "quotes": [
+      {
+        "text": "Blessed are the peacemakers: for they shall be called children of God.",
+        "work": "Matthew 5:9",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "I say to you, that even so there shall be joy in heaven upon one sinner that doth penance, more than upon ninety-nine just who need not penance.",
+        "work": "Luke 15:7",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called Saint Andrew Corsini from a careless youth into the Carmelite life and made him a shepherd for the people of Fiesole. Through his prayers, turn my heart wherever it has wandered, and give patience to every parent who waits for a child to come home. Make our bishops and priests generous and well prepared, and give us courage to make peace where there is quarrel. Teach me to share my bread with the poor as he did, and to serve the sick without fear. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Saint Andrew Corsini and a Carmelite collect (British Province of Carmelites)",
+        "url": "https://carmelite.org/weekly-reflections/saint-andrew-corsini/"
+      }
+    },
+    "feastCustoms": [
+      "Keep his feast on January 9, the date on which the Carmelite Order celebrates him. He died on the evening of the Epiphany in 1374, and the older Roman calendar (1962 Missal) assigns him February 4.",
+      "Pray for someone who has drifted from the faith, remembering the tradition that his own mother's urging turned him toward God.",
+      "Bring food or clothing to a parish pantry or shelter; the Carmelite account recalls that he gave out bread at his door and grain and clothing to the needy.",
+      "Pray for your bishop, priests and seminarians, in honor of his care for well-formed clergy.",
+      "Take one concrete step toward reconciliation in a family, parish or workplace quarrel; the Holy See sent him to Bologna in 1368 to settle serious disputes."
+    ],
+    "places": [
+      {
+        "name": "Archbasilica of St. John Lateran (Corsini Chapel, dedicated to him)",
+        "city": "Rome, Italy",
+        "url": "https://www.basilicasangiovanni.va/en.html"
+      }
+    ],
+    "confirmationNote": "St. Andrew Corsini can suit a Confirmation candidate who knows what it is to change direction. Tradition remembers a careless youth who turned toward God, and history remembers the bishop he became: generous to the poor, serious about forming good priests, and willing to step into conflicts to make peace. Taking his name can mean committing to conversion, charity and reconciliation in everyday life.",
+    "reflectionPrompts": [
+      "Is there an area of your life that needs the kind of change of heart tradition attributes to the young Andrew? What would the first step be?",
+      "Choose one quarrel near you, in your family, class or workplace, and do one thing this week to help bring peace.",
+      "Read Luke 15:1–10, then read the Dicastery for the Causes of Saints' account of Andrea Corsini and note how his work as bishop put conversion into practice."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mary-magdalene-de-pazzi",
+        "reason": "Fellow Florentine Carmelite, of the same order and city",
+        "historical": true
+      },
+      {
+        "slug": "antoninus-of-florence",
+        "reason": "Florentine bishop of the next century, also remembered for charity to the poor",
+        "historical": true
+      },
+      {
+        "slug": "adrian-of-canterbury",
+        "reason": "Shares the January 9 feast date",
+        "historical": true
+      },
+      {
+        "slug": "charles-borromeo",
+        "reason": "Reforming bishop devoted to priestly formation, which Corsini's rules for clergy anticipated",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dicastery for the Causes of Saints: Andrea Corsini",
+        "url": "https://www.causesanti.va/it/santi-e-beati/andrea-corsini.html"
+      },
+      {
+        "title": "Carmelite Order (O.Carm.): St. Andrew Corsini, Bishop (January 9)",
+        "url": "https://www.ocarm.org/en/item/6270-st-andrew-corsini-bishop"
+      },
+      {
+        "title": "British Province of Carmelites: Saint Andrew Corsini",
+        "url": "https://carmelite.org/weekly-reflections/saint-andrew-corsini/"
+      },
+      {
+        "title": "Secular Carmel (OCDS UK): From wolf to lamb",
+        "url": "https://www.secularcarmel.org.uk/post/from-wolf-to-lamb"
+      },
+      {
+        "title": "Archbasilica of St. John Lateran: Chapels and monuments",
+        "url": "https://www.basilicasangiovanni.va/en/san-giovanni-in-laterano/basilica/cappelle-e-monumenti.html"
+      },
+      {
+        "title": "Fondazione Zeri (University of Bologna): Cornacchini, Apparition of Sant'Andrea Corsini at the Battle of Anghiari",
+        "url": "https://catalogo.fondazionezeri.unibo.it/scheda/opera/82361/Cornacchini%20Agostino%2C%20Apparizione%20di%20sant%27Andrea%20Corsini%20nella%20battaglia%20di%20Anghiari"
+      },
+      {
+        "title": "Older Roman liturgy: Saint Andrew Corsini (February 4)",
+        "url": "https://extraordinaryform.org/masses/0204StAndrewCorsiniConfessorBishopM20.pdf"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none and no reputable source (Vatican, Carmelite Order, diocese) states a patronage; none of the 37 live topics fits",
+      "feast: the Dicastery for the Causes of Saints page gives his liturgical memorial as January 6 (his death on the evening of the Epiphany); the Carmelite Order (ocarm.org) keeps him on January 9 as a Feast; the 1962 Missal has February 4. Page copy uses January 9 (matching the review) and names the others",
+      "biography_sources: the reviewed Vatican City State URL (vaticanstate.va ... 1322-9-january-saint-andrew-corsini-bishop.html) returned 404 when fetched, with and without www; a human should re-check or replace it",
+      "dates: Causes of Saints gives birth 30 November 1301 and death 1374; some Carmelite and devotional sources give 1302 and 1373. Canonization is 22 April 1629 (Causes of Saints) but 29 April 1629 on ocarm.org; neither date is used in page copy",
+      "episcopate: Causes of Saints and ocarm.org say Pope Clement VI appointed him on 13 October 1349; carmelite.org says the canons of Fiesole elected him in 1350. Page copy uses 1349, as the review does",
+      "symbols: the wolf/lamb story exists in two versions (ocarm.org: Mary turning a threatening wolf into a lamb; secularcarmel.org.uk: his mother's dream before his birth of a wolf that became a lamb in a Carmelite church); both labeled tradition. Mitre and crozier are inferred from his office rather than from a source naming them as attributes. His legendary appearance over the 1440 battle of Anghiari (Cornacchini's Lateran altarpiece; ocarm.org) was left out of symbols as a narrative scene",
+      "places: his body rests in the Corsini Chapel of Santa Maria del Carmine, Florence (ocarm.org), but no official website for the basilica was found; Fiesole Cathedral has no dedicated page on the diocesan site. The Lateran page describes the Corsini Chapel but does not name him; its dedication to him comes from the Causes of Saints page",
+      "prayer: carmelite.org prints a collect for him without naming its liturgical source or translation, so it was linked rather than reproduced",
+      "quotes: no writings of his survive in a public-domain translation; Douay-Rheims verses used",
+      "relatedSaints: Mary Magdalene de' Pazzi's Florentine Carmelite life and Antoninus's role as archbishop of Florence are well established but were not re-fetched in this pass; the January 9 match with adrian-of-canterbury is from the site's own calendar"
+    ]
+  },
+  "andrew-dung-lac": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Andrew Dũng Lạc was a Vietnamese parish priest who learned the faith from a catechist in Hanoi. Ransomed once by his parishioners, he was arrested again and beheaded in Hanoi on December 21, 1839, with Fr. Peter Thi. The Church honors him and 116 fellow martyrs of Vietnam on November 24.",
+    "searchDescription": "St. Andrew Dũng Lạc, Vietnamese priest ransomed by his parishioners and beheaded in Hanoi in 1839, honored with 116 fellow martyrs on November 24.",
+    "whyWeTurn": "People turn to St. Andrew Dũng Lạc because his story is about a whole community keeping faith together. He first came to know Christ through a catechist who gave him a home, and as a priest he depended on parishioners who sheltered him and gathered money to free him after his first arrest. Rather than abandon them, he changed his name and kept serving. The Church remembers him with 116 companions, bishops, priests and many lay men and women, so Vietnamese Catholics and anyone pressured for their faith find in him a sign that no believer stands alone. His last arrest came while he was visiting a brother priest for confession.",
+    "quotes": [
+      {
+        "text": "Who then shall separate us from the love of Christ? Shall tribulation? or distress? or famine? or nakedness? or danger? or persecution? or the sword? ... But in all these things we overcome, because of him that hath loved us.",
+        "work": "Romans 8:35, 37",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Remember my word that I said to you: The servant is not greater than his master. If they have persecuted me, they will also persecute you: if they have kept my word, they will keep yours also.",
+        "work": "John 15:20",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave Saint Andrew Dũng Lạc a heart for your people and the courage to keep serving them when serving was dangerous. Thank you for the catechists, families and parishioners who sheltered him and paid for his freedom. Through his prayers and those of all the martyrs of Vietnam, strengthen Christians who are pressured to deny you today. Bless catechists and all who teach the faith to the young. When fear tempts me to hide, help me stay faithful, and remind me that I belong to a community of believers. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on November 24, the memorial of St. Andrew Dũng Lạc and Companions in the General Roman Calendar, which honors all 117 martyrs of Vietnam canonized together in 1988.",
+      "Remember his own death anniversary on December 21, when he and Fr. Peter Thi were beheaded in Hanoi in 1839.",
+      "Pray a rosary for Christians who face persecution in Vietnam and elsewhere, as Catholic Culture suggests for this memorial.",
+      "Thank or support a catechist in your parish; Andrew first learned the faith from a catechist who took him in.",
+      "Share a Vietnamese meal with family or friends, a custom Catholic Culture suggests for November 24."
+    ],
+    "confirmationNote": "St. Andrew Dũng Lạc can suit a Confirmation candidate who wants a saint of courage rooted in community, or who has Vietnamese roots. He came to faith through a catechist's kindness, served as a parish priest under persecution, and was once freed by his own parishioners before his martyrdom in 1839. Taking his name can mean committing to steady faith and to standing by fellow believers.",
+    "reflectionPrompts": [
+      "Who first taught you the faith or made room for it in your life? How could you thank them this week?",
+      "Find out how your parish supports its catechists or persecuted Christians abroad, and offer one concrete form of help this month.",
+      "Read Romans 8:31–39, then read Vatican News's account of St. Andrew Dũng Lạc and his companions and note how the community around him made his ministry possible."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter-truong-van-thi",
+        "reason": "Priest arrested with him and beheaded with him in Hanoi on December 21, 1839",
+        "historical": true
+      },
+      {
+        "slug": "agnes-le-thi-thanh",
+        "reason": "Lay mother among the 117 Vietnamese martyrs honored with him on November 24",
+        "historical": true
+      },
+      {
+        "slug": "paul-le-bao-tinh",
+        "reason": "Fellow priest among the 117 Vietnamese martyrs canonized with him in 1988",
+        "historical": true
+      },
+      {
+        "slug": "andrew-kim-taegon",
+        "reason": "Korean priest-martyr of the same era, also honored with his companions in a group memorial",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Sts. Andrew Dũng Lạc and his companions, martyrs",
+        "url": "https://www.vaticannews.va/en/saints/11/24/sts--andrew-d_ng-lc--and-his-companions--martyrs.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Andrew Dung-Lac and Companions, November 24",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-11-24"
+      },
+      {
+        "title": "Holy See: Official list of the 117 martyrs of Vietnam (French)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19880619_martiri_vietnam_fr.html"
+      },
+      {
+        "title": "Catholic World Report / CNA: St. Andrew Dung-Lac and companions, vanguards of the faith in a time of persecution",
+        "url": "https://www.catholicworldreport.com/2023/11/24/st-andrew-dung-lac-and-companions-vanguards-of-the-faith-in-a-time-of-persecution/"
+      },
+      {
+        "title": "DRBO.org: Romans 8 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/52008.htm"
+      },
+      {
+        "title": "DRBO.org: John 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      }
+    ],
+    "flags": [
+      "symbols: no established individual iconographic attributes were found in a reputable source (well-known images such as the Robert Lentz icon are commercial and undescribed; group images show the 117 together), so the field is empty and templateVersion is 1.5",
+      "patronages: review lists none; Catholic World Report/CNA calls him patron saint of Vietnam, but there is no live topic for Vietnam",
+      "places: no shrine or church dedicated to him with a verifiable official website was found; one Vietnamese martyrology site (not used) places the execution at Cầu Giấy near Hanoi",
+      "quotes: no words of his are recorded in the sources consulted; Douay-Rheims verses were used. Paul Lê Bảo Tịnh's prison letter, read on this memorial, exists in English only in modern translations and was not used",
+      "biography: Catholic Culture's header gives his dates as 1735–1839, which conflicts with its own text and the review (born about 1795); treated as a typo. Catholic Culture adds that he was baptized at Vĩnh Trị, ordained on March 15, 1823, first arrested in 1835, and re-arrested on November 10, 1839; Vatican News gives his birth name as Dung An-Tran (Trần An Dũng). None conflicts with the review",
+      "biography: sources differ on who was confessing: Catholic Culture says he visited Peter Thi so he (Andrew) could hear Peter's confession; Vatican News says he visited him for confession. Page copy says only 'visiting a brother priest for confession'",
+      "group: Vatican News says the martyrs died between the 17th and 19th centuries; Catholic Culture says 1820–1862. Page copy avoids the range. Canonization date is June 19, 1988 per Catholic Culture (a CWR photo caption says July 19); page copy uses only the year",
+      "relatedSaints: the Holy See's list gives the priest who died with him on 21-12-1839 as 'Pietro PHAM VAN TIZI' (no. 34), while the site's page is peter-truong-van-thi (1763–1839); same date and role, but the family name differs (Phạm vs Trương), so a human should confirm the page's name. The same list confirms Paolo Le Bao Tinh, priest, d. 06-04-1857 (no. 47) and Agnes Le Thi Thanh (no. 87)"
+    ]
+  },
+  "andrew-kim-taegon": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Andrew Kim Taegon was the first Korean-born Catholic priest. Trained in Macau and ordained in Shanghai, he returned home to serve believers under persecution and was beheaded in Seoul on September 16, 1846, in his mid-twenties. Catholics honor him with St. Paul Chong Hasang and their companions on September 20.",
+    "searchDescription": "St. Andrew Kim Taegon, Korea's first native-born priest, ordained in Shanghai and martyred in Seoul in 1846. Honored with his companions on September 20.",
+    "symbols": [
+      {
+        "symbol": "Traditional Korean dress: a scholar's robe (dopo) and hat",
+        "meaning": "His identity as a son of Korea; the marble statue blessed at St. Peter's Basilica in 2023 shows him in this dress, with arms outstretched."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Andrew Kim Taegon because he carried the faith of a persecuted family into the priesthood. His father and grandfather died for Christ, and as a teenager he left home on a long journey to study in Macau. Ordained in Shanghai, he came back to bring the sacraments to Korean believers whose Church had been founded and sustained largely by lay people, and within about a year he was arrested and killed. Seminarians, priests, Korean Catholics, and young people weighing a costly calling find in him a friend who said yes knowing the risk, and who did not shrink from danger.",
+    "quotes": [
+      {
+        "text": "Every one therefore that shall confess me before men, I will also confess him before my Father who is in heaven.",
+        "work": "Matthew 10:32",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And how shall they preach unless they be sent, as it is written: How beautiful are the feet of them that preach the gospel of peace, of them that bring glad tidings of good things!",
+        "work": "Romans 10:15",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you called Saint Andrew Kim Taegon from a family of martyrs to be the first priest of his people. Through his prayers, bless the Church in Korea and all who carry the faith where it is costly. Raise up generous priests, and support seminarians who leave home to answer your call. Give peace to the Korean peninsula and to every divided land. When I am afraid to confess you before others, give me his courage, and help me to honor the dignity you have given every person. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on September 20, the memorial of Sts. Andrew Kim Taegon, Paul Chong Hasang and Companions, which honors the 103 Korean martyrs canonized in 1984; when September 20 falls on a Sunday, the Sunday liturgy takes its place.",
+      "Remember September 16, the anniversary of his martyrdom in 1846.",
+      "Pray for seminarians, especially those who must study far from home, as he did in Macau.",
+      "Pray for peace on the Korean peninsula, an intention Pope Francis entrusted to his intercession in 2023.",
+      "Learn how the Church in Korea began through lay believers, as St. John Paul II described in his 1984 canonization homily."
+    ],
+    "places": [
+      {
+        "name": "Saenamteo Martyrs' Shrine (site of his martyrdom)",
+        "city": "Seoul, South Korea",
+        "url": "https://saenamteo.or.kr/"
+      },
+      {
+        "name": "St. Peter's Basilica (his statue in an exterior niche, blessed 2023)",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en/"
+      }
+    ],
+    "confirmationNote": "St. Andrew Kim Taegon can suit a Confirmation candidate who is weighing a vocation, who has Korean roots, or who wants a young saint of courage. He left home as a teenager to prepare for the priesthood and died in his mid-twenties, about a year after returning to serve his people. Taking his name can mean committing to follow God's call when it is costly and to honor the dignity of every person.",
+    "reflectionPrompts": [
+      "What would you be willing to leave behind to follow God's call? What holds you back?",
+      "Pray this week for one priest or seminarian by name, and let him know you are praying for him.",
+      "Read Romans 10:13–17, then read St. John Paul II's homily for the canonization of the Korean martyrs (Seoul, 6 May 1984) on vatican.va."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-chong-hasang",
+        "reason": "Lay leader named with him in the shared September 20 memorial",
+        "historical": true
+      },
+      {
+        "slug": "ignatius-kim-che-jun",
+        "reason": "His father, martyred in 1839 and canonized with him in 1984",
+        "historical": true
+      },
+      {
+        "slug": "andrew-dung-lac",
+        "reason": "Vietnamese priest-martyr of the same era, also honored in a group memorial",
+        "historical": false
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Missionary to East Asia who died off the China coast near Macau, where Andrew trained",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Sts. Andrew Kim Taegon, Paul Chong Hasang and companions",
+        "url": "https://www.vaticannews.va/en/saints/09/20/sts--andrew-kim-taegon--paul--chong-hasang-and-companions--korea.html"
+      },
+      {
+        "title": "Vatican News: Korean archbishop on Andrew Kim Taegon's bicentenary (2021)",
+        "url": "https://www.vaticannews.va/en/vatican-city/news/2021-08/korea-archbishop-prefect-clergy-mass-homily-saint-kim-taegon.html"
+      },
+      {
+        "title": "Vatican News: Pope Francis to Korean pilgrims on St. Andrew Kim Taegon (2023)",
+        "url": "https://www.vaticannews.va/en/pope/news/2023-09/pope-francis-korea-church-saint-andrew-kim-taegon.html"
+      },
+      {
+        "title": "L'Osservatore Romano: Apostles of peace (statue blessing, 2023)",
+        "url": "https://www.osservatoreromano.va/en/news/2023-09/ing-038/apostles-of-peace.html"
+      },
+      {
+        "title": "Agenzia Fides: Statue of St. Andrew Kim Taegon placed in a niche of St. Peter's Basilica",
+        "url": "https://www.fides.org/en/news/74175-SOUTH_KOREA_VATICAN_Official_blessing_on_September_16th_Statue_of_St_Andrew_Kim_Taegon_placed_in_a_niche_on_the_outside_of_St_Peter_s_Basilica"
+      },
+      {
+        "title": "EWTN News / CNA: Statue of Korea's patron saint to be permanently installed at St. Peter's Basilica",
+        "url": "https://www.ewtnnews.com/vatican/statue-of-korea-s-patron-saint-to-be-permanently-installed-at-st-peter-s-basilica"
+      },
+      {
+        "title": "EWTN: St. Andrew Kim Taegon",
+        "url": "https://www.ewtn.com/catholicism/saints/andrew-kim-taegon-465"
+      },
+      {
+        "title": "Catholic Answers: St. Andrew Kim Taegon, first priest of Korea",
+        "url": "https://www.catholic.com/magazine/online-edition/st-andrew-kim-taegon-first-priest-of-korea"
+      },
+      {
+        "title": "Holy See: St. John Paul II, Homily for the canonization of the Korean martyrs, 6 May 1984",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1984/documents/hf_jp-ii_hom_19840506_martiri-coreani.html"
+      },
+      {
+        "title": "Catholic Culture: September 20, 2026 (memorial superseded by Sunday)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-20"
+      },
+      {
+        "title": "Saenamteo Martyrs' Shrine (Seoul)",
+        "url": "https://saenamteo.or.kr/"
+      },
+      {
+        "title": "DRBO.org: Matthew 10 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      },
+      {
+        "title": "DRBO.org: Romans 10 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/52010.htm"
+      }
+    ],
+    "flags": [
+      "symbols: only one attribute (traditional Korean dress and hat) is described by reputable sources, from the 2023 St. Peter's statue (Fides, EWTN/CNA). Hanbok with gat, crucifix, and red stole are listed by Wikipedia-type sources only, and the outstretched arms belong to that one statue, so templateVersion is 1.5",
+      "patronages: review lists none; Catholic Answers and EWTN/CNA call him patron of Korea (or Korean Catholics), and encyclopedic sources say the Holy See named him principal patron of Korean clergy in 1949, but no papal document was located and neither Korea nor clergy has a live topic (parish-priests was not used: unsourced for him)",
+      "quotes: his last letter to his flock and his words at execution exist in English only in modern translations, so none was quoted; Douay-Rheims verses used",
+      "places: the Solmoe Shrine at his birthplace (solmoe.or.kr) loads only over plain http, not https, so it was left out; the Saenamteo site does not name the operating diocese, though it presents itself as the Catholic martyrs' shrine where Fr. Kim died",
+      "biography: Vatican News, EWTN and the Archbishop of Seoul's 2021 homily give his birth as 21 August 1821 at Solmoe, Dangjin; ordination by Bishop Ferréol in Shanghai (1845, exact date not verified from a reputable source); beatification 1925; canonization 6 May 1984. Catholic Answers says he was 25 at ordination, which conflicts with an 1821 birth and 1845 ordination; not used. No disagreement with the review",
+      "biography: the Vatican News saint page names neither the place of execution nor the 1846 date's day; Saenamteo as the site comes from the shrine's own site and Korean secondary sources",
+      "relatedSaints: that Ignatius Kim (ignatius-kim-che-jun) was his father, martyred in 1839, is from encyclopedic sources (New World Encyclopedia, Encyclopedia.com); Vatican News and L'Osservatore Romano confirm only that his father and grandfather were martyred. A human should confirm against the site's ignatius-kim-che-jun page. The note on Francis Xavier's death near Macau is well established but was not re-fetched",
+      "feastCustoms: the claim that the 1984 homily describes the Korean Church as founded by lay people is from the vatican.va text ('founded entirely by lay people'); the homily does not name Andrew Kim in the portion fetched"
+    ]
+  },
   "anne": {
     "templateVersion": 2,
     "heroSummary": "St. Anne is honored as a patron of mothers and, with St. Joachim, of grandparents. Scripture does not name Mary's parents; the name Anne and the story of her long childlessness come from the second-century Protoevangelium of James and later tradition. The Church celebrates Joachim and Anne together on July 26.",
