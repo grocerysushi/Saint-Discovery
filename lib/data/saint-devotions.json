@@ -1,4 +1,127 @@
 {
+  "anthony-mary-claret": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anthony Mary Claret was a Catalan weaver turned missionary preacher who founded the Claretians in 1849, served as archbishop of Santiago de Cuba, and spread the faith through cheap books and pamphlets. He survived an assassin's razor and forgave his attacker. His feast is October 24.",
+    "searchDescription": "St. Anthony Mary Claret (1807–1870), feast October 24: Catalan missionary, founder of the Claretians, and archbishop of Santiago de Cuba.",
+    "symbols": [
+      {
+        "symbol": "Archbishop's vestments, mitre, and crozier",
+        "meaning": "His service as archbishop of Santiago de Cuba from 1850, during which he made three pastoral visitations of his diocese."
+      },
+      {
+        "symbol": "Open book or catechism",
+        "meaning": "His preaching and his publishing apostolate: he founded the Religious Library in 1848 and wrote a great many books and pamphlets for ordinary readers."
+      },
+      {
+        "symbol": "Immaculate Heart of Mary",
+        "meaning": "His Marian devotion, which gave his congregation its name: Missionary Sons of the Immaculate Heart of Mary."
+      },
+      {
+        "symbol": "Motto \"Caritas Christi urget nos\"",
+        "meaning": "\"The charity of Christ presseth us\" (2 Corinthians 5:14), the motto he placed on his episcopal coat of arms."
+      }
+    ],
+    "whyWeTurn": "Claret never stopped moving. He preached in villages across Catalonia and the Canary Islands, made three pastoral visitations of his diocese in Cuba, and when he could not be present, he sent books and leaflets in his place. People turn to him when they want to share their faith in practical ways, when they work with words, print, or media, or when they feel worn down by opposition. His most striking lesson came at Holguín in 1856: slashed across the face by a would-be assassin, he forgave the man and pleaded for his pardon. He shows that zeal and mercy can live in the same heart.",
+    "quotes": [
+      {
+        "text": "For the charity of Christ presseth us: judging this, that if one died for all, then all were dead.",
+        "work": "2 Corinthians 5:14",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, your love urged St. Anthony Mary Claret to carry the Gospel to towns, islands, and cities, by voice and by the printed word. Set my heart on fire with that same love. Give me courage to speak of you plainly and kindly, and creativity to share your truth with people who would never hear a sermon. When I am opposed or hurt, help me to forgive as he forgave the man who tried to kill him. Through the prayers of Mary's Immaculate Heart, make me a missionary wherever I am. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "October 24 is his optional memorial in the General Roman Calendar; attend Mass or pray the day's collect, which asks for his zeal in winning others for Christ.",
+      "Claretian parishes, schools, and communities around the world celebrate the day as the feast of their founder.",
+      "Give or share a good Catholic book, or support a Catholic publisher or magazine, continuing his press apostolate.",
+      "Pray by name for someone who has hurt you, remembering how he forgave his attacker at Holguín.",
+      "Pray for the Church in Cuba and in the Canary Islands, where he preached and served."
+    ],
+    "places": [
+      {
+        "name": "Claretian Spirituality Center (CESC), the Claretian house in the city of his tomb",
+        "city": "Vic, Spain",
+        "url": "https://www.cescvic.org/en/"
+      },
+      {
+        "name": "Fontfroide Abbey, where he died in exile in 1870",
+        "city": "Narbonne, France",
+        "url": "https://www.fontfroide.com/"
+      }
+    ],
+    "confirmationNote": "Claret suits a candidate who is energetic, practical, and eager to share the faith, perhaps through writing, speaking, design, or media. He learned a trade first, then gave every skill to the Gospel, and he forgave someone who tried to kill him. Choosing him can be a commitment to use your talents for others and to answer hostility with mercy.",
+    "reflectionPrompts": [
+      "Who in my life is hard for me to forgive, and what would one small step toward mercy look like this week?",
+      "Find one practical way to share something good about your faith this week: a book, a message, or an invitation.",
+      "Read 2 Corinthians 5:14–21 in the Douay-Rheims, then the Claretians' biography of St. Anthony Mary Claret at claret.org, and note how his motto shaped his choices."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-bosco",
+        "reason": "Nineteenth-century contemporary who also founded a religious congregation and spread popular Catholic reading",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "Founder of a missionary congregation who also wrote widely read devotional books for ordinary people",
+        "historical": false
+      },
+      {
+        "slug": "peter-claver",
+        "reason": "Spanish priest who served enslaved Africans in the Caribbean, as Claret preached against slavery in Cuba",
+        "historical": false
+      },
+      {
+        "slug": "vincent-ferrer",
+        "reason": "Another Spanish itinerant preacher whose missions drew large crowds to conversion",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Claretian Missionaries: Biography of St. Anthony Mary Claret",
+        "url": "https://www.claret.org/our-congregation/st-anthony-mary-claret/"
+      },
+      {
+        "title": "Claretian Missionaries: February 1, Attack against Father Claret in Holguín",
+        "url": "https://www.claret.org/ephemeris/february-1-attack-against-father-claret-in-holguin/"
+      },
+      {
+        "title": "Pope Francis: Address to the Claretian Missionaries (September 11, 2015)",
+        "url": "https://www.vatican.va/content/francesco/en/speeches/2015/september/documents/papa-francesco_20150911_missionari-clarettiani.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 24 (St. Anthony Mary Claret)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-24"
+      },
+      {
+        "title": "Claretian Spirituality Center (CESC), Vic",
+        "url": "https://www.cescvic.org/en/"
+      },
+      {
+        "title": "Abbaye de Fontfroide",
+        "url": "https://www.fontfroide.com/"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 5",
+        "url": "https://www.drbo.org/chapter/54005.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; no live topic matches his sourced patronages, so the field is omitted",
+      "patronages: Catholic press, weavers, savings banks, and the Claretians are sourced (Catholic Culture) but have no live topics",
+      "symbols: no Catholic source describing his standard iconography was found (CESC Vic has image galleries without descriptions). The four symbols are drawn from documented facts (archbishop, publishing, the congregation's name, his episcopal motto per Pope Francis) and match how he is commonly depicted, but a human should confirm",
+      "quotes: his Autobiography is available in English only in modern (copyrighted) translations, so no saint quote is included; Scripture (his episcopal motto verse) used instead",
+      "prayer: no traditional prayer from an official Claretian page was verified; original prayer written, no link",
+      "places: CESC is at the Claretian house in Vic; a travel guide says his remains rest in the crypt of the church there and claret.org says his tomb is in Vic, but I did not find a dedicated official page for the tomb church. Fontfroide Abbey is now privately owned; its site is its own official one",
+      "biography: claret.org gives his age at death as 62 and Catholic Culture (Lodi) as 63; born December 23, 1807, he was 62. The reviewed biography gives no age, so no conflict",
+      "relatedSaints: john-bosco is marked historical as a contemporary founder (same era), not a direct companion"
+    ]
+  },
   "anthony-of-padua": {
     "templateVersion": 2,
     "heroSummary": "St. Anthony of Padua was a Portuguese Franciscan preacher and Doctor of the Church, known in popular devotion as the saint who helps people find what they have lost. Born Fernando in Lisbon, he died near Padua on June 13, 1231, the date of his feast. His sermons matter as much as his miracles.",
@@ -143,6 +266,395 @@
       "quotes: Anthony's own sermons are only available to me in modern (copyrighted) English translations, so no saint quote is included; Scripture used instead",
       "symbols: the Child Jesus vision is a reported tradition; worded as such",
       "places: only one place listed; no verified official English site found for his birthplace church in Lisbon"
+    ]
+  },
+  "augustine-of-hippo": {
+    "templateVersion": 2,
+    "heroSummary": "St. Augustine of Hippo (354–430) was a North African teacher of rhetoric who searched for wisdom through philosophy and the Manichees before his conversion in Milan and his baptism in 387. As bishop of Hippo for more than thirty years he preached, cared for the poor, and wrote the Confessions. His feast is August 28.",
+    "searchDescription": "St. Augustine of Hippo (354–430), feast August 28: North African bishop, author of the Confessions, and Doctor of the Church known for his restless heart.",
+    "symbols": [
+      {
+        "symbol": "Flaming heart pierced by arrows",
+        "meaning": "God's love wounding and kindling the heart. In the Confessions he tells God, \"Thou hadst pierced our hearts with Thy charity.\""
+      },
+      {
+        "symbol": "Bishop's mitre and crozier",
+        "meaning": "His decades as bishop of Hippo, preaching, forming clergy, and caring for his people."
+      },
+      {
+        "symbol": "Book and pen",
+        "meaning": "His many writings, from the Confessions to the Retractations, in which he reviewed and corrected his own earlier works."
+      },
+      {
+        "symbol": "Bible open to Romans 13",
+        "meaning": "The passage he read in a garden in Milan after hearing a child's voice chant \"Take up and read,\" as he recounts in Confessions Book VIII."
+      },
+      {
+        "symbol": "Child with a shell",
+        "meaning": "A later legend, not found in his writings, tells of a child on the seashore trying to empty the sea into a small hole, a picture of how far the mystery of the Trinity exceeds the human mind."
+      }
+    ],
+    "whyWeTurn": "People turn to Augustine when they are restless, searching, or ashamed of where the search has taken them. He knew ambition, divided loyalties, and years of putting off a decision, and he wrote about all of it honestly in the Confessions, which he addressed to God. Parents often think of St. Monica's long prayers for him. Students and teachers ask his help to love the truth more than winning arguments. Pastors find in his last years a bishop who stayed with his people during war and sheltered refugees. Above all, he reminds us that grace can reach someone who thinks it is too late.",
+    "quotes": [
+      {
+        "text": "Thou awakest us to delight in Thy praise; for Thou madest us for Thyself, and our heart is restless, until it repose in Thee.",
+        "work": "Confessions, Book I, chapter 1",
+        "translation": "E. B. Pusey (1838), public domain"
+      },
+      {
+        "text": "Too late loved I Thee, O Thou Beauty of ancient days, yet ever new! too late I loved Thee! And behold, Thou wert within, and I abroad, and there I searched for Thee",
+        "work": "Confessions, Book X, chapter 27",
+        "translation": "E. B. Pusey (1838), public domain"
+      },
+      {
+        "text": "Let us walk honestly, as in the day: not in rioting and drunkenness, not in chambering and impurities, not in contention and envy: But put ye on the Lord Jesus Christ, and make not provision for the flesh in its concupiscences.",
+        "work": "Romans 13:13–14, the passage Augustine read at his conversion",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you made us for yourself, and our hearts are restless until they rest in you. Through the prayers of St. Augustine, turn my searching into seeking you. Where I have delayed, give me the courage to decide today. Where I have wandered, bring me home, as you brought him home through a mother's tears, a bishop's preaching, and your word in Scripture. Make me humble enough to be corrected and faithful enough to serve the people you give me, until I rest in you forever. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The prayer \"Breathe in me, O Holy Spirit\" often circulates under Augustine's name, but I could not trace it to his works, so it is not attributed to him here. The opening line echoes the first chapter of the Confessions.",
+      "link": {
+        "label": "Read the Confessions (E. B. Pusey translation) at Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3296"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on August 28, his memorial in the General Roman Calendar, perhaps at a church served by the Augustinians, who honor him as their spiritual father.",
+      "Remember his mother on the day before, the memorial of St. Monica on August 27, and pray for someone you hope will return to faith.",
+      "Read Book VIII of the Confessions, then read Romans 13:13–14, the passage he opened in the garden at Milan.",
+      "Pray one chapter of the Confessions slowly, noticing that the whole book is addressed to God rather than to the reader.",
+      "Help people who are poor or displaced, recalling that Hippo sheltered refugees during the siege of 430."
+    ],
+    "confirmationNote": "Augustine suits a Confirmation candidate who has questions, doubts, or a past they wish were different. He took a long road to faith and never pretended otherwise. Choosing him means trusting that grace can reach a restless heart, and committing to keep learning the faith through Scripture, good teachers, and honest friends. He also shows that conversion continues for a lifetime of serving others.",
+    "reflectionPrompts": [
+      "What am I restless for right now, and what would it mean to bring that restlessness honestly to God in prayer?",
+      "Name one good decision I keep postponing, pray about it, and take one concrete step toward it this week.",
+      "Read Book VIII of the Confessions in Pusey's translation, then compare it with Romans 13:13–14 in the Douay-Rheims."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "monica",
+        "reason": "His mother, whose faith shaped him and who died at Ostia after his baptism",
+        "historical": true
+      },
+      {
+        "slug": "ambrose",
+        "reason": "Bishop of Milan whose preaching helped him reconsider the Scriptures",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "Contemporary Latin Father, counted with him among the great Doctors of the Western Church",
+        "historical": true
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "Fellow Doctor of the Church who joined rigorous study with prayer",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Augustine of Hippo (January 9, 2008)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080109.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Augustine's final years (January 16, 2008)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080116.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Augustine's writings (February 20, 2008)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080220.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 28 (St. Augustine of Hippo)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-28"
+      },
+      {
+        "title": "The Confessions of St. Augustine, tr. E. B. Pusey, Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/3296"
+      },
+      {
+        "title": "Douay-Rheims Bible: Romans 13",
+        "url": "https://www.drbo.org/chapter/52013.htm"
+      },
+      {
+        "title": "Vatican News: Pope Leo XIV at Augustine's tomb in Pavia (June 2026, Italian)",
+        "url": "https://www.vaticannews.va/it/papa/news/2026-06/agostiniani-pavia-agostino-reliquie-arca-unita-comunione-pace.html"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; sourced patronages (Catholic Culture: brewers, printers, theologians, sore eyes, and several dioceses including St. Augustine, Florida) have no live topics, so the field is omitted.",
+      "places: his tomb is in the Basilica of San Pietro in Ciel d'Oro, Pavia (Catholic Culture; Vatican News), and St. Monica's tomb is in Sant'Agostino in Campo Marzio, Rome, but I could not verify an official website for either church, so places is omitted.",
+      "symbols: the child with a shell is a later legend and is labeled as such; the 'Thou hadst pierced our hearts' line is from Confessions Book IX in Pusey's translation.",
+      "prayer: 'Breathe in me, O Holy Spirit' deliberately not attributed; see prayer.note.",
+      "relatedSaints: jerome is linked by era and as a fellow great Latin Doctor (Catholic Culture); I did not verify their correspondence from a listed source, so it is not claimed.",
+      "biography: no disagreement found. The context 'dates' field reads 'Fourth–fifth centuries' while the biography gives 354–430; the hero uses 354–430."
+    ]
+  },
+  "catherine-of-siena": {
+    "templateVersion": 2,
+    "heroSummary": "St. Catherine of Siena is a co-patron of Europe and a patron of Italy and of nurses. A fourteenth-century Dominican laywoman, she cared for the sick, urged Pope Gregory XI to return from Avignon to Rome, and dictated the Dialogue. Paul VI declared her a Doctor of the Church in 1970, and her feast is April 29.",
+    "searchDescription": "St. Catherine of Siena (1347–1380), feast April 29: Dominican laywoman, Doctor of the Church, and co-patron of Europe and patron of Italy.",
+    "patronages": [
+      "nurses",
+      "europe",
+      "italy"
+    ],
+    "symbols": [
+      {
+        "symbol": "Lily",
+        "meaning": "Her consecration of her life to God as a virgin."
+      },
+      {
+        "symbol": "Dominican habit, white tunic and black mantle",
+        "meaning": "She belonged to the Mantellate, Dominican laywomen who lived at home while following the Order's spirituality."
+      },
+      {
+        "symbol": "Crown of thorns and crucifix",
+        "meaning": "Her concentration on Christ crucified, whom she urged her correspondents again and again to remember."
+      },
+      {
+        "symbol": "Ring",
+        "meaning": "Raymond of Capua's account of her mystical espousal, in which Christ gave her a ring that only she could see, a sign of faithful union with him."
+      },
+      {
+        "symbol": "Stigmata",
+        "meaning": "Her followers' testimony that she shared in Christ's wounds; this belongs to the religious witness about her rather than to independently documented history."
+      }
+    ],
+    "whyWeTurn": "People turn to Catherine when the Church or the world feels divided and they want to help heal it. She was a young laywoman, yet she wrote to popes, rulers, and ordinary friends, urging repentance, peace, and courage, and she called the pope the \"sweet Christ on earth\" while still challenging him to act. She cared for sick people with her own hands, one reason nurses look to her. Her love for the Church was fierce enough to criticize its leaders and loyal enough never to leave it. Catholics ask her prayers for Church unity, for Europe and Italy, and for anyone called to speak hard truths with charity.",
+    "quotes": [
+      {
+        "text": "Wherefore I have told thee that I have made a Bridge of My Word, of My only-begotten Son, and this is the truth.",
+        "work": "The Dialogue, A Treatise of Discretion (God the Father speaking to Catherine)",
+        "translation": "Algar Thorold (1907), public domain"
+      },
+      {
+        "text": "Thou, oh eternal Trinity, art a deep Sea, into which the deeper I enter the more I find, and the more I find the more I seek; the soul cannot be satiated in Thy abyss, for she continually hungers after Thee",
+        "work": "The Dialogue, A Treatise of Obedience, closing prayer",
+        "translation": "Algar Thorold (1907), public domain"
+      },
+      {
+        "text": "If you are what you ought to be, you will set fire to all Italy, and not only yonder.",
+        "work": "Letter to Stefano Maconi",
+        "translation": "Vida D. Scudder, Saint Catherine of Siena as Seen in Her Letters (1905), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Oh! Abyss, oh! Eternal Godhead, oh! Sea Profound! what more couldst Thou give me than Thyself, Thou art the fire which ever burns without being consumed; Thou consumest in Thy heat all the soul's self-love; Thou art the fire which takes away all cold; with Thy light Thou dost illuminate me so that I may know all Thy truth.",
+      "kind": "traditional",
+      "source": "St. Catherine of Siena, The Dialogue, closing prayer of A Treatise of Obedience, translated by Algar Thorold (1907)",
+      "note": "An excerpt from the thanksgiving prayer with which the Dialogue ends, in Thorold's 1907 wording exactly. Some online editions modernize \"Thou\" to \"You.\"",
+      "link": {
+        "label": "Read Thorold's 1907 translation of the Dialogue (Internet Archive scan)",
+        "url": "https://archive.org/details/dialogueofseraph00cath"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on April 29, her memorial in the General Roman Calendar; as a patron of Italy and Europe, she is celebrated with higher rank in Italy and in many European countries.",
+      "Pray for the pope and for the unity of the Church, as she did during the Western Schism.",
+      "Visit or help someone who is sick, or thank a nurse, in honor of her care for the sick.",
+      "Read the Dialogue's image of Christ the Bridge and pray over one step of it.",
+      "Write a letter of honest encouragement to someone, as she did in hundreds of letters to friends, rulers, and popes."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Santa Maria sopra Minerva, where her body rests",
+        "city": "Rome, Italy",
+        "url": "https://www.santamariasopraminerva.it/"
+      },
+      {
+        "name": "Basilica Cateriniana of San Domenico",
+        "city": "Siena, Italy",
+        "url": "https://www.basilicacateriniana.com/"
+      }
+    ],
+    "confirmationNote": "Catherine suits a Confirmation candidate who cares about justice, peace, and the health of the Church, and who is not afraid to speak up. She was young, a layperson, and deeply prayerful, and her courage came from time spent with Christ. Choosing her means committing to prayer, to serving the sick and needy, and to speaking honestly but charitably, even to people in authority.",
+    "reflectionPrompts": [
+      "What would it look like for me to be who God made me to be, rather than who others expect me to be?",
+      "This week, send a short, honest, and kind message to someone who needs encouragement or a gentle challenge.",
+      "Read the chapters on Christ the Bridge in A Treatise of Discretion, in Algar Thorold's 1907 translation of the Dialogue."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "dominic",
+        "reason": "Founder of the Order of Preachers, whose Dominican family she joined as one of the Mantellate",
+        "historical": true
+      },
+      {
+        "slug": "bridget-of-sweden",
+        "reason": "Fellow fourteenth-century voice for the pope's return from Avignon; proclaimed co-patron of Europe with her in 1999",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Proclaimed a primary patron of Italy alongside her in 1939",
+        "historical": false
+      },
+      {
+        "slug": "teresa-of-avila",
+        "reason": "Declared a Doctor of the Church one week before her in 1970",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Catherine of Siena (November 24, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101124.html"
+      },
+      {
+        "title": "Vatican News: Sainte Catherine de Sienne",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/04/29/sainte-catherine-de-sienne--dominicaine-et-docteur-de-l-eglise--.html"
+      },
+      {
+        "title": "John Paul II: Apostolic Letter proclaiming Bridget of Sweden, Catherine of Siena and Teresa Benedicta of the Cross co-patronesses of Europe (October 1, 1999)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_01101999_co-patronesses-europe.html"
+      },
+      {
+        "title": "Pius XII: Brief proclaiming Francis of Assisi and Catherine of Siena primary patrons of Italy (June 18, 1939)",
+        "url": "https://www.vatican.va/content/pius-xii/it/briefs/documents/hf_p-xii_brief_19390618_patroni-italia.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, April 29 (St. Catherine of Siena)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-04-29"
+      },
+      {
+        "title": "The Dialogue of the Seraphic Virgin Catherine of Siena, tr. Algar Thorold (1907), Internet Archive scan",
+        "url": "https://archive.org/details/dialogueofseraph00cath"
+      },
+      {
+        "title": "Saint Catherine of Siena as Seen in Her Letters, tr. Vida D. Scudder (1905), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/7403"
+      },
+      {
+        "title": "Basilica di Santa Maria sopra Minerva (official site)",
+        "url": "https://www.santamariasopraminerva.it/"
+      },
+      {
+        "title": "Basilica Cateriniana di San Domenico, Siena (official site)",
+        "url": "https://www.basilicacateriniana.com/"
+      }
+    ],
+    "flags": [
+      "patronages: italy is sourced (Pius XII brief, 1939), but the live italy topic lists only Francis of Assisi; consider adding Catherine there.",
+      "patronages: nurses is listed by Catholic Culture and fits her documented care for the sick, but I found no papal act establishing it; the live nurses topic currently lists only John of God. Human check suggested.",
+      "patronages: Catholic Culture also lists her against fire and for firefighters; that rests on a single aggregated list, so firefighters is left out pending human review.",
+      "patronages: Rome (co-patroness, per Benedict XVI's audience), Siena, and sick people are sourced but have no live topics.",
+      "quotes: the popular line 'Be who God meant you to be and you will set the world on fire' is a modern paraphrase; the third quote is the verified wording from Scudder's 1905 translation of her letter to Stefano Maconi. Thorold quotes are checked against the 1907 printed edition (Internet Archive scan), not the modernized CCEL text.",
+      "symbols: the ring and stigmata come from Raymond of Capua's testimony and are worded as testimony, matching the reviewed biography's caution.",
+      "feastCustoms: the higher rank of her celebration in Italy and Europe follows from her patronages but was not confirmed for each country's calendar; a human may verify.",
+      "places: the Siena basilica's site does not itself state which relics it holds, so the listing makes no relic claim for Siena.",
+      "biography: no disagreement found with the reviewed biography."
+    ]
+  },
+  "euphrasia": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Euphrasia of Constantinople was a young noblewoman of the late fourth century who grew up in a women's monastery in Egypt and chose to stay there for life. Tradition remembers her for giving her inheritance to the poor and for humble, hidden work. Her Western feast is March 13.",
+    "searchDescription": "St. Euphrasia of Constantinople (c. 380–410), feast March 13: a noble girl who chose monastic life in Egypt and gave her inheritance to the poor.",
+    "symbols": [
+      {
+        "symbol": "Heavy stones carried in her arms",
+        "meaning": "From her traditional life: during a long temptation her abbess set her to carrying stones from place to place, and she persevered through humble labor. This is how she is most often shown."
+      },
+      {
+        "symbol": "Monastic habit and veil",
+        "meaning": "Her choice, while still a child, to remain in the women's monastery in Egypt rather than return to the wealth and marriage expected of her."
+      }
+    ],
+    "whyWeTurn": "Euphrasia's story is old and, as her biographers admit, shaped by later retelling, but its heart is simple. A girl born to wealth and influence chose a poor community, gave away what she had inherited, and did the chores no one wanted. Tradition holds that when temptation pressed on her, she told her abbess and kept working rather than hiding it. People turn to her when they feel the pull of status or comfort, when they need courage to choose a quieter path, or when they want to learn humility in ordinary tasks. She reminds us that generosity and honesty about our struggles belong together.",
+    "quotes": [
+      {
+        "text": "Jesus saith to him: If thou wilt be perfect, go sell what thou hast, and give to the poor, and thou shalt have treasure in heaven: and come follow me.",
+        "work": "Matthew 19:21",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And do you all insinuate humility one to another, for God resisteth the proud, but to the humble he giveth grace.",
+        "work": "1 Peter 5:5",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you called St. Euphrasia away from riches and honor to a hidden life of prayer and work. Free my heart from the need to be noticed or admired. Teach me to hold my possessions lightly and to share them with people who have less. When I am tempted or discouraged, give me the humility to ask for help, and the patience to keep doing the small tasks in front of me. Through Euphrasia's prayers, let my ordinary days become an offering of love to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "She is not on the General Roman Calendar. March 13 is the date in Butler's Lives of the Saints and older Western calendars; Eastern churches commemorate her on July 25, and her mother on January 12.",
+      "On her day, read her life in Butler's Lives of the Saints, keeping in mind that it is a hagiography with later embellishment.",
+      "Give something you own, or its value, to a person or charity serving the poor, as she asked that her inheritance be given away.",
+      "Take on a humble chore at home or in your parish without being asked and without mentioning it.",
+      "Pray for women in monastic and religious life, and consider supporting a community of nuns near you."
+    ],
+    "confirmationNote": "Euphrasia suits a candidate who is drawn to simplicity, service, and generosity, or who feels pressure to measure life by money and status. She made a costly choice when she was young and kept it through daily obedience and work. Choosing her can be a commitment to share what you have, to be honest about temptation, and to find God in ordinary tasks.",
+    "reflectionPrompts": [
+      "What expectation about success, money, or status do I feel most pressure to meet, and what would it cost me to set it down?",
+      "This week, do one hidden act of service and one concrete act of giving, and tell no one about either.",
+      "Read Matthew 19:16–30 in the Douay-Rheims alongside Butler's March 13 entry on St. Euphrasia, and note what her story adds to the passage."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "pachomius",
+        "reason": "Founded the Tabennisi monasteries in Egypt, where Eastern accounts place her community",
+        "historical": true
+      },
+      {
+        "slug": "olympias-of-constantinople",
+        "reason": "Wealthy woman of Constantinople in the same era who gave her fortune to the poor",
+        "historical": true
+      },
+      {
+        "slug": "melania-the-younger",
+        "reason": "Senatorial heiress of the same generation who gave away her wealth for monastic life",
+        "historical": true
+      },
+      {
+        "slug": "euphrasia-eluvathingal",
+        "reason": "A different saint who shares her name: a twentieth-century Carmelite from India",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Alban Butler, Lives of the Saints: St. Euphrasia, Virgin (March 13), EWTN Library",
+        "url": "https://origin.ewtn.com/catholicism/library/st-euphrasia-virgin-5454"
+      },
+      {
+        "title": "Nominis (Conférence des évêques de France): Sainte Euphrasie de Constantinople",
+        "url": "https://nominis.cef.fr/contenus/saint/798/Sainte-Euphrasie-de-Constantinople.html"
+      },
+      {
+        "title": "Orthodox Church in America: Venerable Eupraxia of Tabenna in Egypt (January 12)",
+        "url": "https://www.oca.org/saints/lives/1993/01/12/100160-venerable-eupraxia-of-tabenna-in-egypt"
+      },
+      {
+        "title": "FaithND (University of Notre Dame): St. Euphrasia of Constantinople",
+        "url": "https://faith.nd.edu/saint/st-euphrasia-of-constantinople/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 19",
+        "url": "https://www.drbo.org/chapter/47019.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 5",
+        "url": "https://www.drbo.org/chapter/67005.htm"
+      }
+    ],
+    "flags": [
+      "patronages: none found in a reputable source, and the review lists none; field omitted",
+      "symbols: only two attributes are attested (carrying stones, shown in the FaithND image and described in Butler's account; and the monastic habit). No third established attribute was found, so the field has 2 rather than 3–5 items",
+      "quotes: no writings of Euphrasia survive; Scripture used instead",
+      "prayer: no traditional prayer to her found from an official source; original prayer written, no link",
+      "places: no shrine or official site connected with her found; field omitted",
+      "feast: Nominis gives July 24 for the Roman Martyrology and lists March 13 as a local date, while Butler and the reviewed data give March 13. The page should keep the reviewed March 13 date, but a human may want to confirm the current Martyrology entry",
+      "biography detail: Butler places her father at the court of Theodosius the Younger, while OCA and FaithND connect the family to Theodosius I; Butler says she entered the monastery at seven, OCA at eight. The reviewed biography names neither, so there is no conflict, but avoid adding these details without qualification",
+      "relatedSaints: the Pachomius link relies on OCA naming Tabennisi; Butler only says a monastery in Egypt (the reviewed biography says the Thebaid, which includes Tabennisi)",
+      "symbols: only 2 sourced attributes (carrying stones, monastic habit); v2 needs 3–5 — set to 1.5 (coordinator)"
     ]
   },
   "francis-of-assisi": {
@@ -314,6 +826,148 @@
       "prayer: Peace Prayer deliberately not attributed; see prayer.note",
       "symbols: the sermon to the birds is presented as early Franciscan storytelling and tradition, not documented history",
       "feastCustoms: Transitus and blessing of animals are Franciscan and parish customs, not universal liturgy; worded accordingly"
+    ]
+  },
+  "hildegard-of-bingen": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hildegard of Bingen (1098–1179) was a Benedictine abbess on the Rhine who wrote visionary theology, composed sacred music, and challenged church leaders and an emperor by letter. Benedict XVI recognized her as a saint for the whole Church in May 2012 and named her a Doctor of the Church that October. Her optional memorial is September 17.",
+    "searchDescription": "St. Hildegard of Bingen (1098–1179), feast September 17: Benedictine abbess, visionary writer, composer of sacred music, and Doctor of the Church.",
+    "symbols": [
+      {
+        "symbol": "Flames streaming down from heaven",
+        "meaning": "The opening miniature of the Rupertsberg Scivias shows fire pouring onto her head. It recalls her own account of a fiery light from the open heavens in 1141 that filled her mind and set her heart aflame, a call to write that the abbey describes as Pentecost-like."
+      },
+      {
+        "symbol": "Wax tablets and stylus",
+        "meaning": "In the same miniature she writes on wax tablets while the monk Volmar assists her, a reminder that her visions were written down with help and submitted to the Church's judgment."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "Her three visionary works, Scivias, the Book of Life's Merits, and the Book of Divine Works, along with her letters and songs, which ground her title as Doctor of the Church."
+      },
+      {
+        "symbol": "Benedictine habit, often with an abbess's staff",
+        "meaning": "Her life under the Rule of St. Benedict and her responsibility for the communities at Rupertsberg and Eibingen."
+      }
+    ],
+    "whyWeTurn": "People turn to Hildegard when they want faith and intelligence to stay together. She loved Scripture, music, and the created world, and she saw all of it coming from God and finding its center in Christ. She was also careful: she feared her visions might be illusions until wiser people had tested them, and she accepted the Church's judgment. Then she spoke plainly, even to an emperor, when she believed the Church was being harmed. Catholics ask her prayers for courage in telling the truth, for those who make sacred music, and for reverent care of creation. Her medieval notes on health belong to their time; her lasting gift is her teaching about God.",
+    "quotes": [
+      {
+        "text": "Praise him with sound of trumpet: praise him with psaltery and harp. Praise him with timbrel and choir: praise him with strings and organs. Praise him on high sounding cymbals: praise him on cymbals of joy: let every spirit praise the Lord. Alleluia.",
+        "work": "Psalm 150:3–5",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Living God, you filled St. Hildegard with your light and gave her a voice to praise you in word and song. Through her prayers, open my eyes to your glory in Scripture, in the liturgy, and in the world you have made. Give me the humility to let others test what I think I have heard, and the courage to speak the truth with love when silence would be easier. Let my whole life become a song in harmony with your will, until I join the praise of heaven. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Benedictine Abbey of St. Hildegard, Eibingen",
+        "url": "https://abtei-st-hildegard.de/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on September 17, her optional memorial in the General Roman Calendar since 2021; St. Robert Bellarmine shares the date, so a parish may honor either saint that day.",
+      "Listen to, or sing, one of her chants from the Symphonia, the collection of hymns and antiphons she composed for her sisters' worship.",
+      "In Germany, pilgrims gather at Eibingen, in Rüdesheim am Rhein, on September 17, when the shrine holding her relics is carried in procession through the village.",
+      "Read Benedict XVI's two 2010 catecheses on her, then read a short passage from Scivias with that guidance in mind.",
+      "Spend time outdoors thanking God for creation, remembering that her nature writings are medieval reflections and not medical advice."
+    ],
+    "places": [
+      {
+        "name": "Benedictine Abbey of St. Hildegard",
+        "city": "Rüdesheim am Rhein (Eibingen), Germany",
+        "url": "https://abtei-st-hildegard.de/"
+      }
+    ],
+    "confirmationNote": "Hildegard suits a Confirmation candidate who loves to learn, make music or art, or study the natural world, and who wants all of it to lead to God. She also shows that gifts need testing: she sought counsel and accepted the Church's judgment before speaking publicly. Choosing her means praying for both humility and courage, and being ready to speak the truth even when it costs something.",
+    "reflectionPrompts": [
+      "Where have I sensed God's light in my life, and whom could I trust to help me test it honestly?",
+      "This week, listen to one of Hildegard's chants, or sing the hymns at Mass with full attention, and offer that music to God as praise.",
+      "Read Benedict XVI's general audiences on Hildegard of September 1 and 8, 2010, and note what he says about discernment and obedience."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bernard-of-clairvaux",
+        "reason": "She sought his judgment on her visions, and he reassured and encouraged her",
+        "historical": true
+      },
+      {
+        "slug": "john-of-vila",
+        "reason": "Proclaimed a Doctor of the Church with her by Benedict XVI on October 7, 2012",
+        "historical": true
+      },
+      {
+        "slug": "robert-bellarmine",
+        "reason": "Shares the September 17 feast",
+        "historical": true
+      },
+      {
+        "slug": "gertrude-the-great",
+        "reason": "Later German mystic and writer in the monastic tradition of contemplative prayer",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Hildegard of Bingen (September 1, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100901.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Hildegard of Bingen (September 8, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100908.html"
+      },
+      {
+        "title": "Benedict XVI: Apostolic Letter proclaiming Hildegard of Bingen a Doctor of the Church (October 7, 2012)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20121007_ildegarda-bingen.html"
+      },
+      {
+        "title": "Benedict XVI: Homily at the opening of the Synod of Bishops (October 7, 2012)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2012/documents/hf_ben-xvi_hom_20121007_apertura-sinodo.html"
+      },
+      {
+        "title": "Congregation for Divine Worship: Decree inscribing Sts. Gregory of Narek, John of Ávila and Hildegard of Bingen in the General Roman Calendar (January 25, 2021)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20210125_decreto-dottori_en.html"
+      },
+      {
+        "title": "USCCB Committee on Divine Worship Newsletter, February 2021",
+        "url": "https://www.usccb.org/resources/newsletter-2021-02.pdf"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, September 17",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-17"
+      },
+      {
+        "title": "Abtei St. Hildegard: Dekret zur Heiligsprechung Hildegards von Bingen vom 10. Mai 2012",
+        "url": "https://abtei-st-hildegard.de/dekret-zur-heiligsprechung-hildegards-von-bingen-vom-10-mai-2012/"
+      },
+      {
+        "title": "Abtei St. Hildegard: Scivias-Kodex, Tafel 1, Die Seherin",
+        "url": "https://abtei-st-hildegard.de/scivias-kodex-tafel-1-die-seherin/"
+      },
+      {
+        "title": "Benediktinerinnenabtei St. Hildegard (official site)",
+        "url": "https://abtei-st-hildegard.de/"
+      },
+      {
+        "title": "Rüdesheim am Rhein: St. Hildegard Catholic parish church",
+        "url": "https://www.ruedesheim.de/en/tours/st-hildegard-catholic-parish-church/poi.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 150",
+        "url": "https://www.drbo.org/chapter/21150.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; no reputable Catholic source found giving her a patronage that has a live topic, so the field is omitted.",
+      "quotes: no pre-1929 public-domain English translation of Hildegard's own writings could be verified, so none of her words are quoted; Psalm 150 (Douay-Rheims) is used instead, chosen for her sacred music.",
+      "heroSummary: 'recognized her as a saint for the whole Church in May 2012' reflects the decree of May 10, 2012 listed by the Abbey of St. Hildegard (often called an equivalent canonization); Catholic Culture is internally inconsistent on whether she was formally canonized. A human may prefer different wording.",
+      "symbols: the abbess's staff is a common artistic convention for her leadership role rather than something drawn from the Scivias miniature; the flames and wax tablets are documented by the abbey's description of that miniature.",
+      "feastCustoms: the Eibingen relic procession on September 17 is sourced from the town of Rüdesheim and secondary descriptions, not an official parish page.",
+      "places: the Eibingen parish and pilgrimage church that holds her relic shrine has no official website I could verify, so only the abbey is listed.",
+      "relatedSaints: gertrude-the-great is a thematic link (German monastic mystic), not a historical connection to Hildegard.",
+      "biography: no disagreement found with the reviewed biography."
     ]
   },
   "ignatius-of-loyola": {
@@ -845,6 +1499,134 @@
       "biography: Vatican News repeats the tradition that Jude was a cousin of Jesus and a detailed martyrdom legend; neither was used, consistent with the reviewed biography's caution"
     ]
   },
+  "maria-mazzarello": {
+    "templateVersion": 2,
+    "heroSummary": "St. Maria Domenica Mazzarello was a farmer's daughter from Mornese, Italy, who, after typhoid ended her work in the fields, began teaching village girls to sew, pray, and love God. With St. John Bosco she cofounded the Daughters of Mary Help of Christians in 1872. Salesians keep her feast on May 13.",
+    "searchDescription": "St. Maria Domenica Mazzarello, farm girl from Mornese who cofounded the Salesian Sisters with John Bosco in 1872. Feast: May 13.",
+    "symbols": [
+      {
+        "symbol": "Habit of the Daughters of Mary Help of Christians",
+        "meaning": "Her religious profession in 1872 and her role as first superior of the Salesian Sisters."
+      },
+      {
+        "symbol": "Sewing, needle and thread",
+        "meaning": "The dressmaking workshop she opened in Mornese after her illness, where girls learned a trade along with prayer and the love of God."
+      },
+      {
+        "symbol": "Girls gathered around her",
+        "meaning": "The young people at the heart of her mission: the workshop, the festive oratory, and a home for girls without families."
+      },
+      {
+        "symbol": "Image of Mary Help of Christians",
+        "meaning": "The title of Mary that gives her congregation its name; her body rests in the Basilica of Mary Help of Christians in Turin."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Maria Mazzarello because her holiness grew out of an ordinary, limited life. She was a strong farm girl until typhoid, caught while nursing sick relatives, took that strength away. Instead of giving up, she learned dressmaking and opened a small workshop where village girls learned a trade, prayed, and found friendship. Her Salesian sisters remember her cheerfulness and her habit of teaching that work, study, and play could all be offered to God. Parents, teachers, and anyone who works with young people ask her help to guide them with warmth and good sense. She is also a friend to those whose plans were changed by illness.",
+    "quotes": [
+      {
+        "text": "Rejoice in the Lord always; again, I say, rejoice.",
+        "work": "Philippians 4:4",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Whatsoever you do, do it from the heart, as to the Lord, and not to men: Knowing that you shall receive of the Lord the reward of inheritance. Serve ye the Lord Christ.",
+        "work": "Colossians 3:23–24",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you led Saint Maria Domenica Mazzarello through illness to a new way of serving you, teaching girls to work, to pray, and to love you. Through her prayers, help me accept the limits I did not choose and find in them a door to serve others. Make my ordinary work an offering to you, done with care and a cheerful heart. Bless all young people, especially girls who lack opportunity or a home, and bless those who teach and guide them. Mary, Help of Christians, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Join a Salesian school, parish, or community for her feast on May 13; it belongs to the Salesian family's calendar rather than the universal Roman calendar, and she died on May 14, 1881.",
+      "Teach someone a practical skill you have, such as sewing, cooking, or a repair, as she did in her Mornese workshop.",
+      "Offer your ordinary work, study, or play to God at the start of the day, in the spirit she taught her sisters.",
+      "Make a short visit to a church to pray before the Blessed Sacrament; Salesian accounts remember the small window at the Valponasca farmhouse that became her place of prayer because it faced the church.",
+      "Pray for, or support, the Salesian Sisters' schools and missions, which began reaching South America in 1877 during her lifetime."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Mary Help of Christians (resting place of her remains)",
+        "city": "Turin, Italy",
+        "url": "https://basilicamariaausiliatrice.it/"
+      }
+    ],
+    "confirmationNote": "St. Maria Mazzarello can suit a Confirmation candidate who expects to work with young people or who has had to rethink plans after illness or setback. She turned a physical limitation into a new mission, teaching practical skills alongside faith. She was remembered for cheerfulness and good sense as a leader. Choosing her name can mean committing to steady, joyful service in ordinary places.",
+    "reflectionPrompts": [
+      "Is there a limitation in your life that you have only seen as a loss? Ask how God might use it to open another way of serving.",
+      "Pick one skill you know well and offer to teach it to a younger person or a friend this month.",
+      "Read Colossians 3:12–24, then read the Salesian Missions biography of Mary Mazzarello and note how she joined practical work with prayer."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-bosco",
+        "reason": "Cofounded the Daughters of Mary Help of Christians with her in 1872",
+        "historical": true
+      },
+      {
+        "slug": "dominic-savio",
+        "reason": "Pupil of Don Bosco whose remains also rest in the Basilica of Mary Help of Christians in Turin",
+        "historical": true
+      },
+      {
+        "slug": "angela-merici",
+        "reason": "Earlier Italian foundress devoted to the Christian education of girls",
+        "historical": false
+      },
+      {
+        "slug": "magdalen-of-canossa",
+        "reason": "Italian foundress whose sisters taught and cared for poor girls",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Salesian Missions: St. Mary D. Mazzarello (1951)",
+        "url": "https://salesianmissions.org/about-us/who-we-are/about-st-john-bosco/our-history/history-of-the-salesians/st-mary-d-mazzarello-1951/"
+      },
+      {
+        "title": "Salesian Sisters (USA): Founders and Patrons, St. Mary Mazzarello",
+        "url": "https://www.salesiansisters.org/apps/pages/St-Mary-Mazzarello"
+      },
+      {
+        "title": "Salesians of Don Bosco (UK): Saint Mary Mazzarello (1837-1881)",
+        "url": "https://www.salesians.org.uk/news/2013/11/saint-mary-mazzarello"
+      },
+      {
+        "title": "Salesian Sisters (Great Britain): Maria Domenica, the keys to my life (PDF)",
+        "url": "https://www.salesiansisters.net/about-us/ethos/maria-domenica-the-keys-to-my-life"
+      },
+      {
+        "title": "Daughters of Mary Help of Christians (cgfmanet.org): Maria Domenica Mazzarello",
+        "url": "https://www.cgfmanet.org/en/?p=15019"
+      },
+      {
+        "title": "Basilica of Mary Help of Christians, Turin",
+        "url": "https://basilicamariaausiliatrice.it/"
+      },
+      {
+        "title": "DRBO.org: Philippians 4 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/57004.htm"
+      },
+      {
+        "title": "DRBO.org: Colossians 3 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/58003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none and no reputable source found states a patronage; left empty",
+      "quotes: her letters and sayings exist only in modern (in-copyright) English translations, so Douay-Rheims verses on joy and work were used instead; the often-quoted line about every stitch being an act of love of God was not verified and is not used",
+      "prayer: no traditional prayer text was verified, so an original prayer is given without a link",
+      "symbols: no published guide to her iconography was found; attributes are drawn from her documented life and how she is commonly depicted (habit, sewing, girls, Mary Help of Christians); human check welcome",
+      "places: Mornese (birthplace, Valponasca) and the Nizza Monferrato motherhouse are relevant, but no official website for them was verified",
+      "feastCustoms: the Valponasca prayer window is from a Salesian Sisters (Great Britain) booklet; Salesian sources do not say it faced the tabernacle, only the church",
+      "relatedSaints: magdalen-of-canossa and angela-merici reasons rest on general knowledge of their foundations, not a source gathered for this page; check against their own pages",
+      "searchDescription: written because context description ends with an ellipsis",
+      "biography: reviewed text says illness came 'in early adulthood' and does not name Nizza as motherhouse; sources agree (typhoid at about 23, in 1860; died at Nizza Monferrato). No disagreement found"
+    ]
+  },
   "maximilian-kolbe": {
     "templateVersion": 2,
     "heroSummary": "St. Maximilian Maria Kolbe is a patron of prisoners, honored for the life he gave at Auschwitz in place of a condemned man. A Polish Conventual Franciscan, he founded a Marian movement, built a publishing apostolate at Niepokalanów, and served as a missionary in Japan. Catholics keep his memorial on August 14.",
@@ -1148,6 +1930,142 @@
       "prayer: exact text verified from the USCCB catechism page via a fetch tool in pieces (direct download was blocked by a bot check); a human may want to confirm punctuation/capitalization (e.g. 'Power of God')"
     ]
   },
+  "mother-teresa": {
+    "templateVersion": 2,
+    "heroSummary": "St. Teresa of Calcutta, known worldwide as Mother Teresa, was a Loreto sister and teacher who in 1946 felt a \"call within a call\" to serve the poorest people of Calcutta. She founded the Missionaries of Charity, whose homes for the sick, dying, and abandoned spread across the world. Catholics remember her on September 5.",
+    "searchDescription": "St. Teresa of Calcutta (Mother Teresa), founder of the Missionaries of Charity who served the sick and dying poor. Feast: September 5.",
+    "symbols": [
+      {
+        "symbol": "White cotton sari with blue borders",
+        "meaning": "The simple habit she first put on in August 1948 when she left Loreto to serve the poor; her sisters still wear it."
+      },
+      {
+        "symbol": "Rosary in hand",
+        "meaning": "The Holy See's biography describes her beginning each day with Jesus in the Eucharist and then going out to the slums with a rosary in her hand."
+      },
+      {
+        "symbol": "Crucifix with the words \"I thirst\"",
+        "meaning": "Christ's words from the Cross (John 19:28), written on the walls of Missionaries of Charity chapels as a reminder of Jesus' thirst for love and for souls."
+      },
+      {
+        "symbol": "A sick or dying person in her care",
+        "meaning": "Her work for people left to die without care, which Pope Francis singled out in his canonization homily."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Teresa of Calcutta because she treated the people others overlooked as persons worth loving: the sick, the dying, and the abandoned. She saw in them Christ himself, taking literally the Gospel's words about the least of these. Her life was also simple and repeatable. She began each day with the Eucharist, carried a rosary, and did ordinary acts of care. Letters published after her death revealed years of spiritual darkness, a felt absence of God, and that makes her a quiet companion for anyone who keeps faith when prayer feels empty. Asking her prayers usually leads to something practical: noticing the lonely person nearby and doing something kind.",
+    "quotes": [
+      {
+        "text": "Afterwards, Jesus knowing that all things were now accomplished, that the scripture might be fulfilled, said: I thirst.",
+        "work": "John 19:28",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, from the Cross you said, \"I thirst,\" and Saint Teresa of Calcutta heard in those words your longing for love and for souls. Through her prayers, open my eyes to the people around me who are hungry, sick, lonely, or forgotten, and let me see your face in them. Keep me close to you in the Eucharist and in prayer, even when you seem far away. Help me do small things with great love, faithfully and without seeking notice, until I come to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "\"Small things with great love\" echoes a phrase widely associated with her; it is used here as an allusion, not a quotation.",
+      "link": {
+        "label": "Novena and prayers to St. Teresa of Calcutta (Mother Teresa Center)",
+        "url": "https://www.motherteresa.org/prayers"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on September 5, the anniversary of her death in 1997; since 2025 it has been an optional memorial in the General Roman Calendar, so check whether your parish is keeping it.",
+      "Pray the nine-day Novena to St. Teresa of Calcutta published by the Mother Teresa Center, ending on the eve of her feast; one day's theme is Jesus' words \"I thirst.\"",
+      "Pray the Memorare several times in a row, the so-called \"flying novena\" she was known to use in urgent needs (accounts differ on whether she prayed it nine or ten times).",
+      "Spend some time before the Blessed Sacrament, as she began each day with Jesus in the Eucharist.",
+      "Visit, feed, or sit with someone who is sick, elderly, or alone, or give time to a local shelter or care home; Pope Francis held her up as a model for volunteers."
+    ],
+    "confirmationNote": "St. Teresa of Calcutta can suit a Confirmation candidate who wants faith to show up in service. She was a teacher for nearly twenty years before answering a second call, which shows that God can redirect a life already given to him. She also kept praying through long years of spiritual darkness. Taking her name can mean committing to daily prayer and to noticing people others pass by.",
+    "reflectionPrompts": [
+      "Who in your family, school, or neighborhood feels unwanted or overlooked, and how could you show them that they matter this week?",
+      "Choose one ordinary task you do every day and offer it to God as an act of love for a specific person in need.",
+      "Read Matthew 25:31–46 and John 19:25–30, then read the Holy See's biography of Mother Teresa and note how those two passages shaped her work."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "therese-of-lisieux",
+        "reason": "She took the religious name Teresa after St. Thérèse of Lisieux",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "Pope who beatified her in 2003 and supported the Missionaries of Charity in Rome",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "Another founder who organized religious women to serve the poor and sick",
+        "historical": false
+      },
+      {
+        "slug": "damien-of-molokai",
+        "reason": "Gave his life to caring for people with leprosy whom society had cast out",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Mother Teresa of Calcutta (1910-1997), biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20031019_madre-teresa_en.html"
+      },
+      {
+        "title": "Vatican News: St. Mother Teresa of Calcutta (saint of the day)",
+        "url": "https://www.vaticannews.va/en/saints/09/05/s--mother-theresa-of-calcutta.html"
+      },
+      {
+        "title": "Vatican News: Mother Teresa inscribed in the General Roman Calendar (2025)",
+        "url": "https://www.vaticannews.va/en/vatican-city/news/2025-02/mother-saint-teresa-calcutta-inscribed-roman-calendar.html"
+      },
+      {
+        "title": "Pope Francis: Homily for the canonization of Mother Teresa (September 4, 2016)",
+        "url": "https://www.vatican.va/content/francesco/en/homilies/2016/documents/papa-francesco_20160904_omelia-canonizzazione-madre-teresa.html"
+      },
+      {
+        "title": "Mother Teresa Center (Missionaries of Charity): Mother Teresa biography",
+        "url": "https://www.motherteresa.org/mother-teresa"
+      },
+      {
+        "title": "Mother Teresa Center: Prayers and Novena to St. Teresa of Calcutta",
+        "url": "https://www.motherteresa.org/prayers"
+      },
+      {
+        "title": "National Catholic Register: Thirsting for Love (\"I thirst\" in Missionaries of Charity chapels)",
+        "url": "https://www.ncregister.com/commentaries/murray-i-thirst-easter-missionaries-of-charity"
+      },
+      {
+        "title": "Catholic World Report / CNA: How to pray Mother Teresa's 'Flying Novena' (2024)",
+        "url": "https://www.catholicworldreport.com/2024/09/05/how-to-pray-mother-teresas-famous-emergency-flying-novena-to-our-lady/"
+      },
+      {
+        "title": "Catholic News Agency: Mother Teresa to be named co-patron of Kolkata archdiocese (2017)",
+        "url": "https://www.catholicnewsagency.com/news/36741/mother-teresa-to-be-named-co-patron-of-kolkata-archdiocese"
+      },
+      {
+        "title": "DRBO.org: John 19 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50019.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; co-patron of the Archdiocese of Calcutta (declared September 2017, per CNA) is sourced but has no live topic",
+      "quotes: her own words are under copyright, so Douay-Rheims verses tied to her spirituality (John 19:28, Matthew 25:40) were used instead",
+      "prayer: original; the Mother Teresa Center's novena prayer was not reproduced (modern, likely copyrighted), so it is linked instead",
+      "places: left empty; the Mother House in Kolkata (her tomb) has no official website found, and candidate sites for the Memorial House in Skopje did not load or could not be confirmed as official",
+      "symbols: the 'I thirst' inscription is sourced to the National Catholic Register rather than a Vatican page; the Holy See biography refers to Jesus' thirst for love and souls without describing the inscription",
+      "relatedSaints: John Paul II's support for the Missionaries of Charity in Rome ('Gift of Mary' house) is from the Vatican News saint page; beatification on October 19, 2003 is from the Mother Teresa Center",
+      "searchDescription: written because context description ends with an ellipsis"
+    ]
+  },
   "padre-pio": {
     "templateVersion": 2,
     "heroSummary": "St. Pio of Pietrelcina, widely known as Padre Pio, was an Italian Capuchin friar and priest who spent more than fifty years at San Giovanni Rotondo celebrating Mass, hearing confessions, and counseling crowds of visitors. Catholics keep his memorial on September 23. Beyond the reports of the stigmata, he left prayer groups and a hospital for the suffering.",
@@ -1306,6 +2224,229 @@
       "places: National Centre for Padre Pio (Barto, PA) is a devotional center rather than a Capuchin-run shrine; drop it if the site prefers only order-run places"
     ]
   },
+  "paul-the-simple": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Paul the Simple was an Egyptian peasant who, at about sixty, left a broken marriage and begged St. Anthony the Great to make him a monk. Anthony tested him hard and found him humble and obedient. Known for simplicity of heart, he is commemorated on March 7 by both Eastern and Western traditions.",
+    "searchDescription": "St. Paul the Simple, fourth-century Egyptian hermit who became St. Anthony's disciple at about sixty, known for humble obedience. Feast: March 7.",
+    "whyWeTurn": "People turn to St. Paul the Simple because his story starts late and badly. He was an old farmer whose marriage had collapsed, and Anthony at first told him to go home. He waited at the door anyway. According to Palladius, when Anthony made him unpick a whole day's weaving and do it over, Paul neither complained nor grew angry. That patient obedience is why the desert fathers remembered him. Tradition holds that he later freed a man from an evil spirit that Anthony sent to him. Anyone who feels too old, too hurt, or too ordinary to begin again with God can find a friend in him.",
+    "quotes": [
+      {
+        "text": "It is impossible for me to die elsewhere than here.",
+        "work": "Words attributed to Paul in Palladius, The Lausiac History 22.4",
+        "translation": "W. K. Lowther Clarke, 1918 (public domain)"
+      },
+      {
+        "text": "Amen I say to you, unless you be converted, and become as little children, you shall not enter into the kingdom of heaven.",
+        "work": "Matthew 18:3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Blessed are the clean of heart: for they shall see God.",
+        "work": "Matthew 5:8",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you welcomed Saint Paul the Simple when he came to you late in life, wounded and with nothing to offer but a willing heart. Through his prayers, give me the courage to begin again, whatever my age or my past. Teach me to accept correction without resentment, to redo patiently what I have done badly, and to trust you with a simple and undivided heart. Free me and those I love from every evil, and keep us humble before you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on March 7, the date on which Butler records that both Greeks and Latins commemorate him; in the current Roman calendar the day belongs to Sts. Perpetua and Felicity, so his memory is mostly a private devotion for Latin Catholics.",
+      "Eastern Orthodox and many Byzantine-tradition churches commemorate him on March 7 and again on October 4.",
+      "Read his short story in chapter 22 of Palladius's Lausiac History, a public-domain text from the desert tradition.",
+      "Redo one task you rushed or did poorly, carefully and without complaint, in memory of the mats Anthony had him unpick and weave again.",
+      "Pray a few psalms slowly in the evening, as Palladius describes Paul doing with Anthony."
+    ],
+    "confirmationNote": "St. Paul the Simple can suit a Confirmation candidate who values humility and perseverance over talent. He came to faith seriously only in old age, after a painful betrayal, and was turned away before he was accepted. He stayed, learned, and did humble work without complaint. Choosing his name can mean committing to keep showing up for God, especially when it is hard or unglamorous.",
+    "reflectionPrompts": [
+      "Is there a door you gave up knocking on, in prayer or in a relationship, that you might patiently knock on again?",
+      "The next time someone corrects your work this week, try to accept it calmly and redo the task without complaining.",
+      "Read chapter 22 of Palladius's Lausiac History (the story of Paul the Simple) alongside Matthew 18:1–4, and note what 'simplicity' means in each."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anthony-the-great",
+        "reason": "His teacher, who tested him and then gave him his own cell",
+        "historical": true
+      },
+      {
+        "slug": "john-climacus",
+        "reason": "Cited him in The Ladder of Divine Ascent as a model of simplicity",
+        "historical": true
+      },
+      {
+        "slug": "moses-the-black",
+        "reason": "Fellow Egyptian desert father whose story is also told in Palladius's Lausiac History",
+        "historical": true
+      },
+      {
+        "slug": "perpetua",
+        "reason": "Shares the March 7 date in the Roman calendar",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Palladius, The Lausiac History, tr. W. K. Lowther Clarke (1918), ch. 22 (tertullian.org)",
+        "url": "https://www.tertullian.org/fathers/palladius_lausiac_02_text.htm"
+      },
+      {
+        "title": "Orthodox Church in America: Venerable Paul the Simple, disciple of Anthony the Great",
+        "url": "https://www.oca.org/saints/lives/1000/03/07/100692-venerable-paul-the-simple-disciple-of-venerable-anthony-the-grea"
+      },
+      {
+        "title": "Orthodox Church in America: Venerable Paul the Simple of Egypt (October 4)",
+        "url": "https://www.oca.org/saints/lives/0201/10/04/102866-venerable-paul-the-simple-of-egypt"
+      },
+      {
+        "title": "EWTN (Catholic Encyclopedia, 1913): St. Paul the Simple",
+        "url": "https://www.ewtn.com/catholicism/library/st-paul-the-simple-5141"
+      },
+      {
+        "title": "Butler's Lives of the Saints: St. Paul, Anchoret, surnamed the Simple (ecatholic2000.com)",
+        "url": "https://www.ecatholic2000.com/butler/vol3/march31.shtml"
+      },
+      {
+        "title": "DRBO.org: Matthew 18 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47018.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols left empty; no established iconographic attributes were found in a reputable source (narrative details such as palm-leaf mats or his sheepskin cloak come from Palladius, not from a recognized iconographic tradition)",
+      "patronages: review lists none and no source states a patronage; left empty",
+      "places: none; no shrine or relic site with an official website was found",
+      "quotes: the Palladius line is words attributed to Paul in a narrative he did not write, not his own writing; verified verbatim from the 1918 Lowther Clarke translation on tertullian.org",
+      "heroSummary/feastCustoms: 'Eastern and Western traditions' and March 7 rest on Butler (Greeks and Latins) and the OCA; whether he appears in the current Roman Martyrology was not verified",
+      "feastCustoms: 'many Byzantine-tradition churches' extends the OCA's dates to other Byzantine churches; human check welcome",
+      "biography: Butler explains the surname 'the Simple' by his lack of secular learning and his humility, while the reviewed biography says it refers to gentleness and simplicity of heart, 'not an assessment of intelligence'. Palladius says he was 'exceedingly guileless and simple'. Not a direct contradiction, but a human may want to soften the reviewed sentence",
+      "whyWeTurn: the exorcism is framed as tradition, consistent with the reviewed biography's caution",
+      "searchDescription: written because context description ends with an ellipsis"
+    ]
+  },
+  "teresa-of-avila": {
+    "templateVersion": 2,
+    "heroSummary": "St. Teresa of Ávila (1515–1582), also called Teresa of Jesus, was a Spanish Carmelite who founded St. Joseph's in Ávila in 1562 and began a reform built on small, prayerful communities. Her Life, Way of Perfection, and Interior Castle still teach prayer as friendship with God. Her feast is October 15.",
+    "searchDescription": "St. Teresa of Ávila (1515–1582), feast October 15: Carmelite reformer, author of the Interior Castle, and the first woman named a Doctor of the Church.",
+    "symbols": [
+      {
+        "symbol": "Heart pierced by an angel's fiery spear",
+        "meaning": "In her Life (chapter 29) she describes an angel thrusting a golden spear tipped with fire into her heart, leaving her on fire with love of God; Carmelites commemorate it as the Transverberation."
+      },
+      {
+        "symbol": "Book and quill",
+        "meaning": "Her writings on prayer and religious life, the basis for Paul VI naming her a Doctor of the Church in 1970."
+      },
+      {
+        "symbol": "Dove",
+        "meaning": "The Holy Spirit as the source of her teaching; in her Life (chapter 38) she also describes seeing a dove above her head during prayer."
+      },
+      {
+        "symbol": "Discalced Carmelite habit",
+        "meaning": "The brown habit and white mantle of the reformed Carmelite communities she founded, beginning with St. Joseph's in Ávila."
+      }
+    ],
+    "whyWeTurn": "People turn to Teresa when prayer feels dry, distracted, or impossible. She struggled for years to pray well, and she wrote about it with humor and frankness, describing prayer as friendship with the One who loves us. She was also practical: she founded houses, managed scarce resources, traveled hard roads, and faced opposition. Tradition holds that she kept a short poem in her breviary reminding her that God alone suffices. Catholics ask her prayers for perseverance, for the sick, and for those discerning religious life. She shows that contemplation and hard work belong together, and that love of neighbor is the test of prayer.",
+    "quotes": [
+      {
+        "text": "mental prayer is nothing else, in my opinion, but being on terms of friendship with God, frequently conversing in secret with Him Who, we know, loves us.",
+        "work": "The Life of St. Teresa of Jesus, chapter 8",
+        "translation": "David Lewis (third edition, 1904), public domain"
+      },
+      {
+        "text": "The soul is satisfied now with nothing less than God.",
+        "work": "The Life of St. Teresa of Jesus, chapter 29",
+        "translation": "David Lewis (third edition, 1904), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Let nothing disturb thee,\nNothing affright thee;\nAll things are passing;\nGod never changeth;\nPatient endurance\nAttaineth to all things;\nWho God possesseth\nIn nothing is wanting;\nAlone God sufficeth.",
+      "kind": "traditional",
+      "source": "St. Teresa of Ávila, \"Nada te turbe\" (Santa Teresa's Book-Mark), translated by Henry Wadsworth Longfellow, Complete Poetical Works (public domain)",
+      "note": "Longfellow's subtitle records the tradition that she carried this short poem as a bookmark in her breviary; Catholic Culture also presents it as hers. Many modern translations word it differently (\"Let nothing disturb you...\"). The popular prayer \"Christ has no body now but yours\" is often credited to Teresa, but it is not found in her known writings.",
+      "link": {
+        "label": "Longfellow's Complete Poetical Works at Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1365"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on October 15, her memorial in the General Roman Calendar; Carmelite communities celebrate their foundress with higher rank.",
+      "Copy her bookmark prayer by hand and keep it in your Bible or prayer book.",
+      "Spend fifteen minutes in quiet mental prayer, speaking to Christ simply, as to a friend.",
+      "Read a chapter of her Life or the first dwelling places of the Interior Castle.",
+      "Make a Spanish treat such as yemas de Santa Teresa, the egg-yolk sweets associated with Ávila."
+    ],
+    "confirmationNote": "Teresa suits a Confirmation candidate who wants a real relationship with God and is honest that prayer can be hard. She also fits someone with energy and plans, since she was a founder and organizer as well as a teacher of prayer. Choosing her means committing to regular personal prayer, measuring it by growth in charity, and persevering when feelings fade.",
+    "reflectionPrompts": [
+      "If prayer is friendship with God, what kind of friend have I been to him lately?",
+      "Each day this week, spend ten minutes talking to Jesus in your own words, then do one kindness that interrupts your plans.",
+      "Read chapter 8 of her Life in David Lewis's translation, where she describes mental prayer as friendship with God."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-of-the-cross",
+        "reason": "Her collaborator in the reform of the Carmelite friars",
+        "historical": true
+      },
+      {
+        "slug": "peter-of-alc-ntara",
+        "reason": "Franciscan reformer who counseled and encouraged her, as she recounts in her Life",
+        "historical": true
+      },
+      {
+        "slug": "edith-stein",
+        "reason": "Read Teresa's autobiography in one night, became a Carmelite, and took the name Teresa",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Declared a Doctor of the Church one week after Teresa in 1970",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Teresa of Avila (February 2, 2011)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110202.html"
+      },
+      {
+        "title": "Francis: Video message on Saint Teresa of Jesus (April 15, 2021)",
+        "url": "https://www.vatican.va/content/francesco/en/messages/pont-messages/2021/documents/papa-francesco_20210415_videomessaggio-mujer-excepcional.html"
+      },
+      {
+        "title": "Paul VI: Homily proclaiming Teresa of Jesus a Doctor of the Church (September 27, 1970, Spanish)",
+        "url": "https://www.vatican.va/content/paul-vi/es/homilies/1970/documents/hf_p-vi_hom_19700927.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 15 (St. Teresa of Avila)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-15"
+      },
+      {
+        "title": "The Life of St. Teresa of Jesus, tr. David Lewis (3rd ed., 1904), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/8120"
+      },
+      {
+        "title": "Henry Wadsworth Longfellow, Complete Poetical Works (Santa Teresa's Book-Mark), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1365"
+      },
+      {
+        "title": "Vatican: Biography of Teresa Benedicta of the Cross (Edith Stein)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19981011_edith_stein_en.html"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; sourced patronages (Catholic Culture: Spain, Ávila, sick people, headache sufferers, people in religious orders, those ridiculed for piety, lacemakers) have no live topics, so the field is omitted.",
+      "places: her birthplace convent (La Santa) and the Monastery of the Incarnation in Ávila, and her tomb in the Basilica of the Annunciation at Alba de Tormes, are well documented, but I could not verify an official website for any of them, so places is omitted.",
+      "prayer: 'Nada te turbe' is a poem used as a prayer; its attribution to Teresa rests on long tradition (Longfellow's 19th-century subtitle; Catholic Culture). The claim that 'Christ has no body now but yours' is absent from her writings reflects common scholarly opinion; a human may want to confirm with a Carmelite source before publishing that sentence.",
+      "quotes: the first quote begins lowercase because it is taken from mid-sentence in Lewis's text ('...seeing that no one ever took Him for his friend that was not amply rewarded; for mental prayer is...').",
+      "feastCustoms: 'higher rank' for Carmelites is stated generally; Catholic Culture's yemas suggestion is a home custom, not liturgy.",
+      "biography: no disagreement found with the reviewed biography."
+    ]
+  },
   "therese-of-lisieux": {
     "templateVersion": 2,
     "heroSummary": "St. Thérèse of Lisieux was a French Carmelite nun who died in 1897 at twenty-four and is now a Doctor of the Church. Her \"little way\" teaches confidence in God's merciful love within ordinary duties. Named a patron of missions in 1927 without ever leaving her convent, she is celebrated on October 1.",
@@ -1450,6 +2591,157 @@
       "symbols: the crucifix-with-roses image is supported only by Society of the Little Flower imagery, not a formal iconography source; human may verify",
       "quotes: 'I will spend my Heaven in doing good upon earth' appears in the Taylor epilogue as a saying reported by her sisters, not her own written text, so it was not used; all three quotes were checked word-for-word against the Project Gutenberg Taylor text (the capitalized LOVE is as printed)",
       "relatedSaints: teresa-of-avila's role as reformer of the Discalced Carmelites is standard history but was not re-fetched in this pass"
+    ]
+  },
+  "thomas-aquinas": {
+    "templateVersion": 2,
+    "heroSummary": "St. Thomas Aquinas is the patron saint of Catholic schools, a title Pope Leo XIII gave him in 1880. A Dominican friar and Doctor of the Church, he taught that faith and reason work together, wrote the Summa Theologiae, and died at Fossanova in 1274. His feast is January 28.",
+    "searchDescription": "St. Thomas Aquinas (c. 1225–1274), feast January 28: Dominican Doctor of the Church, author of the Summa Theologiae, and patron of Catholic schools.",
+    "patronages": [
+      "catholic-schools"
+    ],
+    "symbols": [
+      {
+        "symbol": "Sun on his breast",
+        "meaning": "The light of his teaching, which helped illuminate the Church's understanding of the faith."
+      },
+      {
+        "symbol": "Ox",
+        "meaning": "His student nickname, the \"dumb ox,\" given to a large, quiet young friar; tradition adds that Albert the Great predicted this ox would one day be heard throughout the world."
+      },
+      {
+        "symbol": "Chalice or monstrance",
+        "meaning": "His devotion to the Eucharist and the Corpus Christi texts traditionally credited to him, including the Pange Lingua and Adoro te devote."
+      },
+      {
+        "symbol": "Teaching, with pagan philosophers at his feet",
+        "meaning": "His work as a master in the universities and his use of thinkers such as Aristotle in the service of Christian truth."
+      },
+      {
+        "symbol": "Dominican habit and book",
+        "meaning": "His life as a friar of the Order of Preachers and his enormous body of writing, above all the Summa Theologiae."
+      }
+    ],
+    "whyWeTurn": "Students have long asked St. Thomas for help before exams and papers, and that is a fine place to start. But he offers more than better grades. He was a patient, careful thinker who took hard questions seriously, listened to opponents, and believed that honest reasoning can lead toward God rather than away from him. He also prayed before the crucifix and the Blessed Sacrament, and tradition holds that near the end of his life he said that all he had written seemed like straw beside what God had shown him. We turn to him when we need clear thinking, humility about what we know, and a faith that is not afraid of questions.",
+    "quotes": [
+      {
+        "text": "Since therefore grace does not destroy nature but perfects it, natural reason should minister to faith as the natural bent of the will ministers to charity.",
+        "work": "Summa Theologiae I, q. 1, a. 8, reply to objection 2",
+        "translation": "Fathers of the English Dominican Province, 2nd rev. ed. (1920), public domain"
+      },
+      {
+        "text": "Hence it was necessary for the salvation of man that certain truths which exceed human reason should be made known to him by divine revelation.",
+        "work": "Summa Theologiae I, q. 1, a. 1",
+        "translation": "Fathers of the English Dominican Province, 2nd rev. ed. (1920), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Thomas Aquinas a great love for truth and a heart that bowed before the mystery of the Eucharist. Open my mind when I study, and keep me humble about what I know. Help me to ask good questions, to listen fairly to others, and to follow the truth wherever it leads. When learning is hard, give me patience; when it goes well, keep me grateful. Through St. Thomas's prayers, bless all students, teachers, and Catholic schools, and let everything I learn bring me closer to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Adoro te devote is traditionally attributed to St. Thomas. Gerard Manley Hopkins's English version (\"Godhead here in hiding\") exists in several drafts with differing wording, so it is linked rather than reproduced here.",
+      "link": {
+        "label": "Adoro te devote, Latin text and English translation (Catholic Culture)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=1083"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on January 28, his obligatory memorial in the General Roman Calendar.",
+      "Many Catholic schools, colleges, and Dominican communities mark the day with Mass, lectures, or other academic celebrations.",
+      "Spend time in Eucharistic adoration, or pray the Adoro te devote or the Tantum Ergo, hymns traditionally credited to him.",
+      "Pray for students, teachers, and Catholic schools, for example with Catholic Culture's Prayer to St. Thomas Aquinas for Schools.",
+      "Read one article of the Summa Theologiae slowly, noticing how he states the objections fairly before answering them."
+    ],
+    "places": [
+      {
+        "name": "Couvent des Jacobins (relics of St. Thomas Aquinas)",
+        "city": "Toulouse, France",
+        "url": "https://jacobins.toulouse.fr/"
+      },
+      {
+        "name": "Abbey of Fossanova (where he died in 1274)",
+        "city": "Priverno, Italy",
+        "url": "https://www.abbaziadifossanova.it/"
+      }
+    ],
+    "confirmationNote": "Thomas suits a candidate who loves learning, asks a lot of questions, or wonders whether faith and science can fit together. He chose his vocation against his family's wishes and gave his intelligence to God rather than to ambition. Choosing him can be a commitment to study the faith seriously, to think honestly, and to keep prayer at the center of learning.",
+    "reflectionPrompts": [
+      "What question about faith do I usually avoid, and what might it look like to bring it honestly to God and to people I trust?",
+      "Before you study this week, pause for one minute to offer the work to God and ask for clear thinking.",
+      "Read Summa Theologiae I, question 1, article 1, in the English Dominican translation, then Benedict XVI's June 2, 2010 audience on St. Thomas."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "albert-the-great",
+        "reason": "His teacher at Paris and Cologne, a fellow Dominican and Doctor of the Church",
+        "historical": true
+      },
+      {
+        "slug": "dominic",
+        "reason": "Founder of the Order of Preachers, which Thomas joined against his family's wishes",
+        "historical": true
+      },
+      {
+        "slug": "bonaventure",
+        "reason": "Franciscan contemporary who taught at Paris in the same years and also died in 1274",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Doctor of the Church whose writings Thomas cites throughout the Summa",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Thomas Aquinas, Dominican Priest, Doctor of the Church, Patron of Catholic Schools (January 28)",
+        "url": "https://www.vaticannews.va/en/saints/01/28.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Thomas Aquinas (June 2, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100602.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Thomas Aquinas (June 16, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100616.html"
+      },
+      {
+        "title": "Dominican Friars (Province of St. Joseph): St. Thomas Aquinas",
+        "url": "https://dominicanfriars.org/saint-thomas-aquinas-2/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, January 28 (St. Thomas Aquinas)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-28"
+      },
+      {
+        "title": "Catholic Culture: Eucharist Hymn, Adoro Te Devote",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=1083"
+      },
+      {
+        "title": "Catholic Culture: Prayer to Saint Thomas Aquinas for Schools",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=990"
+      },
+      {
+        "title": "Summa Theologiae I, q. 1, English Dominican translation (New Advent)",
+        "url": "https://www.newadvent.org/summa/1001.htm"
+      },
+      {
+        "title": "Couvent des Jacobins, Toulouse",
+        "url": "https://jacobins.toulouse.fr/"
+      },
+      {
+        "title": "Abbazia di Fossanova",
+        "url": "https://www.abbaziadifossanova.it/"
+      }
+    ],
+    "flags": [
+      "patronages: students, universities, scholars, theologians, philosophers, publishers and booksellers are sourced (Catholic Culture) but have no live topics",
+      "patronages: the Confraternity of the Angelic Warfare (chastity) is sourced (Dominican Friars) but has no live topic",
+      "prayer: Hopkins's Adoro te translation was not used as a traditional prayer because his drafts differ (Canterbury Dictionary of Hymnology) and I could not verify one exact public-domain text from a reliable source; the English version on Catholic Culture has no named translator. Original prayer written, linking the hymn",
+      "symbols: the ox symbol and Albert's remark are traditional anecdotes, worded as tradition; the 'Dominican habit and book' entry is general Dominican iconography rather than from the Catholic Culture symbol list (which gives chalice, monstrance, ox, star, sun, teaching with pagan philosophers)",
+      "whyWeTurn: the 'straw' remark is reported by early witnesses and quoted by Catholic Culture; worded as tradition",
+      "places: the Fossanova site is the abbey parish's own site (run by the Institute of the Incarnate Word); Jacobins site is run by the city of Toulouse and mentions the relics",
+      "relatedSaints: 'Albert taught him at Paris and Cologne' is standard history; the reviewed biography says only that he studied with Albert"
     ]
   }
 }

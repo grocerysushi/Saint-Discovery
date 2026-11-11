@@ -31,7 +31,8 @@ function problems(slug, entry, publishedSlugs) {
   if (entry.confirmationNote) need(words(entry.confirmationNote) >= 50 && words(entry.confirmationNote) <= 80, `confirmationNote is ${words(entry.confirmationNote)} words (50–80)`);
   for (const topic of entry.patronages ?? []) need(Boolean(getTopicBySlug(topic)), `patronage "${topic}" is not a live /patron-saint-of topic`);
   if (entry.patronages?.length && entry.heroSummary) need(/patron/i.test(firstSentence(entry.heroSummary)), 'heroSummary first sentence must name the patronage');
-  if (entry.symbols) need(entry.symbols.length >= 3 && entry.symbols.length <= 5 && entry.symbols.every(s => s.symbol && s.meaning), 'symbols must be 3–5 complete entries');
+  // 1.5 entries keep the old layout, so a short symbol list is stored for review, not rendered.
+  if (entry.symbols && entry.templateVersion === 2) need(entry.symbols.length >= 3 && entry.symbols.length <= 5 && entry.symbols.every(s => s.symbol && s.meaning), 'symbols must be 3–5 complete entries');
   if (entry.quotes) {
     need(entry.quotes.length <= 3, 'at most 3 quotes');
     for (const q of entry.quotes) {
