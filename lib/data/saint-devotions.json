@@ -3429,6 +3429,303 @@
       "feastCustoms: the claim that the 1984 homily describes the Korean Church as founded by lay people is from the vatican.va text ('founded entirely by lay people'); the homily does not name Andrew Kim in the portion fetched"
     ]
   },
+  "angela-merici": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Angela Merici (1474–1540) grew up near Lake Garda, became a Franciscan tertiary, and in Brescia founded the Company of St. Ursula in 1535: a way for women to consecrate their lives to God while living in the world rather than in a cloister. Canonized in 1807, she is remembered on January 27.",
+    "searchDescription": "St. Angela Merici, feast January 27, founded the Company of St. Ursula in Brescia in 1535 so women could consecrate their lives to God in the world.",
+    "symbols": [
+      {
+        "symbol": "Ladder (often with young women climbing it)",
+        "meaning": "Tradition recalls a vision in which Angela saw a procession of angels and virgins and heard her late sister tell her she would found a company of virgins; later art shows this as a ladder joining earth and heaven, the path her daughters would climb."
+      },
+      {
+        "symbol": "Cloak",
+        "meaning": "Catholic Culture lists a cloak among her traditional attributes; no reliable source found explains its origin, so it is best treated as an identifying attribute in her images rather than given a fixed meaning."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Angela Merici when they want to give their whole lives to God without leaving ordinary life behind. She lost her parents and her sister young, prayed through that grief, and spent years joining manual work, prayer and quiet help to neighbors. In Brescia she gathered women who were neither nuns nor wives into a company consecrated to Christ in the middle of the city. Her writings ask leaders to know each person by name and to guide with gentleness, never by force. Women discerning a vocation, teachers, mentors, and anyone carrying responsibility for others find in her a wise, motherly friend.",
+    "quotes": [
+      {
+        "text": "And the unmarried woman and the virgin thinketh on the things of the Lord, that she may be holy both in body and in spirit.",
+        "work": "1 Corinthians 7:34",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you led St. Angela Merici through loss and long waiting to the work you had prepared for her, and you gave her a mother's heart for the women who followed her. Through her prayers, help me to hear your call in the middle of my ordinary days. Teach me to know the people in my care by name, to guide them with gentleness and never by force, and to trust that you are faithful to what you begin. May I belong wholly to Christ wherever you place me. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on January 27, when the General Roman Calendar keeps an optional memorial of St. Angela Merici, Virgin; Ursuline schools and communities often celebrate it more solemnly.",
+      "Read part of her Counsels or Testament, which the Ursulines of the Roman Union publish in English alongside the Italian originals.",
+      "Pray by name for each person in your care (family, students, team or parishioners), as she urged the leaders of her company to remember each of their daughters by name.",
+      "Learn about the Company of St. Ursula, which continues today as a secular institute of women consecrated to God while living in the world.",
+      "Thank a woman who has mentored you in faith, or give some time to encouraging a girl or young woman in your parish or community."
+    ],
+    "places": [
+      {
+        "name": "Shrine of St. Angela Merici (Company of St. Ursula, Brescia)",
+        "city": "Brescia, Italy",
+        "url": "https://www.angelamerici.it/"
+      },
+      {
+        "name": "St. Peter's Basilica (statue of St. Angela among the founders)",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en/"
+      }
+    ],
+    "confirmationNote": "Angela Merici suits a confirmand who wants to belong completely to God without leaving everyday life, and who cares about friendship, mentoring and helping others grow. She waited years before her vocation became clear, and she trusted God through grief and illness. Confirmation strengthens Christians to live their faith in the world, and Angela shows that a consecrated heart can do that in the middle of an ordinary city.",
+    "reflectionPrompts": [
+      "Where in my everyday life is God asking me to belong to him more completely?",
+      "Write down the names of the people who depend on you this week and pray for each one by name.",
+      "Read St. Angela's Testament on the Ursulines of the Roman Union site and note what she asks of those who lead others."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ursula",
+        "reason": "Her company took St. Ursula's name; Vatican News traces her devotion to Ursula to childhood",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "She lived as a Franciscan tertiary before founding her company",
+        "historical": true
+      },
+      {
+        "slug": "cajetan",
+        "reason": "Italian contemporary (1480–1547) who also worked for renewal in the Church of her day",
+        "historical": true
+      },
+      {
+        "slug": "louise-de-marillac",
+        "reason": "Also opened a path for consecrated women serving outside the cloister",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News (Italian): Sant'Angela Merici, vergine, fondatrice delle Orsoline",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/01/27/sant-angela-merici--vergine--fondatrice-delle-orsoline.html"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Angela Merici, Virgin (January 27)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-27"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Angela Merici (New Advent)",
+        "url": "https://www.newadvent.org/cathen/01481a.htm"
+      },
+      {
+        "title": "Ursulines of the Roman Union: The Writings of St. Angela Merici",
+        "url": "https://ursulines-roman-union.org/en/writings-angela-merici"
+      },
+      {
+        "title": "Istituto Secolare Angela Merici (Company of St. Ursula): Roots",
+        "url": "https://www.istitutosecolareangelamerici.org/who-we-are/roots"
+      },
+      {
+        "title": "Compagnia di S. Orsola – Figlie di Sant'Angela Merici, Brescia (official site)",
+        "url": "https://www.angelamerici.it/"
+      },
+      {
+        "title": "Basilica di San Pietro (official site)",
+        "url": "https://www.basilicasanpietro.va/en/"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 7",
+        "url": "https://www.drbo.org/chapter/53007.htm"
+      }
+    ],
+    "flags": [
+      "symbols: only two established attributes are attested (Catholic Culture: 'Cloak; ladder; tall ladder with young women climbing it'; general references give the same pair), so the field has 2 rather than 3–5 items and templateVersion is 1.5. The ladder's meaning rests on the vision Vatican News describes, which it says later art pictured as a celestial ladder; no reliable source explains the cloak, so its meaning was deliberately left open.",
+      "patronages: review lists none. Catholic Culture lists sick people, against bodily ills, against the death of parents, disabled or physically challenged people, and Brescia, but none has a live topic, so the field is omitted.",
+      "quotes: no public-domain English translation of her Rule, Counsels or Testament could be verified (the Ursulines' English translations date from 1985/1995), and the Vatican News lines from her Testament are a modern Italian rendering, so only Scripture is quoted. The 'pray by name' custom and the whyWeTurn line about guiding with gentleness, never by force, paraphrase Vatican News's summary of her Testament.",
+      "prayer: the Roman Missal collect was not used; Catholic Culture's rendering of it is garbled and the current ICEL text is copyrighted, so an original prayer is given.",
+      "places: angelamerici.it is the site of the Company of St. Ursula of Brescia; Visit Brescia's shrine listing points there for the shrine's history, but the homepage rendered no readable text when fetched, so a human may want to confirm it is the best link for the shrine (formerly Sant'Afra) where her body rests. The St. Peter's statue (Pietro Galli, 1866) is from Vatican News; the basilica site does not itself mention her.",
+      "feastCustoms: 'Ursuline schools and communities often celebrate it more solemnly' is general knowledge, not from a fetched page; a human may want to soften or confirm.",
+      "relatedSaints: cajetan is linked by era and Italian Catholic reform only; no direct connection to Angela is documented.",
+      "biography: no disagreement with the reviewed biography. Sources differ on details the review avoids: the Catholic Encyclopedia says she was orphaned at ten and went blind on Crete during her 1524 Holy Land pilgrimage, while Vatican News says she lost her parents and sister around fifteen and places the blindness simply on the journey. The 1535 founding date (November 25) is in both Vatican News and the Catholic Encyclopedia."
+    ]
+  },
+  "anicetus": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Anicetus was a second-century bishop of Rome, originally from Syria. He is remembered for his meeting with St. Polycarp of Smyrna: they disagreed over when to celebrate Easter and neither persuaded the other, yet St. Irenaeus records that they shared the Eucharist and parted in peace. Vatican News commemorates him on April 20.",
+    "searchDescription": "St. Anicetus, a second-century bishop of Rome from Syria, disagreed with Polycarp over the date of Easter, yet the two shared the Eucharist and parted in peace.",
+    "whyWeTurn": "People turn to St. Anicetus when a disagreement threatens to become a break. Almost all we know of him comes from one encounter that St. Irenaeus later recalled: the aged Polycarp came to Rome, the two bishops could not agree on how to keep Easter, and still they remained in communion, Anicetus gave Polycarp the honor of celebrating the Eucharist, and they parted as brothers. He is a fitting companion for families, parishes and friends who must live with real differences, and for anyone praying for Christian unity. His example suggests that holding firmly to what we have received and treating others with deep respect can belong together.",
+    "quotes": [
+      {
+        "text": "But though matters were in this shape, they communed together, and Anicetus conceded the administration of the eucharist in the church to Polycarp, manifestly as a mark of respect. And they parted from each other in peace, both those who observed, and those who did not, maintaining the peace of the whole church.",
+        "work": "Irenaeus, letter to Pope Victor, quoted in Eusebius, Church History, Book V, chapter 24, §17",
+        "translation": "Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890; public domain)"
+      },
+      {
+        "text": "With all humility and mildness, with patience, supporting one another in charity. Careful to keep the unity of the Spirit in the bond of peace.",
+        "work": "Ephesians 4:2–3",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Anicetus and St. Polycarp could not agree, yet they would not let their disagreement divide your Church. Through the prayers of St. Anicetus, give me the humility to listen, the courage to hold to what is true, and the charity to honor those who see things differently. Heal the divisions among Christians, and gather us one day around a single altar. Where I am quick to quarrel, make me patient; where I am tempted to walk away, teach me to stay at the table. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 20, the date under which Vatican News lists him (older references give April 17 or other dates); he is not on the General Roman Calendar, so this is a day for personal or family prayer rather than a Mass in his honor.",
+      "Read Eusebius, Church History, Book IV, chapter 14, and Book V, chapter 24, at New Advent, where Irenaeus describes the meeting of Anicetus and Polycarp.",
+      "Pray for unity among Christians, especially between Catholic and Orthodox churches, which still often celebrate Easter on different Sundays.",
+      "Before a conversation with someone you disagree with, pray Ephesians 4:2–3 and name one thing you honestly respect in them.",
+      "Share a meal or a time of prayer with someone whose views differ from yours, as a small sign that disagreement need not end fellowship."
+    ],
+    "confirmationNote": "Anicetus suits a confirmand who cares about fairness, peace and keeping people together. He held to the practice he had received at Rome, yet when he could not persuade Polycarp, he honored him and kept communion with him. Confirmation strengthens Christians to witness to Christ, and Anicetus shows that part of that witness is disagreeing with charity, so that the Church's unity is guarded even when opinions differ.",
+    "reflectionPrompts": [
+      "Is there a disagreement in my life that I have let turn into distance, and what would it take to restore peace?",
+      "This week, invite someone you disagree with to coffee or a meal and listen more than you speak.",
+      "Read Eusebius, Church History, Book V, chapter 24, and note how Irenaeus uses the example of Anicetus and Polycarp to counsel Pope Victor."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "polycarp",
+        "reason": "Met Anicetus in Rome to discuss the date of Easter; they parted in peace",
+        "historical": true
+      },
+      {
+        "slug": "irenaeus-of-lyon",
+        "reason": "Recorded the meeting of Anicetus and Polycarp and lists Anicetus among the bishops of Rome",
+        "historical": true
+      },
+      {
+        "slug": "eleutherius",
+        "reason": "Hegesippus says Eleutherus was Anicetus's deacon; he later became bishop of Rome",
+        "historical": true
+      },
+      {
+        "slug": "justin-martyr",
+        "reason": "Taught in Rome in the same mid-second-century years",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Saints of April 20 (St. Anicetus, Pope)",
+        "url": "https://www.vaticannews.va/en/saints/04/20.html"
+      },
+      {
+        "title": "Eusebius, Church History, Book IV (New Advent; NPNF 2nd series vol. 1)",
+        "url": "https://www.newadvent.org/fathers/250104.htm"
+      },
+      {
+        "title": "Eusebius, Church History, Book V (New Advent; NPNF 2nd series vol. 1)",
+        "url": "https://www.newadvent.org/fathers/250105.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): Pope St. Anicetus (New Advent)",
+        "url": "https://www.newadvent.org/cathen/01514a.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ephesians 4",
+        "url": "https://www.drbo.org/chapter/56004.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable source lists iconographic attributes for Anicetus (Catholic Culture has no entry for him on April 17 or April 20); papal vestments or a martyr's palm would be generic guesses.",
+      "patronages: review lists none and no reputable source gives him a patronage; field omitted.",
+      "places: no shrine or church with an official site documented as connected to him was found; field omitted.",
+      "quotes: the Irenaeus passage was checked word for word against the New Advent text of the NPNF translation (Eusebius V.24.17). Strictly it is Irenaeus writing about Anicetus, not Anicetus's own words; no writings of Anicetus survive.",
+      "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar, not a page fetched here; a human may want to confirm.",
+      "relatedSaints: justin-martyr is linked by time and place only (Rome, mid-second century); no direct contact between the two is recorded. The Eleutherus link is from Hegesippus as quoted in Eusebius IV.22.",
+      "biography: no disagreement with the reviewed biography. Vatican News says Anicetus 'invited' Polycarp to Rome and dates his election to about 155; Irenaeus says only that Polycarp was in Rome in his time, so the text avoids 'invited'. The 1907 Catholic Encyclopedia calls him a martyr (with dates it admits are uncertain), and Vatican News says only that he died under Marcus Aurelius; martyrdom is therefore not claimed anywhere in this entry. Syrian origin rests on Vatican News and the review."
+    ]
+  },
+  "anna-wang": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Anna Wang was a Chinese Catholic girl of fourteen who was killed in 1900, during the Boxer uprising, after refusing to renounce her faith. John Paul II, canonizing her in 2000, recalled that she faced death saying heaven's door is open to all. She is honored among the Martyrs of China.",
+    "searchDescription": "St. Anna Wang, a 14-year-old Chinese Catholic martyred in 1900, refused to renounce her faith; John Paul II canonized her with the Martyrs of China in 2000.",
+    "whyWeTurn": "People turn to St. Anna Wang because she was so young and so sure. We know little about her daily life, but John Paul II told the world that at fourteen, pressed to give up her faith and facing execution, she would not, and that she went to her death calm, speaking of heaven's open door and murmuring the name of Jesus. She is a natural friend for teenagers who feel pressure to hide or drop their faith, for parents and catechists who form them, and for Christians in China and anywhere believers suffer for Christ. She reminds us that courage does not depend on age.",
+    "quotes": [
+      {
+        "text": "Every one therefore that shall confess me before men, I will also confess him before my Father who is in heaven.",
+        "work": "Matthew 10:32",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And fear ye not them that kill the body, and are not able to kill the soul: but rather fear him that can destroy both soul and body in hell.",
+        "work": "Matthew 10:28",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, St. Anna Wang was only fourteen when she was told to deny you, and she answered with your name on her lips. Through her prayers, give young people the courage to stay faithful when it is hard, and give all of us the peace that does not depend on our circumstances. Strengthen Christians in China and everywhere believers are pressured or persecuted. When I am tempted to hide my faith to fit in, remind me that heaven's door is open and that you are worth everything. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on July 9, when the General Roman Calendar keeps an optional memorial of St. Augustine Zhao Rong and Companions, the martyrs of China among whom she was canonized.",
+      "Read the passage about her in John Paul II's homily for the canonization of October 1, 2000, available on the Vatican website.",
+      "Pray for Catholics in China and for Christians anywhere who face pressure or violence because of their faith.",
+      "With teenagers, talk about times it is hard to admit you are a Christian, and pray Matthew 10:32 together.",
+      "Read the L'Osservatore Romano account of the 120 martyrs (reproduced by Catholic Culture) to learn the names of those who died with her generation in 1900."
+    ],
+    "confirmationNote": "Anna Wang suits a confirmand who wants courage to stand by their faith under pressure, especially from people their own age or from those with power. She was fourteen, about the age of many confirmands, when she refused to deny Christ. Confirmation strengthens Christians to confess Christ boldly, and Anna shows that this strength is not reserved for adults or heroes but is offered to the young.",
+    "reflectionPrompts": [
+      "When have I kept quiet about my faith because I was afraid of what others would think?",
+      "Choose one simple, visible way to show you are a Christian this week, such as grace before a meal in public.",
+      "Read the passage on the martyrs of China in John Paul II's homily of October 1, 2000, and Matthew 10:26–33."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "augustine-zhao-rong",
+        "reason": "Named first among the 120 Martyrs of China canonized with her; shares the July 9 memorial",
+        "historical": true
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "Canonized by John Paul II at the same Mass on October 1, 2000",
+        "historical": true
+      },
+      {
+        "slug": "jose-sanchez-del-rio",
+        "reason": "Another teenage martyr, killed at fourteen for refusing to renounce his faith",
+        "historical": false
+      },
+      {
+        "slug": "maria-goretti",
+        "reason": "Young martyr whose faithfulness inspires teenagers",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "John Paul II: Homily for the canonization of Augustine Zhao Rong and 119 companions, October 1, 2000 (English)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2000/documents/hf_jp-ii_hom_20001001_canonization.html"
+      },
+      {
+        "title": "Catholic Culture: 120 Missionaries and Chinese Believers Canonized (L'Osservatore Romano, October 4, 2000)",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=3159"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Augustine Zhao Rong and Companions (July 9)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-09"
+      },
+      {
+        "title": "Holy See Press Office: Briefing on the canonizations of October 1, 2000 (Bollettino N. 0550)",
+        "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2000/09/22/0550.pdf"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable source describes iconographic attributes for her; Notre Dame's Alliance for Catholic Education notes that there is little art depicting her, and Catholic Culture lists no symbols for the group.",
+      "feast: context feast_day is null. The text uses only the group optional memorial of St. Augustine Zhao Rong and Companions on July 9 (Catholic Culture), always framed as the group's day. An individual date of July 22 (her reported death date) appears only on Wikipedia-type and devotional sites and was not used; the site owner may want to decide whether to set July 9 as her feast in the data.",
+      "patronages: review lists none and no reputable source gives her a patronage; field omitted.",
+      "places: no shrine or church with an official site connected to her was found; field omitted.",
+      "quotes: her words come only from John Paul II's 2000 homily (copyrighted, and not her own writing), so they are paraphrased in heroSummary, whyWeTurn and prayer ('heaven's door is open to all', murmuring 'Jesus' three times) rather than set as a formal quote. The English homily calls her 'Ann Wang'.",
+      "heroSummary/searchDescription: 'killed in 1900, during the Boxer uprising' rests on L'Osservatore Romano (via Catholic Culture), which lists 'St Ann Wang, 14' among the Chinese lay Christians killed in July 1900 in south-eastern Tcheli (the Jesuit Apostolic Vicariate of Xianxian); the reviewed biography gives no year or place.",
+      "biography: no disagreement with the reviewed biography. Popular sources add details not used here: birth in 1886 at Majiazhuang (or Xingtai, per Notre Dame ACE), death on July 22, 1900, beatification by Pius XII in 1955, and stories of her stepmother and of leading other women in prayer. These lack a reputable Catholic source checked here."
+    ]
+  },
   "anne": {
     "templateVersion": 2,
     "heroSummary": "St. Anne is honored as a patron of mothers and, with St. Joachim, of grandparents. Scripture does not name Mary's parents; the name Anne and the story of her long childlessness come from the second-century Protoevangelium of James and later tradition. The Church celebrates Joachim and Anne together on July 26.",
@@ -3575,6 +3872,77 @@
       "biography: no disagreement. The Catholic Encyclopedia dates the Protoevangelium's earliest form to about 150 and Catholic Culture to about 170, so the text says 'second century'."
     ]
   },
+  "ansbert": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Ansbert (died about 695) left a career at the Frankish royal court to become a monk under St. Wandrille at Fontenelle, where he later served as abbot. In 684 he became bishop of Rouen. Caught up in the politics of his day, he died in exile at Hautmont. His local feast is February 9.",
+    "searchDescription": "St. Ansbert (d. c. 695), feast February 9: royal official turned monk of Fontenelle, abbot, and bishop of Rouen who died in exile at Hautmont.",
+    "whyWeTurn": "People turn to St. Ansbert when they are weighing success against something deeper. The records are brief, but they show a man who left honors at the court of Clotaire III to follow Christ as a monk, then accepted the burden of leading an abbey and a diocese. His last years were spent far from home, exiled for political reasons; the monks of Saint-Wandrille say he was a victim of jealousy. He did not get to finish his work on his own terms. Anyone who has been pushed aside unfairly, or who must choose between ambition and conscience, can ask his prayers.",
+    "prayer": {
+      "text": "Lord God, you drew St. Ansbert away from the honors of a royal court to seek you in the quiet of the monastery, and you kept him faithful as bishop and as an exile. Through his prayers, free me from the need for status and approval. Help me to serve wherever you place me, to lead without grasping for power, and to forgive those who treat me unjustly. When my plans are cut short, teach me to trust that my life is in your hands. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "St. Ansbert is not on the universal calendar; the monks of Saint-Wandrille keep his feast on February 9, so remember him in personal prayer that day.",
+      "Pray for the Benedictine monks of Saint-Wandrille, who still live at the site of his monastery.",
+      "Pray for the Archdiocese of Rouen and its bishop.",
+      "Pray for people living in exile or forced from their work for political reasons.",
+      "Set aside a period of quiet today, away from screens and status-seeking, in the spirit of his move from court to cloister."
+    ],
+    "places": [
+      {
+        "name": "Abbey of Saint-Wandrille (Fontenelle)",
+        "city": "Saint-Wandrille-Rançon, France",
+        "url": "https://st-wandrille.com/"
+      }
+    ],
+    "confirmationNote": "Ansbert suits a confirmand who is generous, gifted at organizing, or wrestling with ambition. He had an influential position at the royal court and gave it up to follow Christ, then used his abilities to serve his monastery and his diocese. When political enemies drove him out, he stayed faithful. Confirmation strengthens Christians to put their talents at God's service, and Ansbert shows how to do that without clinging to status.",
+    "reflectionPrompts": [
+      "What honor or approval do I hold onto too tightly?",
+      "Offer one practical act of help this week to someone who has been treated unfairly or pushed out of their place.",
+      "Read Matthew 19:27–29 in the Douay-Rheims, St. Peter's question about leaving everything, and consider Ansbert's choice to leave the court."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bathildis",
+        "reason": "Queen mother and regent of Clotaire III, whose court Ansbert left",
+        "historical": true
+      },
+      {
+        "slug": "willibrord",
+        "reason": "Missionary bishop in the same years under Pepin of Herstal, who exiled Ansbert",
+        "historical": true
+      },
+      {
+        "slug": "apollonia",
+        "reason": "Also remembered on February 9",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Father of the Benedictine life now followed at Fontenelle",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nominis (French Bishops' Conference): Saint Ansbert",
+        "url": "https://nominis.cef.fr/contenus/saints/598/Saint-Ansbert.html"
+      },
+      {
+        "title": "Abbaye Saint-Wandrille: La Terre des Saints (Saint Ansbert)",
+        "url": "https://st-wandrille.com/abbaye/"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. I found no reputable source describing an established iconography for St. Ansbert; a generic bishop's crozier would be unsupported as a specific attribute.",
+      "patronages: none found in a reputable source; review lists none.",
+      "quotes: omitted. No writings of his survive in a public-domain English translation, and no Scripture passage is specifically tied to him in the sources.",
+      "biography: no contradiction, two additions for a human. The Saint-Wandrille monks call him the abbey's third abbot, chosen by Wandrille as one of his immediate successors, and say he became bishop of Rouen in 684 after the death of St. Ouen. They describe him as a 'victim of jealousy'; Nominis names Pepin of Herstal as the ruler who exiled him. The abbey adds that his body was brought back to Fontenelle, later moved to Ghent (Mont-Blandin), and destroyed by Calvinists in 1578. Nominis says he was chancellor at Clotaire III's court and names him also Austrebert.",
+      "relatedSaints: Bathildis was regent for Clotaire III in the early part of his reign; the sources do not say whether Ansbert served at court during her regency. Willibrord is linked by era and by Pepin of Herstal, not by any recorded contact.",
+      "reflectionPrompts: the Matthew passage is a thematic choice, not one the sources connect to him."
+    ]
+  },
   "anselm-of-canterbury": {
     "templateVersion": 2,
     "heroSummary": "St. Anselm of Canterbury (1033–1109) was a Benedictine monk from Aosta who taught and prayed at the abbey of Bec before becoming archbishop of Canterbury in 1093. His Proslogion and Cur Deus Homo explore faith seeking understanding, and his defense of the Church's freedom twice cost him exile. His feast is April 21.",
@@ -3711,6 +4079,127 @@
       "feastCustoms: Catholic Culture also credits him with establishing the feast of the Immaculate Conception in the West; many historians attribute this to his circle (e.g. his nephew Anselm the Younger or Eadmer), so it was left out."
     ]
   },
+  "ansgar": {
+    "templateVersion": 2,
+    "heroSummary": "St. Ansgar (801–865), called the Apostle of the North, was a Benedictine monk of Corbie who carried the Gospel to Denmark and Sweden. As bishop of Hamburg and later Bremen, he rebuilt after Hamburg was destroyed in 845, ransomed captives and cared for the sick. His disciple Rimbert wrote his Life; his feast is February 3.",
+    "searchDescription": "St. Ansgar (801–865), feast February 3: Benedictine monk and bishop of Hamburg-Bremen, the Apostle of the North who preached in Denmark and Sweden.",
+    "symbols": [
+      {
+        "symbol": "Model of a church (Hamburg Cathedral)",
+        "meaning": "The Church he planted as first bishop of Hamburg and the small churches he built in Denmark and Sweden."
+      },
+      {
+        "symbol": "Fur pelisse (fur-lined cloak)",
+        "meaning": "The clothing of a missionary who traveled through the cold lands of the North."
+      },
+      {
+        "symbol": "Bishop's crozier and vestments",
+        "meaning": "His office as bishop of Hamburg and later of the united see of Hamburg-Bremen, a shepherd for peoples who had not yet heard the Gospel."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Ansgar when their work for God seems to fail. Rimbert's Life describes missions that collapsed, a city burned, churches abandoned and funding cut off, yet Ansgar kept starting again. He built hospitals, ransomed captives, pressed a Danish king to ease the slave trade and gave generously to the poor. When people praised his miracles, he answered that the only miracle he wanted was to be made a good man. Missionaries, people serving in hard places and anyone tempted to measure faithfulness by quick results find in him a patient, humble companion.",
+    "quotes": [
+      {
+        "text": "Were I worthy of such a favour from my God, I would ask that he would grant to me this one miracle, that by His grace He would make of me a good man.",
+        "work": "Rimbert, Life of Anskar, chapter 39 (Ansgar's words to a friend, as reported by his disciple)",
+        "translation": "Charles H. Robinson, Anskar, the Apostle of the North (London: SPCK, 1921; public domain)"
+      },
+      {
+        "text": "Into thy hands I commend my spirit: thou hast redeemed me, O Lord, the God of truth.",
+        "work": "Psalm 30:6 (Psalm 31:6 in modern numbering), among the verses Rimbert says Ansgar repeated as he died",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sent St. Ansgar to peoples who did not yet know you, and you kept him faithful when his work was undone again and again. Through his prayers, give me patience when my efforts seem to come to nothing, and courage to begin again. Make me generous to the poor, attentive to the sick, and ready to work for the freedom of those who are bound. Bless all who carry the Gospel to hard places today. And, as Ansgar asked, grant me the one miracle that matters most: by your grace, make me a good person. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "St. Ansgar has an optional memorial in the universal Roman calendar on February 3; ask whether your parish will celebrate it at Mass.",
+      "February 3 is also the memorial of St. Blaise, so many parishes offer the blessing of throats that day; pray for Ansgar's intercession alongside it.",
+      "In Denmark, Sweden and northern Germany, where he is honored as patron, remember the Catholic communities of Scandinavia in prayer.",
+      "Support a missionary or a charity that frees captives or victims of human trafficking, recalling his work to ransom captives.",
+      "Read a few chapters of Rimbert's Life of Anskar, especially chapters 39–41 on his humility and death."
+    ],
+    "places": [
+      {
+        "name": "St. Mary's Cathedral (St. Marien-Dom), where relics of St. Ansgar are kept",
+        "city": "Hamburg, Germany",
+        "url": "https://mariendomhamburg.de/"
+      },
+      {
+        "name": "St. Ansgar Church (Kleiner Michel)",
+        "city": "Hamburg, Germany",
+        "url": "https://kleiner-michel.de/"
+      }
+    ],
+    "confirmationNote": "Ansgar suits a confirmand who is brave, persistent, or drawn to mission. He traveled into unfamiliar and dangerous places to share the Gospel, saw much of his work destroyed, and still kept going without bitterness. He also cared for prisoners, the sick and the poor. Confirmation strengthens Christians to witness to Christ wherever they are sent, and Ansgar shows that faithful perseverance is itself a form of courage.",
+    "reflectionPrompts": [
+      "Where have I given up on something good because the results came slowly?",
+      "Choose one concrete act this week for someone who is not free, such as a prisoner, a migrant or a victim of trafficking.",
+      "Read chapters 35–41 of Rimbert's Life of Anskar in Charles Robinson's 1921 translation, and note what his disciple valued most in him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "blaise",
+        "reason": "Shares the February 3 memorial",
+        "historical": true
+      },
+      {
+        "slug": "cyril-and-methodius",
+        "reason": "Ninth-century contemporaries who carried the Gospel to the Slavs as he did to the North",
+        "historical": false
+      },
+      {
+        "slug": "boniface",
+        "reason": "Benedictine missionary to the Germans a century before him",
+        "historical": false
+      },
+      {
+        "slug": "olaf",
+        "reason": "Norwegian king later honored for the Christian faith of the North",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rimbert, Life of Anskar, trans. Charles H. Robinson (1921), Internet Medieval Sourcebook, Fordham University",
+        "url": "https://sourcebooks.fordham.edu/basis/anskar.asp"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Anschar",
+        "url": "https://www.newadvent.org/cathen/01544c.htm"
+      },
+      {
+        "title": "Catholic Culture: St. Ansgar (February 3)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2020-02-03"
+      },
+      {
+        "title": "Vatican News: February 3 calendar",
+        "url": "https://www.vaticannews.va/en/saints/02/03.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 30",
+        "url": "https://www.drbo.org/chapter/21030.htm"
+      },
+      {
+        "title": "St. Marien-Dom Hamburg",
+        "url": "https://mariendomhamburg.de/"
+      },
+      {
+        "title": "Kleiner Michel, Catholic Church of St. Ansgar, Hamburg",
+        "url": "https://kleiner-michel.de/"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists Denmark, Scandinavia, Sweden, the city and diocese of Bremen and the diocese of Hamburg; none has a live topic. Review lists none.",
+      "symbols: only 3. Catholic Culture lists the fur pelisse and the model of Hamburg Cathedral; the bishop's crozier and vestments are standard for a bishop and common in his images, but I found no Catholic source listing them specifically for him.",
+      "quotes: the Rimbert quote was checked against the Fordham transcription of Robinson (1921), which reads '1 would ask' (an OCR error); 'I' is restored. Robinson's note says it is uncertain whether the words deny that miracles were worked through him. Rimbert reports Ansgar praying 'Into Thy hands, O Lord, I commend my spirit'; the Douay-Rheims psalm verse is supplied for the Scripture he echoed.",
+      "places: Catholic Culture says his relics are in Hamburg's St. Mary's Cathedral and in the church of St. Ansgar and St. Bernhard; both official sites load. The Kleiner Michel site names the parish 'St. Ansgar und St. Bernhard'.",
+      "biography: no disagreement. The Catholic Encyclopedia gives birth 8 September 801 and death 5 February 865, and says Bremen was united to Hamburg in 847/857 with Ansgar as first archbishop."
+    ]
+  },
   "anthony-mary-claret": {
     "templateVersion": 2,
     "heroSummary": "St. Anthony Mary Claret was a Catalan weaver turned missionary preacher who founded the Claretians in 1849, served as archbishop of Santiago de Cuba, and spread the faith through cheap books and pamphlets. He survived an assassin's razor and forgave his attacker. His feast is October 24.",
@@ -3832,6 +4321,131 @@
       "places: CESC is at the Claretian house in Vic; a travel guide says his remains rest in the crypt of the church there and claret.org says his tomb is in Vic, but I did not find a dedicated official page for the tomb church. Fontfroide Abbey is now privately owned; its site is its own official one",
       "biography: claret.org gives his age at death as 62 and Catholic Culture (Lodi) as 63; born December 23, 1807, he was 62. The reviewed biography gives no age, so no conflict",
       "relatedSaints: john-bosco is marked historical as a contemporary founder (same era), not a direct companion"
+    ]
+  },
+  "anthony-mary-zaccaria": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anthony Mary Zaccaria (1502–1539) was a doctor from Cremona who became a priest and a reformer in Milan. Inspired by St. Paul, he founded the Barnabites, the Angelic Sisters and a community of married laypeople, and promoted Eucharistic adoration and devotion to the Crucified. He died at about 36; his feast is July 5.",
+    "searchDescription": "St. Anthony Mary Zaccaria (1502–1539), feast July 5: doctor turned priest who founded the Barnabites and Angelic Sisters in the spirit of St. Paul.",
+    "symbols": [
+      {
+        "symbol": "Crucifix",
+        "meaning": "Christ crucified was the center of his preaching; the Barnabites recall that he preached in Milan's streets with a crucifix in hand."
+      },
+      {
+        "symbol": "Chalice and Host",
+        "meaning": "His love for the Eucharist, frequent Communion and public adoration, which the Barnabites associate with the early Forty Hours devotion in Milan."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Purity of heart; his relics in Milan are shown holding a silver lily."
+      },
+      {
+        "symbol": "Book of St. Paul's letters",
+        "meaning": "The Apostle whose spirit shaped his three foundations, all named for St. Paul."
+      },
+      {
+        "symbol": "Black cassock",
+        "meaning": "The simple clerical dress of the Clerics Regular of St. Paul he founded."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Anthony Mary Zaccaria when their faith has grown lukewarm and they want it to burn again. He was a trained physician who decided he was called to heal souls, and he kept caring for the sick as a priest. He gathered priests, religious women and married couples into one shared mission of renewal, drawing on St. Paul's urgency and love for Christ crucified. Doctors, nurses, students of medicine, and anyone who wants to live their ordinary work as a vocation find in him an energetic, practical guide. The Barnabites still honor him as patron of physicians.",
+    "quotes": [
+      {
+        "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.",
+        "work": "Galatians 6:14 (St. Paul, whose spirituality of the Cross shaped Zaccaria's foundations)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Furthermore I count all things to be but loss for the excellent knowledge of Jesus Christ my Lord...",
+        "work": "Philippians 3:8 (echoed in the collect for his memorial)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you called St. Anthony Mary Zaccaria from healing bodies to healing souls, and filled him with St. Paul's love for your Cross. Through his prayers, wake me from lukewarm habits and set my heart on fire for you. Help me to find you in the Eucharist, to look often at the crucifix, and to see my daily work as a way of serving others. Bless doctors, nurses and all who care for the sick. Make me eager to grow in the knowledge of you, and generous in sharing it. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Novena to St. Anthony Zaccaria (Barnabite Fathers)",
+        "url": "https://www.barnabites.com/novena-to-st-anthony/"
+      }
+    },
+    "feastCustoms": [
+      "Celebrate his optional memorial at Mass on July 5; Barnabite parishes and communities keep it with special solemnity.",
+      "Pray before a crucifix at 3 p.m. on Friday, recalling the hour of Christ's death, a remembrance the Barnabites trace to him.",
+      "Visit a church with Eucharistic adoration and spend time with the Blessed Sacrament.",
+      "Pray for the sick and for doctors and nurses, since he was a physician before he was a priest.",
+      "Read one of St. Paul's letters, such as Galatians or Philippians, in honor of the Apostle he took as his model."
+    ],
+    "confirmationNote": "Anthony Mary Zaccaria suits a confirmand who is joyful, energetic, or thinking about a career in medicine or service. He used his medical training to care for people's bodies and then gave his life to renewing their faith. He drew laypeople, priests and religious women into a common mission. Confirmation sends Christians out to share the Spirit's fire with others, and he shows how to do that with enthusiasm and love for the Cross.",
+    "reflectionPrompts": [
+      "Where has my faith become lukewarm, and what one step would rekindle it?",
+      "Set an alarm for 3 p.m. this Friday and spend a few minutes in prayer before a crucifix.",
+      "Read Galatians 6 and Philippians 3 in the Douay-Rheims and note what St. Paul says about the Cross and knowing Christ."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-the-apostle",
+        "reason": "The Apostle for whom all three of his foundations are named",
+        "historical": true
+      },
+      {
+        "slug": "cajetan",
+        "reason": "Fellow founder of an order of clerics regular in the same era of reform",
+        "historical": true
+      },
+      {
+        "slug": "angela-merici",
+        "reason": "Lombard contemporary who founded a new community for women in 1535",
+        "historical": true
+      },
+      {
+        "slug": "charles-borromeo",
+        "reason": "Carried Catholic reform forward in Milan a generation later",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barnabite Fathers: Life of St. Anthony Mary Zaccaria",
+        "url": "https://www.barnabites.com/life/"
+      },
+      {
+        "title": "Barnabite Fathers: St. Anthony, a Patron of Physicians",
+        "url": "https://www.barnabites.com/a-patron-of-physicians/"
+      },
+      {
+        "title": "Barnabite Fathers: Novena to St. Anthony Zaccaria",
+        "url": "https://www.barnabites.com/novena-to-st-anthony/"
+      },
+      {
+        "title": "Barnabite Fathers: Angelic Sisters of St. Paul",
+        "url": "https://www.barnabites.com/angelic-sisters-of-st-paul/"
+      },
+      {
+        "title": "Catholic Culture: St. Anthony Zaccaria (July 5)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2021-07-05"
+      },
+      {
+        "title": "Vatican News (Italian): Sant'Antonio Maria Zaccaria and the work of the Barnabites (2018)",
+        "url": "https://www.vaticannews.va/it/chiesa/news/2018-07/sant-antonio-maria-zaccaria-opera-barnabiti.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Galatians 6",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Philippians 3",
+        "url": "https://www.drbo.org/chapter/57003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. The Barnabite Fathers call him patron of physicians, and Catholic Culture lists the Angelic Sisters of St. Paul; neither has a live topic.",
+      "quotes: no public-domain translation of his letters or sermons was verified, so only Douay-Rheims verses are given. The Barnabite site quotes 'Of myself I can do nothing, but this crucifix will give me the victory,' but the translation's date and rights are unclear.",
+      "places: omitted. His body rests in the church of San Barnaba in Milan, but I could not verify an official website for that church.",
+      "feastCustoms: the 3 p.m. Friday remembrance and the Forty Hours link are from the Barnabite Life and Catholic Culture; historians debate who first began the Forty Hours, so the text says the Barnabites associate it with him.",
+      "biography: no disagreement. Note for a human: Catholic Culture names his co-founders as Bartholomew Ferrari and James Morigia, while the Barnabite Life says 'Anthony Morigia'; the review does not name them."
     ]
   },
   "anthony-of-padua": {
@@ -3980,6 +4594,372 @@
       "places: only one place listed; no verified official English site found for his birthplace church in Lisbon"
     ]
   },
+  "anthony-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Anthony the Great (about 250–356) is a patron of farmers and is invoked as a protector of animals. An Egyptian Christian, he gave away his inheritance after hearing the Gospel and spent most of his life in the desert. The Life attributed to St. Athanasius spread his example widely, and his memorial is January 17.",
+    "searchDescription": "St. Anthony the Great (c. 250–356), feast January 17: Egyptian desert hermit, father of monks, patron of farmers and protector of animals.",
+    "patronages": [
+      "farmers"
+    ],
+    "symbols": [
+      {
+        "symbol": "Tau-shaped staff (T-shaped cross)",
+        "meaning": "The hermit's staff in the form of the Greek and Hebrew letter tau, a sign of the cross and of his long life as a desert monk."
+      },
+      {
+        "symbol": "Pig, often with a bell at its neck",
+        "meaning": "Linked to the medieval Antonine hospitallers, who raised pigs because their fat was used to anoint the sick; it later made him a protector of farm animals."
+      },
+      {
+        "symbol": "Small bell",
+        "meaning": "Hung from his tau staff or at the pig's neck in many images; Catholic Culture lists the bell among his attributes, and he is a patron of bell ringers."
+      },
+      {
+        "symbol": "Flames",
+        "meaning": "The painful disease ergotism was called \"St. Anthony's fire,\" and the sick sought his intercession at Antonine hospitals."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "The Scriptures he carried in memory; the Life says he listened so closely that his memory served him for books."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Anthony when they need courage in spiritual struggle. The Life attributed to Athanasius shows him as a man who heard one line of the Gospel and took it literally, then spent decades learning to pray, work with his hands and resist temptation. Yet the portrait is not grim: early writers remember his cheerfulness, his gentleness with visitors and his advice that good judgment matters more than heroic effort. Farmers and anyone who keeps animals have long asked his protection, a custom tradition holds grew from the hospitals that bore his name. He reminds us that peace with God is built one faithful day at a time.",
+    "quotes": [
+      {
+        "text": "Wherefore fear them not, but rather ever breathe Christ, and trust Him. Live as though dying daily.",
+        "work": "Athanasius, Life of Antony, section 91 (Antony's farewell counsel to his disciples, about the demons)",
+        "translation": "H. Ellershaw, in Nicene and Post-Nicene Fathers, Second Series, vol. 4 (1892; public domain)"
+      },
+      {
+        "text": "For it is not far from us, nor is it without ourselves, but it is within us, and is easy if only we are willing.",
+        "work": "Athanasius, Life of Antony, section 20 (Antony speaking of virtue to the monks)",
+        "translation": "H. Ellershaw, in Nicene and Post-Nicene Fathers, Second Series, vol. 4 (1892; public domain)"
+      },
+      {
+        "text": "Jesus saith to him: If thou wilt be perfect, go sell what thou hast, and give to the poor, and thou shalt have treasure in heaven: and come follow me.",
+        "work": "Matthew 19:21 (the Gospel Anthony heard in church before giving away his inheritance)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you called St. Anthony through a single verse of your Gospel, and he followed you into the desert with an undivided heart. Through his prayers, help me to hear your word as if it were spoken to me today. When I am tempted or afraid, teach me to breathe your name and trust you. Give me patience in ordinary work, gentleness with those who seek me out, and the good judgment he prized above every hard practice. Watch over farmers, their land and their animals. And bring us all to the treasure in heaven you promised to those who follow you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Join the Church's universal memorial of St. Anthony, Abbot, at Mass on January 17.",
+      "In Italy and many rural places, stables and domestic animals are blessed on his feast; ask whether a nearby parish offers a blessing of animals.",
+      "Read the opening sections of the Life of Antony, especially his response to Matthew 19:21, in the public-domain Nicene and Post-Nicene Fathers translation.",
+      "Pray for monks, nuns and hermits, and for vocations to monastic life.",
+      "Give something away today that you have been holding onto, as Anthony gave his inheritance to his neighbors and the poor."
+    ],
+    "confirmationNote": "Anthony suits a confirmand who wants to take the Gospel seriously and is ready for spiritual effort. He heard one verse at Mass and acted on it, then spent years learning prayer, work and self-control. The Life presents his struggles with temptation honestly, but always ends with trust in Christ. Confirmation strengthens Christians for that same struggle, and Anthony shows that steady faithfulness matters more than dramatic gestures.",
+    "reflectionPrompts": [
+      "Which line of the Gospel do I already know is meant for me, and what keeps me from acting on it?",
+      "Choose one possession, habit or distraction to give up this week, and use the time you gain to pray.",
+      "Read sections 1–10 and 91–92 of Athanasius's Life of Antony in the Nicene and Post-Nicene Fathers translation, and note how his counsel at the end echoes his beginning."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "athanasius",
+        "reason": "Bishop who knew him and is the traditional author of the Life of Antony",
+        "historical": true
+      },
+      {
+        "slug": "pachomius",
+        "reason": "Younger Egyptian contemporary who organized monks in community",
+        "historical": true
+      },
+      {
+        "slug": "paul-the-simple",
+        "reason": "An Egyptian desert monk remembered as Anthony's disciple",
+        "historical": true
+      },
+      {
+        "slug": "isidore-the-farmer",
+        "reason": "Another saint farmers ask to protect their work",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Athanasius, Life of Antony, trans. H. Ellershaw, NPNF Second Series vol. 4 (1892), Christian Classics Ethereal Library",
+        "url": "https://ccel.org/ccel/schaff/npnf204/npnf204.xvi.ii.html"
+      },
+      {
+        "title": "New Advent: Life of Antony (Athanasius)",
+        "url": "https://www.newadvent.org/fathers/2811.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Anthony",
+        "url": "https://www.newadvent.org/cathen/01553d.htm"
+      },
+      {
+        "title": "Vatican News: St. Antony, Abbot",
+        "url": "https://www.vaticannews.va/en/saints/01/17/st--antony--abbot.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Anthony, Abbot (January 17)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2020-01-17"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 19",
+        "url": "https://www.drbo.org/chapter/47019.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists farmers (included) plus animals, domestic animals, swineherds, butchers, basket makers, brushmakers, gravediggers, hermits and monks, amputees, and protection against skin diseases, epilepsy and ergotism; Vatican News calls him protector of animals. None of these except farmers has a live topic.",
+      "places: omitted. His tomb is traditionally associated with the Monastery of St. Anthony in Egypt and relics are kept at Saint-Antoine-l'Abbaye in France, but I did not verify an official website for either.",
+      "quotes: both Life of Antony quotes were checked against the original 1892 NPNF wording on CCEL. New Advent's revised edition modernizes some pronouns (e.g. 'If you would be perfect' for 'If thou wouldest be perfect'), so cite CCEL/NPNF for exact wording. The second quote refers to virtue; the reader should know the subject from the preceding sentence.",
+      "symbols: pig, bell, tau staff and fire are attested by Vatican News and Catholic Culture; the book is in Catholic Culture's list, and the meaning given ties it to section 3 of the Life.",
+      "relatedSaints: paul-the-simple as Anthony's disciple rests on the Lausiac History tradition; a human may want to confirm the site's Paul the Simple page agrees.",
+      "biography: no disagreement. The Catholic Encyclopedia names his birthplace as Coma near Heracleopolis and places his death in 356–357; the review's 'About 250–356' fits."
+    ]
+  },
+  "apollinaris": {
+    "templateVersion": 2,
+    "heroSummary": "St. Apollinaris is honored as the first bishop of Ravenna and as a martyr, and the city still counts him as its patron. Tradition links him to Antioch and to St. Peter, but his dates are uncertain. His memory shines in the sixth-century Basilica of Sant'Apollinare in Classe, and the Church remembers him on July 20.",
+    "searchDescription": "St. Apollinaris, feast July 20: honored as Ravenna's first bishop and a martyr, remembered in the great basilica of Sant'Apollinare in Classe.",
+    "symbols": [
+      {
+        "symbol": "Arms raised in prayer (orans)",
+        "meaning": "In the sixth-century apse mosaic at Classe he stands with open arms in the ancient posture of prayer, interceding for his people. It is the earliest and most famous image of him."
+      },
+      {
+        "symbol": "Twelve sheep",
+        "meaning": "The lambs around him in the Classe mosaic stand for the faithful he shepherded as Ravenna's first bishop."
+      },
+      {
+        "symbol": "White vestments marked with black crosses",
+        "meaning": "The white stole or pallium of a bishop, worn over a chasuble in the mosaic; it marks him as the founding pastor of the Church of Ravenna."
+      },
+      {
+        "symbol": "Club",
+        "meaning": "Tradition says he was beaten repeatedly for his preaching and died of his injuries."
+      },
+      {
+        "symbol": "Hot coals",
+        "meaning": "From the later legend of his sufferings, which tells of repeated tortures; it is not part of the early evidence for his life."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Apollinaris when they think about the beginnings of faith in a place: who first brought the Gospel to their town, and what it cost. Ravenna has remembered him as its first bishop for many centuries, and when its Christians built their greatest church at Classe, they put him, not Christ enthroned, in the center of the apse, praying with open arms over his flock. Tradition holds that he was beaten again and again for preaching and kept returning to his people. He is a good companion for bishops, priests and anyone who has been sent somewhere new to build up a community of faith.",
+    "quotes": [
+      {
+        "text": "Feed the flock of God which is among you, taking care of it, not by constraint, but willingly, according to God: not for filthy lucre's sake, but voluntarily: Neither as lording it over the clergy, but being made a pattern of the flock from the heart.",
+        "work": "1 Peter 5:2–3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And when the prince of pastors shall appear, you shall receive a never fading crown of glory.",
+        "work": "1 Peter 5:4",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And he was transfigured before them. And his face did shine as the sun: and his garments became white as snow.",
+        "work": "Matthew 17:2 (the Transfiguration, shown symbolically above him in the apse at Classe)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave the Church of Ravenna St. Apollinaris as its first shepherd, who would not stop preaching your Gospel even when he was beaten for it. Through his prayers, bless our bishop and our priests with courage and a shepherd's heart. Help us to cherish the faith that others carried to us at great cost, and to hand it on with love to those who come after us. Like the people of Ravenna, may we keep our eyes on Christ, whose glory shone on the mountain. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on July 20, when St. Apollinaris may be celebrated as an optional memorial in the General Roman Calendar; Catholic Culture notes this memorial was restored in 2002.",
+      "In Classe, near Ravenna, the local celebration is kept on July 23, his older feast day.",
+      "Look closely at a photograph of the apse mosaic at Sant'Apollinare in Classe and pray with him in the orans posture he is shown in.",
+      "Read 1 Peter 5:1–4 and pray for your own bishop by name.",
+      "Find out who first brought the faith to your diocese or parish, and thank God for them."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Sant'Apollinare in Classe",
+        "city": "Classe (Ravenna), Italy",
+        "url": "https://www.ravennacittadelmosaico.it/en/place/basilica-of-santapollinare-in-classe/"
+      },
+      {
+        "name": "Basilica of Sant'Apollinare Nuovo",
+        "city": "Ravenna, Italy",
+        "url": "https://www.ravennamosaici.it/"
+      }
+    ],
+    "confirmationNote": "Apollinaris suits a confirmand who feels called to build something, to lead, or to stay with people through hard times. Ravenna remembers him as the pastor who first gathered its Christian community and kept preaching despite beatings. His image at Classe, arms raised in prayer over his flock, shows leadership rooted in intercession. Confirmation sends Christians out to bear witness, and Apollinaris is a patron for those who are sent.",
+    "reflectionPrompts": [
+      "Who first brought the faith to me, and have I ever thanked God, or them, for it?",
+      "Pray this week for your bishop and your parish priest by name, and send one of them a note of thanks.",
+      "Read Vatican News's entry on Sant'Apollinare and sort its details into those it calls uncertain and those it simply narrates from tradition."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "margaret-of-antioch",
+        "reason": "Shares the July 20 feast",
+        "historical": true
+      },
+      {
+        "slug": "symmachus",
+        "reason": "Pope who, Vatican News says, helped bring Apollinaris's cult to Rome",
+        "historical": true
+      },
+      {
+        "slug": "peter",
+        "reason": "Tradition says Peter sent him to Ravenna as its bishop",
+        "historical": false
+      },
+      {
+        "slug": "ignatius-of-antioch",
+        "reason": "Another early bishop and martyr linked with Antioch",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Sant'Apollinare, vescovo di Ravenna e martire",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/07/20/sant-apollinare--vescovo-di-ravenna-a-martire.html"
+      },
+      {
+        "title": "Catholic Culture: July 20 (St. Apollinaris, optional memorial)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-20"
+      },
+      {
+        "title": "Ravenna Città del Mosaico (City of Ravenna): Basilica of Sant'Apollinare in Classe",
+        "url": "https://www.ravennacittadelmosaico.it/en/place/basilica-of-santapollinare-in-classe/"
+      },
+      {
+        "title": "Ravenna Mosaici: Opera di Religione della Diocesi di Ravenna (official site)",
+        "url": "https://www.ravennamosaici.it/"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 5 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/67005.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 17 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/47017.htm"
+      }
+    ],
+    "flags": [
+      "patronages: 'Archdiocese of Ravenna-Cervia', 'against epilepsy' and 'against gout' are sourced (Catholic Culture's patronage list; the City of Ravenna site calls him the city's 'first bishop and patron') but have no live topic. Review lists none.",
+      "symbols: orans posture, twelve sheep and white stole over chasuble come from the City of Ravenna's description of the Classe apse mosaic; 'white vestments and black cross', club and hot coals are from Catholic Culture's symbols list. The specific episode behind the hot coals was not verified, so its meaning is kept general.",
+      "quotes: no writings of Apollinaris survive; Scripture used instead, verified at drbo.org. The Missal collect for his memorial was not used because the English text is ICEL copyright.",
+      "places: ravennacittadelmosaico.it is the City of Ravenna's tourism site (the basilica is state-managed and I found no standalone official site); ravennamosaici.it is the diocesan Opera di Religione site, which covers Sant'Apollinare Nuovo. Both URLs load.",
+      "feastCustoms: optional-memorial rank, the 2002 restoration, and the July 23 local date in Classe are from Catholic Culture; not checked against the Missal itself.",
+      "relatedSaints: peter is marked historical:false because the Peter connection is tradition only. symmachus rests on Vatican News's statement that his cult reached Rome with Popes Symmachus and Honorius I.",
+      "biography: no disagreement in substance. Vatican News narrates the traditional story (Antioch, Peter, 30 years as bishop, death under Vespasian in 70) while noting some sources date him to 150–200; Catholic Culture gives about 79. Vatican News says his relics were brought into the city in the ninth century (to the church later named Sant'Apollinare Nuovo), while Catholic Culture says his body lies in Classe; I avoided stating where the relics are now."
+    ]
+  },
+  "apollonia": {
+    "templateVersion": 2,
+    "heroSummary": "St. Apollonia was an elderly Christian woman of Alexandria who died in mob violence against Christians shortly before the persecution of Decius, about 249. Her bishop, Dionysius, described her death in a letter that Eusebius preserved. Because her teeth were broken, Catholics have long invoked her against toothache. Her memory is kept on February 9.",
+    "searchDescription": "St. Apollonia, feast February 9: an elderly Christian of Alexandria killed by a mob about 249, invoked against toothache because her teeth were broken.",
+    "symbols": [
+      {
+        "symbol": "Pincers holding a tooth",
+        "meaning": "Her best-known attribute. Dionysius says the mob broke out all her teeth; later art turned this into pincers, which is why people with toothache ask her prayers."
+      },
+      {
+        "symbol": "A single tooth, sometimes gilded or worn on a chain",
+        "meaning": "A shorthand for the same injury, used when the pincers are left out."
+      },
+      {
+        "symbol": "Martyr's palm",
+        "meaning": "The common sign of a martyr's victory; artists often pair it with her tooth."
+      },
+      {
+        "symbol": "Fire",
+        "meaning": "The fire the crowd lit outside the city. Dionysius says that, released for a moment, she went into it herself rather than repeat their blasphemies."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Apollonia most often in very ordinary pain: a toothache, a dreaded dental appointment, a child's sore jaw. Because a mob broke her teeth, tradition holds that she understands that kind of suffering, and dentists have long counted her as their patron. But her story is about more than teeth. She was an old woman, respected in her community, who stayed faithful when a crowd demanded that she join their blasphemies. Catholic Culture suggests asking her prayers for a courageous and holy death, and older Catholics may find in her a friend who knows that age does not end our witness.",
+    "quotes": [
+      {
+        "text": "Then they seized also that most admirable virgin, Apollonia, an old woman, and, smiting her on the jaws, broke out all her teeth.",
+        "work": "Dionysius of Alexandria, Letter to Fabius of Antioch, quoted in Eusebius, Church History VI.41.7 (Dionysius writing about Apollonia)",
+        "translation": "Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890), public domain"
+      },
+      {
+        "text": "And they made a fire outside the city and threatened to burn her alive if she would not join with them in their impious cries.",
+        "work": "Dionysius of Alexandria, Letter to Fabius of Antioch, quoted in Eusebius, Church History VI.41.7",
+        "translation": "Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890), public domain"
+      },
+      {
+        "text": "Dearly beloved, think not strange the burning heat which is to try you, as if some new thing happened to you; But if you partake of the sufferings of Christ, rejoice that when his glory shall be revealed, you may also be glad with exceeding joy.",
+        "work": "1 Peter 4:12–13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Apollonia the strength to stay faithful when a violent crowd struck her and demanded that she deny you. Through her prayers, comfort all who suffer pain in the mouth and teeth, steady those who are anxious about treatment, and bless the dentists and hygienists who care for them. Give courage to Christians who face hatred for their faith today. When my own life draws near its end, keep me faithful and at peace, trusting in your mercy. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on February 9, the date under which Vatican News and Catholic Culture list her; she is not on the General Roman Calendar, so this is a day for personal or family prayer rather than a Mass in her honor.",
+      "Read Dionysius's own account in Eusebius, Church History, Book VI, chapter 41, freely available at New Advent.",
+      "Pray for someone in dental pain or facing a procedure, and thank the dentist or hygienist who cares for your family.",
+      "Pray for Christians who face mob violence for their faith today, as Apollonia's community did in Alexandria.",
+      "Catholic Culture notes that in some parts of Italy she plays the role of the tooth fairy; when a child loses a tooth, tell them her story."
+    ],
+    "confirmationNote": "Apollonia suits a confirmand who wants a patron for courage that does not depend on age, strength or status. She was an old woman facing an angry crowd, and she would not repeat the words they demanded. Her story also speaks to anyone who lives with physical pain. Confirmation strengthens Christians to bear witness, and her witness came at the cost of real suffering.",
+    "reflectionPrompts": [
+      "When people around me mock or pressure my faith, what words am I tempted to repeat just to fit in?",
+      "Visit, call or write to an elderly person in your parish or family this week and ask how their faith has carried them.",
+      "Read Eusebius, Church History, Book VI, chapter 41, and list the other Alexandrian martyrs Dionysius names alongside Apollonia."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "alexander-of-jerusalem",
+        "reason": "Died in prison in the same Decian persecution that Eusebius describes in Book VI",
+        "historical": true
+      },
+      {
+        "slug": "agatha",
+        "reason": "Virgin martyr of the same mid-third-century persecutions, also invoked for a bodily suffering",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-alexandria",
+        "reason": "Another virgin martyr honored in Alexandria",
+        "historical": false
+      },
+      {
+        "slug": "blaise",
+        "reason": "Also invoked for a particular bodily ailment, the throat",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eusebius, Church History, Book VI, chapter 41 (New Advent; NPNF trans. McGiffert)",
+        "url": "https://www.newadvent.org/fathers/250106.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Apollonia",
+        "url": "https://www.newadvent.org/cathen/01617c.htm"
+      },
+      {
+        "title": "Catholic Culture: February 9 (St. Apollonia, commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2021-02-09"
+      },
+      {
+        "title": "Vatican News: Saint of the Day, February 9 (St. Apollonia, Virgin and Martyr of Alexandria)",
+        "url": "https://www.vaticannews.va/en/saints/02/09.print.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 4 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/67004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: dentists, dental technicians, against toothache and tooth disease are sourced (Catholic Culture's patronage list; the Catholic Encyclopedia says she is popularly invoked against toothache) but have no live topic. Review lists none. heroSummary and whyWeTurn mention the toothache invocation in prose only.",
+      "symbols: pincers with a tooth (Catholic Encyclopedia; Catholic Culture), tooth / gilded tooth / golden tooth on a chain, and tooth with palm branch (Catholic Culture's symbols list). 'Fire' comes from the Dionysius account itself, not from Catholic Culture's symbols list; a human may prefer to drop it, which leaves three.",
+      "quotes: the two Dionysius excerpts were checked word for word against the McGiffert NPNF translation at New Advent (VI.41.7). They are Dionysius's words about her, not hers; she left no writings. 1 Peter 4:12–13 verified at drbo.org.",
+      "places: Catholic Culture says her relics are divided among Roman churches (body at Sant'Apollinare alle Terme, head at Santa Maria in Trastevere, arms at San Lorenzo fuori le Mura); I could not confirm these from official church sites, so places is omitted.",
+      "feastCustoms: 'not on the General Roman Calendar' rests on Catholic Culture listing her only as a commemoration on February 9.",
+      "whyWeTurn/heroSummary: Dionysius calls her 'an old woman' (parthenos presbytis); the Catholic Encyclopedia suggests the phrase may mean a deaconess. I followed the plain reading 'elderly', which Vatican News also uses.",
+      "biography: no disagreement. Dionysius says that, briefly released, she leapt into the fire herself; the reviewed biography's 'died in the fire prepared for her' is consistent but does not mention this. The Catholic Encyclopedia notes Augustine's discussion (City of God I.26) of such voluntary deaths and that the Church honored her as a martyr. Catholic Culture's text calls her both 'young' and 'already elderly' and places her death about 250 'under Decius'; Dionysius places the riot a full year before Decius's decree, as the reviewed biography does. Vatican News says her teeth were 'pulled out'; Dionysius says they were broken by blows."
+    ]
+  },
   "apollonius": {
     "templateVersion": 1.5,
     "heroSummary": "St. Apollonius of Rome was a learned Christian who, in the reign of Commodus, was denounced and then asked to explain his faith before the Roman Senate. Eusebius says he gave an eloquent defense, yet he was condemned and beheaded around 185. The Church commemorates him on April 21.",
@@ -4076,6 +5056,92 @@
       "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar (April 21 there is St. Anselm), not from a page fetched here; a human may want to confirm.",
       "relatedSaints: irenaeus-of-lyon is linked by era only (both late second century, under Commodus); no direct connection between the two is known.",
       "biography: no disagreement with the reviewed biography. Vatican News dates his death to 185 and calls Perennis 'gouverneur'; Eusebius calls him the judge and he was praetorian prefect. Eusebius's detail that the accusing servant had his legs broken was not used."
+    ]
+  },
+  "arsenius": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Arsenius the Great was a learned Roman who tutored the sons of Emperor Theodosius in Constantinople, then left the court for the Egyptian desert of Scetis. There he became one of the most admired Desert Fathers, known for silence, tears of repentance and humility. The Western Church remembers him on July 19.",
+    "searchDescription": "St. Arsenius the Great, feast July 19: a Roman tutor at the imperial court who left for the Egyptian desert and became a Desert Father known for silence.",
+    "whyWeTurn": "People turn to St. Arsenius when life is too loud. He had status, learning and a place at the emperor's side, and the sayings remember him praying to know how to live and hearing that he should flee, keep silence and pray. He is a companion for anyone who talks too much, scrolls too much or measures themselves by achievement. Tradition holds that this scholar of Greek and Latin asked an unlettered Egyptian monk for advice, admitting he had not learned that man's alphabet of the spiritual life. Teachers, students and busy professionals can find in him a reminder that wisdom begins in humility and quiet.",
+    "quotes": [
+      {
+        "text": "Arsenius, flee, keep silence, and lead a life of silent contemplation, for these are the fundamental causes which prevent a man from committing sin.",
+        "work": "The Sayings of the Holy Fathers, Book I, chapter 1, §2 (the voice Arsenius heard in prayer, as the Sayings report it)",
+        "translation": "E. A. Wallis Budge, The Paradise or Garden of the Holy Fathers, vol. II (London: Chatto & Windus, 1907), p. 3; public domain"
+      },
+      {
+        "text": "That I have spoken I have many times repented; that I held my peace I have never repented.",
+        "work": "The Sayings of the Holy Fathers, Book I, chapter on humility, §549 (a saying Arsenius used to repeat)",
+        "translation": "E. A. Wallis Budge, The Paradise or Garden of the Holy Fathers, vol. II (London: Chatto & Windus, 1907), p. 124; public domain"
+      },
+      {
+        "text": "With Greek and Latin learning I am well acquainted, but I have not yet learned the alphabet of this villager.",
+        "work": "Questions and Answers on the Ascetic Rule, §234 (Arsenius's reply when asked why he sought advice from an Egyptian peasant monk)",
+        "translation": "E. A. Wallis Budge, The Paradise or Garden of the Holy Fathers, vol. II (London: Chatto & Windus, 1907), pp. 202–203; public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Arsenius out of the noise and honor of the imperial court into the silence of the desert, where he learned to listen to you. Through his prayers, quiet the restless chatter of my mind and my mouth. Help me to speak less and pray more, to hold my learning lightly, and to accept wisdom from unexpected teachers. Give me true sorrow for my sins and trust in your mercy. When I am tempted to seek attention, draw me back to you, the one thing necessary. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on July 19, his date in Western calendars; he is not on the General Roman Calendar, so this is a day for personal prayer. Eastern churches keep his memory on May 8.",
+      "Keep an hour, or a whole morning, of deliberate silence: no phone, no music, no conversation, and offer it to God.",
+      "Read a few of his sayings in Budge's public-domain translation of the Sayings of the Holy Fathers, freely available on the Internet Archive.",
+      "Before speaking in an argument or posting online, pause and ask whether you will regret the words; Arsenius said he often regretted speaking but never regretted silence.",
+      "Ask advice this week from someone whose wisdom comes from experience rather than credentials."
+    ],
+    "confirmationNote": "Arsenius suits a confirmand who is gifted academically, introverted, or tired of noise and wants to learn to pray. He gave up wealth and an important teaching post to seek God in silence, yet still asked humble monks to teach him. Confirmation strengthens the gifts of wisdom and understanding, and his life shows that these grow through prayer, listening and humility more than through learning alone.",
+    "reflectionPrompts": [
+      "When did I last regret something I said, and when did I last regret staying silent?",
+      "Choose one daily habit that fills your silence, such as music, scrolling or podcasts, and give it up for one week to make room for prayer.",
+      "Read the Catholic Encyclopedia article on St. Arsenius and compare it with the first two sayings in Budge's Paradise of the Holy Fathers, vol. II."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "moses-the-black",
+        "reason": "Fellow monk of Scetis named with him in the Sayings of the Desert Fathers",
+        "historical": true
+      },
+      {
+        "slug": "anthony-the-great",
+        "reason": "Father of the Egyptian desert monasticism that Arsenius joined",
+        "historical": true
+      },
+      {
+        "slug": "damasus-i",
+        "reason": "Pope who, by tradition, chose Arsenius as imperial tutor and ordained him deacon",
+        "historical": true
+      },
+      {
+        "slug": "john-baptist-de-la-salle",
+        "reason": "Patron of teachers, for a saint who began as a tutor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Arsenius",
+        "url": "https://www.newadvent.org/cathen/01754b.htm"
+      },
+      {
+        "title": "Nominis (Conférence des évêques de France): Saint Arsène",
+        "url": "https://nominis.cef.fr/contenus/saint/1532/Saint-Ars%C3%A8ne.html"
+      },
+      {
+        "title": "E. A. Wallis Budge, The Paradise or Garden of the Holy Fathers, vol. II (1907), Internet Archive",
+        "url": "https://archive.org/details/paradiseorgarden02anan"
+      }
+    ],
+    "flags": [
+      "symbols: left empty. I found no reputable Catholic source (Vatican, Catholic Culture, Catholic Encyclopedia, Nominis) listing iconographic attributes for Arsenius; a monk's habit, scroll or tears would be guesses. templateVersion is 1.5.",
+      "patronages: review lists none and no reputable source gives him a patronage (one popular site's 'retreats, contemplatives, scholars' was not used); field omitted.",
+      "places: no shrine or church with an official site connected to him was found; Catholic Encyclopedia says he died at Troe, Nominis says Mit Rahina, both in Egypt. Field omitted.",
+      "quotes: verified against the archive.org OCR of Budge vol. II (1907), checked line by line. Budge translates the Syriac compilation of Anan-Isho, so wording differs from translations of the Greek alphabetical collection (e.g. the Catholic Encyclopedia's 'flee the company of men, and thou shalt be saved' corresponds to Budge §1). The first quote is the voice he heard, not his own words. Chapter labels follow Budge's book; OCR made the chapter numerals unreliable, so the humility chapter is named rather than numbered.",
+      "feastCustoms: 'not on the General Roman Calendar' is from his absence on Vatican News and Catholic Culture for July 19 (both show other observances); May 8 Eastern date from Nominis and the reviewed biography.",
+      "relatedSaints: damasus-i rests on the Catholic Encyclopedia (Gratian and Damasus chose him as tutor; 'said to have been a deacon') and Nominis (ordained deacon by Damasus); both are traditional. moses-the-black is named with Arsenius in Budge (the vision of the two boats).",
+      "biography: no disagreement. The Catholic Encyclopedia gives 354–450 and says he tutored Arcadius from 383 for eleven years and later Honorius too; Nominis gives death in 449. The reviewed biography's caution about chronology fits."
     ]
   },
   "augustine-of-hippo": {
