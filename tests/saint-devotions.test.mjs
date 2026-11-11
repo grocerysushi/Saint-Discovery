@@ -51,7 +51,7 @@ function problems(slug, entry, publishedSlugs) {
   }
   if (entry.feastCustoms) {
     need(entry.feastCustoms.length >= 3 && entry.feastCustoms.length <= 5, 'feastCustoms must have 3–5 items');
-    need(!entry.feastCustoms.some(c => /\b\d{1,2}(:\d{2})?\s*(a\.?m\.?|p\.?m\.?)\b|\(\d{3}\)|\d{3}-\d{4}/i.test(c)), 'feastCustoms must not include Mass times or phone numbers');
+    need(!entry.feastCustoms.some(c => /\b\d{1,2}(:\d{2})?\s*(a\.?m\.?|p\.?m\.?)\b|\(\d{3}\)\s*\d{3}|\b\d{3}[-. ]\d{4}\b/i.test(c)), 'feastCustoms must not include Mass times or phone numbers');
   }
   if (entry.places) {
     need(entry.places.length <= 3, 'at most 3 places');

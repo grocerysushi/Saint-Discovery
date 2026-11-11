@@ -1024,6 +1024,1162 @@
       "feastCustoms: the page's July 12 date is her individual commemoration; she is not separately listed in the General Roman Calendar, which honors her in the November 24 group memorial"
     ]
   },
+  "agnes-of-assisi": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Agnes of Assisi was the younger sister of St. Clare and, sixteen days after her, one of the first women to embrace the Franciscan life of poverty and prayer. She later led the Poor Clare community at Monticelli near Florence, returned to Assisi as Clare was dying, and died in November 1253. Franciscans keep her feast on November 19.",
+    "searchDescription": "St. Agnes of Assisi, Clare's younger sister, followed her into Franciscan poverty in 1212 and led the Poor Clares at Monticelli. Feast: November 19.",
+    "whyWeTurn": "People turn to St. Agnes of Assisi when following God strains family ties, or when love for a brother or sister is woven into their faith. She left home as a teenager to join Clare, and the early Legend of St. Clare records relatives trying to drag her back by force; the story that her body became too heavy to carry belongs to devotional tradition. Later she was sent far from the sister she loved to lead another community, and she accepted that separation. Siblings, people asked to lead after a beloved mentor, and anyone serving far from home find in her a gentle, faithful companion.",
+    "quotes": [
+      {
+        "text": "Help me, dearest sister, and suffer me not to be taken from Christ the Lord.",
+        "work": "Legend of St. Clare, ascribed to Thomas of Celano, chapter on the conversion of Clare's sister (Agnes's words as the Legend reports them)",
+        "translation": "Paschal Robinson, O.F.M., trans., The Life of Saint Clare ascribed to Thomas of Celano (Philadelphia: Dolphin Press, 1910; public domain)"
+      },
+      {
+        "text": "It is pleasing to God, dearest sister, that I go hence. But, as for thee, cease weeping, for thou shalt come to the Lord soon after myself...",
+        "work": "Legend of St. Clare, ascribed to Thomas of Celano, account of Clare's death (Clare's words to Agnes)",
+        "translation": "Paschal Robinson, O.F.M., trans., The Life of Saint Clare ascribed to Thomas of Celano (Philadelphia: Dolphin Press, 1910; public domain)"
+      },
+      {
+        "text": "...forgetting the things that are behind, and stretching forth myself to those that are before, I press towards the mark, to the prize of the supernal vocation of God in Christ Jesus.",
+        "work": "Philippians 3:13–14 (from the first reading the Irish Franciscans give for her feast)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, St. Agnes of Assisi left her home to follow you with her sister Clare, held fast when others tried to pull her away, and later served you far from the people she loved most. Through her prayers, give me courage when my faith costs me comfort or approval. Bless my brothers and sisters and keep us close in you. When I am sent somewhere I did not choose, help me to serve there with gentleness, patience and trust, until we rejoice together in your presence. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Franciscan communities keep her feast on November 19; she is not on the General Roman Calendar, so most Catholics remember her in personal prayer.",
+      "Read Philippians 3:8–14, the first reading the Irish Franciscans assign for her feast, and pray over Paul's words about pressing on toward the prize.",
+      "Read the account of her conversion in the Legend of St. Clare and talk with your family about what it cost the two sisters.",
+      "Call, write to or pray for a brother or sister, especially one who lives far away.",
+      "If you visit Assisi, pray in the Basilica of Santa Chiara, where, according to the Catholic Encyclopedia, her remains rest near those of her mother and sisters."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Santa Chiara (Basilica di Santa Chiara)",
+        "city": "Assisi, Italy",
+        "url": "https://www.assisisantachiara.it/"
+      }
+    ],
+    "confirmationNote": "Agnes suits a confirmand whose faith has meant choosing differently from family or friends. As a teenager she followed her sister Clare into a life of poverty and prayer, held firm under pressure, and later accepted leadership in a community far from home. Confirmation strengthens Christians to witness to Christ with courage, and Agnes shows that such courage can be gentle, loyal and steady over a whole lifetime.",
+    "reflectionPrompts": [
+      "Who in my family has most helped my faith, and have I ever thanked them for it?",
+      "This week, reach out to a brother, sister, cousin or old friend you have drifted away from.",
+      "Read the chapter on Agnes's conversion in Paschal Robinson's 1910 translation of the Legend of St. Clare, and note what Clare and Agnes each say."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Her older sister, whom she followed into religious life in 1212",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Cut her hair and received her into the Franciscan way of life",
+        "historical": true
+      },
+      {
+        "slug": "agnes-of-bohemia",
+        "reason": "Another Agnes in Clare's circle, Clare's correspondent in Prague",
+        "historical": true
+      },
+      {
+        "slug": "colette-of-corbie",
+        "reason": "Later renewed the Poor Clare life Agnes helped begin",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Franciscan Media: Saint Agnes of Assisi",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-agnes-of-assisi/"
+      },
+      {
+        "title": "Irish Franciscans: St. Agnes of Assisi",
+        "url": "https://www.franciscans.ie/life-mission/spirituality/franciscan-saints/st-agnes-of-assisi/"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Agnes of Assisi",
+        "url": "https://www.newadvent.org/cathen/01213a.htm"
+      },
+      {
+        "title": "The Life of Saint Clare ascribed to Thomas of Celano, trans. Paschal Robinson (1910), Internet Archive",
+        "url": "https://archive.org/details/TheLifeOfSaintClare"
+      },
+      {
+        "title": "Douay-Rheims Bible: Philippians 3",
+        "url": "https://www.drbo.org/chapter/57003.htm"
+      },
+      {
+        "title": "Basilica di Santa Chiara, Assisi (official website)",
+        "url": "https://www.assisisantachiara.it/"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable Catholic source giving her iconographic attributes was found; the only claim found (a Poor Clare holding a book) comes from Wikipedia-derived pages.",
+      "patronages: review lists none, and no reputable source found gives her a patronage.",
+      "biography: sources disagree on when she went to Monticelli. The Catholic Encyclopedia says 1219, Franciscan Media says 1221, and the Irish Franciscans say about 1228–1229; the review follows the Irish Franciscans. Nothing here depends on the date.",
+      "feast: Robinson (1910) and the Catholic Encyclopedia (1907) give November 16 as her feast; current Franciscan sources (Franciscan Media, Irish Franciscans) give November 19, which the review uses.",
+      "quotes: her own letter to Clare from Monticelli is not quoted, because no verified public-domain English translation was found and the review notes that its authenticity is disputed. Quote 1 is Agnes's cry as the Legend reports it; quote 2 is Clare's words to her. Both verified against the 1910 Robinson text on Internet Archive. Robinson's chapter numbers could not be read reliably in the scan, so the chapters are described rather than numbered.",
+      "whyWeTurn / feastCustoms: the miraculous heaviness and Monaldo's withered arm are labeled devotional tradition, as in the review.",
+      "places: the Basilica's official site lists Sant'Agnese among its feasts but does not mention her tomb; the burial location rests on the Catholic Encyclopedia. The site returned HTTP 406 to a plain curl request but loads in a browser.",
+      "prayer: no traditional prayer to St. Agnes of Assisi with a verifiable text was found, so an original prayer is given."
+    ]
+  },
+  "agnes-of-bohemia": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Agnes of Bohemia (1211–1282) was a Czech princess who turned down political marriages, founded a hospital and a monastery of Poor Sisters in Prague, and entered it in 1234, serving as its abbess. St. Clare of Assisi wrote her four letters that still survive. John Paul II canonized her in 1989; her feast is March 2.",
+    "searchDescription": "St. Agnes of Bohemia (1211–1282), feast March 2: Prague princess who refused royal marriages, founded a hospital and became a Poor Clare abbess.",
+    "whyWeTurn": "People turn to St. Agnes of Bohemia when they hold privilege, influence or money and want to use it well. Born a king's daughter, she was promised in marriage for political advantage more than once, and with the Pope's protection she chose religious life instead. She put her family's resources into a hospital and a monastery, where she lived in poverty and led her sisters as abbess. Clare of Assisi wrote to her as a beloved sister. Those who care for the sick, people discerning a vocation under family pressure, and anyone hoping to turn advantage into service find in her a practical, generous friend.",
+    "quotes": [
+      {
+        "text": "What you have already, keep; what you have done, do still. Never stand still, but run swiftly, in steadfast imitation and with eager feet, lest in your progress you catch the dust.",
+        "work": "Clare of Assisi, Second Letter to Agnes of Prague (Clare's words to Agnes)",
+        "translation": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (London: Longmans, Green and Co., 1910; public domain)"
+      },
+      {
+        "text": "...place your mind in the mirror of eternity; place your soul in the figure of the Divine Substance, and in contemplating God transform yourself into an image of His Deity.",
+        "work": "Clare of Assisi, Third Letter to Agnes of Prague (Clare's words to Agnes)",
+        "translation": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (London: Longmans, Green and Co., 1910; public domain)"
+      },
+      {
+        "text": "...Agnes, the most serene Queen, the half of my soul and most special sanctuary of my heart's love.",
+        "work": "Clare of Assisi, Fourth Letter to Agnes of Prague (Clare's greeting to Agnes)",
+        "translation": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (London: Longmans, Green and Co., 1910; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Agnes of Bohemia from a royal court to a life of poverty, prayer and service to the sick. Through her prayers, help me to see whatever I have been given, my time, my money, my influence, as a gift meant for others. Give me courage to follow your call even when people around me expect something else. Bless all who care for the sick and the poor, and make our homes and parishes places of welcome. With St. Clare, may we run toward you with eager feet. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on March 2, the date of her death in the Holy See's canonization biography; she is not on the General Roman Calendar, so check your local or Franciscan calendar for how she is kept.",
+      "Read one of St. Clare's four letters to her; the second and third are short and full of encouragement.",
+      "Volunteer at, give to or pray for a hospital, hospice or Catholic charity, remembering the hospital she founded in Prague.",
+      "Pray for the Church in the Czech Republic, where she is one of the best-known saints.",
+      "If you visit Prague, see the Convent of St. Agnes of Bohemia, the monastery she founded and entered, now home to the National Gallery's medieval collection."
+    ],
+    "places": [
+      {
+        "name": "Convent of St. Agnes of Bohemia (National Gallery Prague)",
+        "city": "Prague, Czech Republic",
+        "url": "https://www.ngprague.cz/en/about/buildings/convent-of-st-agnes-of-bohemia"
+      }
+    ],
+    "confirmationNote": "Agnes suits a confirmand who has been given much and wants to give it back. A king's daughter, she resisted pressure to marry for political advantage, then used her inheritance to found a hospital and a community of sisters, which she served as abbess for the rest of her life. Confirmation strengthens Christians to serve the Church with their gifts, and Agnes shows how privilege can become charity.",
+    "reflectionPrompts": [
+      "What advantage or resource do I have that could quietly serve someone in need?",
+      "Give an hour this month to a hospital, care home or charity that serves the sick.",
+      "Read St. Clare's Third Letter to Agnes of Prague in Charlotte Balfour's 1910 translation, and consider what Clare means by the \"mirror of eternity.\""
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Wrote her four surviving letters on poverty and prayer",
+        "historical": true
+      },
+      {
+        "slug": "hedwig",
+        "reason": "Cared for her at Trzebnica when she was three, per the Holy See biography",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A relative; another royal woman who served the sick in the Franciscan spirit",
+        "historical": true
+      },
+      {
+        "slug": "wenceslaus",
+        "reason": "Earlier saint of the Přemyslid dynasty into which she was born",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Agnese di Boemia, canonization biography (12 November 1989)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19891112_agnese_di_boemia_it.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Agnes of Bohemia",
+        "url": "https://www.newadvent.org/cathen/01213b.htm"
+      },
+      {
+        "title": "Franciscan Media: Saint Agnes of Bohemia",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-agnes-of-bohemia/"
+      },
+      {
+        "title": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (1910), with the Four Letters of St. Clare, Internet Archive",
+        "url": "https://archive.org/details/LifeAndLegendOfSaintClare"
+      },
+      {
+        "title": "National Gallery Prague: Convent of St Agnes of Bohemia",
+        "url": "https://www.ngprague.cz/en/about/buildings/convent-of-st-agnes-of-bohemia"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. The usual attributes (a model of a church, a small crown, a Poor Clare habit, tending the sick) appear only in Prague city tourism and CzechTourism pages (prague.eu, kudyznudy.cz), not in a Catholic source.",
+      "patronages: review lists none. Tourism pages call her a patron of the Czech lands, of Czech charity and of the sick, poor and suffering; none is from a Catholic source and none has a live topic.",
+      "feast / death date: NEEDS HUMAN CHECK. Franciscan Media says she died on March 6, 1282 and that her liturgical feast is March 6, although it lists her as Saint of the Day on March 2. The Holy See biography gives her death as 2 March 1282, which the review follows. The Catholic Encyclopedia (1907) gives birth 1200 and death 'probably 1281'; the review follows the Holy See's 1211–1282.",
+      "quotes: all three are St. Clare's words to Agnes, verified against Balfour's 1910 book on Internet Archive (only spacing before semicolons normalized). The book is 'translated from the French version of Brother Francis du Puis by Charlotte Balfour'; the translator of the appended letters is not named separately. Balfour notes that even the critic Van Ortroy accepted the four letters as genuine. No writings by Agnes herself were found in a public-domain translation.",
+      "relatedSaints: the Hedwig link comes from the Holy See biography, not the review; the review does not contradict it. The Catholic Encyclopedia calls Agnes 'a relative of St. Elizabeth'. The Wenceslaus link is dynastic: Agnes's brother King Wenceslaus I is a different person from the saint.",
+      "places: the National Gallery is a secular museum. The page is official, but it describes the building rather than offering devotion.",
+      "prayer: no traditional prayer to St. Agnes of Bohemia with a verifiable text was found, so an original prayer is given."
+    ]
+  },
+  "aidan": {
+    "templateVersion": 2,
+    "heroSummary": "St. Aidan of Lindisfarne is the Irish monk of Iona who became the apostle of Northumbria. Made bishop in 635, he founded the monastery on Lindisfarne. Bede remembers him walking the countryside on foot, teaching gently and giving royal gifts to the poor. He died near Bamburgh in 651; his feast is August 31.",
+    "searchDescription": "St. Aidan of Lindisfarne (d. 651), feast August 31: Irish monk of Iona and bishop who brought the Gospel to Northumbria with gentleness and generosity.",
+    "symbols": [
+      {
+        "symbol": "Lighted torch",
+        "meaning": "The light of the Gospel he carried to Northumbria; a Catholic parish dedicated to him calls the torch the light of Christianity."
+      },
+      {
+        "symbol": "Stag crouching at his feet",
+        "meaning": "A legend, not from Bede, that his prayer hid a hunted deer from its pursuers. A similar story is told of another Irish saint named Aidan (of Ferns)."
+      },
+      {
+        "symbol": "Horse given to a poor man",
+        "meaning": "Bede's story that he gave away a fine horse from King Oswin, with its royal trappings, to a beggar who asked for alms."
+      },
+      {
+        "symbol": "Fire turned back by his prayer",
+        "meaning": "Bede's account that the wind changed and drove the flames back on Penda's army when it tried to burn Bamburgh; this is the root of his patronage of firefighters."
+      },
+      {
+        "symbol": "Storm at sea calmed",
+        "meaning": "Bede's story that he gave the priest Utta holy oil and foretold the storm it would calm on his voyage."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Aidan when they need patience in sharing their faith. Bede tells how he won over a people that an earlier missionary had called stubborn, by beginning gently and teaching only what he lived. He walked rather than rode so that he could stop and talk with anyone, rich or poor, and he gave away even a king's gift of a horse to a beggar. Bede also records that his prayer turned back the flames when Penda tried to burn Bamburgh. Teachers, catechists, missionaries and all who serve the poor find in him a humble guide.",
+    "quotes": [
+      {
+        "text": "Methinks, brother, that you were more severe to your unlearned hearers than you ought to have been, and did not at first, conformably to the Apostolic rule, give them the milk of more easy doctrine...",
+        "work": "Bede, Ecclesiastical History of England, Book III, chapter 5 (Aidan's words as Bede reports them)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "What do you say, O king? Is that son of a mare more dear to you than that son of God?",
+        "work": "Bede, Ecclesiastical History of England, Book III, chapter 14 (Aidan's answer to King Oswin)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "...he taught nothing that he did not practise in his life among his brethren...",
+        "work": "Bede, Ecclesiastical History of England, Book III, chapter 5 (Bede writing about Aidan)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sent St. Aidan from Iona to bring the light of Christ to Northumbria with gentleness and patience. Through his prayers, help me to speak of you kindly, to begin where others are, and to teach only what I am trying to live. Make me generous, ready to give away what I prize when someone in need asks. Protect firefighters and all who run toward danger to save others, and bring them home safely. Keep me faithful to prayer and to your Word, as Aidan was. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In England, August 31 is the optional memorial of St. Aidan, Bishop, and the Saints of Lindisfarne; elsewhere he is not on the General Roman Calendar, so remember him in personal prayer.",
+      "Read Bede's chapters on him, Ecclesiastical History, Book III, chapters 5 and 14–17.",
+      "Give something you value to a person in need, remembering the horse Aidan gave away.",
+      "Pray for local firefighters and emergency crews, or thank them in person.",
+      "If you visit Northumberland, cross to Holy Island (Lindisfarne) to pray at the priory ruins, checking the tide times for the causeway before you go."
+    ],
+    "places": [
+      {
+        "name": "Lindisfarne Priory (English Heritage)",
+        "city": "Holy Island, England",
+        "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+      }
+    ],
+    "confirmationNote": "Aidan suits a confirmand who wants to share faith gently or to serve the poor. Bede says he taught only what he lived, walked so he could meet people along the road, and gave away even a royal gift to a beggar. Confirmation strengthens Christians to bear witness to Christ in word and deed, and Aidan shows that patience and generosity can open hearts that harsh words close.",
+    "reflectionPrompts": [
+      "Is there someone I have been too harsh with when talking about faith?",
+      "This week, slow down somewhere, on foot if you can, so you can really talk with the people you meet.",
+      "Read Bede's Ecclesiastical History, Book III, chapter 5, in A. M. Sellar's public-domain translation, and list the habits Bede praises in Aidan."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "oswald-of-northumbria",
+        "reason": "The king who invited him and interpreted his preaching",
+        "historical": true
+      },
+      {
+        "slug": "columba-of-iona",
+        "reason": "Founder of Iona, the monastery that sent Aidan",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Bede says Aidan recalled her to Northumbria",
+        "historical": true
+      },
+      {
+        "slug": "cuthbert-of-lindisfarne",
+        "reason": "Saw a vision on the night Aidan died and became a monk",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bede's Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Aidan of Lindisfarne",
+        "url": "https://www.newadvent.org/cathen/01233d.htm"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Dynamic Catholic: Saint of the Day, St. Aidan (August 31)",
+        "url": "https://www.dynamiccatholic.com/saint-today-0831.html"
+      },
+      {
+        "title": "Catholic Exchange: Five Things to Know About St. Aidan of Lindisfarne",
+        "url": "https://catholicexchange.com/?p=10403"
+      },
+      {
+        "title": "Catholic Church of St Aidan of Lindisfarne, Acton East (Diocese of Westminster)",
+        "url": "https://parish.rcdow.org.uk/actoneast/?p=12"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, August 2026",
+        "url": "https://www.liturgyoffice.org/Calendar/2026/Aug.shtml"
+      },
+      {
+        "title": "English Heritage: Lindisfarne Priory",
+        "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+      }
+    ],
+    "flags": [
+      "symbols: torch, stag, horse, storm and fire are all listed for him in Husenbeth's Emblems of Saints (1882, a Catholic reference); the torch is also confirmed by Dynamic Catholic and the Acton East parish. The stag legend may be borrowed from Aidan of Ferns and is labeled as legend.",
+      "quotes: all verified against the Sellar 1907 text on Project Gutenberg. Quotes 1 and 2 are Aidan's words as Bede reports them; quote 3 is Bede about Aidan.",
+      "relatedSaints: the Cuthbert link rests on Sellar's note citing Bede's Life of Cuthbert; the Oswald interpreter detail is Bede III.3.",
+      "feastCustoms: the England entry is confirmed for 2026 (optional, marked (E)); Ireland's calendar was not checked.",
+      "places: English Heritage is official but secular, and the priory ruins date from after Aidan's time, on the site of his monastery.",
+      "prayer: no traditional Catholic prayer to St. Aidan with a verifiable source was found, so an original prayer is given. A parish collect in Toronto exists, but its provenance is unclear and it was not used.",
+      "biography: no disagreement with the reviewed biography. Context: Bede says Aidan died 12 days after King Oswin, not Oswald, was killed (651), and Bede criticizes his Irish dating of Easter while praising his life. The Catholic Encyclopedia mentions Scattery Island and a possible earlier see at Clogher; that tradition is uncertain and was not used.",
+      "patronages: firefighters removed — sourced only to Dynamic Catholic/Catholic Exchange, not a preferred reputable source (coordinator)"
+    ]
+  },
+  "alban": {
+    "templateVersion": 2,
+    "heroSummary": "St. Alban is honored as the first martyr of Britain. Bede tells how, while still a pagan in Roman Verulamium, he sheltered a fleeing Christian cleric, came to faith through his guest's prayer, and gave himself up in his place. He was beheaded on the hill where St Albans Cathedral now stands. Bede gives June 22 as his day.",
+    "searchDescription": "St. Alban, Britain's first martyr: a Roman-era pagan who sheltered a hunted priest, came to faith, and died in his place at Verulamium. Day: June 22.",
+    "symbols": [
+      {
+        "symbol": "Sword",
+        "meaning": "The instrument of his martyrdom; Bede says he was beheaded on the hilltop outside Verulamium."
+      },
+      {
+        "symbol": "Martyr's palm",
+        "meaning": "The victory of a martyr who stayed faithful to Christ until death."
+      },
+      {
+        "symbol": "Cross or crucifix",
+        "meaning": "The faith in Christ he embraced and openly confessed before the judge."
+      },
+      {
+        "symbol": "Executioner whose eyes fall out",
+        "meaning": "Bede's report, which later lives repeat and the Catholic Encyclopedia treats as legend, that the man who struck the blow lost his sight at that moment."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Alban when doing the right thing means standing beside someone in danger. In Bede's account he opened his home to a hunted stranger, was moved by the man's constant prayer, and when soldiers came he went out in his guest's place. He stayed calm before the judge and named the God he now worshiped. Tradition adds miracles on the road to his death. People who welcome strangers and refugees, those new to the faith, and anyone pressured to deny what they believe find in him a brave and hospitable friend.",
+    "quotes": [
+      {
+        "text": "I am called Alban by my parents... and I worship ever and adore the true and living God, Who created all things.",
+        "work": "Bede, Ecclesiastical History of England, Book I, chapter 7 (Alban's words to the judge as Bede reports them)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "If you desire to hear the truth of my religion, be it known to you, that I am now a Christian, and free to fulfil Christian duties.",
+        "work": "Bede, Ecclesiastical History of England, Book I, chapter 7 (Alban's words to the judge as Bede reports them)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      },
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Alban opened his door to a stranger in danger, learned your truth from the prayer of his guest, and gave his life rather than betray him. Through Alban's prayers, make me generous in welcoming people who have nowhere to turn. Give me courage to say plainly that I belong to you, even when it costs me. Strengthen all who suffer for their faith today, and protect those who shelter them. May I, like Alban, receive the crown of life you promise to those who love you. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In England, June 20 is the optional memorial of St. Alban, Martyr; in Wales it is kept for Sts. Alban, Julius and Aaron, protomartyrs. June 22, the date Bede gives, belongs to Sts. John Fisher and Thomas More on the Catholic calendar there.",
+      "Read Bede's account of his martyrdom, Ecclesiastical History, Book I, chapter 7.",
+      "Practice his hospitality: welcome a newcomer to your parish, or support a group that helps refugees.",
+      "Pray for Christians who are persecuted for their faith today.",
+      "In St Albans, the cathedral (Church of England) holds an annual Alban Pilgrimage around his feast, a procession through the city that retells his story."
+    ],
+    "places": [
+      {
+        "name": "St Albans Cathedral",
+        "city": "St Albans, England",
+        "url": "https://www.stalbanscathedral.org/"
+      }
+    ],
+    "confirmationNote": "Alban suits a confirmand drawn to courage and hospitality. Bede says he came to faith by watching a guest pray, then protected that guest at the cost of his own life and calmly named the God he worshiped before a hostile judge. Confirmation strengthens Christians to confess Christ boldly, and Alban shows that such witness often begins with an open door.",
+    "reflectionPrompts": [
+      "Whose faith have I come to admire simply by watching how they pray and live?",
+      "Do one concrete act of hospitality this week for someone who is new, alone or in need.",
+      "Read Bede's Ecclesiastical History, Book I, chapter 7, in A. M. Sellar's public-domain translation, and note how Alban answers each of the judge's questions."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bede-the-venerable",
+        "reason": "Wrote the account of his martyrdom that shaped all later tradition",
+        "historical": true
+      },
+      {
+        "slug": "john-fisher",
+        "reason": "Shares June 22, the date Bede gives for Alban's death",
+        "historical": true
+      },
+      {
+        "slug": "thomas-more",
+        "reason": "Shares June 22 and, like Alban, died for refusing to deny his faith",
+        "historical": true
+      },
+      {
+        "slug": "george",
+        "reason": "Another early martyr long honored in England",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bede's Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Alban",
+        "url": "https://www.newadvent.org/cathen/01252b.htm"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "St Albans Cathedral: Who was Alban?",
+        "url": "https://www.stalbanscathedral.org/the-story-of-alban"
+      },
+      {
+        "title": "St Albans Cathedral: Alban Pilgrimage",
+        "url": "https://www.stalbanscathedral.org/alban-pilgrimage"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, June 2026",
+        "url": "https://www.liturgyoffice.org/Calendar/2026/Jun.shtml"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 15",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable Catholic source found gives him a patronage that has a live topic. He is called the protomartyr of Britain or England, not its patron; England's patron is St. George. Patronages such as converts or refugees circulate online but were not verified.",
+      "feast: the review gives June 22, which matches Bede, the Catholic Encyclopedia and the cathedral. On the 2026 Catholic calendar for England and Wales, his optional memorial is June 20, because June 22 is Fisher and More. This is not a contradiction, but the page may want to mention it.",
+      "dates: the Catholic Encyclopedia says 'c. 304', while the cathedral places him in the early third century; the review rightly leaves the date uncertain.",
+      "symbols: sword, palm, cross or crucifix and the executioner's eyes are taken from Husenbeth's Emblems of Saints (1882). The executioner miracle is in Bede, and the Catholic Encyclopedia calls such details legend; the symbol is labeled accordingly.",
+      "quotes: both Bede quotes were verified against the Sellar 1907 text on Project Gutenberg. In quote 1, the narrative words 'replied he' between Alban's two sentences are replaced by an ellipsis.",
+      "places / feastCustoms: St Albans Cathedral and the Alban Pilgrimage belong to the Church of England, and the pilgrimage date changes each year (the cathedral page gives 19 June 2027), so no date is stated.",
+      "prayer: no traditional Catholic prayer to St. Alban with a verifiable text was found, so an original prayer is given.",
+      "biography: no disagreement. The review says Alban 'exchanged clothes'; Bede says he went out 'in the habit or long coat which he wore', meaning the cleric's, and the Catholic Encyclopedia says he wore his guest's cloak."
+    ]
+  },
+  "albert-chmielowski": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Albert Chmielowski, known in Poland as Brother Albert, was a gifted painter who lost a leg in the 1863 uprising and later gave up his art to live among Kraków's homeless poor. He founded the Albertine Brothers and Sisters, died in one of his shelters on Christmas Day 1916, and is remembered on June 17.",
+    "searchDescription": "St. Albert Chmielowski (1845–1916), feast June 17: Polish painter who became Brother Albert and founded the Albertines to serve Kraków's homeless poor.",
+    "whyWeTurn": "People turn to Brother Albert when they want to help the poor without keeping them at arm's length. He did not run his shelters from a comfortable distance; he moved in, wore a rough grey habit, and shared the life of the people he served. He is remembered for saying that a person should be as good as bread, which is there on the table for everyone. He also knew struggle from the inside: a war wound, a painful search for his vocation, and a period of deep spiritual distress before he found peace. He is a gentle companion for volunteers, artists, people with disabilities, and anyone learning to see Christ in the face of a stranger.",
+    "quotes": [
+      {
+        "text": "Deal thy bread to the hungry, and bring the needy and the harbourless into thy house: when thou shalt see one naked, cover him, and despise not thy own flesh.",
+        "work": "Isaias (Isaiah) 58:7",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "When thou shalt pour out thy soul to the hungry, and shalt satisfy the afflicted soul then shall thy light rise up in darkness, and thy darkness shall be as the noonday.",
+        "work": "Isaias (Isaiah) 58:10",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you showed St. Albert Chmielowski your suffering face and taught him to recognize it in the poor. Through his prayers, give me a heart that does not look away. Help me to share my bread, my time, and my attention with people others pass by, and to treat them as brothers and sisters rather than as problems. When I am wounded or unsure of my path, teach me to trust you as he did. Make me good like bread, ready to be given to anyone who is hungry. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Albertine Sisters publish a prayer and novena prayer to St. Brother Albert; it is linked rather than reproduced here.",
+      "link": {
+        "label": "Prayer to St. Brother Albert (Albertine Sisters)",
+        "url": "https://albertinesisters.org/st-brother-albert/"
+      }
+    },
+    "feastCustoms": [
+      "Remember him on June 17, the date kept in Poland; he is not on the General Roman Calendar, and the Roman Martyrology lists him on December 25, the day he died.",
+      "Give food, clothing, or an afternoon of time to a shelter or soup kitchen, the kind of work the Albertine Brothers and Sisters still do.",
+      "Pray before a reproduction of his painting Ecce Homo (\"Behold the Man\"); the original hangs above the main altar of the Ecce Homo Sanctuary in Kraków.",
+      "Pray the Albertine Sisters' prayer to St. Brother Albert, followed by an Our Father, a Hail Mary and a Glory Be.",
+      "Read Isaiah 58, the chapter John Paul II connected with his service to the poor in the 1989 canonization homily."
+    ],
+    "places": [
+      {
+        "name": "Ecce Homo Sanctuary of St. Brother Albert (Albertine Sisters), where his relics and his Ecce Homo painting are kept",
+        "city": "Kraków, Poland",
+        "url": "https://www.albertynki.pl/"
+      }
+    ],
+    "confirmationNote": "Albert suits a candidate drawn to service, art, or friendship with people on the margins. He was a talented painter and a wounded veteran who chose to live among Kraków's homeless rather than help them from a distance. Choosing him can be a promise to let faith become practical: sharing bread, time, and respect with people whom others overlook, and seeing Christ in them.",
+    "reflectionPrompts": [
+      "Whom do I find it hardest to look in the eye, and what would it mean to treat that person as Christ?",
+      "This week, give something concrete to a person or shelter in need, and stay long enough to learn a name.",
+      "Read Isaiah 58 in the Douay-Rheims, then John Paul II's homily for the 1983 beatification of Albert Chmielowski and Raphael Kalinowski."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "agnes-of-bohemia",
+        "reason": "Canonized with him by John Paul II on November 12, 1989",
+        "historical": true
+      },
+      {
+        "slug": "raphael-kalinowski",
+        "reason": "Fellow veteran of the 1863 uprising, beatified with him in Kraków in 1983",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Albert lived and founded his communities as a Third Order Franciscan",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "Beatified and canonized him, and as Karol Wojtyła called him 'our God's brother'",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Albertine Sisters: St. Brother Albert",
+        "url": "https://albertinesisters.org/st-brother-albert/"
+      },
+      {
+        "title": "Albertine Sisters: \"Ecce Homo\" – History",
+        "url": "https://albertinesisters.org/?p=380"
+      },
+      {
+        "title": "Albertine Brothers (English page)",
+        "url": "https://albertyni.opoka.org.pl/english.html"
+      },
+      {
+        "title": "Albertynki (Albertine Sisters, Poland)",
+        "url": "https://www.albertynki.pl/"
+      },
+      {
+        "title": "Vatican News (Polish): Patron dnia, św. Brat Albert Chmielowski, ojciec ubogich",
+        "url": "https://www.vaticannews.va/pl/kosciol/news/2024-06/patron-dnia-swiety-brat-albert-chmielowski-ojciec-ubogich.print.html"
+      },
+      {
+        "title": "John Paul II: Homily for the canonization of Agnes of Bohemia and Albert Chmielowski (November 12, 1989, Italian)",
+        "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1989/documents/hf_jp-ii_hom_19891112_due-canonizzazioni.html"
+      },
+      {
+        "title": "John Paul II: Beatification of Two Servants of God, Kraków (June 22, 1983), EWTN Library",
+        "url": "https://origin.ewtn.com/catholicism/library/beatification-of-two-servants-of-god-22-june-1983-26731"
+      },
+      {
+        "title": "Holy See: Donum primum (1989)",
+        "url": "https://www.vatican.va/content/john-paul-ii/la/apost_letters/1989/documents/hf_jp-ii_apl_19891112_donum-primum.html"
+      },
+      {
+        "title": "Martyrologium Romanum (2004), December 25 and index (Internet Archive text)",
+        "url": "https://archive.org/stream/MartRom2004/Martyrologium%20Romanum%20%282004%29_djvu.txt"
+      },
+      {
+        "title": "Douay-Rheims Bible: Isaias 58",
+        "url": "https://www.drbo.org/chapter/27058.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. The grey Franciscan tertiary habit and his Ecce Homo painting are well documented, but I found no reputable source listing established iconographic attributes for him (no crutch, bread or other attribute confirmed), so I did not build a symbol list.",
+      "patronages: review lists none. He is patron of the Albertine Brothers and Sisters (Vatican News, Polish); 'homeless', 'the poor', 'painters' and 'artists' appear only on popular websites, and none of these has a live topic. Field omitted.",
+      "quotes: his own words (e.g. 'Powinno się być dobrym jak chleb', 'be good as bread') have no public-domain English translation, so they are paraphrased in whyWeTurn rather than quoted; Scripture used instead.",
+      "feastCustoms: canonization confirmed — John Paul II beatified him in Kraków on June 22, 1983 and canonized him in Rome on November 12, 1989, together with Agnes of Bohemia. The 2004 Roman Martyrology lists him on December 25 (his death); June 17 is the memorial date given by Vatican News (Polish) and the Albertines. Human check: the site may want to note the December 25 Martyrology date.",
+      "places: the sanctuary has no separate site I could find; the URL is the Albertine Sisters' official Polish site, which carries the Ecce Homo Sanctuary information. The Albertine Sisters' English site says his key relics are under the sanctuary's main altar.",
+      "relatedSaints: 'our God's brother' is Wojtyła's phrase as reported by Vatican News (Polish); his play of that name is not cited directly.",
+      "biography: no disagreement with the reviewed biography. Sources add his birth date (August 20, 1845), the habit date (August 25, 1887) and the sisters' founding date (January 15, 1891); Vatican News adds that he died of stomach cancer."
+    ]
+  },
+  "albert-of-montecorvino": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Albert of Montecorvino was a bishop in Apulia, in southern Italy, who died in 1127. The Roman Martyrology remembers him on April 5 for a life given to constant prayer and to the good of the poor. Later accounts add that he lived with blindness and continued to serve as bishop.",
+    "searchDescription": "St. Albert of Montecorvino (d. 1127), feast April 5: a bishop in Apulia remembered for constant prayer, care for the poor, and serving despite blindness.",
+    "whyWeTurn": "Very little is known for certain about St. Albert, and that is part of his quiet appeal. The Roman Martyrology sums up his life in a single line: he gave it entirely to prayer and to the common good of the poor. Later accounts say he lost his sight and still carried the responsibilities of a bishop, and tradition holds that he was granted visions and worked miracles. People living with blindness or failing eyesight, and anyone asked to serve while carrying a disability or limitation, can find a companion in him. He is also a reminder that holiness can be faithful, local and largely unrecorded.",
+    "quotes": [
+      {
+        "text": "The Lord enlighteneth the blind. The Lord lifteth up them that are cast down: the Lord loveth the just.",
+        "work": "Psalm 145:8 (Douay numbering; Psalm 146 in most modern Bibles)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Albert of Montecorvino gave his whole life to prayer and to the good of the poor, and he kept serving your people when his sight failed. Through his prayers, strengthen everyone who lives with blindness, illness or any limitation that makes daily work hard. Give them people who help with patience and respect. Teach me to pray steadily, to notice the poor around me, and to do the work you give me even when it costs more than I expected. Let me find my light in you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 5, the date under which the Roman Martyrology lists him; he is not on the General Roman Calendar, so this is a day for personal or family prayer (the Mass of the day may be St. Vincent Ferrer, an optional memorial).",
+      "Offer help to someone who is blind or losing their sight: read aloud, run an errand, or simply visit.",
+      "Give food or money to a local pantry or parish outreach, in keeping with the Martyrology's praise of his care for the poor.",
+      "Pray Psalm 145 (146) slowly, especially its lines about the Lord who gives sight to the blind and feeds the hungry."
+    ],
+    "confirmationNote": "Albert of Montecorvino suits a candidate who lives with a disability, cares for someone who does, or simply wants a patron whose holiness was quiet and steady. The Church remembers him for constant prayer and care for the poor, and accounts say he served as bishop despite blindness. Choosing him can be a commitment to faithful prayer and practical help for people in need.",
+    "reflectionPrompts": [
+      "What limitation in my own life do I treat as a reason not to serve, and how might God want to work through it?",
+      "Set aside ten minutes each day this week for prayer, and in the same week do one concrete thing for someone poor.",
+      "Read the April 5 entry for St. Albert in the Roman Martyrology, then compare it with the much longer popular accounts and notice what each one adds."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vincent-ferrer",
+        "reason": "Shares the April 5 date",
+        "historical": true
+      },
+      {
+        "slug": "bruno",
+        "reason": "Contemporary who spent his last years in Norman-ruled southern Italy, dying in 1101",
+        "historical": true
+      },
+      {
+        "slug": "lucy",
+        "reason": "Traditionally invoked by people with eye trouble and blindness",
+        "historical": false
+      },
+      {
+        "slug": "albert-chmielowski",
+        "reason": "Shares his name and served the poor while living with a disability",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Martyrologium Romanum (2004), April 5, no. 7 (Internet Archive text)",
+        "url": "https://archive.org/stream/MartRom2004/Martyrologium%20Romanum%20%282004%29_djvu.txt"
+      },
+      {
+        "title": "Catholic Online: St. Albert of Montecorvino",
+        "url": "https://www.catholic.org/saints/saint.php?saint_id=1213"
+      },
+      {
+        "title": "Catholic Encyclopedia (1910): Diocese of Lucera (New Advent)",
+        "url": "https://www.newadvent.org/cathen/09406a.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalms 145",
+        "url": "https://www.drbo.org/chapter/21145.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable source describes iconographic attributes for him (a local statue exists in Pietramontecorvino, but I found no reliable description of its attributes).",
+      "patronages: review lists none. Popular and tourism sources call him patron of Pietramontecorvino (Apulia), which has no live topic and no reputable Catholic source found. Field omitted.",
+      "places: omitted. The ruined former cathedral of Sant'Alberto at Montecorvino and the church in Pietramontecorvino have no official websites I could verify.",
+      "feastCustoms: Pietramontecorvino's local feast on May 16 (a pilgrimage carrying his statue to the ruins of Montecorvino, with a blessing of the fields) is reported only by Wikipedia and tourism/event sites, not by the diocese of Lucera-Troia, so it was left out. 'Not on the General Roman Calendar' and Vincent Ferrer's April 5 optional memorial are from general knowledge of the calendar, not a fetched page.",
+      "relatedSaints: lucy's link to eyes and blindness is a popular tradition and is worded that way; bruno is linked by era and region only, with no known contact.",
+      "biography: DISAGREEMENT on date — the 1910 Catholic Encyclopedia (Lucera article) gives his death as 5 April 1037, while the reviewed biography, Catholic Online and Wikipedia give 1127. The 2004 Roman Martyrology entry ('Monte Corbino in Apulia') gives no year. Human check recommended. The Martyrology says he gave his whole life to continual prayer and to the common good of the poor; it does not mention blindness, visions or miracles, which come from Catholic Online and are worded as later accounts/tradition."
+    ]
+  },
+  "albert-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Albert the Great, or Albertus Magnus, was a thirteenth-century German Dominican who taught theology, studied the natural world with unusual care, and counted Thomas Aquinas among his students. Briefly bishop of Regensburg, he died in Cologne in 1280. Pius XII named him patron of those who study the natural sciences; his feast is November 15.",
+    "searchDescription": "St. Albert the Great (d. 1280), feast November 15: Dominican teacher of Thomas Aquinas, bishop, Doctor of the Church, and patron of the natural sciences.",
+    "symbols": [
+      {
+        "symbol": "Dominican habit, lecturing from a pulpit or studying",
+        "meaning": "His life as a friar of the Order of Preachers and a master who taught at Paris and Cologne."
+      },
+      {
+        "symbol": "Bishop's crosier",
+        "meaning": "His brief service as bishop of Regensburg, an office he accepted reluctantly and resigned after about two years to return to teaching."
+      },
+      {
+        "symbol": "Large book and teacher's cap",
+        "meaning": "His enormous written output, mostly commentaries on Aristotle and Scripture, and his rank as a master of theology."
+      },
+      {
+        "symbol": "Cross over the sun, moon and earth, or a globe",
+        "meaning": "His conviction that theology and the study of nature belong together, both leading to the Creator."
+      },
+      {
+        "symbol": "Shown with St. Thomas Aquinas",
+        "meaning": "His most famous student, whose thought he later explained and defended."
+      }
+    ],
+    "whyWeTurn": "Students, scientists and anyone who loves to figure out how things work have good reason to turn to St. Albert. He observed the natural world with real curiosity, and he saw no contest between that work and prayer: for him, creation was a book God had written, worth reading closely. He also gave generously to others. He recognized the gifts of a quiet young friar named Thomas Aquinas, and later defended Thomas's work when it was attacked. When the Church asked him to be a bishop, he served, worked for peace, and then went back to poverty and teaching. He is a patron for minds that are wide awake and hearts that stay humble.",
+    "quotes": [
+      {
+        "text": "For by the greatness of the beauty, and of the creature, the creator of them may be seen, so as to be known thereby.",
+        "work": "Wisdom 13:5",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For the invisible things of him, from the creation of the world, are clearly seen, being understood by the things that are made; his eternal power also, and divinity.",
+        "work": "Romans 1:20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "How great are thy works, O Lord? thou hast made all things in wisdom: the earth is filled with thy riches.",
+        "work": "Psalm 103:24 (Douay numbering; Psalm 104 in most modern Bibles)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Creator of all things, you gave St. Albert the Great a mind eager to learn and a heart that found you in everything he studied. Through his prayers, give me patience in study and wonder before the world you have made. Help me to observe carefully, to think honestly, and to welcome truth wherever I find it. Make me generous with what I know, glad when others surpass me, and humble before the mystery of your wisdom. Bless all students, teachers and scientists, and let our learning lead us closer to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Litany of Saint Albert the Great (Catholic Culture)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1157"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on November 15, an optional memorial of St. Albert in the General Roman Calendar (it gives way to the Sunday liturgy when the 15th falls on a Sunday).",
+      "Pray the Litany of Saint Albert the Great from Catholic Culture, alone or with a class or study group.",
+      "Spend time outdoors observing something closely, a tree, a bird or the night sky, and thank God for what you notice.",
+      "Pray for scientists, students and teachers, especially those who struggle to see how their work and their faith fit together.",
+      "Read Benedict XVI's general audience of March 24, 2010, on St. Albert and the harmony of faith and science."
+    ],
+    "places": [
+      {
+        "name": "St. Andreas Church, Dominican community of Cologne (his tomb is in the crypt)",
+        "city": "Cologne, Germany",
+        "url": "https://dominikaner-koeln.de/"
+      }
+    ],
+    "confirmationNote": "Albert suits a candidate who loves science, nature or hard questions and wonders whether faith can keep up with them. He studied the natural world with care and saw it as a book written by God, and he gladly helped a younger student, Thomas Aquinas, become greater than himself. Choosing him can be a commitment to keep learning, to stay humble, and to let knowledge serve God and others.",
+    "reflectionPrompts": [
+      "Where do I feel a tension between what I learn and what I believe, and how could I bring that question to God honestly?",
+      "Pick one thing in nature this week and observe it for ten minutes without your phone, then write down what it tells you about its Creator.",
+      "Read Benedict XVI's general audience on St. Albert the Great (March 24, 2010), then Wisdom 13:1–9 in the Douay-Rheims."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "thomas-aquinas",
+        "reason": "His student at Paris and Cologne, whose teaching Albert later defended",
+        "historical": true
+      },
+      {
+        "slug": "dominic",
+        "reason": "Founder of the Order of Preachers, which Albert joined at Padua",
+        "historical": true
+      },
+      {
+        "slug": "wolfgang",
+        "reason": "An earlier bishop of Regensburg, the see Albert held around 1260–1262",
+        "historical": true
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Fellow German Doctor of the Church who also wrote about the natural world",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Albert the Great (March 24, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100324.html"
+      },
+      {
+        "title": "Catholic Culture: St. Albert the Great (patronage, symbols, relics)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?id=320"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, November 15, 2026",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-11-15"
+      },
+      {
+        "title": "Catholic Culture: Litany of Saint Albert the Great",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1157"
+      },
+      {
+        "title": "Martyrologium Romanum (2004), November 15 (Internet Archive text)",
+        "url": "https://archive.org/stream/MartRom2004/Martyrologium%20Romanum%20%282004%29_djvu.txt"
+      },
+      {
+        "title": "Dominikaner Köln (St. Andreas)",
+        "url": "https://dominikaner-koeln.de/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Wisdom 13",
+        "url": "https://www.drbo.org/chapter/25013.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Romans 1",
+        "url": "https://www.drbo.org/chapter/52001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalms 103",
+        "url": "https://www.drbo.org/chapter/21103.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists natural sciences, scientists, medical technicians, philosophers, schoolchildren, students, students of theology and the Archdiocese of Cincinnati, and Benedict XVI confirms Pius XII's patronage of the natural sciences, but none of these has a live topic. Field omitted.",
+      "quotes: no saint's-own-words quote. I did not find a verifiable public-domain English translation of his authentic works; the often-quoted 'On Cleaving to God' is now generally not attributed to him. Scripture used instead.",
+      "prayer: the Litany on Catholic Culture is linked rather than reproduced; original prayer written.",
+      "symbols: all from Catholic Culture's 'Symbols and Representation' list (the teacher's cap and book are combined into one entry).",
+      "places: the URL is the official site of the Dominican community at St. Andreas, Cologne; it mentions that Albertus Magnus is buried there. Catholic Culture places his tomb in the crypt.",
+      "relatedSaints: wolfgang is linked by the see of Regensburg only (tenth century). The Regensburg dates follow Benedict XVI and Catholic Culture.",
+      "biography: no disagreement. Note the reviewed source link (vaticanstate.va saint-of-the-day page) now returns 404. Catholic Culture gives his birth as 1193 or c. 1200; the reviewed biography's 'early thirteenth century' is the safer wording and was kept. The Roman Martyrology adds that he accepted Regensburg unwillingly, worked for peace, and after a year preferred the poverty of his Order to honors."
+    ]
+  },
+  "alberto-hurtado": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Alberto Hurtado was a Chilean Jesuit priest who taught, gave retreats and formed young Catholics, then in 1944 asked his listeners to help homeless children in Santiago. That appeal became Hogar de Cristo. He died of cancer in 1952, was canonized in 2005, and is remembered on August 18.",
+    "searchDescription": "St. Alberto Hurtado (1901–1952), feast August 18: Chilean Jesuit who founded Hogar de Cristo for homeless people in Santiago, canonized in 2005.",
+    "whyWeTurn": "People turn to St. Alberto Hurtado when faith has to become concrete. He knew insecurity as a boy, after his father's death left the family dependent on relatives, and he worked through law school to support his mother and brother. As a priest he refused to separate prayer from the condition of the poor; Pope Benedict XVI called him a contemplative in action. Chileans remember him driving a green truck through Santiago to bring homeless people in from the streets. Dying of cancer, he was often heard to say that he was content with the Lord. He is a companion for anyone who wants to serve generously without losing joy.",
+    "quotes": [
+      {
+        "text": "For I was hungry, and you gave me to eat; I was thirsty, and you gave me to drink; I was a stranger, and you took me in: Naked, and you covered me: sick, and you visited me: I was in prison, and you came to me.",
+        "work": "Matthew 25:35–36",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave St. Alberto Hurtado eyes to see you in the homeless child, the worker without rights and the sick man no one visits. Through his prayers, open my eyes to the people I pass by every day. Teach me to ask what you would do in my place, and then to do it with energy and joy. Keep me close to you in prayer so that my service does not run dry. And when I am tired or suffering, help me to say with him that I am content, Lord, because I am yours. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Official prayer to St. Alberto Hurtado (Fundación Padre Alberto Hurtado, in Spanish)",
+        "url": "https://padrealbertohurtado.cl/oracion-oficial/"
+      }
+    },
+    "feastCustoms": [
+      "Remember him on August 18, the anniversary of his death in 1952. It is kept as his feast in Chile and by the Jesuits; he is not on the General Roman Calendar, so elsewhere it is a day for personal or family prayer.",
+      "In Chile, August 18 is also the National Day of Solidarity, and since 2001 the Chilean bishops have kept August as the Month of Solidarity, with parishes organizing service projects and a Mass at his tomb on the 18th.",
+      "Read Matthew 25:31–46, the passage on serving Christ in the hungry, the stranger and the sick, and choose one concrete work of mercy to do this week.",
+      "Give time or money to a shelter, soup kitchen or service for homeless people where you live, or support Hogar de Cristo, the work he began in 1944.",
+      "Pray for Chile and for people who live on the streets in your own city, asking his intercession for those who serve them."
+    ],
+    "places": [
+      {
+        "name": "Santuario Padre Hurtado (his tomb and museum, run by the Fundación Padre Alberto Hurtado)",
+        "city": "Santiago, Chile",
+        "url": "https://padrealbertohurtado.cl/"
+      }
+    ],
+    "confirmationNote": "Alberto Hurtado suits a confirmand who wants faith to show up in real life: in friendships, schoolwork, service and choices about the future. He spent much of his priesthood helping young people discover their responsibility to others, and he never treated prayer and justice as separate. Confirmation sends Christians out to bear witness, and his life shows what that looks like when it reaches the people others overlook.",
+    "reflectionPrompts": [
+      "Who are the people I see regularly but never really notice, and what would change if I treated them as Christ?",
+      "Spend one hour this month serving people in need, at a shelter, a food bank or with a neighbor, and afterwards write down what you saw.",
+      "Read Pope Benedict XVI's homily for the canonization of October 23, 2005 (vatican.va) and note how he connects Hurtado's prayer with his service of the poor."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "Founder of the Society of Jesus, the order Hurtado entered in 1923",
+        "historical": true
+      },
+      {
+        "slug": "teresa-of-the-andes",
+        "reason": "Chile's first canonized saint; Hurtado was the second",
+        "historical": true
+      },
+      {
+        "slug": "zygmunt-gorazdowski",
+        "reason": "Canonized with him by Benedict XVI on October 23, 2005",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "Another priest who organized lasting care for the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Alberto Hurtado Cruchaga (1901–1952), biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20051023_cruchaga_en.html"
+      },
+      {
+        "title": "Benedict XVI, Homily for the canonization of five Blesseds, October 23, 2005",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2005/documents/hf_ben-xvi_hom_20051023_canonizations.html"
+      },
+      {
+        "title": "Hogar de Cristo: Nuestra historia",
+        "url": "https://www.hogardecristo.cl/nuestra-historia/"
+      },
+      {
+        "title": "Jesuitas Chile: San Alberto Hurtado",
+        "url": "https://jesuitas.cl/la-compania-de-jesus/san-alberto-hurtado/"
+      },
+      {
+        "title": "Fundación Padre Alberto Hurtado: El Santuario del Padre Hurtado, historia y arquitectura",
+        "url": "https://padrealbertohurtado.cl/el-santuario-del-padre-hurtado-historia-y-arquitectura/"
+      },
+      {
+        "title": "Fundación Padre Alberto Hurtado: Camioneta Verde",
+        "url": "https://padrealbertohurtado.cl/museo/camioneta-verde/"
+      },
+      {
+        "title": "Fundación Padre Alberto Hurtado: Oración oficial",
+        "url": "https://padrealbertohurtado.cl/oracion-oficial/"
+      },
+      {
+        "title": "Jesuits of Canada: Society of Jesus celebrates feast of St. Alberto Hurtado, SJ",
+        "url": "https://jesuits.ca/press-release/society-of-jesus-celebrates-feast-of-st-alberto-hurtado-sj/"
+      },
+      {
+        "title": "EWTN News / ACI Prensa (August 4, 2026): Mes de la Solidaridad en memoria de San Alberto Hurtado",
+        "url": "https://www.ewtnnews.com/es/mundo/america/ven-y-veras-en-memoria-de-san-alberto-hurtado-comenzo-en-chile-el-mes-de-la-solidaridad"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. As a 20th-century saint he has no established iconographic attributes in a reputable source. The green 1946 Ford truck is well documented (the Fundación calls it a second-class relic and Jesuitas Chile describes him collecting people in it), and he is usually shown in a Jesuit cassock, but that does not add up to 3–5 established attributes.",
+      "patronages: review lists none and no reputable source found gives him a formal patronage with a live topic; field omitted.",
+      "quotes: his own writings and sayings are under copyright, so only Douay-Rheims Scripture is used. 'I am content, Lord' (Holy See biography and Benedict XVI's homily) is echoed in prose and in the prayer, not quoted as his text. The prayer's line about asking what Christ would do in my place echoes the question widely attributed to him; I did not verify that attribution from an official source, so it is not presented as his words.",
+      "prayer: the Fundación's official prayer is modern and not public domain, so an original prayer links to it instead of reproducing it.",
+      "feastCustoms: his liturgical rank on August 18 (Chilean national calendar, Jesuit proper) was not confirmed from an official calendar; 'not on the General Roman Calendar' is from general knowledge. The National Day of Solidarity is from the Fundación and Hogar de Cristo pages; the 2001 Month of Solidarity and the Mass at his tomb on August 18 are from EWTN News/ACI Prensa (2026).",
+      "places: padrealbertohurtado.cl is the Fundación Padre Alberto Hurtado, which Jesuitas Chile names as responsible for the sanctuary and museum; the site loaded and covers the sanctuary, museum and green truck. (padrehurtado.cl redirects to Hogar de Cristo.)",
+      "relatedSaints: the teresa-of-the-andes reason relies on Jesuit sources calling Hurtado Chile's second saint. Hogar de Cristo's history page calls him Chile's first saint, which is wrong (Teresa of the Andes was canonized in 1993); he is the first Chilean man canonized. zygmunt-gorazdowski is linked only by the shared canonization date.",
+      "biography: no disagreement with the reviewed biography. Details used beyond it come from the Holy See: father died when he was four; entered the Jesuits August 14, 1923; ordained at Louvain August 24, 1933; beatified October 16, 1994; canonized October 23, 2005. The Jesuits of Canada date the first house to 1945 after the 1944 appeal; the Holy See and Hogar de Cristo date the start to October 1944."
+    ]
+  },
+  "alexander-of-jerusalem": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Alexander of Jerusalem was a bishop from Cappadocia who, according to Eusebius, came to Jerusalem as a pilgrim and was kept there to help its aged bishop, Narcissus. He founded a church library, supported the teacher Origen, and died in prison at Caesarea during the persecution of Decius, around 250.",
+    "searchDescription": "St. Alexander of Jerusalem: bishop who founded a church library, defended Origen, and died in prison at Caesarea under Decius, about 250.",
+    "whyWeTurn": "People turn to St. Alexander when they care about both faith and learning. He studied under Christian teachers he later called his masters, and as bishop he gathered letters and books into a library that was still in use when Eusebius wrote his history a lifetime later. He also took risks for a gifted teacher, defending Origen's preaching against another bishop's objections. Twice he confessed Christ before Roman authorities, and the second time, already an old man, he died in prison. Students, teachers, librarians, and bishops facing hard decisions can find in him a patient friend who kept learning and courage together.",
+    "quotes": [
+      {
+        "text": "Alexander, a servant and prisoner of Jesus Christ, to the blessed church of Antioch, greeting in the Lord. The Lord has made my bonds during the time of my imprisonment light and easy...",
+        "work": "Letter to the Church of Antioch, quoted in Eusebius, Church History VI.11.5",
+        "translation": "A. C. McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890; public domain)"
+      },
+      {
+        "text": "For we know well those blessed fathers who have trodden the way before us, with whom we shall soon be; Pantænus, the truly blessed man and master, and the holy Clement, my master and benefactor...",
+        "work": "Letter to Origen, quoted in Eusebius, Church History VI.14.9",
+        "translation": "A. C. McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890; public domain)"
+      },
+      {
+        "text": "Narcissus salutes you, who held the episcopate here before me, and is now associated with me in prayers, being one hundred and sixteen years of age; and he exhorts you, as I do, to be of one mind.",
+        "work": "Letter to the Antinoites, quoted in Eusebius, Church History VI.11.4",
+        "translation": "A. C. McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Alexander a love for your truth that made him a student, a teacher's friend and a builder of a library for your Church. Through his prayers, give me a mind that keeps learning and a heart that stays humble. Help me to honor the teachers who have formed me in faith, to share what I have received, and to defend what is good even when it is unpopular. In times of trial, make my bonds light, as you did for him, and keep me faithful to the end. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on May 16, the date Vatican News uses; the Roman Martyrology and the Catholic Encyclopedia place his Latin commemoration on March 18. He is not on the General Roman Calendar, so either date is a day for personal or family prayer.",
+      "Read Eusebius, Church History, Book VI, chapters 11, 14, 19, 20 and 39, where his letters, his library and his death are recorded; it is freely available at New Advent.",
+      "Visit, use or support a library, especially a parish, school or seminary library, and give thanks for those who preserve the Church's books.",
+      "Write a note of thanks to a teacher, catechist or mentor who helped you understand the faith, as Alexander honored Pantaenus and Clement as his masters.",
+      "Pray for Christians imprisoned for their faith today and for the bishops of Jerusalem and the Holy Land."
+    ],
+    "confirmationNote": "Alexander suits a confirmand who loves reading, study or teaching and wants a patron who shows that the mind belongs in the life of faith. He honored his teachers, built a library, and stood by a brilliant teacher others wanted silenced. When persecution came he confessed Christ as an old man and died in prison. Confirmation strengthens Christians to witness, and his life joins careful thought with steady courage.",
+    "reflectionPrompts": [
+      "Who taught me my faith, and have I ever thanked them or prayed for them by name?",
+      "Choose one serious book about the faith and set a plan to read a chapter a week until you finish it.",
+      "Read Eusebius, Church History VI.19.16–18 and VI.20.1, and note how Alexander defends lay preaching and what Eusebius says he found in Alexander's library."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "narcissus-of-jerusalem",
+        "reason": "The aged bishop of Jerusalem whom Alexander came to assist and succeeded",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "Wrote a short life of Alexander in On Illustrious Men, chapter 62",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-jerusalem",
+        "reason": "A later bishop of Jerusalem known as a teacher of the faith",
+        "historical": true
+      },
+      {
+        "slug": "basil-the-great",
+        "reason": "Another bishop from Cappadocia who valued Christian learning",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eusebius, Church History, Book VI (NPNF 2.1, trans. A. C. McGiffert, 1890), New Advent",
+        "url": "https://www.newadvent.org/fathers/250106.htm"
+      },
+      {
+        "title": "Jerome, On Illustrious Men, chapter 62 (New Advent)",
+        "url": "https://www.newadvent.org/fathers/2708.htm"
+      },
+      {
+        "title": "Vatican News: Saint Alexandre, évêque de Jérusalem et martyr (May 16)",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/05/16/saint-alexandre--eveque-de-jerusalem-et--martyr.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Alexander",
+        "url": "https://www.newadvent.org/cathen/01295b.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable Catholic source found lists iconographic attributes for him; a bishop's vestments, book or martyr's palm would be generic guesses.",
+      "patronages: review lists none and no reputable source gives him a patronage; field omitted.",
+      "places: no shrine or church dedicated to him with an official website was found; field omitted.",
+      "quotes: all three verified word for word against McGiffert's NPNF 2.1 translation on New Advent (the Narcissus greeting is from Alexander's letter, reporting Narcissus). New Advent renders 'Pantænus' with the æ ligature, kept here.",
+      "feastCustoms / feast date: the site uses May 16 (Vatican News, French). The Catholic Encyclopedia says the Latins keep him on March 18 and the Greeks on December 22, and the Roman Martyrology lists him on March 18 (from general knowledge; not fetched). A human should decide whether the page should mention March 18.",
+      "biography: no contradiction, with notes. Eusebius dates his first imprisonment and confession to the persecution under Severus (VI.8.7, VI.11) and his death to Decius (VI.39); the Catholic Encyclopedia says 'Alexander Severus' for the first imprisonment and dates the death to 251, and Vatican News adds details not used here (pagan family, marriage in Cappadocia, Origen's ordination in 230, imprisonment in Alexandria until 211). The Catholic Encyclopedia's story of wild beasts licking his feet was not used. Eusebius (VI.8.4, VI.23.4) and Jerome (ch. 54) say the bishops of Caesarea and Jerusalem ordained Origen presbyter."
+    ]
+  },
+  "alexis": {
+    "templateVersion": 2,
+    "heroSummary": "St. Alexius of Rome is listed by Catholic Culture as a patron of nurses, beggars and pilgrims. His story began as a Syriac account of a holy beggar at Edessa, the \"Man of God,\" and grew into the legend of a Roman nobleman living unrecognized under his father's stairs. His feast is July 17.",
+    "searchDescription": "St. Alexius of Rome, July 17: the legend of the \"Man of God\" who left wealth for poverty and lived unrecognized under his family's stairs.",
+    "patronages": [
+      "nurses"
+    ],
+    "symbols": [
+      {
+        "symbol": "Staircase",
+        "meaning": "His chief emblem, from the legend that he lived his last years as an unknown beggar beneath the stairs of his father's house in Rome. Old stairs said to be from that house are still shown in his church on the Aventine."
+      },
+      {
+        "symbol": "Pilgrim's staff and scrip",
+        "meaning": "The years the legend says he spent away from home as a poor pilgrim and ascetic at Edessa, after leaving Rome on his wedding night."
+      },
+      {
+        "symbol": "Letter held in his hand",
+        "meaning": "In the legend, a written account found with his body after his death revealed who he was; some images show him dying with the letter, or giving it to the pope."
+      },
+      {
+        "symbol": "Beggar's rags and dish",
+        "meaning": "The voluntary poverty at the heart of every version of his story, from the Syriac beggar of Edessa who gave his alms to other poor people to the later Roman legend."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Alexius because his story is about holiness no one notices. In the oldest version, a beggar at Edessa shares his alms with other poor people and is recognized only after death. In the later legend, tradition holds that a rich young Roman gives up wealth and marriage, returns home unknown, and lives as a servant under his family's stairs. Few details can be verified, and the Church has always valued the story more for what it teaches than for its history. He became a patron of beggars, pilgrims and caregivers, and the Alexian Brothers, who nursed the sick, took his name. He speaks to anyone whose faithfulness goes unseen.",
+    "quotes": [
+      {
+        "text": "But when thou dost alms, let not thy left hand know what thy right hand doth. That thy alms may be in secret, and thy Father who seeth in secret will repay thee.",
+        "work": "Matthew 6:3–4",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For you are dead; and your life is hid with Christ in God.",
+        "work": "Colossians 3:3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And every one that hath left house, or brethren, or sisters, or father, or mother, or wife, or children, or lands for my name's sake, shall receive an hundredfold, and shall possess life everlasting.",
+        "work": "Matthew 19:29",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you made yourself poor for our sake and lived unnoticed for many years in Nazareth. Through the prayers of St. Alexius, whose story the Church has long told as a picture of hidden holiness, free me from the need to be seen and praised. Teach me to give quietly, to welcome the stranger at my door, and to recognize you in people others pass by. When I feel overlooked, keep my heart hidden with you in God, and bring me home at last to the Father's house. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The traditional collect for his feast was not used because the available English translation could not be confirmed as public domain."
+    },
+    "feastCustoms": [
+      "Remember him on July 17. He is listed in the Roman Martyrology but not on the General Roman Calendar; communities using the 1962 Missal still make a commemoration of St. Alexius, Confessor, that day.",
+      "Pray the traditional collect for his feast, asking to imitate his example.",
+      "Give alms in secret this week, following Matthew 6:3–4, without telling anyone.",
+      "Serve or support people who are homeless, or thank a nurse or caregiver, remembering the Alexian Brothers who nursed the sick in his name.",
+      "In Rome, pilgrims visit the Basilica of Saints Boniface and Alexius on the Aventine Hill, where stairs said to come from his family's house are preserved."
+    ],
+    "confirmationNote": "Alexius suits a confirmand who is drawn to quiet service and does not need to be noticed. His story, which the Church presents as legend rather than verified history, is about giving up comfort and status to live close to the poor and close to God. Confirmation strengthens Christians to witness, and Alexius is a reminder that some of the most faithful witness happens where no one is watching.",
+    "reflectionPrompts": [
+      "Where do I want credit for the good I do, and what would it mean to let God alone see it?",
+      "Do one kind act each day this week for someone at home without mentioning it to anyone.",
+      "Read the Catholic Encyclopedia article on St. Alexius (New Advent) and list which details belong to the early Syriac account and which were added in the later Roman legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "jadwiga-of-poland",
+        "reason": "Shares the July 17 feast",
+        "historical": true
+      },
+      {
+        "slug": "ephrem-the-syrian",
+        "reason": "Edessa's great Syriac saint, from the city of the earliest Alexius story",
+        "historical": true
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Also invoked as a patron of nurses",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Left a wealthy family to live in poverty for Christ",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Alexius",
+        "url": "https://www.newadvent.org/cathen/01307b.htm"
+      },
+      {
+        "title": "Catholic Culture: July 17 (St. Alexis, patronage and symbols)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-17"
+      },
+      {
+        "title": "Catholic Culture: Prayer for the Feast of St. Alexius",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1452"
+      },
+      {
+        "title": "Extraordinary Form propers: July 17, St. Alexis, Confessor",
+        "url": "https://www.extraordinaryform.org/propers/0717StAlexisConfessorD20.pdf"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 6",
+        "url": "https://www.drbo.org/chapter/47006.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 19",
+        "url": "https://www.drbo.org/chapter/47019.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Colossians 3",
+        "url": "https://www.drbo.org/chapter/58003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. 'nurses' rests on Catholic Culture's patronage list (Alexians, beggars, belt makers, nurses, pilgrims, travellers); only nurses has a live topic. Beggars and pilgrims are sourced but have no live topic. Human please reconcile.",
+      "symbols: all four from Catholic Culture's list of representations (staircase as his emblem; pilgrim with staff and scrip; dying man holding a letter, or giving a letter to the pope; ragged beggar with a dish). The Aventine stairs are from the Catholic Encyclopedia. Catholic Culture also lists a cross and a palm, not used.",
+      "feastCustoms: 'not on the General Roman Calendar' and 'communities using the 1962 Missal make a commemoration' are from general knowledge plus the existence of July 17 propers for St. Alexis, Confessor; not confirmed from an official 1962 Ordo. The Alexian Brothers' link to him is from Catholic Culture's 'Alexians' patronage, not from an Alexian source.",
+      "places: the Basilica of Saints Boniface and Alexius on the Aventine is mentioned in feastCustoms but not listed in places, because no verifiable official website was found (Turismo Roma links only to a free altervista site).",
+      "quotes: no writings of Alexius exist, so all three quotes are Douay-Rheims Scripture.",
+      "biography: no disagreement with the reviewed biography. Catholic Culture narrates the legend as history and dates his death to 404; the Catholic Encyclopedia dates the Syriac account to 450–475, places the Edessa beggar under Bishop Rabbula (412–435), and says the legend's document assigns his death to 417. The page treats the Roman details as legend throughout.",
+      "prayer: replaced the old-Missal collect (translation not confirmed public domain) with an original prayer (coordinator)"
+    ]
+  },
   "anne": {
     "templateVersion": 2,
     "heroSummary": "St. Anne is honored as a patron of mothers and, with St. Joachim, of grandparents. Scripture does not name Mary's parents; the name Anne and the story of her long childlessness come from the second-century Protoevangelium of James and later tradition. The Church celebrates Joachim and Anne together on July 26.",
