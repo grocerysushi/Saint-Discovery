@@ -2,6 +2,7 @@ import { Saint } from "@/lib/types";
 import saintsData from "@/lib/data/saints.json";
 import directoryAdditions from "@/lib/data/directory-additions.json";
 import { applySaintReview, canonicalSaintSlug, isPublishedSaintSlug } from "@/lib/saint-reviews";
+import { applySaintDevotion } from "@/lib/saint-devotions";
 
 // Saint content is baked into the repo (lib/data/saints.json, regenerated via
 // scripts/build-data.mjs) so every page and the sitemap build statically with
@@ -10,7 +11,8 @@ const CATALOG = [...saintsData, ...directoryAdditions.map(entry => entry.saint)]
 const SAINTS = CATALOG
   .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
   .filter(saint => isPublishedSaintSlug(saint.slug))
-  .map(applySaintReview);
+  .map(applySaintReview)
+  .map(applySaintDevotion);
 
 export function getAllSaintSlugs(): string[] {
   return CATALOG.filter(saint => isPublishedSaintSlug(saint.slug)).map(saint => saint.slug);

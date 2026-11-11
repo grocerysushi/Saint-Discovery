@@ -24,6 +24,7 @@ export function saintSearchSummary(saint: Saint) {
     saint.patron_of && `Patronage: ${saint.patron_of}.`,
     saint.known_for || saint.description,
   ].filter(Boolean).join(" ").replace(/\s+/g, " ").trim();
-  const description = raw.length <= 160 ? raw : `${raw.slice(0, 157).replace(/\s+\S*$/, "")}…`;
+  // A reviewed, complete sentence replaces a summary that would be cut off.
+  const description = raw.length <= 160 ? raw : saint.searchDescription ?? `${raw.slice(0, 157).replace(/\s+\S*$/, "")}…`;
   return { name, title, description };
 }

@@ -8,7 +8,12 @@ import { getProfileUpdatedOn } from "@/lib/profile-updates";
 import { getSaintContribution } from "@/lib/saint-contributions";
 import { getDirectoryEvidenceNote, getDirectoryCorrections } from "@/lib/directory-editorial";
 import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
-import { getPatronLinksForSaint } from "@/lib/patronage";
+import { getPatronLinksForSaint, getTopicBySlug, titleCaseLabel } from "@/lib/patronage";
+import { isTemplateV2 } from "@/lib/saint-devotions";
+import {
+  AtAGlance, FeastCustoms, ForConfirmation, HeroSummary, InTheirOwnWords, PlacesToVisit,
+  Reflect, RelatedSaintsV2, SaintPrayerSection, SymbolsInArt, WhyWeTurn,
+} from "@/components/saint-v2/SaintV2Sections";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
@@ -108,6 +113,15 @@ export default async function SaintPage({
   const relatedGuides = PATRON_GUIDES.filter(guide => guide.saints.some(entry => entry.slug === saint.slug));
   const biographyText = extended?.biography.join(" ") || saint.description || "";
   const readingMinutes = Math.max(1, Math.ceil(biographyText.split(/\s+/).filter(Boolean).length / 200));
+  const v2 = isTemplateV2(saint);
+  const v2Patronages = (saint.patronages ?? []).flatMap(topicSlug => {
+    const topic = getTopicBySlug(topicSlug);
+    return topic ? [{ slug: topic.slug, label: titleCaseLabel(topic.label) }] : [];
+  });
+  const v2Related = (saint.relatedSaints ?? []).flatMap(entry => {
+    const match = allSaints.find(candidate => candidate.slug === entry.slug);
+    return match ? [{ ...entry, name: saintDisplayName(match) }] : [];
+  });
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -204,7 +218,7 @@ export default async function SaintPage({
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-cream mb-4 leading-tight">
               {name}
             </h1>
-            {readerGuide && <p className="text-cream-dark text-lg leading-relaxed mb-5">{readerGuide.introduction}</p>}
+            {v2 ? <HeroSummary text={saint.heroSummary} /> : readerGuide && <p className="text-cream-dark text-lg leading-relaxed mb-5">{readerGuide.introduction}</p>}
             {review?.kind === "orthodox-saint" && <p className="text-gold mb-4">Venerated in Orthodox Christianity</p>}
             {review?.kind === "unresolved" && <p className="text-gold mb-4">This identity could not be established from reliable sources. Its earlier biographical claims have been withdrawn.</p>}
             {saint.tagline && (
@@ -218,7 +232,9 @@ export default async function SaintPage({
                 <span>About {readingMinutes} min · biography</span>
               </div>
             )}
-            <details className="biography-facts">
+            {v2 && <AtAGlance saint={saint} patronages={v2Patronages} symbols={saint.symbols} />}
+            {v2 && review?.feast_note && <p className="text-sm text-cream-dark/70 mb-3">{review.feast_note}</p>}
+            {!v2 && <details className="biography-facts">
             <summary>Dates, patronage &amp; background</summary>
             <dl className="text-sm space-y-1.5">
               {saint.feast_day && (
@@ -264,7 +280,7 @@ export default async function SaintPage({
                 {saint.known_for}
               </p>
             )}
-            </details>
+            </details>}
             {review && <a href="#sources" className="profile-source-link">Read the sources for this biography</a>}
             </div>
             <SaintArtworkFigure artwork={artwork} name={name} />
@@ -275,11 +291,19 @@ export default async function SaintPage({
             <details>
             <summary>Explore this page</summary>
             <div>
+              {v2 && saint.whyWeTurn && <a href="#why-we-turn">Why we turn to them</a>}
               {(extended || saint.description) && <a href="#biography">Biography</a>}
               {readerGuide && <a href="#quick-answers">Key questions answered</a>}
               {contribution && <a href="#contribution">Context &amp; contribution</a>}
               {learningGuide && <a href="#reading-guide">Reading guide</a>}
-              {saint.prayer && <a href="#prayer">Prayer</a>}
+              {v2 ? <>
+                {saint.devotionQuotes && saint.devotionQuotes.length > 0 && <a href="#own-words">In their own words</a>}
+                {saint.devotionPrayer && <a href="#prayer">Prayer</a>}
+                {saint.symbols && saint.symbols.length > 0 && <a href="#symbols">Symbols in art</a>}
+                {saint.feastCustoms && saint.feastCustoms.length > 0 && <a href="#feast">Celebrating the feast</a>}
+                {saint.places && saint.places.length > 0 && <a href="#places">Places to visit</a>}
+                {saint.confirmationNote && <a href="#confirmation">For Confirmation</a>}
+              </> : saint.prayer && <a href="#prayer">Prayer</a>}
               <a href="#reflection">Reflection</a>
               {extended && extended.faqs.length > 0 && <a href="#questions">Common questions</a>}
               {review && <a href="#sources">Sources &amp; corrections</a>}
@@ -290,6 +314,8 @@ export default async function SaintPage({
             </details>
             {saint.kind !== "unresolved" && saint.kind !== "observance" && <a className="biography-reflection-link" href="#reflection">Pause &amp; reflect <span aria-hidden="true">↗</span></a>}
           </nav>
+
+          {v2 && <WhyWeTurn name={name} text={saint.whyWeTurn} />}
 
           {extended ? (
             <section id="biography" className="mb-10 scroll-mt-24">
@@ -344,11 +370,21 @@ export default async function SaintPage({
 
           <BiographyArticles saint={saint} />
 
-          {saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5">
+          {v2 && <>
+            <InTheirOwnWords quotes={saint.devotionQuotes} />
+            <SaintPrayerSection name={name} prayer={saint.devotionPrayer} />
+            <SymbolsInArt symbols={saint.symbols} />
+            <FeastCustoms customs={saint.feastCustoms} feastDay={saint.feast_day} />
+            <PlacesToVisit places={saint.places} />
+            <ForConfirmation note={saint.confirmationNote} />
+            <Reflect name={name} prompts={saint.reflectionPrompts} />
+          </>}
+
+          {!v2 && saint.kind !== "unresolved" && saint.kind !== "observance" && <section id="reflection" className="biography-reflection" aria-labelledby="reflection-title"><p className="eyebrow">From reading to reflection</p><h2 id="reflection-title">What will you carry with you?</h2><p>After reading about {name}, take a moment to consider:</p><ol>{reflectionPrompts.map(prompt => <li key={prompt}>{prompt}</li>)}</ol><p className="text-sm">These are reflection prompts from Saint Discovery, not quotations from the saint.</p><div className="flex flex-wrap gap-4 mt-5">
             <Button variant="quiet" size="cta" nativeButton={false} render={<Link prefetch={false} href="/confirmation-saint-guide">Explore your Confirmation choice →</Link>} />
             <Link prefetch={false} href="/saint-of-day" className="text-link">Continue with a daily reflection →</Link>
           </div></section>}
-          {saint.quotes && saint.quotes.length > 0 && (
+          {!v2 && saint.quotes && saint.quotes.length > 0 && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
                 Quotes from {name}
@@ -365,7 +401,7 @@ export default async function SaintPage({
             </section>
           )}
 
-          {saint.prayer && (
+          {!v2 && saint.prayer && (
             <section id="prayer" className="mb-10 scroll-mt-24 bg-navy-light rounded-xl p-7 border border-navy-lighter">
               <h2 className="text-xs text-gold/70 uppercase tracking-wider mb-3">
                 Prayer to {name}
@@ -376,7 +412,7 @@ export default async function SaintPage({
             </section>
           )}
 
-          {saint.fun_fact && (
+          {!v2 && saint.fun_fact && (
             <section className="mb-10">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-4">
                 Did You Know?
@@ -462,7 +498,9 @@ export default async function SaintPage({
             </section>
           )}
 
-          {relatedSaints.length > 0 && (
+          {v2 && <RelatedSaintsV2 related={v2Related} />}
+
+          {!v2 && relatedSaints.length > 0 && (
             <section className="mt-12 pt-8 border-t border-navy-lighter">
               <h2 className="text-2xl font-heading font-semibold text-cream mb-6">
                 More lives to explore
