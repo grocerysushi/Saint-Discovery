@@ -66,6 +66,39 @@
       }
     ]
   },
+  "sponsorGuide": {
+    "title": "Sponsor conversation guide",
+    "description": "A 15–20 minute conversation for a candidate and sponsor about a saint's life and one practical act of faith.",
+    "filename": "sponsor-conversation-guide.pdf",
+    "pages": [{
+      "title": "A conversation about a saint · 15–20 minutes",
+      "intro": "Bring a parish-approved biography. Either person may pass on a question or keep a reflection private. Follow your parish or diocese's guidance about Confirmation names.",
+      "fields": [
+        { "label": "1. Read together (3–4 minutes). Choose a short passage. What happened, and what question does it raise?", "lines": 1 },
+        { "label": "2. Notice a choice (4–5 minutes). What did the saint do? What virtue does that choice suggest? What source supports the event?", "lines": 1 },
+        { "label": "3. Connect to today (4–5 minutes). How could someone practice that virtue in a different situation? Each person may suggest an example.", "lines": 1 },
+        { "label": "4. Plan a small step (3–4 minutes). Choose one achievable action for the week. When might you try it? You may keep this answer private.", "lines": 1 },
+        { "label": "5. Close (1–2 minutes). Name a question to bring to a catechist, or share a brief prayer in your own words. Follow up next week if you wish.", "lines": 1 }
+      ]
+    }]
+  },
+  "sourceActivity": {
+    "title": "Check a saint's story",
+    "description": "A source-checking activity with a worked example from a Vatican biography of St. Kateri Tekakwitha.",
+    "filename": "saint-source-check.pdf",
+    "source": { "label": "Vatican canonization booklet, 2012 (St. Kateri Tekakwitha)", "url": "https://www.vatican.va/news_services/liturgy/libretti/2012/20121021.pdf" },
+    "pages": [{
+      "title": "Source-checking activity · 15–20 minutes",
+      "intro": "Choose a teacher-approved saint biography and one source it cites. Work in pairs or independently. Use your own words and cite the source you actually read.",
+      "fields": [
+        { "label": "1. Find a claim. Write one specific event or date from the biography and name the biography.", "lines": 1 },
+        { "label": "2. Check its source. Who produced it, and what does it say about the claim? Does it cite an earlier witness or record?", "lines": 1 },
+        { "label": "3. State what remains uncertain. Does the source describe tradition, give a range, or leave a detail unanswered? If you cannot check a detail, say so.", "lines": 1 },
+        { "label": "Worked example: A Vatican canonization booklet says Kateri Tekakwitha was baptized in 1676. It does not establish what she felt on that day. The date is supported by this account; her feelings remain unknown from this source.", "lines": 0 },
+        { "label": "4. Write a careful sentence about your own claim. Name the source and distinguish what it supports from what you cannot verify.", "lines": 1 }
+      ]
+    }]
+  },
   "sources": [
     { "label": "USCCB: Confirmation", "url": "https://www.usccb.org/prayer-and-worship/sacraments-and-sacramentals/confirmation" },
     { "label": "Catechism of the Catholic Church, 1302-1305: the effects of Confirmation", "url": "https://www.vatican.va/content/catechism/en/part_two/section_two/chapter_one/article_2/iii_the_effects_of_confirmation.html" },

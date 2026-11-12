@@ -11,7 +11,7 @@ import { absoluteUrl, serializeJsonLd, siteConfig } from "@/lib/seo";
 
 const path = "/resources/teachers";
 const title = "Free Saint Worksheets & Confirmation Lesson Guide";
-const description = "Download a free saint-reflection worksheet and 45-minute Confirmation lesson guide for teachers and catechists. Printable PDFs and online text, no signup.";
+const description = "Free printable saint activities, a sponsor conversation guide, and a Confirmation lesson for teachers and catechists. Read online or download, with no signup.";
 
 export const metadata: Metadata = {
   title, description, alternates: { canonical: path },
@@ -27,13 +27,18 @@ function CitedText({ text }: { text: string }) {
 }
 
 export default function TeacherResources() {
-  const resources = [content.worksheet, content.lesson];
+  const resources = [
+    { ...content.worksheet, anchor: "worksheet", type: "Worksheet", label: "2 pages · Student worksheet", preview: "A life worth\nlearning from.", tagline: "READ · REFLECT · ACT", download: "Download worksheet (PDF)", online: "Read the worksheet online" },
+    { ...content.lesson, anchor: "lesson", type: "Lesson plan", label: "3 pages · 45-minute lesson", preview: "A saint to\nwalk with.", tagline: "PREPARE · TEACH · FOLLOW UP", download: "Download lesson (PDF)", online: "Read the lesson online" },
+    { ...content.sponsorGuide, anchor: "sponsor-guide", type: "Discussion guide", label: "1 page · Sponsor conversation", preview: "A conversation\nto remember.", tagline: "LISTEN · REFLECT · ENCOURAGE", download: "Download sponsor guide (PDF)", online: "Read the sponsor guide online" },
+    { ...content.sourceActivity, anchor: "source-activity", type: "Activity", label: "1 page · Source-checking activity", preview: "Read closely.\nAsk questions.", tagline: "READ · CHECK · COMPARE", download: "Download source activity (PDF)", online: "Read the source activity online" },
+  ];
   const schema = [
     { "@context": "https://schema.org", "@type": "CollectionPage", name: title, description, url: absoluteUrl(path),
-      hasPart: resources.map((resource, i) => ({
+      hasPart: resources.map((resource) => ({
         "@type": "LearningResource", name: resource.title, description: resource.description,
-        url: absoluteUrl(`${path}#${i === 0 ? "worksheet" : "lesson"}`),
-        learningResourceType: i === 0 ? "Worksheet" : "Lesson plan", inLanguage: "en", isAccessibleForFree: true,
+        url: absoluteUrl(`${path}#${resource.anchor}`),
+        learningResourceType: resource.type, inLanguage: "en", isAccessibleForFree: true,
         educationalLevel: ["Middle school", "High school"],
         audience: { "@type": "EducationalAudience", educationalRole: "teacher" },
         author: { "@type": "Organization", name: siteConfig.name },
@@ -52,7 +57,7 @@ export default function TeacherResources() {
       <div className="teaching-intro-copy">
       <p className="eyebrow">For teachers &amp; catechists</p>
       <h1>Bring a saint’s story <br />into your next lesson.</h1>
-      <p>Free saint reflections and a Confirmation lesson, ready to print or read online.</p>
+      <p>Free saint activities, sponsor conversation prompts, and a Confirmation lesson, ready to print or read online.</p>
       <p className="educator-free-note">Free to use. No signup. Print-friendly PDFs.</p>
       <div className="educator-quick-links"><Button variant="gold" size="cta" nativeButton={false} render={<a href="#worksheet">View the worksheet <span aria-hidden>↓</span></a>} /><a className="text-link" href="#lesson">Explore the lesson <span aria-hidden>↓</span></a></div>
       <p className="teaching-safety-copy">Use printed worksheets for younger learners. Do not submit children’s names, email addresses or private reflections. Enable classroom mode on shared devices before students browse.</p>
@@ -62,13 +67,13 @@ export default function TeacherResources() {
     </header>
 
     <section className="educator-downloads" aria-label="Download teaching resources">
-      {resources.map((resource, i) => <article className="educator-card" key={resource.filename}>
-        <div className="educator-paper-preview" aria-hidden="true"><span>{i === 0 ? "READ · REFLECT · ACT" : "PREPARE · TEACH · FOLLOW UP"}</span><strong>{i === 0 ? "A life worth\nlearning from." : "A saint to\nwalk with."}</strong><div className="educator-paper-lines" /><small>SAINT DISCOVERY</small></div>
+      {resources.map(resource => <article className="educator-card" key={resource.filename}>
+        <div className="educator-paper-preview" aria-hidden="true"><span>{resource.tagline}</span><strong>{resource.preview}</strong><div className="educator-paper-lines" /><small>SAINT DISCOVERY</small></div>
         <div className="educator-card-body">
-          <p className="eyebrow">{i === 0 ? "2 pages · Student worksheet" : "3 pages · 45-minute lesson"}</p>
+          <p className="eyebrow">{resource.label}</p>
           <h2>{resource.title}</h2><p>{resource.description}</p>
-          <EducatorDownload filename={resource.filename}>{i === 0 ? "Download worksheet (PDF)" : "Download lesson (PDF)"}</EducatorDownload>
-          <a className="text-link" href={i === 0 ? "#worksheet" : "#lesson"}>Read {i === 0 ? "the worksheet" : "the lesson"} online <span aria-hidden>↓</span></a>
+          <EducatorDownload filename={resource.filename}>{resource.download}</EducatorDownload>
+          <a className="text-link" href={`#${resource.anchor}`}>{resource.online} <span aria-hidden>↓</span></a>
         </div>
       </article>)}
     </section>
@@ -94,6 +99,13 @@ export default function TeacherResources() {
       </details>)}
       <p>For a candidate’s next step, use the <Link prefetch={false} href="/confirmation-saint-guide">Confirmation saint selection guide</Link> with their sponsor or catechist.</p>
     </section>
+
+    {[{ resource: content.sponsorGuide, id: "sponsor-guide", heading: "sponsor-guide-heading" }, { resource: content.sourceActivity, id: "source-activity", heading: "source-activity-heading" }].map(({ resource, id, heading }) => <section key={id} id={id} className="guide-section educator-online" aria-labelledby={heading}>
+      <p className="eyebrow">Teaching resource · Online edition</p><h2 id={heading}>{resource.title}</h2>
+      <p>{resource.description}</p>
+      {resource.pages.map(page => <div key={page.title}><h3>{page.title}</h3><p>{page.intro}</p><ul className="educator-prompts">{page.fields.map(field => <li key={field.label}>{field.label}</li>)}</ul></div>)}
+      {id === "source-activity" && <p>Worked example source: <a href={content.sourceActivity.source.url}>{content.sourceActivity.source.label}</a>.</p>}
+    </section>)}
 
     <ContextualReading context="teachers" />
     <section className="guide-sources" aria-labelledby="teacher-sources"><h2 id="teacher-sources">Sources &amp; classroom use</h2>

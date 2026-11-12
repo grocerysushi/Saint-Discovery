@@ -104,9 +104,36 @@ def lesson():
     c.save()
 
 
+def activity(key):
+    resource = DATA[key]
+    page = resource["pages"][0]
+    c = canvas.Canvas(str(OUTPUT / resource["filename"]), pagesize=(612, 792), invariant=1)
+    header(c, resource, page["title"], 1, 1)
+    y = para(c, escape(page["intro"]), 657) - 4
+    for field in page["fields"]:
+        y = para(c, escape(field["label"]), y)
+        c.setStrokeColor(LINE)
+        c.setLineWidth(.45)
+        for _ in range(field["lines"]):
+            y -= 19
+            if y < 66:
+                raise ValueError("Activity lines overflow")
+            c.line(48, y, 564, y)
+        y -= 8
+    if "source" in resource:
+        source = resource["source"]
+        y = para(c, f'Source: <link href="{escape(source["url"])}" color="#244e58"><u>{escape(source["label"])}</u></link>', y, SMALL)
+        y = para(c, escape(source["url"]), y, SMALL)
+    para(c, escape(DATA["permission"]), y, SMALL)
+    c.showPage()
+    c.save()
+
+
 worksheet()
 lesson()
-for key, expected in (("worksheet", 2), ("lesson", 3)):
+activity("sponsorGuide")
+activity("sourceActivity")
+for key, expected in (("worksheet", 2), ("lesson", 3), ("sponsorGuide", 1), ("sourceActivity", 1)):
     pdf = OUTPUT / DATA[key]["filename"]
     reader = PdfReader(pdf)
     assert len(reader.pages) == expected
