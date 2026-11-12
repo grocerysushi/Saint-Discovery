@@ -68,7 +68,8 @@ function problems(slug, entry, publishedSlugs) {
   }
 
   if (entry.templateVersion === 2) {
-    for (const key of ['heroSummary', 'symbols', 'whyWeTurn', 'prayer', 'feastCustoms', 'confirmationNote', 'reflectionPrompts', 'relatedSaints']) {
+    // Symbols are optional (owner decision): the section is hidden when absent.
+    for (const key of ['heroSummary', 'whyWeTurn', 'prayer', 'feastCustoms', 'confirmationNote', 'reflectionPrompts', 'relatedSaints']) {
       const value = entry[key];
       need(Array.isArray(value) ? value.length > 0 : Boolean(value), `v2 requires ${key} (otherwise set templateVersion 1.5)`);
     }

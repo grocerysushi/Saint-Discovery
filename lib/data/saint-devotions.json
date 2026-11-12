@@ -1,6 +1,6 @@
 {
   "abraham": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Abraham of Kiduna was a fourth-century priest and hermit from the region of Edessa, in the Syriac Christian world. Tradition says he gave up an intended marriage for the desert, later served the village of Beth-Kiduna as its priest, and then returned to solitude. He died about 370 and is remembered on March 16.",
     "searchDescription": "St. Abraham of Kiduna (died about 370), remembered March 16: Syriac hermit and priest near Edessa, a friend of St. Ephrem, who served Beth-Kiduna.",
     "whyWeTurn": "People turn to St. Abraham of Kiduna when they feel pulled between a hidden life of prayer and the needs of the people around them. Tradition holds that he left a comfortable future for the desert, then accepted ordination to serve a pagan village, and went back to his cell once the work was done. A later and much-retold story adds that he went out in disguise to find and bring home a niece who had fallen into a life of sin. Whatever details are uncertain, his memory speaks to anyone praying for a relative who has strayed, and to priests sent to difficult places.",
@@ -80,7 +80,8 @@
       "whyWeTurn: the niece story (St. Mary, rescued from a brothel) is not in the reviewed biography or Nominis. It is from the Life attributed to Ephrem and is retold by Catholicism.org; several secondary sources call those episodes doubtful. I labeled it 'a later and much-retold story'. A human may prefer to drop that sentence.",
       "quotes: no public-domain writing by or about him was verified, so only one Douay-Rheims verse is used.",
       "feastCustoms: 'not on the General Roman Calendar' reflects the reviewed note that March 16 is a local commemoration. Other sources give October 29 (Byzantine calendar) and other dates in Syriac and Coptic calendars; not used.",
-      "biography: no disagreement with the reviewed biography. The traditional Roman Martyrology (March 16) says only 'In Syria, St. Abraham, hermit, whose life has been written by the blessed deacon Ephrem'; secondary sources give death dates from about 360 to 370. I did not verify Ephrem's authorship of the Life from a scholarly source, so relatedSaints says 'remembered as the author'."
+      "biography: no disagreement with the reviewed biography. The traditional Roman Martyrology (March 16) says only 'In Syria, St. Abraham, hermit, whose life has been written by the blessed deacon Ephrem'; secondary sources give death dates from about 360 to 370. I did not verify Ephrem's authorship of the Life from a scholarly source, so relatedSaints says 'remembered as the author'.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "adam": {
@@ -358,23 +359,9 @@
     ]
   },
   "adrian": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Adrian (Hadrian) of Nicomedia was an early Christian martyr who died about 306, during the persecution under Diocletian. According to tradition he was an imperial officer who, moved by the courage of Christians on trial, declared himself a Christian; his wife Natalia cared for him in prison. Roman tradition keeps his feast on September 8.",
     "searchDescription": "St. Adrian of Nicomedia (died about 306), feast September 8: imperial officer who, tradition says, became a Christian after watching martyrs' courage.",
-    "symbols": [
-      {
-        "symbol": "Anvil",
-        "meaning": "His martyrdom: the Catholic Encyclopedia reports the tradition that his limbs were broken before his death, and late medieval images show the anvil on which this was said to be done."
-      },
-      {
-        "symbol": "Armor",
-        "meaning": "His remembered service as an officer in the imperial guard before his conversion."
-      },
-      {
-        "symbol": "Sword",
-        "meaning": "His soldier's calling; medieval pilgrim badges show him armored with a sword in one hand and an anvil in the other."
-      }
-    ],
     "whyWeTurn": "People turn to St. Adrian when someone else's courage has unsettled them and they sense God asking for a decision. Tradition holds that he was not raised a Christian but was won over by watching ordinary believers stay faithful under torture, and that he chose to stand with them at once. His wife Natalia's faithfulness, visiting and encouraging the prisoners, makes them a pair that married couples can turn to together. Soldiers, guards and people who work inside prisons have long seen him as one of their own. He reminds us that our witness may matter to someone we never notice watching.",
     "quotes": [
       {
@@ -457,11 +444,12 @@
       "feastCustoms: 'September 8 is the Nativity of Mary' is from general knowledge of the General Roman Calendar, not from a page fetched here.",
       "relatedSaints: juliana-of-nicomedia and george are linked by place or by the era of the Diocletianic persecution in their traditions; no direct connection with Adrian is claimed.",
       "biography: no disagreement. The Catholic Encyclopedia says the martyrs' bodies were given to the flames after their limbs were broken, and it also notes Roman Martyrology mentions on March 4 and August 26; the reviewed biography is consistent with this.",
-      "symbols: only from a museum catalog read via search excerpts, not a Catholic source — set to 1.5 (coordinator)"
+      "symbols: only from a museum catalog read via search excerpts, not a Catholic source — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 3 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "adrian-of-canterbury": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Adrian (Hadrian) of Canterbury was an African-born monk and scholar who declined to become Archbishop of Canterbury and instead came to England with Archbishop Theodore. As abbot in Canterbury for about forty years, he helped build a school famed for Scripture, Greek and Latin. He died in 710; his feast is January 9.",
     "searchDescription": "St. Adrian of Canterbury (died 710), feast January 9: African-born abbot and teacher who helped make Canterbury a great school of Christian learning.",
     "whyWeTurn": "People turn to St. Adrian when they teach, study or serve behind someone else's name. He was offered the highest office in the English Church, judged himself unworthy, and then spent four decades helping the man who accepted it, travelling with Theodore and teaching at Canterbury. Bede says their students learned Scripture alongside Greek, Latin, poetry and astronomy, and some went on to shape the Church for generations. Teachers, students, translators and people far from their homeland find in him a patient companion. His story is also a reminder that the early English Church owed much to a monk from Africa.",
@@ -548,7 +536,8 @@
       "places: English Heritage is the official site for the abbey ruins (a heritage site, not a church); URL checked and loads.",
       "quotes: verified word for word against Sellar's 1907 translation (Project Gutenberg #38326); footnote numbers removed. Both are Bede writing about Adrian, not Adrian's own words; none of his own writings survive complete (English Heritage).",
       "relatedSaints: wilfrid-of-york is linked by era only; augustine-of-hippo is thematic (both African-born). I did not use Aldhelm, his best-known pupil, because there is no aldhelm page.",
-      "biography: minor nuance, not a contradiction. Bede (IV.1) says Adrian first proposed a monk named Andrew, who was judged too ill, and only then Theodore; the reviewed biography and English Heritage simply say he recommended Theodore. English Heritage suggests he came from Cyrenaica (modern Libya) and was born about 630–37; not used. The Catholic Encyclopedia calls his first monastery Nerida; Bede calls it Niridanum."
+      "biography: minor nuance, not a contradiction. Bede (IV.1) says Adrian first proposed a monk named Andrew, who was judged too ill, and only then Theodore; the reviewed biography and English Heritage simply say he recommended Theodore. English Heritage suggests he came from Cyrenaica (modern Libya) and was born about 630–37; not used. The Catholic Encyclopedia calls his first monastery Nerida; Bede calls it Niridanum.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "afra": {
@@ -931,7 +920,7 @@
     ]
   },
   "agnes-le-thi-thanh": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Agnes Lê Thị Thành, also called Đê, was a Vietnamese laywoman and mother who hid a priest in her home during a time of persecution. Beaten for refusing to trample a cross, she died in prison in 1841. She is the only woman among the 117 Vietnamese martyrs canonized in 1988.",
     "searchDescription": "St. Agnes Lê Thị Thành, a Vietnamese mother who sheltered a priest, refused to trample a cross and died in prison in 1841. Feast: July 12.",
     "whyWeTurn": "People turn to St. Agnes Lê Thị Thành because her faith was lived out in an ordinary home. She was not a priest or a nun but a mother, and her courage took the form of hospitality: she sheltered a hunted priest, knowing what it could cost her household. When she was pressed to trample a cross, she refused, and she died in prison after repeated beatings. Mothers, families who keep the faith under pressure, and Vietnamese Catholics around the world find in her a sister who shows that hidden acts of welcome can be a true witness. Much of her life went unrecorded, and that quiet is part of her story too.",
@@ -1021,11 +1010,12 @@
       "date: the Holy See list gives 12 July 1841, while Nominis and its Roman Martyrology text give 1842 (the reviewed biography already notes this); page copy uses 1841",
       "place of death: Nominis places her martyrdom in Ninh Bình province (matching the reviewed biography); Catholic Online and The Jesuit Post say she died in prison at Nam Định. Not used; needs human check if place is ever stated",
       "biography detail: Vatican News mentions an unnamed mother of six among the 117; devotional sites (Catholic Online, The Jesuit Post) add a birth year around 1781 (or 1789), a husband, six children, and say she helped priests travel in disguise and was arrested carrying letters to Christian prisoners. These were not verified from a reputable Catholic source and were not used",
-      "feastCustoms: the page's July 12 date is her individual commemoration; she is not separately listed in the General Roman Calendar, which honors her in the November 24 group memorial"
+      "feastCustoms: the page's July 12 date is her individual commemoration; she is not separately listed in the General Roman Calendar, which honors her in the November 24 group memorial",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "agnes-of-assisi": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Agnes of Assisi was the younger sister of St. Clare and, sixteen days after her, one of the first women to embrace the Franciscan life of poverty and prayer. She later led the Poor Clare community at Monticelli near Florence, returned to Assisi as Clare was dying, and died in November 1253. Franciscans keep her feast on November 19.",
     "searchDescription": "St. Agnes of Assisi, Clare's younger sister, followed her into Franciscan poverty in 1212 and led the Poor Clares at Monticelli. Feast: November 19.",
     "whyWeTurn": "People turn to St. Agnes of Assisi when following God strains family ties, or when love for a brother or sister is woven into their faith. She left home as a teenager to join Clare, and the early Legend of St. Clare records relatives trying to drag her back by force; the story that her body became too heavy to carry belongs to devotional tradition. Later she was sent far from the sister she loved to lead another community, and she accepted that separation. Siblings, people asked to lead after a beloved mentor, and anyone serving far from home find in her a gentle, faithful companion.",
@@ -1127,11 +1117,12 @@
       "quotes: her own letter to Clare from Monticelli is not quoted, because no verified public-domain English translation was found and the review notes that its authenticity is disputed. Quote 1 is Agnes's cry as the Legend reports it; quote 2 is Clare's words to her. Both verified against the 1910 Robinson text on Internet Archive. Robinson's chapter numbers could not be read reliably in the scan, so the chapters are described rather than numbered.",
       "whyWeTurn / feastCustoms: the miraculous heaviness and Monaldo's withered arm are labeled devotional tradition, as in the review.",
       "places: the Basilica's official site lists Sant'Agnese among its feasts but does not mention her tomb; the burial location rests on the Catholic Encyclopedia. The site returned HTTP 406 to a plain curl request but loads in a browser.",
-      "prayer: no traditional prayer to St. Agnes of Assisi with a verifiable text was found, so an original prayer is given."
+      "prayer: no traditional prayer to St. Agnes of Assisi with a verifiable text was found, so an original prayer is given.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "agnes-of-bohemia": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Agnes of Bohemia (1211–1282) was a Czech princess who turned down political marriages, founded a hospital and a monastery of Poor Sisters in Prague, and entered it in 1234, serving as its abbess. St. Clare of Assisi wrote her four letters that still survive. John Paul II canonized her in 1989; her feast is March 2.",
     "searchDescription": "St. Agnes of Bohemia (1211–1282), feast March 2: Prague princess who refused royal marriages, founded a hospital and became a Poor Clare abbess.",
     "whyWeTurn": "People turn to St. Agnes of Bohemia when they hold privilege, influence or money and want to use it well. Born a king's daughter, she was promised in marriage for political advantage more than once, and with the Pope's protection she chose religious life instead. She put her family's resources into a hospital and a monastery, where she lived in poverty and led her sisters as abbess. Clare of Assisi wrote to her as a beloved sister. Those who care for the sick, people discerning a vocation under family pressure, and anyone hoping to turn advantage into service find in her a practical, generous friend.",
@@ -1228,7 +1219,8 @@
       "quotes: all three are St. Clare's words to Agnes, verified against Balfour's 1910 book on Internet Archive (only spacing before semicolons normalized). The book is 'translated from the French version of Brother Francis du Puis by Charlotte Balfour'; the translator of the appended letters is not named separately. Balfour notes that even the critic Van Ortroy accepted the four letters as genuine. No writings by Agnes herself were found in a public-domain translation.",
       "relatedSaints: the Hedwig link comes from the Holy See biography, not the review; the review does not contradict it. The Catholic Encyclopedia calls Agnes 'a relative of St. Elizabeth'. The Wenceslaus link is dynastic: Agnes's brother King Wenceslaus I is a different person from the saint.",
       "places: the National Gallery is a secular museum. The page is official, but it describes the building rather than offering devotion.",
-      "prayer: no traditional prayer to St. Agnes of Bohemia with a verifiable text was found, so an original prayer is given."
+      "prayer: no traditional prayer to St. Agnes of Bohemia with a verifiable text was found, so an original prayer is given.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "aidan": {
@@ -1496,7 +1488,7 @@
     ]
   },
   "albert-chmielowski": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Albert Chmielowski, known in Poland as Brother Albert, was a gifted painter who lost a leg in the 1863 uprising and later gave up his art to live among Kraków's homeless poor. He founded the Albertine Brothers and Sisters, died in one of his shelters on Christmas Day 1916, and is remembered on June 17.",
     "searchDescription": "St. Albert Chmielowski (1845–1916), feast June 17: Polish painter who became Brother Albert and founded the Albertines to serve Kraków's homeless poor.",
     "whyWeTurn": "People turn to Brother Albert when they want to help the poor without keeping them at arm's length. He did not run his shelters from a comfortable distance; he moved in, wore a rough grey habit, and shared the life of the people he served. He is remembered for saying that a person should be as good as bread, which is there on the table for everyone. He also knew struggle from the inside: a war wound, a painful search for his vocation, and a period of deep spiritual distress before he found peace. He is a gentle companion for volunteers, artists, people with disabilities, and anyone learning to see Christ in the face of a stranger.",
@@ -1622,11 +1614,12 @@
       "feastCustoms: canonization confirmed — John Paul II beatified him in Kraków on June 22, 1983 and canonized him in Rome on November 12, 1989, together with Agnes of Bohemia. The 2004 Roman Martyrology lists him on December 25 (his death); June 17 is the memorial date given by Vatican News (Polish) and the Albertines. Human check: the site may want to note the December 25 Martyrology date.",
       "places: the sanctuary has no separate site I could find; the URL is the Albertine Sisters' official Polish site, which carries the Ecce Homo Sanctuary information. The Albertine Sisters' English site says his key relics are under the sanctuary's main altar.",
       "relatedSaints: 'our God's brother' is Wojtyła's phrase as reported by Vatican News (Polish); his play of that name is not cited directly.",
-      "biography: no disagreement with the reviewed biography. Sources add his birth date (August 20, 1845), the habit date (August 25, 1887) and the sisters' founding date (January 15, 1891); Vatican News adds that he died of stomach cancer."
+      "biography: no disagreement with the reviewed biography. Sources add his birth date (August 20, 1845), the habit date (August 25, 1887) and the sisters' founding date (January 15, 1891); Vatican News adds that he died of stomach cancer.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "albert-of-montecorvino": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Albert of Montecorvino was a bishop in Apulia, in southern Italy, who died in 1127. The Roman Martyrology remembers him on April 5 for a life given to constant prayer and to the good of the poor. Later accounts add that he lived with blindness and continued to serve as bishop.",
     "searchDescription": "St. Albert of Montecorvino (d. 1127), feast April 5: a bishop in Apulia remembered for constant prayer, care for the poor, and serving despite blindness.",
     "whyWeTurn": "Very little is known for certain about St. Albert, and that is part of his quiet appeal. The Roman Martyrology sums up his life in a single line: he gave it entirely to prayer and to the common good of the poor. Later accounts say he lost his sight and still carried the responsibilities of a bishop, and tradition holds that he was granted visions and worked miracles. People living with blindness or failing eyesight, and anyone asked to serve while carrying a disability or limitation, can find a companion in him. He is also a reminder that holiness can be faithful, local and largely unrecorded.",
@@ -1700,7 +1693,8 @@
       "places: omitted. The ruined former cathedral of Sant'Alberto at Montecorvino and the church in Pietramontecorvino have no official websites I could verify.",
       "feastCustoms: Pietramontecorvino's local feast on May 16 (a pilgrimage carrying his statue to the ruins of Montecorvino, with a blessing of the fields) is reported only by Wikipedia and tourism/event sites, not by the diocese of Lucera-Troia, so it was left out. 'Not on the General Roman Calendar' and Vincent Ferrer's April 5 optional memorial are from general knowledge of the calendar, not a fetched page.",
       "relatedSaints: lucy's link to eyes and blindness is a popular tradition and is worded that way; bruno is linked by era and region only, with no known contact.",
-      "biography: DISAGREEMENT on date — the 1910 Catholic Encyclopedia (Lucera article) gives his death as 5 April 1037, while the reviewed biography, Catholic Online and Wikipedia give 1127. The 2004 Roman Martyrology entry ('Monte Corbino in Apulia') gives no year. Human check recommended. The Martyrology says he gave his whole life to continual prayer and to the common good of the poor; it does not mention blindness, visions or miracles, which come from Catholic Online and are worded as later accounts/tradition."
+      "biography: DISAGREEMENT on date — the 1910 Catholic Encyclopedia (Lucera article) gives his death as 5 April 1037, while the reviewed biography, Catholic Online and Wikipedia give 1127. The 2004 Roman Martyrology entry ('Monte Corbino in Apulia') gives no year. Human check recommended. The Martyrology says he gave his whole life to continual prayer and to the common good of the poor; it does not mention blindness, visions or miracles, which come from Catholic Online and are worded as later accounts/tradition.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "albert-the-great": {
@@ -1847,7 +1841,7 @@
     ]
   },
   "alberto-hurtado": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Alberto Hurtado was a Chilean Jesuit priest who taught, gave retreats and formed young Catholics, then in 1944 asked his listeners to help homeless children in Santiago. That appeal became Hogar de Cristo. He died of cancer in 1952, was canonized in 2005, and is remembered on August 18.",
     "searchDescription": "St. Alberto Hurtado (1901–1952), feast August 18: Chilean Jesuit who founded Hogar de Cristo for homeless people in Santiago, canonized in 2005.",
     "whyWeTurn": "People turn to St. Alberto Hurtado when faith has to become concrete. He knew insecurity as a boy, after his father's death left the family dependent on relatives, and he worked through law school to support his mother and brother. As a priest he refused to separate prayer from the condition of the poor; Pope Benedict XVI called him a contemplative in action. Chileans remember him driving a green truck through Santiago to bring homeless people in from the streets. Dying of cancer, he was often heard to say that he was content with the Lord. He is a companion for anyone who wants to serve generously without losing joy.",
@@ -1964,11 +1958,12 @@
       "feastCustoms: his liturgical rank on August 18 (Chilean national calendar, Jesuit proper) was not confirmed from an official calendar; 'not on the General Roman Calendar' is from general knowledge. The National Day of Solidarity is from the Fundación and Hogar de Cristo pages; the 2001 Month of Solidarity and the Mass at his tomb on August 18 are from EWTN News/ACI Prensa (2026).",
       "places: padrealbertohurtado.cl is the Fundación Padre Alberto Hurtado, which Jesuitas Chile names as responsible for the sanctuary and museum; the site loaded and covers the sanctuary, museum and green truck. (padrehurtado.cl redirects to Hogar de Cristo.)",
       "relatedSaints: the teresa-of-the-andes reason relies on Jesuit sources calling Hurtado Chile's second saint. Hogar de Cristo's history page calls him Chile's first saint, which is wrong (Teresa of the Andes was canonized in 1993); he is the first Chilean man canonized. zygmunt-gorazdowski is linked only by the shared canonization date.",
-      "biography: no disagreement with the reviewed biography. Details used beyond it come from the Holy See: father died when he was four; entered the Jesuits August 14, 1923; ordained at Louvain August 24, 1933; beatified October 16, 1994; canonized October 23, 2005. The Jesuits of Canada date the first house to 1945 after the 1944 appeal; the Holy See and Hogar de Cristo date the start to October 1944."
+      "biography: no disagreement with the reviewed biography. Details used beyond it come from the Holy See: father died when he was four; entered the Jesuits August 14, 1923; ordained at Louvain August 24, 1933; beatified October 16, 1994; canonized October 23, 2005. The Jesuits of Canada date the first house to 1945 after the 1944 appeal; the Holy See and Hogar de Cristo date the start to October 1944.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "alexander-of-jerusalem": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Alexander of Jerusalem was a bishop from Cappadocia who, according to Eusebius, came to Jerusalem as a pilgrim and was kept there to help its aged bishop, Narcissus. He founded a church library, supported the teacher Origen, and died in prison at Caesarea during the persecution of Decius, around 250.",
     "searchDescription": "St. Alexander of Jerusalem: bishop who founded a church library, defended Origen, and died in prison at Caesarea under Decius, about 250.",
     "whyWeTurn": "People turn to St. Alexander when they care about both faith and learning. He studied under Christian teachers he later called his masters, and as bishop he gathered letters and books into a library that was still in use when Eusebius wrote his history a lifetime later. He also took risks for a gifted teacher, defending Origen's preaching against another bishop's objections. Twice he confessed Christ before Roman authorities, and the second time, already an old man, he died in prison. Students, teachers, librarians, and bishops facing hard decisions can find in him a patient friend who kept learning and courage together.",
@@ -2053,7 +2048,8 @@
       "places: no shrine or church dedicated to him with an official website was found; field omitted.",
       "quotes: all three verified word for word against McGiffert's NPNF 2.1 translation on New Advent (the Narcissus greeting is from Alexander's letter, reporting Narcissus). New Advent renders 'Pantænus' with the æ ligature, kept here.",
       "feastCustoms / feast date: the site uses May 16 (Vatican News, French). The Catholic Encyclopedia says the Latins keep him on March 18 and the Greeks on December 22, and the Roman Martyrology lists him on March 18 (from general knowledge; not fetched). A human should decide whether the page should mention March 18.",
-      "biography: no contradiction, with notes. Eusebius dates his first imprisonment and confession to the persecution under Severus (VI.8.7, VI.11) and his death to Decius (VI.39); the Catholic Encyclopedia says 'Alexander Severus' for the first imprisonment and dates the death to 251, and Vatican News adds details not used here (pagan family, marriage in Cappadocia, Origen's ordination in 230, imprisonment in Alexandria until 211). The Catholic Encyclopedia's story of wild beasts licking his feet was not used. Eusebius (VI.8.4, VI.23.4) and Jerome (ch. 54) say the bishops of Caesarea and Jerusalem ordained Origen presbyter."
+      "biography: no contradiction, with notes. Eusebius dates his first imprisonment and confession to the persecution under Severus (VI.8.7, VI.11) and his death to Decius (VI.39); the Catholic Encyclopedia says 'Alexander Severus' for the first imprisonment and dates the death to 251, and Vatican News adds details not used here (pagan family, marriage in Cappadocia, Origen's ordination in 230, imprisonment in Alexandria until 211). The Catholic Encyclopedia's story of wild beasts licking his feet was not used. Eusebius (VI.8.4, VI.23.4) and Jerome (ch. 54) say the bishops of Caesarea and Jerusalem ordained Origen presbyter.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "alexis": {
@@ -2306,7 +2302,7 @@
     ]
   },
   "alphonsa-of-the-immaculate-conception": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Alphonsa of the Immaculate Conception (1910–1946) was a Franciscan Clarist sister from Kerala and the first woman of India to be canonized. Born Annakutty Muttathupadathu into the Syro-Malabar Church, she lived with years of illness, and Popes John Paul II and Benedict XVI pointed to her patient love of the crucified Christ. Her feast is July 28.",
     "searchDescription": "St. Alphonsa (1910–1946), feast July 28: Franciscan Clarist sister from Kerala and India's first canonized woman, known for patient faith in illness.",
     "whyWeTurn": "People turn to Alphonsa when life has narrowed to a sickbed, a hospital routine, or a hidden struggle no one else sees. She never founded anything or traveled far. She taught a little, wrote letters for her parish, and spent much of her short life ill. John Paul II said she came to love suffering because she loved the suffering Christ, and he noted that she still delighted in simple, ordinary things. As India's first canonized woman, she also shows that holiness has deep roots in Kerala's ancient Syro-Malabar Church. She is a companion for anyone learning to trust God when strength runs out.",
@@ -2399,7 +2395,8 @@
       "places: no official website for her shrine at Bharananganam could be found; the Eparchy of Palai listing leaves the website field blank, so places is omitted",
       "feastCustoms: secondary sources describe a novena and feast at Bharananganam from about July 19 to 28, but I could not confirm the dates from a diocesan or shrine source, so no dates are given; I also could not confirm her place in the General Roman Calendar (Catholic Culture's July 28 page does not list her)",
       "relatedSaints: Euphrasia Eluvathingal is a thematic match (Kerala, Syro-Malabar, religious sister); her details were not checked against a listed source beyond her published page",
-      "biography: no disagreement. Note: John Paul II's homily says her life lasted thirty-six years, but she died on July 28, 1946, three weeks before her 36th birthday (born August 19, 1910, per the Holy See biography)"
+      "biography: no disagreement. Note: John Paul II's homily says her life lasted thirty-six years, but she died on July 28, 1946, three weeks before her 36th birthday (born August 19, 1910, per the Holy See biography)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "alphonsus-liguori": {
@@ -2785,27 +2782,9 @@
     ]
   },
   "andr-bessette": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. André Bessette was a Holy Cross brother in Montreal who spent almost forty years as a college doorkeeper and sent the troubled and sick who came to him to St. Joseph. From that ministry grew Saint Joseph's Oratory on Mount Royal. Canonized in 2010, he is celebrated on January 7 in Canada and January 6 in the United States.",
     "searchDescription": "St. André Bessette, Holy Cross brother and doorkeeper, led the sick to St. Joseph and inspired Saint Joseph's Oratory in Montreal. Feast: January 6 or 7.",
-    "symbols": [
-      {
-        "symbol": "Door of the porter's lodge",
-        "meaning": "His assignment in 1871 as doorkeeper at Collège Notre-Dame, where he served for almost forty years and welcomed everyone who came."
-      },
-      {
-        "symbol": "Lamp and oil of St. Joseph",
-        "meaning": "He took oil from a lamp burning before St. Joseph and invited the sick to use it while praying; the Oratory keeps that practice alive."
-      },
-      {
-        "symbol": "Statue of St. Joseph",
-        "meaning": "The saint he pointed every visitor toward; he kept a small statue of Joseph on his windowsill and insisted that Joseph, not he, did the healing."
-      },
-      {
-        "symbol": "Heart",
-        "meaning": "His heart is preserved as a relic at the Oratory, presented there as a sign of his love for God and compassion for others."
-      }
-    ],
     "whyWeTurn": "People turn to St. André when they are sick, worn out or carrying more than they can manage. He was an orphan who tried many trades without much success before his community gave him one of its humblest jobs: answering the door. He made that door a place of welcome, listening to people in trouble, praying with them and sending them to St. Joseph. Healings were attributed to that prayer, but André kept repeating that St. Joseph was the one who cured. Asking his help is a way of bringing ordinary burdens to God with simple trust, and of learning that no task is too small to serve Christ in others.",
     "quotes": [
       {
@@ -2911,7 +2890,8 @@
       "quotes: the link between Genesis 41:55 and 'Ite ad Joseph' rests on the Vulgate wording of that verse; the Holy Cross page confirms 'Ite ad Joseph' as André's motto but does not cite Genesis",
       "feastCustoms/heroSummary: the reviewed feast_day is January 7; Catholic Culture lists an optional memorial on January 6 in the US calendar (the Canadian bishops use January 7). Not a contradiction, since feast_note already says local calendars differ, but a human may want the page to show both dates",
       "relatedSaints: marguerite-bourgeoys (Montreal) and john-of-god were chosen from general knowledge and the live hospitals/nurses topic; Bourgeoys's Montreal work was not re-fetched in this pass",
-      "biography: no disagreement with the reviewed biography. The Oratory adds birth on August 9, 1845, at Saint-Grégoire d'Iberville; entry into the Holy Cross novitiate December 27, 1870; the chapel blessed October 19, 1904; beatification May 23, 1982; and about a million people at his funeral"
+      "biography: no disagreement with the reviewed biography. The Oratory adds birth on August 9, 1845, at Saint-Grégoire d'Iberville; entry into the Holy Cross novitiate December 27, 1870; the chapel blessed October 19, 1904; beatification May 23, 1982; and about a million people at his funeral",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 4 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "andrew": {
@@ -3196,7 +3176,7 @@
     ]
   },
   "andrew-dung-lac": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Andrew Dũng Lạc was a Vietnamese parish priest who learned the faith from a catechist in Hanoi. Ransomed once by his parishioners, he was arrested again and beheaded in Hanoi on December 21, 1839, with Fr. Peter Thi. The Church honors him and 116 fellow martyrs of Vietnam on November 24.",
     "searchDescription": "St. Andrew Dũng Lạc, Vietnamese priest ransomed by his parishioners and beheaded in Hanoi in 1839, honored with 116 fellow martyrs on November 24.",
     "whyWeTurn": "People turn to St. Andrew Dũng Lạc because his story is about a whole community keeping faith together. He first came to know Christ through a catechist who gave him a home, and as a priest he depended on parishioners who sheltered him and gathered money to free him after his first arrest. Rather than abandon them, he changed his name and kept serving. The Church remembers him with 116 companions, bishops, priests and many lay men and women, so Vietnamese Catholics and anyone pressured for their faith find in him a sign that no believer stands alone. His last arrest came while he was visiting a brother priest for confession.",
@@ -3286,19 +3266,14 @@
       "biography: Catholic Culture's header gives his dates as 1735–1839, which conflicts with its own text and the review (born about 1795); treated as a typo. Catholic Culture adds that he was baptized at Vĩnh Trị, ordained on March 15, 1823, first arrested in 1835, and re-arrested on November 10, 1839; Vatican News gives his birth name as Dung An-Tran (Trần An Dũng). None conflicts with the review",
       "biography: sources differ on who was confessing: Catholic Culture says he visited Peter Thi so he (Andrew) could hear Peter's confession; Vatican News says he visited him for confession. Page copy says only 'visiting a brother priest for confession'",
       "group: Vatican News says the martyrs died between the 17th and 19th centuries; Catholic Culture says 1820–1862. Page copy avoids the range. Canonization date is June 19, 1988 per Catholic Culture (a CWR photo caption says July 19); page copy uses only the year",
-      "relatedSaints: the Holy See's list gives the priest who died with him on 21-12-1839 as 'Pietro PHAM VAN TIZI' (no. 34), while the site's page is peter-truong-van-thi (1763–1839); same date and role, but the family name differs (Phạm vs Trương), so a human should confirm the page's name. The same list confirms Paolo Le Bao Tinh, priest, d. 06-04-1857 (no. 47) and Agnes Le Thi Thanh (no. 87)"
+      "relatedSaints: the Holy See's list gives the priest who died with him on 21-12-1839 as 'Pietro PHAM VAN TIZI' (no. 34), while the site's page is peter-truong-van-thi (1763–1839); same date and role, but the family name differs (Phạm vs Trương), so a human should confirm the page's name. The same list confirms Paolo Le Bao Tinh, priest, d. 06-04-1857 (no. 47) and Agnes Le Thi Thanh (no. 87)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "andrew-kim-taegon": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Andrew Kim Taegon was the first Korean-born Catholic priest. Trained in Macau and ordained in Shanghai, he returned home to serve believers under persecution and was beheaded in Seoul on September 16, 1846, in his mid-twenties. Catholics honor him with St. Paul Chong Hasang and their companions on September 20.",
     "searchDescription": "St. Andrew Kim Taegon, Korea's first native-born priest, ordained in Shanghai and martyred in Seoul in 1846. Honored with his companions on September 20.",
-    "symbols": [
-      {
-        "symbol": "Traditional Korean dress: a scholar's robe (dopo) and hat",
-        "meaning": "His identity as a son of Korea; the marble statue blessed at St. Peter's Basilica in 2023 shows him in this dress, with arms outstretched."
-      }
-    ],
     "whyWeTurn": "People turn to St. Andrew Kim Taegon because he carried the faith of a persecuted family into the priesthood. His father and grandfather died for Christ, and as a teenager he left home on a long journey to study in Macau. Ordained in Shanghai, he came back to bring the sacraments to Korean believers whose Church had been founded and sustained largely by lay people, and within about a year he was arrested and killed. Seminarians, priests, Korean Catholics, and young people weighing a costly calling find in him a friend who said yes knowing the risk, and who did not shrink from danger.",
     "quotes": [
       {
@@ -3426,23 +3401,14 @@
       "biography: Vatican News, EWTN and the Archbishop of Seoul's 2021 homily give his birth as 21 August 1821 at Solmoe, Dangjin; ordination by Bishop Ferréol in Shanghai (1845, exact date not verified from a reputable source); beatification 1925; canonization 6 May 1984. Catholic Answers says he was 25 at ordination, which conflicts with an 1821 birth and 1845 ordination; not used. No disagreement with the review",
       "biography: the Vatican News saint page names neither the place of execution nor the 1846 date's day; Saenamteo as the site comes from the shrine's own site and Korean secondary sources",
       "relatedSaints: that Ignatius Kim (ignatius-kim-che-jun) was his father, martyred in 1839, is from encyclopedic sources (New World Encyclopedia, Encyclopedia.com); Vatican News and L'Osservatore Romano confirm only that his father and grandfather were martyred. A human should confirm against the site's ignatius-kim-che-jun page. The note on Francis Xavier's death near Macau is well established but was not re-fetched",
-      "feastCustoms: the claim that the 1984 homily describes the Korean Church as founded by lay people is from the vatican.va text ('founded entirely by lay people'); the homily does not name Andrew Kim in the portion fetched"
+      "feastCustoms: the claim that the 1984 homily describes the Korean Church as founded by lay people is from the vatican.va text ('founded entirely by lay people'); the homily does not name Andrew Kim in the portion fetched",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 1 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "angela-merici": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Angela Merici (1474–1540) grew up near Lake Garda, became a Franciscan tertiary, and in Brescia founded the Company of St. Ursula in 1535: a way for women to consecrate their lives to God while living in the world rather than in a cloister. Canonized in 1807, she is remembered on January 27.",
     "searchDescription": "St. Angela Merici, feast January 27, founded the Company of St. Ursula in Brescia in 1535 so women could consecrate their lives to God in the world.",
-    "symbols": [
-      {
-        "symbol": "Ladder (often with young women climbing it)",
-        "meaning": "Tradition recalls a vision in which Angela saw a procession of angels and virgins and heard her late sister tell her she would found a company of virgins; later art shows this as a ladder joining earth and heaven, the path her daughters would climb."
-      },
-      {
-        "symbol": "Cloak",
-        "meaning": "Catholic Culture lists a cloak among her traditional attributes; no reliable source found explains its origin, so it is best treated as an identifying attribute in her images rather than given a fixed meaning."
-      }
-    ],
     "whyWeTurn": "People turn to St. Angela Merici when they want to give their whole lives to God without leaving ordinary life behind. She lost her parents and her sister young, prayed through that grief, and spent years joining manual work, prayer and quiet help to neighbors. In Brescia she gathered women who were neither nuns nor wives into a company consecrated to Christ in the middle of the city. Her writings ask leaders to know each person by name and to guide with gentleness, never by force. Women discerning a vocation, teachers, mentors, and anyone carrying responsibility for others find in her a wise, motherly friend.",
     "quotes": [
       {
@@ -3545,11 +3511,12 @@
       "places: angelamerici.it is the site of the Company of St. Ursula of Brescia; Visit Brescia's shrine listing points there for the shrine's history, but the homepage rendered no readable text when fetched, so a human may want to confirm it is the best link for the shrine (formerly Sant'Afra) where her body rests. The St. Peter's statue (Pietro Galli, 1866) is from Vatican News; the basilica site does not itself mention her.",
       "feastCustoms: 'Ursuline schools and communities often celebrate it more solemnly' is general knowledge, not from a fetched page; a human may want to soften or confirm.",
       "relatedSaints: cajetan is linked by era and Italian Catholic reform only; no direct connection to Angela is documented.",
-      "biography: no disagreement with the reviewed biography. Sources differ on details the review avoids: the Catholic Encyclopedia says she was orphaned at ten and went blind on Crete during her 1524 Holy Land pilgrimage, while Vatican News says she lost her parents and sister around fifteen and places the blindness simply on the journey. The 1535 founding date (November 25) is in both Vatican News and the Catholic Encyclopedia."
+      "biography: no disagreement with the reviewed biography. Sources differ on details the review avoids: the Catholic Encyclopedia says she was orphaned at ten and went blind on Crete during her 1524 Holy Land pilgrimage, while Vatican News says she lost her parents and sister around fifteen and places the blindness simply on the journey. The 1535 founding date (November 25) is in both Vatican News and the Catholic Encyclopedia.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 2 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "anicetus": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Anicetus was a second-century bishop of Rome, originally from Syria. He is remembered for his meeting with St. Polycarp of Smyrna: they disagreed over when to celebrate Easter and neither persuaded the other, yet St. Irenaeus records that they shared the Eucharist and parted in peace. Vatican News commemorates him on April 20.",
     "searchDescription": "St. Anicetus, a second-century bishop of Rome from Syria, disagreed with Polycarp over the date of Easter, yet the two shared the Eucharist and parted in peace.",
     "whyWeTurn": "People turn to St. Anicetus when a disagreement threatens to become a break. Almost all we know of him comes from one encounter that St. Irenaeus later recalled: the aged Polycarp came to Rome, the two bishops could not agree on how to keep Easter, and still they remained in communion, Anicetus gave Polycarp the honor of celebrating the Eucharist, and they parted as brothers. He is a fitting companion for families, parishes and friends who must live with real differences, and for anyone praying for Christian unity. His example suggests that holding firmly to what we have received and treating others with deep respect can belong together.",
@@ -3634,11 +3601,12 @@
       "quotes: the Irenaeus passage was checked word for word against the New Advent text of the NPNF translation (Eusebius V.24.17). Strictly it is Irenaeus writing about Anicetus, not Anicetus's own words; no writings of Anicetus survive.",
       "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar, not a page fetched here; a human may want to confirm.",
       "relatedSaints: justin-martyr is linked by time and place only (Rome, mid-second century); no direct contact between the two is recorded. The Eleutherus link is from Hegesippus as quoted in Eusebius IV.22.",
-      "biography: no disagreement with the reviewed biography. Vatican News says Anicetus 'invited' Polycarp to Rome and dates his election to about 155; Irenaeus says only that Polycarp was in Rome in his time, so the text avoids 'invited'. The 1907 Catholic Encyclopedia calls him a martyr (with dates it admits are uncertain), and Vatican News says only that he died under Marcus Aurelius; martyrdom is therefore not claimed anywhere in this entry. Syrian origin rests on Vatican News and the review."
+      "biography: no disagreement with the reviewed biography. Vatican News says Anicetus 'invited' Polycarp to Rome and dates his election to about 155; Irenaeus says only that Polycarp was in Rome in his time, so the text avoids 'invited'. The 1907 Catholic Encyclopedia calls him a martyr (with dates it admits are uncertain), and Vatican News says only that he died under Marcus Aurelius; martyrdom is therefore not claimed anywhere in this entry. Syrian origin rests on Vatican News and the review.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "anna-wang": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Anna Wang was a Chinese Catholic girl of fourteen who was killed in 1900, during the Boxer uprising, after refusing to renounce her faith. John Paul II, canonizing her in 2000, recalled that she faced death saying heaven's door is open to all. She is honored among the Martyrs of China.",
     "searchDescription": "St. Anna Wang, a 14-year-old Chinese Catholic martyred in 1900, refused to renounce her faith; John Paul II canonized her with the Martyrs of China in 2000.",
     "whyWeTurn": "People turn to St. Anna Wang because she was so young and so sure. We know little about her daily life, but John Paul II told the world that at fourteen, pressed to give up her faith and facing execution, she would not, and that she went to her death calm, speaking of heaven's open door and murmuring the name of Jesus. She is a natural friend for teenagers who feel pressure to hide or drop their faith, for parents and catechists who form them, and for Christians in China and anywhere believers suffer for Christ. She reminds us that courage does not depend on age.",
@@ -3723,7 +3691,8 @@
       "places: no shrine or church with an official site connected to her was found; field omitted.",
       "quotes: her words come only from John Paul II's 2000 homily (copyrighted, and not her own writing), so they are paraphrased in heroSummary, whyWeTurn and prayer ('heaven's door is open to all', murmuring 'Jesus' three times) rather than set as a formal quote. The English homily calls her 'Ann Wang'.",
       "heroSummary/searchDescription: 'killed in 1900, during the Boxer uprising' rests on L'Osservatore Romano (via Catholic Culture), which lists 'St Ann Wang, 14' among the Chinese lay Christians killed in July 1900 in south-eastern Tcheli (the Jesuit Apostolic Vicariate of Xianxian); the reviewed biography gives no year or place.",
-      "biography: no disagreement with the reviewed biography. Popular sources add details not used here: birth in 1886 at Majiazhuang (or Xingtai, per Notre Dame ACE), death on July 22, 1900, beatification by Pius XII in 1955, and stories of her stepmother and of leading other women in prayer. These lack a reputable Catholic source checked here."
+      "biography: no disagreement with the reviewed biography. Popular sources add details not used here: birth in 1886 at Majiazhuang (or Xingtai, per Notre Dame ACE), death on July 22, 1900, beatification by Pius XII in 1955, and stories of her stepmother and of leading other women in prayer. These lack a reputable Catholic source checked here.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "anne": {
@@ -3873,7 +3842,7 @@
     ]
   },
   "ansbert": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Ansbert (died about 695) left a career at the Frankish royal court to become a monk under St. Wandrille at Fontenelle, where he later served as abbot. In 684 he became bishop of Rouen. Caught up in the politics of his day, he died in exile at Hautmont. His local feast is February 9.",
     "searchDescription": "St. Ansbert (d. c. 695), feast February 9: royal official turned monk of Fontenelle, abbot, and bishop of Rouen who died in exile at Hautmont.",
     "whyWeTurn": "People turn to St. Ansbert when they are weighing success against something deeper. The records are brief, but they show a man who left honors at the court of Clotaire III to follow Christ as a monk, then accepted the burden of leading an abbey and a diocese. His last years were spent far from home, exiled for political reasons; the monks of Saint-Wandrille say he was a victim of jealousy. He did not get to finish his work on his own terms. Anyone who has been pushed aside unfairly, or who must choose between ambition and conscience, can ask his prayers.",
@@ -3940,7 +3909,8 @@
       "quotes: omitted. No writings of his survive in a public-domain English translation, and no Scripture passage is specifically tied to him in the sources.",
       "biography: no contradiction, two additions for a human. The Saint-Wandrille monks call him the abbey's third abbot, chosen by Wandrille as one of his immediate successors, and say he became bishop of Rouen in 684 after the death of St. Ouen. They describe him as a 'victim of jealousy'; Nominis names Pepin of Herstal as the ruler who exiled him. The abbey adds that his body was brought back to Fontenelle, later moved to Ghent (Mont-Blandin), and destroyed by Calvinists in 1578. Nominis says he was chancellor at Clotaire III's court and names him also Austrebert.",
       "relatedSaints: Bathildis was regent for Clotaire III in the early part of his reign; the sources do not say whether Ansbert served at court during her regency. Willibrord is linked by era and by Pepin of Herstal, not by any recorded contact.",
-      "reflectionPrompts: the Matthew passage is a thematic choice, not one the sources connect to him."
+      "reflectionPrompts: the Matthew passage is a thematic choice, not one the sources connect to him.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "anselm-of-canterbury": {
@@ -4961,7 +4931,7 @@
     ]
   },
   "apollonius": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Apollonius of Rome was a learned Christian who, in the reign of Commodus, was denounced and then asked to explain his faith before the Roman Senate. Eusebius says he gave an eloquent defense, yet he was condemned and beheaded around 185. The Church commemorates him on April 21.",
     "searchDescription": "St. Apollonius of Rome, feast April 21: a learned Christian who defended his faith before the Roman Senate and was beheaded under Commodus, about 185.",
     "whyWeTurn": "People turn to St. Apollonius when they must give a reason for their faith in front of people who hold power over them: in a courtroom, a classroom, an office or a family argument. Eusebius remembers him as a man known for learning and philosophy who, when the judge pressed him to speak, made an eloquent defense before the Senate instead of simply refusing. The later Acts, which preserve a version of his answers, show him respectful toward the emperor and willing to pray for him, yet unwilling to worship anyone but God. He is a fitting companion for students, scholars and anyone who wants to be both thoughtful and faithful under pressure.",
@@ -5055,11 +5025,12 @@
       "quotes: verified word for word against the scanned 1896 second edition of Conybeare (archive.org OCR, checked line by line), not the 1894 first edition; OCR '1 am' read as 'I am'. Conybeare translates the Armenian version, in which the judge is called Terentius (Conybeare: a corruption of Perennis). The Acts as we have them are generally treated as resting on the record Eusebius says he collected, with later shaping; Conybeare and Harnack note the opening is missing and that the Acts never call Apollonius a senator. Labeled as the Armenian version for that reason.",
       "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar (April 21 there is St. Anselm), not from a page fetched here; a human may want to confirm.",
       "relatedSaints: irenaeus-of-lyon is linked by era only (both late second century, under Commodus); no direct connection between the two is known.",
-      "biography: no disagreement with the reviewed biography. Vatican News dates his death to 185 and calls Perennis 'gouverneur'; Eusebius calls him the judge and he was praetorian prefect. Eusebius's detail that the accusing servant had his legs broken was not used."
+      "biography: no disagreement with the reviewed biography. Vatican News dates his death to 185 and calls Perennis 'gouverneur'; Eusebius calls him the judge and he was praetorian prefect. Eusebius's detail that the accusing servant had his legs broken was not used.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "arsenius": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Arsenius the Great was a learned Roman who tutored the sons of Emperor Theodosius in Constantinople, then left the court for the Egyptian desert of Scetis. There he became one of the most admired Desert Fathers, known for silence, tears of repentance and humility. The Western Church remembers him on July 19.",
     "searchDescription": "St. Arsenius the Great, feast July 19: a Roman tutor at the imperial court who left for the Egyptian desert and became a Desert Father known for silence.",
     "whyWeTurn": "People turn to St. Arsenius when life is too loud. He had status, learning and a place at the emperor's side, and the sayings remember him praying to know how to live and hearing that he should flee, keep silence and pray. He is a companion for anyone who talks too much, scrolls too much or measures themselves by achievement. Tradition holds that this scholar of Greek and Latin asked an unlettered Egyptian monk for advice, admitting he had not learned that man's alphabet of the spiritual life. Teachers, students and busy professionals can find in him a reminder that wisdom begins in humility and quiet.",
@@ -5141,7 +5112,8 @@
       "quotes: verified against the archive.org OCR of Budge vol. II (1907), checked line by line. Budge translates the Syriac compilation of Anan-Isho, so wording differs from translations of the Greek alphabetical collection (e.g. the Catholic Encyclopedia's 'flee the company of men, and thou shalt be saved' corresponds to Budge §1). The first quote is the voice he heard, not his own words. Chapter labels follow Budge's book; OCR made the chapter numerals unreliable, so the humility chapter is named rather than numbered.",
       "feastCustoms: 'not on the General Roman Calendar' is from his absence on Vatican News and Catholic Culture for July 19 (both show other observances); May 8 Eastern date from Nominis and the reviewed biography.",
       "relatedSaints: damasus-i rests on the Catholic Encyclopedia (Gratian and Damasus chose him as tutor; 'said to have been a deacon') and Nominis (ordained deacon by Damasus); both are traditional. moses-the-black is named with Arsenius in Budge (the vision of the two boats).",
-      "biography: no disagreement. The Catholic Encyclopedia gives 354–450 and says he tutored Arcadius from 383 for eleven years and later Honorius too; Nominis gives death in 449. The reviewed biography's caution about chronology fits."
+      "biography: no disagreement. The Catholic Encyclopedia gives 354–450 and says he tutored Arcadius from 383 for eleven years and later Honorius too; Nominis gives death in 449. The reviewed biography's caution about chronology fits.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "athanasius": {
@@ -5568,7 +5540,7 @@
     ]
   },
   "augustine-zhao-rong": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Augustine Zhao Rong was a Chinese soldier who, moved by the patience of a captive French bishop, asked for baptism and later became a diocesan priest. Arrested and cruelly tortured, he died in 1815. On July 9 the Church honors him with 119 companions, Chinese and foreign, martyred in China between 1648 and 1930.",
     "searchDescription": "St. Augustine Zhao Rong (died 1815), feast July 9: Chinese soldier turned priest, martyred in 1815 and honored with 119 companion martyrs of China.",
     "whyWeTurn": "People turn to St. Augustine Zhao Rong because his faith began by watching someone else suffer well. As a soldier guarding Bishop Dufresse, he saw a prisoner's patience and wanted to know its source. He was baptized, studied for the priesthood and served Catholics in a time of restriction, until he too was arrested and tortured. With him the Church remembers 119 others: teenagers and elders, catechists and farmers, priests, sisters and missionaries, killed across nearly three centuries. Converts, soldiers, those who suffer for their faith, and Catholics praying for the Church in China find in these martyrs steady, hopeful friends.",
@@ -5671,7 +5643,8 @@
       "places: no official shrine or church site for him was found. CBCEW says his remains were buried at Guan Shan and moved in 1822, but no official site exists to link.",
       "biography: Vatican News calls him 'the first Chinese-born diocesan priest' and 'the first Chinese priest to give his life for the Lord', and says John Paul II 'beatified' the group in 2000 (it was a canonization) and gives 1646 rather than 1648; none of these claims was used. Catholic Culture says he accompanied Dufresse 'to his martyrdom in Beijing'; the Holy See says he escorted Dufresse from Chengdu to Beijing, and Dufresse was executed later, on 14 September 1815. The review's wording ('encounter') is consistent with the Holy See.",
       "biography: CBCEW gives a divergent account (born 1746 in Guizhou; baptized by a 'Father Mei' with no mention of Dufresse; ordained at 35; died in prison in Chengdu awaiting judgment; beatified 27 May 1900; Church in China keeps 27 January). It also contains an internal error (baptism in 1752 when he would have been about six). None of this was used; a human may want to reconcile the conversion story.",
-      "feastCustoms: July 9 is the date the Shanxi Franciscans were killed in 1900 (Holy See notes); no source checked explains why the group memorial is on July 9, so no reason is given."
+      "feastCustoms: July 9 is the date the Shanxi Franciscans were killed in 1900 (Holy See notes); no source checked explains why the group memorial is on July 9, so no reason is given.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "barbara": {
@@ -6052,7 +6025,7 @@
     ]
   },
   "basil-the-elder": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Basil the Elder was a fourth-century Christian layman and respected teacher in Cappadocia and Pontus, husband of St. Emmelia and father of a family of saints, including Basil the Great, Gregory of Nyssa, Peter of Sebaste and Macrina. Little is known of his own life. He and Emmelia are remembered on May 30.",
     "searchDescription": "St. Basil the Elder, May 30: a lay teacher of Cappadocia, husband of St. Emmelia and father of Basil the Great, Gregory of Nyssa and Macrina.",
     "whyWeTurn": "People turn to St. Basil the Elder as Christian parents, especially fathers who want to pass on the faith. He was not a bishop or a writer whose works survive. He was a married layman, known in his region as a teacher of virtue, who with his wife Emmelia raised children the Church now honors as saints. St. Gregory of Nazianzus, who knew the family, praised the couple for generosity to the poor, hospitality and setting aside part of their property for God. Basil reminds us that the home is often where holiness is first learned, quietly, long before anyone notices.",
@@ -6127,7 +6100,8 @@
       "places: none; no shrine or church dedicated to him with an official site was found.",
       "quotes: no writings by Basil the Elder survive. The two quotations are Gregory of Nazianzus writing about him (Oration 43), from the public-domain 1894 NPNF translation as edited at New Advent; checked against that page.",
       "feastCustoms: the May 30 joint commemoration follows the reviewed biography and Nominis, which quotes the Roman Martyrology entry for the couple. The 'persecution of Galerius' item follows the Martyrology text quoted by Nominis (the couple banished under Galerius Maximian, living in the wilds of Pontus).",
-      "biography: possible discrepancy, already hedged in the reviewed biography. The Catholic Encyclopedia says it was Basil the Elder's PARENTS (the grandparents of Basil the Great) who suffered in the persecution of Maximinus Galerius and hid in the mountains of Pontus, while the Roman Martyrology entry quoted by Nominis says Basil and Emmelia themselves were banished. The page says only 'members of this family' to avoid choosing. Nominis gives death dates of 349 and 372 for the couple without saying which is whose; neither date was used. The Catholic Encyclopedia says he died while Basil the Great was still young."
+      "biography: possible discrepancy, already hedged in the reviewed biography. The Catholic Encyclopedia says it was Basil the Elder's PARENTS (the grandparents of Basil the Great) who suffered in the persecution of Maximinus Galerius and hid in the mountains of Pontus, while the Roman Martyrology entry quoted by Nominis says Basil and Emmelia themselves were banished. The page says only 'members of this family' to avoid choosing. Nominis gives death dates of 349 and 372 for the couple without saying which is whose; neither date was used. The Catholic Encyclopedia says he died while Basil the Great was still young.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "basil-the-great": {
@@ -6653,7 +6627,7 @@
     ]
   },
   "benezet": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Bénézet is remembered as the young shepherd linked to the medieval bridge across the Rhône at Avignon. Tradition says a heavenly call sent him to begin the work and to gather support for travelers and the poor. He died in 1184 before the bridge was finished, was buried in its chapel, and is remembered on April 14.",
     "searchDescription": "St. Bénézet (d. 1184), feast April 14: the young shepherd remembered for starting the medieval bridge over the Rhône at Avignon, where he was buried.",
     "whyWeTurn": "People turn to St. Bénézet because his story joins faith to a very practical work of mercy: making a dangerous river crossing safer for travelers, pilgrims and the poor. Tradition holds that a heavenly voice called the young shepherd to Avignon and that miracles confirmed his mission, and those details belong to legend. What is clearer is that the bridge was built, that a charitable work grew up around it, and that Avignon honored his tomb for centuries. He is a companion for anyone who senses God asking for something that seems far beyond their strength.",
@@ -6749,11 +6723,12 @@
       "places: avignon-pont.com is the official site run by Avignon Tourisme and was confirmed to load; its home page does not describe the saint or the chapel. No official website was verified for the church of Saint-Didier.",
       "feastCustoms: relic location is uncertain across sources. Nominis (diocesan accounts) says the relics went to the Célestins in 1674 and to Saint-Didier in 1884; Britannica also places them at Saint-Didier; an Aleteia summary says Avignon cathedral. The custom is therefore worded without naming the church. 'Local feast since the fourteenth century' rests on Nominis (feast fixed by John XXII in 1331); Viviers honor since 1737 also from Nominis.",
       "prayer: original.",
-      "biography: no disagreement with the review. Notes: Nominis places his birth at Le Villard (Burzet, Ardèche, Diocese of Viviers) and cites the Roman Martyrology as giving his death at about nineteen; Butler says the bridge was completed in 1188, four years after his death, and that his body was found incorrupt in 1670."
+      "biography: no disagreement with the review. Notes: Nominis places his birth at Le Villard (Burzet, Ardèche, Diocese of Viviers) and cites the Roman Martyrology as giving his death at about nineteen; Butler says the bridge was completed in 1188, four years after his death, and that his body was found incorrupt in 1670.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "benignus": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Benignus, also called Benén, is remembered as a disciple of St. Patrick and his psalm-singer. Baptized by Patrick, he is said to have helped shape the choral worship of the early Irish Church and to have assisted Patrick at Armagh. Irish tradition keeps his memory on November 9, and he traditionally died in 467.",
     "searchDescription": "St. Benignus (Benén) of Armagh, feast November 9: fifth-century disciple of St. Patrick, remembered as his psalm-singer and helper at Armagh.",
     "whyWeTurn": "People turn to St. Benignus because he shows how a mission grows through companionship and song. The Tripartite Life tells that as a boy he scattered flowers over the sleeping Patrick, and that when others tried to stop him, Patrick said the child would inherit his kingdom. Remembered as Patrick's psalm-singer, he reminds us that the Gospel reached Ireland through worship as well as preaching. Later writers credited him with law codes and books, claims that call for caution. Choir members, church musicians and anyone who serves beside a stronger leader can find in him a gentle model.",
@@ -6834,11 +6809,12 @@
       "places: no official website for a place specifically tied to Benignus was verified; omitted.",
       "feastCustoms: whether the Archdiocese of Armagh or the Irish proper calendar keeps a liturgical memorial of Benignus was not verified; customs are worded as private devotion.",
       "prayer: original.",
-      "biography: no disagreement with the review. Notes: the Catholic Encyclopedia gives his father as Sesenen of Meath, coadjutor at Armagh from 450, resignation in 467 and death at the end of that year. A non-official devotional blog gives 468 and says the Martyrology of Donegal lists November 8. The flower episode from the Tripartite Life is not in the reviewed biography but does not contradict it; it is labeled as from that source."
+      "biography: no disagreement with the review. Notes: the Catholic Encyclopedia gives his father as Sesenen of Meath, coadjutor at Armagh from 450, resignation in 467 and death at the end of that year. A non-official devotional blog gives 468 and says the Martyrology of Donegal lists November 8. The flower episode from the Tripartite Life is not in the reviewed biography but does not contradict it; it is labeled as from that source.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "benjamin": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Benjamin was a deacon of the Church in Persia who was imprisoned for preaching Christ and released after a Roman envoy intervened. He refused to stop sharing his faith, was arrested again, and was put to death in the early fifth century. The Catholic Church remembers him on March 31.",
     "searchDescription": "St. Benjamin of Persia, feast March 31: fifth-century deacon freed from prison who kept preaching Christ and was martyred under the Persian kings.",
     "whyWeTurn": "People turn to St. Benjamin because he would not trade his freedom for silence. According to Theodoret, who wrote a few decades later, the deacon was released after two years in prison on the understanding that he would stop teaching, yet he refused to hide what he had received. He is a companion for Christians who live where faith is restricted, for deacons and catechists, and for anyone tempted to keep their belief quietly to themselves. The old account dwells on his torture; what matters most is the faithfulness behind it.",
@@ -6928,7 +6904,8 @@
       "places: no place tied to Benjamin with an official website was found; omitted.",
       "whyWeTurn: 'a few decades later' reflects Theodoret writing in the mid-fifth century about events of the early fifth; the 'two years' of imprisonment come from Theodoret.",
       "prayer: original.",
-      "biography: no disagreement. Theodoret's details (imprisonment by the king, release after two years at a Roman envoy's request, a year of renewed preaching, rearrest and death by impalement after torture) match the review. Theodoret says Benjamin refused the condition but was released because the king had not been told of his refusal; the review's wording is compatible. Vatican News confirms only the title and March 31 date."
+      "biography: no disagreement. Theodoret's details (imprisonment by the king, release after two years at a Roman envoy's request, a year of renewed preaching, rearrest and death by impalement after torture) match the review. Theodoret says Benjamin refused the condition but was released because the king had not been told of his refusal; the review's wording is compatible. Vatican News confirms only the title and March 31 date.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "bernadette-soubirous": {
@@ -7366,19 +7343,9 @@
     ]
   },
   "bibiana": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Bibiana, also called Viviana, is a Roman martyr whose church on the Esquiline Hill was consecrated by Pope Simplicius in the fifth century. That early basilica is the firm evidence for her cult; the story of her family and her scourging under Julian the Apostate is later legend. She is remembered on December 2.",
     "searchDescription": "St. Bibiana (Viviana), December 2: a Roman martyr honored with a fifth-century church on the Esquiline, and what is history and what is legend in her story.",
-    "symbols": [
-      {
-        "symbol": "Pillar or column",
-        "meaning": "In her legend she was tied to a pillar and scourged until she died. Tradition holds that the column of her martyrdom is kept in her church in Rome."
-      },
-      {
-        "symbol": "Scourge with leaded thongs",
-        "meaning": "The whip weighted with lead with which, according to the legend, she was beaten to death."
-      }
-    ],
     "whyWeTurn": "Almost nothing about St. Bibiana's life can be known for certain, yet by the fifth century Rome had a church built over her remains. People turn to her because her legend is a story of loss: her parents and sister taken from her, her home stripped, and her own life ended, while she held on to her faith. Catholic Culture suggests praying through her for anyone grieving the loss of family, a home, work or health. Tradition also counts her as a patron of people with epilepsy, headaches and mental illness, so many ask her prayers for minds and bodies under strain.",
     "quotes": [
       {
@@ -7461,7 +7428,8 @@
       "quotes: no writings by Bibiana exist; Habakkuk 3:17–18 (rejoicing in God when everything fails) checked at drbo.org.",
       "places: none. No official website for the church of Santa Bibiana was verified.",
       "feastCustoms: her removal from the General Roman Calendar is inferred from Catholic Culture listing her only as a Roman Martyrology commemoration.",
-      "biography: no disagreement. Catholic Culture narrates the legend as fact and gives 'died c. 361'; the Catholic Encyclopedia says the legend 'has no historical claim to belief'. Catholic Culture also names her guardian Fufina and dogs refusing her body, which are omitted as legend."
+      "biography: no disagreement. Catholic Culture narrates the legend as fact and gives 'died c. 361'; the Catholic Encyclopedia says the legend 'has no historical claim to belief'. Catholic Culture also names her guardian Fufina and dogs refusing her body, which are omitted as legend.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 2 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "blaise": {
@@ -8497,23 +8465,9 @@
     ]
   },
   "cajetan": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Cajetan of Thiene is invoked as patron of the unemployed and job seekers, and in Argentina as patron of bread and work. A lawyer from Vicenza who became a priest, he cared for the incurably sick and in 1524 co-founded the Theatines, priests who trusted wholly in God's providence. His feast is August 7.",
     "searchDescription": "St. Cajetan (1480–1547), feast August 7: co-founder of the Theatines, servant of the sick, and patron of the unemployed who trusted in providence.",
-    "symbols": [
-      {
-        "symbol": "The Christ Child in his arms",
-        "meaning": "His own account of a Christmas 1517 experience in the Basilica of St. Mary Major in Rome, when, he said, the Virgin Mary placed the infant Jesus in his arms."
-      },
-      {
-        "symbol": "Black cassock of a Theatine priest",
-        "meaning": "The Theatines were clerks regular: priests who lived in community and poverty like monks but served in the world, so they wore the cassock rather than a monastic habit."
-      },
-      {
-        "symbol": "Ear of wheat",
-        "meaning": "In Argentina, where he is the patron of bread and work, his image shows the Child holding a wheat ear, which an Argentine bishop has called the fruit of labor."
-      }
-    ],
     "whyWeTurn": "People turn to St. Cajetan when work and bread are uncertain. He came from a noble family and held a post at the papal court, yet he chose a life with no fixed income, telling his priests to rely on God's providence and the freely given charity of the faithful. He founded hospitals for people with incurable illnesses and worked to renew the clergy at a time of scandal. That trust is why job seekers, the unemployed and struggling families ask his help, especially in Argentina, where crowds come to his sanctuary every August 7 asking for peace, bread and work.",
     "quotes": [
       {
@@ -8617,7 +8571,8 @@
       "places: his tomb in the crypt of San Paolo Maggiore, Naples (per the Theatines and Catholic Culture), was not listed because no official website was found (sanpaolomaggiore.it is a different church, in Bologna).",
       "relatedSaints: andrew-avellino and joseph-mary-tomasi as Theatines rest on general knowledge plus the Sant'Andrea della Valle site, which has a chapel of St. Andrew Avellino; please confirm against their pages.",
       "biography: no disagreement. The Theatines give birth in October 1480 at Vicenza, ordination in 1516, the order's canonical erection by Clement VII in 1524, death in Naples on 7 August 1547, beatification in 1629 and canonization on 12 April 1671. (Catholic News Agency gives his death as August 6; the Theatines and Catholic Culture say August 7.)",
-      "symbols: only 3, from an order site, a non-Church iconography site and an Argentine regional custom — set to 1.5 (coordinator)"
+      "symbols: only 3, from an order site, a non-Church iconography site and an Argentine regional custom — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 3 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "callistus-i": {
@@ -9006,27 +8961,9 @@
     ]
   },
   "carlo-acutis": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Carlo Acutis (1991–2006) was a Milan teenager who went to Mass daily, built websites, and used his computer skills to share the faith, including an exhibition on Eucharistic miracles. He died of leukemia at fifteen, is buried in Assisi, and was canonized by Pope Leo XIV on September 7, 2025. His feast is October 12.",
     "searchDescription": "St. Carlo Acutis (1991–2006), feast October 12: Milan teenager devoted to the Eucharist who shared the faith online, canonized by Pope Leo XIV in 2025.",
-    "symbols": [
-      {
-        "symbol": "Monstrance or Eucharistic host",
-        "meaning": "His daily Mass, spiritual communions on busy school days, and Eucharistic adoration, which the Holy See's canonization booklet and Pope Leo XIV's homily describe."
-      },
-      {
-        "symbol": "Laptop or computer",
-        "meaning": "The web pages he designed for his parish and school and his website and exhibition on Eucharistic miracles."
-      },
-      {
-        "symbol": "Jeans, sneakers, and a casual top (often a red polo shirt)",
-        "meaning": "An ordinary teenager's clothes, a reminder that holiness belongs to everyday life; his body in Assisi is displayed in jeans, a sweatshirt, and sneakers (not his burial clothes). The red shirt comes from popular photographs and devotional art, not from Church documents."
-      },
-      {
-        "symbol": "Rosary",
-        "meaning": "His devotion to the Virgin Mary, noted in the canonization homily; the canonization booklet also says he designed a computer layout for praying the Rosary."
-      }
-    ],
     "whyWeTurn": "People turn to St. Carlo Acutis because his life looks so familiar. He went to school, played soccer and saxophone, filmed his pets, helped classmates with homework, and spent hours at a computer. Yet at the center of his days was the Eucharist: he went to Mass daily and spent time in adoration. He shared his pocket money with poor people in his neighborhood and taught catechism. When leukemia came suddenly, he offered his suffering for the Pope and the Church. Young people, parents, and anyone who works with technology find in him a friend who shows that ordinary life, offered to God, can become holy.",
     "quotes": [
       {
@@ -9141,7 +9078,8 @@
       "feastCustoms: October 12 is kept in Assisi and in some local calendars; I did not confirm that it has been added to the General Roman Calendar, so the custom is worded locally. A human should check the current calendar status.",
       "biography: no disagreement found. The canonization booklet adds that he was born May 3, 1991, received First Communion at seven, was confirmed on May 24, 2003 (Foundation), and died in Monza at San Gerardo hospital; the Foundation names the De Marchi clinic in Milan as where he was diagnosed.",
       "places: santuariospogliazione.it states its images belong to the diocesan foundation; the page has an empty HTML title, so a human may want to confirm it is the sanctuary's canonical site.",
-      "symbols: drawn from his documented life (recently canonized), not established iconography — set to 1.5 for an owner decision (coordinator); approve to switch to v2"
+      "symbols: drawn from his documented life (recently canonized), not established iconography — set to 1.5 for an owner decision (coordinator); approve to switch to v2",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 4 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "casimir": {
@@ -9669,7 +9607,7 @@
     ]
   },
   "catherine-of-genoa": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Catherine of Genoa is honored in Catholic patronage lists as a patron of hospitals, fitting for a laywoman who spent years caring for the sick at Genoa's Pammatone Hospital and helping to run it. Unhappily married at sixteen, she was converted in 1473 and became a mystic of God's purifying love. Her feast is September 15.",
     "searchDescription": "St. Catherine of Genoa, feast September 15: a married laywoman and mystic who served the sick at Genoa's hospital and taught that purgatory is purifying love.",
     "patronages": [
@@ -9768,7 +9706,8 @@
       "quotes: verified word for word against the 1907 Christian Press Association edition, using CCEL's plain text. The Treatise and the Life were compiled and edited by her confessor Cattaneo Marabotto and her circle (Benedict XVI: published in Genoa in 1551), so the quotes are labeled as compiled teaching, not her own autograph writing. The CCEL file does not name the translator; it seems to reprint an earlier nineteenth-century American translation.",
       "places: the church has no official website of its own that I could find. The link is the City of Genoa museum portal's page for the Capuchin museum, which names the upper chapel holding her incorrupt body. A human may prefer a Capuchin province page if one exists. cultura.gov.it has a page for the church but refused connections.",
       "feastCustoms: the statement that Sept. 15 belongs to Our Lady of Sorrows in the General Roman Calendar comes from Catholic Culture's day page, which lists Catherine as a commemoration. Her burial in the hospital church and the incorrupt body come from the 1907 Life and the Musei di Genova page.",
-      "biography: no disagreement. Benedict XVI dates her conversion to March 20, 1473, during confession at the convent church of Our Lady of Grace, and calls her the hospital's director; he says her elder sister, not Catherine, became a nun. The reviewed text's 'helped direct' matches."
+      "biography: no disagreement. Benedict XVI dates her conversion to March 20, 1473, during confession at the convent church of Our Lady of Grace, and calls her the hospital's director; he says her elder sister, not Catherine, became a nun. The reviewed text's 'helped direct' matches.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "catherine-of-siena": {
@@ -10064,7 +10003,7 @@
     ]
   },
   "cesario": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Caesarius of Nazianzus was the younger brother of St. Gregory of Nazianzus, a physician trained at Alexandria who served at the imperial court and refused Julian the Apostate's pressure to give up his faith. Spared in the Nicaea earthquake of 368, he was baptized, then died soon after of illness, leaving his goods to the poor.",
     "searchDescription": "St. Caesarius of Nazianzus, feast February 25: physician brother of St. Gregory who stood firm before Julian the Apostate and left his goods to the poor.",
     "whyWeTurn": "People turn to St. Caesarius when their work puts them close to power and their faith is quietly tested. His brother Gregory tells us that he treated the authorities without charge, that he cared more about being known as a Christian than about any honor, and that when Julian the Apostate tried to argue him out of his faith, he answered that he was and remained a Christian. Doctors, nurses and public servants find in him a colleague. So do people who have put off a full commitment to God: shaken by surviving an earthquake, Caesarius was baptized and gave his heart to God before his early death.",
@@ -10150,11 +10089,12 @@
       "quotes: all three are Gregory's words about Caesarius (no authentic writings of his own survive; the Dialogues under his name are spurious). Verified word for word against the unrevised NPNF 2.7 text on CCEL; New Advent's revised version matches for these sentences. The third quote starts with 'While' as in the source sentence.",
       "feastCustoms: Feb. 25 and March 9 come from the reviewed feast_note; I could not find a Vatican News or Catholic Culture page for him to confirm, and 'not on the General Roman Calendar' rests on general knowledge of the calendar.",
       "relatedSaints: Basil's role rests on his Letter 26 to Caesarius (thanking God for his escape and urging him to live accordingly) and the Catholic Encyclopedia, which says both Gregory and Basil urged him to leave the world.",
-      "biography: no disagreement. Catholic Encyclopedia adds that he was born about 330 at Arianzus near Nazianzus, studied probably at Caesarea before Alexandria, was quaestor of Bithynia under Valens, dated the Nicaea earthquake to October 11, 368, and notes that his servants abused his bequest to the poor. Gregory calls his Bithynian office the stewardship of the imperial revenue."
+      "biography: no disagreement. Catholic Encyclopedia adds that he was born about 330 at Arianzus near Nazianzus, studied probably at Caesarea before Alexandria, was quaestor of Bithynia under Valens, dated the Nicaea earthquake to October 11, 368, and notes that his servants abused his bequest to the poor. Gregory calls his Bithynian office the stewardship of the imperial revenue.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "chaeremon": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Chaeremon was an elderly bishop of Nilopolis in Egypt during the persecution of Decius, about 250. His fellow bishop Dionysius of Alexandria wrote that he fled with his wife into the Arabian mountains and never returned, and that searchers found neither them nor their bodies. The Church remembers him on December 22.",
     "searchDescription": "St. Chaeremon of Nilopolis, December 22: an aged Egyptian bishop who fled the Decian persecution with his wife and vanished in the Arabian mountains.",
     "whyWeTurn": "People turn to St. Chaeremon when someone they love has disappeared, or when they have been forced to leave home with no idea how the story will end. Dionysius of Alexandria tells us only that this old bishop fled with his wife, that they never came back, and that the community searched for them without success. There are no heroic last words, only absence and grief, and the Church still counts him among the martyrs. Refugees, families of the missing, elderly people who must start over, and Christians who live under persecution today can find in him a companion who knows uncertainty from the inside.",
@@ -10232,7 +10172,8 @@
       "whyWeTurn / prayer: the turns toward refugees and families of the missing are this site's application of the documented story, not an established patronage; worded as invitations, not patronage claims.",
       "feastCustoms: December 22 rests on the reviewed biography; the Roman Martyrology wording ('In Egypt, St. Chaeremon, bishop of Nilopolis, and many other martyrs') was seen only in a search snippet of an unofficial transcription, and katolsk.no blocked automated access, so I could not re-read it. 'Not on the General Roman Calendar' rests on general knowledge of the calendar.",
       "relatedSaints: Apollonia's martyrdom is in Dionysius's letter at Eusebius VI.41 (her reviewed biography says so). Alexander of Jerusalem's final imprisonment under Decius is in his reviewed biography; Cyprian's retirement into hiding in 250 is from the Catholic Encyclopedia article on him (newadvent.org/cathen/04583b.htm).",
-      "biography: no disagreement. Note that several devotional sites (e.g. America Needs Fatima, The Station of the Cross) turn Chaeremon's wife into an unnamed 'companion'; McGiffert translates 'wife' and his footnote explains that the Greek feminine sumbios can mean nothing else here, as the reviewed biography says."
+      "biography: no disagreement. Note that several devotional sites (e.g. America Needs Fatima, The Station of the Cross) turn Chaeremon's wife into an unnamed 'companion'; McGiffert translates 'wife' and his footnote explains that the Greek feminine sumbios can mean nothing else here, as the reviewed biography says.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "charbel-makhlouf": {
@@ -10486,14 +10427,8 @@
     ]
   },
   "charles-lwanga": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Charles Lwanga led and protected the young Christian pages at the court of King Mwanga II of Buganda. Baptized in 1885, he encouraged them under persecution and was burned to death at Namugongo on June 3, 1886. He and his twenty-one companions, canonized in 1964, are honored together on June 3.",
-    "symbols": [
-      {
-        "symbol": "Flames and a wrapping of reeds",
-        "meaning": "The manner of his death: the Namugongo shrine records that he was wrapped in reeds and burned slowly on a pyre he was allowed to prepare himself, apart from the others."
-      }
-    ],
     "whyWeTurn": "People turn to St. Charles Lwanga because he stood between vulnerable young people and the power that threatened them. As head of the royal pages, he taught them the faith, kept them steady, and baptized catechumens when death was close. The persecution involved both hostility to Christianity and the king's sexual coercion of the pages, and together they refused to surrender their faith or their dignity. He was about twenty-five when he died. Young people under pressure, those who guard and mentor them, survivors of abuse, and Christians facing hostility find in him a friend who was brave on behalf of others, not only for himself.",
     "quotes": [
       {
@@ -10608,11 +10543,12 @@
       "feastCustoms: crowd sizes and walking pilgrims are from EWTN News/CNA (2018), which put attendance as high as 4 million; the custom is described without numbers. The 'ecumenism of blood' phrase is from Pope Francis's 2015 homily",
       "places: the shrine page is the Catholic shrine's own site (https verified); it states the altar stands where he died. The Vatican News saint page loaded only its title for this check",
       "relatedSaints: Kizito among those burned at Namugongo is from the shrine; Bakhita and Comboni links are thematic and follow the site's published dates",
-      "biography: no disagreement. The shrine adds details not in the review: born 1861 at Birinzi, Buddu county; baptized 15 November 1885 by Fr. Girault; head of the pages in the great audience hall; died about noon on Ascension Day, aged 25. The shrine counts 24 Catholic martyrs (the 22 canonized in 1964 plus two catechists killed at Paimol in 1918) and its Namugongo tally (12 Catholics, 13 Anglicans) is internally inconsistent with its 'thirteen burned'; the review's 22 canonized is correct. Catholic Culture also gives November 1885 for his baptism"
+      "biography: no disagreement. The shrine adds details not in the review: born 1861 at Birinzi, Buddu county; baptized 15 November 1885 by Fr. Girault; head of the pages in the great audience hall; died about noon on Ascension Day, aged 25. The shrine counts 24 Catholic martyrs (the 22 canonized in 1964 plus two catechists killed at Paimol in 1918) and its Namugongo tally (12 Catholics, 13 Anglicans) is internally inconsistent with its 'thirteen burned'; the review's 22 canonized is correct. Catholic Culture also gives November 1885 for his baptism",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 1 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "charles-of-mount-argus": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Charles of Mount Argus was a Dutch Passionist priest, born Johannes Andreas Houben, who spent most of his ministry at Mount Argus in Dublin. His English was never good enough for formal preaching, so he served through confession, counsel and blessing the sick, and crowds sought him out. Benedict XVI canonized him in 2007; his feast is January 5.",
     "searchDescription": "St. Charles of Mount Argus, a Dutch Passionist in Dublin, heard confessions and blessed the sick for decades. Canonized in 2007; feast January 5.",
     "whyWeTurn": "People turn to St. Charles when they are sick or carrying a heavy sorrow. He never mastered English well enough to preach, yet people came to him in great numbers, because he listened, heard confessions and blessed them with obvious compassion. Benedict XVI said he saw the face of the crucified Christ in the sick and suffering. Reports of healings followed him, but his deeper gift was a faith that suffering joined to Christ's Passion is never wasted. He is a reminder that a limitation, even in something as basic as language, need not limit what God can do through us. Many still bring their intentions to his tomb in Dublin.",
@@ -10719,7 +10655,8 @@
       "quotes: he left no public-domain writings that I could verify; two Douay-Rheims passages on the Passion and on the sick are used",
       "prayer: original; no traditional prayer text was found on the Mount Argus parish or Passionist pages",
       "feastCustoms: January 5 is called a memorial in the Passionist calendar and 'the Feast' by Mount Argus parish; I did not verify whether the Irish national calendar includes him, so the text does not claim it. Relic blessings and the 1949 move of his remains into the church are from the Mount Argus parish pages",
-      "biography: no disagreement. The Dicastery adds details not in the reviewed text: born December 11, 1821; novitiate at Ere near Tournai, November 5, 1845; ordained December 21, 1850; in England from 1866 and back in Dublin in 1874; a carriage accident on April 12, 1881, after which his health declined; beatified October 16, 1988"
+      "biography: no disagreement. The Dicastery adds details not in the reviewed text: born December 11, 1821; novitiate at Ere near Tournai, November 5, 1845; ordained December 21, 1850; in England from 1866 and back in Dublin in 1874; a carriage accident on April 12, 1881, after which his health declined; beatified October 16, 1988",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "christopher": {
@@ -12173,27 +12110,9 @@
     ]
   },
   "cyril-of-alexandria": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Cyril of Alexandria led the church of Alexandria from 412 until his death in 444 and is a Doctor of the Church. He is remembered above all for defending, at the Council of Ephesus in 431, that Jesus is one divine person and that Mary is rightly called Theotokos, Mother of God. His memorial is June 27.",
     "searchDescription": "St. Cyril of Alexandria (about 370–444), feast June 27: bishop and Doctor of the Church who defended Mary's title Mother of God at the Council of Ephesus.",
-    "symbols": [
-      {
-        "symbol": "Pen",
-        "meaning": "His many commentaries, letters and doctrinal works; later Greek writers called him the \"seal of the Fathers\" for the way he gathered up earlier teaching."
-      },
-      {
-        "symbol": "The Virgin Mary holding the Child Jesus",
-        "meaning": "The title Theotokos, Mother of God, which he defended because the child born of Mary is the eternal Word made man."
-      },
-      {
-        "symbol": "White omophorion marked with crosses",
-        "meaning": "The Eastern bishop's stole over his shoulders, a sign of his office as bishop of Alexandria."
-      },
-      {
-        "symbol": "Distinctive monastic head covering",
-        "meaning": "In Byzantine icons he wears a headdress that recalls the dress of Egyptian monks, a recognizable trait of his image."
-      }
-    ],
     "whyWeTurn": "People turn to St. Cyril of Alexandria when they want to understand who Jesus really is. He insisted that the child Mary bore is not a man joined loosely to God but the eternal Word himself, truly made flesh; that is why he defended calling her Mother of God. He was a forceful, sometimes combative leader in a turbulent age, and the Church does not hide that. Yet after the Council of Ephesus he also worked for a hard-won agreement with John of Antioch in 433. Students of Scripture, catechists and anyone who loves Mary can learn from his clarity and his search for peace.",
     "quotes": [
       {
@@ -12291,11 +12210,12 @@
       "feastCustoms: Pius XII's Orientalis Ecclesiae URL loads on vatican.va; the '1,500th anniversary' framing follows Catholic Culture and the encyclical's 1944 date (444 + 1500). The Coptic custom is phrased as a prayer intention only; specific Eastern feast dates were not verified and are not stated.",
       "relatedSaints: the Doctor of the Church date follows Benedict XVI (1882); Catholic Culture's page says 1881.",
       "biography: no conflict. Benedict XVI gives birth between 370 and 380, election in 412, the Formula of Reunion in 433 and death on 27 June 444, all consistent with the reviewed text. He also notes Cyril's part in the 403 Synod of the Oak that deposed John Chrysostom, which the reviewed biography does not mention; whyWeTurn acknowledges his combative leadership without detail.",
-      "symbols: only 2 from a Catholic source; omophorion and headdress come from a museum catalogue — set to 1.5 (coordinator)"
+      "symbols: only 2 from a Catholic source; omophorion and headdress come from a museum catalogue — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 4 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "cyril-of-jerusalem": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Cyril of Jerusalem was a fourth-century bishop of Jerusalem and a Doctor of the Church, remembered on March 18. His lectures prepared adults for baptism at Easter and then explained the sacraments to the newly baptized. Exiled three times during the Arian disputes, he outlived his opponents and returned to his church.",
     "searchDescription": "St. Cyril of Jerusalem (about 315–386), feast March 18: bishop, Doctor of the Church, and teacher of the creed and sacraments to new Christians.",
     "whyWeTurn": "People turn to St. Cyril when they want to understand what they believe and what happens in the sacraments. As a bishop in Jerusalem he taught adults step by step: first the Scriptures and the creed during Lent, then, after their Easter baptism, the meaning of the anointing and the Eucharist they had just received. Benedict XVI praised this as a catechesis of the whole person, body, soul and spirit. Cyril also knew conflict, misunderstanding and three exiles, yet he kept teaching. Catechists, RCIA teams, new Catholics and anyone preparing for a sacrament find in him a patient, clear teacher.",
@@ -12389,11 +12309,12 @@
       "prayer: the Roman Missal collect is a copyrighted ICEL translation, so an original prayer is given; it echoes quote 1.",
       "places: none listed. His lectures were given in Jerusalem's Holy Sepulchre complex, but no official page tying that site to Cyril was verified.",
       "relatedSaints: Gregory of Nazianzus link rests on the Catholic Encyclopedia (Cyril attended Constantinople 381) and the San Lorenzo in Damaso parish page (council held in Gregory's presence). The Catholic Encyclopedia cites Jerome for the eight years Cyril lived under Theodosius. Athanasius's repeated exiles are standard history but were not re-fetched here.",
-      "biography: minor date difference. Benedict XVI's 2007 audience says Cyril died in 387; the reviewed dates (about 315–386) match the Catholic Encyclopedia ('died probably 18 March, 386'), which also notes Socrates gives 385. Worth a human glance; no change needed."
+      "biography: minor date difference. Benedict XVI's 2007 audience says Cyril died in 387; the reviewed dates (about 315–386) match the Catholic Encyclopedia ('died probably 18 March, 386'), which also notes Socrates gives 385. Worth a human glance; no change needed.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "damasus-i": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Damasus I was bishop of Rome from 366 to 384, remembered on December 11. His election was bitterly disputed, but his pontificate defended the Nicene faith, encouraged Jerome's revision of the Latin Bible, and restored the tombs of Rome's martyrs, which he marked with verse inscriptions that pilgrims still read today.",
     "searchDescription": "St. Damasus I (about 305–384), pope from 366, feast December 11: defender of Nicene faith, Jerome's patron, and poet of Rome's martyrs.",
     "whyWeTurn": "People turn to St. Damasus when they love Scripture and the memory of the saints who went before them. He asked Jerome, his secretary for a time, to revise the Latin Bible, a step toward the Vulgate. He also searched out the neglected graves of Rome's martyrs, repaired them, and composed poems to be carved at their tombs so ordinary visitors would remember them. His story is honest about the Church's human side: his election was marred by violence between rival factions. Readers, Bible students, archaeologists and anyone who keeps family or parish history can ask his prayers.",
@@ -12511,31 +12432,14 @@
       "places: the Catacomb of St. Callixtus page names Damasus's inscription at Eusebius's tomb; its Crypt of the Popes page (where quote 1 belongs, per the Catholic Encyclopedia) does not mention Damasus, so it was not used. The San Lorenzo in Damaso link is the parish's own page on Damasus. Note that the parish page places the 'Hic fateor Damasus' epigraph at his own cemetery basilica, while the Catholic Encyclopedia places it in the Papal Crypt; the quote's 'work' follows the Catholic Encyclopedia.",
       "feastCustoms: optional-memorial rank is from Catholic Culture's calendar entries.",
       "relatedSaints: Lawrence link combines the reviewed biography (grew up in the church associated with Lawrence), the Catholic Encyclopedia (restored San Lorenzo in Damaso; Laurence among martyrs he eulogized). Agnes epitaph per Catholic Encyclopedia, Early Roman Christian Cemeteries.",
-      "biography: no conflict. Catholic Encyclopedia gives born about 304, died 11 December 384; the parish page says born around 305; reviewed 'about 305–384' is fine."
+      "biography: no conflict. Catholic Encyclopedia gives born about 304, died 11 December 384; the parish page says born around 305; reviewed 'about 305–384' is fine.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "damien-of-molokai": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Damien de Veuster was a Belgian priest of the Congregation of the Sacred Hearts who volunteered in 1873 to serve people exiled to Kalaupapa on Molokai because they had Hansen's disease. He lived among them for sixteen years, caught the disease himself, and died there in 1889. U.S. Catholics remember him on May 10.",
     "searchDescription": "St. Damien de Veuster (1840–1889), feast May 10 in the U.S.: Belgian priest who served people with Hansen's disease at Kalaupapa, Molokai.",
-    "symbols": [
-      {
-        "symbol": "Red scarf worn as an arm sling",
-        "meaning": "The Hawaii Catholic Herald calls it an attribute in representations of Damien and says it was a gift from St. Marianne Cope, who cared for him at the end of his life."
-      },
-      {
-        "symbol": "Broad-brimmed hat",
-        "meaning": "The kind of hat missionaries traditionally wore, shown in his statue in the U.S. Capitol, which was based on photographs from late in his life."
-      },
-      {
-        "symbol": "Walking cane",
-        "meaning": "Shown in the Capitol statue; it pictures the weakened priest who kept working among the residents as the disease advanced."
-      },
-      {
-        "symbol": "Marks of Hansen's disease on his face",
-        "meaning": "The Capitol statue shows the scars of the illness he contracted while serving the residents, a sign that he shared their condition fully."
-      }
-    ],
     "whyWeTurn": "People turn to St. Damien when they care for someone others avoid, or when they feel shut out themselves. He went to Kalaupapa as a volunteer, not under orders, and stayed. Working alongside the residents, he helped build homes, a water system and churches, started schools, bands and choirs, celebrated the sacraments and buried the dead. He also pressed government and Church for more help. When he caught the disease, he kept serving. Caregivers, people living with stigmatized illnesses, those who work with the isolated, and the people of Hawaii ask his prayers.",
     "quotes": [
       {
@@ -12656,11 +12560,12 @@
       "places: the Cathedral Basilica of Our Lady of Peace in Honolulu (relic and Damien/Marianne murals) was not listed because its official site is currently under construction with no Damien page. Kalaupapa visits are restricted; the customs item points to park guidance without stating rules that could go stale.",
       "feastCustoms: optional-memorial rank from Catholic Culture (collect for the optional memorial); May 10 date from USCCB. The Holy See gives 10 May 1873 as the day he left for Kalaupapa; the reviewed biography calls May 10 the anniversary of his arrival. Both are commonly said; wording here follows the Holy See.",
       "biography: small date wrinkle, not a contradiction of the review. The Holy See says his leprosy was announced in 1884; Catholic Culture says he contracted it in 1885. The review gives no year.",
-      "symbols: mostly from one statue description (Architect of the Capitol) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)"
+      "symbols: mostly from one statue description (Architect of the Capitol) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 4 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "daniel-comboni": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Daniel Comboni was an Italian missionary bishop of central Africa whose plan, summed up as \"Save Africa through Africa,\" placed African Christians at the heart of the Church's mission. He founded missionary institutes for men and women, fought the slave trade, and died in Khartoum in 1881. His feast is October 10.",
     "searchDescription": "St. Daniel Comboni (1831–1881), feast October 10: missionary bishop of central Africa, founder of the Comboni institutes, foe of the slave trade.",
     "whyWeTurn": "People turn to St. Daniel Comboni when a calling seems bigger than their strength. He saw companions die on his first journey to Sudan and was forced home by illness, yet kept going. Praying at St. Peter's tomb, he conceived a plan that trusted Africans to lead the evangelization of their own peoples, and he spent his life raising support, training missionaries and catechists, and opposing slavery. Pope Francis noted that his zeal came from the joy of the Gospel and that he always worked in communion with the Church. Missionaries, aid workers and people serving far from home ask his prayers.",
@@ -12764,11 +12669,12 @@
       "feastCustoms: no source checked confirms his rank in the General Roman Calendar or national calendars, so the item names only the Comboni family's celebration. World Mission Sunday is described only as 'later in October' to avoid a date that changes.",
       "places: his tomb in Khartoum was destroyed during the Mahdist revolt; per the Comboni Missionaries, a few bone fragments were later placed in an urn in the church at Aswan, Egypt, but no official page for that church was found. Verona mother house not listed for lack of a verified page.",
       "relatedSaints: Charles Lwanga and Peter Claver are thematic only; Charles Lwanga's mission context (Uganda, White Fathers) is not Comboni's. A human may prefer a different fourth match.",
-      "biography: no conflict. The Holy See biography records the second miracle's recognition as 20 December 2003, after the canonization date; the Limone tourism page gives 20 December 2002, which fits the sequence. Not used in the text."
+      "biography: no conflict. The Holy See biography records the second miracle's recognition as 20 December 2003, after the canonization date; the Limone tourism page gives 20 December 2002, which fits the sequence. Not used in the text.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "david-i-of-scotland": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. David I was king of Scots from 1124 until his death in 1153. A son of St. Margaret of Scotland, he founded or endowed abbeys such as Holyrood and Melrose and reorganized the Scottish Church. He was honored as a saint by popular and local veneration rather than formal canonization, and May 24 is his traditional commemoration.",
     "searchDescription": "St. David I of Scotland, king of Scots 1124–1153 and son of St. Margaret, founder of abbeys and reformer of the Scottish Church. Remembered May 24.",
     "whyWeTurn": "People turn to David I because he shows a Christian trying to be holy while carrying real power. He went to war and made hard political choices, yet his friend Aelred of Rievaulx remembered a king who would step back from his horse to hear a poor man's complaint, sat at the door of his hall to listen to poor men and old women, and, a chronicler adds, often washed the feet of the poor. He built churches and monasteries and, dying, asked his friends to pray for him. Catholics ask his prayers for leaders, for Scotland and for anyone who must serve others with authority.",
@@ -12881,7 +12787,8 @@
       "quotes: David left no writings in a public-domain translation. Quote 1 is words attributed to David by Aelred, a near-contemporary (Aelred met him in 1153); quote 2 is Aelred's own description. Both were checked against the 1908 Anderson text. The 'washing the feet of the poor' line in whyWeTurn comes from John of Hexham, also in Anderson (p. 231).",
       "relatedSaints: Malachy's visit and Prince Henry's recovery are from Barrett (1919), who cites St. Bernard's Life of Malachy; the recovery is framed as tradition.",
       "places: both are Historic Environment Scotland pages (state heritage body), not Catholic sites; the Dunfermline page confirms that David I made Dunfermline an abbey and that Margaret is buried there. His own burial at Dunfermline rests on John of Hexham (Anderson, p. 231). No live Holyrood Abbey page could be checked (rct.uk refused automated access).",
-      "biography: no disagreement. The 1912 Catholic Encyclopedia lists Dunfermline, Holyrood, Jedburgh, Kelso, Kinloss, Melrose and Dundrennan among his abbeys, and five new bishoprics plus Glasgow restored; Aelred says he found three or four bishops and left nine. The review's 'reorganized dioceses' is consistent."
+      "biography: no disagreement. The 1912 Catholic Encyclopedia lists Dunfermline, Holyrood, Jedburgh, Kelso, Kinloss, Melrose and Dundrennan among his abbeys, and five new bishoprics plus Glasgow restored; Aelred says he found three or four bishops and left nine. The review's 'reorganized dioceses' is consistent.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "david-of-wales": {
@@ -13167,7 +13074,7 @@
     ]
   },
   "devasahayam-pillai": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Lazarus Devasahayam (1712–1752) is the patron of the laity in India, proclaimed by the Indian bishops in 2026. A married official at the court of Travancore, he was baptized in 1745, refused to give up Christ or to honor caste barriers, and was shot in 1752. Pope Francis canonized him in 2022.",
     "searchDescription": "St. Lazarus Devasahayam (1712–1752), married layman of Travancore and martyr, canonized in 2022. Patron of India's laity. Feast: January 14.",
     "whyWeTurn": "People turn to St. Devasahayam when faith costs them something at work, in public life or within their family. He was a married man with a respected post at court. He came to Christ while grieving, after a friend shared the story of Job with him, and he treated people of every caste as equals. For that he lost his position and his freedom and spent about three years in chains before he was shot. Lay Catholics in India now honor him as their patron. Praying with him is a way of asking for courage to live the faith right where we are.",
@@ -13285,11 +13192,12 @@
       "quotes: Job is included because the Dicastery and the reviewed biography say De Lannoy consoled him with the story of Job; no public-domain text of Devasahayam's own words was found. His reported last words were not used",
       "prayer: original; no traditional prayer from an official shrine page was found",
       "relatedSaints: John de Brito's Tamil-country mission (martyred 1693) is from general knowledge and his published dates; a human may want to confirm the reason against his page",
-      "biography: no disagreement. The Dicastery adds detail not in the review: birth at Nattalam on April 23, 1712; baptism May 14, 1745; arrest February 23, 1749; wife baptized as Gnanappoo (Teresa); beatified at Nagercoil December 2, 2012; first Indian layman canonized"
+      "biography: no disagreement. The Dicastery adds detail not in the review: birth at Nattalam on April 23, 1712; baptism May 14, 1745; arrest February 23, 1749; wife baptized as Gnanappoo (Teresa); beatified at Nagercoil December 2, 2012; first Indian layman canonized",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "dismas": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Dismas, the Good Thief, is honored as a patron of prisoners and of the dying. Luke's Gospel tells how one of the men crucified beside Jesus admitted his guilt and asked to be remembered. Jesus promised him paradise that day. His name comes from later tradition, and March 25 is his traditional commemoration.",
     "searchDescription": "St. Dismas is the traditional name of the repentant thief crucified beside Jesus, who promised him paradise (Luke 23). Commemorated March 25.",
     "patronages": [
@@ -13386,7 +13294,8 @@
       "feastCustoms: the Christ the King (Year C, Luke 23:35–43) and Palm Sunday (Year C, Luke's Passion) readings are from the standard Lectionary cycle and were not re-fetched from USCCB in this pass; a human may want to confirm. The Santa Croce relic is stated by Catholic Culture's dictionary and by the basilica's own relics page ('Patibolo del Buon Ladrone', http://www.santacroceroma.it/it/features-2/reliquie.html, kept out of sources because it is http-only)",
       "places: Santa Croce in Gerusalemme was not listed because its official site (santacroceroma.it) failed over https (TLS error) and loads only over http; no other official site tied to Dismas was found",
       "prayer: original. No well-established traditional prayer to St. Dismas was verified from a reputable source",
-      "biography: no disagreement with the reviewed biography"
+      "biography: no disagreement with the reviewed biography",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "dominic": {
@@ -13654,7 +13563,7 @@
     ]
   },
   "dominic-savio": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Dominic Savio is honored by the Salesians as a patron of young choir singers, and many expectant mothers ask his prayers. A pupil of St. John Bosco in Turin, he made holiness out of ordinary school life: prayer, study, friendship and cheerfulness. He died in 1857, not yet fifteen. The Salesian family celebrates him on May 6.",
     "searchDescription": "St. Dominic Savio (1842–1857), feast May 6: John Bosco's pupil in Turin, who showed that holiness can mean cheerfulness and faithfulness in small things.",
     "patronages": [
@@ -13770,11 +13679,12 @@
       "quotes: verified against the 1915 Salesian Press translation (Internet Archive OCR text). The resolutions are Dominic's own words as Bosco transcribed them; the last words were reported by his father. The Servite Domino motto appears in Bosco's account of Dominic advising a new companion (Camillus Gavio).",
       "feastCustoms: the abitino story (that Dominic placed a scapular on his mother during a difficult pregnancy) appears only on non-official sites and was not used; the basilica page does not explain the abitino's origin.",
       "relatedSaints: Maria Mazzarello's burial in the same basilica is stated on the basilica's official homepage.",
-      "biography: no disagreement with the reviewed biography. Sources disagree on the village where he died: Salesians USA says 'Moriondo', Salesian Missions 'Murialdo'; the review avoids naming it, which is wise. The Salesian Bulletin calls his resolutions 'Confirmation' resolutions; Bosco's text says First Communion."
+      "biography: no disagreement with the reviewed biography. Sources disagree on the village where he died: Salesians USA says 'Moriondo', Salesian Missions 'Murialdo'; the review avoids naming it, which is wise. The Salesian Bulletin calls his resolutions 'Confirmation' resolutions; Bosco's text says First Communion.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "dulce-lopes-pontes": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Dulce Lopes Pontes, known as Sister Dulce or Santa Dulce dos Pobres, was a Brazilian religious sister from Salvador, Bahia. She cared for the sick and poor so persistently that a convent henhouse became the seed of a large hospital. She died in 1992, was canonized in 2019, and is remembered locally on August 13.",
     "searchDescription": "St. Dulce Lopes Pontes (1914–1992), Sister Dulce of Bahia: Brazilian nun whose care for the sick poor grew into a major charity. Remembered August 13.",
     "whyWeTurn": "People turn to Sister Dulce when the needs in front of them seem too big. She did not start with a plan or a budget. As a girl in Salvador she welcomed poor and sick people into her family's home, and as a sister she kept answering the next need: a clinic, a workers' association, a school, and finally a henhouse turned into shelter for the sick. She worked through years of serious lung illness. Vatican News recalls that she spoke of small acts of love that Jesus makes great. Nurses, volunteers and anyone serving the poor can ask her prayers for courage.",
@@ -13867,7 +13777,8 @@
       "feastCustoms: the reason for August 13 (receiving the habit in 1933) and the trezena come from Brazilian press reports (Correio, PUCPR article) and need a human check against the Archdiocese of São Salvador or OSID. The OSID site is a JavaScript app whose sanctuary page could not be read directly; the sanctuary's location beside the OSID headquarters and her tomb there are confirmed by Vatican News (Portuguese).",
       "places: the URL is the OSID homepage, which runs the sanctuary and memorial; no stable sanctuary-specific page could be loaded.",
       "relatedSaints: Vatican News (English) records John Paul II's visit to her in hospital during a papal trip to Brazil but its date (1990) may be off; no year is given on the page. Galvão's canonization year (2007) should be checked against his own page.",
-      "biography: no disagreement with the reviewed biography. Vatican News (Portuguese) gives her birth as 26 May 1914 and entry into the congregation on 8 February 1933."
+      "biography: no disagreement with the reviewed biography. Vatican News (Portuguese) gives her birth as 26 May 1914 and entry into the congregation on 8 February 1933.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "dunstan": {
@@ -14292,7 +14203,7 @@
     ]
   },
   "edmund-campion": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Edmund Campion was a gifted Oxford scholar who became a Jesuit and returned to Elizabethan England in 1580 to serve Catholics in secret. Captured, racked and tried for treason, he insisted that his mission was religious, not political. He was executed at Tyburn on December 1, 1581, and canonized in 1970 among the Forty Martyrs of England and Wales.",
     "searchDescription": "St. Edmund Campion, feast December 1: Oxford scholar turned Jesuit priest, author of the famous \"Brag,\" martyred at Tyburn in 1581.",
     "whyWeTurn": "Catholics turn to St. Edmund Campion when faith asks for courage and clear thinking at the same time. He gave up a promising career at Oxford, became a Jesuit, and came home to a country where saying Mass could cost a priest his life. He moved quietly between households to bring the sacraments, yet he also wrote openly, asking for a fair hearing and offering to debate the learned. Under torture and at his trial he held to what he had said from the start: he came to save souls, not to plot. Students, teachers and anyone defending the faith in a hostile setting ask his prayers for courage joined to charity.",
@@ -14406,27 +14317,14 @@
       "prayer: original. Catholic Culture has 'A Daily Prayer of Saint Edmund Campion' ('I have made a free oblation...') but credits it only to 'Prayers from Various Websites,' so the attribution was not used.",
       "feastCustoms: December 1 is a Jesuit observance (with St Robert Southwell and companions) and appears in some English diocesan calendars; it is not in the national calendar for England, which honors him within the English Martyrs on May 4. Wording kept to Jesuit communities.",
       "places: Campion Hall, Oxford (campion.ox.ac.uk) was not used because its pages checked do not say it is named for him.",
-      "biography: no disagreement."
+      "biography: no disagreement.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "edmund-rich": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Edmund of Abingdon, also called Edmund Rich, taught at Oxford and Paris before becoming Archbishop of Canterbury in 1234. He pressed for church reform, clashed with Henry III and withdrew to the Cistercian abbey of Pontigny in France. He died at Soisy in 1240, was buried at Pontigny and was soon canonized.",
     "searchDescription": "St. Edmund of Abingdon (Edmund Rich), feast November 16: Oxford teacher, reforming Archbishop of Canterbury and spiritual writer buried at Pontigny.",
-    "symbols": [
-      {
-        "symbol": "Archbishop's vestments, mitre and crozier",
-        "meaning": "His office as Archbishop of Canterbury. The seal of the Society of St. Edmund, the religious order founded at Pontigny in 1843, shows him vested as a bishop with mitre and staff."
-      },
-      {
-        "symbol": "Ring on a statue of Our Lady",
-        "meaning": "Tradition holds that as a young student he vowed chastity and placed a ring on the finger of Our Lady's statue at St Mary's, Oxford, wearing a matching ring himself as a pledge for the rest of his life."
-      },
-      {
-        "symbol": "The Christ Child",
-        "meaning": "Tradition holds that the Child Jesus appeared to him in the fields near Oxford. Afterward, the Catholic Encyclopedia says, he signed his forehead each night with the words \"Jesus of Nazareth\" and urged others to do the same."
-      }
-    ],
     "whyWeTurn": "People turn to St. Edmund of Abingdon as a scholar who never let learning crowd out prayer. Tradition remembers a teacher who gave away his income to the poor, kept a strict personal discipline and was gentle with the sick. As archbishop he tried to reform the Church and keep peace in a divided kingdom, and he did not always succeed; his last months were spent in exile. His Mirror of Holy Church teaches ordinary believers to see God's goodness in creation, in Scripture and in prayer. Students, teachers and anyone carrying responsibility through conflict ask his prayers for wisdom and a peaceful heart.",
     "quotes": [
       {
@@ -14547,7 +14445,8 @@
       "feastCustoms: the Liturgy Office lists him for England with no rank shown (an optional celebration); the Catholic Encyclopedia (1909) says his body is still venerated at Pontigny and Inside the Vatican says his shrine is behind the high altar. No official Pontigny or parish website was verified, so Pontigny is not in places.",
       "prayer: original; no verified traditional prayer page from the Society of St. Edmund or a Catholic shrine was found.",
       "places: St Edmund Hall takes its name from him and says he taught in a house on its site in the 1190s; St Edmund's College, Ware, is under his patronage. The Catholic Encyclopedia lists relics at Westminster Cathedral, St Edmund's College, Portsmouth Cathedral and Erdington Abbey, not verified as current.",
-      "symbols: ring and Christ Child are legends seen in art but not listed as attributes by a Catholic source — set to 1.5 (coordinator)"
+      "symbols: ring and Christ Child are legends seen in art but not listed as attributes by a Catholic source — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 3 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "edward-the-confessor": {
@@ -14804,7 +14703,7 @@
     ]
   },
   "el-bieta-hesselblad": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Mary Elizabeth Hesselblad was a Swedish nurse who became a Catholic in 1902 and, from St. Bridget's house in Rome, renewed the Bridgettine order in 1911. She worked for Christian unity, sheltered persecuted Jews during the Second World War, died in 1957, and was canonized in 2016. Her memorial is June 4.",
     "searchDescription": "St. Mary Elizabeth Hesselblad (1870–1957), Swedish nurse and convert who renewed the Bridgettine order in Rome. Canonized 2016; memorial June 4.",
     "whyWeTurn": "People turn to St. Mary Elizabeth Hesselblad because her faith grew out of searching. Raised a Lutheran in a poor Swedish family, she went to America to earn a living, nursed the sick in their homes, and came to the Catholic Church through prayer, study and the witness of Catholic patients. In Rome she gave her fragile health to renewing St. Bridget's order and to praying for the unity of Christians. During the war her house became a refuge for people persecuted under the racial laws. Converts, nurses, anyone longing for Christian unity, and those who must trust God without seeing the path all find a companion in her.",
@@ -14912,11 +14811,12 @@
       "prayer: original, linking the Bridgettine order's official prayer to her, which is a modern text and was not reproduced.",
       "feastCustoms: June 4 rests on the reviewed biography and the Diocese of Boise; Vatican News lists her on April 24 (her death). The exact rank of her memorial in the Bridgettine calendar was not verified.",
       "places: brigidine.org (the order's official site) says she died in Rome in the house of St. Bridget and that Piazza Farnese became a center of the order in 1931; whether her body rests in the church there was not verified, so the entry does not claim it.",
-      "biography: no contradiction. The Vatican biography adds that she received conditional baptism on 15 August 1902 at the Visitation convent in Washington, was confirmed in Rome, settled at the Casa di Santa Brigida on 25 March 1904, and refounded the order on 9 November 1911 with three English postulants. The order's own timeline says she went to America in 1888, while the Vatican says she left to work in 1886 (first in Sweden, then the United States). Yad Vashem recognition is in the review but was not checked here."
+      "biography: no contradiction. The Vatican biography adds that she received conditional baptism on 15 August 1902 at the Visitation convent in Washington, was confirmed in Rome, settled at the Casa di Santa Brigida on 25 March 1904, and refounded the order on 9 November 1911 with three English postulants. The order's own timeline says she went to America in 1888, while the Vatican says she left to work in 1886 (first in Sweden, then the United States). Yad Vashem recognition is in the review but was not checked here.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "eleutherius": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Eleutherius (also written Eleutherus) was bishop of Rome in the later second century. Hegesippus remembered him as a deacon under Pope Anicetus, and Irenaeus named him the twelfth bishop of Rome after the apostles. Imprisoned Christians of Lyon sent him a letter by Irenaeus. The Roman Martyrology remembers him on May 26.",
     "searchDescription": "St. Eleutherius, second-century bishop of Rome, received a letter from the imprisoned Christians of Lyon, carried by Irenaeus. Remembered May 26.",
     "whyWeTurn": "People turn to St. Eleutherius as a quiet witness to how the early churches stayed connected. Almost everything we know about him comes from a few lines in Hegesippus, Irenaeus and Eusebius: he served as a deacon, became bishop of Rome, and received a letter from Christians in prison at Lyon, who asked him to welcome their messenger Irenaeus. Later stories about decrees and a British king are doubtful, and his martyrdom is not documented. What remains is enough: a pastor whom suffering Christians far away trusted. He is a fitting companion when we pray for the Pope, for persecuted believers, and for unity among local churches.",
@@ -15010,7 +14910,8 @@
       "quotes: both early-Christian texts were checked word for word against New Advent's NPNF text (Eusebius V.4.2 and V.6.4). Neither is his own writing (none survives); the first is addressed to him, the second names him.",
       "feastCustoms: the Roman Martyrology 2004 wording (\"Saint Eleuterus, pope, to whom the famous martyrs of Lyons ... wrote a noble letter\") was read via GCatholic's transcription. That he is not on the General Roman Calendar and that Philip Neri's memorial falls on May 26 is from general knowledge of the calendar; a human may want to confirm.",
       "heroSummary/biography: no disagreement with the reviewed biography. The Vatican News page loaded only its heading (\"St. Eleuterus, Pope, 26 May\"), so it confirms the date but no details. The Catholic Encyclopedia gives his reign as c. 174–189 and the Liber Pontificalis origin as Nicopolis; Eusebius (V.22) says he held office thirteen years. The text avoids the Lucius story and any claim of martyrdom, matching the review.",
-      "searchDescription: written because context description ends with an ellipsis."
+      "searchDescription: written because context description ends with an ellipsis.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "elias-of-the-carmelites": {
@@ -15161,25 +15062,11 @@
     ]
   },
   "elizabeth-ann-seton": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Elizabeth Ann Seton is honored as patron of Catholic schools. A New York wife, mother and young widow, she became Catholic in 1805, opened a school in Maryland and founded the Sisters of Charity of St. Joseph's at Emmitsburg. Canonized in 1975 as the first U.S.-born saint, she is remembered on January 4.",
     "searchDescription": "St. Elizabeth Ann Seton, wife, mother, widow and convert, founded the Sisters of Charity at Emmitsburg and was the first U.S.-born saint. Feast: January 4.",
     "patronages": [
       "catholic-schools"
-    ],
-    "symbols": [
-      {
-        "symbol": "Black widow's cap (bonnet) and dress",
-        "meaning": "She kept wearing a widow's black dress and cap, which became the first habit of her sisters; the Archdiocese of Baltimore's Catholic Review calls the bonnet a familiar sight in her portraits."
-      },
-      {
-        "symbol": "Crucifix and rosary",
-        "meaning": "Her own crucifix and black-bead rosary, which she used in prayer, are kept among her artifacts at the Emmitsburg shrine."
-      },
-      {
-        "symbol": "Schoolchildren",
-        "meaning": "The school she opened at Emmitsburg, including free schooling for poor girls, is why she is honored as patron of Catholic schools."
-      }
     ],
     "whyWeTurn": "People turn to St. Elizabeth Ann Seton because her holiness grew inside an ordinary, often painful family life. She was a wife and mother of five, lost her husband to tuberculosis far from home, faced her family's disapproval when she became Catholic, and later buried two daughters. Through all of it she kept seeking God's will in daily tasks and found deep joy in the Eucharist. Parents, widows, converts, teachers and anyone grieving find in her a companion who knew both loss and hope. She is especially remembered by Catholic schools, which see in her school at Emmitsburg part of their own beginnings.",
     "quotes": [
@@ -15299,7 +15186,8 @@
       "feastCustoms: the memorial rank in the U.S. and Canada is from Catholic Culture; the USCCB calendar pages refused automated access. Her remains in the Altar of Relics are from the shrine's Basilica page.",
       "biography: no disagreement with the reviewed biography. Vatican News adds that she was widowed at 29, met the Sulpician Louis Dubourg in 1806 and took vows in 1809; Catholic News Herald gives the canonization date as September 14, 1975 and beatification in 1963.",
       "searchDescription: written because context description ends with an ellipsis.",
-      "symbols: only 2 sourced (widow cap/dress, crucifix/rosary); schoolchildren was the researcher’s choice — set to 1.5 (coordinator)"
+      "symbols: only 2 sourced (widow cap/dress, crucifix/rosary); schoolchildren was the researcher’s choice — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 3 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "elizabeth-mother-of-john-baptist": {
@@ -15704,7 +15592,7 @@
     ]
   },
   "elizabeth-of-the-trinity": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Elizabeth of the Trinity was a French Discalced Carmelite of Dijon whose letters and prayers teach that God lives within the soul. Born Elizabeth Catez in 1880, a gifted pianist with a fiery temper, she entered Carmel at twenty-one and died at twenty-six. Canonized in 2016, she is remembered by Carmelites on November 8.",
     "searchDescription": "St. Elizabeth of the Trinity (1880–1906), Carmelite feast November 8: Dijon nun and spiritual writer who taught that God dwells within the soul.",
     "whyWeTurn": "People turn to St. Elizabeth of the Trinity when prayer feels distant or when life seems too busy for God. She discovered, first at home and then in Carmel, that God is not far away but present in the soul, waiting to be met in quiet attention. She learned this as a strong-willed girl who had to master her temper, and she held to it through a painful final illness. Catholics ask her prayers for interior peace, for perseverance in suffering, for the sick and for anyone longing to pray more simply. Her letters show that this inward life is offered to every Christian, not only to nuns.",
@@ -15823,11 +15711,12 @@
       "feastCustoms: November 8 is the Carmelite memorial per the Order of Carmelites site and the reviewed feast_note; the rank in the Discalced Carmelite proper (memorial or optional memorial) was not confirmed from an official calendar.",
       "places: only the Carmel of Flavignerot is listed; the community moved there from the boulevard Carnot monastery in Dijon in 1979, and its site says her cell was reconstructed there. Its pages do not say where her relics are; one unconfirmed source places relics in the church of Saint-Michel, Dijon (her parish, where she made her First Communion), so it was not listed.",
       "relatedSaints: the Thérèse link rests on The Praise of Glory (1913), which prints a letter in which Elizabeth urges a correspondent to pray daily to Teresa of the Infant Jesus and recounts her turning to the \"Angel of Lisieux\" in her final illness; the John of the Cross link rests on the many quotations of him in her writings printed in the same book; the Anne of Jesus founding is from the Flavignerot Carmel history page.",
-      "biography: no disagreement with the reviewed text. Small source variation outside the review: the Postulation gives her First Communion as April 19, 1890, while other sources say 1891; the review does not state it."
+      "biography: no disagreement with the reviewed text. Small source variation outside the review: the Postulation gives her First Communion as April 19, 1890, while other sources say 1891; the review does not state it.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "emma": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Emma of Lesum, also called Imma, was a Saxon noblewoman remembered for her generosity to the Church and to poor people. Wife of Count Liudger of the Billung family, she sought the founding of a church at Stiepel, and as a widow near Bremen she gave land and gifts. She died in 1038. Her feast is April 19.",
     "searchDescription": "St. Emma of Lesum, feast April 19: Saxon noblewoman and widow (died 1038) who gave land to poor people and supported churches at Stiepel and Bremen.",
     "whyWeTurn": "People turn to St. Emma as a model of generosity for anyone who has money, land or influence. As a widow she could have lived only for herself; instead, the sources remember her for giving to the church at Bremen and providing land that poor people could farm, so that they could support themselves. Little is recorded of her inner life; what survives is the shape of a life spent giving. Widows, benefactors, and people deciding how to use what they own can ask her to help them give wisely and well.",
@@ -15917,11 +15806,12 @@
       "feastCustoms: the December 3 date is from the review's feast note. Bremen's legend that she gave the Bürgerweide pasture to the townspeople was found only in a commercial guidebook, so it is not used.",
       "places: the Stiepel village church is Protestant (since 1610) and its own page says only that Imma had a church built on her property there; it is listed as the place tied to her. No Catholic site connected with her was found. Bremen Cathedral, where she was buried, is Lutheran and its site was not checked for her.",
       "relatedSaints: the review says the Stiepel church was authorized 'after imperial intervention' without naming the ruler; secondary sources name Henry II (king in 1008, emperor from 1014). Verify before publishing.",
-      "biography: possible disagreement for human check. Local historian Raimund Trinkaus argues that the charter dated 1008 for the Stiepel church is probably a 17th-century forgery, which would weaken the review's firm statement that 'The church was authorized in 1008 after imperial intervention.' This rests on a non-Catholic local-history source and was not resolved."
+      "biography: possible disagreement for human check. Local historian Raimund Trinkaus argues that the charter dated 1008 for the Stiepel church is probably a 17th-century forgery, which would weaken the review's firm statement that 'The church was authorized in 1008 after imperial intervention.' This rests on a non-Catholic local-history source and was not resolved.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "enda": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Enda of Aran, also called Éanna or Éinne, was an early Irish monastic founder who died about 530. Tradition says he left a warrior's life, and he built a community at Killeany on Inishmore that became a school of prayer, work and Scripture for many Irish saints. His feast is March 21.",
     "searchDescription": "St. Enda of Aran, feast March 21: early Irish monastic founder who built a community at Killeany on Inishmore, a school for many Irish saints. Died about 530.",
     "whyWeTurn": "People turn to St. Enda as one of the fathers of Irish monastic life. Tradition holds that he was once a fighting man of Oriel and that his sister Fanchea turned him toward God; whatever the details, his life shows a real change of direction. On the bare rock of Inishmore his monks prayed together, worked the land and sea, slept rough and studied Scripture so they could live it. Later Irish saints came to learn from him. Anyone seeking a simpler life, a fresh start or a deeper grounding in prayer can ask his help.",
@@ -16008,7 +15898,8 @@
       "feastCustoms: whether March 21 is in Ireland's national liturgical calendar was not verified, so no rank is stated. No pattern day or pilgrimage on Inishmore for his feast was found in a reputable source. The Killanny church link to Enda rests on Catholic Ireland; the parish's own history page lists 'Cill Enna (Church of Enda)' as only one of several possible origins of the place-name.",
       "places: only Killanny's parish site was found. Killeany (Cill Éinne) on Inishmore has no official site of its own, and no Archdiocese of Tuam parish page for the Aran Islands was found.",
       "relatedSaints: the Finnian, Brendan and Columba links are from the Catholic Encyclopedia's Aran article; Catholic Ireland names Ciarán, Jarlath and Carthage as his students and calls Enda and Finnian patriarchs of Irish monasticism. These are later traditions and should not be read as dated encounters.",
-      "biography: no disagreement. Sources differ on details the review treats as tradition: Catholic Ireland says he was king of Oriel and studied at Emly and at Ninian's Candida Casa, where he was ordained; the Dublin resource says Fanchea showed him the corpse of the girl he wished to marry; the Dublin resource says Aengus, king of Munster, his brother-in-law, granted him the Aran land, while Catholic Ireland says Aengus wanted him in the Golden Vale and Enda chose Aran instead; the Catholic Encyclopedia says he reached Aran from Garomna in Connemara."
+      "biography: no disagreement. Sources differ on details the review treats as tradition: Catholic Ireland says he was king of Oriel and studied at Emly and at Ninian's Candida Casa, where he was ordained; the Dublin resource says Fanchea showed him the corpse of the girl he wished to marry; the Dublin resource says Aengus, king of Munster, his brother-in-law, granted him the Aran land, while Catholic Ireland says Aengus wanted him in the Golden Vale and Enda chose Aran instead; the Catholic Encyclopedia says he reached Aran from Garomna in Connemara.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "ephrem-the-syrian": {
@@ -16272,7 +16163,7 @@
     ]
   },
   "eulogius-of-toledo": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Eulogius of Córdoba was a ninth-century priest and writer who recorded the Christians executed in his city under Muslim rule in the 850s. Elected archbishop of Toledo but never consecrated, he was beheaded on March 11, 859, after sheltering Leocritia, a convert from Islam. His relics rest in Oviedo Cathedral.",
     "searchDescription": "St. Eulogius of Córdoba (d. 859), feast March 11: priest and writer who recorded Córdoba's martyrs and was beheaded after sheltering the convert Leocritia.",
     "whyWeTurn": "People turn to St. Eulogius when faith is costly and the truth needs a witness. He was a scholar and teacher of priests in Córdoba who chose to stand beside people the authorities had condemned: he wrote down their stories, encouraged those in prison, and finally hid a young convert, Leocritia, at the price of his own life. Catholic Culture recalls that when a guard struck him on the way to execution, he quietly offered the other cheek. His own writings are passionate and partisan, and historians read them carefully, yet without them most of these Christians would be forgotten. He is a companion for writers, teachers, and anyone protecting someone vulnerable.",
@@ -16372,23 +16263,14 @@
       "feastCustoms: 'commemorated in the Roman Martyrology' rests on Catholic Culture, which lists him as an Other Commemoration on March 11; one Spanish secondary source mentions a June 14 date (likely a translation feast) that was not confirmed, so it is not used.",
       "places: the Oviedo Cathedral page states the crypt held the bodies of Eulogius and Leocritia from 884 and that a 1742 casket holds their remains in the Cámara Santa. No official Córdoba site tied to him was found.",
       "relatedSaints: the Perfectus link (first martyr Eulogius recorded) rests on NC Register and general histories, not a Vatican page. Eulalia, Isidore and John of Damascus are thematic only.",
-      "biography: no contradiction. Note: Vatican News (Italian) says he was born around 800 and that he wrote an 'Elogio al martirio'; the 1909 Catholic Encyclopedia says only 'before 819'. Vatican News also says other bishops disapproved of the tone of his writings, which supports the review's caution about him as an involved advocate. Some popular sites give 857 as his death year; Catholic sources and the review give 859."
+      "biography: no contradiction. Note: Vatican News (Italian) says he was born around 800 and that he wrote an 'Elogio al martirio'; the 1909 Catholic Encyclopedia says only 'before 819'. Vatican News also says other bishops disapproved of the tone of his writings, which supports the review's caution about him as an involved advocate. Some popular sites give 857 as his death year; Catholic sources and the review give 859.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "euphrasia": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Euphrasia of Constantinople was a young noblewoman of the late fourth century who grew up in a women's monastery in Egypt and chose to stay there for life. Tradition remembers her for giving her inheritance to the poor and for humble, hidden work. Her Western feast is March 13.",
     "searchDescription": "St. Euphrasia of Constantinople (c. 380–410), feast March 13: a noble girl who chose monastic life in Egypt and gave her inheritance to the poor.",
-    "symbols": [
-      {
-        "symbol": "Heavy stones carried in her arms",
-        "meaning": "From her traditional life: during a long temptation her abbess set her to carrying stones from place to place, and she persevered through humble labor. This is how she is most often shown."
-      },
-      {
-        "symbol": "Monastic habit and veil",
-        "meaning": "Her choice, while still a child, to remain in the women's monastery in Egypt rather than return to the wealth and marriage expected of her."
-      }
-    ],
     "whyWeTurn": "Euphrasia's story is old and, as her biographers admit, shaped by later retelling, but its heart is simple. A girl born to wealth and influence chose a poor community, gave away what she had inherited, and did the chores no one wanted. Tradition holds that when temptation pressed on her, she told her abbess and kept working rather than hiding it. People turn to her when they feel the pull of status or comfort, when they need courage to choose a quieter path, or when they want to learn humility in ordinary tasks. She reminds us that generosity and honesty about our struggles belong together.",
     "quotes": [
       {
@@ -16477,11 +16359,12 @@
       "feast: Nominis gives July 24 for the Roman Martyrology and lists March 13 as a local date, while Butler and the reviewed data give March 13. The page should keep the reviewed March 13 date, but a human may want to confirm the current Martyrology entry",
       "biography detail: Butler places her father at the court of Theodosius the Younger, while OCA and FaithND connect the family to Theodosius I; Butler says she entered the monastery at seven, OCA at eight. The reviewed biography names neither, so there is no conflict, but avoid adding these details without qualification",
       "relatedSaints: the Pachomius link relies on OCA naming Tabennisi; Butler only says a monastery in Egypt (the reviewed biography says the Thebaid, which includes Tabennisi)",
-      "symbols: only 2 sourced attributes (carrying stones, monastic habit); v2 needs 3–5 — set to 1.5 (coordinator)"
+      "symbols: only 2 sourced attributes (carrying stones, monastic habit); v2 needs 3–5 — set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 2 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "euphrasia-eluvathingal": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Euphrasia Eluvathingal (1877–1952) was a Syro-Malabar Carmelite sister of the Congregation of the Mother of Carmel in Kerala. Born Rosa, she spent nearly fifty years at St. Mary's Convent, Ollur, as novice mistress and superior. People called her the \"Praying Mother.\" Pope Francis canonized her in 2014; her feast is August 29.",
     "searchDescription": "St. Euphrasia Eluvathingal (1877–1952), feast August 29: Syro-Malabar Carmelite sister of Kerala, called the \"Praying Mother,\" canonized in 2014.",
     "whyWeTurn": "People turn to St. Euphrasia when they want to learn to pray, or need someone to pray for them. She did no famous public work: she cared for sick sisters, trained novices, served briefly and reluctantly as superior, and spent long hours before the Blessed Sacrament. The people of Ollur called her the \"Praying Mother,\" and her sisters called her a \"Mobile Tabernacle\" because God's presence seemed to go with her. Pope Francis hoped today's religious women would be known as praying sisters in the same way. She is a companion for anyone with a hidden, ordinary life, and for those who carry others' needs to God in prayer.",
@@ -16581,11 +16464,12 @@
       "places: no official website for the Ollur shrine/pilgrim centre was found; the URL is the CMC Generalate's official page about her, which describes her tomb at St. Mary's Convent, Ollur. A human may prefer to omit places.",
       "feastCustoms: secondary listings mention a novena before the feast and a shift to August 30 when it clashes with the Beheading of John the Baptist; neither was confirmed by an official source, so neither is stated.",
       "relatedSaints: euphrasia (Euphrasia of Constantinople, March 13) is a different saint who shares only the name; she is deliberately not linked. The Mariam Thresia link comes from the CMC Generalate page.",
-      "biography: no disagreement. Small notes: the Dicastery and CMC say she died aged 75, but by her 17 October 1877 birth date she was 74. The Holy See biography dates her habit to 10 January 1898 and perpetual vows to 24 May 1900; it gives her name at birth as Rose. A secondary source gives 7 October 1877 as her birth date; Vatican sources give 17 October."
+      "biography: no disagreement. Small notes: the Dicastery and CMC say she died aged 75, but by her 17 October 1877 birth date she was 74. The Holy See biography dates her habit to 10 January 1898 and perpetual vows to 24 May 1900; it gives her name at birth as Rose. A secondary source gives 7 October 1877 as her birth date; Vatican sources give 17 October.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "eutychian": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Eutychian was bishop of Rome from 275 to 283, succeeding Pope Felix I. Little is known of his pontificate, but his burial is unusually well attested: he was laid in the Crypt of the Popes in the Catacomb of St. Callixtus, where fragments of his Greek epitaph survive. He is remembered on December 8.",
     "searchDescription": "St. Eutychian, bishop of Rome 275–283 (remembered December 8), was buried in the Crypt of the Popes in Rome's Catacomb of St. Callixtus.",
     "whyWeTurn": "People turn to St. Eutychian as a quiet witness to the Church's continuity. Almost nothing is known of what he did as pope, and later writers filled the gap with stories of blessing harvests and burying martyrs that historians treat with caution. What remains is solid and simple: his name on the list of Rome's bishops, his place in an early calendar, and a broken stone in the catacomb reading \"Eutychian, bishop.\" He reminds us that faithful service often leaves few traces, and that the Church is built by many leaders whose stories are mostly forgotten. He is a fitting companion for anyone whose work goes unnoticed.",
@@ -16666,11 +16550,12 @@
       "patronages: review lists none and no reputable source gives one; field omitted.",
       "quotes: no writings of Eutychian survive; only Douay-Rheims Scripture is quoted.",
       "relatedSaints: narcisa-de-jes-s is linked only by the shared December 8 date. The Callistus link relies on the existing out/callistus-i.json and the catacomb's name.",
-      "biography: possible disagreement on origin. The review gives origin as Rome, but Vatican News (French) says he was born at Luni, a Tuscan town later destroyed; the 1909 Catholic Encyclopedia gives no birthplace. Vatican News also says he opposed Manichaeism and promoted devotion to martyrs, which other sources do not confirm, so neither is used. The catacomb site spells his name 'Eutichian'."
+      "biography: possible disagreement on origin. The review gives origin as Rome, but Vatican News (French) says he was born at Luni, a Tuscan town later destroyed; the 1909 Catholic Encyclopedia gives no birthplace. Vatican News also says he opposed Manichaeism and promoted devotion to martyrs, which other sources do not confirm, so neither is used. The catacomb site spells his name 'Eutichian'.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "evaristus": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Evaristus was one of the earliest bishops of Rome, named by St. Irenaeus as the successor of St. Clement and the predecessor of Alexander, around the turn of the second century. Almost nothing else about him is securely known. Vatican News commemorates him on October 27; older reference works give October 26.",
     "searchDescription": "St. Evaristus, early bishop of Rome who succeeded Clement around the year 100, is known mainly from the succession lists. Feast: October 27.",
     "whyWeTurn": "People turn to St. Evaristus as a witness to the quiet faithfulness that kept the Church going in its first generations. His name survives because the Church of Rome remembered who had shepherded it, and St. Irenaeus later listed him in that chain of bishops reaching back to the apostles. Older accounts call him a martyr, but how he died is not known, and later stories about his reforms reflect later times. What remains is enough: he received the faith, guarded it, and handed it on. He is a fitting patron for anyone whose service is steady and unseen, and for those who pray for the pope and the bishops of the Church.",
@@ -16768,11 +16653,12 @@
       "quotes: no writings of Evaristus survive (the decretals under his name are forgeries). The Irenaeus passage was checked word for word against the New Advent text of the ANF translation; it is Irenaeus writing about the succession, not Evaristus's own words.",
       "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar, not a page fetched here; a human may want to confirm.",
       "relatedSaints: ignatius-of-antioch is linked by era only (his Letter to the Romans dates to Trajan's reign, around Evaristus's time); no contact between them is recorded. The Liber Pontificalis burial detail for peter is tradition, flagged as such by the Catholic Encyclopedia's wording.",
-      "biography: no disagreement with the reviewed biography. The Catholic Encyclopedia gives him about eight years (c. 98/99 to c. 106/107) and Eusebius says he held office eight years; the entry avoids exact dates, as the review does."
+      "biography: no disagreement with the reviewed biography. The Catholic Encyclopedia gives him about eight years (c. 98/99 to c. 106/107) and Eusebius says he held office eight years; the entry avoids exact dates, as the review does.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "ezequiel-moreno": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Ezequiel Moreno is honored by the Augustinian Recollects as patron of people suffering from cancer, the illness he himself bore. A Spanish friar, he served as a missionary priest in the Philippines, then as bishop of Pasto in Colombia during civil war. He died at Monteagudo on August 19, 1906, and was canonized in 1992.",
     "searchDescription": "St. Ezequiel Moreno (1848–1906), Augustinian Recollect missionary and bishop of Pasto, invoked by people with cancer. Feast: August 19.",
     "patronages": [
@@ -16881,31 +16767,14 @@
       "prayer: original. The Recollects offer a novena by email and app, but no web page with a verified traditional text was found to link.",
       "quotes: his own writings (Spanish pastoral letters) were not found in a public-domain English translation, so Douay-Rheims verses were used.",
       "feastCustoms: the 2024 Philippine obligatory memorial is from recoletos.org, not a CBCP page; a human may want to confirm. The Sacred Heart devotion and 'model for pastors' come from recoletos.org and augustinian.org respectively.",
-      "biography: no disagreement with the reviewed biography. Sources differ on the year he became bishop of Pasto (augustinian.org says 1899; recoletos.org says 1896), so the entry gives no year. Some sources date his cancer diagnosis to 1905."
+      "biography: no disagreement with the reviewed biography. Sources differ on the year he became bishop of Pasto (augustinian.org says 1899; recoletos.org says 1896), so the entry gives no year. Some sources date his cancer diagnosis to 1905.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "faustina-kowalska": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Faustina Kowalska was a Polish sister of Our Lady of Mercy who worked as a cook, gardener and porter while recording in her Diary the message of Divine Mercy. The image inscribed \"Jesus, I trust in You\" and the Chaplet spread from her witness. Catholics keep her optional memorial on October 5.",
     "searchDescription": "St. Faustina Kowalska (1905–1938), Polish sister whose Diary spread devotion to Divine Mercy, its image and Chaplet. Feast: October 5.",
-    "symbols": [
-      {
-        "symbol": "Habit of the Sisters of Our Lady of Mercy",
-        "meaning": "Her religious life in the congregation she entered in 1925, where she served in humble tasks in Kraków, Płock and Vilnius."
-      },
-      {
-        "symbol": "Image of the merciful Jesus",
-        "meaning": "The image of the risen Christ she was asked to have painted; the first version was made in Vilnius in 1934 under her guidance."
-      },
-      {
-        "symbol": "Two rays, one red and one pale, from Christ's heart",
-        "meaning": "In the image, the rays recall the blood and water that flowed from Christ's pierced side (John 19:34), as John Paul II explained at her canonization."
-      },
-      {
-        "symbol": "The inscription \"Jesus, I trust in You\"",
-        "meaning": "The words beneath the image, a simple act of trust that John Paul II commended to the whole Church."
-      }
-    ],
     "whyWeTurn": "People turn to St. Faustina when they need to know that God's mercy is larger than their failures. She had little schooling and spent her religious life cooking, gardening and answering the convent door, yet through her the Church received a renewed call to trust in Christ's mercy and to show mercy to others. Catholics ask her prayers when they struggle to believe they can be forgiven, when they pray for the dying, and when they want to begin again. Her message belongs to private revelation, which the Church approves but never places beside Scripture, and it always points back to the Gospel, confession and the Eucharist.",
     "quotes": [
       {
@@ -17042,7 +16911,8 @@
       "feastCustoms: the Hour of Mercy is described without a clock time, per instructions; the Vatican biography and the Sisters' page tie it to the traditional hour of Christ's death.",
       "places: sanktuarium.faustyna.pl is the Polish-language site of the Łagiewniki sanctuary run by the Congregation (page loads; title confirms). The Vilnius shrine's site states it holds the original 1934 painting.",
       "biography: no disagreement with the reviewed biography. The Vatican biography gives entry to the congregation as August 1, 1925 (matches review); Catholic Culture says she entered in Warsaw. Beatification was April 18, 1993.",
-      "symbols: effectively habit + the Divine Mercy image (rays and inscription are parts of it) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)"
+      "symbols: effectively habit + the Divine Mercy image (rays and inscription are parts of it) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 4 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "francis-of-assisi": {
@@ -18836,7 +18706,7 @@
     ]
   },
   "lioba": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Lioba, also called Leoba, was an English nun who answered the call of her relative St. Boniface and became the first abbess of Tauberbischofsheim in the Frankish lands. Remembered as a learned teacher and wise leader of women, she died around 782. The Diocese of Mainz keeps her memorial on September 28.",
     "searchDescription": "St. Lioba (Leoba), English nun called by her relative St. Boniface to lead the abbey of Tauberbischofsheim: teacher, abbess and letter-writer. Feast: Sept. 28.",
     "whyWeTurn": "People turn to Lioba because she shows what steady, learned faith can build. She left England to support a mission in unfamiliar lands, and she did it by teaching, governing a community, and forming women in prayer and Scripture. Her surviving letter to Boniface is humble and warm: she asks him to pray for her late father and her ailing mother, admits she is still practicing her verse, and asks him to correct her writing. Students, teachers, and women in leadership can find in her a companion who joined learning with humility. To ask her prayers is to ask for wisdom, perseverance far from home, and friendships that lead to God.",
@@ -18925,7 +18795,8 @@
       "places: no official website verified for the Petersberg church near Fulda where her relics rest; the Benedictine community Kloster St. Lioba in Freiburg (kloster-st-lioba.de) bears her name but is a modern foundation, so it was not listed",
       "feast: September 28 is confirmed as an optional memorial in the Diocese of Mainz; other German dioceses were not checked",
       "dates: the Mainz text dates the transfer of her bones to the Petersberg to 838, other sources to 836; not used on the page",
-      "biography: no disagreement with the reviewed biography; the Mainz text matches it (first abbess of Tauberbischofsheim, died around 782 at Schornsheim near Mainz, buried at Fulda)"
+      "biography: no disagreement with the reviewed biography; the Mainz text matches it (first abbess of Tauberbischofsheim, died around 782 at Schornsheim near Mainz, buried at Fulda)",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "maria-mazzarello": {
@@ -19209,7 +19080,7 @@
     ]
   },
   "maximinus-of-aix": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Maximin of Aix is honored as the patron of the diocese of Aix and is credited with the beginnings of Christian faith in Aix-en-Provence. His local feast is June 8. Provençal legend makes him one of Christ's seventy-two disciples who sailed to Provence with Mary Magdalene, Martha and Lazarus, but that voyage is tradition, not established history.",
     "searchDescription": "St. Maximin of Aix, feast June 8: patron of the diocese of Aix, credited with the city's first Christian preaching; the Bethany voyage is legend.",
     "whyWeTurn": "People turn to St. Maximin to give thanks for those who first brought the faith to a place. Very little about his life can be documented: the Roman Martyrology simply credits him with the beginnings of Christian faith in Aix. Tradition holds much more, that he was one of the seventy-two disciples Jesus sent out and that he came to Provence with Mary Magdalene and the family of Bethany. Whatever the details, Catholics in Provence have kept his name in prayer for centuries. He is a fitting companion for anyone praying for their own diocese, for missionaries, and for people who share the faith quietly where it is new.",
@@ -19288,7 +19159,8 @@
       "places: omitted. No verifiable official website was found for the basilica at Saint-Maximin-la-Sainte-Baume, Saint-Sauveur Cathedral or the Archdiocese of Aix and Arles (catholique-aix-arles.fr did not resolve); cathedrale-aix.net states it is unofficial.",
       "feastCustoms: the pilgrimage item relies on Nominis for both the tomb tradition and the oratory/nave tradition; both are presented as tradition.",
       "relatedSaints: the Trophimus link relies on the merged see of Aix and Arles (Catholic Encyclopedia notes Aix long depended on Arles); a human may want to confirm the current archdiocese name.",
-      "biography: no direct conflict, but note that the Catholic Encyclopedia (1907) reports Duchesne's argument that Maximin, though the object of a very ancient local cult, was not regarded in early sources as the first bishop of Aix, and that the Magdalene connection comes from eleventh-century legends linked to Vézelay; the first historically known bishop of Aix is Lazarus (about 400). The reviewed biography's cautious wording ('honored as an early bishop') is compatible."
+      "biography: no direct conflict, but note that the Catholic Encyclopedia (1907) reports Duchesne's argument that Maximin, though the object of a very ancient local cult, was not regarded in early sources as the first bishop of Aix, and that the Magdalene connection comes from eleventh-century legends linked to Vézelay; the first historically known bishop of Aix is Lazarus (about 400). The reviewed biography's cautious wording ('honored as an early bishop') is compatible.",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "michael-the-archangel": {
@@ -19864,7 +19736,7 @@
     ]
   },
   "paul-the-simple": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Paul the Simple was an Egyptian peasant who, at about sixty, left a broken marriage and begged St. Anthony the Great to make him a monk. Anthony tested him hard and found him humble and obedient. Known for simplicity of heart, he is commemorated on March 7 by both Eastern and Western traditions.",
     "searchDescription": "St. Paul the Simple, fourth-century Egyptian hermit who became St. Anthony's disciple at about sixty, known for humble obedience. Feast: March 7.",
     "whyWeTurn": "People turn to St. Paul the Simple because his story starts late and badly. He was an old farmer whose marriage had collapsed, and Anthony at first told him to go home. He waited at the door anyway. According to Palladius, when Anthony made him unpick a whole day's weaving and do it over, Paul neither complained nor grew angry. That patient obedience is why the desert fathers remembered him. Tradition holds that he later freed a man from an evil spirit that Anthony sent to him. Anyone who feels too old, too hurt, or too ordinary to begin again with God can find a friend in him.",
@@ -19964,7 +19836,8 @@
       "feastCustoms: 'many Byzantine-tradition churches' extends the OCA's dates to other Byzantine churches; human check welcome",
       "biography: Butler explains the surname 'the Simple' by his lack of secular learning and his humility, while the reviewed biography says it refers to gentleness and simplicity of heart, 'not an assessment of intelligence'. Palladius says he was 'exceedingly guileless and simple'. Not a direct contradiction, but a human may want to soften the reviewed sentence",
       "whyWeTurn: the exorcism is framed as tradition, consistent with the reviewed biography's caution",
-      "searchDescription: written because context description ends with an ellipsis"
+      "searchDescription: written because context description ends with an ellipsis",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   },
   "peter-julian-eymard": {
@@ -20232,31 +20105,9 @@
     ]
   },
   "pier-giorgio-frassati": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Pier Giorgio Frassati (1901–1925) was a Turin engineering student, mountaineer, and Lay Dominican who spent his free time visiting poor families through the St. Vincent de Paul Society. He died of polio at twenty-four, was beatified by John Paul II in 1990, and was canonized with Carlo Acutis in 2025. His feast is July 4.",
     "searchDescription": "St. Pier Giorgio Frassati (1901–1925), feast July 4: Turin student, mountaineer, and friend of the poor, canonized with Carlo Acutis in 2025.",
-    "symbols": [
-      {
-        "symbol": "Mountaineering gear: ice axe, rope, and climbing clothes",
-        "meaning": "His lifelong love of the mountains as a member of the Club Alpino Italiano and Giovane Montagna; Pope Leo XIV recalled that his last photograph shows him climbing in the Val di Lanzo."
-      },
-      {
-        "symbol": "Rosary",
-        "meaning": "His Marian devotion, from the Piccoli Rosarianti as a boy to the Milites Mariae in his parish; EWTN recounts that he prayed the rosary daily, often kneeling by his bed."
-      },
-      {
-        "symbol": "Dominican scapular or habit of a tertiary",
-        "meaning": "He received the habit of the Dominican Third Order in 1922, taking the name Fra Girolamo."
-      },
-      {
-        "symbol": "Bundles or a cart of supplies for the poor",
-        "meaning": "His visits to poor families through the St. Vincent de Paul Society; friends joked that he ran a transport company, as Pope Leo XIV noted in the canonization homily."
-      },
-      {
-        "symbol": "Eucharist",
-        "meaning": "His daily Communion, frequent confession, and membership in the Eucharistic League and the students' Nocturnal Adoration Society."
-      }
-    ],
     "whyWeTurn": "People turn to St. Pier Giorgio Frassati because he loved life and gave it away freely. He climbed mountains, shared jokes and adventures with friends, studied engineering, and took a public stand for justice, yet he quietly spent his own money and time on poor families in Turin. Crowds of people he had quietly helped came to his funeral. Students, young adults, hikers, and anyone trying to live faith in the middle of a busy, social life find in him a cheerful companion. He shows that prayer, friendship, adventure, and service to the poor belong together, and that a short life can be a full one.",
     "quotes": [
       {
@@ -20364,7 +20215,8 @@
       "places: the cathedral's own site (duomoditorino.it) now serves an unrelated casino page, so the Archdiocese of Turin home page is used instead; a human may prefer a more specific cathedral page. The location of his remains in the cathedral is supported by the Archdiocese's 2016 document and EWTN.",
       "feastCustoms: July 4 is documented as his liturgical feast in the Archdiocese of Turin; I did not confirm whether it has been added to the General Roman Calendar since the canonization.",
       "biography: no disagreement found. The reviewed biography says he joined the St. Vincent de Paul Society 'at seventeen'; the canonization booklet places his enrollment around his 1918 university entry, which is consistent.",
-      "symbols: drawn from his documented life (recently canonized), not established iconography — set to 1.5 for an owner decision (coordinator); approve to switch to v2"
+      "symbols: drawn from his documented life (recently canonized), not established iconography — set to 1.5 for an owner decision (coordinator); approve to switch to v2",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); removed 5 unconfirmed symbol(s) — Symbols in art hidden"
     ]
   },
   "scholastica": {
@@ -20902,7 +20754,7 @@
     ]
   },
   "toribio-romo-gonz-lez": {
-    "templateVersion": 1.5,
+    "templateVersion": 2,
     "heroSummary": "St. Toribio Romo González is a Mexican priest and martyr whom many migrants invoke as a patron of immigrants, a popular devotion that grew from the 1970s. Born in Jalisco in 1900, he served the parish of Tequila during the persecution of the 1920s and was shot on February 25, 1928. He was canonized in 2000.",
     "patronages": [
       "immigrants"
@@ -21010,7 +20862,8 @@
       "places: no official website verified for his sanctuary in Santa Ana de Guadalupe or for the Santuario de los Mártires in Guadalajara",
       "feast: the 2012 CNS article says pilgrim crowds swell on May 25, 'his feast day', apparently a local celebration; the reviewed biography's May 21 (liturgical memorial with Christopher Magallanes and companions) is kept",
       "biography: the Vatican page names his refuge as Aguascalientes, a place near Tequila (not the city); the reviewed biography's 'place of refuge near Tequila' is consistent",
-      "feastCustoms: the migrant house near his sanctuary (Casa del Migrante Santo Toribio) is sourced only to an Angelus article and is described without naming it, in case it closes"
+      "feastCustoms: the migrant house near his sanctuary (Casa del Migrante Santo Toribio) is sourced only to an Angelus article and is described without naming it, in case it closes",
+      "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
   }
 }
