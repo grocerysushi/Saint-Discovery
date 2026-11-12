@@ -29436,5 +29436,738 @@
       "history: the Union of Brest and Josaphat's ministry are contested across Catholic and Orthodox communities. The Catholic Encyclopedia uses dated polemical language; it is cited for dates rather than adopted as a neutral characterization.",
       "relatedSaints: Basil's monastic legacy is a link to the Basilian tradition, and Francis de Sales and Vincent de Paul lived in the same era; no personal acquaintance is asserted."
     ]
+  },
+  "jose-sanchez-del-rio": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. José Sánchez del Río was a Mexican boy who became a martyr during the Cristero conflict. Captured at fourteen, he was imprisoned in his hometown of Sahuayo and killed in 1928 after refusing to renounce his faith. Pope Francis canonized him in 2016.",
+    "searchDescription": "St. José Sánchez del Río, a Mexican teenage martyr, witnessed to his faith during the Cristero conflict and was canonized in 2016.",
+    "whyWeTurn": "People may turn to José Sánchez del Río when they are looking for courage to remain faithful under pressure. He grew up in Mexico during a period of religious persecution and armed conflict. The account prepared for his canonization describes his imprisonment in Sahuayo after he joined the Cristero movement. He was fourteen when he was killed for refusing to deny his faith. Remembering a child caught in violence can lead us to pray for young people affected by conflict and for peace. His witness need not be separated from compassion for everyone harmed by the fighting.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you draw near to children and families who are afraid. Through the prayers of St. José Sánchez del Río, give courage to those who face pressure because of their faith. Comfort young people living amid violence and protect all who seek safety. Teach me to stand by my convictions without losing compassion for anyone caught in conflict. Help me to listen to people who suffer and to offer the practical kindness I can. Give us all the grace to seek peace and trust in your love. Amen."
+    },
+    "feastCustoms": [
+      "On February 10, the anniversary of José's death and the feast date given in a USCCB youth resource, remember him in prayer and check your local calendar.",
+      "Read the Vatican's account of his life, taking care to understand the history of religious persecution and armed conflict in Mexico.",
+      "Pray for children and families affected by violence and displacement.",
+      "Support a trusted local organization that assists children or families who have experienced violence."
+    ],
+    "confirmationNote": "José may speak to a candidate considering how a young person can remain faithful when others apply pressure. He lived through a violent conflict that deserves careful historical study and age-appropriate discussion. With a sponsor, consider ways to practice courage and compassion in ordinary life, without treating suffering as something to seek. Ask your parish about its guidance for choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I needed courage to remain kind or truthful despite pressure from others?",
+      "This week, offer encouragement to someone who feels isolated or excluded.",
+      "Read the Vatican canonization account. What does it say about José's imprisonment and the conflict in Mexico?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "toribio-romo-gonz-lez",
+        "reason": "A Mexican priest and martyr whose death belongs to the same period of religious persecution and conflict.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-of-the-trinity",
+        "reason": "A French Carmelite canonized at the same 2016 ceremony as José.",
+        "historical": true
+      },
+      {
+        "slug": "dominic-savio",
+        "reason": "Another young saint whose life invites reflection on faith in youth.",
+        "historical": false
+      },
+      {
+        "slug": "maximilian-kolbe",
+        "reason": "A later martyr whose story also prompts prayer for people subjected to violence.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Canonization booklet, José Sánchez del Río biography",
+        "url": "https://www.vatican.va/news_services/liturgy/libretti/2016/20161016-libretto-canonizzazione.pdf"
+      },
+      {
+        "title": "Holy See Press Office: Canonizations of October 16, 2016",
+        "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2016/10/16/161016a.html"
+      },
+      {
+        "title": "USCCB: Jubilee resource for teenagers",
+        "url": "https://www.usccb.org/resources/Jubilee2025_Teenagers.pdf"
+      },
+      {
+        "title": "Saint Joseph de Clairval Abbey: Saint José Sánchez del Río",
+        "url": "https://www.clairval.com/en/saint-jose-sanchez-del-rio/"
+      },
+      {
+        "title": "Dicastery for the Causes of Saints: José Sánchez del Río",
+        "url": "https://www.causesanti.va/it/santi-e-beati/jose-sanchez-del-rio.html"
+      },
+      {
+        "title": "University of Notre Dame Basilica: St. José Luis Sánchez del Río",
+        "url": "https://basilica.nd.edu/prayer-and-worship/global-saints-initiative/st-jose-luis-sanchez-del-rio/"
+      }
+    ],
+    "flags": [
+      "Review required: the existing fact card gives November 20; José is among the companions whose local group memorial was authorized for November 20, while USCCB and Notre Dame identify February 10 as his individual feast. Hold at 1.5 until the fact card and local observances are reviewed together.",
+      "patronages: no specific patronage supported by a reliable Catholic source was verified; omitted.",
+      "symbols: fewer than three source-supported saint-specific symbols and meanings were established; omitted.",
+      "quotes: omitted because no independently verified public-domain English translation of José's words was established.",
+      "places: omitted pending verification of an official visitor resource directly connected to José.",
+      "feastCustoms: the non-date items are suggested devotional activities, not claims of established customs.",
+      "history: the Cristero conflict included religious persecution and armed combat; care is taken not to make violence a model for children.",
+      "relatedSaints: Toribio's ministry and martyrdom belong to the same broad Mexican conflict; Elizabeth of the Trinity was canonized at José's ceremony. Other links are thematic."
+    ]
+  },
+  "josemaria-escriva": {
+    "templateVersion": 2,
+    "heroSummary": "St. Josemaría Escrivá was a Spanish priest who founded Opus Dei and taught that ordinary work and family responsibilities can become opportunities for holiness. Ordained in 1925, he later moved to Rome as his ministry expanded internationally. He died on June 26, 1975, the date of his feast.",
+    "searchDescription": "St. Josemaría Escrivá, founder of Opus Dei, taught Christians to seek holiness in daily work and ordinary life.",
+    "whyWeTurn": "People may ask Josemaría Escrivá to pray for them when ordinary work and family duties seem distant from spiritual life. A priest in Spain, he founded Opus Dei in 1928 and taught that baptized Christians can seek holiness in the circumstances of everyday life. During the Spanish Civil War his ministry continued amid upheaval, and he later moved to Rome. At his canonization, John Paul II spoke about daily work as a possible way of growing in holiness with God's grace. His life invites an attentive and loving approach to duties that might otherwise feel routine.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God our Father, you are present in the ordinary hours of our lives. Through the prayers of St. Josemaría Escrivá, help me offer my work, rest, and responsibilities to you with love. Give me patience with the people I meet and care for those whose labor is overlooked. When a task feels repetitive, remind me that kindness and honesty matter. Bless families, students, and workers, and help us serve our neighbors without forgetting those who need our time. Draw us closer to Christ in everything we do. Amen."
+    },
+    "feastCustoms": [
+      "On June 26, remember Josemaría in prayer and consider a task that can be done with greater care.",
+      "Read John Paul II's canonization homily and discuss how ordinary work can become an opportunity to love God and neighbor.",
+      "Thank someone whose everyday work supports your family, parish, or community.",
+      "Set aside a quiet moment during the day to pray for people seeking work or facing difficult working conditions."
+    ],
+    "confirmationNote": "Josemaría may interest a candidate wondering how faith can shape school, work, family life, and friendship. His teaching emphasizes finding opportunities to love God and others in ordinary responsibilities. With a sponsor, discuss one task you already do and how to approach it with care for another person. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Which ordinary responsibility do I find hardest to approach with patience?",
+      "Choose one daily task this week and do it attentively for the good of someone else.",
+      "Read John Paul II's canonization homily. How does it connect grace, work, and holiness?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Josemaría Escrivá in 2002.",
+        "historical": true
+      },
+      {
+        "slug": "joseph",
+        "reason": "Jesus' foster father, whose work as a carpenter is recalled in John Paul II's address about Josemaría's teaching.",
+        "historical": true
+      },
+      {
+        "slug": "therese-of-lisieux",
+        "reason": "A Carmelite saint whose spiritual teaching also attends to love in everyday life.",
+        "historical": false
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "A spiritual writer who encouraged lay people to seek holiness in their daily vocations.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "John Paul II: Canonization homily for St. Josemaría",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20021006_escriva.html"
+      },
+      {
+        "title": "John Paul II: Address on the centenary of Josemaría's birth",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2002/january/documents/hf_jp-ii_spe_20020112_opus-dei.html"
+      },
+      {
+        "title": "Opus Dei: A biography of St. Josemaría",
+        "url": "https://opusdei.org/en/article/st-josemaria-biography/"
+      },
+      {
+        "title": "Opus Dei: Biographical timeline",
+        "url": "https://opusdei.org/en-ca/article/biographical-timeline-of-st-josemaria-escriva"
+      },
+      {
+        "title": "John Paul II: Address connecting Josemaría’s teaching with St. Joseph",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2002/march/documents/hf_jp-ii_spe_20020325_univ-2002.html"
+      }
+    ],
+    "flags": [
+      "patronages: no specific patronage supported by a reliable Catholic source was established; omitted.",
+      "symbols: omitted because three verified saint-specific artistic attributes and meanings were not established.",
+      "quotes: omitted because no public-domain English translation of his writing was independently verified.",
+      "places: omitted pending verification of an official visitor page for the prelatic church in Rome.",
+      "feastCustoms: June 26 is given by Opus Dei; the other items are suggested activities, not asserted established customs.",
+      "relatedSaints: John Paul II canonized him, and John Paul II connected his teaching with St. Joseph's work in his 2002 address. Thérèse and Francis de Sales are thematic.",
+      "source access: both Opus Dei biography pages returned HTTP 403 to direct checking; indexed copies were readable and the Vatican's canonization homily independently supports his ministry and teaching."
+    ]
+  },
+  "joseph-cafasso": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joseph Cafasso is the patron of Italian prisons. A priest and teacher in nineteenth-century Turin, he prepared clergy for pastoral ministry and offered spiritual care to prisoners, including people condemned to death. He guided St. John Bosco for many years. He died on June 23, 1860.",
+    "searchDescription": "St. Joseph Cafasso, patron of Italian prisons, trained priests and offered compassionate spiritual care to prisoners in Turin.",
+    "whyWeTurn": "People may turn to Joseph Cafasso when they are concerned for prisoners, their families, or those who offer pastoral care in difficult places. At Turin's ecclesiastical college he taught priests moral theology and helped form them for confession and preaching. He also visited people in prison and accompanied condemned prisoners, giving them spiritual and human support. Benedict XVI recalled his long service as spiritual director to John Bosco, whom he helped discern his own vocation rather than copying another person's path. Cafasso's life invites us to join careful learning with mercy and respect for each person's dignity.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, you never forget the people whom others overlook. Through the prayers of St. Joseph Cafasso, comfort prisoners and their families, and strengthen chaplains and volunteers who visit them. Give teachers and spiritual guides wisdom to listen without judgment and to offer faithful counsel. Help me notice when someone is isolated and show respect for their dignity. When I struggle to forgive or to ask forgiveness, lead me toward patience and hope. May your love guide our communities in justice and compassion. Amen."
+    },
+    "feastCustoms": [
+      "On June 23, remember Joseph Cafasso in prayer and ask God to comfort prisoners and their families.",
+      "Read Benedict XVI's audience on Cafasso and discuss how he joined theological learning with pastoral care.",
+      "Learn about a trusted prison ministry and how it supports incarcerated people or their families.",
+      "Thank a teacher, mentor, or spiritual guide who has helped someone discern a wise next step."
+    ],
+    "confirmationNote": "Joseph Cafasso may interest a candidate who values teaching, patient guidance, or care for people in prison. He encouraged John Bosco to discern his own vocation and taught other priests to unite study with mercy. Read about their relationship with a sponsor, then discuss what makes guidance both truthful and respectful. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has given me advice while respecting my freedom and dignity?",
+      "This week, learn about a local effort that supports prisoners or their families and consider a helpful action.",
+      "Read Benedict XVI's account of Cafasso. How did he help John Bosco discern his vocation?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-bosco",
+        "reason": "Cafasso served as his spiritual director for about twenty-five years.",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "His moral and pastoral theology helped shape the training Cafasso gave priests.",
+        "historical": true
+      },
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "His spirituality influenced the formation of priests at the college where Cafasso taught.",
+        "historical": true
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "Pius XI recalled the Curé of Ars and Cafasso together as models of priestly holiness.",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General audience on St. Joseph Cafasso",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100630.html"
+      },
+      {
+        "title": "Diocese of Lucena: St. Joseph Cafasso",
+        "url": "https://dioceseoflucena.org/readmore.cfm?pasaID=722"
+      }
+    ],
+    "flags": [
+      "patronages: Benedict XVI states Pius XII named Cafasso patron of Italian prisons in 1948; no exact matching live topic is asserted.",
+      "symbols: omitted because three verified saint-specific symbols with meanings were not established.",
+      "quotes: omitted because exact public-domain English wording was not independently checked.",
+      "places: omitted pending a verified official visitor page for a site directly connected to Cafasso.",
+      "feastCustoms: June 23 is his death date given by Benedict XVI; other items are suggested activities rather than documented local customs.",
+      "relatedSaints: Bosco was his directee; Benedict XVI describes the formation context influenced by Alphonsus and Ignatius and quotes Pius XI on Vianney and Cafasso.",
+      "history: Cafasso accompanied condemned prisoners to execution; this is presented as pastoral care, not endorsement of capital punishment."
+    ]
+  },
+  "joseph-of-arimathea": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joseph of Arimathea is a patron of funeral directors and undertakers. The Gospels describe him asking Pilate for Jesus' body and helping arrange his burial. John also names Nicodemus in the burial account. Joseph and Nicodemus are remembered together on August 31.",
+    "searchDescription": "St. Joseph of Arimathea, patron of funeral directors, asked for Jesus' body and helped arrange his burial. He is remembered on August 31.",
+    "whyWeTurn": "People may turn to Joseph of Arimathea when they are grieving or caring for someone who has died. Mark describes him as a member of the council who went to Pilate to ask for Jesus' body. John's Gospel says Nicodemus joined Joseph in preparing the body for burial. Their quiet care can invite prayer for funeral workers and for families making difficult decisions after a death. Later stories about Joseph's journeys go beyond what the Gospels tell us. His scriptural example encourages us to show practical kindness and respect when another person is grieving.",
+    "prayer": {
+      "text": "Lord Jesus, Joseph of Arimathea cared for your body after your death. Through his prayers, comfort all who mourn someone they love. Give patience and tenderness to funeral directors, cemetery workers, chaplains, and everyone who helps families through loss. Help me notice when a grieving person needs a listening ear or practical assistance, and teach me to offer it without assuming what they feel. Sustain those who have died in your mercy, and help us trust your promise of life. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On August 31, remember Joseph and Nicodemus together and pray for grieving families.",
+      "Read John 19:38–42 and notice the care shown in preparing Jesus for burial.",
+      "If welcome, offer a specific practical kindness to a person who is mourning.",
+      "Pray for funeral directors and others who help families care for the dead."
+    ],
+    "confirmationNote": "Joseph of Arimathea may speak to a candidate who values quiet service and care for people who are grieving. The Gospel accounts show him taking responsibility for Jesus' burial, and John also names Nicodemus. Read the passages with a sponsor and discuss how care for others can be expressed through concrete actions. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I seen a small act of care help someone through loss?",
+      "This week, ask a grieving person what kind of practical help would be welcome, without pressing for a response.",
+      "Compare Mark 15:42–47 and John 19:38–42. Which people and details does each account name?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mary-magdalene",
+        "reason": "The Gospels place Mary Magdalene among the women who witnessed Jesus' burial.",
+        "historical": true
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "An apostle associated by Church tradition with the Fourth Gospel, which recounts Joseph's care for Jesus' body.",
+        "historical": false
+      },
+      {
+        "slug": "joseph",
+        "reason": "The foster father of Jesus shares the name Joseph; his life offers another example of care.",
+        "historical": false
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A later saint whose organized charity invites reflection on practical care.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Saints Joseph of Arimathea and Nicodemus",
+        "url": "https://www.vaticannews.va/en/saints/08/31/sts--joseph-of-arimathea-and--nicodemus--disciples-of-the-lord.html"
+      },
+      {
+        "title": "USCCB Bible: Mark 15",
+        "url": "https://bible.usccb.org/bible/mark/15"
+      },
+      {
+        "title": "USCCB Bible: John 19",
+        "url": "https://bible.usccb.org/bible/john/19"
+      },
+      {
+        "title": "Catholic Bishops' Conference of England and Wales: Funeral directors",
+        "url": "https://www.cbcew.org.uk/funeral-directors-who-cares/"
+      }
+    ],
+    "flags": [
+      "patronages: the Bishops' Conference names funeral directors, undertakers and morticians; none has a matching live topic.",
+      "symbols: omitted because three saint-specific attributes and meanings were not independently verified.",
+      "quotes: omitted; Scripture is referenced, not quoted.",
+      "places: omitted pending verification of an official visitor page for a directly connected site.",
+      "feastCustoms: August 31 is a Vatican News commemoration; other items are suggested activities, not claims of established customs.",
+      "history: later traditions of travel to Britain and the Holy Grail go beyond the Gospel accounts and are not asserted.",
+      "relatedSaints: Mary Magdalene's presence at the burial is reported in the Gospels; the author of John's Gospel is not identified with the apostle as an established fact."
+    ]
+  },
+  "joseph-of-cupertino": {
+    "templateVersion": 2,
+    "heroSummary": "St. Joseph of Cupertino is a patron of students and people taking examinations, and is also honored as a patron of pilots and air travelers. A Conventual Franciscan priest, he found formal study difficult and became known for prayer. He died in 1663 and is remembered on September 18.",
+    "searchDescription": "St. Joseph of Cupertino, Franciscan priest and patron of students and air travelers, is remembered on September 18.",
+    "whyWeTurn": "People turn to Joseph of Cupertino when studying is difficult or an examination causes anxiety. Franciscan Media describes his challenges with formal learning and his life of prayer as a Conventual Franciscan priest. The Diocese of Derry records a devotion to him among students preparing for exams. Accounts also report unusual experiences during prayer, including levitation; these are part of the historical testimony about his life and should not distract from his patience and trust. His story can encourage a student to prepare, ask for help, and remember that a test does not measure a person's worth.",
+    "prayer": {
+      "text": "Lord Jesus, you know the work and worries I bring to my studies. Through the prayers of St. Joseph of Cupertino, give me patience to prepare and courage to ask for help when I need it. Help me rest when I am tired, treat classmates with kindness, and remember that my worth is not determined by an examination. Bless teachers, students, pilots, and all who travel. Whatever the outcome of my work, help me trust your love and continue learning with humility. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On September 18, remember Joseph of Cupertino and pray for students and teachers.",
+      "Make a realistic study plan and ask a teacher or classmate for help with one difficult topic.",
+      "Read a Franciscan account of Joseph's life and discuss how he responded to challenges.",
+      "Encourage someone preparing for an examination and make time for a short period of rest."
+    ],
+    "confirmationNote": "Joseph of Cupertino may speak to a candidate who finds study hard or feels anxious about being evaluated. His Franciscan life included difficulty in formal learning, as well as a deep commitment to prayer. With a sponsor, read about his life and discuss where patience and asking for help might matter in your own. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What kind of support helps me when I am learning something difficult?",
+      "Choose one manageable study step and ask for help if a question remains unclear.",
+      "Read the Franciscan Media account. What does it say about Joseph's studies and his life of prayer?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan family to which Joseph's order belongs.",
+        "historical": true
+      },
+      {
+        "slug": "anthony-of-padua",
+        "reason": "An earlier Franciscan priest whose ministry also included teaching and preaching.",
+        "historical": false
+      },
+      {
+        "slug": "maximilian-kolbe",
+        "reason": "A later Conventual Franciscan whose story offers another example of the order's life.",
+        "historical": false
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "A teacher and Doctor of the Church often associated with students and study.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Franciscan Media: St. Joseph of Cupertino",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-joseph-of-cupertino/"
+      },
+      {
+        "title": "Archdiocese of Baltimore: St. Joseph of Cupertino",
+        "url": "https://www.archbalt.org/st-joseph-of-cupertino/"
+      },
+      {
+        "title": "Vatican City State: St. Joseph of Cupertino",
+        "url": "https://www.vaticanstate.va/en/component/content/article/september-18-saint-joseph-of-cupertino.html?Itemid=216&catid=51"
+      },
+      {
+        "title": "Diocese of Derry: The Net, May 2024, on Joseph of Cupertino and exams",
+        "url": "https://www.derrydiocese.org/publications/the-net/the-net-may-2024.pdf"
+      },
+      {
+        "title": "Catholic Culture: Collect for Saint Joseph of Cupertino",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1133"
+      }
+    ],
+    "flags": [
+      "patronages: the Archdiocese of Baltimore names pilots and air travelers; Vatican City State names students, especially those facing exams. None matches a live topic.",
+      "symbols: omitted because three saint-specific artistic attributes with meanings were not independently verified.",
+      "quotes: omitted because no exact public-domain translation was checked.",
+      "places: omitted pending verification of a stable official shrine visitor page.",
+      "history: reported levitations are attributed to accounts and investigation, not asserted as independently established events.",
+      "feastCustoms: September 18 is supported by Franciscan Media and Catholic Culture; the other items are suggested activities, not historical customs."
+    ]
+  },
+  "josephine-bakhita": {
+    "templateVersion": 2,
+    "heroSummary": "St. Josephine Bakhita is a patron saint of people affected by human trafficking. Kidnapped and enslaved as a child in Sudan, she later gained freedom in Italy and joined the Canossian Sisters. The Church remembers her on February 8, a day of prayer and awareness against human trafficking.",
+    "searchDescription": "St. Josephine Bakhita, a Canossian sister and survivor of enslavement, is remembered on February 8 with prayer against human trafficking.",
+    "whyWeTurn": "People ask Josephine Bakhita's prayers for those who have experienced trafficking or exploitation, and for those who work for their safety. Enslaved as a child, she later gained freedom in Italy and joined the Canossian Sisters. She spent years serving her community in Schio. The Church remembers her on February 8, the International Day of Prayer and Awareness Against Human Trafficking. Her faith can encourage prayer and practical concern for people harmed by exploitation. Her experience also deserves to be approached with care, without expecting survivors to disclose their stories or respond to trauma in any particular way.",
+    "prayer": {
+      "text": "God of compassion, you know the pain of those who have been exploited and the courage it can take to seek help. Through the prayers of St. Josephine Bakhita, bring safety, healing, and trustworthy support to survivors of trafficking. Guide the people who protect them and work for justice. Help me respect each person's dignity, listen without demanding their story, and learn how my community can respond. Bless all who feel far from home, and help us build communities of welcome and care. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On February 8, join a suitable prayer for people affected by human trafficking.",
+      "Read the Vatican biography of Bakhita, allowing learners to choose whether to discuss difficult details.",
+      "Learn about the work of a reputable local service supporting trafficking survivors and ask what support it welcomes.",
+      "Pray for the safety and dignity of people experiencing exploitation and for those who accompany them."
+    ],
+    "confirmationNote": "Josephine Bakhita may speak to a candidate who cares about dignity, freedom, and service. Her life included enslavement as well as her later religious community and ministry in Italy. Read an age-appropriate account with a trusted sponsor and discuss how to support people who face exploitation without requiring anyone to share personal experiences. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What helps a person feel safe, respected, and welcome in a new community?",
+      "Learn one practical way a trusted organization supports trafficking survivors and consider how to assist.",
+      "Read the Vatican's account of Bakhita. Which parts describe her life before and after she entered the Canossian community?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "magdalen-of-canossa",
+        "reason": "Founder of the Canossian Daughters of Charity, the religious family Bakhita joined.",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Josephine Bakhita in 2000.",
+        "historical": true
+      },
+      {
+        "slug": "patrick",
+        "reason": "An earlier saint whose account describes his experience of enslavement.",
+        "historical": false
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A religious founder whose work included education and service to marginalized communities.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Biography of Josephine Bakhita",
+        "url": "https://www.vatican.va/news_services/liturgy/documents/ns_lit_doc_20001001_giuseppina-bakhita_en.html"
+      },
+      {
+        "title": "USCCB: Human trafficking and the dignity of every human being",
+        "url": "https://www.usccb.org/news/2025/human-trafficking-rejection-god-given-dignity-every-human-being"
+      },
+      {
+        "title": "John Paul II: Address after the 2000 canonizations",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2000/oct-dec/documents/hf_jp-ii_spe_20001002_canonization.html"
+      }
+    ],
+    "flags": [
+      "patronages: USCCB names Bakhita patron of people affected by human trafficking; no matching live topic exists.",
+      "symbols: omitted because three verified saint-specific attributes and meanings were not established.",
+      "quotes: omitted because no exact public-domain English translation was independently verified.",
+      "places: omitted pending verification of a stable official shrine visitor page.",
+      "feastCustoms: the February 8 prayer and awareness day is documented by USCCB; other practices are suggestions.",
+      "history: the Vatican biography states Sudan; its identification of Darfur with South Sudan in some later summaries is geographically inaccurate, so no modern subregion is supplied.",
+      "editorial: her history is described without implying that trafficking or abuse is justified or that survivors must forgive or disclose trauma."
+    ]
+  },
+  "juan-diego": {
+    "heroSummary": "St. Juan Diego is honored as a patron of Indigenous peoples and remembered for his connection to Our Lady of Guadalupe. According to the Guadalupe tradition, Mary appeared to him at Tepeyac in 1531 and asked that a church be built there. His story invites prayerful attention to faith, dignity, and the voices of people too easily overlooked.",
+    "whyWeTurn": "People turn to St. Juan Diego when they want courage to speak, patience when they are not immediately heard, or help bringing a concern to God. The Guadalupe account tells how Juan Diego conveyed Mary's request to the bishop and returned with flowers in his tilma; the tradition also tells of the image of Our Lady appearing on the cloth. These are claims of the received devotional account, not details we can independently reconstruct with certainty. His feast can also be an opportunity to honor Indigenous communities as living peoples with distinct histories and cultures, and to listen to their own voices rather than assume one experience represents everyone.",
+    "confirmationNote": "Juan Diego may appeal to someone who wants a Confirmation saint associated with humble witness and Our Lady of Guadalupe. Read about the Guadalupe tradition and its importance to Catholic communities, and learn about the Nahua world in which he lived. A patron saint need not share every part of your life; ask your parish about its Confirmation name guidelines.",
+    "prayer": {
+      "text": "St. Juan Diego, companion in faith, pray for us when we feel too small to speak or wonder whether anyone will listen. Help us bring our hopes and fears honestly before God. Teach us to listen with respect to neighbors whose voices are often overlooked, and to serve them with humility. May our devotion to Our Lady draw us closer to Christ and lead us to treat each person with dignity. Pray that we may respond to God's call with patience, courage, and love. Amen.",
+      "source": "Saint Discovery",
+      "kind": "original"
+    },
+    "feastCustoms": [
+      "On December 9, read a reliable account of Juan Diego and the Guadalupe tradition, noticing where it distinguishes history from devotion.",
+      "Pray a decade of the Rosary for someone who needs to be heard.",
+      "Learn from an Indigenous Catholic community's own account of its faith and history.",
+      "Choose one practical way to listen respectfully to someone whose perspective you may have overlooked."
+    ],
+    "reflectionPrompts": [
+      "When have I hesitated to share something important, and what would help me speak with charity?",
+      "Whose experience could I make room to hear more carefully this week?",
+      "What does the Church's account of Guadalupe say, and which details does it present as tradition?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "A contemporary whose life also unfolded during the sixteenth century.",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Another sixteenth-century Catholic remembered for missionary work.",
+        "historical": true
+      },
+      {
+        "slug": "kateri-tekakwitha",
+        "reason": "An Indigenous North American saint from a different community and century.",
+        "historical": false
+      },
+      {
+        "slug": "jose-sanchez-del-rio",
+        "reason": "A Mexican saint remembered for witness to his faith in a later era.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Vatican: Juan Diego Cuauhtlatoatzin, biography for canonization",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html"
+      },
+      {
+        "title": "Saint John Paul II: canonization homily, Mexico City, 2002",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html"
+      },
+      {
+        "title": "Catholic Online: Saint Juan Diego",
+        "url": "https://www.catholic.org/saints/saint.php?saint_id=73"
+      }
+    ],
+    "flags": [
+      "The Guadalupe narrative is identified as tradition; precise historical details are not presented as independently established.",
+      "Patronage is described with the qualified phrase 'honored as'; no corresponding live patronage topic was found.",
+      "Symbols, quotations, and places are omitted rather than supplying unsupported or unnecessary details."
+    ],
+    "templateVersion": 2,
+    "searchDescription": "Discover St. Juan Diego, his connection to Our Lady of Guadalupe, and ways to reflect on his witness."
+  },
+  "julia-of-corsica": {
+    "heroSummary": "St. Julia of Corsica is honored as a patron of Corsica and a Christian martyr. A traditional account remembers her as an enslaved woman from Carthage who died on the island after refusing pagan worship. Details of her life and the date of her death are uncertain, but her witness has long inspired prayer.",
+    "whyWeTurn": "People turn to St. Julia when they seek courage to remain faithful under pressure, or when they pray for people who experience exploitation and violence. According to the traditional account, Julia was taken from Carthage and died in Corsica after refusing to take part in pagan worship. The surviving account does not give us certainty about every detail or even the precise date. Her story should never suggest that enslavement or abuse is good or that those suffering harm must accept it. Instead, her feast can prompt practical concern for human dignity and support for people facing exploitation today.",
+    "confirmationNote": "Julia may be a meaningful Confirmation patron for someone drawn to courage, faithfulness, and concern for people facing injustice. Read her story with attention to the difference between the Church's remembrance of a martyr and details preserved in later tradition. Speak with your catechist about your parish's guidelines and what her witness might invite you to practice.",
+    "prayer": {
+      "text": "St. Julia, faithful witness to Christ, pray for all who face violence, coercion, and exploitation. Ask God to strengthen people who are afraid and to surround them with safety, compassion, and practical help. Open our hearts to the dignity of every person, and help us notice when another person's freedom is threatened. Give us courage to speak and act with care, to support those who protect the vulnerable, and to remain faithful to Christ in our own choices. Amen.",
+      "source": "Saint Discovery",
+      "kind": "original"
+    },
+    "feastCustoms": [
+      "On May 22, read a Catholic account of Julia's martyrdom and note the uncertainty in its historical details.",
+      "Pray for people affected by exploitation and for those working to assist them safely.",
+      "Learn from a reputable organization about a practical way to support people escaping trafficking or exploitation.",
+      "Make time to check on someone who may need a respectful, attentive listener."
+    ],
+    "reflectionPrompts": [
+      "Where do I need courage to act on my convictions with kindness?",
+      "What practical step can I take to support the dignity and safety of another person?",
+      "Which details of Julia's story are traditionally reported, and what remains uncertain?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "perpetua",
+        "reason": "A North African martyr associated with Carthage, Julia's traditional place of origin.",
+        "historical": false
+      },
+      {
+        "slug": "rita-of-cascia",
+        "reason": "Both are commemorated on May 22 in Vatican News’s saints calendar.",
+        "historical": true
+      },
+      {
+        "slug": "agatha",
+        "reason": "Another early Christian martyr whose story invites reflection on courage.",
+        "historical": false
+      },
+      {
+        "slug": "lucy",
+        "reason": "Another early Christian martyr remembered in the Church's prayer.",
+        "historical": false
+      }
+    ],
+    "patronages": [
+      "corsica"
+    ],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Vatican News: St. Julia, Virgin and Martyr of Corsica",
+        "url": "https://www.vaticannews.va/en/saints/05/22/st--julia--virgin-and-martyr-of-corsica.html"
+      },
+      {
+        "title": "Vatican News: Saints of May 22",
+        "url": "https://www.vaticannews.va/en/saints/05/22.html"
+      },
+      {
+        "title": "Catholic Encyclopedia, volume IV: Corsica",
+        "url": "https://www.ccel.org/ccel/h/herbermann/cathen04/cache/cathen04.pdf"
+      }
+    ],
+    "flags": [
+      "The account of Carthage, enslavement, and martyrdom is explicitly traditional; the date is uncertain and differing dates occur in sources.",
+      "The link to Perpetua is geographic and traditional; no personal meeting or shared lifetime is asserted. Julia and Rita share a May 22 commemoration.",
+      "Symbols, quotations, and places are omitted because adequately documented optional material was not established."
+    ],
+    "templateVersion": 2,
+    "searchDescription": "Meet St. Julia of Corsica, a martyr remembered for her faith and honored as a patron of Corsica."
+  },
+  "jun-pero-serra": {
+    "heroSummary": "St. Junípero Serra is honored as a patron of California and of vocations to Church ministry. An eighteenth-century Franciscan missionary, he helped establish missions in California under Spanish colonial rule. His legacy calls for honest attention both to his religious work and to the suffering of Indigenous communities within the mission system.",
+    "whyWeTurn": "People turn to St. Junípero Serra when praying about vocation, perseverance, or sharing faith through service. Serra was a Franciscan priest who traveled from Spain to the Americas and helped establish California missions. Those missions were part of a colonial system that imposed profound restrictions and caused suffering for Indigenous peoples; Native communities continue to speak about that legacy. Sources also record Serra seeking protections for Indigenous people from Spanish authorities. Holding these facts together calls for neither dismissing devotion nor overlooking harm. A responsible response includes listening to Indigenous voices, studying the history carefully, and working for dignity and reconciliation today.",
+    "confirmationNote": "Serra's commitment to his vocation may invite reflection, but choosing him also calls for an honest study of the California missions and their effects on Indigenous communities. Seek out Native perspectives as well as Catholic sources, and ask how faith can move you to listen, seek justice, and serve with humility. Discuss your choice and parish guidelines with your catechist.",
+    "prayer": {
+      "text": "God of mercy, help us respond faithfully to your call and serve our neighbors with humility. As we remember St. Junípero Serra, we also remember Indigenous peoples who suffered within the California mission system and the pain carried by their communities. Give us courage to listen truthfully, to lament violence and injustice, and to seek healing without ignoring history. Through St. Junípero's prayers, guide all who are discerning a vocation and help us honor the dignity of every person. Through Christ our Lord. Amen.",
+      "source": "Saint Discovery",
+      "kind": "original"
+    },
+    "feastCustoms": [
+      "On July 1, his optional memorial in the United States, pray for people discerning how to serve others.",
+      "Read a Catholic account alongside an Indigenous perspective on the California missions.",
+      "Learn about an Indigenous community in your region from its own published resources.",
+      "Choose a practical act of service that respects the priorities and leadership of the people it is intended to help."
+    ],
+    "reflectionPrompts": [
+      "What form of service might God be inviting me to consider?",
+      "How can I listen to people whose experience of history differs from the one I first learned?",
+      "What do Catholic and Indigenous sources reveal about the California missions and their lasting effects?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan order to which Serra belonged.",
+        "historical": true
+      },
+      {
+        "slug": "francis-solano",
+        "reason": "A Franciscan missionary who served in the Americas in an earlier century.",
+        "historical": true
+      },
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "A Catholic priest whose lifetime overlapped Serra's in the eighteenth century.",
+        "historical": true
+      },
+      {
+        "slug": "juan-diego",
+        "reason": "A lay Catholic remembered in the history of New Spain centuries earlier.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "USCCB: Who Was Junípero Serra?",
+        "url": "https://www.usccb.org/resources/who-was-junipero-serra"
+      },
+      {
+        "title": "Pope Francis: canonization homily, 2015",
+        "url": "https://www.vatican.va/content/francesco/en/homilies/2015/documents/papa-francesco_20150923_usa-omelia-washington-dc.html"
+      },
+      {
+        "title": "Church Life Journal, University of Notre Dame: St. Junípero Serra Between Colonialism and Conversion",
+        "url": "https://churchlifejournal.nd.edu/articles/st-junipero-serra-between-colonialism-and-conversion/"
+      },
+      {
+        "title": "California Office of Historic Preservation: Native Americans and the California Mission System",
+        "url": "https://ohp.parks.ca.gov/pages/1054/files/CA_Multiple_Native%20Americans%20and%20CA%20Mission%20System%20MPDF.pdf"
+      },
+      {
+        "title": "University of Notre Dame: Saint Junípero Serra",
+        "url": "https://faith.nd.edu/saint/saint-junipero-serra/"
+      },
+      {
+        "title": "Archdiocese of San Francisco: Junipero Serra, a Franciscan Missionary",
+        "url": "https://www.sfarchdiocese.org/junipero-serra-classroom/"
+      },
+      {
+        "title": "Saint John Paul II: Address to Native Americans, Phoenix, 1987",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1987/september/documents/hf_jp-ii_spe_19870914_amerindi-phoenix.html"
+      }
+    ],
+    "flags": [
+      "Mission history and Indigenous suffering are explicitly acknowledged; Serra's advocacy for protections does not negate documented harms of colonial missions.",
+      "No matching live California or vocations patronage topic was found; patronage is attributed in prose without manufacturing a topic link.",
+      "Symbols, quotations, and places are omitted rather than supplying unsupported or unnecessary details.",
+      "USCCB page is available in search index but web fetch returned an error; Archdiocese of San Francisco independently supports California patronage."
+    ],
+    "templateVersion": 2,
+    "searchDescription": "Explore the life of St. Junipero Serra, his Franciscan vocation, and the complex history of the California missions."
+  },
+  "justin-martyr": {
+    "templateVersion": 2,
+    "heroSummary": "St. Justin Martyr is honored as a patron of philosophers. A second-century teacher from Samaria, he explored Greek philosophy before embracing Christianity and teaching in Rome. His writings defended Christians and described their worship. He was executed in Rome, and the Church remembers him on June 1.",
+    "searchDescription": "St. Justin Martyr was a second-century philosopher who defended Christian belief and described early Christian worship. His memorial is June 1.",
+    "whyWeTurn": "People may turn to Justin when they are trying to connect honest questions with faith. He studied philosophy before becoming a Christian and continued to teach and write, addressing those who misunderstood or accused Christians. His surviving writings offer an early account of Christian worship and the Eucharist. Justin's arguments arose in a world different from ours and included sharp disputes, so they deserve careful reading in their historical setting. His life invites students, teachers, and anyone searching for truth to bring questions to prayer, to study with patience, and to speak with both courage and respect.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you are the truth we seek and the teacher who meets us where we are. Through the prayers of St. Justin Martyr, help me bring my questions to you without fear. Give me patience to study carefully and humility to listen to people who see things differently. Bless teachers, students, and all who explain the faith. When I speak of my beliefs, keep my words honest and kind. Let what I learn deepen my love for you and strengthen my care for my neighbor. Amen."
+    },
+    "feastCustoms": [
+      "On June 1, remember Justin in prayer and read a reliable account of his life and work.",
+      "Read about Justin's description of early Christian Sunday worship, then discuss what questions it raises about the Eucharist.",
+      "Thank a teacher or mentor who has helped you explore an honest question with patience.",
+      "Make time to listen respectfully to someone whose perspective differs from your own."
+    ],
+    "confirmationNote": "Justin may interest a candidate who enjoys asking questions or studying how faith and reason relate. His writings defended Christians in a second-century setting, and his life shows that careful thought can be part of a life of faith. Read about his search with a sponsor and discuss how to share your beliefs respectfully. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What question about faith have I been hesitant to ask, and whom could I trust to discuss it with me?",
+      "This week, thank someone who helps others learn and make time to listen to a different perspective.",
+      "Read Benedict XVI's audience on Justin. How does Justin describe the relationship between seeking truth and encountering Christ?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "polycarp",
+        "reason": "A fellow second-century Christian remembered as a bishop and martyr.",
+        "historical": true
+      },
+      {
+        "slug": "irenaeus-of-lyon",
+        "reason": "A second-century bishop and writer whose work also engages early Christian belief.",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "A later Christian writer whose journey also joined study and a search for truth.",
+        "historical": false
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "A later theologian whose work also invites reflection on faith and reason.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on St. Justin, Philosopher and Martyr",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070321.html"
+      },
+      {
+        "title": "Archdiocese of Washington: Memorial of St. Justin",
+        "url": "https://adw.org/event/memorial-of-saint-justin/"
+      },
+      {
+        "title": "Vatican News: St. Justin, Philosopher and Martyr",
+        "url": "https://www.vaticannews.va/en/saints/06/01/st--justin--philosopher-and-martyr.html"
+      },
+      {
+        "title": "USCCB: Memorial of Saint Justin, Martyr",
+        "url": "https://bible.usccb.org/bible/readings/0601-memorial-justin.cfm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Justin Martyr",
+        "url": "https://www.newadvent.org/cathen/08580c.htm"
+      }
+    ],
+    "flags": [
+      "patronages: the Archdiocese of Washington identifies him as patron of philosophers and lecturers; there is no corresponding live patronage topic, so the field is omitted.",
+      "symbols: omitted because three saint-specific artistic attributes and meanings were not independently verified.",
+      "quotes: omitted because no exact public-domain translation was independently checked for this entry.",
+      "places: omitted pending verification of a stable official visitor page for a site directly connected with Justin.",
+      "feastCustoms: June 1 is his memorial; the activities are suggested practices rather than claims of historical local customs.",
+      "relatedSaints: Polycarp and Irenaeus lived in the same broad second-century period; no direct meeting with Justin is asserted.",
+      "history: Justin's writings include sharp disagreement with Jewish interlocutors; this entry invites historically careful reading without attributing positions to modern communities.",
+      "Source access: the USCCB readings page returned HTTP 403 to a direct automated request; the Vatican and Archdiocese of Washington sources independently support the entry."
+    ]
   }
 }
