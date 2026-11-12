@@ -11920,6 +11920,1252 @@
       "biography: no conflict with the reviewed text. The site's feast (March 20) is correct for his death and for Hexham and Newcastle, but the national calendar of England and Wales uses September 4; a human may wish to add a feast_note. Sources differ on when Durham's shrine was despoiled (Durham Cathedral: 1539; Catholic Encyclopedia: 1542), and the Catholic Encyclopedia records doubts about whether the body found in 1827 is his; neither point is used in this layer."
     ]
   },
+  "cyprian": {
+    "templateVersion": 2,
+    "heroSummary": "St. Cyprian was bishop of Carthage in Roman North Africa and a martyr, beheaded in 258 under the emperor Valerian. A convert in adult life, he led his church through persecution, epidemic and painful debate over welcoming back those who had denied the faith. The Church honors him with Pope St. Cornelius on September 16.",
+    "searchDescription": "St. Cyprian of Carthage (died 258), feast September 16: convert, bishop and martyr who taught the Church's unity and led it through persecution and plague.",
+    "symbols": [
+      {
+        "symbol": "Gold coins",
+        "meaning": "The account of his martyrdom records that he had twenty-five gold pieces given to his executioner, a last act of generosity toward the man sent to kill him."
+      },
+      {
+        "symbol": "Axe",
+        "meaning": "The instrument of his death: he was beheaded near Carthage in 258, in the presence of his own people."
+      },
+      {
+        "symbol": "Palm frond",
+        "meaning": "The ancient Christian sign of a martyr's victory over death."
+      },
+      {
+        "symbol": "Martyr's crown",
+        "meaning": "The reward of faithfulness; Benedict XVI calls him the first bishop in Africa to obtain the crown of martyrdom."
+      },
+      {
+        "symbol": "Bishop's mitre",
+        "meaning": "His office as bishop of Carthage, which he held through about a decade of persecution, plague and controversy. The mitre is a later artistic convention, not third-century dress."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Cyprian when the Church feels divided, or when they have failed and wonder whether they can come home. As bishop he refused both to shrug off denying the faith under persecution and to slam the door on those who repented; he looked for a real path back through penance. During an epidemic he urged Christians to care for the sick, including pagans. His short books on prayer and on the Church's unity are still read today. He shows that firmness and mercy can belong to the same shepherd, and in the end he gave his life for Christ in front of his people.",
+    "quotes": [
+      {
+        "text": "He can no longer have God for his Father, who has not the Church for his mother.",
+        "work": "On the Unity of the Church (Treatise I), 6",
+        "translation": "Ante-Nicene Fathers, vol. 5, trans. Ernest Wallis (1886; public domain)"
+      },
+      {
+        "text": "for God is the hearer, not of the voice, but of the heart.",
+        "work": "On the Lord's Prayer (Treatise IV), 4",
+        "translation": "Ante-Nicene Fathers, vol. 5, trans. Ernest Wallis (1886; public domain)"
+      },
+      {
+        "text": "Our prayer is public and common; and when we pray, we pray not for one, but for the whole people, because we the whole people are one.",
+        "work": "On the Lord's Prayer (Treatise IV), 8",
+        "translation": "Ante-Nicene Fathers, vol. 5, trans. Ernest Wallis (1886; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "God our Father, you gave St. Cyprian the grace to turn his whole life toward you and to shepherd your people through fear, sickness and division. Through his prayers, keep me faithful to your Church, the mother who brought me to new life in baptism. When I fail, give me the honesty to repent and the hope to come home. When others fail, make me patient and merciful. Teach me to pray as one of your people, not for myself alone, and give me courage to witness to Christ to the end. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the memorial of Sts. Cornelius and Cyprian at Mass on September 16: the pope of Rome and the bishop of Carthage stood together in the crisis over the lapsed, and both died for the faith.",
+      "Listen for their names in Eucharistic Prayer I, the Roman Canon, which still names Cornelius and Cyprian among the martyrs.",
+      "Pray the Our Father slowly, noticing that every request is plural, as Cyprian taught in On the Lord's Prayer.",
+      "Read his Letter to Donatus, his own account of conversion, or a few sections of On the Unity of the Church.",
+      "Go to the Sacrament of Reconciliation, or pray for someone who has drifted from the faith and for Christians in North Africa today."
+    ],
+    "confirmationNote": "Cyprian suits a confirmand who knows what it is to start over. He came to faith as an adult, became a bishop, and spent his ministry holding his community together through persecution, plague and quarrels, with both firmness and mercy. Choosing his name can mean promising to love the Church even when it is messy, to pray for everyone, and to stay faithful under pressure.",
+    "reflectionPrompts": [
+      "Is there a failure in my life that I have treated either as no big deal or as unforgivable, and what would honest repentance look like?",
+      "This week, pray the Our Father for one specific group of people you usually leave out of your prayers.",
+      "Read On the Unity of the Church, sections 4–6, in the Ante-Nicene Fathers translation, then Benedict XVI's general audience on St. Cyprian (6 June 2007)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sixtus-ii",
+        "reason": "Pope martyred in 258 in the same Valerian persecution",
+        "historical": true
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Roman deacon also martyred under Valerian in 258",
+        "historical": true
+      },
+      {
+        "slug": "perpetua",
+        "reason": "Earlier martyr of the church of Carthage, died 203",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Later North African bishop who wrote at length on Cyprian's views of baptism",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 6 June 2007: Saint Cyprian",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070606.html"
+      },
+      {
+        "title": "Vatican News: Saints of September 16",
+        "url": "https://www.vaticannews.va/en/saints/09/16.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, September 16 (Sts. Cornelius and Cyprian)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-16"
+      },
+      {
+        "title": "CCEL: ANF05, Fathers of the Third Century: Hippolytus, Cyprian, Caius, Novatian (public-domain text)",
+        "url": "https://ccel.org/ccel/schaff/anf05"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Cyprian of Carthage",
+        "url": "https://www.newadvent.org/cathen/04583b.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Algeria (proclaimed by Pius X, 6 July 1914), North Africa and Albano Sant'Alessandro, Italy are sourced (Catholic Culture) but have no live topic. Review lists none, which matches the empty field.",
+      "symbols: all five come from Catholic Culture's 'Symbols and Representation' list (gold coins, crown, axe, palm, martyr's crown, mitre). Catholic Culture's symbol list says twenty gold coins while its own biography and the Catholic Encyclopedia's summary of the Acts of his martyrdom say twenty-five; the meaning uses twenty-five and the symbol is named simply 'gold coins'.",
+      "quotes: all three verified word for word against the CCEL plain text of ANF vol. 5 (translator credited as Rev. Ernest Wallis); the original 1886 wording was used, not New Advent's revised text. The 'heart' quote begins mid-sentence (lowercase kept). Benedict XVI cites the same passages (De unit.; De Dom. orat. 4 and 8). No Scripture quote was added.",
+      "prayer: the Roman Missal collect for September 16 is a copyrighted ICEL translation, so an original prayer is given.",
+      "relatedSaints: Pope Cornelius, his feast-day companion, has no published page, so he could not be linked.",
+      "places: none. His burial place at Carthage is an archaeological site without an official Catholic page; later relic traditions were not confirmed by a reputable Catholic source; and the official Callixtus catacomb site does not mention the Cornelius–Cyprian fresco there.",
+      "feastCustoms: the Roman Canon mention rests on Catholic Culture's note that he is named in Eucharistic Prayer I; the Letter to Donatus is in ANF vol. 5 (Epistle I).",
+      "biography: no conflict. Catholic Culture adds that he withdrew from Carthage during the Decian persecution and governed by letter, which the reviewed biography does not mention. Benedict XVI says he converted at about 35 and the Catholic Encyclopedia says his birth date is unknown, consistent with 'birth uncertain'."
+    ]
+  },
+  "cyril-and-methodius": {
+    "templateVersion": 2,
+    "heroSummary": "Sts. Cyril and Methodius, brothers from Thessalonica and apostles to the Slavs, are co-patrons of Europe with St. Benedict. In the ninth century they brought the Gospel and the liturgy to Great Moravia in the people's own language, and Cyril devised an alphabet for the work. The Church celebrates them on February 14.",
+    "searchDescription": "Sts. Cyril and Methodius, feast February 14: brothers from Thessalonica, apostles to the Slavs and co-patrons of Europe who brought the liturgy into Slavonic.",
+    "patronages": [
+      "europe"
+    ],
+    "symbols": [
+      {
+        "symbol": "The two brothers holding up a church between them",
+        "meaning": "Their shared labor of building up the Church among the Slavic peoples, begun together and carried on by Methodius after Cyril's death."
+      },
+      {
+        "symbol": "Cyril in a long philosopher's coat",
+        "meaning": "His title \"the Philosopher,\" earned as a teacher in Constantinople before he became a missionary and, at the end of his life, a monk."
+      },
+      {
+        "symbol": "Methodius in the vestments of an Eastern bishop",
+        "meaning": "He was ordained a bishop in Rome and returned to Moravia and Pannonia to lead the mission, despite imprisonment."
+      },
+      {
+        "symbol": "Surrounded by Bulgarian converts",
+        "meaning": "The fruit of their mission: after Methodius died, his expelled disciples carried the work to Bulgaria, and from there it spread to other Slavic lands."
+      },
+      {
+        "symbol": "Methodius holding an image of the Last Judgment",
+        "meaning": "An attribute that comes from later legend rather than documented history; it recalls the seriousness of the Gospel they preached."
+      }
+    ],
+    "whyWeTurn": "People turn to Sts. Cyril and Methodius when they need to carry faith across a border of language or culture. The brothers learned the speech of the people they served, gave them Scripture and worship in their own tongue, and defended that work in Rome against those who said God could be praised in only three languages. Missionaries, teachers, translators and anyone who works for unity between Eastern and Western Christians find friends in them. Their story is also about perseverance: Cyril died young in Rome, and Methodius, though imprisoned, kept the mission going for the rest of his life.",
+    "quotes": [
+      {
+        "text": "we have heard them speak in our own tongues the wonderful works of God.",
+        "work": "Acts 2:11",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "O praise the Lord, all ye nations: praise him, all ye people. For his mercy is confirmed upon us: and the truth of the Lord remaineth for ever.",
+        "work": "Psalm 116:1–2 (Psalm 117 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sent Sts. Cyril and Methodius to give the Slavic peoples your Word in their own language. Through their prayers, open my ears to people whose language, culture or tradition differs from mine, and give me patience to understand before I speak. Bless all who translate Scripture, teach the faith and bring the Gospel to new places. Heal the wounds that divide Christians of East and West, and make the peoples of Europe and of every land one family praising you with many voices. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the memorial of Sts. Cyril and Methodius at Mass on February 14, the day Cyril died in Rome in 869.",
+      "Pray for Europe and for unity between Catholic and Orthodox Christians, intentions the popes have linked to these co-patrons.",
+      "In the Czech Republic and Slovakia, their solemnity is kept on July 5 with national pilgrimages to Velehrad and Nitra; Catholics elsewhere can join in prayer that day.",
+      "Read John Paul II's encyclical Slavorum Apostoli (1985) or Benedict XVI's general audience on the brothers (17 June 2009).",
+      "Pray for Bible translators and missionaries, or learn a few letters of the Glagolitic alphabet that Cyril created."
+    ],
+    "places": [
+      {
+        "name": "Basilica of San Clemente (tomb of St. Cyril in the lower basilica)",
+        "city": "Rome, Italy",
+        "url": "https://www.basilicasanclemente.com/eng/key-figures/"
+      }
+    ],
+    "confirmationNote": "Cyril and Methodius suit a confirmand who loves languages, travel or building bridges between people. The brothers did not ask others to become like them before hearing the Gospel; they learned a new language, created an alphabet and served a people far from home. Choosing one of their names can mean promising to share your faith with respect and patience, and to keep going when the work gets hard.",
+    "reflectionPrompts": [
+      "Who in my life speaks a different 'language' from me, whether culture, generation or outlook, and how could I listen to them better?",
+      "This week, learn how to say a short prayer, such as the Our Father, in a language spoken by someone in your parish or neighborhood.",
+      "Read John Paul II's Slavorum Apostoli, sections 4–5 and 10–11, then Benedict XVI's general audience on Sts. Cyril and Methodius (17 June 2009)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "methodius",
+        "reason": "The site's separate page on Methodius, who carried on the mission after Cyril died",
+        "historical": true
+      },
+      {
+        "slug": "clement-i",
+        "reason": "Pope whose relics the brothers recovered in Crimea and brought to Rome",
+        "historical": true
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "The Church Father Cyril studied and took as his model in serving the Word",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Named patron of Europe in 1964; they were proclaimed co-patrons with him in 1980",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 17 June 2009: Saints Cyril and Methodius",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090617.html"
+      },
+      {
+        "title": "John Paul II, Encyclical Slavorum Apostoli (2 June 1985)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html"
+      },
+      {
+        "title": "Vatican News: Saints of February 14",
+        "url": "https://www.vaticannews.va/en/saints/02/14.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, February 14 (Sts. Cyril and Methodius)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-02-14"
+      },
+      {
+        "title": "Vatican News (Slovak), 5 July 2024: Cyril and Methodius pilgrimage at Nitra and Velehrad",
+        "url": "https://www.vaticannews.va/sk/vatikan/news/2024-07/cyrilo-metodska-put-vyvrcholila-v-nitre-aj-na-velehrade.html"
+      },
+      {
+        "title": "Basilica of San Clemente: Key figures (St. Cyril)",
+        "url": "https://www.basilicasanclemente.com/eng/key-figures/"
+      },
+      {
+        "title": "DRBO.org: Acts 2 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/51002.htm"
+      },
+      {
+        "title": "DRBO.org: Psalm 116 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21116.htm"
+      }
+    ],
+    "flags": [
+      "patronages: 'europe' is confirmed live and sourced: Slavorum Apostoli (vatican.va) states John Paul II proclaimed them co-patrons of Europe by the apostolic letter Egregiae Virtutis of 31 December 1980, and Benedict XVI (2009) repeats it 'together with St Benedict'. The text of Egregiae Virtutis itself was not found on vatican.va (404 on the expected URLs).",
+      "patronages: Catholic Culture also lists Slavic peoples, Bohemia, Bulgaria, Bosnia, Croatia, Czech Republic, Moravia, Russia, ecumenism, unity of Eastern and Western Churches and protection against storms; none has a live topic.",
+      "symbols: the first four and the Last Judgment image come from Catholic Culture's 'Symbols and Representation' list; meanings draw on Benedict XVI and Slavorum Apostoli. The Last Judgment attribute is labeled legend because no reputable source checked documents its origin.",
+      "quotes: no public-domain translation of words reliably written by the brothers was found. Benedict XVI quotes Cyril's deathbed prayer (from his early Life, not his own writing) and the 'Listen, O all of you Slav peoples' invocation (the Proglas, whose authorship is debated), so neither was used. Two Douay-Rheims passages verified on drbo.org are given instead.",
+      "prayer: the Roman Missal collect for February 14 is a copyrighted ICEL translation, so an original prayer is given.",
+      "places: Velehrad's basilica was considered, but only municipal and tourist sites were found, not an official parish or shrine site; Slavorum Apostoli itself says Methodius died at Velehrad only 'according to tradition'. San Clemente's official page states Cyril was buried there and that Paul VI placed a relic fragment there in the 1960s.",
+      "relatedSaints: 'methodius' is a separate published slug for one of the two brothers; drop it if the site treats it as the same saint, and use catherine-of-siena or edith-stein (fellow co-patrons of Europe) instead.",
+      "feastCustoms: the July 5 pilgrimages are documented by Vatican News (2024); it calls the day their feast in Slovakia but does not say whether it is a public holiday, so that was not claimed. The 'only three languages' detail in whyWeTurn is Benedict XVI's account of the 'trilingual heresy' dispute in Venice before the Rome visit.",
+      "biography: no conflict. The reviewed text says Cyril devised Glagolitic and Cyrillic developed later among successors; Benedict XVI says Glagolitic was 'subsequently modified' and later named Cyrillic in his honor, and Slavorum Apostoli says Cyrillic developed in Bulgaria through their disciples, which agrees. The hero says only that Cyril 'devised an alphabet'."
+    ]
+  },
+  "cyril-of-alexandria": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Cyril of Alexandria led the church of Alexandria from 412 until his death in 444 and is a Doctor of the Church. He is remembered above all for defending, at the Council of Ephesus in 431, that Jesus is one divine person and that Mary is rightly called Theotokos, Mother of God. His memorial is June 27.",
+    "searchDescription": "St. Cyril of Alexandria (about 370–444), feast June 27: bishop and Doctor of the Church who defended Mary's title Mother of God at the Council of Ephesus.",
+    "symbols": [
+      {
+        "symbol": "Pen",
+        "meaning": "His many commentaries, letters and doctrinal works; later Greek writers called him the \"seal of the Fathers\" for the way he gathered up earlier teaching."
+      },
+      {
+        "symbol": "The Virgin Mary holding the Child Jesus",
+        "meaning": "The title Theotokos, Mother of God, which he defended because the child born of Mary is the eternal Word made man."
+      },
+      {
+        "symbol": "White omophorion marked with crosses",
+        "meaning": "The Eastern bishop's stole over his shoulders, a sign of his office as bishop of Alexandria."
+      },
+      {
+        "symbol": "Distinctive monastic head covering",
+        "meaning": "In Byzantine icons he wears a headdress that recalls the dress of Egyptian monks, a recognizable trait of his image."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Cyril of Alexandria when they want to understand who Jesus really is. He insisted that the child Mary bore is not a man joined loosely to God but the eternal Word himself, truly made flesh; that is why he defended calling her Mother of God. He was a forceful, sometimes combative leader in a turbulent age, and the Church does not hide that. Yet after the Council of Ephesus he also worked for a hard-won agreement with John of Antioch in 433. Students of Scripture, catechists and anyone who loves Mary can learn from his clarity and his search for peace.",
+    "quotes": [
+      {
+        "text": "therefore they ventured to call the holy Virgin, the Mother of God, not as if the nature of the Word or his divinity had its beginning from the holy Virgin, but because of her was born that holy body with a rational soul, to which the Word being personally united is said to be born according to the flesh.",
+        "work": "Second Letter to Nestorius (read at the Council of Ephesus)",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 14, ed. Henry R. Percival (1900; public domain)"
+      },
+      {
+        "text": "Of the reason of the disagreement it is superfluous to speak. I deem it more useful both to think and speak of things suitable to the time of peace.",
+        "work": "Letter to John of Antioch (433)",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 14, ed. Henry R. Percival (1900; public domain)"
+      },
+      {
+        "text": "And whence is this to me, that the mother of my Lord should come to me?",
+        "work": "Luke 1:43",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, eternal Word of the Father, you became flesh of the Virgin Mary and dwelt among us. You gave St. Cyril of Alexandria a sharp mind to defend the truth that you are one Lord, true God and true man, and that Mary is truly your Mother. Through his prayers, deepen my faith in you and my love for her. Where I am quick to argue, teach me also to seek reconciliation, and let my study of your Word lead me to worship you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate the optional memorial of St. Cyril of Alexandria at Mass on June 27, the day he died in 444; Eastern calendars keep other dates.",
+      "Pray the Hail Mary slowly, pausing on \"Holy Mary, Mother of God,\" the title he defended at Ephesus; the Church keeps the Solemnity of Mary, Mother of God, every January 1.",
+      "Read Benedict XVI's general audience on St. Cyril (3 October 2007) or Pius XII's encyclical Orientalis Ecclesiae, written for the 1,500th anniversary of his death.",
+      "Pray for unity with the Eastern churches, which honor him as well, especially the Coptic Church of his own Alexandria.",
+      "Read the opening of John's Gospel, the passage at the heart of his teaching that the Word was made flesh."
+    ],
+    "confirmationNote": "Cyril of Alexandria suits a confirmand who wants to know the faith deeply and is drawn to Mary. He spent his life explaining that Jesus is one person, truly God and truly man, and that Mary is therefore the Mother of God. Choosing his name can mean promising to study your faith seriously, to defend it clearly, and to seek peace even after a hard argument.",
+    "reflectionPrompts": [
+      "When I disagree strongly with someone, do I look only to win, or also for a way back to peace afterward?",
+      "This week, explain to a friend or family member in your own words why Catholics call Mary the Mother of God.",
+      "Read Cyril's Second Letter to Nestorius in Nicene and Post-Nicene Fathers, Second Series, vol. 14 (Council of Ephesus), then Benedict XVI's general audience on him (3 October 2007)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "athanasius",
+        "reason": "Earlier bishop of Alexandria whose writings Cyril drew on constantly",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-jerusalem",
+        "reason": "Proclaimed a Doctor of the Church by Leo XIII at the same time, in 1882",
+        "historical": true
+      },
+      {
+        "slug": "leo-the-great",
+        "reason": "Pope when the Council of Chalcedon (451) approved Cyril's letter to Nestorius",
+        "historical": true
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Fellow Greek Father who defended the true divinity and humanity of Christ",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 3 October 2007: Saint Cyril of Alexandria",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071003.html"
+      },
+      {
+        "title": "Vatican News: Saints of June 27",
+        "url": "https://www.vaticannews.va/en/saints/06/27.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, June 27 (St. Cyril of Alexandria)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-27"
+      },
+      {
+        "title": "Pius XII, Encyclical Orientalis Ecclesiae (9 April 1944)",
+        "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_09041944_orientalis-ecclesiae.html"
+      },
+      {
+        "title": "CCEL: NPNF2-14, The Seven Ecumenical Councils (public-domain text, 1900)",
+        "url": "https://ccel.org/ccel/schaff/npnf214"
+      },
+      {
+        "title": "Icon Museum and Study Center: Saint Cyril of Alexandria (16th-century Greek icon)",
+        "url": "https://www.iconmuseum.org/collection/saint-cyril-of-alexandria/"
+      },
+      {
+        "title": "DRBO.org: Luke 1 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49001.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists Alexandria, Egypt, and Carpino, Italy; neither has a live topic. Review lists none, which matches the empty field.",
+      "symbols: Catholic Culture lists only two attributes (pen; the Virgin holding the Child). The omophorion and the Egyptian-monastic headdress come from the Icon Museum and Study Center's catalogue entry for a 16th-century Greek icon, a museum rather than a Catholic source; a reviewer may prefer to drop them, which would leave only 2 symbols (then templateVersion 1.5).",
+      "quotes: both Cyril quotes verified against the CCEL plain text of NPNF2-14 (ed. Henry R. Percival). The volume prints the second letter under the heading 'The Epistle of Cyril to Nestorius' in the acts of Ephesus; Benedict XVI identifies the same text (with the 'two sons' passage) as the second letter. The Theotokos quote begins mid-sentence after 'This was the sentiment of the holy Fathers;' (lowercase kept). The NPNF volume renders Theotokos as 'Mother of God'. Pusey's 19th-century translations of his commentaries exist but were not checked, so none were used.",
+      "prayer: the Roman Missal collect for June 27 is a copyrighted ICEL translation, so an original prayer is given.",
+      "places: none. No official site tied to Cyril (tomb, shrine or church dedicated to him) was found and verified; Santa Maria Maggiore's link to Ephesus rests on secondary sources.",
+      "feastCustoms: Pius XII's Orientalis Ecclesiae URL loads on vatican.va; the '1,500th anniversary' framing follows Catholic Culture and the encyclical's 1944 date (444 + 1500). The Coptic custom is phrased as a prayer intention only; specific Eastern feast dates were not verified and are not stated.",
+      "relatedSaints: the Doctor of the Church date follows Benedict XVI (1882); Catholic Culture's page says 1881.",
+      "biography: no conflict. Benedict XVI gives birth between 370 and 380, election in 412, the Formula of Reunion in 433 and death on 27 June 444, all consistent with the reviewed text. He also notes Cyril's part in the 403 Synod of the Oak that deposed John Chrysostom, which the reviewed biography does not mention; whyWeTurn acknowledges his combative leadership without detail.",
+      "symbols: only 2 from a Catholic source; omophorion and headdress come from a museum catalogue — set to 1.5 (coordinator)"
+    ]
+  },
+  "cyril-of-jerusalem": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Cyril of Jerusalem was a fourth-century bishop of Jerusalem and a Doctor of the Church, remembered on March 18. His lectures prepared adults for baptism at Easter and then explained the sacraments to the newly baptized. Exiled three times during the Arian disputes, he outlived his opponents and returned to his church.",
+    "searchDescription": "St. Cyril of Jerusalem (about 315–386), feast March 18: bishop, Doctor of the Church, and teacher of the creed and sacraments to new Christians.",
+    "whyWeTurn": "People turn to St. Cyril when they want to understand what they believe and what happens in the sacraments. As a bishop in Jerusalem he taught adults step by step: first the Scriptures and the creed during Lent, then, after their Easter baptism, the meaning of the anointing and the Eucharist they had just received. Benedict XVI praised this as a catechesis of the whole person, body, soul and spirit. Cyril also knew conflict, misunderstanding and three exiles, yet he kept teaching. Catechists, RCIA teams, new Catholics and anyone preparing for a sacrament find in him a patient, clear teacher.",
+    "quotes": [
+      {
+        "text": "To them however these things happened in a figure, but to you not in a figure, but in truth; because ye were truly anointed by the Holy Ghost.",
+        "work": "Catechetical Lecture 21 (Mystagogical Lecture 3, On Chrism), section 6",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, Oxford Library of the Fathers translation revised by Edwin Hamilton Gifford (1894; CCEL print basis New York, 1893; public domain)"
+      },
+      {
+        "text": "...make thy left hand a throne for the right, as for that which is to receive a King. And having hollowed thy palm, receive the Body of Christ, saying over it, Amen.",
+        "work": "Catechetical Lecture 23 (Mystagogical Lecture 5), section 21",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, Oxford Library of the Fathers translation revised by Edwin Hamilton Gifford (1894; CCEL print basis New York, 1893; public domain)"
+      },
+      {
+        "text": "It is called Catholic then because it extends over all the world, from one end of the earth to the other...",
+        "work": "Catechetical Lecture 18, section 23 (on the article \"In one Holy Catholic Church\")",
+        "translation": "Nicene and Post-Nicene Fathers, Second Series, vol. 7, Oxford Library of the Fathers translation revised by Edwin Hamilton Gifford (1894; CCEL print basis New York, 1893; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you gave St. Cyril the gift of teaching your mysteries plainly, so that people coming to the font could understand the faith they were about to profess. Through his prayers, help me to know the Creed by heart and to live it in my choices. Remind me that I was truly anointed by your Holy Spirit, and let that gift grow in me. Bless all who are preparing for baptism, confirmation and first Communion, and all who teach them. When I come to receive you in the Eucharist, give me reverence and joy. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on March 18, his optional memorial in the General Roman Calendar; it usually falls during Lent. The Catholic Encyclopedia notes that Eastern churches also honor him on March 18.",
+      "Pray for the catechumens and candidates in your parish who are preparing to be received into the Church at Easter, the kind of people Cyril's lectures were first given to.",
+      "Pray the Creed slowly, one article at a time; Cyril asked his hearers to learn it by heart rather than write it on paper.",
+      "Read one of his Catechetical Lectures; Catholic Culture suggests his lecture on the Passion during Lent and links his mystagogical lectures for the Easter season.",
+      "Thank a catechist, RCIA leader or religious education teacher, or volunteer to help with sacramental preparation."
+    ],
+    "confirmationNote": "Cyril is a natural choice for a confirmand who wants to understand the sacrament, not just receive it. One of his lectures to the newly baptized is devoted to the holy anointing, and he told them plainly that they had been truly anointed by the Holy Spirit. He also lived through conflict and exile without giving up his teaching, a reminder that the Spirit's strength is meant for hard days too.",
+    "reflectionPrompts": [
+      "Which part of the Creed do I say most easily, and which part do I understand least?",
+      "Before my next Communion, follow Cyril's advice: approach with reverence, receive carefully, and say Amen as a real act of faith.",
+      "Read Cyril's Mystagogical Lecture 3, On Chrism (Catechetical Lecture 21 in the Nicene and Post-Nicene Fathers), alongside Benedict XVI's general audience of 27 June 2007."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Both took part in the Council of Constantinople in 381",
+        "historical": true
+      },
+      {
+        "slug": "athanasius",
+        "reason": "A fellow fourth-century bishop exiled more than once for the Nicene faith",
+        "historical": true
+      },
+      {
+        "slug": "jerome",
+        "reason": "A contemporary whose testimony helps date Cyril's death",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-alexandria",
+        "reason": "Another bishop and Doctor of the Church named Cyril, often confused with him",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 27 June 2007: Saint Cyril of Jerusalem",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070627.html"
+      },
+      {
+        "title": "Vatican News: Saints of March 18",
+        "url": "https://www.vaticannews.va/en/saints/03/18.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, March 18 (St. Cyril of Jerusalem)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-03-18"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Cyril of Jerusalem",
+        "url": "https://www.newadvent.org/cathen/04595b.htm"
+      },
+      {
+        "title": "CCEL: NPNF2-07, Cyril of Jerusalem, Gregory Nazianzen (public-domain text)",
+        "url": "https://ccel.org/ccel/schaff/npnf207"
+      },
+      {
+        "title": "Parish of San Lorenzo in Damaso (Diocese of Rome): San Damaso Papa (Council of Constantinople, 381, held in Gregory Nazianzen's presence)",
+        "url": "https://www.sanlorenzoindamaso.it/san-damaso-papa/"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. Catholic Culture gives no symbols for him, and no reputable Catholic source was found listing established attributes for Cyril specifically. A book or scroll and Eastern bishop's vestments are plausible but unsourced; the cross of light of 351 is a documented event (his letter to Constantius, per the Catholic Encyclopedia), not a sourced artistic attribute.",
+      "patronages: review lists none, and no reputable source found states a patronage (Catholic Culture lists none).",
+      "quotes: all three verified against the CCEL plain-text NPNF2-07 (Gifford's revision of the Oxford translation). NPNF numbers the lectures continuously, so Mystagogical Lectures 3 and 5 appear as Lectures 21 and 23. Footnote markers were dropped; quote 2 begins mid-sentence and quote 3 ends mid-sentence. CCEL gives the print basis as New York, 1893; the brief cites 1894.",
+      "prayer: the Roman Missal collect is a copyrighted ICEL translation, so an original prayer is given; it echoes quote 1.",
+      "places: none listed. His lectures were given in Jerusalem's Holy Sepulchre complex, but no official page tying that site to Cyril was verified.",
+      "relatedSaints: Gregory of Nazianzus link rests on the Catholic Encyclopedia (Cyril attended Constantinople 381) and the San Lorenzo in Damaso parish page (council held in Gregory's presence). The Catholic Encyclopedia cites Jerome for the eight years Cyril lived under Theodosius. Athanasius's repeated exiles are standard history but were not re-fetched here.",
+      "biography: minor date difference. Benedict XVI's 2007 audience says Cyril died in 387; the reviewed dates (about 315–386) match the Catholic Encyclopedia ('died probably 18 March, 386'), which also notes Socrates gives 385. Worth a human glance; no change needed."
+    ]
+  },
+  "damasus-i": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Damasus I was bishop of Rome from 366 to 384, remembered on December 11. His election was bitterly disputed, but his pontificate defended the Nicene faith, encouraged Jerome's revision of the Latin Bible, and restored the tombs of Rome's martyrs, which he marked with verse inscriptions that pilgrims still read today.",
+    "searchDescription": "St. Damasus I (about 305–384), pope from 366, feast December 11: defender of Nicene faith, Jerome's patron, and poet of Rome's martyrs.",
+    "whyWeTurn": "People turn to St. Damasus when they love Scripture and the memory of the saints who went before them. He asked Jerome, his secretary for a time, to revise the Latin Bible, a step toward the Vulgate. He also searched out the neglected graves of Rome's martyrs, repaired them, and composed poems to be carved at their tombs so ordinary visitors would remember them. His story is honest about the Church's human side: his election was marred by violence between rival factions. Readers, Bible students, archaeologists and anyone who keeps family or parish history can ask his prayers.",
+    "quotes": [
+      {
+        "text": "I, Damasus, wished to be buried here, but I feared to offend the sacred remains of these pious ones.",
+        "work": "Damasus's epigram in the Papal Crypt of the Catacomb of St. Callistus, closing lines (Hic fateor Damasus volui mea condere membra / sed cineres timui sanctos vexare piorum)",
+        "translation": "Thomas Shahan, \"Early Roman Christian Cemeteries,\" The Catholic Encyclopedia, vol. 3 (New York: Robert Appleton, 1908; public domain)"
+      },
+      {
+        "text": "Thou Who stillest the waves of the deep, Whose power giveth life to the seed slumbering in the earth, who didst awaken Lazarus from the dead and give back the brother on the third day to the sister Martha; Thou wilt, so I believe, awake Damasus from death.",
+        "work": "Damasus's autobiographical poem (his own epitaph), addressed to Christ",
+        "translation": "Carl Maria Kaufmann, \"Early Christian Inscriptions,\" The Catholic Encyclopedia, vol. 8 (New York: Robert Appleton, 1910; public domain)"
+      },
+      {
+        "text": "Precious in the sight of the Lord is the death of his saints.",
+        "work": "Psalm 115:15 (Psalm 116:15 in other numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Damasus a love for your word and for the martyrs who gave their lives for you. Through his prayers, give me a hunger to read the Scriptures and the patience to understand them. Help me to honor the faithful people who handed on the faith to me, and to remember them with gratitude. Where your Church is divided by rivalry or ambition, bring peace and humility. And as Damasus trusted that Christ, who raised Lazarus, would raise him too, keep my hope fixed on the resurrection. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on December 11, his optional memorial in the General Roman Calendar, during Advent.",
+      "Begin or renew a habit of daily Bible reading, as Catholic Culture suggests for his feast, remembering that he set Jerome to work revising the Latin Scriptures.",
+      "Learn about the Roman martyrs whose tombs he honored, such as St. Agnes and St. Lawrence, and pray at a cemetery or a martyr's shrine near you.",
+      "In Rome, pilgrims visit the Catacomb of St. Callistus, where his inscriptions honored the martyred popes and his epitaph for Pope Eusebius praised the Church's mercy to those who had lapsed.",
+      "Pray for anyone who has drifted from the faith, and for peace and unity among Church leaders."
+    ],
+    "places": [
+      {
+        "name": "Catacombs of St. Callixtus: Crypt of St. Eusebius, with Damasus's inscription",
+        "city": "Rome, Italy",
+        "url": "https://www.catacombesancallisto.it/en/regione-san-gaio-san-eusebio.php"
+      },
+      {
+        "name": "Basilica of San Lorenzo in Damaso (the church Damasus restored)",
+        "city": "Rome, Italy",
+        "url": "https://www.sanlorenzoindamaso.it/san-damaso-papa/"
+      }
+    ],
+    "confirmationNote": "Damasus suits a confirmand who loves history, reading or Scripture. He treated the memory of the martyrs as a treasure and put the Bible into clearer language for his people. His life is also a reminder that the Church is made of real, imperfect people, and that the Spirit given in Confirmation works through such people to hand on the faith.",
+    "reflectionPrompts": [
+      "Whose faith made mine possible, and how could I thank God for them or honor their memory this week?",
+      "Choose one book of the Bible and read a chapter of it every day until Christmas.",
+      "Read the Catholic Encyclopedia's article on Pope St. Damasus I and its entry on early Christian inscriptions, which translates part of his epitaph."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "jerome",
+        "reason": "His secretary, whom he encouraged to revise the Latin Bible",
+        "historical": true
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Damasus grew up in Lawrence's church, restored it, and wrote verses for the martyr",
+        "historical": true
+      },
+      {
+        "slug": "agnes",
+        "reason": "Damasus composed an epitaph for her tomb on the Via Nomentana",
+        "historical": true
+      },
+      {
+        "slug": "leo-the-great",
+        "reason": "A later pope who also defended orthodox teaching and the Roman see",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: Pope St. Damasus I",
+        "url": "https://www.newadvent.org/cathen/04613a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: Early Roman Christian Cemeteries (1908)",
+        "url": "https://www.newadvent.org/cathen/03510a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: Early Christian Inscriptions (1910)",
+        "url": "https://www.newadvent.org/cathen/08042a.htm"
+      },
+      {
+        "title": "Vatican News: St. Damasus I, Pope (December 11)",
+        "url": "https://www.vaticannews.va/en/saints/12/11/st--damasus-i--pope.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, December 11, 2025 (Pope St. Damasus I)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-11"
+      },
+      {
+        "title": "Catholic Culture: Celebrating the Feast of Pope St. Damasus I",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=967"
+      },
+      {
+        "title": "Catacombs of St. Callixtus: Area of Sts. Gaius and Eusebius",
+        "url": "https://www.catacombesancallisto.it/en/regione-san-gaio-san-eusebio.php"
+      },
+      {
+        "title": "Parish of San Lorenzo in Damaso (Diocese of Rome): San Damaso Papa",
+        "url": "https://www.sanlorenzoindamaso.it/san-damaso-papa/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 115",
+        "url": "https://www.drbo.org/chapter/21115.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. Catholic Culture shows an image but lists no symbols, and no reputable source was found naming established attributes for Damasus beyond generic papal dress.",
+      "patronages: review lists none. Catholic Culture lists 'Archeologists'; this is sourced but has no live topic.",
+      "quotes: quotes 1 and 2 are English renderings of Damasus's own Latin verses printed in the public-domain Catholic Encyclopedia (1908 and 1910), checked on New Advent. The Catholic Encyclopedia's authorship attribution of Damasine verses is cautious (it says over half of 100+ epigrams are probably his); these two are presented there as his. Jerome's Letters 19 and 35 are from Damasus, but NPNF2-06 gives only summaries, so nothing was quoted from them.",
+      "places: the Catacomb of St. Callixtus page names Damasus's inscription at Eusebius's tomb; its Crypt of the Popes page (where quote 1 belongs, per the Catholic Encyclopedia) does not mention Damasus, so it was not used. The San Lorenzo in Damaso link is the parish's own page on Damasus. Note that the parish page places the 'Hic fateor Damasus' epigraph at his own cemetery basilica, while the Catholic Encyclopedia places it in the Papal Crypt; the quote's 'work' follows the Catholic Encyclopedia.",
+      "feastCustoms: optional-memorial rank is from Catholic Culture's calendar entries.",
+      "relatedSaints: Lawrence link combines the reviewed biography (grew up in the church associated with Lawrence), the Catholic Encyclopedia (restored San Lorenzo in Damaso; Laurence among martyrs he eulogized). Agnes epitaph per Catholic Encyclopedia, Early Roman Christian Cemeteries.",
+      "biography: no conflict. Catholic Encyclopedia gives born about 304, died 11 December 384; the parish page says born around 305; reviewed 'about 305–384' is fine."
+    ]
+  },
+  "damien-of-molokai": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Damien de Veuster was a Belgian priest of the Congregation of the Sacred Hearts who volunteered in 1873 to serve people exiled to Kalaupapa on Molokai because they had Hansen's disease. He lived among them for sixteen years, caught the disease himself, and died there in 1889. U.S. Catholics remember him on May 10.",
+    "searchDescription": "St. Damien de Veuster (1840–1889), feast May 10 in the U.S.: Belgian priest who served people with Hansen's disease at Kalaupapa, Molokai.",
+    "symbols": [
+      {
+        "symbol": "Red scarf worn as an arm sling",
+        "meaning": "The Hawaii Catholic Herald calls it an attribute in representations of Damien and says it was a gift from St. Marianne Cope, who cared for him at the end of his life."
+      },
+      {
+        "symbol": "Broad-brimmed hat",
+        "meaning": "The kind of hat missionaries traditionally wore, shown in his statue in the U.S. Capitol, which was based on photographs from late in his life."
+      },
+      {
+        "symbol": "Walking cane",
+        "meaning": "Shown in the Capitol statue; it pictures the weakened priest who kept working among the residents as the disease advanced."
+      },
+      {
+        "symbol": "Marks of Hansen's disease on his face",
+        "meaning": "The Capitol statue shows the scars of the illness he contracted while serving the residents, a sign that he shared their condition fully."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Damien when they care for someone others avoid, or when they feel shut out themselves. He went to Kalaupapa as a volunteer, not under orders, and stayed. Working alongside the residents, he helped build homes, a water system and churches, started schools, bands and choirs, celebrated the sacraments and buried the dead. He also pressed government and Church for more help. When he caught the disease, he kept serving. Caregivers, people living with stigmatized illnesses, those who work with the isolated, and the people of Hawaii ask his prayers.",
+    "quotes": [
+      {
+        "text": "And Jesus stretching forth his hand, touched him, saying: I will, be thou made clean. And forthwith his leprosy was cleansed.",
+        "work": "Matthew 8:3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you reached out and touched the man with leprosy when no one else would. You led St. Damien to Kalaupapa, where he built, prayed, worked and finally suffered beside people the world had sent away. Through his prayers, give me courage to draw near to those who are isolated, sick or ashamed, and to treat them as brothers and sisters. Strengthen everyone who cares for the sick, and comfort all who live with illnesses that others fear. When my own weakness comes, let me keep serving with a willing heart. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In the United States, attend Mass on May 10, his optional memorial in the U.S. calendar and the anniversary of his departure for Kalaupapa in 1873. April 15 is the anniversary of his death.",
+      "Visit someone who is isolated, homebound or living with a long illness, or volunteer where people are often overlooked.",
+      "Pray for people living with Hansen's disease today and for those who treat them, and learn how the illness is understood and cured now.",
+      "Share a Hawaiian meal in his honor, as Catholic Culture suggests for his feast.",
+      "Learn about the history of Kalaupapa from the National Park Service, which also cares for St. Philomena Church and his first grave; access to the settlement is restricted, so follow current park guidance before planning a visit."
+    ],
+    "places": [
+      {
+        "name": "St. Philomena Church, Kalawao (Kalaupapa National Historical Park)",
+        "city": "Kalaupapa, Molokai, Hawaii, USA",
+        "url": "https://www.nps.gov/places/philomena.htm"
+      },
+      {
+        "name": "St. Damien's Grave, Kalawao (Kalaupapa National Historical Park)",
+        "city": "Kalaupapa, Molokai, Hawaii, USA",
+        "url": "https://www.nps.gov/places/stdamiengrave.htm"
+      },
+      {
+        "name": "Saint Anthony's Chapel (crypt of St. Damien)",
+        "city": "Leuven, Belgium",
+        "url": "https://www.visitleuven.be/en/saint-anthonys-chapel"
+      }
+    ],
+    "confirmationNote": "Damien suits a confirmand who wants faith to show up in courage and in practical work. He volunteered for a place others feared, learned the people's language, worked with his hands, and stayed when it cost him his health. Confirmation strengthens us to bear witness, and Damien shows that witness can mean simply staying close to people who have been left alone.",
+    "reflectionPrompts": [
+      "Who in my school, family or parish is treated as an outsider, and what would it look like to draw near to them?",
+      "This week, use a practical skill, such as cooking, fixing, building or tutoring, to serve someone who needs it.",
+      "Read the Holy See's biography of St. Damien de Veuster prepared for his 2009 canonization, then the National Park Service's page on Father Damien at Kalaupapa."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "marianne-cope",
+        "reason": "Continued his work at Kalaupapa and was with him when he died",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Damien prayed daily before his picture, asking to be sent on mission",
+        "historical": true
+      },
+      {
+        "slug": "john-of-vila",
+        "reason": "Shares the May 10 date (General Roman Calendar)",
+        "historical": true
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Another saint who gave his life to caring for the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Jozef Damien De Veuster (1840–1889), canonization biography",
+        "url": "https://press.vatican.va/news_services/liturgy/saints/2009/ns_lit_doc_20091011_de-veuster_en.html"
+      },
+      {
+        "title": "USCCB: Calendar of Saints and Blesseds from the United States",
+        "url": "https://www.usccb.org/committees/evangelization-catechesis/us-saints-and-blesseds"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 10, 2025 (St. Damien de Veuster)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-05-10"
+      },
+      {
+        "title": "Hawaii Catholic Herald: Fellowship in times of isolation (Damien and Marianne murals, 2020)",
+        "url": "https://hawaiicatholicherald.com/?p=22275"
+      },
+      {
+        "title": "Architect of the Capitol: Father Damien statue",
+        "url": "https://www.aoc.gov/explore-capitol-campus/art/father-damien-statue"
+      },
+      {
+        "title": "National Park Service, Kalaupapa: Father Damien",
+        "url": "https://www.nps.gov/kala/learn/historyculture/damien.htm"
+      },
+      {
+        "title": "National Park Service: St. Philomena Church",
+        "url": "https://www.nps.gov/places/philomena.htm"
+      },
+      {
+        "title": "National Park Service: St. Damien's Grave",
+        "url": "https://www.nps.gov/places/stdamiengrave.htm"
+      },
+      {
+        "title": "Visit Leuven: Saint Anthony's Chapel",
+        "url": "https://www.visitleuven.be/en/saint-anthonys-chapel"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 8 and John 15",
+        "url": "https://www.drbo.org/chapter/47008.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists lepers / against leprosy, and also outcasts, people with HIV/AIDS and the State of Hawaii; these are sourced but have no live topic.",
+      "symbols: needs a human check. No iconographic handbook was found. The red scarf/sling is called 'an attribute in representations of St. Damien' by the diocesan Hawaii Catholic Herald (2020); the hat, cane, sling and facial scars are described by the Architect of the Capitol for Marisol Escobar's 1969 statue (a U.S. government source, not a Catholic one). If the hat and cane are judged to rest on a single statue rather than established iconography, drop to 1.5.",
+      "quotes: Scripture only. Damien's own letters were not quoted: no public-domain English text was verified (the NPS quotes one line from a letter to his brother Pamphile, but not from a public-domain edition).",
+      "prayer: original; no traditional prayer page from an official Damien site was verified.",
+      "places: the Cathedral Basilica of Our Lady of Peace in Honolulu (relic and Damien/Marianne murals) was not listed because its official site is currently under construction with no Damien page. Kalaupapa visits are restricted; the customs item points to park guidance without stating rules that could go stale.",
+      "feastCustoms: optional-memorial rank from Catholic Culture (collect for the optional memorial); May 10 date from USCCB. The Holy See gives 10 May 1873 as the day he left for Kalaupapa; the reviewed biography calls May 10 the anniversary of his arrival. Both are commonly said; wording here follows the Holy See.",
+      "biography: small date wrinkle, not a contradiction of the review. The Holy See says his leprosy was announced in 1884; Catholic Culture says he contracted it in 1885. The review gives no year.",
+      "symbols: mostly from one statue description (Architect of the Capitol) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)"
+    ]
+  },
+  "daniel-comboni": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Daniel Comboni was an Italian missionary bishop of central Africa whose plan, summed up as \"Save Africa through Africa,\" placed African Christians at the heart of the Church's mission. He founded missionary institutes for men and women, fought the slave trade, and died in Khartoum in 1881. His feast is October 10.",
+    "searchDescription": "St. Daniel Comboni (1831–1881), feast October 10: missionary bishop of central Africa, founder of the Comboni institutes, foe of the slave trade.",
+    "whyWeTurn": "People turn to St. Daniel Comboni when a calling seems bigger than their strength. He saw companions die on his first journey to Sudan and was forced home by illness, yet kept going. Praying at St. Peter's tomb, he conceived a plan that trusted Africans to lead the evangelization of their own peoples, and he spent his life raising support, training missionaries and catechists, and opposing slavery. Pope Francis noted that his zeal came from the joy of the Gospel and that he always worked in communion with the Church. Missionaries, aid workers and people serving far from home ask his prayers.",
+    "quotes": [
+      {
+        "text": "Going therefore, teach ye all nations; baptizing them in the name of the Father, and of the Son, and of the Holy Ghost.",
+        "work": "Matthew 28:19",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you sent St. Daniel Comboni to the peoples of central Africa and gave him a love that did not give up through sickness, loss and opposition. Through his prayers, free all who are still enslaved or trafficked, and strengthen those who work for their freedom. Bless the Church in Africa, its catechists, priests, religious and families, and let them carry the Gospel with their own gifts. Give me a heart wide enough to care for people far from me, and the courage to keep going when my work seems to fail. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayer to St. Daniel Comboni from the Comboni Missionary Sisters (Italian)",
+        "url": "https://www.comboniane.org/san-daniele-comboni-il-visionario-dellafrica/"
+      }
+    },
+    "feastCustoms": [
+      "Keep his feast on October 10, the anniversary of his death in Khartoum; it is celebrated by the Comboni Missionaries and Comboni Missionary Sisters and in communities where they serve.",
+      "Pray for the Church in Africa, especially Sudan and South Sudan, where he worked; the Comboni Sisters close their prayer with the invocation \"St. Daniel Comboni, pray for us and for Africa!\"",
+      "Pray and act against slavery and human trafficking today, the evil Comboni worked to abolish.",
+      "Thank or support a catechist or missionary; Pope Francis singled out Comboni's promotion of lay catechists and local clergy.",
+      "Prepare for World Mission Sunday, celebrated later in October, by learning about one mission community and giving to it."
+    ],
+    "places": [
+      {
+        "name": "Birthplace of St. Daniel Comboni, Comboni Missionary Centre at Tesöl",
+        "city": "Limone sul Garda, Italy",
+        "url": "https://combonianilimone.it/?page_id=62"
+      }
+    ],
+    "confirmationNote": "Comboni suits a confirmand who feels drawn to the wider world, to justice, or to service far from home. He took his calling seriously enough to keep going after failure, illness and grief, and he trusted the people he served to become leaders themselves. Confirmation sends us out as witnesses, and Comboni shows what it looks like to give a whole life to that mission.",
+    "reflectionPrompts": [
+      "When something I tried for God has failed, have I given up, or have I looked for a better way, as Comboni did after his first journey?",
+      "Find out where people are trafficked or forced into labor in your region and choose one way to help, such as prayer, donation or advocacy.",
+      "Read Pope Francis's general audience of 20 September 2023 on St. Daniel Comboni, then the Holy See's canonization biography."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "Beatified him in 1996 and canonized him in 2003",
+        "historical": true
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "A saint of Sudan who was herself enslaved as a child",
+        "historical": false
+      },
+      {
+        "slug": "peter-claver",
+        "reason": "Another missionary who gave his life to enslaved Africans",
+        "historical": false
+      },
+      {
+        "slug": "charles-lwanga",
+        "reason": "A nineteenth-century African saint, martyred in Uganda five years after Comboni's death",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Daniel Comboni (1831–1881), canonization biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20031005_comboni_en.html"
+      },
+      {
+        "title": "Pope Francis, General Audience, 20 September 2023: Saint Daniel Comboni, apostle for Africa and prophet of mission",
+        "url": "https://www.vatican.va/content/francesco/en/audiences/2023/documents/20230920-udienza-generale.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 10 (St. Daniel Comboni)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-10"
+      },
+      {
+        "title": "Comboni Missionaries: 190th anniversary of the birth of St. Daniel Comboni",
+        "url": "https://www.comboni.org/en/contenuti/112863"
+      },
+      {
+        "title": "Comboni Missionary Sisters: 10 ottobre, Festa di San Daniele Comboni",
+        "url": "https://www.comboniane.org/san-daniele-comboni-il-visionario-dellafrica/"
+      },
+      {
+        "title": "Comboni Missionaries, Limone sul Garda: La Casa (birthplace)",
+        "url": "https://combonianilimone.it/?page_id=62"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 28 and Matthew 25",
+        "url": "https://www.drbo.org/chapter/47028.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. Catholic Culture lists only 'Episcopal attire'; no reputable source was found for further established attributes (a mosaic at El Obeid showing him with St. Josephine Bakhita was mentioned in a search snippet but not verified on an official page).",
+      "patronages: review lists none. Catholic Culture lists missionaries, aid workers, and the Comboni Missionary Sisters and Comboni Missionaries of the Heart of Jesus; none has a live topic.",
+      "quotes: Scripture only. His Writings exist in Italian; the English lines quoted by Pope Francis (2023) and the last words in the Holy See biography ('I am dying, but my work will not die') are modern, copyrighted translations, so they were not used. The motto appears in English sources both as 'Save Africa through Africa' and 'Save Africa with Africa' (Italian 'Salvare l'Africa con l'Africa'); the hero follows the reviewed wording.",
+      "feastCustoms: no source checked confirms his rank in the General Roman Calendar or national calendars, so the item names only the Comboni family's celebration. World Mission Sunday is described only as 'later in October' to avoid a date that changes.",
+      "places: his tomb in Khartoum was destroyed during the Mahdist revolt; per the Comboni Missionaries, a few bone fragments were later placed in an urn in the church at Aswan, Egypt, but no official page for that church was found. Verona mother house not listed for lack of a verified page.",
+      "relatedSaints: Charles Lwanga and Peter Claver are thematic only; Charles Lwanga's mission context (Uganda, White Fathers) is not Comboni's. A human may prefer a different fourth match.",
+      "biography: no conflict. The Holy See biography records the second miracle's recognition as 20 December 2003, after the canonization date; the Limone tourism page gives 20 December 2002, which fits the sequence. Not used in the text."
+    ]
+  },
+  "david-i-of-scotland": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. David I was king of Scots from 1124 until his death in 1153. A son of St. Margaret of Scotland, he founded or endowed abbeys such as Holyrood and Melrose and reorganized the Scottish Church. He was honored as a saint by popular and local veneration rather than formal canonization, and May 24 is his traditional commemoration.",
+    "searchDescription": "St. David I of Scotland, king of Scots 1124–1153 and son of St. Margaret, founder of abbeys and reformer of the Scottish Church. Remembered May 24.",
+    "whyWeTurn": "People turn to David I because he shows a Christian trying to be holy while carrying real power. He went to war and made hard political choices, yet his friend Aelred of Rievaulx remembered a king who would step back from his horse to hear a poor man's complaint, sat at the door of his hall to listen to poor men and old women, and, a chronicler adds, often washed the feet of the poor. He built churches and monasteries and, dying, asked his friends to pray for him. Catholics ask his prayers for leaders, for Scotland and for anyone who must serve others with authority.",
+    "quotes": [
+      {
+        "text": "For the sooner my death is known, the sooner will the divine mercy show me some consolation from the prayers of my friends.",
+        "work": "Words of King David on his deathbed, as reported by St. Aelred of Rievaulx in his lament for David (1153)",
+        "translation": "A. O. Anderson, Scottish Annals from English Chroniclers (1908), p. 235 (public domain)"
+      },
+      {
+        "text": "Moreover he was accustomed to sit at the entrance of the royal hall, and diligently to hear the cases of poor men and old women, who on certain days were called to him singly.",
+        "work": "St. Aelred of Rievaulx, lament for King David (1153), describing the king",
+        "translation": "A. O. Anderson, Scottish Annals from English Chroniclers (1908), p. 233 (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called King David of Scotland to govern a people and to build up your Church. Through his prayers, teach all who hold authority to listen patiently to the poor, to judge fairly and to use their power for the good of others. Give me a heart that makes time for those who have no one else to hear them. When I fail, as every leader fails, give me honest repentance and trust in your mercy. Bless Scotland and its people, and keep me faithful to the end. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on May 24, the anniversary of his death at Carlisle in 1153. This is a traditional commemoration rather than a universal feast on the Roman calendar, so mark it with personal or family prayer.",
+      "Pray with him and his mother, St. Margaret of Scotland, whose faith shaped his own; her feast is November 16.",
+      "Follow the example Aelred described: set aside unhurried time to listen to someone who needs help, or support a charity that feeds and clothes the poor.",
+      "Pray for political leaders and anyone who manages others, that they may serve justly and humbly.",
+      "In Scotland, visit Dunfermline Abbey, where he was buried near his mother, or one of the abbeys he founded, such as Melrose, now ruins in public care, and pray for monastic communities today."
+    ],
+    "places": [
+      {
+        "name": "Dunfermline Abbey and Palace (his burial place)",
+        "city": "Dunfermline, Scotland",
+        "url": "https://www.historicenvironment.scot/visit/all/dunfermline-abbey-and-palace/"
+      },
+      {
+        "name": "Melrose Abbey (founded by David I in 1136)",
+        "city": "Melrose, Scotland",
+        "url": "https://www.historicenvironment.scot/visit/all/melrose-abbey/"
+      }
+    ],
+    "confirmationNote": "David I may suit a confirmand who expects to carry responsibility for others, in a family, a team, a business or public life, and especially one with Scottish roots. He was not a perfect ruler; he fought wars and made political choices. Yet those who knew him remembered a king who stopped to hear the poor and built up the Church. Choosing his name can mean promising to use authority as service.",
+    "reflectionPrompts": [
+      "When someone interrupts my plans to ask for help, do I treat it as a nuisance or as a call from God?",
+      "This week, give one person your full, unhurried attention about a problem that matters to them.",
+      "Read St. Aelred of Rievaulx's lament for King David in A. O. Anderson's Scottish Annals from English Chroniclers (1908), pages 232–236, and note what Aelred praises and what he admits."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "margaret-of-scotland",
+        "reason": "His mother, whose church reforms he continued and beside whom he was buried at Dunfermline",
+        "historical": true
+      },
+      {
+        "slug": "aelred-of-rievaulx",
+        "reason": "Grew up at David's court and wrote the lament that shaped his memory",
+        "historical": true
+      },
+      {
+        "slug": "malachy",
+        "reason": "Stayed with King David on a journey through Scotland, and by tradition prayed for his son Henry's recovery",
+        "historical": true
+      },
+      {
+        "slug": "louis-ix",
+        "reason": "Another king remembered for personal care of the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "New Catholic Encyclopedia: David I, King of Scotland (via Encyclopedia.com)",
+        "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/david-i-king-scotland"
+      },
+      {
+        "title": "Catholic Encyclopedia (1912): Scotland",
+        "url": "https://www.newadvent.org/cathen/13613a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1910): Holyrood Abbey",
+        "url": "https://www.newadvent.org/cathen/07423a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1911): Abbey of Melrose",
+        "url": "https://www.newadvent.org/cathen/10170a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Aelred",
+        "url": "https://www.newadvent.org/cathen/01172b.htm"
+      },
+      {
+        "title": "A. O. Anderson, Scottish Annals from English Chroniclers (1908), Internet Archive",
+        "url": "https://archive.org/details/scottishannalsfr00andeuoft"
+      },
+      {
+        "title": "Dom Michael Barrett, O.S.B., A Calendar of Scottish Saints (2nd ed., 1919), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/31121"
+      },
+      {
+        "title": "Historic Environment Scotland: Dunfermline Abbey and Palace",
+        "url": "https://www.historicenvironment.scot/visit/all/dunfermline-abbey-and-palace/"
+      },
+      {
+        "title": "Historic Environment Scotland: Melrose Abbey",
+        "url": "https://www.historicenvironment.scot/visit/all/melrose-abbey/"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable Catholic or iconographic source was found that lists established attributes for David I. Wikipedia's saint-symbol list gives 'king with sword or sceptre', and a 1906 St Giles' window shows him holding a church model, but neither meets the source standard.",
+      "status: no record of a formal canonization was found. The New Catholic Encyclopedia says he was 'popularly venerated as a saint after his death' (feast May 24); the 1912 Catholic Encyclopedia says only that he left 'the reputation of a saint'. He is not on the General Roman Calendar, and Barrett's Catholic Calendar of Scottish Saints (1919, with imprimatur) has no entry for him. Several devotional sites say 'never formally canonized', but none is reputable enough to quote, so the hero says 'popular and local veneration rather than formal canonization', matching the review.",
+      "patronages: none found from a reputable source; the review lists none.",
+      "quotes: David left no writings in a public-domain translation. Quote 1 is words attributed to David by Aelred, a near-contemporary (Aelred met him in 1153); quote 2 is Aelred's own description. Both were checked against the 1908 Anderson text. The 'washing the feet of the poor' line in whyWeTurn comes from John of Hexham, also in Anderson (p. 231).",
+      "relatedSaints: Malachy's visit and Prince Henry's recovery are from Barrett (1919), who cites St. Bernard's Life of Malachy; the recovery is framed as tradition.",
+      "places: both are Historic Environment Scotland pages (state heritage body), not Catholic sites; the Dunfermline page confirms that David I made Dunfermline an abbey and that Margaret is buried there. His own burial at Dunfermline rests on John of Hexham (Anderson, p. 231). No live Holyrood Abbey page could be checked (rct.uk refused automated access).",
+      "biography: no disagreement. The 1912 Catholic Encyclopedia lists Dunfermline, Holyrood, Jedburgh, Kelso, Kinloss, Melrose and Dundrennan among his abbeys, and five new bishoprics plus Glasgow restored; Aelred says he found three or four bishops and left nine. The review's 'reorganized dioceses' is consistent."
+    ]
+  },
+  "david-of-wales": {
+    "templateVersion": 2,
+    "heroSummary": "St. David, called Dewi in Welsh, is the patron saint of Wales and is remembered on March 1. A sixth-century bishop and monastic founder, he is linked with the community at Menevia that became St Davids. Most stories about him come from a Life written about five centuries later, so history and legend need to be kept apart.",
+    "searchDescription": "St. David (Dewi) of Wales, feast March 1: sixth-century bishop, monastic founder and patron of Wales, with history kept apart from the legends told of him.",
+    "patronages": [
+      "wales"
+    ],
+    "symbols": [
+      {
+        "symbol": "Dove on his shoulder",
+        "meaning": "Rhygyfarch's Life says a white dove came down and rested on his shoulder while he preached at the synod of Brefi; this comes from tradition, and the Catholic Encyclopedia notes he is usually painted with it."
+      },
+      {
+        "symbol": "Standing on a small hill",
+        "meaning": "Recalls the same Brefi story, in which tradition says the ground rose beneath him so that the whole crowd could see and hear him."
+      },
+      {
+        "symbol": "Bishop's mitre and crozier",
+        "meaning": "His office as a bishop. Artists show him either in a bishop's vestments or in a plain monk's habit, reflecting both sides of his life."
+      },
+      {
+        "symbol": "Leek",
+        "meaning": "The Welsh have long worn a leek on his feast. A traditional story links it to a battle against the Saxons in which David told the Welsh to wear leeks so they could recognize one another."
+      }
+    ],
+    "whyWeTurn": "People turn to St. David as a father in faith for Wales and for anyone who wants a simple, disciplined way of following Christ. Tradition holds that his monks prayed, worked the land by hand and lived on plain food and water, and that he taught by example as much as by words. His best-loved counsel, kept in the medieval Welsh Life, is to be joyful, keep the faith and do the small things he had shown them. Catholics ask his prayers for Wales, for those who teach and lead in the Church, and for the patience to grow holy through faithfulness in ordinary things.",
+    "quotes": [
+      {
+        "text": "Lords, brethren, and sisters, be joyful, and keep your faith and belief, and perform the small things which you have heard and seen with me, and I will go the road which our fathers have travelled.",
+        "work": "Words attributed to David in his last sermon, Welsh Life of St. David (Buchedd Dewi, fourteenth century)",
+        "translation": "W. J. Rees, Lives of the Cambro British Saints (1853), p. 416 (public domain)"
+      },
+      {
+        "text": "Brothers, be ye constant. The yoke, which with single mind ye have taken, bear ye to the end; and whatsoever ye have seen with me and heard, keep and fulfil.",
+        "work": "Words attributed to David, Rhygyfarch's Life of St. David, §60 (late eleventh century)",
+        "translation": "A. W. Wade-Evans, Life of St. David (1923; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. David to the people of Wales as a bishop, teacher and father. Through his prayers, make me joyful in your service and steady in the faith I have received. Teach me to love the small, hidden duties of each day, to work honestly, pray faithfully and live simply, so that my ordinary life may lead others to you. Bless Wales and all who call it home, and give your Church shepherds who teach by example. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate March 1. In the Catholic calendar for England and Wales it is a solemnity in Wales and a feast in England.",
+      "Wear a leek, the traditional Welsh sign of his feast, and say a prayer for Wales and its people.",
+      "Do one small, unnoticed act of kindness or duty in honor of his last counsel; Pope Benedict XVI recalled those words in his 2010 message to the faithful of Wales.",
+      "Make a pilgrimage to his shrine in St Davids Cathedral, Pembrokeshire, now a Church in Wales cathedral. In the Middle Ages, a papal privilege counted two pilgrimages there as equal to one to Rome."
+    ],
+    "places": [
+      {
+        "name": "St Davids Cathedral: the Shrine of St David",
+        "city": "St Davids, Wales",
+        "url": "https://www.stdavidscathedral.org.uk/st-davids-shrine"
+      },
+      {
+        "name": "Metropolitan Cathedral of St David (Catholic)",
+        "city": "Cardiff, Wales",
+        "url": "https://www.cardiffcathedral.org.uk/history/"
+      }
+    ],
+    "confirmationNote": "David suits a confirmand who values discipline, honest work and quiet faithfulness more than attention, and especially one with Welsh roots. Tradition remembers a bishop whose monks prayed and labored together and who left his people a simple rule: be joyful, keep the faith and do the small things well. Choosing his name can be a promise to live the Christian life faithfully in ordinary days.",
+    "reflectionPrompts": [
+      "What small thing have I been neglecting because it seemed too ordinary to matter to God?",
+      "Choose one hidden task this week, such as washing up, visiting someone or finishing a chore, and offer it as a prayer.",
+      "Read sections 59–63 of Rhygyfarch's Life of St. David in A. W. Wade-Evans's 1923 translation, then compare his farewell with the 'little things' version in the Welsh Life."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gildas",
+        "reason": "Sixth-century British saint; an early Irish catalogue says the Irish learned a way of celebrating Mass from David and Gildas",
+        "historical": true
+      },
+      {
+        "slug": "columba-of-iona",
+        "reason": "Sixth-century monastic founder from the same Celtic Christian world",
+        "historical": true
+      },
+      {
+        "slug": "patrick",
+        "reason": "Rhygyfarch's Life links him to David, and his icon stands beside David's on the restored St Davids shrine",
+        "historical": false
+      },
+      {
+        "slug": "benedict",
+        "reason": "Another monastic father whose monks combined prayer and manual work",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1908): St. David",
+        "url": "https://www.newadvent.org/cathen/04640b.htm"
+      },
+      {
+        "title": "A. W. Wade-Evans, Life of St. David (SPCK, 1923), Internet Archive",
+        "url": "https://archive.org/details/MN5136ucmf_5"
+      },
+      {
+        "title": "W. J. Rees, Lives of the Cambro British Saints (1853), Internet Archive",
+        "url": "https://archive.org/details/cu31924029417924"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: National Calendar for Wales",
+        "url": "https://www.liturgyoffice.org/Calendar/National/Wales1.shtml"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Sanctoral calendar, March",
+        "url": "https://www.liturgyoffice.org/Calendar/Sanctoral/March.shtml"
+      },
+      {
+        "title": "Vatican Radio archive: Pope Benedict XVI, Address to the Faithful of Wales (18 September 2010)",
+        "url": "https://www.archivioradiovaticana.va/storico/2010/09/18/pope_benedict_xvi_in_uk_address_to_the_faithful_of_wales/in2-423685"
+      },
+      {
+        "title": "EWTN News (CNA): Wales and England celebrate patron St. David on March 1",
+        "url": "https://www.ewtnnews.com/world/us/wales-and-england-celebrate-patron-st-david-on-march-1"
+      },
+      {
+        "title": "EWTN Library: St. David, Archbishop, Patron of Wales",
+        "url": "https://www.ewtn.com/catholicism/library/st-david-archbishop-patron-of-wales-5424"
+      },
+      {
+        "title": "St Davids Cathedral: St David's Shrine",
+        "url": "https://www.stdavidscathedral.org.uk/st-davids-shrine"
+      },
+      {
+        "title": "St Davids Cathedral: Pilgrimage",
+        "url": "https://www.stdavidscathedral.org.uk/education/pilgrimage"
+      },
+      {
+        "title": "Seintiau (University of Wales Centre for Advanced Welsh and Celtic Studies): Depicting St David",
+        "url": "https://saints.wales/?p=2461"
+      },
+      {
+        "title": "Cardiff Metropolitan Cathedral of St David: History",
+        "url": "https://www.cardiffcathedral.org.uk/history/"
+      }
+    ],
+    "flags": [
+      "quotes: 'Do the little things' (Gwnewch y pethau bychain) is NOT in Rhygyfarch's Latin Life. In Wade-Evans's 1923 translation, Rhygyfarch's farewell (§62) reads 'persevere in these things which ye have learnt from me'. The 'little/small things' wording belongs to the Welsh Life (Buchedd Dewi), first found in a manuscript of 1346 (Wade-Evans, Introduction). The quote used here is verified from Rees's 1853 public-domain translation of that Welsh Life ('perform the small things'), checked against the Welsh text on the facing page ('gwnewch y pethau bychein'). Both quotes are words attributed to David by hagiographers; David left no writings of his own.",
+      "symbols: dove, hill and leek come from the Catholic Encyclopedia (1908); the Brefi story is checked in Rhygyfarch §52 (Wade-Evans). Mitre and crozier rest on Seintiau's note that he is shown in episcopal regalia or a monastic habit. Daffodils, though popular, were left out for lack of a reputable source.",
+      "feastCustoms: St Davids Cathedral is a Church in Wales (Anglican) cathedral; the reliquary there is 'reputed' to hold his relics, and the Catholic Encyclopedia says his body was taken to Glastonbury in the tenth century, so the custom names the shrine rather than claiming his relics are there.",
+      "feastCustoms: St Davids Cathedral dates the pilgrimage privilege of Callixtus II to 1123; EWTN News and the Catholic Encyclopedia say Callixtus II canonized David in 1120. Neither the 1120 canonization nor its date was used; a human may want to check it before adding it.",
+      "prayer: original; no verified traditional prayer page from a Catholic shrine was found. The Collect for his solemnity is copyrighted (ICEL) and was not reproduced.",
+      "biography: no disagreement. The Catholic Encyclopedia gives his death as 601 (Annales Cambriae) while EWTN's library gives about 544; the review rightly leaves the date uncertain."
+    ]
+  },
+  "denis": {
+    "templateVersion": 2,
+    "heroSummary": "St. Denis is the patron of Paris, honored as its first bishop and as a martyr with his companions Rusticus and Eleutherius. He belongs to third-century Roman Gaul, and devotion at his tomb is recorded by about 520. Catholics remember him on October 9; the familiar image of him carrying his head comes from medieval legend.",
+    "searchDescription": "St. Denis of Paris, feast October 9: first bishop of Paris, martyred with Rusticus and Eleutherius, and the saint shown carrying his own head.",
+    "patronages": [
+      "paris"
+    ],
+    "symbols": [
+      {
+        "symbol": "Carrying his own severed head",
+        "meaning": "A medieval legend says that after he was beheaded his body rose and carried his head to the place of his burial. The Archdiocese of Paris reads the image as a sign that Christ, the head, cannot be separated from his body, the Church."
+      },
+      {
+        "symbol": "Bishop's mitre and vestments",
+        "meaning": "His office as the first bishop of Paris; the severed head he holds is often shown still wearing the mitre."
+      },
+      {
+        "symbol": "Sword",
+        "meaning": "The instrument of his martyrdom; he and his companions were beheaded."
+      },
+      {
+        "symbol": "Christ bringing him the Eucharist",
+        "meaning": "Tradition, as told in the Golden Legend, says Christ came to him in prison before his death; art shows Our Lord with a chalice and host."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Denis because he gave his life for the Gospel in a city that did not yet know Christ. Sent as a missionary bishop to Roman Gaul, he gathered the first Christians of Paris and, with the priest Rusticus and the deacon Eleutherius, died for the faith. Tradition holds that even beheading could not separate him from his mission, an image Catholics read as a sign of the Church's unbreakable bond with Christ. Medieval Christians counted him among the Fourteen Holy Helpers, and people still ask his prayers for Paris and France, for courage under pressure, and for relief from pain and inner turmoil.",
+    "quotes": [
+      {
+        "text": "And fear ye not them that kill the body, and are not able to kill the soul: but rather fear him that can destroy both soul and body in hell.",
+        "work": "Matthew 10:28",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Precious in the sight of the Lord is the death of his saints.",
+        "work": "Psalm 115:15",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sent St. Denis to bring the Gospel to Paris and gave him, with Rusticus and Eleutherius, the courage to die for your name. Through their prayers, make me unafraid to speak of you where faith is weak or forgotten. When I am under pressure to hide what I believe, hold me close to Christ, the head of your Church, so that nothing can separate me from him. Bless the city of Paris and all of France, and give peace to troubled minds. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep October 9, an optional memorial of St. Denis and companions in the General Roman Calendar; in the Archdiocese of Paris it has been a solemnity since 2023.",
+      "In Paris, follow the old pilgrim route the Archdiocese describes, from the Left Bank across the Île de la Cité to the Martyrium crypt on Montmartre and on to the Basilica of Saint-Denis; the archdiocese notes that the events linked to each stop come from tradition.",
+      "Learn about the Fourteen Holy Helpers, the group of saints, including Denis, whom medieval Christians invoked in times of plague and sickness.",
+      "Pray for someone suffering from headaches, anxiety or conflict; Catholic Culture lists Denis as a patron invoked against headaches and strife.",
+      "Bake a French pastry or brioche named for Saint-Denis and share it, a home custom Catholic Culture suggests for the day."
+    ],
+    "places": [
+      {
+        "name": "Basilica Cathedral of Saint-Denis",
+        "city": "Saint-Denis, France",
+        "url": "https://www.saint-denis-basilique.fr/en/discover/history-of-the-monument"
+      }
+    ],
+    "confirmationNote": "Denis suits a confirmand who wants courage to stand for Christ in a world that often ignores or mocks faith, and especially one with ties to Paris or France. He arrived as a missionary in a pagan city, built up a small Christian community and gave his life with his companions. Choosing his name can be a promise to share the faith openly and to stay loyal to Christ under pressure.",
+    "reflectionPrompts": [
+      "Where am I most tempted to keep my faith hidden, and what is the fear behind that?",
+      "Name one person you could invite to Mass, a parish event or a conversation about faith this month, and ask them.",
+      "Read Matthew 10:16–33 in the Douay-Rheims, then read the Catholic Encyclopedia article on St. Denis and note where it separates history from legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "genevieve",
+        "reason": "Promoted the building of a church at his tomb and shares the patronage of Paris",
+        "historical": true
+      },
+      {
+        "slug": "saturninus",
+        "reason": "Named with Denis by Gregory of Tours among the seven bishops sent to Gaul",
+        "historical": true
+      },
+      {
+        "slug": "john-henry-newman",
+        "reason": "Shares the October 9 feast",
+        "historical": true
+      },
+      {
+        "slug": "alban",
+        "reason": "Another early martyr beheaded under Roman rule, whose burial place became a great abbey",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, October 9 (St. Denis and Companions)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-09"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Denis",
+        "url": "https://www.newadvent.org/cathen/04721a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1911): Paris",
+        "url": "https://www.newadvent.org/cathen/11480c.htm"
+      },
+      {
+        "title": "Archdiocese of Paris: Saint Denys",
+        "url": "https://dioceseparis.fr/saint-denys.html"
+      },
+      {
+        "title": "Basilique cathédrale Saint-Denis (Centre des monuments nationaux): History of the monument",
+        "url": "https://www.saint-denis-basilique.fr/en/discover/history-of-the-monument"
+      },
+      {
+        "title": "Christian Iconography (Richard Stracke): Saint Denis",
+        "url": "https://www.christianiconography.info/denis.html"
+      },
+      {
+        "title": "Cult of Saints in Late Antiquity (University of Oxford), E01530: Gregory of Tours, Histories 1.30, on the seven bishops sent to Gaul",
+        "url": "https://portal.sds.ox.ac.uk/articles/online_resource/E01530_Gregory_of_Tours_in_his_Histories_1_30_describes_how_seven_bishops_were_sent_to_seven_cities_in_Gaul_in_the_reign_of_Decius_249-251_and_became_martyrs_or_confessors_Saturninus_of_Toulouse_S00289_Dionysius_Denis_of_Paris_S00349_Trophi/13808159/1"
+      },
+      {
+        "title": "DRBO.org: Matthew 10 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      },
+      {
+        "title": "DRBO.org: Psalm 115 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21115.htm"
+      }
+    ],
+    "flags": [
+      "patronages: France is sourced (Catholic Culture) but has no live topic. Catholic Culture also lists headaches, strife, frenzy, rabies and possessed people; none has a live topic.",
+      "patronages: the review lists 'Seine-Saint-Denis'; no source checked names him patron of that department (the basilica became the cathedral of the new Diocese of Saint-Denis in 1966), and it has no live topic. Also note: the Archdiocese of Paris calls Denis patron of the diocese and St. Genevieve patroness of the city; 'paris' still fits, as Catholic Culture lists 'Paris, France'.",
+      "symbols: head-carrying, mitre, sword and Christ with chalice and host are from Catholic Culture's iconography list; the head's meaning is the Archdiocese of Paris's; the prison Communion story is from the Golden Legend via Christian Iconography. Catholic Culture also lists a vine over the neck, a white chasuble, a tree or stake and a book, omitted because no source explains them.",
+      "quotes: Denis left no writings. The writings once attributed to him belong to Pseudo-Dionysius, a different, later author, so nothing from them was used. Scripture only.",
+      "feastCustoms: the Paris solemnity rests on the Archdiocese of Paris (decree of 22 May 2023). The Montmartre site of the martyrdom is tradition; Catholic Culture also names Catulliacum (today Saint-Denis). The pastry custom is a Catholic Culture home suggestion, not an established French tradition.",
+      "places: only one. No working official site was found for the Martyrium crypt on Montmartre (cryptemartyrium-paris.cef.fr did not load).",
+      "relatedSaints: John Henry Newman's shared feast is an optional memorial in most places (a feast in England and Wales); in Paris, St. John Leonardi's memorial moves to October 10.",
+      "biography: sources give conflicting dates the review rightly avoids. Catholic Culture says he was born in Italy, sent about 250 and beheaded about 258; the Catholic Encyclopedia gives about 275; the basilica's site says he died about 250. No change suggested."
+    ]
+  },
   "edith-stein": {
     "templateVersion": 2,
     "heroSummary": "St. Teresa Benedicta of the Cross, born Edith Stein, is a patron of Europe, one of three women John Paul II named co-patronesses of the continent in 1999. A Jewish-born philosopher who became a Catholic and a Discalced Carmelite nun, she was murdered at Auschwitz in 1942. Catholics remember her on August 9.",
