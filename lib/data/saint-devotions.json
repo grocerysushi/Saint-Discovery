@@ -6527,6 +6527,1182 @@
       "biography: no disagreement. Catholic Culture gives 480–547 and says he died at Monte Cassino; the reviewed biography's 'about 480–547' and the 1964 patronage match."
     ]
   },
+  "benedict-the-moor": {
+    "templateVersion": 2,
+    "heroSummary": "St. Benedict the African is honored as a patron of African Americans. Born in Sicily to enslaved African parents, he lived as a hermit and then became a Franciscan lay brother in Palermo, serving as cook, guardian and novice master. He was canonized in 1807 and is remembered on April 4.",
+    "searchDescription": "St. Benedict the African (1526–1589), feast April 4: Sicilian Franciscan born to enslaved parents, cook and guardian in Palermo, patron of African Americans.",
+    "patronages": [
+      "african-americans"
+    ],
+    "symbols": [
+      {
+        "symbol": "Franciscan habit",
+        "meaning": "He spent his religious life as a Friar Minor at the friary of Santa Maria di Gesù in Palermo; statues described during his canonization process show him in the Franciscan habit."
+      },
+      {
+        "symbol": "The Child Jesus in his arms",
+        "meaning": "A common image, especially in Brazil, where devotion to him spread among enslaved Africans and their descendants. It expresses his closeness to Christ, whom he served in humble work."
+      },
+      {
+        "symbol": "Bloodstained dishcloth",
+        "meaning": "From a tradition recorded in his canonization process: as cook he urged the friars not to waste even a crumb, because their food was the alms of the poor, and when he wrung out his kitchen rag it is said to have run with blood."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Benedict the African because he knew prejudice firsthand and met it with patience rather than bitterness. The son of enslaved Africans in Sicily, he was mocked for his color and origins, yet his brothers trusted him to lead them as guardian, though he could not read. When his term ended he gladly went back to the kitchen. Black Catholics in the United States have long claimed him as a patron, and devotion to him spread widely in Latin America, especially Brazil. Anyone who has been overlooked, or who serves in hidden ways, can find in him a friend who understands.",
+    "quotes": [
+      {
+        "text": "It shall not be so among you: but whosoever will be the greater among you, let him be your minister: And he that will be first among you, shall be your servant.",
+        "work": "Matthew 20:26–27",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "There is neither Jew nor Greek: there is neither bond nor free: there is neither male nor female. For you are all one in Christ Jesus.",
+        "work": "Galatians 3:28",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you came not to be served but to serve. St. Benedict the African was born to parents in slavery and was mocked for the color of his skin, yet he answered with patience and charity, and you made him a guide for his brothers. Through his prayers, heal the wounds of racism in our Church and our world. Teach those who lead to serve humbly and to ask pardon when they are wrong. Bless all who cook, clean and work unseen, and let nothing you give us be wasted. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 4, the day he died in 1589; the 1907 Catholic Encyclopedia gives April 3, so some older calendars differ.",
+      "Pray for an end to racism and for the dignity of people of African descent, in keeping with his patronage of African Americans.",
+      "Visit or pray for a parish named after him; several historically Black Catholic parishes in the United States bear his name.",
+      "Serve a meal or help in a parish or shelter kitchen, honoring his long years as a friary cook, and take care not to waste food.",
+      "Pray for the friars of Santa Maria di Gesù in Palermo, where he lived and died and where he is honored as co-patron of the city; their church was badly damaged by fire in 2023."
+    ],
+    "confirmationNote": "Benedict suits a confirmand who wants to lead by serving. He was born to enslaved parents and could not read, yet his brothers chose him as their guardian, and when his term ended he went gladly back to cooking. He met mockery with patience and even knelt to ask pardon when he had corrected someone unjustly. Confirmation strengthens Christians to witness in daily life, and Benedict shows how ordinary work can become that witness.",
+    "reflectionPrompts": [
+      "When have I been judged unfairly, and how might Benedict's patience and honesty shape my response?",
+      "Volunteer for a meal or kitchen shift at a parish or shelter this month, and waste nothing you are given.",
+      "Read the Order of Friars Minor's biography of St. Benedict the Moor and trace how he moved from shepherd to hermit to cook to guardian."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Order of Friars Minor, whose Rule Benedict followed",
+        "historical": true
+      },
+      {
+        "slug": "bernard-of-corleone",
+        "reason": "Sicilian Franciscan (Capuchin) friar who also lived and died in Palermo",
+        "historical": true
+      },
+      {
+        "slug": "peter-claver",
+        "reason": "Named with Benedict as a patron of African Americans",
+        "historical": false
+      },
+      {
+        "slug": "martin-de-porres",
+        "reason": "Religious brother of African descent known for humble service and patience under prejudice",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Franciscan Media: Saint Benedict the African",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-benedict-the-african/"
+      },
+      {
+        "title": "Order of Friars Minor: Saint Benedict the Moor",
+        "url": "https://ofm.org/en/saint-benedict-the-moor.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Benedict of San Philadelphio (the Moor)",
+        "url": "https://www.newadvent.org/cathen/02472b.htm"
+      },
+      {
+        "title": "Capuchin Franciscans (Province of St. Joseph): April 4, St. Benedict the Black",
+        "url": "https://www.capuchins.org/posts/april-4-st-benedict-the-black"
+      },
+      {
+        "title": "Commission on the Franciscan Intellectual Tradition: Saint Benedict of Palermo, Spiritual Guide and Healer",
+        "url": "https://www.franciscantradition.org/blog/saint-benedict-of-palermo-spiritual-guide-and-healer/"
+      },
+      {
+        "title": "Giovanna Fiume, \"Benedetto il Moro, il santo schiavo\" (Roma Tre Press)",
+        "url": "https://romatrepress.uniroma3.it/wp-content/uploads/2020/09/09.Benedetto-il-Moro-il-santo-schiavo.pdf"
+      },
+      {
+        "title": "Avvenire: Ritorno alla chiesa di Santa Maria di Gesù (2023 fire)",
+        "url": "https://www.avvenire.it/attualita/ritorno-alla-chiesa-di-santa-maria-di-gesu-cosi-la-ricostruiremo_68817"
+      },
+      {
+        "title": "Catholic Culture: St. Bernard of Corleone",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?recnum=3651"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 20 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/47020.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Galatians 3 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/55003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: African Americans is supported by Franciscan Media, the Capuchins and the Commission on the Franciscan Intellectual Tradition. Patron (co-patron) of Palermo is sourced (OFM, Avvenire) but has no live topic. 'Cooks' appears only on popular sites and was not used.",
+      "symbols: only three, and they rest on an academic study (Giovanna Fiume, Roma Tre Press), not a Catholic source: Franciscan habit and Child Jesus with bloodied dishcloth (wooden statue described in the 1715–16 canonization process) and the Child in his arms 'especially in Brazil'. The meaning given for the Child Jesus is an inference; a human may check.",
+      "quotes: Benedict was illiterate and left no writings; Scripture used (verified at drbo.org).",
+      "places: no official website was verified for the friary of Santa Maria di Gesù, Palermo (church largely destroyed by the July 2023 fire; relics damaged; current status of reconstruction and of the relics not verified), so places is omitted.",
+      "prayer: original; no traditional prayer text was verified from an official source.",
+      "biography: no contradiction in substance, but dates differ among sources. The Order of Friars Minor and Fiume give his birth as 1524 (the review and Franciscan Media say 1526). OFM says the Senate of Palermo chose him co-patron in 1712; Fiume says 1652. The 1907 Catholic Encyclopedia gives his feast as April 3 and his parents' origin as Ethiopia. OFM says he was guardian in 1578 and afterward novice master; Franciscan Media lists novice master first, then guardian (the review follows Franciscan Media's order)."
+    ]
+  },
+  "benezet": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Bénézet is remembered as the young shepherd linked to the medieval bridge across the Rhône at Avignon. Tradition says a heavenly call sent him to begin the work and to gather support for travelers and the poor. He died in 1184 before the bridge was finished, was buried in its chapel, and is remembered on April 14.",
+    "searchDescription": "St. Bénézet (d. 1184), feast April 14: the young shepherd remembered for starting the medieval bridge over the Rhône at Avignon, where he was buried.",
+    "whyWeTurn": "People turn to St. Bénézet because his story joins faith to a very practical work of mercy: making a dangerous river crossing safer for travelers, pilgrims and the poor. Tradition holds that a heavenly voice called the young shepherd to Avignon and that miracles confirmed his mission, and those details belong to legend. What is clearer is that the bridge was built, that a charitable work grew up around it, and that Avignon honored his tomb for centuries. He is a companion for anyone who senses God asking for something that seems far beyond their strength.",
+    "quotes": [
+      {
+        "text": "When thou shalt pass through the waters, I will be with thee, and the rivers shall not cover thee: when thou shalt walk in the fire, thou shalt not be burnt, and the flames shall not burn in thee:",
+        "work": "Isaias (Isaiah) 43:2",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But the foolish things of the world hath God chosen, that he may confound the wise; and the weak things of the world hath God chosen, that he may confound the strong.",
+        "work": "1 Corinthians 1:27",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Bénézet from tending sheep to begin a work far beyond his strength, so that travelers and the poor could cross the river in safety. Through his prayers, protect all who are on the road today, especially migrants, pilgrims and those who travel in danger. Bless engineers, builders and all who labor to make life safer for others. When you ask something hard of us, give us his simple trust, and help us build bridges of charity wherever people are divided or alone. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 14, kept as a local feast in Avignon since the fourteenth century; the Diocese of Viviers, where tradition places his birth, also honors him.",
+      "In Avignon, visit the surviving arches of the Pont Saint-Bénezet, where he was first buried in the bridge chapel, or pray before his relics, which were later moved into the city.",
+      "Pray for travelers, migrants and everyone who must make a dangerous crossing.",
+      "Support a charity that shelters travelers, newcomers or people without homes, in the spirit of the hospitality that grew up around the bridge.",
+      "Pray for civil engineers and builders, whom French tradition places under his care."
+    ],
+    "places": [
+      {
+        "name": "Pont Saint-Bénezet (Pont d'Avignon)",
+        "city": "Avignon, France",
+        "url": "https://avignon-pont.com/"
+      }
+    ],
+    "confirmationNote": "Bénézet suits a confirmand drawn to practical service or to building things that help others. Little about him is certain beyond his link to the bridge at Avignon, but he is remembered as a young person who trusted that God could use him for a large work of charity. Confirmation strengthens Christians for their mission in the world, and Bénézet invites a confirmand to ask what bridge God might want them to build.",
+    "reflectionPrompts": [
+      "What task feels too big for me right now, and have I brought it honestly to God in prayer?",
+      "Find one concrete way this month to make life safer or easier for travelers, newcomers or homeless people where you live.",
+      "Read Alban Butler's short life of St. Bénézet and note which details he presents as history and which as miracle."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "agricol-of-avignon",
+        "reason": "Early bishop honored in the same city of Avignon",
+        "historical": true
+      },
+      {
+        "slug": "lidwina-of-schiedam",
+        "reason": "Shares the April 14 feast",
+        "historical": true
+      },
+      {
+        "slug": "germaine-cousin",
+        "reason": "Another young shepherd remembered for simple trust in God",
+        "historical": false
+      },
+      {
+        "slug": "christopher",
+        "reason": "Remembered in tradition for carrying travelers across a dangerous river",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nominis (Conférence des évêques de France): Saint Bénezet, with diocesan accounts",
+        "url": "https://nominis.cef.fr/contenus/saint/970/Saint-B%C3%A9nezet.html"
+      },
+      {
+        "title": "Butler's Lives of the Saints via EWTN: St. Benezet, or Little Bennet, Patron of Avignon",
+        "url": "https://origin.ewtn.com/catholicism/library/st-benezet-or-little-bennet-patron-of-avignon-5227"
+      },
+      {
+        "title": "Catholic Encyclopedia: The Bridge-Building Brotherhood",
+        "url": "https://www.newadvent.org/cathen/02781a.htm"
+      },
+      {
+        "title": "Pont Saint-Bénezet (official site, Avignon Tourisme)",
+        "url": "https://avignon-pont.com/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Isaias 43 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/27043.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 1 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/53001.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable iconographic source was found. Candidate attributes from the legend (a huge stone carried on his shoulder, a shepherd's crook or sheep, a model of the bridge) are described in the Nominis legend account but not documented as established attributes; Iconclass has no attribute list for him. A human could add them if a reliable iconography source is found.",
+      "patronages: review lists none. Patron of Avignon (Butler's title) and of civil engineers ('ingénieurs des Ponts et Chaussées', Nominis) are sourced but have no live topic. 'Bridge builders' is widely repeated (Britannica, popular sites) and 'bachelors' appears only on popular sites; neither has a live topic.",
+      "quotes: Bénézet left no writings; Scripture used (verified at drbo.org).",
+      "places: avignon-pont.com is the official site run by Avignon Tourisme and was confirmed to load; its home page does not describe the saint or the chapel. No official website was verified for the church of Saint-Didier.",
+      "feastCustoms: relic location is uncertain across sources. Nominis (diocesan accounts) says the relics went to the Célestins in 1674 and to Saint-Didier in 1884; Britannica also places them at Saint-Didier; an Aleteia summary says Avignon cathedral. The custom is therefore worded without naming the church. 'Local feast since the fourteenth century' rests on Nominis (feast fixed by John XXII in 1331); Viviers honor since 1737 also from Nominis.",
+      "prayer: original.",
+      "biography: no disagreement with the review. Notes: Nominis places his birth at Le Villard (Burzet, Ardèche, Diocese of Viviers) and cites the Roman Martyrology as giving his death at about nineteen; Butler says the bridge was completed in 1188, four years after his death, and that his body was found incorrupt in 1670."
+    ]
+  },
+  "benignus": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Benignus, also called Benén, is remembered as a disciple of St. Patrick and his psalm-singer. Baptized by Patrick, he is said to have helped shape the choral worship of the early Irish Church and to have assisted Patrick at Armagh. Irish tradition keeps his memory on November 9, and he traditionally died in 467.",
+    "searchDescription": "St. Benignus (Benén) of Armagh, feast November 9: fifth-century disciple of St. Patrick, remembered as his psalm-singer and helper at Armagh.",
+    "whyWeTurn": "People turn to St. Benignus because he shows how a mission grows through companionship and song. The Tripartite Life tells that as a boy he scattered flowers over the sleeping Patrick, and that when others tried to stop him, Patrick said the child would inherit his kingdom. Remembered as Patrick's psalm-singer, he reminds us that the Gospel reached Ireland through worship as well as preaching. Later writers credited him with law codes and books, claims that call for caution. Choir members, church musicians and anyone who serves beside a stronger leader can find in him a gentle model.",
+    "quotes": [
+      {
+        "text": "Sing praises to our God, sing ye: sing praises to our king, sing ye. For God is the king of all the earth: sing ye wisely.",
+        "work": "Psalm 46:7–8 (Psalm 47:6–7 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Let the word of Christ dwell in you abundantly, in all wisdom: teaching and admonishing one another in psalms, hymns, and spiritual canticles, singing in grace in your hearts to God.",
+        "work": "Colossians 3:16",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Benignus to St. Patrick as a companion and a singer of your praise, and through his voice many came to know you. Through his prayers, bless all who lead your people in song: cantors, choirs, organists and everyone who sings at Mass. Teach us to serve gladly alongside others without seeking first place. Strengthen the Church in Ireland and every community still learning to praise you, and let our lives become a psalm of thanksgiving. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on November 9. That date is the universal Feast of the Dedication of the Lateran Basilica, so his memory is usually kept locally or in private prayer.",
+      "Pray or sing a psalm slowly in his honor, remembering him as Patrick's psalm-singer.",
+      "Pray for the musicians, cantors and choirs of your parish, or thank them for their service.",
+      "Pray for the Archdiocese of Armagh and the Church in Ireland, which he served in its first generation.",
+      "Read St. Patrick's Confession, Patrick's own account of the mission that Benignus joined."
+    ],
+    "confirmationNote": "Benignus suits a confirmand who loves music or who prefers to serve as part of a team. He is remembered not as a solitary hero but as Patrick's companion, helping the mission through song and steady assistance. Confirmation calls every Christian to use their gifts to build up the Church, and Benignus shows that singing God's praise and supporting another's work can be a real share in that mission.",
+    "reflectionPrompts": [
+      "Whose work do I support quietly, and do I offer that help as a gift to God?",
+      "Join or support your parish choir, or learn one psalm well enough to pray it from memory.",
+      "Read the 1907 Catholic Encyclopedia article on St. Benignus and note how it separates Benignus of Armagh from Benignus of Kilbannon."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "patrick",
+        "reason": "The teacher who baptized him and whose mission he served as psalm-singer",
+        "historical": true
+      },
+      {
+        "slug": "brigid-of-ireland",
+        "reason": "Fellow saint of the first generations of the Irish Church",
+        "historical": true
+      },
+      {
+        "slug": "malachy",
+        "reason": "Later archbishop of Armagh, the see Benignus helped serve",
+        "historical": true
+      },
+      {
+        "slug": "cecilia",
+        "reason": "Honored in tradition as patron of church music",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Benignus",
+        "url": "https://www.newadvent.org/cathen/02479b.htm"
+      },
+      {
+        "title": "Whitley Stokes (ed. and trans.), The Tripartite Life of Patrick, vol. 1 (1887), Internet Archive",
+        "url": "https://archive.org/details/tripartitept100unknuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalms 46 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/21046.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Colossians 3 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/58003.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No established iconographic attributes for Benignus were found in a reputable source.",
+      "patronages: none found in a reputable source; review lists none.",
+      "quotes: Benignus left no verified writings. Patrick's saying about him in the Tripartite Life ('He will inherit my kingdom', Stokes 1887, vol. 1, p. 37) is paraphrased in whyWeTurn rather than quoted, since it is a hagiographer's report, not the saint's own writing. Scripture used (verified at drbo.org).",
+      "places: no official website for a place specifically tied to Benignus was verified; omitted.",
+      "feastCustoms: whether the Archdiocese of Armagh or the Irish proper calendar keeps a liturgical memorial of Benignus was not verified; customs are worded as private devotion.",
+      "prayer: original.",
+      "biography: no disagreement with the review. Notes: the Catholic Encyclopedia gives his father as Sesenen of Meath, coadjutor at Armagh from 450, resignation in 467 and death at the end of that year. A non-official devotional blog gives 468 and says the Martyrology of Donegal lists November 8. The flower episode from the Tripartite Life is not in the reviewed biography but does not contradict it; it is labeled as from that source."
+    ]
+  },
+  "benjamin": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Benjamin was a deacon of the Church in Persia who was imprisoned for preaching Christ and released after a Roman envoy intervened. He refused to stop sharing his faith, was arrested again, and was put to death in the early fifth century. The Catholic Church remembers him on March 31.",
+    "searchDescription": "St. Benjamin of Persia, feast March 31: fifth-century deacon freed from prison who kept preaching Christ and was martyred under the Persian kings.",
+    "whyWeTurn": "People turn to St. Benjamin because he would not trade his freedom for silence. According to Theodoret, who wrote a few decades later, the deacon was released after two years in prison on the understanding that he would stop teaching, yet he refused to hide what he had received. He is a companion for Christians who live where faith is restricted, for deacons and catechists, and for anyone tempted to keep their belief quietly to themselves. The old account dwells on his torture; what matters most is the faithfulness behind it.",
+    "quotes": [
+      {
+        "text": "It is impossible for me not to impart the light which I have received; for how great a penalty is due for the hiding of our talent is taught in the history of the holy gospels.",
+        "work": "Benjamin's reply as reported by Theodoret, Ecclesiastical History V.38",
+        "translation": "Blomfield Jackson, Nicene and Post-Nicene Fathers, 2nd series, vol. 3 (1892; public domain)"
+      },
+      {
+        "text": "For we cannot but speak the things which we have seen and heard.",
+        "work": "Acts 4:20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Neither do men light a candle and put it under a bushel, but upon a candlestick, that it may shine to all that are in the house.",
+        "work": "Matthew 5:15",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you called St. Benjamin to serve your Church as a deacon, and he would not keep silent about the light he had received, even when silence was the price of freedom. Through his prayers, strengthen Christians who are imprisoned or threatened for their faith, and comfort their families. Bless deacons, catechists and all who teach in your name. When we are tempted to hide our faith to stay comfortable, give us his courage and his gentleness, so that others may see your light. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on March 31, his date in the Catholic calendar; Eastern calendars also commemorate him on October 13.",
+      "Pray for Christians in Iran and wherever sharing the faith is restricted or punished.",
+      "Pray for deacons, especially those who preach and teach, and thank a deacon who serves your parish.",
+      "March 31 often falls in Lent: offer a fast or an alms gift for persecuted Christians.",
+      "Read Acts 4:13–20, where Peter and John also refuse an order to stop speaking about Jesus."
+    ],
+    "confirmationNote": "Benjamin suits a confirmand who wants courage to speak about faith. As a deacon in Persia he was offered freedom if he would stop teaching, and he chose to keep sharing what he had received. Confirmation strengthens Christians to bear witness to Christ in word and deed, and Benjamin shows that this witness can matter more than comfort or safety. He also invites us to pray for those who still face prison for their faith.",
+    "reflectionPrompts": [
+      "Where am I tempted to keep my faith hidden to avoid awkwardness or cost?",
+      "Learn about Christians in one country where evangelizing is restricted and pray for them by name this week.",
+      "Read Theodoret's account in Ecclesiastical History, Book V, chapter 38, and compare Benjamin's answer with Acts 4:13–20."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "jonas",
+        "reason": "Earlier martyr of the same Persian Church under the Sasanian kings",
+        "historical": true
+      },
+      {
+        "slug": "stephen",
+        "reason": "First deacon-martyr, killed for preaching Christ boldly",
+        "historical": false
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Deacon who also refused to abandon his faith under torture",
+        "historical": false
+      },
+      {
+        "slug": "ephrem-the-syrian",
+        "reason": "Fourth-century deacon of the Syriac-speaking Church on the Roman–Persian frontier",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Theodoret, Ecclesiastical History V.38, trans. Blomfield Jackson (NPNF 2nd ser., vol. 3), New Advent",
+        "url": "https://www.newadvent.org/fathers/27025.htm"
+      },
+      {
+        "title": "Vatican News: Saint Benjamin de Perse, diacre et martyr (March 31)",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/03/31/saint-benjamin-de-perse-diacre-et-martyr-.html"
+      },
+      {
+        "title": "Diocese of Tenancingo: San Benjamín",
+        "url": "https://www.diocesisdetenancingo.mx/oracion/santo-de-hoy-31-de-marzo--san-benjamin.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 4 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/51004.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 5 (drbo.org)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No established iconographic attributes for Benjamin were found in a reputable source.",
+      "patronages: none found in a reputable source; review lists none. 'deacons' is a live topic but no reputable source names Benjamin its patron.",
+      "quotes: the first quote is Benjamin's reply as Theodoret reports it (NPNF translation, verified on New Advent), not a writing of his own. The reviewed biography cautions against presenting detailed speeches as verified, so the attribution is framed as Theodoret's report; a human may prefer to drop it.",
+      "places: no place tied to Benjamin with an official website was found; omitted.",
+      "whyWeTurn: 'a few decades later' reflects Theodoret writing in the mid-fifth century about events of the early fifth; the 'two years' of imprisonment come from Theodoret.",
+      "prayer: original.",
+      "biography: no disagreement. Theodoret's details (imprisonment by the king, release after two years at a Roman envoy's request, a year of renewed preaching, rearrest and death by impalement after torture) match the review. Theodoret says Benjamin refused the condition but was released because the king had not been told of his refusal; the review's wording is compatible. Vatican News confirms only the title and March 31 date."
+    ]
+  },
+  "bernadette-soubirous": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bernadette Soubirous, honored as a patron of shepherdesses and of the sick, was the poor miller's daughter of Lourdes who in 1858 reported eighteen apparitions of a Lady at the grotto of Massabielle. She later lived quietly as a Sister of Charity at Nevers, died there on April 16, 1879, and was canonized in 1933.",
+    "searchDescription": "St. Bernadette Soubirous (1844–1879), feast April 16: the young visionary of Lourdes who later lived a hidden life as a Sister of Charity at Nevers.",
+    "patronages": [
+      "shepherdesses"
+    ],
+    "symbols": [
+      {
+        "symbol": "Kneeling before the grotto with the Lady in white",
+        "meaning": "The 1858 apparitions at Massabielle. The Lady is painted as Bernadette described her: dressed in white, with a blue sash and a yellow rose on each foot."
+      },
+      {
+        "symbol": "Rosary",
+        "meaning": "At the first apparition she made the Sign of the Cross and prayed the rosary with the Lady; the rosary remains central to prayer at the Grotto."
+      },
+      {
+        "symbol": "Habit of the Sisters of Charity of Nevers",
+        "meaning": "Her hidden religious life as Sister Marie-Bernard at Nevers, where she lived with illness until her death in 1879."
+      }
+    ],
+    "whyWeTurn": "People turn to Bernadette when they feel overlooked, unwell, or out of their depth. She was poor, often ill with asthma, and could not yet read when the apparitions began. Still, she described what she had seen plainly and refused to add to it, even when an official threatened her with prison and her parish priest demanded a sign. She did not stay at Lourdes to enjoy attention. She went to Nevers and lived a hidden religious life marked by sickness. The Church canonized her for that humble faithfulness, not simply for her visions. Catholics ask her prayers for the sick, for people mocked for their faith, and for sinners, as the Lady asked.",
+    "quotes": [
+      {
+        "text": "I am the Immaculate Conception.",
+        "work": "Words of the Lady as reported by Bernadette, sixteenth apparition, March 25, 1858 (in Bernadette's local dialect: \"Que soy era Immaculada Counceptiou\")",
+        "translation": "English rendering given by the Sanctuary of Lourdes; reported speech, not Bernadette's own writing"
+      },
+      {
+        "text": "At that time Jesus answered and said: I confess to thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them to the little ones.",
+        "work": "Matthew 11:25",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But the foolish things of the world hath God chosen, that he may confound the wise; and the weak things of the world hath God chosen, that he may confound the strong.",
+        "work": "1 Corinthians 1:27",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you chose Bernadette, poor and unschooled, to carry your Mother's call to prayer and penance. Through her prayers, give me her honesty: to tell the truth simply, without adding to it, and without taking it back when others doubt. Stay close to all who are sick and to those who care for them, and let them find in you a spring that never runs dry. When I feel small or useless, remind me that you look with love on the lowly. Holy Mary, conceived without sin, pray for us. St. Bernadette, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers in St. Bernadette's own words (Sisters of Charity of Nevers, in French)",
+        "url": "https://congregation-soeurs-charite-nevers.fr/fr/pages/bernadette/les-prieres-de-sainte-bernadette/"
+      }
+    },
+    "feastCustoms": [
+      "Keep April 16, the anniversary of her death at Nevers and the date of her liturgical feast; because she is not on the General Roman Calendar, check whether your diocese or parish celebrates it.",
+      "At Lourdes, the sanctuary also honors her around February 18, recalling the Lady's promise to make her happy not in this world but in the next, with veneration of her relics, Mass, the rosary at the Grotto, and a procession of her relics.",
+      "On February 11, the memorial of Our Lady of Lourdes and the Church's World Day of the Sick, visit, call, or pray for someone who is ill and for those who care for them.",
+      "Pray the rosary, as Bernadette did with the Lady at the first apparition, and offer it for sinners, as the Lady asked.",
+      "Choose one small, hidden act of service or self-denial, in the spirit of her quiet years at Nevers."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of Our Lady of Lourdes",
+        "city": "Lourdes, France",
+        "url": "https://www.lourdes-france.org/en/"
+      },
+      {
+        "name": "Sanctuary of St. Bernadette at the Saint-Gildard motherhouse, where her body rests",
+        "city": "Nevers, France",
+        "url": "https://congregation-soeurs-charite-nevers.fr/fr/le-sanctuaire/"
+      }
+    ],
+    "confirmationNote": "Bernadette suits a Confirmation candidate who feels ordinary, unsure of themselves, or doubted by others. She had little schooling and poor health, yet she told the truth about what she saw without exaggerating it, and then stepped out of the spotlight to serve God in a quiet religious life. Choosing her means asking for honesty, humility, patience in illness or rejection, and a faith that does not depend on attention.",
+    "reflectionPrompts": [
+      "When am I tempted to exaggerate or soften the truth so that people will believe or like me, and what would Bernadette's plain honesty look like there?",
+      "This week, pray one decade of the rosary for someone who is sick, then reach out to them or to someone who cares for them.",
+      "Read Matthew 11:25–30 in the Douay-Rheims alongside the Sanctuary of Lourdes' account of the eighteen apparitions, and note what the Lady asked Bernadette to do."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "catherine-labour",
+        "reason": "Fellow nineteenth-century French visionary, whose 1830 apparitions in Paris led to the Miraculous Medal",
+        "historical": true
+      },
+      {
+        "slug": "germaine-cousin",
+        "reason": "Poor, sickly French shepherdess, also honored as patron of shepherdesses",
+        "historical": false
+      },
+      {
+        "slug": "juan-diego",
+        "reason": "Humble visionary asked by the Lady to request a church, as Bernadette was asked for a chapel",
+        "historical": false
+      },
+      {
+        "slug": "jacinta-marto",
+        "reason": "Child visionary of Fatima, also marked by illness and a call to pray for sinners",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sanctuary of Lourdes: Bernadette Soubirous",
+        "url": "https://www.lourdes-france.com/en/bernadette-soubirous/"
+      },
+      {
+        "title": "Sanctuary of Lourdes: The apparitions",
+        "url": "https://www.lourdes-france.com/en/the-apparitions/"
+      },
+      {
+        "title": "Sanctuary of Lourdes: The message of Lourdes",
+        "url": "https://www.lourdes-france.com/en/the-message-of-lourdes/"
+      },
+      {
+        "title": "Sanctuary of Lourdes: Fête de sainte Bernadette",
+        "url": "https://www.lourdes-france.com/pelerin-dun-jour/fete-de-sainte-bernadette/"
+      },
+      {
+        "title": "Sanctuary of Lourdes: Parcours Bernadette et Bartrès (pilgrim booklet, PDF)",
+        "url": "https://www.lourdes-france.com/wp-content/uploads/2024/02/7-Parcours-Bernadette-et-Bartres.pdf"
+      },
+      {
+        "title": "Sanctuary of Our Lady of Lourdes (official site)",
+        "url": "https://www.lourdes-france.org/en/"
+      },
+      {
+        "title": "Sisters of Charity of Nevers: Son corps (her body at Saint-Gildard)",
+        "url": "https://congregation-soeurs-charite-nevers.fr/fr/pages/bernadette/son-corps/"
+      },
+      {
+        "title": "Sisters of Charity of Nevers: Les prières de sainte Bernadette",
+        "url": "https://congregation-soeurs-charite-nevers.fr/fr/pages/bernadette/les-prieres-de-sainte-bernadette/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, April 16 (St. Bernadette Soubirous)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-04-16"
+      },
+      {
+        "title": "John Paul II: Letter instituting the World Day of the Sick (May 13, 1992)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/letters/1992/documents/hf_jp-ii_let_13051992_world-day-sick.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 11",
+        "url": "https://www.drbo.org/chapter/47011.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 1",
+        "url": "https://www.drbo.org/chapter/53001.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Shepherdesses comes from Catholic Culture's patronage list and fits her documented work with the sheep at Bartrès in 1857–58 (Sanctuary of Lourdes Bartrès booklet); human may reconcile.",
+      "patronages: the sick (bodily ills), the poor, Lourdes, and people ridiculed for their piety are listed by Catholic Culture but have no live topics; 'the sick' is named in heroSummary only as description.",
+      "symbols: only three attributes. The grotto scene and the Nevers habit come from Catholic Culture's iconography note; the rosary rests on the sanctuary's account of the first apparition. Popular shepherdess imagery was not found in a reputable iconography source, so it was left out.",
+      "quotes: no saying of Bernadette's own is included. I found no public-domain English translation of her words whose exact wording I could verify; the Nevers sisters' French prayers and the sanctuary's English quotations of her are modern renderings. The Lady's words are labeled as reported speech; spellings of the Occitan vary between sources (Counceptiou, Councepciou), and the one used is the sanctuary's.",
+      "feastCustoms: the Lourdes celebration date can shift (in 2026 it was held February 17 because February 18 was Ash Wednesday), so the item says 'around February 18'. The statement that April 16 is not on the General Roman Calendar reflects the calendar itself and was not re-fetched.",
+      "relatedSaints: the Miraculous Medal detail for Catherine Labouré is standard history but was not re-fetched in this pass.",
+      "biography: no disagreement found with the reviewed biography (birth at the Boly Mill, death at Nevers on April 16, 1879, canonization on December 8, 1933, and the February 18 Lourdes celebration agree with the sanctuary; the 1866 move to Nevers is taken from the reviewed biography)."
+    ]
+  },
+  "bernard-of-clairvaux": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bernard of Clairvaux was a twelfth-century Cistercian abbot, preacher, and Doctor of the Church, called the Mellifluous, or honey-sweet, Doctor for the way he wrote about Christ. Sent to found Clairvaux in 1115, he shaped monastic reform, Marian devotion, and the public life of the Church. His feast is August 20.",
+    "searchDescription": "St. Bernard of Clairvaux (1090–1153), feast August 20: Cistercian abbot, Doctor of the Church, and writer on the love of God and on Mary.",
+    "symbols": [
+      {
+        "symbol": "Beehive and bees",
+        "meaning": "His traditional title Doctor Mellifluus, the honey-sweet Doctor, given because his praise of Jesus seemed to flow like honey; beekeepers and candlemakers honor him as patron."
+      },
+      {
+        "symbol": "White Cistercian habit",
+        "meaning": "The reformed monks of Cîteaux, nicknamed the White Monks, whom he joined as a young man and led as abbot of Clairvaux."
+      },
+      {
+        "symbol": "Book, pen, and inkhorn",
+        "meaning": "His sermons, letters, and treatises, including On the Love of God, the Sermons on the Song of Songs, and On Consideration, written for Pope Eugene III."
+      },
+      {
+        "symbol": "Vision of the Virgin Mary",
+        "meaning": "His deep devotion to Mary, summed up in the phrase through Mary to Jesus; paintings of Mary appearing to him as he writes come from devotion and tradition rather than documented events."
+      },
+      {
+        "symbol": "Chained demon",
+        "meaning": "A legendary attribute showing his victory over temptation and evil; it belongs to tradition, not to the historical record."
+      }
+    ],
+    "whyWeTurn": "People turn to Bernard when their hearts are restless and they want to love God more than his gifts. He taught that God himself is the reason for loving God, and that the right measure of that love has no limit. He spoke of the name of Jesus with real tenderness and urged people in every storm to look to Mary. He was also a public churchman whose preaching of the Second Crusade ended in failure, so his life is honest about how zeal needs humility. Catholics ask his prayers for monks and contemplatives, for Church leaders, for deeper love of Christ, and for trust in Mary's help.",
+    "quotes": [
+      {
+        "text": "I should say that God Himself is the motive of our love to Him, and that the measure of due love is to be without measure.",
+        "work": "On the Love of God (De diligendo Deo), Chapter I",
+        "translation": "Marianne Caroline and Coventry Patmore (1881; 2nd ed. 1884), public domain"
+      },
+      {
+        "text": "Jesus is honey in the mouth, melody in the ear, jubilation in the heart.",
+        "work": "Sermons on the Canticle of Canticles, Sermon XV",
+        "translation": "A Priest of Mount Melleray (Dublin, 1920), public domain"
+      },
+      {
+        "text": "In dangers, in distress, in perplexities, think on Mary, call on Mary. Let her not depart from your lips, let her not depart from your heart, and, that you may win the suffrage of her prayers, never depart from the example of her life.",
+        "work": "Homilies on the Missus Est, Homily II (The Mission of the Angel)",
+        "translation": "Sermons of St. Bernard on Advent and Christmas, St. Mary's Convent (London, 1909), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you drew St. Bernard to love you without measure and to find your name sweeter than honey. Through his prayers, quiet the noise in my heart and teach me to seek you for your own sake, not only for your gifts. When temptation rises and trouble closes in, help me to look to your Mother, the Star of the Sea, and to call on her as he urged. Make me zealous for your Church yet humble about my own judgments, and let my words and work lead others to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Memorare (\"Remember, O most gracious Virgin Mary\") is often attributed to St. Bernard, including by Catholic Culture, but there is no reliable evidence that he wrote it, so it is not presented here as his prayer.",
+      "link": {
+        "label": "Read St. Bernard on the Love of God (Patmore translation, Internet Archive scan)",
+        "url": "https://archive.org/details/saintbernardlove00bernuoft"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on August 20, his memorial in the General Roman Calendar.",
+      "When worry or temptation comes, follow his advice from his homily on the Annunciation: think on Mary, call on Mary, and pray a Hail Mary.",
+      "Make or light a beeswax candle, or share honey with your household, recalling his title of honey-sweet Doctor and his patronage of beekeepers and candlemakers.",
+      "Pray for the pope and Church leaders, as Bernard did when he wrote On Consideration for his former monk Pope Eugene III.",
+      "Read the first chapter of On the Love of God and name one way to love God for his own sake rather than for what he gives."
+    ],
+    "places": [
+      {
+        "name": "Abbey of Notre-Dame de Cîteaux, where he entered monastic life",
+        "city": "Saint-Nicolas-lès-Cîteaux, France",
+        "url": "https://citeaux-abbaye.org/"
+      },
+      {
+        "name": "Clairvaux Abbey, which he founded in 1115",
+        "city": "Ville-sous-la-Ferté, France",
+        "url": "https://www.abbayedeclairvaux.com/"
+      }
+    ],
+    "confirmationNote": "Bernard suits a candidate with a strong mind and a big heart who wants faith to shape every part of life. He drew relatives and friends into the monastery with him, preached and wrote tirelessly, and urged everyone to love God without measure. His story also includes a crusade that failed, a reminder that zeal needs humility. Choosing him means asking for a passionate, prayerful, and teachable faith.",
+    "reflectionPrompts": [
+      "Do I love God mainly for what he gives me, or am I learning to love him for himself?",
+      "The next time you feel anxious or tempted this week, stop and pray one Hail Mary, following Bernard's advice to think on Mary and call on Mary.",
+      "Read Chapter I of St. Bernard on the Love of God in the Patmore translation, then Sermon XV on the Canticle of Canticles, where he reflects on the name of Jesus."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "stephen-harding",
+        "reason": "Third abbot of Cîteaux, who received him and sent him to found Clairvaux in 1115",
+        "historical": true
+      },
+      {
+        "slug": "malachy",
+        "reason": "Irish archbishop who became his close friend and died at Clairvaux in 1148",
+        "historical": true
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Wrote to him about her visions; Benedict XVI notes that he calmed and encouraged her",
+        "historical": true
+      },
+      {
+        "slug": "bernardine-of-siena",
+        "reason": "Apostle of the Holy Name, who cited St. Bernard on the sweetness of Jesus' name",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Bernard of Clairvaux (October 21, 2009)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20091021.html"
+      },
+      {
+        "title": "Pius XII: Doctor Mellifluus (1953)",
+        "url": "https://www.vatican.va/content/pius-xii/en/encyclicals/documents/hf_p-xii_enc_24051953_doctor-mellifluus.html"
+      },
+      {
+        "title": "Vatican News: Saint Bernard, abbé et docteur de l'Église",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/08/20/saint-bernard--abbe-et-docteur-de-leglise.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Hildegard of Bingen (September 1, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100901.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 20 (St. Bernard of Clairvaux)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-20"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Bernard of Clairvaux",
+        "url": "https://www.newadvent.org/cathen/02498d.htm"
+      },
+      {
+        "title": "Saint Bernard on the Love of God, tr. Marianne Caroline and Coventry Patmore (1884), Internet Archive",
+        "url": "https://archive.org/details/saintbernardlove00bernuoft"
+      },
+      {
+        "title": "St. Bernard's Sermons on the Canticle of Canticles, vol. 1, tr. a Priest of Mount Melleray (1920), Internet Archive",
+        "url": "https://archive.org/details/stbernardssermon01bern"
+      },
+      {
+        "title": "Sermons of St. Bernard on Advent and Christmas, including the Missus Est (1909), Internet Archive",
+        "url": "https://archive.org/details/sermonsofstberna00bernuoft"
+      },
+      {
+        "title": "Abbaye Notre-Dame de Cîteaux (official site)",
+        "url": "https://citeaux-abbaye.org/"
+      },
+      {
+        "title": "Abbaye de Clairvaux (Association Renaissance de l'Abbaye de Clairvaux)",
+        "url": "https://www.abbayedeclairvaux.com/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and none of his sourced patronages has a live topic. Catholic Culture lists beekeepers, candlemakers and wax-workers, the Cistercian Order, the Knights Templar, Gibraltar, Burgundy, Algeciras, the diocese of Pelplin, Speyer Cathedral, and Queens' College, Cambridge.",
+      "prayer: the Memorare is NOT used as his prayer. Catholic Culture calls it 'traditionally attributed' to him, but I found no reliable evidence of his authorship; the note says so.",
+      "quotes: Eales's translations (1889–96) are public domain but were not used because I could not check his exact wording in a clean text. All three quotes were checked line by line against Internet Archive OCR of pre-1929 editions: Patmore (1881/1884), the St. Mary's Convent Missus Est (1909), and Mount Melleray (1920; public domain in the US as a pre-1929 publication; status elsewhere depends on the translator's death date, which was not checked). The popular wording 'look to the star, call upon Mary' belongs to the same passage; the 1909 wording reads 'look up at the Star, call on Mary.'",
+      "symbols: the vision of Mary and the chained demon are framed as tradition. The beehive and white habit are well established; 'White Monks' is from the Catholic Encyclopedia.",
+      "places: Clairvaux's site is run by a heritage association, not a religious community; the abbey was a prison until 2023 and now offers guided visits.",
+      "biography: no conflict with the reviewed biography. Sources disagree on details the review avoids: his age on entering Cîteaux (about 20 per Benedict XVI, 22 per Vatican News), the number of companions (about thirty per Catholic Culture and the Catholic Encyclopedia, a smaller family group per Vatican News), and his death date (August 20 per Vatican News, August 21 per the Catholic Encyclopedia). No numbers or death date were used.",
+      "relatedSaints: Malachy's friendship and death at Clairvaux come from the Catholic Encyclopedia; Bernardine's sermon names 'Saint Bernard' among those who found sweetness in Jesus' name, which in context is Bernard of Clairvaux but is not glossed in the 1920 edition."
+    ]
+  },
+  "bernardine-of-siena": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bernardine of Siena was a fifteenth-century Franciscan friar, one of the best-loved preachers of his day, and the great apostle of the Holy Name of Jesus. Before entering religious life he nursed plague victims in Siena. He spread the IHS monogram across Italy, strengthened the Observant friars, and is remembered on May 20.",
+    "searchDescription": "St. Bernardine of Siena (1380–1444), feast May 20: Franciscan preacher who nursed plague victims and spread devotion to the Holy Name of Jesus (IHS).",
+    "symbols": [
+      {
+        "symbol": "Tablet or sun bearing IHS in golden rays",
+        "meaning": "While preaching he held up a board painted with the monogram of the Holy Name surrounded by rays, then offered it for veneration; IHS stands for the name of Jesus."
+      },
+      {
+        "symbol": "Franciscan habit",
+        "meaning": "His life as a Friar Minor of the Observance, the reform that stressed strict poverty; after ordination he went barefoot and begged for alms."
+      },
+      {
+        "symbol": "Open book",
+        "meaning": "His preaching and writings, from learned Latin sermons to the plain-spoken Siena sermons of 1427 taken down word for word by a listener."
+      },
+      {
+        "symbol": "Burning pile of vanities",
+        "meaning": "In city after city, his preaching against vice moved people to throw luxuries and gaming items onto bonfires."
+      }
+    ],
+    "whyWeTurn": "People turn to Bernardine when words matter. He reached huge crowds with everyday stories, humor, and plain speech, so communicators and public speakers look to him. He preached peace in towns torn by factions and persuaded them to replace party emblems with the name of Jesus. He warned against gambling and usury, and tradition counts him a patron of those who struggle with compulsive gambling. When his Holy Name devotion was accused of error in 1427, he submitted humbly to the pope's examination and was cleared. Catholics ask his prayers for reverence for Jesus' name, for peace in divided communities, and for freedom from habits that enslave.",
+    "quotes": [
+      {
+        "text": "For which cause God also hath exalted him, and hath given him a name which is above all names: That in the name of Jesus every knee should bow, of those that are in heaven, on earth, and under the earth: And that every tongue should confess that the Lord Jesus Christ is in the glory of God the Father.",
+        "work": "Philippians 2:9–11",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Say, Jesus, and say it with as great reverence as thou canst, and let those who will say what they wish, for we know that the angel said to Mary that so she should call him.",
+        "work": "Sermon preached in Siena, 1427, \"Once more of party feeling\" (taken down by a listener)",
+        "translation": "Helen Josephine Robins, in Saint Bernardine of Siena: Sermons, ed. Nazareno Orlandi (Siena, 1920), public domain"
+      },
+      {
+        "text": "I am one of those who wish to hold to that which Holy Church doth hold.",
+        "work": "Sermon preached in Siena, 1427, \"Once more of party feeling\" (taken down by a listener)",
+        "translation": "Helen Josephine Robins, in Saint Bernardine of Siena: Sermons, ed. Nazareno Orlandi (Siena, 1920), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, your name is above every name. St. Bernardine carried it through the streets of Italy so that people would remember whose they were. Through his prayers, teach me to speak your name with reverence and never carelessly. Heal what divides our families and towns, free those caught in gambling or any compulsion, and give courage to all who care for the sick in times of epidemic. Let my words, like his, be plain, joyful, and true, and let them lead others to you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on May 20, his optional memorial in the General Roman Calendar.",
+      "Bow your head when you hear the name of Jesus, an outward sign of reverence he urged on his listeners in Siena.",
+      "Display or draw the IHS monogram at home, and explain to children that it stands for the name of Jesus.",
+      "Pray for people struggling with gambling or other compulsions, one of the patronages tradition gives him, or support a ministry that helps them.",
+      "In L'Aquila, the Franciscan friars of the Basilica of San Bernardino, where his body rests, keep a solemn festival in the days leading up to May 20."
+    ],
+    "places": [
+      {
+        "name": "Basilica of San Bernardino, where his body rests",
+        "city": "L'Aquila, Italy",
+        "url": "https://www.basilicasanbernardino.it/"
+      }
+    ],
+    "confirmationNote": "Bernardine suits a candidate who loves to talk, perform, or communicate and wants those gifts to serve God. He used humor, everyday stories, and plain speech to reach crowds, and he cared for plague patients before he ever preached. When his teaching was challenged, he submitted it humbly to the Church. Choosing him means committing to honor the name of Jesus and to use words that build peace.",
+    "reflectionPrompts": [
+      "How do I use the name of Jesus in everyday speech, and what would real reverence for it change?",
+      "Name one conflict in your family, team, or school, and take one concrete step toward peace this week.",
+      "Read Philippians 2:5–11 in the Douay-Rheims, then the 1427 Siena sermon \"Once more of party feeling\" in Helen Josephine Robins's 1920 translation."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-of-capistrano",
+        "reason": "His disciple and fellow Observant friar, who led his defense at the 1427 hearing in Rome",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Friars Minor, whose Observant reform Bernardine spread across Italy",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Fellow Sienese saint, who died in 1380, the year Bernardine was born",
+        "historical": true
+      },
+      {
+        "slug": "bernard-of-clairvaux",
+        "reason": "Wrote that Jesus' name is honey in the mouth; Bernardine cited St. Bernard on that sweetness",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Saint Bernardin de Sienne, frère mineur",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/05/20/saint-bernardin-de-sienne--frere-mineur.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 20 (St. Bernardine of Siena)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-20"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Bernardine of Siena",
+        "url": "https://www.newadvent.org/cathen/02505b.htm"
+      },
+      {
+        "title": "Saint Bernardine of Siena: Sermons, ed. Nazareno Orlandi, tr. Helen Josephine Robins (Siena, 1920), Internet Archive",
+        "url": "https://archive.org/details/saintbernardineo0000naza"
+      },
+      {
+        "title": "Basilica di San Bernardino, L'Aquila (Franciscan Friars Minor, official site)",
+        "url": "https://www.basilicasanbernardino.it/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Philippians 2",
+        "url": "https://www.drbo.org/chapter/57002.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no patronage slug is included. Catholic Culture lists advertisers and advertising, communications and public relations, compulsive gambling, hoarseness and chest or lung ailments, L'Aquila, the Diocese of San Bernardino, and Italy. Only 'italy' has a live topic, but it was left out: the papal act naming Italy's primary patrons (Pius XII, 1939) names Francis and Catherine, and I found no papal or diocesan source for Bernardine, so the listing rests on one aggregated list. Human check suggested.",
+      "patronages: the patronage of advertisers is widely reported as a 1950s Vatican designation, but I could not verify the pope or year from a Vatican source.",
+      "symbols: the three mitres at his feet (for the sees of Siena, Ferrara, and Urbino he refused, documented in the Catholic Encyclopedia) are a common attribute, but no reputable iconography source I checked lists them, so they were left out. The four used come from Catholic Culture's iconography note, with details from the Catholic Encyclopedia and Vatican News.",
+      "quotes: the two sermon quotes are his preached words as recorded by a listener in 1427 and translated from the Sienese vernacular, not texts he wrote himself; both were checked against Internet Archive OCR of the 1920 edition (published 1920, public domain in the US).",
+      "feastCustoms: the optional-memorial rank reflects the General Roman Calendar and was not re-fetched; the L'Aquila festival is from the basilica's site (in 2026 it ran May 9–20), worded without dates so it does not go stale. The bowing custom paraphrases his own advice in the 1427 sermon 'How we ought to love God'.",
+      "biography: no disagreement with the reviewed biography. Sources differ on details it avoids: Catholic Culture gives his birthplace as Carrara, the Catholic Encyclopedia as Massa (Massa Marittima); Vatican News calls him Minister General from 1438, the Catholic Encyclopedia Vicar-General of the Observants. Neither detail is used."
+    ]
+  },
+  "bibiana": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Bibiana, also called Viviana, is a Roman martyr whose church on the Esquiline Hill was consecrated by Pope Simplicius in the fifth century. That early basilica is the firm evidence for her cult; the story of her family and her scourging under Julian the Apostate is later legend. She is remembered on December 2.",
+    "searchDescription": "St. Bibiana (Viviana), December 2: a Roman martyr honored with a fifth-century church on the Esquiline, and what is history and what is legend in her story.",
+    "symbols": [
+      {
+        "symbol": "Pillar or column",
+        "meaning": "In her legend she was tied to a pillar and scourged until she died. Tradition holds that the column of her martyrdom is kept in her church in Rome."
+      },
+      {
+        "symbol": "Scourge with leaded thongs",
+        "meaning": "The whip weighted with lead with which, according to the legend, she was beaten to death."
+      }
+    ],
+    "whyWeTurn": "Almost nothing about St. Bibiana's life can be known for certain, yet by the fifth century Rome had a church built over her remains. People turn to her because her legend is a story of loss: her parents and sister taken from her, her home stripped, and her own life ended, while she held on to her faith. Catholic Culture suggests praying through her for anyone grieving the loss of family, a home, work or health. Tradition also counts her as a patron of people with epilepsy, headaches and mental illness, so many ask her prayers for minds and bodies under strain.",
+    "quotes": [
+      {
+        "text": "For the fig tree shall not blossom: and there shall be no spring in the vines. The labour of the olive tree shall fail: and the fields shall yield no food: the flock shall be cut off from the fold, and there shall be no herd in the stalls. But I will rejoice in the Lord: and I will joy in God my Jesus.",
+        "work": "Habacuc (Habakkuk) 3:17–18",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "O God, the giver of all good gifts, in Your servant Bibiana You joined the flower of virginity with the palm of martyrdom; be pleased, by her intercession, to join our souls by charity to You, so that all dangers being removed, we may obtain our eternal reward. Through our Lord Jesus Christ, Your Son, who lives and reigns with You in the unity of the Holy Spirit, for ever and ever. Amen.",
+      "kind": "traditional",
+      "source": "Collect for St. Bibiana (December 2) from the traditional Roman Missal (Latin: Deus, omnium largitor bonorum), English text as given by Catholic Culture",
+      "note": "This is the Church's older liturgical collect for her feast, addressed to God. It is not attributed to Bibiana. Catholic Culture does not name the source of its English translation.",
+      "link": {
+        "label": "Catholic Culture: Collect for Saint Bibiana",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=943"
+      }
+    },
+    "feastCustoms": [
+      "Remember her on December 2, when the Roman Martyrology commemorates her. Her day falls early in Advent, and is no longer a feast of the General Roman Calendar.",
+      "In Rome, her basilica of Santa Bibiana on the Esquiline is the place most closely tied to her memory.",
+      "Pray for someone grieving the loss of a loved one, a home, a job or their health, as Catholic Culture suggests for her day.",
+      "Pray for people living with epilepsy, chronic headaches or mental illness, and for those who care for them.",
+      "Pray the traditional collect for her feast, asking God to bind your heart to him in charity."
+    ],
+    "confirmationNote": "Bibiana suits a confirmand who has known loss, or who wants to stand with people suffering in mind and body. Her personal history is mostly unknown, and the Church is honest about the legend that grew around her. What remains certain is that early Roman Christians honored her as a martyr and built a church over her grave. Confirmation asks for that kind of steady faith when much else is taken away.",
+    "reflectionPrompts": [
+      "What have I lost that still weighs on me, and have I told God about it honestly?",
+      "Reach out this week to someone who is grieving, struggling with illness or living with mental illness.",
+      "Read the 1907 Catholic Encyclopedia article on St. Bibiana and separate what it calls historical (the Liber Pontificalis notice) from the later legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "agnes",
+        "reason": "Fellow Roman virgin martyr honored with an early basilica in the city",
+        "historical": true
+      },
+      {
+        "slug": "cecilia",
+        "reason": "Another Roman virgin martyr whose early cult outlasted a later legendary life",
+        "historical": false
+      },
+      {
+        "slug": "dymphna",
+        "reason": "Also invoked for people with mental illness",
+        "historical": false
+      },
+      {
+        "slug": "barbara",
+        "reason": "Another martyr whose familiar story the Church now treats as legend",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Bibiana",
+        "url": "https://www.newadvent.org/cathen/02542b.htm"
+      },
+      {
+        "title": "Vatican News: December 2 calendar",
+        "url": "https://www.vaticannews.va/en/saints/12/02.html"
+      },
+      {
+        "title": "Catholic Culture: December 2 (St. Bibiana, Virgin and Martyr, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-02"
+      },
+      {
+        "title": "Catholic Culture: Collect for Saint Bibiana",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=943"
+      },
+      {
+        "title": "Douay-Rheims Bible: Habacuc 3",
+        "url": "https://www.drbo.org/chapter/40003.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols has only two attributes with sourced meanings. Catholic Culture also lists a branch of a tree and a dagger, but no reputable source consulted explains them (popular sites link a branch to a healing herb said to grow at her church; that legend was not found in a Catholic source, so it was left out).",
+      "symbols: 'the column of her martyrdom is kept in her church' is a common tradition about Santa Bibiana but was not confirmed in a Vatican, diocesan or Catholic Culture source; a human may want to cut that sentence.",
+      "patronages: none included (review lists none). Catholic Culture lists epilepsy, hangovers, headaches, insanity and mental illness, single laywomen, torture victims, the Archdiocese of Los Angeles and Bibiana (Italy); none has a live topic. Caution: Catholic Culture says her relics are in the Los Angeles cathedral, but the Los Angeles patron is St. Vibiana, a different catacomb martyr whose remains were found in 1853 (feast September 1). Do not merge the two.",
+      "quotes: no writings by Bibiana exist; Habakkuk 3:17–18 (rejoicing in God when everything fails) checked at drbo.org.",
+      "places: none. No official website for the church of Santa Bibiana was verified.",
+      "feastCustoms: her removal from the General Roman Calendar is inferred from Catholic Culture listing her only as a Roman Martyrology commemoration.",
+      "biography: no disagreement. Catholic Culture narrates the legend as fact and gives 'died c. 361'; the Catholic Encyclopedia says the legend 'has no historical claim to belief'. Catholic Culture also names her guardian Fufina and dogs refusing her body, which are omitted as legend."
+    ]
+  },
+  "blaise": {
+    "templateVersion": 2,
+    "heroSummary": "St. Blaise is the saint Catholics invoke for ailments of the throat, and Catholic Culture also lists him as a patron of children because of the choking boy he is said to have saved. He was a bishop of Sebaste in Armenia who died a martyr about 316. His feast, February 3, brings the blessing of throats.",
+    "searchDescription": "St. Blaise, February 3: bishop and martyr of Sebaste, invoked against throat ailments, and the saint behind the blessing of throats with crossed candles.",
+    "patronages": [
+      "children"
+    ],
+    "symbols": [
+      {
+        "symbol": "Two crossed candles",
+        "meaning": "The candles used in the blessing of throats on his feast, joined in the form of a cross and held at the throat while the priest, deacon or lay minister asks God to protect the person through his intercession."
+      },
+      {
+        "symbol": "Boy choking on a fish bone",
+        "meaning": "The best-known episode of his Acts: tradition holds that he freed a child from a fish bone lodged in his throat. It is the root of his patronage of throat ailments."
+      },
+      {
+        "symbol": "Iron wool comb",
+        "meaning": "Tradition holds that his flesh was torn with iron combs like those used to card wool. The attribute made him a patron of wool-combers and wool workers."
+      },
+      {
+        "symbol": "Cave with wild animals",
+        "meaning": "His legendary Acts say hunters found him living in a wilderness cave among wild beasts, which is why art shows him with animals and why he is invoked for animals and livestock."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Blaise for the ordinary, frightening things that happen to bodies: a sore throat that will not go away, a child choking at the table, a cough that keeps a family awake. Tradition holds that he was a physician before he became a bishop and that he saved a boy who was choking on a fish bone. Very little about his life can be proved, but Christians have asked his help for throat illnesses since at least the eighth century. Each February, the blessing of throats lets whole parishes ask, together, for God's protection from illness of every kind.",
+    "quotes": [
+      {
+        "text": "My son, in thy sickness neglect not thyself, but pray to the Lord, and he shall heal thee.",
+        "work": "Ecclesiasticus (Sirach) 38:9",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "I am the good shepherd. The good shepherd giveth his life for his sheep.",
+        "work": "John 10:11",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Blaise the care of a physician and the heart of a shepherd, and he gave his life rather than deny you. Through his prayers, protect us from illnesses of the throat and from every other sickness. Watch over children, comfort anyone who struggles to breathe or swallow, and guide the hands of doctors and nurses. Let the words that pass our lips be truthful and kind, and give us the courage to speak of you without fear. We ask this through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Book of Blessings gives the words used in the blessing of throats: \"Through the intercession of Saint Blase, bishop and martyr, may God deliver you from every disease of the throat and from every other illness.\" See the full rite at Catholic Culture.",
+      "link": {
+        "label": "Book of Blessings: Blessing of Throats on the Feast of Saint Blase (Catholic Culture)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=733"
+      }
+    },
+    "feastCustoms": [
+      "Receive the blessing of throats on February 3, his optional memorial, wherever your parish offers it. A priest or deacon touches your throat with two crossed candles; within Mass the blessing follows the homily and the general intercessions.",
+      "Know that the Book of Blessings also lets a lay minister give the blessing, using the same words without making the sign of the cross.",
+      "Pray for anyone you know with a throat or breathing illness, and for the doctors, nurses and therapists who treat them.",
+      "In Dubrovnik, Croatia, where Blaise is the city's patron, the Festivity of St. Blaise, with its procession on February 3, is on UNESCO's list of intangible cultural heritage.",
+      "Review choking first aid as a family, a practical way to honor the saint remembered for helping a choking child."
+    ],
+    "confirmationNote": "Blaise suits a confirmand drawn to medicine, nursing or caring for the sick, or to the quiet courage of pastoral leadership. Tradition remembers him as a physician who became a bishop and refused to deny Christ. His feast puts faith into a simple sign, the blessing of throats, and reminds a young Christian that care for the body and for the soul belong together.",
+    "reflectionPrompts": [
+      "When I or someone I love is sick, do I bring it to God in prayer as well as to the doctor?",
+      "Learn or review how to help someone who is choking, and teach it to someone in your household.",
+      "Read the 1907 Catholic Encyclopedia article on St. Blaise and list which details it calls legendary and which it treats as probable."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ansgar",
+        "reason": "Shares the February 3 optional memorial",
+        "historical": true
+      },
+      {
+        "slug": "pantaleon",
+        "reason": "Fellow physician martyr counted among the Fourteen Holy Helpers",
+        "historical": false
+      },
+      {
+        "slug": "cosmas",
+        "reason": "Another early martyr remembered as a physician who healed in Christ's name",
+        "historical": false
+      },
+      {
+        "slug": "barbara",
+        "reason": "Fellow member of the Fourteen Holy Helpers, invoked in sudden danger",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: February 3 calendar (St. Blaise, Bishop of Sebaste and Martyr)",
+        "url": "https://www.vaticannews.va/en/saints/02/03.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Blaise",
+        "url": "https://www.newadvent.org/cathen/02592a.htm"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Blaise, Bishop and Martyr (February 3)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-02-03"
+      },
+      {
+        "title": "Catholic Culture: Book of Blessings, Blessing of Throats on the Feast of Saint Blase",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=733"
+      },
+      {
+        "title": "UNESCO Intangible Cultural Heritage: Festivity of Saint Blaise, the patron of Dubrovnik",
+        "url": "https://ich.unesco.org/en/RL/festivity-of-saint-blaise-the-patron-of-dubrovnik-00232"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ecclesiasticus 38",
+        "url": "https://www.drbo.org/chapter/26038.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 10",
+        "url": "https://www.drbo.org/chapter/50010.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. 'children' rests on Catholic Culture's patronage list (which also lists 'motorists'; that was left out as unexplained and minor). A human may prefer to drop 'children' too. Sourced but with no live topic: throat ailments and healthy throats, wool-combers and wool weavers, animals and livestock, veterinarians, wind-instrument players, Dubrovnik (Dalmatia), Paraguay.",
+      "symbols: crossed candles, wool comb, choking boy and hermit with wild animals all from Catholic Culture's symbol list; the cave and wild beasts, the fish-bone healing, and the blessing with crossed candles are also in the Catholic Encyclopedia. The wool-comb torture is not in the Catholic Encyclopedia article and is treated as tradition.",
+      "whyWeTurn/feastCustoms: 'since the eighth century' follows the Book of Blessings introduction as given by Catholic Culture. The USCCB page for the Book of Blessings rite could not be loaded (404), so the Catholic Culture reproduction of the rite was used.",
+      "feastCustoms: Dubrovnik details are from UNESCO (not a Catholic source) and are limited to what that page states.",
+      "quotes: no writings by Blaise exist; Sirach 38 (healing, physicians) and John 10:11 (the bishop as shepherd who gives his life) were checked at drbo.org.",
+      "prayer: the current Roman Missal collect is a copyrighted ICEL text, so an original prayer was written; the Book of Blessings formula is quoted only in the note and linked.",
+      "places: none. Relics are claimed in Dubrovnik, Maratea and elsewhere, but no official shrine website was verified.",
+      "biography: no disagreement. The reviewed biography says the fish-bone healing is part of devotional tradition; the Catholic Encyclopedia calls all particulars in the Acts 'purely legendary' while saying older traditions need not be rejected outright. The Catholic Encyclopedia also notes older Western martyrology dates of February 15 and an Eastern feast on February 11; this page keeps February 3, the Roman date."
+    ]
+  },
+  "blandina": {
+    "templateVersion": 2,
+    "heroSummary": "St. Blandina was an enslaved Christian woman martyred at Lyon in 177. Her story comes from an eyewitness letter of the churches of Vienne and Lyons, preserved by Eusebius, which shows the weakest prisoner becoming the strength of the others. She is remembered on June 2 with Pothinus and the martyrs of Lyon.",
+    "searchDescription": "St. Blandina, June 2: the enslaved Christian woman martyred at Lyon in 177, whose courage is recorded in a letter preserved by Eusebius.",
+    "symbols": [
+      {
+        "symbol": "Bull",
+        "meaning": "The letter preserved by Eusebius says that on the last day of the games she was wrapped in a net and thrown before a bull, which tossed her before she was killed. It is her most distinctive attribute."
+      },
+      {
+        "symbol": "Net",
+        "meaning": "The net in which she was enclosed before the bull, as the same letter records."
+      },
+      {
+        "symbol": "Bound to a stake or pillar",
+        "meaning": "She was hung on a stake in the amphitheater to be devoured by beasts. The letter says the other Christians, seeing her there, saw in their sister the image of the crucified Christ."
+      },
+      {
+        "symbol": "Lion and bear",
+        "meaning": "The wild beasts of the arena. Art often shows them near her, recalling that none of them touched her when she was first exposed."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Blandina when they feel small, overlooked or too weak to cope. She was enslaved, physically frail, and her fellow Christians feared she would break under torture. Instead, the letter from Lyon says, she kept repeating that she was a Christian and that Christians did nothing evil, and her steadiness strengthened everyone around her. Her story is unusually well documented for so early a martyr, written down by her own community soon after her death. She speaks to anyone without power or status, to people falsely accused, and to those who suffer for their faith.",
+    "quotes": [
+      {
+        "text": "I am a Christian, and there is nothing vile done by us.",
+        "work": "Letter of the Churches of Vienne and Lyons, quoted in Eusebius, Church History V.1.19 (Blandina's words under torture)",
+        "translation": "Arthur Cushman McGiffert, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890), public domain"
+      },
+      {
+        "text": "But the foolish things of the world hath God chosen, that he may confound the wise; and the weak things of the world hath God chosen, that he may confound the strong.",
+        "work": "1 Corinthians 1:27 (the passage the letter applies to Blandina)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "My grace is sufficient for thee; for power is made perfect in infirmity.",
+        "work": "2 Corinthians 12:9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you chose what the world thought weak and made it strong. You gave St. Blandina, a slave whom others feared would fail, the courage to confess you again and again, and through her you strengthened her companions. Through her prayers, stand beside all who are enslaved, trafficked or treated as worthless, and all who suffer for their faith. When we feel small and afraid, let us find our strength in you, and help us to encourage one another as she did. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on June 2. She is commemorated that day in the Roman Martyrology with Pothinus and the other martyrs of Lyon; the Mass of the day in the General Roman Calendar is the optional memorial of Sts. Marcellinus and Peter.",
+      "In France, and especially in Lyon, the martyrs of 177, Pothinus, Blandina and their companions, are honored on June 2 in the local calendar.",
+      "Read the letter of the churches of Vienne and Lyons in Eusebius, Church History, Book V, chapter 1, one of the oldest martyr accounts outside the New Testament.",
+      "Pray for victims of human trafficking and modern slavery, and support an organization that helps them.",
+      "Pray for Christians who are imprisoned or persecuted for their faith today."
+    ],
+    "confirmationNote": "Blandina suits a confirmand who feels overlooked or unsure of their own strength. She was enslaved and physically frail, yet her own community wrote that her courage carried the others through their ordeal. Confirmation is about the strength of the Holy Spirit given for witness, and Blandina shows that this strength does not depend on status, age or bodily power, but on God's grace.",
+    "reflectionPrompts": [
+      "Where do I feel too weak or unimportant to make a difference, and can I offer that weakness to God?",
+      "Encourage one person this week who is going through something hard, as Blandina encouraged the boy Ponticus.",
+      "Read Eusebius, Church History V.1, sections 17 to 19 and 41 to 56, and note how the letter describes Blandina's effect on the other prisoners."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "irenaeus-of-lyon",
+        "reason": "Presbyter of Lyon in 177 who carried the martyrs' letter to Rome and succeeded Pothinus as bishop",
+        "historical": true
+      },
+      {
+        "slug": "polycarp",
+        "reason": "Smyrna martyr of the same era whose disciple Irenaeus led the Lyon church after 177",
+        "historical": true
+      },
+      {
+        "slug": "felicity-of-carthage",
+        "reason": "Another early martyr who was enslaved, whose story was written down by her own community",
+        "historical": false
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "A modern saint who was enslaved as a child and found freedom and faith",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eusebius, Church History, Book V (trans. A. C. McGiffert, NPNF 2.1, 1890), New Advent",
+        "url": "https://www.newadvent.org/fathers/250105.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Blandina",
+        "url": "https://www.newadvent.org/cathen/02594a.htm"
+      },
+      {
+        "title": "Catholic Culture: June 2 (St. Blandina, Martyr, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-02"
+      },
+      {
+        "title": "Universalis: June 2 (France calendar, Sts. Pothinus and Blandina)",
+        "url": "https://universalis.com/20260602/today.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 1",
+        "url": "https://www.drbo.org/chapter/53001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 12",
+        "url": "https://www.drbo.org/chapter/54012.htm"
+      }
+    ],
+    "flags": [
+      "patronages: none included (review lists none). Catholic Culture lists falsely accused people, girls, Lyon and torture victims; none has a live topic.",
+      "symbols: bull and pillar with lion and bear are from Catholic Culture; the net is drawn directly from Eusebius V.1.56 rather than an iconography list, so a human may want to confirm it as an established attribute.",
+      "quotes: 'I am a Christian, and there is nothing vile done by us' verified word for word in McGiffert's translation at New Advent (V.1.19; New Advent notes the text is 'revised and edited' from the 1890 edition). Catholic Culture paraphrases it as 'I am a Christian, and we commit no wrong'; the McGiffert wording is used. 1 Cor 1:27 and 2 Cor 12:9 checked at drbo.org; the letter itself cites 1 Cor 1:27-28 in V.1.17.",
+      "feastCustoms: the French/Lyon observance rests on Universalis's France calendar and Vatican-derived summaries; the exact rank in the French proper calendar was not verified. Vatican News's June 2 page does not list her.",
+      "places: none. No official Catholic site dedicated to Blandina or the martyrs of Lyon was verified.",
+      "biography: no disagreement. Minor note: Eusebius says her 'earthly mistress' (a woman) was among the martyrs, while the Catholic Encyclopedia and Catholic Culture say she was arrested with her 'master'; this page avoids the point. The Catholic Encyclopedia also calls her a virgin, which Eusebius does not state."
+    ]
+  },
   "brigid-of-ireland": {
     "templateVersion": 2,
     "heroSummary": "St. Brigid of Kildare is a patron of Ireland, honored with Sts. Patrick and Columba as one of the country's three patron saints. She is remembered as abbess of Kildare, a community of women and men that became a center of worship and learning. Her feast is February 1, and many stories told of her are legend.",
