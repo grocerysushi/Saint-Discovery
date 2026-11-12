@@ -7703,6 +7703,548 @@
       "biography: no disagreement. Minor note: Eusebius says her 'earthly mistress' (a woman) was among the martyrs, while the Catholic Encyclopedia and Catholic Culture say she was arrested with her 'master'; this page avoids the point. The Catholic Encyclopedia also calls her a virgin, which Eusebius does not state."
     ]
   },
+  "bonaventure": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bonaventure, born Giovanni Fidanza at Bagnoregio, was a Franciscan theologian at Paris, minister general of his order from 1257, and a cardinal who helped prepare the Second Council of Lyon, where he died in 1274. Called the Seraphic Doctor, he wrote the Legenda Major life of Francis. His memorial is July 15.",
+    "searchDescription": "St. Bonaventure, feast July 15: Franciscan theologian, minister general and cardinal, the Seraphic Doctor who wrote a life of St. Francis and died at Lyon.",
+    "symbols": [
+      {
+        "symbol": "Cardinal's hat",
+        "meaning": "Gregory X made him cardinal-bishop of Albano in 1273. A well-loved story says the papal envoys found him washing dishes and he asked them to hang the hat on a tree until his hands were free."
+      },
+      {
+        "symbol": "Franciscan habit",
+        "meaning": "His life as a friar of the order founded by St. Francis, which he led as minister general for seventeen years."
+      },
+      {
+        "symbol": "Book and pen",
+        "meaning": "His work as a teacher and writer, from his theology at Paris to the Journey of the Mind to God and his life of St. Francis."
+      },
+      {
+        "symbol": "Ciborium or the Host (Holy Communion)",
+        "meaning": "His reverence for the Eucharist. A later pious tradition, popular in seventeenth-century art, says that when he held back from Communion out of humility, an angel brought him the Host."
+      },
+      {
+        "symbol": "Crucifix",
+        "meaning": "His writings urge the faithful to keep Christ crucified before the eyes of the heart; he saw the cross as the way into the love of God."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Bonaventure when they want their study and their prayer to belong together. He was one of the great teachers of the University of Paris, yet he wrote that all learning should lead the mind back to God. As minister general he held together an order divided over how to live Francis's poverty, and he wrote its common life of the founder as a work of peace. He never forgot that, as a sick child, he believed he was saved through Francis's prayers. Students, teachers, leaders and anyone trying to keep the peace in a divided community find in him a gentle, humble guide.",
+    "quotes": [
+      {
+        "text": "For I, who remember as though it happened but yesterday how I was snatched from the jaws of death, while yet a child, by his invocation and merits, should fear to be convicted of the sin of ingratitude did I refrain from publishing his praises.",
+        "work": "Life of St. Francis (Legenda Major), Prologue, 3",
+        "translation": "E. Gurney Salter, The Life of Saint Francis by Saint Bonaventura (Temple Classics, London: J. M. Dent, 1904; public domain)"
+      },
+      {
+        "text": "I deemed it best to shun all fantastic ornaments of style, forasmuch as that the devotion of the reader increaseth more by a simple than by an ornate speech.",
+        "work": "Life of St. Francis (Legenda Major), Prologue, 4",
+        "translation": "E. Gurney Salter, The Life of Saint Francis by Saint Bonaventura (Temple Classics, London: J. M. Dent, 1904; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Bonaventure a mind eager for truth and a heart on fire with love for you. Through his prayers, let everything I study and learn lead me back to you, the source of all wisdom. Keep me humble when I succeed and patient when I struggle. Make me, like him, a builder of peace in my family, my school and my community, able to hold people together when they disagree. Draw me each day closer to the crucified Christ, and teach me to love what I come to know. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate July 15, St. Bonaventure's memorial in the universal Roman calendar, by joining your parish for Mass or praying the day's Liturgy of the Hours.",
+      "Read a chapter of his Life of St. Francis or of his Journey of the Mind to God, as Catholic Culture suggests for his day.",
+      "In Bagnoregio, his birthplace, the eve of the feast brings a candlelit procession with his statue and the relic of his arm, which is kept in the town's co-cathedral; remember that local devotion in prayer wherever you are.",
+      "In Lyon, visit or pray with the Basilica of Saint-Bonaventure, built by the Franciscans over the place where he was buried in 1274.",
+      "Pray for Christian unity, recalling his work to prepare the Council of Lyon, which sought to reunite the Greek and Latin Churches."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Saint-Bonaventure, built over his original tomb",
+        "city": "Lyon, France",
+        "url": "https://saint-bonaventure.fr/"
+      }
+    ],
+    "confirmationNote": "Bonaventure suits a confirmand who loves to learn, asks big questions or is drawn to St. Francis. He was a brilliant teacher who never separated thinking from praying, and a leader who worked patiently for peace in a divided community. He also had the humility to finish washing dishes before accepting a cardinal's hat, as the story goes. Confirmation strengthens the gift of wisdom, and Bonaventure shows how knowledge can become love.",
+    "reflectionPrompts": [
+      "Does what I learn bring me closer to God, or do I keep my studies and my prayer in separate rooms?",
+      "This week, act as a peacemaker in one disagreement at home, school or work, listening first to the side you find hardest to understand.",
+      "Read the Prologue of Bonaventure's Life of St. Francis in E. Gurney Salter's 1904 translation and note the reasons he gives for writing it."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of his order, whose official life he wrote",
+        "historical": true
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "Fellow theologian at Paris; both died in 1274",
+        "historical": true
+      },
+      {
+        "slug": "anthony-of-padua",
+        "reason": "Fellow Franciscan and Doctor of the Church",
+        "historical": true
+      },
+      {
+        "slug": "albert-the-great",
+        "reason": "Thirteenth-century scholar and Doctor of the Church who joined faith and learning",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: St. Bonaventure (July 15)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-07-15"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Bonaventure",
+        "url": "https://www.newadvent.org/cathen/02648c.htm"
+      },
+      {
+        "title": "Benedict XVI, General Audience on St. Bonaventure (3 March 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100303.html"
+      },
+      {
+        "title": "Vatican News: July 15 calendar",
+        "url": "https://www.vaticannews.va/en/saints/07/15.html"
+      },
+      {
+        "title": "EWTN: St. Bonaventure",
+        "url": "https://www.ewtn.com/catholicism/saints/bonaventure-503"
+      },
+      {
+        "title": "EWTN News: Birthplace of St. Bonaventure celebrates his feast day",
+        "url": "https://www.ewtnnews.com/world/europe/photos-birthplace-of-st-bonaventure-celebrates-his-feast-day"
+      },
+      {
+        "title": "Christian Iconography (Richard Stracke): Saint Bonaventure",
+        "url": "https://www.christianiconography.info/bonaventure.html"
+      },
+      {
+        "title": "Bonaventure, The Life of Saint Francis, trans. E. Gurney Salter (J. M. Dent, 1904), Internet Archive",
+        "url": "https://archive.org/details/TheLifeOfSaintFrancis"
+      },
+      {
+        "title": "Basilique Saint-Bonaventure, Lyon: Histoire",
+        "url": "https://saint-bonaventure.fr/sanctuaire/histoire/"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists bowel disorders, Bagnoregio, Banja Luka, Cochiti Pueblo and St. Bonaventure University; EWTN says Lyon chose him as patron after 1434. None has a live topic. Review lists none.",
+      "symbols: the cardinal's hat story is told as fact by the Catholic Encyclopedia and EWTN but framed here as a well-loved story. The ciborium/Communion attribute is listed by Catholic Culture; the angel story behind it appears in later devotional writing and art (e.g. Francisco Herrera the Elder, 1628) but I found no early source, so it is labeled pious tradition. Crucifix and book/pen follow Christian Iconography (Stracke).",
+      "quotes: both checked against the Internet Archive scan of the 1904 Temple Classics translation (the translator's note names 'Miss … Gurney Salter'; OCR reads 'B.'; the translator is usually catalogued as Emma Gurney Salter). I found no verifiable pre-1929 public-domain English translation of the Journey of the Mind to God, so nothing is quoted from it.",
+      "places: only one. The Bagnoregio co-cathedral holding his arm relic has no official website I could verify. The Lyon basilica's site says it was built on his tomb; his body was burned by Huguenots in 1562 (Catholic Encyclopedia), so no relics are claimed there.",
+      "feastCustoms: the Bagnoregio procession follows EWTN News coverage of 2023; details may vary by year.",
+      "biography: no disagreement. Sources give a birth year the review avoids (Catholic Culture and the Catholic Encyclopedia: 1221; some others 1217). The Catholic Encyclopedia's date for his being named Doctor of the Church by Sixtus V ('14 March, 1557') cannot be right, since Sixtus V reigned 1585–1590; no date is used here."
+    ]
+  },
+  "boniface": {
+    "templateVersion": 2,
+    "heroSummary": "St. Boniface, born Winfrid in Anglo-Saxon England, was a monk and teacher who became the Apostle of Germany. Sent by Pope Gregory II, he preached, organized dioceses and founded monasteries, and as an old man he was martyred in Frisia with his companions. He is buried at Fulda, and his memorial is June 5.",
+    "searchDescription": "St. Boniface, feast June 5: English monk Winfrid who became the Apostle of Germany, organized its Church and died a martyr in Frisia about 754.",
+    "symbols": [
+      {
+        "symbol": "Axe and fallen oak",
+        "meaning": "At Geismar, near Fritzlar, he cut down an oak the people held sacred to the god Thor and used its wood for a chapel dedicated to St. Peter, showing that the old gods had no power over him."
+      },
+      {
+        "symbol": "Book pierced by a sword",
+        "meaning": "His martyrdom at Dokkum. Christians who returned found a bloodstained book beside his body; tradition says he raised a book over his head as the blow fell."
+      },
+      {
+        "symbol": "Book and pen",
+        "meaning": "The teacher and letter-writer: his correspondence with friends in England and with the popes is one of the great records of his mission."
+      },
+      {
+        "symbol": "Sword",
+        "meaning": "The instrument of his death as a martyr, when he forbade his companions to fight back."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Boniface when they are asked to carry a work bigger than their strength. He left a settled life as a respected teacher in England, turned down the chance to remain there as abbot, failed on his first mission, and went back. For decades he preached, built churches and monasteries, and organized the Church in Germany, while his letters show how much he leaned on the prayers and gifts of friends at home. In his old age he returned to the mission field and died with his companions, refusing to let them fight. Missionaries, teachers, people far from home and anyone called to hold firm under pressure find in him a steady companion.",
+    "quotes": [
+      {
+        "text": "Let us not be dumb dogs nor silent watchmen, nor hirelings who flee before the wolf, but zealous shepherds, watching over the flock of Christ, preaching the whole counsel of Christ, to high and low, to rich and poor.",
+        "work": "Letter to Cuthbert, Archbishop of Canterbury (Kylie no. XLII, about 747)",
+        "translation": "Edward Kylie, The English Correspondence of Saint Boniface (London: Chatto & Windus, 1911; public domain)"
+      },
+      {
+        "text": "Let us put our trust in Him, who hath put the burden upon us. What we cannot carry ourselves, let us carry through Him who is Omnipotent.",
+        "work": "Letter to Cuthbert, Archbishop of Canterbury (Kylie no. XLII, about 747)",
+        "translation": "Edward Kylie, The English Correspondence of Saint Boniface (London: Chatto & Windus, 1911; public domain)"
+      },
+      {
+        "text": "Have pity on them because even they themselves are wont to say \"We are of one blood and one bone.\"",
+        "work": "Letter to all the English, asking prayers for the conversion of the Saxons (Kylie no. XLV, about 737)",
+        "translation": "Edward Kylie, The English Correspondence of Saint Boniface (London: Chatto & Windus, 1911; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you sent St. Boniface far from his home to bring the Gospel to people who did not yet know you. Through his prayers, give me courage when you ask more of me than I think I can carry, and remind me to carry it through you. Make me faithful in teaching and living the faith I have received, and generous in supporting those who proclaim it in hard places. Keep me close to the Church and to my friends in prayer, and if I am ever tested, let me answer with peace and not with violence. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Celebrate June 5, St. Boniface's memorial in the universal Roman calendar; Pope Pius IX extended his feast to the whole Church in 1874. The day's Collect asks that we may firmly hold the faith he taught.",
+      "In Crediton, Devon, traditionally named as his birthplace, St. Boniface Day has been marked with services and a procession to his statue, ending at the Catholic National Shrine of St. Boniface.",
+      "Pray at his tomb in Fulda Cathedral, or take the Diocese of Fulda's virtual tour of the cathedral and his grave.",
+      "Following his own request to the English, pray for people who have not yet heard the Gospel and support a missionary or mission society.",
+      "Read one of his letters in Edward Kylie's 1911 English Correspondence of Saint Boniface, as Catholic Culture suggests, or bake a German treat in honor of the patron of Germany."
+    ],
+    "places": [
+      {
+        "name": "Fulda Cathedral (Dom St. Salvator), with the tomb of St. Boniface",
+        "city": "Fulda, Germany",
+        "url": "https://www.bistum-fulda.de/bistum_fulda/kunst_musik/kunst/dom/virtueller_domrundgang/"
+      },
+      {
+        "name": "St. Boniface Catholic Church, National Shrine of St. Boniface",
+        "city": "Crediton, England",
+        "url": "https://www.catholicchurchcrediton.org/"
+      }
+    ],
+    "confirmationNote": "Boniface suits a confirmand who is brave, organized, or ready to leave a comfortable place for something harder. He gave up a respected position in England, kept going after early failure, and built up the Church in a new land through preaching, teaching and patient planning. He died refusing to meet violence with violence. Confirmation strengthens Christians to witness boldly, and Boniface shows that courage and careful work belong together.",
+    "reflectionPrompts": [
+      "What burden am I trying to carry on my own that I could carry \"through Him who is Omnipotent\"?",
+      "Write to someone serving far from home, such as a missionary, a soldier or a friend abroad, and promise them your prayers.",
+      "Read Boniface's letter to Cuthbert (no. XLII) in Edward Kylie's 1911 translation and list the qualities he asks of a good shepherd."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gregory-ii",
+        "reason": "The pope who gave him the name Boniface and sent him to the Germans",
+        "historical": true
+      },
+      {
+        "slug": "willibrord",
+        "reason": "English missionary under whom he worked in Frisia for three years",
+        "historical": true
+      },
+      {
+        "slug": "lioba",
+        "reason": "English nun he called to Germany and made an abbess",
+        "historical": true
+      },
+      {
+        "slug": "ansgar",
+        "reason": "Later Benedictine missionary who carried the Gospel further north",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: St. Boniface (June 5)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-06-05"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): St. Boniface",
+        "url": "https://www.newadvent.org/cathen/02656a.htm"
+      },
+      {
+        "title": "Benedict XVI, General Audience on St. Boniface (11 March 2009)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090311.html"
+      },
+      {
+        "title": "Vatican News: June 5 calendar",
+        "url": "https://www.vaticannews.va/en/saints/06/05.html"
+      },
+      {
+        "title": "Edward Kylie, The English Correspondence of Saint Boniface (1911), Internet Archive",
+        "url": "https://archive.org/details/cihm_84747"
+      },
+      {
+        "title": "Diocese of Plymouth: Saint Boniface set to become Patron Saint of Devon",
+        "url": "https://www.plymouth-diocese.org.uk/saint-boniface-saint-of-devon/"
+      },
+      {
+        "title": "Diocese of Fulda: Virtual tour of the cathedral and the grave of St. Boniface",
+        "url": "https://www.bistum-fulda.de/bistum_fulda/kunst_musik/kunst/dom/virtueller_domrundgang/"
+      },
+      {
+        "title": "St Boniface Catholic Church, Crediton: National Shrine of St Boniface",
+        "url": "https://www.catholicchurchcrediton.org/"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists Germany, brewers, file cutters and tailors, plus Exeter, Winchester, the diocese of Plymouth, Mainz, Thuringia, the diocese of Fulda and the archdiocese of Saint-Boniface (Manitoba); the Diocese of Plymouth reports Devon adopting him as county patron. None has a live topic. Review lists none.",
+      "symbols: only 4, all from Catholic Culture's list (axe; fallen oak; Bible transfixed by sword; book and pen; sword). Its raven, fox, scourge and club were left out because I found no explanation of them. The popular story that he gave the Germans the Christmas tree is later legend and is not used.",
+      "quotes: all three checked against the Internet Archive scan of Kylie (1911). OCR errors corrected: 'betore' to 'before', 'ot' to 'of'. Letter XLII is dated by Kylie '747+'.",
+      "feastCustoms: the Crediton procession follows one year's Diocese of Plymouth notice; details may vary. A diocesan Bonifatiusfest at Fulda is widely reported but I found no page on the diocese's own site, so it is not stated.",
+      "places: the Fulda link is the Diocese of Fulda's official cathedral virtual-tour page (the diocese's own page for the cathedral returned an error).",
+      "biography: no disagreement. Sources give dates the review avoids: Benedict XVI says born about 675; the Catholic Encyclopedia says 672–680 and death 5 June 754 or 755 with 52 (or 37) companions; Catholic Culture says c. 673–680. The Catholic Encyclopedia says his birthplace is uncertain; Crediton is the traditional site."
+    ]
+  },
+  "brendan-the-navigator": {
+    "templateVersion": 2,
+    "heroSummary": "St. Brendan of Clonfert was a sixth-century Irish abbot and monastic founder, remembered as one of the Twelve Apostles of Ireland. Clonfert and Ardfert grew from his foundations. His fame as \"the Navigator\" comes from the medieval Voyage of St. Brendan, a legend of a sea journey to a promised land. His feast is May 16.",
+    "searchDescription": "St. Brendan the Navigator, feast May 16: sixth-century Irish abbot of Clonfert, with his history kept separate from the legendary Voyage of St. Brendan.",
+    "symbols": [
+      {
+        "symbol": "Monks in a small boat",
+        "meaning": "The Voyage tells of Brendan sailing with his monks in a hide-covered boat in search of a promised land; it pictures the monastic life as a pilgrimage that trusts God to steer. The voyage itself is legend."
+      },
+      {
+        "symbol": "Whale",
+        "meaning": "In the legend, the monks land on what they think is an island, light a fire and celebrate Easter, then find it is a great fish. The story shows God's care for them in a strange sea."
+      },
+      {
+        "symbol": "Mass on board ship with fish gathering to listen",
+        "meaning": "Another episode of the legend: as Brendan sings Mass at sea, crowds of fish rise to swim around the boat until the Mass ends, showing all creation honoring God."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Brendan when they set out into the unknown. Behind the legend stands a real Irish abbot who founded monasteries in Kerry, Galway and beyond and traveled for the sake of the Gospel. The Voyage of St. Brendan, written down centuries later, is not a ship's log, but its picture of monks who keep the feasts of the Church on a vast sea and trust God as their pilot has encouraged readers for a thousand years. Sailors, fishermen, travelers, emigrants and anyone facing a journey or a new beginning find in him a brave and hopeful companion.",
+    "quotes": [
+      {
+        "text": "Fear not, brothers, for our God will be unto us a helper, a mariner, and a pilot; take in the oars and helm, keep the sails set, and may God do unto us, His servants and His little vessel, as He willeth.",
+        "work": "Navigatio Sancti Brendani (Voyage of St. Brendan), ch. 2; words the legend gives to Brendan",
+        "translation": "Denis O'Donoghue, Brendaniana: St. Brendan the Voyager in Story and Legend (Dublin: Browne & Nolan, 1893; public domain)"
+      },
+      {
+        "text": "Is not the Almighty God the pilot of our vessel? Leave her, therefore, in His hands, for He will guide her course as He willeth.",
+        "work": "Navigatio Sancti Brendani (Voyage of St. Brendan); words the legend gives to Brendan",
+        "translation": "Denis O'Donoghue, Brendaniana: St. Brendan the Voyager in Story and Legend (Dublin: Browne & Nolan, 1893; public domain)"
+      },
+      {
+        "text": "They that go down to the sea in ships, doing business in the great waters: These have seen the works of the Lord, and his wonders in the deep.",
+        "work": "Psalm 106:23–24 (Psalm 107:23–24 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Brendan to leave what was familiar and to seek you with his whole heart. Through his prayers, be the pilot of my life when I cannot see the shore. When I set out on a journey, a new work or a new home, give me courage to begin and trust to let you steer. Protect all who travel and work on the sea, and bring them safely home. Keep me faithful to prayer along the way, as Brendan and his monks kept your feasts on the open water, until I reach the promised land of your presence. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "A short prayer often attributed to Brendan (\"O Lord, protect me, for the sea is so vast and my boat is so small\") is quoted by the Diocese of Kerry as \"attributed\" to him; its origin is uncertain, so it is not presented here as his."
+    },
+    "feastCustoms": [
+      "May 16 is not in the universal Roman calendar, but the Roman Martyrology lists St. Brendan, Abbot of Clonfert, and he is honored in Ireland, especially in the dioceses of Kerry and Clonfert, which claim him as patron; ask whether your parish will remember him.",
+      "In Fenit, Co. Kerry, near his traditional birthplace, the community holds an annual festival around his feast, which has included Mass, a procession and a pilgrim walk.",
+      "Make a pilgrimage up Mount Brandon on the Dingle Peninsula, where tradition places his hermitage; the Diocese of Kerry records that pilgrims once circled the summit praying the Rosary and drank from St. Brendan's well. May 16 was one of its traditional pilgrimage days.",
+      "Pray for sailors, fishermen and travelers, whom Catholic tradition places under his patronage, and for emigrants making a new home far away.",
+      "Read part of the Voyage of St. Brendan as a spiritual allegory, noticing how the monks keep Easter, Pentecost and the other feasts of the Church year at sea."
+    ],
+    "places": [
+      {
+        "name": "St. Brendan's Cathedral, cathedral of the Catholic Diocese of Clonfert",
+        "city": "Loughrea, Ireland",
+        "url": "https://www.loughreacathedral.ie/"
+      }
+    ],
+    "confirmationNote": "Brendan suits a confirmand who is adventurous, loves the sea or the outdoors, or is about to face a big change. He was a real Irish monk and founder, and the legend that grew around him pictures faith as a voyage in which God is the pilot. Confirmation sends Christians out to bear witness wherever life takes them, and Brendan offers a patron for setting out with courage and trust.",
+    "reflectionPrompts": [
+      "Where is God asking me to set out into something unfamiliar, and what makes me hesitate?",
+      "Before your next journey, even a short one, pause to pray for safe travel and for everyone who works on the roads or the sea.",
+      "Read chapter 2 of the Voyage of St. Brendan in Denis O'Donoghue's 1893 Brendaniana, then compare it with the Catholic Encyclopedia's article on St. Brendan to see what is history and what is legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "columba-of-iona",
+        "reason": "Adomnán's Life of Columba records Brendan visiting him on the island of Hinba",
+        "historical": true
+      },
+      {
+        "slug": "kevin",
+        "reason": "Fellow sixth-century Irish monastic founder, at Glendalough",
+        "historical": true
+      },
+      {
+        "slug": "brigid-of-ireland",
+        "reason": "Irish monastic founder of the generation before him",
+        "historical": true
+      },
+      {
+        "slug": "christopher",
+        "reason": "Another saint traditionally invoked by travelers",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1907): St. Brendan",
+        "url": "https://www.newadvent.org/cathen/02758c.htm"
+      },
+      {
+        "title": "Catholic Culture: St. Brendan, Abbot (May 16)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-05-16"
+      },
+      {
+        "title": "Diocese of Kerry: St Brendan (archived June 2025)",
+        "url": "https://web.archive.org/web/20250622111250/https://www.dioceseofkerry.ie/our-diocese/genealogy/saints/st-brendan/"
+      },
+      {
+        "title": "Diocese of Kerry: Celebrating St Brendan, the Navigator (archived May 2026)",
+        "url": "https://web.archive.org/web/20260510180542/https://www.dioceseofkerry.ie/our-diocese/pilgrimages/national/celebrating-st-brendan/"
+      },
+      {
+        "title": "Diocese of Kerry: Mount Brandon (archived May 2025)",
+        "url": "https://web.archive.org/web/20250521054052/https://www.dioceseofkerry.ie/our-diocese/pilgrimages/national/mount-brandon/"
+      },
+      {
+        "title": "Diocese of Kerry: Ardfert Cathedral (archived May 2025)",
+        "url": "https://web.archive.org/web/20250521042741/https://www.dioceseofkerry.ie/our-diocese/pilgrimages/national/ardfert-cathedral/"
+      },
+      {
+        "title": "Denis O'Donoghue, Brendaniana (1893), Internet Archive",
+        "url": "https://archive.org/details/Brendaniana"
+      },
+      {
+        "title": "Adomnán, Life of St. Columba, Internet Medieval Sourcebook, Fordham University",
+        "url": "https://sourcebooks.fordham.edu/basis/columba-e.asp"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 106",
+        "url": "https://www.drbo.org/chapter/21106.htm"
+      },
+      {
+        "title": "Diocese of Clonfert and Diocese of Galway: Cathedral of St Brendan, Loughrea",
+        "url": "https://clonfertgalway.ie/church/loughrea/cathedral-of-st-brendan/"
+      },
+      {
+        "title": "Cathedral Parish of Loughrea: St. Brendan's Cathedral",
+        "url": "https://www.loughreacathedral.ie/"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists boatmen, mariners, sailors, travelers, watermen and whales, and the dioceses of Ardfert, Clonfert and Kerry; the Diocese of Kerry calls him patron of Kerry and Clonfert. None has a live topic. Review lists none.",
+      "symbols: only 3, all from Catholic Culture's list (monks in a small boat; whale; Mass on shipboard with fish listening). All three come from the Navigatio legend and are labeled as such; the episodes were checked in O'Donoghue's 1893 translation. I found no reputable source naming further attributes such as an abbot's crozier.",
+      "quotes: Brendan left no writings. The two Navigatio sayings are words a tenth- or eleventh-century legend puts in his mouth, checked against the Internet Archive scan of O'Donoghue (1893); OCR errors corrected ('Pear' to 'Fear', stray 'I' after 'oars', '^he' to 'the', 'H^willeth' to 'He willeth'). The second quote's chapter number was not confirmed. Psalm 106:23–24 checked on drbo.org.",
+      "feastCustoms: the Diocese of Kerry's St Brendan, Mount Brandon and Fenit festival pages now return 404 on the live site, so archived copies are cited; the Fenit details describe the 2025 festival and may change. The liturgical rank of May 16 in Ireland's proper calendar was not verified, so no rank is given.",
+      "places: Clonfert Cathedral, where he is buried, is now a Church of Ireland cathedral and was not listed. Mount Brandon and Ardfert have no official site of their own; the live Diocese of Kerry homepage is given instead. 'Killarney' is the seat of the Diocese of Kerry.",
+      "relatedSaints: the Fordham Life of Columba also mentions a 'Brenden' who founded Birr; that is St. Brendan of Birr. Only the Hinba visit by 'Brenden Mocu Alti' (Brendan of Clonfert) is used.",
+      "biography: no disagreement. Sources give dates the review avoids: Catholic Encyclopedia born 484, died 577 at Annaghdown; Diocese of Kerry (Annals of Inisfallen) 486–570; Kerry's Mount Brandon page says 483. Kerry also cites Tim Severin's 1970s voyage as showing such a crossing was possible, which the review rightly does not treat as proof."
+    ]
+  },
+  "bridget-of-sweden": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bridget of Sweden is a co-patron of Europe, named by John Paul II in 1999. A Swedish noblewoman, wife and mother of eight, she turned after her husband's death to prayer, founded the Order of the Most Holy Savior, and from Rome urged the popes to return from Avignon. Her feast is July 23.",
+    "searchDescription": "St. Bridget of Sweden (about 1303–1373), feast July 23: wife, mother of eight, mystic, founder of the Bridgettines and co-patron of Europe.",
+    "patronages": [
+      "europe"
+    ],
+    "symbols": [
+      {
+        "symbol": "Pilgrim's staff, flask and purse",
+        "meaning": "Her many pilgrimages: to Santiago de Compostela with her husband Ulf in 1341, to shrines across Italy, and finally to the Holy Land in 1371–1372."
+      },
+      {
+        "symbol": "Book, pen or open book with a dove",
+        "meaning": "The Revelations she dictated to her confessors, who put them into Latin; the dove stands for the Holy Spirit, and some paintings show an angel speaking in her ear as she writes."
+      },
+      {
+        "symbol": "Heart marked with a cross",
+        "meaning": "Her lifelong devotion to the Passion of Christ, which runs through her Revelations and is named in the Church's prayer for her feast."
+      },
+      {
+        "symbol": "Bridgettine habit, often with a crosier, kneeling before a crucifix",
+        "meaning": "Her role as foundress of the Order of the Most Holy Savior and her prayer before the crucified Lord. The crosier is an artistic convention: she governed no abbey herself, and her daughter Catherine was the first abbess."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Bridget because she lived the whole arc of an ordinary Christian life and let God lead her through each part. For twenty-eight years she was a wife and mother who prayed with her husband, raised eight children and cared for the sick. As a widow she gave her possessions to the poor and listened for what Christ asked next. She spoke frankly to kings and popes about reform, yet stayed faithful to the Church. Married couples, widows, parents and anyone facing a new chapter of life find in her a companion, and Benedict XVI hoped her prayers would help Christians grow toward full unity.",
+    "quotes": [
+      {
+        "text": "With Christ I am nailed to the cross. And I live, now not I; but Christ liveth in me. And that I live now in the flesh: I live in the faith of the Son of God, who loved me, and delivered himself for me.",
+        "work": "Galatians 2:19–20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Speak, Lord, for thy servant heareth.",
+        "work": "1 Kings (1 Samuel) 3:10",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you led St. Bridget through marriage, motherhood, widowhood and pilgrimage, and taught her to find you in every season of life. Through her prayers, help me to listen for your voice and to follow where you lead. Let your Passion teach me how much you love me. Bless husbands and wives, parents and children, and all who grieve. Give courage to those who must speak the truth with love, and heal the divisions among Christians, so that Europe and the whole world may know your peace. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The \"Fifteen Prayers\" (\"Fifteen O's\") are popularly attributed to St. Bridget, but that attribution is doubtful, and the \"promises\" attached to them are not authentic teaching: in 1954 the Holy Office warned that their supernatural origin is uncertain and told bishops not to permit their publication."
+    },
+    "feastCustoms": [
+      "Attend Mass on July 23, an optional memorial in the General Roman Calendar; in Europe, where she is a co-patron, she receives the higher liturgical honors given to principal patrons.",
+      "Spend time with Christ's Passion, the center of her prayer: pray the Stations of the Cross or slowly read one Gospel account of the crucifixion.",
+      "Pray for Christian unity, the grace Benedict XVI asked her to obtain, perhaps together with Christians of another tradition.",
+      "If you are married, pray with your spouse and do one work of mercy together, as Bridget and Ulf did when they founded a small hospital and cared for the sick.",
+      "Learn about the Bridgettine sisters today, the branch of her order renewed by St. Mary Elizabeth Hesselblad, and pray for their work of hospitality and prayer."
+    ],
+    "places": [
+      {
+        "name": "Casa di Santa Brigida, Piazza Farnese (the Order of the Most Holy Savior of St. Bridget, where the rooms in which she lived and died are kept)",
+        "city": "Rome, Italy",
+        "url": "https://www.brigidine.org/"
+      }
+    ],
+    "confirmationNote": "Bridget suits a confirmand who wants to take the Holy Spirit's guidance seriously at every stage of life. She did not wait to become holy: as a teenage bride, a busy mother and later a widow, she prayed, studied Scripture, served the poor and finally stepped into a mission no one expected. She also shows that faith can speak honestly and courageously, even to the powerful, while staying loyal to the Church.",
+    "reflectionPrompts": [
+      "Which season of my life am I in now, and what might Christ be asking of me in it?",
+      "Choose one person in your family this week and serve them in a concrete, unnoticed way.",
+      "Read John Paul II's apostolic letter Spes Aedificandi (1999), sections 4–5, on why he named Bridget a co-patron of Europe."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "catherine-of-sweden",
+        "reason": "Her daughter, who brought her body home to Vadstena and became the order's first abbess",
+        "historical": true
+      },
+      {
+        "slug": "el-bieta-hesselblad",
+        "reason": "Swedish convert who renewed the Bridgettine order in Rome",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Fellow co-patron of Europe who carried on Bridget's appeal for the pope's return from Avignon",
+        "historical": true
+      },
+      {
+        "slug": "edith-stein",
+        "reason": "Named co-patron of Europe in the same 1999 letter",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "John Paul II, Apostolic Letter Spes Aedificandi (1 October 1999), proclaiming Bridget, Catherine of Siena and Teresa Benedicta of the Cross co-patronesses of Europe",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_01101999_co-patronesses-europe.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience, 27 October 2010: Saint Bridget of Sweden",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101027.html"
+      },
+      {
+        "title": "Vatican News: Saint of the day, 23 July (St. Bridget, Religious, Patron of Europe)",
+        "url": "https://www.vaticannews.va/en/saints/07/23.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 23 (Optional Memorial of St. Bridget)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-23"
+      },
+      {
+        "title": "Warning of the Holy Office concerning the \"Promises of St. Bridget\" (28 January 1954), Catholic Culture Library",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=5217"
+      },
+      {
+        "title": "Ordine del SS. Salvatore di Santa Brigida (official website)",
+        "url": "https://www.brigidine.org/"
+      },
+      {
+        "title": "Casa di Santa Brigida, Rome (house of the Order)",
+        "url": "https://www.casabrigidaroma.it/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Galatians 2",
+        "url": "https://www.drbo.org/chapter/55002.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Kings (1 Samuel) 3",
+        "url": "https://www.drbo.org/chapter/09003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: 'europe' from Spes Aedificandi and Vatican News. Catholic Culture also lists Sweden and widows; both are sourced but have no live topic. Review lists none (reviewed_patron_of is null), so a human should reconcile.",
+      "symbols: all from Catholic Culture's list (pilgrim's staff, flask and purse; open book with dove; crosier; heart with a cross; book; portrayal as an abbess in Brigittine robes, before a crucifix, or writing with an angel at her ear). Meanings rest on Spes Aedificandi and Benedict XVI's audience. Catholic Culture also lists a taper, lute, chain, shell and 'head with a cross'; these were left out because no reputable source gave their meaning. Benedict XVI notes she never became a consecrated religious herself, hence the remark that the crosier is an artistic convention.",
+      "quotes: no public-domain English translation of her Revelations was verified, so only Douay-Rheims Scripture is used. Benedict XVI quotes the Revelations in a modern Vatican translation (copyright), not reproduced.",
+      "prayer: original. The collect for her memorial (ICEL) is copyrighted and was not reproduced. The Fifteen Prayers are not offered as hers; the 1954 Holy Office warning (Catholic Culture Library) says the promises' supernatural origin is 'uncertain' and forbids permission to publish them.",
+      "feastCustoms: the higher rank in Europe rests on Spes Aedificandi granting 'all the honours and liturgical privileges belonging by law to the principal patrons of places'; the exact rank (feast) varies by country and was not stated.",
+      "places: Vadstena (her burial place and the order's first monastery) was not listed because no official website for the Catholic Bridgettine convent there could be verified (vadstena-kloster.se is a placeholder page; birgittasystrarna.se covers Djursholm and Falun). The Piazza Farnese house is described as where she 'lived and died' on casabrigidaroma.it, the house of the Order.",
+      "biography: no disagreement. Spes Aedificandi and Benedict XVI give birth in 1303 at Finsta; Catholic Culture gives 1303 in one place and 1302 in another. Benedict XVI notes she was buried temporarily at San Lorenzo in Panisperna before her body was taken to Vadstena in 1374, and that she died in 1373, before Gregory XI's definitive return to Rome."
+    ]
+  },
   "brigid-of-ireland": {
     "templateVersion": 2,
     "heroSummary": "St. Brigid of Kildare is a patron of Ireland, honored with Sts. Patrick and Columba as one of the country's three patron saints. She is remembered as abbess of Kildare, a community of women and men that became a center of worship and learning. Her feast is February 1, and many stories told of her are legend.",
@@ -7834,6 +8376,633 @@
       "feastCustoms: the liturgical rank of February 1 in Ireland (feast vs. solemnity in Kildare) was not verified, so no rank is given. The relic in St. Brigid's Parish Church, Kildare, follows EWTN News (relic from Lumiar installed during the 2024 anniversary).",
       "places: only one. No verified official website was found for St. Brigid's Parish Church, Kildare; St. Brigid's Cathedral, Kildare, stands on her monastic site but is now Church of Ireland.",
       "biography: no disagreement with the reviewed biography. Sources give firm dates the review avoids (Catholic Encyclopedia: born 451/452, died 1 February 525; Irish bishops: about 454–524 and founding in 480; EWTN: a goddess shrine on the Kildare site) — none were used."
+    ]
+  },
+  "bruno": {
+    "templateVersion": 2,
+    "heroSummary": "St. Bruno of Cologne was a respected teacher at Reims who left a promising Church career to seek God in silence. In 1084 he and six companions settled in the mountains of the Chartreuse, beginning the Carthusian way of life that joins solitude with shared worship. He died in Calabria in 1101; his feast is October 6.",
+    "searchDescription": "St. Bruno of Cologne (about 1030–1101), feast October 6: Reims teacher who sought God in silence and founded the Carthusians at the Chartreuse.",
+    "symbols": [
+      {
+        "symbol": "Seven stars",
+        "meaning": "Bishop Hugh of Grenoble's dream of seven stars guiding him to a dwelling God was building in the wilderness; soon afterward Bruno and six companions arrived asking for a place of solitude."
+      },
+      {
+        "symbol": "White Carthusian habit with scapular",
+        "meaning": "The habit still worn by the Carthusian monks and nuns who follow the way of life that began with him at the Chartreuse."
+      },
+      {
+        "symbol": "Skull",
+        "meaning": "A traditional hermit's emblem of the passing world and of life lived in view of eternity, which is what Bruno chose when he left Reims."
+      },
+      {
+        "symbol": "Scroll reading \"O Bonitas\" (\"O Goodness\")",
+        "meaning": "Tradition remembers this exclamation of wonder at God's goodness as a favorite saying of his."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Bruno when life grows noisy and they long to hear God again. He knew the pressures of ambition and Church politics firsthand: he taught for years at Reims, stood up to a corrupt archbishop, and could have had a high office. Instead he chose silence, prayer and a small community in the mountains. Later, even when a pope who had been his student called him to Rome, he returned to solitude as soon as he could. He is a gentle guide for anyone seeking stillness, simplicity and a heart fixed on God amid change, and Catholics also invoke him against evil spirits.",
+    "quotes": [
+      {
+        "text": "Therefore, behold I will allure her, and will lead her into the wilderness: and I will speak to her heart.",
+        "work": "Osee (Hosea) 2:14",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Be still and see that I am God; I will be exalted among the nations, and I will be exalted in the earth.",
+        "work": "Psalm 45:11 (Psalm 46:10 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "God of silence and of peace, you drew St. Bruno away from honors and quarrels into the stillness of the mountains, where he could listen to you alone. Through his prayers, quiet the noise in my heart. Help me to make room each day for silence, to let go of what I cling to, and to rest in your goodness. Bless all Carthusians and all who pray hidden from the world, and teach me, amid the changes of this life, to keep my heart fixed on you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on October 6, the optional memorial of St. Bruno in the General Roman Calendar.",
+      "Set aside a stretch of real silence during the day, with no phone or screen, and simply rest in God's presence.",
+      "Watch Into Great Silence, the documentary filmed inside the Grande Chartreuse, which Catholic Culture recommends for his feast.",
+      "Learn about the Carthusian monks and nuns through the order's website and pray for their hidden life of prayer.",
+      "Pray slowly with Psalm 45 (46): \"Be still and see that I am God.\""
+    ],
+    "places": [
+      {
+        "name": "Musée de la Grande Chartreuse at La Correrie (the monastery itself is closed to visitors)",
+        "city": "Saint-Pierre-de-Chartreuse, France",
+        "url": "https://musee-grande-chartreuse.fr/"
+      }
+    ],
+    "confirmationNote": "Bruno is a good choice for a confirmand who feels pulled by noise, pressure or ambition and wants to hear God more clearly. He was talented and respected, yet he chose prayer, silence and friendship with a few companions over prestige. He shows that the Holy Spirit often speaks quietly, and that saying no to good things can make room for something better.",
+    "reflectionPrompts": [
+      "What noise in my life most often crowds out God's voice?",
+      "Choose one daily habit, such as a commute or a meal, and keep it in silence this week.",
+      "Read Osee (Hosea) 2:14–20 and the Carthusian nuns' account of St. Bruno's life on chartreux.org."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "hugh-of-grenoble",
+        "reason": "Bishop who welcomed Bruno and his six companions to the Chartreuse in 1084",
+        "historical": true
+      },
+      {
+        "slug": "gregory-vii",
+        "reason": "Pope who deposed Archbishop Manasses, whom Bruno had opposed at Reims",
+        "historical": true
+      },
+      {
+        "slug": "romuald",
+        "reason": "Another founder of hermit monks in eleventh-century Italy",
+        "historical": false
+      },
+      {
+        "slug": "john-of-the-cross",
+        "reason": "Teacher of prayer in silence and detachment",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Carthusian nuns: Saint Bruno (chartreux.org)",
+        "url": "https://chartreux.org/moniales/saint-bruno/"
+      },
+      {
+        "title": "Vatican News: Saint of the day, 6 October (St. Bruno, priest, founder of the Carthusians)",
+        "url": "https://www.vaticannews.va/en/saints/10/06.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 6 (Optional Memorial of St. Bruno)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-06"
+      },
+      {
+        "title": "Musée de la Grande Chartreuse (official website)",
+        "url": "https://musee-grande-chartreuse.fr/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Osee (Hosea) 2",
+        "url": "https://www.drbo.org/chapter/33002.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 45",
+        "url": "https://www.drbo.org/chapter/21045.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists 'diabolic possession; Ruthenia'; both are sourced but have no live topic. whyWeTurn mentions invocation against evil spirits on that basis.",
+      "symbols: all four are in Catholic Culture's list (also flowering crucifix, chalice and host, star on his breast, olive branch, book with a ray of light). The seven stars' meaning is from chartreux.org (Hugh's dream). The skull and 'O Bonitas' meanings are traditional and not explained by Catholic Culture; please check the wording. Olive branch and others were omitted because no reputable source gave a meaning.",
+      "quotes: Bruno's letters (to Raoul le Verd and to his Carthusian sons) were found only in modern French on chartreux.org; no public-domain English translation was verified, so only Douay-Rheims Scripture is used.",
+      "prayer: original; it echoes the theme of the collect ('amid the changes of this world') without quoting the copyrighted ICEL text.",
+      "places: the Charterhouse of Serra San Bruno (his tomb, per Catholic Culture) and its museum were not listed because no official website could be verified (certosini.info is an old frames site; lacertosa.org did not load).",
+      "relatedSaints: gregory-vii link rests on chartreux.org (Gregory VII deposed Manasses in December 1080). Urban II, Bruno's former pupil, has no published page.",
+      "biography: no disagreement. chartreux.org gives birth about 1030 in Cologne, death on Sunday 6 October 1101 in Calabria, Leo X's equipollent canonization on 19 July 1514, and extension of the feast to the universal Church in 1623."
+    ]
+  },
+  "cajetan": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Cajetan of Thiene is invoked as patron of the unemployed and job seekers, and in Argentina as patron of bread and work. A lawyer from Vicenza who became a priest, he cared for the incurably sick and in 1524 co-founded the Theatines, priests who trusted wholly in God's providence. His feast is August 7.",
+    "searchDescription": "St. Cajetan (1480–1547), feast August 7: co-founder of the Theatines, servant of the sick, and patron of the unemployed who trusted in providence.",
+    "symbols": [
+      {
+        "symbol": "The Christ Child in his arms",
+        "meaning": "His own account of a Christmas 1517 experience in the Basilica of St. Mary Major in Rome, when, he said, the Virgin Mary placed the infant Jesus in his arms."
+      },
+      {
+        "symbol": "Black cassock of a Theatine priest",
+        "meaning": "The Theatines were clerks regular: priests who lived in community and poverty like monks but served in the world, so they wore the cassock rather than a monastic habit."
+      },
+      {
+        "symbol": "Ear of wheat",
+        "meaning": "In Argentina, where he is the patron of bread and work, his image shows the Child holding a wheat ear, which an Argentine bishop has called the fruit of labor."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Cajetan when work and bread are uncertain. He came from a noble family and held a post at the papal court, yet he chose a life with no fixed income, telling his priests to rely on God's providence and the freely given charity of the faithful. He founded hospitals for people with incurable illnesses and worked to renew the clergy at a time of scandal. That trust is why job seekers, the unemployed and struggling families ask his help, especially in Argentina, where crowds come to his sanctuary every August 7 asking for peace, bread and work.",
+    "quotes": [
+      {
+        "text": "Behold the birds of the air, for they neither sow, nor do they reap, nor gather into barns: and your heavenly Father feedeth them. Are not you of much more value than they?",
+        "work": "Matthew 6:26",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Seek ye therefore first the kingdom of God, and his justice, and all these things shall be added unto you.",
+        "work": "Matthew 6:33",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Father of all, you taught St. Cajetan to trust you completely and to seek first your Kingdom. Through his prayers, look kindly on all who are out of work, on those searching for a job, and on families worried about tomorrow. Give them honest work, daily bread and peace of heart. Take away my anxiety about what I lack, and make me generous with what I have. Teach me to serve the sick and the poor as Cajetan did, and to rest in your providence each day. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 7, the optional memorial of St. Cajetan in the General Roman Calendar, the same day as Pope St. Sixtus II and companions.",
+      "Pray for people who are unemployed or looking for work, and help one of them in a practical way, such as sharing a job lead or reviewing a résumé.",
+      "In Argentina, many Catholics make a pilgrimage on his feast to the Sanctuary of San Cayetano in the Liniers neighborhood of Buenos Aires to ask for peace, bread and work; join them in prayer wherever you are.",
+      "Read Matthew 6:25–34 and practice trust in providence by giving something away without worrying about replacing it.",
+      "Visit or help someone with a long-term or incurable illness, remembering the hospitals for the incurable he founded."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Sant'Andrea della Valle (Theatine basilica with a chapel of St. Cajetan)",
+        "city": "Rome, Italy",
+        "url": "https://santandrea.teatinos.org/en/"
+      }
+    ],
+    "confirmationNote": "Cajetan suits a confirmand who wants faith to shape real decisions about money, work and the future. Trained as a lawyer and at home in the papal court, he chose to trust God for his daily needs and to spend himself on the sick and on renewing the Church. He shows that relying on providence is not passivity: it frees a person to serve generously.",
+    "reflectionPrompts": [
+      "What worry about money, work or the future do I most need to hand over to God?",
+      "Find one practical way this week to help someone who is looking for work or struggling to make ends meet.",
+      "Read Matthew 6:25–34 alongside the Theatines' short life of St. Cajetan on teatinos.org."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sixtus-ii",
+        "reason": "Shares the August 7 date in the General Roman Calendar",
+        "historical": true
+      },
+      {
+        "slug": "andrew-avellino",
+        "reason": "Theatine priest of the order Cajetan co-founded",
+        "historical": true
+      },
+      {
+        "slug": "joseph-mary-tomasi",
+        "reason": "Theatine cardinal and liturgical scholar",
+        "historical": true
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Founded priests devoted to the care of the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Theatines (Ordo Clericorum Regularium): Saint Cajetan",
+        "url": "https://teatinos.org/en/saint-cajetan/"
+      },
+      {
+        "title": "Basilica of Sant'Andrea della Valle (Theatines): Chapel of Saint Cajetan",
+        "url": "https://santandrea.teatinos.org/en/?p=35"
+      },
+      {
+        "title": "Vatican News: Saint of the day, 7 August (St. Cajetan, priest, founder of the Theatines)",
+        "url": "https://www.vaticannews.va/en/saints/08/07.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 7 (Optional Memorials of St. Sixtus II and Companions and of St. Cajetan)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-07"
+      },
+      {
+        "title": "Archdiocese of Buenos Aires: Homily for the feast of San Cayetano, 7 August 2026 (Abp. Jorge García Cuerva)",
+        "url": "https://www.arzbaires.org.ar/inicio/homilias/cuerva/2026/sancayetano2026.pdf"
+      },
+      {
+        "title": "AICA: Río Cuarto, fiesta de San Cayetano en la parroquia convertida en santuario diocesano",
+        "url": "https://aica.org/noticia-rio-cuarto-fiesta-de-san-cayetano-en-la-parroquia-convertida-en-santuario-diocesano"
+      },
+      {
+        "title": "Christian Iconography: St. Cajetan",
+        "url": "https://christianiconography.info/gaetano.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 6",
+        "url": "https://www.drbo.org/chapter/47006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: 'unemployed' and 'job seekers' are sourced (Catholic Culture: 'job seekers; unemployed; Theatines'; Archdiocese of Buenos Aires: 'patrono del pan y del trabajo') but have no live topic. Catholic Culture also lists Naples, Messina, Chieti, Vicenza and Santo Stefano Medio (no live topics; 'italy' is not supported for him). Review lists none, so a human should reconcile; the hero names the patronage with 'invoked as patron' even though the patronages array is empty.",
+      "symbols: Catholic Culture gives no symbols for him. The Christ Child is from the Theatines' own page (based on his account to Sister Laura Mignani). The black cassock rests on christianiconography.info (a scholarly iconography site, not a Church source); please check. The wheat ear is described by a bishop quoted in AICA (the Argentine bishops' news agency) and is specific to Argentina. A lily, book, crucifix and heart also appear in his images but no reputable source gave meanings.",
+      "quotes: no public-domain translation of Cajetan's letters was found, so only Douay-Rheims Scripture is used. Matthew 6:33 echoes the collect for his memorial ('to seek unceasingly your Kingdom').",
+      "prayer: original. Popular novenas to him (e.g. on liturgies.net, linked by Catholic Culture) were not verified against a reliable source and were not used.",
+      "feastCustoms: the Liniers pilgrimage rests on the Archdiocese of Buenos Aires homily for 7 August 2026. No official website for the Liniers sanctuary could be verified.",
+      "places: his tomb in the crypt of San Paolo Maggiore, Naples (per the Theatines and Catholic Culture), was not listed because no official website was found (sanpaolomaggiore.it is a different church, in Bologna).",
+      "relatedSaints: andrew-avellino and joseph-mary-tomasi as Theatines rest on general knowledge plus the Sant'Andrea della Valle site, which has a chapel of St. Andrew Avellino; please confirm against their pages.",
+      "biography: no disagreement. The Theatines give birth in October 1480 at Vicenza, ordination in 1516, the order's canonical erection by Clement VII in 1524, death in Naples on 7 August 1547, beatification in 1629 and canonization on 12 April 1671. (Catholic News Agency gives his death as August 6; the Theatines and Catholic Culture say August 7.)",
+      "symbols: only 3, from an order site, a non-Church iconography site and an Argentine regional custom — set to 1.5 (coordinator)"
+    ]
+  },
+  "callistus-i": {
+    "templateVersion": 2,
+    "heroSummary": "St. Callistus I rose from slavery to become a deacon and then bishop of Rome in 217. Under Pope Zephyrinus he cared for the Christian cemetery on the Appian Way that still bears his name. As pope he defended the readmission of repentant sinners, and the Church honors him as a martyr on October 14.",
+    "searchDescription": "St. Callistus I, third-century pope and martyr (feast October 14): a former slave who cared for Rome's Christian cemetery and welcomed repentant sinners.",
+    "symbols": [
+      {
+        "symbol": "Papal tiara or triple cross",
+        "meaning": "Later artistic signs of his office as bishop of Rome; third-century popes did not actually wear the tiara."
+      },
+      {
+        "symbol": "Window and well",
+        "meaning": "The legendary account of his death, in which he was thrown from a window into a well; historians regard these Acts as unreliable, though the early Depositio Martyrum does list him as a martyr."
+      },
+      {
+        "symbol": "Millstone",
+        "meaning": "A traditional attribute; his hostile critic Hippolytus says that as a young slave he was sentenced to work at the hand-mill before being sent to the mines."
+      },
+      {
+        "symbol": "Model of a church",
+        "meaning": "Tradition links him with an early place of Christian worship in Trastevere, connected with Santa Maria in Trastevere, where his relics were moved in the ninth century."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Callistus as a pope who knew from experience what it means to be lowly, punished and given a second chance. Born a slave, he worked hard labor before being freed, then served the Roman Church by caring for the burial of the faithful. As pope he insisted that sinners who truly repent can be welcomed back to communion, a choice his rivals bitterly attacked. He is a companion for anyone who feels marked by the past, for those who tend graves and pray for the dead, and for every Christian who needs mercy and wants to show it to others.",
+    "quotes": [
+      {
+        "text": "I say to you, that even so there shall be joy in heaven upon one sinner that doth penance, more than upon ninety-nine just who need not penance.",
+        "work": "Luke 15:7",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "It is therefore a holy and wholesome thought to pray for the dead, that they may be loosed from sins.",
+        "work": "2 Machabees 12:46",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Merciful Father, you raised St. Callistus from slavery to serve your Church and to care for the resting places of your faithful departed. Through his prayers, free me from whatever enslaves me, and give me the courage to come back to you whenever I fall. Make me merciful to those who have hurt me and patient with those who are slow to change. Grant eternal rest to all the dead, especially those whom no one remembers, and bring us together to the joy of the resurrection. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on October 14, the optional memorial of Pope St. Callistus I; the Church's prayer for the day remembers his care for Christ's faithful departed.",
+      "Visit a cemetery and pray for the dead, especially for those with no one left to pray for them, a spiritual work of mercy Catholic Culture suggests for his feast.",
+      "Explore the Catacombs of St. Callixtus on the Appian Way, in person if you are in Rome or through the catacombs' own website.",
+      "Go to confession, or pray for someone who has drifted from the Church, remembering his defense of reconciliation for repentant sinners.",
+      "Read Luke 15, the chapter of the lost sheep, the lost coin and the prodigal son."
+    ],
+    "places": [
+      {
+        "name": "Catacombs of St. Callixtus (the cemetery he administered, with the Crypt of the Popes)",
+        "city": "Rome, Italy",
+        "url": "https://www.catacombesancallisto.it/en/"
+      }
+    ],
+    "confirmationNote": "Callistus is a fitting choice for a confirmand who knows that a past mistake or a hard start in life does not have the last word. He began as a slave, endured punishment and hard labor, and still became a servant and shepherd of the Church. As pope he stood up for mercy toward repentant sinners, reminding every Christian that the Spirit makes new beginnings possible.",
+    "reflectionPrompts": [
+      "Where do I need to accept God's mercy for my own past, and where do I need to offer it to someone else?",
+      "Visit a grave this month, or write down the names of people who have died, and pray for them by name.",
+      "Read Luke 15 and the Catholic Encyclopedia article on Pope Callistus I, noting how it weighs Hippolytus's hostile account."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sixtus-ii",
+        "reason": "Martyred pope buried in the Crypt of the Popes in the Catacombs of St. Callixtus",
+        "historical": true
+      },
+      {
+        "slug": "eutychian",
+        "reason": "Pope whose original Greek epitaph survives in the Crypt of the Popes",
+        "historical": true
+      },
+      {
+        "slug": "cecilia",
+        "reason": "Roman martyr honored in the Crypt of St. Cecilia in the same catacomb",
+        "historical": true
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "Another saint who rose from slavery to serve the Church",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: San Callisto I, papa e martire (Saint of the day, 14 October)",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/10/14/san-callisto-i--papa-e-martire.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 14 (Optional Memorial of St. Callistus I)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-14"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): Pope Callistus I",
+        "url": "https://www.newadvent.org/cathen/03183d.htm"
+      },
+      {
+        "title": "Catacombs of St. Callixtus: The origins of the catacombs",
+        "url": "https://www.catacombesancallisto.it/en/le-origini-delle-catacombe.php"
+      },
+      {
+        "title": "Catacombs of St. Callixtus: The Crypt of the Popes",
+        "url": "https://www.catacombesancallisto.it/en/cripta-papi.php"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 15",
+        "url": "https://www.drbo.org/chapter/49015.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Machabees 12",
+        "url": "https://www.drbo.org/chapter/46012.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists 'cemetery workers'; sourced but no live topic.",
+      "symbols: all four are from Catholic Culture's list (window, model of a church, stone, well, millstone or grindstone, papal tiara, triple cross). Meanings for window/well, millstone and church model rest on the Catholic Encyclopedia, which calls his Acts spurious and treats the well as legend; the millstone link to Hippolytus's 'hand-mill' story is an interpretation and should be checked. Hippolytus is a hostile witness.",
+      "whyWeTurn/confirmationNote: 'born a slave' and 'hard labor' (the mill and the Sardinian mines) come ultimately from Hippolytus, a hostile source, as reported by the Catholic Encyclopedia and Catholic Culture; the slavery itself matches the reviewed biography, and the details were kept general. The allegations of fraud and bribery were deliberately not repeated.",
+      "feastCustoms: Catholic Culture says he died as a martyr in 223 after imprisonment and scourging; this draws on the legendary Acts and was not used. The Vatican News English page for the day lists only the title 'St. Callistus I, Pope and Martyr'.",
+      "places: he was buried in the cemetery of Calepodius on the Via Aurelia, and his relics were moved to Santa Maria in Trastevere in the ninth century (Catholic Encyclopedia); santamariaintrastevere.it returned a site error, so it was not listed. The catacomb that bears his name is listed as the place he administered, not as his tomb, consistent with the reviewed biography.",
+      "relatedSaints: Sixtus II and Eutychian are named on the catacombs' Crypt of the Popes page; the Crypt of St. Cecilia is named on the catacombs' site.",
+      "quotes: Hippolytus's Refutation exists in a public-domain translation (Ante-Nicene Fathers) but is hostile, so nothing was quoted from it. 2 Machabees 12:46 links to the collect's mention of the faithful departed.",
+      "biography: no disagreement. The catacombs' site confirms that Pope Zephyrinus made the deacon Callixtus administrator of the cemetery early in the third century."
+    ]
+  },
+  "camillus-de-lellis": {
+    "templateVersion": 2,
+    "heroSummary": "St. Camillus de Lellis is the patron saint of hospitals and, with St. John of God, of nurses. A former soldier and gambler from the Abruzzo, he was converted in 1575, cared for the sick in Rome's hospitals, and founded the Camillians, who wear a red cross. He died in Rome on July 14, 1614.",
+    "searchDescription": "St. Camillus de Lellis (1550–1614), feast July 14: soldier turned priest, founder of the Camillians, and patron of hospitals, nurses and the sick.",
+    "patronages": [
+      "hospitals",
+      "nurses"
+    ],
+    "symbols": [
+      {
+        "symbol": "Red cross on a black habit",
+        "meaning": "The badge of the Camillians, worn as a sign of their dedication to serving the sick, including in times of plague."
+      },
+      {
+        "symbol": "A priest tending a sick person",
+        "meaning": "His life's work at the bedside: caring for patients' bodies and souls and helping the dying, which artists show by placing a sick man in his arms or at his side."
+      },
+      {
+        "symbol": "Crucifix with Christ reaching toward him",
+        "meaning": "A story from his early biography, painted in his chapel at La Maddalena in Rome: in a time of discouragement Christ reached out from the cross and told him the work was Christ's, not his own. This comes from tradition, not documented history."
+      },
+      {
+        "symbol": "Angel at his side",
+        "meaning": "Catholic Culture notes he is often shown with his guardian angel, an artistic way of picturing heaven's help in his care for the sick and dying."
+      }
+    ],
+    "whyWeTurn": "People turn to Camillus because he knew sickness from both sides of the bed. He spent years as a restless soldier and gambler, and a wound that would not heal kept him out of the Capuchins and sent him into a Roman hospital, first as a patient and then as a worker. There he saw how poorly the sick were treated and set out to serve them with real love, asking his brothers to care for each patient as a mother cares for a sick child. Nurses, chaplains, caregivers and patients ask his prayers, as do people struggling with a habit they cannot break.",
+    "quotes": [
+      {
+        "text": "Naked, and you covered me: sick, and you visited me: I was in prison, and you came to me.",
+        "work": "Matthew 25:36",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you visited the sick and touched those no one else would touch. You turned St. Camillus from a restless, gambling soldier into a servant of the sick. Through his prayers, give patience and courage to everyone who is ill tonight, and steady hands and kind hearts to nurses, doctors, chaplains and caregivers. When I visit someone who is suffering, let me bring your gentleness with me. Free me from the habits that hold me back, and at the hour of my death, receive me into your mercy. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on July 14, his optional memorial in the General Roman Calendar; in the United States it moves to July 18 because July 14 is the memorial of St. Kateri Tekakwitha.",
+      "Visit someone who is sick, homebound or in a nursing home, or volunteer at a hospital or hospice.",
+      "Thank and pray for the nurses, doctors, chaplains and caregivers you know, especially those who work through epidemics, recalling the Camillian vow to serve the sick even at risk to their own lives.",
+      "Learn the Church's prayers for the dying while you are healthy, as Catholic Culture suggests for his feast; Leo XIII added his name to the litany for the dying.",
+      "In Rome, pilgrims visit the Church of Santa Maria Maddalena, the Camillians' mother church, which keeps relics and belongings of the saint."
+    ],
+    "places": [
+      {
+        "name": "Church of Santa Maria Maddalena (Camillian General House)",
+        "city": "Rome, Italy",
+        "url": "https://www.camilliani.org/chiesa-della-maddalena/"
+      }
+    ],
+    "confirmationNote": "Camillus suits a confirmand drawn to medicine, nursing or caring for others, or one who knows what it is to struggle with a bad habit. His conversion did not make him perfect overnight; it pointed his energy toward the sick, whom he served with a mother's tenderness. Choosing his name can be a promise to see Christ in people who suffer and to serve them with both skill and love.",
+    "reflectionPrompts": [
+      "Who in my life is sick, lonely or worn out by caring for someone else, and how could I show them a little of the tenderness Camillus asked of his brothers?",
+      "This week, visit, call or write to someone who is ill or homebound, and offer to help with one practical task.",
+      "Read Matthew 25:31–46 in the Douay-Rheims and the Catholic Encyclopedia article on St. Camillus de Lellis, and note how his order put that Gospel into daily practice."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-of-god",
+        "reason": "Named with him by Pius XI in 1930 as co-patron of nurses; both are patrons of hospitals",
+        "historical": true
+      },
+      {
+        "slug": "philip-neri",
+        "reason": "His spiritual guide in Rome, who encouraged him toward the priesthood",
+        "historical": true
+      },
+      {
+        "slug": "kateri-tekakwitha",
+        "reason": "Shares July 14; in the U.S. her memorial moves Camillus to July 18",
+        "historical": true
+      },
+      {
+        "slug": "aloysius-gonzaga",
+        "reason": "Young Jesuit who died in Rome in 1591 after nursing plague victims",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: St. Camillus de Lellis (Liturgical Year, July 18, U.S. calendar)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-18"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 14",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-14"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Camillus de Lellis",
+        "url": "https://www.newadvent.org/cathen/03217b.htm"
+      },
+      {
+        "title": "Vatican: Message of John Paul II to the Camillians for the 450th anniversary of St. Camillus's birth (2000)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2000/apr-jun/documents/hf_jp-ii_spe_20000515_camilliani.html"
+      },
+      {
+        "title": "Vatican News: Pope to Camillians, witnessing to the tenderness of God (2019)",
+        "url": "https://www.vaticannews.va/en/pope/news/2019-03/pope-to-camillians-witnessing-to-the-tenderness-of-god.html"
+      },
+      {
+        "title": "Camillians (Ministri degli Infermi): The Founder",
+        "url": "https://www.camilliani.org/i-primi-anni/"
+      },
+      {
+        "title": "Camillians: Church of Santa Maria Maddalena",
+        "url": "https://www.camilliani.org/chiesa-della-maddalena/"
+      },
+      {
+        "title": "Christian Iconography: Placido Costanzi, Christ Appears to St. Camillo de Lellis (La Maddalena, Rome)",
+        "url": "https://christianiconography.info/staMariaMaddalena/camilloCostanzi.html"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "DRBO.org: John 15 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none (reviewed_patron_of is null); hospitals and nurses added from Catholic Culture (Leo XIII, 1886; Pius XI, 1930, co-patron of nurses with St. John of God), confirmed by the Catholic Encyclopedia and John Paul II's 2000 message. A human should reconcile the reviewed record.",
+      "patronages: the sick, hospital workers, against illness, against gambling addiction, Abruzzi, Bucchianico (Catholic Culture) and the Italian military health services (Paul VI, 1974, per John Paul II) are sourced but have no live topic.",
+      "symbols: red cross, priest with a sick person and guardian angel are from Catholic Culture; the crucifix scene is from the 1749 Costanzi painting in his chapel at La Maddalena (christianiconography.info, citing his vita) and is labeled tradition. The angel's meaning is phrased as an artistic convention, not a documented event.",
+      "quotes: his well-known sayings ('more heart in those hands', serving the sick with a mother's affection, the sick as 'lords and masters') appear only in modern Italian or modern English renderings (camilliani.org; John Paul II, 2000); no public-domain translation could be verified, so only Scripture is quoted. The motherly-care idea is paraphrased in whyWeTurn and confirmationNote.",
+      "prayer: original; the Catholic Culture collect was not used because its full verified text and translation rights were not confirmed.",
+      "places: no official website was found for the Sanctuary of St. Camillus at his birthplace, Bucchianico; omitted.",
+      "biography: sources differ on early dates (founding variously 1582/1584; Sixtus V's approval 1586; Gregory XIV made it an order in 1591). The Catholic Encyclopedia calls the hospital the 'Hospital for Incurables', while the Camillians name it San Giacomo; the review's 'hospital of Saint James' matches. Catholic Culture's header has a typo (1550–1641). No disagreement with the reviewed biography.",
+      "relatedSaints: the aloysius-gonzaga reason rests on that saint's own page; no source links the two men directly, so it is marked thematic."
+    ]
+  },
+  "canute": {
+    "templateVersion": 2,
+    "heroSummary": "St. Canute IV was king of Denmark from about 1080 until 1086, when rebels killed him, his brother Benedict and seventeen companions in St. Alban's Church in Odense. A forceful ruler and generous supporter of the Church, he was honored as a martyr and canonized in 1101. He is remembered on January 19 and July 10.",
+    "searchDescription": "St. Canute IV of Denmark, king killed with his brother in an Odense church in 1086 and honored as a martyr. Feast January 19; also remembered July 10.",
+    "symbols": [
+      {
+        "symbol": "Crown and royal insignia",
+        "meaning": "His office as king of Denmark, which he used to support churches and clergy as well as to strengthen royal power."
+      },
+      {
+        "symbol": "Lance",
+        "meaning": "The weapon of his death; the Catholic Encyclopedia gives the lance as one of his emblems because of how he was killed."
+      },
+      {
+        "symbol": "Arrows",
+        "meaning": "Also recalling his death in St. Alban's Church; accounts of exactly how he was struck differ, so the arrows belong to tradition and art more than to a precise record."
+      },
+      {
+        "symbol": "Kneeling or slain before an altar",
+        "meaning": "Tradition holds that he was killed while praying before the altar; Odense Cathedral notes that a lesion on the skeleton kept there is consistent with that account."
+      }
+    ],
+    "whyWeTurn": "People turn to Canute because his story is not simple. He was a strong king who gave generously to the Church, supported its clergy and wanted his kingdom to be Christian, yet his taxes and royal ambitions also stirred anger that ended in revolt. When rebels trapped him in a church at Odense, he prepared for death and died there with his brother. The Church came to honor him as a martyr. Catholics ask his prayers for leaders and anyone who holds authority, that power may serve God and the common good, and for families and nations torn by conflict.",
+    "quotes": [
+      {
+        "text": "Blessed are they that suffer persecution for justice' sake: for theirs is the kingdom of heaven.",
+        "work": "Matthew 5:10",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Into thy hands I commend my spirit: thou hast redeemed me, O Lord, the God of truth.",
+        "work": "Psalm 30:6",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Canute to rule a kingdom and, at the end, to give his life in your house. Through his prayers, guide all who hold authority today, that they may use their power with justice, humility and care for the weak. Heal divisions in families, workplaces and nations, and turn anger into peace. When I am afraid or surrounded by trouble, teach me to come before your altar and place my life in your hands. Make me faithful to you to the end. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on January 19, his feast in the older Roman calendar, or on July 10, the anniversary of his death and his date in the Roman Martyrology; he is not on the current General Roman Calendar.",
+      "In Denmark, the Catholic calendar of the Diocese of Copenhagen keeps July 10 as his feast in the Danish part of the diocese.",
+      "Pray for political leaders and public officials, especially those facing opposition, that they may govern justly and serve the common good.",
+      "Pray Psalm 30 (Psalm 31 in other numbering) for someone in danger or distress, recalling the tradition that he died in prayer before the altar.",
+      "In Odense, visitors can see the reliquaries traditionally held to contain the remains of Canute and his brother Benedict in the crypt of St. Canute's Cathedral, now a Lutheran (Church of Denmark) cathedral."
+    ],
+    "places": [
+      {
+        "name": "Odense Cathedral (St. Canute's Cathedral)",
+        "city": "Odense, Denmark",
+        "url": "https://www.odensedomkirke.dk/"
+      }
+    ],
+    "confirmationNote": "Canute may suit a confirmand who expects to lead others, whether in a team, a business or public life, and who wants to think honestly about power. He supported the Church generously, but his reign also shows how authority can provoke resentment and conflict. Choosing his name can be a commitment to use influence for justice, to pray before acting, and to stay faithful to Christ when opposition comes.",
+    "reflectionPrompts": [
+      "Where do I have some authority over others, and do I use it to serve them or mainly to get my own way?",
+      "Pray by name for one leader you disagree with this week, and look for one way to lower the temperature of a conflict around you.",
+      "Read Psalm 30 and Matthew 5:1–12 in the Douay-Rheims, then read the Catholic Encyclopedia article on St. Canute IV and note how it describes both his reign and his death."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ansgar",
+        "reason": "The Apostle of the North, who first preached Christianity in Denmark",
+        "historical": true
+      },
+      {
+        "slug": "olaf",
+        "reason": "Eleventh-century Scandinavian king honored as a martyr after a violent death",
+        "historical": true
+      },
+      {
+        "slug": "wenceslaus",
+        "reason": "Christian ruler killed by a faction that included his own brother",
+        "historical": false
+      },
+      {
+        "slug": "louis-ix",
+        "reason": "Another king whose faith shaped how he ruled",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1908): St. Canute IV",
+        "url": "https://www.newadvent.org/cathen/03307a.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, July 10 (St. Canute, Martyr)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?id=192"
+      },
+      {
+        "title": "Odense Cathedral: Odense Cathedral History",
+        "url": "https://www.odensedomkirke.dk/english/odense-cathedral-history"
+      },
+      {
+        "title": "Den Store Danske (lex.dk): Helgenkalender (Catholic calendar of the Diocese of Copenhagen)",
+        "url": "https://lex.dk/helgenkalender"
+      },
+      {
+        "title": "Catholic Culture: St. Canute's Day activity (Swedish customs; concerns Canute Lavard)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=1003"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      },
+      {
+        "title": "DRBO.org: Psalm 30 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21030.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Denmark is sourced (Catholic Culture) but has no live topic; review lists none. Left empty.",
+      "symbols: lance and arrows are from the Catholic Encyclopedia ('lance or arrows'); crown/royal insignia and the altar scene are from Catholic Culture's iconography list. Catholic Culture also lists a ciborium and a wreath, omitted because no source explains their meaning.",
+      "quotes: no writings of Canute survive in a public-domain translation; Scripture only.",
+      "feastCustoms: the Diocese of Copenhagen July 10 line rests on lex.dk's reproduction of the Catholic calendar (katolsk.dk could not be checked directly); please verify. Catholic Culture's 'St. Canute's Day' activity (Tjugondag Knut, January 13, Sweden and Finland) belongs to his nephew St. Canute Lavard, not Canute IV, so it was not used.",
+      "places: Odense Cathedral is now a Lutheran (Church of Denmark) church; listed because it holds the reliquaries. No official website was found for the present Catholic St. Alban's (Sankt Albani) church in Odense.",
+      "biography: Catholic Culture says the rebels were led by his brother Olaf, that the revolt came from aristocrats angered by enforced tithes and taxes, and that St. Alban's was a church he had founded; the Catholic Encyclopedia blames the cruelty of tax collectors and Olaf's treachery for the failed English expedition. The review's balanced framing is consistent; no change suggested.",
+      "biography: the review presents January 19 as the site's feast date; Catholic Culture lists him on July 10 under the current Roman Martyrology (and notes the Martyrology confuses him with Canute Lavard), and the Danish Catholic calendar also uses July 10. A human may want to mention July 10 more prominently.",
+      "biography: canonization is dated 1101 (Paschal II) by Catholic Culture; other references give 1099 or 1100. The hero uses 1101."
     ]
   },
   "carlo-acutis": {
@@ -7973,6 +9142,140 @@
       "biography: no disagreement found. The canonization booklet adds that he was born May 3, 1991, received First Communion at seven, was confirmed on May 24, 2003 (Foundation), and died in Monza at San Gerardo hospital; the Foundation names the De Marchi clinic in Milan as where he was diagnosed.",
       "places: santuariospogliazione.it states its images belong to the diocesan foundation; the page has an empty HTML title, so a human may want to confirm it is the sanctuary's canonical site.",
       "symbols: drawn from his documented life (recently canonized), not established iconography — set to 1.5 for an owner decision (coordinator); approve to switch to v2"
+    ]
+  },
+  "casimir": {
+    "templateVersion": 2,
+    "heroSummary": "St. Casimir is the patron saint of Lithuania and is also honored as a patron of Poland. A son of King Casimir IV, born in Kraków in 1458, he is remembered for prayer, chastity, devotion to Mary and generosity to the poor. He died at twenty-five in 1484, and his feast is March 4.",
+    "searchDescription": "St. Casimir (1458–1484), feast March 4: Polish-Lithuanian prince, patron of Lithuania and Poland, remembered for purity, prayer and care for the poor.",
+    "patronages": [
+      "lithuania",
+      "poland"
+    ],
+    "symbols": [
+      {
+        "symbol": "Lily",
+        "meaning": "His purity and his choice to remain unmarried; an old painting in Vilnius, renovated in 1594, already showed him holding a lily."
+      },
+      {
+        "symbol": "Crown",
+        "meaning": "His royal birth as a son of the king of Poland, and the crowns he might have pursued but did not hold."
+      },
+      {
+        "symbol": "Grand ducal cap",
+        "meaning": "His bond with Lithuania, whose grand dukes wore this cap; it marks him as a prince of the Jagiellonian house that ruled both lands."
+      }
+    ],
+    "whyWeTurn": "People turn to Casimir because he lived a quiet holiness in the middle of a royal court. He was a prince with every privilege, yet sources remember him praying at night outside locked church doors, keeping a simple life, caring for the poor and staying chaste when a political marriage was arranged for him. He also governed Poland for a time in his father's absence and was praised for justice. Lithuanians honor him as their principal patron, and young people especially ask his help to stay faithful when status, comfort or pressure from others pull them away from God.",
+    "quotes": [
+      {
+        "text": "Blessed are the clean of heart: for they shall see God.",
+        "work": "Matthew 5:8",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Seek ye therefore first the kingdom of God, and his justice, and all these things shall be added unto you.",
+        "work": "Matthew 6:33",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Casimir was born to wealth and power, yet he sought your kingdom first. Through his prayers, give me a clean heart and the freedom to say no to what would pull me away from you. Teach me to love the Eucharist and to honor your Mother as he did, and to see the poor as my brothers and sisters. Bless the young people of Lithuania, Poland and every land, and help them stay faithful when the world offers them other crowns. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers to St. Casimir from Vilnius Cathedral (in Lithuanian)",
+        "url": "https://www.katedra.lt/sv-kazimieras/maldos/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on March 4, his optional memorial in the General Roman Calendar; because the date often falls in Lent, it may be kept as a commemoration that day.",
+      "In Vilnius, his feast gave rise to the Kaziukas Fair (Kaziuko mugė), whose traditional sign is the woven Vilnius palm (verba); in the past, processions carried such palms to the cathedral in his honor.",
+      "Pray a Marian hymn or the rosary; he loved the long Latin hymn Omni die dic Mariae, though it is older than he is and he did not write it.",
+      "Talk with a young person about choosing faith over popularity or status, and pray for young people in Lithuania, whose special patron Pius XII declared him in 1948.",
+      "Give alms or fast in his memory, as Lithuanian feast-day customs once did to recall his self-denial and generosity to the poor."
+    ],
+    "places": [
+      {
+        "name": "Vilnius Cathedral Basilica (St. Casimir Chapel)",
+        "city": "Vilnius, Lithuania",
+        "url": "https://www.katedra.lt/"
+      }
+    ],
+    "confirmationNote": "Casimir suits a confirmand who feels pressure to fit in, impress others or chase success. He had wealth, rank and political prospects, yet he gave his first loyalty to God, prayed faithfully, loved Mary and cared for the poor. Pius XII named him a special patron of Lithuanian youth. Choosing his name can be a promise to keep a clean heart and put Christ ahead of status.",
+    "reflectionPrompts": [
+      "What kind of status or approval am I most tempted to chase, and what would it look like to seek God's kingdom first instead?",
+      "Set aside one quiet time of prayer before the Blessed Sacrament this week, even briefly, as Casimir sought out churches to pray.",
+      "Read Matthew 5:1–12 and 6:19–34 in the Douay-Rheims, then the Catholic Encyclopedia article on St. Casimir, noting what it says about the hymn long attributed to him."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "jadwiga-of-poland",
+        "reason": "Queen whose marriage to his grandfather Jagiełło joined Poland and Lithuania",
+        "historical": true
+      },
+      {
+        "slug": "stanislaus",
+        "reason": "Fellow patron of Poland; Vilnius Cathedral, where Casimir's relics rest, bears his name",
+        "historical": true
+      },
+      {
+        "slug": "stanislaus-kostka",
+        "reason": "Young Polish noble who chose God over his family's worldly plans",
+        "historical": false
+      },
+      {
+        "slug": "aloysius-gonzaga",
+        "reason": "Young heir who gave up rank and inheritance for God, a model for youth",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Casimir, Patron of Lithuania (March 4)",
+        "url": "https://www.vaticannews.va/en/saints/03/04.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Casimir",
+        "url": "https://www.newadvent.org/cathen/03402a.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, March 4 (St. Casimir)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-03-04"
+      },
+      {
+        "title": "Vilnius Cathedral: St. Casimir",
+        "url": "https://www.katedra.lt/sv-kazimieras/"
+      },
+      {
+        "title": "Vilnius Cathedral: Devotional traditions of St. Casimir",
+        "url": "https://www.katedra.lt/sv-kazimieras/pamaldumas/"
+      },
+      {
+        "title": "Vilnius Cathedral: Patron of Lithuanian youth",
+        "url": "https://www.katedra.lt/sv-kazimieras/jaunu-globejas/"
+      },
+      {
+        "title": "Vilnius Cathedral: Prayers to St. Casimir",
+        "url": "https://www.katedra.lt/sv-kazimieras/maldos/"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: lithuania is in the review and Vatican News; poland is added from the Catholic Encyclopedia ('patron of Poland and Lithuania') and Catholic Culture. Catholic Culture also lists against plague, bachelors, kings, princes, single laymen, Lithuanian youth and the diocese of Grodno; these are sourced but have no live topic.",
+      "symbols: only 3, all from Catholic Culture (lily, crown, grand ducal cap); the lily is also in the Catholic Encyclopedia. The cap's meaning is a plain-language gloss. Vilnius Cathedral shows a c. 1520 'three-handed' (Trirankis) image but gives no explanation, so it is omitted.",
+      "quotes: Omni die dic Mariae is NOT his composition. Catholic Culture says he certainly did not write it and that it is about three centuries older; the Catholic Encyclopedia credits it to St. Bernard and says it was only 'long attributed' to Casimir (the Bernard attribution is itself uncertain). It is mentioned in feastCustoms with that caution and not quoted. No writings of Casimir himself survive in a verified public-domain translation.",
+      "feastCustoms: the Kaziukas Fair, palm processions and fasting/alms customs come from the Vilnius Cathedral page on devotional traditions; no current dates are given. The 1948 youth patronage is from the same site.",
+      "biography: Catholic Culture says he died at 26 and was canonized in 1521; the Catholic Encyclopedia gives 3 October 1458 to 4 March 1484 (age 25) and canonization in 1522 by Adrian VI. Text follows the review (twenty-five) and avoids a canonization year.",
+      "biography: the Catholic Encyclopedia says that at thirteen he actually went to Hungary to claim the crown and returned unsuccessful, and Catholic Culture says he refused to fight a war he considered unjust; Vatican News says he renounced the crown at the Pope's urging. The review follows Vatican News ('did not take the Hungarian crown'), which is compatible, but a human may want to note he did set out for Hungary.",
+      "relatedSaints: Jadwiga was the first wife of his grandfather Władysław II Jagiełło, not his grandmother; the reason is worded accordingly."
     ]
   },
   "catherine-of-siena": {
