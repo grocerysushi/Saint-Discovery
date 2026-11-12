@@ -31578,5 +31578,736 @@
       "Zélie was Louis's wife and Thérèse their daughter; the John Bosco link indicates overlapping lifetimes only, with no meeting claimed.",
       "The entry acknowledges family loss without prescribing one family structure or implying that families are free from difficulties."
     ]
+  },
+  "louise-de-marillac": {
+    "templateVersion": 2,
+    "heroSummary": "St. Louise de Marillac is honored as a patron of those engaged in Christian social service. A wife and mother, she later co-founded the Daughters of Charity with St. Vincent de Paul. The Vincentian family celebrates her feast on May 9; her death was on March 15, 1660.",
+    "searchDescription": "Meet St. Louise de Marillac, co-founder of the Daughters of Charity and a patron of Christian social service.",
+    "whyWeTurn": "People may ask Louise's prayers when caring for someone who is ill, grieving a spouse, or working to serve people in need. After her husband's death, she became deeply involved in works of charity and helped Vincent de Paul establish the Daughters of Charity in 1633. The community brought women together for practical service among people who were poor or sick. Louise's story can encourage thoughtful care that respects each person's dignity. It can also remind us that sustaining service takes collaboration, attention to real needs, and support for those doing the work.",
+    "prayer": {
+      "text": "God of compassion, thank you for the life of St. Louise de Marillac and for everyone who serves a neighbor in need. Through her prayers, give patience to caregivers, wisdom to social workers, and comfort to those who mourn. Help us listen before offering help, respect each person's choices, and work together rather than try to carry every burden alone. Show me one practical act of kindness I can offer today, and teach me to serve with humility and care. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On May 9, join the Vincentian family in remembering Louise and praying for people who serve their neighbors.",
+      "Learn about the Daughters of Charity and the people they serve today.",
+      "Ask a local service organization what practical support it needs.",
+      "Thank a caregiver or social worker and offer encouragement without assuming what help they need."
+    ],
+    "confirmationNote": "Louise may appeal to a Confirmation candidate interested in care, family life, and service. She was a mother and widow who helped build a community devoted to serving people in need. With a sponsor, learn how the Daughters of Charity began and consider what respectful service looks like in your own community. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone helped me feel respected while offering assistance?",
+      "Ask a trusted local organization how a volunteer can support its current work.",
+      "Read the Daughters of Charity's account of their founding. How did Louise and Vincent work together?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vincent-de-paul",
+        "reason": "He and Louise founded the Daughters of Charity together in 1633.",
+        "historical": true
+      },
+      {
+        "slug": "john-xxiii",
+        "reason": "As pope he named Louise patron of people engaged in Christian social works.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "A later mother and religious founder associated with the Sisters of Charity in the United States.",
+        "historical": false
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A later religious founder whose life included education and service to communities facing exclusion.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Daughters of Charity: Who We Are",
+        "url": "https://daughtersofcharity.org/who-we-are/"
+      },
+      {
+        "title": "John Paul II: Letter for the fourth centenary of Louise's birth (French)",
+        "url": "https://www.vatican.va/content/john-paul-ii/fr/letters/1991/documents/hf_jp-ii_let_19910703_suor-elizondo.html"
+      },
+      {
+        "title": "Congregation of the Mission: Transfer of the feast of St. Louise (Spanish)",
+        "url": "https://vincentians.com/es/traslado-de-la-fiesta-de-santa-luisa-de-marillac/"
+      },
+      {
+        "title": "Pope Francis: Homily mentioning Louise's March 15 memorial",
+        "url": "https://www.vatican.va/content/francesco/en/cotidie/2020/documents/papa-francesco-cotidie_20200509_tra-consolazioni-e-persecuzioni.pdf"
+      }
+    ],
+    "flags": [
+      "Feast: May 9 is the Vincentian family observance, moved from March 15 in 2016; other calendars may list March 15. The hero identifies the context, consistent with the existing May 9 fact card.",
+      "Patronage: John Paul II specifies those dedicated to Christian social works; a topic link is omitted pending live-index verification.",
+      "Symbols, quotes and places omitted pending independent verification; suggested feast practices are original."
+    ]
+  },
+  "lucy": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lucy of Syracuse is a patron saint of people who are blind and of ophthalmologists. An early Christian martyr honored in the Church's ancient prayer, she is remembered on December 13. Her long devotion invites prayer for people with visual disabilities and for those who care for eye health.",
+    "searchDescription": "Discover St. Lucy of Syracuse, an early Christian martyr and patron of people who are blind, remembered December 13.",
+    "whyWeTurn": "People may ask Lucy's prayers for eye health, for courage, or when supporting a person experiencing a change in vision. She was an early Christian martyr associated with Syracuse, and her name is included in the Roman Canon of the Mass. Many colorful accounts describe her life and death, but their details are legends rather than facts that can be confidently established. The USCCB names her a patron of ophthalmologists; a sanctuary dedicated to Lucy also identifies her as a patron of people who are blind. Her feast can encourage practical accessibility, respect for disabled people's independence, and attention to the support each person actually wants.",
+    "prayer": {
+      "text": "God of compassion, through the prayers of St. Lucy, be close to all who are blind or experiencing changes in vision. Bless eye-care professionals, teachers, families, and friends who offer support. Help us listen to each person's wishes and remove barriers that keep people from participating fully in our communities. Give courage to those facing illness and patience to those adapting to change. Teach me to offer help respectfully, without assuming what someone can or cannot do. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On December 13, remember Lucy and pray for people affected by eye illness and vision loss.",
+      "Learn from people who are blind how a community can improve accessibility.",
+      "Offer help only after asking whether it would be welcome.",
+      "Read the USCCB's account and distinguish what is known from later legends."
+    ],
+    "confirmationNote": "Lucy may appeal to a Confirmation candidate interested in courage and the dignity of people with disabilities. Her early veneration is well attested, while many details in popular stories about her are uncertain. With a sponsor, explore what it means to support accessible participation in parish life and to listen to people with different experiences of vision. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone respected my independence while offering support?",
+      "Ask a parish leader how its events or materials can be made more accessible.",
+      "Read the USCCB account. Which details does it identify as legends about Lucy?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "agnes",
+        "reason": "Like Lucy, Agnes is traditionally associated with the early fourth century and is named in the Roman Canon; the details of their lives are uncertain.",
+        "historical": true
+      },
+      {
+        "slug": "agatha",
+        "reason": "Another early martyr associated with Sicily and remembered in the Roman Canon.",
+        "historical": false
+      },
+      {
+        "slug": "cecilia",
+        "reason": "Another martyr named in the Roman Canon of the Mass.",
+        "historical": false
+      },
+      {
+        "slug": "raphael-the-archangel",
+        "reason": "The biblical book of Tobit associates Raphael with care for Tobit's sight.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: Memorial of Saint Lucy",
+        "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/advent/advent-december-13"
+      },
+      {
+        "title": "USCCB: Lucy, Virgin and Martyr",
+        "url": "https://www.usccb.org/resources/twim-advent-st-lucy.pdf"
+      },
+      {
+        "title": "USCCB: Memorial of Saint Lucy, December 13",
+        "url": "https://bible.usccb.org/bible/readings/121323.cfm"
+      },
+      {
+        "title": "Basilica of Saint John the Baptist: Martyrs Agnes and Lucy",
+        "url": "https://www.olsjbasilica.org/martyrs/"
+      },
+      {
+        "title": "Sanctuary of Saint Lucy: Saint Lucy",
+        "url": "https://www.santuariodilucia.it/en/project/saint-lucy/"
+      }
+    ],
+    "flags": [
+      "Patronage: USCCB names ophthalmologists and the Sanctuary of Saint Lucy identifies people who are blind; index links omitted pending verification.",
+      "History: accounts of injury and martyrdom methods are described as legends by USCCB and not asserted as fact.",
+      "Historical connection: Lucy and Agnes are traditionally associated with the early fourth century and are named in the Roman Canon; no personal meeting is asserted.",
+      "Symbols, quotations and places omitted pending verification; suggested feast practices are original.",
+      "Source access: the USCCB Advent page and readings page returned HTTP 403 to direct automated requests; the USCCB PDF and sanctuary source support this entry."
+    ]
+  },
+  "luke-the-evangelist": {
+    "templateVersion": 2,
+    "heroSummary": "St. Luke the Evangelist is honored as a patron of artists. Christian tradition identifies him as a physician and companion of Paul and associates him with the third Gospel and the Acts of the Apostles. The Church celebrates his feast on October 18, honoring his witness to Christ.",
+    "searchDescription": "Meet St. Luke the Evangelist, patron of artists and traditionally associated with the Gospel of Luke and Acts, remembered October 18.",
+    "whyWeTurn": "People may ask Luke's prayers when they care for someone who is ill, tell a story through art, or want to learn more about Jesus. Christian tradition associates Luke, a companion of Paul, with the Gospel bearing his name and with Acts. Scripture also names a physician called Luke; tradition identifies him with the evangelist. The Gospel of Luke gives particular attention to mercy, prayer, and people on the margins. Its account of the Good Samaritan can prompt us to notice a neighbor's need and respond with practical care, while respecting the limits of what we know about the evangelist's life.",
+    "prayer": {
+      "text": "God of mercy, thank you for the Gospel and for all who share good news through words and art. Through the prayers of St. Luke, bless physicians, nurses, artists, writers, and everyone who accompanies people in need. Give wisdom to those making difficult decisions about care, and comfort to people who are ill or worried. Help me listen to a neighbor's story with patience and respond with kindness. May the life and teaching of Jesus guide the work I do today. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On October 18, remember Luke and pray for artists and health-care workers.",
+      "Read the parable of the Good Samaritan in Luke 10 and consider one practical response to a neighbor's need.",
+      "Thank someone whose art or teaching helps you understand a story more deeply.",
+      "Ask a caregiver what support would be useful rather than assuming."
+    ],
+    "confirmationNote": "Luke may appeal to a Confirmation candidate interested in storytelling, art, medicine, or the Gospel's call to mercy. Christian tradition connects him with Paul and with the Gospel of Luke and Acts. With a sponsor, read one of Luke's accounts of Jesus' care for others and discuss how it can shape a concrete choice. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Whose story have I learned from by listening carefully?",
+      "Offer a specific practical kindness to a neighbor or caregiver this week.",
+      "Read the opening of Luke's Gospel. What does the author say about drawing on earlier accounts?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Christian tradition identifies Luke as a companion of Paul, who is associated with a physician named Luke.",
+        "historical": true
+      },
+      {
+        "slug": "mark-the-evangelist",
+        "reason": "Another evangelist whose Gospel is part of the New Testament.",
+        "historical": false
+      },
+      {
+        "slug": "matthew",
+        "reason": "Another evangelist whose Gospel is part of the New Testament.",
+        "historical": false
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "Church tradition associates John the Apostle with the Fourth Gospel.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Saint Luke, evangelist",
+        "url": "https://www.vaticannews.va/en/saints/10/18/st--luke--evangelist--physician---patron-of--artists.html"
+      },
+      {
+        "title": "USCCB: Mental Health Novena, conclusion on St. Luke",
+        "url": "https://www.usccb.org/mental-health-novena"
+      },
+      {
+        "title": "USCCB Bible: Luke 1",
+        "url": "https://bible.usccb.org/bible/luke/1"
+      },
+      {
+        "title": "USCCB Bible: Luke 10",
+        "url": "https://bible.usccb.org/bible/luke/10"
+      }
+    ],
+    "flags": [
+      "Patronage: Vatican News explicitly names artists; no index link added pending verification.",
+      "History: authorship of Luke and Acts, identification of the physician, and companionship with Paul are framed as tradition, consistent with the fact card; no artwork is presented as painted by Luke.",
+      "Symbols, quotations and places omitted pending verification; feast activities other than October 18 observance are suggestions.",
+      "Source access: the USCCB Gospel pages and mental health novena returned HTTP 403 to direct automated requests; indexed text and the Vatican News source were available."
+    ]
+  },
+  "lydia": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Lydia of Thyatira is honored as a patron of dyers. The Acts of the Apostles describes her as a dealer in purple goods who heard Paul in Philippi, was baptized with her household, and welcomed his companions. Her commemoration appears on May 20 and August 3 in different sources.",
+    "searchDescription": "St. Lydia of Thyatira, patron of dyers, welcomed Paul and his companions after her baptism in Philippi, according to Acts 16.",
+    "patronages": [],
+    "whyWeTurn": "People may turn to Lydia when thinking about hospitality, work, and the ways faith grows through relationships. Acts describes her as a dealer in purple goods from Thyatira who listened to Paul in Philippi, was baptized with her household, and invited the missionaries into her home. After their release from prison, Paul and Silas returned there and encouraged the believers. Acts does not specify Lydia's wealth, her later life, or her date of death. Her story invites us to consider how an ordinary place of welcome can support a community.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of welcome, you open hearts to your word and bring people together in unexpected ways. Through the prayers of St. Lydia, help me offer hospitality with generosity and respect. Bless people who work in trade, make textiles, and use their skills to support their families and communities. Give me wisdom to notice someone who needs encouragement and patience to listen before I speak. Help our homes and gatherings become places where people are safe and welcomed, and guide us in sharing what we have. Amen."
+    },
+    "feastCustoms": [
+      "Remember Lydia in prayer on a date observed locally; sources name May 20 and August 3.",
+      "Read Acts 16 and trace the occasions when Lydia's home appears in the story.",
+      "Invite someone who would welcome company to share a simple meal or conversation.",
+      "Pray for textile workers and consider how your choices can support fair treatment at work."
+    ],
+    "confirmationNote": "Lydia may interest a candidate who values hospitality, honest work, and building community. Acts presents her as an active listener and a generous host in Philippi, while leaving much of her later life unknown. Read her story with a sponsor and discuss how a welcoming place can help people belong. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone's welcome made it easier for me to feel part of a group?",
+      "Offer a specific invitation or encouragement to someone who would appreciate it.",
+      "Read Acts 16:11–15 and 16:40. What do the passages tell us about Lydia, and what do they leave unsaid?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Acts describes Lydia listening to Paul and welcoming him and his companions in Philippi.",
+        "historical": true
+      },
+      {
+        "slug": "timothy",
+        "reason": "Acts 16 names Timothy among Paul's traveling companions before the Philippi account.",
+        "historical": true
+      },
+      {
+        "slug": "luke-the-evangelist",
+        "reason": "Church tradition associates Luke with Acts, which records Lydia's story.",
+        "historical": false
+      },
+      {
+        "slug": "martha",
+        "reason": "The Gospels also associate Martha with welcoming Jesus into a home.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB Bible: Acts 16",
+        "url": "https://bible.usccb.org/bible/acts/16"
+      },
+      {
+        "title": "Archdiocese of Baltimore: St. Lydia Purpuraria",
+        "url": "https://www.archbalt.org/st-lydia-purpuraria/"
+      },
+      {
+        "title": "Catholic Church in France, Nominis: Sainte Lydie",
+        "url": "https://nominis.cef.fr/contenus/saints/1614/Sainte-Lydie.html"
+      },
+      {
+        "title": "Vatican City State: Saint Lydia, August 3",
+        "url": "https://vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/2482-august-3-saint-lydia.html"
+      },
+      {
+        "title": "Vatican News: Calendar for August 3",
+        "url": "https://www.vaticannews.va/en/saints/08/03.html"
+      }
+    ],
+    "flags": [
+      "review required: the site fact card gives August 3; French Catholic Nominis cites the Roman Martyrology for May 20 and lists both dates, whereas Vatican City State presents August 3 and says Lydia is not in an official martyrology. Hold at 1.5 pending direct review of the applicable current Roman Martyrology and calendar; do not invent a resolution.",
+      "patronages: Baltimore names dyers. Merchants are broadly named by Nominis but a specific cloth-merchants patronage was not independently confirmed; conversions omitted.",
+      "symbols: omitted because three distinct saint-specific attributes and meanings were not independently verified.",
+      "quotes: omitted; scripture is referenced without quotation.",
+      "places: omitted pending a verified official visitor resource.",
+      "history: Acts describes conversion at Philippi, not Lydia's ethnicity or a claim that no earlier Christian lived in Europe. Existing quiz text describing her as the first European convert and wealthy is broader than the text supports; not altered in this batch.",
+      "relatedSaints: Paul and Timothy appear in the Acts 16 narrative; Luke's authorship is presented as tradition.",
+      "Source access: the Vatican City State article returned HTTP 404 to a direct automated check but was available in search index; Vatican News independently lists Lydia on August 3.",
+      "Source access: the USCCB Acts page returned HTTP 403 to direct automated requests; indexed text was available."
+    ]
+  },
+  "magdalen-of-canossa": {
+    "templateVersion": 2,
+    "heroSummary": "St. Magdalen of Canossa is honored as a patron by Canossian schools. A woman from Verona, she founded the Daughters of Charity and developed education and care for people in poverty. Her work grew into a religious family that also includes the Sons of Charity. She died on April 10, 1835.",
+    "searchDescription": "St. Magdalen of Canossa founded a religious family devoted to education, Christian formation, and care for people in poverty.",
+    "whyWeTurn": "People may ask Magdalen of Canossa's prayers when working in education or seeking a practical way to help neighbors in need. The Holy See's biography describes her work among people experiencing poverty in Verona and the community she began in 1808. Her Daughters of Charity developed schools, religious instruction, and support for people who were ill; a men's foundation followed. She worked with others and prepared teachers to extend the mission. Her life invites us to pay attention to local needs and support lasting care, not simply offer a momentary gesture.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of generous love, help us see the needs of the people around us. Through the prayers of St. Magdalen of Canossa, bless teachers, caregivers, and everyone who serves neighbors facing hardship. Give us the patience to listen, the humility to work with others, and the courage to share our time and resources. Help children and adults find opportunities to learn and support people who are sick or alone. Make our care faithful and respectful, and guide us to serve with joy and compassion. Amen."
+    },
+    "feastCustoms": [
+      "On April 10, remember Magdalen in prayer and give thanks for those who teach and care for others.",
+      "Read the Holy See's biography and identify the different kinds of service her community offered.",
+      "Ask a local school or charity what practical support would be useful.",
+      "Offer encouragement to someone whose quiet work helps others learn."
+    ],
+    "confirmationNote": "Magdalen of Canossa may interest a candidate who cares about education and practical service. Her community brought together teaching, religious formation, and care for people facing poverty or illness. With a sponsor, discuss how listening to local needs can shape a service project that lasts. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has helped me learn or feel included without seeking recognition?",
+      "Ask a trusted local charity which need a volunteer or donated item could meet.",
+      "Read the Vatican biography. How did Magdalen prepare others to continue educational work?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "josephine-bakhita",
+        "reason": "A later member of the Canossian Daughters of Charity founded by Magdalen.",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Magdalen in 1988.",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A French priest also remembered for organizing practical care for people in poverty.",
+        "historical": false
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A saint whose life similarly invites reflection on care for people who are poor or ill.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Biography of Magdalena of Canossa",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19881002_maddalena_di_canossa_en.html"
+      },
+      {
+        "title": "Holy See: Biography of Josephine Bakhita",
+        "url": "https://www.vatican.va/news_services/liturgy/documents/ns_lit_doc_20001001_giuseppina-bakhita_en.html"
+      },
+      {
+        "title": "Archdiocesan Commission for Catholic Schools, Singapore: St. Magdalene of Canossa",
+        "url": "https://www.accs.sg/magdalene-canossa/"
+      },
+      {
+        "title": "Canossian Daughters of Charity: Saint Magdalene",
+        "url": "https://www.canossian.org/en/who-we-are/saint-magdalene-of-canossa/"
+      },
+      {
+        "title": "Holy See: Saints proclaimed during John Paul II's pontificate",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_list_saints-jp-ii_en.html"
+      }
+    ],
+    "flags": [
+      "patronages: the Singapore archdiocesan school commission identifies her as patron of named Canossian schools; education, young girls, and people in poverty are documented fields of service, but general patronage claims for those indexed topics were not verified.",
+      "symbols: omitted because three distinct saint-specific symbols and meanings were not independently verified.",
+      "quotes: omitted; no independently checked public-domain English translation.",
+      "places: omitted pending a verified official visitor resource.",
+      "feastCustoms: April 10 is supported by the Singapore archdiocesan schools commission; activities are suggestions, not attested traditional customs.",
+      "history: her foundation is distinguished from the later work of Josephine Bakhita; no personal meeting is implied."
+    ]
+  },
+  "magdalena-of-nagasaki": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Magdalena of Nagasaki was a Japanese lay Christian and Augustinian tertiary who taught and cared for others during persecution. She was killed in 1634 and canonized with Lorenzo Ruiz and companions in 1987. The Augustinian family remembers her individually on October 20; the martyrs' group is commemorated September 28.",
+    "searchDescription": "St. Magdalena of Nagasaki, a Japanese Augustinian tertiary and martyr, taught and supported Christians during persecution.",
+    "whyWeTurn": "People may remember Magdalena of Nagasaki when praying for persecuted Christians and for those who quietly support a community under pressure. An Augustinian account describes her teaching the faith, seeking help for poor people, and visiting the sick. Her parents and other family members had been killed, and the missionaries who guided her were also martyred. She continued serving Christians who sought refuge during persecution and was herself killed in 1634. Her life can inspire compassion for people facing violence while reminding us that no one should be pressured to seek danger or suffering.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of peace, you are close to people who are afraid or far from safety. Through the prayers of St. Magdalena of Nagasaki, strengthen communities facing persecution and protect those who care for others under difficult conditions. Give teachers, helpers, and families courage and wisdom, and console those who mourn. Help me notice people who need support and respond with practical kindness. Guide those with power toward justice and peace, and help us respect the dignity and freedom of every person. Amen."
+    },
+    "feastCustoms": [
+      "On October 20, the Augustinian family remembers Magdalena individually; Lorenzo Ruiz and companions are commemorated on September 28 in the U.S. calendar.",
+      "Read the Augustinian account of her life, choosing an age-appropriate way to discuss persecution.",
+      "Pray for people facing violence or restrictions on religious practice.",
+      "Learn about a trusted organization helping displaced families and ask what support it needs."
+    ],
+    "confirmationNote": "Magdalena of Nagasaki may interest a candidate drawn to teaching, service, and courageous faith. She helped Christians in a persecuted community, and her story includes painful violence that should be discussed with care. With a sponsor, consider ways to support someone who is isolated or afraid. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has supported me or my community in a difficult time?",
+      "Offer a small act of encouragement to someone who feels isolated.",
+      "Read the Augustinian account. Which forms of service did Magdalena offer before her arrest?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "lorenzo-ruiz",
+        "reason": "The Philippine layman canonized with Magdalena among sixteen martyrs of Japan in 1987.",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Magdalena and the other martyrs in 1987.",
+        "historical": true
+      },
+      {
+        "slug": "paul-miki",
+        "reason": "An earlier Japanese martyr who died during a different wave of persecution.",
+        "historical": false
+      },
+      {
+        "slug": "kizito",
+        "reason": "A young Ugandan martyr whose life also invites prayer for communities experiencing persecution.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Order of St. Augustine: St. Magdalene of Nagasaki",
+        "url": "https://augustinian.org/october-20/"
+      },
+      {
+        "title": "Holy See: Lorenzo Ruiz and companions, canonization biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19871018_ruiz-compagni_sp.html"
+      },
+      {
+        "title": "USCCB: Liturgical calendar, Lorenzo Ruiz and companions",
+        "url": "https://www.usccb.org/resources/2028cal.pdf"
+      },
+      {
+        "title": "Augustinian Recollects: Magdalene and her books",
+        "url": "https://agustinosrecoletos.org/2022/10/aquellos-libros-de-magdalena/?lang=en"
+      }
+    ],
+    "flags": [
+      "review required: existing fact card lists October 15 as feast date; the Augustinian order states October 20 for its individual feast, and the USCCB calendar lists Lorenzo Ruiz and companions on September 28. October 15 appears in secondary accounts as her death date, but the Holy See canonization biography gives only October–November 1634. Hold at 1.5 pending direct verification of the site's October 15 feast source; do not equate a reported death date with a feast.",
+      "patronages: the Augustinian Recollects identify her as patron of their secular fraternity; the site's indexed topics Japanese Christians and persecuted women were not independently substantiated as patronages.",
+      "symbols: omitted because three saint-specific artistic attributes and meanings were not independently verified.",
+      "quotes: omitted; no public-domain English wording independently verified.",
+      "places: omitted pending a verified official visitor resource.",
+      "history: the Vatican biography identifies her as both an Augustinian and Dominican tertiary. Torture is acknowledged without graphic detail and is never recommended as a model to seek.",
+      "relatedSaints: Lorenzo Ruiz was canonized in the same group; they died in different years and no personal meeting is implied."
+    ]
+  },
+  "malachy": {
+    "templateVersion": 2,
+    "heroSummary": "St. Malachy of Armagh is honored as a patron of the Archdiocese of Armagh. A twelfth-century Irish bishop, he worked for renewal in the Church and became a friend of St. Bernard of Clairvaux. He died at Clairvaux in 1148 and is remembered on November 3 in an Armagh priest’s observance.",
+    "searchDescription": "Meet St. Malachy of Armagh, an Irish bishop and friend of St. Bernard of Clairvaux, remembered November 3.",
+    "whyWeTurn": "People may ask Malachy's prayers when they are working to improve a community, facing resistance to change, or seeking a trustworthy friend. He served in several Irish church offices, including the see of Armagh, during a time of contested leadership and reform. On a journey to Rome he met Bernard of Clairvaux; their friendship continued, and Malachy died at Clairvaux on a later journey. A list predicting future popes circulated centuries after his life and is attributed to him, but its authenticity is strongly disputed. His documented ministry and friendship offer a sounder starting point for learning about him.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom, guide those entrusted with the care of communities and help them act with honesty and patience. Through the prayers of St. Malachy, give us courage to address problems without losing compassion for the people involved. Bless the friends who support us in difficult work, and help us offer the same support to others. Teach us to listen before making judgments and to seek faithful ways forward when change is needed. May our prayer lead us to serve with humility and love. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On November 3, a date used by an Armagh priest for his feast, read the Archdiocese of Armagh’s account of Malachy; check your local calendar.",
+      "Pray for people working to renew their parish or community.",
+      "Thank a friend who has supported you during a difficult undertaking.",
+      "Learn about the history of Mellifont Abbey and its connection to Irish Cistercian life."
+    ],
+    "confirmationNote": "Malachy may interest a candidate who values friendship, perseverance, and responsible leadership. His work in Ireland and friendship with Bernard of Clairvaux offer ways to explore how people support one another through change. With a sponsor, distinguish his documented life from later claims about predicting popes. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has encouraged me when I faced a difficult responsibility?",
+      "What is one respectful step I can take to improve a community I belong to?",
+      "What does the Archdiocese of Armagh say about Malachy's friendship with Bernard and his work in Ireland?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bernard-of-clairvaux",
+        "reason": "Malachy's friend and biographer, who received him at Clairvaux.",
+        "historical": true
+      },
+      {
+        "slug": "patrick",
+        "reason": "An earlier bishop remembered in the history of the Church in Ireland.",
+        "historical": false
+      },
+      {
+        "slug": "lawrence-otoole",
+        "reason": "A later twelfth-century Irish archbishop associated with church reform.",
+        "historical": true
+      },
+      {
+        "slug": "brigid-of-ireland",
+        "reason": "An earlier Irish saint remembered for service and faith.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archdiocese of Armagh: St Malachy",
+        "url": "https://www.armagharchdiocese.org/stmalachy/"
+      },
+      {
+        "title": "Archdiocese of Armagh: Mellifont Old Cistercian Abbey",
+        "url": "https://www.armagharchdiocese.org/mellifontoldcistercianabbey/"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Malachy",
+        "url": "https://www.newadvent.org/cathen/09565a.htm"
+      },
+      {
+        "title": "Armagh priest: Prayer to St. Malachy",
+        "url": "https://www.armaghpriest.com/blog/2014/11/03/prayer-to-st-malachy"
+      },
+      {
+        "title": "U.S. Catholic: What is the prophecy of St. Malachy?",
+        "url": "https://uscatholic.org/articles/202405/glad-you-asked-what-is-the-prophecy-of-st-malachy/"
+      }
+    ],
+    "flags": [
+      "Armagh priest identifies Malachy as patron of the diocese; there is no live matching patronage topic.",
+      "The disputed later list of papal prophecies is not attributed to Malachy as fact.",
+      "Malachy died November 2, 1148. An Armagh priest observes his feast on November 3, matching the existing card, but the Archdiocese of Armagh biography calls November 2 his feast; local observance is specified rather than resolving the discrepancy.",
+      "Symbols, quotations, and places omitted pending independent verification."
+    ]
+  },
+  "mamertus": {
+    "templateVersion": 2,
+    "heroSummary": "St. Mamertus was a fifth-century bishop of Vienne in Gaul, in what is now France. He is remembered for organizing days of communal prayer after a period of local distress. These observances became associated with Rogation Days. His traditional commemoration is on May 11.",
+    "searchDescription": "Learn about St. Mamertus of Vienne and the communal prayers associated with Rogation Days.",
+    "whyWeTurn": "People may turn to Mamertus when a community faces uncertainty and wants to pray and care for its neighbors together. As bishop of Vienne in the fifth century, he is associated with three days of prayer and processions before the Ascension. Contemporary and later writers connected the practice with troubles affecting the city; it spread beyond Vienne and became known as the Rogation Days. Prayer is not a guarantee that disasters will be prevented or ended. Remembering Mamertus can encourage communities to join prayer with careful preparation, mutual support, and practical help for those affected by hardship.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of compassion, be near to communities facing uncertainty, disaster, or loss. Through the prayers of St. Mamertus, help us support neighbors who are afraid and care for people whose homes or livelihoods are threatened. Give wisdom to those who prepare for emergencies and courage to those who respond when help is needed. Teach us to pray together without turning away from practical responsibilities. In times of grief, surround the affected with patient friendship, generosity, and hope. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On May 11, remember Mamertus and pray for a community facing hardship.",
+      "Learn about Rogation Days and how a local parish observes them, if it does.",
+      "Review an emergency plan or ask a neighbor whether practical help would be welcome.",
+      "Support a trusted local organization helping people recover from disasters."
+    ],
+    "confirmationNote": "Mamertus may appeal to a candidate who values communal prayer and practical care for neighbors. His association with Rogation Days offers a way to explore how a community can respond together during uncertainty. With a sponsor, discuss how prayer, preparation, and service can belong together without treating hardship as punishment. Follow your parish's guidance about Confirmation names.",
+    "reflectionPrompts": [
+      "When have I felt supported by a community during uncertainty?",
+      "What practical preparation could help my household or a neighbor this week?",
+      "What do the historical accounts say about Mamertus and the development of Rogation Days?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "genevieve",
+        "reason": "Another Christian remembered in fifth-century Gaul, during the broader era of Mamertus's ministry.",
+        "historical": true
+      },
+      {
+        "slug": "leo-the-great",
+        "reason": "A bishop of Rome in the fifth century, during Mamertus's broader era.",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "A later bishop whose ministry also invites reflection on communal prayer and care.",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "A later saint remembered for prayer and care for others.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: St. Mamertus",
+        "url": "https://www.newadvent.org/cathen/09580a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: Rogation Days",
+        "url": "https://www.newadvent.org/cathen/13110b.htm"
+      },
+      {
+        "title": "Catholic Online: St. Mamertius",
+        "url": "https://www.catholic.org/saints/saint.php?saint_id=4439"
+      },
+      {
+        "title": "Dictionary of Christian Biography: Mamertus of Vienne",
+        "url": "https://en.wikisource.org/wiki/Dictionary_of_Christian_Biography_and_Literature_to_the_End_of_the_Sixth_Century/Mamertus%2C_Saint%2C_bp._of_Vienne"
+      }
+    ],
+    "flags": [
+      "May 11 is a traditional commemoration, not asserted as a universal feast.",
+      "Rogation observance is associated with community distress, not a promise that prayer prevents disasters or proof of divine punishment.",
+      "Geneviève and Leo are linked by the broad fifth-century era; no meeting is asserted.",
+      "No patronage asserted without adequate support; symbols, quotations, and places omitted."
+    ]
+  },
+  "marcellin-champagnat": {
+    "templateVersion": 2,
+    "heroSummary": "St. Marcellin Champagnat is honored as a patron of the Marist teaching brothers. A French priest, he founded a community of brothers devoted to the Christian education of young people. His own difficulties in school and concern for rural children shaped his educational mission. The Marist Brothers remember him on June 6.",
+    "searchDescription": "Meet St. Marcellin Champagnat, founder of the Marist Brothers and a supporter of education for young people.",
+    "whyWeTurn": "People may turn to Marcellin Champagnat when praying for teachers, students, or children who have limited access to learning. Growing up in rural France, he faced challenges in his own education before becoming a priest. At La Valla he saw the need for religious education among young people and founded the community later known as the Marist Brothers. Their mission joined teaching with concern for the whole person. His story can encourage adults to notice barriers to learning and to support young people with patience. It can also remind students that struggling with a subject does not define their worth.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom and love, bless teachers, students, and all who help young people learn. Through the prayers of St. Marcellin Champagnat, give patience to those who find school difficult and encouragement to those who feel left behind. Help educators notice each student's gifts and respond to their needs with care. Guide families and communities as they work to remove barriers to learning. Teach us to value every person beyond grades or achievements, and to offer help with humility and respect. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On June 6, read the Holy See's biography of Marcellin and his work in education.",
+      "Thank a teacher or mentor who has helped you persevere.",
+      "Ask a local school or learning program what support its students need.",
+      "Pray for young people who face barriers to education."
+    ],
+    "confirmationNote": "Marcellin may interest a candidate who cares about teaching, encouragement, or helping young people overcome obstacles. His own educational difficulties and his work with the Marist Brothers offer a starting point for discussing how adults can support students with patience. Read about his life with a sponsor and follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has a teacher or mentor encouraged me through a challenge?",
+      "What can I do this week to help someone feel included in learning?",
+      "What does the Holy See's biography say about the needs Marcellin encountered at La Valla?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-vianney",
+        "reason": "A fellow seminarian at Lyon, named among Marcellin's companions in the Holy See's biography.",
+        "historical": true
+      },
+      {
+        "slug": "john-bosco",
+        "reason": "A contemporary educator whose work also focused on young people in Italy.",
+        "historical": true
+      },
+      {
+        "slug": "john-baptist-de-la-salle",
+        "reason": "An earlier French founder associated with Christian education.",
+        "historical": false
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A later religious founder who supported schools for underserved communities.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Marcellin Champagnat, biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19990418_champagnat_en.html"
+      },
+      {
+        "title": "Dicastery for the Causes of Saints: Marcellin Champagnat",
+        "url": "https://www.causesanti.va/it/santi-e-beati/marcellin-joseph-benoit-champagnat.html"
+      },
+      {
+        "title": "Saint John Paul II: Address after canonizations",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1999/april/documents/hf_jp-ii_spe_19990419_canonisation.html"
+      },
+      {
+        "title": "Diocese of Augsburg: Marcellin Champagnat",
+        "url": "https://www2.bistum-augsburg.de/heilige-des-tages/kalender/marcellin-champagnat_id754714"
+      },
+      {
+        "title": "Marist Brothers: The feast of St Marcellin Champagnat",
+        "url": "https://champagnat.org/en/the-feast-of-st-marcellin-champagnat/"
+      }
+    ],
+    "flags": [
+      "The Diocese of Augsburg identifies him as patron of the Marist teaching brothers; no corresponding live patronage topic exists.",
+      "John Vianney is documented as a fellow seminarian. John Bosco lived in Italy during an overlapping period; no meeting is claimed.",
+      "Symbols, quotations, and places omitted pending independent verification.",
+      "June 6 corresponds to the existing feast date; suggested activities are not asserted historic customs.",
+      "The Marist Brothers observe June 6, while the Diocese of Augsburg lists June 8; the existing site date is retained and the difference noted.",
+      "Source access: the Marist Brothers feast page returned HTTP 403 to a direct automated check; its indexed text was available."
+    ]
+  },
+  "marcellinus": {
+    "templateVersion": 1.5,
+    "heroSummary": "Marcellinus was bishop of Rome from about 296 to 304, as persecution under the emperor Diocletian began. Later accounts describe his actions and death in different ways, but the surviving evidence does not establish a reliable detailed narrative. He has traditionally been commemorated on April 26.",
+    "searchDescription": "Explore the uncertain history of Marcellinus, bishop of Rome during the beginning of the Diocletian persecution.",
+    "whyWeTurn": "The memory of Marcellinus can prompt reflection on the early Christian community during persecution and on the care needed when reading stories written long after an event. He served as bishop of Rome when imperial measures against Christians began. Later accounts disagree about his actions and death, and surviving evidence does not settle those questions. Remembering that uncertainty matters: neither an accusation nor a dramatic story should become a certain biography without adequate support. We can pray for people who face pressure because of their faith while listening carefully to historians and respecting the limits of the evidence.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of truth and mercy, be close to people who face pressure or violence because of their beliefs. Give wisdom to those who lead communities in uncertain times and compassion to those who are afraid. Help us listen carefully before repeating a story about another person, and give us humility when the evidence is incomplete. Strengthen all who work for freedom, peace, and the dignity of their neighbors. Teach us to speak honestly and act with kindness in our own communities. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On April 26, a traditional commemoration associated with Marcellinus, pray for people facing religious persecution and check your local calendar.",
+      "Read a careful historical account of the Diocletian persecution and note what is uncertain about Marcellinus.",
+      "Support a trusted organization that assists people displaced by violence.",
+      "Ask a teacher or parish leader how historians assess a later account of an earlier event."
+    ],
+    "confirmationNote": "Marcellinus may interest a candidate who wants to study the early Church and the limits of historical evidence. Later stories about him differ, so his page is an opportunity to discuss how traditions are handed down and assessed. With a sponsor, read a reliable historical account and identify what it can and cannot establish. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I learned that a familiar story was more complicated than I first thought?",
+      "Before repeating a historical claim this week, look for a reliable source and note any uncertainty.",
+      "What does the Catholic Encyclopedia say about the evidence for Marcellinus and the later accounts of his death?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "marcellus-i",
+        "reason": "A later bishop of Rome after Marcellinus; no personal meeting is implied.",
+        "historical": true
+      },
+      {
+        "slug": "peter",
+        "reason": "An earlier apostle associated with the church of Rome and its episcopal succession.",
+        "historical": false
+      },
+      {
+        "slug": "agnes",
+        "reason": "A martyr traditionally associated with persecution in Rome in the same broad period, although details of her life remain uncertain.",
+        "historical": false
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "A later bishop of Rome whose ministry is better documented.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: Pope St. Marcellinus",
+        "url": "https://www.newadvent.org/cathen/09637d.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: Pope St. Marcellus I",
+        "url": "https://www.newadvent.org/cathen/09640b.htm"
+      },
+      {
+        "title": "Vatican News: Saints of April 26",
+        "url": "https://www.vaticannews.va/en/saints/04/26.html"
+      },
+      {
+        "title": "Papal reference: Marcellinus (secondary lead on later calendars)",
+        "url": "https://www.studylight.org/dictionaries/eng/pap/m/marcellinus-pope.html"
+      },
+      {
+        "title": "Catholic Church in France: Sainted popes",
+        "url": "https://nominis.cef.fr/contenus/saint/papes.html"
+      }
+    ],
+    "flags": [
+      "Review required: the site’s April 26 card reflects a historical commemoration. A modern papal reference says he is absent from the current Roman Martyrology, while Catholic Church in France names him among sainted popes. Hold at 1.5 pending direct authoritative review; the Vatican News date list alone does not establish present recognition.",
+      "Patronages: historic index labels for prisoners and those suffering fevers were not independently established for this particular pope; omitted pending verification.",
+      "Historical sources conflict about his final actions and death; no martyrdom narrative or apostasy allegation is treated as established.",
+      "Symbols, quotations, and places are omitted pending independent verification.",
+      "Marcellus I was a later bishop of Rome; no direct meeting is claimed. Suggested feast activities are not asserted historical customs."
+    ]
   }
 }

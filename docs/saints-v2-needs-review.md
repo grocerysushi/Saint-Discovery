@@ -8,3 +8,7 @@ Saints at templateVersion 1.5 are listed here: a required v2 field was left empt
 
 - `leonard-of-noblac`: held at 1.5 because no documented historical relationship with another published saint was established. His medieval devotion postdates the uncertain traditional account of his life. [Catholic Encyclopedia](https://www.newadvent.org/cathen/09178b.htm).
 - `longinus`: held at 1.5 pending review of the existing March 15 fact card against other October 16 observances and the uncertain identification of the named figure. [Catholic Church in France](https://nominis.cef.fr/contenus/saint/8577/Saint-Longin.html).
+
+- `lydia`: held at 1.5 pending reconciliation of August 3 and May 20 observances and conflicting statements about the Roman Martyrology. [Catholic Church in France](https://nominis.cef.fr/contenus/saints/1614/Sainte-Lydie.html); [Vatican News](https://www.vaticannews.va/en/saints/08/03.html).
+- `magdalena-of-nagasaki`: held at 1.5 pending verification of the existing October 15 fact card alongside the Augustinian October 20 observance and the group memorial on September 28. [Order of St. Augustine](https://augustinian.org/october-20/).
+- `marcellinus`: held at 1.5 pending authoritative review of current recognition and the historical April 26 observance; later accounts of his conduct and death are disputed. [Catholic Encyclopedia](https://www.newadvent.org/cathen/09637d.htm).
