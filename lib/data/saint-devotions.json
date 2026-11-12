@@ -23843,6 +23843,389 @@
       "quotes: removed a remark reported in the Catholic Encyclopedia (not her writing) (coordinator)"
     ]
   },
+  "januarius": {
+    "templateVersion": 2,
+    "heroSummary": "St. Januarius, San Gennaro to the people of Naples, was a bishop of Benevento who tradition says was beheaded near Pozzuoli with his companions about 305. Naples honors him as its patron, and his feast on September 19 centers on the cathedral relic of his blood and its reported liquefaction.",
+    "searchDescription": "St. Januarius (San Gennaro), feast September 19: early bishop and martyr, patron of Naples, honored for the reported liquefaction of his blood relic.",
+    "symbols": [
+      {
+        "symbol": "Two vials of blood resting on a book",
+        "meaning": "The phials kept in Naples Cathedral that are said to hold his blood. The book is the Gospel he served as a bishop; the vials recall the devotion for which he is best known."
+      },
+      {
+        "symbol": "Fiery furnace",
+        "meaning": "A detail from his late Acts: tradition holds that he was thrown into a burning furnace and the flames did not touch him. The Catholic Encyclopedia treats these Acts as untrustworthy, so this is legend rather than history."
+      },
+      {
+        "symbol": "Bishop's mitre",
+        "meaning": "His office as bishop of Benevento, the role in which the Church remembers him."
+      },
+      {
+        "symbol": "Palm branch and crown",
+        "meaning": "The usual signs of a martyr: victory won by giving his life for Christ, and the crown of glory promised to those who are faithful unto death."
+      }
+    ],
+    "whyWeTurn": "Neapolitans have turned to San Gennaro for centuries when plague, war or the threat of Vesuvius hung over their city, and tradition holds that his prayers have protected them. Catholic Culture also names him a patron of blood banks and of people facing volcanic eruptions. Beyond Naples, people turn to him because he stands for courage: a bishop who, with his deacons and a lector, chose death rather than deny Christ. Little about his life can be proved, but the faith of a whole city gathered around his relic is itself a witness, and he reminds us that the Church remembers martyrs as a community.",
+    "quotes": [
+      {
+        "text": "Precious in the sight of the Lord is the death of his saints.",
+        "work": "Psalm 115:15 (Psalm 116:15 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And they overcame him by the blood of the Lamb, and by the word of the testimony, and they loved not their lives unto death.",
+        "work": "Apocalypse (Revelation) 12:11",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Januarius the courage to remain faithful with his companions when faithfulness cost him his life. Through his prayers, protect the people of Naples and every city that lives in the shadow of danger. Strengthen all who are afraid of disaster, and bless those who give their blood to save the lives of others. Help us to love you more than our own safety, and to stand by our brothers and sisters when witnessing to you is hard. We ask this through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The collect for his memorial in the Roman Missal is a copyrighted ICEL text, so an original prayer is given here."
+    },
+    "feastCustoms": [
+      "Attend Mass on September 19, his optional memorial in the General Roman Calendar, and pray for the people of Naples.",
+      "In Naples, the archbishop exposes the reliquary of his blood in the cathedral on his feast, and also on the Saturday before the first Sunday in May and on December 16; many people follow the celebration online or on television.",
+      "If you live near New York, join the Feast of San Gennaro in lower Manhattan, which Catholic Culture recommends to readers who live nearby.",
+      "Share a Neapolitan meal with family or friends, a custom Catholic Culture suggests for his day.",
+      "Give blood, or help at a blood drive, remembering the martyr whose relic is his blood."
+    ],
+    "places": [
+      {
+        "name": "Naples Cathedral (Duomo di Napoli), with the Chapel of the Treasure of San Gennaro and the Succorpo crypt that holds his relics",
+        "city": "Naples, Italy",
+        "url": "https://duomonapoli.it/"
+      },
+      {
+        "name": "Museum of the Treasure of San Gennaro",
+        "city": "Naples, Italy",
+        "url": "https://tesorosangennaro.it/"
+      }
+    ],
+    "confirmationNote": "Januarius suits a confirmand who wants courage to stand firm for the faith, or who has roots in Naples and southern Italy. He was a bishop who did not die alone but with his deacons and lay companions, a reminder that faith is lived in community. Choosing him means asking for steadiness under pressure and loyalty to the people God has placed beside you.",
+    "reflectionPrompts": [
+      "When has fear kept me quiet about my faith, and whom could I ask to stand with me next time?",
+      "Find out whether you are eligible to give blood, and schedule a donation or help at a parish blood drive.",
+      "Read the 1910 Catholic Encyclopedia article on St. Januarius and note what it says can and cannot be known about his life and about the relic."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vincent",
+        "reason": "Fellow martyr of the persecution under Diocletian in the early 300s",
+        "historical": true
+      },
+      {
+        "slug": "pantaleon",
+        "reason": "Another martyr whose relic of blood is reported to liquefy on his feast",
+        "historical": false
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Deacon martyr; Januarius died alongside his own deacons Festus and Socius",
+        "historical": false
+      },
+      {
+        "slug": "frances-xavier-cabrini",
+        "reason": "Served Italian immigrants in New York, where the Feast of San Gennaro is kept in lower Manhattan",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1910): St. Januarius",
+        "url": "https://www.newadvent.org/cathen/08295a.htm"
+      },
+      {
+        "title": "Catholic Culture: Optional Memorial of St. Januarius, Bishop and Martyr (September 19)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-19"
+      },
+      {
+        "title": "Cathedral of Naples (Parrocchia S. Maria Assunta in Duomo)",
+        "url": "https://duomonapoli.it/"
+      },
+      {
+        "title": "Archdiocese of Naples (links to the cathedral site)",
+        "url": "https://www.chiesadinapoli.it/"
+      },
+      {
+        "title": "Museo del Tesoro di San Gennaro",
+        "url": "https://tesorosangennaro.it/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 115",
+        "url": "https://www.drbo.org/chapter/21115.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Apocalypse 12",
+        "url": "https://www.drbo.org/chapter/73012.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists Naples, blood banks and volcanic eruptions; none has a live topic, so the field is omitted.",
+      "liquefaction: described as a reported phenomenon and a devotion the Church permits; no claim is made that it is a proven miracle. The Catholic Encyclopedia (1910) argues against fraud but records unresolved scientific debate and says the first certain record dates from 1389. The three exposition dates (Saturday before the first Sunday of May, September 19, December 16) come from the Catholic Encyclopedia, and news reports agree. No vatican.va or vaticannews.va statement on the phenomenon was located.",
+      "symbols: all four from Catholic Culture's list ('heated oven; two red vials on Bible; bishop's mitre; palm frond; crown'); the furnace is labeled as legend because the Catholic Encyclopedia calls the Acts untrustworthy. The reading of the book as the Gospel is my gloss.",
+      "places: duomonapoli.it is run by the cathedral parish (contact address on the chiesadinapoli.it domain) and is linked from the Archdiocese of Naples homepage; it describes the Treasure chapels and the Succorpo that holds his relics. The museum site says it is managed on behalf of the Deputazione of the Treasure chapel; a human may prefer to keep only the cathedral.",
+      "feastCustoms: the lower Manhattan festival and the Neapolitan meal come from Catholic Culture's 'Things to Do'. The giving-blood item ties to Catholic Culture's 'blood banks' patronage.",
+      "relatedSaints: the pantaleon reason rests on the Catholic Encyclopedia's Januarius article, which says the phial associated with St. Pantaleon shows analogous phenomena on his feast; vincent's death in 304 is from the published-saints list.",
+      "quotes: Januarius left no writings; Scripture on martyrdom was checked at drbo.org.",
+      "biography: no disagreement. Catholic Culture gives his death as about 304 and the reviewed data say about 305; the hero uses 'about 305'. The Roman Martyrology entry quoted in the Catholic Encyclopedia names Festus, Desiderius, Socius, Proculus, Eutyches and Acutius, consistent with the review's 'clergy and lay companions'."
+    ]
+  },
+  "jeanne-jugan": {
+    "templateVersion": 2,
+    "heroSummary": "St. Jeanne Jugan (1792–1879) was a Breton servant and nurse who, in the winter of 1839, carried a blind, infirm elderly woman home and gave her her own bed. That act began the Little Sisters of the Poor. Later set aside and forgotten as foundress, she was canonized in 2009. Her feast is August 30.",
+    "searchDescription": "St. Jeanne Jugan (1792–1879), feast August 30: Breton foundress of the Little Sisters of the Poor, who began by giving an elderly woman her own bed.",
+    "whyWeTurn": "People turn to Jeanne Jugan when they are caring for an aging parent, worried about growing old alone, or working in homes for the elderly. She knew poverty from childhood and never had much education, yet she saw Christ in old people whom others overlooked. She also knew what it is to be pushed aside: for decades the younger sisters did not know she had founded their community. Benedict XVI, canonizing her, pointed to her humility and joyful trust in Providence. She reminds us that small acts of hospitality matter, and that hidden faithfulness is never wasted.",
+    "quotes": [
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven.",
+        "work": "Matthew 5:3, from the Beatitudes in which Benedict XVI saw the root of her trust in Providence",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you were welcomed in the poor old woman whom St. Jeanne Jugan carried home and laid in her own bed. Through her prayers, open my door and my heart to the elderly who are lonely, sick or forgotten. Give patience and joy to all who care for them, and to me when I grow old, give trust in your Providence. When I am overlooked, keep me humble and faithful, as she remained hidden for so many years. Bless the Little Sisters of the Poor and the people they serve. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Little Sisters of the Poor publish a novena prayer, a litany and other devotions to St. Jeanne Jugan on their website.",
+      "link": {
+        "label": "Novena Prayer to St. Jeanne Jugan (Little Sisters of the Poor, PDF)",
+        "url": "https://littlesistersofthepoor.org/wp-content/uploads/2024/06/Novena-Prayer-to-Jeanne-Jugan.pdf"
+      }
+    },
+    "feastCustoms": [
+      "Keep her feast on August 30 with the Little Sisters of the Poor, who celebrate it in their homes around the world; if one of their homes is near you, ask about joining them for Mass.",
+      "Pray the novena prayer or the litany of St. Jeanne Jugan published by the Little Sisters in the days leading up to her feast.",
+      "Visit, call or write to an older relative or neighbor who lives alone, in the spirit of her first act of hospitality.",
+      "Volunteer at, or give to, a home that cares for elderly people with limited means.",
+      "Read Benedict XVI's homily from her canonization on October 11, 2009, when Damien of Molokai was canonized with her."
+    ],
+    "places": [
+      {
+        "name": "La Tour Saint-Joseph, motherhouse of the Little Sisters of the Poor, where she lived her last years and died",
+        "city": "Saint-Pern, France",
+        "url": "https://petitessoeursdespauvres.org/nous-connaitre/sainte-jeanne-jugan/"
+      }
+    ],
+    "confirmationNote": "Jeanne Jugan suits a confirmand who loves grandparents or older neighbors, is drawn to nursing or caregiving, or feels unnoticed. She had little schooling and no influence, but she opened her home to someone in need and trusted God with the rest. Choosing her means committing to see Christ in the elderly and to serve faithfully even when no one gives you credit.",
+    "reflectionPrompts": [
+      "Who is the older person in my life who might feel forgotten, and what would it look like to make room for them?",
+      "This week, spend an hour with an elderly relative or neighbor, or help at a home for the elderly.",
+      "Read Matthew 25:31–46 in the Douay-Rheims, then read Benedict XVI's canonization homily of October 11, 2009, and note how he connects her to the Beatitudes."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "damien-of-molokai",
+        "reason": "Canonized with her by Benedict XVI on October 11, 2009",
+        "historical": true
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Founder of the Brothers of St. John of God, who taught her to beg for the poor",
+        "historical": true
+      },
+      {
+        "slug": "fiacre",
+        "reason": "Shares the August 30 feast",
+        "historical": true
+      },
+      {
+        "slug": "mother-teresa",
+        "reason": "Another foundress who gave her life to the poorest and most abandoned",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Little Sisters of the Poor (USA): Meet Jeanne Jugan",
+        "url": "https://littlesistersofthepoor.org/meet-jeanne-jugan/"
+      },
+      {
+        "title": "Little Sisters of the Poor (UK): St. Jeanne Jugan history",
+        "url": "https://www.littlesistersofthepoor.co.uk/history/st-jeanne-jugan/history/"
+      },
+      {
+        "title": "Petites Soeurs des Pauvres: Sainte Jeanne Jugan",
+        "url": "https://petitessoeursdespauvres.org/nous-connaitre/sainte-jeanne-jugan/"
+      },
+      {
+        "title": "Benedict XVI: Homily for the canonization of five new saints (October 11, 2009)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2009/documents/hf_ben-xvi_hom_20091011_canonizzazioni.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 5",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable source located states a formal patronage (the elderly poor is often suggested in secondary sources only); no live topic fits, so the field is omitted.",
+      "symbols: omitted; no Catholic iconographic list with sourced meanings was found for her.",
+      "quotes: she left no writings of her own. The Little Sisters' websites give sayings attributed to her (e.g. on the poor being Our Lord), but these are reported remarks in modern translation, so they were not used; Scripture from drbo.org is given instead.",
+      "feastCustoms: August 30 is the congregational feast kept by the Little Sisters (their French site reports feast celebrations in their houses); it is not stated here as a General Roman Calendar date. The novena and litany are from the Little Sisters' 'Meet Jeanne Jugan' page; the novena's exact timing is not stated, so no dates are given.",
+      "places: the French congregation page says she lived at La Tour Saint-Joseph, Saint-Pern from 1856 until her death there, but it does not mention her tomb or pilgrim visits, so the place is described as where she lived and died. Secondary sources place her tomb there.",
+      "sources disagree on details not used on the page: her death is given as August 29, 1879 (US site) and August 28, 1879 (French site); the UK site dates her removal as superior to December 23, 1843, while the French site says 1847. These were left out.",
+      "relatedSaints: the Brothers of St. John of God teaching her to beg is from the US and UK Little Sisters pages; fiacre's August 30 date is from the published-saints list.",
+      "biography: no disagreement with the reviewed biography."
+    ]
+  },
+  "jerome": {
+    "templateVersion": 2,
+    "heroSummary": "St. Jerome (about 347–419/420) was a priest, scholar and Doctor of the Church who learned Greek and Hebrew so that the Latin Church could read the Scriptures more faithfully. His translations became much of the Vulgate. He spent his last decades in Bethlehem, and his feast is September 30.",
+    "searchDescription": "St. Jerome, feast September 30: priest, Doctor of the Church and biblical translator whose work shaped the Vulgate, the Latin Bible of the West.",
+    "symbols": [
+      {
+        "symbol": "Lion",
+        "meaning": "A later legend tells that he drew a thorn from a lion's paw at his monastery and the lion stayed with him. It is a story, not history, but it pictures the strength and the gentleness his work required."
+      },
+      {
+        "symbol": "Cardinal's red hat",
+        "meaning": "An anachronism, since cardinals as we know them came later; artists used it to recall his service to Pope Damasus in Rome. It is often shown laid aside, which Catholic Culture reads as his rejection of ecclesiastical pomp."
+      },
+      {
+        "symbol": "Book or Bible, with a pen",
+        "meaning": "His lifelong work of translating and explaining the Scriptures."
+      },
+      {
+        "symbol": "Stone held to the chest",
+        "meaning": "Penance: he is shown as an aged hermit beating his breast with a stone, recalling his ascetic years in the desert and his struggle against his own temper and pride."
+      },
+      {
+        "symbol": "Skull and hourglass",
+        "meaning": "Reminders that life is short, kept before the eyes of a scholar who wanted his study to lead to conversion."
+      }
+    ],
+    "whyWeTurn": "People turn to Jerome when they want to understand the Bible and not just own one. Students, teachers, translators and librarians ask his help with hard, patient work. He is also a saint for anyone with a sharp tongue: his letters show a brilliant, quarrelsome man who still spent his life serving God's word. He taught that not knowing the Scriptures means not knowing Christ, a line the Second Vatican Council quoted in Dei Verbum. And he insisted that study should change how we treat the poor. Jerome reminds us that holiness can grow in a difficult temperament.",
+    "quotes": [
+      {
+        "text": "Read the divine scriptures constantly; never, indeed, let the sacred volume be out of your hand. Learn what you have to teach.",
+        "work": "Letter 52 (to Nepotian), section 7",
+        "translation": "W. H. Fremantle, Nicene and Post-Nicene Fathers, Second Series, vol. 6 (1893), public domain"
+      },
+      {
+        "text": "Read often, learn all that you can. Let sleep overcome you, the roll still in your hands; when your head falls, let it be on the sacred page.",
+        "work": "Letter 22 (to Eustochium), section 17",
+        "translation": "W. H. Fremantle, Nicene and Post-Nicene Fathers, Second Series, vol. 6 (1893), public domain"
+      },
+      {
+        "text": "love the knowledge of scripture, and you will no longer love the sins of the flesh.",
+        "work": "Letter 125 (to Rusticus), section 11",
+        "translation": "W. H. Fremantle, Nicene and Post-Nicene Fathers, Second Series, vol. 6 (1893), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Jerome a great love for your word and the patience to spend his life making it known. Through his prayers, give me a hunger for the Scriptures, so that by knowing them I may come to know Christ. Teach me to read slowly and to let what I read change how I live, especially how I treat the poor. Where I am quick to anger or proud of what I know, make me humble and gentle. Bless all who teach, translate and study your word. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The line about knowing the Scriptures echoes Jerome's Commentary on Isaiah, Prologue, as cited in Dei Verbum 25 and in Pope Francis's apostolic letter for the 1600th anniversary of his death.",
+      "link": {
+        "label": "Pope Francis, Scripturae Sacrae Affectus (September 30, 2020)",
+        "url": "https://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20200930_scripturae-sacrae-affectus.html"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on September 30, his memorial in the General Roman Calendar.",
+      "Begin or renew a habit of reading Scripture every day, even one chapter, as Catholic Culture suggests for his feast.",
+      "Read part of Pope Francis's apostolic letter Scripturae Sacrae Affectus, signed on his feast in 2020 for the 1600th anniversary of his death.",
+      "Read one of his letters, such as Letter 52 to Nepotian or Letter 107 to Laeta on teaching a child, in the public-domain Nicene and Post-Nicene Fathers edition.",
+      "Make a quiet examination of conscience about anger and harsh words, a struggle Jerome's own letters reveal."
+    ],
+    "places": [
+      {
+        "name": "Church of St. Catherine, Bethlehem, beside the Basilica of the Nativity, with the grottoes linked to the memory of St. Jerome",
+        "city": "Bethlehem, Palestine",
+        "url": "https://www.lpj.org/en/the-patriarchate/diocese/parishes/palestine/bethlehem-parish-st-catherine-church"
+      }
+    ],
+    "confirmationNote": "Jerome suits a confirmand who loves languages, reading or hard questions, or who struggles with a quick temper. He spent decades learning Hebrew and Greek so others could hear God's word, and his letters show he was far from perfect. Choosing him means committing to know Christ through the Scriptures and to let that knowledge make you more patient and more generous.",
+    "reflectionPrompts": [
+      "When did I last read Scripture for its own sake rather than only hearing it at Mass, and what keeps me from it?",
+      "Choose one Gospel and read a chapter each day until you finish it.",
+      "Read Jerome's Letter 52 to Nepotian (NPNF, Second Series, vol. 6) and note what he says about preaching, practice and the poor."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "damasus-i",
+        "reason": "The pope who employed him as secretary and encouraged his work on the Latin Bible",
+        "historical": true
+      },
+      {
+        "slug": "paula-of-rome",
+        "reason": "Roman widow who supported the monasteries and pilgrim hospice at Bethlehem with him",
+        "historical": true
+      },
+      {
+        "slug": "eustochium-of-bethlehem",
+        "reason": "Paula's daughter, to whom he addressed his long Letter 22",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Contemporary Latin Father, counted with him among the great Doctors of the Western Church",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Jerome (November 7, 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071107.html"
+      },
+      {
+        "title": "Benedict XVI: General Audience on Saint Jerome (November 14, 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071114.html"
+      },
+      {
+        "title": "Vatican News: St. Jerome, Priest and Doctor of the Church (September 30)",
+        "url": "https://www.vaticannews.va/en/saints/09/30/st--jerome--priest-and-doctor-of-the-church.html"
+      },
+      {
+        "title": "Pope Francis: Apostolic Letter Scripturae Sacrae Affectus (September 30, 2020)",
+        "url": "https://www.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20200930_scripturae-sacrae-affectus.html"
+      },
+      {
+        "title": "Second Vatican Council: Dei Verbum, no. 25",
+        "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_en.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Jerome (September 30)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-30"
+      },
+      {
+        "title": "CCEL: Jerome, Letter 52 to Nepotian (NPNF2-06)",
+        "url": "https://www.ccel.org/ccel/schaff/npnf206.v.LII.html"
+      },
+      {
+        "title": "CCEL: Jerome, Letter 22 to Eustochium (NPNF2-06)",
+        "url": "https://www.ccel.org/ccel/schaff/npnf206.v.XXII.html"
+      },
+      {
+        "title": "CCEL: Jerome, Letter 125 to Rusticus (NPNF2-06)",
+        "url": "https://www.ccel.org/ccel/schaff/npnf206.v.CXXV.html"
+      },
+      {
+        "title": "Latin Patriarchate of Jerusalem: Bethlehem Parish, St. Catherine Church",
+        "url": "https://www.lpj.org/en/the-patriarchate/diocese/parishes/palestine/bethlehem-parish-st-catherine-church"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists archeologists, archivists, Bible scholars, librarians, libraries, schoolchildren, students and translators; none has a live topic ('catholic-schools' is not the same thing), so the field is omitted.",
+      "quotes: 'Ignorance of Scripture is ignorance of Christ' is verified as Jerome's Commentary on Isaiah, Prologue (PL 24, 17), cited in Dei Verbum 25 and Scripturae Sacrae Affectus, but the English wording in those documents is a modern Vatican translation and no pre-1929 public-domain English translation of that prologue was found, so it is paraphrased in whyWeTurn and prayer.note rather than quoted. The three quoted letters were checked word for word against the CCEL text of NPNF2-06 (Fremantle, 1893); section numbers are from that edition. The Letter 125 quote begins mid-sentence and keeps its original lowercase.",
+      "symbols: all five from Catholic Culture's list. The lion story is labeled as legend; the explanation of the hat's link to Damasus is a common art-historical reading, while the 'rejection of pomp' reading is Catholic Culture's.",
+      "places: his relics are traditionally said to be at St. Mary Major in Rome (Catholic Culture), but the basilica's official site did not mention Jerome on the pages checked, so it is not listed. The Latin Patriarchate page confirms grottoes 'tied to the memory of St. Jerome' beside the Nativity grotto; custodia.org pages returned 403.",
+      "feastCustoms: Letter 107 to Laeta is the letter on a child's education described in the reviewed biography and Benedict XVI's audience; its NPNF text was downloaded but not quoted.",
+      "relatedSaints: Damasus, Paula and Eustochium are supported by Catholic Culture and the reviewed biography; Letter 22 is addressed to Eustochium (CCEL). Augustine's correspondence with Jerome is not claimed.",
+      "biography: no disagreement. Catholic Culture gives about 345–420, the reviewed data about 347–419/420; the hero follows the reviewed data."
+    ]
+  },
   "joachim": {
     "templateVersion": 2,
     "heroSummary": "St. Joachim is honored by tradition as the father of the Virgin Mary, husband of St. Anne and grandfather of Jesus. Scripture never names him: his name and the story of his long wait for a child come from the second-century Protoevangelium of James. The Church celebrates Joachim and Anne together on July 26.",
@@ -24089,6 +24472,213 @@
       "relatedSaints: therese-of-lisieux is marked thematic; Benedict XVI notes Thérèse's closeness to Joan and their shared patronage of France, but they are not contemporaries."
     ]
   },
+  "john-baptist-de-la-salle": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Baptist de La Salle was a French priest of Reims who gave up a comfortable canonry to live with schoolteachers and train them. The community he formed became the Brothers of the Christian Schools. Named patron of Christian educators and teachers in 1950, he is remembered on April 7.",
+    "searchDescription": "St. John Baptist de La Salle (1651–1719), feast April 7: founder of the Brothers of the Christian Schools and patron of teachers and Christian educators.",
+    "whyWeTurn": "Teachers turn to St. John Baptist de La Salle because he understood their work from the inside. He did not set out to found anything; he began by helping a few struggling schoolmasters and slowly found himself sharing their table, their poverty and their mission. He opened schools for poor children, trained teachers, ran Sunday courses for young workers and kept going through lawsuits and opposition from people who should have supported him. Catholics ask his prayers for patience in the classroom, for wisdom with difficult pupils and for the courage to keep serving children whom others overlook. Parents and catechists also find in him a friend who took teaching seriously as a way to holiness.",
+    "quotes": [
+      {
+        "text": "But they that are learned shall shine as the brightness of the firmament: and they that instruct many to justice, as stars for all eternity.",
+        "work": "Daniel 12:3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Suffer the little children to come unto me, and forbid them not; for of such is the kingdom of God.",
+        "work": "Mark 10:14",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. John Baptist de La Salle away from comfort and status to serve poor children and the teachers who taught them. Through his prayers, bless every teacher, catechist and parent who forms young people. Give them patience on hard days, wisdom with children who struggle, and joy in work that is often unseen. Help me to remember that I stand in your holy presence wherever I learn or teach, and to treat each young person as someone you love. Live, Jesus, in our hearts for ever. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on April 7, his memorial in the General Roman Calendar; when April 7 falls in Holy Week or the Easter Octave, the memorial is not celebrated that year.",
+      "Lasallian schools and the Brothers of the Christian Schools also celebrate him on May 15, the anniversary of his 1950 proclamation as patron of Christian educators.",
+      "Thank a teacher who shaped you, by letter or in person, and pray for the teachers in your parish school or your family's schools.",
+      "End a prayer with the Lasallian invocation \"Live, Jesus, in our hearts\", answered with \"Forever!\", as Lasallian communities and schools do.",
+      "Read a Church document on Catholic education, such as the Congregation for Catholic Education's Consecrated Persons and Their Mission in Schools, which Catholic Culture suggests for his day."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of St. John Baptist de La Salle, Generalate of the Brothers of the Christian Schools (resting place of his relics)",
+        "city": "Rome, Italy",
+        "url": "https://www.lasalle.org/en/generalate/sanctuary-de-la-salle/"
+      }
+    ],
+    "confirmationNote": "John Baptist de La Salle suits a confirmand who hopes to teach, coach, tutor or help younger people learn. He let God redirect a secure life, one step at a time, until he was living with teachers and serving poor children. Confirmation calls Christians to share their faith in words and in service, and De La Salle shows that patient, ordinary work with young people can be a real way of witnessing to Christ.",
+    "reflectionPrompts": [
+      "Who taught me something that changed my life, and have I ever thanked them or prayed for them?",
+      "This week, offer to help a younger person with schoolwork, a skill or a question about faith.",
+      "Read Daniel 12:1–3 and Mark 10:13–16 in the Douay-Rheims, then read the founder's biography on the Brothers' site, lasalle.org, and note what made him change course."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "solomon-leclercq",
+        "reason": "A Brother of the Christian Schools martyred in Paris in 1792",
+        "historical": true
+      },
+      {
+        "slug": "john-bosco",
+        "reason": "Another founder for poor youth; his statue stands in the Lasallian sanctuary in Rome",
+        "historical": false
+      },
+      {
+        "slug": "joseph-calasanz",
+        "reason": "Earlier founder of free schools for poor children",
+        "historical": false
+      },
+      {
+        "slug": "marcellin-champagnat",
+        "reason": "Founder of the Marist Brothers, another teaching brotherhood",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brothers of the Christian Schools: Founder",
+        "url": "https://www.lasalle.org/en/lasallian-holiness/founder/"
+      },
+      {
+        "title": "Brothers of the Christian Schools: Sanctuary of St. John Baptist de La Salle",
+        "url": "https://www.lasalle.org/en/generalate/sanctuary-de-la-salle/"
+      },
+      {
+        "title": "Catholic Culture: St. John Baptist de la Salle (April 7, 2025 liturgical day)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-04-07"
+      },
+      {
+        "title": "Vatican News: Saints of April 7",
+        "url": "https://www.vaticannews.va/en/saints/04/07.html"
+      },
+      {
+        "title": "Br. Luke Salm, FSC: Jesus in Lasallian Hearts (De La Salle Christian Brothers)",
+        "url": "https://delasalle.org/wp-content/uploads/2014/11/2.6b.-Salm-Jesus-in-Lasallian-Hearts.pdf"
+      },
+      {
+        "title": "Christian Brothers Conference: Lasallian Guide and Glossary (2026)",
+        "url": "https://lasallian.info/wp-content/uploads/2026/03/CBC-Lasallian-Guide-UpdatedMarch2026.pdf"
+      },
+      {
+        "title": "DRBO.org: Daniel 12 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/32012.htm"
+      },
+      {
+        "title": "DRBO.org: Mark 10 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/48010.htm"
+      }
+    ],
+    "flags": [
+      "patronages: teachers and Christian educators are sourced (lasalle.org: patron of Christian educators, May 15, 1950; Catholic Culture: teachers, proclaimed by Pius XII in 1950) but have no live topic; 'catholic-schools' was not used because no source calls him patron of Catholic schools specifically. Field omitted.",
+      "patronages: Catholic Culture also lists abuse victims and school principals; abuse victims appears only on that list and was dropped as a doubtful fit.",
+      "symbols: no Catholic list of his iconographic attributes with meanings was found (lasalle.org links an iconography collection but gives no attribute list); omitted.",
+      "quotes: his Meditations exist in English mainly in modern copyrighted translations, so two Douay-Rheims verses on teaching and children were used; they are thematic, not passages he is documented to have quoted.",
+      "prayer: original; no verified traditional prayer text from the Brothers' site was found, so no link is given. The closing echoes the Lasallian invocation.",
+      "feastCustoms: Catholic Culture calls April 7 an optional memorial (the Roman Missal lists it as an obligatory memorial); the text says only 'memorial'. The 'Live Jesus in our hearts / Forever!' invocation is documented in a Brother Luke Salm essay and the Christian Brothers Conference glossary (found via search, PDFs not read in full), not on lasalle.org itself.",
+      "places: his birthplace in Reims and Saint-Yon near Rouen (where he died) are relevant, but no official website was verified.",
+      "relatedSaints: the Don Bosco statue in the sanctuary is stated on lasalle.org; joseph-calasanz, marcellin-champagnat and solomon-leclercq reasons rest on general knowledge of their lives; check against their pages.",
+      "searchDescription: written because the context description ends with an ellipsis.",
+      "biography: no disagreement. lasalle.org gives birth April 30, 1651, death on Good Friday April 7, 1719 at Saint-Yon near Rouen, beatification 1888, canonization May 24, 1900, patron of Christian educators May 15, 1950; all consistent with the review."
+    ]
+  },
+  "john-baptist-de-rossi": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Baptist de Rossi was an eighteenth-century Roman priest who spent his life among the people the city overlooked: drovers and farm laborers, the sick in hospital, prisoners and homeless women. Though he lived with epilepsy, he became one of Rome's most sought-after confessors. His memory is kept on May 23.",
+    "searchDescription": "St. John Baptist de Rossi (1698–1764), feast May 23: Roman priest and confessor who served laborers, the sick, prisoners and homeless women despite epilepsy.",
+    "whyWeTurn": "People turn to St. John Baptist de Rossi because he never let illness or awkward schedules keep him from the people who needed him. Epilepsy limited him, and for years he held back from hearing confessions, yet once encouraged he spent long days in the confessional and became known as a second Philip Neri. He went to the drovers and herdsmen at the old Roman Forum at hours they could manage, visited the sick at the hospital of St. Galla, and opened a refuge for those who wandered the streets at night. Catholics ask his help when they feel too weak to serve, and when they hope to make God's mercy easier for others to reach.",
+    "quotes": [
+      {
+        "text": "Come to me, all you that labour, and are burdened, and I will refresh you.",
+        "work": "Matthew 11:28",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "The Spirit of the Lord is upon me. Wherefore he hath anointed me to preach the gospel to the poor, he hath sent me to heal the contrite of heart,",
+        "work": "Luke 4:18",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave St. John Baptist de Rossi a heart for workers, the sick, prisoners and the homeless of Rome, and you made his weakness a place where your mercy could work. Through his prayers, help me to go where people are rather than waiting for them to come to me. Give strength to all who live with chronic illness or epilepsy, and patience to those who care for them. Bless priests who hear confessions, and make me humble and honest when I come to you for forgiveness. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on May 23, the day he died in 1764; he is not on the General Roman Calendar, but his relics rest in the Roman parish church dedicated to him, where his altar is a focus of local devotion.",
+      "Go to confession, or pray for the priests who hear confessions in your parish, recalling that he became a tireless confessor once he overcame his hesitation.",
+      "Visit or call someone who is sick, in hospital or living with a chronic illness.",
+      "Support a shelter or refuge for homeless women or people with nowhere to sleep, as he helped found one in Rome.",
+      "Pray for workers whose hours keep them from parish life, and think of one way your community could reach them."
+    ],
+    "confirmationNote": "John Baptist de Rossi suits a confirmand who lives with an illness or limitation, or who feels drawn to people others pass by. Epilepsy shaped his whole life, yet he went out to laborers, the sick, prisoners and homeless people, and helped many return to God through confession. Confirmation strengthens Christians to witness where they are, and he shows that weakness need not stop anyone from serving.",
+    "reflectionPrompts": [
+      "Who in my own city or neighborhood is easy for me to overlook, and what would it take for me to notice them the way this priest noticed people others passed by?",
+      "This week, make room in my schedule for one person who needs patience more than advice, and listen without hurrying them.",
+      "Read Luke 4:16–21 slowly, then note one phrase from Jesus’ words in the synagogue that describes the kind of ministry de Rossi chose."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-of-the-cross",
+        "reason": "Contemporary preacher and founder active in eighteenth-century Rome",
+        "historical": true
+      },
+      {
+        "slug": "philip-neri",
+        "reason": "Earlier Roman confessor; de Rossi was called 'a second Philip Neri'",
+        "historical": false
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Another priest who gave himself to the sick in Rome's hospitals",
+        "historical": false
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "A parish priest remembered for long hours in the confessional",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1910): St. John Baptist de Rossi",
+        "url": "https://www.newadvent.org/cathen/08449a.htm"
+      },
+      {
+        "title": "Catholic Culture: St. John Baptist de Rossi (May 23 liturgical day)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-23"
+      },
+      {
+        "title": "Vatican News: Saints of May 23",
+        "url": "https://www.vaticannews.va/en/saints/05/23.html"
+      },
+      {
+        "title": "Turismo Roma: Chiesa di San Giovanni Battista de Rossi",
+        "url": "https://turismoroma.it/it/luoghi/chiesa-di-san-giovanni-battista-de-rossi"
+      },
+      {
+        "title": "DRBO.org: Matthew 11 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47011.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 4 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists him as patron 'of the abandoned', which has no live topic and appears only on that list; no other reputable patronage found. Field omitted.",
+      "symbols: no Catholic list of his attributes was found; omitted.",
+      "quotes: no public-domain English text of his own writings was verified, so two Douay-Rheims verses on serving laborers and the poor were used; they are thematic, not documented sayings of his.",
+      "prayer: original; no traditional prayer verified.",
+      "places: the parish church of San Giovanni Battista de Rossi in Rome (relics translated there from Trinità dei Pellegrini in 1965, per Turismo Roma and Catholic Culture) has a live parish site, but only over http (http://www.parrocchiaderossi.it/), not https, so it is not listed. A human may wish to add it. Field omitted.",
+      "feastCustoms: the parish homepage shows daily prayer and a weekday Mass at his altar; no specific feast-day program was checked.",
+      "relatedSaints: paul-of-the-cross reason is general knowledge (Passionist founder, 1694–1775, active in Rome); check against his page.",
+      "searchDescription: written because the context description ends with an ellipsis.",
+      "biography: review agrees with the Catholic Encyclopedia (born Voltaggio, died May 23, 1764). Catholic Culture says he was born in Genoa (Voltaggio is in the Genoa diocese) and gives his death as 1763, which conflicts; the review's 1764 is preferred. The Catholic Encyclopedia describes the 1731 refuge as for people who wandered the city at night, while Catholic Culture speaks separately of homeless women; the review's 'refuge for vulnerable women' should be checked. His remains are no longer at Trinità dei Pellegrini (moved 1965).",
+      "reflectionPrompts: missing from research output; written by coordinator (original prompts, no factual claims)"
+    ]
+  },
   "john-berchmans": {
     "templateVersion": 2,
     "heroSummary": "St. John Berchmans was a Flemish Jesuit student who died in Rome in 1621, aged twenty-two, before he could be ordained. Fellow Jesuits remembered the care he gave to prayer, study, and the ordinary duties of community life. Jesuits celebrate him on November 26, and many altar servers and students look to him as a model.",
@@ -24216,6 +24806,589 @@
       "biography: the jesuits.global page says 'He was ordained a priest in April 1618' in a passage about his father; this appears to refer to his father (who entered the seminary after his wife's death), not John, and the reviewed biography is correct that John died before ordination",
       "biography: Catholic Culture says he died 'after years of illness', while the Catholic Encyclopedia and the Jesuit biography describe an acute illness in August 1621, as the reviewed biography does; no change suggested",
       "relatedSaints: Stanislaus Kostka marked thematic; the shared 1888 canonization day for Alphonsus Rodriguez and Peter Claver rests on USCCB (for Claver's date) and GCatholic"
+    ]
+  },
+  "john-bosco": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Bosco is a patron of young people and schoolchildren, the Turin priest Pope John Paul II called father and teacher of youth. Don Bosco gathered poor and working boys into an oratory of prayer, learning and play, and founded the Salesians and, with Maria Mazzarello, the Salesian Sisters. His memorial is January 31.",
+    "searchDescription": "St. John Bosco (1815–1888), feast January 31: Turin priest, founder of the Salesians and 'father and teacher of youth', known for his Preventive System.",
+    "patronages": [
+      "children"
+    ],
+    "whyWeTurn": "People turn to Don Bosco because he believed no young person was a lost cause. Salesian accounts tell of a dream he described from age nine, which he took as a call to dedicate himself to educating the young. In Turin he gathered apprentices, street boys and young workers into an oratory where they could pray, learn a trade, study and play. His Preventive System asked educators to rely on reason, religion and loving kindness, and to be present with the young rather than ruling by punishment. Parents, teachers, youth ministers and young people themselves ask his prayers for a child who is struggling, for patience, and for joy in sharing the faith.",
+    "quotes": [
+      {
+        "text": "And the king of Sodom said to Abram: Give me the persons, and the rest take to thyself.",
+        "work": "Genesis 14:21 (in Latin 'Da mihi animas, cetera tolle', which Don Bosco took as his motto, 'Give me souls, take all the rest')",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Charity is patient, is kind: ... Beareth all things, believeth all things, hopeth all things, endureth all things.",
+        "work": "1 Corinthians 13:4, 7 (the words of St. Paul on which Don Bosco said his Preventive System is based)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave St. John Bosco a father's heart for poor and restless young people, and you taught him to win them with reason, faith and kindness. Through his prayers, protect the children and teenagers I love, especially any who are lost, lonely or in trouble. Give parents, teachers and youth leaders patience, good humor and a steady presence. Teach me to seek souls more than comfort, as he did. Mary, Help of Christians, whom he trusted in everything, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on January 31, his memorial in the General Roman Calendar; Salesian schools and parishes often keep it as a festive day.",
+      "Do something fun with children that also teaches, such as a magic trick, juggling, a puppet show or a story with a lesson, as Catholic Culture suggests in memory of how he drew children to catechism.",
+      "Pray to Mary, Help of Christians, the title of Mary he spread and for whom he built the Turin basilica where his remains now rest.",
+      "Read a few pages of his 1877 treatise on the Preventive System and choose one way to be more patient and present with a young person.",
+      "Pray for, or support, a youth center, Salesian school or mission that serves poor young people."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Mary Help of Christians, Valdocco (built by Don Bosco; his remains rest here)",
+        "city": "Turin, Italy",
+        "url": "https://basilicamariaausiliatrice.it/"
+      },
+      {
+        "name": "Museo Casa Don Bosco (his rooms at Valdocco)",
+        "city": "Turin, Italy",
+        "url": "https://museocasadonbosco.it/"
+      }
+    ],
+    "confirmationNote": "John Bosco suits a confirmand who loves being with people, enjoys games and music, or wants to help younger kids find their way. He used play, humor and friendship to bring young people to Christ, and he relied on Mary's help in everything. Confirmation strengthens Christians to witness with courage and joy, and Don Bosco shows that the Gospel can be shared on a playground as well as in church.",
+    "reflectionPrompts": [
+      "Is there a young person in my life who needs someone to believe in them right now?",
+      "This week, give an hour of real attention, without a phone, to a child or teenager in your family, parish or neighborhood.",
+      "Read 1 Corinthians 13 in the Douay-Rheims, then read Don Bosco's short treatise The Preventive System in the Education of the Young (Salesian Don Bosco Resources) and note where he quotes it."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "dominic-savio",
+        "reason": "His pupil at the Turin Oratory, whose Life he wrote",
+        "historical": true
+      },
+      {
+        "slug": "maria-mazzarello",
+        "reason": "Cofounded the Daughters of Mary Help of Christians with him in 1872",
+        "historical": true
+      },
+      {
+        "slug": "joseph-cafasso",
+        "reason": "His spiritual director in Turin for about twenty-five years",
+        "historical": true
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "Patron of his Oratory and namesake of the Salesians",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Salesian Missions: About St. John Bosco",
+        "url": "https://salesianmissions.org/about-us/who-we-are/about-st-john-bosco/"
+      },
+      {
+        "title": "Salesians of Don Bosco (USA): Who we are",
+        "url": "https://salesians.org/about/who-we-are"
+      },
+      {
+        "title": "Salesians of Don Bosco: The Preventive System in the Education of the Young (1877)",
+        "url": "https://www.sdb.org/en/Don_Bosco_Resources/Writings/Writings/preventive_sistem_1878"
+      },
+      {
+        "title": "Catholic Culture: St. John Bosco (January 31 liturgical day)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-31"
+      },
+      {
+        "title": "Vatican News: Saints of January 31",
+        "url": "https://www.vaticannews.va/en/saints/01/31.html"
+      },
+      {
+        "title": "Basilica of Mary Help of Christians, Turin (official site)",
+        "url": "https://basilicamariaausiliatrice.it/"
+      },
+      {
+        "title": "Museo Casa Don Bosco, Turin",
+        "url": "https://museocasadonbosco.it/"
+      },
+      {
+        "title": "Vatican: Benedict XVI, General Audience on St. Joseph Cafasso, June 30, 2010",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100630.html"
+      },
+      {
+        "title": "DRBO.org: Genesis 14 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/01014.htm"
+      },
+      {
+        "title": "DRBO.org: 1 Corinthians 13 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/53013.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. 'children' rests on Catholic Culture's list (boys, schoolchildren, students, young people, apprentices); Salesian and Vatican sources give the title 'father and teacher of youth' rather than a formal patronage. Human should reconcile.",
+      "patronages: apprentices, editors and publishers, magicians, students, laborers, young workers and young people are sourced (Catholic Culture) but have no live topic. 'catholic-schools' was not used: Catholic Culture says 'schools, colleges, universities', not Catholic schools specifically.",
+      "symbols: no Catholic list of his attributes with meanings was found; omitted.",
+      "quotes: his writings are in modern translations, so Scripture was used. Genesis 14:21 is the source of his motto per Salesian Missions and Salesian studies; the Preventive System text on sdb.org (modern translation) says the system is based on 1 Cor 13:4, 7. Salesian scholars question whether the motto truly came from Francis de Sales, so that claim is not made.",
+      "whyWeTurn: the dream at nine is presented as reported by Salesian accounts, not as fact.",
+      "prayer: original; no traditional prayer verified.",
+      "places: Colle Don Bosco (his birthplace) is relevant but no working official site was verified. Museo Casa Don Bosco's footer names the Salesian Oratory of St. Francis de Sales at Valdocco; the operator is implied rather than stated.",
+      "feastCustoms: Catholic Culture's stuffed-peppers food suggestion was not used because it is speculative ('likely made').",
+      "relatedSaints: Joseph Cafasso as Bosco's spiritual director rests on Benedict XVI's audience of June 30, 2010 (confirmed via reports; full vatican.va text not read in this session). Francis de Sales as patron of the Oratory is from Salesian Missions.",
+      "searchDescription: written because the context description ends with an ellipsis.",
+      "biography: no disagreement. Salesian Missions gives birth August 16, 1815, near Castelnuovo d'Asti; ordination 1841; death January 31, 1888; beatification 1929; canonization April 1, 1934."
+    ]
+  },
+  "john-cantius": {
+    "templateVersion": 2,
+    "heroSummary": "St. John of Kanty, or John Cantius, is a patron of Poland and Lithuania. A priest and professor at the University of Kraków in the fifteenth century, he copied books by hand, taught philosophy and theology, and was known for giving his own food and clothes to poor students. His feast is December 23.",
+    "searchDescription": "St. John of Kanty (John Cantius, 1390–1473), feast December 23: Kraków priest and professor known for scholarship and generosity to poor students.",
+    "patronages": [
+      "poland",
+      "lithuania"
+    ],
+    "whyWeTurn": "People turn to St. John of Kanty because he held together two things we often keep apart: serious study and practical love. He spent decades teaching at the Kraków Academy and patiently copying manuscripts, yet he also noticed when a student was hungry or cold, and he gave away what he had. His Kraków parish remembers him as a patron of teachers, scholars and young people, and of works of mercy. Students, teachers and researchers ask his prayers for diligence and honesty in their work, and anyone tempted to treat knowledge as a way to feel superior finds in him a gentle correction: learning is meant to serve others.",
+    "quotes": [
+      {
+        "text": "Knowledge puffeth up; but charity edifieth.",
+        "work": "1 Corinthians 8:1",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Be ye therefore merciful, as your Father also is merciful.",
+        "work": "Luke 6:36",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. John of Kanty a mind eager for truth and a heart quick to share with the poor. Through his prayers, help me to study and work with patience and honesty, and keep me from using what I know to make myself look greater than others. Open my eyes to students, coworkers and neighbors who are struggling, and make me generous in helping them. Bless teachers, scholars and the people of Poland and Lithuania. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on December 23, his optional memorial in the General Roman Calendar; in Poland and in some older calendars he is celebrated on October 20.",
+      "Do a work of mercy before Christmas: prepare a food or gift basket for a family in need, or give through your parish or a St. Vincent de Paul group, as Catholic Culture suggests for his day.",
+      "Help a student who is struggling, with tutoring, books, a meal or simply encouragement.",
+      "Visit someone who is lonely during the holidays, such as a neighbor or a resident of a nursing home.",
+      "Learn about Polish Catholic culture, or cook a Polish dish such as pierogi with your family."
+    ],
+    "places": [
+      {
+        "name": "Collegiate Church of St. Anne (resting place of his relics)",
+        "city": "Kraków, Poland",
+        "url": "https://kolegiata-anna.pl/"
+      },
+      {
+        "name": "St. John Cantius Church",
+        "city": "Chicago, United States",
+        "url": "https://www.cantius.org/"
+      }
+    ],
+    "confirmationNote": "John of Kanty suits a confirmand who loves learning, wants to teach, or is heading into years of study. He spent his life at a university but never let knowledge make him proud or distant; he shared his food, clothes and time with poor students. Confirmation gives Christians gifts such as knowledge, understanding and counsel for the good of others, and John shows how those gifts are meant to be used.",
+    "reflectionPrompts": [
+      "Do I ever use what I know to feel superior, and how could I use it to help someone instead?",
+      "This month, quietly help a classmate or coworker who is struggling, with your time, notes or a meal.",
+      "Read 1 Corinthians 8:1–3 and Luke 6:27–38 in the Douay-Rheims, then read the Vatican News entry for December 23 on John of Kanty."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "szymon-of-lipnica",
+        "reason": "Fifteenth-century Kraków friar and preacher, his contemporary",
+        "historical": true
+      },
+      {
+        "slug": "jadwiga-of-poland",
+        "reason": "Queen who helped restore the Kraków university where he taught",
+        "historical": false
+      },
+      {
+        "slug": "stanislaus",
+        "reason": "Kraków bishop-martyr and fellow patron of Poland",
+        "historical": false
+      },
+      {
+        "slug": "casimir",
+        "reason": "Polish prince of the same century and patron of Lithuania",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: John of Kanty, December 23",
+        "url": "https://www.vaticannews.va/en/saints/12/23.html"
+      },
+      {
+        "title": "Catholic Culture: St. John of Kanty (December 23, 2025 liturgical day)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-23"
+      },
+      {
+        "title": "Parafia św. Anny w Krakowie: Święty Jan z Kęt",
+        "url": "https://kolegiata-anna.pl/swieci/swiety-jan-z-ket/"
+      },
+      {
+        "title": "St. John Cantius Church, Chicago: Patron saint",
+        "url": "https://www.cantius.org/patron-saint/1000"
+      },
+      {
+        "title": "Vatican: Biography of Szymon of Lipnica (canonization, June 3, 2007)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20070603_simone-lipnica_pl.html"
+      },
+      {
+        "title": "DRBO.org: 1 Corinthians 8 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/53008.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Poland and Lithuania rest on Catholic Culture's list (which also names the Diocese of Bielsko-Żywiec and the Jagiellonian University); the St. Anne parish page does not mention national patronages. Human should reconcile.",
+      "patronages: teachers, students, scholars, young people, priests and pilgrims (St. Anne parish; St. John Cantius Church, Chicago) are sourced but have no live topic.",
+      "symbols: Catholic Culture gives only two depictions (professor's gown with his arm around a student, directing his gaze heavenward; giving his garments to the poor), fewer than the 3–5 required, so the field is omitted.",
+      "quotes: the Latin motto he reportedly wrote on his wall (Catholic Culture) is a reported saying, not a verified public-domain text, so Scripture was used instead; the verses echo the themes of knowledge and mercy in his collect.",
+      "prayer: original. Catholic Culture mentions a Vespers hymn, 'O Glory of the Polish Race', but its text was not verified.",
+      "places: the St. Anne parish site has a page on him and notes a weekly Mass at his 'konfesja', but does not itself describe the relics; the relics' location rests on Catholic Culture and the Kraków city portal (krakow.pl).",
+      "feastCustoms: October 20 in Poland follows the context feast note; not separately verified against the Polish calendar.",
+      "relatedSaints: the Vatican biography places Szymon of Lipnica in Kraków (Stradom) in the same decades; jadwiga-of-poland's role in restoring the Kraków university is general knowledge, marked non-historical as a direct link.",
+      "searchDescription: written because the context description ends with an ellipsis.",
+      "biography: no disagreement with the review. The St. John Cantius Church (Chicago) page wrongly says Clement XIII canonized him in 1676; the St. Anne parish gives Clement X permitting cult in 1676 and Clement XIII canonizing him in 1767, matching the review. Sources give his birth as June 23 or 24, 1390, and death December 24, 1473."
+    ]
+  },
+  "john-chrysostom": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Chrysostom (about 349–407) was a priest of Antioch and later bishop of Constantinople, whose preaching earned him the name \"golden-mouthed.\" A Doctor of the Church, he pressed for reform, organized care for the poor and died in exile. The Roman Church remembers him on September 13; Byzantine calendars commonly use November 13.",
+    "searchDescription": "St. John Chrysostom (about 349–407), feast September 13: the \"golden-mouthed\" preacher, bishop of Constantinople and Doctor of the Church who died in exile.",
+    "whyWeTurn": "People turn to St. John Chrysostom when faith has to reach both the pulpit and the street. He preached through whole books of Scripture, explaining them so that ordinary listeners could live by them. He insisted that honoring Christ in church means little if we ignore Christ in the hungry and the stranger, and as bishop he simplified his household and organized help for people in need. That honesty cost him his see and finally his life in exile. Preachers, teachers, public speakers and anyone trying to tell the truth with love find in him a bold and practical companion in prayer.",
+    "quotes": [
+      {
+        "text": "Wouldest thou do honor to Christ's body? Neglect Him not when naked; do not while here thou honorest Him with silken garments, neglect Him perishing without of cold and nakedness.",
+        "work": "Homilies on the Gospel of Matthew, Homily 50, section 4 (on Matthew 14:23–36)",
+        "translation": "Nicene and Post-Nicene Fathers, First Series, vol. 10, Homilies on Matthew, trans. George Prevost, rev. M. B. Riddle (1888; public domain)"
+      },
+      {
+        "text": "Since God hath no need at all of golden vessels, but of golden souls.",
+        "work": "Homilies on the Gospel of Matthew, Homily 50, section 4",
+        "translation": "Nicene and Post-Nicene Fathers, First Series, vol. 10, Homilies on Matthew, trans. George Prevost, rev. M. B. Riddle (1888; public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40, the saying of Christ that Chrysostom draws on in that same passage",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus Christ, you gave St. John Chrysostom a golden tongue to open the Scriptures and a brave heart to speak the truth. Through his prayers, teach me to honor you not only at your altar but in every hungry, cold or forgotten person I meet. Give preachers and teachers clear words and humble hearts. When telling the truth costs me something, keep me steady and free from bitterness. And in good days and hard ones, let me say with him: glory be to God for all things. Amen."
+    },
+    "feastCustoms": [
+      "Keep the memorial of St. John Chrysostom, Bishop and Doctor of the Church, on September 13 in the Roman calendar; Byzantine Churches, Catholic and Orthodox, commonly keep his feast on November 13.",
+      "Attend the Divine Liturgy of St. John Chrysostom at an Eastern Catholic parish; the principal Eucharistic liturgy of the Byzantine tradition bears his name.",
+      "Read Homily 50 on Matthew and do one concrete work of mercy for someone hungry, cold or alone, as he urged.",
+      "Practice speaking well: Catholic Culture suggests imitating this patron of orators by learning to give a speech, perhaps in a family speech contest.",
+      "Pray the words Benedict XVI, following Palladius, gives as his last testament: \"Glory be to God for all things.\""
+    ],
+    "places": [
+      {
+        "name": "St. Peter's Basilica, where his relics have rested since they were brought to Rome; in 2004 John Paul II gave a large part of them to the Ecumenical Patriarch of Constantinople",
+        "city": "Vatican City",
+        "url": "https://www.basilicasanpietro.va/en/"
+      }
+    ],
+    "confirmationNote": "John Chrysostom suits a confirmand who loves words, whether in debate, writing or speaking, and wants to use them for God. He trained in rhetoric, then put that gift at the service of the Gospel and the poor. He also shows that courage can be quiet and costly: he kept preaching the truth when it brought exile. Choosing him means asking the Holy Spirit for the gifts of counsel and fortitude.",
+    "reflectionPrompts": [
+      "Where do I honor Christ with words or gestures while overlooking him in someone near me who is in need?",
+      "This week, give one hour or one meal to someone who is hungry or alone, and do it quietly.",
+      "Read Homily 50 on Matthew, section 4 (Nicene and Post-Nicene Fathers, First Series, vol. 10), alongside Benedict XVI's general audiences of 19 and 26 September 2007."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Earlier bishop of Constantinople, who led its small Nicene community before John's time",
+        "historical": true
+      },
+      {
+        "slug": "ambrose",
+        "reason": "Contemporary bishop and Doctor of the Church who also faced the imperial court",
+        "historical": true
+      },
+      {
+        "slug": "basil-the-great",
+        "reason": "Fellow Eastern Father and preacher; another Byzantine liturgy bears Basil's name",
+        "historical": false
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Another saint remembered for treating the poor as the Church's true treasure",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 19 September 2007: Saint John Chrysostom (1)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070919.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience, 26 September 2007: Saint John Chrysostom (2)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20070926.html"
+      },
+      {
+        "title": "Vatican News: Saint of the Day, September 13",
+        "url": "https://www.vaticannews.va/en/saints/09/13.html"
+      },
+      {
+        "title": "Catholic Culture: September 13 (Memorial of St. John Chrysostom), 2024 calendar page",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-09-13"
+      },
+      {
+        "title": "Holy See Office of Liturgical Celebrations (2004): relics of Sts. Gregory Nazianzen and John Chrysostom in St. Peter's (Spanish)",
+        "url": "https://www.vatican.va/news_services/liturgy/2004/documents/ns_lit_doc_20041127_reliquie_sp.html"
+      },
+      {
+        "title": "St. Peter's Basilica (official site)",
+        "url": "https://www.basilicasanpietro.va/en/"
+      },
+      {
+        "title": "CCEL: NPNF1-10, Chrysostom, Homilies on the Gospel of Saint Matthew (public-domain text)",
+        "url": "https://ccel.org/ccel/schaff/npnf110"
+      },
+      {
+        "title": "Husenbeth, Emblems of Saints (Internet Archive)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists orators, lecturers and public speakers (proclaimed by Pius X on 8 July 1908), preachers, epileptics, Constantinople/Istanbul and Asola; none has a live topic, so the field is omitted. 'Preachers' is sourced but has no live topic.",
+      "symbols: omitted. Husenbeth gives chalice and Book of the Gospels, beehive, an angel by him, and St. Paul near him; Catholic Culture gives beehive, bees, dove, pen and inkhorn, chalice on Bible, scroll or book, bishop's mitre. Neither states meanings, and no reputable Catholic source found explains the beehive (popular sites tie it to honeyed eloquence), so symbols were left out under the optional-symbols rule.",
+      "quotes: both homily excerpts checked word for word against the CCEL plain-text NPNF1-10 (Homily L, section 4; translation by Prevost, revised by Riddle, 1888). The NPNF passage quotes Matthew 25:45 in its own wording; Matthew 25:40 is given here in Douay-Rheims as the related verse. 'Glory be to God for all things' is a reported last word (Palladius via Benedict XVI), so it is used only in feastCustoms and the prayer, not as a quote.",
+      "feastCustoms: the speech-contest idea is from Catholic Culture's September 13 activities (2024 page); the 2026 page omits it because the memorial falls on a Sunday that year.",
+      "places: the relics' location in the Choir Chapel of St. Peter's is from a 2004 Holy See liturgy note (in Spanish) and was not re-verified on the basilica site, so the entry names only the basilica. Benedict XVI confirms the 1204 transfer to Rome and the 2004 gift to Patriarch Bartholomew I. Catholic Culture adds that his skull is at Vatopedi Monastery on Mount Athos (Orthodox); not listed.",
+      "relatedSaints: the Lawrence link is thematic (the tradition of the poor as the Church's treasures), not historical.",
+      "biography: no disagreement. Benedict XVI gives birth about 349 in Antioch and death on 14 September 407 at Comana in Pontus; the reviewed biography says 'Fourth century–407'."
+    ]
+  },
+  "john-climacus": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Climacus was a monk and later abbot of Mount Sinai, probably in the late sixth and seventh centuries. He is named for his book The Ladder of Divine Ascent, thirty steps from renouncing sin to perfect love. Catholics recall him on March 30, and Byzantine Churches also honor him on the Fourth Sunday of Lent.",
+    "searchDescription": "St. John Climacus, feast March 30: abbot of Mount Sinai and author of The Ladder of Divine Ascent, a 30-step guide from renunciation to love.",
+    "whyWeTurn": "People turn to St. John Climacus when they want to grow in the spiritual life one honest step at a time. He spent decades in prayer as a hermit near Sinai, yet others kept seeking his advice, and he became abbot before returning to solitude. His Ladder looks plainly at anger, gluttony, pride and discouragement, and treats each as a wound to be healed rather than a reason to despair. It ends not in a feat of discipline but in faith, hope and above all love. Monks, penitents, anyone fighting a stubborn habit and anyone keeping Lent find in him a patient, experienced guide.",
+    "quotes": [
+      {
+        "text": "And he saw in his sleep a ladder standing upon the earth, and the top thereof touching heaven: the angels also of God ascending and descending by it.",
+        "work": "Genesis 28:12, Jacob's ladder, the biblical image of ascent to God",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And now there remain faith, hope, and charity, these three: but the greatest of these is charity.",
+        "work": "1 Corinthians 13:13, the triad to which the Ladder's thirtieth and final step is devoted, as Benedict XVI notes",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus Christ, you called St. John Climacus to climb toward you step by step in the silence of Sinai. Through his prayers, help me to see my faults honestly without losing heart, and to take the next small step you ask of me today. Heal what is wounded in me, humble what is proud, and teach me to remember you with every breath. Lead me past fear and discouragement to faith, hope and charity, and above all to love for you and for my neighbor. Amen."
+    },
+    "feastCustoms": [
+      "Remember him on March 30, his day in the Church's list of saints (Vatican News marks him as a saint of that day); he has no memorial on the General Roman Calendar, so in the Roman Church this is mostly a personal or monastic observance.",
+      "Byzantine Churches, including Eastern Catholic Churches, also honor him on the Fourth Sunday of Lent; attend that Sunday's Divine Liturgy at an Eastern Catholic parish if you can.",
+      "Read the Ladder slowly during Lent, as monastic readers have long done, perhaps one of its thirty steps a day.",
+      "Practice the short prayer of the heart Benedict XVI describes from the Ladder: repeat the name of Jesus quietly, in rhythm with your breathing.",
+      "Read Benedict XVI's general audience of 11 February 2009 on him, a short introduction to the Ladder."
+    ],
+    "places": [
+      {
+        "name": "Holy Monastery of St. Catherine, Mount Sinai (Greek Orthodox), the monastery he led as abbot",
+        "city": "Mount Sinai, South Sinai, Egypt",
+        "url": "https://www.sinaimonastery.com/index.php/en/"
+      }
+    ],
+    "confirmationNote": "John Climacus suits a confirmand who wants a practical plan for growing closer to God. His Ladder treats holiness as a climb taken one step at a time, with honest attention to habits that hold us back. Yet he insists that the top of the ladder is love, not mere self-discipline. Choosing him means asking the Holy Spirit for perseverance, humility and a heart that keeps rising toward charity.",
+    "reflectionPrompts": [
+      "Which one habit is holding me back most right now, and what small first step could I take against it?",
+      "Set a brief daily time this week to pray the name of Jesus quietly, in rhythm with your breathing.",
+      "Read Benedict XVI's general audience of 11 February 2009 on St. John Climacus, then read the final step of the Ladder on faith, hope and charity."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anthony-the-great",
+        "reason": "Father of the desert monastic tradition whose stress on discernment Climacus carries on",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-alexandria",
+        "reason": "The Sinai monastery Climacus led is now known by her name",
+        "historical": true
+      },
+      {
+        "slug": "gregory-palamas",
+        "reason": "Later defender of the hesychasts and the Jesus Prayer; also honored on a Sunday of Byzantine Lent",
+        "historical": false
+      },
+      {
+        "slug": "john-of-the-cross",
+        "reason": "Another guide who pictured the soul's journey to God as an ascent",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience, 11 February 2009: Saint John Climacus",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090211.html"
+      },
+      {
+        "title": "Catholic Culture: John Climacus (reprint of the 11 February 2009 audience)",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=8783"
+      },
+      {
+        "title": "Vatican News: Saint of the Day, March 30",
+        "url": "https://www.vaticannews.va/en/saints/03/30.html"
+      },
+      {
+        "title": "EWTN: St. John Climacus, Abbot",
+        "url": "https://www.ewtn.com/catholicism/library/st-john-climacus-abbot-5390"
+      },
+      {
+        "title": "Holy Monastery of St. Catherine, Mount Sinai (official site)",
+        "url": "https://www.sinaimonastery.com/index.php/en/"
+      },
+      {
+        "title": "Husenbeth, Emblems of Saints (Internet Archive)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Genesis 28",
+        "url": "https://www.drbo.org/chapter/01028.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 13",
+        "url": "https://www.drbo.org/chapter/53013.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable Catholic source found gives him a patronage.",
+      "symbols: omitted. Husenbeth gives only one emblem (a ladder), and Catholic Culture has no feast page or symbol list for him, so there are fewer than three sourced attributes.",
+      "quotes: no quote from the saint himself. No pre-1929 English translation of the Ladder could be found on Internet Archive (an 1858 edition could not be verified), and the Moore (1959) and Luibheid/Russell (1982) translations are under copyright. Only Scripture is quoted; Benedict XVI links the final step to the faith-hope-charity triad. The Genesis link to the book's title is offered as background, not as something Climacus is shown to cite.",
+      "feastCustoms: the statement that he is not on the General Roman Calendar was not checked against an official calendar document; Vatican News lists him only as a saint of the day for March 30. The Fourth Sunday of Lent observance comes from the reviewed feast note; 'monastic readers have long read it in Lent' follows the reviewed biography's 'continuing place in Lenten and monastic reading'.",
+      "places: St. Catherine's is a Greek Orthodox monastery; its site refuses curl (HTTP 406) but loaded through WebFetch and names him as abbot of Sinai and author of the Ladder. Benedict XVI places his hermitage at Tola, about 8 km from the present monastery.",
+      "biography: no disagreement. Benedict XVI gives born about 575, died after 650; EWTN gives 525–605. The reviewed biography rightly calls the chronology disputed, and the hero summary says 'probably'."
+    ]
+  },
+  "john-de-br-beuf": {
+    "templateVersion": 2,
+    "heroSummary": "St. John de Brébeuf (1593–1649) was a French Jesuit who spent much of his life among the Wendat (Huron) people, learning their language and preparing a grammar and catechism. He was killed at Saint-Ignace in 1649 amid the war that devastated Wendat communities. He is honored with the North American Martyrs on October 19, and in Canada on September 26.",
+    "searchDescription": "St. John de Brébeuf (1593–1649), feast October 19: Jesuit missionary to the Wendat (Huron), linguist and North American Martyr killed in 1649.",
+    "whyWeTurn": "People turn to St. John de Brébeuf when they are asked to love people whose world is very different from their own. He spent years learning the Wendat language and customs, and told his fellow Jesuits to regard the Wendat as their brothers and to adapt to their ways rather than expect the reverse. He also served through epidemics and war, and in his private notes he offered his life to Christ. The Huron Carol is traditionally attributed to him. Missionaries, language learners and anyone working across cultures find in him a companion who stayed for the long haul.",
+    "quotes": [
+      {
+        "text": "My God and my Savior Jesus, what can I render to you for all the benefits which you have conferred upon me? I will take from your hand the cup of your sufferings, and I will invoke your Name.",
+        "work": "Opening of his vow of martyrdom, from his spiritual notes, quoted in Paul Ragueneau's Relation of 1648–49 (Jesuit Relations, vol. 34, p. 167)",
+        "translation": "English translation in Reuben Gold Thwaites, ed., The Jesuit Relations and Allied Documents, vol. 34 (Cleveland: Burrows Brothers, 1898), public domain"
+      },
+      {
+        "text": "...looking upon them as ransomed by the blood of the son of God, and as our brethren, with whom we are to pass the rest of our lives.",
+        "work": "Instructions for the Fathers of Our Society Who Shall Be Sent to the Hurons, sent by Brébeuf and printed in Paul Le Jeune's Relation of 1637 (Jesuit Relations, vol. 12, p. 117)",
+        "translation": "English translation in Reuben Gold Thwaites, ed., The Jesuit Relations and Allied Documents, vol. 12 (Cleveland: Burrows Brothers, 1898), public domain"
+      },
+      {
+        "text": "What shall I render to the Lord, for all the things he hath rendered unto me? I will take the chalice of salvation; and I will call upon the name of the Lord.",
+        "work": "Psalm 115:12–13 (116:12–13 in Hebrew numbering), the verses Brébeuf quotes in Latin at the start of his vow",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you sent St. John de Brébeuf to the Wendat people, and he spent years learning their words so that he could speak to them of you. Through his prayers, give me patience to listen before I speak and respect for every people and culture you have made. Teach me to love others as brothers and sisters ransomed by your blood. When serving you costs me comfort, safety or pride, help me to take the cup you offer and call upon your name. Comfort all who suffer from war and displacement. St. John de Brébeuf and companions, pray for us. Amen.",
+      "link": {
+        "label": "Novena to the North American Martyrs (National Shrine of Our Lady of Martyrs, Auriesville)",
+        "url": "https://www.ourladyofmartyrsshrine.org/s/Novena-to-the-North-American-Martyrs.pdf"
+      }
+    },
+    "feastCustoms": [
+      "Keep October 19, when the Church honors Sts. John de Brébeuf, Isaac Jogues and companions; Catholic Culture lists it as a memorial in the United States, while the Church in Canada celebrates the Canadian Martyrs on September 26.",
+      "Sing or learn the Huron Carol at Christmas; it is traditionally attributed to Brébeuf, who is said to have written it to tell the Christmas story to the Wendat.",
+      "Pray for missionaries and for Christians persecuted for their faith today, as Catholic Culture suggests for this feast.",
+      "Learn about the Huron-Wendat people and their history in their own words, not only through missionary accounts.",
+      "Read his short Instructions to Jesuits bound for the Huron mission (Jesuit Relations, vol. 12) and ask what they say about respecting people unlike yourself."
+    ],
+    "confirmationNote": "John de Brébeuf suits a confirmand drawn to languages, other cultures or service far from home. He spent years patiently learning to speak and live as his Wendat neighbors did, and he urged others to treat them as brothers. He also offered his whole life to Christ. Choosing him means asking the Holy Spirit for the gifts of understanding and fortitude, and for a love that is willing to listen.",
+    "reflectionPrompts": [
+      "Who in my life comes from a world very different from mine, and how could I listen to them more patiently?",
+      "Learn a few words or a prayer in another language spoken in your community, or learn the Huron Carol before Christmas.",
+      "Read Brébeuf's Instructions for the Fathers sent to the Hurons in Thwaites, The Jesuit Relations, vol. 12, from p. 117, and note what he asks of missionaries."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gabriel-lalemant",
+        "reason": "Fellow Jesuit captured with him and killed at Saint-Ignace in March 1649",
+        "historical": true
+      },
+      {
+        "slug": "isaac-jogues",
+        "reason": "Fellow Jesuit of the Huron mission, sharing the October 19 feast",
+        "historical": true
+      },
+      {
+        "slug": "anthony-daniel",
+        "reason": "Fellow Jesuit of the Huron mission among the eight North American Martyrs",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Jesuit missionary whom Brébeuf names in his vow of martyrdom",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Society of Jesus: Saint Jean de Brébeuf",
+        "url": "https://www.jesuits.global/saint-blessed/saint-jean-de-brebeuf/"
+      },
+      {
+        "title": "Canadian Conference of Catholic Bishops: North American Martyrs",
+        "url": "https://www.cccb.ca/the-catholic-church-in-canada/saints-blesseds-canada/north-american-martyrs/"
+      },
+      {
+        "title": "Catholic Culture: October 19 (Sts. John de Brébeuf, Isaac Jogues, and Companions)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-19"
+      },
+      {
+        "title": "Vatican News: Saint of the Day, October 19",
+        "url": "https://www.vaticannews.va/en/saints/10/19.html"
+      },
+      {
+        "title": "Thwaites, The Jesuit Relations and Allied Documents, vol. 12 (1898), Internet Archive",
+        "url": "https://archive.org/details/jesuits12jesuuoft"
+      },
+      {
+        "title": "Thwaites, The Jesuit Relations and Allied Documents, vol. 34 (1898), Internet Archive",
+        "url": "https://archive.org/details/jesuits34jesuuoft"
+      },
+      {
+        "title": "National Shrine of Our Lady of Martyrs: Novena to the North American Martyrs (PDF)",
+        "url": "https://www.ourladyofmartyrsshrine.org/s/Novena-to-the-North-American-Martyrs.pdf"
+      },
+      {
+        "title": "Sainte-Marie among the Hurons (Huronia Historical Parks)",
+        "url": "https://saintemarieamongthehurons.on.ca/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 115",
+        "url": "https://www.drbo.org/chapter/21115.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture gives the North American Martyrs as patrons of the Americas and Canada, and the CCCB says Pius XII named them secondary patrons of Canada in 1940; neither has a live topic.",
+      "symbols: omitted. The only Catholic list found (Catholic Culture) is for the North American Martyrs as a group (black Jesuit robes with crucifix, IHS, red, red roses), with no meanings specific to Brébeuf; Husenbeth predates his canonization.",
+      "quotes: both Brébeuf texts checked word for word against the Internet Archive OCR of Thwaites vols. 12 (p. 117) and 34 (p. 167). Quote 2 starts mid-sentence to leave out the translation's period term 'Savages' (the sentence begins 'You must have sincere affection for the Savages'). The Instructions are Brébeuf's per Le Jeune's own introduction ('Father Brebeuf sent me some instructions'). The vow excerpt is only its opening; the Office of Readings uses a different, copyrighted translation.",
+      "Huron Carol: Catholic Culture credits Brébeuf with writing it; the attribution is traditional and is worded that way in whyWeTurn and feastCustoms.",
+      "places: the Martyrs' Shrine in Midland, Ontario (martyrs-shrine.com) returned HTTP 403 to automated checks, so it could not be verified and was left out; a human may add it after checking in a browser. Sainte-Marie among the Hurons is a provincial historic site (Huronia Historical Parks), not a church site; its homepage calls it the headquarters of the French Jesuit mission to the Wendat but does not discuss Brébeuf by name. A human may prefer to drop it.",
+      "feastCustoms: the rank of October 19 on the General Roman Calendar was not separately verified; the USA memorial and Canada's September 26 date come from Catholic Culture and the CCCB.",
+      "biography: no disagreement. The CCCB gives his capture at St. Louis and death at St. Ignace on 16 March 1649; the Jesuits give arrival at Quebec on 19 June 1625, matching the reviewed 1625.",
+      "places: removed Sainte-Marie among the Hurons homepage (does not name him); Midland shrine unverified (coordinator)"
     ]
   },
   "john-the-baptist": {
