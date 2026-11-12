@@ -20860,6 +20860,463 @@
       "biography: no disagreement. Note: the OCA says he became a monk at Vatopedi and dates the first anti-Barlaam council to 1341; the Melkite page dates his move to Thessalonica's see to 1347, matching the review. One fetched summary of a tourism page said he was archbishop from 1350, which is not used."
     ]
   },
+  "gregory-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gregory the Great is honored as a patron of England, the land to which he sent Augustine and his fellow monks. A Roman official who became a monk, he was elected pope in 590 and cared for a city struck by flood, plague and war. A Doctor of the Church, he is remembered on September 3.",
+    "searchDescription": "St. Gregory the Great (about 540–604), feast September 3: Roman official turned monk, pope from 590, Doctor of the Church who sent missionaries to England.",
+    "patronages": [
+      "england"
+    ],
+    "symbols": [
+      {
+        "symbol": "Dove at his ear or on his shoulder",
+        "meaning": "The Holy Spirit guiding his writing; Catholic Culture describes the dove perched on his shoulder as he wrote."
+      },
+      {
+        "symbol": "Book and pen, often at a desk or lectern",
+        "meaning": "His writings: the Pastoral Rule, the Dialogues, his commentaries on Scripture and hundreds of letters."
+      },
+      {
+        "symbol": "Papal tiara",
+        "meaning": "His office as Bishop of Rome, shown in the dress later artists gave to popes."
+      },
+      {
+        "symbol": "Double- or triple-barred cross",
+        "meaning": "A staff-cross artists used to mark a pope; Husenbeth records it on English rood screens showing Gregory."
+      },
+      {
+        "symbol": "Christ appearing to him at Mass",
+        "meaning": "A late medieval legend, the 'Mass of St. Gregory', in which Christ showed him his wounds at the altar; it expresses faith in Christ's presence in the Eucharist, not a documented event."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Gregory when responsibility arrives uninvited. He had chosen the quiet of a monastery, yet he was called back into public service, and as pope he fed the hungry of Rome, cared for refugees and the sick, and negotiated for a city under threat. He called himself 'servant of the servants of God', a title later popes kept. Teachers, students, singers and church musicians look to him, and Catholic Culture lists him against plague, fever and gout. Leaders of every kind find in his Pastoral Rule an honest guide to serving without pride, and tradition links his name with the Church's chant.",
+    "quotes": [
+      {
+        "text": "No one presumes to teach an art till he has first, with intent meditation, learnt it. What rashness is it, then, for the unskilful to assume pastoral authority, since the government of souls is the art of arts!",
+        "work": "The Book of Pastoral Rule, Part I, chapter 1",
+        "translation": "James Barmby, Nicene and Post-Nicene Fathers, Second Series, vol. 12 (1895; public domain)"
+      },
+      {
+        "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself",
+        "work": "The Book of Pastoral Rule, Part II, chapter 5",
+        "translation": "James Barmby, Nicene and Post-Nicene Fathers, Second Series, vol. 12 (1895; public domain)"
+      },
+      {
+        "text": "all creatures be as it were nothing to that soul which beholdeth the Creator: for though it see but a glimpse of that light which is in the Creator, yet very small do all things seem that be created",
+        "work": "Dialogues, Book II (Life of St. Benedict), chapter 35",
+        "translation": "English translation of 1608, as reprinted in the 1911 edition (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "O God, you called St. Gregory from the quiet of the cloister to serve your people in a time of hunger, plague and fear. Through his prayers, give wisdom and humility to all who lead in your Church, and to me in whatever is entrusted to my care. Teach me to stay near to those who suffer while keeping my heart lifted to you. May my work, like his, be service and not pride, and may my life become a song of praise to you. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Roman Missal collect for his memorial is a copyrighted ICEL translation, so it is not reproduced here."
+    },
+    "feastCustoms": [
+      "Celebrate his memorial on September 3 in the General Roman Calendar; the Mass collect asks God to give a spirit of wisdom to those entrusted with governing.",
+      "Listen to or sing Gregorian chant. The name honors his work for the liturgy, though crediting him with the chant itself is tradition rather than history.",
+      "Read a chapter of his Pastoral Rule, or Book II of his Dialogues, which tells the life of St. Benedict.",
+      "Give food or support to a food bank or refugee service, as Gregory used the Church's resources to feed the poor of Rome.",
+      "Pray for the pope and the bishops, remembering the title 'servant of the servants of God' that Gregory made his own."
+    ],
+    "confirmationNote": "Gregory suits a confirmand who has real gifts and wants to put them at others' service. He was a capable official who chose a life of prayer, then accepted a heavy duty he had not sought, and used it to feed the hungry and send the Gospel abroad. Choosing his name can mean asking the Holy Spirit, often painted as a dove at his ear, for the wisdom to lead by serving.",
+    "reflectionPrompts": [
+      "Where am I being asked to serve in a way I did not choose, and how could I accept it more generously?",
+      "Find one concrete way this week to help feed someone who is hungry, through your parish, a food bank or a neighbor.",
+      "Read the Pastoral Rule, Part II, chapter 5, and note how Gregory joins prayer with closeness to the people a leader serves."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "augustine-of-canterbury",
+        "reason": "Monk of Gregory's Roman monastery, sent by him to Kent in 597",
+        "historical": true
+      },
+      {
+        "slug": "ethelbert-of-kent",
+        "reason": "King of Kent who received Gregory's missionaries and his letters",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Book II of Gregory's Dialogues is the main account of his life",
+        "historical": false
+      },
+      {
+        "slug": "pius-x",
+        "reason": "Honored Gregory in the encyclical Iucunda Sane and promoted chant",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, September 3 (St. Gregory the Great)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-09-03"
+      },
+      {
+        "title": "Vatican News: St. Gregory the Great, Pope and Doctor of the Church",
+        "url": "https://www.vaticannews.va/en/saints/09/03/st--gregory-the-great--pope-and-doctor-of-the-church.html"
+      },
+      {
+        "title": "NPNF Second Series vol. 12 (Leo the Great, Gregory the Great), CCEL: Book of Pastoral Rule and Register of Letters",
+        "url": "https://www.ccel.org/ccel/schaff/npnf212"
+      },
+      {
+        "title": "Gregory the Great, Dialogues Book II (1911 edition of the 1608 translation), tertullian.org",
+        "url": "https://www.tertullian.org/fathers/gregory_02_dialogues_book2.htm"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists England (live topic, included), plus choir boys, choirs, educators, teachers, students, scholars, music, musicians, singers, masons, stonecutters, popes, against plague, fever and gout, and the West Indies; none of these has a live topic.",
+      "places: omitted. His body lies in St. Peter's Basilica (Catholic Culture), but the basilica's official site has no page about him, and no official site was found for San Gregorio Magno al Celio, the church on the site of his monastery.",
+      "symbols: dove, book and pen, desk or lectern, tiara and double or triple cross are on Catholic Culture's list; the double cross on rood screens and the Mass of St. Gregory (Christ appearing at Mass) are from Husenbeth. The tiara meaning is interpretive.",
+      "quotes: Pastoral Rule text verified against the CCEL plain-text NPNF 2.12 (Barmby); Dialogues text verified against tertullian.org's transcription of the 1911 edition. The third quote starts mid-sentence (lowercase kept).",
+      "whyWeTurn: 'servant of the servants of God' is per Vatican News; a footnote in NPNF 2.12 notes that Damasus and Augustine had used the phrase earlier, so the page says he made it his own, not that he coined it.",
+      "relatedSaints: Pius X's encyclical Iucunda Sane on Gregory is listed in Catholic Culture's library on the September 3 page; his promotion of chant was not separately sourced here and may be trimmed to 'Honored Gregory in the encyclical Iucunda Sane'.",
+      "biography: no conflict. Catholic Culture calls his monastery Benedictine and calls him a cardinal before his election; neither is in the review, so neither was used. Catholic Culture gives his death as March 12, 604, consistent with the review."
+    ]
+  },
+  "gregory-the-illuminator": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gregory the Illuminator is honored as the patron of Armenia, the man St. John Paul II called the father in faith of the Armenian people. Raised a Christian in Cappadocia, he suffered under King Tiridates III, then saw the king and court baptized and organized the Armenian Church as its bishop. He is remembered on September 30.",
+    "searchDescription": "St. Gregory the Illuminator, feast September 30: patron and apostle of Armenia, who saw King Tiridates III baptized and organized the Armenian Church.",
+    "patronages": [
+      "armenia"
+    ],
+    "whyWeTurn": "People turn to St. Gregory the Illuminator when faith has to survive a long darkness. Tradition holds that he spent years in a deep pit, kept alive by a widow who brought him bread, before he was called out to heal the king who had imprisoned him. Whatever legend has added, Armenians remember him as the one through whom their people came to baptism. Armenians at home and abroad, Christians who suffer for their faith, and anyone praying for unity between the Churches of East and West find in him a patient and faithful father.",
+    "quotes": [
+      {
+        "text": "But call to mind the former days, wherein, being illuminated, you endured a great fight of afflictions.",
+        "work": "Hebrews 10:32",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Do not therefore lose your confidence, which hath a great reward.",
+        "work": "Hebrews 10:35",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "The people that walked in darkness, have seen a great light: to them that dwelt in the region of the shadow of death, light is risen.",
+        "work": "Isaias (Isaiah) 9:2",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, through St. Gregory the Illuminator you brought the light of the Gospel to the Armenian people. He held fast to you through suffering and long darkness, and when he was set free he healed the king who had wronged him. Through his prayers, strengthen Christians who suffer for your name, bless Armenia and all Armenians throughout the world, and draw your divided Churches into one. When I feel buried and forgotten, keep the light of my baptism burning, and make me ready to serve when you call me out. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on September 30. The Armenian Apostolic Church also keeps several days for him on its own calendar, including one for his being cast into the pit.",
+      "Pray for Armenia and for Armenian Christians, whose history St. John Paul II described as marked again and again by martyrdom.",
+      "Pray for Christian unity, recalling that John Paul II gave a relic of St. Gregory, long kept in Naples, to the Armenian Apostolic Church for its new cathedral in Yerevan.",
+      "Read St. John Paul II's 2001 apostolic letter for the 1,700th anniversary of the Baptism of the Armenian People.",
+      "If an Armenian Catholic or Armenian Apostolic parish is near you, join its liturgy, and renew your baptismal promises, since 'illumination' is an ancient Christian name for baptism."
+    ],
+    "places": [
+      {
+        "name": "Mother See of Holy Etchmiadzin (Armenian Apostolic Church), whose cathedral tradition says he built with King Tiridates",
+        "city": "Vagharshapat, Armenia",
+        "url": "https://www.armenianchurch.org/en/mother-see"
+      },
+      {
+        "name": "St. Gregory the Illuminator Cathedral (Armenian Apostolic Church), which enshrines relics brought from Naples in 2000",
+        "city": "Yerevan, Armenia",
+        "url": "https://www.armenianchurch.org/en/st-gregory-the-illuminator-cathedral-of-yerevan/"
+      }
+    ],
+    "confirmationNote": "Gregory the Illuminator suits a confirmand whose faith has been tested, or who hopes to carry the Gospel into his or her own culture. His title recalls that baptism was called illumination, and St. John Paul II noted that his mission also brought learning to a whole people. Choosing his name can mean promising to stay faithful in dark times and to let the light of baptism and confirmation reach others.",
+    "reflectionPrompts": [
+      "When have I felt stuck in a dark place, and who, like the widow in Gregory's story, quietly helped me through?",
+      "Learn about Armenian Christians in your area or in the news this week, and pray for them by name.",
+      "Read St. John Paul II's apostolic letter for the 1,700th anniversary of the Baptism of the Armenian People, sections 3–5, and notice what he treats as legend and what as lasting meaning."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mesrop-mashtots",
+        "reason": "Gave the Armenian Church its alphabet a century after Gregory",
+        "historical": true
+      },
+      {
+        "slug": "nino-of-georgia",
+        "reason": "Brought the faith to neighboring Georgia in the same fourth century",
+        "historical": true
+      },
+      {
+        "slug": "bartholomew",
+        "reason": "Armenian tradition says he preached in Armenia before Gregory",
+        "historical": false
+      },
+      {
+        "slug": "jude-thaddeus",
+        "reason": "Honored by Armenians as an apostle of their land",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "St. John Paul II, Apostolic Letter for the 1,700th Anniversary of the Baptism of the Armenian People (2001)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/2001/documents/hf_jp-ii_apl_20010217_battesimo-armenia.html"
+      },
+      {
+        "title": "St. John Paul II, Homily at the Divine Liturgy in the Armenian Rite, February 18, 2001",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2001/documents/hf_jp-ii_hom_20010218_armenia.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Gregory the Illuminator",
+        "url": "https://www.newadvent.org/cathen/07023a.htm"
+      },
+      {
+        "title": "Mother See of Holy Etchmiadzin (official site)",
+        "url": "https://www.armenianchurch.org/en/mother-see"
+      },
+      {
+        "title": "Mother See of Holy Etchmiadzin: St. Gregory the Illuminator Cathedral, Yerevan",
+        "url": "https://www.armenianchurch.org/en/st-gregory-the-illuminator-cathedral-of-yerevan/"
+      },
+      {
+        "title": "Mother See of Holy Etchmiadzin: The Holy Right Hand reliquary of St. Gregory taken to Khor Virap (2023)",
+        "url": "https://www.armenianchurch.org/en/videos/the-holy-right-hand-reliquary-of-st-gregory-the-illuminator-was-taken-to-khor-virap-momastery/4491"
+      },
+      {
+        "title": "Douay-Rheims Bible (drbo.org): Hebrews 10",
+        "url": "https://www.drbo.org/chapter/65010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible (drbo.org): Isaias 9",
+        "url": "https://www.drbo.org/chapter/27009.htm"
+      }
+    ],
+    "flags": [
+      "symbols: omitted. Husenbeth lists him only in his calendar, Catholic Culture has no page for him, and no well-sourced Catholic list of attributes was found.",
+      "patronages: 'patron of Armenia' is from the Catholic Encyclopedia (1910) and matches the review; St. John Paul II's 2001 letter calls him 'the father in faith of the whole Armenian people' rather than patron. No current Vatican, USCCB or Catholic Culture page using the word 'patron' was found.",
+      "quotes: no public-domain writings of Gregory could be verified (the long sermon in Agathangelos' Life is literary), so Douay-Rheims Scripture is used; Hebrews 10:32 picks up the old name 'illumination' for baptism.",
+      "feastCustoms: September 30 follows the review; neither Vatican News nor Catholic Culture lists him on that day. The Armenian commemoration of his being cast into the pit is from the Mother See's 2023 notice; its date moves, so none is given.",
+      "places: both are official sites of the Armenian Apostolic Church, which is not in full communion with Rome. Khor Virap, the traditional site of the pit, has no official page of its own, and no official site was found for San Gregorio Armeno in Naples.",
+      "relatedSaints: Mesrop and Nino are marked historical as same Church/region and era; neither knew Gregory personally.",
+      "biography: no conflict. Sources disagree on the years in the pit (John Paul II says 13; the Catholic Encyclopedia's summary of Agathangelos says 15), so no number is given."
+    ]
+  },
+  "gudula": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gudula is the patron saint of Brussels, where her relics were brought to the church now called the Cathedral of St. Michael and St. Gudula. A devout woman of seventh-century Brabant, she is remembered for prayer and charity, and for a lantern that legend says was rekindled from heaven. Brussels keeps her feast on January 8.",
+    "searchDescription": "St. Gudula, feast January 8: patron saint of Brussels, a devout woman of Brabant whose relics gave the city's cathedral its name.",
+    "patronages": [
+      "brussels"
+    ],
+    "symbols": [
+      {
+        "symbol": "Lantern that a devil tries to blow out",
+        "meaning": "Legend says the devil put out her light as she went to pray in the dark, and her prayer brought the flame back."
+      },
+      {
+        "symbol": "Angel relighting her lantern",
+        "meaning": "In the legend as the Brussels cathedral tells it, heaven sent an angel to rekindle the flame so she could reach the chapel; the cathedral reads it as the small flame of faith in troubled times."
+      },
+      {
+        "symbol": "Candle or twisted taper",
+        "meaning": "An older form of the same light: a 1446 seal of her Brussels church shows her with a candle and a lamp, and Husenbeth notes a devil with bellows blowing at the taper."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Gudula when it is hard to keep praying. Tradition holds that she walked to church in the dark, and that when the devil blew out her lantern she knelt and prayed until the flame was lit again. The Brussels cathedral reads the story as a picture of the small flame of faith in a troubled time. Little is known for certain about her life, but Brussels has kept her memory for about a thousand years. Anyone whose faith feels faint, or who prays for their city, can ask her help.",
+    "quotes": [
+      {
+        "text": "And the light shineth in darkness, and the darkness did not comprehend it.",
+        "work": "John 1:5",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "So let your light shine before men, that they may see your good works, and glorify your Father who is in heaven.",
+        "work": "Matthew 5:16",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Thy word is a lamp to my feet, and a light to my paths.",
+        "work": "Psalm 118:105 (119:105 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, light of the world, St. Gudula sought you faithfully in prayer and served you in her neighbors. When darkness seemed to put out her light, she turned to you and found it kindled again. Through her prayers, keep the flame of faith burning in me when I am tired, discouraged or tempted to stop praying. Bless the city of Brussels and all who live and work there, and let my small light shine so that others may glorify our Father in heaven. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember her on January 8, her feast in Brussels; the Catholic Encyclopedia records January 19 in the Diocese of Ghent, where Ham and Moorsel lie.",
+      "Light a candle or lantern at evening prayer and ask for perseverance, recalling the legend of her rekindled light.",
+      "Pray for Brussels and Belgium, and for everyone who lives and works in the city.",
+      "Do a quiet act of charity; the Brussels cathedral remembers her life as one of prayer, service to others and charity.",
+      "Visitors to Brussels can pray before her lantern-bearing statue in the Cathedral of St. Michael and St. Gudula."
+    ],
+    "places": [
+      {
+        "name": "Cathedral of St. Michael and St. Gudula, where her relics were enshrined in 1047 and her statue stands",
+        "city": "Brussels, Belgium",
+        "url": "https://cathedralisbruxellensis.be/en/oeuvres/the-statue-of-saint-gudula/"
+      }
+    ],
+    "confirmationNote": "Gudula suits a confirmand who wants a steady, everyday faith rather than a dramatic one. She is remembered for prayer, faithful visits to church and care for others, and her lantern recalls the light handed on at baptism. Choosing her name can mean promising to keep that light burning when prayer feels dry or when others try to discourage it.",
+    "reflectionPrompts": [
+      "What tends to blow out my prayer, and what helps me light it again?",
+      "Choose a regular time this week to visit a church or chapel for a few minutes of prayer, as Gudula is remembered for doing.",
+      "Read Matthew 5:14–16 and John 1:1–9, and consider how Christ's light is meant to shine through ordinary lives."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "gertrude-of-nivelles",
+        "reason": "Her godmother, who the cathedral says oversaw her education",
+        "historical": true
+      },
+      {
+        "slug": "begga-of-andenne",
+        "reason": "Gertrude's sister, a seventh-century saint of the same region",
+        "historical": true
+      },
+      {
+        "slug": "michael-the-archangel",
+        "reason": "Shares the Brussels cathedral's dedication and the city's patronage",
+        "historical": false
+      },
+      {
+        "slug": "genevieve",
+        "reason": "City patroness also shown with a candle the devil tries to blow out",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: St. Gudula",
+        "url": "https://www.newadvent.org/cathen/07056b.htm"
+      },
+      {
+        "title": "Cathedral of St. Michael and St. Gudula: The Statue of Saint Gudula",
+        "url": "https://cathedralisbruxellensis.be/en/oeuvres/the-statue-of-saint-gudula/"
+      },
+      {
+        "title": "Cathedral of St. Michael and St. Gudula: Visit (treasury, crypt)",
+        "url": "https://cathedralisbruxellensis.be/en/visit/"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible (drbo.org): John 1",
+        "url": "https://www.drbo.org/chapter/50001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible (drbo.org): Matthew 5",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible (drbo.org): Psalm 118",
+        "url": "https://www.drbo.org/chapter/21118.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Brussels is from the Catholic Encyclopedia ('its most venerated patroness', St. Michael being the patron) and matches the review; the official cathedral pages describe her relics and statue but do not use the word 'patron'.",
+      "symbols: lantern and devil, angel relighting it, taper with bellows and loom are from Husenbeth; the candle and lamp on the 1446 seal are from the Catholic Encyclopedia; the book with a model cathedral is from the official cathedral page and belongs to that statue rather than to a general tradition. The loom's meaning is interpretive, since Husenbeth gives none.",
+      "quotes: no writings of hers survive; Douay-Rheims Scripture on light is used.",
+      "feastCustoms: the cathedral's 2026 800th-anniversary ('Gudula26') events were not used because they will go out of date.",
+      "places: the 1047 translation to St. Michael's church is from the Catholic Encyclopedia; the official cathedral page has no separate page on the saint, so the statue page is linked. CE adds that her relics were scattered when the church was pillaged in 1579.",
+      "biography: no conflict, but please check. The cathedral page gives exact dates (born 650 at Moorsel, died 712) and says her aunt and godmother St. Gertrude of Nivelles oversaw her education; the review and the Catholic Encyclopedia give only seventh to early eighth century and do not mention Gertrude. The page keeps the review's broader dating.",
+      "symbols: removed loom (meaning not sourced) and book/model (single statue) (coordinator)"
+    ]
+  },
+  "guntramnus": {
+    "templateVersion": 2,
+    "heroSummary": "St. Guntram (Gontran), a grandson of Clovis, ruled the Frankish kingdom of Burgundy from 561 until his death about 592. His contemporary Gregory of Tours records both his violent temper and his almsgiving, fasting and care for his people in time of plague. Honored as a penitent king, he is remembered on March 28.",
+    "searchDescription": "St. Guntram (Gontran), Merovingian king of Burgundy who died about 592, remembered for penance and almsgiving after real wrongdoing. Feast March 28.",
+    "whyWeTurn": "People turn to Guntram because his holiness did not erase his faults. Gregory of Tours, who knew him, records that he could be rash and harsh, and that he once had his chamberlain stoned over a poached animal, then bitterly regretted it. The same historian describes a king who gave alms generously, fasted, and, when plague threatened, called his people to prayer and penance like a bishop. Tradition remembers his tears of repentance and his gifts to churches and the poor. Anyone burdened by past wrongdoing, and anyone who holds power, can ask his help to repent honestly and serve others.",
+    "quotes": [
+      {
+        "text": "The king himself, as we have often said, was great in almsgiving and unwearied in watches and fasting.",
+        "work": "St. Gregory of Tours, History of the Franks, Book IX, chapter 21",
+        "translation": "Ernest Brehaut, History of the Franks by Gregory, Bishop of Tours: Selections (1916), public domain"
+      },
+      {
+        "text": "Have mercy on me, O God, according to thy great mercy. And according to the multitude of thy tender mercies blot out my iniquity.",
+        "work": "Psalm 50:3 (Psalm 51:1 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "A sacrifice to God is an afflicted spirit: a contrite and humbled heart, O God, thou wilt not despise.",
+        "work": "Psalm 50:19 (Psalm 51:17 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Merciful God, St. Guntram ruled in a violent age and did real wrong, yet he wept over his sins, gave generously to the poor, and called his people to prayer in time of danger. Through his prayers, give me the courage to face my own faults without excuses and to make amends where I can. Teach me to forgive those who wrong me, to use whatever authority I have for the good of others, and to trust your mercy more than my own record. Protect all who suffer from disease, and bless those who govern. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on March 28, his commemoration in the Roman Martyrology; he is not on the General Roman Calendar, and the day usually falls in Lent.",
+      "Pray Psalm 50 (the Miserere, Psalm 51 in other numbering) and make a good confession, in keeping with his reputation as a penitent.",
+      "Keep a simple meal and give what you save to the poor, recalling that Gregory of Tours says he ordered barley bread and water, prayer, and generous alms when plague struck.",
+      "Pray for people suffering from epidemics and for those who care for them.",
+      "Forgive someone who has wronged you; Catholic Culture's account says he was quick to forgive offenses against himself."
+    ],
+    "confirmationNote": "Guntram may suit a confirmand who knows the weight of past mistakes or who has a quick temper to master. Gregory of Tours did not hide his faults, but he also saw a king who prayed, fasted, gave alms, and cared for his people in a crisis. Choosing his name can be a commitment to honest repentance, to generosity, and to using whatever influence one has to protect others.",
+    "reflectionPrompts": [
+      "Is there a wrong I have done that I keep excusing? What would honest repentance look like?",
+      "Notice one moment this week when anger rises, pause before acting, and then do one generous thing for the person involved.",
+      "Read Gregory of Tours, History of the Franks, Book IX, chapter 21 and Book X, chapter 10 (in Brehaut's 1916 selections), and compare the two portraits of Guntram."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "medard",
+        "reason": "Sixth-century bishop in whose church at Soissons Guntram and his brothers buried their father Clothar",
+        "historical": true
+      },
+      {
+        "slug": "louis-ix",
+        "reason": "Another French king remembered for penance and generosity to the poor",
+        "historical": false
+      },
+      {
+        "slug": "moses-the-black",
+        "reason": "A man with a violent past whose repentance made him a saint",
+        "historical": false
+      },
+      {
+        "slug": "dismas",
+        "reason": "The Good Thief, a model of turning to God after grave wrongdoing",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, March 28 (St. Gontran)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-03-28"
+      },
+      {
+        "title": "Gregory of Tours, History of the Franks, tr. Ernest Brehaut (1916), Internet Medieval Sourcebook",
+        "url": "https://sourcebooks.fordham.edu/basis/gregory-hist.asp"
+      },
+      {
+        "title": "Nominis: Saint Gontran",
+        "url": "https://nominis.cef.fr/contenus/saint/876/Saint-Gontran.html"
+      },
+      {
+        "title": "Douay-Rheims Bible, Psalm 50",
+        "url": "https://www.drbo.org/chapter/21050.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic Culture lists divorced people, guardians and repentant murderers, but none has a live topic",
+      "symbols: omitted. Catholic Culture lists only treasure images (a king finding treasure and giving it to the poor; three treasure chests) and Husenbeth gives one ('in a cave full of money'); these all depict a single legend and do not reach 3 established attributes",
+      "places: none listed. His remains were in the Church of Saint-Marcel near Chalon-sur-Saône, which he founded (Catholic Culture says only his skull survives after the Huguenots scattered the rest), but I found no official parish or diocesan web page for the church that mentions him",
+      "quotes: the Gregory of Tours sentence was verified in Brehaut's 1916 selections on the Fordham Internet Medieval Sourcebook (public domain); the Dalton translation (1927) was not used. Book X, chapter 10 (the stoning of the chamberlain Chundo and the king's remorse) is summarized, not quoted",
+      "whyWeTurn: 'like a bishop' paraphrases Gregory (IX.21), who says people came to regard him as not merely a king but a bishop of God. Gregory also reports a cure attributed to a thread from his cloak; it is left out as a wonder story",
+      "relatedSaints: the medard link rests on Gregory, Book IV (Clothar buried in the church of St. Medard at Soissons by his four sons); it is a family and era link rather than direct contact",
+      "biography: no disagreement in substance. Death year varies: the review and Catholic Culture's heading say 592; Catholic Culture's Shea excerpt and Husenbeth say 593 (March 23 or 28). Catholic Culture calls him king of Orleans and Burgundy with Chalon as capital; Gregory's division gives him Orleans in 561"
+    ]
+  },
   "hedwig": {
     "templateVersion": 2,
     "heroSummary": "St. Hedwig of Silesia is the patron saint of Silesia, a duchess who used her rank and wealth to found monasteries and hospitals and to care for the poor and sick. Born at Andechs in Bavaria around 1174, she spent her widowhood beside the Cistercian nuns of Trzebnica and was canonized in 1267. Her optional memorial is October 16.",
@@ -21001,6 +21458,375 @@
       "feastCustoms: the Hedwigsohlen bread and the Canada transfer to October 20 are from Catholic Culture; the Trzebnica pilgrimage line is general, with no dates given.",
       "places: Andechs Abbey and St. Hedwig's Cathedral are listed because Catholic Culture says they hold some of her relics; Andechs is also the site of the castle where she was born.",
       "biography: Catholic Culture says she 'entered the monastery' as a nun after Henry's death, and Vatican News says she took the habit of a lay sister. The reviewed biography (with the Catholic Encyclopedia) says she wore the Cistercian habit but was not received as a professed religious, so that she could keep her income for charity. Text here follows the review. Sources also differ on six or seven children; the text avoids a number except the Catholic Encyclopedia's account that only Gertrude outlived her."
+    ]
+  },
+  "helena": {
+    "templateVersion": 2,
+    "heroSummary": "St. Helena (about 250–about 330) was the mother of Emperor Constantine. As an elderly convert she made a pilgrimage to the Holy Land, where Eusebius records that she built churches at Bethlehem and the Mount of Olives and gave to the poor and prisoners. Later tradition credits her with finding the True Cross. She is remembered on August 18.",
+    "symbols": [
+      {
+        "symbol": "Crown and imperial robes",
+        "meaning": "Her rank as Augusta, the honorary title Constantine gave her; Eusebius calls her the pious mother of a pious emperor."
+      },
+      {
+        "symbol": "Large cross, held or embraced",
+        "meaning": "The tradition, first recorded about seventy years after her pilgrimage, that she found the True Cross in Jerusalem; Vatican News notes that she is iconographically associated with the Cross."
+      },
+      {
+        "symbol": "Nails",
+        "meaning": "The relics of the Passion that later tradition says she recovered with the Cross and gave to Constantine."
+      },
+      {
+        "symbol": "Model of a church in her hand",
+        "meaning": "The churches she founded at the Grotto of the Nativity in Bethlehem and on the Mount of Olives, which Eusebius records."
+      }
+    ],
+    "whyWeTurn": "People turn to Helena because her greatest work began late in life. Eusebius records that, though advanced in years, she travelled to the Holy Land, prayed where Christ had walked, built churches, and gave money and clothing to the poor while freeing prisoners and exiles. She also knew rejection, since Constantius set her aside for a politically useful marriage. Tradition holds that she found the Cross of Christ, and that story has made her a friend of pilgrims, converts, and anyone searching for Christ. Older Catholics, mothers of grown children, and families marked by separation can ask her help to keep faith and serve generously.",
+    "quotes": [
+      {
+        "text": "But God forbid that I should glory, save in the cross of our Lord Jesus Christ; by whom the world is crucified to me, and I to the world.",
+        "work": "Galatians 6:14",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But especially abundant were the gifts she bestowed on the naked and unprotected poor. To some she gave money, to others an ample supply of clothing: she liberated some from imprisonment, or from the bitter servitude of the mines; others she delivered from unjust oppression, and others again, she restored from exile.",
+        "work": "Eusebius of Caesarea, Life of Constantine, Book III, chapter 44, describing Helena",
+        "translation": "Bagster translation revised by E. C. Richardson, Nicene and Post-Nicene Fathers, Second Series, vol. 1 (1890), public domain"
+      },
+      {
+        "text": "For if thou wouldest deny it, the place refutes thee visibly, this blessed Golgotha, in which we are now assembled for the sake of Him who was here crucified; and the whole world has since been filled with pieces of the wood of the Cross.",
+        "work": "St. Cyril of Jerusalem, Catechetical Lecture IV, §10 (about 350)",
+        "translation": "E. H. Gifford, Nicene and Post-Nicene Fathers, Second Series, vol. 7 (1893), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, St. Helena came to you late in life and spent her years honoring the places where you were born, died, and rose. Through her prayers, give me a heart that seeks you without tiring, however old I am or however late I begin. Teach me to share what I have with the poor, to remember prisoners and exiles, and to worship you humbly among your people. Heal the wounds in families broken by rejection and separation. When I look on your Cross, let me see not the wood alone but the King who loved me. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Read Eusebius on Helena's pilgrimage: Life of Constantine, Book III (NPNF translation, New Advent)",
+        "url": "https://www.newadvent.org/fathers/25023.htm"
+      }
+    },
+    "feastCustoms": [
+      "Remember her on August 18, her commemoration in the Roman Martyrology; Eastern Christians honor her together with her son Constantine on May 21, as Vatican News notes.",
+      "Give money or clothing to people in need, or support a prison ministry, recalling Eusebius's account of her gifts to the poor and to prisoners.",
+      "Venerate a crucifix at home or in church, pray Galatians 6:14, and look ahead to the Exaltation of the Holy Cross on September 14.",
+      "Pray for families affected by divorce or separation; Catholic Culture suggests turning to her in family troubles because Constantius set her aside.",
+      "If you visit Rome, see the Basilica of Santa Croce in Gerusalemme, on the site of the Sessorian palace associated with her, and her porphyry sarcophagus in the Vatican Museums."
+    ],
+    "places": [
+      {
+        "name": "Vatican Museums: Sarcophagus of St. Helena (Greek Cross Hall)",
+        "city": "Vatican City",
+        "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-a-croce-greca/sarcofago-di-s--elena.html"
+      }
+    ],
+    "confirmationNote": "Helena suits a confirmand who has come to faith later or by a roundabout path, or who loves history, travel, and pilgrimage. She embraced Christianity as an adult, then used her position and wealth to honor holy places and help the poor and imprisoned. Choosing her name can be a commitment to seek Christ wholeheartedly, to treat faith as a lifelong journey, and to put privilege at the service of others.",
+    "reflectionPrompts": [
+      "Is there something in my faith I have put off because I think it is too late to begin? What would starting look like this week?",
+      "Choose one practical gift this week, such as clothing, money, or a letter, for someone who is poor, imprisoned, or far from home.",
+      "Read Eusebius's Life of Constantine, Book III, chapters 41–47, then the Catholic Encyclopedia article on St. Helena, and note what is documented and what comes from later tradition."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ambrose",
+        "reason": "His funeral oration for Theodosius (395) is among the earliest accounts linking Helena to the Cross",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-jerusalem",
+        "reason": "Bishop of Jerusalem who, about 350, spoke of the wood of the Cross found in Constantine's time",
+        "historical": true
+      },
+      {
+        "slug": "longinus",
+        "reason": "His statue shares the piers of St. Peter's dome with hers, each tied to relics of the Passion",
+        "historical": false
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A royal woman who also used her position to serve poor people directly",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Helena, Empress (August 18)",
+        "url": "https://www.vaticannews.va/en/saints/08/18/st---helena--empress.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Helena",
+        "url": "https://www.newadvent.org/cathen/07202b.htm"
+      },
+      {
+        "title": "Eusebius, Life of Constantine, Book III (NPNF 2.1), New Advent",
+        "url": "https://www.newadvent.org/fathers/25023.htm"
+      },
+      {
+        "title": "Nicene and Post-Nicene Fathers, Second Series, vol. 1 (CCEL, original 1890 text)",
+        "url": "https://ccel.org/ccel/schaff/npnf201"
+      },
+      {
+        "title": "Cyril of Jerusalem, Catechetical Lecture 4 (NPNF 2.7), New Advent",
+        "url": "https://www.newadvent.org/fathers/310104.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 18 (St. Helena)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-08-18"
+      },
+      {
+        "title": "Catholic Culture: St. Helena and the True Cross (Fr. William Saunders)",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=6657"
+      },
+      {
+        "title": "Vatican Museums: Sarcophagus of St. Helena",
+        "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-a-croce-greca/sarcofago-di-s--elena.html"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible, Galatians 6",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic Culture lists against fire, storms and thunder, archaeologists, converts, difficult marriages, divorced people, dyers, empresses, nail smiths, needle makers and the Diocese of Helena, Montana, but none has a live topic",
+      "history vs. legend: Eusebius (Life of Constantine III.41–47), the contemporary witness, records her pilgrimage, churches and charity but never mentions the Cross; the NPNF editor calls that silence conclusive against a finding at the time of her visit. The Helena story first appears in Ambrose's De Obitu Theodosii (395) and then Rufinus (about 402); the Catholic Encyclopedia says the legend was first recorded by Rufinus, overlooking Ambrose's slightly earlier sermon. Cyril of Jerusalem (about 350) attests relics of the Cross found under Constantine but does not name Helena. Vatican News narrates the finding and the healing test as fact; this page keeps them as tradition. No public-domain English translation of De Obitu Theodosii was verified, so Ambrose is paraphrased, not quoted",
+      "quotes: Helena left no writings; the Eusebius and Cyril passages are words about her and about the Cross. Both were verified against CCEL's text of the original NPNF volumes (New Advent modernizes some pronouns)",
+      "places: Santa Croce in Gerusalemme's official site (santacroceroma.it) has a St. Helena page but loads only over http, not https, so it is mentioned in feastCustoms but not listed; no official page tied to Helena was verified for the Church of the Holy Sepulchre",
+      "symbols: all four appear in Husenbeth (crowned, large cross, nail, church in her hand), and Catholic Culture lists cross, nails and queen; the book attribute was left out because no source explains it",
+      "biography: no disagreement with the review. Death dates vary: Catholic Culture 328, Vatican News 329, the Catholic Encyclopedia about 330, the Vatican Museums about 335. Catholic Culture's Butler excerpt says she was certainly a British princess, which contradicts the reviewed biography and the Catholic Encyclopedia and was not used"
+    ]
+  },
+  "hilary-of-arles": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hilary of Arles (about 401–449) gave up wealth and a promising career to follow his kinsman St. Honoratus to the island monastery of Lérins. He succeeded Honoratus as bishop of Arles, took part in regional councils, and clashed with Pope Leo I, who later spoke of his holy memory. He is remembered on May 5.",
+    "searchDescription": "St. Hilary of Arles (about 401–449), monk of Lérins who succeeded St. Honoratus as bishop of Arles and clashed with Pope Leo I. Remembered May 5.",
+    "whyWeTurn": "People turn to Hilary of Arles when a call to follow Christ asks them to let go of comfort or ambition. Born to a notable family and well educated, he resisted at first, then gave his property away and joined Honoratus in the monastery of Lérins. As a bishop he kept a simple life, preached, and, by tradition, sold church plate to ransom captives. His sharp dispute with Pope Leo shows that holy people can disagree and still be remembered with honor. Those facing conflict at work or in the Church can ask his help to act with zeal, humility, and peace.",
+    "quotes": [
+      {
+        "text": "If thou wilt be perfect, go sell what thou hast, and give to the poor, and thou shalt have treasure in heaven: and come follow me.",
+        "work": "Matthew 19:21",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Behold how good and how pleasant it is for brethren to dwell in unity.",
+        "work": "Psalm 132:1 (Psalm 133:1 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you drew St. Hilary from wealth and honor into the quiet of Lérins, and then sent him to serve your people as a bishop. Through his prayers, loosen my hold on whatever keeps me from following you. Give me love for your Word, a simple way of life, and generosity toward the poor and toward captives of every kind. When I disagree with others, even those in authority, keep me honest, humble, and ready to make peace. Bless all bishops, monks, and those who guide communities. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on May 5, the anniversary of his death in 449 and his commemoration in the Roman Martyrology; he is not on the General Roman Calendar.",
+      "Pray Matthew 19:16–30 and give away something you no longer need, recalling that he sold his estates and gave the money to the poor and to monasteries.",
+      "Pray for unity among bishops and between local churches and Rome, keeping in mind his dispute with Pope Leo and its later reconciliation.",
+      "If you are near Cannes, visit the island of Saint-Honorat, where the Cistercian monks of Lérins still keep monastic life where Hilary was formed.",
+      "Spend some time in quiet reading of Scripture, the discipline he learned at Lérins under Honoratus."
+    ],
+    "places": [
+      {
+        "name": "Abbaye de Lérins (Lérins Abbey)",
+        "city": "Île Saint-Honorat, Cannes, France",
+        "url": "https://www.abbayedelerins.com/ile-saint-honorat/la-fondation-de-lerins/"
+      }
+    ],
+    "confirmationNote": "Hilary of Arles may suit a confirmand who has talents and plans of their own but senses that God is asking for more. He resisted his kinsman's invitation, then gave up his wealth to pray and study at Lérins, and later served as a bishop with zeal and simplicity. Choosing his name can be a commitment to hold possessions lightly, to love Scripture, and to handle conflict with humility.",
+    "reflectionPrompts": [
+      "What do I find hardest to let go of when I imagine following Christ more closely?",
+      "Think of one disagreement in your family, school, or parish, and take one concrete step this week toward peace without pretending the issue does not matter.",
+      "Read Matthew 19:16–30 in the Douay-Rheims, then the Catholic Encyclopedia articles on St. Hilary of Arles and St. Honoratus."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "leo-the-great",
+        "reason": "The pope who reversed Hilary's deposition of Cheldonius and later spoke of his holy memory",
+        "historical": true
+      },
+      {
+        "slug": "trophimus",
+        "reason": "Honored as the founding bishop of Arles, the see Hilary later governed",
+        "historical": true
+      },
+      {
+        "slug": "mamertus",
+        "reason": "Later fifth-century bishop of Vienne, the neighboring see freed from Arles's authority in Hilary's dispute",
+        "historical": true
+      },
+      {
+        "slug": "hilary-of-poitiers",
+        "reason": "Earlier bishop in Gaul who shares his name and his love of Scripture",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: St. Hilary of Arles",
+        "url": "https://www.newadvent.org/cathen/07349a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Honoratus",
+        "url": "https://www.newadvent.org/cathen/07451a.htm"
+      },
+      {
+        "title": "EWTN: St. Hilary of Arles (from Butler's Lives of the Saints)",
+        "url": "https://www.ewtn.com/catholicism/saints/hilary-of-arles-605"
+      },
+      {
+        "title": "Abbaye de Lérins: La fondation de Lérins",
+        "url": "https://www.abbayedelerins.com/ile-saint-honorat/la-fondation-de-lerins/"
+      },
+      {
+        "title": "Leo the Great, Letters X and XL (NPNF 2.12), CCEL",
+        "url": "https://ccel.org/ccel/schaff/npnf212"
+      },
+      {
+        "title": "Douay-Rheims Bible, Matthew 19",
+        "url": "https://www.drbo.org/chapter/47019.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible, Psalm 132",
+        "url": "https://www.drbo.org/chapter/21132.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable source with a patronage was found",
+      "symbols: omitted. Husenbeth lists a dove at his ear or over his head, consecrating a virgin, and driving away serpents, but gives no explanation, and no second Catholic source was found",
+      "quotes: Scripture only. His Life of Honoratus (Sermo de vita sancti Honorati) exists in English only in translations after 1929, so it is not quoted. Leo's Letter XL (NPNF 2.12, tr. C. L. Feltoe, 1895) refers to 'the death of Hilary of holy memory', which supports the review's statement",
+      "heroSummary/whyWeTurn: his authorship of the Life of Honoratus was left out of the page text because none of the Catholic sources consulted (Catholic Encyclopedia, Butler via EWTN, Lérins Abbey) states it directly, although it is widely accepted; a human may add it with a source. Butler (EWTN) confirms his name stands in the Roman Martyrology. The ransoming of captives with church plate, his manual labor for the poor and his initial resistance to Honoratus come from Butler via EWTN and are worded as tradition where it matters",
+      "relatedSaints: trophimus and mamertus are linked by place and era (same see; neighboring rival see), not by direct contact; Mamertus became bishop of Vienne after Hilary's death",
+      "biography: no disagreement. Butler (EWTN) names the deposed bishop Chelidonius of Besançon and gives Honoratus's death as 428 or 429; the Catholic Encyclopedia dates the council that deposed him to 444"
+    ]
+  },
+  "hilary-of-poitiers": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hilary of Poitiers is patron of his home diocese. A married convert who became bishop of Poitiers, he was exiled to Phrygia in 356 for defending Christ's divinity and there wrote On the Trinity. Declared a Doctor of the Church in 1851, he is remembered on January 13.",
+    "searchDescription": "St. Hilary of Poitiers (about 310–367), bishop exiled for defending Christ's divinity, author of On the Trinity and Doctor of the Church. Feast January 13.",
+    "symbols": [
+      {
+        "symbol": "Bishop's vestments, mitre and crozier",
+        "meaning": "His years as bishop of Poitiers, the first bishop of the city whose name is known; Catholic Culture adds that he is often shown with a long white beard."
+      },
+      {
+        "symbol": "Books and pen",
+        "meaning": "His writings, above all the twelve books On the Trinity, which earned him the title Doctor of the Church."
+      },
+      {
+        "symbol": "Serpents or a dragon",
+        "meaning": "A legend that he drove serpents away from an island; Husenbeth records images of him standing among serpents and banishing them."
+      },
+      {
+        "symbol": "A child at his feet",
+        "meaning": "A legend that he raised a dead child to life; Husenbeth describes the child shown in a cradle at his feet."
+      }
+    ],
+    "whyWeTurn": "People turn to Hilary when they are searching for the truth or holding on to it under pressure. He seems to have grown up outside the faith, and he tells us himself how his search for meaning led him to Christ through Scripture. As bishop he refused to accept teaching that made Jesus less than God, and an emperor sent him into exile. He used that exile to study, write, and pray, and when he came home he sought to reconcile those who were close to the truth instead of only condemning them. Students, converts, and anyone who feels displaced can ask his help to think clearly and stay faithful.",
+    "quotes": [
+      {
+        "text": "I know, O Lord God Almighty, that I owe Thee, as the chief duty of my life, the devotion of all my words and thoughts to Thyself.",
+        "work": "On the Trinity, Book I, §37",
+        "translation": "E. W. Watson, Nicene and Post-Nicene Fathers, Second Series, vol. 9 (1899), public domain"
+      },
+      {
+        "text": "Our minds are born with dull and clouded vision, our feeble intellect is penned within the barriers of an impassable ignorance concerning things Divine; but the study of Thy revelation elevates our soul to the comprehension of sacred truth, and submission to the faith is the path to a certainty beyond the reach of unassisted reason.",
+        "work": "On the Trinity, Book I, §37",
+        "translation": "E. W. Watson, Nicene and Post-Nicene Fathers, Second Series, vol. 9 (1899), public domain"
+      },
+      {
+        "text": "My soul was eager not merely to do the things, neglect of which brings shame and suffering, but to know the God and Father Who had given this great gift.",
+        "work": "On the Trinity, Book I, §3, on his search for God before his conversion",
+        "translation": "E. W. Watson, Nicene and Post-Nicene Fathers, Second Series, vol. 9 (1899), public domain"
+      }
+    ],
+    "prayer": {
+      "text": "Keep, I pray Thee, this my pious faith undefiled, and even till my spirit departs, grant that this may be the utterance of my convictions: so that I may ever hold fast that which I professed in the creed of my regeneration, when I was baptized in the Father, and the Son, and the Holy Spirit. Let me, in short, adore Thee our Father, and Thy Son together with Thee; let me win the favour of Thy Holy Spirit, Who is from Thee, through Thy Only-begotten. For I have a convincing Witness to my faith, Who says, Father, all Mine are Thine, and Thine are Mine, even my Lord Jesus Christ, abiding in Thee, and from Thee, and with Thee, for ever God: Who is blessed for ever and ever. Amen.",
+      "kind": "traditional",
+      "source": "St. Hilary of Poitiers, On the Trinity, Book XII, §57, tr. E. N. Bennett, Nicene and Post-Nicene Fathers, Second Series, vol. 9 (1899), public domain",
+      "note": "Hilary's own closing prayer to On the Trinity. Pope Benedict XVI ended his general audience on St. Hilary (October 10, 2007) with this prayer, in a modern translation.",
+      "link": {
+        "label": "Read On the Trinity, Book XII (NPNF translation, New Advent)",
+        "url": "https://www.newadvent.org/fathers/330212.htm"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on January 13, his optional memorial in the General Roman Calendar; in the Diocese of Poitiers, where he is patron, the day is kept as a solemnity.",
+      "Renew your baptismal promises or pray the Creed slowly, since Benedict XVI noted that Hilary built his theology on the baptismal faith in the Father, the Son, and the Holy Spirit.",
+      "Read his closing prayer from On the Trinity (Book XII, §57) as a family or alone, the prayer Benedict XVI chose to end his catechesis on Hilary.",
+      "Reach out to someone who is searching for faith or who disagrees with you, following his habit of seeking reconciliation with those open to the truth.",
+      "Pray for Christians who are exiled or displaced because of their faith, remembering his four years of exile in Phrygia."
+    ],
+    "confirmationNote": "Hilary suits a confirmand who came to faith through questions and reading, or who wants to understand what the Church believes about Jesus. He searched for the meaning of life, found it in Scripture, and later defended Christ's divinity even when it cost him his home. Choosing his name can be a commitment to study the faith seriously, to hold firm under pressure, and to speak with charity to people who disagree.",
+    "reflectionPrompts": [
+      "What question about God or Jesus am I carrying right now, and where could I look for an honest answer?",
+      "Learn the Nicene Creed by heart this week, or pray it slowly each day, paying attention to what it says about the Son.",
+      "Read On the Trinity, Book I, sections 1–14 and 37–38, then Benedict XVI's general audience on St. Hilary of Poitiers (October 10, 2007)."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "athanasius",
+        "reason": "Fellow defender of Nicaea who was also driven into exile under Emperor Constantius",
+        "historical": true
+      },
+      {
+        "slug": "martin-of-tours",
+        "reason": "Met Hilary several times and founded a monastery near Poitiers",
+        "historical": true
+      },
+      {
+        "slug": "ambrose",
+        "reason": "A later Latin Father and Doctor of the Church who also resisted Arianism",
+        "historical": false
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Doctor of the Church remembered above all for his teaching on the Trinity",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on St. Hilary of Poitiers (October 10, 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071010.html"
+      },
+      {
+        "title": "Diocese of Poitiers: Saint Hilaire de Poitiers",
+        "url": "https://www.poitiers.catholique.fr/le-diocese/saints-et-saintes-du-poitou/sainte-hilaire-de-poitiers/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, January 13 (St. Hilary of Poitiers)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-01-13"
+      },
+      {
+        "title": "Hilary of Poitiers, On the Trinity, Book I (NPNF 2.9), New Advent",
+        "url": "https://www.newadvent.org/fathers/330201.htm"
+      },
+      {
+        "title": "Hilary of Poitiers, On the Trinity, Book XII (NPNF 2.9), New Advent",
+        "url": "https://www.newadvent.org/fathers/330212.htm"
+      },
+      {
+        "title": "Nicene and Post-Nicene Fathers, Second Series, vol. 9 (CCEL, original 1899 text)",
+        "url": "https://ccel.org/ccel/schaff/npnf209"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. 'mothers' rests only on Catholic Culture's patronage list (which also gives against snakes and snake bites, against rheumatism, children learning to walk, sick people, and La Rochelle, Poitiers, Luçon and Parma); it is unusual for him, so a human should confirm it is wanted. The Diocese of Poitiers names him patron of the diocese, which has no live topic",
+      "quotes and prayer: wording verified against CCEL's text of the original 1899 NPNF volume, which uses Thee/Thy; New Advent's online text modernizes these to You/Your. The NPNF preface credits Books I–VII to E. W. Watson and Book XII to E. N. Bennett",
+      "places: none listed. The Church of Saint-Hilaire-le-Grand in Poitiers, at the traditional site of his tomb, has no official page I could verify, and the diocese reported an arson fire there on October 3, 2024, so its visiting status is uncertain",
+      "symbols: serpents, books, child and episcopal dress are all in Husenbeth and in Catholic Culture's list; the serpent and child attributes come from legend and are labeled so",
+      "feastCustoms: the solemnity in the Diocese of Poitiers is stated on the diocese's Hilary page; the January 13 memorial is optional in the General Roman Calendar per Catholic Culture (the review calls it a Roman memorial)",
+      "biography: no disagreement. He died in 367 (Benedict XVI, Catholic Culture; the diocese says 367 or 368, Husenbeth 368). Doctor of the Church in 1851 under Pius IX is confirmed by Benedict XVI, Catholic Culture and the diocese",
+      "patronages: removed mothers — single-list entry that does not fit him (coordinator)"
     ]
   },
   "hilda-of-whitby": {
@@ -21275,6 +22101,393 @@
       "places: the Eibingen parish and pilgrimage church that holds her relic shrine has no official website I could verify, so only the abbey is listed.",
       "relatedSaints: gertrude-the-great is a thematic link (German monastic mystic), not a historical connection to Hildegard.",
       "biography: no disagreement found with the reviewed biography."
+    ]
+  },
+  "hubert": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hubert of Liège is the patron saint of hunters. He was an eighth-century bishop of Maastricht who moved St. Lambert's relics to Liège and preached in the Ardennes. The famous stag with a crucifix between its antlers comes from later legend. He died in 727 or 728, and his traditional feast is November 3.",
+    "searchDescription": "St. Hubert of Liège, November 3: bishop of Maastricht and Liège who preached in the Ardennes, patron of hunters, known from the legend of the stag and cross.",
+    "patronages": [
+      "hunters"
+    ],
+    "symbols": [
+      {
+        "symbol": "Stag with a crucifix between its antlers",
+        "meaning": "The legend of his conversion: while out hunting he saw a cross between a stag's antlers and turned his life to God. The Catholic Encyclopedia calls it a pious legend, and Catholic Culture notes a similar story told of St. Eustace."
+      },
+      {
+        "symbol": "Hound and hunting horn",
+        "meaning": "His patronage of hunters and the hunting life that tradition says he left behind; Catholic Culture lists a bishop with a hound and hunting horn among his images."
+      },
+      {
+        "symbol": "Bishop's vestments with book and crozier",
+        "meaning": "His real office as bishop of Maastricht and Liège, preaching to and shepherding a large diocese; Husenbeth's Emblems of Saints lists the stag, book and crozier together."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Hubert when they spend their days outdoors, in forests and fields, and want that life to lead them toward God rather than away from him. Tradition holds that a stag bearing a cross stopped him in the middle of a hunt and changed his heart. Whatever the legend adds, the documented Hubert was a hard-working bishop who honored his predecessor Lambert by bringing his relics to Liège, preached in the Ardennes and, Catholic Culture recalls, cared for the poor and for prisoners. Hunters ask his prayers for safety and respect for creation, and for centuries he has also been invoked against rabies and for the protection of dogs.",
+    "quotes": [
+      {
+        "text": "And he trembling and astonished, said: Lord, what wilt thou have me to do?",
+        "work": "Acts 9:6",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "As the hart panteth after the fountains of water; so my soul panteth after thee, O God.",
+        "work": "Psalm 41:2 (Psalm 42:1 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Hubert from the pursuits of this world to the service of your people, and made him a faithful bishop and preacher. Through his prayers, turn my heart whenever I chase what cannot satisfy, and help me to hear you when you stop me in my tracks. Protect all who hunt, farm and work in the woods and fields; keep them safe, make them grateful for your gifts and careful with your creation. Bless our animals and guard us from harm. Lead me, as you led him, to follow Christ with my whole life. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep his traditional feast on November 3; it is not in the General Roman Calendar, so check whether your parish or diocese marks it.",
+      "In parts of France and Belgium, hunters gather on St. Hubert's Day for Mass and a blessing of riders, horses and dogs before the hunt, as Catholic Culture describes.",
+      "In the town of Saint-Hubert in the Belgian Ardennes, the November 3 festivities include Mass in the saint's honor at the basilica, hunting horns and a blessing of animals.",
+      "Cook roast venison in his honor, a dish Catholic Culture suggests for the day, and say grace for the gifts of field and forest.",
+      "If you hunt, ask his prayers before the season and recommit to safety, fair chase and wasting nothing."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Saint-Hubert (Basilica of Sts. Peter and Paul), pilgrimage centre in his honor",
+        "city": "Saint-Hubert, Belgium",
+        "url": "https://visitwallonia.com/en-gb/3/see-do/museums-and-attractions/saint-hubert-basilica/8780"
+      }
+    ],
+    "confirmationNote": "Hubert suits a confirmand who loves the outdoors, hunting, fishing or animals. The famous stag story is legend, but it points to something true: God can meet us in the middle of ordinary pursuits and turn us around. The real Hubert then spent his life serving others as a bishop and preacher. He shows that a conversion becomes real in the faithful work that follows it.",
+    "reflectionPrompts": [
+      "What am I chasing right now, and is it leading me toward God or away from him?",
+      "Next time you are outdoors, pause for a minute to thank God for one thing in creation and ask how you can care for it.",
+      "Read Acts 9:1–20, then the Catholic Encyclopedia's article on St. Hubert, noting which parts it treats as history and which as legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "martin-de-porres",
+        "reason": "Shares the November 3 feast",
+        "historical": true
+      },
+      {
+        "slug": "willibrord",
+        "reason": "Contemporary missionary bishop in the Low Countries, died 739",
+        "historical": true
+      },
+      {
+        "slug": "conrad-of-piacenza",
+        "reason": "Another patron of hunters, converted after a hunting fire",
+        "historical": false
+      },
+      {
+        "slug": "boniface",
+        "reason": "Eighth-century missionary bishop in Frankish and German lands",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (New Advent): St. Hubert",
+        "url": "https://www.newadvent.org/cathen/07507a.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, May 30 (St. Hubert of Liège, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-30"
+      },
+      {
+        "title": "Catholic Culture: Venaison Roti (Roast venison) recipe",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/recipes/view.cfm?id=127"
+      },
+      {
+        "title": "Diocese of Namur, Communications (October 2025): À Saint-Hubert, pèlerins d'espérance",
+        "url": "https://diocesedenamur.be/wp-content/uploads/2025/09/2025-10-TD-Saint-Hubert.pdf"
+      },
+      {
+        "title": "VISITWallonia: Saint-Hubert Basilica",
+        "url": "https://visitwallonia.com/en-gb/3/see-do/museums-and-attractions/saint-hubert-basilica/8780"
+      },
+      {
+        "title": "VISITWallonia: Saint-Hubert festivities",
+        "url": "https://visitwallonia.com/en-gb/3/i-love/heritage-and-culture/unesco/events/saint-hubert-festivities/3882"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints (3rd ed.), Internet Archive",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 9",
+        "url": "https://www.drbo.org/chapter/51009.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 41",
+        "url": "https://www.drbo.org/chapter/21041.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture also lists archers, dogs, dog bite, forest workers, furriers, hydrophobia/rabies, Liège, machinists, mathematicians, metal workers, precision instrument makers, smelters and trappers; all are sourced but have no live topic. whyWeTurn mentions rabies and dogs on that basis.",
+      "feast: Catholic Culture says the 2004 Roman Martyrology moved his commemoration from November 3 to May 30 and calls May 30 the anniversary of the translation of his relics. The Catholic Encyclopedia instead gives May 30 (727/728) as his death date and says November 3 was probably the translation date, which matches the reviewed feast_note. Please confirm against the Martyrology; the page keeps November 3 as the traditional feast.",
+      "symbols: all three are in Catholic Culture's list and/or Husenbeth. The angel bringing a stole and the key (both listed by Husenbeth/Catholic Culture) were left out because no reputable Catholic source explained them; their link to rabies cures appears only on popular or encyclopedia sites.",
+      "quotes: Catholic Culture quotes dying words ('Stretch the pallium over my mouth...') from an unnamed anthology, while the Catholic Encyclopedia gives his last words as the Our Father, so no saying of his is used. Scripture only.",
+      "places: the basilica's own site (saint-hubert.be, Saint-Hubert d'Ardenne asbl) returned HTTP 403 to automated checks, so the official Wallonia tourism page (which calls the basilica a pilgrimage centre in honor of St. Hubert) is used instead; a human may want to swap in the asbl or parish page.",
+      "relatedSaints: Lambert (his predecessor) and Eustace (shared stag legend) have no published pages. Willibrord and Boniface are linked by era and region only, not by any documented meeting.",
+      "biography: no disagreement. The Diocese of Namur and the Catholic Encyclopedia both give 825 for the translation of his body to the abbey at Andage (Amdain), later named Saint-Hubert."
+    ]
+  },
+  "hugh-of-grenoble": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hugh of Grenoble was bishop of Grenoble for more than fifty years, from 1080 until his death in 1132, and a patient reformer of a troubled diocese. In 1084 he welcomed St. Bruno and six companions and led them into the Chartreuse mountains, where the Carthusian life began. His feast is April 1.",
+    "searchDescription": "St. Hugh of Grenoble (about 1053–1132), feast April 1: reforming bishop who welcomed St. Bruno and helped found the Carthusians in the Chartreuse.",
+    "symbols": [
+      {
+        "symbol": "Seven stars",
+        "meaning": "His dream, told in the Life written by the Carthusian prior Guigo, that God was building a dwelling in the wilderness, with seven stars showing the way; soon afterward Bruno and six companions came to him."
+      },
+      {
+        "symbol": "With St. Bruno and the Carthusian monks",
+        "meaning": "Art often places him beside Bruno because he received the first Carthusians and guided them to the Chartreuse; Catholic Culture says he loved to visit them and share their humble work."
+      },
+      {
+        "symbol": "Bishop's mitre",
+        "meaning": "The office he tried to lay down to become a monk but kept, at the popes' insistence, for fifty-two years."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Hugh when they are tempted to walk away from a hard responsibility. Elected young to a diocese known for simony and disorder, he worked to reform it, then grew discouraged and slipped away to a Benedictine abbey. Pope Gregory VII sent him back, and he stayed for more than half a century, longing for the cloister yet serving his people. Catholic Culture recalls that in a famine he sold a gold chalice to feed the poor. He also made room for others' prayer by welcoming Bruno's first Carthusians. He is a friend for bishops, pastors and anyone carrying a duty they did not choose.",
+    "quotes": [
+      {
+        "text": "Unless the Lord build the house, they labour in vain that build it. Unless the Lord keep the city, he watcheth in vain that keepeth it.",
+        "work": "Psalm 126:1 (Psalm 127:1 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Feed the flock of God which is among you, taking care of it, not by constraint, but willingly, according to God: not for filthy lucre's sake, but voluntarily:",
+        "work": "1 Peter 5:2",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Hugh a shepherd's heart and the strength to stay with his people when he longed to leave. Through his prayers, help me to carry the duties you have given me with patience and love, even when they feel too heavy. Make me generous to the poor, ready to give up what is precious so that others may eat. As Hugh welcomed Bruno and his companions, teach me to make room for prayer and silence, in my own life and in the lives of others. Bless our bishops and all who lead your Church. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on April 1, his commemoration in the Roman Martyrology and in the Diocese of Grenoble-Vienne; his feast often falls in Lent, so keep it simply.",
+      "Pray by name for your own bishop and for your parish priest, and for anyone tempted to give up a hard post.",
+      "Give to a food bank or famine appeal, recalling the gold chalice he sold to feed the hungry.",
+      "Learn about the Carthusian monks and nuns whose way of life began with his help, and pray for them.",
+      "Take some time in silence with Psalm 126 (127), \"Unless the Lord build the house.\""
+    ],
+    "places": [
+      {
+        "name": "Musée de la Grande Chartreuse at La Correrie (the monastery itself is closed to visitors)",
+        "city": "Saint-Pierre-de-Chartreuse, France",
+        "url": "https://musee-grande-chartreuse.fr/lordre-des-chartreux/"
+      }
+    ],
+    "confirmationNote": "Hugh fits a confirmand who has been handed a responsibility, such as caring for siblings, leading a team or holding down a job, and sometimes wants to quit. He tried to escape his post as bishop, was sent back, and found holiness by staying. Confirmation strengthens us for service as well as prayer, and Hugh shows how faithfulness can make room for God's work in others.",
+    "reflectionPrompts": [
+      "Is there a responsibility I keep trying to escape that God may be asking me to carry with love?",
+      "This week, give up something you value, even a small treat, and give its cost to someone in need.",
+      "Read Psalm 126 (127) and 1 Peter 5:1–4, then the Carthusian nuns' account of how Bruno came to Hugh in 1084 on chartreux.org."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bruno",
+        "reason": "Hugh welcomed Bruno and his six companions to the Chartreuse in 1084",
+        "historical": true
+      },
+      {
+        "slug": "gregory-vii",
+        "reason": "Pope who made him bishop in 1080 and ordered him back from the cloister",
+        "historical": true
+      },
+      {
+        "slug": "stephen-harding",
+        "reason": "Contemporary founder of a new monastic reform at Cîteaux",
+        "historical": true
+      },
+      {
+        "slug": "charles-borromeo",
+        "reason": "Reforming bishop who also gave his wealth to the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, April 1 (St. Hugh of Grenoble, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-04-01"
+      },
+      {
+        "title": "Vatican News: Saint of the day, 1 April (St. Hugh, Bishop of Grenoble)",
+        "url": "https://www.vaticannews.va/en/saints/04/01.html"
+      },
+      {
+        "title": "Diocèse de Grenoble-Vienne: Histoire",
+        "url": "https://www.diocese-grenoble-vienne.fr/histoire.html"
+      },
+      {
+        "title": "Carthusian nuns: Saint Bruno (chartreux.org)",
+        "url": "https://chartreux.org/moniales/saint-bruno/"
+      },
+      {
+        "title": "Carthusian nuns: History (chartreux.org)",
+        "url": "https://chartreux.org/moniales/en/history/"
+      },
+      {
+        "title": "Musée de la Grande Chartreuse: L'Ordre des Chartreux",
+        "url": "https://musee-grande-chartreuse.fr/lordre-des-chartreux/"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints (3rd ed.), Internet Archive",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 126",
+        "url": "https://www.drbo.org/chapter/21126.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 5",
+        "url": "https://www.drbo.org/chapter/67005.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists 'against headaches; Grenoble, France'; both are sourced but have no live topic, so the field is omitted.",
+      "symbols: seven stars, with St. Bruno, and mitre are in Catholic Culture's list and/or Husenbeth; the seven-stars meaning is from chartreux.org (citing Guigo's Life of St. Hugh). Catholic Culture's 'one of a group of seven stars, representing the founders' reading differs slightly; please check the wording. The lantern and three flowers (also listed) were omitted because no source explained them.",
+      "quotes: Guigo's Life of St. Hugh was not found in a verifiable public-domain English translation, so Scripture only. Psalm 126 echoes the dream of God building a house in the wilderness.",
+      "relatedSaints: the brief's note says Hugh 'gave Bruno the Chartreuse land'. Catholic Culture says he granted the territory; chartreux.org and the Grande Chartreuse museum say only that he welcomed the monks and led them there, so the text says 'welcomed and led'. Stephen Harding is a same-era link only.",
+      "places: the musée page names Hugh as the bishop who welcomed Bruno's group and led them to the Chartreuse. No official page for a shrine or relics was found (Catholic Culture and other sources do not place his relics anywhere today).",
+      "biography: no substantive disagreement. Catholic Culture and Vatican News give canonization by Innocent II in 1134 (two years after his death); the Grenoble-Vienne diocesan history page says 'three years later'. The diocesan page also says he founded the monastery of Chalais."
+    ]
+  },
+  "hyacinth": {
+    "templateVersion": 2,
+    "heroSummary": "St. Hyacinth (Jacek) is a patron of Poland and Lithuania. A canon of Kraków, he received the Dominican habit in Rome in 1221 and carried the young Order of Preachers north, founding its first Polish priory in Kraków. He died there on August 15, 1257; Dominicans and Poles keep his feast on August 17.",
+    "searchDescription": "St. Hyacinth (Jacek) of Poland, feast August 17: early Dominican who founded the Kraków priory and spread the Order of Preachers through northern Europe.",
+    "patronages": [
+      "poland",
+      "lithuania"
+    ],
+    "symbols": [
+      {
+        "symbol": "Pyx, ciborium or monstrance with the Blessed Sacrament",
+        "meaning": "A legend, which the English Dominicans call one of many told about him, says that when Tatars attacked Kyiv he carried the Eucharist out of the church to save it. Later art usually shows a monstrance, a vessel not yet in use in his day."
+      },
+      {
+        "symbol": "Statue of the Virgin Mary",
+        "meaning": "In the same legend Mary asks why he would leave her behind, and her heavy statue becomes light enough for him to carry. It expresses his devotion to the Eucharist and to Our Lady rather than a recorded event."
+      },
+      {
+        "symbol": "Cloak spread on the water",
+        "meaning": "A miracle told in the old Breviary: when the flooded Vistula stopped him and his companions on a preaching journey, he spread his mantle on the river and they crossed safely."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Hyacinth when they are sent somewhere new and wonder whether they can carry the faith there. A well-educated canon of Kraków, he met St. Dominic's young order in Rome, took its habit and spent the rest of his life on the road, founding priories and preaching across Poland, Prussia, Ruthenia and Lithuania. Tradition holds that during a Tatar attack on Kyiv he carried both the Blessed Sacrament and a statue of Mary to safety, a legend that captures what he loved most. Catholics invoke him for Poland and Lithuania and against drowning, and missionaries find in him a model of tireless, cheerful perseverance.",
+    "quotes": [
+      {
+        "text": "And he said to them: Go ye into the whole world, and preach the gospel to every creature.",
+        "work": "Mark 16:15",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "I am the living bread which came down from heaven. If any man eat of this bread, he shall live for ever; and the bread that I will give, is my flesh, for the life of the world.",
+        "work": "John 6:51–52 (John 6:51 in most modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, living bread from heaven, you sent St. Hyacinth far from home to preach your Gospel and build up your Church. Through his prayers, give me courage to carry my faith into every place you send me. Deepen my love for you in the Eucharist and for your Mother, Mary, and let me never leave either behind. Bless the people of Poland and Lithuania, protect travellers and all in danger on the water, and raise up preachers who will hand on what they have received. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayer to Saint Hyacinth (Catholic Culture)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1321"
+      }
+    },
+    "feastCustoms": [
+      "Keep his memorial on August 17, the date the Dominican Order uses; he died on August 15, the Assumption, which is where the Roman Martyrology lists him.",
+      "Make a visit to the Blessed Sacrament or spend time in Eucharistic adoration, honoring the devotion at the heart of his legend.",
+      "Serve pierogi, the Polish dumplings that Catholic Culture associates with St. Hyacinth.",
+      "In Kraków, pilgrims pray at his tomb in the chapel of St. Hyacinth at the Dominican Basilica of the Holy Trinity.",
+      "Pray Compline, the Church's night prayer, with its words \"Into your hands, Lord, I commend my spirit,\" which tradition says were his last."
+    ],
+    "places": [
+      {
+        "name": "Dominican Basilica of the Holy Trinity, chapel and tomb of St. Hyacinth",
+        "city": "Kraków, Poland",
+        "url": "https://krakow.dominikanie.pl/sw-jacek/"
+      }
+    ],
+    "confirmationNote": "Hyacinth suits a confirmand who wants to share the faith, travel, or try something new for God. He left a comfortable post to join a brand-new religious order and spent decades as a missionary in hard places. Confirmation sends us out as witnesses, and Hyacinth shows that love for Christ in the Eucharist can fuel a whole life of going where we are needed.",
+    "reflectionPrompts": [
+      "Where is God sending me right now, and what would it mean to bring Christ there?",
+      "Make one visit to a church this week simply to pray before the tabernacle.",
+      "Read John 6:48–59 in the Douay-Rheims, then the Dominican friars' page on St. Hyacinth at krakow.dominikanie.pl."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "dominic",
+        "reason": "Founder of the Order of Preachers, in whose lifetime Hyacinth took the habit in Rome",
+        "historical": true
+      },
+      {
+        "slug": "stanislaus",
+        "reason": "Fellow patron named by the City of Kraków",
+        "historical": true
+      },
+      {
+        "slug": "casimir",
+        "reason": "Also a patron of Lithuania",
+        "historical": false
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "Another tireless missionary who carried the Gospel far from home",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dominicans of Kraków: św. Jacek",
+        "url": "https://krakow.dominikanie.pl/sw-jacek/"
+      },
+      {
+        "title": "English Dominicans (Godzdogz): Saint Hyacinth",
+        "url": "https://www.english.op.org/godzdogz/saint-hyacinth/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, August 15 (St. Hyacinth of Poland, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-08-15"
+      },
+      {
+        "title": "Catholic Culture: Prayer to Saint Hyacinth",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1321"
+      },
+      {
+        "title": "Vatican News: Saint of the day, 17 August (St. Hyacinth of Cracow, Dominican priest)",
+        "url": "https://www.vaticannews.va/en/saints/08/17.html"
+      },
+      {
+        "title": "City of Kraków: Patroni (patrons of Kraków)",
+        "url": "https://krakow.pl/miasto-z-kultura/72722,artykul,patroni.html"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints (3rd ed.), Internet Archive",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Mark 16",
+        "url": "https://www.drbo.org/chapter/48016.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 6",
+        "url": "https://www.drbo.org/chapter/50006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists Poland and Lithuania (named by Innocent XI in 1686), both live topics; it also lists against drowning, weightlifting, the Archdiocese of Kraków and two places in the Philippines, which are sourced but have no live topic. The City of Kraków page and the Kraków Dominicans call him patron of the Archdiocese of Kraków and of the Polish Dominican Province.",
+      "symbols: pyx/ciborium, image of the Virgin and cloak on the water are in Catholic Culture's list and/or Husenbeth; meanings come from the English Dominicans (Kyiv legend, explicitly called legend) and Catholic Culture's Breviary excerpt (Vistula crossing). The monstrance anachronism is noted from iconography references, not a Catholic source; please check. Staff and scorpion (also listed) were omitted because no source explained them beyond Husenbeth's 'curing the bite of a scorpion'.",
+      "title: 'Apostle of the North' was not found on any Vatican, Dominican or Catholic Culture page checked, so it is not used.",
+      "prayer: original. Catholic Culture's Prayer to Saint Hyacinth has no stated origin, so it is linked rather than reproduced as traditional.",
+      "feastCustoms: pierogi rests on Catholic Culture's one-line association (it links an Aleteia story about him feeding the hungry with pierogi); the dying words come from Catholic Culture's Pius Parsch excerpt.",
+      "biography: no disagreement with the review. Sources differ on the year he took the habit: the Kraków Dominicans and English Dominicans say 1221; Catholic Culture says about 1217. The Kraków Dominicans give his canonization as 17 April 1594 by Clement VIII and his beatification in 1527."
     ]
   },
   "ignatius-of-loyola": {
