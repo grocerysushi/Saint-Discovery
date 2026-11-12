@@ -1,0 +1,93 @@
+/* The sheet is portaled to the body, so these rules are scoped to the sheet itself. */
+.mobile-nav {
+  width: min(440px, 100%);
+  max-width: none;
+  padding: 24px 28px max(28px, env(safe-area-inset-bottom));
+  background: #faf9f5;
+  color: #213a47;
+}
+
+.mobile-nav-header {
+  align-items: flex-start;
+  padding: 0 0 24px;
+}
+
+.mobile-nav-title {
+  color: #162d3b;
+  font: 400 30px/1.15 var(--font-heading);
+}
+
+.mobile-nav-intro {
+  margin: 7px 0 0;
+  color: #52666d;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.mobile-nav .mobile-nav-close {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border: 1px solid #cbd5d2;
+  border-radius: 50%;
+  color: #213a47;
+  background: transparent;
+}
+
+.mobile-nav .mobile-nav-close:hover {
+  color: #162d3b;
+  background: #e9eeeb;
+}
+
+.mobile-nav .mobile-menu-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 80px;
+  padding: 16px 18px;
+  border-radius: 8px;
+  background: #162d3b;
+  color: #fffdf7;
+}
+
+.mobile-nav .mobile-menu-quiz:hover { background: #294b58; }
+.mobile-nav .mobile-menu-quiz strong { display: block; font-size: 18px; font-weight: 600; }
+.mobile-nav .mobile-menu-quiz span span { display: block; margin-top: 3px; color: #e0e8e7; font-size: 14px; line-height: 1.35; }
+.mobile-nav .mobile-menu-quiz svg { color: #e3c88e; }
+.mobile-nav .mobile-menu-quiz[aria-current="page"] { box-shadow: inset 0 0 0 2px #b89049; }
+
+.mobile-nav-section { margin-top: 25px; }
+.mobile-nav-section-title {
+  margin: 0 0 8px;
+  color: #745921;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mobile-nav .mobile-nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 50px;
+  padding: 12px 8px;
+  border-bottom: 1px solid #d9e0dc;
+  color: #213a47;
+  text-decoration: none;
+}
+
+.mobile-nav .mobile-nav-row strong { display: block; color: inherit; font-size: 17px; font-weight: 600; line-height: 1.3; }
+.mobile-nav .mobile-nav-row > svg, .mobile-nav .mobile-menu-quiz > svg { width: 18px; height: 18px; flex: 0 0 18px; }
+.mobile-nav .mobile-nav-row > svg { color: #6c7b7b; }
+.mobile-nav .mobile-nav-row:hover { background: #eef1ed; }
+.mobile-nav .mobile-nav-row[aria-current] { color: #162d3b; background: #e9eeea; box-shadow: inset 3px 0 #795f2e; }
+.mobile-nav-description { display: block; margin-top: 3px; color: #52666d; font-size: 14px; line-height: 1.35; }
+.mobile-nav-guides .mobile-nav-row { min-height: 62px; }
+
+.mobile-nav :is(a, button):focus-visible { outline: 3px solid #795f2e; outline-offset: 2px; }
+
+@media (max-width: 360px) {
+  .mobile-nav { padding-inline: 20px; }
+  .mobile-nav-intro { max-width: 24ch; }
+}

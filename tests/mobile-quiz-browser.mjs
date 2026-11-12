@@ -41,7 +41,7 @@ await p.getByRole('button',{name:/Take the quiz again/}).click();await p.locator
 await p.evaluate(()=>sessionStorage.setItem('saint-discovery:quiz-progress:v1','{broken'));await p.reload({waitUntil:'domcontentloaded'});assert(await p.locator('#gender-heading').isVisible());await p.waitForFunction(()=>sessionStorage.getItem('saint-discovery:quiz-progress:v1')===null);
 report.checks.push('Start over clears progress/result; malformed saved attempts start safely');
 await p.goto(origin,{waitUntil:'networkidle'});await p.locator('.liturgical-details summary').click();const date=p.locator('.liturgical-details input');assert.equal(await date.evaluate(e=>getComputedStyle(e).fontSize),'16px');
-await p.getByRole('button',{name:'Open menu',exact:true}).click();assert(await p.locator('#mobile-nav').isVisible());await p.keyboard.press('Escape');assert.equal(await p.locator(':focus').getAttribute('aria-label'),'Open menu');
+await p.getByRole('button',{name:'Explore Saint Discovery',exact:true}).click();assert(await p.locator('#mobile-nav').isVisible());await p.keyboard.press('Escape');assert.equal(await p.locator(':focus').getAttribute('aria-label'),'Explore Saint Discovery');
 assert.deepEqual(report.errors,[]);report.passed=true;console.log(JSON.stringify({origin,pages:report.pages.length,checks:report.checks,errors:report.errors,aboutJs:report.pages.filter(x=>x.route==='/about').map(x=>({width:x.width,encoded:x.js.reduce((n,r)=>n+r.encoded,0),decoded:x.js.reduce((n,r)=>n+r.decoded,0)})),passed:report.passed},null,2));
 }finally{await browser?.close();app?.kill();await fs.writeFile(path.join(out,'verification.json'),JSON.stringify(report,null,2));await fs.writeFile(path.join(out,'server.log'),logs);}
 

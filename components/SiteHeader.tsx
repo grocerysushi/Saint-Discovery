@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { XIcon } from "lucide-react";
+import { ChevronRightIcon, XIcon } from "lucide-react";
 import LanguageSwitcher from "./LanguageSwitcher";
 import { Button } from "@/components/ui/button";
 import {
@@ -13,7 +13,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-import { Separator } from "@/components/ui/separator";
 import {
   Sheet,
   SheetClose,
@@ -174,10 +173,27 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
                 side="right"
                 className="mobile-nav"
                 showCloseButton={false}
+                aria-modal="true"
                 aria-describedby={undefined}
+                onKeyDown={event => {
+                  if (event.key !== "Tab") return;
+                  const items = Array.from(event.currentTarget.querySelectorAll<HTMLElement>("a[href], button:not([disabled])"));
+                  const first = items[0];
+                  const last = items[items.length - 1];
+                  if (event.shiftKey && document.activeElement === first && last) {
+                    event.preventDefault();
+                    last.focus();
+                  } else if (!event.shiftKey && document.activeElement === last && first) {
+                    event.preventDefault();
+                    first.focus();
+                  }
+                }}
               >
                 <div className="mobile-nav-header">
-                  <SheetTitle className="mobile-nav-title">Explore</SheetTitle>
+                  <div>
+                    <SheetTitle className="mobile-nav-title">Explore</SheetTitle>
+                    <p className="mobile-nav-intro">Discover saints and resources for your journey.</p>
+                  </div>
                   <SheetClose render={<Button variant="ghost" size="icon-lg" className="mobile-nav-close" aria-label="Close menu">
                       <XIcon aria-hidden />
                     </Button>} />
@@ -187,54 +203,50 @@ function HeaderNavigation({ pathname }: { pathname: string }) {
                     prefetch={false}
                     href="/quiz"
                     onClick={close}
-                    className="nav-destination mobile-menu-quiz"
+                    className="mobile-menu-quiz"
                     aria-current={current(isCurrent("/quiz"))}
                   >
-                    <strong>Take the quiz</strong>
+                    <span>
+                      <strong>Take the quiz</strong>
+                      <span>Discover a saint to inspire you.</span>
+                    </span>
+                    <ChevronRightIcon aria-hidden />
                   </Link>
-                  {PRIMARY_LINKS.map(link => (
-                    <Link
-                      key={link.href}
-                      prefetch={false}
-                      href={link.href}
-                      onClick={close}
-                      className="nav-destination"
-                      aria-current={current(isCurrent(link.href))}
-                    >
-                      <strong>{link.label}</strong>
-                    </Link>
-                  ))}
-                  <div className="mobile-nav-shortcuts">
-                    {SHORTCUT_LINKS.map(link => (
+                  <section className="mobile-nav-section" aria-labelledby="mobile-discover">
+                    <h2 id="mobile-discover" className="mobile-nav-section-title">Discover</h2>
+                    {[...PRIMARY_LINKS, ...SHORTCUT_LINKS].map(link => (
                       <Link
                         key={link.href}
                         prefetch={false}
                         href={link.href}
                         onClick={close}
-                        className={link.today ? "nav-link nav-today" : "nav-link"}
-                        aria-current={current(isCurrent(link.href))}
+                        className="mobile-nav-row"
+                        aria-current={link.href === "/resources" && pathname.startsWith("/saints/")
+                          ? "location"
+                          : current(isCurrent(link.href))}
                       >
-                        <LinkLabel label={link.label} today={link.today} />
+                        <strong>{link.label}</strong>
+                        <ChevronRightIcon aria-hidden />
                       </Link>
                     ))}
-                  </div>
+                  </section>
                   {GROUPS.map(group => (
-                    <section className="mobile-nav-group" key={group.id} aria-labelledby={`mobile-${group.id}`}>
-                      <Separator className="mobile-nav-separator" />
-                      <h2 id={`mobile-${group.id}`} className="nav-group-label">{group.label}</h2>
+                    <section className="mobile-nav-section mobile-nav-guides" key={group.id} aria-labelledby={`mobile-${group.id}`}>
+                      <h2 id={`mobile-${group.id}`} className="mobile-nav-section-title">{group.label}</h2>
                       {group.links.map(link => (
                         <Link
                           key={link.href}
                           prefetch={false}
                           href={link.href}
                           onClick={close}
-                          className="nav-destination"
+                          className="mobile-nav-row"
                           aria-current={current(isCurrent(link.href))}
                         >
                           <span>
                             <strong>{link.label}</strong>
-                            <span className="nav-description">{link.description}</span>
+                            <span className="mobile-nav-description">{link.description}</span>
                           </span>
+                          <ChevronRightIcon aria-hidden />
                         </Link>
                       ))}
                     </section>
