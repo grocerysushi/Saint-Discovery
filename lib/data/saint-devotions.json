@@ -15826,6 +15826,555 @@
       "biography: no disagreement with the reviewed text. Small source variation outside the review: the Postulation gives her First Communion as April 19, 1890, while other sources say 1891; the review does not state it."
     ]
   },
+  "emma": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Emma of Lesum, also called Imma, was a Saxon noblewoman remembered for her generosity to the Church and to poor people. Wife of Count Liudger of the Billung family, she sought the founding of a church at Stiepel, and as a widow near Bremen she gave land and gifts. She died in 1038. Her feast is April 19.",
+    "searchDescription": "St. Emma of Lesum, feast April 19: Saxon noblewoman and widow (died 1038) who gave land to poor people and supported churches at Stiepel and Bremen.",
+    "whyWeTurn": "People turn to St. Emma as a model of generosity for anyone who has money, land or influence. As a widow she could have lived only for herself; instead, the sources remember her for giving to the church at Bremen and providing land that poor people could farm, so that they could support themselves. Little is recorded of her inner life; what survives is the shape of a life spent giving. Widows, benefactors, and people deciding how to use what they own can ask her to help them give wisely and well.",
+    "quotes": [
+      {
+        "text": "She hath opened her hand to the needy, and stretched out her hands to the poor.",
+        "work": "Proverbs 31:20",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Blessed is he that understandeth concerning the needy and the poor: the Lord will deliver him in the evil day.",
+        "work": "Psalm 40:2 (Psalm 41:1 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, St. Emma held land, wealth and family influence, and she used them to build up your Church and to give poor people a way to live. Through her prayers, help me see everything I have as a gift to share. Make me generous without seeking praise, and wise enough to help others stand on their own feet. Comfort widows and all who live alone after a loss, and show them how much good they can still do. Bless those who farm the land and those who work to feed others. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember St. Emma on April 19, her usual commemoration; December 3, the anniversary of her death, is also kept in some calendars.",
+      "Give in a way that lasts: support a charity that helps people earn their own living, such as a community garden, farm project or job program.",
+      "Reach out to a widow or widower you know, with a visit, a meal or an invitation.",
+      "Read Proverbs 31:10–31 and think about how faith, work and generosity fit together in daily life.",
+      "In Bochum-Stiepel, Germany, the old village church, now Protestant, is linked by tradition to the church Imma had built on her estate."
+    ],
+    "places": [
+      {
+        "name": "Stiepel Village Church (Stiepeler Dorfkirche)",
+        "city": "Bochum, Germany",
+        "url": "https://bochum-stiepel.ekvw.de/unsere-kirchen/stiepeler-dorfkirche/english"
+      }
+    ],
+    "confirmationNote": "Emma suits a confirmand who is generous, practical and good at organizing, or who hopes to use future success to help others. She did not leave behind famous words; she left churches supported and poor families with land to work. Confirmation calls Christians to serve with the gifts they have been given, and Emma shows that wise generosity can be a lasting form of witness.",
+    "reflectionPrompts": [
+      "What do I own or control, such as time, money, skills or influence, that God might be asking me to share?",
+      "This month, give something that helps a person become more independent, not only something that meets a need for one day.",
+      "Read Proverbs 31:10–31 in the Douay-Rheims and list the ways the woman described there uses her household's resources."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "henry-ii",
+        "reason": "Ruled Germany when the Stiepel church was authorized; sources name him as the ruler who intervened",
+        "historical": true
+      },
+      {
+        "slug": "cunegund-of-luxembourg",
+        "reason": "Contemporary of Emma who, as a widow, also gave her wealth to the Church",
+        "historical": true
+      },
+      {
+        "slug": "matilda-of-ringelheim",
+        "reason": "Earlier Saxon noblewoman and widow remembered for charity and church foundations",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "Noblewoman and widow famous for generosity to poor people",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican City State: Saint of the day, April 19, Saint Emma of Lesum (of Saxony)",
+        "url": "https://www.vaticanstate.va/en/state-and-government/general-informations/saint-of-the-day/4053-april-19-saint-emma-of-lesum-of-saxony.html"
+      },
+      {
+        "title": "Evangelische Kirchengemeinde Bochum-Stiepel: The Village Church of Stiepel",
+        "url": "https://bochum-stiepel.ekvw.de/unsere-kirchen/stiepeler-dorfkirche/english"
+      },
+      {
+        "title": "Douay-Rheims Bible: Proverbs 31",
+        "url": "https://www.drbo.org/chapter/22031.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 40",
+        "url": "https://www.drbo.org/chapter/21040.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols empty. No reputable Catholic source lists established iconographic attributes for Emma.",
+      "patronages: none found in a reputable source. Review lists none.",
+      "sources: the Vatican City State page cited in the review returned 404 during this pass (also by WebFetch and via the tag page), so it could not be re-read. Facts here are kept within the reviewed biography; search snippets of that page give her parents as Count Immed IV and Adela of Hamaland and her birth as 982.",
+      "heroSummary: the name form 'Imma' comes from the Stiepel church page, which also calls her a sister of Bishop Meinwerk of Paderborn (not used). Reference works say she was venerated by popular devotion without a known formal canonization; this is not stated on the page.",
+      "quotes: no writings of Emma survive; two Douay-Rheims verses on generosity are used (checked on drbo.org).",
+      "feastCustoms: the December 3 date is from the review's feast note. Bremen's legend that she gave the Bürgerweide pasture to the townspeople was found only in a commercial guidebook, so it is not used.",
+      "places: the Stiepel village church is Protestant (since 1610) and its own page says only that Imma had a church built on her property there; it is listed as the place tied to her. No Catholic site connected with her was found. Bremen Cathedral, where she was buried, is Lutheran and its site was not checked for her.",
+      "relatedSaints: the review says the Stiepel church was authorized 'after imperial intervention' without naming the ruler; secondary sources name Henry II (king in 1008, emperor from 1014). Verify before publishing.",
+      "biography: possible disagreement for human check. Local historian Raimund Trinkaus argues that the charter dated 1008 for the Stiepel church is probably a 17th-century forgery, which would weaken the review's firm statement that 'The church was authorized in 1008 after imperial intervention.' This rests on a non-Catholic local-history source and was not resolved."
+    ]
+  },
+  "enda": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Enda of Aran, also called Éanna or Éinne, was an early Irish monastic founder who died about 530. Tradition says he left a warrior's life, and he built a community at Killeany on Inishmore that became a school of prayer, work and Scripture for many Irish saints. His feast is March 21.",
+    "searchDescription": "St. Enda of Aran, feast March 21: early Irish monastic founder who built a community at Killeany on Inishmore, a school for many Irish saints. Died about 530.",
+    "whyWeTurn": "People turn to St. Enda as one of the fathers of Irish monastic life. Tradition holds that he was once a fighting man of Oriel and that his sister Fanchea turned him toward God; whatever the details, his life shows a real change of direction. On the bare rock of Inishmore his monks prayed together, worked the land and sea, slept rough and studied Scripture so they could live it. Later Irish saints came to learn from him. Anyone seeking a simpler life, a fresh start or a deeper grounding in prayer can ask his help.",
+    "quotes": [
+      {
+        "text": "The Lord hath reigned, let the earth rejoice: let many islands be glad.",
+        "work": "Psalm 96:1 (Psalm 97:1 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you led St. Enda away from violence and pride to a life of prayer on the rocks of Aran, and you made his small community a school of holiness for many. Through his prayers, turn my heart toward you wherever I have taken the wrong road. Teach me to pray faithfully, to work honestly and to live simply, and to read your word so that I may live it. Bless teachers, students and all who form others in the faith, and bless the people of the islands. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember St. Enda on March 21, which falls in Lent and just after St. Patrick's Day; ask whether your parish or diocese in Ireland marks it.",
+      "Take up a small piece of the Aran discipline for the day: a simple meal, a time of silence, honest manual work and a passage of Scripture read slowly.",
+      "If you visit Inishmore, go to Killeany (Cill Éinne), the village that keeps his name, where tradition places his monastery.",
+      "In Co. Louth, the parish of Killanny in the Diocese of Clogher has a church dedicated to St. Enda, a link to the tradition of his Oriel origins.",
+      "Pray for people who are trying to leave violence behind and for those who form others in prayer and learning."
+    ],
+    "places": [
+      {
+        "name": "St Enda's Church, Tullydrum (St Enda's Parish, Killanny, Diocese of Clogher)",
+        "city": "Killanny, Co. Louth, Ireland",
+        "url": "https://killannyparish.ie/st-enda-s-church-at-tullydrum"
+      }
+    ],
+    "confirmationNote": "Enda suits a confirmand who has made, or wants to make, a fresh start, or who is drawn to simplicity, the outdoors or a disciplined way of life. Tradition remembers a warrior who chose Christ instead, and history remembers the island community he built. Confirmation is a commitment to let God redirect our strength, and Enda shows that a changed life can become a place where many others learn to pray.",
+    "reflectionPrompts": [
+      "Where in my life is God inviting me to change direction, as Enda did?",
+      "Choose one habit to simplify this week, such as screens, food or spending, and use the time for prayer or work for others.",
+      "Read the Catholic Encyclopedia article 'Monastic School of Aran' and note what it says about the daily rule of Enda's monks."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "finnian-of-clonard",
+        "reason": "Came to learn from Enda on Aran; the two are called patriarchs of Irish monasticism",
+        "historical": true
+      },
+      {
+        "slug": "brendan-the-navigator",
+        "reason": "Tradition says he consulted Enda on Aran before his voyage",
+        "historical": true
+      },
+      {
+        "slug": "columba-of-iona",
+        "reason": "Later tradition says he studied on Aran and praised the island in verse",
+        "historical": true
+      },
+      {
+        "slug": "kevin",
+        "reason": "Another Irish monastic founder who sought God in a remote place",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archdiocese of Dublin: March 2025 religious education resources (Feast of St Enda)",
+        "url": "https://www.dublindiocese.ie/wp-content/uploads/2025/08/March-Blog-2025.docx.pdf"
+      },
+      {
+        "title": "Catholic Encyclopedia (1907): Monastic School of Aran",
+        "url": "https://www.newadvent.org/cathen/01677b.htm"
+      },
+      {
+        "title": "Catholic Ireland: St Enda of Aran (d. 530)",
+        "url": "https://www.catholicireland.net/saintoftheday/st-enda-of-aran-d-530/"
+      },
+      {
+        "title": "St Enda's Parish, Killanny: St Enda's Church at Tullydrum",
+        "url": "https://killannyparish.ie/st-enda-s-church-at-tullydrum"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 96",
+        "url": "https://www.drbo.org/chapter/21096.htm"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols empty. No reputable Catholic source (Catholic Culture, Vatican, diocese, Catholic Ireland) lists established iconographic attributes for Enda; Catholic Culture's March 21 page does not mention him.",
+      "patronages: none found in a reputable source. Review lists none.",
+      "quotes: no writings of Enda survive; one Douay-Rheims psalm verse about the islands is used (checked on drbo.org; the psalm's title line is omitted).",
+      "feastCustoms: whether March 21 is in Ireland's national liturgical calendar was not verified, so no rank is stated. No pattern day or pilgrimage on Inishmore for his feast was found in a reputable source. The Killanny church link to Enda rests on Catholic Ireland; the parish's own history page lists 'Cill Enna (Church of Enda)' as only one of several possible origins of the place-name.",
+      "places: only Killanny's parish site was found. Killeany (Cill Éinne) on Inishmore has no official site of its own, and no Archdiocese of Tuam parish page for the Aran Islands was found.",
+      "relatedSaints: the Finnian, Brendan and Columba links are from the Catholic Encyclopedia's Aran article; Catholic Ireland names Ciarán, Jarlath and Carthage as his students and calls Enda and Finnian patriarchs of Irish monasticism. These are later traditions and should not be read as dated encounters.",
+      "biography: no disagreement. Sources differ on details the review treats as tradition: Catholic Ireland says he was king of Oriel and studied at Emly and at Ninian's Candida Casa, where he was ordained; the Dublin resource says Fanchea showed him the corpse of the girl he wished to marry; the Dublin resource says Aengus, king of Munster, his brother-in-law, granted him the Aran land, while Catholic Ireland says Aengus wanted him in the Golden Vale and Enda chose Aran instead; the Catholic Encyclopedia says he reached Aran from Garomna in Connemara."
+    ]
+  },
+  "ephrem-the-syrian": {
+    "templateVersion": 2,
+    "heroSummary": "St. Ephrem the Syrian was a fourth-century deacon, teacher and poet of Nisibis who moved to Edessa when his city passed to Persia. Called the Harp of the Holy Spirit, he taught the faith through hymns sung in worship. He died in 373, and Benedict XV named him a Doctor of the Church in 1920. His feast is June 9.",
+    "searchDescription": "St. Ephrem the Syrian, feast June 9: fourth-century deacon and hymn writer of Nisibis and Edessa, the Harp of the Holy Spirit and a Doctor of the Church.",
+    "symbols": [
+      {
+        "symbol": "Deacon's vestments",
+        "meaning": "Ephrem never became a priest or bishop; he served as a deacon all his life, and Benedict XVI saw that choice as a sign of his service at the altar and to his neighbors."
+      },
+      {
+        "symbol": "Thurible (censer)",
+        "meaning": "The censer carried by deacons in the liturgy recalls his ministry at worship, where his hymns were sung, and the prayer that rises to God like incense."
+      },
+      {
+        "symbol": "Scroll",
+        "meaning": "A scroll stands for his writings: biblical commentaries, verse homilies and the hymns through which he taught the faith."
+      },
+      {
+        "symbol": "Vine",
+        "meaning": "Paired with the scroll in his images, the vine recalls Christ's words 'I am the vine', read in the Mass of his memorial, and the fruit his teaching bore in the Church."
+      },
+      {
+        "symbol": "Lyre",
+        "meaning": "He is sometimes shown composing hymns with a lyre, a picture of his title Harp of the Holy Spirit and of the songs he wrote for his people."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Ephrem when they want to pray with their imagination as well as their mind. He wrote hymns about light, pearls, gardens and bread so that ordinary believers could sing their way into the mysteries of Christ, Mary and the Eucharist. He stayed a deacon all his life, and Benedict XVI recalls that he died after caring for people sick with plague. Catholic Culture lists him as a patron of spiritual directors. Poets, musicians, catechists, deacons and anyone who finds beauty a road to God can find a friend in him.",
+    "quotes": [
+      {
+        "text": "On a certain day a pearl did I take up, my brethren; I saw in it mysteries pertaining to the Kingdom; semblances and types of the Majesty; it became a fountain, and I drank out of it mysteries of the Son.",
+        "work": "The Pearl: Seven Hymns on the Faith, Hymn I, stanza 1",
+        "translation": "J. B. Morris, in Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898; public domain)"
+      },
+      {
+        "text": "Pearls have I gathered together that I might make a crown for the Son in the place of stains which are in my members. Receive my offering, not that Thou art shortcoming; it is because of mine own shortcoming that I have offered it to Thee. Whiten my stains!",
+        "work": "The Pearl: Seven Hymns on the Faith, Hymn V, stanza 5",
+        "translation": "J. B. Morris, in Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898; public domain)"
+      },
+      {
+        "text": "Joyous were to-day the Watchers, that the Wakeful came to wake us! Who would pass this night in slumber, in which all the world was watching?",
+        "work": "Hymns on the Nativity, Hymn I",
+        "translation": "J. B. Morris, in Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (1898; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "O Lord, Master of my life, grant that I may not be infected with the spirit of slothfulness and inquisitiveness, with the spirit of ambition and vain talking. Grant instead to me, your servant, the spirit of purity and of humility, the spirit of patience and neighborly love. O Lord and King, grant me the grace of being aware of my sins and of not thinking evil of those of my brethren. For you are blessed, now and ever, and forever. Amen.",
+      "kind": "traditional",
+      "source": "Prayer of St. Ephrem, as given by Catholic Culture",
+      "note": "This is the opening section of the prayer that the Byzantine Churches pray throughout Lent. It has long carried Ephrem's name, but it survives in Greek rather than in his Syriac, so whether he composed it himself is uncertain.",
+      "link": {
+        "label": "Catholic Culture: Prayer of St. Ephrem (full text)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1052"
+      }
+    },
+    "feastCustoms": [
+      "June 9 is an optional memorial of St. Ephrem, Deacon and Doctor, in the General Roman Calendar; its Collect asks for the Holy Spirit who moved him to sing of God's mysteries. Eastern Churches keep him on other days.",
+      "Read or sing one of his hymns. The Hymns on the Nativity and The Pearl are freely available in the public-domain Nicene and Post-Nicene Fathers, volume 13.",
+      "Pray the Prayer of St. Ephrem, which Byzantine Catholics and Orthodox pray throughout Lent, slowly and with attention to each request.",
+      "Follow his example of service: help a food program or visit someone who is sick, remembering that he cared for the hungry and the plague-stricken in Edessa.",
+      "Pray for deacons, and for the Syriac-speaking Christians of Turkey, Syria and Iraq, the lands where Ephrem lived and taught."
+    ],
+    "confirmationNote": "Ephrem suits a confirmand who loves music, poetry or art, or who learns best through images and stories. He used his gifts to help ordinary people understand and love the faith, and he combined that creativity with humble service as a deacon. Choosing him is a promise to let the Holy Spirit, whose 'harp' he was called, use your own talents to build up the Church and care for others.",
+    "reflectionPrompts": [
+      "What image from daily life, like Ephrem's pearl, helps me understand something about God?",
+      "Write a short prayer, poem or song about one mystery of the faith, or offer an hour of help to someone who is sick or hungry.",
+      "Read Hymn I of The Pearl in Nicene and Post-Nicene Fathers, volume 13, and list the ways Ephrem says the pearl points to Christ."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "columba-of-iona",
+        "reason": "Shares the June 9 feast",
+        "historical": true
+      },
+      {
+        "slug": "basil-the-great",
+        "reason": "Fourth-century Doctor of the Church; art and later tradition pair the two",
+        "historical": true
+      },
+      {
+        "slug": "john-of-damascus",
+        "reason": "Eastern Doctor of the Church who also taught through hymns",
+        "historical": false
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Fellow deacon remembered for service to the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience on St. Ephrem (28 November 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2007/documents/hf_ben-xvi_aud_20071128.html"
+      },
+      {
+        "title": "Vatican News: St. Ephrem, Deacon and Doctor of the Church",
+        "url": "https://www.vaticannews.va/en/saints/06/09/st--ephrem--deacon-and-doctor--of-the-church.html"
+      },
+      {
+        "title": "Benedict XV, Principi Apostolorum Petro (1920), declaring Ephrem a Doctor of the Church",
+        "url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html"
+      },
+      {
+        "title": "Catholic Culture: June 9, Optional Memorial of St. Ephrem",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-09"
+      },
+      {
+        "title": "Catholic Culture: Prayer of St. Ephrem",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1052"
+      },
+      {
+        "title": "Nicene and Post-Nicene Fathers, 2nd series, vol. 13 (Ephraim Syrus), Christian Classics Ethereal Library",
+        "url": "https://ccel.org/ccel/schaff/npnf213"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists spiritual directors and spiritual leaders; neither has a live topic. No reputable source found naming him patron of deacons, so 'deacons' is not used. Review lists none.",
+      "symbols: deacon's vestments, thurible, vine and scroll are Catholic Culture's 'Symbols and Representation'; the lyre is from its 'often portrayed' list ('composing hymns with a lyre'). The meanings are explanatory; Catholic Culture does not state them. The vine's link to John 15:5 rests on that verse being the Alleluia verse of his memorial Mass, not on a source explaining the attribute.",
+      "quotes: all three checked word for word against the CCEL plain text of NPNF 2.13 (footnote markers removed). Morris translated Nativity Hymns I–XIII and The Pearl. Vatican News quotes Ephrem in modern translations, which were not used.",
+      "prayer: text checked word for word against Catholic Culture (opening section only; Catholic Culture's source line is 'Prayers from Various Websites'). The authorship caveat in the note is general knowledge about this prayer and should be checked by a human if it needs a citation.",
+      "places: none. No official Catholic shrine or church site tied to Ephrem's tomb or life in Nisibis (Nusaybin) or Edessa (Şanlıurfa) was found.",
+      "relatedSaints: the Basil link rests on Catholic Culture's 'often portrayed with Saint Basil the Great'; the story of their meeting is later tradition and is not stated as history.",
+      "biography: no disagreement. Vatican News gives his death date as 9 June 373; Benedict XVI says he died of a disease caught while caring for plague victims, which the review more cautiously presents as church tradition."
+    ]
+  },
+  "eulalia": {
+    "templateVersion": 2,
+    "heroSummary": "St. Eulalia of Mérida is a young martyr of Roman Spain, traditionally put to death about 304 in the persecution under Diocletian. The poet Prudentius sang of her within a century, and her shrine at Mérida became the most popular shrine of Visigothic Spain. Her relics rest in Oviedo Cathedral. Her feast is December 10.",
+    "searchDescription": "St. Eulalia of Mérida, feast December 10: young martyr of Roman Spain about 304, praised by Prudentius and honored in Mérida and at her shrine in Oviedo.",
+    "symbols": [
+      {
+        "symbol": "Cross",
+        "meaning": "The cross she holds marks the faith in Christ that she refused to deny before the Roman judge."
+      },
+      {
+        "symbol": "Stake",
+        "meaning": "The stake recalls her martyrdom: the traditional account, going back to Prudentius, says she died by fire after being tortured."
+      },
+      {
+        "symbol": "Dove",
+        "meaning": "Tradition, from Prudentius's poem, says a white dove was seen leaving her mouth as she died, a sign of her soul going to God. It belongs to the poetic account rather than to verified history."
+      },
+      {
+        "symbol": "Snow",
+        "meaning": "She is shown lying in the snow because the same tradition says snow fell and covered her body after her death, like a burial shroud."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Eulalia as the young martyr of Mérida, a girl who would not betray Christ even when the cost was terrible. Prudentius, writing within a hundred years, shows how deeply her courage moved the Christians of Spain, though his poem is a song of praise rather than a court record. Catholic Culture names her patron of Mérida and Oviedo, of runaways and of torture victims. Young people who feel pressure to hide their faith, and anyone suffering cruelty, can ask her to pray that they stay faithful and are kept from harm.",
+    "quotes": [
+      {
+        "text": "Every one therefore that shall confess me before men, I will also confess him before my Father who is in heaven.",
+        "work": "Matthew 10:32",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But the souls of the just are in the hand of God, and the torment of death shall not touch them.",
+        "work": "Wisdom 3:1",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, St. Eulalia was young when she stood before a judge and would not deny you. Through her prayers, give me the courage to speak of you plainly and kindly, even when it would be easier to stay silent. Be close to children and young people who are pressured, bullied or afraid, and to everyone who suffers violence or torture; protect them and bring them to safety. Bless the people of Mérida and Oviedo who honor her memory. Keep my soul in your hand, in life and in death, and bring me with Eulalia to the joy of your kingdom. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "December 10 is her commemoration in the Roman Martyrology; it is kept with special honor in Spain, above all in Mérida, which calls her its patroness, and in Oviedo.",
+      "In Oviedo, where Pope Urban VIII declared her patron of the city and of Asturias in 1639, her feast is marked with Mass in the cathedral, and the reliquary urn holding her remains is carried by a group from the local police.",
+      "In Mérida, pilgrims visit the basilica built over the site of her early memorial, the small oratory beside it known as El Hornito, and the column called El Humilladero, which local tradition links to the place of her martyrdom.",
+      "Pray for children and young people who are pressured to give up their faith, and for victims of torture, whom Catholic Culture lists among those under her patronage.",
+      "Read Matthew 10:26–33, Jesus' words about not fearing those who kill the body, and ask for the grace to acknowledge him openly."
+    ],
+    "places": [
+      {
+        "name": "Chapel of St. Eulalia, Oviedo Cathedral (shrine of her relics)",
+        "city": "Oviedo, Spain",
+        "url": "https://catedraldeoviedo.com/conoce-cada-rincon/capillas/capilla-de-santa-eulalia/"
+      },
+      {
+        "name": "Basilica of St. Eulalia and El Hornito",
+        "city": "Mérida, Spain",
+        "url": "https://turismomerida.org/que-ver/basilica-santa-eulalia/"
+      }
+    ],
+    "confirmationNote": "Eulalia suits a confirmand who is brave, outspoken or quick to defend what is right, or who has felt pressure to hide their faith. Tradition remembers her as very young when she chose to confess Christ openly, whatever the cost. Confirmation strengthens Christians to bear witness, and she is a reminder that courage does not depend on age. Her story also invites us to stand with people who suffer cruelty and injustice.",
+    "reflectionPrompts": [
+      "When have I kept quiet about my faith because I was afraid of what others would think?",
+      "This week, say a kind and honest word for your faith, or stand up for someone who is being picked on.",
+      "Read Matthew 10:26–33 in the Douay-Rheims and compare it with what the Catholic Encyclopedia says about Prudentius's hymn to Eulalia."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vincent",
+        "reason": "Spanish martyr of the same persecution in 304, also praised by Prudentius",
+        "historical": true
+      },
+      {
+        "slug": "fructuosus",
+        "reason": "Martyr of Roman Spain whose death Prudentius also celebrated",
+        "historical": true
+      },
+      {
+        "slug": "agnes",
+        "reason": "Young virgin martyr, traditionally killed about 304",
+        "historical": true
+      },
+      {
+        "slug": "lucy",
+        "reason": "Virgin martyr of the Diocletian persecution, honored three days later on December 13",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: December 10, St. Eulalia of Mérida (Roman Martyrology commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-10"
+      },
+      {
+        "title": "Catholic Encyclopedia (1909): St. Eulalia",
+        "url": "https://www.newadvent.org/cathen/05603a.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia (1911): Prudentius",
+        "url": "https://www.newadvent.org/cathen/12517c.htm"
+      },
+      {
+        "title": "Archdiocese of Barcelona: December 10",
+        "url": "https://esglesia.barcelona/es/santoral/10-de-diciembre/"
+      },
+      {
+        "title": "Oviedo Cathedral (Cabildo de la Catedral de Oviedo): Capilla de Santa Eulalia",
+        "url": "https://catedraldeoviedo.com/conoce-cada-rincon/capillas/capilla-de-santa-eulalia/"
+      },
+      {
+        "title": "Archdiocese of Oviedo (Iglesia de Asturias): press schedule, December 2025",
+        "url": "https://iglesiadeasturias.org/wp-content/uploads/2025/12/PREVISIONES-INFORMATIVAS.pdf"
+      },
+      {
+        "title": "Turismo Mérida: Basílica de Santa Eulalia y Hornito",
+        "url": "https://turismomerida.org/que-ver/basilica-santa-eulalia/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Wisdom 3",
+        "url": "https://www.drbo.org/chapter/25003.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists Mérida, Oviedo, runaways, torture victims and widows; none has a live topic. The Oviedo Cathedral site adds the Diocese of Oviedo (1631) and the city and Principality of Asturias (1639). Review lists none.",
+      "symbols: all four are from Catholic Culture ('a young woman with a cross, stake, and dove'; 'a naked young woman lying in the snow'). The dove and snow come from Prudentius's poem and are labeled as tradition. Meanings are explanatory.",
+      "quotes: no Prudentius quotation used. The only English translations of Peristephanon III found are Thomson (Loeb, 1953), Eagan (1962) and Krisak (2019); none could be verified as public domain. Two Douay-Rheims verses fitting a martyr are used instead (checked on drbo.org).",
+      "feastCustoms: the liturgical rank of December 10 in Spain's national or diocesan calendars was not verified, so none is stated. The Oviedo custom of the local police carrying her urn is from the Archdiocese of Oviedo's December 2025 press note, which says they did so the year before too; check it is still current. Mérida's 'patrona' status is from the city tourism page.",
+      "places: Oviedo Cathedral's page is official (cathedral chapter). No parish or diocesan site was found for the Mérida basilica, so the city tourism office page is used; it describes the basilica built over her memorial.",
+      "relatedSaints: Prudentius's poems on Vincent (Peristephanon V) and Fructuosus (VI) are general knowledge, not checked against a source in this pass. Agnes's c. 304 date is from the site's own published data.",
+      "biography: no disagreement. Catholic Culture's summary gives her age as twelve, describes her escape to Mérida, her defiance of the judge Dacian and death by fire, and gives an obviously garbled birth date ('190-304'); the review rightly leaves the age and episodes as unverified tradition. The Catholic Encyclopedia notes the Barcelona hymn for her namesake closely matches Prudentius's Mérida hymn, which supports the review's caution about confusion between the two Eulalias."
+    ]
+  },
+  "eulogius-of-toledo": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Eulogius of Córdoba was a ninth-century priest and writer who recorded the Christians executed in his city under Muslim rule in the 850s. Elected archbishop of Toledo but never consecrated, he was beheaded on March 11, 859, after sheltering Leocritia, a convert from Islam. His relics rest in Oviedo Cathedral.",
+    "searchDescription": "St. Eulogius of Córdoba (d. 859), feast March 11: priest and writer who recorded Córdoba's martyrs and was beheaded after sheltering the convert Leocritia.",
+    "whyWeTurn": "People turn to St. Eulogius when faith is costly and the truth needs a witness. He was a scholar and teacher of priests in Córdoba who chose to stand beside people the authorities had condemned: he wrote down their stories, encouraged those in prison, and finally hid a young convert, Leocritia, at the price of his own life. Catholic Culture recalls that when a guard struck him on the way to execution, he quietly offered the other cheek. His own writings are passionate and partisan, and historians read them carefully, yet without them most of these Christians would be forgotten. He is a companion for writers, teachers, and anyone protecting someone vulnerable.",
+    "quotes": [
+      {
+        "text": "Be thou faithful until death: and I will give thee the crown of life.",
+        "work": "Apocalypse 2:10",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But I say to you not to resist evil: but if one strike thee on thy right cheek, turn to him also the other:",
+        "work": "Matthew 5:39, recalled in the account of his last walk to execution",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, St. Eulogius loved learning, served your Church as a priest, and gave his life rather than abandon a young woman who had turned to you. Through his prayers, strengthen Christians who suffer for their faith today, and protect all who risk their safety to follow you. Give me the courage to tell the truth with charity, to stand beside people who are frightened or alone, and to answer cruelty without hatred. Make my words, spoken and written, serve your Gospel. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on March 11; the Roman Martyrology commemorates him that day, which usually falls in Lent, so many Catholics simply add his name to their daily prayers rather than keep a special Mass.",
+      "Pray for Christians who face prison or death for their faith today, and for converts who face rejection from their families, as Leocritia did.",
+      "Read Matthew 5:38–48 and ask for the grace to answer an insult or injury without retaliation.",
+      "Write down the story of someone whose faith has strengthened yours, as Eulogius preserved the stories of the Córdoba martyrs.",
+      "In Oviedo, Spain, his relics and those of St. Leocritia are kept in the Cámara Santa of the cathedral, which pilgrims can visit."
+    ],
+    "places": [
+      {
+        "name": "Cathedral of San Salvador, Oviedo (Cámara Santa, where his relics are kept)",
+        "city": "Oviedo, Spain",
+        "url": "https://catedraldeoviedo.com/conoce-cada-rincon/camara-santa/"
+      }
+    ],
+    "confirmationNote": "Eulogius suits a Confirmation candidate who loves books, history, or writing and wants that gift to serve the truth. He used his learning to keep the memory of persecuted Christians alive, and in the end he chose to protect a vulnerable convert rather than keep himself safe. Choosing his name can mean asking the Holy Spirit for courage to speak up for others, even when it costs something.",
+    "reflectionPrompts": [
+      "Whom in my life might I be called to protect or stand beside, even if it costs me comfort or reputation?",
+      "This week, find one news story about Christians persecuted for their faith and pray for them by name.",
+      "Read the Catholic Encyclopedia article on St. Eulogius of Córdoba and note what it says about his friend Alvarus and his writings on the martyrs."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "perfectus",
+        "reason": "Córdoba priest beheaded in 850, the first martyr whose death Eulogius recorded",
+        "historical": true
+      },
+      {
+        "slug": "isidore-of-seville",
+        "reason": "Earlier Spanish scholar-bishop whose learning shaped the Christian schools of Spain",
+        "historical": false
+      },
+      {
+        "slug": "john-of-damascus",
+        "reason": "Christian theologian and writer who also lived under Muslim rule",
+        "historical": false
+      },
+      {
+        "slug": "eulalia",
+        "reason": "Another Spanish martyr remembered for courage in the face of execution",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): St. Eulogius of Cordova (New Advent)",
+        "url": "https://www.newadvent.org/cathen/05604a.htm"
+      },
+      {
+        "title": "Vatican News: Sant'Eulogio, sacerdote e martire (March 11)",
+        "url": "https://www.vaticannews.va/it/santo-del-giorno/03/11/sant-eulogio--sacerdote-e-martire.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, March 11 (St. Eulogius)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-03-11"
+      },
+      {
+        "title": "Catedral de Oviedo: Cámara Santa",
+        "url": "https://catedraldeoviedo.com/conoce-cada-rincon/camara-santa/"
+      },
+      {
+        "title": "National Catholic Register: Martyrs of Córdoba",
+        "url": "https://www.ncregister.com/blog/simonson-martyrs-of-cordoba"
+      },
+      {
+        "title": "DRBO.org: Apocalypse 2 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/73002.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty (templateVersion 1.5). No reputable Catholic source found listing established iconographic attributes; a sword or martyr's palm would be generic guesses.",
+      "patronages: Catholic Culture lists him as patron of carpenters and coppersmiths, but neither has a live topic, so no slug is included. Review lists none.",
+      "quotes: no public-domain English translation of his Memoriale Sanctorum, Documentum martyriale or Apologeticus could be verified, so only Douay-Rheims Scripture is quoted. The offering-the-other-cheek detail comes from Catholic Culture (ultimately Alvarus's Life of Eulogius).",
+      "feastCustoms: 'commemorated in the Roman Martyrology' rests on Catholic Culture, which lists him as an Other Commemoration on March 11; one Spanish secondary source mentions a June 14 date (likely a translation feast) that was not confirmed, so it is not used.",
+      "places: the Oviedo Cathedral page states the crypt held the bodies of Eulogius and Leocritia from 884 and that a 1742 casket holds their remains in the Cámara Santa. No official Córdoba site tied to him was found.",
+      "relatedSaints: the Perfectus link (first martyr Eulogius recorded) rests on NC Register and general histories, not a Vatican page. Eulalia, Isidore and John of Damascus are thematic only.",
+      "biography: no contradiction. Note: Vatican News (Italian) says he was born around 800 and that he wrote an 'Elogio al martirio'; the 1909 Catholic Encyclopedia says only 'before 819'. Vatican News also says other bishops disapproved of the tone of his writings, which supports the review's caution about him as an involved advocate. Some popular sites give 857 as his death year; Catholic sources and the review give 859."
+    ]
+  },
   "euphrasia": {
     "templateVersion": 1.5,
     "heroSummary": "St. Euphrasia of Constantinople was a young noblewoman of the late fourth century who grew up in a women's monastery in Egypt and chose to stay there for life. Tradition remembers her for giving her inheritance to the poor and for humble, hidden work. Her Western feast is March 13.",
@@ -15929,6 +16478,571 @@
       "biography detail: Butler places her father at the court of Theodosius the Younger, while OCA and FaithND connect the family to Theodosius I; Butler says she entered the monastery at seven, OCA at eight. The reviewed biography names neither, so there is no conflict, but avoid adding these details without qualification",
       "relatedSaints: the Pachomius link relies on OCA naming Tabennisi; Butler only says a monastery in Egypt (the reviewed biography says the Thebaid, which includes Tabennisi)",
       "symbols: only 2 sourced attributes (carrying stones, monastic habit); v2 needs 3–5 — set to 1.5 (coordinator)"
+    ]
+  },
+  "euphrasia-eluvathingal": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Euphrasia Eluvathingal (1877–1952) was a Syro-Malabar Carmelite sister of the Congregation of the Mother of Carmel in Kerala. Born Rosa, she spent nearly fifty years at St. Mary's Convent, Ollur, as novice mistress and superior. People called her the \"Praying Mother.\" Pope Francis canonized her in 2014; her feast is August 29.",
+    "searchDescription": "St. Euphrasia Eluvathingal (1877–1952), feast August 29: Syro-Malabar Carmelite sister of Kerala, called the \"Praying Mother,\" canonized in 2014.",
+    "whyWeTurn": "People turn to St. Euphrasia when they want to learn to pray, or need someone to pray for them. She did no famous public work: she cared for sick sisters, trained novices, served briefly and reluctantly as superior, and spent long hours before the Blessed Sacrament. The people of Ollur called her the \"Praying Mother,\" and her sisters called her a \"Mobile Tabernacle\" because God's presence seemed to go with her. Pope Francis hoped today's religious women would be known as praying sisters in the same way. She is a companion for anyone with a hidden, ordinary life, and for those who carry others' needs to God in prayer.",
+    "quotes": [
+      {
+        "text": "Let my prayer be directed as incense in thy sight; the lifting up of my hands, as evening sacrifice.",
+        "work": "Psalm 140:2 (Psalm 141:2 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Always rejoice. Pray without ceasing.",
+        "work": "1 Thessalonians 5:16–17",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, present in the Most Blessed Sacrament, you drew St. Euphrasia to spend her life close to you and filled her with love for your Sacred Heart and your Mother. Through her prayers, teach me to pray with patience and faithfulness, even when prayer feels dry or slow. Help me to serve the people in my care with gentleness, especially the sick and the weak. Bless the Church in Kerala and India, the Sisters of the Mother of Carmel, and all who bring their needs to her tomb at Ollur. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep her memorial on August 29, the date set in her 2006 beatification decree; it is celebrated especially in the Syro-Malabar Church and in Kerala and Indian diaspora communities.",
+      "Spend some quiet time before the Blessed Sacrament, the place where the people of Ollur most often saw her praying.",
+      "Pray a Rosary for priests, religious, the Pope and the bishops, intentions for which she regularly offered prayer and sacrifice.",
+      "Offer a prayer for the souls in purgatory, one of her constant intentions according to her congregation.",
+      "In Kerala, many pilgrims pray at her tomb in the chapel of St. Mary's Convent, Ollur, near Thrissur."
+    ],
+    "places": [
+      {
+        "name": "St. Mary's Convent, Ollur (her tomb), on the CMC Generalate's saints page",
+        "city": "Ollur, Thrissur, Kerala, India",
+        "url": "https://www.cmcgeneralate.org/saints"
+      }
+    ],
+    "confirmationNote": "Euphrasia suits a Confirmation candidate who is drawn to quiet prayer, Eucharistic adoration, or a life of service that few people notice. She held to her vocation despite her father's opposition and years of illness, then spent decades forming younger sisters and praying for others. Choosing her name can be a promise to make prayer the steady center of life, wherever the Holy Spirit leads.",
+    "reflectionPrompts": [
+      "Who in my life is quietly praying for me, and whom am I carrying to God in prayer?",
+      "This week, set aside a fixed time to visit a church or adoration chapel and stay a little longer than feels comfortable.",
+      "Read the Holy See's 2006 beatification biography of Euphrasia and note what it says about her letters to Bishop John Menachery."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "kuriakose-elias-chavara",
+        "reason": "Co-founder of her Congregation of the Mother of Carmel; canonized with her on November 23, 2014",
+        "historical": true
+      },
+      {
+        "slug": "mariam-thresia-chiramel",
+        "reason": "Stayed at the Ollur convent to discern her vocation while Euphrasia was novice mistress there",
+        "historical": true
+      },
+      {
+        "slug": "alphonsa-of-the-immaculate-conception",
+        "reason": "Fellow Syro-Malabar religious sister from Kerala, remembered for a hidden life offered to God",
+        "historical": false
+      },
+      {
+        "slug": "teresa-of-avila",
+        "reason": "Carmelite teacher of prayer on whom Euphrasia modeled her spiritual life",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dicastery for the Causes of Saints: Eufrasia Eluvathingal del Sacro Cuore",
+        "url": "https://www.causesanti.va/it/santi-e-beati/eufrasia-eluvathingal-del-sacro-cuore.html"
+      },
+      {
+        "title": "Holy See: Euphrasia of the Sacred Heart of Jesus, beatification biography (2006)",
+        "url": "https://www.vatican.va/content/dam/wss/news_services/liturgy/saints/ns_lit_doc_20061203_eufrasia_en.html"
+      },
+      {
+        "title": "Pope Francis: Address to Syro-Malabar faithful after the canonization (November 24, 2014)",
+        "url": "https://www.vatican.va/content/francesco/en/speeches/2014/november/documents/papa-francesco_20141124_fedeli-siro-malabaresi.html"
+      },
+      {
+        "title": "Pope Francis: Homily for the canonization of six Blesseds (November 23, 2014)",
+        "url": "https://www.vatican.va/content/francesco/en/homilies/2014/documents/papa-francesco_20141123_omelia-canonizzazione.html"
+      },
+      {
+        "title": "Congregation of the Mother of Carmel (CMC) Generalate: Our Saints",
+        "url": "https://www.cmcgeneralate.org/saints"
+      },
+      {
+        "title": "DRBO.org: Psalm 140 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21140.htm"
+      },
+      {
+        "title": "DRBO.org: 1 Thessalonians 5 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/59005.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty (templateVersion 1.5). Images show her in the CMC Carmelite habit, often with a rosary or before the Eucharist, but no reputable source describes established iconographic attributes.",
+      "patronages: review lists none, and no Vatican, diocesan or CMC source gives her a patronage; field omitted.",
+      "quotes: her letters are modern and not public domain, so only Douay-Rheims Scripture is quoted.",
+      "places: no official website for the Ollur shrine/pilgrim centre was found; the URL is the CMC Generalate's official page about her, which describes her tomb at St. Mary's Convent, Ollur. A human may prefer to omit places.",
+      "feastCustoms: secondary listings mention a novena before the feast and a shift to August 30 when it clashes with the Beheading of John the Baptist; neither was confirmed by an official source, so neither is stated.",
+      "relatedSaints: euphrasia (Euphrasia of Constantinople, March 13) is a different saint who shares only the name; she is deliberately not linked. The Mariam Thresia link comes from the CMC Generalate page.",
+      "biography: no disagreement. Small notes: the Dicastery and CMC say she died aged 75, but by her 17 October 1877 birth date she was 74. The Holy See biography dates her habit to 10 January 1898 and perpetual vows to 24 May 1900; it gives her name at birth as Rose. A secondary source gives 7 October 1877 as her birth date; Vatican sources give 17 October."
+    ]
+  },
+  "eutychian": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Eutychian was bishop of Rome from 275 to 283, succeeding Pope Felix I. Little is known of his pontificate, but his burial is unusually well attested: he was laid in the Crypt of the Popes in the Catacomb of St. Callixtus, where fragments of his Greek epitaph survive. He is remembered on December 8.",
+    "searchDescription": "St. Eutychian, bishop of Rome 275–283 (remembered December 8), was buried in the Crypt of the Popes in Rome's Catacomb of St. Callixtus.",
+    "whyWeTurn": "People turn to St. Eutychian as a quiet witness to the Church's continuity. Almost nothing is known of what he did as pope, and later writers filled the gap with stories of blessing harvests and burying martyrs that historians treat with caution. What remains is solid and simple: his name on the list of Rome's bishops, his place in an early calendar, and a broken stone in the catacomb reading \"Eutychian, bishop.\" He reminds us that faithful service often leaves few traces, and that the Church is built by many leaders whose stories are mostly forgotten. He is a fitting companion for anyone whose work goes unnoticed.",
+    "quotes": [
+      {
+        "text": "Remember your prelates who have spoken the word of God to you; whose faith follow, considering the end of their conversation, Jesus Christ, yesterday, and today; and the same for ever.",
+        "work": "Hebrews 13:7–8",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Eutychian to your Church as a shepherd in Rome, and you kept his memory alive through a simple stone in the catacomb. Through his prayers, bless our Pope and all the bishops who serve your people today. Help me to do my own work faithfully, even when no one notices or remembers it. Keep me united with the Church of every age, and grant to all the faithful departed, especially those whose names are forgotten, a place of rest and light with you. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him in personal prayer on December 8; this is a traditional Roman commemoration, not a separate universal memorial, and the day belongs above all to the Solemnity of the Immaculate Conception.",
+      "Pray for the Pope and for the bishops who serve in the long succession of the Church of Rome.",
+      "Pray for the faithful departed whose names are no longer remembered, or visit a cemetery and pray there; later tradition, not established history, says he buried many martyrs.",
+      "Read Hebrews 13:7–8 and thank God for a priest, bishop or teacher who handed on the faith to you.",
+      "In Rome, pilgrims to the Catacomb of St. Callixtus can pray in the Crypt of the Popes, where his epitaph was found."
+    ],
+    "places": [
+      {
+        "name": "Catacombs of St. Callixtus (Crypt of the Popes)",
+        "city": "Rome, Italy",
+        "url": "https://www.catacombesancallisto.it/en/cripta-papi.php"
+      }
+    ],
+    "confirmationNote": "Eutychian suits a Confirmation candidate who values history, steady duty, or behind-the-scenes service. Almost nothing he did as pope is remembered, yet his name and resting place show that he kept the Church's faith during a peaceful but unglamorous time. Choosing his name can be a commitment to faithfulness when no one is watching, and to honoring those who passed the faith down.",
+    "reflectionPrompts": [
+      "What faithful work in my life goes unnoticed, and can I offer it to God without needing recognition?",
+      "This week, thank someone who passed the faith on to you, or pray for them if they have died.",
+      "Read the Catholic Encyclopedia article on Pope St. Eutychianus and list what it treats as established fact and what it treats as later legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sixtus-ii",
+        "reason": "Also buried in the Crypt of the Popes in the Catacomb of St. Callixtus",
+        "historical": true
+      },
+      {
+        "slug": "callistus-i",
+        "reason": "Cared for the cemetery on the Appian Way that bears his name, where Eutychian was buried",
+        "historical": true
+      },
+      {
+        "slug": "narcisa-de-jes-s",
+        "reason": "Also remembered on December 8",
+        "historical": true
+      },
+      {
+        "slug": "eleutherius",
+        "reason": "Another early bishop of Rome known mainly through brief notices",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): Pope St. Eutychianus (New Advent)",
+        "url": "https://www.newadvent.org/cathen/05638a.htm"
+      },
+      {
+        "title": "Vatican News (French): Saints of December 8",
+        "url": "https://www.vaticannews.va/fr/saint-du-jour/12/08.html"
+      },
+      {
+        "title": "Catacombs of St. Callixtus: The Crypt of the Popes",
+        "url": "https://www.catacombesancallisto.it/en/cripta-papi.php"
+      },
+      {
+        "title": "DRBO.org: Hebrews 13 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/65013.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty (templateVersion 1.5). No reputable source lists iconographic attributes for Eutychian; papal vestments would be a generic guess.",
+      "patronages: review lists none and no reputable source gives one; field omitted.",
+      "quotes: no writings of Eutychian survive; only Douay-Rheims Scripture is quoted.",
+      "relatedSaints: narcisa-de-jes-s is linked only by the shared December 8 date. The Callistus link relies on the existing out/callistus-i.json and the catacomb's name.",
+      "biography: possible disagreement on origin. The review gives origin as Rome, but Vatican News (French) says he was born at Luni, a Tuscan town later destroyed; the 1909 Catholic Encyclopedia gives no birthplace. Vatican News also says he opposed Manichaeism and promoted devotion to martyrs, which other sources do not confirm, so neither is used. The catacomb site spells his name 'Eutichian'."
+    ]
+  },
+  "evaristus": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Evaristus was one of the earliest bishops of Rome, named by St. Irenaeus as the successor of St. Clement and the predecessor of Alexander, around the turn of the second century. Almost nothing else about him is securely known. Vatican News commemorates him on October 27; older reference works give October 26.",
+    "searchDescription": "St. Evaristus, early bishop of Rome who succeeded Clement around the year 100, is known mainly from the succession lists. Feast: October 27.",
+    "whyWeTurn": "People turn to St. Evaristus as a witness to the quiet faithfulness that kept the Church going in its first generations. His name survives because the Church of Rome remembered who had shepherded it, and St. Irenaeus later listed him in that chain of bishops reaching back to the apostles. Older accounts call him a martyr, but how he died is not known, and later stories about his reforms reflect later times. What remains is enough: he received the faith, guarded it, and handed it on. He is a fitting patron for anyone whose service is steady and unseen, and for those who pray for the pope and the bishops of the Church.",
+    "quotes": [
+      {
+        "text": "To this Clement there succeeded Evaristus. Alexander followed Evaristus; then, sixth from the apostles, Sixtus was appointed; after him, Telephorus, who was gloriously martyred.",
+        "work": "Irenaeus of Lyon, Against Heresies, Book III, chapter 3, §3",
+        "translation": "Alexander Roberts and William Rambaut, Ante-Nicene Fathers, vol. 1 (1885; public domain)"
+      },
+      {
+        "text": "Feed the flock of God which is among you, taking care of it, not by constraint, but willingly, according to God: not for filthy lucre's sake, but voluntarily: Neither as lording it over the clergy, but being made a pattern of the flock from the heart.",
+        "work": "1 Peter 5:2–3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Now therefore you are no more strangers and foreigners; but you are fellow citizens with the saints, and the domestics of God, Built upon the foundation of the apostles and prophets, Jesus Christ himself being the chief corner stone:",
+        "work": "Ephesians 2:19–20",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, chief shepherd of your people, you built your Church on the foundation of the apostles and kept it through the care of faithful bishops like St. Evaristus. We know little of his life, but we know he guarded the faith he received and handed it on. Through his prayers, make me faithful in small and hidden duties, grateful for those who taught me the faith, and ready to pass it on to others. Bless our Holy Father and all the bishops of the Church, and keep your flock united in truth and love. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on October 27, the date under which Vatican News lists him (older works give October 26); he is not on the General Roman Calendar, so this is a day for personal or family prayer rather than a Mass in his honor.",
+      "Read St. Irenaeus, Against Heresies, Book III, chapter 3, at New Advent, where Evaristus appears in the list of Roman bishops handed down from the apostles.",
+      "Pray for the pope and for your own bishop by name, asking that they guard and hand on the faith as the first bishops of Rome did.",
+      "Thank someone who passed the faith on to you, such as a parent, godparent, catechist or priest, in the spirit of the early Church's care for its line of teachers.",
+      "Pray 1 Peter 5:2–4 for the priests and pastors you know."
+    ],
+    "confirmationNote": "Evaristus can suit a confirmand who values loyalty and quiet service more than fame. Almost nothing about him was written down except that he took his place in the line of bishops who kept the apostles' teaching in Rome. Confirmation commissions Christians to receive the faith and hand it on, and Evaristus is a reminder that faithful, unrecorded work is how the Gospel reaches each new generation.",
+    "reflectionPrompts": [
+      "Who handed the faith on to me, and how might I thank God for them this week?",
+      "Choose one small, unseen task at home or in your parish and do it faithfully for a week without mentioning it.",
+      "Read Irenaeus, Against Heresies, Book III, chapter 3, and note why he thought the list of Roman bishops mattered for the Church's teaching."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clement-i",
+        "reason": "His predecessor as bishop of Rome in Irenaeus's list",
+        "historical": true
+      },
+      {
+        "slug": "peter",
+        "reason": "First in the Roman succession; the Liber Pontificalis says Evaristus was buried near Peter's tomb",
+        "historical": true
+      },
+      {
+        "slug": "ignatius-of-antioch",
+        "reason": "Bishop of the same era who wrote to the Church at Rome under Trajan",
+        "historical": true
+      },
+      {
+        "slug": "frumentius",
+        "reason": "Shares the October 27 commemoration in Vatican News",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Saints of October 27 (St. Evaristus, Pope)",
+        "url": "https://www.vaticannews.va/en/saints/10/27.html"
+      },
+      {
+        "title": "Catholic Encyclopedia (1909): Pope St. Evaristus (New Advent)",
+        "url": "https://www.newadvent.org/cathen/05646a.htm"
+      },
+      {
+        "title": "Irenaeus, Against Heresies, Book III, chapter 3 (New Advent; ANF vol. 1)",
+        "url": "https://www.newadvent.org/fathers/0103303.htm"
+      },
+      {
+        "title": "Eusebius, Church History, Book III (New Advent; NPNF 2nd series vol. 1)",
+        "url": "https://www.newadvent.org/fathers/250103.htm"
+      },
+      {
+        "title": "Eusebius, Church History, Book IV (New Advent; NPNF 2nd series vol. 1)",
+        "url": "https://www.newadvent.org/fathers/250104.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 5",
+        "url": "https://www.drbo.org/chapter/67005.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ephesians 2",
+        "url": "https://www.drbo.org/chapter/56002.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable source found lists iconographic attributes for Evaristus; papal vestments or a martyr's palm would be generic guesses, and his martyrdom is not established.",
+      "patronages: review lists none and no reputable source gives him a patronage; field omitted.",
+      "places: omitted. The Liber Pontificalis (judged relatively trustworthy on this point by the 1909 Catholic Encyclopedia) places his burial near St. Peter's tomb, but no official page tied to Evaristus was found.",
+      "quotes: no writings of Evaristus survive (the decretals under his name are forgeries). The Irenaeus passage was checked word for word against the New Advent text of the ANF translation; it is Irenaeus writing about the succession, not Evaristus's own words.",
+      "feastCustoms: 'not on the General Roman Calendar' is from general knowledge of the calendar, not a page fetched here; a human may want to confirm.",
+      "relatedSaints: ignatius-of-antioch is linked by era only (his Letter to the Romans dates to Trajan's reign, around Evaristus's time); no contact between them is recorded. The Liber Pontificalis burial detail for peter is tradition, flagged as such by the Catholic Encyclopedia's wording.",
+      "biography: no disagreement with the reviewed biography. The Catholic Encyclopedia gives him about eight years (c. 98/99 to c. 106/107) and Eusebius says he held office eight years; the entry avoids exact dates, as the review does."
+    ]
+  },
+  "ezequiel-moreno": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Ezequiel Moreno is honored by the Augustinian Recollects as patron of people suffering from cancer, the illness he himself bore. A Spanish friar, he served as a missionary priest in the Philippines, then as bishop of Pasto in Colombia during civil war. He died at Monteagudo on August 19, 1906, and was canonized in 1992.",
+    "searchDescription": "St. Ezequiel Moreno (1848–1906), Augustinian Recollect missionary and bishop of Pasto, invoked by people with cancer. Feast: August 19.",
+    "patronages": [
+      "cancer-patients"
+    ],
+    "whyWeTurn": "People turn to St. Ezequiel Moreno above all in sickness, especially cancer. He knew that suffering from the inside: diagnosed while bishop of Pasto, he returned to Spain for treatment and died in the friary at Monteagudo where he had first entered religious life. The Augustinian Recollects describe how he bore the pain without complaint, and after his death many sick people and their families began entrusting themselves to his prayers. Their foundation in Colombia now accompanies cancer patients in his name. He is also a companion for missionaries and pastors, whose work he shared for decades. Asking his prayers is a way of carrying illness with faith, not alone.",
+    "quotes": [
+      {
+        "text": "I am the good shepherd. The good shepherd giveth his life for his sheep.",
+        "work": "John 10:11",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And he said to me: My grace is sufficient for thee; for power is made perfect in infirmity. Gladly therefore will I glory in my infirmities, that the power of Christ may dwell in me.",
+        "work": "2 Corinthians 12:9",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For I reckon that the sufferings of this time are not worthy to be compared with the glory to come, that shall be revealed in us.",
+        "work": "Romans 8:18",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, good shepherd, you made St. Ezequiel Moreno a missionary and a bishop, and you kept him faithful through war, opposition and the pain of cancer. Through his prayers, look with mercy on all who are sick, especially those living with cancer. Give them courage for each treatment, relief in pain, and people who will stay beside them. Strengthen doctors, nurses and families who care for them. When my own strength fails, teach me to trust that your grace is enough, and bring all of us at last to share your glory. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep his feast on August 19; Augustinian Recollect communities celebrate it, and in the Philippines, where he served as a young priest, the bishops' conference made it an obligatory memorial in 2024.",
+      "Pray for someone you know who is living with cancer, and if you can, visit, call or write to them in the days around his feast.",
+      "Support a ministry that accompanies the sick; in Colombia, the Augustinian Recollect Fundación San Ezequiel Moreno serves cancer patients and their families in his name.",
+      "Pray for bishops and missionaries, especially in Latin America and the Philippines, recalling that John Paul II held him up as a model for pastors.",
+      "Spend a few minutes before the Blessed Sacrament or with an image of the Sacred Heart, a devotion the Recollects say was especially dear to him."
+    ],
+    "confirmationNote": "Ezequiel Moreno can suit a confirmand who wants courage for hard places. He left Spain young, served for years in the Philippines, then took on missions and a diocese in Colombia amid civil conflict, and finally faced cancer with patience and faith. Confirmation strengthens Christians to witness in whatever circumstances God allows, and his life shows that faithfulness can include both bold service and suffering accepted with trust.",
+    "reflectionPrompts": [
+      "Is there an illness or weakness in my life, or in someone I love, that I have not yet brought honestly to God in prayer?",
+      "This week, reach out to one person who is sick or caring for someone who is, and offer a concrete kind of help.",
+      "Read John 10:1–18 and 2 Corinthians 12:7–10, then the Augustinian Recollects' account of his life, and note how both shepherding and weakness shaped his path."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Spiritual father of the Augustinian family to which the Recollects belong",
+        "historical": true
+      },
+      {
+        "slug": "magdalena-of-nagasaki",
+        "reason": "Fellow Augustinian Recollect saint, a tertiary martyred in Japan",
+        "historical": true
+      },
+      {
+        "slug": "john-eudes",
+        "reason": "Shares the August 19 feast and also promoted devotion to the Sacred Heart",
+        "historical": true
+      },
+      {
+        "slug": "peregrine-laziosi",
+        "reason": "Another saint invoked by people living with cancer",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Augustinian Recollects (recoletos.org): The Augustinian Recollects and the sick with cancer in the Philippines",
+        "url": "https://recoletos.org/en/augustinian-recollects-sick-cancer-philippines/"
+      },
+      {
+        "title": "Augustinian Recollects (recoletos.org): Saint Ezekiel Moreno, pastor, missionary and witness of the Gospel",
+        "url": "https://recoletos.org/en/saint-ezekiel-moreno-pastor-missionary-and-witness-of-the-gospel"
+      },
+      {
+        "title": "Augustinian Recollects (agustinosrecoletos.com): Fundación San Ezequiel Moreno, an Augustinian Recollect work for cancer patients and their families",
+        "url": "https://agustinosrecoletos.com/2009/10/06/fundacion-san-ezequiel-moreno-una-obra-agustino-recoleta-para-los-enfermos-de-cancer-y-sus-familias/?lang=en"
+      },
+      {
+        "title": "Augustinian Recollects (recoletos.org): Saint Magdalene of Nagasaki, Augustinian Recollect martyr",
+        "url": "https://recoletos.org/en/saint-magdalene-of-nagasaki-augustinian-recollect-martyr/"
+      },
+      {
+        "title": "Augustinians (Province of St. Thomas of Villanova): August 19, Saint Ezekiel Moreno",
+        "url": "https://augustinian.org/august-19/"
+      },
+      {
+        "title": "John Paul II: Homily at Santo Domingo for the V Centenary and canonization of Ezequiel Moreno (October 11, 1992, Italian)",
+        "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1992/documents/hf_jp-ii_hom_19921011_v-centenario.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 10",
+        "url": "https://www.drbo.org/chapter/50010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 12",
+        "url": "https://www.drbo.org/chapter/54012.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Romans 8",
+        "url": "https://www.drbo.org/chapter/52008.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. No reputable source describes established attributes; bishop's mitre, Recollect habit or crucifix would be inferences from his biography, not documented iconography.",
+      "patronages: review lists none; cancer-patients is included because the Augustinian Recollects' official site (recoletos.org) calls him the patron saint of people suffering from cancer. Popular sites also call him patron of Augustinian Recollect missionaries; not verified on an official page and no live topic.",
+      "places: omitted. His remains rest at the Recollect friary church in Monteagudo (Navarre), but no official website for that shrine was found.",
+      "prayer: original. The Recollects offer a novena by email and app, but no web page with a verified traditional text was found to link.",
+      "quotes: his own writings (Spanish pastoral letters) were not found in a public-domain English translation, so Douay-Rheims verses were used.",
+      "feastCustoms: the 2024 Philippine obligatory memorial is from recoletos.org, not a CBCP page; a human may want to confirm. The Sacred Heart devotion and 'model for pastors' come from recoletos.org and augustinian.org respectively.",
+      "biography: no disagreement with the reviewed biography. Sources differ on the year he became bishop of Pasto (augustinian.org says 1899; recoletos.org says 1896), so the entry gives no year. Some sources date his cancer diagnosis to 1905."
+    ]
+  },
+  "faustina-kowalska": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Faustina Kowalska was a Polish sister of Our Lady of Mercy who worked as a cook, gardener and porter while recording in her Diary the message of Divine Mercy. The image inscribed \"Jesus, I trust in You\" and the Chaplet spread from her witness. Catholics keep her optional memorial on October 5.",
+    "searchDescription": "St. Faustina Kowalska (1905–1938), Polish sister whose Diary spread devotion to Divine Mercy, its image and Chaplet. Feast: October 5.",
+    "symbols": [
+      {
+        "symbol": "Habit of the Sisters of Our Lady of Mercy",
+        "meaning": "Her religious life in the congregation she entered in 1925, where she served in humble tasks in Kraków, Płock and Vilnius."
+      },
+      {
+        "symbol": "Image of the merciful Jesus",
+        "meaning": "The image of the risen Christ she was asked to have painted; the first version was made in Vilnius in 1934 under her guidance."
+      },
+      {
+        "symbol": "Two rays, one red and one pale, from Christ's heart",
+        "meaning": "In the image, the rays recall the blood and water that flowed from Christ's pierced side (John 19:34), as John Paul II explained at her canonization."
+      },
+      {
+        "symbol": "The inscription \"Jesus, I trust in You\"",
+        "meaning": "The words beneath the image, a simple act of trust that John Paul II commended to the whole Church."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Faustina when they need to know that God's mercy is larger than their failures. She had little schooling and spent her religious life cooking, gardening and answering the convent door, yet through her the Church received a renewed call to trust in Christ's mercy and to show mercy to others. Catholics ask her prayers when they struggle to believe they can be forgiven, when they pray for the dying, and when they want to begin again. Her message belongs to private revelation, which the Church approves but never places beside Scripture, and it always points back to the Gospel, confession and the Eucharist.",
+    "quotes": [
+      {
+        "text": "The mercies of the Lord I will sing for ever.",
+        "work": "Psalm 88:2 (Psalm 89:2 in Hebrew numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "But one of the soldiers with a spear opened his side, and immediately there came out blood and water.",
+        "work": "John 19:34",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Be ye therefore merciful, as your Father also is merciful.",
+        "work": "Luke 6:36",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Merciful Jesus, you chose St. Faustina, a humble sister in kitchens and gardens, to remind the world of your mercy. Through her prayers, help me to believe that no sin of mine is greater than your love. Lead me back to confession and to your table with an open heart. Teach me to show the mercy I have received: in patience with others, in forgiving quickly, and in caring for the poor, the sick and the dying. When I am anxious or ashamed, let me say from the heart, Jesus, I trust in You. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "The Chaplet of the Divine Mercy (Congregation of the Sisters of Our Lady of Mercy)",
+        "url": "https://www.saint-faustina.org/chaplet-of-the-divine-mercy/"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on October 5, her optional memorial, which Pope Francis extended to the universal Roman calendar in 2020.",
+      "Keep Divine Mercy Sunday, the Second Sunday of Easter, named by John Paul II at her canonization in 2000; a 2002 Apostolic Penitentiary decree attaches a plenary indulgence under the usual conditions of confession, Communion and prayer for the pope's intentions.",
+      "Pray the Chaplet of the Divine Mercy, a devotion recorded in her Diary and prayed on ordinary rosary beads; the Sisters' Chaplet for the Dying ministry invites people to pray it for the dying.",
+      "Pause for a short prayer at the Hour of Mercy, the afternoon hour traditionally associated with Christ's death; the Sisters suggest the Stations of the Cross, a visit to the Blessed Sacrament, or simply a moment of recollection wherever you are.",
+      "Display the Divine Mercy image at home and do one concrete work of mercy for someone in need."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of Divine Mercy, Kraków-Łagiewniki (her tomb)",
+        "city": "Kraków, Poland",
+        "url": "https://www.sanktuarium.faustyna.pl/"
+      },
+      {
+        "name": "Shrine of Divine Mercy (original image painted in 1934)",
+        "city": "Vilnius, Lithuania",
+        "url": "https://gailestingumas.lt/en/home-page/"
+      }
+    ],
+    "confirmationNote": "Faustina can suit a confirmand who knows their own weakness and wants to trust God more. She had almost no schooling and spent her days in ordinary chores, yet she let God's mercy shape everything, including her care for the poor at the convent gate. Confirmation strengthens Christians to witness to Christ, and Faustina shows that receiving mercy humbly and passing it on to others is itself a powerful witness.",
+    "reflectionPrompts": [
+      "Is there a sin or failure I find hard to believe God has forgiven, and what would trusting his mercy look like today?",
+      "Choose one corporal or spiritual work of mercy and do it for someone specific before the week is out.",
+      "Read John 20:19–31, the Gospel of the Second Sunday of Easter, then John Paul II's homily for her canonization on April 30, 2000."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "Canonized her in 2000 and named the Second Sunday of Easter Divine Mercy Sunday",
+        "historical": true
+      },
+      {
+        "slug": "albert-chmielowski",
+        "reason": "Kraków saint of the generation before her who served the poorest; also canonized by John Paul II",
+        "historical": true
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "Her visions of the Sacred Heart are another private revelation centered on Christ's merciful love",
+        "historical": false
+      },
+      {
+        "slug": "catherine-labour",
+        "reason": "Another sister whose reported visions spread worldwide while she lived a hidden life of ordinary work",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican: Maria Faustina Kowalska (1905-1938), biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20000430_faustina_en.html"
+      },
+      {
+        "title": "John Paul II: Homily for the canonization of Sr. Mary Faustina Kowalska (April 30, 2000)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2000/documents/hf_jp-ii_hom_20000430_faustina.html"
+      },
+      {
+        "title": "Vatican News: St. Faustina Kowalska added to the General Roman Calendar (May 2020)",
+        "url": "https://www.vaticannews.va/en/pope/news/2020-05/saint-faustina-kowalska-roman-calendar-universal-feast.html"
+      },
+      {
+        "title": "Apostolic Penitentiary: Decree on indulgences attached to devotions in honour of Divine Mercy (June 29, 2002)",
+        "url": "https://www.vatican.va/roman_curia/tribunals/apost_penit/documents/rc_trib_appen_doc_20020629_decree-ii_en.html"
+      },
+      {
+        "title": "Catholic Culture: St. Faustina Kowalska, October 5",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-05"
+      },
+      {
+        "title": "Congregation of the Sisters of Our Lady of Mercy: The Hour of Mercy",
+        "url": "https://www.saint-faustina.org/hour-of-mercy/"
+      },
+      {
+        "title": "Congregation of the Sisters of Our Lady of Mercy: Chaplet for the Dying",
+        "url": "https://www.saint-faustina.org/chaplet-for-the-dying/?view=about"
+      },
+      {
+        "title": "Congregation of the Sisters of Our Lady of Mercy: The Shrine of the Divine Mercy",
+        "url": "https://www.saint-faustina.org/the-shrine-of-the-divine-mercy/"
+      },
+      {
+        "title": "Shrine of Divine Mercy, Vilnius: Story of the Painting",
+        "url": "https://gailestingumas.lt/en/story-of-the-painting/"
+      },
+      {
+        "title": "University of Notre Dame, Faith ND: St. Faustina Kowalska",
+        "url": "https://faith.nd.edu/saint/st-faustina-kowalska/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 88",
+        "url": "https://www.drbo.org/chapter/21088.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 19",
+        "url": "https://www.drbo.org/chapter/50019.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 6",
+        "url": "https://www.drbo.org/chapter/49006.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none, and no reputable source found states a patronage for her; field omitted.",
+      "symbols: Catholic Culture lists 'young nun in habit' and 'nun with vision of Jesus, with two streams of light, one red and white'. The rays and the inscription are parts of the Divine Mercy image, listed separately because Catholic Culture and the canonization homily name them; a human may prefer to merge them.",
+      "quotes: her Diary is under copyright (Marian Fathers), so nothing from it is quoted; Douay-Rheims verses on mercy were used. 'Jesus, I trust in You' appears only as the image's inscription and in the original prayer.",
+      "prayer: the Chaplet's text is not reproduced; the link goes to the Sisters' own page (URL taken from saint-faustina.org's menu and checked to load; its contents were not reviewed).",
+      "feastCustoms: the Hour of Mercy is described without a clock time, per instructions; the Vatican biography and the Sisters' page tie it to the traditional hour of Christ's death.",
+      "places: sanktuarium.faustyna.pl is the Polish-language site of the Łagiewniki sanctuary run by the Congregation (page loads; title confirms). The Vilnius shrine's site states it holds the original 1934 painting.",
+      "biography: no disagreement with the reviewed biography. The Vatican biography gives entry to the congregation as August 1, 1925 (matches review); Catholic Culture says she entered in Warsaw. Beatification was April 18, 1993.",
+      "symbols: effectively habit + the Divine Mercy image (rays and inscription are parts of it) — grouped with recently canonized saints for an owner decision; set to 1.5 (coordinator)"
     ]
   },
   "francis-of-assisi": {
