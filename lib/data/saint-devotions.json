@@ -27969,5 +27969,747 @@
       "feastCustoms: the migrant house near his sanctuary (Casa del Migrante Santo Toribio) is sourced only to an Angelus article and is described without naming it, in case it closes",
       "templateVersion 2 after owner made symbols optional (2026-11-11); no symbols — Symbols in art hidden"
     ]
+  },
+  "john-eudes": {
+    "templateVersion": 2,
+    "searchDescription": "St. John Eudes preached parish missions, formed clergy, and united devotion to the hearts of Jesus and Mary with service to people in need.",
+    "heroSummary": "St. John Eudes, a patron of missionaries, was a French priest who preached parish missions and worked to form clergy. He founded the Congregation of Jesus and Mary and helped establish the Order of Our Lady of Charity. His devotion to the hearts of Jesus and Mary shaped his ministry. His memorial is August 19.",
+    "whyWeTurn": "People turn to John Eudes for help when compassion needs to become practical. He cared for people during outbreaks of plague, preached to parish communities, and recognized that priests needed careful formation to serve them well. He also helped provide a refuge for women in distress. His devotion to the hearts of Jesus and Mary focused his attention on God's mercy and on a loving response to other people. Priests, seminarians, catechists, and anyone seeking to grow in patience can ask his prayers. His example invites us to unite prayer with attentive service, especially when someone is easily overlooked.",
+    "prayer": {
+      "text": "Lord Jesus, you called St. John Eudes to carry the good news to communities and to care for people in distress. Through his prayers, teach me to receive your mercy and share it with patience. Strengthen priests, seminarians, catechists, and all who accompany others in faith. When someone's need feels too large for me, help me take one faithful step instead of turning away. May the love shown in your heart shape my choices and draw me closer to you. Mary, mother of Jesus, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On August 19, remember John Eudes in prayer and ask God to strengthen priests and seminarians.",
+      "Read the Eudists' history of their founder, then name one way his work joined prayer and service.",
+      "Offer a practical act of kindness to someone experiencing isolation or difficulty.",
+      "Spend a few quiet minutes reflecting on the love of Jesus and Mary's faithful response."
+    ],
+    "confirmationNote": "John Eudes may speak to a candidate who wants to help others understand their faith or who is drawn to quiet, practical care. His work for clergy and for women in distress grew from a life of prayer. Read about his missions and discuss with a sponsor how you might connect prayer with one act of service. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Where do I find it hardest to respond patiently to someone in need?",
+      "This week, take one concrete step to support someone whose work of service often goes unnoticed.",
+      "Read the Eudists' account of their founding. What need did their community seek to address in 1643?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-vianney",
+        "reason": "Canonized on the same day as Eudes in 1925",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "Another figure in the Catholic spiritual renewal of seventeenth-century France",
+        "historical": true
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "A contemporary associated with devotion to the Sacred Heart",
+        "historical": true
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "A pastor and spiritual writer whose teaching also encourages ordinary people in faith",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eudists: Our History and Mission",
+        "url": "https://eudistes.org/en/histoire-mission.html"
+      },
+      {
+        "title": "Eudists: St. John Eudes and the cause for recognition",
+        "url": "https://eudistes.org/en/doctorat.html"
+      },
+      {
+        "title": "Benedict XVI: St. John Eudes and the formation of clergy",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090819.html"
+      },
+      {
+        "title": "Archdiocese of Montreal: Saint John Eudes",
+        "url": "https://diocesemontreal.org/en/node/1925"
+      },
+      {
+        "title": "Catholic Apostolate Center: St. John Eudes",
+        "url": "https://www.catholicapostolatecenterfeastdays.org/feast-days-and-solemnities/st-john-eudes"
+      }
+    ],
+    "flags": [
+      "patronages: missionaries and the Congregation of Jesus and Mary are documented by Catholic Apostolate Center but do not have matching live patronage topics; the field is omitted.",
+      "symbols: fewer than three meanings were verified from reliable Catholic sources; omitted under the optional-symbols rule.",
+      "quotes: no public-domain English wording was checked against a source; omitted.",
+      "places: no verified official visitor site was identified for his relics; omitted.",
+      "feastCustoms: suggested prayer and service are original devotional activities, not claims of universal customary observance.",
+      "relatedSaints: John Vianney's shared 1925 canonization and Vincent de Paul's place in seventeenth-century French renewal are confirmed by Benedict XVI. Margaret Mary was a contemporary associated with devotion to the Sacred Heart, not claimed as a personal acquaintance."
+    ]
+  },
+  "john-fisher": {
+    "templateVersion": 2,
+    "searchDescription": "St. John Fisher, English bishop and scholar, is remembered with Thomas More for fidelity during the English Reformation.",
+    "heroSummary": "St. John Fisher, patron of the Diocese of Rochester, New York, was an English bishop and Cambridge scholar. He was imprisoned and executed in 1535 after refusing Henry VIII's claim to supremacy over the Church in England. Remembered with St. Thomas More on June 22, he joined study, pastoral responsibility, and costly fidelity.",
+    "whyWeTurn": "People turn to John Fisher when conscience and public pressure seem to pull in different directions. A scholar and Cambridge chancellor, he also served for many years as bishop of Rochester. His refusal to accept the king's claim to supremacy over the English Church led to imprisonment and execution. His witness does not make complicated decisions easy or excuse harshness toward others. It offers a companion for people seeking to study carefully, pray honestly, and remain faithful when a choice has consequences. Students, teachers, church leaders, and those facing pressure can ask his prayers for courage joined to humility and charity.",
+    "prayer": {
+      "text": "Lord Jesus, you sustained St. John Fisher through study, service, imprisonment, and death. Through his prayers, give me a conscience formed by truth and a heart open to your grace. When I am afraid to do what is right, help me listen, seek wise counsel, and act with courage. Keep me from treating people who disagree with me as enemies. Bless teachers and students, pastors and their communities, and all who suffer for their faith. Let my words and actions bear witness to your love. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On June 22, remember John Fisher and Thomas More together in prayer.",
+      "Read the USCCB account of the two martyrs, noting both their shared witness and their different responsibilities.",
+      "Pray for people who face pressure because of their religious convictions and for those who hold public responsibility.",
+      "Choose a difficult question of conscience to discuss respectfully with a trusted teacher or spiritual adviser."
+    ],
+    "confirmationNote": "John Fisher may interest a candidate who enjoys study or wants to understand how faith shapes difficult decisions. He combined the work of a scholar with a bishop's responsibility for his people. Read his story alongside that of Thomas More, then ask a sponsor how to form conscience with prayer and sound advice. Follow your parish's guidance when considering a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I felt pressure to agree with others before I had considered what was right?",
+      "This week, listen respectfully to someone with a different view and seek a reliable source before responding.",
+      "Read the USCCB account of Fisher and Thomas More. What did each risk when resisting the king's claim to supremacy over the Church?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "thomas-more",
+        "reason": "Fellow English martyr remembered with Fisher on June 22",
+        "historical": true
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "A theologian whose work offers another example of study in service of faith",
+        "historical": false
+      },
+      {
+        "slug": "john-henry-newman",
+        "reason": "An English scholar whose writings also explored conscience and faith",
+        "historical": false
+      },
+      {
+        "slug": "edmund-campion",
+        "reason": "A later English martyr whose story invites study of a different period",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: St. Thomas More and St. John Fisher",
+        "url": "https://www.usccb.org/committees/religious-liberty/st-thomas-more-and-st-john-fisher"
+      },
+      {
+        "title": "St. John Fisher University: Life of Saint John Fisher",
+        "url": "https://www.sjf.edu/about/history/life-of-saint-john-fisher/index.html"
+      },
+      {
+        "title": "Diocese of Rochester: St. John Fisher, diocesan patron",
+        "url": "https://www.dor.org/bishop-celebrates-year-of-mercy-masses-in-june/"
+      },
+      {
+        "title": "John Paul II: Apostolic letter on St. Thomas More",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_20001031_thomas-more.html"
+      }
+    ],
+    "flags": [
+      "patronages: Diocese of Rochester, New York is documented by the diocese and named in the hero; no corresponding live topic exists, so the field is omitted.",
+      "symbols: no set of at least three verified iconographic meanings found; omitted.",
+      "quotes: no public-domain English quotation was checked word for word; omitted.",
+      "places: no suitable official visitor site was verified for a location directly connected with Fisher; omitted.",
+      "feastCustoms: the prayer, reading, and discussion suggestions are original practices rather than claims of established local customs.",
+      "relatedSaints: Thomas More's shared June 22 feast and common refusal of the oath are supported by USCCB; other links are thematic."
+    ]
+  },
+  "john-francis-regis": {
+    "templateVersion": 2,
+    "searchDescription": "St. John Francis Regis was a Jesuit missionary who preached in rural France and served people living in poverty.",
+    "heroSummary": "St. John Francis Regis, a patron of lacemakers, was a French Jesuit priest who preached in villages and cared for people in poverty. After civil conflict, he traveled to communities with limited pastoral care and helped establish charitable works. He died in 1640, and his feast is celebrated on June 16.",
+    "whyWeTurn": "People turn to John Francis Regis when faith needs to be carried into places that feel forgotten. A Jesuit priest in seventeenth-century France, he preached parish missions and sought practical help for people living in poverty. His ministry took him to rural communities after years of religious conflict, as well as to people needing food or shelter. A parish honoring him names lacemakers among those who claim him as patron. People who work for fair treatment, serve their neighbors, or feel distant from their community can ask his prayers. His life invites us to notice who lacks support and to pair spoken faith with patient action.",
+    "prayer": {
+      "text": "Lord Jesus, you sent St. John Francis Regis to preach your good news and serve people in need. Through his prayers, open my eyes to neighbors who feel forgotten or have too little support. Give me a generous heart and the patience to help in ways that respect each person's dignity. Bless all who work for fair conditions and those who bring care to isolated communities. When the needs around me seem overwhelming, show me one act of love I can carry out today. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On June 16, remember John Francis Regis in prayer and ask for compassion toward neighbors in need.",
+      "Read the Jesuits' account of his missions and discuss one way a parish can welcome someone who feels distant.",
+      "Support a local food pantry or another service that responds to needs in your community.",
+      "Learn about lacemaking or another skilled craft and pray for people whose work is undervalued."
+    ],
+    "confirmationNote": "John Francis Regis may appeal to a candidate who wants to speak about faith and also help meet practical needs. His missions took him to people in rural communities, and his concern for those living in poverty shaped his ministry. Read about one of his works, then ask your sponsor how your parish serves neighbors who may be overlooked. Follow your parish's guidance about Confirmation names.",
+    "reflectionPrompts": [
+      "Who in my community might feel overlooked or far from support?",
+      "This week, find one practical way to contribute to a local effort that helps a neighbor.",
+      "Read the Society of Jesus biography of Regis. What challenges shaped the places where he preached?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "Founded the Society of Jesus, the order to which Regis belonged",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "An early Jesuit missionary whose work took him to communities far from home",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A contemporary French priest known for organizing assistance for people in poverty",
+        "historical": true
+      },
+      {
+        "slug": "john-eudes",
+        "reason": "Another seventeenth-century French priest who preached parish missions",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Society of Jesus: St. John Francis Regis",
+        "url": "https://www.jesuits.global/saint-blessed/saint-john-francis-regis/"
+      },
+      {
+        "title": "St. Regis Catholic Church and School: St. John Francis Regis",
+        "url": "https://stregis.org/church/about/st-john-francis-regis/"
+      },
+      {
+        "title": "Society of Jesus: Missions from the Pope",
+        "url": "https://www.jesuits.global/ministries/missions-from-the-pope/"
+      }
+    ],
+    "flags": [
+      "patronages: St. Regis Catholic Church lists lacemakers and medical social workers among his patronages; no matching live topic exists, so the patronages field is omitted.",
+      "symbols: no set of three source-supported iconographic meanings identified; omitted under the optional-symbols rule.",
+      "quotes: no verified public-domain English passage was identified; omitted.",
+      "places: the Lalouvesc shrine is mentioned by the Cenacle Sisters, but an official site for the shrine itself was not verified; omitted.",
+      "feastCustoms: prayer, craft learning, and local service are suggested activities rather than claims of established feast traditions.",
+      "relatedSaints: Ignatius founded the Jesuits; Xavier was an early Jesuit missionary. Vincent de Paul and John Eudes were contemporary French priests, with no direct acquaintance asserted."
+    ]
+  },
+  "john-henry-newman": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Henry Newman is co-patron of the Church's educational mission with St. Thomas Aquinas. An English scholar and pastor, he entered the Catholic Church in 1845 and founded the Birmingham Oratory. A cardinal and Doctor of the Church, he is remembered on October 9 for a life of seeking truth through faith and reason.",
+    "searchDescription": "St. John Henry Newman: English priest, cardinal and Doctor of the Church whose search for truth shaped his teaching and pastoral life.",
+    "whyWeTurn": "People turn to John Henry Newman when faith brings difficult questions or a decision calls for a carefully formed conscience. His own journey included years of studying the early Church before he was received into Catholic communion in 1845. He did not serve only through scholarship: at the Birmingham Oratory he preached, wrote, and cared for people as a priest. Pope Leo XIV named Newman a co-patron of the Church's educational mission in 2025. Students, teachers, and those weighing a change can ask his intercession for humility, patience, and the courage to follow the truth.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you are the truth we seek and the light for our steps. Through the prayers of St. John Henry Newman, give me patience when my questions do not have easy answers and humility to listen before I speak. Help teachers and students to search honestly and to use what they learn in service of others. Form my conscience through prayer, study, and the wisdom of your Church. When a faithful choice is difficult, grant me the courage to follow you with love. St. John Henry Newman, pray for us. Amen."
+    },
+    "feastCustoms": [
+      "On October 9, his optional memorial in the General Roman Calendar, read a short account of Newman's journey into the Catholic Church.",
+      "Pray for teachers, students, and everyone responsible for forming consciences.",
+      "Read a passage from Newman's writing and talk with a teacher or sponsor about a question it raises.",
+      "Offer encouragement to someone facing a difficult decision or a change in their life."
+    ],
+    "places": [
+      {
+        "name": "The Birmingham Oratory and Newman Shrine",
+        "city": "Birmingham, England",
+        "url": "https://birminghamoratory.org.uk/newmans-canonisation/"
+      }
+    ],
+    "confirmationNote": "Newman may appeal to a candidate who loves learning or brings sincere questions to faith. His journey into the Catholic Church grew from years of study and prayer, and he continued to serve as a priest and teacher. His example invites you to form your conscience carefully, seek trusted guidance, and let learning deepen your love of Christ. Ask your parish about its practice for Confirmation names.",
+    "reflectionPrompts": [
+      "When have my questions led me to listen or learn more carefully?",
+      "Ask a trusted teacher or sponsor about one question of faith, then make time to follow up.",
+      "Read the Vatican account of Newman's life and identify one event that shaped his journey into the Catholic Church."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "philip-neri",
+        "reason": "Founder of the Oratory whose way of life Newman brought to Birmingham",
+        "historical": true
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "Named with Newman as co-patron of the Church's educational mission",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "Early Church writer whose conversion invites reflection on faith and truth",
+        "historical": false
+      },
+      {
+        "slug": "john-neumann",
+        "reason": "A nineteenth-century Catholic pastor whose work supported education",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: 2019 canonization booklet, John Henry Newman biography",
+        "url": "https://www.vatican.va/news_services/liturgy/libretti/2019/20191013-libretto-canonizzazione.pdf"
+      },
+      {
+        "title": "Holy See: Newman proclaimed Doctor and inscribed in the calendar",
+        "url": "https://www.vatican.va/content/romancuria/en/dicasteri/dicastero-culto-divino-e-disciplina-sacramenti/documenti/20260203-commento-decreto-iscrizione-newman.html"
+      },
+      {
+        "title": "The Birmingham Oratory: Newman biography",
+        "url": "https://birminghamoratory.org.uk/biography/"
+      },
+      {
+        "title": "The Birmingham Oratory: Newman's canonisation and shrine",
+        "url": "https://birminghamoratory.org.uk/newmans-canonisation/"
+      }
+    ],
+    "flags": [
+      "patronages: Leo XIV named Newman co-patron of the Church's educational mission in 2025; no exact live patronage topic lists him, so no patronage slug was added.",
+      "symbols: omitted because three source-supported artistic attributes and meanings were not established.",
+      "quotes: omitted; Newman's public-domain writings exist, but no exact passage was independently checked for this entry.",
+      "feastCustoms: items are suggested personal practices, not asserted established local customs.",
+      "relatedSaints: Newman and Neumann were contemporaries in the nineteenth century; no direct acquaintance is asserted."
+    ]
+  },
+  "john-i": {
+    "templateVersion": 2,
+    "heroSummary": "St. John I was bishop of Rome from 523 until his death in 526. Sent to Constantinople by the Ostrogothic king Theodoric, he was imprisoned after returning to Italy and died at Ravenna. The Church honors him as a pope and martyr on May 18, remembering his witness amid political and religious conflict.",
+    "searchDescription": "St. John I, pope and martyr: an embassy to Constantinople, imprisonment in Ravenna, and a feast on May 18.",
+    "whyWeTurn": "People may ask St. John I to pray for them when faithfulness must be lived amid pressure they cannot control. As pope, John was compelled by King Theodoric to lead an embassy to Emperor Justin in Constantinople. He was welcomed in the East, but after his return Theodoric had him imprisoned at Ravenna, where he died in 526. The surviving accounts leave many details of his pontificate uncertain, and his mission should be understood within a complicated conflict over religious policy. His commemoration invites prayer for prisoners, for wise leaders, and for Christians facing coercion today.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you remained faithful even when you suffered injustice. Through the prayers of St. John I, strengthen all who are imprisoned, threatened, or pressured because of their faith. Give wisdom to leaders whose decisions affect the vulnerable, and teach me to seek peace without abandoning truth. When I cannot change a difficult situation, help me to act with courage, patience, and compassion for others. Comfort those separated from their families and sustain those who care for them. May your Church bear faithful witness in every age. St. John I, pray for us. Amen."
+    },
+    "feastCustoms": [
+      "Remember Pope St. John I on May 18, the date of his commemoration in the Roman calendar.",
+      "Pray for prisoners, their families, and the people who provide pastoral care to them.",
+      "Read a reliable account of his embassy and ask what can and cannot be established from the surviving sources.",
+      "Learn about a current ministry that supports prisoners or their families, and consider a practical way to help."
+    ],
+    "confirmationNote": "John I may interest a candidate who wonders how to live the faith when powerful people make decisions beyond one's control. The historical record preserves the broad outline of his embassy and imprisonment but leaves many personal details unknown. His memory invites you to pray for courage and compassion for those facing coercion, while respecting the limits of what can be known about his life.",
+    "reflectionPrompts": [
+      "When have I felt pressure to compromise a conviction, and who helped me respond wisely?",
+      "Pray for someone affected by imprisonment and consider supporting a local prison ministry.",
+      "Read the Catholic Encyclopedia's account of John's embassy. Which details does it describe as uncertain?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "benedict",
+        "reason": "A monastic saint who lived in sixth-century Italy during John's era",
+        "historical": true
+      },
+      {
+        "slug": "silverius",
+        "reason": "Another sixth-century pope who suffered exile and is honored as a saint",
+        "historical": true
+      },
+      {
+        "slug": "peter",
+        "reason": "The apostle remembered as the first bishop of Rome",
+        "historical": false
+      },
+      {
+        "slug": "leo-the-great",
+        "reason": "An earlier bishop of Rome remembered for pastoral leadership",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: John I, martyr",
+        "url": "https://www.vatican.va/content/vatican/it/holy-father/giovanni-i.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: Pope St. John I",
+        "url": "https://www.newadvent.org/cathen/08421a.htm"
+      },
+      {
+        "title": "USCCB: Optional Memorial of Saint John I, Pope and Martyr",
+        "url": "https://bible.usccb.org/bible/readings/0518-memorial-john-i.cfm"
+      },
+      {
+        "title": "Benedictine Confederation: St. Benedict of Nursia",
+        "url": "https://www.archive.osb.org/gen/benedict.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: Pope St. Silverius",
+        "url": "https://www.newadvent.org/cathen/13793a.htm"
+      }
+    ],
+    "flags": [
+      "patronages: no reliably sourced patronage matching a live topic was established.",
+      "symbols: omitted because no three well-sourced artistic attributes and meanings were established.",
+      "quotes: omitted; letters once attributed to John are not considered authentic.",
+      "feastCustoms: the USCCB confirms the current May 18 memorial; the older Catholic Encyclopedia gives May 27. The listed activities are suggested individual practices, not documented regional customs.",
+      "relatedSaints: Benedict is dated approximately 480–547 in a Benedictine source; no personal acquaintance with John is claimed. Silverius was a later sixth-century pope, not John's immediate successor."
+    ]
+  },
+  "john-neumann": {
+    "templateVersion": 2,
+    "heroSummary": "St. John Neumann is a patron of immigrants and sick children. A Redemptorist missionary and bishop of Philadelphia, he served immigrant communities and helped expand Catholic education. Born in Bohemia in 1811, he was ordained in New York and became bishop in 1852. The Church in the United States remembers him on January 5.",
+    "searchDescription": "St. John Neumann, Philadelphia bishop and Redemptorist missionary, served immigrant communities and helped expand Catholic education.",
+    "whyWeTurn": "People turn to John Neumann when they are trying to welcome newcomers or teach the faith with patience. Leaving his native Bohemia for the United States, he served scattered communities as a priest and joined the Redemptorists. As bishop of Philadelphia he supported immigrant congregations and helped expand Catholic schools. His use of languages helped him meet people in their own communities. The USCCB remembers his care for migrants as well as his work in education. His story can encourage teachers, pastors, and anyone seeking to make room for a neighbor who is new.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you call us to welcome one another as members of your family. Through the prayers of St. John Neumann, help me notice people who feel far from home or uncertain of their welcome. Give teachers and catechists patience, wisdom, and joy in serving those entrusted to them. Bless families beginning life in a new place, and support those who help them learn and belong. Teach me to listen across differences and to share what I have with kindness. St. John Neumann, pray for us. Amen."
+    },
+    "feastCustoms": [
+      "On January 5, the memorial of St. John Neumann in the United States, pray for teachers, students, and families.",
+      "Learn about a parish or community ministry that welcomes immigrants and consider how to help.",
+      "Read about Neumann's work in Catholic education and thank someone who has taught you.",
+      "Visit or explore the official website of his national shrine in Philadelphia."
+    ],
+    "places": [
+      {
+        "name": "National Shrine of St. John Neumann",
+        "city": "Philadelphia, Pennsylvania",
+        "url": "https://stjohnneumann.org/about-st-john-neumann"
+      }
+    ],
+    "confirmationNote": "John Neumann may appeal to a candidate who values teaching, languages, or welcoming people from other places. As a Redemptorist priest and later bishop, he served immigrant communities and helped Catholic schools grow. His example invites you to see faith as a gift to share with patience and practical care. Ask your parish about its Confirmation-name guidance and discuss his life with your sponsor.",
+    "reflectionPrompts": [
+      "When have I felt welcomed by someone in an unfamiliar place or community?",
+      "Learn how your parish welcomes newcomers and choose one way to help.",
+      "Read the USCCB's reflection on Neumann and identify how it connects education with concern for migrants."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "Founder of the Redemptorists, the congregation John Neumann joined",
+        "historical": true
+      },
+      {
+        "slug": "john-bosco",
+        "reason": "A nineteenth-century priest who also served young people through education",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "An American saint associated with Catholic education",
+        "historical": false
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A Philadelphia-born saint whose work included education and service",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: Memorial of St. John Neumann, January 5",
+        "url": "https://www.usccb.org/prayer-and-worship/liturgical-year/christmas/christmas-january-5"
+      },
+      {
+        "title": "Holy See: Paul VI's homily at the canonization of John Neumann",
+        "url": "https://www.vatican.va/content/paul-vi/en/homilies/1977/documents/hf_p-vi_hom_19770619.html"
+      },
+      {
+        "title": "Holy See: John Paul II visits St. John Neumann's tomb",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1979/october/documents/hf_jp-ii_spe_19791004_st-john-neumann.html"
+      },
+      {
+        "title": "National Shrine of St. John Neumann: biography",
+        "url": "https://stjohnneumann.org/about-st-john-neumann"
+      },
+      {
+        "title": "Basilica of the National Shrine of the Immaculate Conception: St. John Neumann",
+        "url": "https://www.nationalshrine.org/blog/5-things-you-should-know-about-st-john-nepomucene-neumann/"
+      }
+    ],
+    "flags": [
+      "patronages: the National Shrine names immigrants and sick children; the live immigrants topic does not currently list him, so no patronage slug is added.",
+      "symbols: omitted because three well-sourced artistic attributes and meanings were not established.",
+      "quotes: omitted because no public-domain translation of Neumann's words was independently verified.",
+      "feastCustoms: the activities are suggested ways to observe the memorial, not documented regional customs.",
+      "biography: the shrine biography gives two different dates for his 1852 episcopal ordination; this entry states only the year and agrees with the reviewed biography."
+    ]
+  },
+  "john-of-beverley": {
+    "templateVersion": 2,
+    "heroSummary": "St. John of Beverley was a Northumbrian bishop who served at Hexham and York and founded a religious community at Beverley. He ordained the scholar Bede and later retired to the community he had founded. John died in 721, and his English commemoration is kept on May 7.",
+    "searchDescription": "Meet St. John of Beverley, the Northumbrian bishop who ordained Bede and founded a community at Beverley. His English commemoration is May 7.",
+    "whyWeTurn": "John of Beverley offers a way to think about the patient work of teaching. He served as a bishop and helped form clergy, including Bede, whose history preserves accounts of him. The community he founded at Beverley continued after his retirement and became a place of remembrance. People who teach, mentor, or hold responsibility for others may ask his prayers for wisdom that joins attention to study with time for silence. Bede also records stories of healing associated with John; these belong to the history of devotion and invite careful reading alongside what is known of his ministry.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom, you call us to learn from one another and to share what we have received. Through the prayers of St. John of Beverley, bless teachers, students, and all who accompany others as they grow. Give me patience when understanding comes slowly and humility when I am asked to guide. Help me make room for quiet prayer amid my responsibilities. May the work I do today strengthen a community in love and bear fruit beyond what I can see. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On May 7, remember John on his traditional English commemoration and check your local parish calendar for any observance.",
+      "Read about John in Bede's Ecclesiastical History, distinguishing the author's accounts of healing from the historical details of his ministry.",
+      "Thank a teacher or mentor who has helped you learn, and offer encouragement to someone you are helping.",
+      "Set aside a quiet period for prayer, remembering John's times of retreat alongside his responsibilities as bishop."
+    ],
+    "confirmationNote": "John's example may speak to a candidate who values learning, teaching, or the quiet support of others. His influence can be seen in the people he formed, including Bede, rather than in a reliable collection of his own writings. Discuss with a sponsor how a person can lead while still making time for prayer. Ask your parish about its guidance for choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has helped me grow in faith or learning, and what did I receive from that person's patience?",
+      "This week, how can I make time to encourage someone who is learning a difficult skill?",
+      "Read Bede's account of John and identify which details describe his office and which recount a healing tradition."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bede-the-venerable",
+        "reason": "The Northumbrian scholar whom John ordained and whose history records accounts of him",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Abbess of the community at Whitby where John was formed",
+        "historical": true
+      },
+      {
+        "slug": "cuthbert-of-lindisfarne",
+        "reason": "A fellow Northumbrian bishop whose life combined ministry and times of retreat",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "An earlier pope whose support for the mission to England connects his story with the English Church John served",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: Saint John of Beverley",
+        "url": "https://www.newadvent.org/cathen/08469b.htm"
+      },
+      {
+        "title": "Diocese of Middlesbrough: Ordo listing St John of Beverley on May 7",
+        "url": "https://www.diocese.cc/FileSystem/11/Public/Publications/55/1259/pages.pdf"
+      }
+    ],
+    "flags": [
+      "patronages: the source-reviewed biography gives no patronage; legacy data names York. The live York topic does not include this saint, so no patronage slug is asserted.",
+      "symbols: omitted; three specific symbols with meanings were not verified.",
+      "quotes: omitted; no words by John with a verified public-domain translation were established.",
+      "prayer: original, by Saint Discovery.",
+      "places: omitted; John's tomb is at Beverley Minster, an Anglican church; the available source was not independently checked for an official visitor destination.",
+      "feastCustoms: the May 7 commemoration is local rather than a universal Roman feast. Other items are suggested personal activities, not asserted historic customs.",
+      "relatedSaints: Hilda and Bede connections are in the Catholic Encyclopedia; Cuthbert was a contemporary Northumbrian bishop, while Gregory's connection is to the earlier mission to England, not a personal meeting."
+    ]
+  },
+  "john-of-capistrano": {
+    "templateVersion": 2,
+    "heroSummary": "St. John of Capistrano is the patron of military chaplains. A lawyer and governor before becoming a Franciscan friar, he became a traveling preacher and advocate of reform. His work included contested religious campaigns and the defense of Belgrade in 1456. The Roman calendar remembers him on October 23.",
+    "searchDescription": "St. John of Capistrano, patron of military chaplains, was a Franciscan preacher and reformer. Explore his complex history and October 23 memorial.",
+    "patronages": [
+      "military-chaplains"
+    ],
+    "whyWeTurn": "People may ask John of Capistrano to pray for chaplains who bring spiritual care to those serving in difficult and dangerous circumstances. His path from law and public office to Franciscan preaching also invites reflection on how a person's work can change. His story requires honesty: religious controversy, coercive campaigns, and warfare were part of the world in which he acted. Remembering him does not require turning those conflicts into a simple tale of peace. It can prompt prayer for all affected by violence, for wise pastoral care, and for the courage to examine the demands of conscience.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, hear us through the prayers of St. John of Capistrano, patron of military chaplains. Strengthen those who offer spiritual care in places of danger, and be near all who carry the wounds of war. Give leaders wisdom to seek just and lasting peace, and give us compassion for people on every side of a conflict. When my own choices affect others, help me listen carefully, act with courage, and examine my conscience honestly. Guide us in the way of Christ, who is our peace. Amen."
+    },
+    "feastCustoms": [
+      "Remember St. John of Capistrano on October 23, his optional memorial in the Roman calendar.",
+      "Pray for military chaplains and for the people and families they accompany.",
+      "Read about the Franciscan Observant reform and discuss how communities can seek renewal without overlooking the consequences of conflict.",
+      "Offer a concrete act of support to a veteran, refugee, or another person affected by war, according to their wishes."
+    ],
+    "confirmationNote": "John's life can lead to an honest conversation about courage and the responsibilities of leadership. His preaching and work for Franciscan reform sit alongside a history of religious conflict and war. With a sponsor or catechist, study that setting and ask how Christians today can serve people in danger while working for peace. Ask your parish about its guidance before choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I needed to reconsider how my decisions affect people who depend on me?",
+      "Choose one practical way to support someone affected by conflict, respecting the person's wishes.",
+      "Read the Catholic Encyclopedia's account of John's Franciscan work and compare it with Vatican News on his military chaplain patronage."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bernardine-of-siena",
+        "reason": "Franciscan preacher and reformer whose example influenced John's ministry",
+        "historical": true
+      },
+      {
+        "slug": "colette-of-corbie",
+        "reason": "A contemporary Poor Clare reformer; John sought to unite her convents with his reformed communities, but Colette opposed the move",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan family to which John belonged",
+        "historical": true
+      },
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Franciscan founder whose order included reformed communities in John's era",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St John of Capestrano, patron of military chaplains",
+        "url": "https://www.vaticannews.va/en/saints/10/23/st--john-of-capestrano--franciscan--patron-of-the-military-chapl.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St John Capistran",
+        "url": "https://www.newadvent.org/cathen/08452a.htm"
+      },
+      {
+        "title": "Catholic Culture: October 23, 2026, St John of Capistrano",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-23"
+      },
+      {
+        "title": "Archdiocese for the Military Services: St John of Capistrano",
+        "url": "https://www.milarch.org/advancement/donor-recognition-societies/saint-john-of-capistrano-society/"
+      },
+      {
+        "title": "Heribert Holzapfel, History of the Franciscan Order: reforms of the Poor Clares",
+        "url": "https://archivum.ferencesek.hu/letoltes/irodalom/Holzapfel_History.pdf"
+      }
+    ],
+    "flags": [
+      "patronages: military-chaplains is both supported by Vatican News and present as a live topic including John. Catholic Culture lists jurists and judges, but the current reviewed biography names only military chaplains, so other topics are omitted.",
+      "symbols: omitted; three specific emblems with reliable meanings were not verified.",
+      "quotes: omitted; the legacy seed contains unsourced sayings and no public-domain attribution was verified.",
+      "prayer: original, by Saint Discovery; chaplain patronage is not presented as implying John was a modern military chaplain.",
+      "feastCustoms: October 23 memorial checked against Catholic Culture; other items are suggested activities, not claims of historical customs.",
+      "places: omitted; no official shrine describing his direct connection was verified.",
+      "historical context: persecution and coercive campaigns against religious opponents and his role in the 1456 siege should be studied alongside his preaching; no large crowd numbers or battle claims beyond the reviewed biography are supplied.",
+      "dates: some sources give 1385 and others 1386 as birth year; omitted in the hero to avoid false precision.",
+      "relatedSaints: Bernardine influenced John; Holzapfel records that Colette opposed his attempt to unite her convents with his reformed communities. Francis and Clare lived earlier and founded his religious family."
+    ]
+  },
+  "john-of-damascus": {
+    "templateVersion": 2,
+    "heroSummary": "St. John of Damascus was a monk and theologian who defended the veneration of sacred images during the iconoclastic controversy. Living in the seventh and eighth centuries, he wrote and preached from the monastery of Mar Saba. The Church honors him as a Doctor and remembers him on December 4.",
+    "searchDescription": "St. John of Damascus, a monk and Doctor of the Church, defended sacred images through the Incarnation. His commemoration is December 4.",
+    "whyWeTurn": "John of Damascus invites us to look carefully at how physical things can direct the heart toward God. In defending icons, he distinguished the worship offered to God alone from the honor shown through an image to the person it represents. Benedict XVI connected John's argument with the Incarnation: the Son truly took flesh. People who teach the faith or pray before an icon may ask John's intercession for understanding and reverence. His years of monastic study also remind us that careful thinking and prayer can belong together, especially when a difficult question touches the life of the Church.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus Christ, Word made flesh, you draw near to us in a world we can see and touch. Through the prayers of St. John of Damascus, teach us to worship you alone and to let every holy image lead our hearts toward you. Bless artists, teachers, and all who help others understand the faith. When our questions are difficult, grant us patience to study, humility to listen, and love for the Church. Make our learning fruitful in prayer and in service to our neighbors. Amen."
+    },
+    "feastCustoms": [
+      "Remember John of Damascus on December 4, his commemoration in Roman and Byzantine calendars.",
+      "Spend a few quiet moments before an icon of Christ, remembering that worship belongs to God and an image points beyond itself.",
+      "Read Benedict XVI's 2009 audience on John and discuss why the Incarnation matters to his defense of images.",
+      "Thank an artist or teacher whose work has helped your community learn or pray."
+    ],
+    "confirmationNote": "John may appeal to a candidate who enjoys art, study, or asking careful questions about belief. He shows how theology can support prayer: his defense of images begins with the Christian confession that God became human in Jesus. With a sponsor or catechist, discuss the difference between honoring a saint's image and worshipping God. Follow your parish's guidance about Confirmation names.",
+    "reflectionPrompts": [
+      "What image, place, or object helps me remember Christ, and where does it direct my attention?",
+      "This week, make time to thank someone whose teaching or art has supported another person's faith.",
+      "Read Benedict XVI's audience on John and explain in your own words his distinction between worship and veneration."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "bede-the-venerable",
+        "reason": "A scholar and Doctor of the Church who lived in the same broad period as John, in a different part of the Christian world",
+        "historical": true
+      },
+      {
+        "slug": "john-of-beverley",
+        "reason": "Another church leader active in the early eighth century",
+        "historical": true
+      },
+      {
+        "slug": "athanasius",
+        "reason": "An earlier Doctor whose writing on the Incarnation offers another way to study the faith John defended",
+        "historical": false
+      },
+      {
+        "slug": "basil-the-great",
+        "reason": "An earlier Eastern bishop and theologian whose teaching also helped shape Christian thought",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on John Damascene, May 6, 2009",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2009/documents/hf_ben-xvi_aud_20090506.html"
+      },
+      {
+        "title": "Vatican News: John Damascene, December 4",
+        "url": "https://www.vaticannews.va/en/saints/12/04/st--john--damasceno--priest-and-doctor-of-the-church.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St John Damascene",
+        "url": "https://www.newadvent.org/cathen/08459b.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St John of Beverley",
+        "url": "https://www.newadvent.org/cathen/08469b.htm"
+      }
+    ],
+    "flags": [
+      "patronages: source-reviewed biography gives none; legacy seed's icon painters, pharmacists and theology students were not independently substantiated as live reviewed topics, so omitted.",
+      "symbols: omitted; three individual attributes with documented meanings were not verified.",
+      "quotes: omitted; the legacy seed quotations lack checked public-domain wording and attribution.",
+      "prayer: original, by Saint Discovery.",
+      "places: omitted; no official visitor site for Mar Saba was independently verified.",
+      "feastCustoms: December 4 commemoration is supported by Benedict XVI; remaining items are suggested personal activities rather than claimed historical customs.",
+      "history: Vatican News qualifies John's government role as reported in some sources; no claim of his office is included. Dates and biographical details remain disputed, so the hero gives the broader seventh–eighth-century period.",
+      "relatedSaints: Bede and John of Beverley are same-era historical links, not claims that they met John. Athanasius and Basil are earlier Eastern doctors; their connections are thematic."
+    ]
+  },
+  "john-of-god": {
+    "templateVersion": 2,
+    "heroSummary": "St. John of God is a patron saint of hospitals, the sick, and nurses. Born in Portugal in 1495, he established a hospital in Granada, Spain, and gathered helpers around his work of caring for people in need. The Church remembers him on March 8.",
+    "searchDescription": "Meet St. John of God, patron of hospitals, the sick and nurses, whose care for people in Granada inspired a worldwide hospitaller family.",
+    "patronages": [
+      "hospitals",
+      "nurses"
+    ],
+    "whyWeTurn": "People turn to John of God when illness, poverty, or the demands of caregiving feel overwhelming. His concern for the sick grew from a life that included work as a soldier and bookseller and a profound conversion in Granada. After hearing St. John of Ávila preach, he received care himself and eventually began welcoming poor and sick people into a hospital. His work attracted companions and inspired the Hospitaller Order that followed. Asking his prayers can help a patient, caregiver, or friend remember the dignity of each person and the value of attentive, practical compassion.",
+    "prayer": {
+      "text": "God of mercy, you see each person who is ill, alone, or caring for someone they love. Through the prayers of St. John of God, give comfort to those who suffer and strength to all who care for them. Help me notice the person behind a diagnosis and listen with patience. Show me one practical way to offer kindness today, and give wisdom and rest to nurses, doctors, families, and all who serve the sick. Keep us close to Christ in our need. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On March 8, remember John in prayer and learn about the hospitality he offered to sick and poor people in Granada.",
+      "Write a note of thanks to a nurse, caregiver, or healthcare worker.",
+      "If welcome and appropriate, visit or call someone who is ill or isolated and ask what practical help would be useful.",
+      "Support a local organization caring for people who are sick or lack stable housing, following its guidance about current needs."
+    ],
+    "confirmationNote": "John's life may speak to a candidate interested in healthcare, hospitality, or practical service. His path to caring for others was not a straight line, and the community that grew around his work began with attention to people in need. Read his story with your sponsor and ask how his example could shape a small act of service. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I received care from someone else, and what did their attention mean to me?",
+      "This week, ask a caregiver or someone who is ill what help would actually be welcome, and follow through on one manageable offer.",
+      "Read the Hospitaller Order's account of John's life. What does it say about John of Ávila's influence and the beginning of John's work in Granada?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "With John, named a patron of nurses and their associations by Pius XI in 1930.",
+        "historical": true
+      },
+      {
+        "slug": "john-of-vila",
+        "reason": "His preaching in Granada prompted John of God's conversion, and he became John's spiritual adviser.",
+        "historical": true
+      },
+      {
+        "slug": "damien-of-molokai",
+        "reason": "A priest remembered for serving people affected by Hansen's disease.",
+        "historical": false
+      },
+      {
+        "slug": "mother-teresa",
+        "reason": "A twentieth-century founder whose community served people experiencing poverty and illness.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hospitaller Order of St. John of God: St John of God",
+        "url": "https://www.ohsjd.org/Objects/Pagina.asp?ID=5388"
+      },
+      {
+        "title": "Hospitaller Order: The Founder, St John of God",
+        "url": "https://www.ohsjd.org/objects/Pagina.asp?ID=612"
+      },
+      {
+        "title": "Pontifical Council for Health Pastoral Care: John Paul II on St. John of God",
+        "url": "https://www.humandevelopment.va/content/dam/sviluppoumano/pubblicazioni-documenti/archivio/salute/dolentium-hominum-en-1-72/DH_29_En.pdf"
+      },
+      {
+        "title": "Vatican City State: St. John of God",
+        "url": "https://vaticanstate.va/en/component/content/article/8-march-saint-john-of-god-patron-saint-of-the-vatican-pharmacy.html"
+      },
+      {
+        "title": "Hospitaller Order: The symbols of the Hospitaller Order of Saint John of God",
+        "url": "https://www.ohsjd.org/resource/DichiarazioniTestoUnicoCapGen2024_ing.pdf"
+      }
+    ],
+    "flags": [
+      "symbols: omitted; the Order documents its pomegranate emblem, but three saint-specific symbols with verified meanings were not established.",
+      "quotes: omitted because no confidently verified public-domain translation of John's own words was located.",
+      "places: omitted pending verification of a current official visitor page for the Granada basilica.",
+      "patronages: hospitals and nurses match live topics and are attested by the Hospitaller Order; the sick has no matching live topic.",
+      "relatedSaints: John of Ávila was his spiritual adviser; Camillus shares the 1930 declaration as patron of nurses. Other links are thematic.",
+      "feastCustoms: suggestions are original devotional activities, not claims of established local customs."
+    ]
   }
 }
