@@ -30895,5 +30895,688 @@
       "Related saints: Francis founded his religious family; John XXIII declared him a Doctor. Francis de Sales and John of the Cross lived in the same era; no personal meetings are asserted.",
       "History: Lawrence's preaching took place in a time of religious and political conflict; the entry avoids treating coercion or antagonism as a model for contemporary dialogue."
     ]
+  },
+  "lazarus": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lazarus of Bethany is remembered with his sisters Martha and Mary on July 29. John's Gospel describes Jesus' friendship with this family and tells how Jesus called Lazarus from the tomb. Their shared memorial invites reflection on friendship, grief, and hope in Christ.",
+    "searchDescription": "Meet Lazarus of Bethany, brother of Martha and Mary, remembered on July 29 for his friendship with Jesus.",
+    "whyWeTurn": "People may ask Lazarus's prayers when they are grieving, supporting a sick friend, or seeking hope in a difficult time. John's Gospel presents him as the brother of Martha and Mary and a friend whom Jesus loved. It tells of Jesus sharing the sisters' grief and calling Lazarus from the tomb. Christians hear this story as a sign pointing to Jesus and to hope in him, not a promise that every illness or loss will have the outcome we want. Lazarus's family can also remind us that care for another person includes presence, honest sorrow, and faithful friendship.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you loved Lazarus and his sisters and shared their sorrow. Through their prayers, stay close to those who are ill, those who mourn, and those waiting for news about someone they love. Help us offer patient friendship without pretending to have an answer for every loss. Give strength to caregivers and comfort to families who are tired or afraid. When I do not know what to say, teach me to listen and remain present. Hold us in your love and lead us in hope. Amen."
+    },
+    "feastCustoms": [
+      "On July 29, remember Martha, Mary, and Lazarus together in prayer.",
+      "Read John 11 and notice how Jesus responds to the family's grief.",
+      "Offer a specific act of help to someone caring for an ill relative.",
+      "Thank a friend who has been present during a difficult time."
+    ],
+    "confirmationNote": "Lazarus may appeal to a candidate who values friendship and wants to reflect on hope amid grief. Read the account in John's Gospel with a sponsor and consider how Martha, Mary, and their neighbors respond to loss. His story need not make anyone hide sadness or expect a particular outcome from illness. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has a friend's presence helped me during a difficult time?",
+      "Ask a caregiver what practical help would be welcome this week.",
+      "Read John 11. What does the account show about Jesus' relationship with Martha, Mary, and Lazarus?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "martha",
+        "reason": "Lazarus's sister, remembered with him and Mary on July 29.",
+        "historical": true
+      },
+      {
+        "slug": "peter",
+        "reason": "An apostle whose Gospel stories also invite reflection on friendship with Jesus.",
+        "historical": false
+      },
+      {
+        "slug": "mary-magdalene",
+        "reason": "A disciple whose own Gospel story is distinct from Mary of Bethany's.",
+        "historical": false
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "Church tradition associates the apostle with the Gospel that tells Lazarus's story.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: Saints Martha, Mary, and Lazarus",
+        "url": "https://www.usccb.org/prayer-worship/liturgical-year/saints-martha-mary-and-lazarus"
+      },
+      {
+        "title": "Holy See: Decree on the memorial of Saints Martha, Mary, and Lazarus",
+        "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2021/02/02/210202c.html"
+      },
+      {
+        "title": "USCCB Bible: John 11",
+        "url": "https://bible.usccb.org/bible/john/11"
+      },
+      {
+        "title": "USCCB Bible: John 12",
+        "url": "https://bible.usccb.org/bible/john/12"
+      }
+    ],
+    "flags": [
+      "patronage: no reliable unambiguous patronage verified for Lazarus of Bethany; do not conflate him with the beggar in Luke 16.",
+      "symbols, quotations and places omitted pending verification.",
+      "history: Mary of Bethany is distinguished from Mary Magdalene; the latter is not asserted as Lazarus's sister.",
+      "feast customs are suggested practices except for the July 29 memorial.",
+      "Source access: USCCB Bible and memorial pages returned HTTP 403 to direct automated requests; indexed texts and the Holy See decree were available."
+    ]
+  },
+  "leo-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Leo the Great was bishop of Rome from 440 to 461 and is honored as a Doctor of the Church. His sermons and letters addressed questions of faith and Christian life during a period of conflict and uncertainty. His memorial is celebrated on November 10.",
+    "searchDescription": "Learn about St. Leo the Great, pope and Doctor of the Church, whose sermons and leadership are remembered November 10.",
+    "whyWeTurn": "People may ask Leo the Great's prayers when they are responsible for others, studying Christian teaching, or seeking courage in uncertain times. As bishop of Rome he wrote sermons and letters that helped the Church express its faith in Christ. His teaching was important to the Council of Chalcedon in 451. Leo also encouraged Christians to connect worship with care for those in need. His life offers a chance to think about leadership as a responsibility to speak carefully and serve others. History is complex, and his fifth-century setting should not be treated as identical to present disputes.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom, thank you for teachers who help your people grow in faith. Through the prayers of St. Leo the Great, guide those entrusted with leadership in the Church and in our communities. Give them patience to listen, courage to act justly, and concern for people in need. Help me learn carefully, speak truth with charity, and connect my prayer with practical service. When events seem uncertain, strengthen our hope and teach us to care for one another. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On November 10, read a Catholic account of Leo's life and pray for Church leaders.",
+      "Learn what the Council of Chalcedon taught about Christ from a trusted catechetical source.",
+      "Support a local charity in a way that responds to its current needs.",
+      "Take time to listen before discussing a difficult question of faith."
+    ],
+    "confirmationNote": "Leo may appeal to a Confirmation candidate who values learning, service, and thoughtful leadership. His sermons and letters show a bishop seeking to teach the faith and care for the Church during a difficult era. With a sponsor, explore one teaching associated with his life and discuss how learning can lead to charity. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What qualities help me trust a leader?",
+      "Practice listening carefully in one conversation about a difficult subject this week.",
+      "Read a summary of Leo's role in the Council of Chalcedon. What question was the council addressing?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter",
+        "reason": "Leo served as bishop of Rome in the succession associated with the apostle Peter.",
+        "historical": true
+      },
+      {
+        "slug": "cyril-of-alexandria",
+        "reason": "A fellow fifth-century bishop whose lifetime overlapped Leo's.",
+        "historical": true
+      },
+      {
+        "slug": "gregory-the-great",
+        "reason": "A later bishop of Rome also honored as a Doctor of the Church.",
+        "historical": false
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "An earlier bishop and Doctor whose life also included theological teaching.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Franciscan Media: Saint Leo the Great",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-leo-the-great/"
+      },
+      {
+        "title": "USCCB: Jubilee Pilgrims on the Way of Beauty",
+        "url": "https://www.usccb.org/resources/Jubilee%20Pilgrims%20on%20the%20Way%20of%20Hope%20Holy%20See.pdf"
+      },
+      {
+        "title": "USCCB: The Church as Koinonia of Salvation",
+        "url": "https://www.usccb.org/committees/ecumenical-interreligious-affairs/church-koinonia-salvation-its-structures-and"
+      }
+    ],
+    "flags": [
+      "patronage: no sufficiently supported patronage identified; none is asserted.",
+      "symbols, quotes, and places omitted pending verification.",
+      "history: a historical successor to Peter is not an assertion of personal acquaintance; Cyril and Leo lived in the same era.",
+      "feast customs are suggestions apart from the November 10 memorial.",
+      "Source access: the cited USCCB ecumenical document returned HTTP 403 to direct automated requests; other sources support the entry."
+    ]
+  },
+  "leonard-of-noblac": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Leonard of Noblac is honored as a patron of prisoners and captives. His devotion became widespread in medieval Europe, particularly among people seeking release. Later accounts associate him with a life of prayer near Noblac in France. He is remembered on November 6.",
+    "searchDescription": "Discover St. Leonard of Noblac, patron of prisoners, whose medieval devotion and uncertain early history are remembered November 6.",
+    "whyWeTurn": "People may ask Leonard's prayers for people in prison, their families, and those seeking a just and humane response to harm. His veneration spread widely in medieval Europe, and chains became a familiar sign of devotion to him. Later stories describe him as a hermit who helped prisoners, but the surviving account of his life was written centuries after the period traditionally assigned to him. Those details should be treated as tradition rather than certain biography. His feast can invite prayer and practical concern for the dignity of everyone affected by incarceration, including victims and families.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy and justice, through the prayers of St. Leonard, remember all who are imprisoned and all who miss them. Comfort victims of harm and help families seeking safety and healing. Guide chaplains, correctional staff, and everyone working for fair treatment and human dignity. Where reconciliation is possible, give people patience and wise support; where safety requires distance, help communities provide it. Teach me to see each person as more than the worst thing that has happened to them or the worst thing they have done. Amen."
+    },
+    "feastCustoms": [
+      "On November 6, pray for prisoners, victims, their families, and prison chaplains.",
+      "Learn about a reputable ministry that supports people affected by incarceration.",
+      "Read the Vatican City State account and compare its stories with the uncertainty of the early sources.",
+      "Ask a local support organization what practical help it welcomes."
+    ],
+    "confirmationNote": "Leonard may speak to a Confirmation candidate concerned about justice, mercy, and care for people in prison. His later life stories and the growth of his medieval devotion provide an opportunity to distinguish tradition from verified history. With a sponsor, consider how to respect the dignity and safety of everyone affected by harm. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "How can I recognize another person's dignity when I disagree with their choices?",
+      "Learn what a local prison or victim-support ministry says it needs before offering help.",
+      "What does the Catholic Encyclopedia say about the sources for Leonard's life and devotion?"
+    ],
+    "sources": [
+      {
+        "title": "Vatican City State: Saint Leonard of Noblac",
+        "url": "https://www.vaticanstate.va/en/component/content/article/november-6-saint-leonard-of-noblac-hermit.html"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Leonard of Limousin",
+        "url": "https://www.newadvent.org/cathen/09178b.htm"
+      },
+      {
+        "title": "St. Leonard's Ministries: Celebrating our patron saint",
+        "url": "https://slministries.org/news/celebrating-our-patron-saint/"
+      }
+    ],
+    "flags": [
+      "Review required: no documented historical relationship to another published saint was established. Francis lived when Leonard’s medieval devotion had spread, but that does not establish that they lived in the same era or met. Related saints are omitted and the entry remains at 1.5.",
+      "patronage: prisoner patronage supported by Vatican City State and St. Leonard's Ministries; topic slug omitted pending live-index verification.",
+      "history: the Vatican City State account gives precise biographical details, but the Catholic Encyclopedia identifies the much later surviving life as historically uncertain; the entry does not assert those details as facts.",
+      "symbols, quotations and places omitted pending verification; feast customs are suggested activities."
+    ]
+  },
+  "leopold-mandi": {
+    "templateVersion": 2,
+    "heroSummary": "St. Leopold Mandić is honored as patron of people with cancer in Croatia. A Capuchin priest of Croatian heritage, he spent much of his ministry in Padua, Italy, listening to people seeking reconciliation. He also prayed for Christian unity. He died in 1942 and is remembered on May 12 in some calendars.",
+    "searchDescription": "St. Leopold Mandić, a Capuchin priest who served people seeking reconciliation in Padua, is honored as a patron of people with cancer in Croatia.",
+    "patronages": [],
+    "whyWeTurn": "People may turn to Leopold Mandić when they are preparing for confession or praying for understanding among Christians. Born in what is now Montenegro to a Croatian family, he became a Capuchin priest and spent years welcoming penitents in Padua. He hoped to serve Christian unity in the East, although that ministry did not take the form of a permanent mission there. His example invites a patient approach to reconciliation: listening carefully, acknowledging wrongs, and seeking help when a relationship needs repair. Forgiveness does not require someone to remain in an unsafe situation.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, you receive us with patience and love. Through the prayers of St. Leopold Mandić, help me recognize where I need forgiveness and give me courage to take an honest next step. Bless confessors and all who guide others with care. Help Christians listen to one another with humility and work for the unity you desire. Give wisdom to those repairing broken relationships and safety to anyone who is afraid. Teach me to offer kindness without ignoring the need for truth, boundaries, and justice. Amen."
+    },
+    "feastCustoms": [
+      "On May 12, a feast date given by the USCCB and Franciscan Media, remember Leopold in prayer; other calendars may use July 30.",
+      "Read Pope Francis's address on confession and consider the importance of listening without humiliation.",
+      "If appropriate, prepare for the sacrament of reconciliation with an examination of conscience.",
+      "Pray for understanding and cooperation among Christians of different traditions."
+    ],
+    "confirmationNote": "Leopold Mandić may speak to a candidate interested in reconciliation, patient listening, and Christian unity. His life shows how a quiet ministry can serve people over many years. With a sponsor, read about his work and discuss a safe, practical step toward repairing a misunderstanding. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has patient listening helped me feel able to speak honestly?",
+      "Take one safe and appropriate step to acknowledge a mistake or repair a misunderstanding.",
+      "Read Pope Francis's 2016 address. What does it ask of a confessor listening to a penitent?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "padre-pio",
+        "reason": "A fellow Capuchin friar whose remains were brought to Rome with Leopold's during the 2016 Jubilee of Mercy.",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Leopold in 1983.",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan family to which Leopold's Capuchin order belongs.",
+        "historical": true
+      },
+      {
+        "slug": "john-vianney",
+        "reason": "Another priest remembered for his ministry in the sacrament of reconciliation.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Capuchin Friars: St. Leopold Mandić",
+        "url": "https://www.ofmcap.org/st-leopold-mandic/"
+      },
+      {
+        "title": "Holy See: Biography of Leopold Mandić",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19831016_mandic_it.html"
+      },
+      {
+        "title": "Pope Francis: Address to the Apostolic Penitentiary, 2016",
+        "url": "https://www.vatican.va/content/francesco/en/speeches/2016/march/documents/papa-francesco_20160304_corso-penitenzieria-apostolica.html"
+      },
+      {
+        "title": "USCCB: Jubilee resource for missionaries of mercy",
+        "url": "https://www.usccb.org/resources/Jubilee%20Pilgrims%20on%20the%20Way%20of%20Hope%20Missionaries%20of%20Mercy.pdf"
+      },
+      {
+        "title": "Croatian Bishops’ Conference: Official bulletin, decree naming Leopold Mandić patron of people with cancer in Croatia",
+        "url": "https://hbk.hr/wp-content/uploads/2025/03/2024_2-SLUZBENE-VIJESTI-HBK_ZA-TISAK.pdf"
+      }
+    ],
+    "flags": [
+      "Patronages: the Croatian bishops’ official bulletin records his patronage of people with cancer in Croatia; no matching live index topic exists. A separate claimed patronage of confessors was omitted because the cited parish page could not be accessed for verification.",
+      "symbols: omitted because three saint-specific attributes and meanings were not independently verified.",
+      "quotes: omitted; public-domain English translations were not checked.",
+      "places: omitted pending a verified official shrine visitor page.",
+      "feastCustoms: USCCB lists May 12; Franciscan Media also notes July 30 in the Roman liturgy. Suggested activities are not claims of established customs.",
+      "history: fellow Capuchin Padre Pio's and Leopold's remains were brought to Rome together in 2016; this later event does not imply they met.",
+      "editorial: a wish for reconciliation does not require a person to tolerate abuse or unsafe contact."
+    ]
+  },
+  "lidwina-of-schiedam": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lidwina of Schiedam is honored as a patron of people experiencing chronic illness and of ice skaters. She lived in the Netherlands and experienced long illness after a skating accident as a teenager. Accounts remember her life of prayer and the people who visited her. Her feast is April 14.",
+    "searchDescription": "St. Lidwina of Schiedam, patron of people with chronic illness and ice skaters, is remembered on April 14.",
+    "patronages": [],
+    "whyWeTurn": "People may ask Lidwina's prayers when living with illness or caring for someone whose needs change over time. Accounts describe a skating accident in her youth followed by years of pain and restricted mobility, as well as visitors who sought her counsel and prayers. Some later biographies contain extraordinary claims; they should not be treated as a modern medical diagnosis. Her story can encourage attention to a person's agency and relationships, not the idea that illness must be accepted without care. Prayer can accompany medical support, accessibility, and the freedom to ask for help.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of compassion, be near to those living with illness, pain, or disability. Through the prayers of St. Lidwina, help each person find respectful care, friendship, and the support they need. Give patience to families and wisdom to health professionals, and remind us to listen rather than assume what another person can or cannot do. When daily plans must change, give us room to rest and courage to ask for help. May our communities remove barriers and welcome every person with dignity and love. Amen."
+    },
+    "feastCustoms": [
+      "On April 14, remember Lidwina and pray for people living with illness or pain.",
+      "Read a careful account of her life and distinguish historical testimony from later interpretation.",
+      "Ask a person living with illness what practical assistance, if any, would be welcome.",
+      "Consider one way a parish or gathering can become more accessible."
+    ],
+    "confirmationNote": "Lidwina may interest a candidate who wants to learn about prayer, friendship, and resilience during illness. Her story should not be used to suggest that anyone must welcome pain or avoid medical care. With a sponsor, discuss how a community can listen to people with disabilities and help remove barriers. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I felt respected by someone who listened to what I needed?",
+      "Notice one accessibility barrier and consider whom to ask about improving it.",
+      "Read the Catholic Encyclopedia's account of Lidwina. How do its sources help us understand the limits of what can be known?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "joan-of-arc",
+        "reason": "A French saint who lived during Lidwina's lifetime; both lived in the early fifteenth century.",
+        "historical": true
+      },
+      {
+        "slug": "therese-of-lisieux",
+        "reason": "A later saint whose life included serious illness and a vocation to prayer.",
+        "historical": false
+      },
+      {
+        "slug": "peregrine-laziosi",
+        "reason": "A saint to whom people turn when affected by serious illness.",
+        "historical": false
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "A saint remembered for caring for people who were ill.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia: St. Lidwina",
+        "url": "https://www.newadvent.org/cathen/09233a.htm"
+      },
+      {
+        "title": "The Catholic Virginian: St. Lidwina and her patronages",
+        "url": "https://catholicvirginian.org/wp-content/uploads/2026/04/Kids-CV-April-13-2026.pdf"
+      },
+      {
+        "title": "British Library: Lidwina van Schiedam and chronic illness",
+        "url": "https://iro.bl.uk/entities/publication/aabef563-792e-4efc-b763-de7201102b5b"
+      },
+      {
+        "title": "Benedict XVI: General audience on Joan of Arc",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110126.html"
+      }
+    ],
+    "flags": [
+      "Patronages: Catholic Virginian identifies skaters and people who are sick or often in pain, and the British Library identifies chronic illness. No matching live index topics exist, so no slugs are added.",
+      "symbols: omitted because three specific attributes and meanings were not independently verified.",
+      "quotes: omitted; no public-domain English translation verified.",
+      "places: omitted pending a verified official shrine visitor resource.",
+      "feastCustoms: April 14 is supported by the Catholic Virginian; other activities are suggestions.",
+      "history: Joan of Arc and Lidwina lived in the same period; no personal acquaintance is asserted. Extraordinary episodes are identified as later testimony, not medical diagnoses.",
+      "editorial: illness is not a moral duty, disability is not assumed to mean illness, and care and accessibility are encouraged.",
+      "Existing biography source: the earlier Vatican City State link returned 404 during this review; existing biography sources were not altered."
+    ]
+  },
+  "longinus": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Longinus is the name Christian tradition gives to the soldier associated with the piercing of Jesus' side. John's Gospel describes an unnamed soldier, while other Gospel accounts describe a centurion at the cross. Later traditions identify these figures with Longinus. March 15 and October 16 appear in different calendars.",
+    "searchDescription": "St. Longinus is associated by Christian tradition with the soldier at Jesus' crucifixion; the Gospels do not give that soldier a name.",
+    "whyWeTurn": "People may reflect on Longinus when reading the Gospel accounts of Jesus' death and thinking about faith and recognition. John describes an unnamed soldier piercing Jesus' side; Mark describes a centurion responding to Jesus' death. Later tradition gives the name Longinus and sometimes combines the figures, but the Gospels do not establish that they are the same person. Accounts of conversion and martyrdom developed later and cannot supply a securely documented biography. This distinction lets readers appreciate centuries of devotion while returning carefully to the words and details of each Gospel.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, your cross calls us to look honestly at suffering and to trust your mercy. As we remember St. Longinus in Christian tradition, help us read the Gospels attentively and approach their mystery with humility. Open our hearts to those who suffer violence today, and move us to offer practical help where we can. Teach us to change when we have done wrong and to seek understanding without pretending to know what is uncertain. May your love guide our words and actions. Amen."
+    },
+    "feastCustoms": [
+      "Some Western sources give March 15 and some calendars give October 16 for Longinus; check the local calendar.",
+      "Read John 19 and Mark 15, noticing what each Gospel says and does not say about the soldiers.",
+      "Look at an image of the crucifixion and distinguish details from Scripture and later artistic tradition.",
+      "Pray for people affected by violence and support a trustworthy local effort to help them."
+    ],
+    "confirmationNote": "Longinus may interest a candidate who wants to study how Christian tradition and biblical accounts relate. The Gospels do not name the soldier who pierced Jesus' side, and later accounts develop the story in different ways. Read the passages with a sponsor and discuss what remains uncertain. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has paying closer attention changed how I understood a familiar story?",
+      "Read a crucifixion account slowly and write down one detail you had overlooked.",
+      "Compare John 19:31–37 with Mark 15:37–39. What does each say, and what names or identities does each leave unstated?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mary-magdalene",
+        "reason": "John names her at the crucifixion, the setting in which the Gospel also describes an unnamed soldier piercing Jesus' side.",
+        "historical": true
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "Church tradition associates him with the Gospel that recounts the piercing of Jesus' side.",
+        "historical": false
+      },
+      {
+        "slug": "joseph-of-arimathea",
+        "reason": "John's Gospel later names him in the account of Jesus' burial.",
+        "historical": false
+      },
+      {
+        "slug": "veronica",
+        "reason": "A figure whose devotion also developed around the Passion in Christian tradition.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB Bible: John 19",
+        "url": "https://bible.usccb.org/bible/john/19"
+      },
+      {
+        "title": "USCCB Bible: Mark 15",
+        "url": "https://bible.usccb.org/bible/mark/15"
+      },
+      {
+        "title": "Nominis, Catholic Church in France: Saint Longin",
+        "url": "https://nominis.cef.fr/contenus/saint/8577/Saint-Longin.html"
+      },
+      {
+        "title": "Basilica of Saint Peter: Bernini's Longinus",
+        "url": "https://visite.basilicasanpietro.va/it/booking/berninibarberini"
+      }
+    ],
+    "flags": [
+      "review required: existing site fact card gives March 15; Nominis describes that as a Western date and October 16 as an Eastern date, whereas another modern source attributes October 16 to the current Roman Martyrology. Hold at 1.5 pending direct current Roman Martyrology and local calendar reconciliation; no existing fact was altered.",
+      "patronages: soldiers, cavalry, and Mantua are indexed on the current site but none was verified in a sufficiently reliable Catholic patronage source; omitted.",
+      "symbols: omitted because three distinct saint-specific artistic attributes and meanings were not independently verified.",
+      "quotes: omitted; Gospel passages are referenced without quotation.",
+      "places: omitted pending verification of a stable official visitor page directly identifying the statue.",
+      "history: the Gospels do not identify the named Longinus or establish that the soldier and centurion are one person; conversion and martyrdom are later traditions, not documented biography.",
+      "relatedSaints: the historical Mary Magdalene link is based on the same Gospel scene, not a claim that she knew or met a specifically identified Longinus.",
+      "Source access: the USCCB Bible pages returned HTTP 403 to direct automated requests; indexed text was available."
+    ]
+  },
+  "lorenzo-ruiz": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lorenzo Ruiz is honored by many as a patron of Filipino migrant workers. A married layman from Manila, he traveled to Japan with Dominican missionaries and was martyred during the persecution of Christians. He is remembered with his companions on September 28.",
+    "searchDescription": "Meet St. Lorenzo Ruiz, the Filipino layman and martyr remembered with his companions on September 28.",
+    "whyWeTurn": "People may ask Lorenzo Ruiz to pray for families separated by distance, migrant workers, and anyone facing fear in an unfamiliar place. Born in Manila to a Chinese father and Filipino mother, he was a husband and father who worked with a Dominican parish. He traveled to Japan with missionaries and died there amid a persecution of Christians. Pope John Paul II canonized him and other martyrs associated with the Philippines in 1987. Lorenzo's story can invite us to welcome people far from home while recognizing that migrants leave for many different reasons and have distinct experiences.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of all peoples, be near to those who live far from home and to families separated by distance. Through the prayers of St. Lorenzo Ruiz, give comfort to people facing fear or uncertainty and help them find welcome and practical support. Bless migrant workers and the loved ones who wait for them. Teach us to listen without assumptions and to treat each person with dignity. Give us courage in difficult moments and generosity toward neighbors who need a friend. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On September 28, remember Lorenzo and his companions and pray for families living apart.",
+      "Read the USCCB account of Lorenzo's life as a husband, father, and parish worker.",
+      "Ask a local organization serving newcomers what help would be useful.",
+      "Call or write a family member or friend who lives far away."
+    ],
+    "confirmationNote": "Lorenzo may interest a candidate who values faithfulness in ordinary family life and care for people far from home. Read about his life in Manila and his journey to Japan, then discuss with a sponsor how to welcome someone new. His story is one person's experience; listen to the varied experiences of migrants today. Follow your parish's guidance for Confirmation names.",
+    "reflectionPrompts": [
+      "When have I felt welcomed in a new place?",
+      "What practical kindness can I offer someone who is far from family or familiar surroundings?",
+      "What does the USCCB account say about Lorenzo's family and parish work before his journey?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Lorenzo and companions in 1987.",
+        "historical": true
+      },
+      {
+        "slug": "pedro-calungsod",
+        "reason": "Another Filipino lay martyr remembered from a later generation.",
+        "historical": false
+      },
+      {
+        "slug": "charles-lwanga",
+        "reason": "A later martyr remembered with a community of companions.",
+        "historical": false
+      },
+      {
+        "slug": "frances-xavier-cabrini",
+        "reason": "A later saint associated with care for migrants.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: Saint Lorenzo Ruiz de Manila",
+        "url": "https://www.usccb.org/resources/San-Lorenzo-Ruiz-Feast-Oct-2016-Flyer.pdf"
+      },
+      {
+        "title": "Saint John Paul II: Address to Filipino pilgrims after the canonization",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/1987/october/documents/hf_jp-ii_spe_19871018_comunita-filippina.html"
+      },
+      {
+        "title": "Diocese of Raleigh: Feast of San Lorenzo Ruiz",
+        "url": "https://dioceseofraleigh.org/news/feast-san-lorenzo-ruiz-cause-spiritual-pride"
+      },
+      {
+        "title": "Holy See: Biography of Lorenzo Ruiz and companions",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19871018_ruiz-compagni_sp.html"
+      }
+    ],
+    "flags": [
+      "The Diocese of Raleigh reports that many consider Lorenzo a patron of Filipino migrant workers; no matching live topic exists.",
+      "The Spanish Holy See biography describes an obscure accusation while the USCCB calls him falsely accused; the draft omits the disputed circumstances rather than asserting innocence or guilt.",
+      "Symbols, quotations, and places omitted pending independent verification.",
+      "September 28 is the liturgical observance for Lorenzo and companions, not a claim that all died on that date."
+    ]
+  },
+  "louis-de-montfort": {
+    "templateVersion": 2,
+    "heroSummary": "St. Louis-Marie de Montfort was a French priest and preacher known for teaching devotion to Jesus through Mary. He wrote about Christian life and encouraged prayer, including the Rosary. The Church remembers him on April 28, the date of his death in 1716.",
+    "searchDescription": "Explore St. Louis-Marie de Montfort's devotion to Jesus through Mary, his preaching, and his April 28 feast.",
+    "whyWeTurn": "People may turn to Louis-Marie de Montfort when they want to deepen their prayer or understand a tradition of Marian devotion. A French priest, he preached parish missions and wrote about following Jesus with Mary's help. His work True Devotion to the Blessed Virgin presents a way of dedicating one's life to Christ through Mary; the Montfortian family explains that its goal is closer union with Jesus. Catholics are not obliged to practice every particular devotion. Someone curious about his approach can read a short introduction, pray simply, and discuss questions with a trusted priest or catechist.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, help me draw closer to you in prayer and in daily life. Through the prayers of St. Louis-Marie de Montfort, teach me to listen with Mary's openness and to follow you with a willing heart. When prayer feels difficult, give me patience to begin again. Help me carry your kindness into my family, my work, and the places where I meet my neighbors. May devotion deepen my love for you and lead me to serve others with humility. Amen."
+    },
+    "feastCustoms": [
+      "On April 28, learn about Louis-Marie's life and his preaching in France.",
+      "Pray a decade of the Rosary slowly, reflecting on the life of Christ.",
+      "Read the Montfortian introduction to True Devotion and note its focus on Jesus.",
+      "Ask a catechist or priest about any questions raised by a particular devotion."
+    ],
+    "confirmationNote": "Louis-Marie may appeal to a candidate interested in prayer, preaching, or devotion to Mary. His writing presents a particular way to follow Jesus through Mary, rather than a requirement every Catholic must adopt. Read a reliable introduction with your sponsor and discuss how prayer can shape everyday choices. Ask your parish about its Confirmation name guidelines.",
+    "reflectionPrompts": [
+      "What kind of prayer helps me pay attention to Jesus?",
+      "Set aside a few quiet minutes to pray and choose one act of kindness that can follow from it.",
+      "Read the Montfortian introduction to True Devotion. How does it describe the relationship between devotion to Mary and commitment to Christ?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "He described how Montfort's writing shaped his understanding of Marian devotion.",
+        "historical": true
+      },
+      {
+        "slug": "dominic",
+        "reason": "Another preacher associated in Catholic devotion with the Rosary.",
+        "historical": false
+      },
+      {
+        "slug": "louis-ix",
+        "reason": "An earlier French saint whose life also invites reflection on faith and responsibility.",
+        "historical": false
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "A spiritual writer whose work also calls readers to deeper love of Christ.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Montfortian family: introduction to True Devotion to Mary",
+        "url": "https://www.montfortian.info/writingsandhymns/the-true-devotion-to-mary.html"
+      },
+      {
+        "title": "Saint John Paul II: Montfort and Marian devotion",
+        "url": "https://www.vatican.va/archive/books/threshold_hope/documents/chap32.html"
+      },
+      {
+        "title": "Holy See: Address to the Montfort family",
+        "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2018/04/27/180427d.html"
+      },
+      {
+        "title": "Saint John Paul II: Address to the Mariological colloquium",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2000/oct-dec/documents/hf_jp-ii_spe_20001013_8-colloquio-mariologia.html"
+      }
+    ],
+    "flags": [
+      "No patronage asserted; a single parish bulletin lists preachers but stronger independent verification of that devotion was not established.",
+      "Symbols, quotations, and places omitted pending independent verification.",
+      "Personal Marian consecration is presented as a voluntary devotional approach centered on Christ, not an obligation.",
+      "John Paul II directly describes Montfort's influence; other connections are thematic."
+    ]
+  },
+  "louis-ix": {
+    "templateVersion": 2,
+    "heroSummary": "St. Louis IX of France is honored as a co-patron of the Secular Franciscan Order. A thirteenth-century king, husband, and father, he is remembered for devotion and concern for people in need. An honest account of his reign also acknowledges his discriminatory policies against Jews.",
+    "searchDescription": "Learn about St. Louis IX of France, a Franciscan co-patron whose reign calls for thoughtful historical reflection.",
+    "whyWeTurn": "People may ask Louis IX's prayers when considering family responsibilities, leadership, or service to people in need. He became king as a child, married, and had a large family. His reign included support for charitable institutions and participation in crusades. It also included harmful anti-Jewish measures: he ordered Jews to wear a distinctive badge and supported the suppression of Jewish books. Remembering a canonized ruler should not excuse discrimination or flatten the historical record. His life invites reflection on how authority can serve people and on the responsibility to reject prejudice and protect human dignity today.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of justice and mercy, help us use whatever responsibility we have to care for others. Through the prayers of St. Louis, guide parents, public servants, and all who make decisions affecting their neighbors. Give us honest hearts as we learn from history, including the suffering caused by prejudice and discrimination. Help us reject hatred of Jewish people and all forms of religious hatred. Teach us to protect human dignity, listen to those affected by injustice, and serve the common good with humility. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On August 25, pray for families and people entrusted with public responsibilities.",
+      "Read a Franciscan account of Louis IX alongside a historical account of his policies toward Jews.",
+      "Support a local service that assists people facing hardship.",
+      "Learn how a local interfaith organization builds relationships across religious communities."
+    ],
+    "confirmationNote": "Louis IX may interest a candidate who wants to reflect on family life, public responsibility, and faith. Study both the works of charity remembered in Catholic tradition and the anti-Jewish policies enacted during his reign. With a sponsor, discuss why honoring a saint does not require defending every historical action. Follow your parish's guidance for Confirmation names.",
+    "reflectionPrompts": [
+      "When has someone used a position of responsibility to help me or another person?",
+      "What small decision this week can make a group I belong to more welcoming and fair?",
+      "What do Franciscan and Jewish historical sources each reveal about Louis's reign?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A contemporary co-patron of the Secular Franciscan Order, also remembered for care of people in need.",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Founder of the Franciscan movement, whose lifetime overlapped Louis's childhood.",
+        "historical": true
+      },
+      {
+        "slug": "joan-of-arc",
+        "reason": "A later French saint remembered in a different period of French history.",
+        "historical": false
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A later French saint associated with organized care for people in need.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Commission on the Franciscan Intellectual Tradition: Louis IX, co-patron",
+        "url": "https://www.franciscantradition.org/blog/saint-louis-ix-of-france-co-patron-of-secular-franciscan-order/"
+      },
+      {
+        "title": "Secular Franciscan Order Australia: The Life of Saint Louis IX",
+        "url": "https://ofsaustralia.org.au/franciscan-saints/saint-louis-ix-king-of-france-2/"
+      },
+      {
+        "title": "Franciscan Media: Saint Louis of France",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-louis-of-france/"
+      },
+      {
+        "title": "Jewish Virtual Library: Louis IX",
+        "url": "https://jewishvirtuallibrary.org/jsource/History/Louis.html"
+      },
+      {
+        "title": "Jewish Virtual Library: Jewish badge",
+        "url": "https://jewishvirtuallibrary.org/jsource/judaica/ejud_0002_0003_0_01851.html"
+      }
+    ],
+    "flags": [
+      "Secular Franciscan sources identify Louis and Elizabeth as co-patrons; no corresponding live patronage topic exists, and historical membership of the Third Order is not claimed.",
+      "Anti-Jewish badge and book-suppression policies are documented and not excused; crusades are acknowledged without celebrating violence.",
+      "Symbols, quotations, and places omitted pending independent verification.",
+      "Francis and Elizabeth overlapped Louis's lifetime; no personal meeting is claimed."
+    ]
+  },
+  "louis-martin": {
+    "templateVersion": 2,
+    "heroSummary": "St. Louis Martin and his wife, St. Zélie Martin, are honored as patrons of marriage and family life. A French watchmaker and father of St. Thérèse of Lisieux, Louis shared with Zélie the joys and sorrows of raising a family. They were canonized together in 2015 and are remembered on July 12.",
+    "searchDescription": "Meet St. Louis Martin, the husband of St. Zélie and father of St. Thérèse of Lisieux, honored with his wife on July 12.",
+    "whyWeTurn": "People may ask Louis and Zélie Martin to pray for marriages, parents, and families facing ordinary responsibilities or grief. They raised their children in France while managing work and family life, and they experienced the deaths of children as well as the joy of seeing their surviving daughters grow. After Zélie's death, Louis continued caring for their family. Their daughter Thérèse became a Carmelite and a Doctor of the Church. Their story can encourage compassion for families in many circumstances, without suggesting that holiness requires a particular family structure or a life free from difficulty.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of love, bless families in all the circumstances of their lives. Through the prayers of St. Louis Martin and St. Zélie Martin, give patience to parents and caregivers and comfort to those who grieve. Help couples care for one another and support children as they grow. Draw near to people who feel lonely or whose family relationships are difficult. Teach us to notice small opportunities for kindness, to ask for help when we need it, and to trust your presence in ordinary days. Amen."
+    },
+    "feastCustoms": [
+      "On July 12, remember Louis and Zélie Martin and pray for families and caregivers.",
+      "Read the account of the couple's life in the Vatican canonization booklet.",
+      "Offer practical support to a parent, caregiver, or family member, asking first what would be helpful.",
+      "Pray for people who have lost loved ones and make time to listen to someone who is grieving."
+    ],
+    "confirmationNote": "Louis Martin may appeal to a Confirmation candidate who wants to explore faith in family life, work, and times of loss. Read about Louis and Zélie together, noticing the different responsibilities and hardships they shared. With a sponsor, discuss how ordinary acts of care can express love for God and neighbor. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has cared for me through an ordinary act of kindness?",
+      "What practical help can I offer a caregiver or family member this week?",
+      "Read the Vatican account of the Martins. What does it say about their work and concern for others?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "zelie-martin",
+        "reason": "Louis's wife; the couple were canonized together in 2015 and share a July 12 feast.",
+        "historical": true
+      },
+      {
+        "slug": "therese-of-lisieux",
+        "reason": "Their youngest daughter, a Carmelite and Doctor of the Church.",
+        "historical": true
+      },
+      {
+        "slug": "john-bosco",
+        "reason": "A nineteenth-century priest whose lifetime overlapped Louis's and who also cared for young people.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "An earlier parent and saint whose life included family responsibilities and loss.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Holy See: Canonization booklet for Louis and Zélie Martin",
+        "url": "https://www.vatican.va/news_services/liturgy/libretti/2015/20151018-libretto-canonizzazione.pdf"
+      },
+      {
+        "title": "Basilica of the Sacred Heart, University of Notre Dame: Saints Louis and Zélie Martin",
+        "url": "https://basilica.nd.edu/prayer-and-worship/global-saints-initiative/st-louis-and-st-zelie-martin/"
+      },
+      {
+        "title": "National Shrine of the Little Flower Basilica: The Martin Family",
+        "url": "https://littleflowerbasilica.org/martinfamily"
+      }
+    ],
+    "flags": [
+      "Patronages: the National Shrine of the Little Flower Basilica names marriage and family life for Louis and Zélie; no exact live index topic including Louis was independently established, so no slug is added.",
+      "Symbols, quotations, and places are omitted because source-supported saint-specific attributes, exact public-domain wording, and an official visitor page were not independently verified.",
+      "The July 12 joint feast is documented by Notre Dame; the other suggested activities are original practices rather than claimed historical customs.",
+      "Zélie was Louis's wife and Thérèse their daughter; the John Bosco link indicates overlapping lifetimes only, with no meeting claimed.",
+      "The entry acknowledges family loss without prescribing one family structure or implying that families are free from difficulties."
+    ]
   }
 }
