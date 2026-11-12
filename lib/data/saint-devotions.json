@@ -19481,6 +19481,1125 @@
       "biography: no disagreement. The Dicastery adds that she was born March 12, 1878 at Borgonuovo di Camigliano, received the stigmata (as reported) on June 8, 1899, was beatified in 1933 and canonized by Pius XII on May 2, 1940. Germanus calls her the fourth child; the Passionist Nuns say fifth; neither is used."
     ]
   },
+  "genevieve": {
+    "templateVersion": 2,
+    "heroSummary": "St. Geneviève is the patron of Paris, a consecrated woman born at Nanterre around 420 who served God in the world rather than in a cloister. When Attila's Huns threatened in 451 she urged Parisians to pray and stand firm, and later she brought grain by river to a hungry city. Catholics remember her on January 3.",
+    "searchDescription": "St. Geneviève of Paris, remembered January 3: the consecrated woman of Nanterre who rallied Paris to prayer against Attila and brought grain to a hungry city.",
+    "patronages": [
+      "paris"
+    ],
+    "symbols": [
+      {
+        "symbol": "Candle, often with a devil trying to blow it out and an angel relighting it",
+        "meaning": "A legend says that as she walked to church on a dark night the wind put out the candle, and it relit in her hands. Medieval art read her as the watchful wise virgin of Christ's parable (Matthew 25)."
+      },
+      {
+        "symbol": "Loaves of bread",
+        "meaning": "Her care for the hungry: during a siege of Paris she travelled up the Seine to obtain food and brought it back to the city by boat."
+      },
+      {
+        "symbol": "Medal or coin hung at her neck",
+        "meaning": "The medal engraved with a cross that, according to her Life, Germanus of Auxerre gave her as a sign of her consecration, telling her to wear it in place of jewelry."
+      },
+      {
+        "symbol": "Sheep, or Geneviève as a shepherdess",
+        "meaning": "A popular tradition pictures her tending sheep at Nanterre as a girl; the Catholic Encyclopedia notes her parents were more likely townspeople than poor peasants, so this is tradition rather than history."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Geneviève because she cared for a whole city. She was not a queen or a bishop, yet when Paris was afraid she called its people to prayer and penance, and when Paris was hungry she went and found bread. Parisians have asked her help in danger ever since; tradition holds that an epidemic in 1129 ended during a procession of her relics. Catholics ask her prayers for their cities and neighbourhoods, for people facing hunger or disaster, and for courage to stay calm and faithful when others panic. She shows how one praying woman can strengthen a frightened community.",
+    "quotes": [
+      {
+        "text": "Unless the Lord keep the city, he watcheth in vain that keepeth it.",
+        "work": "Psalm 126:1",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Watch ye therefore, because you know not the day nor the hour.",
+        "work": "Matthew 25:13",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For I was hungry, and you gave me to eat; I was thirsty, and you gave me to drink; I was a stranger, and you took me in:",
+        "work": "Matthew 25:35",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Geneviève a heart set on you and a care that reached a whole city. Through her prayers, keep watch over the place where I live. When fear spreads, make me calm and prayerful; when people go hungry, make me quick to find them bread. Keep the light of faith burning in me, even when the night is dark and the wind is strong. Bless the city of Paris and every city, and protect them from disaster and division. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep January 3, her day in the Roman Martyrology. In the Archdiocese of Paris it is a solemnity, and that day's optional memorial of the Holy Name of Jesus moves to January 4 there.",
+      "In Paris, join the yearly novena at Saint-Étienne-du-Mont, which begins on her feast; in recent years it has included daily Masses with veneration of her relics and a procession of her reliquary with a blessing of the city.",
+      "Light a candle and pray for your own city or town, its leaders, and those who keep it safe.",
+      "Give food or time to a food bank or shelter, in memory of the bread she brought to a hungry Paris.",
+      "With children, make a lamb- or sheep-shaped snack, a home idea Catholic Culture passes on, and tell the shepherdess story as a tradition."
+    ],
+    "places": [
+      {
+        "name": "Saint-Étienne-du-Mont (shrine of St. Geneviève)",
+        "city": "Paris, France",
+        "url": "https://www.saintetiennedumont.fr/english/"
+      }
+    ],
+    "confirmationNote": "Geneviève suits a confirmand who is steady under pressure and wants to serve the wider community, not only friends and family. She lived her consecration in ordinary society, prayed when others panicked, and went out to find food for people in need. Choosing her name can be a promise to pray for your town and to act when neighbours are afraid or in want.",
+    "reflectionPrompts": [
+      "When people around me are anxious, do I add to the panic or help them pray and stay calm?",
+      "Find one practical need in your town this month, such as a food drive or a lonely neighbour, and respond to it.",
+      "Read Matthew 25:1–13 and 25:31–46 in the Douay-Rheims, then read the Catholic Encyclopedia article on St. Genevieve and note what it treats as history and what as legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "denis",
+        "reason": "She promoted devotion to him, and the two share the patronage of Paris",
+        "historical": true
+      },
+      {
+        "slug": "clotilde",
+        "reason": "Buried with King Clovis in the Paris church of the Holy Apostles, where Geneviève was laid to rest",
+        "historical": true
+      },
+      {
+        "slug": "kuriakose-elias-chavara",
+        "reason": "Shares the January 3 feast",
+        "historical": true
+      },
+      {
+        "slug": "joan-of-arc",
+        "reason": "Another Frenchwoman who rallied her people in a time of war",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, January 3 (St. Geneviève)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-03"
+      },
+      {
+        "title": "Catholic Encyclopedia (1909): St. Genevieve",
+        "url": "https://www.newadvent.org/cathen/06413f.htm"
+      },
+      {
+        "title": "Archdiocese of Paris: Sainte Geneviève",
+        "url": "https://dioceseparis.fr/sainte-genevieve-652.html"
+      },
+      {
+        "title": "Archdiocese of Paris: Neuvaine à sainte Geneviève 2023",
+        "url": "https://dioceseparis.fr/neuvaine-a-sainte-genevieve-2023.html"
+      },
+      {
+        "title": "Paroisse Saint-Étienne-du-Mont: English welcome page",
+        "url": "https://www.saintetiennedumont.fr/english/"
+      },
+      {
+        "title": "Paroisse Saint-Étienne-du-Mont: Histoire et architecture",
+        "url": "https://www.saintetiennedumont.fr/a-propos/histoire-et-architecture/"
+      },
+      {
+        "title": "Christian Iconography (Richard Stracke): St. Genevieve in the Belles Heures of the Limbourg Brothers",
+        "url": "https://www.christianiconography.info/Edited%20in%202013/metropolitan/limbourgBrothersExhibition/genevieveLimbourg.html"
+      },
+      {
+        "title": "DRBO.org: Psalm 126 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21126.htm"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture also lists plague, disasters, fever, French security forces (chosen 1962) and the Women's Army Corps; the Archdiocese of Paris adds the city and Diocese of Nanterre. None has a live topic. The archdiocese calls her patroness of the city of Paris and Denis patron of the diocese.",
+      "symbols: candle, bread, medal/coin and shepherdess are from Catholic Culture's list; meanings come from Christian Iconography (candle legend and the 'wise virgin' inscription), the Archdiocese of Paris (food brought by boat during Childeric's siege) and the Catholic Encyclopedia (Germanus's medal; parents likely townspeople). Catholic Culture's 'keys', 'cattle' and 'girl restoring eyesight to her mother' were omitted because no source checked explains them.",
+      "quotes: she left no writings; Scripture only. Matthew 25:13 ties to the wise-virgin reading of her candle; Psalm 126:1 to her care for the city.",
+      "whyWeTurn: the 1129 epidemic ('mal des ardents') that ended during a procession of her relics is from the Catholic Encyclopedia and is labelled tradition.",
+      "feastCustoms: the Paris solemnity and the move of the Holy Name memorial are from the Archdiocese of Paris page. Novena details come from the archdiocese's 2023 report (January 3–11, relics venerated, procession of the reliquary and blessing of Paris); a human may want to check the current year's programme. The lamb snack is a Catholic Culture (Catholic Cuisine) home suggestion.",
+      "places: only one. Saint-Étienne-du-Mont has held her relics and cult since the abbey church of Sainte-Geneviève was destroyed. No working official site was found for the Cathedral of Sainte-Geneviève in Nanterre (cathedrale-nanterre.fr did not load; diocese92.fr returned 403).",
+      "biography: the Catholic Encyclopedia gives her death as 512 (the year after Clovis died) and her birth as c. 419 or 422; the reviewed 'c. 420–c. 500' matches the Archdiocese of Paris ('vers 420 ... vers 500'). No change suggested, but the dates are disputed."
+    ]
+  },
+  "george": {
+    "templateVersion": 2,
+    "heroSummary": "St. George is the patron of England and a patron of farmers. He was an early Christian martyr, put to death at Lydda around 303 under Diocletian. His cult is older than the famous story of the dragon, which is a later legend. Catholics remember him on April 23, a solemnity in England.",
+    "searchDescription": "St. George, martyr and patron of England, remembered April 23: what is known of the soldier-saint of Lydda, and why the dragon story is a later legend.",
+    "patronages": [
+      "farmers",
+      "england"
+    ],
+    "symbols": [
+      {
+        "symbol": "Armour",
+        "meaning": "Tradition remembers him as a soldier who refused to give up his faith; later legend made him a knightly officer, and artists dressed him in full armour."
+      },
+      {
+        "symbol": "Shield with a red cross on white",
+        "meaning": "The shield of faith (Ephesians 6:16). The red cross comes from medieval legend, which told of crusaders seeing George in white armour marked with a red cross."
+      },
+      {
+        "symbol": "Lance",
+        "meaning": "The spear with which, in the legend, he pierced the dragon; it became his most familiar weapon in art."
+      },
+      {
+        "symbol": "Dragon",
+        "meaning": "A legend that appeared long after his martyrdom, in which he saves a town and a king's daughter from a dragon. The Church reads it as an image of faith overcoming evil, not as history."
+      }
+    ],
+    "whyWeTurn": "People turn to St. George because he would not give up Christ, even at the cost of his life. Very little about him is certain, but Christians in East and West have honoured him as a martyr since the early centuries, and his tomb at Lydda drew pilgrims long before the dragon story was told. Tradition holds that he was a soldier, so soldiers, scouts and others who face danger for the sake of others ask his help. The dragon legend, read as a picture rather than a report, still speaks plainly: with God's help, courage and faith can stand up to evil.",
+    "quotes": [
+      {
+        "text": "Put you on the armour of God, that you may be able to stand against the deceits of the devil.",
+        "work": "Ephesians 6:11",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Labour as a good soldier of Christ Jesus.",
+        "work": "2 Timothy 2:3",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Be thou faithful until death: and I will give thee the crown of life.",
+        "work": "Apocalypse 2:10",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Almighty God, you gave St. George the strength to stay faithful to Christ until death. Through his prayers, clothe me in the armour of faith, so that I do not bend when I am pressured to deny you. Protect soldiers and all who put themselves in danger to defend others, and bless those who work the land. When evil seems too strong to face, remind me that the victory belongs to you, and make me brave enough to do what is right. Bless England and every nation that honours his name. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Keep April 23, an optional memorial in the General Roman Calendar and a solemnity in England, where he is patron. When the date falls in the Easter Octave the English celebration moves to a later day, as in 2025, when it was kept on April 28.",
+      "In England, visit a church dedicated to him, such as St George's Cathedral in Southwark, which has offered his relic for veneration around his feast.",
+      "Pray for soldiers, their families and all who serve in the armed forces, whom Vatican News names among those who look to him as patron.",
+      "If you belong to a Scout group, remember him as a patron of scouts and talk together about what courage and service mean today.",
+      "Tell children the dragon story as a legend, then read Ephesians 6:10–17 together and talk about the armour of God."
+    ],
+    "places": [
+      {
+        "name": "St George's Cathedral, Southwark",
+        "city": "London, England",
+        "url": "https://stgeorgescathedral.org.uk/archived-news/st-george-s-day/"
+      }
+    ],
+    "confirmationNote": "George suits a confirmand who is brave, loyal and ready to stand up for what is right, and especially one drawn to military service, Scouting or protecting others. Little about his life is certain, and the dragon story is legend, but the core is solid: he was a martyr who would not deny Christ. Choosing his name can be a promise to stay faithful under pressure.",
+    "reflectionPrompts": [
+      "What is the 'dragon' in my own life, the fear or temptation I most need God's help to face?",
+      "This week, stand up for someone who is being mocked or left out, even if it costs you something.",
+      "Read Ephesians 6:10–17 in the Douay-Rheims, then read the Vatican News page on St. George and note what it treats as history and what as legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sebastian",
+        "reason": "Another soldier remembered as martyred in the same era of Roman persecution",
+        "historical": true
+      },
+      {
+        "slug": "maurice",
+        "reason": "Another soldier-martyr of the late Roman army, honoured by soldiers",
+        "historical": false
+      },
+      {
+        "slug": "michael-the-archangel",
+        "reason": "Also shown in art defeating a dragon, from Apocalypse 12",
+        "historical": false
+      },
+      {
+        "slug": "christopher",
+        "reason": "Another early martyr best known through a later legend",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, April 23 (St. George)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-04-23"
+      },
+      {
+        "title": "Vatican News: St. George, Martyr",
+        "url": "https://www.vaticannews.va/en/saints/04/23/st--george--martyr.html"
+      },
+      {
+        "title": "Liturgy Office (Bishops' Conference of England and Wales): National Calendar for England",
+        "url": "https://liturgyoffice.org/Calendar/National/England2.shtml"
+      },
+      {
+        "title": "Liturgy Office: Calendar, April 2025",
+        "url": "https://liturgyoffice.org/Calendar/2025/Apr.shtml"
+      },
+      {
+        "title": "Catholic Encyclopedia: George (reviewed biography source)",
+        "url": "https://www.newadvent.org/cathen/06453a.htm"
+      },
+      {
+        "title": "St George's Cathedral, Southwark: St George's Day",
+        "url": "https://stgeorgescathedral.org.uk/archived-news/st-george-s-day/"
+      },
+      {
+        "title": "Christian Iconography (Richard Stracke): Saint George",
+        "url": "https://www.christianiconography.info/george.html"
+      },
+      {
+        "title": "DRBO.org: Ephesians 6 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/56006.htm"
+      },
+      {
+        "title": "DRBO.org: 2 Timothy 2 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/62002.htm"
+      },
+      {
+        "title": "DRBO.org: Apocalypse 2 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/73002.htm"
+      }
+    ],
+    "flags": [
+      "patronages: the review lists England only; farmers is included because Catholic Culture lists farmers (and agricultural workers, field hands, husbandmen) and it has a live topic. A human may want to confirm that a secondary patronage should appear on the page.",
+      "patronages: soldiers, knights, scouts, archers, fencers and cavalry (Vatican News; Catholic Culture), plus horsemen, shepherds, butchers, saddlers, lepers, skin diseases and plague (Catholic Culture), are sourced but have no live topic.",
+      "symbols: armour, buckler and dragon are Catholic Culture's list; the lance and the dragon's meaning are from Vatican News; the red cross and its crusader legend are from Christian Iconography (citing the Golden Legend). The princess was left out to keep the list to established attributes.",
+      "quotes: George left no writings; Scripture only.",
+      "feastCustoms: the 1969 change to an optional memorial is from Vatican News; the English solemnity is from the Liturgy Office, and the April 28, 2025 transfer from its 2025 calendar. The Southwark relic is from the cathedral's 2021 St George's Day notice, so the wording avoids promising it every year.",
+      "places: only one. His traditional tomb church at Lod (Lydda) is Greek Orthodox and no official site was found; sangiorgioinvelabro.it (San Giorgio in Velabro, Rome) did not look like an official church site, so it was not used. The Southwark URL is an archived news page tied to his feast.",
+      "relatedSaints: Sebastian's and Maurice's soldier-martyr stories are themselves largely traditional; reasons are worded accordingly.",
+      "biography: no disagreement. Vatican News adds details the review avoids (born in Cappadocia about 280, executed after refusing the 303 edict); the Liturgy Office gives martyrdom at Lydda around 303, which the hero summary uses."
+    ]
+  },
+  "gerard-majella": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gerard Majella is the patron of mothers, especially during pregnancy, and is invoked for children and by couples hoping to conceive. An Italian tailor turned Redemptorist lay brother, he served the poor, bore a false accusation in silence and died at Materdomini in 1755, aged 29. His feast is October 16.",
+    "searchDescription": "St. Gerard Majella, feast October 16: the Redemptorist lay brother invoked as patron of mothers, especially in pregnancy, and of couples hoping for a child.",
+    "patronages": [
+      "mothers",
+      "children"
+    ],
+    "whyWeTurn": "People turn to St. Gerard Majella above all when a child is on the way, or longed for. Tradition holds that he once left his handkerchief with a young woman and told her to keep it; years later, when her first labour put her life in danger, she asked for it and came through safely with her child. Mothers have called him their saint ever since. His life gives more reasons to trust him: he worked hard for the poor, stayed silent and patient when he was falsely accused, and wanted nothing except to do God's will. Catholics ask his help in pregnancy, infertility, and family trouble.",
+    "quotes": [
+      {
+        "text": "Here is done that which God wills, as God wills, and for as long as He wills it.",
+        "work": "Words he wrote on the door of his room, as recorded in O. R. Vassall-Phillips, The Life of Saint Gerard Majella",
+        "translation": "O. R. Vassall-Phillips, C.SS.R. (1915, public domain)"
+      },
+      {
+        "text": "Some place sanctity in this; some in that. For my part, I place it only in doing the Will of God.",
+        "work": "A saying of his, as recorded in O. R. Vassall-Phillips, The Life of Saint Gerard Majella",
+        "translation": "O. R. Vassall-Phillips, C.SS.R. (1915, public domain)"
+      },
+      {
+        "text": "There is a God in Heaven; He will provide.",
+        "work": "His reply when urged to clear himself of a false accusation, as recorded in O. R. Vassall-Phillips, The Life of Saint Gerard Majella",
+        "translation": "O. R. Vassall-Phillips, C.SS.R. (1915, public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Loving Father, you made St. Gerard a friend of the poor and a comfort to mothers. Through his prayers, watch over every mother who is expecting a child, and give her peace, strength and a safe delivery. Comfort couples who long for children, and stay close to parents who grieve a child they have lost. Teach me, like Gerard, to look for your will in ordinary work, to serve without needing thanks, and to trust you when I am misunderstood. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers to St. Gerard, including one for a pregnant woman (Redemptorists of the Baltimore Province)",
+        "url": "https://redemptorists.net/st-gerard-majella"
+      }
+    },
+    "feastCustoms": [
+      "Keep October 16, his feast in the Redemptorist calendar; in the General Roman Calendar the day belongs to St. Hedwig and St. Margaret Mary Alacoque, and Gerard is commemorated in the Roman Martyrology.",
+      "Look for a blessing of expectant mothers and couples hoping to conceive; Redemptorist parishes have offered one after Masses around his feast.",
+      "Pray for a mother you know who is expecting, or for a couple longing for a child, using one of the prayers to St. Gerard published by the Redemptorists.",
+      "Remember the handkerchief story as tradition: some shrines give out cloths touched to his relics, and families have kept them for times of childbirth.",
+      "Help a family with a new baby, or give to a local pregnancy-help centre, in the spirit of his care for the poor."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of San Gerardo Maiella (Redemptorist basilica holding his remains)",
+        "city": "Materdomini, Caposele, Italy",
+        "url": "https://sangerardo.it/il-santuario/"
+      }
+    ],
+    "confirmationNote": "Gerard suits a confirmand who likes to serve quietly with their hands, who has felt misjudged, or who has a special love for mothers, babies and families. He was a tailor and a lay brother, not a priest, and his holiness grew in ordinary work, obedience and prayer. Choosing his name can be a promise to do God's will in small things and to protect new life.",
+    "reflectionPrompts": [
+      "When I am misunderstood or blamed unfairly, what would it look like to trust God as Gerard did?",
+      "This month, do one practical kindness for a mother or a family with young children.",
+      "Read Luke 1:39–56 in the Douay-Rheims, then read the Catholic Encyclopedia article on St. Gerard Majella and note how it describes his obedience."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "alphonsus-liguori",
+        "reason": "Founder of the Redemptorists, who knew Gerard and judged him a saint",
+        "historical": true
+      },
+      {
+        "slug": "john-neumann",
+        "reason": "A fellow Redemptorist, later bishop of Philadelphia",
+        "historical": true
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "Shares the October 16 date",
+        "historical": true
+      },
+      {
+        "slug": "gianna-beretta-molla",
+        "reason": "A modern wife and mother whose holiness is bound up with pregnancy and family life",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: Liturgical Year, October 16 (St. Gerard Majella)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-10-16"
+      },
+      {
+        "title": "Redemptorists of the Baltimore Province: St. Gerard Majella",
+        "url": "https://redemptorists.net/st-gerard-majella"
+      },
+      {
+        "title": "Redemptorists of the Baltimore Province: Happy Feast of St. Gerard!",
+        "url": "https://redemptorists.net/news/happy-feast-of-st-gerard"
+      },
+      {
+        "title": "Redemptorists (British Province): Saint Gerard Majella prayers",
+        "url": "https://www.redemptorists.co.uk/preaching-and-prayer/redemptorist-prayer/saint-gerard-majella.html"
+      },
+      {
+        "title": "Scala News (Redemptorists): October 16, Feast of St. Gerard Majella",
+        "url": "https://www.cssr.news/2023/10/october-16-feast-of-st-gerard-majella-2/"
+      },
+      {
+        "title": "Santuario San Gerardo Maiella, Materdomini: Il Santuario",
+        "url": "https://sangerardo.it/il-santuario/"
+      },
+      {
+        "title": "Santuario San Gerardo Maiella, Materdomini: San Gerardo",
+        "url": "https://sangerardo.it/san-gerardo/"
+      },
+      {
+        "title": "Catholic Encyclopedia (1909): St. Gerard Majella",
+        "url": "https://www.newadvent.org/cathen/06467c.htm"
+      },
+      {
+        "title": "O. R. Vassall-Phillips, The Life of Saint Gerard Majella (1915), Internet Archive",
+        "url": "https://archive.org/details/lifeofsaintgerar00vassrich"
+      },
+      {
+        "title": "The Message (Diocese of Evansville): The Mothers' Saint",
+        "url": "https://evdiomessage.org/?p=8700"
+      },
+      {
+        "title": "EWTN (from Our Sunday Visitor, 1997): Hope in the Handkerchief of a Saint",
+        "url": "https://www.ewtn.com/catholicism/library/hope-in-the-handkerchief-of-a-saint-5537"
+      }
+    ],
+    "flags": [
+      "patronages: children is included because Catholic Culture lists children and the Materdomini sanctuary calls him 'protettore delle mamme e dei bambini'; the review names only mothers, so a human may want to confirm the second slug.",
+      "patronages: expectant mothers, pregnant women, childbirth, motherhood, unborn children, the pro-life movement, falsely accused people, good confessions and lay brothers are sourced (Catholic Culture) but have no live topic.",
+      "symbols: omitted. Catholic Culture gives no symbols for him, and no Catholic list checked gives established attributes.",
+      "quotes: all three are sayings reported in Vassall-Phillips's 1915 Life (verified in the Internet Archive text), not writings in his own hand; the work field says so. Vassall-Phillips was a Redemptorist. Gerard's letters were not used because no public-domain translation was verified.",
+      "prayer: original, linking the Redemptorists' prayer page. The traditional-looking prayers there and the Italian 'Preghiera della Mamma' at sangerardo.it/preghiere/ were not quoted because their origins were not established. Note: redemptorists.net refused automated fetches (403) but loaded in a normal browser request.",
+      "whyWeTurn / feastCustoms: the handkerchief story is labelled tradition; it is told in Vassall-Phillips (1915), The Message (Diocese of Evansville) and Our Sunday Visitor via EWTN. Relic-touched cloths at shrines are from the OSV article (1997). Parish blessings for expectant mothers are from a Redemptorist Baltimore Province feast-day post.",
+      "places: only the Materdomini sanctuary, run by the Redemptorists, whose page says the basilica keeps his remains. His birthplace, Muro Lucano, and the National Shrine of St. Gerard in Newark were not added because no official page was verified.",
+      "relatedSaints: Alphonsus's verdict ('Brother Gerard is a saint') is from the Catholic Encyclopedia; Gerard and John Neumann were both Redemptorists but did not meet.",
+      "biography: no disagreement. The Catholic Encyclopedia says he tried to become a Franciscan and then a hermit; the review's 'Capuchins' fits, since the Capuchins are a Franciscan order. 2026 marks the 300th anniversary of his birth (the sanctuary's 'Anno Gerardino'); not used because it will go stale."
+    ]
+  },
+  "germaine-cousin": {
+    "templateVersion": 2,
+    "heroSummary": "St. Germaine Cousin is honored as a patron of shepherdesses. She was a sickly peasant girl of Pibrac, near Toulouse, who tended her family's sheep, was treated harshly at home, and went faithfully to Mass in the village church. She died about 1601, in her early twenties, and Pius IX canonized her in 1867.",
+    "searchDescription": "St. Germaine Cousin (c. 1579–1601), feast June 15: the sickly, mistreated shepherdess of Pibrac near Toulouse, canonized by Pius IX in 1867.",
+    "patronages": [
+      "shepherdesses"
+    ],
+    "symbols": [
+      {
+        "symbol": "Shepherd's crook or distaff",
+        "meaning": "Her daily work of watching the sheep while spinning wool. Tradition says she planted her distaff in the ground when she went to Mass, and the flock stayed gathered around it until she came back."
+      },
+      {
+        "symbol": "Flowers falling from her apron",
+        "meaning": "A legend told at Pibrac: her stepmother, suspecting she was carrying bread to the poor, made her open her apron, and roses fell out in the middle of winter."
+      },
+      {
+        "symbol": "Sheep, sometimes with a watchdog",
+        "meaning": "Her life as a shepherdess in the fields around Pibrac, the work her family gave her."
+      }
+    ],
+    "whyWeTurn": "People turn to Germaine when they feel unwanted, unwell, or invisible. The sanctuary at Pibrac remembers her as a girl with a disabled hand and a painful skin disease, treated harshly by her stepmother and sent out to the fields with the sheep. She did not become bitter. She kept going to Mass and, tradition holds, shared what little bread she had with people poorer than herself. Her neighbors barely noticed her until her body was found intact in the village church in 1644. Catholics ask her prayers for children who are mistreated, for people living with disability or illness, and for anyone who feels forgotten by their own family.",
+    "quotes": [
+      {
+        "text": "The prayer of him that humbleth himself, shall pierce the clouds: and till it come nigh he will not be comforted: and he will not depart till the most High behold.",
+        "work": "Ecclesiasticus (Sirach) 35:21",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And the base things of the world, and the things that are contemptible, hath God chosen, and things that are not, that he might bring to nought things that are.",
+        "work": "1 Corinthians 1:28",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you looked with love on Germaine when others looked past her, and you made the poor shepherdess of Pibrac a saint. Through her prayers, help me to bear hardship without bitterness and to keep coming back to you in prayer and at Mass. Protect every child who is mistreated or unwanted at home, and give strength to all who live with illness or disability. Make me generous with the little I have, and teach me to notice the people others overlook. St. Germaine, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayer to St. Germaine from the Sanctuary of Pibrac (in French)",
+        "url": "https://www.saintegermainedepibrac.fr/priere-sainte-germaine/"
+      }
+    },
+    "feastCustoms": [
+      "Keep June 15, her feast day. Her commemoration is local rather than on the General Roman Calendar, so check whether your parish or diocese marks it.",
+      "In Pibrac, the sanctuary holds its annual pilgrimage in the days around June 15, with Masses celebrated by visiting bishops; pilgrims also visit the church where her relics are kept and the house where she was born.",
+      "Go to a weekday Mass, remembering that Germaine walked to Mass in the village church every day she could.",
+      "Share food or give to a food bank, recalling the tradition that she gave her own bread to the poor.",
+      "Pray for children who are mistreated or neglected at home and for people living with disability, and support a local group that protects or serves them."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of St. Germaine of Pibrac (basilica, birthplace, and fountain)",
+        "city": "Pibrac, France",
+        "url": "https://www.saintegermainedepibrac.fr/"
+      },
+      {
+        "name": "Church of Sainte-Marie-Madeleine, where she attended Mass, where her body was found in 1644, and where her relics are kept in a reliquary",
+        "city": "Pibrac, France",
+        "url": "https://www.saintegermainedepibrac.fr/sanctuaire/eglise-sainte-marie-madeleine/"
+      }
+    ],
+    "confirmationNote": "Germaine suits a Confirmation candidate who has known exclusion, a hard home life, illness, or disability, or who simply feels unnoticed. She had little in her favor by the world's standards, yet she prayed faithfully, worked patiently, and stayed kind to people poorer than herself. Choosing her means asking for perseverance, a generous heart, and trust that God sees and values the people others overlook.",
+    "reflectionPrompts": [
+      "Who in my family, class, or workplace is easiest to overlook, and how could I show them the respect Germaine was denied?",
+      "This week, give away something you would normally keep for yourself, such as a meal, money, or time, to someone who needs it more.",
+      "Read 1 Corinthians 1:26–31 in the Douay-Rheims alongside the Pibrac sanctuary's page on who St. Germaine was, and note how the two speak of God choosing the lowly."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vincent-de-paul",
+        "reason": "Her contemporary from southwestern France, who was studying theology at Toulouse when she died near the city",
+        "historical": true
+      },
+      {
+        "slug": "bernadette-soubirous",
+        "reason": "Another poor and sickly French shepherdess whom the Church raised to the altars",
+        "historical": false
+      },
+      {
+        "slug": "isidore-the-farmer",
+        "reason": "Rural laborer whose legend, like hers, tells of his work protected while he went to Mass",
+        "historical": false
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "Endured cruel treatment by those over her and answered with gentleness and faith",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sanctuaire Sainte Germaine de Pibrac (official site)",
+        "url": "https://www.saintegermainedepibrac.fr/"
+      },
+      {
+        "title": "Sanctuaire de Pibrac: Qui est sainte Germaine ?",
+        "url": "https://www.saintegermainedepibrac.fr/qui-est-sainte-germaine/"
+      },
+      {
+        "title": "Sanctuaire de Pibrac: L'église Sainte-Marie-Madeleine",
+        "url": "https://www.saintegermainedepibrac.fr/sanctuaire/eglise-sainte-marie-madeleine/"
+      },
+      {
+        "title": "Sanctuaire de Pibrac: Prière à sainte Germaine (Mgr Robert Le Gall, 2017)",
+        "url": "https://www.saintegermainedepibrac.fr/priere-sainte-germaine/"
+      },
+      {
+        "title": "Sanctuaire de Pibrac: Liturgie (reflection by Archbishop Guy de Kerimel)",
+        "url": "https://www.saintegermainedepibrac.fr/liturgie/"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, June 15 (St. Germaine Cousin)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-15"
+      },
+      {
+        "title": "Famvin Wiki (Vincentian Family): Toulouse",
+        "url": "https://wiki.famvin.org/en/Toulouse"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ecclesiasticus 35",
+        "url": "https://www.drbo.org/chapter/26035.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Corinthians 1",
+        "url": "https://www.drbo.org/chapter/53001.htm"
+      }
+    ],
+    "flags": [
+      "patronages: victims of abuse and child abuse, abandoned people, disabled and handicapped people, loss of parents, the sick, the poor, and rural girls are listed by Catholic Culture but have no live topics.",
+      "symbols: all three come from Catholic Culture's iconography list; the distaff and apron-roses meanings come from the Pibrac sanctuary's telling and are labeled as tradition and legend.",
+      "quotes: Germaine left no writings, so only Douay-Rheims verses are used. Ecclesiasticus 35:21 echoes the first reading the Archbishop of Toulouse cited in his reflection on her ('La prière du pauvre traverse les nuées'); the verse is numbered 35:17 in many modern Bibles.",
+      "prayer: the sanctuary's prayer is a modern composition (Mgr Robert Le Gall, 2017), so it is linked rather than reproduced.",
+      "feastCustoms: the pilgrimage dates shift each year (June 12–15 in 2026); the item says 'in the days around June 15'. 'Not on the General Roman Calendar' rests on the reviewed feast note ('Local commemoration') and was not re-checked against the calendar itself.",
+      "relatedSaints: Vincent de Paul's theology studies at Toulouse (from about 1597, bachelor's degree 1604) rest on the Famvin Wiki; the Isidore legend was not re-fetched in this pass.",
+      "biography: no real disagreement. The sanctuary does not give birth or death dates; Catholic Culture gives 1579–1601 and age about 21, against the review's 'about twenty-two'. The review mentions the rosary; the sanctuary's page does not, and Catholic Culture speaks instead of prayer at a shrine of Our Lady, so the rosary is not used here. The sanctuary gives beatification on May 7, 1854, and canonization on June 29, 1867."
+    ]
+  },
+  "gertrude-the-great": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gertrude the Great (1256–c. 1302) spent almost her whole life in the women's monastery of Helfta, near Eisleben in present-day Germany, entering at five. A conversion at twenty-five turned her learning toward prayer, and she wrote of Christ's love and his Heart in the Herald of Divine Love. Her optional memorial is November 16.",
+    "searchDescription": "St. Gertrude the Great (1256–c. 1302), feast November 16: medieval mystic of the Helfta monastery who wrote of Christ's love and his Heart.",
+    "symbols": [
+      {
+        "symbol": "Heart, often with the Christ Child or the letters IHS",
+        "meaning": "Christ dwelling in her heart and her devotion to the Heart of Jesus. A well-known image of her bears the words \"Invenies me in corde Gertrudis\" (you will find me in the heart of Gertrude)."
+      },
+      {
+        "symbol": "Seven rings",
+        "meaning": "In the Herald she writes that she saw seven golden rings on her hand, pledges that the favors she had asked of Christ were confirmed; an antiphon of her Office recalls it."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Purity of heart. In a revelation recorded in her Life, Christ calls her \"My chosen lily.\""
+      },
+      {
+        "symbol": "Crown",
+        "meaning": "Her spiritual espousal to Christ, echoing the antiphon \"My Lord Jesus has espoused me to Him with seven rings, and crowned me as a bride.\""
+      }
+    ],
+    "whyWeTurn": "People turn to Gertrude when prayer has gone dry or their faith feels more like duty than love. As a young nun she was a gifted student who later looked back on those years as vain and empty, until a quiet encounter with Christ at twenty-five changed her. From then on she found him in the ordinary rhythm of Scripture, the Mass, and the sung prayer of her community. Her writing is warm and personal, full of trust that Christ's Heart is open to anyone. Benedict XVI pointed to her as proof that friendship with Jesus is the heart of a happy life. Catholics also ask her prayers for the dead, whom she prayed for constantly.",
+    "quotes": [
+      {
+        "text": "…if by continual gratitude I return Thy graces to Thee, as a stream returns to its source; if, increasing in the love of virtue, I put forth, like the trees, the flowers of good works … my heart would be an agreeable abode for Thee.",
+        "work": "The Herald of Divine Love, Book II, ch. 3 (in The Life and Revelations of Saint Gertrude, Part II, ch. III)",
+        "translation": "The Life and Revelations of Saint Gertrude, trans. Sister M. Frances Clare, Poor Clares of Kenmare (preface 1865; Burns & Oates, 1870s; public domain)"
+      },
+      {
+        "text": "Thou didst give me from henceforward a more clear knowledge of Thyself, which was such that the sweetness of Thy love led me to correct my faults far more than the fear of the punishments with which Thy just anger threatened me.",
+        "work": "The Herald of Divine Love, Book II, ch. 2 (in The Life and Revelations of Saint Gertrude, Part II, ch. II)",
+        "translation": "The Life and Revelations of Saint Gertrude, trans. Sister M. Frances Clare, Poor Clares of Kenmare (preface 1865; Burns & Oates, 1870s; public domain)"
+      },
+      {
+        "text": "If any one love me, he will keep my word, and my Father will love him, and we will come to him, and will make our abode with him.",
+        "work": "John 14:23 (the verse Gertrude says came suddenly to mind as she prayed, Herald Book II, ch. 3)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "O Lord Jesus Christ, Son of the living God, grant that I may aspire towards Thee with my whole heart, with full desire and with thirsty soul, seeking only Thy sweetness and Thy delights, so that my whole mind and all that is within me may most ardently sigh to Thee, who art our true Beatitude. O most merciful Lord, engrave Thy Wounds upon my heart with Thy most precious Blood, that I may read in them both Thy grief and Thy love; and that the memory of Thy Wounds may ever remain in my inmost heart, to excite my compassion for Thy sufferings and to increase in me Thy love. Grant me also to despise all creatures, and that my heart may delight in Thee alone. Amen.",
+      "kind": "traditional",
+      "source": "The Life and Revelations of Saint Gertrude (Kenmare translation, public domain), Part II, ch. IV (Herald of Divine Love, Book II, ch. 4)",
+      "note": "Gertrude did not compose this prayer. She writes that she found it in a book of devotions early in her new life of prayer and prayed it often. The popular \"prayer of St. Gertrude to release 1,000 souls from purgatory\" is a later attribution: it does not appear in this translation of her revelations, and its promise of a set number of souls should not be presented as hers.",
+      "link": {
+        "label": "The Life and Revelations of Saint Gertrude (full text, Internet Archive)",
+        "url": "https://archive.org/details/thelifeandrevela00gertuoft"
+      }
+    },
+    "feastCustoms": [
+      "Attend Mass on November 16, her optional memorial in the General Roman Calendar, or pray its collect, which asks God to light the darkness of our hearts through her intercession.",
+      "Read a chapter of Book II of the Herald of Divine Love, the part Gertrude wrote herself, as Catholic Culture suggests for her day.",
+      "Since her feast falls in November, the month the Church remembers the dead, pray for someone who has died, as the Herald shows the Helfta nuns doing for their departed sisters; use the Church's own prayers rather than chain prayers that promise a set number of souls.",
+      "Pray the Litany of St. Gertrude or begin a novena to the Sacred Heart, both suggested by Catholic Culture.",
+      "Before sleeping, name a few graces from the day and give thanks, in the spirit of her image of returning God's gifts like a stream flowing back to its source."
+    ],
+    "places": [
+      {
+        "name": "Kloster St. Marien zu Helfta, the Cistercian monastery refounded in 1999 on the site of her medieval community, with a chapel dedicated to her",
+        "city": "Lutherstadt Eisleben, Germany",
+        "url": "https://www.kloster-helfta.de/"
+      }
+    ],
+    "confirmationNote": "Gertrude suits a Confirmation candidate who is bright, studious, or drawn to music and books, but senses that faith has to become more than a subject. She was a gifted student whose learning only came alive when it turned into friendship with Christ. Choosing her means asking for a heart that prays, not only a mind that knows, and for joy in the Church's worship and Scripture.",
+    "reflectionPrompts": [
+      "Is my faith right now more like a subject I study or a friendship I live, and what would help it become more personal?",
+      "Each night this week, name three gifts from the day and thank God for each before you sleep.",
+      "Read Benedict XVI's general audience on St. Gertrude (October 6, 2010), then Book II, chapters 1–3, of her Herald in the Kenmare translation, and note how she describes her conversion."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mechthild-of-hackeborn",
+        "reason": "Her teacher and fellow nun at Helfta, whose revelations were recorded alongside hers",
+        "historical": true
+      },
+      {
+        "slug": "margaret-of-scotland",
+        "reason": "Shares the November 16 feast in the General Roman Calendar",
+        "historical": true
+      },
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "Later visionary of the Sacred Heart, the devotion Gertrude anticipated",
+        "historical": false
+      },
+      {
+        "slug": "hildegard-of-bingen",
+        "reason": "Fellow medieval German nun, mystic, and writer",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI, General Audience: Saint Gertrude (October 6, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101006.html"
+      },
+      {
+        "title": "Vatican News: Saints of November 16",
+        "url": "https://www.vaticannews.va/en/saints/11/16.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, November 16 (St. Gertrude the Great)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-11-16"
+      },
+      {
+        "title": "The Life and Revelations of Saint Gertrude, Kenmare translation (Internet Archive, University of Toronto copy)",
+        "url": "https://archive.org/details/thelifeandrevela00gertuoft"
+      },
+      {
+        "title": "Kloster St. Marien zu Helfta (official site)",
+        "url": "https://www.kloster-helfta.de/"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 14",
+        "url": "https://www.drbo.org/chapter/50014.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists nuns, travelers, the West Indies, the Diocese of Magdeburg, and Naples, but none has a live topic, so the field is omitted.",
+      "symbols: Catholic Culture lists crown, lily, taper, seven rings, heart with IHS, and heart. The meanings of the rings, lily, and crown are taken from the Kenmare text (Part II, ch. XX–XXI, with the footnote quoting the Office antiphon \"Annulis septem\"; and the Life, Part I, ch. II). The 'Invenies me in corde Gertrudis' image comes from the translator's preface, which says the scroll and rings were added to a 17th-century Spanish painting. The taper was left out because no source explained it.",
+      "quotes: both of Gertrude's quotations were checked word for word against the Internet Archive scan (OCR spacing normalized). The scan is an undated Burns & Oates printing with an 1870 episcopal letter; the translator's preface is dated May 6, 1865. The preface states that Parts II–V translate Books II–V of the Insinuationes (Herald), so the chapter numbers line up.",
+      "prayer: Benedict XVI's audience quotes her in a modern copyrighted translation, so the prayer comes from the public-domain Kenmare text instead. I searched the full Kenmare text for the '1,000 souls' prayer (\"Eternal Father, I offer Thee the Most Precious Blood…\") and found no match. I did not verify the reported Holy Office condemnation of prayer cards promising the release of souls, so it is not cited.",
+      "places: the Helfta site says the medieval sisters' cemetery is lost and no relics of Gertrude are available, so the entry claims only that the refounded monastery stands at Helfta and keeps a Gertrude chapel. A human may want to confirm how closely the present buildings match the medieval monastery.",
+      "biography: the Kenmare edition's Life calls Gertrude an abbess, mixing her up with Abbess Gertrude of Hackeborn. The reviewed biography is right that she was not abbess, and nothing from that part of the Life about her governance is used here. Benedict XVI gives her birth as January 6, 1256, her conversion as January 27, 1281, and her death as November 17, 1301 or 1302, consistent with the review."
+    ]
+  },
+  "gianna-beretta-molla": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gianna Beretta Molla is honored as a patron of mothers. She was an Italian physician specializing in pediatrics, a wife, and a mother of four. When a fibroma was found during her fourth pregnancy, she asked that her unborn child be protected. She died on April 28, 1962, a week after her daughter's birth, and was canonized in 2004.",
+    "searchDescription": "St. Gianna Beretta Molla (1922–1962), feast April 28: Italian physician, wife, and mother who protected her unborn child's life; canonized in 2004.",
+    "patronages": [
+      "mothers"
+    ],
+    "whyWeTurn": "People turn to Gianna because her holiness looks like ordinary life done with great love. She was a doctor who cared for mothers, children, the elderly, and the poor, a young woman active in Catholic Action and the St. Vincent de Paul Society, and someone who loved skiing and the mountains. She married, raised children, and kept practicing medicine. When her fourth pregnancy became dangerous, she accepted the risk to protect her child, and she died a week after her daughter was born. Mothers, expectant parents, married couples, and doctors ask her prayers, especially in difficult pregnancies, and John Paul II presented her as a witness to the beauty of married love.",
+    "quotes": [
+      {
+        "text": "Before the festival day of the pasch, Jesus knowing that his hour was come, that he should pass out of this world to the Father: having loved his own who were in the world, he loved them unto the end.",
+        "work": "John 13:1 (the verse John Paul II applied to her in his 2004 canonization homily)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "This is my commandment, that you love one another, as I have loved you. Greater love than this no man hath, that a man lay down his life for his friends.",
+        "work": "John 15:12–13",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you gave St. Gianna a love for life that showed in her medical work, her friendships, her marriage, and her children. Through her prayers, bless every mother and father, and every child waiting to be born. Stay close to families facing a difficult pregnancy, illness, or loss, and give them wise doctors and faithful friends. Help married couples love one another generously, and help all who care for the sick to see you in their patients. Teach me to give myself to the people you have entrusted to me. St. Gianna, pray for us. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Prayers and novena to St. Gianna from the Sanctuary of the Family in Mesero (in Italian)",
+        "url": "https://www.santuariosantagianna.it/preghiere-s-gianna"
+      }
+    },
+    "feastCustoms": [
+      "Keep April 28, the day of her death. She is in the Roman Martyrology and is celebrated as an optional memorial in some places, so check whether your diocese or parish observes it.",
+      "Pray the novena to St. Gianna published by the Mesero sanctuary, which begins on April 17 and leads up to her feast.",
+      "At Mesero, near Magenta, the diocesan Sanctuary of the Family marks her liturgical feast with Mass at her family's tomb in the town cemetery.",
+      "Pray for an expectant mother or a family facing a difficult pregnancy, and offer practical help such as a meal or an afternoon of babysitting.",
+      "If you are married, pray together for your marriage and family; if you are engaged, pray the sanctuary's prayer for engaged and married couples."
+    ],
+    "places": [
+      {
+        "name": "Santuario diocesano della Famiglia, dedicated to St. Gianna, near her family's tomb",
+        "city": "Mesero, Italy",
+        "url": "https://www.santuariosantagianna.it/"
+      }
+    ],
+    "confirmationNote": "Gianna suits a Confirmation candidate who hopes to marry, raise a family, or work in medicine or care for others, and who wants a saint whose life looks like their own. She studied hard, loved sports and the mountains, served the poor, and put her faith into her work and family. Choosing her means asking for generous love, courage in hard decisions, and joy in everyday duties.",
+    "reflectionPrompts": [
+      "Where in my everyday responsibilities, such as school, work, or family, is God asking me to love a little more generously?",
+      "This week, do something concrete for a pregnant woman, a new mother, or a family with young children: a meal, a ride, or an hour of help.",
+      "Read the Holy See's biography of St. Gianna and John Paul II's canonization homily of May 16, 2004, then read John 13:1–15 in the Douay-Rheims and note how he connects that passage to her life."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "louis-de-montfort",
+        "reason": "Shares the April 28 feast",
+        "historical": true
+      },
+      {
+        "slug": "pier-giorgio-frassati",
+        "reason": "Fellow twentieth-century Italian layperson who served the poor through the St. Vincent de Paul Society and loved the mountains",
+        "historical": true
+      },
+      {
+        "slug": "gerard-majella",
+        "reason": "Also invoked as a patron of mothers and expectant mothers",
+        "historical": false
+      },
+      {
+        "slug": "zelie-martin",
+        "reason": "Another canonized wife and mother who combined family life with a working career",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Gianna Beretta Molla (1922–1962) biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040516_beretta-molla_en.html"
+      },
+      {
+        "title": "John Paul II, Homily for the canonizations of May 16, 2004",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2004/documents/hf_jp-ii_hom_20040516_canonizations.html"
+      },
+      {
+        "title": "Dicastery for the Causes of Saints: Gianna Beretta Molla",
+        "url": "https://www.causesanti.va/it/santi-e-beati/gianna-beretta-molla.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, April 28 (St. Gianna Beretta Molla)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-04-28"
+      },
+      {
+        "title": "Santuario S. Gianna Beretta Molla, Mesero (official site)",
+        "url": "https://www.santuariosantagianna.it/"
+      },
+      {
+        "title": "Santuario S. Gianna: Preghiere a S. Gianna",
+        "url": "https://www.santuariosantagianna.it/preghiere-s-gianna"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 13",
+        "url": "https://www.drbo.org/chapter/50013.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 15",
+        "url": "https://www.drbo.org/chapter/50015.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Mothers comes from Catholic Culture's patronage list; human may reconcile.",
+      "patronages: pregnant women, unborn children, 'against abortion', and World Meeting of Families 2015 are listed by Catholic Culture but have no live topics. Physicians and doctors were not found in a reputable patronage list, so they appear only as description.",
+      "symbols: omitted. No established iconographic attributes were found in a reputable Catholic source.",
+      "quotes: her own words (letters, notes, and the reported 'choose the child … save him') are modern and copyrighted or exist only in modern translations, so only Douay-Rheims verses are used. John 13:1 is the verse John Paul II applied to her; John 15:12–13 is an editorial choice.",
+      "feastCustoms: the novena dates (April 17 onward) and the Mass at the family tomb come from the Mesero sanctuary's site. 'Optional memorial in some places' follows Catholic Culture, which lists her as a Roman Martyrology commemoration.",
+      "places: only the Mesero sanctuary was used. The Basilica of San Martino in Magenta, where she married, was not checked for an official site.",
+      "relatedSaints: Zélie Martin's lace-making business and Gerard Majella's patronage of mothers are standard but were not re-fetched in this pass; Gerard is a saint on the live 'mothers' topic.",
+      "biography: no disagreement. The Holy See says she asked the surgeon to save the child and that the child's life was saved; the review's wording (surgery intended to preserve her life and the pregnancy, and no claim that she refused all treatment) is consistent with that, and the heroSummary avoids any claim that she refused treatment. The Holy See gives birth on October 4, 1922, marriage on September 24, 1955, and beatification on April 24, 1994."
+    ]
+  },
+  "gildas": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gildas, called Gildas the Wise, was a sixth-century British monk and writer. His On the Ruin of Britain is one of the very few voices from the years after Roman rule, a fierce call to repentance aimed at kings and clergy alike. Later tradition links him with Brittany, and his local feast is January 29.",
+    "searchDescription": "St. Gildas the Wise, sixth-century British monk and author of On the Ruin of Britain, who called rulers and clergy to repentance. Feast: January 29.",
+    "whyWeTurn": "People turn to St. Gildas when they grieve over failures in the Church or in public life and want to answer with prayer and honest speech rather than despair. He tells us he kept silent for more than ten years before he wrote, and that he wrote with tears, out of sorrow for his country. His book is severe, but its aim is conversion, not contempt. Tradition holds that he lived as a monk and founded a monastery at Rhuys in Brittany, though the later Lives disagree on details. Writers, teachers, historians and anyone called to say a hard truth with love can find in him a companion.",
+    "quotes": [
+      {
+        "text": "On the contrary, let him think of me as a man that will speak out of a feeling of condolence with my country's losses and its miseries, and sharing in the joy of remedies.",
+        "work": "Gildas, On the Ruin of Britain (De Excidio Britanniae), Preface, §1",
+        "translation": "Hugh Williams (ed. and trans.), Gildae De Excidio Britanniae, Cymmrodorion Record Series no. 3 (London, 1899; public domain)"
+      },
+      {
+        "text": "The former of these, through love, hid a confessor when pursued by his persecutors, and on the point of being seized, imitating in this Christ laying down his life for the sheep.",
+        "work": "Gildas, On the Ruin of Britain (De Excidio Britanniae), §11, on St. Alban",
+        "translation": "Hugh Williams (ed. and trans.), Gildae De Excidio Britanniae, Cymmrodorion Record Series no. 3 (London, 1899; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Gildas the courage to grieve honestly over the sins of his people and to call rulers and pastors back to you. Through his prayers, give me a heart that weeps for what is broken without growing bitter, and a voice that speaks the truth with love. Bless those who lead our nations and our Church; make them just, humble and faithful. Bless all who study and write, that their work may serve the truth. And when I am the one who needs correcting, give me the grace to listen and repent. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on January 29, his local feast; Catholic Culture lists him that day as a commemoration, and he is not on the General Roman Calendar, so this is mainly a day for personal or family prayer. A second date, May 11, recalls the translation of his relics.",
+      "Read the Preface (§1) of On the Ruin of Britain, where Gildas explains why he finally broke his silence, and §§10–11, his early witness to the martyr St. Alban.",
+      "In Brittany, where many churches bear his name, local pardons in his honor are still kept; one parish in the Diocese of Saint-Brieuc keeps a pardon on the Île Saint-Gildas off Penvénan that, by local tradition, includes a blessing of horses.",
+      "Pray for civil and Church leaders by name, and examine your own conscience about the faults Gildas criticized in leaders, such as neglect of duty and greed.",
+      "If something in your community troubles you, pray first, then speak to the right person charitably and directly, rather than complaining in general."
+    ],
+    "places": [
+      {
+        "name": "Église Saint-Gildas, former abbey church of Rhuys (French Ministry of Culture heritage record)",
+        "city": "Saint-Gildas-de-Rhuys, France",
+        "url": "https://pop.culture.gouv.fr/notice/merimee/PA00091674"
+      }
+    ],
+    "confirmationNote": "Gildas suits a confirmand who loves reading, history or writing, or who cares deeply about honesty and justice. He saw serious wrongs in his society and his Church and did not stay silent forever; he spoke, but with tears and with the aim of bringing people back to God. Confirmation strengthens Christians to witness with courage, and Gildas shows that courageous speech must also be humble and loving.",
+    "reflectionPrompts": [
+      "Is there a hard truth I have been avoiding saying, or avoiding hearing, and what would it look like to face it with love?",
+      "This week, pray by name for one leader in your parish, school or town, and find one concrete way to support good leadership there.",
+      "Read the Preface and §§10–11 of On the Ruin of Britain in Hugh Williams's 1899 translation, and notice how Gildas describes his own motives before he criticizes anyone."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "alban",
+        "reason": "Gildas's book is one of the earliest witnesses to Alban's martyrdom",
+        "historical": true
+      },
+      {
+        "slug": "bede-the-venerable",
+        "reason": "Bede quoted Gildas and drew on his book for the history of Britain",
+        "historical": true
+      },
+      {
+        "slug": "david-of-wales",
+        "reason": "Fellow sixth-century monk of the British churches",
+        "historical": true
+      },
+      {
+        "slug": "columba-of-iona",
+        "reason": "Sixth-century Celtic monk also remembered for learning and writing",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): St. Gildas (New Advent)",
+        "url": "https://www.newadvent.org/cathen/06557c.htm"
+      },
+      {
+        "title": "Catholic Culture: January 29 (St. Gildas the Wise, commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-01-29"
+      },
+      {
+        "title": "Gildas, The Ruin of Britain, trans. Hugh Williams (1899), Christian Classics Ethereal Library",
+        "url": "https://www.ccel.org/ccel/pearse/morefathers/files/gildas_02_ruin_of_britain.htm"
+      },
+      {
+        "title": "Gildae De Excidio Britanniae, ed. Hugh Williams (1899), Internet Archive scan",
+        "url": "https://archive.org/details/gildaedeexcidiob00gilduoft"
+      },
+      {
+        "title": "Paroisse Saint-Tugdual (catholique.fr): Pardon de St Gildas, homily (June 2026)",
+        "url": "https://cpsainttugdual.catholique.fr/wp-content/uploads/2026/06/Pardon-de-St-Gildas.pdf"
+      },
+      {
+        "title": "Plateforme ouverte du patrimoine (French Ministry of Culture): Église Saint-Gildas, Saint-Gildas-de-Rhuys",
+        "url": "https://pop.culture.gouv.fr/notice/merimee/PA00091674"
+      },
+      {
+        "title": "Husenbeth, Emblems of Saints (Internet Archive)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      }
+    ],
+    "flags": [
+      "symbols: omitted. Catholic Culture and Husenbeth's Emblems of Saints give only one attribute (a bell), not enough for 3–5 well-sourced symbols.",
+      "patronages: review lists none. The Catholic Encyclopedia says only that he is patron of several churches and monasteries in Brittany and elsewhere; no live topic fits, so the field is omitted.",
+      "quotes: both passages checked word for word against the CCEL transcription of Hugh Williams's 1899 translation (Cymmrodorion Record Series no. 3; the archive.org scan is marked not in copyright). The second quote is Gildas's own words about St. Alban.",
+      "feastCustoms: the Penvénan pardon and horse blessing come from a June 2026 homily published by Saint-Tugdual parish (catholique.fr), which itself calls the horse blessing a local tradition; the diocese is inferred from Penvénan's location (Saint-Brieuc et Tréguier) and should be confirmed. No date is given because pardon dates vary. A Diocese of Vannes events PDF reportedly lists a 2026 pardon at Saint-Gildas-de-Rhuys for the abbey's millennium, but the PDF could not be read, so it is not used. 'Not on the General Roman Calendar' rests on Catholic Culture listing him only as a commemoration.",
+      "places: no official parish or shrine web page for the Rhuys abbey church was found; the French Ministry of Culture record is used because it states that Gildas founded the monastery there and was buried in it. A human may prefer to drop it if only church sites are wanted.",
+      "relatedSaints: the Bede link rests on the Catholic Encyclopedia's statement that Bede and Alcuin quoted Gildas. The David of Wales link is same era and region only; the Saint-Tugdual homily repeats the legend that both studied under St. Illtud, which is not used.",
+      "biography: no disagreement. Notes: Catholic Culture and the Catholic Encyclopedia give about 516–570, a birth near the Clyde, and death on the island of Houat; this entry follows the review's 'sixth century'. Catholic Culture calls him a bishop, which the Catholic Encyclopedia does not; this entry calls him a monk."
+    ]
+  },
+  "gleb": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gleb, baptized David, was a young prince of Kyivan Rus' and a son of St. Vladimir. In 1015 he was killed on the orders of his brother Sviatopolk, soon after his brother Boris. Honored with Boris as a passion-bearer in the Orthodox and Ukrainian Greek Catholic Churches, he is remembered on July 24.",
+    "searchDescription": "St. Gleb (David), son of Vladimir of Kyiv, killed in 1015 with his brother Boris and honored as a passion-bearer. Feast with Boris: July 24.",
+    "whyWeTurn": "People turn to St. Gleb when violence touches their own family or nation, and when they are tempted to answer harm with harm. The medieval account says he was lured by a false message about his father, learned on the way that his brother Boris had been murdered, and was killed on his boat by men sent by another brother. The Church calls Gleb and Boris passion-bearers because they did not meet violence with violence, imitating Christ in his suffering. The dramatic speeches in the story come from hagiography, but the witness is clear. Families torn by conflict, the young, and those who pray for peace in Ukraine find in him a companion.",
+    "quotes": [
+      {
+        "text": "For unto this are you called: because Christ also suffered for us, leaving you an example that you should follow his steps. Who did no sin, neither was guile found in his mouth. Who, when he was reviled, did not revile: when he suffered, he threatened not: but delivered himself to him that judged him unjustly.",
+        "work": "1 Peter 2:21–23",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Be not overcome by evil, but overcome evil by good.",
+        "work": "Romans 12:21",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, when you were reviled you did not revile, and you gave yourself into the Father's hands. St. Gleb followed you on that path when his own brother turned against him. Through his prayers, heal the wounds in our families and between peoples. Where there is rivalry, give us generosity; where there is violence, give us courage that does not hate. Comfort all who suffer from war, especially in Ukraine, and bring the dead into your peace. With St. Boris and St. Gleb, teach us to overcome evil with good. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Orthodox Church in America: the life of Boris and Gleb (with link to their troparion and kontakion)",
+        "url": "https://www.oca.org/saints/lives/0201/07/24/102082-martyrs-and-passion-bearers-boris-and-gleb"
+      }
+    },
+    "feastCustoms": [
+      "July 24 is the feast of Sts. Boris and Gleb in the Ukrainian Greek Catholic Church and in Orthodox churches; it is not on the General Roman Calendar, so Roman-rite Catholics might join a nearby Byzantine Catholic parish for the Divine Liturgy that day.",
+      "The Orthodox Church in America also remembers Gleb on his own on September 5, and commemorates the two brothers together again on May 2.",
+      "Pray for peace in Ukraine and for the victims of war; in 2025 the Ukrainian Greek Catholic Metropolitan Borys Gudziak preached on their feast about loving one's neighbor amid war.",
+      "Read Romans 12:17–21 and 1 Peter 2:21–23, and pray for someone in your family with whom you are in conflict.",
+      "If there is a rivalry or grudge among your siblings or relatives, take one small step toward peace on his feast."
+    ],
+    "confirmationNote": "Gleb, baptized David, suits a confirmand who longs for peace, who has known conflict at home, or who has Ukrainian or Eastern Christian roots. The Church honors him not for winning a struggle for power but for refusing to answer violence with violence. Confirmation strengthens Christians to bear witness to Christ, sometimes at real cost, and Gleb shows that meekness can be a form of courage.",
+    "reflectionPrompts": [
+      "When someone close to me hurts me, what is my first instinct, and how might Christ's example change it?",
+      "Choose one relationship in your family that needs healing and take one concrete step this week, such as a call, an apology or a kind word.",
+      "Read the Orthodox Church in America's life of Boris and Gleb and Romans 12:17–21, and notice how the story presents their deaths as following Christ."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "vladimir-of-kiev",
+        "reason": "Gleb's father, the prince who brought baptism to Kyivan Rus'",
+        "historical": true
+      },
+      {
+        "slug": "olga-of-kiev",
+        "reason": "Vladimir's grandmother and an early Christian of the same ruling family",
+        "historical": true
+      },
+      {
+        "slug": "wenceslaus",
+        "reason": "Another Christian prince, martyred by his own brother",
+        "historical": false
+      },
+      {
+        "slug": "josaphat",
+        "reason": "Martyr of the Ruthenian Greek Catholic tradition that also honors Boris and Gleb",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Orthodox Church in America: Martyrs and Passion-bearers Boris and Gleb (July 24)",
+        "url": "https://www.oca.org/saints/lives/0201/07/24/102082-martyrs-and-passion-bearers-boris-and-gleb"
+      },
+      {
+        "title": "Orthodox Church in America: Saints of September 5 (Passion-bearer Gleb)",
+        "url": "https://www.oca.org/saints/lives/2026/09/05"
+      },
+      {
+        "title": "Ukrainian Greek Catholic Church: Metropolitan Borys celebrates Divine Liturgy in Senlis on the feast of Saints Borys and Hlib (2025)",
+        "url": "https://ugcc.ua/en/data/metropolitan-borys-celebrates-divine-liturgy-in-senlis-on-the-feast-of-saints-borys-and-hlib-1797/"
+      },
+      {
+        "title": "Vatican News: Saints of July 24",
+        "url": "https://www.vaticannews.va/en/saints/07/24.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Peter 2",
+        "url": "https://www.drbo.org/chapter/67002.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Romans 12",
+        "url": "https://www.drbo.org/chapter/52012.htm"
+      }
+    ],
+    "flags": [
+      "kind: context lists kind 'saint' with the July 24 feast from the UGCC. The text says he is honored in the Orthodox and Ukrainian Greek Catholic Churches and makes no claim of a Roman canonization; Vatican News does not list him on July 24.",
+      "symbols: omitted. No Catholic list (Catholic Culture, Husenbeth) or official shrine describing his iconographic attributes was found; icons commonly show the brothers as princes with crosses and swords, but this was not sourced.",
+      "patronages: review lists none and no reputable source giving a patronage with a live topic was found; field omitted.",
+      "quotes: no public-domain translation of the medieval Tale of Boris and Gleb was verified, so only Douay-Rheims Scripture (checked on drbo.org) is used.",
+      "prayer: original. The OCA page links to a troparion and kontakion, but their text was not shown on the page fetched, so no traditional prayer is quoted.",
+      "feastCustoms: 'not on the General Roman Calendar' rests on Vatican News's July 24 list and the review's feast note. September 5 and May 2 are from the OCA (the OCA page does not say what the May 2 commemoration marks, so no reason is given). The UGCC homily summary is paraphrased.",
+      "places: the UGCC page is a news report about the feast at the Senlis church dedicated to the brothers, not a dedicated church website; no official site of a Boris and Gleb shrine (e.g. Vyshhorod) was verified.",
+      "relatedSaints: Olga is Vladimir's grandmother, so Gleb's great-grandmother (general knowledge). The Wenceslaus and Josaphat links are thematic; the site's own Wenceslaus tagline says he was martyred by his brother.",
+      "biography: no disagreement. The OCA names the killer as Gleb's cook, Torchin, which matches the review's 'a member of his own household'.",
+      "places: removed — only a news report, not an official church page (coordinator)"
+    ]
+  },
+  "gregory-barbarigo": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gregory Barbarigo (1625–1697) was a Venetian priest who cared for plague victims in Rome, then served as bishop of Bergamo and, for thirty-three years, of Padua. A cardinal and a reformer in the spirit of the Council of Trent, he rebuilt Padua's seminary. Pope St. John XXIII canonized him in 1960; he is remembered on June 18.",
+    "searchDescription": "St. Gregory Barbarigo (1625–1697), bishop of Bergamo and Padua who served plague victims and renewed priestly formation. Canonized 1960; feast June 18.",
+    "whyWeTurn": "People turn to St. Gregory Barbarigo when they care about good priests and about serving the sick. As a young priest he helped organize relief during the plague in Rome, and his letters admit the fear he felt. As bishop he visited his parishes, taught the faith himself, and summed up his program for Bergamo in a promise to love his people, since charity is the mark of the Good Shepherd. In Padua he gave the seminary a new home, a library and a press with Greek and Eastern type. Seminarians, priests, teachers, health workers and those who pray for Christian unity find in him a practical friend.",
+    "quotes": [
+      {
+        "text": "I am the good shepherd. The good shepherd giveth his life for his sheep.",
+        "work": "John 10:11",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Naked, and you covered me: sick, and you visited me: I was in prison, and you came to me.",
+        "work": "Matthew 25:36",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you made St. Gregory Barbarigo a shepherd after your own heart: he served the sick in time of plague, visited his people, and gave himself to forming good priests. Through his prayers, bless our bishops, priests and seminarians, and give them wisdom, learning and love for the poor. Strengthen all who care for the sick and frightened. Make me generous with my time and steady when I am afraid. Draw together Christians of East and West in one faith and one love. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "June 18, the anniversary of his death in 1697, is his day in the Roman Martyrology and in the Diocese of Padua; he is no longer on the General Roman Calendar, so ask whether your parish or diocese marks it.",
+      "In Padua the diocesan clergy traditionally gather on or near June 18 for an assembly and a Mass in the cathedral, where priests' ordination anniversaries are remembered; his body is venerated at his altar in the cathedral.",
+      "Pray for your bishop, your parish priests and the seminarians of your diocese, or support your diocesan seminary in a concrete way.",
+      "Visit or call someone who is sick or isolated, remembering his care for plague victims in Rome.",
+      "Pray for unity between Catholic and Orthodox Christians, a cause he served through his seminary's press in Greek and Eastern languages."
+    ],
+    "places": [
+      {
+        "name": "Seminario Vescovile di Padova (the seminary he refounded)",
+        "city": "Padua, Italy",
+        "url": "https://seminariopadova.it/san-gregorio-barbarigo/"
+      }
+    ],
+    "confirmationNote": "Gregory Barbarigo suits a confirmand drawn to medicine or nursing, to teaching, or to the priesthood, or one who likes careful, organized work. He showed courage during an epidemic and then spent decades building schools and training priests. Confirmation strengthens Christians to serve the Church with their particular gifts, and Gregory shows how faithful planning and patient teaching can be a form of love.",
+    "reflectionPrompts": [
+      "What fear holds me back from serving someone in need, and what would it take to act anyway?",
+      "This week, write a note of thanks to a priest, teacher or health worker who has helped you, or pray for them by name.",
+      "Read Pope St. John Paul II's 1996 message for the third centenary of Barbarigo's death (on vatican.va, in Italian) and note what it says about forming priests."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-xxiii",
+        "reason": "A priest of Bergamo, Barbarigo's first diocese, who canonized him in 1960",
+        "historical": true
+      },
+      {
+        "slug": "pius-x",
+        "reason": "Alumnus of Barbarigo's Padua seminary who reopened his cause in 1912",
+        "historical": true
+      },
+      {
+        "slug": "charles-borromeo",
+        "reason": "Fellow reforming bishop of the Council of Trent era, often named as his model",
+        "historical": false
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Another Italian saint of the same century remembered for care of the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: June 18 (St. Gregory Barbarigo, Roman Martyrology)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-06-18"
+      },
+      {
+        "title": "John Paul II: Message to Bishop Antonio Mattiazzo for the third centenary of the death of St. Gregory Barbarigo (1996, Italian)",
+        "url": "https://www.vatican.va/content/john-paul-ii/it/letters/1996/documents/hf_jp-ii_let_19961104_mons-antonio-mattiazzo.html"
+      },
+      {
+        "title": "Diocese of Padua press office: Clergy celebrate 400 years since the birth of St. Gregory Barbarigo (2025)",
+        "url": "https://ufficiostampa.diocesipadova.it/wp-content/uploads/sites/19/2025/09/118-sangregoriobarbarigo.pdf"
+      },
+      {
+        "title": "Diocese of Padua: Historical notes on the churches (Cathedral of Santa Maria Assunta), 2019",
+        "url": "https://www.diocesipadova.it/wp-content/uploads/sites/25/2019/06/03_scheda-storica-chiese.pdf"
+      },
+      {
+        "title": "Seminario Vescovile di Padova: San Gregorio Barbarigo",
+        "url": "https://seminariopadova.it/san-gregorio-barbarigo/"
+      },
+      {
+        "title": "Cattedrale di Padova (official site)",
+        "url": "https://www.cattedralepadova.it/"
+      },
+      {
+        "title": "Vatican News: Saints of June 18",
+        "url": "https://www.vaticannews.va/en/saints/06/18.html"
+      },
+      {
+        "title": "New Liturgical Movement: St Gregory Barbarigo, one of John XXIII's saints (2024)",
+        "url": "https://www.newliturgicalmovement.org/2024/06/st-gregory-barbarigo-one-of-john-xxiiis.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: John 10",
+        "url": "https://www.drbo.org/chapter/50010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "symbols: omitted. Catholic Culture lists no symbols for him, and no Catholic list or shrine giving iconographic attributes was found.",
+      "patronages: review lists none. The Padua seminary's calendar describes him as its patron (the entry is truncated on the page), but there is no live topic for a seminary; field omitted.",
+      "quotes: his own words survive in Italian (his first Bergamo pastoral letter, quoted by John Paul II; his opening words to Bergamo, quoted by the Padua seminary), but no public-domain English translation was found, so only Douay-Rheims Scripture (checked on drbo.org) is used. whyWeTurn paraphrases the pastoral-letter line.",
+      "feastCustoms: 'no longer on the General Roman Calendar' rests on New Liturgical Movement (he was added in 1960 on June 17 and removed in the 1969 reform) and on Catholic Culture listing him only as a Martyrology commemoration; a human may want to confirm. The Padua clergy assembly is from the 2025 diocesan press release (in 2025 it was moved to September for the 400th anniversary).",
+      "places: the cathedral's home page does not itself mention him; the link to his body rests on the Diocese of Padua's 2019 historical notes. The cathedral site lists Mass times and phone numbers, which are not copied here.",
+      "relatedSaints: John XXIII's Bergamo origin and the 1960 canonization are from the diocese and the seminary; Pius X's study at the Padua seminary and the 1912 reopening of the cause are from the seminary page. The Borromeo comparison ('a second St Charles') is from New Liturgical Movement, so it is marked thematic.",
+      "biography: no disagreement. Sources disagree on his beatification (Diocese of Padua: Clement XIII, 1761; seminary page: 16 July 1771, which cannot be right since Clement XIII died in 1769; New Liturgical Movement: Benedict XIV, 1751), so it is not mentioned. Catholic Culture says he was made cardinal 'of Padua' in 1660; the seminary page dates the cardinalate to 1660 and his entry into Padua to 1664, which this entry follows. The review's 'university study at Padua' and 'plague in Trastevere' fit the seminary page (law degree at Padua; public health deputy during the Roman plague of 1656).",
+      "places: removed Padua Cathedral home page (does not mention him) (coordinator)"
+    ]
+  },
   "gregory-of-nazianzus": {
     "templateVersion": 2,
     "heroSummary": "St. Gregory of Nazianzus, called \"the Theologian\" in the East, was a fourth-century Cappadocian bishop and Doctor of the Church whose sermons on the Trinity shaped how Christians speak of Father, Son and Holy Spirit. A lifelong friend of St. Basil, he briefly led the Church of Constantinople. The Church remembers them together on January 2.",
@@ -19635,6 +20754,110 @@
       "places: Fides (2004) says his relics were placed in the Gregorian Chapel of St. Peter's in 1580 and were to be transferred to the Patriarchal Church of St. George on 30 November 2004. Reports say a portion remained in Rome, but that was not verified from a Vatican source.",
       "feastCustoms: the statue on the St. Peter's colonnade comes from Catholic Culture. Eastern feast dates (e.g. January 25, January 30) were not added because no reputable source checked here stated them.",
       "biography: no conflict. The Catholic Encyclopedia gives his death as about 389; the reviewed biography's 'about 330–390' matches Benedict XVI."
+    ]
+  },
+  "gregory-palamas": {
+    "templateVersion": 2,
+    "heroSummary": "St. Gregory Palamas (1296–1359) was a monk of Mount Athos and archbishop of Thessalonica who defended the hesychasts, monks devoted to stillness and the Jesus Prayer. He taught that God, unknowable in his essence, truly shares his life with us. Orthodox and Melkite Catholic churches honor him on the Second Sunday of the Great Fast.",
+    "searchDescription": "St. Gregory Palamas (1296–1359), Athonite monk and archbishop of Thessalonica who defended hesychast prayer, honored in Orthodox and Melkite Catholic churches.",
+    "whyWeTurn": "People turn to St. Gregory Palamas when they want prayer to be more than words, and when they long to know God and not only know about him. He left a promising career at court to become a monk on Mount Athos, where he learned the quiet, persevering prayer of the hesychasts. When that way of prayer was mocked, he defended it, and he endured imprisonment and, later, captivity. His teaching on the light of the Transfiguration speaks of a God who truly shares his life with us. Anyone learning the Jesus Prayer, or seeking stillness in a noisy life, can find in him a guide.",
+    "quotes": [
+      {
+        "text": "And he was transfigured before them. And his face did shine as the sun: and his garments became white as snow.",
+        "work": "Matthew 17:2 (the light of Tabor, central to his teaching)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "By whom he hath given us most great and precious promises: that by these you may be made partakers of the divine nature: flying the corruption of that concupiscence which is in the world.",
+        "work": "2 Peter 1:4",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Blessed are the clean of heart: for they shall see God.",
+        "work": "Matthew 5:8",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, on Mount Tabor you showed your disciples your glory. St. Gregory Palamas gave his life to seeking that light in silence and prayer, and to defending those who sought it. Through his prayers, quiet my restless mind and teach me to pray from the heart. Cleanse my heart so that I may come to see you. When faith is mocked or misunderstood, give me patience and courage. Heal the divisions between Christians of East and West, and make us partakers of your divine life. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "Orthodox Church in America: troparion and kontakion for November 14",
+        "url": "https://www.oca.org/saints/troparia/2026/11/14"
+      }
+    },
+    "feastCustoms": [
+      "In the Melkite Catholic and Orthodox traditions he is commemorated on the Second Sunday of the Great Fast, a movable Sunday of Lent; Orthodox churches also remember him on November 14, the day of his death. He is not on the General Roman Calendar.",
+      "In Thessalonica his relics are carried in procession to the cathedral each year on the Second Sunday of the Great Fast, according to the Melkite Diocese of Newton.",
+      "Spend a few minutes in stillness with the Jesus Prayer, which he defended: Lord Jesus Christ, Son of God, have mercy on me, a sinner.",
+      "Read the Transfiguration, Matthew 17:1–9, and pray before an icon of the Transfiguration if you have one.",
+      "Pray for unity between Catholic and Orthodox Christians, or attend a Byzantine Catholic or Orthodox service during Lent to learn their tradition of prayer."
+    ],
+    "confirmationNote": "Gregory Palamas suits a confirmand drawn to prayer, silence and big questions about God, or one with Greek or Eastern Christian roots. He chose prayer over a career at court and then defended that prayer at real cost. Confirmation is the gift of the Holy Spirit, who draws us into God's own life, and Gregory's teaching reminds us that this gift is meant to change us from within.",
+    "reflectionPrompts": [
+      "When was the last time I simply rested in God's presence without asking for anything?",
+      "Set aside five quiet minutes each day this week to pray the Jesus Prayer slowly, without a phone nearby.",
+      "Read Matthew 17:1–9 and 2 Peter 1:3–4 together, and write down what they suggest about how God shares his life with us."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sergius-of-radonezh",
+        "reason": "Russian monastic founder who lived in the same fourteenth century",
+        "historical": true
+      },
+      {
+        "slug": "john-chrysostom",
+        "reason": "The OCA life says Gregory saw Chrysostom in a vision shortly before his death",
+        "historical": false
+      },
+      {
+        "slug": "gregory-of-nazianzus",
+        "reason": "Byzantine Father and bishop also honored as a teacher of prayer and theology",
+        "historical": false
+      },
+      {
+        "slug": "anthony-the-great",
+        "reason": "Father of the desert monastic tradition of prayer that hesychasm inherited",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Orthodox Church in America: Saints of November 14 (St. Gregory Palamas)",
+        "url": "https://www.oca.org/saints/all-lives/1992/11/14"
+      },
+      {
+        "title": "Melkite Catholic Diocese of Newton: St. Gregory of Palamas",
+        "url": "https://melkite.org/faith/st-gregory-of-palamas"
+      },
+      {
+        "title": "Melkite Catholic Diocese of Newton: The Fathers Reaffirmed (Second Sunday of the Great Fast)",
+        "url": "https://melkite.org/faith/sunday-scriptures/the-fathers-reaffirmed"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 17",
+        "url": "https://www.drbo.org/chapter/47017.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Peter 1",
+        "url": "https://www.drbo.org/chapter/68001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 5",
+        "url": "https://www.drbo.org/chapter/47005.htm"
+      }
+    ],
+    "flags": [
+      "feast: context feast_day is null and no fixed date is given in heroSummary; the Second Sunday of the Great Fast (Melkite Diocese of Newton) and November 14 (OCA; also stated by the Melkite 'Fathers Reaffirmed' page) are described as Eastern practice. No claim of Roman canonization is made; his glorification in 1368 was by the Patriarchate of Constantinople.",
+      "symbols: omitted. No Catholic list or shrine giving iconographic attributes was found.",
+      "patronages: review lists none and no sourced patronage with a live topic was found; field omitted.",
+      "quotes: no public-domain English translation of the Triads or his homilies was verified, so only Douay-Rheims Scripture tied to his teaching (Transfiguration, partakers of the divine nature) is used, checked on drbo.org.",
+      "prayer: original. The OCA troparion page for November 14 loads, but its text was not checked word for word, so it is only linked; that page is Orthodox, not Catholic.",
+      "feastCustoms: the Jesus Prayer wording is the common form, not taken from a fetched source; the Melkite page names the Jesus Prayer as central to hesychasm. The Thessalonica relic procession is from the Melkite 'Fathers Reaffirmed' page.",
+      "places: omitted. The Metropolitan Cathedral of St. Gregory Palamas in Thessalonica holds his relics, but no official site of the Metropolis or cathedral was verified (only tourism pages).",
+      "relatedSaints: Sergius is linked by era only (no direct contact). The Chrysostom link rests on a vision story in the OCA life, so it is not marked historical.",
+      "biography: no disagreement. Note: the OCA says he became a monk at Vatopedi and dates the first anti-Barlaam council to 1341; the Melkite page dates his move to Thessalonica's see to 1347, matching the review. One fetched summary of a tourism page said he was archbishop from 1350, which is not used."
     ]
   },
   "hedwig": {
