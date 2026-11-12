@@ -30169,5 +30169,731 @@
       "history: Justin's writings include sharp disagreement with Jewish interlocutors; this entry invites historically careful reading without attributing positions to modern communities.",
       "Source access: the USCCB readings page returned HTTP 403 to a direct automated request; the Vatican and Archdiocese of Washington sources independently support the entry."
     ]
+  },
+  "kateri-tekakwitha": {
+    "templateVersion": 2,
+    "heroSummary": "St. Kateri Tekakwitha is honored as a patron of Native Americans, ecology, and the environment. Born to a Mohawk father and an Algonquin mother, she was baptized as a young woman and later lived at the Christian mission at Kahnawake. Her U.S. memorial is July 14.",
+    "searchDescription": "Discover St. Kateri Tekakwitha, a Mohawk and Algonquin Catholic remembered on July 14 and honored as a patron of ecology.",
+    "whyWeTurn": "People ask Kateri's prayers for care of creation, faithfulness, and courage when they feel misunderstood. A Mohawk woman whose mother was Algonquin, she chose baptism and later went to a Christian community near Montreal. Pope Benedict XVI remembered her prayer, work, and faithfulness to the traditions of her people. Her story can invite us to listen to the experiences of Indigenous Catholics and care for the places where we live. Indigenous peoples are many distinct communities, not one interchangeable culture. Her life should be approached with respect for that diversity and for the difficult history of colonization.",
+    "symbols": [
+      {
+        "symbol": "Cross",
+        "meaning": "Often shown with Kateri, it recalls her Christian faith and devotion to Christ."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "A flower associated with her familiar title, Lily of the Mohawks."
+      },
+      {
+        "symbol": "Turtle",
+        "meaning": "Sometimes shown with her, it recalls her relatives in the Turtle Clan described by Galway Cathedral."
+      }
+    ],
+    "prayer": {
+      "text": "God of all creation, thank you for the faith and courage of St. Kateri Tekakwitha. Through her prayers, help me listen with respect to neighbors whose experiences differ from mine. Teach me to care for the land, water, and living things entrusted to our shared care. Give strength to Indigenous communities as they preserve their languages and traditions, and guide us toward relationships marked by truth and justice. Help me follow Christ in ordinary work and quiet prayer. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On July 14, remember Kateri and pray for Indigenous communities.",
+      "Read an account of her life from the Diocese of Raleigh or the Vatican.",
+      "Learn about the Indigenous peoples of your own region from their communities' resources.",
+      "Care for a local place outdoors in a way welcomed by its community."
+    ],
+    "confirmationNote": "Kateri may speak to someone seeking a Confirmation saint whose life joins prayer, courage, and care for creation. Learn about her Mohawk and Algonquin family and her move to Kahnawake, then discuss with a sponsor how to honor Indigenous communities as they are today. Her story is one person's experience, not a substitute for listening to many voices. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I needed courage to live a conviction respectfully?",
+      "Learn whose traditional land you live on from a reliable Indigenous source and consider one way to care for it.",
+      "Read Benedict XVI's account of Kateri. What does it say about her prayer and work?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "marianne-cope",
+        "reason": "Benedict XVI canonized Marianne Cope and Kateri in the same ceremony in 2012.",
+        "historical": true
+      },
+      {
+        "slug": "francis-xavier",
+        "reason": "The mission community where Kateri lived was named for this earlier Jesuit missionary.",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Another saint whose spirituality inspires many people to care for creation.",
+        "historical": false
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A later religious founder whose educational work included Native American communities.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Diocese of Raleigh: Saint Kateri Tekakwitha",
+        "url": "https://dioceseofraleigh.org/native-american-catholic-community/saint-kateri-tekakwitha"
+      },
+      {
+        "title": "Benedict XVI: 2012 canonization homily",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2012/documents/hf_ben-xvi_hom_20121021_canonizzazioni.html"
+      },
+      {
+        "title": "Galway Cathedral: Saint Kateri Tekakwitha",
+        "url": "https://www.galwaycathedral.ie/news/saint-month-st-kateri-tekakwitha"
+      },
+      {
+        "title": "USCCB: U.S. Saints and Blesseds",
+        "url": "https://www.usccb.org/committees/evangelization-catechesis/us-saints-and-blesseds"
+      }
+    ],
+    "flags": [
+      "patronages: ecology, environment and Native Americans are named by the Diocese of Raleigh; topic links omitted pending independent verification of live filtered index.",
+      "symbols: Galway Cathedral describes the cross, lily and turtle; the turtle is presented as a clan connection, not as a universal Indigenous symbol.",
+      "feast: July 14 is the U.S. memorial; Galway Cathedral lists April 17, her death date, so the location of observance is specified.",
+      "quotes and places: omitted pending source and visitor-page review.",
+      "editorial: avoids treating Indigenous communities as homogeneous or presenting colonial history as uncomplicated."
+    ]
+  },
+  "katharine-drexel": {
+    "templateVersion": 2,
+    "heroSummary": "St. Katharine Drexel is a patron of home missions. A Philadelphia heiress, she founded the Sisters of the Blessed Sacrament and supported schools and missions serving Native American and Black communities. The Church in the United States remembers her on March 3, the anniversary of her death.",
+    "searchDescription": "Learn about St. Katharine Drexel, patron of home missions and founder of the Sisters of the Blessed Sacrament, remembered March 3.",
+    "whyWeTurn": "People ask Katharine Drexel's prayers when they want to serve neighbors, support education, or respond to racial injustice. She used her resources to establish missions and schools and founded the Sisters of the Blessed Sacrament. Her community describes the Eucharist as central to its life of prayer and service. Her work belongs to a complicated history of Catholic missions and schooling, including harm experienced by Indigenous communities; gratitude for acts of service should not erase that history. Her example can prompt careful listening to communities today and a commitment to work alongside them for dignity and opportunity.",
+    "prayer": {
+      "text": "God of mercy, through the prayers of St. Katharine Drexel, open my heart to the people around me. Help me see the gifts of every community and listen when people speak about barriers they face. Guide teachers, students, and all who work for fair opportunities. Where history has brought harm, give us honesty and a willingness to learn. Teach me to share what I have and join prayer with practical service, so that my choices reflect the dignity you give each person. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On March 3, pray for teachers, students, and communities seeking fair access to education.",
+      "Read the Sisters of the Blessed Sacrament's account of their Eucharistic spirituality.",
+      "Ask a local school or community organization what support would be useful.",
+      "Learn from Indigenous and Black community voices about the history of schooling in your area."
+    ],
+    "confirmationNote": "Katharine Drexel may appeal to a Confirmation candidate interested in education, prayer, and responding to injustice. She founded a religious community and devoted her resources to schools and missions. With a sponsor, study her work alongside the wider history of Catholic missions, listening to the communities affected. Consider one practical act of solidarity you can take. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "How have teachers or mentors helped me discover my gifts?",
+      "Ask a local community group what form of support it actually needs.",
+      "Read the Sisters' explanation of Eucharistic spirituality. How do they connect prayer and service?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who canonized Katharine Drexel in 2000.",
+        "historical": true
+      },
+      {
+        "slug": "josephine-bakhita",
+        "reason": "John Paul II canonized Bakhita at the same ceremony in 2000.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "An earlier American religious founder associated with Catholic education.",
+        "historical": false
+      },
+      {
+        "slug": "peter-claver",
+        "reason": "A missionary whose service to enslaved people invites reflection on human dignity.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "USCCB: St. Katharine Drexel",
+        "url": "https://www.usccb.org/resources/lent-katharine-drexel.pdf"
+      },
+      {
+        "title": "Sisters of the Blessed Sacrament: Eucharistic spirituality",
+        "url": "https://www.katharinedrexel.org/sisters-of-the-blessed-sacrament/eucharistic-spirituality-total-gift-of-self/"
+      },
+      {
+        "title": "John Paul II: Address after the 2000 canonizations",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2000/oct-dec/documents/hf_jp-ii_spe_20001002_canonization.html"
+      },
+      {
+        "title": "USCCB: Indigenous pastoral framework",
+        "url": "https://www.usccb.org/resources/keeping-christs-sacred-promise-pastoral-framework-indigenous-ministry"
+      }
+    ],
+    "flags": [
+      "patronage: USCCB names home missions; no verified matching live topic link is asserted.",
+      "Symbols: omitted; symbols of a particular school house crest were not established as saint-specific attributes.",
+      "quotes and places: omitted pending source and official visitor-page review.",
+      "editorial: acknowledges the wider harm associated with Catholic missions and schooling without alleging that any particular school she founded caused it.",
+      "feastCustoms: suggested practices other than the March 3 memorial, not asserted historical customs."
+    ]
+  },
+  "kevin": {
+    "templateVersion": 2,
+    "heroSummary": "St. Kevin of Glendalough is one of the patron saints of the Archdiocese of Dublin. An Irish monk, he sought solitude and prayer at Glendalough, where a monastic community grew around him. He is remembered on June 3, and a familiar legend links him with a nesting blackbird.",
+    "searchDescription": "Meet St. Kevin of Glendalough, the Irish monk and Dublin patron remembered June 3, and explore the blackbird legend.",
+    "whyWeTurn": "People turn to Kevin when seeking quiet, patience, or a deeper appreciation of creation. He went to Glendalough for a life of solitude and prayer; others gathered there and a monastic community grew. A well-loved story says a blackbird nested in his outstretched hand while he prayed. The story is a legend, not a detail we can verify as history, but it offers an image of patient attention. Kevin's journey from solitude to community can encourage us to make room for prayer and then return to the people and responsibilities entrusted to us.",
+    "symbols": [
+      {
+        "symbol": "Blackbird",
+        "meaning": "A bird in Kevin's hand recalls the legend of a blackbird nesting there during his prayer."
+      },
+      {
+        "symbol": "Crozier",
+        "meaning": "The staff on a statue at St. Kevin's Parish represents his role as an abbot."
+      },
+      {
+        "symbol": "Mitre",
+        "meaning": "The headwear on the same parish statue identifies him as an abbot in that depiction."
+      }
+    ],
+    "prayer": {
+      "text": "God of peace, you call us to meet you in stillness and in the company of others. Through the prayers of St. Kevin, help me make a little space for quiet when my days are crowded. Teach me patience with the people and creatures around me, and help me care for the places we share. When I return from prayer to my responsibilities, give me a generous heart and the wisdom to listen before I act. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "On June 3, remember Kevin and pray for the people of the Archdiocese of Dublin.",
+      "Spend a few quiet minutes in prayer, indoors or outdoors.",
+      "Read the Archdiocese of Dublin's account of Glendalough and its monastic community.",
+      "Care for a local natural place in a way welcomed by those responsible for it."
+    ],
+    "confirmationNote": "Kevin may appeal to a candidate who values prayer, patient attention, and community. His life is associated with Glendalough, where a monastery grew around his search for solitude. With a sponsor, compare the historical outline offered by the Archdiocese of Dublin with the familiar blackbird legend, and discuss what each can teach. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Where do I find enough quiet to notice what matters?",
+      "Set aside a few quiet minutes today and offer someone your patient attention afterward.",
+      "Read the Archdiocese of Dublin's account. How did Kevin's solitary life connect with a community?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "lawrence-otoole",
+        "reason": "A later abbot of the Glendalough monastery founded by Kevin.",
+        "historical": true
+      },
+      {
+        "slug": "patrick",
+        "reason": "An earlier figure in the history of Christianity in Ireland.",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Another saint whose story invites reflection on creation.",
+        "historical": false
+      },
+      {
+        "slug": "benedict",
+        "reason": "A monk associated with the development of a distinct monastic tradition.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archdiocese of Dublin: St Kevin of Glendalough",
+        "url": "https://www.dublindiocese.ie/st-kevin-of-glendalough/"
+      },
+      {
+        "title": "St Kevin's Parish: History of the church",
+        "url": "https://stkevinsparish.ie/history-of-the-church/"
+      },
+      {
+        "title": "Archdiocese of Armagh: Saints and holy young people",
+        "url": "https://www.armagharchdiocese.org/wp-content/uploads/2024/06/Prayer-Card-Guide-Saints-and-Holy-Young-people.pdf"
+      }
+    ],
+    "flags": [
+      "patronage: the Archdiocese of Dublin names Kevin as one of its patrons; no matching live topic link verified.",
+      "symbols: three features of the actual St Kevin's Parish statue are identified as specific to that depiction.",
+      "history: the blackbird story is explicitly identified as legend; the later Laurence O'Toole connection is supported by the parish.",
+      "quotes and places: omitted pending independent source and visitor-page review.",
+      "feastCustoms: June 3 is documented by the Archdiocese; other practices are suggestions."
+    ]
+  },
+  "kizito": {
+    "templateVersion": 2,
+    "heroSummary": "St. Kizito is honored in Uganda as a patron of children and primary schools. A young member of the Christian community at the court of Buganda, he was killed at Namugongo in 1886. Catholics remember him with St. Charles Lwanga and companions on June 3.",
+    "searchDescription": "St. Kizito, the youngest of the Catholic Uganda martyrs, is honored as a patron of children and remembered on June 3.",
+    "patronages": [
+      "children"
+    ],
+    "whyWeTurn": "People may turn to Kizito when praying for children, students, and young people who need safety and encouragement. Kampala's account remembers him as the youngest of the Catholic Uganda martyrs, about fourteen when he died. Kizito belonged to a community of Christians at the royal court; the Catholic Bishops’ Conference of England and Wales recounts that Charles Lwanga baptized him shortly before their deaths. Remembering his courage should never suggest that children must face danger alone. His story can move adults to protect young people, listen to them, and make schools and communities places of care.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of love, you know every child by name. Through the prayers of St. Kizito, protect young people who live with fear or violence and surround them with trustworthy care. Give parents, teachers, and communities patience to listen and courage to act when a child needs help. Help students find friendship and welcome at school. Teach me to speak gently, stand beside someone who feels alone, and seek peace without ignoring another person's pain. Guide us in protecting the dignity of every child. Amen."
+    },
+    "feastCustoms": [
+      "On June 3, remember Kizito with Charles Lwanga and the Uganda martyrs, and pray for young people.",
+      "Read the Kampala Archdiocese's account, choosing a discussion appropriate to the age of learners.",
+      "Thank someone who helps children learn and feel safe.",
+      "Learn how a trusted local organization supports children affected by violence."
+    ],
+    "confirmationNote": "Kizito may interest a candidate who wants to learn about a young person's faith within a community facing persecution. His life is also a reminder that children deserve safety and the care of trusted adults. With a sponsor, read the Kampala account and discuss how to practice courage and kindness in everyday life. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who helps me feel safe and supported when I am worried?",
+      "This week, welcome someone who seems left out and tell a trusted adult if a child needs help.",
+      "Read the Kampala account of Kizito. How did his community and Charles Lwanga accompany him?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "charles-lwanga",
+        "reason": "The Catholic Bishops’ Conference of England and Wales recounts that Charles Lwanga baptized Kizito before their deaths.",
+        "historical": true
+      },
+      {
+        "slug": "jose-sanchez-del-rio",
+        "reason": "A young Mexican martyr whose life also invites prayer for children affected by violence.",
+        "historical": false
+      },
+      {
+        "slug": "dominic-savio",
+        "reason": "Another young saint whose story invites reflection on friendship and faith.",
+        "historical": false
+      },
+      {
+        "slug": "andrew-kim-taegon",
+        "reason": "A Korean martyr whose life invites reflection on faith and persecution.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kampala Archdiocese: St. Kizito",
+        "url": "https://archdiocese.nswanjereseminary.ac.ug/about-us/the-uganda-martyrs/st-kizito/"
+      },
+      {
+        "title": "Kampala Archdiocese: Uganda martyrs",
+        "url": "https://www.kampalarchdiocese.org/the-account-of-the-twenty-two-catholic-uganda-martyrs-a-history-of-faith-and-sacrifice/"
+      },
+      {
+        "title": "USCCB: Memorial of St. Charles Lwanga and companions",
+        "url": "https://bible.usccb.org/bible/readings/0603-memorial-charles-lwanga.cfm"
+      },
+      {
+        "title": "Catholic Bishops’ Conference of England and Wales: St Kizito",
+        "url": "https://www.cbcew.org.uk/st-kizito-john-the-baptist/"
+      }
+    ],
+    "flags": [
+      "Patronages: the Catholic Bishops’ Conference of England and Wales names children and primary schools; the live children topic includes Kizito. The primary-school-students topic is not asserted because the source names schools rather than pupils.",
+      "symbols: omitted because three saint-specific attributes with verified meanings were not established.",
+      "quotes: omitted because exact public-domain wording was not checked.",
+      "places: omitted pending a confirmed official visitor page.",
+      "feastCustoms: June 3 is the Catholic memorial of Charles Lwanga and companions; the suggested activities are not claims of historical customs.",
+      "history: his reported age is approximate; the prayer and guidance do not imply children should endure danger without adult protection.",
+      "Related saints: the bishops’ conference connects Kizito directly with Charles Lwanga, who baptized him; other connections are thematic.",
+      "Source access: the USCCB readings page returned HTTP 403 to a direct automated request; other sources support the memorial."
+    ]
+  },
+  "kuriakose-elias-chavara": {
+    "templateVersion": 2,
+    "heroSummary": "St. Kuriakose Elias Chavara is honored as a patron of families. A Syro-Malabar Catholic priest in Kerala, India, he helped found religious communities and promoted education and publishing. He died on January 3, 1871, and was canonized with St. Euphrasia Eluvathingal in 2014.",
+    "searchDescription": "St. Kuriakose Elias Chavara, Indian priest and patron of families, promoted education and helped found religious communities in Kerala.",
+    "whyWeTurn": "People may ask Kuriakose Elias Chavara's prayers for families, teachers, and communities seeking to make learning more accessible. A priest in Kerala's Syro-Malabar Church, he worked with other founders to establish religious communities and supported schools and publishing. The Vatican's account associates his writing for family life with his patronage of families. His work shows how prayer and practical organization can support one another over time. It also invites us to notice who encounters barriers to learning and to encourage those working patiently to remove them.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom, bless families, teachers, and all who help others learn. Through the prayers of St. Kuriakose Elias Chavara, open our hearts to people who face barriers to education. Give us patience to share what we know, humility to learn from others, and the perseverance to support work that takes time. Strengthen parents and caregivers in their daily responsibilities, and help communities welcome each person with dignity. May prayer deepen our care for our neighbors and guide our actions toward their good. Amen."
+    },
+    "feastCustoms": [
+      "On January 3, remember Kuriakose Elias Chavara in prayer and give thanks for those who teach.",
+      "Read the Vatican account of his life and notice the people who collaborated in his work.",
+      "Ask a school or literacy program what practical support would be useful.",
+      "Pray for families and for children and adults facing obstacles to education."
+    ],
+    "confirmationNote": "Kuriakose Elias Chavara may interest a candidate who values learning, family life, and service. His work in the Syro-Malabar Church joined prayer with collaborative efforts in education and religious life. Read about him with a sponsor and discuss one way your community can make learning more welcoming. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has encouraged me to learn when a subject was difficult?",
+      "Ask a teacher or community program what help would be welcome, and consider one practical response.",
+      "Read John Paul II's beatification homily. Which collaborators does it name alongside Chavara?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "euphrasia",
+        "reason": "A member of the religious family Chavara helped found, canonized with him in 2014.",
+        "historical": true
+      },
+      {
+        "slug": "john-paul-ii",
+        "reason": "The pope who beatified Chavara in Kerala in 1986.",
+        "historical": true
+      },
+      {
+        "slug": "teresa-of-avila",
+        "reason": "A Carmelite reformer whose spiritual family is connected with Chavara's communities.",
+        "historical": false
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "A bishop and spiritual writer whose work also encourages faith in ordinary life.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: 2014 canonization booklet, Kuriakose Elias Chavara",
+        "url": "https://www.vatican.va/news_services/liturgy/libretti/2014/20141123-libretto-cristo-re_canonizzazione.pdf"
+      },
+      {
+        "title": "John Paul II: Beatification homily for Chavara and Alphonsa",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1986/documents/hf_jp-ii_hom_19860208_stadio-kattayam.html"
+      },
+      {
+        "title": "Pope Francis: Address following the canonizations",
+        "url": "https://www.vatican.va/content/francesco/en/speeches/2014/november/documents/papa-francesco_20141124_fedeli-siro-malabaresi.html"
+      },
+      {
+        "title": "CMI school: St. Kuriakose Elias Chavara",
+        "url": "https://scswardha.org/our-Patron.html"
+      }
+    ],
+    "flags": [
+      "patronages: Vatican canonization booklet names him patron of the family; families is not a currently listed patronage for this saint, so no new index link is asserted. Education is an area of ministry; a general patronage is not asserted without stronger evidence.",
+      "symbols: omitted because three saint-specific attributes with meanings were not independently verified.",
+      "quotes: omitted because no public-domain English translation was independently checked.",
+      "places: omitted pending a verified official visitor page.",
+      "feastCustoms: January 3 is his date of death and existing site feast; other items are suggested practices.",
+      "history: the Vatican booklet says he died aged 66 although its own dates calculate to 65; exact age omitted.",
+      "relatedSaints: Francis explicitly identifies Euphrasia as belonging to a religious family he helped found and confirms their shared canonization; John Paul II beatified him."
+    ]
+  },
+  "landry": {
+    "templateVersion": 2,
+    "heroSummary": "St. Landry was a seventh-century bishop of Paris remembered for care of people experiencing hunger and illness. The Diocese of Paris recounts his generosity during a famine and considers him a likely founder of the Hôtel-Dieu. His local memorial is observed on June 10.",
+    "searchDescription": "St. Landry, bishop of Paris, is remembered for helping hungry people and for his association with the Hôtel-Dieu.",
+    "whyWeTurn": "People may turn to Landry when praying for people who are hungry or ill and for those who serve them. The Diocese of Paris remembers him selling furnishings and sacred vessels to feed people during a famine. It also describes him as the likely founder of the Hôtel-Dieu, a place of care for sick and poor people, while leaving room for uncertainty about its early history. His story invites us to consider how communities can share resources thoughtfully and provide support that respects the dignity of those who need it.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of compassion, you call us to notice our neighbors and care for their needs. Through the prayers of St. Landry, help people facing hunger find food and those who are ill find attentive care. Give wisdom and patience to health workers, volunteers, and all who organize help in their communities. Teach me to share what I can, listen before offering advice, and treat every person with respect. Bless the work of those building more welcoming places of care, and guide us in generosity and justice. Amen."
+    },
+    "feastCustoms": [
+      "On June 10, remember Landry and pray for people who are ill or hungry.",
+      "Read the Diocese of Paris account of his life, paying attention to what it says about the hospital's beginnings.",
+      "Ask a food pantry or care organization which supplies or forms of help it needs.",
+      "Thank someone who cares for people who are sick or facing hardship."
+    ],
+    "confirmationNote": "Landry may interest a candidate who wants to connect faith with care for people who are hungry or sick. Accounts of his ministry in Paris emphasize generosity and practical help. With a sponsor, discuss how a parish or neighborhood can respond to present needs, then choose a modest action you can take. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has another person's practical help made a hard situation easier for me?",
+      "Find out what a local food pantry needs before deciding how to help.",
+      "Read the Paris diocesan account. What does it say about the uncertainty surrounding the Hôtel-Dieu's beginning?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "denis",
+        "reason": "Traditionally the first bishop of Paris; Landry was a later bishop of the same see, according to the diocese.",
+        "historical": true
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A later French saint remembered for organizing help for people in need.",
+        "historical": false
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A later saint whose life also included care for sick and poor people.",
+        "historical": false
+      },
+      {
+        "slug": "martin-of-tours",
+        "reason": "An earlier bishop in Gaul whose remembered generosity also invites reflection on sharing.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Diocese of Paris: Saint Landry",
+        "url": "https://dioceseparis.fr/Saint-Landry.html"
+      },
+      {
+        "title": "Catholic Church in France: Saint Landry",
+        "url": "https://eglise.catholique.fr/saint-du-jour/10/06/saint-landry/"
+      },
+      {
+        "title": "Diocese of Paris: Sainte Geneviève",
+        "url": "https://dioceseparis.fr/sainte-genevieve-652.html"
+      },
+      {
+        "title": "Diocese of Paris: Chronology of bishops and archbishops",
+        "url": "https://dioceseparis.fr/-chronologie-des-eveques-et-des-5232-"
+      }
+    ],
+    "flags": [
+      "Related saints: Denis and Landry were bishops of the same see centuries apart, according to the Diocese of Paris; no personal meeting is asserted.",
+      "patronages: the site's index lists Paris, France, builders and fishermen, but reviewed diocesan sources did not support these specific patronages; omitted pending verification.",
+      "symbols: omitted because three saint-specific artistic attributes and meanings were not independently verified.",
+      "quotes: omitted because exact public-domain wording was not checked.",
+      "places: omitted pending a verified official visitor resource.",
+      "history: Diocese of Paris calls him the likely founder of the Hôtel-Dieu; the detail remains qualified.",
+      "feastCustoms: June 10 is the Paris optional memorial; all activities are suggestions, not attested customs."
+    ]
+  },
+  "laura-montoya": {
+    "templateVersion": 2,
+    "heroSummary": "St. Laura Montoya was a Colombian teacher and founder of a missionary congregation. In 1914 she and companions went to live and work among Indigenous communities in Colombia. Her life invites reflection on education, faith, and the dignity of people who have faced discrimination.",
+    "searchDescription": "Meet St. Laura Montoya, a Colombian teacher and missionary founder who worked among Indigenous communities.",
+    "whyWeTurn": "People may ask Laura Montoya's prayers when they are teaching, beginning a difficult task, or seeking to treat others with greater dignity. After a childhood marked by her father's death and poverty, she became an educator. In 1914 she and her companions began missionary work in Dabeiba, and she founded the Missionaries of Mary Immaculate and St. Catherine of Siena. Catholic sources describe her opposition to racial discrimination and her desire to live among the people she served. Remembering her today can also invite us to listen to Indigenous communities in their own voices and learn about their distinct histories and living cultures.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom and mercy, thank you for the gifts of learning and service. Through the prayers of St. Laura Montoya, help teachers care for each student with patience and respect. Open our ears to people whose experiences differ from our own, and help us recognize the dignity of every community. Give courage to those who face discrimination and generosity to those who can offer practical help. Guide us to share our faith with humility and to listen before we act. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On October 21, read a Catholic account of Laura's life and her work as a teacher.",
+      "Thank a teacher or catechist who has helped you learn with patience.",
+      "Learn from an Indigenous community's own published account of its history and life today.",
+      "Pray for people who experience racial discrimination and consider a practical way to support them."
+    ],
+    "confirmationNote": "Laura may appeal to a Confirmation candidate who values teaching, perseverance, or service across cultures. Read about her Colombian congregation and discuss with a sponsor what respectful listening means when helping another community. Her story can prompt questions about faith and education as well as the responsibilities that come with serving others. Ask your parish about its Confirmation name guidelines.",
+    "reflectionPrompts": [
+      "When has a teacher helped me feel seen and respected?",
+      "How can I listen more carefully before offering help this week?",
+      "What does the Vatican's biography say about Laura's work and her opposition to discrimination?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "catherine-of-siena",
+        "reason": "Laura named her missionary congregation in honor of St. Catherine of Siena.",
+        "historical": true
+      },
+      {
+        "slug": "katharine-drexel",
+        "reason": "A contemporary Catholic founder also associated with education and work among communities facing discrimination.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "An earlier founder whose life included work in Catholic education.",
+        "historical": false
+      },
+      {
+        "slug": "juan-diego",
+        "reason": "An Indigenous Catholic remembered in the Guadalupe tradition in an earlier century and different community.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Laura Montoya Upegui, biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040425_montoya_en.html"
+      },
+      {
+        "title": "Holy See: 2013 canonization booklet",
+        "url": "https://www.vatican.va/news_services/liturgy/libretti/2013/20130512-libretto-canonizzazione.pdf"
+      },
+      {
+        "title": "Pope Francis: 2013 canonization homily",
+        "url": "https://www.vatican.va/content/francesco/en/homilies/2013/documents/papa-francesco_20130512_omelia-canonizzazioni.html"
+      }
+    ],
+    "flags": [
+      "No sufficiently sourced patronage identified; none is asserted.",
+      "Symbols, quotations, and places are omitted pending independent verification.",
+      "Mission work is described without assuming all Indigenous communities share the same experience or speak with one voice.",
+      "Catherine is the congregation's namesake; Drexel's lifetime overlaps Laura's, with no meeting claimed."
+    ]
+  },
+  "lawrence": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lawrence of Rome is honored as a patron of deacons, cooks, and firefighters. A deacon of the Roman Church, he was martyred in 258 during the persecution under Emperor Valerian. His ancient feast on August 10 recalls a life of service and witness to Christ.",
+    "searchDescription": "Discover St. Lawrence of Rome, a deacon and martyr remembered for service and honored on August 10.",
+    "whyWeTurn": "People turn to St. Lawrence when praying for deacons, those who serve people in need, and those whose work involves food or fire. Lawrence was a deacon of the Roman Church, and he died during the persecution under the emperor Valerian in 258, shortly after Pope Sixtus II. Later Christian tradition tells how Lawrence presented people in need as the Church's true treasure. That memorable account helps express the importance of charity, though its dramatic details should be recognized as tradition. His feast offers a chance to honor the dignity of neighbors and support those who serve them.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Lord Jesus, you came to serve and to give your life in love. Through the prayers of St. Lawrence, strengthen deacons and all who serve your Church. Help us recognize the dignity of neighbors who struggle to find food, shelter, or companionship. Bless those who prepare meals and those who protect others from fire. When we are tempted to overlook someone in need, give us attentive hearts and the courage to act with care. May our service reflect your generous love. Amen."
+    },
+    "feastCustoms": [
+      "On August 10, pray for deacons and for those they serve.",
+      "Offer a meal or contribute to a food ministry in a way that meets its current needs.",
+      "Thank someone whose work involves preparing food or protecting others from fire.",
+      "Read an early Christian account of Lawrence and notice which details are presented as later tradition."
+    ],
+    "confirmationNote": "Lawrence may appeal to a candidate who values practical service, courage, or the Church's care for people in need. His story can also open a conversation about the vocation of deacons. Read about his martyrdom and ask a sponsor how service can become part of daily life. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone served me in a way that preserved my dignity?",
+      "What practical act of service can I offer through a local parish or food ministry this week?",
+      "What does the Holy See's account distinguish between Lawrence's martyrdom and later stories about it?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "sixtus-ii",
+        "reason": "The pope martyred in the same persecution shortly before Lawrence, a deacon of the Roman Church.",
+        "historical": true
+      },
+      {
+        "slug": "stephen",
+        "reason": "Another deacon and martyr remembered in the early Church.",
+        "historical": false
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A later saint whose work invites reflection on service to people in need.",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "A later saint remembered for care for people living in poverty.",
+        "historical": false
+      }
+    ],
+    "patronages": [
+      "deacons",
+      "cooks",
+      "firefighters"
+    ],
+    "sources": [
+      {
+        "title": "Holy See: St. Lawrence",
+        "url": "https://press.vatican.va/roman_curia/congregations/cclergy/documents/rc_con_cclergy_doc_19022000_slaw_en.html"
+      },
+      {
+        "title": "Vatican News: St. Lawrence, Deacon and Martyr",
+        "url": "https://www.vaticannews.va/en/saints/08/10/st--lawrence-deacon--and-martyr.html"
+      },
+      {
+        "title": "Archdiocese of Oklahoma City: The witness of St. Lawrence and the gift of the diaconate",
+        "url": "https://archokc.org/news/the-witness-of-st-lawrence-and-the-gift-of-the-diaconate"
+      }
+    ],
+    "flags": [
+      "Traditions about the Church's treasure are identified as later accounts; the reviewed record leaves Lawrence's birthplace uncertain despite sources giving Spain.",
+      "Symbols, quotations, and places are omitted pending independent verification.",
+      "The historical link to Sixtus II is direct and supported by the Holy See.",
+      "Source access: the Archdiocese of Oklahoma City page returned HTTP 403 to a direct automated request but was readable in indexed results; the Vatican sources independently support the entry."
+    ]
+  },
+  "lawrence-otoole": {
+    "templateVersion": 2,
+    "heroSummary": "St. Laurence O'Toole is the patron of the Archdiocese of Dublin. After a childhood affected by political conflict, he became abbot of Glendalough and then archbishop of Dublin in 1162. His ministry combined prayer, care for people in need, and efforts to serve the Church during a turbulent time.",
+    "searchDescription": "Meet St. Laurence O'Toole, patron of the Archdiocese of Dublin and a medieval bishop known for prayer and service.",
+    "whyWeTurn": "People may turn to Laurence O'Toole when they are trying to serve others amid conflict, lead with humility, or make room for prayer in a demanding life. Known in Irish as Lorcán Ua Tuathail, he became abbot at Glendalough before his appointment as archbishop of Dublin. The Archdiocese of Dublin remembers his concern for the poor and his efforts to serve the Church during political turmoil. His life can encourage us to consider the needs of people affected by conflict today, while recognizing that peacemaking requires patient listening and practical care as well as prayer.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of peace, through the prayers of St. Laurence O'Toole, guide all who serve communities facing hardship or conflict. Give leaders wisdom to listen, humility to seek the common good, and courage to care for people in need. Comfort children and families whose lives are disrupted by violence or displacement. Help us make room for prayer when our days are busy, and show us one practical way to serve a neighbor today. May your peace shape our words and actions. Through Christ our Lord. Amen."
+    },
+    "feastCustoms": [
+      "On November 14, read the Archdiocese of Dublin's account of its patron saint.",
+      "Pray for children and families affected by conflict and displacement.",
+      "Support a local organization that responds to a current need in your community.",
+      "Set aside a quiet time for prayer before a difficult conversation."
+    ],
+    "confirmationNote": "Laurence may interest a candidate who values prayer, care for people in need, and steady service in difficult times. His journey from Glendalough to the leadership of the Dublin Church offers a starting point for discussing how faith can shape public responsibility. Read his story with a sponsor and ask your parish about its guidance for Confirmation names.",
+    "reflectionPrompts": [
+      "When has prayer or quiet reflection helped me respond to a difficult situation?",
+      "How can I listen more patiently to someone during a disagreement this week?",
+      "What does the Archdiocese of Dublin say about Laurence's ministry at Glendalough and in Dublin?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "kevin",
+        "reason": "Founder of the monastic community at Glendalough, where Laurence later became abbot.",
+        "historical": true
+      },
+      {
+        "slug": "thomas-becket",
+        "reason": "Another twelfth-century archbishop who served during Laurence's lifetime.",
+        "historical": true
+      },
+      {
+        "slug": "brigid-of-ireland",
+        "reason": "An earlier Irish saint remembered for generosity and service.",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "A later saint whose life invites reflection on prayer and care for people in poverty.",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Archdiocese of Dublin: The Story of St. Laurence O'Toole",
+        "url": "https://www.dublindiocese.ie/the-story-of-st-laurence-otoole/"
+      },
+      {
+        "title": "Archdiocese of Dublin: History of the Church in Dublin",
+        "url": "https://www.dublindiocese.ie/who-we-are/"
+      },
+      {
+        "title": "Archdiocese of Dublin: Homily for St. Laurence O'Toole",
+        "url": "https://www.dublindiocese.ie/st-laurence-o-toole-2022/"
+      }
+    ],
+    "flags": [
+      "His verified patronage is the Archdiocese of Dublin; no corresponding live patronage topic was found.",
+      "Symbols, quotations, and places are omitted pending independent verification.",
+      "Kevin's Glendalough foundation connects the two saints across centuries; Thomas Becket's lifetime overlapped Laurence's without an asserted meeting."
+    ]
+  },
+  "lawrence-of-brindisi": {
+    "templateVersion": 2,
+    "heroSummary": "St. Lawrence of Brindisi is honored as a patron of his hometown, Brindisi. A Capuchin friar, preacher, and Doctor of the Church, he was born in 1559 and served his religious community as minister general. He preached across Europe and was named a Doctor in 1959. His feast is July 21.",
+    "searchDescription": "Meet St. Lawrence of Brindisi, the Capuchin preacher and Doctor of the Church remembered for Scripture and service.",
+    "whyWeTurn": "People may turn to Lawrence of Brindisi when they want to bring careful study, prayer, and service together. A Capuchin friar, he preached in several countries and held demanding responsibilities in his order. Benedict XVI described his knowledge of Scripture and his conviction that preaching needs to be nourished by prayer. His life also unfolded amid religious and political conflicts in early modern Europe. Remembering him can prompt us to learn our faith carefully, communicate it with respect, and make time for prayer even when responsibilities compete for our attention.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of wisdom, thank you for the people who help us understand your word. Through the prayers of St. Lawrence of Brindisi, give us patience to study, humility to listen, and courage to share our faith with kindness. When our responsibilities feel overwhelming, help us return to quiet prayer and remember the people we are called to serve. Bless teachers, preachers, and all who seek peace in their communities. Guide our words and actions so that they reflect your love for every person. Amen."
+    },
+    "feastCustoms": [
+      "On July 21, read Benedict XVI's account of Lawrence's life and reflect on his commitment to Scripture.",
+      "Spend a few quiet minutes with a short Gospel passage, then pray for help putting it into practice.",
+      "Thank someone whose teaching has helped you ask thoughtful questions about faith.",
+      "Pray for people working to bring peace and understanding in divided communities."
+    ],
+    "confirmationNote": "Lawrence may interest a Confirmation candidate drawn to learning, languages, teaching, or Franciscan life. His example suggests that knowledge can serve others when it grows alongside prayer and humility. With a sponsor, discuss a question about faith you would like to explore, and identify a reliable source or person who can help. Follow your parish's guidance on selecting a Confirmation name.",
+    "reflectionPrompts": [
+      "What question about faith would I like to study more carefully?",
+      "How can I make room for prayer when my schedule feels crowded?",
+      "What would it look like to share a conviction while listening respectfully to someone who disagrees?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "His Franciscan family includes the Capuchin order to which Lawrence belonged.",
+        "historical": true
+      },
+      {
+        "slug": "john-xxiii",
+        "reason": "As pope, John XXIII declared Lawrence a Doctor of the Church in 1959.",
+        "historical": true
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "A fellow Catholic bishop and writer whose lifetime overlapped Lawrence's.",
+        "historical": true
+      },
+      {
+        "slug": "john-of-the-cross",
+        "reason": "Another sixteenth-century Doctor of the Church whose life overlapped Lawrence's.",
+        "historical": true
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Benedict XVI: General audience on Lawrence of Brindisi",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110323.html"
+      },
+      {
+        "title": "Vatican City State: Saint Lawrence of Brindisi",
+        "url": "https://www.vaticanstate.va/en/component/content/article/july-21-saint-lawrence-of-brindisi-doctor-of-the-church.html?Itemid=216&catid=51"
+      },
+      {
+        "title": "Archdiocese of Baltimore: St. Lawrence of Brindisi",
+        "url": "https://www.archbalt.org/st-lawrence-of-brindisi/"
+      },
+      {
+        "title": "Catholic Apostolate Center: St. Lawrence of Brindisi",
+        "url": "https://cacsaints.squarespace.com/feast-days-and-solemnities/st-lawrence-of-brindisi"
+      }
+    ],
+    "flags": [
+      "Patronage: the Catholic Apostolate Center names Brindisi; no matching live topic was identified, so no patronage slug is added.",
+      "Symbols, quotations, and places are omitted because saint-specific attributes, exact public-domain translations, and an official visitor page were not independently verified.",
+      "Feast customs are suggested personal practices, not claimed historical traditions; July 21 is supported by Vatican City State.",
+      "Related saints: Francis founded his religious family; John XXIII declared him a Doctor. Francis de Sales and John of the Cross lived in the same era; no personal meetings are asserted.",
+      "History: Lawrence's preaching took place in a time of religious and political conflict; the entry avoids treating coercion or antagonism as a model for contemporary dialogue."
+    ]
   }
 }
