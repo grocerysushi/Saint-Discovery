@@ -10611,6 +10611,1315 @@
       "biography: no disagreement. The shrine adds details not in the review: born 1861 at Birinzi, Buddu county; baptized 15 November 1885 by Fr. Girault; head of the pages in the great audience hall; died about noon on Ascension Day, aged 25. The shrine counts 24 Catholic martyrs (the 22 canonized in 1964 plus two catechists killed at Paimol in 1918) and its Namugongo tally (12 Catholics, 13 Anglicans) is internally inconsistent with its 'thirteen burned'; the review's 22 canonized is correct. Catholic Culture also gives November 1885 for his baptism"
     ]
   },
+  "charles-of-mount-argus": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Charles of Mount Argus was a Dutch Passionist priest, born Johannes Andreas Houben, who spent most of his ministry at Mount Argus in Dublin. His English was never good enough for formal preaching, so he served through confession, counsel and blessing the sick, and crowds sought him out. Benedict XVI canonized him in 2007; his feast is January 5.",
+    "searchDescription": "St. Charles of Mount Argus, a Dutch Passionist in Dublin, heard confessions and blessed the sick for decades. Canonized in 2007; feast January 5.",
+    "whyWeTurn": "People turn to St. Charles when they are sick or carrying a heavy sorrow. He never mastered English well enough to preach, yet people came to him in great numbers, because he listened, heard confessions and blessed them with obvious compassion. Benedict XVI said he saw the face of the crucified Christ in the sick and suffering. Reports of healings followed him, but his deeper gift was a faith that suffering joined to Christ's Passion is never wasted. He is a reminder that a limitation, even in something as basic as language, need not limit what God can do through us. Many still bring their intentions to his tomb in Dublin.",
+    "quotes": [
+      {
+        "text": "But he was wounded for our iniquities, he was bruised for our sins: the chastisement of our peace was upon him, and by his bruises we are healed.",
+        "work": "Isaias (Isaiah) 53:5",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Is any man sick among you? Let him bring in the priests of the church, and let them pray over him, anointing him with oil in the name of the Lord. And the prayer of faith shall save the sick man: and the Lord shall raise him up.",
+        "work": "James 5:14–15",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, St. Charles of Mount Argus saw your face in the sick and found his strength in your Passion. Through his prayers, look with mercy on all who are ill in body, mind or spirit, especially those I name before you now. Give them healing according to your will, and the peace of knowing that you suffer with them. Make me patient with my own weakness and gentle with the weakness of others. Like Charles, may I serve wherever I am sent, even when I feel unequal to the task, and trust you to do what I cannot. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on January 5, his memorial in the Passionist calendar; at Mount Argus in Dublin the feast is marked with Mass and blessings with his relic.",
+      "If you are in Dublin, pray at his tomb inside the Mount Argus church, where his remains were moved in 1949.",
+      "Pray by name for someone who is sick, and if you can, visit them or help them ask a priest for the Anointing of the Sick.",
+      "Make a good confession; hearing confessions and giving counsel were at the center of his ministry.",
+      "Spend a few minutes before a crucifix meditating on Christ's Passion, the devotion at the heart of Passionist life."
+    ],
+    "places": [
+      {
+        "name": "Mount Argus Church, Passionist parish and site of his tomb",
+        "city": "Dublin, Ireland",
+        "url": "https://www.mountargusparish.ie/about-saint-charles-of-mount-argus/"
+      }
+    ],
+    "confirmationNote": "Charles suits a confirmand who feels unsure of their gifts, or who is drawn to care for the sick. He was a foreigner who never mastered the language of the people he served, yet God worked powerfully through his compassion, prayer and patience. Choosing him means trusting that the Holy Spirit works through faithfulness more than talent, and committing to bring Christ's comfort to people who suffer.",
+    "reflectionPrompts": [
+      "What limitation in myself do I assume keeps God from using me?",
+      "This week, visit, call or write to someone who is sick, and promise to pray for them by name.",
+      "Read Isaias (Isaiah) 53 in the Douay-Rheims alongside Benedict XVI's canonization homily of June 3, 2007, and note how each links suffering and healing."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "paul-of-the-cross",
+        "reason": "Founded the Passionists, whose devotion to the Passion Charles embraced",
+        "historical": true
+      },
+      {
+        "slug": "gabriel-of-our-lady-of-sorrows",
+        "reason": "Fellow Passionist of the same generation, died 1862",
+        "historical": true
+      },
+      {
+        "slug": "george-preca",
+        "reason": "Canonized with him by Benedict XVI on June 3, 2007",
+        "historical": true
+      },
+      {
+        "slug": "camillus-de-lellis",
+        "reason": "Another priest who gave his life to caring for the sick",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dicastery for the Causes of Saints: Carlo di S. Andrea (Johannes Andreas Houben)",
+        "url": "https://www.causesanti.va/it/santi-e-beati/padre-carlo-di-s-andrea.html"
+      },
+      {
+        "title": "Benedict XVI: Homily for the canonization of four blesseds (June 3, 2007)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2007/documents/hf_ben-xvi_hom_20070603_canonizations.html"
+      },
+      {
+        "title": "Passionists International: St. Charles Houben",
+        "url": "https://passionist.org/about/saints-blesseds/houben/"
+      },
+      {
+        "title": "The Passionists: St. Charles Houben",
+        "url": "https://www.passionists.com/saints-and-blessed/st-charles-houben/"
+      },
+      {
+        "title": "Passionist Nuns: Memorial of St. Charles of Mt. Argus, CP (January 5)",
+        "url": "https://www.passionistnuns.org/passionist-calendar/2026/1/5/memorial-of-st-charles-of-mt-argus-cp"
+      },
+      {
+        "title": "Mount Argus Parish: Saint Charles of Mount Argus",
+        "url": "https://www.mountargusparish.ie/about-saint-charles-of-mount-argus/"
+      },
+      {
+        "title": "Mount Argus Parish: Devotions to Saint Charles of Mount Argus",
+        "url": "https://www.mountargusparish.ie/devotions-to-saint-charles-of-mount-argus/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Isaias 53",
+        "url": "https://www.drbo.org/chapter/27053.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: James 5",
+        "url": "https://www.drbo.org/chapter/66005.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. As a nineteenth-century saint he has no established attributes in a reputable source; he is shown in the Passionist habit (Passionists International describes a drawing of him 'wearing traditional Passionist attire') and the Dicastery notes he carried a small crucifix, but that is not 3-5 established attributes",
+      "patronages: review lists none. Passionists International lists 'The sick, healing ministries and the people of Ireland'. The sick and healing ministries have no live topic. Ireland is a live topic, but I did not add him to it: this is an informal order-website description, not a recognized national patronage (St. Patrick is), so a human should decide",
+      "quotes: he left no public-domain writings that I could verify; two Douay-Rheims passages on the Passion and on the sick are used",
+      "prayer: original; no traditional prayer text was found on the Mount Argus parish or Passionist pages",
+      "feastCustoms: January 5 is called a memorial in the Passionist calendar and 'the Feast' by Mount Argus parish; I did not verify whether the Irish national calendar includes him, so the text does not claim it. Relic blessings and the 1949 move of his remains into the church are from the Mount Argus parish pages",
+      "biography: no disagreement. The Dicastery adds details not in the reviewed text: born December 11, 1821; novitiate at Ere near Tournai, November 5, 1845; ordained December 21, 1850; in England from 1866 and back in Dublin in 1874; a carriage accident on April 12, 1881, after which his health declined; beatified October 16, 1988"
+    ]
+  },
+  "christopher": {
+    "templateVersion": 2,
+    "heroSummary": "St. Christopher is a patron of motorists and travelers, honored by the Church as an early Christian martyr. Almost nothing is documented about his life; the famous story of a giant carrying the Christ Child across a river is a legend built on his name, which means \"Christ-bearer.\" His traditional Western date is July 25.",
+    "searchDescription": "St. Christopher, patron of motorists and travelers, is an early martyr remembered July 25. Learn what is history and what is legend in his story.",
+    "patronages": [
+      "motorists"
+    ],
+    "symbols": [
+      {
+        "symbol": "Christ Child on his shoulders",
+        "meaning": "His name means \"Christ-bearer.\" The legend says he carried a child across a river who grew as heavy as the world and revealed himself as Christ; the image is legend, not documented history."
+      },
+      {
+        "symbol": "River or torrent",
+        "meaning": "The dangerous water where, tradition holds, he carried travelers across as his service to Christ; it stands for the hazards of every journey."
+      },
+      {
+        "symbol": "Staff, tree or branch",
+        "meaning": "The staff he leaned on in the crossing, which in the legend later sprouts like a tree as a sign; Catholic Culture lists tree and branch among his attributes."
+      },
+      {
+        "symbol": "Giant stature",
+        "meaning": "The legend makes him a giant who set out to serve the strongest master he could find; his size shows great strength turned into humble service."
+      },
+      {
+        "symbol": "Dog's head (some Eastern icons)",
+        "meaning": "A puzzling Eastern image; Vatican News notes theories about its origin and favors a Christian reading rather than a pagan one. It is iconographic tradition, not a claim about his appearance."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Christopher before a journey. Tradition holds that he carried travelers across a dangerous river, and that one small passenger grew as heavy as the whole world because he was Christ. Whether or not it happened that way, the story says something true: anyone who serves others along the road is carrying Christ. The Church still lists Christopher among the martyrs, and Catholics ask his prayers for safe travel, for drivers and transport workers, and for anyone facing a crossing whose far shore they cannot yet see. A St. Christopher medal in the car is a reminder to pray and to drive with care, not a lucky charm.",
+    "quotes": [
+      {
+        "text": "Bear ye one another's burdens; and so you shall fulfill the law of Christ.",
+        "work": "Galatians 6:2",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Come to me, all you that labour, and are burdened, and I will refresh you.",
+        "work": "Matthew 11:28",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "For my yoke is sweet and my burden light.",
+        "work": "Matthew 11:30",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, St. Christopher's name means one who carries you. Through his prayers, protect all who travel today: drivers and passengers, pilots and sailors, and everyone who works on our roads. Keep us alert, patient and courteous, and turn our hearts from haste and anger. When the way ahead is dark or the current runs strong, give us strength to keep going and faith that you are with us. Help us carry you to every person we meet along the way, and bring us safely home, and at last to our home with you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on July 25, his traditional Western date. Since the 1969 calendar reform his commemoration belongs only to local calendars, so most parishes celebrate St. James the Apostle at Mass that day.",
+      "Bring your car to a blessing of vehicles; some parishes, especially those named for him, offer one on or near July 25.",
+      "Before a trip, pray together for everyone in the car and for others on the road; the Book of Blessings includes a blessing of travelers.",
+      "Carry or give a St. Christopher medal as a reminder to pray and drive with care, not as a good-luck charm.",
+      "With children, tell the river story as a legend and talk about how helping others can be a way of carrying Christ."
+    ],
+    "confirmationNote": "Christopher suits a confirmand who is strong, practical and drawn to helping others, or who spends much of life on the road. Choosing him means choosing a martyr whose life is mostly hidden and whose best-known story is legend. That need not be an obstacle: his name, Christ-bearer, describes exactly what Confirmation asks of every Christian, to carry Christ into ordinary places.",
+    "reflectionPrompts": [
+      "Whom am I being asked to carry right now, and what makes that burden feel heavy?",
+      "Before my next trip, pray by name for the people traveling with me, and drive or ride with deliberate courtesy.",
+      "Read Matthew 11:25–30 in the Douay-Rheims and ask what it means that Christ's burden is light."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "james-the-greater",
+        "reason": "Shares the July 25 date in the Western calendar",
+        "historical": true
+      },
+      {
+        "slug": "frances-of-rome",
+        "reason": "Also invoked as a patron of motorists",
+        "historical": false
+      },
+      {
+        "slug": "raphael-the-archangel",
+        "reason": "Guided the traveler Tobias safely in the Book of Tobit",
+        "historical": false
+      },
+      {
+        "slug": "george",
+        "reason": "Another early martyr best known through a later legend",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: St. Christopher (July 25), liturgical year calendar",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-07-25"
+      },
+      {
+        "title": "Catholic Culture: Catholic Activity, Feast of St. Christopher (from The Catholic Family Handbook, 1959)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/activities/view.cfm?id=364"
+      },
+      {
+        "title": "Vatican News: St. Christopher, Martyr",
+        "url": "https://www.vaticannews.va/en/saints/07/25/st--christopher--martyr.html"
+      },
+      {
+        "title": "The Message (Diocese of Evansville): The saint who wasn't ... but still is",
+        "url": "https://evdiomessage.org/the-saint-who-wasnt-but-still-is/"
+      },
+      {
+        "title": "Catholic Encyclopedia: Christopher (reviewed biography source)",
+        "url": "https://www.newadvent.org/cathen/03728a.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Galatians 6",
+        "url": "https://www.drbo.org/chapter/55006.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 11",
+        "url": "https://www.drbo.org/chapter/47011.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; motorists is listed by Catholic Culture and has a live topic, so it is included",
+      "patronages: travelers/travellers, transportation workers, truck and taxi drivers, sailors and mariners, boatmen, pilgrims, storms, floods, toothache, sudden death and others are sourced (Catholic Culture; Vatican News for travelers, boatmen and pilgrims) but have no live topic",
+      "places: left empty; his burial place is unknown and I found no shrine with an official page tied to him (not to a parish merely named for him)",
+      "quotes: no writings exist; three Douay-Rheims verses on carrying burdens are used",
+      "prayer: original; Catholic Culture lists a 'Prayer for the Feast of St. Christopher' and a 'Motorist's Prayer' but I did not verify their texts or origins, so neither is quoted or called traditional",
+      "symbols: all five come from the legend or iconographic tradition and are labeled as such; Catholic Culture lists 'Giant; torrent; tree; man with Christ on his shoulders; branch', and the dog's head is from Vatican News",
+      "feastCustoms: the 1969 removal from the General Roman Calendar is from The Message (Diocese of Evansville) citing the 1969 Calendarium Romanum and from Catholic Culture ('merely removed from the General Roman Calendar'); Catholic Culture says the Roman Martyrology still commemorates him on July 25. Vehicle blessings are a parish custom (Catholic Culture's activity page: 'in some places cars are blessed')",
+      "biography: no disagreement, but note Catholic Culture says he 'suffered martyrdom in Asia Minor about the year 250' and gives 'd. 251', and Vatican News places his martyrdom in Lycia under Decius; the reviewed biography says dates are uncertain, so these were not used"
+    ]
+  },
+  "clare-of-assisi": {
+    "templateVersion": 2,
+    "heroSummary": "St. Clare of Assisi is honored in Catholic tradition as a patron of television, embroiderers and goldsmiths. Inspired by Francis, she left her noble family in 1211 or 1212 and led the Poor Ladies at San Damiano for four decades, guarding their poverty. Her Rule was approved two days before her death in 1253; her feast is August 11.",
+    "searchDescription": "St. Clare of Assisi, feast August 11, followed Francis into poverty, led the Poor Ladies at San Damiano and saw her Rule approved in 1253.",
+    "patronages": [
+      "goldsmiths"
+    ],
+    "symbols": [
+      {
+        "symbol": "Monstrance, pyx or ciborium",
+        "meaning": "Recalls the account, retold by Benedict XVI, that soldiers threatening San Damiano and Assisi were driven off after she prayed with the Blessed Sacrament. Art often shows a monstrance, which belongs to later tradition rather than her own time."
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Her consecrated virginity; the Church keeps her day as the memorial of St. Clare, Virgin."
+      },
+      {
+        "symbol": "Tall cross",
+        "meaning": "Her contemplation of Christ crucified, whom she urges Agnes of Prague in her letters to look upon and follow."
+      },
+      {
+        "symbol": "Poor Clare habit",
+        "meaning": "The plain dress of the Poor Ladies of San Damiano, the community of prayer and Gospel poverty she founded and led."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Clare when they want a steadier, more prayerful heart. She gave up wealth and the marriage expected of her, not to escape the world but to belong entirely to Christ, and she spent about forty years in one small monastery praying for the Church. Her letters to Agnes of Prague show a woman of warmth and joy, urging her friend to gaze on Christ as into a mirror. Catholics ask her help with prayer, with simplicity of life, and in sickness. Because, tradition holds, she saw the Christmas liturgy from her sickbed, Pius XII named her patron of television.",
+    "quotes": [
+      {
+        "text": "O sweet virgin, beloved in Christ, the joy of angels, and the crown of our sisters, place your mind in the mirror of eternity; place your soul in the figure of the Divine Substance, and in contemplating God transform yourself into an image of His Deity.",
+        "work": "Third Letter to Agnes of Prague",
+        "translation": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (London: Longmans, Green, 1910), public domain"
+      },
+      {
+        "text": "What you have already, keep; what you have done, do still. Never stand still, but run swiftly, in steadfast imitation and with eager feet, lest in your progress you catch the dust.",
+        "work": "Second Letter to Agnes of Prague",
+        "translation": "Charlotte Balfour, The Life and Legend of the Lady Saint Clare (London: Longmans, Green, 1910), public domain"
+      },
+      {
+        "text": "For you know the grace of our Lord Jesus Christ, that being rich he became poor, for your sakes; that through his poverty you might be rich.",
+        "work": "2 Corinthians 8:9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you made yourself poor for our sake, and St. Clare loved your poverty with her whole heart. Through her prayers, free me from whatever clutters my heart and my days. Teach me to look at you as into a clear mirror, and to see there both your love and the person you call me to be. Give our families and communities her gift of mutual love and peace, and make our homes places of prayer. When I am sick or weary, let me rest in you as she did, until I see you face to face. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 11, the memorial of St. Clare, Virgin, in the General Roman Calendar.",
+      "Join a Transitus service on the evening of August 10, when many Poor Clare and Franciscan communities recall her death.",
+      "Ask a Poor Clare monastery near you to pray for an intention, and consider supporting the sisters, who live by their work and by alms.",
+      "Read one of her four letters to Agnes of Prague slowly, then spend a few quiet minutes before the Blessed Sacrament.",
+      "Pray for people who work in television and media, the patronage Pius XII gave her because of her Christmas vision."
+    ],
+    "places": [
+      {
+        "name": "Basilica of St. Clare (Santa Chiara), where her body rests",
+        "city": "Assisi, Italy",
+        "url": "https://www.assisisantachiara.it/"
+      },
+      {
+        "name": "Sanctuary of San Damiano, her monastery",
+        "city": "Assisi, Italy",
+        "url": "https://assisiofm.it/santuari/san-damiano/"
+      }
+    ],
+    "confirmationNote": "Clare suits a confirmand drawn to prayer, simplicity, or a quiet kind of courage. As a young woman she made a costly decision, then stayed faithful to it for the rest of her life, defending her community's way of poverty with patience and persistence. Choosing her means asking the Holy Spirit for a heart fixed on Christ, and for the steadiness to keep a good commitment when it becomes hard.",
+    "reflectionPrompts": [
+      "What is cluttering my heart and keeping me from looking at Christ clearly?",
+      "Spend ten minutes this week in silent prayer before the Blessed Sacrament, bringing nothing but my attention.",
+      "Read Clare's third letter to Agnes of Prague alongside 2 Corinthians 8:9 in the Douay-Rheims, and note what each says about poverty and riches."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Received her into Gospel poverty at the Portiuncula and guided her community",
+        "historical": true
+      },
+      {
+        "slug": "agnes-of-assisi",
+        "reason": "Her younger sister, who joined her at San Damiano",
+        "historical": true
+      },
+      {
+        "slug": "agnes-of-bohemia",
+        "reason": "Princess of Prague who received Clare's four surviving letters",
+        "historical": true
+      },
+      {
+        "slug": "colette-of-corbie",
+        "reason": "Renewed the Poor Clare life in fifteenth-century France",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benedict XVI: General Audience on Saint Clare of Assisi (September 15, 2010)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100915.html"
+      },
+      {
+        "title": "John Paul II: 750th anniversary of Clare's death (reviewed biography source)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2003/august/documents/hf_jp-ii_spe_20030811_santa-chiara.html"
+      },
+      {
+        "title": "Vatican News: St. Clare of Assisi, Virgin, Foundress of the Poor Ladies",
+        "url": "https://www.vaticannews.va/en/saints/08/11/st--clare-of-assisis--virgin--foundress-of-the-poor-ladies.html"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Clare, Virgin (August 11)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-11"
+      },
+      {
+        "title": "Charlotte Balfour (trans.), The Life and Legend of the Lady Saint Clare (1910), with Four Letters of St. Clare, Internet Archive scan",
+        "url": "https://archive.org/details/LifeAndLegendOfSaintClare"
+      },
+      {
+        "title": "Paschal Robinson (trans.), The Life of Saint Clare (1910), with the Rule of St. Clare, Internet Archive scan",
+        "url": "https://archive.org/details/TheLifeOfSaintClare"
+      },
+      {
+        "title": "Capuchin Franciscans: Concluding the Year of Clare (Transitus on the eve of her feast)",
+        "url": "https://capuchins.org/posts/concluding-the-year-of-clare"
+      },
+      {
+        "title": "Basilica Santa Chiara, Assisi (official site)",
+        "url": "https://www.assisisantachiara.it/"
+      },
+      {
+        "title": "Frati Minori di Assisi: Santuario di San Damiano",
+        "url": "https://assisiofm.it/santuari/san-damiano/"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 8",
+        "url": "https://www.drbo.org/chapter/54008.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; goldsmiths is on Catholic Culture's patronage list and has a live topic, so it is included, but it is a minor patronage (alongside gilders and gold workers) and a human may prefer to drop it and the matching phrase in heroSummary",
+      "patronages: television (Pius XII; Vatican News and Catholic Culture), embroiderers, needle workers, eye disease, good weather, laundry workers, telephones and telegraphs are sourced but have no live topic",
+      "quotes: Robinson's 1910 Life of Saint Clare was checked on archive.org; its only translation of Clare's own writing is the Rule (Appendix I), not the Testament or the Letters. The two letter quotes were verified word for word against the 1910 Longmans scan of Balfour's Life and Legend of the Lady Saint Clare ('Four Letters of St. Clare', pp. 138-150); the volume names Balfour as translator and does not separately credit the letters. The Testament was not quoted: no public-domain translation was verified, and Balfour's prefatory note records that its authenticity is disputed",
+      "symbols: from Catholic Culture ('Chalice and host; tall cross; Monstrance; lily; ciborium'; 'Nun holding a vessel containing the holy Eucharist'). The monstrance is labeled later tradition because the episode is described by Benedict XVI only as showing the Blessed Sacrament",
+      "feastCustoms: the Transitus is a Franciscan and Poor Clare community custom, not universal liturgy (Capuchin source); 'live by their work and alms' is from the Basilica of Santa Chiara site",
+      "places: the Basilica's official homepage is used because it presents her tomb (crypt) and the San Damiano crucifix; the San Damiano page is the friars' official sanctuary page",
+      "biography: no disagreement with the reviewed biography"
+    ]
+  },
+  "claude-de-la-colombi-re": {
+    "templateVersion": 2,
+    "heroSummary": "St. Claude La Colombière was a seventeenth-century French Jesuit, preacher and spiritual director. At Paray-le-Monial he became the confessor of St. Margaret Mary Alacoque, judged her experiences of the Sacred Heart to be genuine and helped spread that devotion. Imprisoned in London during the Popish Plot, he died at Paray in 1682. His feast is February 15.",
+    "searchDescription": "St. Claude La Colombière, feast February 15: French Jesuit, confessor of St. Margaret Mary and apostle of the Sacred Heart, known for trust in God.",
+    "symbols": [
+      {
+        "symbol": "Jesuit cassock",
+        "meaning": "He entered the Society of Jesus at seventeen and lived as a Jesuit teacher, preacher and director of souls. The chapel at Paray that holds his relics is served by Jesuits and honors him among other Jesuit saints."
+      },
+      {
+        "symbol": "The Sacred Heart of Jesus",
+        "meaning": "He accepted Margaret Mary's account of Christ's Heart burning with love and became one of the first to make the devotion known. The great mosaic in his chapel at Paray shows him among the Jesuits who spread it."
+      },
+      {
+        "symbol": "Three hearts united",
+        "meaning": "A painting above his relics at Paray shows him saying Mass while Margaret Mary, receiving Communion, sees the Heart of Jesus joined with her heart and his. It pictures the spiritual friendship between confessor and penitent that she described."
+      },
+      {
+        "symbol": "Prison in London",
+        "meaning": "A stained-glass window in his chapel recalls his arrest and weeks in King's Bench Prison after false accusations in the Popish Plot, an ordeal that broke his health before he was expelled from England."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Claude La Colombière when anxiety crowds out trust. He knew fear himself: his early notes admit a strong aversion to the religious life he was choosing, yet he gave himself to it completely. He listened carefully to a troubled young nun, St. Margaret Mary, and helped her believe that God was truly speaking to her. In London he served at court amid suspicion, then endured prison and exile with patience. His sermons and prayers return again and again to confidence in God's mercy. He is a gentle companion for anyone learning to hand the past, the future and their own weakness over to Christ.",
+    "quotes": [
+      {
+        "text": "Take up my yoke upon you, and learn of me, because I am meek, and humble of heart: and you shall find rest to your souls.",
+        "work": "Matthew 11:29",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you showed St. Claude La Colombière the love of your Sacred Heart and gave him the grace to trust you in every trial. Through his prayers, quiet my fears. I place my past in your mercy and my future in your love. When I fail, help me to begin again without discouragement; when I am misunderstood or treated unjustly, keep me patient and free of bitterness. Make me a faithful friend and a wise listener to those who struggle, as he was for St. Margaret Mary. Teach me to say from the heart that my hope is in you. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The longer \"Act of Confidence\" (\"I am so convinced, my God, that you watch over all who hope in you…\") is widely prayed in his name; EWTN notes that it is properly part of a sermon on the love of God. Its English wording varies between translations.",
+      "link": {
+        "label": "Act of Confidence (EWTN prayer library)",
+        "url": "https://www.ewtn.com/pray/act-of-confidence"
+      }
+    },
+    "feastCustoms": [
+      "February 15 is not a memorial in the universal Roman calendar, but the Roman Martyrology commemorates him that day and Jesuit communities honor him; the Sanctuary of the Sacred Heart at Paray-le-Monial marks it with a solemn Mass.",
+      "Pray the Act of Confidence slowly, naming one worry you want to place in God's hands.",
+      "Make a small act of devotion to the Sacred Heart, such as a short consecration or a visit to the Blessed Sacrament, in thanks for the devotion he helped spread.",
+      "If you visit Paray-le-Monial, pray at the Chapel of St. Claude La Colombière, where his relics are kept, and at the nearby Chapel of the Apparitions.",
+      "Read a few pages of his spiritual retreat notes or letters, or pray for priests who serve as confessors and spiritual directors."
+    ],
+    "places": [
+      {
+        "name": "Chapel of St. Claude La Colombière, Sanctuary of the Sacred Heart",
+        "city": "Paray-le-Monial, France",
+        "url": "https://sacrecoeur-paray.org/lieux/la-chapelle-saint-claude-la-colombiere/"
+      }
+    ],
+    "confirmationNote": "Claude suits a confirmand who worries a great deal, wants to grow in trust, or hopes to be a good listener and friend. He was a Jesuit teacher who took a younger person's spiritual struggles seriously and helped her follow God's call. Confirmation strengthens Christians to bear witness under pressure, and his patience in prison and exile shows that trust in God can hold even when life goes badly.",
+    "reflectionPrompts": [
+      "What part of my past am I still holding on to instead of leaving it to God's mercy?",
+      "This week, write down one fear, pray the Act of Confidence over it, and set it aside again each time it returns.",
+      "Read the Vatican's biography of St. Claude La Colombière, then read Matthew 11:28–30 in the Douay-Rheims and consider why devotion to the Sacred Heart draws on that passage."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "margaret-mary-alacoque",
+        "reason": "He was her confessor at Paray-le-Monial and supported her mission to make the Sacred Heart known",
+        "historical": true
+      },
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "Founder of the Society of Jesus, which Claude entered at seventeen",
+        "historical": true
+      },
+      {
+        "slug": "francis-de-sales",
+        "reason": "Founder of Margaret Mary's Visitation order; he appears with Claude in the great mosaic of the Paray chapel",
+        "historical": true
+      },
+      {
+        "slug": "faustina-kowalska",
+        "reason": "Another saint whose message centers on trust in Christ's merciful love",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Holy See: Claude La Colombière (1641–1682), biography",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19920531_la-colombiere_en.html"
+      },
+      {
+        "title": "Catholic Culture: February 15 (St. Claude de la Colombière, Roman Martyrology commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-02-15"
+      },
+      {
+        "title": "Catholic Culture Library: John Paul II, homily at the canonization of St. Claude La Colombière (May 31, 1992)",
+        "url": "https://www.catholicculture.org/culture/library/view.cfm?id=5450"
+      },
+      {
+        "title": "Sanctuaire du Sacré-Cœur, Paray-le-Monial: La chapelle Saint Claude la Colombière",
+        "url": "https://sacrecoeur-paray.org/lieux/la-chapelle-saint-claude-la-colombiere/"
+      },
+      {
+        "title": "Sanctuaire du Sacré-Cœur, Paray-le-Monial: Saint Claude la Colombière",
+        "url": "https://sacrecoeur-paray.org/saint-claude-la-colombiere/"
+      },
+      {
+        "title": "Sanctuaire du Sacré-Cœur, Paray-le-Monial: Fête de Saint Claude la Colombière",
+        "url": "https://sacrecoeur-paray.org/fete-de-saint-claude-la-colombiere/"
+      },
+      {
+        "title": "EWTN: Act of Confidence",
+        "url": "https://www.ewtn.com/pray/act-of-confidence"
+      },
+      {
+        "title": "Thesaurus Fidelium (1914), Internet Archive",
+        "url": "https://archive.org/details/ThesaurusFidelium"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 11",
+        "url": "https://www.drbo.org/chapter/47011.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists toy makers and turners; neither has a live topic. Review lists none.",
+      "quotes: the famous Act of Confidence ('I am so convinced, my God…') was not quoted because I found no pre-1929 English text of it. The two quotes come from a different, shorter 'Act of Confidence' that Thesaurus Fidelium (1914) attributes to 'Ven. Claude de la Colombiere, S.J.'; wording checked against the Internet Archive scan. The book cites no place in his works, so a human should judge whether the attribution is strong enough; if not, drop both and keep Matthew 11:29 (checked on drbo.org).",
+      "symbols: no standard attribute list (e.g. Catholic Culture) exists for him. All four come from how he is depicted at his own shrine chapel in Paray-le-Monial (sanctuary website), with meanings drawn from that page and the Vatican biography.",
+      "feastCustoms: the rank of February 15 in the Jesuit proper calendar was not verified, so no rank is given. The Paray feast page carries no year (its files suggest 2017).",
+      "prayer: EWTN lists the author of the Act of Confidence as 'Unknown' while calling it part of 'a sermon by the Saint'; the note therefore avoids a firmer attribution.",
+      "biography: no disagreement. Extra dates from sources: born 2 February 1641; solemn profession 2 February 1675; beatified 16 June 1929; canonized 31 May 1992 in St. Peter's Basilica.",
+      "quotes: removed two Thesaurus Fidelium (1914) lines — attribution to Claude not traced to his works (coordinator)"
+    ]
+  },
+  "colette-of-corbie": {
+    "templateVersion": 2,
+    "heroSummary": "St. Colette of Corbie was a French Franciscan who left life as an enclosed anchoress to reform the Poor Clares. During the Western Schism she founded or reformed seventeen monasteries that returned to strict poverty, and her sisters are still called Colettine Poor Clares. She died at Ghent in 1447. Her feast is March 6.",
+    "searchDescription": "St. Colette of Corbie, feast March 6: French anchoress who reformed the Poor Clares, founding communities of strict poverty known as Colettines.",
+    "symbols": [
+      {
+        "symbol": "Poor Clare habit with a crucifix",
+        "meaning": "She is shown as a Poor Clare nun holding a crucifix, recalling the Franciscan life of prayer and poverty she restored in her reform."
+      },
+      {
+        "symbol": "Vision of St. Francis, St. Clare or St. Anne",
+        "meaning": "Catholic tradition holds that St. Francis appeared to her and asked her to reform the Poor Clares; art shows her receiving such a vision, sometimes with St. Clare or St. Anne. The vision belongs to her early biographies rather than to documented history."
+      },
+      {
+        "symbol": "Lamb",
+        "meaning": "Listed among her emblems in Catholic reference works, which do not explain it. In Christian art the lamb usually points to Christ, the Lamb of God, and to innocence and gentleness."
+      },
+      {
+        "symbol": "Birds",
+        "meaning": "Also listed among her emblems without explanation; they recall the Franciscan tradition of kinship with creatures and the simplicity of life she sought for her sisters."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Colette when a calling seems to change direction. She first chose total seclusion as an anchoress at Corbie, then believed God was asking her to come out and rebuild communities across France, Savoy and Flanders. She did it in a Church split between rival popes, through persistence, prayer and practical decisions. Her sisters gave up fixed incomes and trusted God and benefactors for daily bread. In France she is also invoked as a saint who protects new life, and couples hoping for a child still pray at her relics in Poligny. She is a strong companion for anyone asked to begin something hard.",
+    "quotes": [
+      {
+        "text": "For you know the grace of our Lord Jesus Christ, that being rich he became poor, for your sakes; that through his poverty you might be rich.",
+        "work": "2 Corinthians 8:9",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Who maketh a barren woman to dwell in a house, the joyful mother of children.",
+        "work": "Psalm 112:9 (Psalm 113:9 in modern numbering)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Colette out of the quiet of her cell to renew the life of poverty and prayer among the daughters of St. Clare. Through her prayers, help me to follow you when your call changes my plans. Give me her courage in a divided and troubled time, her trust that you will provide, and her patience with slow and difficult work. Bless all Poor Clare sisters and the houses that pray for the world. Comfort couples who long for a child and protect every mother and the life she carries. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "The Chaplet of St. Colette (Catholic Culture, from the Ty Mam Duw Poor Clare Colettine Community)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1292"
+      }
+    },
+    "feastCustoms": [
+      "March 6, the day she died, is her commemoration in the Roman Martyrology; Franciscan and Poor Clare communities keep her memory, and some Franciscan calendars place her memorial on another day, such as February 7.",
+      "Pray the Chaplet of St. Colette, which a Colettine Poor Clare community assembled from three of her prayers.",
+      "Pray for couples hoping for a child and for expectant mothers; the Poor Clares of Poligny, who keep her relics, describe her as the saint who brings forth life and offer a novena and prayers for such couples.",
+      "Support a nearby Poor Clare monastery with a gift or a prayer request, since communities in her tradition live without fixed income.",
+      "Choose one possession or habit to give up for the day as a small act of the poverty she loved."
+    ],
+    "places": [
+      {
+        "name": "Monastery of the Poor Clares of Poligny (founded by St. Colette; keeps her relics)",
+        "city": "Poligny, France",
+        "url": "https://clarisses.eglisejura.com/?p=17"
+      }
+    ],
+    "confirmationNote": "Colette suits a confirmand who is determined, practical and willing to start over when God's call becomes clearer. She went from a hidden life of prayer to leading a demanding reform, and she did not let a divided Church stop her. Confirmation strengthens Christians to take up their mission in the world, and Colette shows that prayer and hard practical work belong together.",
+    "reflectionPrompts": [
+      "Is God asking me to step out of something comfortable, even something good, to serve in a new way?",
+      "Look up the nearest Poor Clare or other contemplative monastery and send them a prayer intention or a small donation this month.",
+      "Read the Catholic Encyclopedia article on St. Colette, then read 2 Corinthians 8:9 in the Douay-Rheims and ask why poverty was central to her reform."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Colette's reform sought to restore the strict poverty of Clare's rule",
+        "historical": true
+      },
+      {
+        "slug": "vincent-ferrer",
+        "reason": "Contemporary preacher of the Western Schism years whom she is said to have assisted",
+        "historical": true
+      },
+      {
+        "slug": "catherine-of-bologna",
+        "reason": "Fellow fifteenth-century Poor Clare abbess and writer",
+        "historical": true
+      },
+      {
+        "slug": "gerard-majella",
+        "reason": "Another saint invoked by mothers and couples hoping for children",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Franciscan Media: Saint Colette",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-colette/"
+      },
+      {
+        "title": "Catholic Culture: March 6 (St. Colette, Roman Martyrology commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-03-06"
+      },
+      {
+        "title": "Catholic Culture: The Chaplet of St. Colette",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/prayers/view.cfm?id=1292"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Colette",
+        "url": "https://www.newadvent.org/cathen/04099b.htm"
+      },
+      {
+        "title": "Clarisses de Poligny: Sainte Colette",
+        "url": "https://clarisses.eglisejura.com/?p=17"
+      },
+      {
+        "title": "Diocèse de Paris: Pèlerinage annuel à Poligny pour les couples en espérance d'enfant",
+        "url": "https://dioceseparis.fr/Premier-Pelerinage-Annuel-a.html"
+      },
+      {
+        "title": "Douay-Rheims Bible: 2 Corinthians 8",
+        "url": "https://www.drbo.org/chapter/54008.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 112",
+        "url": "https://www.drbo.org/chapter/21112.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture lists against eye disorders, fever, headaches and infertility; against the death of parents; craftsmen; Poor Clares; servants; Corbie; and Ghent. None has a live topic. The 'mothers' topic was not used because no source names her patron of mothers as such (Poligny's Poor Clares speak of couples desiring a child). Review lists none.",
+      "symbols: lamb and birds are listed by Catholic Culture and the 1910 New Catholic Dictionary, but I found no reputable source explaining them for Colette, so their meanings are given as general Christian/Franciscan symbolism and should be reviewed. Catholic Culture's 'crucifix and a hook' was reduced to the crucifix because the hook is unexplained.",
+      "quotes: no public-domain English translation of her own writings was checked, so only Douay-Rheims verses are used (checked on drbo.org).",
+      "feastCustoms: the Paris diocese page notes the 2024 Poligny couples' pilgrimage was cancelled, so no annual pilgrimage is promised; only the Poligny novena and prayers are mentioned. The February 7 Franciscan date follows the context feast note and Franciscan Media's banner; the exact rank in Franciscan calendars was not verified.",
+      "relatedSaints: the Vincent Ferrer link rests on Catholic Culture's statement that she helped him in healing the schism; the Catholic Encyclopedia does not mention it, hence 'is said to have'.",
+      "biography: no disagreement with the review. Source variations: Catholic Culture gives her birth as 1380 (others 13 January 1381) and names Pius VI for the 1807 canonization, which is impossible (Pius VI died in 1799; it was Pius VII). The Poligny site gives a beatification in 1625 under 'Urbain VII', while the Catholic Encyclopedia says beatified 23 January 1740 and canonized 24 May 1807. Her early support came from Benedict XIII of the Avignon obedience, whom the Catholic Encyclopedia calls an antipope; the review does not name him."
+    ]
+  },
+  "columba-of-iona": {
+    "templateVersion": 2,
+    "heroSummary": "St. Columba, or Colum Cille, is honored with Patrick and Brigid as a patron of Ireland. A sixth-century Irish monk who founded Derry and Durrow, he crossed to Iona in 563 and built a monastery that carried prayer, learning and the Gospel through northern Britain. He died on Iona in 597. His feast is June 9.",
+    "searchDescription": "St. Columba (Colum Cille) of Iona, feast June 9: Irish monk, patron of Ireland, who founded Iona in 563 and carried the Gospel to northern Britain.",
+    "patronages": [
+      "ireland"
+    ],
+    "symbols": [
+      {
+        "symbol": "Monk's habit with Celtic tonsure and crozier",
+        "meaning": "He is shown as an Irish monk and abbot: the distinctive Irish tonsure marks his monastic tradition, and the crozier his role as founder and father of the Iona community."
+      },
+      {
+        "symbol": "Coracle",
+        "meaning": "The small hide-covered boat recalls his crossing from Ireland to Iona with his companions and the island voyages of his mission; Adomnán's Life is full of journeys by sea."
+      },
+      {
+        "symbol": "White horse",
+        "meaning": "Adomnán tells how, in his last days, the white pack-horse of the monastery laid its head on his breast and wept, and Columba blessed it. The story comes from his hagiography rather than ordinary history."
+      },
+      {
+        "symbol": "Celtic cross",
+        "meaning": "The high crosses of Iona recall the monastery he founded and the long tradition of worship and pilgrimage that grew from it."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Columba as a patron of Ireland and Scotland and as a guide for anyone who leaves home for God's sake. Early witnesses present his crossing to Iona as a voluntary exile for Christ, and from that small island his monks prayed, copied books and carried the faith to Picts and Northumbrians. Adomnán's Life, written about a century later, mixes memory with miracle stories, but its picture of a demanding yet tender abbot rings true. Tradition holds that he loved poetry and scholarship. Students, writers, emigrants and missionaries find in him a companion for faithful work far from home.",
+    "quotes": [
+      {
+        "text": "These, O my children, are the last words I address to you—that ye be at peace, and have unfeigned charity among yourselves.",
+        "work": "Adomnán, Life of St. Columba, Book III, ch. 24 (his last instructions to the brethren)",
+        "translation": "William Reeves (ed.), Life of Saint Columba, Founder of Hy (Edinburgh, 1874; public domain)"
+      },
+      {
+        "text": "Here, at the end of the page, I must stop; and what follows let Baithene write.",
+        "work": "Adomnán, Life of St. Columba, Book III, ch. 24 (said while copying the Psalter on the eve of his death)",
+        "translation": "William Reeves (ed.), Life of Saint Columba, Founder of Hy (Edinburgh, 1874; public domain)"
+      },
+      {
+        "text": "The rich have wanted, and have suffered hunger: but they that seek the Lord shall not be deprived of any good.",
+        "work": "Psalm 33:11 (Psalm 34:10 in modern numbering), the verse Adomnán says Columba copied last",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Columba to leave his homeland and to build on Iona a house of prayer, learning and mission. Through his prayers, give me the courage to go where you send me and the faithfulness to keep praying when the work is small and slow. Bless the people of Ireland and Scotland, and all who study, write and copy your word. Make our families and communities places of peace and sincere charity, as he asked of his monks at the end of his life. Bring us at last to the home he longed for. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "June 9 is commemorated in the Roman Martyrology and kept with special honor in Ireland and Scotland, especially in the dioceses of Raphoe, Derry, Dunkeld and Argyll and the Isles, which claim him as patron; ask whether your parish will celebrate it.",
+      "In Donegal, the Diocese of Raphoe has marked his feast with a novena and triduum at St Eunan's Cathedral, Letterkenny, and celebrations at Gartan, his traditional birthplace; the Slí Cholmcille walking route links places associated with him from Donegal to Derry and on to Scotland.",
+      "In Glencolmcille, Co. Donegal, local tradition keeps the Turas Cholmcille, a barefoot or walking pilgrimage around fifteen stations in the valley, traditionally begun on his feast.",
+      "Pray Psalm 33 (34), the psalm he was copying on the eve of his death, or copy out a verse of Scripture by hand in his memory.",
+      "Pray for Ireland and Scotland and for all emigrants; Scottish lore counted his day, especially when it fell on a Thursday, as a lucky day to begin new work."
+    ],
+    "places": [
+      {
+        "name": "St Columba's Church, Long Tower (Templemore Parish, Diocese of Derry)",
+        "city": "Derry, Northern Ireland",
+        "url": "https://derrydiocese.org/parishes/templemore-st-columba-s-longtower"
+      },
+      {
+        "name": "Iona Abbey and Nunnery (site of Columba's monastery)",
+        "city": "Isle of Iona, Scotland",
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/iona-abbey-and-nunnery/"
+      }
+    ],
+    "confirmationNote": "Columba suits a confirmand who is bold, loves learning or writing, or is proud of Irish or Scottish roots. He was strong-willed and energetic, and he turned those gifts toward building a praying community and sending the Gospel into new lands. Confirmation sends Christians out as witnesses, and Columba's last words to his monks, to keep peace and sincere charity, are a good rule for that mission.",
+    "reflectionPrompts": [
+      "What strong trait in my character, like Columba's energy, could become a gift if I gave it to God?",
+      "Choose one place where there is tension in your life, at home, school or work, and take one concrete step toward peace this week.",
+      "Read Book III, chapters 23–24 of Adomnán's Life of St. Columba in Reeves's 1874 translation, and notice what the author treats as most important about his death."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "brendan-the-navigator",
+        "reason": "Adomnán's Life records Brendan visiting Columba on the island of Hinba",
+        "historical": true
+      },
+      {
+        "slug": "finnian-of-clonard",
+        "reason": "One of the Irish monastic teachers associated with Columba's formation",
+        "historical": true
+      },
+      {
+        "slug": "aidan",
+        "reason": "Monk of Iona's tradition who carried its mission to Lindisfarne and Northumbria",
+        "historical": true
+      },
+      {
+        "slug": "patrick",
+        "reason": "Shares with Columba and Brigid the title of patron of Ireland",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Culture: June 9 (St. Columba, Roman Martyrology commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-06-09"
+      },
+      {
+        "title": "Catholic Ireland: St Columba (Colmcille) of Iona, 521–597, third patron of Ireland",
+        "url": "https://www.catholicireland.net/saintoftheday/st-colmcille-of-iona-521-597-3rd-patron-of-ireland/"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Columba",
+        "url": "https://www.newadvent.org/cathen/04136a.htm"
+      },
+      {
+        "title": "Adomnán, Life of St. Columba (ed. Reeves, 1874), Internet Medieval Sourcebook, Fordham University",
+        "url": "https://sourcebooks.fordham.edu/basis/columba-e.asp"
+      },
+      {
+        "title": "St Eunan's Cathedral, Letterkenny (Diocese of Raphoe): Colmcille 1500",
+        "url": "https://steunanscathedral.ie/?p=3311"
+      },
+      {
+        "title": "Diocese of Derry: Templemore (St Columba's, Longtower)",
+        "url": "https://derrydiocese.org/parishes/templemore-st-columba-s-longtower"
+      },
+      {
+        "title": "Historic Environment Scotland: Iona Abbey and Nunnery",
+        "url": "https://www.historicenvironment.scot/visit-a-place/places/iona-abbey-and-nunnery/"
+      },
+      {
+        "title": "Pilgrim Paths Ireland: Turas Cholm Cille, Gleann Cholm Cille",
+        "url": "https://www.pilgrimpath.ie/?p=131"
+      },
+      {
+        "title": "Douay-Rheims Bible: Psalm 33",
+        "url": "https://www.drbo.org/chapter/21033.htm"
+      }
+    ],
+    "flags": [
+      "patronages: Catholic Culture also lists against floods, bookbinders, poets, Scotland, Scottish Highlanders, the dioceses of Argyll and the Isles, Derry, Dunkeld, Pembroke, Raphoe and Youngstown, and the cities of Derry and Pembroke; none has a live topic. 'ireland' is supported by Catholic Culture and Catholic Ireland (one of Ireland's three patrons). Review lists none.",
+      "symbols: all four are on Catholic Culture's list (coracle, white horse, Celtic cross, monk's robes, Celtic tonsure and crosier; 'devils fleeing' omitted). The white-horse meaning is checked against Adomnán (Reeves) III.24; the other meanings are explanatory and not stated by Catholic Culture.",
+      "quotes: both Adomnán passages checked against the Fordham transcription of Reeves (1874); an OCR character ('Ñ') was restored as a dash. Reeves numbers the death chapter III.24; some editions number it III.23. Psalm 33:11 checked on drbo.org.",
+      "feastCustoms: the liturgical rank of June 9 in the Irish and Scottish national calendars was not verified, so no rank is given. The St Eunan's page is undated (its weekdays fit 2021, the 1500th anniversary). The Glencolmcille turas source is a heritage site, not a diocese, and sources disagree on access dates, so it is phrased as local tradition. The Scottish 'lucky Thursday' lore is from Catholic Culture.",
+      "places: Iona Abbey is now in state care (Historic Environment Scotland) and is not a Catholic church; it is listed because it is the site of his monastery. The Derry diocesan page names the church for Columba but does not itself describe his monastery at Derry. Gartan and Glencolmcille have no official site of their own.",
+      "relatedSaints: Aidan's link to Iona rests on the site's own reviewed biography of Aidan ('associated with Iona before his mission'); he came a generation after Columba.",
+      "biography: no disagreement. Notes: Catholic Ireland gives Gartan as his birthplace and says most historians see his exile as political as well as religious, after the battle of Cúl Dreimhne; the review rightly does not let that displace early witnesses. Catholic Culture's Martyrology summary says he was buried beside St. Patrick at Downpatrick, which refers to a later tradition about his relics, not his place of death (Iona)."
+    ]
+  },
+  "conrad-of-piacenza": {
+    "templateVersion": 2,
+    "heroSummary": "St. Conrad of Piacenza is a patron of hunters and of the city and diocese of Noto in Sicily. A married nobleman, he confessed to starting a ruinous hunting fire to save an innocent man, gave up his property in restitution and became a Franciscan hermit. He died near Noto in 1351. The Franciscans remember him on February 19.",
+    "searchDescription": "St. Conrad of Piacenza, February 19: nobleman who confessed to a hunting fire, made restitution and became a Franciscan hermit at Noto in Sicily.",
+    "patronages": [
+      "hunters"
+    ],
+    "symbols": [
+      {
+        "symbol": "Franciscan hermit's habit, cord and bare feet",
+        "meaning": "He joined the Third Order of St. Francis and lived for decades as a poor hermit, so art shows him barefoot in a rough habit with the Franciscan cord."
+      },
+      {
+        "symbol": "Tau staff or cross",
+        "meaning": "The tau, the T-shaped cross St. Francis used as his sign, and the hermit's staff mark him as a Franciscan penitent who leaned on Christ's cross."
+      },
+      {
+        "symbol": "Small birds",
+        "meaning": "Art shows birds fluttering around him or perching on his cross. Tradition pictures the hermit at peace with God's creatures, in the spirit of St. Francis; the image comes from legend rather than documented history."
+      },
+      {
+        "symbol": "Stags and other animals",
+        "meaning": "He is sometimes shown among wild animals, a reminder that the former hunter became a man of peace in the wilderness. This too is a devotional image, not a recorded event."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Conrad when they need the courage to own a wrong. His story begins with a careless order during a hunt: a fire spread across fields and woods, and a poor man was condemned for it. Conrad stepped forward, confessed and paid for the damage with everything he had. He and his wife then gave themselves to God, she among the Poor Clares and he as a Franciscan hermit, finally in Sicily near Noto. The people of Noto still honor him as their patron, and he has long been invoked for the cure of hernia. He shows that repentance can open a new life.",
+    "quotes": [
+      {
+        "text": "He that hideth his sins, shall not prosper: but he that shall confess, and forsake them, shall obtain mercy.",
+        "work": "Proverbs 28:13",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Behold, Lord, the half of my goods I give to the poor; and if I have wronged any man of any thing, I restore him fourfold.",
+        "work": "Luke 19:8",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Conrad the grace to confess his fault, to spare an innocent man and to repair the harm he had caused. Through his prayers, give me honesty when I am tempted to hide my mistakes, and courage to make things right with those I have hurt. Free me from attachment to possessions and teach me to find my treasure in you. Protect those who hunt and work outdoors, comfort the sick who seek healing, and bless the people of Noto who honor him. Lead me, as you led him, from carelessness to conversion and from conversion to peace. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "February 19, the day he died, is his commemoration in the Roman Martyrology and is kept in Franciscan communities; Leo X allowed Noto to celebrate his feast in 1515, and the permission was later extended to the Franciscan order.",
+      "In Noto, Sicily, the bishop celebrates a Pontifical Mass for the patron in the cathedral on February 19, and late-summer festivities carry the ark holding his relics through the city and, in some years, out to his hermitage.",
+      "Make an honest examination of conscience and go to Confession, especially for a wrong you have been tempted to let someone else carry.",
+      "Repair a harm you have caused, even a small one, by paying back, replacing or apologizing.",
+      "Give to a soup kitchen or food bank, in the spirit of Noto's Mensa dei poveri di San Corrado, which the diocese connects with imitating his charity."
+    ],
+    "places": [
+      {
+        "name": "Sanctuary of San Corrado Fuori le Mura (his hermitage and grottoes), Diocese of Noto",
+        "city": "Noto, Italy",
+        "url": "https://www.diocesinoto.it/vicariati-e-parrocchie/parrocchie-del-vicariato-di-noto/san-corrado-fuori-le-mura/"
+      }
+    ],
+    "confirmationNote": "Conrad suits a confirmand who loves the outdoors, has made a serious mistake, or wants to be someone who takes responsibility. He did not let an innocent person suffer for his carelessness; he confessed, paid the cost and let that turning point lead him to God. Confirmation strengthens Christians to witness to the truth, and Conrad shows that honesty about our own faults is part of that witness.",
+    "reflectionPrompts": [
+      "Is there a mistake I have let someone else take the blame for, or that I have never admitted?",
+      "This week, identify one harm you have caused and take a concrete step to repair it.",
+      "Read the Catholic Encyclopedia article on St. Conrad of Piacenza, then read the story of Zacchaeus in Luke 19:1–10 (Douay-Rheims) and compare the two conversions."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "Conrad lived as a hermit under the Rule of Francis's Third Order",
+        "historical": true
+      },
+      {
+        "slug": "clare-of-assisi",
+        "reason": "Conrad's wife entered Clare's order, the Poor Clares, when he became a hermit",
+        "historical": true
+      },
+      {
+        "slug": "margaret-of-cortona",
+        "reason": "Fellow Italian Franciscan tertiary whose penance followed a dramatic conversion",
+        "historical": true
+      },
+      {
+        "slug": "hubert",
+        "reason": "Another saint invoked as patron of hunters",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1908): St. Conrad of Piacenza",
+        "url": "https://www.newadvent.org/cathen/04260b.htm"
+      },
+      {
+        "title": "Catholic Culture: February 19 (St. Conrad of Piacenza, Roman Martyrology commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-02-19"
+      },
+      {
+        "title": "Franciscan Media: Saint Conrad of Piacenza",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-conrad-of-piacenza/"
+      },
+      {
+        "title": "Diocesi di Noto: La Chiesa di Noto festeggia San Corrado (February 2025)",
+        "url": "https://www.diocesinoto.it/la-chiesa-di-noto-festeggia-san-corrado-e-riabbraccia-il-vescovo-crociata/"
+      },
+      {
+        "title": "Diocesi di Noto: Noto in festa per San Corrado (September 2026)",
+        "url": "https://www.diocesinoto.it/noto-in-festa-per-san-corrado-laccorato-appello-di-mons-rumeo-sul-senso-della-strada-e-della-vita/"
+      },
+      {
+        "title": "Diocesi di Noto: Inaugurato il nuovo percorso dell'Eremo di San Corrado (2016)",
+        "url": "https://www.diocesinoto.it/noto-inaugurato-il-nuovo-percorso-delleremo-di-san-corrado/"
+      },
+      {
+        "title": "Diocesi di Noto: San Corrado Fuori le Mura",
+        "url": "https://www.diocesinoto.it/vicariati-e-parrocchie/parrocchie-del-vicariato-di-noto/san-corrado-fuori-le-mura/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Proverbs 28",
+        "url": "https://www.drbo.org/chapter/22028.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Luke 19",
+        "url": "https://www.drbo.org/chapter/49019.htm"
+      }
+    ],
+    "flags": [
+      "patronages: 'hunters' is from Catholic Culture's list (against hernias; hunters; Cacciatori, Calendasco, the city and diocese of Noto). Hernia sufferers (also in the Catholic Encyclopedia), Noto and the other places have no live topic. The Diocese of Noto calls him 'nostro Santo Patrono'. Review lists none.",
+      "symbols: all four come from Catholic Culture's 'Symbols and Representation' list; the meanings are explanatory, and the birds and animals are labeled as devotional imagery because no reputable source ties them to a documented event.",
+      "quotes: he left no writings; only Douay-Rheims verses are used (checked on drbo.org).",
+      "feastCustoms: the Noto details come from diocesan news of 2025 and 2026; the route and dates of the ark's journeys change from year to year, so none are given. The rank of February 19 in Franciscan calendars was not verified.",
+      "places: the Noto diocesan page for the Santuario San Corrado Fuori le Mura loads but has little text; his relics are in Noto Cathedral (per Catholic Culture and the diocese), which has no dedicated official page I could verify.",
+      "relatedSaints: Margaret of Cortona is linked by order and pattern of life, not by any personal contact.",
+      "biography: no disagreement with the review. Franciscan Media says he was 'canonized in 1625', whereas the Catholic Encyclopedia says he was never formally canonized (Leo X 1515 for Noto; Urban VIII extended it to the Franciscan order); the Diocese of Noto's 2025 article speaks of the 510th anniversary of the 'beatification' and 400 years of the cult in Franciscan churches, matching the review. Catholic Culture gives 1290 as his birth year, which the review leaves uncertain. Franciscan Media names his wife Euphrosyne and says 36 years in Sicily; the Catholic Encyclopedia says thirty."
+    ]
+  },
+  "cosmas": {
+    "templateVersion": 2,
+    "heroSummary": "St. Cosmas is honored with St. Damian as one of the \"unmercenary\" physicians, healers remembered for treating the sick without asking payment. Tradition calls them twin brothers martyred in the Roman persecutions. Their names appear in the Roman Canon of the Mass, and the Church remembers them together on September 26.",
+    "searchDescription": "St. Cosmas, honored with St. Damian on September 26, is remembered as a martyr physician who treated the sick freely, without asking for payment.",
+    "symbols": [
+      {
+        "symbol": "Jar or box of ointment",
+        "meaning": "The medicines they offered to the sick; art often shows each brother holding a pot, vase or small casket of remedies."
+      },
+      {
+        "symbol": "Surgical instruments, such as a lancet",
+        "meaning": "Their work as physicians and surgeons, the reason doctors have long claimed them as patrons."
+      },
+      {
+        "symbol": "Rod of Asclepius (staff with a serpent)",
+        "meaning": "An ancient sign of medicine, placed with them to mark their profession."
+      },
+      {
+        "symbol": "Arrows",
+        "meaning": "From the Golden Legend's account, which tradition holds, that arrows shot at them turned back on the archers; this is legend rather than documented history."
+      },
+      {
+        "symbol": "Sword",
+        "meaning": "The beheading by which tradition says their martyrdom finally ended."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Cosmas and St. Damian when illness touches their lives or the lives of those they love. Very little about them can be known for certain, but the memory the Church kept is clear: they were healers who gave their skill freely, caring for the soul as well as the body. Tradition holds that they were twin brothers who died as martyrs, and devotion to them spread from the East to Rome and southern Italy. Doctors, nurses, pharmacists and caregivers find in them a reminder that healing work can be an act of love, and patients find two friends who understand suffering.",
+    "quotes": [
+      {
+        "text": "Heal the sick, raise the dead, cleanse the lepers, cast out devils: freely have you received, freely give.",
+        "work": "Matthew 10:8",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Honour the physician for the need thou hast of him: for the most High hath created him.",
+        "work": "Ecclesiasticus (Sirach) 38:1",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, Divine Physician, you healed the sick and sent your disciples to heal freely. Through the prayers of St. Cosmas and St. Damian, comfort all who are ill today, especially those I name before you now. Give wisdom, steady hands and patient hearts to doctors, nurses, pharmacists and everyone who cares for the sick. Help me to share the gifts you have given me without counting the cost, and to see you in every person who suffers. Heal what is wounded in body and soul, and keep us united in your love. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The Roman Missal has a proper collect for their optional memorial on September 26, which can be prayed from the Missal or a daily missal."
+    },
+    "feastCustoms": [
+      "Attend Mass on September 26, the optional memorial of Sts. Cosmas and Damian, Martyrs, in the General Roman Calendar; listen for their names among the martyrs in the Roman Canon (Eucharistic Prayer I).",
+      "Pray for doctors, nurses, pharmacists and caregivers, and thank one who has cared for you or your family.",
+      "Offer a skill or service for free this week, in the spirit of the \"physicians without silver.\"",
+      "Visit or call someone who is sick, or bring a meal to a family dealing with illness.",
+      "Many Italian and Italian-American communities, especially those with roots in Apulia, keep their feast with processions and festivals; Catholic Culture notes one held in Cambridge, Massachusetts, since 1926."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Sts. Cosmas and Damian (Turismo Roma)",
+        "city": "Rome, Italy",
+        "url": "https://www.turismoroma.it/en/places/basilica-ss-cosma-and-damiano"
+      }
+    ],
+    "confirmationNote": "Cosmas suits a confirmand drawn to medicine, nursing or any work of caring for others. He and Damian are remembered for treating the sick freely and caring for the whole person, body and soul. Though the details of their story are legendary, the Church has named them in the Roman Canon for centuries. They show that a gift or a profession can become a generous witness to Christ.",
+    "reflectionPrompts": [
+      "What gift or skill has God given me that I could share without expecting anything back?",
+      "This week, reach out to one person who is sick or caring for someone who is, and ask how you can help.",
+      "Read Matthew 10:1–15, where Jesus sends out the Twelve to heal, and note what he tells them about payment."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "crispin",
+        "reason": "Another pair of martyr brothers whose tradition places their deaths in Diocletian's persecution",
+        "historical": true
+      },
+      {
+        "slug": "pantaleon",
+        "reason": "Fellow physician-martyr of the Diocletian persecution, also honored for healing",
+        "historical": false
+      },
+      {
+        "slug": "luke-the-evangelist",
+        "reason": "Called \"the most dear physician\" in Colossians 4:14",
+        "historical": false
+      },
+      {
+        "slug": "lawrence",
+        "reason": "Named beside them among the martyrs of the Roman Canon",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News (Spanish): Santos Cosme y Damián, mártires (September 26)",
+        "url": "https://www.vaticannews.va/es/santos/09/26/ss--cosme-y-damian--martires.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, September 26 (Opt. Mem. of Sts. Cosmas and Damian)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-09-26"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Pontifical North American College: Station Churches, Santi Cosma e Damiano",
+        "url": "https://www.pnac.org/station-churches/week-3/thursday-santi-cosma-e-damiano/"
+      },
+      {
+        "title": "Turismo Roma: Basilica of SS. Cosma and Damiano",
+        "url": "https://www.turismoroma.it/en/places/basilica-ss-cosma-and-damiano"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, September 2026",
+        "url": "https://www.liturgyoffice.org/Calendar/2026/Sep.shtml"
+      },
+      {
+        "title": "Catholic Encyclopedia (1911): St. Pantaleon",
+        "url": "https://www.newadvent.org/cathen/11447a.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Ecclesiasticus 38",
+        "url": "https://www.drbo.org/chapter/26038.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. Catholic Culture lists physicians, doctors, surgeons, pharmacists, druggists, chemists, barbers, hairdressers and midwives, and invocation for the blind and against plague; these are sourced but have no live topic (no physicians, pharmacists or barbers topic exists). 'hospitals' was not used because no source names that patronage.",
+      "relatedSaints: no standalone 'damian' page exists in _published-saints.json (only damian-nam-myong-hyok and peter-damian, who are unrelated), so Damian appears only in the text.",
+      "symbols: ointment jar, surgical instruments, rod of Asclepius, arrows and sword all appear in Catholic Culture's 'Symbols and Representation' list and in Husenbeth's Emblems of Saints. The arrows come from the Golden Legend martyrdom story (summarized by Vatican News) and are labeled as legend.",
+      "quotes: no writings of the saints survive; two Douay-Rheims verses fetched from drbo.org are used instead.",
+      "prayer: no traditional prayer with a verifiable source was used; the Missal collect could only be partly quoted, so an original prayer is given with a note.",
+      "places: Turismo Roma is the City of Rome's official tourism site, not the basilica's own; no official basilica website was found (the church is served by Franciscans of the Third Order Regular). The PNAC station-church page is used as a source and confirms Felix IV's dedication about 530 and the surviving apse mosaic.",
+      "feastCustoms: the Cambridge, Massachusetts festival is reported by Catholic Culture; no date or time is given so the item does not go stale.",
+      "biography: no conflict with the reviewed text. Note that the reviewed 'dates' say 'traditionally third century', while Catholic Culture ties their death to Diocletian's persecution and the PNAC page says early fourth century; Vatican News says third century. A human may wish to soften 'dates' to 'third or early fourth century'. Catholic Culture also says the Eastern nickname means 'moneyless ones'; the reviewed text's 'physicians without silver' matches Vatican News."
+    ]
+  },
+  "crispin": {
+    "templateVersion": 2,
+    "heroSummary": "St. Crispin, honored with St. Crispinian, is the patron saint of shoemakers. Tradition says the two were missionaries in Roman Gaul who made shoes to support themselves and help the poor, and who died as martyrs at Soissons. The Roman Martyrology remembers them on October 25.",
+    "searchDescription": "St. Crispin, honored with Crispinian on October 25, is the martyr of Soissons whom tradition remembers as a shoemaker and patron of shoemakers.",
+    "patronages": [
+      "shoemakers"
+    ],
+    "symbols": [
+      {
+        "symbol": "Shoe",
+        "meaning": "The trade by which, tradition holds, the brothers earned their living and helped the poor."
+      },
+      {
+        "symbol": "Shoemaker's last",
+        "meaning": "The wooden foot-shaped form a cobbler builds a shoe around, marking them as working craftsmen."
+      },
+      {
+        "symbol": "Awl and knife, often crossed",
+        "meaning": "The shoemaker's tools; in the legend of their passion, awls were also used to torture them."
+      },
+      {
+        "symbol": "Millstone",
+        "meaning": "From the legend that they were thrown into the river Aisne with millstones tied to their necks and swam safely to the far bank."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Crispin because he honors ordinary work. The story the Church has handed down is largely legend, but its heart is simple: two Christians who preached the Gospel and paid their own way with their hands, giving what they earned to the poor. Shoemakers, leather workers and other craftspeople have long seen their own daily labor reflected in his. He reminds anyone who works with tools, at a bench or on a shop floor that skilled, honest work can be offered to God and shared with those in need. Tradition holds that he gave his life for Christ rather than deny him.",
+    "quotes": [
+      {
+        "text": "You yourselves know: for such things as were needful for me and them that are with me, these hands have furnished. I have shewed you all things, how that so labouring you ought to support the weak...",
+        "work": "Acts 20:34–35",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And that you use your endeavour to be quiet, and that you do your own business, and work with your own hands, as we commanded you...",
+        "work": "1 Thessalonians 4:11",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you call us to serve you in the work of our hands. Through the prayers of St. Crispin and St. Crispinian, bless shoemakers, craftspeople and all who work with tools. Help me to do my daily work honestly and well, to offer it to you, and to share what I earn with people in need. When faith costs me something, give me the courage of the martyrs. Guide my steps along the path of your Son, and bring me safely home to you. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "October 25 is their day in the Roman Martyrology; they are not on the General Roman Calendar, so remember them in personal prayer and offer that day's work for the intentions of working people.",
+      "Pray for shoemakers, cobblers, leather workers and craftspeople, and thank someone whose skilled work you rely on.",
+      "Donate good shoes to a shelter or charity, remembering the tradition that they gave their earnings to the poor.",
+      "Bake a fruit crisp or cobbler, a playful family custom Catholic Culture suggests because of their name and trade.",
+      "Read Acts 20:33–35 together and talk about how ordinary work can support the weak."
+    ],
+    "confirmationNote": "Crispin suits a confirmand who loves making things or working with their hands, or who hopes to learn a trade. Tradition remembers him as a missionary who paid his own way as a shoemaker and gave his earnings to the poor. Much of his story is legend, but the Church has long honored him as a martyr. He shows that faithful work and generosity can themselves preach the Gospel.",
+    "reflectionPrompts": [
+      "How could I offer my everyday work or schoolwork to God instead of just getting it done?",
+      "This week, give away a pair of good shoes or something you have made to someone who needs it.",
+      "Read the Catholic Encyclopedia article on Sts. Crispin and Crispinian and list which details it treats as history and which as legend."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "cosmas",
+        "reason": "Another pair of martyr brothers whose tradition places their deaths in Diocletian's persecution",
+        "historical": true
+      },
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Tradition says they worked with their hands in imitation of Paul the tentmaker",
+        "historical": false
+      },
+      {
+        "slug": "joseph",
+        "reason": "Patron of workers and a craftsman himself",
+        "historical": false
+      },
+      {
+        "slug": "isidore-the-farmer",
+        "reason": "Another saint honored for holiness in daily manual labor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1908): Sts. Crispin and Crispinian",
+        "url": "https://www.newadvent.org/cathen/04491a.htm"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, October 25 (Sts. Crispin and Crispinian, Roman Martyrology)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2024-10-25"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Douay-Rheims Bible: Acts 20",
+        "url": "https://www.drbo.org/chapter/51020.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: 1 Thessalonians 4",
+        "url": "https://www.drbo.org/chapter/59004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: shoemakers is supported by the Catholic Encyclopedia ('shoemakers, saddlers, and tanners') and Catholic Culture ('cobblers'). Saddlers, tanners, leather workers, glove makers, lace makers and weavers are sourced but have no live topic.",
+      "symbols: shoe, last, awl and knife (Catholic Culture: 'awl and knife saltire') and millstones are all in Catholic Culture's list; Husenbeth adds shoemakers' tools and the millstone scene. Only four were used; the rack and flaying knives (torture scenes) were left out.",
+      "quotes: the Catholic Encyclopedia gives a speech to Maximian from the legendary passion, but it is not the saints' own writing and is of doubtful historical worth, so it was not used; two Douay-Rheims verses on working with one's hands are given instead.",
+      "prayer: no traditional prayer with a verifiable source was found; original prayer given.",
+      "places: none listed. The Osnabrück cathedral treasury holds their medieval shrines and Soissons is their traditional place of martyrdom, but no official page tied to the saints was verified (the cathedral's own history and museum pages do not mention them).",
+      "relatedSaints: the cosmas link is marked historical as a shared-era tradition (both pairs placed in the Diocletian-Maximian persecution); there is no standalone page for Crispinian.",
+      "feastCustoms: the Shakespeare / Agincourt association was deliberately left out as cultural reception, as the reviewed biography advises.",
+      "biography: no conflict. Catholic Culture calls them 'twin brothers' and dates their mission to the mid-third century; the Catholic Encyclopedia says their being brothers 'has not been positively proved' and gives 285 or 286. The reviewed text's cautious wording ('later tradition makes the two brothers') is consistent with the Catholic Encyclopedia and was kept."
+    ]
+  },
+  "cuthbert-of-lindisfarne": {
+    "templateVersion": 2,
+    "heroSummary": "St. Cuthbert of Lindisfarne was a Northumbrian shepherd boy who became a monk of Melrose, prior and later bishop of Lindisfarne, and a hermit on the Farne Islands. Bede wrote his Life. He died in 687, and his shrine at Durham became the great center of devotion in northern England. He is patron of the Diocese of Hexham and Newcastle.",
+    "searchDescription": "St. Cuthbert of Lindisfarne (about 635–687), feast March 20: monk of Melrose, hermit of Farne and bishop of Lindisfarne, whose shrine is at Durham.",
+    "symbols": [
+      {
+        "symbol": "Crowned head of St. Oswald held in his hands",
+        "meaning": "The relic of the martyr-king Oswald, which was placed in Cuthbert's coffin for safekeeping and found with his body when it was moved to Durham in 1104."
+      },
+      {
+        "symbol": "Otters at his feet",
+        "meaning": "Bede's story that after Cuthbert spent a night praying in the sea, two otters came out of the water and warmed and dried his feet."
+      },
+      {
+        "symbol": "Table with three loaves and an angel",
+        "meaning": "Bede's account that while he was guest-master at Ripon he welcomed a traveler who turned out to be an angel and left behind three loaves of heavenly bread."
+      },
+      {
+        "symbol": "Sea birds beside him",
+        "meaning": "His years among the wildlife of the Farne Islands; Bede tells how birds left his barley at his word, and eider ducks there are still called \"Cuthbert ducks.\""
+      }
+    ],
+    "whyWeTurn": "People turn to St. Cuthbert when they feel pulled between the people who need them and their longing for quiet with God. He loved solitude, yet Bede says he walked to remote hill villages to preach and hear confessions, sometimes staying away for weeks. He welcomed strangers as if they were Christ, accepted the decisions of the Synod of Whitby for the sake of unity, and became a bishop only with tears. Tradition holds that many were healed at his tomb. Pastors, hosts, people who love nature and anyone torn between action and prayer find in him a steady, gentle companion.",
+    "quotes": [
+      {
+        "text": "Have peace... and Divine charity ever amongst you: and when you are called upon to deliberate on your condition, see that you be unanimous in council.",
+        "work": "Bede, Life of St. Cuthbert, chapter 39 (Cuthbert's last words to his monks, as reported by the priest Herefrith)",
+        "translation": "J. A. Giles, in Ecclesiastical History of the English Nation, Everyman's Library 479 (London: J. M. Dent, 1910; public domain)"
+      },
+      {
+        "text": "...do not despise others who belong to the faith and come to you for hospitality, but admit them familiarly and kindly...",
+        "work": "Bede, Life of St. Cuthbert, chapter 39 (Cuthbert's last words to his monks)",
+        "translation": "J. A. Giles, in Ecclesiastical History of the English Nation, Everyman's Library 479 (London: J. M. Dent, 1910; public domain)"
+      },
+      {
+        "text": "He first showed in his own life what he taught others to do, a practice which greatly strengthens all teaching...",
+        "work": "Bede, Ecclesiastical History of England, Book IV, chapter 28 (Bede writing about Cuthbert)",
+        "translation": "A. M. Sellar, revised translation (London: George Bell and Sons, 1907; public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Cuthbert from the hillsides of Northumbria to serve you as monk, hermit and bishop. Through his prayers, teach me to love silence with you and still to go gladly to those who need me. Help me to welcome every guest as if I were welcoming you, to seek peace and charity in my family and community, and to accept correction for the sake of unity. Bless all who care for creation and all who serve your people as pastors. Keep me faithful to the end, as he was. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In the Diocese of Hexham and Newcastle, which he serves as patron, his feast is kept on March 20, the day of his death; elsewhere in England, September 4 (the arrival of his relics at Durham) is his optional memorial. He is not on the General Roman Calendar, so remember him in personal prayer.",
+      "Read Bede's Life of St. Cuthbert, chapter 7 (the angel guest) or chapter 39 (his last words), or Bede's History, Book IV, chapters 27–29.",
+      "Welcome a guest or stranger with real care this week, remembering Cuthbert the guest-master at Ripon.",
+      "Spend some time praying outdoors in silence, by the sea or in a quiet place, thanking God for his creatures.",
+      "If you visit north-east England, pray at his shrine in Durham Cathedral or cross to Holy Island (Lindisfarne), checking the tide times for the causeway before you go."
+    ],
+    "places": [
+      {
+        "name": "Shrine of St. Cuthbert, Durham Cathedral",
+        "city": "Durham, England",
+        "url": "https://www.durhamcathedral.co.uk/explore/the-cathedral-building-and-grounds/the-shrine-of-st-cuthbert"
+      },
+      {
+        "name": "Lindisfarne Priory (English Heritage)",
+        "city": "Holy Island, England",
+        "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+      }
+    ],
+    "confirmationNote": "Cuthbert suits a confirmand who loves quiet, the outdoors or animals, and also one who feels called to serve others. Bede shows him praying through the night, then walking to faraway villages to bring people back to God. He welcomed strangers kindly and chose unity over his own preferences. Confirmation sends Christians out as witnesses, and Cuthbert shows how prayer and service can grow together in one life.",
+    "reflectionPrompts": [
+      "Where do I need more silence with God, and who in my life needs more of my time?",
+      "This week, offer real hospitality to someone: a meal, a visit, or simply your full attention.",
+      "Read Bede's Ecclesiastical History, Book IV, chapter 27, in A. M. Sellar's public-domain translation, and list the ways Cuthbert reached people others avoided."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "aidan",
+        "reason": "Bede says Cuthbert saw Aidan's soul carried to heaven the night he died, and became a monk",
+        "historical": true
+      },
+      {
+        "slug": "bede-the-venerable",
+        "reason": "Wrote Cuthbert's Life in verse and prose; their relics later lay together at Durham",
+        "historical": true
+      },
+      {
+        "slug": "oswald-of-northumbria",
+        "reason": "The martyr-king whose head was kept in Cuthbert's coffin, giving him his emblem",
+        "historical": true
+      },
+      {
+        "slug": "hilda-of-whitby",
+        "reason": "Hosted the Synod of Whitby, whose decision Cuthbert brought to Lindisfarne",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bede, Life of St. Cuthbert, trans. J. A. Giles (Everyman, 1910), Fordham Internet Medieval Sourcebook",
+        "url": "https://sourcebooks.fordham.edu/basis/bede-cuthbert.asp"
+      },
+      {
+        "title": "Bede's Ecclesiastical History of England, trans. A. M. Sellar (1907), Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/38326"
+      },
+      {
+        "title": "Catholic Encyclopedia (1908): St. Cuthbert",
+        "url": "https://www.newadvent.org/cathen/04578a.htm"
+      },
+      {
+        "title": "Diocese of Hexham and Newcastle: Diocesan Patrons",
+        "url": "https://diocesehn.org.uk/the-diocese/about-us/diocesan-patrons/"
+      },
+      {
+        "title": "Diocese of Hexham and Newcastle: The Feast of St Cuthbert",
+        "url": "https://diocesehn.org.uk/?p=6462"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, September 2026",
+        "url": "https://www.liturgyoffice.org/Calendar/2026/Sep.shtml"
+      },
+      {
+        "title": "Durham Cathedral: The Shrine of St Cuthbert",
+        "url": "https://www.durhamcathedral.co.uk/explore/the-cathedral-building-and-grounds/the-shrine-of-st-cuthbert"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "English Heritage: Lindisfarne Priory",
+        "url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+      }
+    ],
+    "flags": [
+      "patronages: Durham and the Diocese of Hexham and Newcastle (reviewed patron_of; confirmed by the Catholic Encyclopedia and the diocese) are sourced but have no live topic. Northumbria, shepherds and sailors appear only on popular sites and were not used.",
+      "symbols: Oswald's head (Catholic Encyclopedia; Durham Cathedral's medieval statue), otters, three loaves with an angel, and swans/birds are all in Husenbeth's Emblems of Saints. The bird symbol's meaning combines Bede's Life ch. 19 (birds leave his barley) with the Catholic Encyclopedia's mention of 'Cuthbert ducks'; the popular story that he protected the eider ducks is later tradition and was not stated.",
+      "quotes: verified against the Giles text on the Fordham Sourcebook (Everyman 1910 edition) and Sellar 1907 on Project Gutenberg. In quote 1, the words 'said he,' were cut and marked with an ellipsis. Quotes 1–2 are Cuthbert's words as reported by Herefrith in Bede's Life; quote 3 is Bede about Cuthbert. Giles's version spells Alchfrid as 'King Alfred' in ch. 7; it was not quoted.",
+      "prayer: no traditional Catholic prayer to St. Cuthbert with a verifiable source was found; the diocese's pages contain no prayer text. Original prayer given.",
+      "places: Durham Cathedral (now Church of England) is the official page for his shrine; Lindisfarne Priory (English Heritage, secular) marks the monastery where he was prior, bishop and first buried. The National Trust Farne Islands page blocks automated checks and was not listed.",
+      "feastCustoms: the England & Wales 2026 calendar lists 'St Cuthbert, Bishop (E)' as optional on September 4; the Diocese of Hexham and Newcastle keeps March 20. March 20 often falls in Lent, so its observance varies by year; no rank was stated.",
+      "relatedSaints: the Aidan link rests on Bede's Life ch. 4 and the Catholic Encyclopedia; the Oswald link on the Catholic Encyclopedia's explanation of the emblem; the Hilda link on the Synod of Whitby (664), held at her abbey per Bede's History III.25.",
+      "biography: no conflict with the reviewed text. The site's feast (March 20) is correct for his death and for Hexham and Newcastle, but the national calendar of England and Wales uses September 4; a human may wish to add a feast_note. Sources differ on when Durham's shrine was despoiled (Durham Cathedral: 1539; Catholic Encyclopedia: 1542), and the Catholic Encyclopedia records doubts about whether the body found in 1827 is his; neither point is used in this layer."
+    ]
+  },
   "edith-stein": {
     "templateVersion": 2,
     "heroSummary": "St. Teresa Benedicta of the Cross, born Edith Stein, is a patron of Europe, one of three women John Paul II named co-patronesses of the continent in 1999. A Jewish-born philosopher who became a Catholic and a Discalced Carmelite nun, she was murdered at Auschwitz in 1942. Catholics remember her on August 9.",
