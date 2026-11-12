@@ -13166,6 +13166,985 @@
       "biography: sources give conflicting dates the review rightly avoids. Catholic Culture says he was born in Italy, sent about 250 and beheaded about 258; the Catholic Encyclopedia gives about 275; the basilica's site says he died about 250. No change suggested."
     ]
   },
+  "devasahayam-pillai": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Lazarus Devasahayam (1712–1752) is the patron of the laity in India, proclaimed by the Indian bishops in 2026. A married official at the court of Travancore, he was baptized in 1745, refused to give up Christ or to honor caste barriers, and was shot in 1752. Pope Francis canonized him in 2022.",
+    "searchDescription": "St. Lazarus Devasahayam (1712–1752), married layman of Travancore and martyr, canonized in 2022. Patron of India's laity. Feast: January 14.",
+    "whyWeTurn": "People turn to St. Devasahayam when faith costs them something at work, in public life or within their family. He was a married man with a respected post at court. He came to Christ while grieving, after a friend shared the story of Job with him, and he treated people of every caste as equals. For that he lost his position and his freedom and spent about three years in chains before he was shot. Lay Catholics in India now honor him as their patron. Praying with him is a way of asking for courage to live the faith right where we are.",
+    "quotes": [
+      {
+        "text": "The Lord gave, and the Lord hath taken away: as it hath pleased the Lord so is it done: blessed be the name of the Lord.",
+        "work": "Job 1:21 (excerpt)",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Although he should kill me, I will trust in him.",
+        "work": "Job 13:15 (excerpt)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called Saint Lazarus Devasahayam to follow your Son in his marriage, in his work and in the court of a king. Through his prayers, give me courage to be faithful where I live and work, even when it costs me. Help me to see every person as your child, beyond caste, class or rank. Comfort all who suffer for their faith, and strengthen the lay people of India and of the whole Church to bear witness to Christ with patience and joy. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on January 14, the anniversary of his martyrdom, which is kept as his feast in India, especially in the Diocese of Kottar.",
+      "If you are in Tamil Nadu, pray at his tomb in the sanctuary of St. Francis Xavier's Cathedral, Kottar, or at Devasahayam Mount near Aralvaimozhy, where he was shot.",
+      "Read the Book of Job, whose story helped draw him to Christ, and pray it alongside someone going through a time of loss.",
+      "Pray for lay Catholics who carry their faith into government, business and public service.",
+      "Follow his example by reaching across a social divide: share a meal or work alongside someone your circle tends to overlook."
+    ],
+    "places": [
+      {
+        "name": "St. Francis Xavier's Cathedral (tomb of St. Devasahayam)",
+        "city": "Kottar, Nagercoil, India",
+        "url": "https://www.kottardiocese.org/cathedral/"
+      },
+      {
+        "name": "Shrine of Our Lady of Sorrows, Devasahayam Mount",
+        "city": "Aralvaimozhy, India",
+        "url": "https://www.kottardiocese.org/places-connected-with-martyr/"
+      }
+    ],
+    "confirmationNote": "Devasahayam suits a confirmand who expects to live the faith mostly in ordinary places: a job, a marriage, a community. He was neither priest nor religious, yet he refused to hide his baptism or to treat anyone as beneath him. Confirmation strengthens the baptized to witness to Christ in the world, and his life shows how that witness can shape everyday choices.",
+    "reflectionPrompts": [
+      "Where in your daily life would being openly Catholic cost you something, and what helps you stay faithful there?",
+      "Notice one way caste, class or status shapes how people are treated around you, and take one concrete step to treat someone as an equal.",
+      "Read Job 1–2 and Job 13:13–16, the story that consoled Devasahayam before his baptism, and note what Job trusts even in loss."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-xavier",
+        "reason": "His tomb lies in Kottar's church of St. Francis Xavier, who preached on that coast",
+        "historical": true
+      },
+      {
+        "slug": "john-de-brito",
+        "reason": "Jesuit martyr in the Tamil country two generations earlier",
+        "historical": true
+      },
+      {
+        "slug": "thomas-more",
+        "reason": "Another married royal official martyred for refusing his king",
+        "historical": false
+      },
+      {
+        "slug": "alphonsa-of-the-immaculate-conception",
+        "reason": "Fellow canonized saint of southern India",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dicastery for the Causes of Saints: Lazzaro detto Devasahayam",
+        "url": "https://www.causesanti.va/it/santi-e-beati/devasahayam-pillai.html"
+      },
+      {
+        "title": "Dicastery for the Causes of Saints: Lazzaro Devasahayam patrono dei laici indiani (2026)",
+        "url": "https://www.causesanti.va/it/notizie/notizie-2026/lazzaro-devasahayam-patrono-laici-indiani.html"
+      },
+      {
+        "title": "Benedict XVI: Apostolic letter of beatification (2012)",
+        "url": "https://www.vatican.va/content/benedict-xvi/la/apost_letters/documents/hf_ben-xvi_apl_20121202_beato-devasahayam-pillai.html"
+      },
+      {
+        "title": "Pope Francis: Homily and canonization of May 15, 2022",
+        "url": "https://www.vatican.va/content/francesco/en/homilies/2022/documents/20220515-omelia-canonizzazione.html"
+      },
+      {
+        "title": "Diocese of Kottar: History",
+        "url": "https://www.kottardiocese.org/history/"
+      },
+      {
+        "title": "Diocese of Kottar: St. Francis Xavier's Cathedral",
+        "url": "https://www.kottardiocese.org/cathedral/"
+      },
+      {
+        "title": "Diocese of Kottar: Places Connected with the Martyr",
+        "url": "https://www.kottardiocese.org/places-connected-with-martyr/"
+      },
+      {
+        "title": "Diocese of Kottar: Shrines",
+        "url": "https://www.kottardiocese.org/shrines/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Job 1",
+        "url": "https://www.drbo.org/chapter/20001.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Job 13",
+        "url": "https://www.drbo.org/chapter/20013.htm"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. He was canonized only in 2022 and no reputable Catholic source found lists established iconographic attributes (images commonly show him bound or in chains, but that is drawn from individual images, not a stated tradition)",
+      "patronages: 'Catholic laity of India' (patron of the laity in India) is sourced by the Dicastery for the Causes of Saints and the Diocese of Kottar but has no live topic. The Kottar history page dates the CBCI proclamation to January 14, 2026 at Devasahayam Mount; its October 2025 newsletter says Pope Leo XIV approved the patronage",
+      "heroSummary/feastCustoms: the Dicastery gives January 14, the day of his death, as his feast; I did not find a source on whether it is on India's national liturgical calendar or local only (the review says 'local commemoration'), so feastCustoms says 'in India, especially in the Diocese of Kottar'; a human may want to tighten this",
+      "places: Devasahayam Mount uses the diocese's 'Places connected with the martyr' page because the shrines page (which records the Our Lady of Sorrows church there being declared a shrine on December 28, 2025) covers several shrines; the martyrdom site is called Kattadimalai near Aralvaimozhy by the diocese",
+      "quotes: Job is included because the Dicastery and the reviewed biography say De Lannoy consoled him with the story of Job; no public-domain text of Devasahayam's own words was found. His reported last words were not used",
+      "prayer: original; no traditional prayer from an official shrine page was found",
+      "relatedSaints: John de Brito's Tamil-country mission (martyred 1693) is from general knowledge and his published dates; a human may want to confirm the reason against his page",
+      "biography: no disagreement. The Dicastery adds detail not in the review: birth at Nattalam on April 23, 1712; baptism May 14, 1745; arrest February 23, 1749; wife baptized as Gnanappoo (Teresa); beatified at Nagercoil December 2, 2012; first Indian layman canonized"
+    ]
+  },
+  "dismas": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Dismas, the Good Thief, is honored as a patron of prisoners and of the dying. Luke's Gospel tells how one of the men crucified beside Jesus admitted his guilt and asked to be remembered. Jesus promised him paradise that day. His name comes from later tradition, and March 25 is his traditional commemoration.",
+    "searchDescription": "St. Dismas is the traditional name of the repentant thief crucified beside Jesus, who promised him paradise (Luke 23). Commemorated March 25.",
+    "patronages": [
+      "prisoners"
+    ],
+    "whyWeTurn": "People turn to the Good Thief because his story leaves no one out. Luke tells us nothing about his past except that he deserved his sentence, and he says so himself. He makes no excuses and offers no achievements. He simply asks Jesus to remember him, and Jesus answers with a promise of paradise that very day. That is why tradition holds him up as a friend of prisoners, of the dying and of anyone who thinks it is too late to come back to God. Praying with him is a way of trusting Christ's mercy at any hour.",
+    "quotes": [
+      {
+        "text": "But the other answering, rebuked him, saying: Neither dost thou fear God, seeing thou art condemned under the same condemnation? And we indeed justly, for we receive the due reward of our deeds; but this man hath done no evil.",
+        "work": "Luke 23:40–41",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "And he said to Jesus: Lord, remember me when thou shalt come into thy kingdom. And Jesus said to him: Amen I say to thee, this day thou shalt be with me in paradise.",
+        "work": "Luke 23:42–43",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, as you hung on the cross you heard the plea of the thief beside you and promised him paradise. Hear me too when I come to you with nothing to offer but my need. Give me honesty to admit my sins and trust to ask for your mercy. Through the prayers of the Good Thief, comfort those in prison and those who are dying, and stay close to anyone who feels beyond forgiveness. Remember me, Lord, when you come into your kingdom. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "note": "The closing line echoes Luke 23:42."
+    },
+    "feastCustoms": [
+      "On March 25 the Roman Martyrology commemorates the Good Thief. The same date is usually the Solemnity of the Annunciation, so there is no separate Mass of St. Dismas in the Roman calendar.",
+      "Listen for his words at Mass: Luke 23:35–43 is the Gospel for Christ the King in Year C, and Luke's Passion is read on Palm Sunday that year.",
+      "Pray for prisoners and those condemned to death, or support your diocese's prison ministry.",
+      "Pray for the dying, and make a good confession, asking like the Good Thief to be remembered by Jesus.",
+      "In Rome, the Basilica of Santa Croce in Gerusalemme keeps among its Passion relics a beam venerated as part of the Good Thief's cross."
+    ],
+    "confirmationNote": "Dismas suits a confirmand who knows they have made real mistakes and wants a fresh start. The Good Thief did not hide his guilt or bargain with Jesus; he told the truth and trusted Christ's mercy. Confirmation completes the grace of Baptism and gives strength to witness to Christ, and Dismas shows that such witness can begin with honest repentance at any moment of life.",
+    "reflectionPrompts": [
+      "Is there something in your life you think is too late to bring to Jesus? What would it mean to say, \"Remember me\"?",
+      "Pray this week for someone in prison or someone close to death, and look for a way your parish serves them.",
+      "Read Luke 23:32–49 slowly, and compare how each person near the cross responds to Jesus."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "mary-magdalene",
+        "reason": "Stood near the cross at the same crucifixion",
+        "historical": true
+      },
+      {
+        "slug": "joseph-of-arimathea",
+        "reason": "Asked for Jesus' body and buried him the day the Good Thief died",
+        "historical": true
+      },
+      {
+        "slug": "leonard-of-noblac",
+        "reason": "Another saint turned to as a patron of prisoners",
+        "historical": false
+      },
+      {
+        "slug": "mary-of-egypt",
+        "reason": "A tradition of dramatic repentance and God's mercy to sinners",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Douay-Rheims Bible: Luke 23",
+        "url": "https://www.drbo.org/chapter/49023.htm"
+      },
+      {
+        "title": "Vatican News (German): Hl. Dismas, der gute Dieb (March 25)",
+        "url": "https://www.vaticannews.va/de/tagesheiliger/03/25/hl--dismas--der-gute-dieb.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Year, March 25 (Roman Martyrology commemoration of St. Dismas)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-03-25"
+      },
+      {
+        "title": "Catholic Culture, Catholic Dictionary: Dismas",
+        "url": "https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=33118"
+      },
+      {
+        "title": "Catholic Culture, Catholic Dictionary: Good Thief",
+        "url": "https://www.catholicculture.org/culture/library/dictionary/index.cfm?id=33780"
+      },
+      {
+        "title": "The Catholic Sun (Diocese of Phoenix): St. Dismas",
+        "url": "https://www.catholicsun.org/2019/03/25/st-dismas/"
+      },
+      {
+        "title": "Vatican, Way of the Cross 2007: Eleventh Station, Jesus promises his Kingdom to the good thief",
+        "url": "https://www.vatican.va/news_services/liturgy/2007/via_crucis/en/station_11.html"
+      }
+    ],
+    "flags": [
+      "symbols: left empty, so templateVersion is 1.5. Art shows the Good Thief on a cross at Christ's right, sometimes bound rather than nailed, in a loincloth, or entering paradise and the Harrowing of Hell, but I found these only in Wikipedia, museum catalogues and art-history pieces, not in a Catholic source that lists established attributes",
+      "patronages: review lists none. 'prisoners' is supported by Vatican News (German saint page: prisoners and the dying) and the Diocese of Phoenix's Catholic Sun (funeral directors, prisoners, repentant thieves). Catholic Culture's dictionary makes him patron of those condemned to death. The dying, funeral directors and the condemned have no live topic",
+      "heroSummary/biography: the name Dismas (Vatican News: 'Disma') comes from the apocryphal fourth-century Gospel of Nicodemus, not from Scripture; Luke 23:39–43 is the only scriptural account. March 25 is described as a traditional commemoration (Roman Martyrology per Catholic Culture). The Catholic Sun says the date reflects the tradition that Jesus died on March 25; that was not repeated on the page",
+      "feastCustoms: the Christ the King (Year C, Luke 23:35–43) and Palm Sunday (Year C, Luke's Passion) readings are from the standard Lectionary cycle and were not re-fetched from USCCB in this pass; a human may want to confirm. The Santa Croce relic is stated by Catholic Culture's dictionary and by the basilica's own relics page ('Patibolo del Buon Ladrone', http://www.santacroceroma.it/it/features-2/reliquie.html, kept out of sources because it is http-only)",
+      "places: Santa Croce in Gerusalemme was not listed because its official site (santacroceroma.it) failed over https (TLS error) and loads only over http; no other official site tied to Dismas was found",
+      "prayer: original. No well-established traditional prayer to St. Dismas was verified from a reputable source",
+      "biography: no disagreement with the reviewed biography"
+    ]
+  },
+  "dominic": {
+    "templateVersion": 2,
+    "heroSummary": "St. Dominic de Guzmán (about 1170–1221) was a Spanish priest who founded the Order of Preachers, the Dominicans, joining a poor and simple life with serious study and preaching. He died in Bologna and was canonized in 1234. The Church keeps his memorial on August 8.",
+    "searchDescription": "St. Dominic de Guzmán founded the Order of Preachers, joining poverty, study and preaching. He died in Bologna in 1221. Memorial: August 8.",
+    "symbols": [
+      {
+        "symbol": "Star on or above his forehead",
+        "meaning": "A tradition recounted by the Dominican friars says his godmother saw a bright star on his brow at his baptism in Caleruega, a sign that he would bring light to others."
+      },
+      {
+        "symbol": "Dog carrying a lit torch",
+        "meaning": "A legend kept in the Breviary tells that before his birth his mother dreamed of a dog with a burning torch setting the world alight, an image of his fiery preaching. Dominicans also enjoy the pun Domini canes, \"the Lord's dogs.\""
+      },
+      {
+        "symbol": "Lily",
+        "meaning": "Purity; Dominican sources link it to the chastity his early companions remembered in him."
+      },
+      {
+        "symbol": "Book and staff",
+        "meaning": "The Gospel he preached and the road he walked as a travelling preacher. The Golden Legend tells of a vision in which Sts. Peter and Paul handed him a staff and a book and sent him out to preach."
+      },
+      {
+        "symbol": "Rosary",
+        "meaning": "The Dominicans' long promotion of the rosary. The story that Mary gave the rosary to Dominic is a tradition first written down in detail in the fifteenth century, and historians question it."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Dominic when they want their faith to be both thoughtful and generous. As a student in Palencia he sold his books to feed people during a famine. Later he chose to travel on foot and live poorly so that his preaching in southern France would be believed. He sent his friars to the universities, convinced that preachers must first study and pray. Those who knew him said he spoke either with God or about God. Asking his help is a way of learning to hand on to others what we have first received in prayer.",
+    "quotes": [
+      {
+        "text": "And going, preach, saying: The kingdom of heaven is at hand. Heal the sick, raise the dead, cleanse the lepers, cast out devils: freely have you received, freely give. Do not possess gold, nor silver, nor money in your purses.",
+        "work": "Matthew 10:7–9",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called Saint Dominic to preach your Son with a poor heart and a mind given to your truth. Through his prayers, teach me to study your word and to pray before I speak. Give me courage to share the faith with gentleness, and patience with those who disagree. Free me from attachments that make my witness hard to believe. Bless the Order of Preachers and all who teach in your name, and lead us, with Mary, to contemplate the mysteries of Christ. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Attend Mass on August 8, the memorial of St. Dominic, Priest, in the Roman calendar (calendars before 1969 kept his feast on August 4).",
+      "Pray the rosary, the Marian devotion that Dominic's spiritual sons have spread for centuries, perhaps with a parish or Lay Dominican group.",
+      "Practise the Dominican motto contemplata aliis tradere, \"to hand on to others what has been contemplated\": read a short passage of Scripture and share one thing you learned from it.",
+      "Remember that Dominic sold his books to feed the hungry by giving to a food pantry or famine relief.",
+      "In Bologna, pilgrims can pray at his tomb in the Basilica of San Domenico, where he died in 1221."
+    ],
+    "places": [
+      {
+        "name": "Basilica and Convent of San Domenico",
+        "city": "Bologna, Italy",
+        "url": "https://sandomenicobologna.it/ordine-dei-predicatori/san-domenico/"
+      }
+    ],
+    "confirmationNote": "Dominic suits a confirmand who loves questions and wants to understand the faith well enough to explain it. He studied hard, gave away his books when the poor needed bread, and preached with patience to people who disagreed with him. Confirmation strengthens the baptized to spread and defend the faith by word and action, and Dominic shows that both study and charity serve that mission.",
+    "reflectionPrompts": [
+      "Is there a question about the faith that you have avoided? What would it look like to study it with the patience Dominic showed?",
+      "Choose one book of the Bible or the Catechism and set a short daily time to read it this week, then share one insight with someone.",
+      "Read Benedict XVI's general audience on St. Dominic (February 3, 2010) and note how he links study, poverty and prayer."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "francis-of-assisi",
+        "reason": "His contemporary, founder of the other great mendicant order",
+        "historical": true
+      },
+      {
+        "slug": "thomas-aquinas",
+        "reason": "Dominican friar whose teaching embodies the Order's union of study and preaching",
+        "historical": true
+      },
+      {
+        "slug": "hyacinth",
+        "reason": "Early Dominican friar of the first generation, missionary to Poland",
+        "historical": true
+      },
+      {
+        "slug": "pius-v",
+        "reason": "Dominican pope who gave the rosary its fixed form",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: St. Dominic of Guzmán, Priest, Founder of the Order of Preachers",
+        "url": "https://www.vaticannews.va/en/saints/08/08/st--dominic-of-guzman--priest-founder-of-the-order-of-the-preach.html"
+      },
+      {
+        "title": "Benedict XVI, General Audience of February 3, 2010: Saint Dominic Guzmán",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100203.html"
+      },
+      {
+        "title": "Order of Preachers (op.org): St. Dominic",
+        "url": "https://www.op.org/st-dominic/"
+      },
+      {
+        "title": "Catholic Culture: Memorial of St. Dominic (August 8)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-08-08"
+      },
+      {
+        "title": "Dominican Friars, Province of St. Joseph: The Baptism of St. Dominic",
+        "url": "https://dominicanfriars.org/baptism-st-dominic/"
+      },
+      {
+        "title": "Lay Dominicans, New England: Traditions and Symbols of the Dominican Order",
+        "url": "https://www.opne.org/traditions_&_symbols.htm"
+      },
+      {
+        "title": "Convento Patriarcale San Domenico, Bologna: San Domenico",
+        "url": "https://sandomenicobologna.it/ordine-dei-predicatori/san-domenico/"
+      },
+      {
+        "title": "Convento Patriarcale San Domenico, Bologna: Il Rosario",
+        "url": "https://sandomenicobologna.it/la-comunita/la-preghiera/il-rosario/"
+      },
+      {
+        "title": "John Paul II, Rosarium Virginis Mariae (2002)",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+      },
+      {
+        "title": "Catholic Answers: The Controversial History of the Rosary",
+        "url": "https://www.catholic.com/magazine/online-edition/the-controversial-history-of-the-rosary"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 10",
+        "url": "https://www.drbo.org/chapter/47010.htm"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none; Catholic Culture lists astronomers, astronomy, scientists and the falsely accused, but none has a live topic, so the field is omitted",
+      "symbols: star, dog with torch, lily, book, staff and rosary are all on Catholic Culture's list and are explained by the Dominican Friars (Province of St. Joseph) and the New England Lay Dominicans; book and staff are combined into one entry. The rosary meaning follows the brief's instruction to treat the Marian gift as contested tradition: Catholic Answers notes no contemporary record and that Alan de la Roche gave the first full account in the late 1400s; John Paul II (Rosarium Virginis Mariae 1, 17) says the rosary took form gradually over the second millennium and was used especially by the Dominicans, without naming Dominic; Benedict XVI says Dominic fostered Marian devotion that his sons spread through the rosary. Catholic Culture and the Bologna convent present the traditional attribution more directly",
+      "quotes: Dominic left almost no writings and none was found in a verified public-domain translation. Matthew 10:7–9 is included because op.org says papal legates urged Diego and Dominic in 1206 to travel on foot without gold or silver, like the apostles; a human may prefer to drop it if the link feels indirect",
+      "prayer: original. The Collect of the memorial is a modern liturgical translation (copyright), and the Dominican responsory O Spem Miram has no single verified English text, so neither was used",
+      "feastCustoms: the 'spoke with God or about God' line in whyWeTurn paraphrases the Bologna convent's page; the August 4 date for older calendars comes from the reviewed feast_note",
+      "places: only Bologna is listed. Santa Sabina (op.org/santa-sabina/) loads but the page says nothing about Dominic; the Prouilhe monastery and Caleruega had no official Dominican page I could confirm (caleruega.es is the town council)",
+      "relatedSaints: Hyacinth is described only as an early first-generation friar; the tradition that he received the habit from Dominic himself was not checked against a source in this pass",
+      "biography: no substantive disagreement. The reviewed text gives 1216 for papal approval, matching op.org (December 22, 1216); Vatican News gives December 22, 1217, which appears to be an error. Catholic Culture says canonization came 'three years' after his death, but Vatican News, Benedict XVI, op.org and the review all give 1234"
+    ]
+  },
+  "dominic-of-silos": {
+    "templateVersion": 2,
+    "heroSummary": "St. Dominic of Silos is a patron of prisoners and captives and of expectant mothers. A former shepherd from Cañas, he became a Benedictine monk, refused a king's demand for monastery funds, and was sent to restore the ruined abbey of Silos in Castile. He died there on December 20, 1073.",
+    "searchDescription": "St. Dominic of Silos (c. 1000–1073), feast December 20: Benedictine abbot who restored Silos, patron of prisoners, captives and expectant mothers.",
+    "patronages": [
+      "prisoners",
+      "mothers"
+    ],
+    "symbols": [
+      {
+        "symbol": "Chains",
+        "meaning": "The prisoners and enslaved Christians whose freedom he is remembered for winning; he is often painted with freed captives in chains."
+      },
+      {
+        "symbol": "Abbot's crozier with a veil tied to it",
+        "meaning": "His office as abbot of Silos; his staff was later carried to the bedside of Spanish queens in childbirth."
+      },
+      {
+        "symbol": "Mitre",
+        "meaning": "His authority as abbot; he is shown as a mitred abbot, sometimes enthroned."
+      },
+      {
+        "symbol": "Book",
+        "meaning": "The learning he fostered; the abbey's scriptorium became known for its manuscripts."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Dominic of Silos when someone they love is bound, whether in prison, in captivity, or in a hard pregnancy. He began life minding sheep, became a monk, and stood his ground when a king wanted the monastery's wealth for war, losing his post as a result. Given a ruined abbey instead, he patiently rebuilt it in stone and in spirit. Catholic sources remember him for helping to free Christian captives, and Spanish mothers have long asked his prayers for safe births. Tradition holds that Dominic de Guzmán's mother prayed at his tomb before her son was born.",
+    "quotes": [
+      {
+        "text": "The Lord looseth them that are fettered: The Lord enlighteneth the blind. The Lord lifteth up them that are cast down: the Lord loveth the just.",
+        "work": "Psalm 145:7–8",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "The Spirit of the Lord is upon me. Wherefore he hath anointed me to preach the gospel to the poor, he hath sent me to heal the contrite of heart, To preach deliverance to the captives...",
+        "work": "Luke 4:18–19",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you called St. Dominic of Silos from the sheepfold to the cloister and gave him courage to refuse what was wrong and patience to rebuild what was broken. Through his prayers, remember all who are imprisoned or held captive, and open the doors that keep them from freedom and from you. Watch over mothers who are expecting a child, and bring them and their babies safely through. Help me to be faithful in small beginnings and steady when I am treated unjustly. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "December 20 is his commemoration in the Roman Martyrology; he is not on the General Roman Calendar, so remember him in personal prayer on the anniversary of his death.",
+      "Pray for prisoners and their families, or support your parish or diocesan prison ministry.",
+      "Pray for an expectant mother you know, or for a safe birth for a family in your parish.",
+      "Listen to Gregorian chant sung by the monks of Silos, whose community still lives in the abbey he restored.",
+      "Read Luke 4:16–21 in the Douay-Rheims and ask where Christ is asking you to bring freedom to someone."
+    ],
+    "places": [
+      {
+        "name": "Abbey of Santo Domingo de Silos",
+        "city": "Santo Domingo de Silos, Spain",
+        "url": "https://www.abadiadesilos.es/sto-domingo-de-silos/"
+      }
+    ],
+    "confirmationNote": "Dominic of Silos suits a confirmand who wants courage to say no to pressure and patience to rebuild. He refused a king's demand to hand over what belonged to the monastery, lost his position, and then spent decades restoring a struggling community. Confirmation strengthens Christians to stand firm in faith, and his life shows that faithfulness can mean both resisting what is wrong and quietly building what is good.",
+    "reflectionPrompts": [
+      "Who in my life is 'bound' by something, and how could I pray for or help them this week?",
+      "Find out whether your parish or diocese has a prison ministry, and offer one practical form of help.",
+      "Read the history page of the Abbey of Silos and Luke 4:16–21 in the Douay-Rheims, and note how the abbey's story reflects the restoration Christ announces."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "dominic",
+        "reason": "Named after him; tradition holds his mother prayed at Dominic of Silos's tomb",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Author of the Rule Dominic followed and restored at Silos",
+        "historical": true
+      },
+      {
+        "slug": "peter-nolasco",
+        "reason": "Founded an order to ransom Christian captives",
+        "historical": false
+      },
+      {
+        "slug": "leonard-of-noblac",
+        "reason": "Another saint invoked for prisoners",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Abadía de Santo Domingo de Silos: Santo Domingo de Silos",
+        "url": "https://www.abadiadesilos.es/sto-domingo-de-silos/"
+      },
+      {
+        "title": "Abadía de Santo Domingo de Silos: Historia",
+        "url": "https://www.abadiadesilos.es/historia/"
+      },
+      {
+        "title": "Catholic Culture: St. Dominic of Silos (December 20 commemoration)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2025-12-20"
+      },
+      {
+        "title": "EWTN: St. Dominic of Silos",
+        "url": "https://origin.ewtn.com/catholicism/saints/dominic-of-silos-542"
+      },
+      {
+        "title": "EWTN (Spanish): Santo Domingo de Silos",
+        "url": "https://www.ewtn.com/es/catolicismo/santos/domingo-de-silos-14837"
+      },
+      {
+        "title": "DRBO.org: Psalm 145 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21145.htm"
+      },
+      {
+        "title": "DRBO.org: Luke 4 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/49004.htm"
+      }
+    ],
+    "flags": [
+      "patronages: prisoners and captives and pregnant women are listed by Catholic Culture; EWTN (Spanish) adds that many Spanish mothers ask his intercession. 'Pregnant women' is mapped to the live 'mothers' topic (as for Gerard Majella); review lists none, so a human should reconcile. Shepherds is also listed but has no live topic (only 'shepherdesses'); rabies and insects have no live topics.",
+      "symbols: chains, crozier with veil, mitre and book come from Catholic Culture's symbols list; chains are confirmed by EWTN (Spanish). Catholic Culture also lists the Seven Virtues surrounding him, but that appears to derive from a single painting (Bartolomé Bermejo's panel in the Prado) and was left out.",
+      "symbols: the staff carried to queens in childbirth is from EWTN (English), which says the custom lasted until 1931.",
+      "quotes: no public-domain writings of his were found; both quotes are Scripture chosen for his patronage of captives.",
+      "feastCustoms: the abbey site does not describe how the community keeps December 20, so no local custom is claimed; Spanish diocesan calendars were not checked.",
+      "biography: minor source differences only. Catholic Culture says King García challenged him 'when he became abbot' of San Millán; the abbey's own page and the reviewed biography say he was prior (named 1038), which is likely correct. The abbey dates the king's demand to 1040 and his move to Castile to 1041, consistent with the review. The abbey also says he was canonized in 1076.",
+      "relatedSaints: the Joan of Aza connection is tradition (Catholic Culture, EWTN); Peter Nolasco and Leonard of Noblac are thematic."
+    ]
+  },
+  "dominic-savio": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Dominic Savio is honored by the Salesians as a patron of young choir singers, and many expectant mothers ask his prayers. A pupil of St. John Bosco in Turin, he made holiness out of ordinary school life: prayer, study, friendship and cheerfulness. He died in 1857, not yet fifteen. The Salesian family celebrates him on May 6.",
+    "searchDescription": "St. Dominic Savio (1842–1857), feast May 6: John Bosco's pupil in Turin, who showed that holiness can mean cheerfulness and faithfulness in small things.",
+    "patronages": [
+      "mothers"
+    ],
+    "whyWeTurn": "People turn to Dominic Savio because he shows that holiness does not have to wait for adulthood. At seven he wrote four simple resolutions for his First Communion, and he kept rereading them. At Don Bosco's Oratory he learned that the way to God ran through cheerfulness, schoolwork and kindness rather than harsh penances. He taught catechism to younger boys, cared for sick companions and tried to settle fights. Students, altar servers and young people who want to take faith seriously see a friend in him, and many expectant mothers ask his prayers through the Salesian abitino devotion.",
+    "quotes": [
+      {
+        "text": "1. I will go to Confession often, and as frequently to Holy Communion as my confessor allows. 2. I wish to sanctify the Sundays and festivals in a special manner. 3. My friends shall be Jesus and Mary. 4. Death rather than sin.",
+        "work": "John Bosco, The Life of Dominic Savio, ch. on his First Communion resolutions (written by Dominic in 1849, aged seven)",
+        "translation": "The Life of Dominic Savio, translated from the original work of John Bosco (London: Salesian Press, 1915; public domain)"
+      },
+      {
+        "text": "Oh! what a beautiful sight I behold...",
+        "work": "John Bosco, The Life of Dominic Savio (his last words, as reported by his father)",
+        "translation": "The Life of Dominic Savio, translated from the original work of John Bosco (London: Salesian Press, 1915; public domain)"
+      },
+      {
+        "text": "Sing joyfully to God, all the earth: serve ye the Lord with gladness.",
+        "work": "Psalm 99:2 (the Latin 'Servite Domino in laetitia' was the motto Dominic gave a new companion, according to Bosco)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you drew St. Dominic Savio to yourself while he was still a schoolboy, and you made his ordinary days holy. Through his prayers, help me to choose you as my friend, to go often to confession and Communion, and to keep my promises to you. Teach me to serve you with gladness, in my studies, my work and my friendships. Watch over young people who are sick or struggling, and protect mothers who are expecting a child. Mary, Mother of God, keep me close to your Son. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "The Salesian family celebrates his feast on May 6; he is not on the General Roman Calendar, and March 9, the day he died, appears in some older calendars.",
+      "Write your own short list of resolutions, as he did for his First Communion, and keep it where you will reread it.",
+      "Pray for a young person who is ill, or for students facing exams.",
+      "Pray for expectant mothers you know; at the Basilica of Mary Help of Christians in Turin, the Salesians offer the 'abitino' of St. Dominic Savio in support of life.",
+      "Do one ordinary duty cheerfully today, as Bosco taught him."
+    ],
+    "places": [
+      {
+        "name": "Basilica of Mary Help of Christians (Valdocco)",
+        "city": "Turin, Italy",
+        "url": "https://www.basilicamariaausiliatrice.it/"
+      }
+    ],
+    "confirmationNote": "Dominic Savio suits a confirmand who wants to take faith seriously now, not someday. He made firm resolutions at his First Communion, chose Jesus and Mary as his friends, and lived them out at school through prayer, study and kindness to others. Confirmation strengthens Christians to witness to Christ among their peers, and Dominic shows how that witness can be joyful, steady and very ordinary.",
+    "reflectionPrompts": [
+      "Which of Dominic's four resolutions do I most need in my own life right now?",
+      "This week, help one person at school or work who is left out, struggling or in a quarrel, as Dominic tried to do.",
+      "Read the chapter on Dominic's First Communion resolutions in Bosco's Life of Dominic Savio (1915 Salesian Press translation, on the Internet Archive) and Psalm 99 in the Douay-Rheims."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-bosco",
+        "reason": "His teacher at the Turin Oratory and the author of his Life",
+        "historical": true
+      },
+      {
+        "slug": "maria-mazzarello",
+        "reason": "Co-founder of the Salesian Sisters, buried in the same Turin basilica",
+        "historical": true
+      },
+      {
+        "slug": "aloysius-gonzaga",
+        "reason": "The young saint Bosco compares him to in the Life",
+        "historical": false
+      },
+      {
+        "slug": "carlo-acutis",
+        "reason": "Another teenage saint known for love of the Eucharist",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Salesian Missions: St. Dominic Savio (1954)",
+        "url": "https://salesianmissions.org/about-us/who-we-are/about-st-john-bosco/our-history/history-of-the-salesians/st-dominic-savio-1954/"
+      },
+      {
+        "title": "Salesians of Don Bosco (USA): Saint Dominic Savio",
+        "url": "https://salesians.org/about-us/salesian-spirituality/saint-dominic-savio"
+      },
+      {
+        "title": "Salesians of Don Bosco (Great Britain): St Dominic Savio",
+        "url": "https://www.salesians.org.uk/saints/16"
+      },
+      {
+        "title": "Salesian Bulletin: Visiting the Homes of St. Dominic Savio",
+        "url": "https://salesianbulletin.org/2024/04/18/visiting-the-homes-of-dominic-savio/"
+      },
+      {
+        "title": "John Bosco, The Life of Dominic Savio (London: Salesian Press, 1915), Internet Archive",
+        "url": "https://archive.org/details/lifeofdominicsav0000giov"
+      },
+      {
+        "title": "Basilica Maria Ausiliatrice, Turin (official site)",
+        "url": "https://www.basilicamariaausiliatrice.it/"
+      },
+      {
+        "title": "Basilica Maria Ausiliatrice: Richiedi l'abitino di San Domenico Savio",
+        "url": "https://basilicamariaausiliatrice.it/richiedi-labitino-di-san-domenico-savio/"
+      },
+      {
+        "title": "Vatican: Pius XII, address at the canonization of June 12, 1954",
+        "url": "https://www.vatican.va/content/pius-xii/it/speeches/1954/documents/hf_p-xii_spe_19540612_canonizzazione.pdf"
+      },
+      {
+        "title": "DRBO.org: Psalm 99 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21099.htm"
+      }
+    ],
+    "flags": [
+      "symbols: no reputable Catholic source listing 3–5 established iconographic attributes was found (searches mostly returned Dominic de Guzmán's emblems), so symbols is empty and templateVersion is 1.5.",
+      "patronages: 'mothers' rests on the Salesian Bulletin (official Salesian publication), which calls him patron of pregnant women, and on the Turin basilica's abitino offered 'a favore della vita'; other Salesian pages call this patronage unofficial or do not mention it. Review lists none; a human should reconcile.",
+      "patronages: young choir singers (Salesians USA, Salesian Missions), altar servers, the wrongly accused and juvenile offenders (Salesians of Great Britain) are sourced but have no live topic.",
+      "quotes: verified against the 1915 Salesian Press translation (Internet Archive OCR text). The resolutions are Dominic's own words as Bosco transcribed them; the last words were reported by his father. The Servite Domino motto appears in Bosco's account of Dominic advising a new companion (Camillus Gavio).",
+      "feastCustoms: the abitino story (that Dominic placed a scapular on his mother during a difficult pregnancy) appears only on non-official sites and was not used; the basilica page does not explain the abitino's origin.",
+      "relatedSaints: Maria Mazzarello's burial in the same basilica is stated on the basilica's official homepage.",
+      "biography: no disagreement with the reviewed biography. Sources disagree on the village where he died: Salesians USA says 'Moriondo', Salesian Missions 'Murialdo'; the review avoids naming it, which is wise. The Salesian Bulletin calls his resolutions 'Confirmation' resolutions; Bosco's text says First Communion."
+    ]
+  },
+  "dulce-lopes-pontes": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Dulce Lopes Pontes, known as Sister Dulce or Santa Dulce dos Pobres, was a Brazilian religious sister from Salvador, Bahia. She cared for the sick and poor so persistently that a convent henhouse became the seed of a large hospital. She died in 1992, was canonized in 2019, and is remembered locally on August 13.",
+    "searchDescription": "St. Dulce Lopes Pontes (1914–1992), Sister Dulce of Bahia: Brazilian nun whose care for the sick poor grew into a major charity. Remembered August 13.",
+    "whyWeTurn": "People turn to Sister Dulce when the needs in front of them seem too big. She did not start with a plan or a budget. As a girl in Salvador she welcomed poor and sick people into her family's home, and as a sister she kept answering the next need: a clinic, a workers' association, a school, and finally a henhouse turned into shelter for the sick. She worked through years of serious lung illness. Vatican News recalls that she spoke of small acts of love that Jesus makes great. Nurses, volunteers and anyone serving the poor can ask her prayers for courage.",
+    "quotes": [
+      {
+        "text": "For I was hungry, and you gave me to eat; I was thirsty, and you gave me to drink; I was a stranger, and you took me in: Naked, and you covered me: sick, and you visited me...",
+        "work": "Matthew 25:35–36",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you lived in the sick, the hungry and the homeless whom St. Dulce welcomed in Salvador. Through her prayers, open my eyes to the people I would rather not see, and give me a heart that answers their need without waiting for perfect conditions. When I am tired or unwell, let me still offer small acts of love, trusting you to make them fruitful. Bless all who care for the sick and the poor, and strengthen those who suffer without help. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "August 13 is her liturgical memorial in Brazil, recalling the day in 1933 when she received the religious habit; she is not on the General Roman Calendar, so elsewhere remember her in personal prayer.",
+      "In Salvador, many devotees prepare with a trezena, thirteen days of prayer leading up to August 13, and visit her tomb at the Santuário Santa Dulce dos Pobres.",
+      "Visit someone who is sick, elderly or alone, remembering the people she welcomed into her home.",
+      "Give time or support to a hospital, clinic or charity that serves people who cannot pay.",
+      "Read Matthew 25:31–46 in the Douay-Rheims and choose one concrete work of mercy for the week."
+    ],
+    "places": [
+      {
+        "name": "Santuário Santa Dulce dos Pobres (Obras Sociais Irmã Dulce)",
+        "city": "Salvador, Bahia, Brazil",
+        "url": "https://www.irmadulce.org.br/"
+      }
+    ],
+    "confirmationNote": "Dulce suits a confirmand drawn to serving the sick, the poor or anyone overlooked. She began helping neighbors as a teenager, kept responding to each new need with whatever she had, and continued despite serious illness. Confirmation strengthens Christians to show Christ's love in deeds, and Sister Dulce shows how small, persistent acts of mercy can grow into lasting care for many people.",
+    "reflectionPrompts": [
+      "Whose need have I noticed but avoided because I felt I could not do enough?",
+      "This week, do one concrete work of mercy, such as a visit, a meal or a donation, without waiting for ideal conditions.",
+      "Read Matthew 25:31–46 in the Douay-Rheims and the Vatican News biography of St. Dulce Lopes Pontes, and note how her work answers each need Jesus names."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "john-paul-ii",
+        "reason": "Visited her in hospital during her final illness",
+        "historical": true
+      },
+      {
+        "slug": "antonio-de-sant-anna-galvao",
+        "reason": "Earlier Brazilian-born saint, canonized in 2007",
+        "historical": true
+      },
+      {
+        "slug": "mother-teresa",
+        "reason": "Vatican News calls Dulce the 'Mother Teresa of Brazil'",
+        "historical": false
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Fellow founder of hospital care for the poor",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vatican News: Biography of Dulce Lopes Pontes, Nobel nominee",
+        "url": "https://www.vaticannews.va/en/church/news/2019-10/biography-dulce-lopes-pontes-nobel-nominee.html"
+      },
+      {
+        "title": "Vatican News (Portuguese): Santa Dulce Lopes Pontes (1914–1992)",
+        "url": "https://www.vaticannews.va/pt/igreja/news/2024-08/santa-dulce-lopes-pontes-1914-1992.html"
+      },
+      {
+        "title": "Diocese of Osasco: Santa Dulce Lopes Pontes",
+        "url": "https://www.diocesedeosasco.com.br/santa-dulce-lopes-pontes/"
+      },
+      {
+        "title": "Obras Sociais Irmã Dulce (official site)",
+        "url": "https://www.irmadulce.org.br/"
+      },
+      {
+        "title": "DRBO.org: Matthew 25 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "symbols: no reputable Catholic source listing 3–5 established iconographic attributes for her was found, so symbols is empty and templateVersion is 1.5.",
+      "patronages: no patronage stated by a reputable Catholic source was found; none added.",
+      "quotes: her own sayings (e.g. on the OSID 'Frases do Anjo' page) are modern and under copyright, so only Scripture is used. The 'small acts of love' idea in whyWeTurn is paraphrased from Vatican News, not quoted.",
+      "prayer: an official prayer to Santa Dulce dos Pobres (reportedly composed by Cardinal Geraldo Majella Agnelo) exists, but its text could not be verified on an official Church or OSID page, and it is a modern copyrighted text; an original prayer is given.",
+      "feastCustoms: the reason for August 13 (receiving the habit in 1933) and the trezena come from Brazilian press reports (Correio, PUCPR article) and need a human check against the Archdiocese of São Salvador or OSID. The OSID site is a JavaScript app whose sanctuary page could not be read directly; the sanctuary's location beside the OSID headquarters and her tomb there are confirmed by Vatican News (Portuguese).",
+      "places: the URL is the OSID homepage, which runs the sanctuary and memorial; no stable sanctuary-specific page could be loaded.",
+      "relatedSaints: Vatican News (English) records John Paul II's visit to her in hospital during a papal trip to Brazil but its date (1990) may be off; no year is given on the page. Galvão's canonization year (2007) should be checked against his own page.",
+      "biography: no disagreement with the reviewed biography. Vatican News (Portuguese) gives her birth as 26 May 1914 and entry into the congregation on 8 February 1933."
+    ]
+  },
+  "dunstan": {
+    "templateVersion": 2,
+    "heroSummary": "St. Dunstan is the patron saint of goldsmiths, a craft he practised himself. A tenth-century monk, he rebuilt Glastonbury Abbey, became archbishop of Canterbury, and helped renew monastic life across England. He also made bells and played the harp. He died at Canterbury in 988, and his feast is May 19.",
+    "searchDescription": "St. Dunstan (d. 988), feast May 19: abbot of Glastonbury and archbishop of Canterbury, monastic reformer, metalworker and patron of goldsmiths.",
+    "patronages": [
+      "goldsmiths"
+    ],
+    "symbols": [
+      {
+        "symbol": "Smith's tongs",
+        "meaning": "His real skill as a metalworker; tradition adds the late legend that he seized the devil by the nose with his tongs, which is not part of his documented life."
+      },
+      {
+        "symbol": "Dove hovering near him",
+        "meaning": "The inspiration of the Holy Spirit; older images show a dove near him or at his ear as he stands at the altar."
+      },
+      {
+        "symbol": "Troop of angels",
+        "meaning": "The angels who, according to his early biographers, warned him of his approaching death."
+      },
+      {
+        "symbol": "Harp",
+        "meaning": "His love of music; the Catholic Encyclopedia notes that he played the harp in his cell."
+      },
+      {
+        "symbol": "Kneeling at the feet of Christ",
+        "meaning": "His humility before God; a drawing of a monk prostrate before Christ, long believed to be his own work, survives from Glastonbury."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Dunstan when their work is done with their hands. He was a scholar and a church leader, but he also worked metal, made bells and organs, and played the harp, and medieval goldsmiths took him as their patron. His life was not quiet: he was driven into exile, returned, and spent decades working with kings and fellow bishops to renew prayer and learning in England. Tradition adds the story of the devil and the tongs, which is legend. Craftspeople, musicians, and anyone whose faith must live alongside public responsibility can find in him a steady companion.",
+    "quotes": [
+      {
+        "text": "He hath made a remembrance of his wonderful works, being a merciful and gracious Lord: He hath given food to them that fear him.",
+        "work": "Psalm 110:4–5 (the verses the Catholic Encyclopedia records as his last words)",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Dunstan skilful hands, a love of learning, and the courage to renew your Church. Through his prayers, bless the work of my hands and help me do it honestly and well, for your glory and not my own. Make my life a song of praise, as his music was. When I face opposition or must start again, give me patience and a steady heart. Keep me humble at the feet of your Son, and at the end of my days let me give thanks for your wonderful works. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "In England, May 19 is the optional memorial of St. Dunstan, Bishop; elsewhere he is commemorated in the Roman Martyrology, so remember him in personal prayer.",
+      "Pray Psalm 110 (Psalm 111 in modern numbering), the psalm whose words he spoke as he died.",
+      "Pray for goldsmiths, metalworkers, jewellers and all craftspeople, or thank someone whose handiwork you use every day.",
+      "Make or mend something by hand, or play or sing a piece of sacred music, as an offering to God.",
+      "If you visit Canterbury or Glastonbury, pray at the places where he lived, worked and was buried."
+    ],
+    "places": [
+      {
+        "name": "Glastonbury Abbey",
+        "city": "Glastonbury, England",
+        "url": "https://www.glastonburyabbey.com/history.php"
+      }
+    ],
+    "confirmationNote": "Dunstan suits a confirmand who loves making things, music or study, or who expects to carry responsibility in public life. He worked as a craftsman and musician, led a monastery, and served as archbishop through exile and political conflict without abandoning prayer. Confirmation strengthens Christians to witness to Christ in every part of life, and Dunstan shows that skilled work and leadership can both be offered to God.",
+    "reflectionPrompts": [
+      "What work of my hands, mind or voice could I offer more consciously to God?",
+      "This week, do one practical task slowly and carefully, as an act of prayer rather than a chore to rush through.",
+      "Read the Catholic Encyclopedia article on St. Dunstan and Psalm 110 in the Douay-Rheims, and note what his last words say about how he understood his life."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "oswald-of-worcester",
+        "reason": "Fellow tenth-century bishop who worked with him to renew English monasteries",
+        "historical": true
+      },
+      {
+        "slug": "benedict",
+        "reason": "Author of the Rule Dunstan restored at Glastonbury",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-canterbury",
+        "reason": "First archbishop of the see Dunstan later led",
+        "historical": true
+      },
+      {
+        "slug": "anselm-of-canterbury",
+        "reason": "Later Benedictine monk and archbishop of Canterbury",
+        "historical": true
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): St. Dunstan",
+        "url": "https://www.newadvent.org/cathen/05199a.htm"
+      },
+      {
+        "title": "F. C. Husenbeth, Emblems of Saints, 3rd ed. (1882), Internet Archive (public domain)",
+        "url": "https://archive.org/details/emblemsofsaints00huseuoft"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Liturgical Calendar, May 2026",
+        "url": "https://www.liturgyoffice.org/Calendar/2026/May.shtml"
+      },
+      {
+        "title": "DRBO.org: Psalm 110 (Douay-Rheims)",
+        "url": "https://www.drbo.org/chapter/21110.htm"
+      },
+      {
+        "title": "Glastonbury Abbey: History",
+        "url": "https://www.glastonburyabbey.com/history.php"
+      },
+      {
+        "title": "Canterbury Cathedral",
+        "url": "https://www.canterbury-cathedral.org/"
+      }
+    ],
+    "flags": [
+      "symbols: tongs, dove, troop of angels, harp and kneeling before Christ are all listed for him in Husenbeth's Emblems of Saints (1882, a Catholic reference); tongs, dove and angels are also the emblems named by the Catholic Encyclopedia. The devil-and-tongs story is labelled legend, as in the reviewed biography.",
+      "patronages: goldsmiths rests on the Catholic Encyclopedia (patron of the goldsmiths' guild in the Middle Ages). Blacksmiths, locksmiths, jewellers, musicians and bellringers appear only on popular sites and were not used.",
+      "quotes: the Catholic Encyclopedia reports his dying words as beginning 'He hath made a remembrance of his wonderful works'; the fuller verse text is quoted from the Douay-Rheims. None of his own writings was used.",
+      "prayer: no traditional prayer to St. Dunstan with a verifiable Catholic source was found; the collect in the National Proper of England is a modern copyrighted liturgical text and was not reproduced.",
+      "places: Canterbury Cathedral's homepage does not mention Dunstan; it is listed as his burial place (Catholic Encyclopedia), though his shrine was destroyed at the Reformation. Both sites are now Church of England or charitable-trust properties, not Catholic. Glastonbury Abbey's history page credits Abbot Dunstan with extending the church (940–963). Glastonbury's site blocked curl but loaded in a browser fetch.",
+      "biography: no disagreement with the reviewed biography. The Catholic Encyclopedia argues for a birth well before 925 and notes the year is disputed, consistent with 'about 909'.",
+      "places: removed Canterbury Cathedral homepage (does not mention him) (coordinator)"
+    ]
+  },
+  "dymphna": {
+    "templateVersion": 2,
+    "heroSummary": "St. Dymphna is honored as a patron of people living with mental illness and of those who care for them. Her story comes from a thirteenth-century legend about an Irish princess killed at Geel, in present-day Belgium. Her best-documented legacy is Geel itself, where families have welcomed people with mental illness into their homes for centuries.",
+    "searchDescription": "St. Dymphna, feast May 15: the legend of an Irish princess martyred at Geel, Belgium, and her patronage of people living with mental illness.",
+    "symbols": [
+      {
+        "symbol": "Sword",
+        "meaning": "The instrument of her death in the legend, which says her father beheaded her when she refused him. The Catholic Encyclopedia and Vatican News both name the sword as her attribute."
+      },
+      {
+        "symbol": "Chained devil at her feet",
+        "meaning": "Older images show her holding a fettered devil or standing over a small demon, a sign that she is invoked as a protector against evil. It speaks of spiritual protection; it is not a statement about people who live with mental illness."
+      },
+      {
+        "symbol": "Crown and royal dress",
+        "meaning": "She is pictured as a princess because tradition makes her the daughter of an Irish king. Catholic Culture's list of her representations includes a princess holding a lamp and a sword."
+      },
+      {
+        "symbol": "Book of the Gospels",
+        "meaning": "Sometimes placed in her hands, recalling the Christian faith that, according to the legend, she kept in spite of her father's paganism and his threats."
+      }
+    ],
+    "whyWeTurn": "People living with depression, anxiety or other mental illness, and the families and caregivers who walk beside them, often turn to St. Dymphna. Her life reaches us only as legend, but tradition holds that she was a young woman who fled a parent's abuse and kept her faith. What is clearer is what her shrine inspired: in Geel, ordinary families learned to open their homes to people others avoided. Asking her prayers is never a substitute for medical care or counseling. It is a way to ask for courage, patience and good companions, and to remember that no one is beyond God's tenderness.",
+    "quotes": [
+      {
+        "text": "Come to me, all you that labour, and are burdened, and I will refresh you. Take up my yoke upon you, and learn of me, because I am meek, and humble of heart: and you shall find rest to your souls.",
+        "work": "Matthew 11:28–29",
+        "translation": "Douay-Rheims (public domain)"
+      },
+      {
+        "text": "Amen I say to you, as long as you did it to one of these my least brethren, you did it to me.",
+        "work": "Matthew 25:40",
+        "translation": "Douay-Rheims (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus, you invite all who labor and are burdened to come to you and find rest. Through the prayers of St. Dymphna, stay close to everyone who struggles with mental illness, especially those who feel alone, ashamed or afraid. Give them skilled doctors, wise counselors and faithful friends, and the courage to ask for help. Strengthen the families and caregivers who stay beside them. Make our homes and parishes places of welcome, as Geel became, so that no one is treated as a burden or a stranger. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery",
+      "link": {
+        "label": "National Shrine of St. Dymphna: Novena in Honor of St. Dymphna",
+        "url": "https://natlshrinestdymphna.org/site/?page_id=1455"
+      }
+    },
+    "feastCustoms": [
+      "Remember her on May 15, the day kept at Geel and at the National Shrine of St. Dymphna in Massillon, Ohio. She is not on the General Roman Calendar, and the current Roman Martyrology, as given by Vatican News and Catholic Culture, lists her on May 30.",
+      "Pray for someone you know who is struggling with their mental health, then reach out with a message or a visit. If anyone is in immediate danger, contact local emergency services first.",
+      "Pray the U.S. bishops' Novena for Mental Health, which turns to St. Dymphna on its first day and ends on the feast of St. Luke, October 18.",
+      "In Geel, a costumed Sint-Dimpna Ommegang retelling her legend and the town's history is held once every five years.",
+      "Learn about Geel's tradition of family care, in which local households take in people with mental illness, and ask what your own parish does to welcome them."
+    ],
+    "places": [
+      {
+        "name": "Sint-Dimpnakerk (Church of St. Dymphna)",
+        "city": "Geel, Belgium",
+        "url": "https://www.visit-geel.be/sint-dimpnakerk"
+      },
+      {
+        "name": "National Shrine of St. Dymphna",
+        "city": "Massillon, Ohio, USA",
+        "url": "https://natlshrinestdymphna.org/site/"
+      }
+    ],
+    "confirmationNote": "Dymphna is a fitting name for a confirmand who has known family pain, who lives with anxiety or depression, or who wants to stand beside people who do. Her life comes to us as legend, but the faith it describes is brave and clear, and the town that honors her shows what Christian welcome looks like. Choosing her name can be a promise to treat every struggling person with dignity and patience.",
+    "reflectionPrompts": [
+      "Who in my life might be carrying a hidden struggle with anxiety, depression or grief, and how could I let them know they are not alone?",
+      "This week, check in on one friend or family member, and find out what mental-health support your parish, school or diocese offers.",
+      "Read Matthew 25:31–46, then the Catholic Encyclopedia's article on St. Dymphna, and notice how it separates her legend from the history of care at Geel."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "isidore-the-farmer",
+        "reason": "Shares the May 15 date",
+        "historical": true
+      },
+      {
+        "slug": "gertrude-of-nivelles",
+        "reason": "Another seventh-century saint venerated in present-day Belgium",
+        "historical": true
+      },
+      {
+        "slug": "john-of-god",
+        "reason": "Cared for the mentally ill and appears beside her in the U.S. bishops' Novena for Mental Health",
+        "historical": false
+      },
+      {
+        "slug": "maria-goretti",
+        "reason": "A young martyr who refused a man's abusive demands",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): St. Dymphna",
+        "url": "https://www.newadvent.org/cathen/05221b.htm"
+      },
+      {
+        "title": "National Shrine of St. Dymphna: History",
+        "url": "https://natlshrinestdymphna.org/site/?page_id=11"
+      },
+      {
+        "title": "National Shrine of St. Dymphna (Massillon, Ohio)",
+        "url": "https://natlshrinestdymphna.org/site/"
+      },
+      {
+        "title": "USCCB: Novena for Mental Health",
+        "url": "https://www.usccb.org/mental-health-novena"
+      },
+      {
+        "title": "USCCB: Novena Prayer Card, Saint Dymphna (PDF)",
+        "url": "https://www.usccb.org/resources/Novena%20Prayer%20Card%20Saint%20Dymphna.pdf"
+      },
+      {
+        "title": "Vatican News (2021): Pope's November prayer intention, depression and the saints",
+        "url": "https://vaticannews.va/en/church/news/2021-11/pope-november-prayer-depression-saints-mental-illness.html"
+      },
+      {
+        "title": "Vatican News (Spanish): Santa Dimpna, May 30",
+        "url": "https://www.vaticannews.va/es/santos/05/30/s--dymphna.html"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Calendar, May 30 (St. Dymphna, RM)",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2026-05-30"
+      },
+      {
+        "title": "Detroit Catholic: St. Dymphna, holy patroness, the Lily of Fire (2025)",
+        "url": "https://www.detroitcatholic.com/voices/st-dymphna-holy-patroness-the-lily-of-fire"
+      },
+      {
+        "title": "Visit Geel (City of Geel tourism): Sint-Dimpnakerk",
+        "url": "https://www.visit-geel.be/sint-dimpnakerk"
+      },
+      {
+        "title": "VRT NWS (2026): Sint-Dimpna Ommegang in Geel",
+        "url": "https://www.vrt.be/vrtnws/nl/2026/05/03/sint-dimpna-ommegang-geel-1-500-deelnemers/"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 11",
+        "url": "https://www.drbo.org/chapter/47011.htm"
+      },
+      {
+        "title": "Douay-Rheims Bible: Matthew 25",
+        "url": "https://www.drbo.org/chapter/47025.htm"
+      }
+    ],
+    "flags": [
+      "patronages: people with mental illness (also mental and neurological disorders, mental health professionals) is well sourced by the USCCB, Vatican News, the National Shrine and Catholic Culture but has no live topic. Catholic Culture also lists incest victims, runaways, epileptics, sleepwalkers, psychiatrists, therapists and others; none has a live topic.",
+      "feast: the reviewed page gives May 15, the traditional date (Catholic Encyclopedia, National Shrine, Geel). Vatican News and Catholic Culture place her current Roman Martyrology entry on May 30. The first feastCustoms item mentions both; a human may want to add a note to the page.",
+      "symbols: sword and chained devil come from the Catholic Encyclopedia, Vatican News and Detroit Catholic (Archdiocese of Detroit); princess/crown from Catholic Culture's representation list; Book of the Gospels from Detroit Catholic only. Catholic Culture also lists a lamp, but no reputable source explains it, so it was left out.",
+      "prayer: original. The USCCB's 2025 prayer card to St. Dymphna is marked copyright USCCB, all rights reserved, so it was not reproduced. The National Shrine's novena is linked, not quoted.",
+      "feastCustoms: the Ommegang's five-year cycle rests on a VRT news report (2026), not a church source. Visit Geel says UNESCO recognized Geel's family care as intangible heritage in 2023; that claim was left out pending a check against UNESCO's own list.",
+      "quotes: Dymphna left no writings; two Douay-Rheims passages (checked at drbo.org) were chosen for comfort to the burdened and for Geel's hospitality.",
+      "biography: no disagreement. Vatican News (2021) says her father 'seems to have had a mental illness' and that she cared for the mentally ill at Geel; those details are not in the reviewed biography or the Catholic Encyclopedia and were not used."
+    ]
+  },
   "edith-stein": {
     "templateVersion": 2,
     "heroSummary": "St. Teresa Benedicta of the Cross, born Edith Stein, is a patron of Europe, one of three women John Paul II named co-patronesses of the continent in 1999. A Jewish-born philosopher who became a Catholic and a Discalced Carmelite nun, she was murdered at Auschwitz in 1942. Catholics remember her on August 9.",
@@ -13310,6 +14289,265 @@
       "places: the Cologne entry names her Carmelite community and its Edith Stein Archive; a human should check whether the present monastery building is the same one she entered in 1933 before any copy implies she lived there",
       "relatedSaints: Kolbe link (same place of death) rests on Catholic Culture for her day",
       "biography: no disagreement found. The Holy See gives entry to the Cologne Carmel as 14 October 1933 and says she was probably killed on or around 9 August 1942, consistent with the reviewed text"
+    ]
+  },
+  "edmund-campion": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Edmund Campion was a gifted Oxford scholar who became a Jesuit and returned to Elizabethan England in 1580 to serve Catholics in secret. Captured, racked and tried for treason, he insisted that his mission was religious, not political. He was executed at Tyburn on December 1, 1581, and canonized in 1970 among the Forty Martyrs of England and Wales.",
+    "searchDescription": "St. Edmund Campion, feast December 1: Oxford scholar turned Jesuit priest, author of the famous \"Brag,\" martyred at Tyburn in 1581.",
+    "whyWeTurn": "Catholics turn to St. Edmund Campion when faith asks for courage and clear thinking at the same time. He gave up a promising career at Oxford, became a Jesuit, and came home to a country where saying Mass could cost a priest his life. He moved quietly between households to bring the sacraments, yet he also wrote openly, asking for a fair hearing and offering to debate the learned. Under torture and at his trial he held to what he had said from the start: he came to save souls, not to plot. Students, teachers and anyone defending the faith in a hostile setting ask his prayers for courage joined to charity.",
+    "quotes": [
+      {
+        "text": "My charge is, of free cost to preach the Gospel, to minister the sacraments, to instruct the simple, to reform sinners, to confute errors, and, in brief, to cry alarm spiritual against foul vice and proud ignorance, wherewith many my dear countrymen are abused.",
+        "work": "Letter to the Lords of the Privy Council (\"Campion's Brag\"), 1580, article 3",
+        "translation": "Written in English; text as printed in Richard Simpson, Edmund Campion: A Biography (1867), p. 159 (public domain)"
+      },
+      {
+        "text": "The expense is reckoned, the enterprise is begun; it is of God, it cannot be withstood. So the faith was planted, so it must be restored.",
+        "work": "Letter to the Lords of the Privy Council (\"Campion's Brag\"), 1580, article 8",
+        "translation": "Written in English; text as printed in Richard Simpson, Edmund Campion: A Biography (1867), p. 161 (public domain)"
+      },
+      {
+        "text": "I have no more to say, but to recommend your case and mine to Almighty God, the Searcher of hearts, who send us of His grace, and set us at accord before the day of payment, to the intent we may at last be friends in heaven, where all injuries shall be forgotten.",
+        "work": "Letter to the Lords of the Privy Council (\"Campion's Brag\"), 1580, article 9",
+        "translation": "Written in English; text as printed in Richard Simpson, Edmund Campion: A Biography (1867), p. 161 (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord Jesus Christ, you gave St. Edmund Campion a brilliant mind and a brave heart, and he spent both in your service. Through his prayers, give me the courage to speak the truth with charity and the humility to listen well to those who disagree with me. Strengthen everyone who suffers for their faith today, and keep me faithful in small trials as well as great ones. Help me to count the cost of following you and still say yes. May we all at last be friends in heaven, where every injury is forgotten. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on December 1, the anniversary of his death at Tyburn. Jesuit communities and schools keep the day, which the Jesuits in Britain call Campion Day.",
+      "In England, the English Martyrs are celebrated together on May 4, a feast in the national calendar honoring the men and women martyred for the Catholic faith between 1535 and 1680.",
+      "At Stonyhurst College, a relic of the rope that bound him to the hurdle on his way to Tyburn is placed on the altar each December 1.",
+      "Pray at the Martyrs' Shrine of Tyburn Convent in London, near the site of the Tyburn gallows, where relics of the Tyburn martyrs are kept.",
+      "Read part of his Ten Reasons (Rationes Decem) or his 1580 letter to the Privy Council, and pray for people persecuted for their faith today."
+    ],
+    "places": [
+      {
+        "name": "Tyburn Convent: Martyrs' Shrine",
+        "city": "London, England",
+        "url": "https://www.tyburnconvent.org.uk/martyrs-shrine"
+      },
+      {
+        "name": "Stonyhurst College collections: St Edmund Campion (British Jesuit Archives)",
+        "city": "Stonyhurst, Lancashire, England",
+        "url": "https://jesuitcollections.org.uk/campion"
+      }
+    ],
+    "confirmationNote": "Edmund Campion suits a confirmand who loves to read, argue and ask hard questions, and who wants those gifts to serve the faith. He was a celebrated student and speaker who chose Christ over a comfortable career, then answered threats with reasons and charity rather than anger. Taking his name can be a promise to think carefully, speak honestly and stay faithful when it costs something.",
+    "reflectionPrompts": [
+      "Where might following Christ cost me something, such as my reputation, comfort or a plan I care about, and am I willing to reckon that expense?",
+      "This week, when you disagree with someone about faith or values, explain your view calmly and listen to theirs without trying to win.",
+      "Read Campion's 1580 letter to the Privy Council, printed in Richard Simpson's Edmund Campion: A Biography (1867), and restate its nine points in your own words."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "alexander-briant",
+        "reason": "Executed with him at Tyburn on December 1, 1581",
+        "historical": true
+      },
+      {
+        "slug": "ignatius-of-loyola",
+        "reason": "Founder of the Society of Jesus, which Campion entered in 1573",
+        "historical": true
+      },
+      {
+        "slug": "robert-southwell",
+        "reason": "Fellow English Jesuit priest and martyr of the Elizabethan mission",
+        "historical": true
+      },
+      {
+        "slug": "thomas-more",
+        "reason": "Another English scholar who chose conscience over royal favor under the Tudors",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Jesuits in Britain: Campion Day, remembering a Jesuit martyr",
+        "url": "https://www.jesuit.org.uk/news/campion-day-remembering-a-jesuit-martyr-who-gave-his-life-for-his-faith"
+      },
+      {
+        "title": "Jesuits in Singapore: St Edmund Campion SJ (December 1)",
+        "url": "https://www.jesuit.org.sg/dec-edmund-campion-sj/"
+      },
+      {
+        "title": "Richard Simpson, Edmund Campion: A Biography (1867), Internet Archive",
+        "url": "https://archive.org/details/cu31924029429838"
+      },
+      {
+        "title": "British Jesuit Archives / Stonyhurst: St Edmund Campion",
+        "url": "https://jesuitcollections.org.uk/campion"
+      },
+      {
+        "title": "Christian Heritage Centre, Stonyhurst: St Edmund's rope",
+        "url": "https://christianheritagecentre.com/media/st-edmunds-rope-binds-us-to-the-memory-of-his-sacrifice/"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: National Calendar for England",
+        "url": "https://www.liturgyoffice.org/Calendar/National/England2.shtml"
+      },
+      {
+        "title": "Catholic Culture: Liturgical Calendar, December 1",
+        "url": "https://www.catholicculture.org/culture/liturgicalyear/calendar/day.cfm?date=2018-12-01"
+      },
+      {
+        "title": "Tyburn Convent: Martyrs' Shrine",
+        "url": "https://www.tyburnconvent.org.uk/martyrs-shrine"
+      }
+    ],
+    "flags": [
+      "templateVersion 1.5: symbols left empty. Popular sources (Wikipedia infobox, devotional sites) give a noose around the neck, a knife in the chest, a martyr's palm, a crucifix and a Bible, and the Jesuit Collections site describes one sketch with rope and knife, but no Vatican, Jesuit, diocesan or Catholic Culture source lists his attributes. A human could add them if such a source is found.",
+      "patronages: review lists none, and none with a live topic was found. Some Jesuit-related pages call him patron of the British Jesuit Province; not verified on an official page and no live topic.",
+      "quotes: all three are from his 1580 letter, checked against Simpson's 1867 printing (Internet Archive OCR, pp. 159-161). Simpson modernizes the spelling, and other transcriptions differ slightly (e.g. 'alway', 'eke'). 'Campion's Brag' is the popular name, taken from article 6, where he says he would be loth to speak anything that might sound of 'an insolent brag or challenge.'",
+      "prayer: original. Catholic Culture has 'A Daily Prayer of Saint Edmund Campion' ('I have made a free oblation...') but credits it only to 'Prayers from Various Websites,' so the attribution was not used.",
+      "feastCustoms: December 1 is a Jesuit observance (with St Robert Southwell and companions) and appears in some English diocesan calendars; it is not in the national calendar for England, which honors him within the English Martyrs on May 4. Wording kept to Jesuit communities.",
+      "places: Campion Hall, Oxford (campion.ox.ac.uk) was not used because its pages checked do not say it is named for him.",
+      "biography: no disagreement."
+    ]
+  },
+  "edmund-rich": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Edmund of Abingdon, also called Edmund Rich, taught at Oxford and Paris before becoming Archbishop of Canterbury in 1234. He pressed for church reform, clashed with Henry III and withdrew to the Cistercian abbey of Pontigny in France. He died at Soisy in 1240, was buried at Pontigny and was soon canonized.",
+    "searchDescription": "St. Edmund of Abingdon (Edmund Rich), feast November 16: Oxford teacher, reforming Archbishop of Canterbury and spiritual writer buried at Pontigny.",
+    "symbols": [
+      {
+        "symbol": "Archbishop's vestments, mitre and crozier",
+        "meaning": "His office as Archbishop of Canterbury. The seal of the Society of St. Edmund, the religious order founded at Pontigny in 1843, shows him vested as a bishop with mitre and staff."
+      },
+      {
+        "symbol": "Ring on a statue of Our Lady",
+        "meaning": "Tradition holds that as a young student he vowed chastity and placed a ring on the finger of Our Lady's statue at St Mary's, Oxford, wearing a matching ring himself as a pledge for the rest of his life."
+      },
+      {
+        "symbol": "The Christ Child",
+        "meaning": "Tradition holds that the Child Jesus appeared to him in the fields near Oxford. Afterward, the Catholic Encyclopedia says, he signed his forehead each night with the words \"Jesus of Nazareth\" and urged others to do the same."
+      }
+    ],
+    "whyWeTurn": "People turn to St. Edmund of Abingdon as a scholar who never let learning crowd out prayer. Tradition remembers a teacher who gave away his income to the poor, kept a strict personal discipline and was gentle with the sick. As archbishop he tried to reform the Church and keep peace in a divided kingdom, and he did not always succeed; his last months were spent in exile. His Mirror of Holy Church teaches ordinary believers to see God's goodness in creation, in Scripture and in prayer. Students, teachers and anyone carrying responsibility through conflict ask his prayers for wisdom and a peaceful heart.",
+    "quotes": [
+      {
+        "text": "To live perfectly, as St Bernard teaches us, is to live honourably, meekly and charitably.",
+        "work": "The Mirror of St Edmund (Speculum Ecclesiae), chapter II",
+        "translation": "Francesca M. Steele, The Mirror of St Edmund, done into modern English (1905), from Horstmann's edition of the Middle English Vernon and Thornton manuscripts (public domain)"
+      },
+      {
+        "text": "Contemplation is nothing else but the sight of the goodness of God.",
+        "work": "The Mirror of St Edmund (Speculum Ecclesiae), chapter VI, How Man shall see God in every Creature",
+        "translation": "Francesca M. Steele, The Mirror of St Edmund, done into modern English (1905), from Horstmann's edition of the Middle English Vernon and Thornton manuscripts (public domain)"
+      },
+      {
+        "text": "…care not if thou multiply not many Paters, for it is better to say one Pater noster with good devotion.",
+        "work": "The Mirror of St Edmund (Speculum Ecclesiae), chapter XVII, The Seven Prayers of the Pater Noster",
+        "translation": "Francesca M. Steele, The Mirror of St Edmund, done into modern English (1905), from Horstmann's edition of the Middle English Vernon and Thornton manuscripts (public domain)"
+      }
+    ],
+    "prayer": {
+      "text": "Lord God, you gave St. Edmund a love of learning and a deeper love for you. Through his prayers, help me to study honestly and to pray with my heart, not only with my lips. Teach me to see your goodness in creation, in Scripture and in the people around me. When I carry responsibility, make me fair and brave; when conflict wears me down, give me peace and keep me from bitterness. Bless all students and teachers, and help us to live honourably, meekly and charitably. Through Christ our Lord. Amen.",
+      "kind": "original",
+      "source": "Saint Discovery"
+    },
+    "feastCustoms": [
+      "Remember him on November 16, the day of his death. The national calendar for England lists him that day; he is not on the General Roman Calendar.",
+      "Before you sleep, trace the name of Jesus on your forehead, a custom the Catholic Encyclopedia says Edmund kept after his vision of the Christ Child and recommended to others.",
+      "Pray one Our Father slowly, phrase by phrase, following his advice in the Mirror that one Pater noster said with devotion is better than many said without it.",
+      "In England, the Diocese of Portsmouth honors him as its patron, and St Edmund's College, Ware, which was placed under his patronage in 1793, began its studies on his feast.",
+      "Pilgrims still visit the former Cistercian abbey church at Pontigny in Burgundy, where his body is venerated."
+    ],
+    "places": [
+      {
+        "name": "St Edmund Hall, University of Oxford",
+        "city": "Oxford, England",
+        "url": "https://www.seh.ox.ac.uk/discover/explore-teddy-hall/history-of-the-hall"
+      },
+      {
+        "name": "St Edmund's College",
+        "city": "Ware, England",
+        "url": "https://www.stedmundscollege.org/about-us/our-history/"
+      }
+    ],
+    "confirmationNote": "Edmund of Abingdon suits a confirmand who loves to learn, whether in mathematics, science or theology, and who wants study to lead to prayer. He taught at Oxford and Paris, gave generously to the poor, and later carried heavy responsibility in a divided Church and kingdom. Choosing his name can be a promise to let knowledge deepen faith, to pray sincerely and to seek peace when conflict comes.",
+    "reflectionPrompts": [
+      "When I pray, do my heart and my words go together, or do I rush through prayers I know by heart?",
+      "Each day this week, pray one Our Father very slowly, pausing on each phrase as St. Edmund suggests in his Mirror.",
+      "Read chapter VI of The Mirror of St Edmund (1905 translation), 'How Man shall see God in every Creature,' and note the three kinds of contemplation he describes."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "richard-of-chichester",
+        "reason": "Served as his chancellor and stayed with him in exile until his death at Soisy",
+        "historical": true
+      },
+      {
+        "slug": "thomas-becket",
+        "reason": "An earlier Archbishop of Canterbury who also took refuge at Pontigny during a conflict with the king",
+        "historical": true
+      },
+      {
+        "slug": "margaret-of-scotland",
+        "reason": "Shares the November 16 date in the calendar for England",
+        "historical": true
+      },
+      {
+        "slug": "anselm-of-canterbury",
+        "reason": "Another scholar-archbishop of Canterbury driven into exile by disputes with the crown",
+        "historical": false
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catholic Encyclopedia (1909): St. Edmund Rich",
+        "url": "https://www.newadvent.org/cathen/05294a.htm"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: National Calendar for England (16 November)",
+        "url": "https://www.liturgyoffice.org/Calendar/National/England2.shtml"
+      },
+      {
+        "title": "Liturgy Office of England and Wales: Proper of Saints, November",
+        "url": "https://www.liturgyoffice.org/Calendar/Sanctoral/November.shtml"
+      },
+      {
+        "title": "Society of Saint Edmund: About Saint Edmund",
+        "url": "https://sse.org/about-saint-edmund"
+      },
+      {
+        "title": "Society of Saint Edmund: The seal of the Society",
+        "url": "https://www.sse.org/post/celebrate-the-seal-of-the-society-of-saint-edmund"
+      },
+      {
+        "title": "Inside the Vatican: St. Edmund of Abingdon, November 16",
+        "url": "https://insidethevatican.com/magazine/meditation/st-edmund-abingdon-november-16/"
+      },
+      {
+        "title": "The Mirror of St Edmund, trans. Francesca M. Steele (1905), Internet Archive",
+        "url": "https://archive.org/details/mirrorofstedmund00edmu"
+      },
+      {
+        "title": "Catholic Encyclopedia (1912): St. Richard of Chichester",
+        "url": "https://www.newadvent.org/cathen/13043b.htm"
+      },
+      {
+        "title": "St Edmund Hall, Oxford: History of the Hall",
+        "url": "https://www.seh.ox.ac.uk/discover/explore-teddy-hall/history-of-the-hall"
+      },
+      {
+        "title": "St Edmund's College, Ware: Our history",
+        "url": "https://www.stedmundscollege.org/about-us/our-history/"
+      }
+    ],
+    "flags": [
+      "patronages: review lists none. The Catholic Encyclopedia names him patron of the Diocese of Portsmouth; no live topic.",
+      "symbols: the ring and Christ Child are stories from the Catholic Encyclopedia and Inside the Vatican that appear in his art (e.g. stained glass at Oxford), but no Catholic source was found that lists his attributes as such; the vestments rest on the Society of St. Edmund's seal. Human check suggested before treating this as a full v2 symbol set. The 'three circles' (his mother's dream image of the Trinity, shown on the Society of St. Edmund site) was left out as not clearly an established attribute.",
+      "heroSummary/biography: the review says canonized in 1246 (a date also given in Pontigny histories); Inside the Vatican gives 1247, and the Catholic Encyclopedia says only 'within six years.' The hero avoids a year. The Liturgy Office says he was appointed archbishop in 1233; the review's 1234 is the consecration date (2 April 1234, Catholic Encyclopedia), so no conflict.",
+      "quotes: the Mirror survives in Latin, French and Middle English versions; Steele's 1905 modern English is made from the Middle English text and is public domain. Wording checked against the Internet Archive scan. The first quote has Edmund citing St Bernard.",
+      "feastCustoms: the Liturgy Office lists him for England with no rank shown (an optional celebration); the Catholic Encyclopedia (1909) says his body is still venerated at Pontigny and Inside the Vatican says his shrine is behind the high altar. No official Pontigny or parish website was verified, so Pontigny is not in places.",
+      "prayer: original; no verified traditional prayer page from the Society of St. Edmund or a Catholic shrine was found.",
+      "places: St Edmund Hall takes its name from him and says he taught in a house on its site in the 1190s; St Edmund's College, Ware, is under his patronage. The Catholic Encyclopedia lists relics at Westminster Cathedral, St Edmund's College, Portsmouth Cathedral and Erdington Abbey, not verified as current.",
+      "symbols: ring and Christ Child are legends seen in art but not listed as attributes by a Catholic source — set to 1.5 (coordinator)"
     ]
   },
   "euphrasia": {
