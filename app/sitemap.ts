@@ -14,6 +14,7 @@ const CONTENT_UPDATED = new Date("2026-09-08");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticEntries: MetadataRoute.Sitemap = [
+    { url: absoluteUrl("/quiz"), lastModified: new Date("2026-11-13"), changeFrequency: "monthly", priority: 0.9 },
     { url: absoluteUrl("/resources/reading"), lastModified: new Date("2026-10-04"), changeFrequency: "monthly", priority: 0.7 },
     {
       url: absoluteUrl("/saint-of-day"),

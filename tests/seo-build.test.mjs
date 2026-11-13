@@ -194,10 +194,19 @@ test('directory and sitemap expose every saint without executing client JavaScri
     assert.ok(urls.includes(`${origin}/saints/${saint.slug}`), saint.slug);
   }
   assert.ok(urls.every(url => url.startsWith(`${origin}/`)));
-  assert.ok(!urls.includes(`${origin}/quiz`));
+  assert.ok(urls.includes(`${origin}/quiz`));
   const collection = jsonLd(directory).find(item => item['@type'] === 'CollectionPage');
   assert.equal(collection.mainEntity.itemListElement.length, saints.length);
   assert.equal(collection.mainEntity.numberOfItems, saints.length);
   const robots = read('.next/server/app/robots.txt.body');
   assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));
+});
+
+test('quiz is indexable with a distinct canonical and meaningful initial content', () => {
+  const source = html('quiz');
+  assert.ok(source.includes(`rel="canonical" href="${origin}/quiz"`));
+  assert.doesNotMatch(meta(source, 'robots'), /noindex/i);
+  assert.match(meta(source, 'robots'), /index/i);
+  assert.match(meta(source, 'description'), /Take the Catholic saint quiz/);
+  assert.match(decode(source), /Answer questions about your values and interests/);
 });
