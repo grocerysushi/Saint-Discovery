@@ -33751,5 +33751,715 @@
       "Symbols, quotations, and places are omitted because saint-specific attributes, exact public-domain wording, and an official visitor page were not independently verified.",
       "Source access: USCCB Bible and memorial pages returned HTTP 403 to direct checking; indexed texts and the Holy See decree were available."
     ]
+  },
+  "martial": {
+    "templateVersion": 2,
+    "heroSummary": "St. Martial is honored as a protector of Limoges, where tradition remembers him as its first bishop. Gregory of Tours places him among seven bishops sent from Rome to Gaul in the third century. Later stories made him a direct disciple of Jesus, a claim historians do not accept as established.",
+    "searchDescription": "Meet St. Martial, early bishop of Limoges, remembered on June 30 in a tradition shaped by history and legend.",
+    "whyWeTurn": "People may ask St. Martial's prayers when seeking courage to share their faith or care for their local community. He is remembered as an early bishop of Limoges, although reliable details of his life are few. Centuries later, people brought his relics in procession while praying during an epidemic; local tradition remembers this gathering as part of the origins of the Limousin ostensions. His story invites care with both faith and history: honoring a community's devotion does not require treating every later legend as an established fact. It can also encourage practical solidarity with neighbors who are ill.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of every place and generation, thank you for the people who have shared faith with their neighbors. Through the prayers of St. Martial, help me listen before I speak and serve the community where I live. Give wisdom to those who lead, comfort to people who are sick, and strength to those who care for them. Teach us to seek reliable knowledge, to respect the traditions we inherit, and to respond to suffering with practical kindness. May our words and actions make your love visible. Amen."
+    },
+    "feastCustoms": [
+      "On June 30, remember St. Martial and pray for the people of Limoges and their neighbors.",
+      "Learn about the Limousin ostensions, the regional tradition of honoring local saints and their relics.",
+      "Choose a practical way to support a neighbor who is sick or isolated.",
+      "Read about the early Christian communities of Gaul and note which accounts come from later centuries."
+    ],
+    "confirmationNote": "Martial may interest a Confirmation candidate who wants to connect faith with service to a particular place. With a sponsor, compare Gregory of Tours's account of bishops sent to Gaul with later legends about Martial. Discuss how a community can remember its saints honestly while caring for its neighbors today. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What do I value about the community where I live?",
+      "Choose one concrete way to support someone who is isolated this week.",
+      "How does the Diocese of Bordeaux distinguish Gregory of Tours's account of Martial from later legends?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "denis",
+        "reason": "Gregory of Tours lists Denis and Martial among seven bishops sent to Gaul.",
+        "historical": true
+      },
+      {
+        "slug": "saturninus",
+        "reason": "Gregory of Tours also names Saturninus among the seven bishops sent to Gaul.",
+        "historical": true
+      },
+      {
+        "slug": "martin-of-tours",
+        "reason": "A later bishop associated with the Church in Gaul.",
+        "historical": false
+      },
+      {
+        "slug": "irenaeus-of-lyon",
+        "reason": "An earlier bishop remembered for his Christian teaching in Gaul.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Archdiocese of Bordeaux: Saint Martial",
+        "url": "https://bordeaux.catholique.fr/le-diocese/decouvrir-le-diocese/presentation/les-saints-du-diocese/saint-martial/"
+      },
+      {
+        "title": "Catholic Church in France: Limousin ostensions",
+        "url": "https://eglise.catholique.fr/actualites/364097-les-71emes-ostensions-limousines-entre-profane-et-sacre/"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Martial",
+        "url": "https://www.newadvent.org/cathen/09721c.htm"
+      },
+      {
+        "title": "Diocese of Angoulême: The Limousin ostensions",
+        "url": "https://charente.catholique.fr/est-charente/actualites/2023-les-ostensions-septennales-limousines-merci-wikipedia/"
+      }
+    ],
+    "flags": [
+      "The Diocese of Bordeaux identifies Martial with the seven bishops in Gregory of Tours's account, not as a historically established eyewitness of Jesus. The Catholic Encyclopedia emphasizes that exact dates and biographical details are uncertain.",
+      "The Limoges protector designation is local; no matching live patronage topic was confirmed.",
+      "The seven-bishop connection to Denis and Saturninus follows Gregory's account and does not claim a personal meeting.",
+      "Symbols, quotations and places are omitted pending independent verification; other feast activities are suggestions.",
+      "The tradition surrounding the 994 procession is attributed to local memory; it does not claim prayer replaced medical care."
+    ]
+  },
+  "martin-de-porres": {
+    "templateVersion": 2,
+    "heroSummary": "St. Martin de Porres is a patron of barbers and of people seeking racial harmony. Born in Lima in 1579, he became a Dominican lay brother and cared for people who were sick or poor. His feast is November 3. Pope John XXIII canonized him in 1962.",
+    "searchDescription": "Meet St. Martin de Porres, Dominican brother and patron of barbers and racial harmony, remembered on November 3.",
+    "whyWeTurn": "People turn to St. Martin de Porres when seeking to care for others and confront racial prejudice. The son of a Spanish father and a formerly enslaved mother of African descent, he lived in colonial Lima, where racial hierarchy shaped opportunities and relationships. As a Dominican brother he served his community and cared for people who were ill. His example invites respect for work that can go unnoticed and a commitment to human dignity. Asking his prayers for racial harmony does not replace the work of listening to people affected by racism and challenging injustice in everyday life.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, thank you for the life of St. Martin de Porres and for the care he gave to others. Through his prayers, help me notice people whose needs are overlooked and treat every person with dignity. Give strength and wisdom to health workers, those who serve in quiet ways, and all who work for justice. Help me recognize prejudice in myself and my community, listen with humility, and take a practical step toward reconciliation. May our care for one another reflect your love. Amen."
+    },
+    "feastCustoms": [
+      "On November 3, remember Martin and pray for people working in health care and for racial justice.",
+      "Read a Dominican account of his life and consider the different forms his service took.",
+      "Support a local organization providing care or food, following its guidance on what is needed.",
+      "Thank someone whose work of cleaning, caregiving, or service is often overlooked."
+    ],
+    "confirmationNote": "Martin may interest a Confirmation candidate drawn to health care, service, or racial justice. Read his story with a sponsor and discuss how his work in a Dominican community responded to real needs in colonial Lima. Consider a concrete way to respect the dignity of people whose work or experiences are overlooked. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone's quiet act of care helped me feel valued?",
+      "Identify one way to support a person or group facing exclusion, and follow through.",
+      "What does the Dominican account say about Martin's work before and after he became a lay brother?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "rose-of-lima",
+        "reason": "Rose and Martin were Dominican contemporaries in Lima.",
+        "historical": true
+      },
+      {
+        "slug": "john-xxiii",
+        "reason": "Pope John XXIII canonized Martin in 1962.",
+        "historical": true
+      },
+      {
+        "slug": "benedict-the-moor",
+        "reason": "Another saint remembered in connection with racial harmony and service.",
+        "historical": false
+      },
+      {
+        "slug": "dominic",
+        "reason": "Founder of the Order of Preachers, the Dominican family to which Martin belonged.",
+        "historical": true
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Dominican Mission Foundation: Our Patron, St. Martin de Porres",
+        "url": "https://www.dominicanmission.org/st-martin-de-porres-patron"
+      },
+      {
+        "title": "Diocese of Montreal: Saint Martin de Porres",
+        "url": "https://diocesemontreal.org/en/node/1990"
+      },
+      {
+        "title": "Pope John XXIII: Canonization homily, 1962 (Spanish)",
+        "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1962/documents/hf_j-xxiii_hom_19620506_martino-porres.html"
+      },
+      {
+        "title": "Dominican Friars: A Communion of Friends",
+        "url": "https://www.opcentral.org/node/9811"
+      }
+    ],
+    "flags": [
+      "The Diocese of Montreal names barbers and racial harmony among Martin's patronages; neither currently resolves as a published patronage topic, so no link is added.",
+      "The original prayer and reflections do not make experiencing discrimination a virtue or suggest reconciliation removes the obligation to address injustice.",
+      "Rose of Lima and Martin lived in Lima in overlapping years; the Dominican source reports a friendship, but the entry claims only that they were contemporaries.",
+      "John XXIII's Vatican homily verifies the canonization; the title of that source identifies its Spanish language.",
+      "Symbols, quotations and places omitted pending independent verification; feast activities are suggestions."
+    ]
+  },
+  "martin-i": {
+    "templateVersion": 2,
+    "heroSummary": "St. Martin I was a seventh-century pope remembered as a martyr. In 649 he convened a Lateran council during a dispute over Christ's human and divine wills. Arrested and taken to Constantinople, he died in exile in 655. The Church remembers him on April 13.",
+    "searchDescription": "Meet St. Martin I, pope and martyr, remembered on April 13 for his witness during a seventh-century theological dispute.",
+    "whyWeTurn": "People may ask St. Martin I's prayers when trying to speak truthfully and remain faithful during conflict. As pope he convened a council that defended the Church's teaching that Christ has a human will as well as a divine will. He was arrested despite ill health and later died in exile. His story is not an invitation to seek suffering or to avoid wise help. It can encourage careful study, courage in conscience, and concern for people who face imprisonment or displacement. It also reminds readers to approach difficult disagreements without losing sight of human dignity.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of truth and compassion, thank you for the witness of St. Martin I. Through his prayers, help me seek understanding before I speak and act with courage when honesty is difficult. Comfort those who are imprisoned, displaced, ill, or separated from people they love. Give wisdom to leaders and patience to communities facing disagreement. Help us defend the dignity of others without treating opponents as less human. Teach me to ask for help when I need it and to offer practical support where I can. Amen."
+    },
+    "feastCustoms": [
+      "On April 13, remember Pope Martin I and pray for people who are imprisoned or displaced.",
+      "Read Pope Benedict XVI's account of St. Maximus and the Lateran council convened by Martin.",
+      "Learn how a local organization supports prisoners, refugees, or their families, and consider a suitable way to help.",
+      "Discuss a difficult disagreement with someone you trust, practicing careful listening as well as honest speech."
+    ],
+    "confirmationNote": "Martin I may interest a Confirmation candidate who wants to explore courage, conscience, and the Church's teaching about Jesus. With a sponsor, read an accessible account of the 649 Lateran council and ask why the Church affirmed Christ's human will. Discuss how to speak truthfully while treating others with respect and seeking support. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has it been difficult for me to speak honestly and respectfully?",
+      "Take one practical step to support people who are isolated or displaced.",
+      "What does Benedict XVI say the Lateran council defended, and why did Martin face opposition?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "clement-i",
+        "reason": "John Paul II remembered Clement I and Martin I as popes who died after exile to Crimea.",
+        "historical": true
+      },
+      {
+        "slug": "leo-the-great",
+        "reason": "An earlier pope whose teaching also addressed questions about Christ.",
+        "historical": false
+      },
+      {
+        "slug": "athanasius",
+        "reason": "An earlier bishop who defended Christian teaching and experienced exile.",
+        "historical": false
+      },
+      {
+        "slug": "john-xxiii",
+        "reason": "A later pope who convened a council of the Church.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Pope Benedict XVI: General audience on St. Maximus the Confessor",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2008/documents/hf_ben-xvi_aud_20080625.html"
+      },
+      {
+        "title": "Vatican News: St. Martin I, Pope and Martyr",
+        "url": "https://www.vaticannews.va/en/saints/04/13/st--martin-i--pope-and-martyr.html"
+      },
+      {
+        "title": "Pope John Paul II: Arrival in Ukraine, 2001",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/speeches/2001/june/documents/hf_jp-ii_spe_20010623_ucraina-arrival.html"
+      },
+      {
+        "title": "Franciscan Media: Saint Martin I",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-martin-i/"
+      }
+    ],
+    "flags": [
+      "No specific patronage was asserted; the existing 'popes, the Papacy' claims were not independently confirmed.",
+      "Benedict XVI identifies the 649 council and Martin's exile; John Paul II also recalls Clement I's deportation to Crimea. The relationship does not imply the two popes met.",
+      "Vatican News lists April 13; the older Catholic Encyclopedia gives other historical calendar dates.",
+      "Symbols, quotations and places omitted pending independent verification; feast activities are suggestions, not claimed historical customs.",
+      "The account avoids presenting suffering or avoiding help as obligations."
+    ]
+  },
+  "martin-of-tours": {
+    "templateVersion": 2,
+    "heroSummary": "St. Martin of Tours, a patron of the Pontifical Swiss Guard, was a fourth-century soldier who became a monk and bishop in Gaul. An early account tells how he shared his cloak with a man in need and later dreamed of Christ wearing it. The Church remembers Martin on November 11.",
+    "searchDescription": "Meet St. Martin of Tours, the soldier and bishop remembered for sharing his cloak, and explore his life, prayer, and November 11 feast.",
+    "whyWeTurn": "People may ask St. Martin's prayers when they want to respond generously to someone in need or discern how faith belongs in their work. Sulpicius Severus, a near-contemporary writer, tells the story of Martin sharing his cloak with a man exposed to the cold and then seeing Christ wearing it in a dream. Martin later embraced monastic life and served as bishop of Tours. His example invites practical sharing without treating people in poverty as projects. It can also encourage prayer for those making difficult decisions about service, conscience, and responsibility to others.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, thank you for the example of St. Martin and his care for a neighbor in need. Through his prayers, make me attentive to the people I might otherwise overlook. Help me share what I have with respect, listen before deciding how to help, and act with courage when generosity is difficult. Guide people who serve in public life and those facing hard questions of conscience. May my prayer lead me toward patient, practical love. Amen."
+    },
+    "feastCustoms": [
+      "On November 11, remember Martin and pray for neighbors who lack adequate clothing or shelter.",
+      "Read Matthew 25:31–40 and consider the connection between care for a neighbor and love of Christ.",
+      "Ask a local shelter what items are needed before donating clean clothing.",
+      "Make time for quiet prayer and choose one concrete act of generosity for the week."
+    ],
+    "confirmationNote": "Martin may speak to a Confirmation candidate who wants to unite prayer with practical service. His life moved through military service, monastic community, and leadership as bishop. Read the early account of the cloak with a sponsor, and discuss how a small act of attention can shape a larger commitment to others. Follow your parish's guidance for choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone noticed a need of mine and responded with kindness?",
+      "Ask a community organization what would be useful, then offer an appropriate donation or another form of help.",
+      "Read Sulpicius Severus's account of Martin and compare its cloak story with Matthew 25:31–40."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "hilary-of-poitiers",
+        "reason": "Martin joined Hilary at Poitiers before beginning his monastic community.",
+        "historical": true
+      },
+      {
+        "slug": "anthony-the-great",
+        "reason": "An earlier monk remembered for a life of prayer and discipline.",
+        "historical": false
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "A later saint whose life also invites reflection on poverty and generosity.",
+        "historical": false
+      },
+      {
+        "slug": "vincent-de-paul",
+        "reason": "A later French saint associated with organized care for people in need.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Pope Benedict XVI: Angelus on St. Martin of Tours",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/angelus/2007/documents/hf_ben-xvi_ang_20071111.html"
+      },
+      {
+        "title": "Sulpicius Severus: Life of St. Martin",
+        "url": "https://www.newadvent.org/fathers/3501.htm"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Martin of Tours",
+        "url": "https://www.newadvent.org/cathen/09732b.htm"
+      },
+      {
+        "title": "Pontifical Swiss Guard: Profile and patrons",
+        "url": "https://www.vatican.va/content/romancuria/en/guardia-svizzera-pontificia/corpo-della-guardia-svizzera-pontificia/profilo.html"
+      }
+    ],
+    "flags": [
+      "The cloak and dream are presented as an early hagiographical account, not independently verified observations.",
+      "A Swiss Guard patronage is documented by a Holy See homily, but no matching live patronage topic was established; no index slug is added.",
+      "Symbols, quotations, and places are omitted pending independent verification; no text is attributed to Martin."
+    ]
+  },
+  "mary-mackillop": {
+    "templateVersion": 2,
+    "heroSummary": "St. Mary of the Cross MacKillop, a secondary patron of Australia, was a teacher and cofounder of the Sisters of Saint Joseph of the Sacred Heart. Beginning at Penola, she helped bring education to children whose families had limited access to schooling. She is especially remembered on August 8.",
+    "searchDescription": "Discover St. Mary MacKillop, Australian educator and cofounder of the Sisters of Saint Joseph, and her feast on August 8.",
+    "whyWeTurn": "People may ask Mary MacKillop's prayers for teachers, students, and families who face obstacles to education. With Father Julian Tenison Woods, she helped begin a school in a former stable at Penola and cofound a religious community committed to serving people in need. Her congregation also encountered conflict and hardship as its work expanded. Her story encourages patience and practical cooperation without pretending that difficult situations have simple solutions. Teachers and caregivers can ask for her intercession while seeking the resources, rest, and support needed to help children learn.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Loving God, thank you for St. Mary MacKillop and her care for children and families with limited access to schooling. Through her prayers, bless teachers, students, and everyone who supports their learning. Give courage to those working through obstacles, wisdom to people making decisions about education, and rest to caregivers who feel stretched thin. Help me notice where practical support is needed and work with others in ways that respect each person's dignity. Keep our communities patient, generous, and open to hope. Amen."
+    },
+    "feastCustoms": [
+      "On August 8, remember Mary of the Cross and pray for students, teachers, and families.",
+      "Learn about the Sisters of Saint Joseph and their continuing work in education and service.",
+      "Thank a teacher or school volunteer for a specific way they have helped others.",
+      "Ask a school or educational charity what supplies or support it actually needs."
+    ],
+    "confirmationNote": "Mary MacKillop may interest a Confirmation candidate who cares about education and practical service. Explore how she and Father Julian Tenison Woods responded to needs in rural Australia, and discuss with a sponsor how cooperation and perseverance can support a community. Consider one attainable way to encourage a learner or educator. Follow your parish's guidance for choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "Who has helped me learn when something was difficult, and how did that support matter?",
+      "Choose one practical way to support a learner or thank an educator this week.",
+      "Read the Sisters of Saint Joseph's account of their beginnings in Penola. What needs were they trying to address?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "andr-bessette",
+        "reason": "Canonized at the same 2010 ceremony as Mary; no personal meeting is implied.",
+        "historical": true
+      },
+      {
+        "slug": "joseph",
+        "reason": "Her congregation bears the name of St. Joseph, to whom she prayed.",
+        "historical": false
+      },
+      {
+        "slug": "elizabeth-ann-seton",
+        "reason": "An educator whose religious community also served families and children.",
+        "historical": false
+      },
+      {
+        "slug": "mother-teresa",
+        "reason": "A later religious founder remembered for practical care for people in need.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Sisters of Saint Joseph: Mary MacKillop",
+        "url": "https://www.sosj.org.au/founded-to-respond/mary-mackillop/"
+      },
+      {
+        "title": "Sisters of Saint Joseph: South Australia, 1866",
+        "url": "https://www.sosj.org.au/founded-to-respond/timeline/south-australia/"
+      },
+      {
+        "title": "Pope Benedict XVI: Canonization homily, 2010",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2010/documents/hf_ben-xvi_hom_20101017_canonizations.html"
+      },
+      {
+        "title": "Pope Francis: General audience on Mary MacKillop, 2023",
+        "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2023/06/28/230628b.html"
+      },
+      {
+        "title": "Catholic Diocese of Broken Bay: St. Mary MacKillop",
+        "url": "https://www.bbcatholic.org.au/pymble/news-and-events/parish-news/st-mary-mackillop"
+      }
+    ],
+    "flags": [
+      "The August 8 observance is especially associated with Australia and New Zealand; no universal rank is asserted.",
+      "André Bessette shared her canonization ceremony; this does not imply personal acquaintance.",
+      "The Diocese of Broken Bay supports the secondary patronage of Australia, but the Australia topic is not currently live; no link is added. Symbols, quotations and places omitted pending verification."
+    ]
+  },
+  "mary-magdalene": {
+    "templateVersion": 2,
+    "heroSummary": "St. Mary Magdalene, honored as a patron of penitents, was a disciple of Jesus and a witness to his death and resurrection. John’s Gospel describes the risen Christ sending her to tell the disciples what she had seen. The Roman Church celebrates her feast on July 22.",
+    "searchDescription": "Meet St. Mary Magdalene, a disciple and witness to the risen Jesus, and learn about her July 22 feast and Gospel witness.",
+    "whyWeTurn": "People may ask Mary Magdalene's prayers when they are grieving, seeking hope, or trying to speak honestly about their faith. The Gospels remember her among Jesus' followers and witnesses to his death. In John's account she comes to the tomb, encounters the risen Jesus, and brings his message to the disciples. Her witness invites patient attention to grief as well as the courage to share good news. The Gospels do not establish that she is Mary of Bethany or the unnamed woman who anoints Jesus; later Western tradition sometimes identified these women with one another.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Risen Lord, thank you for Mary Magdalene and her witness to your life beyond the tomb. Through her prayers, stay close to people who are grieving and to all who feel uncertain about where to find hope. Help me listen for your call, meet others with compassion, and share the good news with humility and care. Give courage to women and men who serve your Church, and teach us to support one another as faithful witnesses. Amen."
+    },
+    "feastCustoms": [
+      "On July 22, celebrate Mary Magdalene's feast and pray for people who share the Gospel.",
+      "Read John 20:1–18 and notice how Mary's response changes through the account.",
+      "Make time to listen to someone who is grieving, without trying to fix their feelings.",
+      "Share an encouraging message with someone who has helped you grow in faith."
+    ],
+    "confirmationNote": "Mary Magdalene may interest a Confirmation candidate drawn to listening, faithful friendship, and sharing the Gospel. Read John 20 with a sponsor and consider why the Church honors her witness to the risen Christ. Reflect on how to communicate hope without dismissing another person's grief. Follow your parish's guidance for choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When have I needed someone to listen to my grief or uncertainty?",
+      "Offer attentive company to someone this week and ask what kind of support they would welcome.",
+      "Read John 20:1–18 and compare its account with the Vatican's explanation of Mary Magdalene's feast."
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter",
+        "reason": "John 20 describes Mary telling Simon Peter that the stone had been removed from the tomb.",
+        "historical": true
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "Traditionally associated with the Gospel account in which Mary announces the Resurrection.",
+        "historical": false
+      },
+      {
+        "slug": "martha",
+        "reason": "Her sister Mary of Bethany is distinguished from Mary Magdalene in the present Roman liturgy.",
+        "historical": false
+      },
+      {
+        "slug": "thomas-the-apostle",
+        "reason": "Another disciple whose encounter with the risen Jesus is recounted in John 20.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Vatican News: Saint Mary Magdalene",
+        "url": "https://www.vaticannews.va/en/liturgical-holidays/saint-mary-magdalene.html"
+      },
+      {
+        "title": "Holy See: Decree raising the celebration of St. Mary Magdalene to a feast",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/sanctae-m-magdalenae-decretum_en.pdf"
+      },
+      {
+        "title": "Holy See: The new preface of Saint Mary Magdalene",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/il-nuovo-prefazio-maddalena-articolo_en.pdf"
+      },
+      {
+        "title": "Saint John Paul II: Mulieris Dignitatem",
+        "url": "https://www.vatican.va/content/john-paul-ii/en/apost_letters/1988/documents/hf_jp-ii_apl_15081988_mulieris-dignitatem.html"
+      },
+      {
+        "title": "Franciscan Media: Saint Mary Magdalene",
+        "url": "https://www.franciscanmedia.org/saint-of-the-day/saint-mary-magdalene/"
+      }
+    ],
+    "flags": [
+      "The Gospel does not establish that Mary Magdalene was Mary of Bethany or the unnamed woman who anointed Jesus; the distinct Roman liturgical observance is followed.",
+      "Peter is identified in John 20; the Gospel's authorship is presented as tradition and no additional personal meeting is asserted.",
+      "Franciscan Media names her patron of penitents, but the corresponding topic is not currently live; no link is added. This does not identify her as the unnamed woman in Luke. Other patronages, symbols, quotations and places are omitted pending verification."
+    ]
+  },
+  "mary-of-egypt": {
+    "templateVersion": 1.5,
+    "heroSummary": "St. Mary of Egypt is remembered in an ancient story of repentance and life in the desert. Her traditional account tells of a journey to Jerusalem, years of solitude beyond the Jordan, and an encounter with the monk Zosimas. Her story has long been cherished especially in Eastern Christian traditions.",
+    "searchDescription": "Discover St. Mary of Egypt, the desert ascetic whose traditional story speaks of repentance and hope.",
+    "whyWeTurn": "People may seek Mary's intercession when beginning again feels difficult or when they need hope that change is possible. Her life reaches us through a devotional narrative rather than a modern biography: it describes her journey toward Jerusalem and years in the desert, then her conversation with the monk Zosimas. The story places prayer and mercy at the center of repentance. It need not be read as an instruction to seek isolation, deny necessary care, or judge another person's past. A small, supported step toward healing and reconciliation can be a fitting response today.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Merciful God, thank you for your patience when I struggle to begin again. Through the prayers of St. Mary of Egypt, help me recognize the next good step and ask for help when I need it. Give courage to people who feel defined by their past and surround them with trustworthy care. Teach me to listen without judgment, to choose what supports healing, and to trust your mercy. May my choices reflect compassion for myself and for others. Amen."
+    },
+    "feastCustoms": [
+      "Read a reliable account of Mary's traditional life and notice where it distinguishes history from devotional storytelling.",
+      "Set aside a few quiet minutes for prayer, adapting the time and setting to your circumstances.",
+      "Encourage someone who is making a difficult new beginning without asking them to share more than they wish.",
+      "Learn how Eastern Christian communities remember Mary during Lent."
+    ],
+    "confirmationNote": "Mary of Egypt may interest a Confirmation candidate drawn to stories of conversion and God's mercy. Read her traditional life with a sponsor and discuss how storytelling can carry spiritual meaning while leaving historical questions open. Consider what a healthy, supported new beginning might look like in everyday life. Ask your parish about its guidance for choosing a Confirmation saint.",
+    "reflectionPrompts": [
+      "Where might I need hope that a fresh start is possible?",
+      "What small, supported step could I take toward healing or reconciliation?",
+      "How does a source distinguish Mary's traditional story from historically documented facts?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "anthony-the-great",
+        "reason": "An earlier Egyptian ascetic associated with the desert monastic tradition.",
+        "historical": true
+      },
+      {
+        "slug": "augustine-of-hippo",
+        "reason": "A late antique Christian whose writings also explore conversion and God's mercy.",
+        "historical": true
+      },
+      {
+        "slug": "francis-of-assisi",
+        "reason": "A later saint whose conversion invites reflection on a changed direction in life.",
+        "historical": false
+      },
+      {
+        "slug": "mary-magdalene",
+        "reason": "A disciple whose story invites reflection on faithfulness and hope.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Vatican News: St. Mary of Egypt, penitent",
+        "url": "https://www.vaticannews.va/en/saints/04/02/st--mary-of-egypt--saint-mary--aegyptica---penitent.html"
+      },
+      {
+        "title": "Vatican News: News from the Orient, April 9, 2025",
+        "url": "https://www.vaticannews.va/en/church/news/2025-04/news-from-the-orient-april-9-2025.html"
+      },
+      {
+        "title": "Catholic Online: St. Mary of Egypt",
+        "url": "https://www.catholic.org/saints/saint.php?saint_id=398"
+      }
+    ],
+    "flags": [
+      "REVIEW REQUIRED: the existing card states April 1 while Vatican News and Catholic Online list April 2; Eastern and Western commemorations may differ. Hold at 1.5 until the existing card and applicable calendar are reconciled.",
+      "The traditional narrative is presented as hagiography, not as independently verified chronology; no assumption about moral responsibility for exploitation is made.",
+      "Anthony and Augustine lived in the late antique period; no meeting with Mary is implied.",
+      "Symbols, quotations and places omitted pending verification; activities are suggestions rather than documented customs."
+    ]
+  },
+  "matilda-of-ringelheim": {
+    "templateVersion": 2,
+    "heroSummary": "St. Matilda of Ringelheim was a tenth-century queen in the early German kingdom, remembered for generosity to people in need and support for religious communities. A wife and mother, she continued her charitable and religious work as a widow. She died at Quedlinburg in 968 and is remembered on March 14.",
+    "searchDescription": "Meet St. Matilda of Ringelheim, a queen and widow remembered for charity and support of religious communities.",
+    "whyWeTurn": "People may ask Matilda's prayers as they consider how to use their resources, meet responsibilities, or care for others amid family tensions. Accounts of her life describe gifts to people in need and support for monasteries. They also place her within the political struggles of a royal family; her circumstances were complex, not a simple lesson that families should always agree. Her example can prompt practical questions about generosity: what can I share responsibly, whose needs should I listen to, and how might I support work that lasts beyond one immediate gift?",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Generous God, thank you for the people who share their time, resources, and care with their neighbors. Through the prayers of St. Matilda, help me notice needs close to home and respond with wisdom. Give patience to families facing conflict, comfort to those who grieve, and practical support to people who lack what they need. Guide those who hold responsibility to use it justly. Teach me to give without seeking praise and to welcome the help of others. Amen."
+    },
+    "feastCustoms": [
+      "On March 14, remember Matilda and pray for people experiencing poverty or family difficulty.",
+      "Learn about a local organization serving neighbors and ask what assistance it needs.",
+      "Read about Quedlinburg and the religious communities associated with Matilda.",
+      "Share a meal or make a thoughtful gift within your own means."
+    ],
+    "confirmationNote": "Matilda may interest a Confirmation candidate who wants to connect faith with generosity and responsible leadership. With a sponsor, explore how her royal position shaped both her opportunities and her family conflicts. Then discuss an ordinary way to use your own time or resources for someone else's good. Follow your parish's guidance when choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "What resources or responsibilities have I been entrusted with?",
+      "How can I support a local effort in a way its community actually needs?",
+      "What do reliable accounts say about Matilda's charity and the political setting of her life?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "adelaide-of-italy",
+        "reason": "Another tenth-century queen associated with the Ottonian royal family.",
+        "historical": true
+      },
+      {
+        "slug": "elizabeth-of-hungary",
+        "reason": "A later royal saint remembered for charity to people in need.",
+        "historical": false
+      },
+      {
+        "slug": "catherine-of-siena",
+        "reason": "A later laywoman remembered for serving people in need and the Church.",
+        "historical": false
+      },
+      {
+        "slug": "louis-ix",
+        "reason": "A later ruler whose life also invites reflection on faith and public responsibility.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Vatican City State: March 14, Saint Matilda, Queen",
+        "url": "https://www.vaticanstate.va/en/component/content/article/march-14-saint-matilda-queen.html?Itemid=216&catid=51"
+      },
+      {
+        "title": "Catholic Encyclopedia: St. Matilda",
+        "url": "https://www.newadvent.org/cathen/10049a.htm"
+      },
+      {
+        "title": "Diocese of Arlington: 2024 Lent Guidebook",
+        "url": "https://www.arlingtondiocese.org/uploadedImages/CDA/Assets/PDF/Multicultural%20Ministries/2024%20Lent%20Guidebook-web.pdf"
+      }
+    ],
+    "flags": [
+      "A parish bulletin names widows as a patronage, but no matching live patronage link was independently verified; patronages omitted.",
+      "Adelaide and Matilda were associated with the same tenth-century royal family; no personal meeting is asserted.",
+      "Symbols, quotations and places omitted pending independent verification; feast activities are suggestions."
+    ]
+  },
+  "matthew": {
+    "templateVersion": 2,
+    "heroSummary": "St. Matthew the Apostle is honored as a patron of accountants. The Gospels include him among the Twelve and describe Jesus calling a tax collector named Matthew to follow him. Christian tradition associates him with the Gospel bearing his name. The Roman Church celebrates his feast on September 21.",
+    "searchDescription": "Meet St. Matthew the Apostle, patron of accountants, and explore his call and the Gospel associated with him.",
+    "whyWeTurn": "People may ask Matthew's prayers when they are seeking a fresh start or trying to use money and responsibilities honestly. In Matthew's Gospel, Jesus calls him from his work as a tax collector, and he responds by following. Pope Benedict XVI reflected on that call as a sign of Christ's invitation and mercy. The Gospel bearing Matthew's name has been attributed to him by Christian tradition; questions about how it reached its present form deserve careful study. His story can invite us to consider what faithful choices look like in ordinary work and relationships.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "God of mercy, thank you for calling people to follow you in the midst of ordinary life. Through the prayers of St. Matthew, help me respond with honesty, generosity, and courage. Guide everyone who works with money to act fairly and remember the people affected by their decisions. When I need to change direction, give me wisdom and trustworthy companions. Teach me to welcome others and to listen to the Gospel with an open heart. Amen."
+    },
+    "feastCustoms": [
+      "On September 21, remember Matthew and pray for people who work with financial records.",
+      "Read Matthew 9:9–13 and consider how Jesus responds to those at the meal.",
+      "Choose one practical way to use money fairly or support a neighbor.",
+      "Explore an artwork depicting Matthew's call and discuss what the artist emphasizes."
+    ],
+    "confirmationNote": "Matthew may appeal to a Confirmation candidate who wants to reflect on following Jesus in ordinary work and decisions. Read the account of his call with a sponsor and consider how mercy and honesty shape your choices. Explore the Gospel associated with his name, taking care to distinguish early tradition from questions of authorship. Follow your parish's guidance about choosing a Confirmation saint.",
+    "reflectionPrompts": [
+      "When have I been invited to make a meaningful change?",
+      "What is one fair and generous choice I can make with the resources I have?",
+      "Compare Matthew 9:9–13 with Mark 2:13–17. What names and details appear in each account?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter",
+        "reason": "Peter and Matthew are named among the Twelve in the apostolic lists.",
+        "historical": true
+      },
+      {
+        "slug": "mark-the-evangelist",
+        "reason": "A fellow evangelist whose Gospel also tells of a tax collector's call.",
+        "historical": true
+      },
+      {
+        "slug": "matthias",
+        "reason": "Another apostle, distinct from Matthew despite their similar names.",
+        "historical": true
+      },
+      {
+        "slug": "luke-the-evangelist",
+        "reason": "Another evangelist whose Gospel presents a parallel account of a tax collector's call.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Pope Benedict XVI: General Audience on Matthew",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20060830.html"
+      },
+      {
+        "title": "Vatican News: St. Matthew, apostle and evangelist",
+        "url": "https://www.vaticannews.va/en/saints/09/21/st---mattew--apostle-and-evangelist.html"
+      },
+      {
+        "title": "Catholic Culture: The Calling of Saint Matthew",
+        "url": "https://www.catholicculture.org/commentary/call-saint-matthew/"
+      }
+    ],
+    "flags": [
+      "Catholic Culture names accountants as a patronage; no matching live patronage topic was established, so no index slug was added.",
+      "Gospel authorship is described as Christian tradition rather than a settled modern scholarly conclusion; identification of Matthew and Levi is not asserted as certain.",
+      "Symbols, quotations and places omitted pending verification; activities are suggestions."
+    ]
+  },
+  "matthias": {
+    "templateVersion": 2,
+    "heroSummary": "St. Matthias was chosen to join the apostles after Judas Iscariot's departure. The Acts of the Apostles describes the community praying and casting lots between Matthias and Joseph Barsabbas. It presents Matthias as a witness to Jesus' ministry and resurrection. The Roman Church celebrates his feast on May 14.",
+    "searchDescription": "Discover St. Matthias, the apostle chosen after prayer and the casting of lots in the Acts of the Apostles.",
+    "whyWeTurn": "People may ask Matthias's prayers when they are discerning how to serve or learning to be faithful in work that receives little attention. Acts tells how the community named two candidates, prayed, and cast lots; Matthias joined the Eleven as a witness to the resurrection. Scripture gives few details of his later life, so stories of his travels and death are best treated with care. His selection also belongs to a particular moment in the early Church and does not mean that casting lots is the required way for people to make decisions today.",
+    "prayer": {
+      "kind": "original",
+      "source": "Saint Discovery",
+      "text": "Faithful God, thank you for calling people to serve in many different ways. Through the prayers of St. Matthias, help me listen carefully before making decisions and ask for the wisdom of others. Give patience to those whose good work is unseen and courage to those beginning a new responsibility. Teach our communities to pray, cooperate, and care for one another. May my words and actions bear witness to your love in the place where I am today. Amen."
+    },
+    "feastCustoms": [
+      "On May 14, remember Matthias and pray for people beginning a new responsibility.",
+      "Read Acts 1:15–26 and notice the roles of prayer and community in the account.",
+      "Thank someone whose faithful work often goes unnoticed.",
+      "Discuss a current decision with a trustworthy mentor and take time to reflect."
+    ],
+    "confirmationNote": "Matthias may interest a Confirmation candidate who values steady service and thoughtful discernment. Read Acts 1 with a sponsor and explore why the early community sought a witness to Jesus' resurrection. Discuss ways to listen, pray, and seek wise advice when facing a decision. Follow your parish's guidance about choosing a Confirmation name.",
+    "reflectionPrompts": [
+      "When has someone encouraged me to serve in a new way?",
+      "Whose quiet contribution can I recognize or support this week?",
+      "What does Acts 1 say about Matthias, and what does it leave unknown?"
+    ],
+    "relatedSaints": [
+      {
+        "slug": "peter",
+        "reason": "Acts describes Peter addressing the community before Matthias is chosen.",
+        "historical": true
+      },
+      {
+        "slug": "john-the-apostle",
+        "reason": "John is named among the apostles in Acts before Matthias joins them.",
+        "historical": true
+      },
+      {
+        "slug": "matthew",
+        "reason": "A fellow apostle, distinct from Matthias despite their similar names.",
+        "historical": true
+      },
+      {
+        "slug": "paul-the-apostle",
+        "reason": "Another apostle whose life invites reflection on witness to the risen Christ.",
+        "historical": false
+      }
+    ],
+    "patronages": [],
+    "quotes": [],
+    "places": [],
+    "sources": [
+      {
+        "title": "Pope Benedict XVI: General Audience on Judas and Matthias",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2006/documents/hf_ben-xvi_aud_20061018.html"
+      },
+      {
+        "title": "Pope Francis: General Audience on Acts",
+        "url": "https://www.vatican.va/content/francesco/en/audiences/2019/documents/papa-francesco_20190612_udienza-generale.html"
+      },
+      {
+        "title": "Pope Francis: Message dated on the feast of St Matthias",
+        "url": "https://www.vatican.va/content/francesco/en/messages/pont-messages/2015/documents/papa-francesco_20150514_messaggio-allenatori-educatori.html"
+      }
+    ],
+    "flags": [
+      "No patronage asserted without a verified applicable source and matching live topic.",
+      "The New Testament says little about Matthias after Acts 1; later travel and death traditions are not treated as established facts.",
+      "Symbols, quotations and places omitted pending independent verification; activities are suggestions.",
+      "Source access: Franciscan Media returned HTTP 403 to direct checking; the Vatican sources support the account and feast date."
+    ]
   }
 }
