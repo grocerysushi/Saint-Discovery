@@ -6,6 +6,7 @@ declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     "ga-disable-G-C75CMC27YN"?: boolean;
+    traceleaf?: { track(event: "quiz_start" | "quiz_complete"): void };
   }
 }
 
@@ -16,6 +17,7 @@ export function track(event: string, params?: EventParams): boolean {
     const location = new URL(window.location.href);
     if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || /^\/admin(?:\/|$)/i.test(decodeURIComponent(location.pathname))) return false;
     if (window["ga-disable-G-C75CMC27YN"]) return false;
+    if (event === "quiz_start" || event === "quiz_complete") window.traceleaf?.track(event);
     if (window.gtag && !window["ga-disable-G-C75CMC27YN"]) {
       location.searchParams.delete("token");
       window.gtag("event", event, { ...params, page_location: location.href });

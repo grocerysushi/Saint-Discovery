@@ -1,3 +1,5 @@
+import { TRACELEAF_BOOTSTRAP, TRACELEAF_ENABLED } from "./traceleaf";
+
 // Runs before hydration so mount events queue even on a slow connection.
 // No Google script on admin/local/preview pages. A document that enters admin
 // stays disabled until a full public-page load (including back/forward visits).
@@ -32,6 +34,8 @@ export const ANALYTICS_BOOTSTRAP = `
     return;
   }
   window[disabledKey] = false;
+  var trackTraceleafPage;
+  ${TRACELEAF_ENABLED ? TRACELEAF_BOOTSTRAP : ''}
   // Automatic collection still stops for explicit exclusions and classroom mode.
   function checkPermission() {
     if (!allowed()) {
@@ -51,13 +55,19 @@ export const ANALYTICS_BOOTSTRAP = `
     history[method] = function () {
       if (!checkPermission()) return;
       blockAdmin(arguments[2] == null ? location.href : arguments[2]);
-      return original.apply(this, arguments);
+      var result = original.apply(this, arguments);
+      if (trackTraceleafPage) trackTraceleafPage();
+      return result;
     };
   });
-  window.addEventListener('popstate', function () { blockAdmin(location.href); }, true);
-  window.addEventListener('pageshow', function () {
+  window.addEventListener('popstate', function () {
+    blockAdmin(location.href);
+    if (trackTraceleafPage) trackTraceleafPage();
+  }, true);
+  window.addEventListener('pageshow', function (event) {
     blockAdmin(location.href);
     if (!allowed()) { window[disabledKey] = true; location.reload(); }
+    else if (trackTraceleafPage && event && event.persisted) trackTraceleafPage(true);
   }, true);
   window.addEventListener('storage', function (event) {
     // Other tabs may have old reader/internal settings; reload before resuming.

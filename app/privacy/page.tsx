@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   ...socialMetadata("Privacy Policy | Saint Discovery", "How Saint Discovery handles your data and how to unsubscribe or request deletion.", "/privacy"),
 };
 
-const EFFECTIVE_DATE = "November 8, 2026";
+const EFFECTIVE_DATE = "November 22, 2026";
 const CONTACT_EMAIL = "hello@saintdiscoveryquiz.com";
 
 function Section({
@@ -80,9 +80,9 @@ export default function PrivacyPage() {
           </p>
           <p>
             <strong className="text-cream">Usage analytics.</strong> We use
-            Google Analytics automatically on our public production site to understand how visitors use the
-            site — pages viewed, quiz starts and completions, which saints
-            people look up, and general location and device information. These
+            Google Analytics and Traceleaf automatically on our public production site to understand how visitors use the
+            site, including pages viewed and quiz starts and completions. Google Analytics also measures which saints
+            people look up and general location and device information. These
             reports are used in aggregate, but analytics can use browser
             identifiers and cookies to distinguish visits. Use “Privacy & cookie choices”
             in the footer to turn Analytics off. We respect previous explicit refusals,
@@ -92,6 +92,7 @@ export default function PrivacyPage() {
             There is no initial opt-in popup. You can open settings from the footer at any time.
             Administrator pages, local development and preview sites do not load Analytics.
           </p>
+          <p>Traceleaf records public page paths, referring domains, device categories, and when a quiz is started or completed. It rotates random visit identifiers in your browser after 30 days. It excludes URL query strings, quiz answers and results, email addresses, and IP addresses from analytics records.</p>
         </Section>
 
         <Section title="How we use your information">
@@ -153,6 +154,9 @@ export default function PrivacyPage() {
               </a>
               .
             </li>
+            <li>
+              <strong className="text-cream">Traceleaf</strong> — our analytics dashboard hosted on ChatGPT Sites. It follows the same browser privacy choices and classroom exclusions as Google Analytics.
+            </li>
           </ul>
         </Section>
 
@@ -167,6 +171,7 @@ export default function PrivacyPage() {
           <p>Starting a new quiz clears the saved result and unfinished progress. Session storage normally ends when the tab closes, though browser session-restoration settings can retain it. If browser storage is blocked, progress and results are kept in memory while the page remains open and may be lost on refresh.</p>
         </Section>
         <Section title="Cookies">
+          <p>Turning Analytics off also clears the Traceleaf identifier from your browser.</p>
           <p>Analytics is on by default for a new browser visiting our public production site. Your saved opt-out and classroom setting stay in effect until you change them or clear browser storage; previous refusals do not expire back into tracking. Clearing storage also removes those choices. Invalid preferences or unavailable preference storage keep Analytics off. Turning Analytics off clears the Analytics cookies we can access and reloads the page to stop the loaded tag. Essential quiz recovery, confirmation/retry cookies and administrator authentication are separate from analytics.</p>
           <p>
             Google Analytics can set cookies to measure visits and recognize

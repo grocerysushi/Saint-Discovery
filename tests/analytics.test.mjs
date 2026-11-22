@@ -14,6 +14,7 @@ function load(file, dependencies = {}, globals = {}) {
   vm.runInNewContext(code, { module: loadedModule, exports: loadedModule.exports, URL, Date, Buffer, console,
     process: { env: { NODE_ENV: 'production' } }, require(name) {
       if (name === './visitor-privacy') return load('lib/visitor-privacy.ts', {}, globals);
+      if (name === './traceleaf' || name === '@/lib/traceleaf') return load('lib/traceleaf.ts', {}, globals);
       if (!(name in dependencies)) throw new Error(`Unexpected dependency ${name}`);
       return dependencies[name];
     }, ...globals });
@@ -51,8 +52,8 @@ function browserWindow(hostname = 'www.saintdiscoveryquiz.com', storage = new Ma
     localStorage: { getItem: k => storage.get(k), setItem: (k, v) => storage.set(k, v) } };
 }
 
-function boot(window, referrer = 'https://www.saintdiscoveryquiz.com/confirm?token=private') {
-  const { ANALYTICS_BOOTSTRAP } = load('lib/analytics-bootstrap.ts');
+function boot(window, referrer = 'https://www.saintdiscoveryquiz.com/confirm?token=private', globals = {}) {
+  const { ANALYTICS_BOOTSTRAP } = load('lib/analytics-bootstrap.ts', {}, globals);
   const scripts = [], listeners = {}, historyCalls = [], timers = [];
   window.setTimeout = (callback, delay) => timers.push({ callback, delay });
   window.location.reload = () => { window.reloads = (window.reloads || 0) + 1; };
@@ -80,6 +81,78 @@ test('a new visitor starts GA4 automatically without writing an opt-in preferenc
   assert.equal(storage.has('sd:privacy:v1'), false);
   assert.equal(window.dataLayer[0][2].ad_storage, 'denied');
   assert.equal(window.dataLayer[0][2].ad_user_data, 'denied');
+});
+
+const traceleafEnv = {
+  TRACELEAF_COLLECTOR_URL: 'https://traceleaf.example/api/collect',
+  TRACELEAF_SITES_TOKEN: 'test-relay-credential',
+};
+
+test('Traceleaf captures public page changes and named quiz events behind the existing privacy gate', () => {
+  const storage = new Map();
+  const window = browserWindow(undefined, storage);
+  window.location.href = 'https://www.saintdiscoveryquiz.com/?query=private#hidden';
+  window.navigator = {};
+  window.crypto = crypto;
+  const requests = [];
+  window.fetch = async (url, request) => requests.push([url, request]);
+  const { history } = boot(window, 'https://search.example/find?query=private', { process: { env: traceleafEnv } });
+  history.pushState({}, '', '/quiz?answer=private');
+  const { track } = load('lib/analytics.ts', {}, { window });
+  track('quiz_start', { answer: 'private' });
+  track('quiz_complete', { saint_slug: 'private' });
+  track('quiz_step_view', { step: 1 });
+  history.pushState({}, '', '/quiz/results/private');
+  history.pushState({}, '', '/confirm?token=private');
+  storage.set('sd:privacy:v1', '{"version":1,"analytics":false,"classroom":true}');
+  history.pushState({}, '', '/');
+  assert.deepEqual(requests.map(([, request]) => {
+    const { type, path, name } = JSON.parse(request.body);
+    return [type, path, name];
+  }), [
+    ['pageview', '/', undefined], ['pageview', '/quiz', undefined],
+    ['event', '/quiz', 'quiz_start'], ['event', '/quiz', 'quiz_complete'],
+  ]);
+  for (const [url, request] of requests) {
+    assert.equal(url, '/api/traceleaf/collect');
+    assert.equal(request.credentials, 'omit');
+    assert.equal(JSON.parse(request.body).referrer, 'https://search.example');
+    assert.doesNotMatch(request.body, /private|credential/);
+  }
+});
+
+test('Traceleaf relay forwards only the supported anonymous event and fails closed for excluded origins and paths', async () => {
+  const forwarded = [];
+  const { POST } = load('app/api/traceleaf/collect/route.ts', {}, {
+    process: { env: traceleafEnv }, AbortSignal, Request, Response, TextDecoder,
+    fetch: async (url, request) => { forwarded.push([url.href, request]); return new Response(null, { status: 204 }); },
+  });
+  const payload = {
+    type: 'event', path: '/quiz', name: 'quiz_complete', visitor: 'visitor-1', session: 'session-1',
+    saint_slug: 'private', referrer: 'https://search.example/path?query=private',
+  };
+  const headers = {
+    Origin: 'https://www.saintdiscoveryquiz.com', 'Sec-Fetch-Site': 'same-origin',
+    'Content-Type': 'application/json', 'User-Agent': 'Mozilla/5.0 (iPhone) Mobile redacted',
+  };
+  function request(data, headerOverrides = {}) {
+    return POST(new Request('https://www.saintdiscoveryquiz.com/api/traceleaf/collect', {
+      method: 'POST', headers: { ...headers, ...headerOverrides }, body: JSON.stringify(data),
+    }));
+  }
+  assert.equal((await request(payload, { Origin: 'https://other.example' })).status, 403);
+  assert.equal((await request({ ...payload, path: '/quiz/results/private' })).status, 400);
+  assert.equal((await request(payload, { 'Sec-GPC': '1' })).status, 204);
+  assert.equal((await request(payload)).status, 204);
+  assert.equal(forwarded.length, 1);
+  const [[url, options]] = forwarded;
+  assert.equal(url, traceleafEnv.TRACELEAF_COLLECTOR_URL);
+  assert.equal(options.headers['User-Agent'], 'Mobile');
+  assert.equal(options.headers['OAI-Sites-Authorization'], 'Bearer test-relay-credential');
+  assert.deepEqual(JSON.parse(options.body), {
+    site: 'saint-discovery-quiz', type: 'event', path: '/quiz', name: 'quiz_complete',
+    visitor: 'visitor-1', session: 'session-1', referrer: 'https://search.example',
+  });
 });
 
 test('explicit withdrawal stops the loaded tag on restored focus or navigation', () => {
