@@ -39,8 +39,11 @@ test('legacy ads:true articles and listings render all content without ad slots 
     }
   }
 });
-test('publisher authorization and advertising entry points are removed', () => {
-  assert.equal(fs.existsSync(path.join(root,'public/ads.txt')),false);
+test('ads.txt publishes the authorized Google seller entry', () => {
+  assert.equal(fs.readFileSync(path.join(root,'public/ads.txt'),'utf8').trim(),
+    'google.com, pub-6122544703023536, DIRECT, f08c47fec0942fa0');
+});
+test('advertising entry points are removed', () => {
   for(const file of ['components/blog/ArticleAd.tsx','components/blog/BlogAdSense.tsx','lib/blog-ads.ts']) assert.equal(fs.existsSync(path.join(root,file)),false);
   for(const file of ['app/layout.tsx','components/PrivacyChoices.tsx','components/blog/BlogReader.tsx','components/blog/BlogEditor.tsx']) assert.doesNotMatch(fs.readFileSync(path.join(root,file),'utf8'),/google-adsense-account|googlefc|__tcfapi|<ArticleAd|<BlogAdSense|Show ad placements/);
 });
