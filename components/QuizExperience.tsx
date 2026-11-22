@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Quiz from "./Quiz";
 import { Button } from "@/components/ui/button";
 import { isTranslationProxy, proxyNavigationUrl } from "@/lib/site-languages";
+import { trackTraceleaf } from "@/lib/traceleaf-client";
 import type { Saint } from "@/lib/types";
 
 export default function QuizExperience({ home = false }: { home?: boolean }) {
@@ -19,7 +20,11 @@ export default function QuizExperience({ home = false }: { home?: boolean }) {
     fetch("/api/quiz/candidates", { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error("Quiz data unavailable"); return response.json(); })
       .then(data => { if (!Array.isArray(data) || data.length === 0) throw new Error("Invalid quiz data"); setSaints(data); setLoadError(false); })
-      .catch(() => { if (!controller.signal.aborted) setLoadError(true); });
+      .catch(() => {
+        if (controller.signal.aborted) return;
+        setLoadError(true);
+        trackTraceleaf("quiz_load_error");
+      });
     return () => controller.abort();
   }, [loadAttempt]);
 

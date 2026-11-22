@@ -19,7 +19,7 @@ export default function HomeAppPromotion() {
           <li>Explore biographies and patron-saint guides</li>
           <li>Return for a daily moment of reflection</li>
         </ul>
-        <Button variant="gold" size="cta" className="home-app-download" nativeButton={false} render={<a href={APP_STORE_URL} aria-label="View Saint Discovery on the App Store">
+        <Button variant="gold" size="cta" className="home-app-download" nativeButton={false} render={<a href={APP_STORE_URL} aria-label="View Saint Discovery on the App Store" data-traceleaf-placement="home_promotion">
             View on the App Store{" "}
             <svg aria-hidden="true" viewBox="0 0 24 24" width="21" height="21" className="size-[21px]" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M6 18 18 6M6 6h12v12" /></svg>
           </a>} />

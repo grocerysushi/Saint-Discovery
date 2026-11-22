@@ -92,7 +92,7 @@ export default function PrivacyPage() {
             There is no initial opt-in popup. You can open settings from the footer at any time.
             Administrator pages, local development and preview sites do not load Analytics.
           </p>
-          <p>Traceleaf records public page paths, referring domains, device categories, and when a quiz is started or completed. It rotates random visit identifiers in your browser after 30 days. It excludes URL query strings, quiz answers and results, email addresses, and IP addresses from analytics records.</p>
+          <p>Traceleaf records public page paths, referring domains, device categories, and simple campaign labels. It measures quiz progress using a random attempt identifier, question number, and timing. It also counts directory searches, clicks from articles to the quiz, App Store clicks, page load times, and generic quiz loading failures. It rotates random visit identifiers in your browser after 30 days. Analytics records exclude full URL query strings, search text, quiz answers and results, email addresses, and IP addresses.</p>
         </Section>
 
         <Section title="How we use your information">

@@ -7,6 +7,7 @@ import { normalizeQuizScores, shuffleQuizOptions } from "@/lib/quiz-questions";
 import { quizProgressReducer, quizProgressScores } from "@/lib/quiz-progress";
 import { readQuizProgress, writeQuizProgress } from "./quizProgressStorage";
 import { createQuizTracker } from "@/lib/quiz-analytics";
+import { createTraceleafQuizAttempt } from "@/lib/traceleaf-client";
 import quizData from "@/lib/data/quiz.json";
 import ProgressBar from "./ProgressBar";
 import QuestionCard from "./QuestionCard";
@@ -34,6 +35,7 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
   const scores = useMemo(() => quizProgressScores(progress), [progress]);
   const [result, setResult] = useState<{ saint: Saint; scores: ReturnType<typeof normalizeQuizScores> } | null>(null);
   const [analytics] = useState(() => createQuizTracker(QUESTIONS.length + 1));
+  const [traceleafAttempt] = useState(createTraceleafQuizAttempt);
   const selectionLocked = useRef(false);
   const genderHeading = useRef<HTMLHeadingElement>(null);
   const pauseDialog = useRef<HTMLDialogElement>(null);
@@ -42,7 +44,11 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
   const currentStep = gender === null ? 0 : current + 1;
 
   // Restore after hydration so the server and first browser render remain identical.
-  useEffect(() => { dispatch({ type: "restore", progress: readQuizProgress(QUESTIONS) }); }, []);
+  useEffect(() => {
+    const savedProgress = readQuizProgress(QUESTIONS);
+    traceleafAttempt.restore(Boolean(savedProgress?.gender));
+    dispatch({ type: "restore", progress: savedProgress });
+  }, [traceleafAttempt]);
   useEffect(() => {
     if (!ready) return;
     const completed = getSavedQuizResult();
@@ -56,11 +62,13 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
     const restored = getSavedQuizResult();
     if (result || (restored && saints.some(saint => saint.slug === restored.slug))) return;
     analytics.view(currentStep + 1);
-  }, [analytics, currentStep, result, ready, saints]);
+    if (gender !== null) traceleafAttempt.view(current + 1);
+  }, [analytics, traceleafAttempt, current, currentStep, gender, result, ready, saints]);
 
   const handleGenderSelect = (selected: "Male" | "Female" | "Any") => {
     if (!ready || selectionLocked.current) return;
     selectionLocked.current = true;
+    traceleafAttempt.start();
     analytics.answer(1);
     dispatch({ type: "gender", gender: selected });
   };
@@ -82,6 +90,7 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
       saveQuizResult({ version: 1, slug: matched.slug, gender: gender ?? "Male", scores: normalizedScores });
       writeQuizProgress(null);
       analytics.complete(matched.slug);
+      traceleafAttempt.complete();
     }
   };
   const handleBack = () => {
@@ -90,7 +99,7 @@ export default function Quiz({ saints, onRestart, onExit, home = false }: { sain
     analytics.back(currentStep + 1);
     dispatch({ type: "back" });
   };
-  const restart = () => { setPaused(false); writeQuizProgress(null); saveQuizResult(null); onRestart(); };
+  const restart = () => { setPaused(false); traceleafAttempt.reset(); writeQuizProgress(null); saveQuizResult(null); onRestart(); };
   const displayedResult = result?.saint ?? (saved ? saints.find(saint => saint.slug === saved.slug) : null);
   if (displayedResult) return <Result saint={displayedResult} scores={result?.scores ?? saved!.scores}
     relatedSaints={moreQuizSaints(result?.scores ?? saved!.scores, (result ? gender : saved!.gender) === "Any" ? saints : saints.filter(saint => saint.gender === (result ? gender : saved!.gender)), displayedResult.slug)} onRestart={restart} />;

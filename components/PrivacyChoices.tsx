@@ -1,6 +1,7 @@
 "use client";
 import { useRef, useState } from "react";
 import { PRIVACY_KEY, PRIVACY_DAYS, analyticsAllowed, classroomMode, clearAnalyticsCookies } from "@/lib/visitor-privacy";
+import { clearTraceleafQuizAttempt } from "@/lib/traceleaf-client";
 import { Button } from "@/components/ui/button";
 import { PLAIN_BUTTON } from "@/components/shadcnResets";
 import "./privacy-settings.css";
@@ -19,7 +20,10 @@ export default function PrivacyChoices() {
     clearAnalyticsCookies();
     try {
       localStorage.setItem(PRIVACY_KEY, JSON.stringify({ version: 1, analytics, classroom: classroomChoice, expires: Date.now() + PRIVACY_DAYS * 86400000 }));
-      if (!analytics || classroomChoice) localStorage.removeItem("sd:traceleaf:v1");
+      if (!analytics || classroomChoice) {
+        localStorage.removeItem("sd:traceleaf:v1");
+        clearTraceleafQuizAttempt();
+      }
       location.reload();
     } catch {
       // Stays inline: a toast would render beneath this modal dialog's top layer.

@@ -1,4 +1,5 @@
 import { analyticsAllowed } from "./visitor-privacy";
+import type { TraceleafEventName, TraceleafEventOptions } from "./traceleaf";
 // Automatic GA4 uses the existing property; excluded events are never replayed.
 type EventParams = Record<string, string | number | boolean | undefined>;
 
@@ -6,7 +7,7 @@ declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     "ga-disable-G-C75CMC27YN"?: boolean;
-    traceleaf?: { track(event: "quiz_start" | "quiz_complete"): void };
+    traceleaf?: { track(event: TraceleafEventName, options?: TraceleafEventOptions): void };
   }
 }
 
@@ -17,7 +18,6 @@ export function track(event: string, params?: EventParams): boolean {
     const location = new URL(window.location.href);
     if (!['www.saintdiscoveryquiz.com', 'saintdiscoveryquiz.com'].includes(window.location.hostname) || /^\/admin(?:\/|$)/i.test(decodeURIComponent(location.pathname))) return false;
     if (window["ga-disable-G-C75CMC27YN"]) return false;
-    if (event === "quiz_start" || event === "quiz_complete") window.traceleaf?.track(event);
     if (window.gtag && !window["ga-disable-G-C75CMC27YN"]) {
       location.searchParams.delete("token");
       window.gtag("event", event, { ...params, page_location: location.href });

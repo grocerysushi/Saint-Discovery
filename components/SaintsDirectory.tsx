@@ -8,6 +8,7 @@ import { NativeSelect, NativeSelectOption } from "@/components/ui/native-select"
 import { EMPTY_FILTERS, MONTHS, UNCLASSIFIED, type DirectoryFilters, type DirectoryOptions } from "@/lib/directory-shared";
 import { directoryQuery, directoryUrl } from "@/lib/directory-url";
 import { isTranslationProxy, proxyNavigationUrl } from "@/lib/site-languages";
+import { trackTraceleaf } from "@/lib/traceleaf-client";
 
 export default function SaintsDirectory({ filters, options, total, catalogueTotal, page, pages, offset, count, children }: {
   filters: DirectoryFilters; options: DirectoryOptions; total: number; catalogueTotal: number;
@@ -22,6 +23,7 @@ export default function SaintsDirectory({ filters, options, total, catalogueTota
   const [pending, startTransition] = useTransition();
   const [filtersOpen, setFiltersOpen] = useState(false);
   const search = useRef<HTMLInputElement>(null);
+  const lastSearch = useRef(filters.search.trim());
   const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
   useEffect(() => {
     const cancel = () => clearTimeout(timer.current);
@@ -30,6 +32,9 @@ export default function SaintsDirectory({ filters, options, total, catalogueTota
   }, []);
   const navigate = (next: DirectoryFilters, replace = false) => {
     clearTimeout(timer.current);
+    const term = next.search.trim();
+    if (term && term !== lastSearch.current) trackTraceleaf("directory_search");
+    lastSearch.current = term;
     setState(previous => ({ ...previous, draft: next, submitted: directoryQuery(next) }));
     const destination = directoryUrl(next);
     if (isTranslationProxy(window.location.hostname)) {

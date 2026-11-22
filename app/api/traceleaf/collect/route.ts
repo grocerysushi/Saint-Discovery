@@ -1,4 +1,4 @@
-import { TRACELEAF_ID, TRACELEAF_PATH } from "@/lib/traceleaf";
+import { TRACELEAF_ARTICLE_PATH, TRACELEAF_ATTEMPT, TRACELEAF_ID, TRACELEAF_PATH, TRACELEAF_UTM } from "@/lib/traceleaf";
 
 const canonicalOrigin = "https://www.saintdiscoveryquiz.com";
 const apexOrigin = "https://saintdiscoveryquiz.com";
@@ -52,6 +52,53 @@ function coarseDevice(agent: string | null) {
   return "Desktop";
 }
 
+function campaignLabel(value: unknown) {
+  if (typeof value !== "string") return;
+  const label = value.trim();
+  if (TRACELEAF_UTM.test(label)) return label;
+}
+
+function eventDetails(payload: Record<string, unknown>) {
+  const { type, name, path } = payload;
+  if (type === "pageview") return {
+    utmSource: campaignLabel(payload.utmSource),
+    utmMedium: campaignLabel(payload.utmMedium),
+    utmCampaign: campaignLabel(payload.utmCampaign),
+  };
+  if (type !== "event") return;
+
+  switch (name) {
+    case "quiz_start":
+    case "quiz_step":
+    case "quiz_complete": {
+      if (path !== "/quiz") return;
+      const attempt = typeof payload.attempt === "string" && TRACELEAF_ATTEMPT.test(payload.attempt)
+        ? payload.attempt.toLowerCase()
+        : undefined;
+      if (payload.attempt !== undefined && !attempt) return;
+      if (name !== "quiz_step") return { attempt };
+      const step = payload.step;
+      if (attempt && typeof step === "number" && Number.isInteger(step) && step >= 1 && step <= 20) {
+        return { attempt, step };
+      }
+      return;
+    }
+    case "quiz_load_error": return path === "/quiz" ? {} : undefined;
+    case "directory_search": return path === "/" || path === "/resources" ? {} : undefined;
+    case "article_to_quiz": return typeof path === "string" && TRACELEAF_ARTICLE_PATH.test(path) ? {} : undefined;
+    case "app_store_click": return path === "/" && payload.placement === "home_promotion"
+      ? { placement: payload.placement }
+      : undefined;
+    case "page_performance": {
+      const durationMs = payload.durationMs;
+      if (typeof durationMs === "number" && Number.isInteger(durationMs) && durationMs >= 1 && durationMs <= 60000) {
+        return { durationMs };
+      }
+      return;
+    }
+  }
+}
+
 export async function POST(request: Request) {
   const origin = request.headers.get("origin");
   const fetchSite = request.headers.get("sec-fetch-site");
@@ -68,9 +115,8 @@ export async function POST(request: Request) {
     typeof payload.session !== "string" || !TRACELEAF_ID.test(payload.session)) return response(400);
 
   const { type, name, path, visitor, session } = payload;
-  if (type !== "pageview" && (type !== "event" || path !== "/quiz" || (name !== "quiz_start" && name !== "quiz_complete"))) {
-    return response(400);
-  }
+  const details = eventDetails(payload);
+  if (!details) return response(400);
   try {
     const target = new URL(collector);
     if (target.protocol !== "https:" || target.username || target.password || target.pathname !== "/api/collect" ||
@@ -79,7 +125,7 @@ export async function POST(request: Request) {
       method: "POST",
       body: JSON.stringify({
         site, type, ...(type === "event" ? { name } : {}), path, visitor, session,
-        referrer: referrerOrigin(payload.referrer),
+        referrer: referrerOrigin(payload.referrer), ...details,
       }),
       headers: {
         "Content-Type": "application/json",

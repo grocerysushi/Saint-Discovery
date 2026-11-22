@@ -38,7 +38,7 @@ export default function HomePage({ dailySaint, directoryCount, afterWelcome }: {
     {afterWelcome}
     <div className="c15-extras"><DailySaintCard initialSaint={dailySaint} compact />
       <div className="site-width c15-search-area"><details className="home-disclosure"><summary>Search by name, place or patronage</summary><div className="home-disclosure-content"><p>{directoryCount} saint biographies to explore.</p>
-        <form action="/resources" className="home-directory-search" role="search">
+        <form action="/resources" className="home-directory-search" role="search" data-traceleaf-event="directory_search">
           <Label htmlFor="home-saint-search" className="leading-[inherit]">Find a saint</Label>
           <div><Input id="home-saint-search" name="q" type="search" placeholder="Name, place or patronage" className="h-auto" /><Button variant="gold" size="cta" type="submit">Search saints</Button></div>
         </form>

@@ -88,31 +88,60 @@ const traceleafEnv = {
   TRACELEAF_SITES_TOKEN: 'test-relay-credential',
 };
 
-test('Traceleaf captures public page changes and named quiz events behind the existing privacy gate', () => {
+test('Traceleaf captures allowed insights events behind the existing privacy gate', () => {
   const storage = new Map();
   const window = browserWindow(undefined, storage);
-  window.location.href = 'https://www.saintdiscoveryquiz.com/?query=private#hidden';
+  window.location.origin = 'https://www.saintdiscoveryquiz.com';
+  window.location.href = `${window.location.origin}/?query=private&utm_source=newsletter&utm_medium=email&utm_campaign=private%40example.test#hidden`;
   window.navigator = {};
   window.crypto = crypto;
+  window.performance = { getEntriesByType: () => [{ loadEventEnd: 214.8 }] };
   const requests = [];
   window.fetch = async (url, request) => requests.push([url, request]);
-  const { history } = boot(window, 'https://search.example/find?query=private', { process: { env: traceleafEnv } });
+  const { history, listeners, timers } = boot(window, 'https://search.example/find?query=private', { process: { env: traceleafEnv } });
+  listeners.load();
+  timers.shift().callback();
+  const appStore = { href: 'https://apps.apple.com/us/app/saint-discovery/id6828221648', getAttribute: () => 'home_promotion' };
+  listeners.click({ target: { closest: () => appStore } });
+  listeners.submit({ target: { getAttribute: () => 'directory_search', querySelector: () => ({ value: 'private' }) } });
+  listeners.submit({ target: { getAttribute: () => 'directory_search', querySelector: () => ({ value: ' ' }) } });
+  history.pushState({}, '', '/blog/saint-stories');
+  listeners.click({ target: { closest: () => ({ href: '/quiz' }) } });
   history.pushState({}, '', '/quiz?answer=private');
   const { track } = load('lib/analytics.ts', {}, { window });
   track('quiz_start', { answer: 'private' });
   track('quiz_complete', { saint_slug: 'private' });
-  track('quiz_step_view', { step: 1 });
+  const attempt = crypto.randomUUID();
+  window.traceleaf.track('quiz_start', { attempt });
+  window.traceleaf.track('quiz_step', { attempt, step: 1, answer: 'private' });
+  window.traceleaf.track('quiz_step', { attempt, step: 21 });
+  window.traceleaf.track('quiz_complete', { attempt, saint: 'private' });
+  window.traceleaf.track('quiz_load_error', { reason: 'private' });
   history.pushState({}, '', '/quiz/results/private');
   history.pushState({}, '', '/confirm?token=private');
   storage.set('sd:privacy:v1', '{"version":1,"analytics":false,"classroom":true}');
   history.pushState({}, '', '/');
-  assert.deepEqual(requests.map(([, request]) => {
-    const { type, path, name } = JSON.parse(request.body);
-    return [type, path, name];
-  }), [
-    ['pageview', '/', undefined], ['pageview', '/quiz', undefined],
-    ['event', '/quiz', 'quiz_start'], ['event', '/quiz', 'quiz_complete'],
+  const payloads = requests.map(([, request]) => JSON.parse(request.body));
+  assert.deepEqual(payloads.map(({ type, path, name }) => [type, path, name]), [
+    ['pageview', '/', undefined],
+    ['event', '/', 'page_performance'],
+    ['event', '/', 'app_store_click'],
+    ['event', '/', 'directory_search'],
+    ['pageview', '/blog/saint-stories', undefined],
+    ['event', '/blog/saint-stories', 'article_to_quiz'],
+    ['pageview', '/quiz', undefined],
+    ['event', '/quiz', 'quiz_start'],
+    ['event', '/quiz', 'quiz_step'],
+    ['event', '/quiz', 'quiz_complete'],
+    ['event', '/quiz', 'quiz_load_error'],
   ]);
+  assert.equal(payloads[0].utmSource, 'newsletter');
+  assert.equal(payloads[0].utmMedium, 'email');
+  assert.equal(payloads[0].utmCampaign, undefined);
+  assert.equal(payloads[1].durationMs, 215);
+  assert.equal(payloads[2].placement, 'home_promotion');
+  assert.equal(payloads[8].step, 1);
+  assert.ok(payloads.slice(7, 10).every(payload => payload.attempt === attempt));
   for (const [url, request] of requests) {
     assert.equal(url, '/api/traceleaf/collect');
     assert.equal(request.credentials, 'omit');
@@ -129,7 +158,7 @@ test('Traceleaf relay forwards only the supported anonymous event and fails clos
   });
   const payload = {
     type: 'event', path: '/quiz', name: 'quiz_complete', visitor: 'visitor-1', session: 'session-1',
-    saint_slug: 'private', referrer: 'https://search.example/path?query=private',
+    attempt: crypto.randomUUID(), saint_slug: 'private', referrer: 'https://search.example/path?query=private',
   };
   const headers = {
     Origin: 'https://www.saintdiscoveryquiz.com', 'Sec-Fetch-Site': 'same-origin',
@@ -142,6 +171,8 @@ test('Traceleaf relay forwards only the supported anonymous event and fails clos
   }
   assert.equal((await request(payload, { Origin: 'https://other.example' })).status, 403);
   assert.equal((await request({ ...payload, path: '/quiz/results/private' })).status, 400);
+  assert.equal((await request({ ...payload, name: 'quiz_step', step: 21 })).status, 400);
+  assert.equal((await request({ ...payload, name: 'app_store_click', path: '/', placement: 'private' })).status, 400);
   assert.equal((await request(payload, { 'Sec-GPC': '1' })).status, 204);
   assert.equal((await request(payload)).status, 204);
   assert.equal(forwarded.length, 1);
@@ -151,8 +182,12 @@ test('Traceleaf relay forwards only the supported anonymous event and fails clos
   assert.equal(options.headers['OAI-Sites-Authorization'], 'Bearer test-relay-credential');
   assert.deepEqual(JSON.parse(options.body), {
     site: 'saint-discovery-quiz', type: 'event', path: '/quiz', name: 'quiz_complete',
-    visitor: 'visitor-1', session: 'session-1', referrer: 'https://search.example',
+    visitor: 'visitor-1', session: 'session-1', referrer: 'https://search.example', attempt: payload.attempt,
   });
+  assert.equal((await request({ ...payload, type: 'pageview', path: '/', utmSource: 'newsletter', utmCampaign: 'name@example.test' })).status, 204);
+  assert.equal(JSON.parse(forwarded[1][1].body).utmSource, 'newsletter');
+  assert.equal(JSON.parse(forwarded[1][1].body).utmCampaign, undefined);
+  assert.equal(JSON.parse(forwarded[1][1].body).attempt, undefined);
 });
 
 test('explicit withdrawal stops the loaded tag on restored focus or navigation', () => {
