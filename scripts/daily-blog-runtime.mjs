@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { validateReview, validateInputs, dateGuard, CATALOG_SQL, json, httpsUrl, bodyLinks, makeSQL } from './daily-blog-pipeline.mjs';
 import {cli,assertProject} from './blog-project-guard.mjs';
 import {checkBlogCover} from './check-blog-cover.mjs';
+import {allowedImageSource} from '../lib/blog-image-import.mjs';
 export {cli,assertProject};
 export function rows(result) {
   const value = result.rows ?? result.data;
@@ -19,7 +20,11 @@ const HOSTS = ['saintdiscoveryquiz.com','www.saintdiscoveryquiz.com','www.vatica
 export async function checkLink(value, fetcher = fetch) {
   let url = httpsUrl(value);
   for (let n=0;n<6;n++) {
-    assert(HOSTS.includes(new URL(url).hostname),'Link host not in reviewed source allowlist; extend only after review');
+    const {hostname,pathname}=new URL(url);
+    const metArtwork=hostname==='images.metmuseum.org' && allowedImageSource(url);
+    const metObject=hostname==='collectionapi.metmuseum.org' && /^\/public\/collection\/v1\/objects\/\d+$/.test(pathname);
+    const vaticanReadings=hostname==='www.vaticannews.va' && /^\/en\/word-of-the-day\/\d{4}\/\d{2}\/\d{2}\.html$/.test(pathname);
+    assert(HOSTS.includes(hostname) || metArtwork || metObject || vaticanReadings,'Link host not in reviewed source allowlist; extend only after review');
     const r = await fetcher(url,{redirect:'manual',signal:AbortSignal.timeout(15000),headers:{'User-Agent':'SaintDiscoveryEditorialLinkCheck/1.0'}});
     await r.body?.cancel();
     if ([301,302,303,307,308].includes(r.status)) { assert(r.headers.get('location'),'Missing redirect'); url=httpsUrl(new URL(r.headers.get('location'),url).href); continue; }

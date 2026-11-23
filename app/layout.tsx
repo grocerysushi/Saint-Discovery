@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
+import AdSenseScript from "@/components/AdSenseScript";
 import "@fontsource/source-serif-4/400.css";
 import "@fontsource/source-sans-3/400.css";
 import "@fontsource/source-sans-3/600.css";
@@ -150,6 +151,7 @@ export default function RootLayout({
         </Script>
       </head>
       <body className="antialiased">
+        <AdSenseScript />
         <SiteHeader />
         <LiturgicalTheme>
           <div id="main-content" tabIndex={-1}>{children}</div>

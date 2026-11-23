@@ -62,7 +62,7 @@ const CSP = [
   "frame-ancestors 'self'",
   "frame-src 'none'",
   "form-action 'self'",
-  `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === "production" ? "" : " 'unsafe-eval'"} https://www.googletagmanager.com https://www.google-analytics.com https://translate.google.com https://translate.googleapis.com https://*.gstatic.com`,
+  `script-src 'self' 'unsafe-inline'${process.env.NODE_ENV === "production" ? "" : " 'unsafe-eval'"} https://pagead2.googlesyndication.com https://www.googletagmanager.com https://www.google-analytics.com https://translate.google.com https://translate.googleapis.com https://*.gstatic.com`,
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://f6zwvi29.us-east.insforge.app https://cdn.insforge.dev https://www.google-analytics.com https://*.googleusercontent.com https://*.gstatic.com",
   "font-src 'self' data:",

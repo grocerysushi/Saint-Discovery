@@ -36,7 +36,7 @@ export default function PrivacyChoices() {
     </Button>
     <dialog ref={dialog} className="privacy-settings-dialog" aria-labelledby="privacy-choices-title">
       <h2 id="privacy-choices-title">Your privacy choices</h2>
-      <p>Google Analytics and Traceleaf measure visits and quiz activity on our public site. Google Analytics uses cookies. Traceleaf uses a random identifier stored in your browser. Advertising and Google Signals are off.</p>
+      <p>Google Analytics and Traceleaf measure visits and quiz activity on our public site. Google Analytics uses cookies. Traceleaf uses a random identifier stored in your browser. Eligible public pages also load Google AdSense, which may use cookies. All three respect the choices below. Google Signals is off.</p>
       <p role="status">{classroom ? "Classroom mode is on. Analytics and email forms are off." : enabled ? "Analytics is enabled in your browser preferences." : "Analytics is off in your browser preferences."}</p>
       <p>You can turn analytics off here. We also respect Do Not Track, Global Privacy Control and previous explicit analytics refusals. Local previews and admin pages are never tracked.</p>
       <div className="privacy-settings-actions">

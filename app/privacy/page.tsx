@@ -134,7 +134,7 @@ export default function PrivacyPage() {
               access uses authentication; visitors do not need an account.
             </li>
             <li>
-              <strong className="text-cream">Google Analytics</strong> — usage measurement loaded automatically on public production pages unless excluded by your saved choice, classroom mode or browser privacy signals. Advertising personalization and Google signals are disabled. We do not display advertisements or load AdSense. See{" "}
+              <strong className="text-cream">Google Analytics</strong> — usage measurement loaded automatically on public production pages unless excluded by your saved choice, classroom mode or browser privacy signals. Advertising personalization and Google signals are disabled in Google Analytics. See{" "}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -176,7 +176,7 @@ export default function PrivacyPage() {
           <p>
             Google Analytics can set cookies to measure visits and recognize
             returning browsers. The blog editor uses authentication cookies;
-            these are separate from visitor analytics. Your browser settings let you block or delete cookies; the quiz does not require analytics cookies. Saint Discovery does not load advertising cookies.
+            these are separate from visitor analytics. Your browser settings let you block or delete cookies; the quiz does not require analytics cookies. Google AdSense may use cookies on eligible public pages.
           </p>
         </Section>
 

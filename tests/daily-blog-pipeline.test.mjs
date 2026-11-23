@@ -37,6 +37,24 @@ test('HTTP checks reject failures, unapproved redirects, and unknown hosts',asyn
  await assert.rejects(checkLink('https://www.vatican.va/',async()=>new Response(null,{status:302,headers:{location:'https://127.0.0.1/'}})),/Private/);
  await assert.rejects(checkLink('https://unreviewed.example/',async()=>{throw Error('must not fetch')}),/allowlist/);
 });
+test('the Met image CDN is allowed only for collection images, including on redirects',async()=>{
+ const image='https://images.metmuseum.org/CRDImages/rl/web-large/DT3620.jpg';
+ const item='https://www.metmuseum.org/art/collection/search/461128';
+ const result=await checkLink(item,async url=>url===item
+   ? new Response(null,{status:302,headers:{location:image}})
+   : new Response(null,{status:200}));
+ assert.equal(result.finalUrl,image);
+ await assert.rejects(checkLink('https://images.metmuseum.org/other',async()=>{throw Error('must not fetch')}),/allowlist/);
+ await assert.rejects(checkLink(image,async()=>new Response(null,{status:302,headers:{location:'https://unreviewed.example/image.jpg'}})),/allowlist/);
+ const rights='https://collectionapi.metmuseum.org/public/collection/v1/objects/461128';
+ assert.equal((await checkLink(rights,async()=>new Response('{}',{status:200}))).status,200);
+ await assert.rejects(checkLink('https://collectionapi.metmuseum.org/public/collection/v1/search',async()=>{throw Error('must not fetch')}),/allowlist/);
+});
+test('the Vatican News exception is limited to dated English readings',async()=>{
+ const readings='https://www.vaticannews.va/en/word-of-the-day/2026/11/22.html';
+ assert.equal((await checkLink(readings,async()=>new Response('ok',{status:200}))).status,200);
+ await assert.rejects(checkLink('https://www.vaticannews.va/en.html',async()=>{throw Error('must not fetch')}),/allowlist/);
+});
 test('project identity and reconciliation fail closed',()=>{
  const context={authenticated:true,project:{project_id:'e1018255-7faf-4675-b407-80cd00a62bca',appkey:'f6zwvi29',oss_host:'https://f6zwvi29.us-east.insforge.app'}};
  assert.doesNotThrow(()=>assertProject(context)); assert.throws(()=>assertProject({...context,authenticated:false}));
