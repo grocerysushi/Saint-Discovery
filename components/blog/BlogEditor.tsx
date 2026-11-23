@@ -262,7 +262,7 @@ function WritingDesk({ initial, storageError }: { initial: BlogPost; storageErro
       </aside>
     )}
     </div>
-    {dialog === "preview" && <StudioDialog title="Reading preview" onClose={() => setDialog(null)} wide><div className="studio-preview"><p className="studio-preview-note">Preview of your current draft, including ad placements.</p><ArticleView content={content} date={post.publishedAt} preview /></div></StudioDialog>}
+    {dialog === "preview" && <StudioDialog title="Reading preview" onClose={() => setDialog(null)} wide><div className="studio-preview"><p className="studio-preview-note">Preview of your current draft.</p><ArticleView content={content} date={post.publishedAt} preview /></div></StudioDialog>}
     {dialog === "publish" && (
       <StudioDialog title={post.published ? "Ready to share your changes?" : "Ready for your readers?"} onClose={() => setDialog(null)}>
         <div className="studio-dialog-body">

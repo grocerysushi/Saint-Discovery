@@ -92,3 +92,25 @@ test('unsupported patronage cannot survive through the legacy topic index', () =
   assert.ok(!PATRON_TOPICS.some(topic => topic.saints.includes('abraham')));
   assert.ok(PATRON_TOPICS.every(topic => topic.saints.length > 0));
 });
+
+test('every published duplicate slug redirects permanently via next.config.ts instead of generating static pages', async () => {
+  const { default: vm } = await import('node:vm');
+  const { default: ts } = await import('typescript');
+  const { getAllSaintSlugs } = loadTs('lib/saints.ts');
+  const { isPublishedSaintSlug } = loadTs('lib/saint-reviews.ts');
+  const slugs = new Set(getAllSaintSlugs());
+  const compiled = ts.transpileModule(fs.readFileSync(new URL('../next.config.ts', import.meta.url), 'utf8'), {
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 },
+  }).outputText;
+  const loaded = { exports: {} };
+  vm.runInNewContext(compiled, { module: loaded, exports: loaded.exports, process: { env: {} }, __dirname: '.' });
+  const redirects = await loaded.exports.default.redirects();
+  for (const [slug, review] of Object.entries(reviews)) {
+    if (review.status !== 'duplicate' || !isPublishedSaintSlug(slug)) continue;
+    assert.ok(!slugs.has(slug), `${slug}: duplicate slug should not be in getAllSaintSlugs()`);
+    const entry = redirects.find(r => r.source === `/saints/${slug}`);
+    assert.ok(entry, `${slug}: missing permanent redirect in next.config.ts`);
+    assert.equal(entry.destination, `/saints/${review.canonical_slug}`, slug);
+    assert.equal(entry.permanent, true, slug);
+  }
+});

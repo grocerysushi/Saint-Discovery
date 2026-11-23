@@ -15,7 +15,7 @@ const SAINTS = CATALOG
   .map(applySaintDevotion);
 
 export function getAllSaintSlugs(): string[] {
-  return CATALOG.filter(saint => isPublishedSaintSlug(saint.slug)).map(saint => saint.slug);
+  return SAINTS.map(saint => saint.slug);
 }
 
 export async function getAllSaints(): Promise<Saint[]> {

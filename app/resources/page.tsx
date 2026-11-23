@@ -85,8 +85,9 @@ const RESOURCES = [
 type Props = { searchParams: Promise<DirectorySearchParams> };
 
 // generateMetadata and the page component each resolve the same request, so key
-// the directory computation on the resolved params and run it once per request.
-const loadDirectory = cache(async (_paramsKey: string, params: DirectorySearchParams) => {
+// the directory computation on the serialized params string and run it once per request.
+const loadDirectory = cache(async (paramsKey: string) => {
+  const params = JSON.parse(paramsKey) as DirectorySearchParams;
   const data = getDirectoryPage(await getAllSaints(), params);
   if (!data.validPage) notFound();
   return data;
@@ -94,7 +95,7 @@ const loadDirectory = cache(async (_paramsKey: string, params: DirectorySearchPa
 
 async function browse({ searchParams }: Props) {
   const params = await searchParams;
-  return loadDirectory(JSON.stringify(params), params);
+  return loadDirectory(JSON.stringify(params));
 }
 
 export async function generateMetadata(props: Props): Promise<Metadata> {

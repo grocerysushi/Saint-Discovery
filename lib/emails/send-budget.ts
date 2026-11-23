@@ -6,7 +6,7 @@ import { EMAIL_TOKEN_SECRET } from "./config";
 // The database atomically reserves attempts across all server instances.
 // Failed provider requests still consume a reservation; never retry implicitly.
 export async function reserveSharedSend(email: string, purpose: "confirmation" | "result"): Promise<boolean> {
-  if (!EMAIL_TOKEN_SECRET) return false;
+  if (EMAIL_TOKEN_SECRET.length < 32) return false;
   const recipient = createHmac("sha256", EMAIL_TOKEN_SECRET)
     .update(`send-budget:${email.trim().toLowerCase()}`).digest("hex");
   try {

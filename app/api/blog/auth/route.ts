@@ -11,6 +11,7 @@ export async function POST(request: NextRequest) {
     const input = await request.json();
     if (input.action === "refresh") {
       const result = await refreshAuth({ ...blogConfig(), ...AUTH_COOKIE_SETTINGS, request });
+      result.response.headers.set("Cache-Control", "no-store");
       return result.response;
     }
     const response = blogResponse({ ok: true });

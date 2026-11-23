@@ -78,3 +78,12 @@ test('a rejected save preserves recovery data and never reports saved', async ()
   assert.equal(f.store.useBlogPosts().error, 'Changed elsewhere');
   assert.equal(f.backups.size, 1);
 });
+test('non-JSON error responses produce a readable connection error instead of SyntaxError', async () => {
+  const f = storeFixture();
+  f.store.useBlogPosts(); f.effects.shift()(); await tick();
+  const post = f.store.storePost(f.initial);
+  const done = f.store.flushPost(post.id);
+  f.requests[0].resolve({ ok: false, status: 502, json: async () => { throw new SyntaxError('Unexpected token <'); } });
+  await assert.rejects(done, /The connection failed\. Please try again\./);
+  assert.equal(f.store.useBlogPosts().error, 'The connection failed. Please try again.');
+});
