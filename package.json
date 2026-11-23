@@ -12,7 +12,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "node scripts/run-tests.mjs",
-    "test:build": "node --test tests/static-pages-build.test.mjs tests/image-accessibility-build.test.mjs",
+    "test:build": "node --test tests/static-pages-build.test.mjs tests/image-accessibility-build.test.mjs tests/seo-build.test.mjs",
     "test:header-hydration": "node --test tests/header-hydration.test.mjs",
     "test:mobile-navigation": "node tests/mobile-navigation-browser.mjs",
     "test:blog-seo": "node --test tests/blog-seo-http.test.mjs",

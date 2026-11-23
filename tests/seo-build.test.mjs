@@ -1,6 +1,9 @@
-import { test } from 'node:test';
+import { test, after } from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import http from 'node:http';
+import { spawn } from 'node:child_process';
+import { once } from 'node:events';
 import { loadTs } from './load-ts.mjs';
 
 const read = file => fs.readFileSync(new URL(`../${file.replace(/^\.next\//, `${process.env.SAINT_BUILD_DIR || '.next'}/`)}`, import.meta.url), 'utf8');
@@ -9,9 +12,44 @@ const { reviews, getBiographyReview, isPublishedSaintSlug } = loadTs('lib/saint-
 const { getSaintContribution } = loadTs('lib/saint-contributions.ts');
 const { getProfileUpdatedOn } = loadTs('lib/profile-updates.ts');
 const { getDirectoryEvidenceNote } = loadTs('lib/directory-editorial.ts');
+const { isTemplateV2 } = loadTs('lib/saint-devotions.ts');
+const { DIRECTORY_PAGE_SIZE } = loadTs('lib/directory-page.ts');
+const { saintSearchSummary } = loadTs('lib/saint-seo.ts');
+const { getSaintReaderGuide } = loadTs('lib/saint-reader-guides.ts');
 
 const origin = 'https://www.saintdiscoveryquiz.com';
 const html = route => read(`.next/server/app/${route}.html`);
+
+// /resources reads searchParams for its server-rendered pagination, so it is not
+// prerendered. Serve the finished build with `next start` and fetch every page.
+let server;
+after(() => server?.kill());
+const directoryPages = (async () => {
+  const probe = http.createServer(); probe.listen(0, '127.0.0.1'); await once(probe, 'listening');
+  const port = probe.address().port; await new Promise(resolve => probe.close(resolve));
+  server = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '--hostname', '127.0.0.1', '--port', String(port)], {
+    cwd: new URL('..', import.meta.url), windowsHide: true, stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  let output = ''; server.stdout.on('data', d => { output += d; }); server.stderr.on('data', d => { output += d; });
+  const local = `http://127.0.0.1:${port}`;
+  let ready = false;
+  for (let i = 0; i < 120 && !ready; i++) {
+    try { ready = (await fetch(`${local}/robots.txt`)).ok; } catch { /* Startup. */ }
+    if (!ready) await new Promise(resolve => setTimeout(resolve, 250));
+  }
+  assert.ok(ready, output);
+  const pageCount = Math.ceil(saints.length / DIRECTORY_PAGE_SIZE);
+  const pages = [];
+  for (let page = 1; page <= pageCount; page++) {
+    const response = await fetch(`${local}/resources${page > 1 ? `?page=${page}` : ''}`);
+    assert.equal(response.status, 200, `/resources page ${page}`);
+    pages.push(await response.text());
+  }
+  const pastEnd = await fetch(`${local}/resources?page=${pageCount + 1}`);
+  assert.equal(pastEnd.status, 404, 'directory must not render pages past the catalog');
+  return pages;
+})();
+directoryPages.catch(() => {}); // Each test that needs it awaits and reports the failure.
 const decode = value => value.replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const meta = (source, key) => decode(source.match(new RegExp(`<meta (?:name|property)="${key}" content="([^"]*)"`))?.[1] ?? '');
 const jsonLd = source => [...source.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
@@ -45,8 +83,7 @@ test('public sharing metadata and sourced patronage context survive production r
   assert.match(html('patron-saint-of/african-americans'), /franciscanmedia.org/);
   const home = html('index');
   assert.equal((home.match(/<main\b/g) ?? []).length, 1);
-  assert.match(home, new RegExp(`<strong>${saints.length}</strong>`));
-  assert.match(home, /saint biographies to explore/);
+  assert.ok(home.replace(/<!-- -->/g, '').includes(`>${saints.length} saint biographies to explore`), `home page must show the ${saints.length}-saint catalog count`);
   assert.match(home, /Who can I discover in the saint directory/);
   assert.match(home, /Checking your local day/);
   assert.doesNotMatch(home, /<section class="liturgical-banner"[^>]*data-calendar-date=/);
@@ -82,13 +119,13 @@ test('life guides have indexable content, citations, sitemap entries, and recipr
   }
 });
 
-test('confirmation guide is discoverable and recommends only reviewed Catholic saints', () => {
+test('confirmation guide is discoverable and recommends only reviewed Catholic saints', async () => {
   const source = html('confirmation-saint-guide');
   const { CONFIRMATION_PICKS } = loadTs('lib/confirmation-guide.ts');
   assert.equal((source.match(/<h1\b/g) ?? []).length, 1);
   assert.ok(source.includes(`rel="canonical" href="${origin}/confirmation-saint-guide"`));
   assert.ok(read('.next/server/app/sitemap.xml.body').includes(`${origin}/confirmation-saint-guide`));
-  assert.ok(html('resources').includes('href="/confirmation-saint-guide"'));
+  assert.ok((await directoryPages)[0].includes('href="/confirmation-saint-guide"'));
   for (const pick of CONFIRMATION_PICKS) {
     assert.equal(reviews[pick.slug]?.status, 'source-reviewed', pick.slug);
     assert.equal(reviews[pick.slug]?.kind, 'saint', pick.slug);
@@ -110,8 +147,12 @@ test('every saint has a unique canonical, readable server-rendered content, and 
     assert.ok(title.includes(saint.name), saint.slug);
     assert.ok(!titles.has(title), `Duplicate title: ${title}`);
     titles.add(title);
-    assert.ok(meta(source, 'description').includes(saint.name), saint.slug);
-    assert.ok(meta(source, 'description').length <= 160, saint.slug);
+    const description = meta(source, 'description');
+    assert.equal(description, saintSearchSummary(saint).description, saint.slug);
+    // Reviewed descriptions (reader guides, v2 searchDescription) may use a shorter form of the name.
+    const curated = description === saint.searchDescription || description === getSaintReaderGuide(saint.slug)?.description;
+    if (!curated) assert.ok(description.includes(saint.name), saint.slug);
+    assert.ok(description.length <= 160, saint.slug);
     assert.equal((source.match(/<h1\b/g) ?? []).length, 1, saint.slug);
     assert.ok(!/noindex/.test(meta(source, 'robots')), saint.slug);
     assert.ok(meta(source, 'og:image').startsWith(`${canonical}/opengraph-image`), saint.slug);
@@ -147,7 +188,8 @@ test('every saint has a unique canonical, readable server-rendered content, and 
       const rendered = decode(source.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, ''));
       assert.ok(rendered.includes(contribution.title), `${saint.slug}: contribution heading`);
       for (const paragraph of contribution.paragraphs) assert.ok(rendered.includes(paragraph), `${saint.slug}: contribution body`);
-      assert.ok(rendered.includes(contribution.reflection), `${saint.slug}: original reflection`);
+      // Template v2 replaces the contribution reflection with curated reflectionPrompts.
+      if (!isTemplateV2(saint)) assert.ok(rendered.includes(contribution.reflection), `${saint.slug}: original reflection`);
       for (const citation of contribution.sources) {
         assert.ok(source.includes(`href="${citation.url.replace(/&/g, '&amp;')}"`), `${saint.slug}: source link`);
         assert.ok(article.citation.includes(citation.url), `${saint.slug}: structured citation`);
@@ -157,9 +199,12 @@ test('every saint has a unique canonical, readable server-rendered content, and 
 
     }
     const note = getDirectoryEvidenceNote(saint.slug);
-    assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(contribution?.sources ?? []), ...(note?.history.sources ?? []), ...(note?.calendar.sources ?? [])].map(entry => entry.url))], saint.slug);
+    assert.deepEqual(article.citation, [...new Set([...getBiographyReview(saint.slug).sources, ...(getSaintReaderGuide(saint.slug)?.questions.flatMap(question => question.sources) ?? []), ...(contribution?.sources ?? []), ...(note?.history.sources ?? []), ...(note?.calendar.sources ?? [])].map(entry => entry.url))], saint.slug);
     for (const citation of article.citation) assert.ok(source.includes(`href="${citation.replace(/&/g, '&amp;')}"`), saint.slug);
     assert.ok(!data.some(item => item['@type'] === 'ProfilePage'), saint.slug);
+    if (isTemplateV2(saint)) {
+      for (const prompt of saint.reflectionPrompts ?? []) assert.ok(renderedContent.includes(prompt), `${saint.slug}: v2 reflection prompt`);
+    }
     const crumbs = data.find(item => item['@type'] === 'BreadcrumbList');
     assert.equal(crumbs?.itemListElement.at(-1)?.item, canonical, saint.slug);
     for (const match of source.matchAll(/href="#(biography|prayer|questions)"/g)) {
@@ -168,9 +213,9 @@ test('every saint has a unique canonical, readable server-rendered content, and 
   }
 });
 
-test('duplicate routes redirect and unresolved identities stay out of search discovery', () => {
+test('duplicate routes redirect and unresolved identities stay out of search discovery', async () => {
   const sitemap = read('.next/server/app/sitemap.xml.body');
-  const directory = html('resources');
+  const directory = (await directoryPages).join('\n');
   const routesManifest = JSON.parse(read('.next/routes-manifest.json'));
   const redirects = new Map(routesManifest.redirects.map(entry => [entry.source, entry]));
   for (const [slug, review] of Object.entries(reviews)) {
@@ -188,8 +233,9 @@ test('duplicate routes redirect and unresolved identities stay out of search dis
   }
 });
 
-test('directory and sitemap expose every saint without executing client JavaScript', () => {
-  const directory = html('resources');
+test('directory and sitemap expose every saint without executing client JavaScript', async () => {
+  const pages = await directoryPages;
+  const directory = pages.join('\n');
   const sitemap = read('.next/server/app/sitemap.xml.body');
   const urls = [...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
   assert.equal(new Set(urls).size, urls.length, 'Duplicate sitemap URLs');
@@ -199,9 +245,13 @@ test('directory and sitemap expose every saint without executing client JavaScri
   }
   assert.ok(urls.every(url => url.startsWith(`${origin}/`)));
   assert.ok(urls.includes(`${origin}/quiz`));
-  const collection = jsonLd(directory).find(item => item['@type'] === 'CollectionPage');
-  assert.equal(collection.mainEntity.itemListElement.length, saints.length);
-  assert.equal(collection.mainEntity.numberOfItems, saints.length);
+  const items = pages.flatMap((source, index) => {
+    const collection = jsonLd(source).find(item => item['@type'] === 'CollectionPage');
+    assert.equal(collection.mainEntity.numberOfItems, collection.mainEntity.itemListElement.length, `page ${index + 1}`);
+    return collection.mainEntity.itemListElement;
+  });
+  assert.deepEqual(items.map(item => item.position), Array.from({ length: saints.length }, (_, i) => i + 1));
+  assert.deepEqual(new Set(items.map(item => item.url)), new Set(saints.map(saint => `${origin}/saints/${saint.slug}`)));
   const robots = read('.next/server/app/robots.txt.body');
   assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));
 });
