@@ -2,10 +2,10 @@ import type { NextConfig } from "next";
 
 // Duplicate saint slugs that were merged into a canonical record.
 // Each removed slug 301s to the saint that was kept so old links and
-// search-indexed URLs pass their authority to the survivor.
+// search-indexed URLs pass their authority to the survivor. Every destination
+// must be a published saint (tests/saint-redirects.test.mjs).
 const MERGED_SAINT_SLUGS: Record<string, string> = {
   adelaide: "adelaide-of-italy",
-  boris: "boris-of-bulgaria",
   "olga-of-kyiv": "olga-of-kiev",
   "lydwina-of-schiedam": "lidwina-of-schiedam",
   bernadette: "bernadette-soubirous",
@@ -26,7 +26,6 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "th-r-se-of-lisieux": "therese-of-lisieux",
   // Slugs regenerated with proper accent transliteration (é → e, ä → a).
   "b-n-zet": "benezet",
-  "franz-j-gerst-tter": "franz-jagerstatter",
   "jos-s-nchez-del-r-o": "jose-sanchez-del-rio",
   "josemar-a-escriv": "josemaria-escriva",
   "mar-a-de-jes-s-sacramentado": "maria-de-jesus-sacramentado",
