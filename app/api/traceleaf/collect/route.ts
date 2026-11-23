@@ -5,8 +5,62 @@ const apexOrigin = "https://saintdiscoveryquiz.com";
 const maxPayloadBytes = 2048;
 const site = "saint-discovery-quiz";
 
-function response(status: number) {
-  return new Response(null, { status, headers: { "Cache-Control": "no-store" } });
+// Best-effort per-instance rate limits to prevent unauthenticated proxy abuse.
+const MAX_IP_BUCKETS = 5000;
+const IP_CAP = 120;
+const IP_REFILL_PER_SEC = 2;
+const INSTANCE_WINDOW_MS = 60_000;
+const INSTANCE_MAX = 1000;
+
+interface TokenBucket {
+  tokens: number;
+  last: number;
+}
+const ipBuckets = new Map<string, TokenBucket>();
+let instanceWindow: number[] = [];
+
+function clientIp(request: Request): string {
+  const realIp = request.headers.get("x-real-ip")?.trim();
+  if (realIp) return realIp;
+  const xff = request.headers.get("x-forwarded-for");
+  if (xff) {
+    const first = xff.split(",")[0]?.trim();
+    if (first) return first;
+  }
+  return "unknown";
+}
+
+function allowTraceleafRequest(request: Request): boolean {
+  const now = Date.now();
+  instanceWindow = instanceWindow.filter((ts) => now - ts < INSTANCE_WINDOW_MS);
+  if (instanceWindow.length >= INSTANCE_MAX) return false;
+
+  const ip = clientIp(request);
+  let bucket = ipBuckets.get(ip);
+  if (!bucket) {
+    if (ipBuckets.size >= MAX_IP_BUCKETS) {
+      let removed = 0;
+      const half = Math.floor(ipBuckets.size / 2);
+      for (const key of ipBuckets.keys()) {
+        ipBuckets.delete(key);
+        if (++removed >= half) break;
+      }
+    }
+    bucket = { tokens: IP_CAP, last: now };
+    ipBuckets.set(ip, bucket);
+  }
+  const elapsedSec = Math.max(0, (now - bucket.last) / 1000);
+  bucket.tokens = Math.min(IP_CAP, bucket.tokens + elapsedSec * IP_REFILL_PER_SEC);
+  bucket.last = now;
+  if (bucket.tokens < 1) return false;
+
+  bucket.tokens -= 1;
+  instanceWindow.push(now);
+  return true;
+}
+
+function response(status: number, extraHeaders?: Record<string, string>) {
+  return new Response(null, { status, headers: { "Cache-Control": "no-store", ...extraHeaders } });
 }
 
 async function readPayload(request: Request): Promise<Record<string, unknown> | undefined> {
@@ -109,6 +163,7 @@ export async function POST(request: Request) {
   const collector = process.env.TRACELEAF_COLLECTOR_URL;
   const token = process.env.TRACELEAF_SITES_TOKEN;
   if (!collector || !token) return response(404);
+  if (!allowTraceleafRequest(request)) return response(429, { "Retry-After": "60" });
   const payload = await readPayload(request);
   if (!payload || typeof payload.path !== "string" || payload.path.length > 180 || !TRACELEAF_PATH.test(payload.path) ||
     typeof payload.visitor !== "string" || !TRACELEAF_ID.test(payload.visitor) ||

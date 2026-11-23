@@ -45,5 +45,5 @@ test('ads.txt publishes the authorized Google seller entry', () => {
 });
 test('advertising entry points are removed', () => {
   for(const file of ['components/blog/ArticleAd.tsx','components/blog/BlogAdSense.tsx','lib/blog-ads.ts']) assert.equal(fs.existsSync(path.join(root,file)),false);
-  for(const file of ['app/layout.tsx','components/PrivacyChoices.tsx','components/blog/BlogReader.tsx','components/blog/BlogEditor.tsx']) assert.doesNotMatch(fs.readFileSync(path.join(root,file),'utf8'),/google-adsense-account|googlefc|__tcfapi|<ArticleAd|<BlogAdSense|Show ad placements/);
+  for(const file of ['app/layout.tsx','components/PrivacyChoices.tsx','components/blog/BlogReader.tsx','components/blog/BlogEditor.tsx']) assert.doesNotMatch(fs.readFileSync(path.join(root,file),'utf8'),/google-adsense-account|googlefc|__tcfapi|<ArticleAd|<BlogAdSense|Show ad placements|including ad placements/);
 });

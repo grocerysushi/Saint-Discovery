@@ -190,6 +190,37 @@ test('Traceleaf relay forwards only the supported anonymous event and fails clos
   assert.equal(JSON.parse(forwarded[1][1].body).attempt, undefined);
 });
 
+test('Traceleaf bootstrap flag decouples client emission from build-time server credentials', () => {
+  assert.equal(load('lib/traceleaf.ts', {}, { process: { env: { NEXT_PUBLIC_TRACELEAF_ENABLED: 'true' } } }).TRACELEAF_ENABLED, true);
+  assert.equal(load('lib/traceleaf.ts', {}, { process: { env: { ...traceleafEnv, NEXT_PUBLIC_TRACELEAF_ENABLED: 'false' } } }).TRACELEAF_ENABLED, false);
+  assert.equal(load('lib/traceleaf.ts', {}, { process: { env: traceleafEnv } }).TRACELEAF_ENABLED, true);
+  assert.equal(load('lib/traceleaf.ts', {}, { process: { env: {} } }).TRACELEAF_ENABLED, false);
+});
+
+test('Traceleaf relay rate limits excessive bursts from a single client IP', async () => {
+  let forwarded = 0;
+  const fixedNow = 1_700_000_000_000;
+  const { POST } = load('app/api/traceleaf/collect/route.ts', {}, {
+    process: { env: traceleafEnv }, AbortSignal, Request, Response, TextDecoder,
+    Date: { now: () => fixedNow },
+    fetch: async () => { forwarded++; return new Response(null, { status: 204 }); },
+  });
+  const makeRequest = (ip) => POST(new Request('https://www.saintdiscoveryquiz.com/api/traceleaf/collect', {
+    method: 'POST',
+    headers: {
+      Origin: 'https://www.saintdiscoveryquiz.com', 'Sec-Fetch-Site': 'same-origin',
+      'Content-Type': 'application/json', 'x-real-ip': ip,
+    },
+    body: JSON.stringify({ type: 'pageview', path: '/', visitor: 'visitor-1', session: 'session-1' }),
+  }));
+  for (let i = 0; i < 120; i++) assert.equal((await makeRequest('203.0.113.10')).status, 204);
+  const limited = await makeRequest('203.0.113.10');
+  assert.equal(limited.status, 429);
+  assert.equal(limited.headers.get('Retry-After'), '60');
+  assert.equal(forwarded, 120);
+  assert.equal((await makeRequest('203.0.113.11')).status, 204);
+});
+
 test('explicit withdrawal stops the loaded tag on restored focus or navigation', () => {
   for (const trigger of ['focus', 'visibilitychange', 'navigation']) {
     const storage = new Map(), window = browserWindow(undefined, storage);

@@ -146,11 +146,16 @@ test('shared limiter sends only keyed recipient hashes and fails closed on datab
   const args = [];
   let outcome = { data: true, error: null };
   const budget = load('lib/emails/send-budget.ts', {
-    'server-only': {}, 'node:crypto': crypto, './config': { EMAIL_TOKEN_SECRET: 'synthetic-secret' },
+    'server-only': {}, 'node:crypto': crypto, './config': { EMAIL_TOKEN_SECRET: 'synthetic-secret-'.repeat(2) },
     '@/lib/insforge-admin': { getInsforgeAdmin: () => ({ database: { rpc: async (name, values) => {
       args.push({ name, values }); if (outcome instanceof Error) throw outcome; return outcome;
     } } }) },
   });
+  const weakBudget = load('lib/emails/send-budget.ts', {
+    'server-only': {}, 'node:crypto': crypto, './config': { EMAIL_TOKEN_SECRET: 'too-short' },
+    '@/lib/insforge-admin': { getInsforgeAdmin: () => { throw new Error('must not call DB with weak secret'); } },
+  });
+  assert.equal(await weakBudget.reserveSharedSend('reader@example.org', 'confirmation'), false);
   assert.equal(await budget.reserveSharedSend(' Reader@Example.org ', 'confirmation'), true);
   assert.equal(await budget.reserveSharedSend('reader@example.org', 'result'), true);
   assert.equal(args[0].values.p_recipient, args[1].values.p_recipient);

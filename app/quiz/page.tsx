@@ -1,10 +1,7 @@
 import type { Metadata } from "next";
 import QuizExperience from "@/components/QuizExperience";
 import { socialMetadata } from "@/lib/seo";
-import "@/app/encounter-preview.css";
-import "@/app/reading-room.css";
-import "@/app/quiz-reading.css";
-import "@/app/concept15-quiz.css";
+import "@/app/quiz.css";
 
 export const metadata: Metadata = {
   title: "Catholic Saint Quiz: Find Your Saint",

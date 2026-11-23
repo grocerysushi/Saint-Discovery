@@ -1,11 +1,12 @@
 // Used by the server page only: full editorial reviews must not enter the quiz bundle.
 import quizSaints from "./data/quiz-saints.json";
-import { applySaintReview, canonicalSaintSlug } from "./saint-reviews";
+import { applySaintReview, canonicalSaintSlug, isPublishedSaintSlug } from "./saint-reviews";
 import type { Saint } from "./types";
 
 export function getQuizCandidates(): Saint[] {
   return (quizSaints as Saint[])
     .filter(saint => canonicalSaintSlug(saint.slug) === saint.slug)
+    .filter(saint => isPublishedSaintSlug(saint.slug))
     .map(applySaintReview)
     .filter(saint => saint.kind === "saint")
     .map(saint => ({

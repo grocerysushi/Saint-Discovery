@@ -19,21 +19,12 @@ import { saintDisplayName, saintSearchSummary } from "@/lib/saint-seo";
 import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
 import BiographyArticles from "@/components/BiographyArticles";
-import saintExtended from "@/lib/data/saint-extended.json";
 import { getSaintArtwork } from "@/lib/saint-artwork";
 import SaintArtworkFigure from "@/components/SaintArtwork";
 import SaintReaderQuestions from "@/components/SaintReaderQuestions";
 import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
 import { Button } from "@/components/ui/button";
 import "@/components/biography-edition.css";
-
-// Legacy generated copy is replaced as each external-source review is completed.
-// Its former model-only checking process was not independent fact verification.
-interface ExtendedContent {
-  biography: string[];
-  faqs: { question: string; answer: string; source?: { title: string; url: string } }[];
-}
-const EXTENDED = saintExtended as unknown as Record<string, ExtendedContent>;
 
 export const revalidate = false;
 
@@ -101,7 +92,7 @@ export default async function SaintPage({
   const evidenceNote = getDirectoryEvidenceNote(saint.slug);
   const corrections = getDirectoryCorrections(saint.slug);
   const updatedOn = getProfileUpdatedOn(saint.slug);
-  const extended: ExtendedContent | undefined = review ? { biography: review.biography, faqs: learningGuide?.faqs ?? [] } : EXTENDED[saint.slug];
+  const extended = review ? { biography: review.biography, faqs: learningGuide?.faqs ?? [] } : undefined;
   const reflectionPrompts = contribution ? [...(learningGuide?.prompts ?? []), contribution.reflection] : learningGuide?.prompts ?? [
     "Which event or decision in this life stood out to you?",
     "What virtue would you like to understand or practice more deeply?",
@@ -323,8 +314,8 @@ export default async function SaintPage({
                 Biography
               </h2>
               <div className="text-cream-dark leading-relaxed space-y-4">
-                {extended.biography.map((paragraph) => (
-                  <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+                {extended.biography.map((paragraph, index) => (
+                  <p key={`${index}-${paragraph.slice(0, 40)}`}>{paragraph}</p>
                 ))}
               </div>
             </section>

@@ -1,5 +1,6 @@
 import { blogResponse, requireBlogEditor, sameOrigin } from "@/lib/blog-server";
 import { validateBlogPost } from "@/lib/blog-validation";
+import { readSmallBody, RequestBodyTooLarge } from "@/lib/request-body";
 import { revalidatePath } from "next/cache";
 export async function GET() {
   try {
@@ -15,8 +16,15 @@ export async function PUT(request: Request) {
   try {
     const client = await requireBlogEditor();
     if (!client) return blogResponse({ error: "Your session expired. Export your writing, then sign in again." }, 401);
-    const text = await request.text();
-    if (new TextEncoder().encode(text).length > 6500000) return blogResponse({ error: "Post is too large. Use image URLs or smaller images." }, 413);
+    let text: string;
+    try {
+      text = await readSmallBody(request, 6_500_000);
+    } catch (error) {
+      if (error instanceof RequestBodyTooLarge) {
+        return blogResponse({ error: "Post is too large. Use image URLs or smaller images." }, 413);
+      }
+      return blogResponse({ error: "Invalid post data." }, 400);
+    }
     let post;
     try { post = JSON.parse(text); } catch { return blogResponse({ error: "Invalid post data." }, 400); }
     const invalid = validateBlogPost(post);

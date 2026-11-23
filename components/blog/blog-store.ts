@@ -19,8 +19,8 @@ export async function blogRequest(url: string, options?: RequestInit, retry = tr
     const refresh = await fetch("/api/blog/auth", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action: "refresh" }) });
     if (refresh.ok) return blogRequest(url, options, false);
   }
-  const data = await response.json();
-  if (!response.ok) throw new Error(data.error || "The connection failed. Please try again.");
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) throw new Error((typeof data.error === "string" && data.error) || "The connection failed. Please try again.");
   return data;
 }
 async function load(scope: Scope) {
@@ -103,7 +103,8 @@ export function exportRecoveryCopies() {
   const copies = [];
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
-    if (key?.startsWith("saint-blog-recovery:")) copies.push(JSON.parse(localStorage.getItem(key) || "null"));
+    if (!key?.startsWith("saint-blog-recovery:")) continue;
+    try { copies.push(JSON.parse(localStorage.getItem(key) || "null")); } catch { /* Skip corrupted backup entries. */ }
   }
   downloadBlog("saint-discovery-recovery.json", { posts: copies });
 }

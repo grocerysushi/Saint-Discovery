@@ -171,11 +171,15 @@ test('every saint has a unique canonical, readable server-rendered content, and 
 test('duplicate routes redirect and unresolved identities stay out of search discovery', () => {
   const sitemap = read('.next/server/app/sitemap.xml.body');
   const directory = html('resources');
+  const routesManifest = JSON.parse(read('.next/routes-manifest.json'));
+  const redirects = new Map(routesManifest.redirects.map(entry => [entry.source, entry]));
   for (const [slug, review] of Object.entries(reviews)) {
     if (review.status === 'duplicate' && isPublishedSaintSlug(slug)) {
-      const redirect = JSON.parse(read(`.next/server/app/saints/${slug}.meta`));
-      assert.equal(redirect.status, 308, slug);
-      assert.equal(redirect.headers.Location ?? redirect.headers.location, `/saints/${review.canonical_slug}`, slug);
+      const redirect = redirects.get(`/saints/${slug}`);
+      assert.ok(redirect, `${slug}: missing config redirect`);
+      assert.equal(redirect.statusCode, 308, slug);
+      assert.equal(redirect.destination, `/saints/${review.canonical_slug}`, slug);
+      assert.ok(!fs.existsSync(new URL(`../${process.env.SAINT_BUILD_DIR || '.next'}/server/app/saints/${slug}.html`, import.meta.url)), `${slug}: duplicate slug should redirect at the edge rather than prerender HTML`);
     } else if (!isPublishedSaintSlug(slug)) {
       assert.ok(!fs.existsSync(new URL(`../${process.env.SAINT_BUILD_DIR || '.next'}/server/app/saints/${slug}.html`, import.meta.url)), `${slug}: excluded route must not be prerendered`);
     } else continue;

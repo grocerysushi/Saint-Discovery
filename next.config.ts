@@ -32,6 +32,23 @@ const MERGED_SAINT_SLUGS: Record<string, string> = {
   "mar-a-de-jes-s-sacramentado": "maria-de-jesus-sacramentado",
   "mar-a-guadalupe-garc-a-zavala": "maria-guadalupe-garcia-zavala",
   "z-lie-martin": "zelie-martin",
+  // Review-classified duplicate slugs unified from static redirect pages into edge redirects.
+  "adrian-of-nicomedia": "adrian",
+  "aidan-of-lindisfarne": "aidan",
+  "albertus-magnus": "albert-the-great",
+  "alexis-of-rome": "alexis",
+  "alphonsus-maria-de-liguori": "alphonsus-liguori",
+  cuthbert: "cuthbert-of-lindisfarne",
+  douard: "edward-the-confessor",
+  "genevi-ve": "genevieve",
+  "john-of-kanty": "john-cantius",
+  "kate-of-siena": "catherine-of-siena",
+  "lydwine-of-schiedam": "lidwina-of-schiedam",
+  nicholas: "nicholas-of-myra",
+  oswald: "oswald-of-northumbria",
+  paul: "paul-the-apostle",
+  "sharbel-makhlouf": "charbel-makhlouf",
+  "teresa-benedicta": "edith-stein",
 };
 
 // A nonce-based script policy is not viable here: every page that renders

@@ -5,7 +5,12 @@ export const TRACELEAF_UTM = /^[A-Za-z0-9][A-Za-z0-9_.-]{0,63}$/;
 export const TRACELEAF_PLACEMENT = /^[a-z][a-z0-9_-]{0,47}$/;
 export const TRACELEAF_ARTICLE_PATH = /^\/blog\/[a-z0-9-]+$/;
 export const TRACELEAF_STORAGE_KEY = "sd:traceleaf:v1";
-export const TRACELEAF_ENABLED = Boolean(process.env.TRACELEAF_COLLECTOR_URL && process.env.TRACELEAF_SITES_TOKEN);
+// Prefer a non-secret build flag so server credentials (TRACELEAF_SITES_TOKEN)
+// do not need to be exposed at build time for static layouts.
+export const TRACELEAF_ENABLED =
+  process.env.NEXT_PUBLIC_TRACELEAF_ENABLED === "true" ||
+  (process.env.NEXT_PUBLIC_TRACELEAF_ENABLED !== "false" &&
+    Boolean(process.env.TRACELEAF_COLLECTOR_URL && process.env.TRACELEAF_SITES_TOKEN));
 
 export type TraceleafEventName = "quiz_start" | "quiz_step" | "quiz_complete" | "quiz_load_error" |
   "directory_search" | "article_to_quiz" | "app_store_click";
@@ -50,17 +55,17 @@ export const TRACELEAF_BOOTSTRAP = String.raw`
         referrer: referrer
       };
       window.localStorage.setItem(traceleafStorageKey, JSON.stringify(identity));
+      var body = Object.assign({
+        type: type, name: name, path: path,
+        visitor: identity.visitor, session: identity.session, referrer: identity.referrer
+      }, details || {});
       window.fetch('/api/traceleaf/collect', {
         method: 'POST',
         credentials: 'omit',
         referrerPolicy: 'no-referrer',
         keepalive: true,
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          type: type, name: name, path: path,
-          visitor: identity.visitor, session: identity.session, referrer: identity.referrer,
-          ...details
-        })
+        body: JSON.stringify(body)
       }).catch(function () {});
     } catch (_) {}
   }
@@ -117,7 +122,8 @@ export const TRACELEAF_BOOTSTRAP = String.raw`
   window.addEventListener('click', function (event) {
     var link = event.target && event.target.closest && event.target.closest('a[href]');
     if (!link) return;
-    var target = new URL(link.href, location.href);
+    var target;
+    try { target = new URL(link.href, location.href); } catch (_) { return; }
     if (target.origin === location.origin && target.pathname.replace(/\/$/, '') === '/quiz') {
       trackTraceleafEvent('article_to_quiz');
     } else if (target.protocol === 'https:' && target.hostname === 'apps.apple.com' &&
