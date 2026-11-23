@@ -44,3 +44,12 @@ test('header translation remains absent from private and unrelated index routes'
  for(const route of ['/admin/blog','/confirm','/index-other'])assert.doesNotMatch(headerAt(route),/class="language-switcher/);
  assert.match(headerAt('/resources'),/class="language-switcher/);
 });
+
+test('desktop Guides navigation menu starts closed and keeps its portaled panel in flow',()=>{
+ const html=headerAt('/');
+ assert.match(html,/aria-expanded="false"[^>]*>Guides</);
+ const globalsCss=fs.readFileSync(path.join(root,'app/globals.css'),'utf8');
+ const navPanelBlock=globalsCss.match(/\.nav-panel\s*\{[^}]*\}/)?.[0] ?? '';
+ assert.ok(navPanelBlock,'expected .nav-panel rule in app/globals.css');
+ assert.doesNotMatch(navPanelBlock,/position:\s*absolute/,'portaled NavigationMenuContent must stay in flow so Base UI measures popup size');
+});

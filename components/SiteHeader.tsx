@@ -61,10 +61,10 @@ function LinkLabel({ label, today }: { label: string; today?: boolean }) {
 
 function HeaderNavigation({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
-  const [panel, setPanel] = useState("");
+  const [panel, setPanel] = useState<string | null>(null);
   const close = () => {
     setOpen(false);
-    setPanel("");
+    setPanel(null);
   };
   const isCurrent = (href: string) =>
     pathname === href || (href !== "/resources" && pathname.startsWith(href + "/"));

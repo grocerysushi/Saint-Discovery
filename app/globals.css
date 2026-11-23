@@ -190,16 +190,13 @@ a, button, input { transition: color .2s, background-color .2s, border-color .2s
 .nav-group { position: relative; }
 .nav-disclosure svg { width: 14px; height: 14px; margin: 0; top: 0; }
 .nav-panel {
-  position: absolute;
-  top: calc(100% + 12px);
-  left: 0;
-  margin-top: 0;
-  width: 330px;
-  padding: 16px 10px 10px;
+  position: relative;
+  width: 345px;
+  max-width: calc(100vw - 32px);
+  padding: 20px 12px 12px;
   background: var(--color-navy-light);
-  border: 1px solid var(--color-navy-lighter);
-  border-radius: 14px;
-  box-shadow: 0 18px 48px #0005;
+  color: var(--color-cream);
+  border-radius: 10px;
 }
 .nav-group-label {
   margin: 0 12px 8px;

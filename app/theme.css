@@ -50,8 +50,15 @@ button, input, select, textarea { font-family: var(--font-body); }
 }
 .site-header .header-quiz { background: #f1b658; border-color: #f1b658; color: #32151d; border-radius: 999px; }
 .site-header .header-quiz:hover { background: #ffd58b; color: #32151d; }
-.site-header .nav-panel { background: #fffaf0; color: #32151d; border-color: #d2baa8; }
-.site-header .nav-panel :is(strong, .nav-description) { color: #451322; }
+/* The NavigationMenu popup is portaled to body, outside .site-header. */
+.nav-panel { background: #fffaf0; color: #32151d; border-color: #d2baa8; }
+.nav-panel .nav-group-label { text-transform: none; letter-spacing: 0; font-size: .8125rem; margin-bottom: 11px; color: #793545; }
+.nav-panel .nav-destination { padding: 14px 12px; border-radius: 6px; }
+.nav-panel .nav-destination + .nav-destination { border-top: 1px solid #e2cdbd; border-radius: 0; }
+.nav-panel :is(strong, .nav-description) { color: #451322; }
+.nav-panel .nav-description { color: #614a48; }
+.nav-panel .nav-destination:hover, .nav-panel .nav-destination[aria-current] { background: #f4e8d9; }
+.nav-panel .nav-destination[aria-current] strong { color: #451322; }
 .site-header .skip-to-content { background: #f1b658; color: #32151d; }
 @media (min-width: 1181px) {
   .site-header .desktop-nav { display: flex; }
