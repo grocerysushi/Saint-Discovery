@@ -41,3 +41,22 @@ export function socialMetadata(title: string, description: string, path: string,
     twitter: { card: "summary_large_image", title, description, images: [image.url] },
   };
 }
+
+// One Quiz entity, declared on the home page and on /quiz where it lives.
+export function quizJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "@id": absoluteUrl("/quiz#quiz"),
+    name: "Which Catholic Saint Are You?",
+    description:
+      "A 21-question Catholic personality quiz that helps you discover a saint whose virtues reflect your own.",
+    url: absoluteUrl("/quiz"),
+    educationalUse: "Self-reflection",
+    learningResourceType: "Quiz",
+    isAccessibleForFree: true,
+    inLanguage: "en-US",
+    about: { "@type": "Thing", name: "Catholic Saints" },
+    publisher: { "@id": absoluteUrl("/#organization") },
+  };
+}

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { saintDisplayName } from "@/lib/saint-seo";
+import { saintDisplayName, saintShortSummary } from "@/lib/saint-seo";
 import { notFound } from "next/navigation";
 import { PATRON_GUIDES, getPatronGuide } from "@/lib/patron-guides";
 import PatronGuideContent from "./PatronGuideContent";
@@ -196,16 +196,10 @@ export default async function PatronTopicPage({
                   </span>
                 )}
               </div>
-              {saint.tagline && (
-                <p className="text-gold-light/80 text-sm italic mb-2">
-                  &ldquo;{saint.tagline}&rdquo;
-                </p>
-              )}
-              {saint.known_for && (
-                <p className="text-cream-dark/80 text-sm leading-relaxed">
-                  {saint.known_for}
-                </p>
-              )}
+              {/* tagline and known_for are blank by policy (lib/saint-reviews.ts); use reviewed copy. */}
+              <p className="text-cream-dark/80 text-sm leading-relaxed">
+                {saintShortSummary(saint)}
+              </p>
             </Link>
           ))}
         </section>

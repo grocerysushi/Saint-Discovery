@@ -31,8 +31,8 @@ export default function QuizExperience({ home = false }: { home?: boolean }) {
   if (!saints) return (
     <div className="site-width quiz-shell">
       <div className="question-card" role={loadError ? "alert" : "status"}>
-        <h1 className="question-title">{loadError ? "The quiz could not load" : "Getting your quiz ready"}</h1>
-        <p>{loadError ? "Check your connection and try again. Your saved progress remains in this browser tab." : "Preparing the saint stories for your quiz."}</p>
+        <h1 className="question-title">{loadError ? "The quiz could not load" : "Catholic Saint Quiz"}</h1>
+        <p>{loadError ? "Check your connection and try again. Your saved progress remains in this browser tab." : "Getting your quiz ready…"}</p>
         {!loadError && <p>Answer questions about your values and interests to discover a Catholic saint and explore their story.</p>}
         {loadError && (
           <Button

@@ -28,7 +28,7 @@ async function main(){
     const map=await fetchPublic(route);if(map.status!==200)throw new Error(`Sitemap failed: ${route}`);
     for(const m of map.text.matchAll(/<loc>([^<]+)<\/loc>/g))urls.push(publicUrl(m[1].replaceAll('&amp;','&')));
   }
-  const unique=[...new Set(urls)];if(unique.length>1000)throw new Error('More than 1000 URLs; split the crawl before running.');
+  const unique=[...new Set(urls)];if(unique.length>2000)throw new Error('More than 2000 URLs; split the crawl before running.');
   const report={generatedAt:new Date().toISOString(),site:SITE,sitemapEntries:urls.length,uniqueEntries:unique.length,pages:[]};
   let cursor=0;
   const worker=async()=>{while(cursor<unique.length){const index=cursor++,url=unique[index];

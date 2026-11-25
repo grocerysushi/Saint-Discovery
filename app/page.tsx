@@ -6,7 +6,7 @@ import ContextualReading from "@/components/ContextualReading";
 import { getAllSaints } from "@/lib/saints";
 
 export const revalidate = false;
-import { absoluteUrl, siteConfig, serializeJsonLd } from "@/lib/seo";
+import { absoluteUrl, siteConfig, serializeJsonLd, quizJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Which Catholic Saint Are You?",
@@ -73,21 +73,6 @@ const FAQS = [
 
 export default async function Home() {
   const directoryCount = (await getAllSaints()).length;
-  const quizJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
-    name: "Which Catholic Saint Are You?",
-    description:
-      "A 21-question Catholic personality quiz that helps you discover a saint whose virtues reflect your own.",
-    url: absoluteUrl("/"),
-    educationalUse: "Self-reflection",
-    learningResourceType: "Quiz",
-    about: {
-      "@type": "Thing",
-      name: "Catholic Saints",
-    },
-  };
-
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -105,7 +90,7 @@ export default async function Home() {
     <main className="editorial-surface">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: serializeJsonLd(quizJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(quizJsonLd()) }}
       />
       <script
         type="application/ld+json"

@@ -20,6 +20,7 @@ import ShareButtons from "@/components/ShareButtons";
 import BiographyJourney from "@/components/BiographyJourney";
 import BiographyArticles from "@/components/BiographyArticles";
 import { getSaintArtwork } from "@/lib/saint-artwork";
+import { feastDayHref } from "@/lib/feast-days";
 import SaintArtworkFigure from "@/components/SaintArtwork";
 import SaintReaderQuestions from "@/components/SaintReaderQuestions";
 import { getSaintReaderGuide } from "@/lib/saint-reader-guides";
@@ -114,6 +115,8 @@ export default async function SaintPage({
     return match ? [{ ...entry, name: saintDisplayName(match) }] : [];
   });
 
+  const feastHref = feastDayHref(saint.feast_day);
+
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -124,7 +127,8 @@ export default async function SaintPage({
     description,
     inLanguage: "en-US",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    about: { "@type": "Thing", name },
+    // Observances and unresolved identities are not individual people.
+    about: { "@type": saint.kind === "saint" ? "Person" : "Thing", name },
     publisher: { "@id": absoluteUrl("/#organization") },
     isPartOf: { "@id": absoluteUrl("/#website") },
     ...(review ? { dateModified: updatedOn ?? review.reviewed_on, citation: [...new Set([...review.sources, ...(readerGuide?.questions.flatMap(question => question.sources) ?? []), ...(contribution?.sources ?? []), ...(evidenceNote?.history.sources ?? []), ...(evidenceNote?.calendar.sources ?? [])].map(source => source.url))] } : {}),
@@ -231,7 +235,7 @@ export default async function SaintPage({
               {saint.feast_day && (
                 <div className="flex gap-2">
                   <dt className="text-cream font-semibold">Commemoration:</dt>
-                  <dd className="text-cream-dark/70">{saint.feast_day}</dd>
+                  <dd className="text-cream-dark/70">{feastHref ? <Link prefetch={false} href={feastHref} className="underline underline-offset-4">{saint.feast_day}</Link> : saint.feast_day}</dd>
                 </div>
               )}
               {saint.patron_of && (

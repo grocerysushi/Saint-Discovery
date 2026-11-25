@@ -28,3 +28,23 @@ export function saintSearchSummary(saint: Saint) {
   const description = raw.length <= 160 ? raw : saint.searchDescription ?? `${raw.slice(0, 157).replace(/\s+\S*$/, "")}…`;
   return { name, title, description };
 }
+
+// Abbreviations that end in a period but do not end a sentence.
+const ABBREVIATION = /(?:^|\s)(?:St|Sts|Bl|Fr|Mt|Dr|Jr|Sr|Br|Mr|Mrs|Ms|No|Vol|c|ca|b|d|r|A\.D|B\.C|[A-Z])\.$/;
+
+/**
+ * A short excerpt of the saint's reviewed description for lists: whole
+ * sentences up to `max` characters, or a word-boundary cut with an ellipsis.
+ */
+export function saintShortSummary(saint: Pick<Saint, "description">, max = 220): string {
+  const text = (saint.description ?? "").replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  let end = 0;
+  for (const match of text.matchAll(/[.!?](?=\s+["“‘(]?[A-Z0-9])/g)) {
+    const at = match.index! + 1;
+    if (at > max) break;
+    if (!ABBREVIATION.test(text.slice(0, at))) end = at;
+  }
+  if (end >= 60) return text.slice(0, end);
+  return `${text.slice(0, max - 1).replace(/\s+\S*$/, "").replace(/[\s,;:.!?]+$/, "")}…`;
+}

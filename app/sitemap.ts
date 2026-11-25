@@ -4,6 +4,8 @@ import { getAllSaints } from "@/lib/saints";
 import { PATRON_TOPICS } from "@/lib/patronage";
 import { PATRON_GUIDES } from "@/lib/patron-guides";
 import { getProfileUpdatedOn } from "@/lib/profile-updates";
+import { getSaintArtwork } from "@/lib/saint-artwork";
+import { FEAST_MONTHS } from "@/lib/feast-days";
 
 
 export const revalidate = 86400;
@@ -11,6 +13,7 @@ export const revalidate = 86400;
 // Bump when site content meaningfully changes. A stable date keeps lastmod
 // honest — stamping every URL with build time teaches Google to ignore it.
 const CONTENT_UPDATED = new Date("2026-09-08");
+const FEAST_CALENDAR_UPDATED = new Date("2026-11-24");
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticEntries: MetadataRoute.Sitemap = [
@@ -89,13 +92,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const saints = await getAllSaints();
   const saintEntries: MetadataRoute.Sitemap = saints
     .filter((s) => s.slug)
-    .map((s) => ({
-      url: absoluteUrl(`/saints/${s.slug}`),
-      lastModified: new Date(getProfileUpdatedOn(s.slug) ?? CONTENT_UPDATED),
-
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    }));
+    .map((s) => {
+      // Historical artwork only: AI-generated likenesses and symbolic
+      // placeholders stay out of image search as saint portraits.
+      const artwork = getSaintArtwork(s);
+      return {
+        url: absoluteUrl(`/saints/${s.slug}`),
+        lastModified: new Date(getProfileUpdatedOn(s.slug) ?? CONTENT_UPDATED),
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+        ...(!artwork.generated && !artwork.symbolic ? { images: [absoluteUrl(artwork.src)] } : {}),
+      };
+    });
 
   const guideSlugs = new Set(PATRON_GUIDES.map(guide => guide.slug));
   const patronEntries: MetadataRoute.Sitemap = PATRON_TOPICS.filter(t => !guideSlugs.has(t.slug)).map((t) => ({
@@ -112,5 +120,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticEntries, ...saintEntries, ...patronEntries, ...guideEntries];
+  // Built from the feast days on each biography, so they change with saint data.
+  const feastEntries: MetadataRoute.Sitemap = [
+    { url: absoluteUrl("/feast-days"), lastModified: FEAST_CALENDAR_UPDATED, changeFrequency: "monthly", priority: 0.8 },
+    ...FEAST_MONTHS.map(month => ({
+      url: absoluteUrl(`/feast-days/${month.slug}`),
+      lastModified: FEAST_CALENDAR_UPDATED,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticEntries, ...feastEntries, ...saintEntries, ...patronEntries, ...guideEntries];
 }
