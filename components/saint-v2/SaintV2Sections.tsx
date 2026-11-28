@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { feastDayHref } from "@/lib/feast-days";
 import type { RelatedSaintLink, Saint, SaintPlace, SaintPrayer, SaintQuote, SaintSymbol } from "@/lib/types";
 
 // Template version 2 sections for saint pages. Each renders nothing when its
@@ -18,7 +19,13 @@ export interface PatronageLink { slug: string; label: string }
 export function AtAGlance({ saint, patronages, symbols }: { saint: Saint; patronages: PatronageLink[]; symbols?: SaintSymbol[] }) {
   const lived = [saint.dates, saint.origin].filter(Boolean).join(" — ");
   const rows: { term: string; value: React.ReactNode }[] = [];
-  if (saint.feast_day) rows.push({ term: "Feast", value: saint.feast_day });
+  const feastHref = feastDayHref(saint.feast_day);
+  if (saint.feast_day) rows.push({
+    term: "Feast",
+    value: feastHref
+      ? <Link prefetch={false} href={feastHref} className="underline decoration-gold/40 underline-offset-2 hover:text-gold">{saint.feast_day}</Link>
+      : saint.feast_day,
+  });
   if (patronages.length > 0) {
     rows.push({
       term: "Patron of",

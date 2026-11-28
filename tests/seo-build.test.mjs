@@ -195,7 +195,9 @@ test('every saint has a unique canonical, readable server-rendered content, and 
         assert.ok(article.citation.includes(citation.url), `${saint.slug}: structured citation`);
       }
       const sitemap = read('.next/server/app/sitemap.xml.body');
-      assert.ok(sitemap.includes(`<loc>${canonical}</loc>\n<lastmod>${getProfileUpdatedOn(saint.slug)}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
+      // Next.js writes <image:image> between <loc> and <lastmod>, so read the whole entry.
+      const entry = sitemap.split('<url>').find(block => block.includes(`<loc>${canonical}</loc>`)) ?? '';
+      assert.ok(entry.includes(`<lastmod>${getProfileUpdatedOn(saint.slug)}T00:00:00.000Z</lastmod>`), `${saint.slug}: sitemap content date`);
 
     }
     const note = getDirectoryEvidenceNote(saint.slug);

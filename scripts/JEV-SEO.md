@@ -29,7 +29,7 @@ The default pilot fetches at most six pages spanning the homepage, blog index, C
 
 ## How to read the report
 
-`seo:site` checks up to 1,000 URLs from both production sitemaps without calling Jev. It records sharing metadata, HTML links, anchors and image review flags under `output/seo-improvements/`. Missing image dimensions are review prompts, not proof of layout shift: Next.js fill images and CSS aspect-ratio containers may already reserve space. `jev-site-review.mjs` uses that crawl to select all non-biography sitemap pages plus representative biographies, capped at 100 paid evaluations. Run the technical crawl first. It does not schedule recurring calls.
+`seo:site` checks up to 2,000 URLs from both production sitemaps without calling Jev. It records sharing metadata, HTML links, anchors and image review flags under `output/seo-improvements/`. Missing image dimensions are review prompts, not proof of layout shift: Next.js fill images and CSS aspect-ratio containers may already reserve space. `jev-site-review.mjs` uses that crawl to select all non-biography sitemap pages plus representative biographies, capped at 100 paid evaluations. Run the technical crawl first. It does not schedule recurring calls.
 
 After building local revisions into `.next-jev-seo`, `node scripts/jev-preview-review.mjs` submits only the four patronage pages revised in the October 1 review. Its output identifies the content as local production HTML, not a live deployment. The API key stays in the ignored local environment file. This adds four paid evaluations; it does not crawl the entire build.
 
