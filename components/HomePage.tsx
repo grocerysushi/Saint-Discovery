@@ -23,12 +23,12 @@ export default function HomePage({ dailySaint, directoryCount, afterWelcome }: {
     </section>
     <section className="c15-intro" aria-labelledby="c15-intro-title">
       <p className="c15-small">A little inspiration for your journey</p>
-      <h2 id="c15-intro-title">There’s a saint for every kind of story.</h2>
+      <h2 id="c15-intro-title">There’s a saint for every kind of story</h2>
       <p>Some were bold. Some were quiet. Some took the long way around. Their lives remind us that holiness can take many forms—and that a story from long ago can still feel surprisingly close to home.</p>
       <div className="c15-ornament" aria-hidden="true"><span /></div>
     </section>
     <section className="c15-journey" aria-labelledby="c15-journey-title">
-      <h2 id="c15-journey-title">A few minutes can open a new door.</h2>
+      <h2 id="c15-journey-title">From a few questions to a saint’s story</h2>
       <div className="c15-steps">
         <div className="c15-step"><b>1</b><h3>Share a little</h3><p>Answer 21 thoughtful questions about who you are and what matters to you.</p></div>
         <div className="c15-step"><b>2</b><h3>Meet your saint</h3><p>Discover a saint whose life and qualities connect with your answers.</p></div>
@@ -46,14 +46,14 @@ export default function HomePage({ dailySaint, directoryCount, afterWelcome }: {
       </div>
     </div>
     <section className="c15-explore" aria-labelledby="c15-explore-title">
-      <div className="c15-explore-top"><h2 id="c15-explore-title">Keep the discovery going.</h2><p>Whether you’re curious, preparing for Confirmation, or looking for a little daily inspiration, there’s more to explore.</p></div>
+      <div className="c15-explore-top"><h2 id="c15-explore-title">More ways to explore the saints</h2><p>Whether you’re curious, preparing for Confirmation, or looking for a little daily inspiration, there’s more to explore.</p></div>
       <div className="c15-links">
-        <Link href="/saint-of-day"><strong>Saint of the day</strong><span>Meet a new story today.</span><span aria-hidden="true">↗</span></Link>
-        <Link href="/confirmation-saint-guide"><strong>Confirmation saint guide</strong><span>Find a meaningful companion for your Confirmation journey.</span><span aria-hidden="true">↗</span></Link>
-        <Link href="/patron-saint-of"><strong>Explore patron saints</strong><span>Discover saints connected to the things that matter to you.</span><span aria-hidden="true">↗</span></Link>
-        <Link href="/resources"><strong>Saints directory</strong><span>Explore the lives and stories of the saints.</span><span aria-hidden="true">↗</span></Link>
-        <Link href="/resources/teachers"><strong>Teachers and catechists</strong><span>Find worksheets and lesson resources.</span><span aria-hidden="true">↗</span></Link>
-        <Link href="/blog"><strong>Journal</strong><span>Read thoughtful articles about faith and the saints.</span><span aria-hidden="true">↗</span></Link>
+        <Link href="/saint-of-day"><strong>Saint of the day</strong><span>A new saint’s story every day</span><span aria-hidden="true">→</span></Link>
+        <Link href="/confirmation-saint-guide"><strong>Confirmation saint guide</strong><span>Find a companion for your Confirmation</span><span aria-hidden="true">→</span></Link>
+        <Link href="/patron-saint-of"><strong>Explore patron saints</strong><span>Saints for professions, places and causes</span><span aria-hidden="true">→</span></Link>
+        <Link href="/resources"><strong>Saints directory</strong><span>Sourced biographies, searchable by name and place</span><span aria-hidden="true">→</span></Link>
+        <Link href="/resources/teachers"><strong>Teachers and catechists</strong><span>Worksheets and lesson guides to download</span><span aria-hidden="true">→</span></Link>
+        <Link href="/blog"><strong>Journal</strong><span>Articles about faith and the saints</span><span aria-hidden="true">→</span></Link>
       </div>
     </section>
     <section className="c15-closing"><h2>Ready to meet your saint?</h2><p>Start with a few questions and discover a story that might stay with you.</p><HomeQuizInvitation /></section>

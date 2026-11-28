@@ -12,7 +12,7 @@ export default function HomeAppPromotion() {
           <Image src="/app-promotion/app-icon.webp" alt="Saint Discovery app icon" width={64} height={64} unoptimized />
           <div><span>Saint Discovery</span><p>Now available for iPhone</p></div>
         </div>
-        <h2 id="home-app-title">Take Saint Discovery<br />with you.</h2>
+        <h2 id="home-app-title">Take Saint Discovery<br />with you</h2>
         <p className="home-app-intro">A saint to meet. A story to explore. A moment to reflect. Make room for all three on your iPhone.</p>
         <ul className="home-app-features">
           <li>Discover your saint with the quiz</li>

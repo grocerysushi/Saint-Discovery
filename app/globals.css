@@ -2697,11 +2697,13 @@ button, input, select, textarea { font-family: var(--font-body); }
 .quiz-entry-promise { font-size: 13px; color: #5b6b70; margin-top: 28px; }
 .quiz-back { font-size: 14px; }
 .quiz-hint { font-size: 14px; line-height: 1.5; }
-.discovery-daily-strip { background: #e8edeb; padding: 29px 4.5vw; display: flex; align-items: center; gap: 40px; }
+.discovery-daily-strip { background: #e8edeb; padding: 28px 4.5vw; display: flex; align-items: center; gap: 40px; }
 .discovery-daily-strip>div:nth-child(2) { flex: 1; }
 .discovery-daily-strip p { font-size: 14px; margin: 0; }
 .discovery-daily-strip small { color: #5b6b70; }
 .discovery-daily-strip h2 { font: 26px var(--font-heading); margin: 0 0 6px; }
+.discovery-daily-thumb { flex: none; display: block; width: 64px; height: 80px; border-radius: 8px; overflow: hidden; border: 1px solid rgb(38 14 24 / 10%); }
+.discovery-daily-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .discovery-reading-links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 24px; }
 .discovery-reading-links a { text-decoration: underline; }
 .discovery-home-extras .home-disclosure { margin-top: 0; }
@@ -2860,8 +2862,9 @@ body:has(.quiz-focused) .gallery-footer-main { padding: 0; }
   .quiz-entry-promise { font-size: 12px; }
   .sample-portrait img { height: 210px; }
   .sample-copy { min-height: 205px; }
-  .discovery-daily-strip { display: block; padding: 27px 24px; }
+  .discovery-daily-strip { display: block; padding: 28px 24px; }
   .discovery-daily-strip>div { margin-bottom: 20px; }
+  .discovery-daily-thumb { margin-bottom: 16px; }
   .quiz-focused .quiz-entry-content { padding: 22px 24px 30px; }
   .quiz-focused .question-title { font-size: 36px; }
   .quiz-focused .option-button { font-size: 17px; line-height: 1.4; padding: 17px 15px; }
@@ -2966,3 +2969,7 @@ body:has(.quiz-focused) .gallery-footer-main { padding: 0; }
   .mobile-nav { padding-inline: 20px; }
   .mobile-nav-intro { max-width: 24ch; }
 }
+
+/* AdSense keeps the reserved height of a slot it could not fill, which left a
+   375px blank band above the home hero on phones. Google documents this rule. */
+ins.adsbygoogle[data-ad-status="unfilled"] { display: none !important; }
